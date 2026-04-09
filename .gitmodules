@@ -1,0 +1,6 @@
+[submodule "gecko-sdk-v3.0"]
+	path = gecko-sdk-v3.0
+	url = https://github.com/qosmio/gecko-sdk-v3.0.git
+[submodule "EM3555-osram-rgbw-flex"]
+	path = EM3555-osram-rgbw-flex
+	url = https://github.com/qosmio/EM3555-osram-rgbw-flex
