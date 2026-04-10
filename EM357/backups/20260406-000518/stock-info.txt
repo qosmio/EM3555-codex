@@ -1,0 +1,22 @@
+Backup root:       /Users/macbook/Documents/code/silabs/EM357/backups/20260406-000518
+CIB:               /Users/macbook/Documents/code/silabs/EM357/backups/20260406-000518/em3555_cib.bin
+FIB:               /Users/macbook/Documents/code/silabs/EM357/backups/20260406-000518/em3555_fib.bin
+MFB:               /Users/macbook/Documents/code/silabs/EM357/backups/20260406-000518/em3555_mfb.hex
+
+Customer Information Block
+Custom version:    0xFFFF
+EUI64:             b0:ce:18:14:03:01:13:3b
+EUI64 stored:      3b:13:01:03:14:18:ce:b0
+String:            0720114320410611
+Board name:        ETRX357
+Manufacturer ID:   0x1010
+PHY config:        0xFF22
+Security config:   0xFFFF
+CCA threshold:     0xFFFF
+XO tune:           0xFFFF
+
+Fixed Information Block
+FIB vector SP:     0x20000200
+FIB vector PC:     0x0804071d
+FIB version:       0x01FE
+FIB checksum:      0xB7AA
