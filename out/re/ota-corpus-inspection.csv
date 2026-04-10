@@ -1,0 +1,12 @@
+path,manufacturer_code,image_type,file_version,stack_version,header_length,payload_offset,payload_length,payload_entropy_2k,payload_classification,size_matches_header
+EM3555-osram-rgbw-flex/docs/FLEX_RGBW_IMG001E_00102428-encrypted.ota,0x1189,0x001E,0x00102428,0x0002,56,56,178852,7.8869,possibly-encrypted-or-compressed,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/Bosch/0x1209_0x3011_0x03076a30.ota,0x1209,0x3011,0x03076A30,0x0002,56,56,264298,5.6222,unknown-binary-container,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/GammaTroniques/TICMeter.ota,0xFFFF,0x00C8,0x0003020D,0x0002,56,56,1140612,7.8842,possibly-encrypted-or-compressed,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/Gledopto/GL-S-007P_V15_A1_OTAV5_20210201_90%.ota,0x124F,0x0000,0x00000005,0x0002,56,56,291566,6.2247,unknown-binary-container,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/IKEA/inspelning-smart-plug-soc_release_prod_v33816645_02579ff4-6fec-42f6-8957-4048def87def.ota,0x117C,0x9F3E,0x02040045,0x0002,56,56,294474,6.5103,unknown-binary-container,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/Inovelli/VZM31-SN_2.18-Production.ota,0x122F,0x0101,0x01020212,0x0002,56,56,310202,7.8994,possibly-encrypted-or-compressed,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/LEDVANCE/A60_TW_Value_II-0x1189-0x008B-0x03177310-MF_DIS-20240426150951-3221010102432.ota,0x1189,0x008B,0x03177310,0x0002,56,56,307454,7.8907,possibly-encrypted-or-compressed,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/LiXee/ZLinky_router_v14_limited.ota,0x1037,0x0002,0x0000000E,0x0002,56,56,249638,6.2142,unknown-binary-container,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/SalusControls/WindowSensor_20240103.ota,0x1078,0x003F,0x20240103,0x0002,56,56,264238,6.4491,unknown-binary-container,False
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/Sonoff/SN-TLSR8656-02LWD-01-v1.1.0.ota,0x1286,0x080D,0x00001100,0x0002,56,56,167688,7.8945,possibly-encrypted-or-compressed,True
+zigbee-herdsman-converters/test/stub/otaUpgradeImages/Tuya/ZPS_CS5490_039.ota,0x1002,0x5EC0,0x00000039,0x0002,56,56,155590,6.4264,unknown-binary-container,True
