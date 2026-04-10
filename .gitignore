@@ -4,6 +4,8 @@
 .projectchecksums
 .projectlinkstore
 
+.ghidra/
+.tooling/
 *.cache
 *.ccache
 *.clangd
@@ -21,3 +23,4 @@ zcl_config.zap
 update-images/
 __pycache__
 .venv/
+gecko-sdk/

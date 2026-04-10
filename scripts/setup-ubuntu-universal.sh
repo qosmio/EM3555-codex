@@ -349,14 +349,16 @@ normalize_submodule_urls() {
         else
           resolved_url="https://${github_host}/${workspace_owner}/${repo_name}.git"
         fi
-        git -C "${WORKSPACE_ROOT}" config --file .gitmodules "submodule.${submodule_name}.url" "${resolved_url}"
+        # Keep setup changes out of tracked files so Codex Cloud can replay task
+        # patches cleanly after bootstrap. Local repo config is sufficient here.
+        git -C "${WORKSPACE_ROOT}" config "submodule.${submodule_name}.url" "${resolved_url}"
         changed=1
         ;;
     esac
   done < <(git -C "${WORKSPACE_ROOT}" config --file .gitmodules --name-only --get-regexp '^submodule\..*\.url$')
 
   if [[ "${changed}" -eq 1 ]]; then
-    log "Normalized relative submodule URLs for ${workspace_slug}"
+    log "Configured local submodule URL overrides for ${workspace_slug}"
   fi
 }
 
@@ -439,8 +441,8 @@ init_submodules() {
   log "Initializing submodules"
   mark_workspace_git_safe
   configure_private_github_access
-  normalize_submodule_urls
   git -C "${WORKSPACE_ROOT}" submodule sync --recursive
+  normalize_submodule_urls
   git -C "${WORKSPACE_ROOT}" submodule update --init --recursive
 }
 
