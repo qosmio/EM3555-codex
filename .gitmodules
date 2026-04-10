@@ -7,3 +7,6 @@
 [submodule "zigbee-herdsman-converters"]
 	path = zigbee-herdsman-converters
 	url = https://github.com/Koenkk/zigbee-herdsman-converters
+[submodule "zigbee-OTA"]
+	path = zigbee-OTA
+	url = https://github.com/Koenkk/zigbee-OTA
