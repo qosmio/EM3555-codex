@@ -4,3 +4,6 @@
 [submodule "EM3555-osram-rgbw-flex"]
 	path = EM3555-osram-rgbw-flex
 	url = https://github.com/qosmio/EM3555-osram-rgbw-flex
+[submodule "zigbee-herdsman-converters"]
+	path = zigbee-herdsman-converters
+	url = https://github.com/Koenkk/zigbee-herdsman-converters
