@@ -1,0 +1,1130 @@
+{
+  "root": "/workspace/EM3555-codex",
+  "searched_paths": [
+    "zigbee-OTA/images",
+    "zigbee-herdsman-converters/test/stub",
+    "EM3555-osram-rgbw-flex/docs"
+  ],
+  "found_files": [
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x122F",
+        "image_type": "0x0101",
+        "file_version": "0x0102020F",
+        "stack_version": "0x0002",
+        "header_string": "EBL VM_SWITCH",
+        "total_image_size": 306782,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 306726,
+        "prefix_hex": "000020ae0400eb17a603080000000000000301010000fa0606fa1000000094ad",
+        "probe_entropy": 7.9543,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 8366
+          },
+          {
+            "offset": 12,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 14,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 3
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 64006
+          },
+          {
+            "offset": 22,
+            "tag": "0xFA06",
+            "tag_name": "EBLTAG_ENC_INIT",
+            "len": 1786
+          },
+          {
+            "offset": 28,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 38061
+          },
+          {
+            "offset": 46,
+            "tag": "0xF907",
+            "tag_name": "EBLTAG_ENC_EBL_DATA",
+            "len": 2041
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 54286
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaDowngradeImages/Inovelli/VZM31-SN_2.15-Production.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x3443",
+        "image_type": "0x1011",
+        "file_version": "0x00000140",
+        "stack_version": "0x0002",
+        "header_string": "",
+        "total_image_size": 696046,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 695990,
+        "prefix_hex": "0000b09e0a00e9060220d8028040ee0000000d00000000630000000000012000",
+        "probe_entropy": 5.1977,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 45214
+          },
+          {
+            "offset": 16,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 3328
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 99
+          },
+          {
+            "offset": 24,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 26,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 1
+          },
+          {
+            "offset": 42,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 44,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 46,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 48,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 50,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 13106
+          },
+          {
+            "offset": 58,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 60,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 62,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaDowngradeImages/xyzroe/ZigUSB_C6.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x1209",
+        "image_type": "0x3011",
+        "file_version": "0x03076A30",
+        "stack_version": "0x0002",
+        "header_string": "RTH2_230",
+        "total_image_size": 264354,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 264298,
+        "prefix_hex": "000064080400eb17a603080000000000000300010000f40a0af41c0000000100",
+        "probe_entropy": 6.3859,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 25608
+          },
+          {
+            "offset": 12,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 14,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 3
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 62474
+          },
+          {
+            "offset": 28,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 256
+          },
+          {
+            "offset": 32,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 12394
+          },
+          {
+            "offset": 38,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 40,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 42,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 44,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 46,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 48,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 50,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 54,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 56,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 64771
+          },
+          {
+            "offset": 58,
+            "tag": "0xFD03",
+            "tag_name": "EBLTAG_ERASEPROG",
+            "len": 1021
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/Bosch/0x1209_0x3011_0x03076a30.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0xFFFF",
+        "image_type": "0x00C8",
+        "file_version": "0x0003020D",
+        "stack_version": "0x0002",
+        "header_string": "",
+        "total_image_size": 1140668,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 1140612,
+        "prefix_hex": "0001ba5c000078dae47d07606455d5f0cb669b61e94d1070364b49483279bd24",
+        "probe_entropy": 7.9271,
+        "ebl_markers": [
+          {
+            "offset": 4,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 30938
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/GammaTroniques/TICMeter.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x124F",
+        "image_type": "0x0000",
+        "file_version": "0x00000005",
+        "stack_version": "0x0002",
+        "header_string": "EBL ARGBW_V_0_1",
+        "total_image_size": 291622,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 291566,
+        "prefix_hex": "0000e8720400eb17a603080000000000000300000000f40a0af41c0000000100",
+        "probe_entropy": 6.7084,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 59506
+          },
+          {
+            "offset": 12,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 14,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 3
+          },
+          {
+            "offset": 18,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 62474
+          },
+          {
+            "offset": 28,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 256
+          },
+          {
+            "offset": 32,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 1280
+          },
+          {
+            "offset": 36,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 38,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 40,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 42,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 44,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 46,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 48,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 50,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 54,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 56,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 64771
+          },
+          {
+            "offset": 58,
+            "tag": "0xFD03",
+            "tag_name": "EBLTAG_ERASEPROG",
+            "len": 1021
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/Gledopto/GL-S-007P_V15_A1_OTAV5_20210201_90%.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x117C",
+        "image_type": "0x9F3E",
+        "file_version": "0x02040045",
+        "stack_version": "0x0002",
+        "header_string": "GBL inspelning_smart_plug_soc",
+        "total_image_size": 294530,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 294474,
+        "prefix_hex": "0000447e0400eb17a603080000000000000300010000f40a0af41c0000000100",
+        "probe_entropy": 6.6807,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 17534
+          },
+          {
+            "offset": 12,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 14,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 3
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 62474
+          },
+          {
+            "offset": 28,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 256
+          },
+          {
+            "offset": 32,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 17664
+          },
+          {
+            "offset": 38,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 40,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 42,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 44,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 46,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 48,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 50,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 54,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 56,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 64771
+          },
+          {
+            "offset": 58,
+            "tag": "0xFD03",
+            "tag_name": "EBLTAG_ERASEPROG",
+            "len": 1021
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/IKEA/inspelning-smart-plug-soc_release_prod_v33816645_02579ff4-6fec-42f6-8957-4048def87def.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x122F",
+        "image_type": "0x0101",
+        "file_version": "0x01020212",
+        "stack_version": "0x0002",
+        "header_string": "EBL VM_SWITCH",
+        "total_image_size": 310258,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 310202,
+        "prefix_hex": "0000b4bb0400eb17a603080000000000000301010000fa0606fa1000000028bb",
+        "probe_entropy": 7.956,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 46267
+          },
+          {
+            "offset": 12,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 14,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 3
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 64006
+          },
+          {
+            "offset": 22,
+            "tag": "0xFA06",
+            "tag_name": "EBLTAG_ENC_INIT",
+            "len": 1786
+          },
+          {
+            "offset": 28,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 10427
+          },
+          {
+            "offset": 46,
+            "tag": "0xF907",
+            "tag_name": "EBLTAG_ENC_EBL_DATA",
+            "len": 2041
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 39558
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/Inovelli/VZM31-SN_2.18-Production.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x1189",
+        "image_type": "0x008B",
+        "file_version": "0x03177310",
+        "stack_version": "0x0002",
+        "header_string": "A60_TW_Value_II",
+        "total_image_size": 307510,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 307454,
+        "prefix_hex": "0000f8b00400eb17a603080000000000000301000000fa0606fa10000000b1b0",
+        "probe_entropy": 7.9522,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 63664
+          },
+          {
+            "offset": 12,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 14,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 3
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 64006
+          },
+          {
+            "offset": 22,
+            "tag": "0xFA06",
+            "tag_name": "EBLTAG_ENC_INIT",
+            "len": 1786
+          },
+          {
+            "offset": 28,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 45488
+          },
+          {
+            "offset": 46,
+            "tag": "0xF907",
+            "tag_name": "EBLTAG_ENC_EBL_DATA",
+            "len": 2041
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 47953
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/LEDVANCE/A60_TW_Value_II-0x1189-0x008B-0x03177310-MF_DIS-20240426150951-3221010102432.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x1037",
+        "image_type": "0x0002",
+        "file_version": "0x0000000E",
+        "stack_version": "0x0002",
+        "header_string": "OM15081-RTR-LIMITED-JN5189-00000",
+        "total_image_size": 249694,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 249638,
+        "prefix_hex": "000020cf0300e05f01040102000023020000558000006d8000005d8000006580",
+        "probe_entropy": 6.4953,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 8399
+          },
+          {
+            "offset": 12,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 8962
+          },
+          {
+            "offset": 16,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 21888
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 28032
+          },
+          {
+            "offset": 24,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 23936
+          },
+          {
+            "offset": 28,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 25984
+          },
+          {
+            "offset": 32,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 30874
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 12034
+          },
+          {
+            "offset": 56,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 58,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 60,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 12546
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/LiXee/ZLinky_router_v14_limited.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x1078",
+        "image_type": "0x003F",
+        "file_version": "0x20240103",
+        "stack_version": "0x0002",
+        "header_string": "EBL WindowSensor",
+        "total_image_size": 264290,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 264238,
+        "prefix_hex": "000024080400eb17a603080000000000000300000000f40a0af41c0000000100",
+        "probe_entropy": 6.6739,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 9224
+          },
+          {
+            "offset": 12,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 14,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 3
+          },
+          {
+            "offset": 18,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 20,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 62474
+          },
+          {
+            "offset": 28,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 256
+          },
+          {
+            "offset": 32,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 769
+          },
+          {
+            "offset": 38,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 40,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 42,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 44,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 46,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 48,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 50,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 52,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 54,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 56,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 64771
+          },
+          {
+            "offset": 58,
+            "tag": "0xFD03",
+            "tag_name": "EBLTAG_ERASEPROG",
+            "len": 1021
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": false,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/SalusControls/WindowSensor_20240103.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x1286",
+        "image_type": "0x080D",
+        "file_version": "0x00001100",
+        "stack_version": "0x0002",
+        "header_string": "Telink OTA Sample Usage",
+        "total_image_size": 167744,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 167688,
+        "prefix_hex": "00f0008f0200010cf4ff439680a02a52b64b53e6f5d2824362e17562f0e41c8d",
+        "probe_entropy": 7.9505,
+        "ebl_markers": [],
+        "classification": "likely encrypted/compressed payload"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/Sonoff/SN-TLSR8656-02LWD-01-v1.1.0.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x1002",
+        "image_type": "0x5EC0",
+        "file_version": "0x00000039",
+        "stack_version": "0x0002",
+        "header_string": "peanut Power Plug",
+        "total_image_size": 155646,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 155590,
+        "prefix_hex": "0000c05f02000000008c0201e350080020006ade5513e81c0020514e0208e53e",
+        "probe_entropy": 6.6501,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 49247
+          },
+          {
+            "offset": 6,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 140
+          },
+          {
+            "offset": 58,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 60,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          },
+          {
+            "offset": 62,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 0
+          }
+        ],
+        "classification": "plain or wrapped EBL"
+      },
+      "size_matches_header": true,
+      "path": "zigbee-herdsman-converters/test/stub/otaUpgradeImages/Tuya/ZPS_CS5490_039.ota"
+    },
+    {
+      "valid_ota": true,
+      "header": {
+        "header_version": "0x0100",
+        "header_length": 56,
+        "field_control": "0x0000",
+        "manufacturer_code": "0x1189",
+        "image_type": "0x001E",
+        "file_version": "0x00102428",
+        "stack_version": "0x0002",
+        "header_string": "EBL RGBW",
+        "total_image_size": 178908,
+        "optional_fields": {}
+      },
+      "payload": {
+        "offset": 56,
+        "length": 178852,
+        "prefix_hex": "00009eba0200fb05000602010001e350fa0600100002b904fa330264d27ee0a5",
+        "probe_entropy": 7.9534,
+        "ebl_markers": [
+          {
+            "offset": 0,
+            "tag": "0x0000",
+            "tag_name": "EBLTAG_HEADER",
+            "len": 40634
+          },
+          {
+            "offset": 6,
+            "tag": "0xFB05",
+            "tag_name": "EBLTAG_ENC_HEADER",
+            "len": 6
+          },
+          {
+            "offset": 16,
+            "tag": "0xFA06",
+            "tag_name": "EBLTAG_ENC_INIT",
+            "len": 16
+          },
+          {
+            "offset": 36,
+            "tag": "0xF907",
+            "tag_name": "EBLTAG_ENC_EBL_DATA",
+            "len": 144
+          }
+        ],
+        "classification": "wrapped or encrypted EBL (contains ENC_HEADER tag)"
+      },
+      "size_matches_header": true,
+      "path": "EM3555-osram-rgbw-flex/docs/FLEX_RGBW_IMG001E_00102428-encrypted.ota"
+    }
+  ],
+  "notes": [
+    "Primary Sengled OTA corpus path zigbee-OTA/images is missing in this workspace snapshot."
+  ]
+}
