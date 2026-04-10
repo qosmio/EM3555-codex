@@ -1,0 +1,1757 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:17
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\service-discovery-common.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\service-discovery-common.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\service-discovery-common.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"service-discovery-common.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\service-discovery-common.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\service-discovery-common.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\service-discovery-common.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\service-discovery-common.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\service-discovery-common.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Service discovery code that is common to different types of service
+      4           * discovery, e.g. match descriptor, NWK address lookup, and IEEE address
+      5           * lookup.
+      6           *******************************************************************************
+      7           * # License
+      8           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      9           *******************************************************************************
+     10           *
+     11           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     12           * software is governed by the terms of Silicon Labs Master Software License
+     13           * Agreement (MSLA) available at
+     14           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     15           * software is distributed to you in Source Code format and is governed by the
+     16           * sections of the MSLA applicable to Source Code.
+     17           *
+     18           ******************************************************************************/
+     19          
+     20          #include "app/framework/include/af.h"
+     21          #include "app/util/zigbee-framework/zigbee-device-common.h"
+     22          #ifdef EZSP_HOST
+     23            #include "app/util/zigbee-framework/zigbee-device-host.h"
+     24          #endif
+     25          #include "service-discovery.h"
+     26          
+     27          #if EMBER_SUPPORTED_NETWORKS > 4
+     28            #error "Service discovery is limited to four networks."
+     29          #endif
+     30          
+     31          #define MAX_SIMPLE_DESCRIPTOR_RESPONSE_PAYLOAD                          \
+     32            (128   /* 802.15.4 MTU */                                             \
+     33             - 1   /* PHY length byte */                                          \
+     34             - 11  /* MAC header 9 + 2 byte CRC */                                \
+     35             - 8   /* NWK header */                                               \
+     36             - 18  /* NWK security header + 4-byte MIC */                         \
+     37             - 8   /* APS header */                                               \
+     38             - EMBER_AF_ZDO_RESPONSE_OVERHEAD                                     \
+     39             - 3   /* Active Endpoint Response overhead: Address(2), length(1) */ \
+     40            )
+     41          
+     42          #define SIMPLE_DESCRIPTOR_RESPONSE_ENDPOINT_OFFSET \
+     43            (EMBER_AF_ZDO_RESPONSE_OVERHEAD                  \
+     44             + 2 /* address of interest */                   \
+     45             + 1 /* length value */                          \
+     46            )
+     47          
+     48          #define SIMPLE_DESCRIPTOR_RESPONSE_PROFILE_ID_OFFSET \
+     49            (SIMPLE_DESCRIPTOR_RESPONSE_ENDPOINT_OFFSET        \
+     50             + 1 /* endpoint */                                \
+     51            )
+     52          
+     53          #define SIMPLE_DESCRIPTOR_RESPONSE_DEVICE_ID_OFFSET \
+     54            (SIMPLE_DESCRIPTOR_RESPONSE_PROFILE_ID_OFFSET + 2)
+     55          
+     56          #define SIMPLE_DESCRIPTOR_RESPONSE_INPUT_CLUSTER_LIST_COUNT_INDEX \
+     57            (SIMPLE_DESCRIPTOR_RESPONSE_DEVICE_ID_OFFSET                    \
+     58             + 2  /* device ID length */                                    \
+     59             + 1  /* version (4-bits), reserved (4-bits) */                 \
+     60            )
+     61          
+     62          #define SIMPLE_DESCRIPTOR_RESPONSE_INPUT_CLUSTER_LIST_INDEX \
+     63            (SIMPLE_DESCRIPTOR_RESPONSE_INPUT_CLUSTER_LIST_COUNT_INDEX + 1)
+     64          
+     65          #define MAX_CLUSTERS_IN_ACTIVE_ENDPOINT_RESPONSE (MAX_SIMPLE_DESCRIPTOR_RESPONSE_PAYLOAD >> 1)
+     66          
+     67          #define ACTIVE_ENDPOINT_RESPONSE_COUNT_OFFSET \
+     68            (EMBER_AF_ZDO_RESPONSE_OVERHEAD             \
+     69             + 2) // Address of Interest
+     70          
+     71          //==============================================================================
+     72          // Service discovery state machine
+     73          //
+     74          //   This code handles initiating a limited set of ZDO, receiving
+     75          //   the response and sending it back to the cluster or code element that
+     76          //   requested it.  Unfortunately the ZDO message does not have any distinct
+     77          //   identifiers that would allow us to determine what cluster/endpoint on our
+     78          //   local device initiated the request.  Therefore we can only allow one
+     79          //    outstanding request at a time.
+     80          
+
+   \                                 In section .bss, align 4
+     81          EmberEventControl emAfServiceDiscoveryEventControls[EMBER_SUPPORTED_SERVICE_DISCOVERY_STATES_PER_NETWORK][EMBER_SUPPORTED_NETWORKS];
+   \                     emAfServiceDiscoveryEventControls:
+   \        0x0                      DS8 32
+     82          
+     83          typedef struct {
+     84            bool active;
+     85            EmberAfServiceDiscoveryCallback *callback;
+     86            // This will contain the target type: broadcast or unicast (high bit)
+     87            // and the ZDO cluster ID of the request.  Since ZDO requests
+     88            // clear the high bit (only responses use it), we can use that leftover bit
+     89            // for something else.
+     90            uint16_t requestData;
+     91            // Tracking the sequence when sending out discovery requests to be able to get
+     92            // the correct discovery state for the request when the response comes back.
+     93            // If the state is not active then it can be considered uninitialized.
+     94            uint8_t requestSequence;
+     95            // tracking the state index in Service Discovery States
+     96            uint8_t stateIndex;
+     97            //tracking the network index in Service Discovery States
+     98            uint8_t networkIndex;
+     99          } ServiceDiscoveryState;
+
+   \                                 In section .bss, align 4
+    100          static ServiceDiscoveryState states[EMBER_SUPPORTED_SERVICE_DISCOVERY_STATES_PER_NETWORK][EMBER_SUPPORTED_NETWORKS];
+   \                     states:
+   \        0x0                      DS8 64
+
+   \                                 In section .rodata, align 1
+    101          static uint8_t stateLimit = EMBER_SUPPORTED_SERVICE_DISCOVERY_STATES_PER_NETWORK;
+   \                     stateLimit:
+   \        0x0   0x04               DC8 4
+
+   \                                 In section .bss, align 1
+    102          static bool statesInitialized = false;
+   \                     statesInitialized:
+   \        0x0                      DS8 1
+    103          #define UNICAST_QUERY_BIT (0x8000)
+    104          #define isUnicastQuery(state) (UNICAST_QUERY_BIT == ((state)->requestData & UNICAST_QUERY_BIT))
+    105          #define setUnicastQuery(state) ((state)->requestData |= UNICAST_QUERY_BIT)
+    106          #define getRequestCluster(state) ((state)->requestData & ~UNICAST_QUERY_BIT)
+    107          #define serviceDiscoveryInProgress(state) ((state)->active)
+    108          
+    109          #ifndef EMBER_AF_DISCOVERY_TIMEOUT_QS
+    110            #define EMBER_AF_DISCOVERY_TIMEOUT_QS (2 * 4)
+    111          #endif
+    112          
+    113          // seq. number (1), status (1), address (2), length (1)
+    114          #define MATCH_DESCRIPTOR_OVERHEAD               5
+    115          #define MINIMUM_MATCH_DESCRIPTOR_SUCCESS_LENGTH MATCH_DESCRIPTOR_OVERHEAD
+    116          
+    117          // seq. number (1), status (1)
+    118          #define EMBER_AF_ZDO_RESPONSE_OVERHEAD 2
+    119          // EUI64 (8), node ID (2),
+    120          #define MINIMUM_ADDRESS_REQEUST_SUCCESS (EMBER_AF_ZDO_RESPONSE_OVERHEAD + 10)
+    121          #define ADDRESS_RESPONSE_NODE_ID_OFFSET (EMBER_AF_ZDO_RESPONSE_OVERHEAD + EUI64_SIZE)
+    122          
+    123          // Address (2), EP Count (1)
+    124          #define MINIMUM_ACTIVE_ENDPOINT_RESPONSE (EMBER_AF_ZDO_RESPONSE_OVERHEAD + 3)
+    125          #define ACTIVE_ENDPOINT_RESPONSE_NODE_ID_OFFSET (EMBER_AF_ZDO_RESPONSE_OVERHEAD)
+    126          #define ACTIVE_ENDPOINT_RESPONSE_LIST_OFFSET (ACTIVE_ENDPOINT_RESPONSE_NODE_ID_OFFSET + 3)
+    127          
+    128          #define PREFIX "Svc Disc: "
+    129          
+    130          //==============================================================================
+    131          // Forward Declarations
+    132          
+    133          static void setupDiscoveryData(ServiceDiscoveryState *state,
+    134                                         EmberNodeId messageDest,
+    135                                         EmberAfServiceDiscoveryCallback *callback,
+    136                                         uint16_t zdoClusterId,
+    137                                         uint8_t sequenceNumber);
+    138          static void firstTimeInitStates(void);
+    139          static ServiceDiscoveryState *findUnusedState(void);
+    140          static ServiceDiscoveryState *findStateForResponse(uint8_t sequenceNumber, uint8_t networkIndex);
+    141          uint8_t emberGetLastAppZigDevRequestSequence(void);
+    142          static ServiceDiscoveryState *findStateForEventControl(EmberEventControl *control);
+    143          static bool isStateActiveInCurrentNetwork(void);
+    144          #ifdef EMBER_TEST
+    145          void setDiscoveryStateLimit(uint8_t limit);
+    146          #endif
+    147          
+    148          //==============================================================================
+    149          
+
+   \                                 In section .text, align 2, keep-with-next
+    150          EmberStatus emberAfFindDevicesByProfileAndCluster(EmberNodeId target,
+    151                                                            EmberAfProfileId profileId,
+    152                                                            EmberAfClusterId clusterId,
+    153                                                            bool serverCluster,
+    154                                                            EmberAfServiceDiscoveryCallback *callback)
+    155          {
+   \                     emberAfFindDevicesByProfileAndCluster: (+1)
+   \        0x0   0xE92D 0x41FC      PUSH     {R2-R8,LR}
+   \        0x4   0x4605             MOV      R5,R0
+   \        0x6   0x460E             MOV      R6,R1
+   \        0x8   0x4617             MOV      R7,R2
+   \        0xA   0x4698             MOV      R8,R3
+    156            ServiceDiscoveryState *state = findUnusedState();
+   \        0xC   0x.... 0x....      BL       findUnusedState
+   \       0x10   0x0004             MOVS     R4,R0
+    157            if (state == NULL) {
+   \       0x12   0xD101             BNE.N    ??emberAfFindDevicesByProfileAndCluster_0
+    158              emberAfServiceDiscoveryPrintln("%pService Discovery State limits reached\n", PREFIX);
+    159              return EMBER_INVALID_CALL;
+   \       0x14   0x2070             MOVS     R0,#+112
+   \       0x16   0xE020             B.N      ??emberAfFindDevicesByProfileAndCluster_1
+    160            }
+    161            EmberStatus status;
+    162          
+    163            if (EMBER_BROADCAST_ADDRESS <= target
+    164                && target != EMBER_RX_ON_WHEN_IDLE_BROADCAST_ADDRESS) {
+   \                     ??emberAfFindDevicesByProfileAndCluster_0: (+1)
+   \       0x18   0x4628             MOV      R0,R5
+   \       0x1A   0xF64F 0x71FC      MOVW     R1,#+65532
+   \       0x1E   0x4288             CMP      R0,R1
+   \       0x20   0xDB06             BLT.N    ??emberAfFindDevicesByProfileAndCluster_2
+   \       0x22   0xF64F 0x70FD      MOVW     R0,#+65533
+   \       0x26   0x4629             MOV      R1,R5
+   \       0x28   0x4602             MOV      R2,R0
+   \       0x2A   0x4291             CMP      R1,R2
+   \       0x2C   0xD000             BEQ.N    ??emberAfFindDevicesByProfileAndCluster_2
+    165              // Note:  The core spec. only allows a Match Descriptor broadcast to
+    166              // the 'rx on when idle' address.  No other broadcast addresses are allowed.
+    167              // The Ember stack will silently discard broadcast match descriptors
+    168              // to invalid broadcast addresses.
+    169              emberAfServiceDiscoveryPrintln("%pIllegal broadcast address, remapping to valid one.",
+    170                                             PREFIX);
+    171              target = EMBER_RX_ON_WHEN_IDLE_BROADCAST_ADDRESS;
+   \       0x2E   0x4605             MOV      R5,R0
+    172            }
+    173          
+    174            status = emAfSendMatchDescriptor(target, profileId, clusterId, serverCluster);
+   \                     ??emberAfFindDevicesByProfileAndCluster_2: (+1)
+   \       0x30   0x4643             MOV      R3,R8
+   \       0x32   0x463A             MOV      R2,R7
+   \       0x34   0x4631             MOV      R1,R6
+   \       0x36   0x4628             MOV      R0,R5
+   \       0x38   0x.... 0x....      BL       emAfSendMatchDescriptor
+   \       0x3C   0x4606             MOV      R6,R0
+    175            // Get the sequence number sent in the request.
+    176            uint8_t sequenceNumber = emberGetLastAppZigDevRequestSequence();
+   \       0x3E   0x.... 0x....      BL       emberGetLastAppZigDevRequestSequence
+    177            if (status != EMBER_SUCCESS) {
+   \       0x42   0x0031             MOVS     R1,R6
+   \       0x44   0xD001             BEQ.N    ??emberAfFindDevicesByProfileAndCluster_3
+    178              emberAfServiceDiscoveryPrintln("%pFailed to send match discovery: 0x%x",
+    179                                             PREFIX,
+    180                                             status);
+    181              return status;
+   \       0x46   0x4630             MOV      R0,R6
+   \       0x48   0xE007             B.N      ??emberAfFindDevicesByProfileAndCluster_1
+    182            }
+   \                     ??emberAfFindDevicesByProfileAndCluster_3: (+1)
+   \       0x4A   0x9A08             LDR      R2,[SP, #+32]
+    183          
+    184            emberAfServiceDiscoveryPrintln("%pStarting discovery for cluster 0x%2x",
+    185                                           PREFIX,
+    186                                           clusterId);
+    187            setupDiscoveryData(state,
+    188                               target,
+    189                               callback,
+    190                               MATCH_DESCRIPTORS_REQUEST,
+    191                               sequenceNumber);
+   \       0x4C   0x9000             STR      R0,[SP, #+0]
+   \       0x4E   0x2306             MOVS     R3,#+6
+   \       0x50   0x4629             MOV      R1,R5
+   \       0x52   0x4620             MOV      R0,R4
+   \       0x54   0x.... 0x....      BL       setupDiscoveryData
+    192          
+    193            return EMBER_SUCCESS;
+   \       0x58   0x2000             MOVS     R0,#+0
+   \                     ??emberAfFindDevicesByProfileAndCluster_1: (+1)
+   \       0x5A   0xE8BD 0x81F6      POP      {R1,R2,R4-R8,PC}
+    194          }
+    195          
+
+   \                                 In section .text, align 2, keep-with-next
+    196          EmberStatus emberAfFindActiveEndpoints(EmberNodeId target,
+    197                                                 EmberAfServiceDiscoveryCallback *callback)
+    198          {
+   \                     emberAfFindActiveEndpoints: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4605             MOV      R5,R0
+   \        0x4   0x460E             MOV      R6,R1
+    199            ServiceDiscoveryState *state = findUnusedState();
+   \        0x6   0x.... 0x....      BL       findUnusedState
+   \        0xA   0x0004             MOVS     R4,R0
+    200            if (state == NULL) {
+   \        0xC   0xD101             BNE.N    ??emberAfFindActiveEndpoints_0
+    201              emberAfServiceDiscoveryPrintln("%pService Discovery State limits reached\n", PREFIX);
+    202              return EMBER_INVALID_CALL;
+   \        0xE   0x2070             MOVS     R0,#+112
+   \       0x10   0xBDF2             POP      {R1,R4-R7,PC}
+    203            }
+    204            EmberStatus status;
+    205          
+    206            status = emberActiveEndpointsRequest(target, EMBER_AF_DEFAULT_APS_OPTIONS);
+   \                     ??emberAfFindActiveEndpoints_0: (+1)
+   \       0x12   0xF44F 0x528A      MOV      R2,#+4416
+   \       0x16   0x2105             MOVS     R1,#+5
+   \       0x18   0x4628             MOV      R0,R5
+   \       0x1A   0x.... 0x....      BL       emberSendZigDevRequestTarget
+   \       0x1E   0x4607             MOV      R7,R0
+    207            uint8_t sequenceNumber = emberGetLastAppZigDevRequestSequence();
+   \       0x20   0x.... 0x....      BL       emberGetLastAppZigDevRequestSequence
+    208            if (status != EMBER_SUCCESS) {
+   \       0x24   0x0039             MOVS     R1,R7
+   \       0x26   0xD001             BEQ.N    ??emberAfFindActiveEndpoints_1
+    209              emberAfServiceDiscoveryPrintln("%pFailed to send active endpoint request: 0x%x",
+    210                                             PREFIX,
+    211                                             status);
+    212              return status;
+   \       0x28   0x4638             MOV      R0,R7
+   \       0x2A   0xBDF2             POP      {R1,R4-R7,PC}
+    213            }
+    214          
+    215            setupDiscoveryData(state,
+    216                               target,
+    217                               callback,
+    218                               ACTIVE_ENDPOINTS_REQUEST,
+    219                               sequenceNumber);
+   \                     ??emberAfFindActiveEndpoints_1: (+1)
+   \       0x2C   0x9000             STR      R0,[SP, #+0]
+   \       0x2E   0x2305             MOVS     R3,#+5
+   \       0x30   0x4632             MOV      R2,R6
+   \       0x32   0x4629             MOV      R1,R5
+   \       0x34   0x4620             MOV      R0,R4
+   \       0x36   0x.... 0x....      BL       setupDiscoveryData
+    220            return status;
+   \       0x3A   0x2000             MOVS     R0,#+0
+   \       0x3C   0xBDF2             POP      {R1,R4-R7,PC}
+    221          }
+    222          
+
+   \                                 In section .text, align 2, keep-with-next
+    223          EmberStatus emberAfFindClustersByDeviceAndEndpoint(EmberNodeId target,
+    224                                                             uint8_t targetEndpoint,
+    225                                                             EmberAfServiceDiscoveryCallback *callback)
+    226          {
+   \                     emberAfFindClustersByDeviceAndEndpoint: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4605             MOV      R5,R0
+   \        0x4   0x460F             MOV      R7,R1
+   \        0x6   0x4616             MOV      R6,R2
+    227            ServiceDiscoveryState *state = findUnusedState();
+   \        0x8   0x.... 0x....      BL       findUnusedState
+   \        0xC   0x0004             MOVS     R4,R0
+    228            if (state == NULL) {
+   \        0xE   0xD101             BNE.N    ??emberAfFindClustersByDeviceAndEndpoint_0
+    229              emberAfServiceDiscoveryPrintln("%pService Discovery State limits reached\n", PREFIX);
+    230              return EMBER_INVALID_CALL;
+   \       0x10   0x2070             MOVS     R0,#+112
+   \       0x12   0xBDF2             POP      {R1,R4-R7,PC}
+    231            }
+    232            EmberStatus status;
+    233          
+    234            status = emberSimpleDescriptorRequest(target,
+    235                                                  targetEndpoint,
+    236                                                  EMBER_AF_DEFAULT_APS_OPTIONS);
+   \                     ??emberAfFindClustersByDeviceAndEndpoint_0: (+1)
+   \       0x14   0xF44F 0x528A      MOV      R2,#+4416
+   \       0x18   0x4639             MOV      R1,R7
+   \       0x1A   0x4628             MOV      R0,R5
+   \       0x1C   0x.... 0x....      BL       emberSimpleDescriptorRequest
+   \       0x20   0x4607             MOV      R7,R0
+    237            //Get the sequence number sent in the request.
+    238            uint8_t sequenceNumber = emberGetLastAppZigDevRequestSequence();
+   \       0x22   0x.... 0x....      BL       emberGetLastAppZigDevRequestSequence
+    239          
+    240            if (status != EMBER_SUCCESS) {
+   \       0x26   0x0039             MOVS     R1,R7
+   \       0x28   0xD001             BEQ.N    ??emberAfFindClustersByDeviceAndEndpoint_1
+    241              emberAfServiceDiscoveryPrintln("%pFailed to send simple descriptor request: 0x%x",
+    242                                             PREFIX,
+    243                                             status);
+    244              return status;
+   \       0x2A   0x4638             MOV      R0,R7
+   \       0x2C   0xBDF2             POP      {R1,R4-R7,PC}
+    245            }
+    246          
+    247            setupDiscoveryData(state,
+    248                               target,
+    249                               callback,
+    250                               SIMPLE_DESCRIPTOR_REQUEST,
+    251                               sequenceNumber);
+   \                     ??emberAfFindClustersByDeviceAndEndpoint_1: (+1)
+   \       0x2E   0x9000             STR      R0,[SP, #+0]
+   \       0x30   0x2304             MOVS     R3,#+4
+   \       0x32   0x4632             MOV      R2,R6
+   \       0x34   0x4629             MOV      R1,R5
+   \       0x36   0x4620             MOV      R0,R4
+   \       0x38   0x.... 0x....      BL       setupDiscoveryData
+    252          
+    253            return status;
+   \       0x3C   0x2000             MOVS     R0,#+0
+   \       0x3E   0xBDF2             POP      {R1,R4-R7,PC}
+    254          }
+    255          
+
+   \                                 In section .text, align 2, keep-with-next
+    256          EmberStatus emberAfFindIeeeAddress(EmberNodeId shortAddress,
+    257                                             EmberAfServiceDiscoveryCallback *callback)
+    258          {
+   \                     emberAfFindIeeeAddress: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4605             MOV      R5,R0
+   \        0x4   0x460E             MOV      R6,R1
+    259            ServiceDiscoveryState *state = findUnusedState();
+   \        0x6   0x.... 0x....      BL       findUnusedState
+   \        0xA   0x0004             MOVS     R4,R0
+    260            if (state == NULL) {
+   \        0xC   0xD101             BNE.N    ??emberAfFindIeeeAddress_0
+    261              emberAfServiceDiscoveryPrintln("%pService Discovery State limits reached\n", PREFIX);
+    262              return EMBER_INVALID_CALL;
+   \        0xE   0x2070             MOVS     R0,#+112
+   \       0x10   0xBDF2             POP      {R1,R4-R7,PC}
+    263            }
+    264            EmberStatus status;
+    265          
+    266            status = emberIeeeAddressRequest(shortAddress,
+    267                                             false,         // report kids?
+    268                                             0,             // child start index
+    269                                             EMBER_APS_OPTION_RETRY);
+   \                     ??emberAfFindIeeeAddress_0: (+1)
+   \       0x12   0x2340             MOVS     R3,#+64
+   \       0x14   0x2200             MOVS     R2,#+0
+   \       0x16   0x4611             MOV      R1,R2
+   \       0x18   0x4628             MOV      R0,R5
+   \       0x1A   0x.... 0x....      BL       emberIeeeAddressRequest
+   \       0x1E   0x4607             MOV      R7,R0
+    270            // Get the sequence number sent in the request.
+    271            // For SoC, most requests use the application layer's half
+    272            // of the sequence numbering space (0x00-0x7f), but this request
+    273            // uses the stack's half of the sequence numbering space (0x80-0xFF).
+    274            // For Host, all requests use the application layer space.
+    275          #if defined(EZSP_HOST)
+    276            uint8_t sequenceNumber = emberGetLastAppZigDevRequestSequence();
+    277          #else
+    278            uint8_t sequenceNumber = emberGetLastStackZigDevRequestSequence();
+   \       0x20   0x.... 0x....      BL       emberGetLastStackZigDevRequestSequence
+    279          #endif
+    280          
+    281            if (status != EMBER_SUCCESS) {
+   \       0x24   0x0039             MOVS     R1,R7
+   \       0x26   0xD001             BEQ.N    ??emberAfFindIeeeAddress_1
+    282              emberAfServiceDiscoveryPrintln("%pFailed to send IEEE address request: 0x%x",
+    283                                             PREFIX,
+    284                                             status);
+    285              return status;
+   \       0x28   0x4638             MOV      R0,R7
+   \       0x2A   0xBDF2             POP      {R1,R4-R7,PC}
+    286            }
+    287          
+    288            setupDiscoveryData(state,
+    289                               shortAddress,
+    290                               callback,
+    291                               IEEE_ADDRESS_REQUEST,
+    292                               sequenceNumber);
+   \                     ??emberAfFindIeeeAddress_1: (+1)
+   \       0x2C   0x9000             STR      R0,[SP, #+0]
+   \       0x2E   0x2301             MOVS     R3,#+1
+   \       0x30   0x4632             MOV      R2,R6
+   \       0x32   0x4629             MOV      R1,R5
+   \       0x34   0x4620             MOV      R0,R4
+   \       0x36   0x.... 0x....      BL       setupDiscoveryData
+    293          
+    294            return status;
+   \       0x3A   0x2000             MOVS     R0,#+0
+   \       0x3C   0xBDF2             POP      {R1,R4-R7,PC}
+    295          }
+    296          
+
+   \                                 In section .text, align 2, keep-with-next
+    297          EmberStatus emberAfFindNodeId(EmberEUI64 longAddress,
+    298                                        EmberAfServiceDiscoveryCallback *callback)
+    299          {
+   \                     emberAfFindNodeId: (+1)
+   \        0x0   0xB57C             PUSH     {R2-R6,LR}
+   \        0x2   0x4606             MOV      R6,R0
+   \        0x4   0x460D             MOV      R5,R1
+    300            ServiceDiscoveryState *state = findUnusedState();
+   \        0x6   0x.... 0x....      BL       findUnusedState
+   \        0xA   0x0004             MOVS     R4,R0
+    301            if (state == NULL) {
+   \        0xC   0xD101             BNE.N    ??emberAfFindNodeId_0
+    302              emberAfServiceDiscoveryPrintln("%pService Discovery State limits reached\n", PREFIX);
+    303              return EMBER_INVALID_CALL;
+   \        0xE   0x2070             MOVS     R0,#+112
+   \       0x10   0xBD76             POP      {R1,R2,R4-R6,PC}
+    304            }
+    305            EmberStatus status;
+    306          
+    307            status = emberNetworkAddressRequest(longAddress,
+    308                                                false,         // report kids?
+    309                                                0);            // child start index
+   \                     ??emberAfFindNodeId_0: (+1)
+   \       0x12   0x2200             MOVS     R2,#+0
+   \       0x14   0x4611             MOV      R1,R2
+   \       0x16   0x4630             MOV      R0,R6
+   \       0x18   0x.... 0x....      BL       emberNetworkAddressRequest
+   \       0x1C   0x4606             MOV      R6,R0
+    310            // Get the sequence number sent in the request.
+    311            // For SoC, most requests use the application layer's half
+    312            // of the sequence numbering space (0x00-0x7f), but this request
+    313            // uses the stack's half of the sequence numbering space (0x80-0xFF).
+    314            // For Host, all requests use the application layer space.
+    315          #if defined(EZSP_HOST)
+    316            uint8_t sequenceNumber = emberGetLastAppZigDevRequestSequence();
+    317          #else
+    318            uint8_t sequenceNumber = emberGetLastStackZigDevRequestSequence();
+   \       0x1E   0x.... 0x....      BL       emberGetLastStackZigDevRequestSequence
+    319          #endif
+    320            if (status != EMBER_SUCCESS) {
+   \       0x22   0x0031             MOVS     R1,R6
+   \       0x24   0xD001             BEQ.N    ??emberAfFindNodeId_1
+    321              emberAfServiceDiscoveryPrintln("%pFailed to send NWK address request: 0x%x",
+    322                                             PREFIX,
+    323                                             status);
+    324              return status;
+   \       0x26   0x4630             MOV      R0,R6
+   \       0x28   0xBD76             POP      {R1,R2,R4-R6,PC}
+    325            }
+    326          
+    327            setupDiscoveryData(state,
+    328                               EMBER_BROADCAST_ADDRESS,
+    329                               callback,
+    330                               NETWORK_ADDRESS_REQUEST,
+    331                               sequenceNumber);
+   \                     ??emberAfFindNodeId_1: (+1)
+   \       0x2A   0x9000             STR      R0,[SP, #+0]
+   \       0x2C   0x2300             MOVS     R3,#+0
+   \       0x2E   0x462A             MOV      R2,R5
+   \       0x30   0xF64F 0x71FC      MOVW     R1,#+65532
+   \       0x34   0x4620             MOV      R0,R4
+   \       0x36   0x.... 0x....      BL       setupDiscoveryData
+    332          
+    333            return status;
+   \       0x3A   0x2000             MOVS     R0,#+0
+   \       0x3C   0xBD76             POP      {R1,R2,R4-R6,PC}
+    334          }
+    335          
+
+   \                                 In section .text, align 2, keep-with-next
+    336          static void setupDiscoveryData(ServiceDiscoveryState *state,
+    337                                         EmberNodeId messageDest,
+    338                                         EmberAfServiceDiscoveryCallback *callback,
+    339                                         uint16_t zdoClusterRequest,
+    340                                         uint8_t sequenceNumber)
+    341          {
+   \                     setupDiscoveryData: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+    342            state->active = true;
+   \        0x2   0x2401             MOVS     R4,#+1
+   \        0x4   0x7004             STRB     R4,[R0, #+0]
+    343            state->requestData = zdoClusterRequest;
+   \        0x6   0x8103             STRH     R3,[R0, #+8]
+    344            if (messageDest < EMBER_BROADCAST_ADDRESS) {
+   \        0x8   0xF64F 0x73FC      MOVW     R3,#+65532
+   \        0xC   0x4299             CMP      R1,R3
+   \        0xE   0xDA03             BGE.N    ??setupDiscoveryData_0
+    345              setUnicastQuery(state);
+   \       0x10   0x8901             LDRH     R1,[R0, #+8]
+   \       0x12   0xF441 0x4100      ORR      R1,R1,#0x8000
+   \       0x16   0x8101             STRH     R1,[R0, #+8]
+   \                     ??setupDiscoveryData_0: (+1)
+   \       0x18   0x9902             LDR      R1,[SP, #+8]
+    346            }
+    347            state->callback = callback;
+   \       0x1A   0x6042             STR      R2,[R0, #+4]
+    348            state->requestSequence = sequenceNumber;
+   \       0x1C   0x7281             STRB     R1,[R0, #+10]
+    349            emberAfServiceDiscoveryPrintln("%pWaiting %d sec for discovery to complete",
+    350                                           PREFIX,
+    351                                           EMBER_AF_DISCOVERY_TIMEOUT_QS >> 2);
+    352            emberAfNetworkEventControlSetDelayQS(emAfServiceDiscoveryEventControls[state->stateIndex],
+    353                                                 EMBER_AF_DISCOVERY_TIMEOUT_QS);
+   \       0x1E   0x2108             MOVS     R1,#+8
+   \       0x20   0x.... 0x....      LDR.W    R2,??DataTable7
+   \       0x24   0x7AC0             LDRB     R0,[R0, #+11]
+   \       0x26   0xEB02 0x00C0      ADD      R0,R2,R0, LSL #+3
+   \       0x2A   0x.... 0x....      BL       emberAfNetworkEventControlSetDelayQS
+    354            // keep sleepy end devices out of hibernation until
+    355            // service discovery is complete
+    356            emberAfAddToCurrentAppTasks(EMBER_AF_WAITING_FOR_SERVICE_DISCOVERY);
+   \       0x2E   0x2004             MOVS     R0,#+4
+   \       0x30   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x34   0x.... 0x....      B.W      emberAfAddToCurrentAppTasksCallback
+    357          }
+    358          
+
+   \                                 In section .text, align 2, keep-with-next
+    359          static void serviceDiscoveryComplete(ServiceDiscoveryState *state)
+    360          {
+   \                     serviceDiscoveryComplete: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+    361            if (state == NULL) {
+   \        0x4   0xD02A             BEQ.N    ??serviceDiscoveryComplete_0
+    362              emberAfServiceDiscoveryPrintln("State corresponding to the the request not found\n");
+    363              return;
+    364            }
+    365          
+    366            emberAfPushNetworkIndex(state->networkIndex);
+   \        0x6   0x7B20             LDRB     R0,[R4, #+12]
+   \        0x8   0x.... 0x....      BL       emberAfPushNetworkIndex
+    367            state->active = false;
+   \        0xC   0x2000             MOVS     R0,#+0
+   \        0xE   0x7020             STRB     R0,[R4, #+0]
+    368            emberAfServiceDiscoveryPrintln("%pcomplete.\n", PREFIX);
+    369            emberAfNetworkEventControlSetInactive(emAfServiceDiscoveryEventControls[state->stateIndex]);
+   \       0x10   0x.... 0x....      LDR.W    R0,??DataTable7
+   \       0x14   0x7AE1             LDRB     R1,[R4, #+11]
+   \       0x16   0xEB00 0x00C1      ADD      R0,R0,R1, LSL #+3
+   \       0x1A   0x.... 0x....      BL       emberAfNetworkEventControlSetInactive
+    370            // Since there can be multiple states active on the same network,
+    371            // emberAfRemoveFromCurrentAppTasks should be called only when all the states
+    372            // in the current network are inactive.
+    373            if (!isStateActiveInCurrentNetwork()) {
+   \       0x1E   0x.... 0x....      BL       isStateActiveInCurrentNetwork
+   \       0x22   0x2800             CMP      R0,#+0
+   \       0x24   0xD102             BNE.N    ??serviceDiscoveryComplete_1
+    374              // allow sleepy end devices to go into hibernation now.
+    375              emberAfRemoveFromCurrentAppTasks(EMBER_AF_WAITING_FOR_SERVICE_DISCOVERY);
+   \       0x26   0x2004             MOVS     R0,#+4
+   \       0x28   0x.... 0x....      BL       emberAfRemoveFromCurrentAppTasksCallback
+    376            }
+    377          
+    378            if (state->callback != NULL) {
+   \                     ??serviceDiscoveryComplete_1: (+1)
+   \       0x2C   0x6860             LDR      R0,[R4, #+4]
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD012             BEQ.N    ??serviceDiscoveryComplete_2
+    379              EmberAfServiceDiscoveryResult result;
+    380              result.status = (isUnicastQuery(state)
+    381                               ? EMBER_AF_UNICAST_SERVICE_DISCOVERY_TIMEOUT
+    382                               : EMBER_AF_BROADCAST_SERVICE_DISCOVERY_COMPLETE);
+   \       0x32   0x8920             LDRH     R0,[R4, #+8]
+   \       0x34   0x0BC0             LSRS     R0,R0,#+15
+   \       0x36   0x0040             LSLS     R0,R0,#+1
+   \       0x38   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    383              result.zdoRequestClusterId = getRequestCluster(state);
+   \       0x3C   0x8920             LDRH     R0,[R4, #+8]
+   \       0x3E   0xF3C0 0x000E      UBFX     R0,R0,#+0,#+15
+   \       0x42   0xF8AD 0x0002      STRH     R0,[SP, #+2]
+    384              result.matchAddress = EMBER_NULL_NODE_ID;
+   \       0x46   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x4A   0xF8AD 0x0004      STRH     R0,[SP, #+4]
+    385              result.responseData = NULL;
+   \       0x4E   0x2000             MOVS     R0,#+0
+   \       0x50   0x9002             STR      R0,[SP, #+8]
+    386              (*state->callback)(&result);
+   \       0x52   0x4668             MOV      R0,SP
+   \       0x54   0x6861             LDR      R1,[R4, #+4]
+   \       0x56   0x4788             BLX      R1
+    387            }
+    388          
+    389            emberAfPopNetworkIndex();
+   \                     ??serviceDiscoveryComplete_2: (+1)
+   \       0x58   0x.... 0x....      BL       emberAfPopNetworkIndex
+    390          }
+   \                     ??serviceDiscoveryComplete_0: (+1)
+   \       0x5C   0xBD1F             POP      {R0-R4,PC}
+    391          
+
+   \                                 In section .text, align 2, keep-with-next
+    392          void emAfServiceDiscoveryTimeoutHandler(EmberEventControl *control)
+    393          {
+   \                     emAfServiceDiscoveryTimeoutHandler: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    394            emberEventControlSetInactive(*control);
+   \        0x2   0x2100             MOVS     R1,#+0
+   \        0x4   0x7001             STRB     R1,[R0, #+0]
+    395            ServiceDiscoveryState *state = findStateForEventControl(control);
+   \        0x6   0x.... 0x....      BL       findStateForEventControl
+    396            serviceDiscoveryComplete(state);
+   \        0xA   0xE8BD 0x4002      POP      {R1,LR}
+   \        0xE   0x....             B.N      serviceDiscoveryComplete
+    397          }
+    398          
+
+   \                                 In section .text, align 2, keep-with-next
+    399          void emAfServiceDiscoveryComplete(uint8_t networkIndex, uint8_t sequenceNumber)
+    400          {
+   \                     emAfServiceDiscoveryComplete: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x460A             MOV      R2,R1
+    401            ServiceDiscoveryState *state = findStateForResponse(sequenceNumber, networkIndex);
+   \        0x4   0x4601             MOV      R1,R0
+   \        0x6   0x4610             MOV      R0,R2
+   \        0x8   0x.... 0x....      BL       findStateForResponse
+    402            serviceDiscoveryComplete(state);
+   \        0xC   0xE8BD 0x4002      POP      {R1,LR}
+   \       0x10   0x....             B.N      serviceDiscoveryComplete
+    403          }
+    404          
+
+   \                                 In section .text, align 2, keep-with-next
+    405          static void executeCallback(ServiceDiscoveryState *state,
+    406                                      const EmberAfServiceDiscoveryResult *result)
+    407          {
+   \                     executeCallback: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    408            (*state->callback)(result);
+   \        0x6   0x4628             MOV      R0,R5
+   \        0x8   0x6861             LDR      R1,[R4, #+4]
+   \        0xA   0x4788             BLX      R1
+    409            if (isUnicastQuery(state)
+    410                || result->status == EMBER_AF_BROADCAST_SERVICE_DISCOVERY_COMPLETE_WITH_RESPONSE) {
+   \        0xC   0x8920             LDRH     R0,[R4, #+8]
+   \        0xE   0x0400             LSLS     R0,R0,#+16
+   \       0x10   0xD402             BMI.N    ??executeCallback_0
+   \       0x12   0x7828             LDRB     R0,[R5, #+0]
+   \       0x14   0x2804             CMP      R0,#+4
+   \       0x16   0xD105             BNE.N    ??executeCallback_1
+    411              // If the request was unicast and we received a response then we are done.
+    412              // No need to wait for the timer to expire.
+    413              // Alternatively certain broadcast requests are only expected to get 1
+    414              // response, or we only care about the 1st response.
+    415          
+    416              // We NULL the callback as a way of indicating we already fired it.
+    417              // For timeouts, the callback will not be NULL and still fire.
+    418              state->callback = NULL;
+   \                     ??executeCallback_0: (+1)
+   \       0x18   0x2000             MOVS     R0,#+0
+   \       0x1A   0x6060             STR      R0,[R4, #+4]
+    419              serviceDiscoveryComplete(state);
+   \       0x1C   0x4620             MOV      R0,R4
+   \       0x1E   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x22   0x....             B.N      serviceDiscoveryComplete
+    420            }
+    421          }
+   \                     ??executeCallback_1: (+1)
+   \       0x24   0xBD31             POP      {R0,R4,R5,PC}
+    422          
+
+   \                                 In section .text, align 2, keep-with-next
+    423          static bool processMatchDescriptorResponse(ServiceDiscoveryState *state,
+    424                                                     const uint8_t *message,
+    425                                                     uint16_t length)
+    426          {
+   \                     processMatchDescriptorResponse: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+    427            EmberNodeId matchId;
+    428            uint8_t listLength;
+    429          
+    430            if (length < MINIMUM_MATCH_DESCRIPTOR_SUCCESS_LENGTH) {
+   \        0x4   0x4613             MOV      R3,R2
+   \        0x6   0x2B04             CMP      R3,#+4
+   \        0x8   0xDD05             BLE.N    ??processMatchDescriptorResponse_0
+    431              emberAfServiceDiscoveryPrintln("%pMessage too short", PREFIX);
+    432              return true;
+    433            }
+    434          
+    435            // This will now be used as the length of the match list.
+    436            length -= MATCH_DESCRIPTOR_OVERHEAD;
+   \        0xA   0x1F53             SUBS     R3,R2,#+5
+    437          
+    438            // If the parent of a sleepy device supports caching its descriptor
+    439            // information then the sender of the response may not be the device
+    440            // that actually matches the request.  The device id that matches
+    441            // is included in the message.
+    442            matchId = message[2] + (message[3] << 8);
+    443            listLength = message[4];
+   \        0xC   0x790A             LDRB     R2,[R1, #+4]
+    444          
+    445            if (listLength != length) {
+   \        0xE   0x461C             MOV      R4,R3
+   \       0x10   0xB2A4             UXTH     R4,R4
+   \       0x12   0x42A2             CMP      R2,R4
+   \       0x14   0xD001             BEQ.N    ??processMatchDescriptorResponse_1
+    446              emberAfServiceDiscoveryPrintln("%pMessage too short for num. endpoints",
+    447                                             PREFIX);
+    448              return true;
+   \                     ??processMatchDescriptorResponse_0: (+1)
+   \       0x16   0x2001             MOVS     R0,#+1
+   \       0x18   0xE026             B.N      ??processMatchDescriptorResponse_2
+    449            }
+    450          
+    451            emberAfServiceDiscoveryPrintln("%pMatch%p found from 0x%2x.",
+    452                                           PREFIX,
+    453                                           (listLength > 0
+    454                                            ? ""
+    455                                            : " NOT"),
+    456                                           matchId);
+    457          
+    458            EmberAfServiceDiscoveryResult result;
+    459            EmberAfEndpointList endpointList;
+    460            endpointList.count = length;
+   \                     ??processMatchDescriptorResponse_1: (+1)
+   \       0x1A   0xF88D 0x3000      STRB     R3,[SP, #+0]
+    461            endpointList.list = &(message[MATCH_DESCRIPTOR_OVERHEAD]);
+   \       0x1E   0x1D4B             ADDS     R3,R1,#+5
+   \       0x20   0x9301             STR      R3,[SP, #+4]
+    462            if (listLength) {
+   \       0x22   0x8903             LDRH     R3,[R0, #+8]
+   \       0x24   0x2A00             CMP      R2,#+0
+   \       0x26   0xD007             BEQ.N    ??processMatchDescriptorResponse_3
+    463              result.status = (isUnicastQuery(state)
+    464                               ? EMBER_AF_UNICAST_SERVICE_DISCOVERY_COMPLETE_WITH_RESPONSE
+    465                               : EMBER_AF_BROADCAST_SERVICE_DISCOVERY_RESPONSE_RECEIVED);
+   \       0x28   0x041A             LSLS     R2,R3,#+16
+   \       0x2A   0xD501             BPL.N    ??processMatchDescriptorResponse_4
+   \       0x2C   0x2203             MOVS     R2,#+3
+   \       0x2E   0xE000             B.N      ??processMatchDescriptorResponse_5
+   \                     ??processMatchDescriptorResponse_4: (+1)
+   \       0x30   0x2201             MOVS     R2,#+1
+   \                     ??processMatchDescriptorResponse_5: (+1)
+   \       0x32   0xF88D 0x2008      STRB     R2,[SP, #+8]
+   \       0x36   0xE006             B.N      ??processMatchDescriptorResponse_6
+    466            } else {
+    467              // If we got an active response with an empty list then report it accordingly.
+    468              result.status = (isUnicastQuery(state)
+    469                               ? EMBER_AF_UNICAST_SERVICE_DISCOVERY_COMPLETE_WITH_EMPTY_RESPONSE
+    470                               : EMBER_AF_BROADCAST_SERVICE_DISCOVERY_COMPLETE_WITH_EMPTY_RESPONSE);
+   \                     ??processMatchDescriptorResponse_3: (+1)
+   \       0x38   0x041A             LSLS     R2,R3,#+16
+   \       0x3A   0xD501             BPL.N    ??processMatchDescriptorResponse_7
+   \       0x3C   0x2205             MOVS     R2,#+5
+   \       0x3E   0xE000             B.N      ??processMatchDescriptorResponse_8
+   \                     ??processMatchDescriptorResponse_7: (+1)
+   \       0x40   0x2206             MOVS     R2,#+6
+   \                     ??processMatchDescriptorResponse_8: (+1)
+   \       0x42   0xF88D 0x2008      STRB     R2,[SP, #+8]
+    471            }
+    472            result.zdoRequestClusterId = getRequestCluster(state);
+   \                     ??processMatchDescriptorResponse_6: (+1)
+   \       0x46   0x8902             LDRH     R2,[R0, #+8]
+   \       0x48   0xF3C2 0x020E      UBFX     R2,R2,#+0,#+15
+   \       0x4C   0xF8AD 0x200A      STRH     R2,[SP, #+10]
+    473            result.matchAddress = matchId;
+   \       0x50   0x788A             LDRB     R2,[R1, #+2]
+   \       0x52   0x78C9             LDRB     R1,[R1, #+3]
+   \       0x54   0xEB02 0x2201      ADD      R2,R2,R1, LSL #+8
+   \       0x58   0xF8AD 0x200C      STRH     R2,[SP, #+12]
+    474            result.responseData = &endpointList;
+   \       0x5C   0x4669             MOV      R1,SP
+   \       0x5E   0x9104             STR      R1,[SP, #+16]
+    475            executeCallback(state, &result);
+   \       0x60   0xA902             ADD      R1,SP,#+8
+   \       0x62   0x.... 0x....      BL       executeCallback
+    476            return true;
+   \       0x66   0x2001             MOVS     R0,#+1
+   \                     ??processMatchDescriptorResponse_2: (+1)
+   \       0x68   0xB006             ADD      SP,SP,#+24
+   \       0x6A   0xBD10             POP      {R4,PC}
+    477          }
+    478          
+
+   \                                 In section .text, align 2, keep-with-next
+    479          static bool processSimpleDescriptorResponse(ServiceDiscoveryState *state,
+    480                                                      const uint8_t *message,
+    481                                                      uint16_t length)
+    482          {
+   \                     processSimpleDescriptorResponse: (+1)
+   \        0x0   0xE92D 0x43F8      PUSH     {R3-R9,LR}
+   \        0x4   0xB09C             SUB      SP,SP,#+112
+   \        0x6   0x4603             MOV      R3,R0
+    483            EmberAfServiceDiscoveryResult result;
+    484            EmberAfClusterList clusterList;
+    485          
+    486            clusterList.profileId = message[SIMPLE_DESCRIPTOR_RESPONSE_PROFILE_ID_OFFSET]
+    487                                    + (message[SIMPLE_DESCRIPTOR_RESPONSE_PROFILE_ID_OFFSET + 1] << 8);
+   \        0x8   0x7988             LDRB     R0,[R1, #+6]
+   \        0xA   0x79CC             LDRB     R4,[R1, #+7]
+   \        0xC   0xEB00 0x2004      ADD      R0,R0,R4, LSL #+8
+   \       0x10   0xF8AD 0x001C      STRH     R0,[SP, #+28]
+    488            clusterList.deviceId = message[SIMPLE_DESCRIPTOR_RESPONSE_DEVICE_ID_OFFSET]
+    489                                   + (message[SIMPLE_DESCRIPTOR_RESPONSE_DEVICE_ID_OFFSET + 1] << 8);
+   \       0x14   0x7A08             LDRB     R0,[R1, #+8]
+   \       0x16   0x7A4C             LDRB     R4,[R1, #+9]
+   \       0x18   0xEB00 0x2004      ADD      R0,R0,R4, LSL #+8
+   \       0x1C   0xF8AD 0x001E      STRH     R0,[SP, #+30]
+    490            clusterList.endpoint = message[SIMPLE_DESCRIPTOR_RESPONSE_ENDPOINT_OFFSET];
+   \       0x20   0x7948             LDRB     R0,[R1, #+5]
+   \       0x22   0xF88D 0x0020      STRB     R0,[SP, #+32]
+    491          
+    492            // Copying the cluster list to a separate array
+    493            // is primarily necessary on Big endian CPUs where
+    494            // the over-the-air Zigbee messages are all little-endian
+    495            // and we cannot just cast the message pointer into an uint16_t* array.
+    496            // However we also do it for the little endian CPUs because the
+    497            // message can actually be truncated due to bad Zigbee stacks.
+    498            uint16_t clusters[MAX_CLUSTERS_IN_ACTIVE_ENDPOINT_RESPONSE];
+    499            uint8_t index = SIMPLE_DESCRIPTOR_RESPONSE_INPUT_CLUSTER_LIST_INDEX;
+   \       0x26   0x240C             MOVS     R4,#+12
+    500            clusterList.inClusterCount = message[SIMPLE_DESCRIPTOR_RESPONSE_INPUT_CLUSTER_LIST_COUNT_INDEX];
+   \       0x28   0x7AC8             LDRB     R0,[R1, #+11]
+   \       0x2A   0xF88D 0x000C      STRB     R0,[SP, #+12]
+    501            // The +1 is for the input cluster count length.
+    502            clusterList.outClusterCount = message[SIMPLE_DESCRIPTOR_RESPONSE_INPUT_CLUSTER_LIST_COUNT_INDEX
+    503                                                  + 1 + (clusterList.inClusterCount * 2)];
+   \       0x2E   0x4605             MOV      R5,R0
+   \       0x30   0xEB01 0x0045      ADD      R0,R1,R5, LSL #+1
+   \       0x34   0x7B06             LDRB     R6,[R0, #+12]
+   \       0x36   0xF88D 0x6014      STRB     R6,[SP, #+20]
+    504          
+    505            if ((length - index - 1) % 2 != 0) {  // subtract 1 for the output cluster count.
+   \       0x3A   0x3A0D             SUBS     R2,R2,#+13
+   \       0x3C   0x07D0             LSLS     R0,R2,#+31
+   \       0x3E   0xD501             BPL.N    ??processSimpleDescriptorResponse_0
+    506              emberAfServiceDiscoveryPrintln("Error: %p bad simple descriptor length.", PREFIX);
+    507              // Return true because we still tried to process the message.
+    508              return true;
+   \       0x40   0x2001             MOVS     R0,#+1
+   \       0x42   0xE04A             B.N      ??processSimpleDescriptorResponse_1
+    509            }
+    510            uint8_t loop;
+    511            uint8_t clusterIndex = 0;
+   \                     ??processSimpleDescriptorResponse_0: (+1)
+   \       0x44   0x2200             MOVS     R2,#+0
+    512            for (loop = 0; loop < 2; loop++) {
+   \       0x46   0x4610             MOV      R0,R2
+   \       0x48   0xE01C             B.N      ??processSimpleDescriptorResponse_2
+    513              uint8_t count;
+    514              uint8_t i;
+    515              if (loop == 0) {
+    516                clusterList.inClusterList = &(clusters[clusterIndex]);
+    517                count = clusterList.inClusterCount;
+    518              } else {
+    519                clusterList.outClusterList = &(clusters[clusterIndex]);
+    520                count = clusterList.outClusterCount;
+    521              }
+    522              for (i = 0; i < count; i++) {
+    523                clusters[clusterIndex] = message[index] + (message[index + 1] << 8);
+   \                     ??processSimpleDescriptorResponse_3: (+1)
+   \       0x4A   0xF811 0xE004      LDRB     LR,[R1, R4]
+   \       0x4E   0xEB01 0x0804      ADD      R8,R1,R4
+   \       0x52   0xF898 0x8001      LDRB     R8,[R8, #+1]
+   \       0x56   0xEB0E 0x2E08      ADD      LR,LR,R8, LSL #+8
+   \       0x5A   0xF10D 0x0824      ADD      R8,SP,#+36
+   \       0x5E   0x4691             MOV      R9,R2
+   \       0x60   0xFA5F 0xF989      UXTB     R9,R9
+   \       0x64   0xF828 0xE019      STRH     LR,[R8, R9, LSL #+1]
+    524                clusterIndex++;
+   \       0x68   0x1C52             ADDS     R2,R2,#+1
+    525                index += 2;
+   \       0x6A   0x1CA4             ADDS     R4,R4,#+2
+   \       0x6C   0xB2E4             UXTB     R4,R4
+    526              }
+   \       0x6E   0x1C7F             ADDS     R7,R7,#+1
+   \                     ??processSimpleDescriptorResponse_4: (+1)
+   \       0x70   0x46BE             MOV      LR,R7
+   \       0x72   0xFA5F 0xFE8E      UXTB     LR,LR
+   \       0x76   0x45E6             CMP      LR,R12
+   \       0x78   0xDBE7             BLT.N    ??processSimpleDescriptorResponse_3
+    527              if (loop == 0) {
+   \       0x7A   0x2800             CMP      R0,#+0
+   \       0x7C   0xD101             BNE.N    ??processSimpleDescriptorResponse_5
+    528                // This is the output cluster count
+    529                index++;
+   \       0x7E   0x1C64             ADDS     R4,R4,#+1
+   \       0x80   0xB2E4             UXTB     R4,R4
+    530              }
+   \                     ??processSimpleDescriptorResponse_5: (+1)
+   \       0x82   0x1C40             ADDS     R0,R0,#+1
+   \                     ??processSimpleDescriptorResponse_2: (+1)
+   \       0x84   0x2802             CMP      R0,#+2
+   \       0x86   0xDA0E             BGE.N    ??processSimpleDescriptorResponse_6
+   \       0x88   0xAF09             ADD      R7,SP,#+36
+   \       0x8A   0x4694             MOV      R12,R2
+   \       0x8C   0xFA5F 0xFC8C      UXTB     R12,R12
+   \       0x90   0xEB07 0x074C      ADD      R7,R7,R12, LSL #+1
+   \       0x94   0x2800             CMP      R0,#+0
+   \       0x96   0xD102             BNE.N    ??processSimpleDescriptorResponse_7
+   \       0x98   0x9704             STR      R7,[SP, #+16]
+   \       0x9A   0x46AC             MOV      R12,R5
+   \       0x9C   0xE001             B.N      ??processSimpleDescriptorResponse_8
+   \                     ??processSimpleDescriptorResponse_7: (+1)
+   \       0x9E   0x9706             STR      R7,[SP, #+24]
+   \       0xA0   0x46B4             MOV      R12,R6
+   \                     ??processSimpleDescriptorResponse_8: (+1)
+   \       0xA2   0x2700             MOVS     R7,#+0
+   \       0xA4   0xE7E4             B.N      ??processSimpleDescriptorResponse_4
+    531            }
+    532          
+    533            result.status = (isUnicastQuery(state)
+    534                             ? EMBER_AF_UNICAST_SERVICE_DISCOVERY_COMPLETE_WITH_RESPONSE
+    535                             : EMBER_AF_BROADCAST_SERVICE_DISCOVERY_RESPONSE_RECEIVED);
+   \                     ??processSimpleDescriptorResponse_6: (+1)
+   \       0xA6   0x8918             LDRH     R0,[R3, #+8]
+   \       0xA8   0x0400             LSLS     R0,R0,#+16
+   \       0xAA   0xD501             BPL.N    ??processSimpleDescriptorResponse_9
+   \       0xAC   0x2003             MOVS     R0,#+3
+   \       0xAE   0xE000             B.N      ??processSimpleDescriptorResponse_10
+   \                     ??processSimpleDescriptorResponse_9: (+1)
+   \       0xB0   0x2001             MOVS     R0,#+1
+   \                     ??processSimpleDescriptorResponse_10: (+1)
+   \       0xB2   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    536            result.matchAddress = message[2] + (message[3] << 8);
+   \       0xB6   0x7888             LDRB     R0,[R1, #+2]
+   \       0xB8   0x78C9             LDRB     R1,[R1, #+3]
+   \       0xBA   0xEB00 0x2001      ADD      R0,R0,R1, LSL #+8
+   \       0xBE   0xF8AD 0x0004      STRH     R0,[SP, #+4]
+    537            result.zdoRequestClusterId = getRequestCluster(state);
+   \       0xC2   0x8918             LDRH     R0,[R3, #+8]
+   \       0xC4   0xF3C0 0x000E      UBFX     R0,R0,#+0,#+15
+   \       0xC8   0xF8AD 0x0002      STRH     R0,[SP, #+2]
+    538            result.responseData = &clusterList;
+   \       0xCC   0xA803             ADD      R0,SP,#+12
+   \       0xCE   0x9002             STR      R0,[SP, #+8]
+    539          
+    540            executeCallback(state, &result);
+   \       0xD0   0x4669             MOV      R1,SP
+   \       0xD2   0x4618             MOV      R0,R3
+   \       0xD4   0x.... 0x....      BL       executeCallback
+    541            return true;
+   \       0xD8   0x2001             MOVS     R0,#+1
+   \                     ??processSimpleDescriptorResponse_1: (+1)
+   \       0xDA   0xB01D             ADD      SP,SP,#+116
+   \       0xDC   0xE8BD 0x83F0      POP      {R4-R9,PC}
+    542          }
+    543          
+    544          // Both NWK and IEEE responses have the same exact format.
+
+   \                                 In section .text, align 2, keep-with-next
+    545          static bool processAddressResponse(ServiceDiscoveryState *state,
+    546                                             const uint8_t *message,
+    547                                             uint16_t length)
+    548          {
+   \                     processAddressResponse: (+1)
+   \        0x0   0xB530             PUSH     {R4,R5,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+    549            EmberAfServiceDiscoveryResult result;
+    550            EmberEUI64 eui64LittleEndian;
+    551          
+    552            if (length < MINIMUM_ADDRESS_REQEUST_SUCCESS) {
+   \        0x8   0x2A0B             CMP      R2,#+11
+   \        0xA   0xDC01             BGT.N    ??processAddressResponse_0
+    553              emberAfServiceDiscoveryPrintln("%pMessage too short", PREFIX);
+    554              return true;
+   \        0xC   0x2001             MOVS     R0,#+1
+   \        0xE   0xE01E             B.N      ??processAddressResponse_1
+    555            }
+    556            MEMMOVE(eui64LittleEndian, message + EMBER_AF_ZDO_RESPONSE_OVERHEAD, EUI64_SIZE);
+   \                     ??processAddressResponse_0: (+1)
+   \       0x10   0x2208             MOVS     R2,#+8
+   \       0x12   0x1CA9             ADDS     R1,R5,#+2
+   \       0x14   0xA803             ADD      R0,SP,#+12
+   \       0x16   0x.... 0x....      BL       __aeabi_memmove
+    557            // Given that we only expect one response, we set the status to complete even
+    558            // though the request was broadcast.
+    559            result.status = (isUnicastQuery(state)
+    560                             ? EMBER_AF_UNICAST_SERVICE_DISCOVERY_COMPLETE_WITH_RESPONSE
+    561                             : EMBER_AF_BROADCAST_SERVICE_DISCOVERY_COMPLETE_WITH_RESPONSE);
+   \       0x1A   0x8920             LDRH     R0,[R4, #+8]
+   \       0x1C   0x0400             LSLS     R0,R0,#+16
+   \       0x1E   0xD501             BPL.N    ??processAddressResponse_2
+   \       0x20   0x2003             MOVS     R0,#+3
+   \       0x22   0xE000             B.N      ??processAddressResponse_3
+   \                     ??processAddressResponse_2: (+1)
+   \       0x24   0x2004             MOVS     R0,#+4
+   \                     ??processAddressResponse_3: (+1)
+   \       0x26   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    562            result.matchAddress = (message[ADDRESS_RESPONSE_NODE_ID_OFFSET]
+    563                                   + (message[ADDRESS_RESPONSE_NODE_ID_OFFSET + 1] << 8));
+   \       0x2A   0x7AA8             LDRB     R0,[R5, #+10]
+   \       0x2C   0x7AE9             LDRB     R1,[R5, #+11]
+   \       0x2E   0xEB00 0x2001      ADD      R0,R0,R1, LSL #+8
+   \       0x32   0xF8AD 0x0004      STRH     R0,[SP, #+4]
+    564            result.zdoRequestClusterId = getRequestCluster(state);
+   \       0x36   0x8920             LDRH     R0,[R4, #+8]
+   \       0x38   0xF3C0 0x000E      UBFX     R0,R0,#+0,#+15
+   \       0x3C   0xF8AD 0x0002      STRH     R0,[SP, #+2]
+    565            result.responseData = eui64LittleEndian;
+   \       0x40   0xA803             ADD      R0,SP,#+12
+   \       0x42   0x9002             STR      R0,[SP, #+8]
+    566          
+    567            executeCallback(state, &result);
+   \       0x44   0x4669             MOV      R1,SP
+   \       0x46   0x4620             MOV      R0,R4
+   \       0x48   0x.... 0x....      BL       executeCallback
+    568            return true;
+   \       0x4C   0x2001             MOVS     R0,#+1
+   \                     ??processAddressResponse_1: (+1)
+   \       0x4E   0xB005             ADD      SP,SP,#+20
+   \       0x50   0xBD30             POP      {R4,R5,PC}
+    569          }
+    570          
+
+   \                                 In section .text, align 2, keep-with-next
+    571          static bool processActiveEndpointResponse(ServiceDiscoveryState* state,
+    572                                                    const uint8_t* message,
+    573                                                    uint16_t length)
+    574          {
+   \                     processActiveEndpointResponse: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+    575            EmberAfServiceDiscoveryResult result;
+    576            EmberAfEndpointList listStruct;
+    577            if (length < MINIMUM_ACTIVE_ENDPOINT_RESPONSE) {
+   \        0x4   0x4613             MOV      R3,R2
+   \        0x6   0x2B04             CMP      R3,#+4
+   \        0x8   0xDD0A             BLE.N    ??processActiveEndpointResponse_0
+    578              emberAfServiceDiscoveryPrintln("%pMessage too short", PREFIX);
+    579              return true;
+    580            }
+    581            result.matchAddress = (message[ACTIVE_ENDPOINT_RESPONSE_NODE_ID_OFFSET]
+    582                                   + (message[ACTIVE_ENDPOINT_RESPONSE_NODE_ID_OFFSET + 1] << 8));
+   \        0xA   0x788B             LDRB     R3,[R1, #+2]
+   \        0xC   0x78CC             LDRB     R4,[R1, #+3]
+   \        0xE   0xEB03 0x2304      ADD      R3,R3,R4, LSL #+8
+   \       0x12   0xF8AD 0x300C      STRH     R3,[SP, #+12]
+    583            uint8_t count = message[ACTIVE_ENDPOINT_RESPONSE_COUNT_OFFSET];
+    584          
+    585            // +1 for count value iteslf, +2 for node ID
+    586            uint8_t expectedLength = EMBER_AF_ZDO_RESPONSE_OVERHEAD + 1 + 2 + count;
+    587          
+    588            if (expectedLength != length) {
+   \       0x16   0x790B             LDRB     R3,[R1, #+4]
+   \       0x18   0x1D5B             ADDS     R3,R3,#+5
+   \       0x1A   0xB2DB             UXTB     R3,R3
+   \       0x1C   0x4293             CMP      R3,R2
+   \       0x1E   0xD001             BEQ.N    ??processActiveEndpointResponse_1
+    589              emberAfServiceDiscoveryPrintln("Error: %p invalid length (%d != %d) for Active Endpoint response",
+    590                                             PREFIX,
+    591                                             expectedLength,
+    592                                             length);
+    593              return true;
+   \                     ??processActiveEndpointResponse_0: (+1)
+   \       0x20   0x2001             MOVS     R0,#+1
+   \       0x22   0xE017             B.N      ??processActiveEndpointResponse_2
+    594            }
+    595            emberAfServiceDiscoveryPrintln("%pgot active EP response", PREFIX);
+    596            result.status = (isUnicastQuery(state)
+    597                             ? EMBER_AF_UNICAST_SERVICE_DISCOVERY_COMPLETE_WITH_RESPONSE
+    598                             : EMBER_AF_BROADCAST_SERVICE_DISCOVERY_RESPONSE_RECEIVED);
+   \                     ??processActiveEndpointResponse_1: (+1)
+   \       0x24   0x8902             LDRH     R2,[R0, #+8]
+   \       0x26   0x0412             LSLS     R2,R2,#+16
+   \       0x28   0xD501             BPL.N    ??processActiveEndpointResponse_3
+   \       0x2A   0x2203             MOVS     R2,#+3
+   \       0x2C   0xE000             B.N      ??processActiveEndpointResponse_4
+   \                     ??processActiveEndpointResponse_3: (+1)
+   \       0x2E   0x2201             MOVS     R2,#+1
+   \                     ??processActiveEndpointResponse_4: (+1)
+   \       0x30   0xF88D 0x2008      STRB     R2,[SP, #+8]
+    599            result.zdoRequestClusterId = getRequestCluster(state);
+   \       0x34   0x8902             LDRH     R2,[R0, #+8]
+   \       0x36   0xF3C2 0x020E      UBFX     R2,R2,#+0,#+15
+   \       0x3A   0xF8AD 0x200A      STRH     R2,[SP, #+10]
+    600            result.responseData = &listStruct;
+   \       0x3E   0x466A             MOV      R2,SP
+   \       0x40   0x9204             STR      R2,[SP, #+16]
+    601            listStruct.list = &(message[ACTIVE_ENDPOINT_RESPONSE_LIST_OFFSET]);
+   \       0x42   0x1D4A             ADDS     R2,R1,#+5
+   \       0x44   0x9201             STR      R2,[SP, #+4]
+    602            listStruct.count = message[ACTIVE_ENDPOINT_RESPONSE_COUNT_OFFSET];
+   \       0x46   0x7909             LDRB     R1,[R1, #+4]
+   \       0x48   0xF88D 0x1000      STRB     R1,[SP, #+0]
+    603            executeCallback(state, &result);
+   \       0x4C   0xA902             ADD      R1,SP,#+8
+   \       0x4E   0x.... 0x....      BL       executeCallback
+    604            return true;
+   \       0x52   0x2001             MOVS     R0,#+1
+   \                     ??processActiveEndpointResponse_2: (+1)
+   \       0x54   0xB006             ADD      SP,SP,#+24
+   \       0x56   0xBD10             POP      {R4,PC}
+    605          }
+    606          
+
+   \                                 In section .text, align 2, keep-with-next
+    607          bool emAfServiceDiscoveryIncoming(EmberNodeId sender,
+    608                                            EmberApsFrame *apsFrame,
+    609                                            const uint8_t *message,
+    610                                            uint16_t length)
+    611          {
+   \                     emAfServiceDiscoveryIncoming: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x460E             MOV      R6,R1
+   \        0x4   0x4614             MOV      R4,R2
+   \        0x6   0x461D             MOV      R5,R3
+    612            ServiceDiscoveryState *state = findStateForResponse(message[0], emberGetCurrentNetwork());
+   \        0x8   0x.... 0x....      BL       emberGetCurrentNetwork
+   \        0xC   0x4601             MOV      R1,R0
+   \        0xE   0x7820             LDRB     R0,[R4, #+0]
+   \       0x10   0x.... 0x....      BL       findStateForResponse
+    613            if (state == NULL) {
+   \       0x14   0x2800             CMP      R0,#+0
+   \       0x16   0xD031             BEQ.N    ??emAfServiceDiscoveryIncoming_0
+    614              return false;
+    615            }
+    616          
+    617            if (!(serviceDiscoveryInProgress(state)
+    618                  && (apsFrame->profileId == EMBER_ZDO_PROFILE_ID
+    619                      // ZDO Responses set the high bit on the request cluster ID
+    620                      && (apsFrame->clusterId == (CLUSTER_ID_RESPONSE_MINIMUM
+    621                                                  | getRequestCluster(state)))))) {
+   \       0x18   0x7801             LDRB     R1,[R0, #+0]
+   \       0x1A   0x2900             CMP      R1,#+0
+   \       0x1C   0xD02E             BEQ.N    ??emAfServiceDiscoveryIncoming_0
+   \       0x1E   0x8831             LDRH     R1,[R6, #+0]
+   \       0x20   0x2900             CMP      R1,#+0
+   \       0x22   0xD12B             BNE.N    ??emAfServiceDiscoveryIncoming_0
+   \       0x24   0x8872             LDRH     R2,[R6, #+2]
+   \       0x26   0x4611             MOV      R1,R2
+   \       0x28   0x8903             LDRH     R3,[R0, #+8]
+   \       0x2A   0xF443 0x4300      ORR      R3,R3,#0x8000
+   \       0x2E   0x4299             CMP      R1,R3
+   \       0x30   0xD124             BNE.N    ??emAfServiceDiscoveryIncoming_0
+    622              return false;
+    623            }
+    624          
+    625            // The second byte is the status code
+    626            if (message[1] != EMBER_ZDP_SUCCESS) {
+   \       0x32   0x7861             LDRB     R1,[R4, #+1]
+   \       0x34   0x2900             CMP      R1,#+0
+   \       0x36   0xD001             BEQ.N    ??emAfServiceDiscoveryIncoming_1
+    627              return true;
+   \       0x38   0x2001             MOVS     R0,#+1
+   \       0x3A   0xBD70             POP      {R4-R6,PC}
+    628            }
+    629          
+    630            switch (apsFrame->clusterId) {
+   \                     ??emAfServiceDiscoveryIncoming_1: (+1)
+   \       0x3C   0xF44F 0x4100      MOV      R1,#+32768
+   \       0x40   0x1A52             SUBS     R2,R2,R1
+   \       0x42   0x2A01             CMP      R2,#+1
+   \       0x44   0xD910             BLS.N    ??emAfServiceDiscoveryIncoming_2
+   \       0x46   0x1F12             SUBS     R2,R2,#+4
+   \       0x48   0xD004             BEQ.N    ??emAfServiceDiscoveryIncoming_3
+   \       0x4A   0x1E52             SUBS     R2,R2,#+1
+   \       0x4C   0xD011             BEQ.N    ??emAfServiceDiscoveryIncoming_4
+   \       0x4E   0x1E52             SUBS     R2,R2,#+1
+   \       0x50   0xD005             BEQ.N    ??emAfServiceDiscoveryIncoming_5
+   \       0x52   0xE013             B.N      ??emAfServiceDiscoveryIncoming_0
+    631              case SIMPLE_DESCRIPTOR_RESPONSE:
+    632                return processSimpleDescriptorResponse(state, message, length);
+   \                     ??emAfServiceDiscoveryIncoming_3: (+1)
+   \       0x54   0x462A             MOV      R2,R5
+   \       0x56   0x4621             MOV      R1,R4
+   \       0x58   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \       0x5C   0x....             B.N      processSimpleDescriptorResponse
+    633          
+    634              case MATCH_DESCRIPTORS_RESPONSE:
+    635                return processMatchDescriptorResponse(state, message, length);
+   \                     ??emAfServiceDiscoveryIncoming_5: (+1)
+   \       0x5E   0x462A             MOV      R2,R5
+   \       0x60   0x4621             MOV      R1,R4
+   \       0x62   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \       0x66   0x....             B.N      processMatchDescriptorResponse
+    636          
+    637              case NETWORK_ADDRESS_RESPONSE:
+    638              case IEEE_ADDRESS_RESPONSE:
+    639                return processAddressResponse(state, message, length);
+   \                     ??emAfServiceDiscoveryIncoming_2: (+1)
+   \       0x68   0x462A             MOV      R2,R5
+   \       0x6A   0x4621             MOV      R1,R4
+   \       0x6C   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \       0x70   0x....             B.N      processAddressResponse
+    640          
+    641              case ACTIVE_ENDPOINTS_RESPONSE:
+    642                return processActiveEndpointResponse(state, message, length);
+   \                     ??emAfServiceDiscoveryIncoming_4: (+1)
+   \       0x72   0x462A             MOV      R2,R5
+   \       0x74   0x4621             MOV      R1,R4
+   \       0x76   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \       0x7A   0x....             B.N      processActiveEndpointResponse
+    643          
+    644              default:
+    645                // Some ZDO request we don't care about.
+    646                break;
+    647            }
+    648          
+    649            return false;
+   \                     ??emAfServiceDiscoveryIncoming_0: (+1)
+   \       0x7C   0x2000             MOVS     R0,#+0
+   \       0x7E   0xBD70             POP      {R4-R6,PC}
+    650          }
+    651          
+    652          // Perform one-time initialization of states[][] entries.
+    653          // Sets the self-identifying array indices stateIndex and networkIndex
+    654          // for convenient reference when the state entry is accessed.
+
+   \                                 In section .text, align 2, keep-with-next
+    655          static void firstTimeInitStates(void)
+    656          {
+    657            if (!statesInitialized) {
+   \                     firstTimeInitStates: (+1)
+   \        0x0   0x....             LDR.N    R1,??DataTable7_1
+   \        0x2   0x7808             LDRB     R0,[R1, #+0]
+   \        0x4   0x2800             CMP      R0,#+0
+   \        0x6   0xD118             BNE.N    ??firstTimeInitStates_0
+    658              for (uint8_t si = 0; si < stateLimit; ++si) {
+   \        0x8   0x2000             MOVS     R0,#+0
+   \        0xA   0xE00E             B.N      ??firstTimeInitStates_1
+    659                for (uint8_t ni = 0; ni < EMBER_SUPPORTED_NETWORKS; ++ni) {
+    660                  ServiceDiscoveryState *state = &states[si][ni];
+    661                  // Coordinates of this state entry, for convenient reference.
+    662                  state->stateIndex = si;
+   \                     ??firstTimeInitStates_2: (+1)
+   \        0xC   0x....             LDR.N    R2,??DataTable7_2
+   \        0xE   0xEB12 0x1200      ADDS     R2,R2,R0, LSL #+4
+   \       0x12   0x72D0             STRB     R0,[R2, #+11]
+    663                  state->networkIndex = ni;
+   \       0x14   0x2300             MOVS     R3,#+0
+   \       0x16   0x7313             STRB     R3,[R2, #+12]
+    664                  // Operational state.
+    665                  state->active = false;
+   \       0x18   0x7013             STRB     R3,[R2, #+0]
+    666                  state->callback = NULL;
+   \       0x1A   0x6053             STR      R3,[R2, #+4]
+    667                  state->requestData = 0;
+   \       0x1C   0x8113             STRH     R3,[R2, #+8]
+    668                  state->requestSequence = 0;
+   \       0x1E   0x7293             STRB     R3,[R2, #+10]
+    669                }
+   \       0x20   0x2201             MOVS     R2,#+1
+   \                     ??firstTimeInitStates_3: (+1)
+   \       0x22   0x2A00             CMP      R2,#+0
+   \       0x24   0xD0F2             BEQ.N    ??firstTimeInitStates_2
+   \       0x26   0x1C40             ADDS     R0,R0,#+1
+   \       0x28   0xB2C0             UXTB     R0,R0
+   \                     ??firstTimeInitStates_1: (+1)
+   \       0x2A   0x....             LDR.N    R2,??DataTable7_3
+   \       0x2C   0x7812             LDRB     R2,[R2, #+0]
+   \       0x2E   0x4290             CMP      R0,R2
+   \       0x30   0xDA01             BGE.N    ??firstTimeInitStates_4
+   \       0x32   0x2200             MOVS     R2,#+0
+   \       0x34   0xE7F5             B.N      ??firstTimeInitStates_3
+    670              }
+    671              // Do this only once.
+    672              statesInitialized = true;
+   \                     ??firstTimeInitStates_4: (+1)
+   \       0x36   0x2001             MOVS     R0,#+1
+   \       0x38   0x7008             STRB     R0,[R1, #+0]
+    673            }
+    674          }
+   \                     ??firstTimeInitStates_0: (+1)
+   \       0x3A   0x4770             BX       LR
+    675          
+    676          /**
+    677             Given: N/A.
+    678             Return: A pointer to the first unused state for the current network
+    679             Description: The unused state is found by looking for the first state
+    680             which is inactive in the the current network.
+    681           */
+
+   \                                 In section .text, align 2, keep-with-next
+    682          static ServiceDiscoveryState *findUnusedState(void)
+    683          {
+   \                     findUnusedState: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+    684            firstTimeInitStates();
+   \        0x2   0x.... 0x....      BL       firstTimeInitStates
+    685            for (int si = 0; si < stateLimit; si++) {
+   \        0x6   0x2400             MOVS     R4,#+0
+   \        0x8   0xE000             B.N      ??findUnusedState_0
+   \                     ??findUnusedState_1: (+1)
+   \        0xA   0x1C64             ADDS     R4,R4,#+1
+   \                     ??findUnusedState_0: (+1)
+   \        0xC   0x....             LDR.N    R0,??DataTable7_3
+   \        0xE   0x7800             LDRB     R0,[R0, #+0]
+   \       0x10   0x4284             CMP      R4,R0
+   \       0x12   0xDA0D             BGE.N    ??findUnusedState_2
+    686              if (!states[si][emberGetCurrentNetwork()].active) {
+   \       0x14   0x.... 0x....      BL       emberGetCurrentNetwork
+   \       0x18   0x....             LDR.N    R1,??DataTable7_2
+   \       0x1A   0xEB11 0x1504      ADDS     R5,R1,R4, LSL #+4
+   \       0x1E   0x0100             LSLS     R0,R0,#+4
+   \       0x20   0x5C28             LDRB     R0,[R5, R0]
+   \       0x22   0x2800             CMP      R0,#+0
+   \       0x24   0xD1F1             BNE.N    ??findUnusedState_1
+    687                return &states[si][emberGetCurrentNetwork()];
+   \       0x26   0x.... 0x....      BL       emberGetCurrentNetwork
+   \       0x2A   0xEB15 0x1000      ADDS     R0,R5,R0, LSL #+4
+   \       0x2E   0xBD32             POP      {R1,R4,R5,PC}
+    688              }
+    689            }
+    690            return NULL;
+   \                     ??findUnusedState_2: (+1)
+   \       0x30   0x2000             MOVS     R0,#+0
+   \       0x32   0xBD32             POP      {R1,R4,R5,PC}
+    691          }
+    692          
+    693          /**
+    694             Given: The sequence number of the request and the network index
+    695             Return: The active service discovery state with that sequence number
+    696             in the given network index.
+    697           */
+
+   \                                 In section .text, align 2, keep-with-next
+    698          static ServiceDiscoveryState *findStateForResponse(uint8_t sequenceNumber, uint8_t networkIndex)
+    699          {
+   \                     findStateForResponse: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    700            firstTimeInitStates();
+   \        0x6   0x.... 0x....      BL       firstTimeInitStates
+    701            for (int si = 0; si < stateLimit; si++) {
+   \        0xA   0x2200             MOVS     R2,#+0
+   \        0xC   0x4627             MOV      R7,R4
+   \        0xE   0xE000             B.N      ??findStateForResponse_0
+   \                     ??findStateForResponse_1: (+1)
+   \       0x10   0x1C52             ADDS     R2,R2,#+1
+   \                     ??findStateForResponse_0: (+1)
+   \       0x12   0x....             LDR.N    R0,??DataTable7_3
+   \       0x14   0x7800             LDRB     R0,[R0, #+0]
+   \       0x16   0x4282             CMP      R2,R0
+   \       0x18   0xDA0D             BGE.N    ??findStateForResponse_2
+    702              if (states[si][networkIndex].requestSequence == sequenceNumber
+    703                  && states[si][networkIndex].active) {
+   \       0x1A   0x4628             MOV      R0,R5
+   \       0x1C   0x0100             LSLS     R0,R0,#+4
+   \       0x1E   0x....             LDR.N    R1,??DataTable7_2
+   \       0x20   0xEB11 0x1302      ADDS     R3,R1,R2, LSL #+4
+   \       0x24   0x1819             ADDS     R1,R3,R0
+   \       0x26   0x7A8E             LDRB     R6,[R1, #+10]
+   \       0x28   0x42BE             CMP      R6,R7
+   \       0x2A   0xD1F1             BNE.N    ??findStateForResponse_1
+   \       0x2C   0x5C18             LDRB     R0,[R3, R0]
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD0EE             BEQ.N    ??findStateForResponse_1
+    704                return &states[si][networkIndex];
+   \       0x32   0x4608             MOV      R0,R1
+   \       0x34   0xBDF2             POP      {R1,R4-R7,PC}
+    705              }
+    706            }
+    707            return NULL;
+   \                     ??findStateForResponse_2: (+1)
+   \       0x36   0x2000             MOVS     R0,#+0
+   \       0x38   0xBDF2             POP      {R1,R4-R7,PC}
+    708          }
+    709          
+    710          /**
+    711             Given: Ember event control
+    712             Return: A pointer to the service discovery state which corresponds to the
+    713             control.
+    714           */
+
+   \                                 In section .text, align 2, keep-with-next
+    715          static ServiceDiscoveryState *findStateForEventControl(EmberEventControl *control)
+    716          {
+   \                     findStateForEventControl: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    717            firstTimeInitStates();
+   \        0x4   0x.... 0x....      BL       firstTimeInitStates
+    718            for (uint8_t si = 0; si < stateLimit; si++) {
+   \        0x8   0x2000             MOVS     R0,#+0
+   \        0xA   0xE001             B.N      ??findStateForEventControl_0
+   \                     ??findStateForEventControl_1: (+1)
+   \        0xC   0x1C40             ADDS     R0,R0,#+1
+   \        0xE   0xB2C0             UXTB     R0,R0
+   \                     ??findStateForEventControl_0: (+1)
+   \       0x10   0x....             LDR.N    R1,??DataTable7_3
+   \       0x12   0x7809             LDRB     R1,[R1, #+0]
+   \       0x14   0x4288             CMP      R0,R1
+   \       0x16   0xDA0D             BGE.N    ??findStateForEventControl_2
+    719              for (uint8_t ni = 0; ni < EMBER_SUPPORTED_NETWORKS; ni++) {
+   \       0x18   0x2100             MOVS     R1,#+0
+   \       0x1A   0xE000             B.N      ??findStateForEventControl_3
+   \                     ??findStateForEventControl_4: (+1)
+   \       0x1C   0x2101             MOVS     R1,#+1
+   \                     ??findStateForEventControl_3: (+1)
+   \       0x1E   0x2900             CMP      R1,#+0
+   \       0x20   0xD1F4             BNE.N    ??findStateForEventControl_1
+    720                if (control == &emAfServiceDiscoveryEventControls[si][ni]) {
+   \       0x22   0x....             LDR.N    R1,??DataTable7
+   \       0x24   0xEB01 0x01C0      ADD      R1,R1,R0, LSL #+3
+   \       0x28   0x428C             CMP      R4,R1
+   \       0x2A   0xD1F7             BNE.N    ??findStateForEventControl_4
+    721                  return &states[si][ni];
+   \       0x2C   0x....             LDR.N    R1,??DataTable7_2
+   \       0x2E   0xEB11 0x1000      ADDS     R0,R1,R0, LSL #+4
+   \       0x32   0xBD10             POP      {R4,PC}
+    722                }
+    723              }
+    724            }
+    725            return NULL;
+   \                     ??findStateForEventControl_2: (+1)
+   \       0x34   0x2000             MOVS     R0,#+0
+   \       0x36   0xBD10             POP      {R4,PC}
+    726          }
+    727          
+    728          /**
+    729             Description: Checking if there are any active states in the current network.
+    730           */
+
+   \                                 In section .text, align 2, keep-with-next
+    731          static bool isStateActiveInCurrentNetwork(void)
+    732          {
+   \                     isStateActiveInCurrentNetwork: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    733            uint8_t currentNetwork = emberGetCurrentNetwork();
+   \        0x2   0x.... 0x....      BL       emberGetCurrentNetwork
+    734            for (uint8_t si = 0; si < stateLimit; si++) {
+   \        0x6   0x2200             MOVS     R2,#+0
+   \        0x8   0xE000             B.N      ??isStateActiveInCurrentNetwork_0
+   \                     ??isStateActiveInCurrentNetwork_1: (+1)
+   \        0xA   0x1C52             ADDS     R2,R2,#+1
+   \                     ??isStateActiveInCurrentNetwork_0: (+1)
+   \        0xC   0x4611             MOV      R1,R2
+   \        0xE   0x....             LDR.N    R3,??DataTable7_3
+   \       0x10   0x781B             LDRB     R3,[R3, #+0]
+   \       0x12   0xB2C9             UXTB     R1,R1
+   \       0x14   0x4299             CMP      R1,R3
+   \       0x16   0xD20A             BCS.N    ??isStateActiveInCurrentNetwork_2
+    735              if (states[si][currentNetwork].active) {
+   \       0x18   0x....             LDR.N    R1,??DataTable7_2
+   \       0x1A   0x4613             MOV      R3,R2
+   \       0x1C   0xB2DB             UXTB     R3,R3
+   \       0x1E   0xEB11 0x1103      ADDS     R1,R1,R3, LSL #+4
+   \       0x22   0x0103             LSLS     R3,R0,#+4
+   \       0x24   0x5CC9             LDRB     R1,[R1, R3]
+   \       0x26   0x2900             CMP      R1,#+0
+   \       0x28   0xD0EF             BEQ.N    ??isStateActiveInCurrentNetwork_1
+    736                return true;
+   \       0x2A   0x2001             MOVS     R0,#+1
+   \       0x2C   0xBD02             POP      {R1,PC}
+    737              }
+    738            }
+    739            return false;
+   \                     ??isStateActiveInCurrentNetwork_2: (+1)
+   \       0x2E   0x2000             MOVS     R0,#+0
+   \       0x30   0xBD02             POP      {R1,PC}
+    740          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7:
+   \        0x0   0x....'....        DC32     emAfServiceDiscoveryEventControls
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_1:
+   \        0x0   0x....'....        DC32     statesInitialized
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_2:
+   \        0x0   0x....'....        DC32     states
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_3:
+   \        0x0   0x....'....        DC32     stateLimit
+    741          
+    742          /**
+    743             Given: The limit the number of networks allowed
+    744             Description: Even though EMBER_SUPPORTED_SERVICE_DISCOVERY_STATES_PER_NETWORK
+    745             can be set to 4, the state limit can be set to a smaller number using this
+    746             function for testing purposes.
+    747           */
+    748          #ifdef EMBER_TEST
+    749          void setDiscoveryStateLimit(uint8_t limit)
+    750          {
+    751            if (limit > EMBER_SUPPORTED_SERVICE_DISCOVERY_STATES_PER_NETWORK) {
+    752              emberAfServiceDiscoveryPrintln("Limit exceeds the maximum number of service discovery states allowed."
+    753                                             "Setting the limit to %d which is the maximum number if states allowed",
+    754                                             EMBER_SUPPORTED_SERVICE_DISCOVERY_STATES_PER_NETWORK);
+    755              stateLimit = EMBER_SUPPORTED_SERVICE_DISCOVERY_STATES_PER_NETWORK;
+    756            } else {
+    757              stateLimit = limit;
+    758            }
+    759          }
+    760          #endif
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   emAfServiceDiscoveryComplete
+         8   -> findStateForResponse
+         0   -> serviceDiscoveryComplete
+      16   emAfServiceDiscoveryIncoming
+        16   -> emberGetCurrentNetwork
+        16   -> findStateForResponse
+         0   -> processActiveEndpointResponse
+         0   -> processAddressResponse
+         0   -> processMatchDescriptorResponse
+         0   -> processSimpleDescriptorResponse
+       8   emAfServiceDiscoveryTimeoutHandler
+         8   -> findStateForEventControl
+         0   -> serviceDiscoveryComplete
+      24   emberAfFindActiveEndpoints
+        24   -> emberGetLastAppZigDevRequestSequence
+        24   -> emberSendZigDevRequestTarget
+        24   -> findUnusedState
+        24   -> setupDiscoveryData
+      24   emberAfFindClustersByDeviceAndEndpoint
+        24   -> emberGetLastAppZigDevRequestSequence
+        24   -> emberSimpleDescriptorRequest
+        24   -> findUnusedState
+        24   -> setupDiscoveryData
+      32   emberAfFindDevicesByProfileAndCluster
+        32   -> emAfSendMatchDescriptor
+        32   -> emberGetLastAppZigDevRequestSequence
+        32   -> findUnusedState
+        32   -> setupDiscoveryData
+      24   emberAfFindIeeeAddress
+        24   -> emberGetLastStackZigDevRequestSequence
+        24   -> emberIeeeAddressRequest
+        24   -> findUnusedState
+        24   -> setupDiscoveryData
+      24   emberAfFindNodeId
+        24   -> emberGetLastStackZigDevRequestSequence
+        24   -> emberNetworkAddressRequest
+        24   -> findUnusedState
+        24   -> setupDiscoveryData
+      16   executeCallback
+        16   -- Indirect call
+         0   -> serviceDiscoveryComplete
+       8   findStateForEventControl
+         8   -> firstTimeInitStates
+      24   findStateForResponse
+        24   -> firstTimeInitStates
+      16   findUnusedState
+        16   -> emberGetCurrentNetwork
+        16   -> firstTimeInitStates
+       0   firstTimeInitStates
+       8   isStateActiveInCurrentNetwork
+         8   -> emberGetCurrentNetwork
+      32   processActiveEndpointResponse
+        32   -> executeCallback
+      32   processAddressResponse
+        32   -> __aeabi_memmove
+        32   -> executeCallback
+      32   processMatchDescriptorResponse
+        32   -> executeCallback
+     144   processSimpleDescriptorResponse
+       144   -> executeCallback
+      24   serviceDiscoveryComplete
+        24   -- Indirect call
+        24   -> emberAfNetworkEventControlSetInactive
+        24   -> emberAfPopNetworkIndex
+        24   -> emberAfPushNetworkIndex
+        24   -> emberAfRemoveFromCurrentAppTasksCallback
+        24   -> isStateActiveInCurrentNetwork
+       8   setupDiscoveryData
+         0   -> emberAfAddToCurrentAppTasksCallback
+         8   -> emberAfNetworkEventControlSetDelayQS
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+      18  emAfServiceDiscoveryComplete
+      32  emAfServiceDiscoveryEventControls
+     128  emAfServiceDiscoveryIncoming
+      16  emAfServiceDiscoveryTimeoutHandler
+      62  emberAfFindActiveEndpoints
+      64  emberAfFindClustersByDeviceAndEndpoint
+      94  emberAfFindDevicesByProfileAndCluster
+      62  emberAfFindIeeeAddress
+      62  emberAfFindNodeId
+      38  executeCallback
+      56  findStateForEventControl
+      58  findStateForResponse
+      52  findUnusedState
+      60  firstTimeInitStates
+      50  isStateActiveInCurrentNetwork
+      88  processActiveEndpointResponse
+      82  processAddressResponse
+     108  processMatchDescriptorResponse
+     224  processSimpleDescriptorResponse
+      94  serviceDiscoveryComplete
+      56  setupDiscoveryData
+       1  stateLimit
+      64  states
+       1  statesInitialized
+
+ 
+    97 bytes in section .bss
+     1 byte  in section .rodata
+ 1'488 bytes in section .text
+ 
+ 1'488 bytes of CODE  memory
+     1 byte  of CONST memory
+    97 bytes of DATA  memory
+
+Errors: none
+Warnings: none

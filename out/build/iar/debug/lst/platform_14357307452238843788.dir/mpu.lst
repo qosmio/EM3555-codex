@@ -1,0 +1,408 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         04/Apr/2026  22:55:53
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\mpu.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mpu.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\mpu.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"mpu.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mpu.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mpu.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\mpu.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mpu.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\mpu.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief This file contains the definitions, data table and software used to
+      4           * setup the MPU.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          #include PLATFORM_HEADER
+     19          #include "hal/micro/cortexm3/mpu.h"
+     20          #include "hal/micro/micro.h"
+     21          
+     22          // Define MPU regions - note that the default vector table at address 0 and
+     23          // the ARM PPB peripherals are always accessible in privileged mode.
+
+   \                                 In section .data, align 4
+     24          static mpu_t mpuConfig[NUM_MPU_REGIONS] =
+   \                     mpuConfig:
+   \        0x0   0x0800'0010        DC32 134'217'744, 101'441'575, 1'073'741'841, 303'038'497
+   \              0x060B'E027  
+   \              0x4000'0011  
+   \              0x1210'0021
+   \       0x10   0x4000'8012        DC32 1'073'774'610, 319'816'477, 536'870'931, 319'488'029, 536'870'932
+   \              0x1310'031D  
+   \              0x2000'0013  
+   \              0x130B'001D  
+   \              0x2000'0014
+   \       0x24   0x100B'0008        DC32 269'156'360, 536'870'933, 319'488'018, 536'870'934, 319'488'018
+   \              0x2000'0015  
+   \              0x130B'0012  
+   \              0x2000'0016  
+   \              0x130B'0012
+   \       0x38   0x2000'0017        DC32 536'870'935, 319'488'018
+   \              0x130B'0012
+     25          {
+     26            { MPU_REGION0_BASE, MPU_REGION0_ATTR },
+     27            { MPU_REGION1_BASE, MPU_REGION1_ATTR },
+     28            { MPU_REGION2_BASE, MPU_REGION2_ATTR },
+     29            { MPU_REGION3_BASE, MPU_REGION3_ATTR },
+     30            { MPU_REGION4_BASE, MPU_REGION4_ATTR },
+     31            { MPU_REGION5_BASE, MPU_REGION5_ATTR },
+     32            { MPU_REGION6_BASE, MPU_REGION6_ATTR },
+     33            { MPU_REGION7_BASE, MPU_REGION7_ATTR }
+     34          };
+     35          
+     36          // Load the base address and attributes of all 8 MPU regions, then enable
+     37          // the MPU. Even though interrupts should be disabled when this function is
+     38          // called, the region loading is performed in an atomic block in case they
+     39          // are not disabled. After the regions have been defined, the MPU is enabled.
+     40          // To be safe, memory barrier instructions are included to make sure that
+     41          // the new MPU setup is in effect before returning to the caller.
+     42          //
+     43          // Note that the PRIVDEFENA bit is not set in the MPU_CTRL register so the
+     44          // default privileged memory map is not enabled. Disabling the default
+     45          // memory map enables faults on core accesses (other than vector reads) to
+     46          // the address ranges shown below.
+     47          //
+     48          //  Address range
+     49          //  Flash (ICODE and DCODE)
+     50          //    00000000 to 07FFFFFF    no access allowed (read, write or execute)
+     51          //    08000000 to 0809FFFF    write not allowed
+     52          //    080A0000 to 1FFFFFFF    no access allowed (read, write or execute)
+     53          //  SRAM
+     54          //    20000000 to 2000FFFF    execute not allowed
+     55          //    20010000 to 3FFFFFFF    no access allowed (read, write or execute)
+     56          //  Peripheral
+     57          //    40020000 to 5FFFFFFF    no access allowed (read, write or execute)
+     58          //  External Device / External RAM
+     59          //    60000000 to DFFFFFFF    no access allowed (read, write or execute)
+     60          
+
+   \                                 In section .text, align 2, keep-with-next
+     61          void halInternalEnableMPU(void)
+     62          {
+     63            halInternalLoadMPU(mpuConfig);
+   \                     halInternalEnableMPU: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable3
+   \        0x2                      REQUIRE halInternalLoadMPU
+   \        0x2                      ; // Fall through to label halInternalLoadMPU
+     64          }
+     65          
+
+   \                                 In section .text, align 2, keep-with-next
+     66          void halInternalLoadMPU(mpu_t *mp)
+     67          {
+   \                     halInternalLoadMPU: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     68            uint8_t i;
+     69          
+     70            {
+     71              DECLARE_INTERRUPT_STATE;
+     72              DISABLE_INTERRUPTS();
+   \        0x4   0x.... 0x....      BL       _disableBasePri
+   \        0x8   0x4605             MOV      R5,R0
+     73              MPU->CTRL = 0;       // enable default map while MPU is updated
+   \        0xA   0x....             LDR.N    R0,??DataTable3_1
+   \        0xC   0x2100             MOVS     R1,#+0
+   \        0xE   0x6001             STR      R1,[R0, #+0]
+     74              for (i = 0; i < NUM_MPU_REGIONS; i++) {
+   \       0x10   0xE005             B.N      ??halInternalLoadMPU_0
+     75                MPU->RBAR = mp->base;
+   \                     ??halInternalLoadMPU_1: (+1)
+   \       0x12   0x6822             LDR      R2,[R4, #+0]
+   \       0x14   0x6082             STR      R2,[R0, #+8]
+     76                MPU->RASR = mp->attr;
+   \       0x16   0x6862             LDR      R2,[R4, #+4]
+   \       0x18   0x60C2             STR      R2,[R0, #+12]
+     77                mp++;
+   \       0x1A   0x3408             ADDS     R4,R4,#+8
+     78              }
+   \       0x1C   0x1C49             ADDS     R1,R1,#+1
+   \                     ??halInternalLoadMPU_0: (+1)
+   \       0x1E   0x460A             MOV      R2,R1
+   \       0x20   0xB2D2             UXTB     R2,R2
+   \       0x22   0x2A08             CMP      R2,#+8
+   \       0x24   0xDBF5             BLT.N    ??halInternalLoadMPU_1
+     79              MPU->CTRL = MPU_CTRL_ENABLE_Msk;
+   \       0x26   0x2101             MOVS     R1,#+1
+   \       0x28   0x6001             STR      R1,[R0, #+0]
+     80              _executeBarrierInstructions();
+   \       0x2A   0x.... 0x....      BL       _executeBarrierInstructions
+     81              RESTORE_INTERRUPTS();
+   \       0x2E   0x4628             MOV      R0,R5
+   \       0x30   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x34   0x.... 0x....      B.W      _writeBasePri
+     82            }
+     83          }
+     84          
+
+   \                                 In section .text, align 2, keep-with-next
+     85          void halInternalDisableMPU(void)
+     86          {
+     87            MPU->CTRL = 0;
+   \                     halInternalDisableMPU: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x....             LDR.N    R1,??DataTable3_1
+   \        0x4   0x6008             STR      R0,[R1, #+0]
+     88            _executeBarrierInstructions();
+   \        0x6   0x.... 0x....      B.W      _executeBarrierInstructions
+     89          }
+     90          
+
+   \                                 In section .text, align 2, keep-with-next
+     91          void halInternalSetMPUGuardRegionStart(uint32_t baseAddress)
+     92          {
+   \                     halInternalSetMPUGuardRegionStart: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     93            uint32_t attr = GUARD_REGION_ATTR_EN;
+   \        0x4   0x....             LDR.N    R5,??DataTable3_2
+     94          
+     95            // Clear the lower 5 bits of the base address to be sure that it's
+     96            // properly aligned
+     97            baseAddress &= 0xFFFFFFE0U;
+   \        0x6   0x0964             LSRS     R4,R4,#+5
+   \        0x8   0x0164             LSLS     R4,R4,#+5
+     98          
+     99            // If the base address is below the reset info then something weird is
+    100            // going on so just turn off the guard region
+    101            if (baseAddress < (uint32_t)(uint8_t *)_RESETINFO_SEGMENT_END) {
+   \        0xA   0x....             LDR.N    R0,??DataTable3_3
+   \        0xC   0x4284             CMP      R4,R0
+   \        0xE   0xD200             BCS.N    ??halInternalSetMPUGuardRegionStart_0
+    102              attr = GUARD_REGION_ATTR_DIS;
+   \       0x10   0x....             LDR.N    R5,??DataTable3_4
+    103            }
+    104          
+    105            // Add in the guard region number so the MPU knows which region to configure
+    106            baseAddress |= GUARD_REGION & 0x0000001F;
+    107          
+    108            // Set the base address for the MPU guard region
+    109            {
+    110              DECLARE_INTERRUPT_STATE;
+    111              DISABLE_INTERRUPTS();
+   \                     ??halInternalSetMPUGuardRegionStart_0: (+1)
+   \       0x12   0x.... 0x....      BL       _disableBasePri
+    112              mpuConfig[GUARD_REGION & 0xF].base = baseAddress;
+   \       0x16   0x....             LDR.N    R1,??DataTable3
+   \       0x18   0xF044 0x0414      ORR      R4,R4,#0x14
+   \       0x1C   0x620C             STR      R4,[R1, #+32]
+    113              mpuConfig[GUARD_REGION & 0xF].attr = attr;
+   \       0x1E   0x624D             STR      R5,[R1, #+36]
+    114              RESTORE_INTERRUPTS();
+   \       0x20   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x24   0x.... 0x....      B.W      _writeBasePri
+    115            }
+    116          }
+    117          
+
+   \                                 In section .text, align 2, keep-with-next
+    118          bool halInternalIAmAnEmulator(void)
+    119          {
+   \                     halInternalIAmAnEmulator: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+    120          #ifdef I_AM_AN_EMULATOR
+    121            // I_AM_AN_EMULATOR is a register/bit that only exists when building for an
+    122            // emulator.  This is a legacy concept from years ago and is deprecated.
+    123            bool retval;
+    124          
+    125            {
+    126              DECLARE_INTERRUPT_STATE;
+    127              DISABLE_INTERRUPTS();
+   \        0x2   0x.... 0x....      BL       _disableBasePri
+   \        0x6   0x4604             MOV      R4,R0
+    128              MPU->CTRL = 0;
+   \        0x8   0x....             LDR.N    R5,??DataTable3_1
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0x6028             STR      R0,[R5, #+0]
+    129              _executeBarrierInstructions();
+   \        0xE   0x.... 0x....      BL       _executeBarrierInstructions
+    130              retval =  ((I_AM_AN_EMULATOR & 1) == 1);
+   \       0x12   0x....             LDR.N    R0,??DataTable3_5
+   \       0x14   0x6806             LDR      R6,[R0, #+0]
+   \       0x16   0xF006 0x0601      AND      R6,R6,#0x1
+    131              MPU->CTRL = MPU_CTRL_ENABLE_Msk;
+   \       0x1A   0x2001             MOVS     R0,#+1
+   \       0x1C   0x6028             STR      R0,[R5, #+0]
+    132              _executeBarrierInstructions();
+   \       0x1E   0x.... 0x....      BL       _executeBarrierInstructions
+    133              RESTORE_INTERRUPTS();
+   \       0x22   0x4620             MOV      R0,R4
+   \       0x24   0x.... 0x....      BL       _writeBasePri
+    134            }
+    135            return retval;
+   \       0x28   0x4630             MOV      R0,R6
+   \       0x2A   0xBD70             POP      {R4-R6,PC}
+    136          #else
+    137            return false;
+    138          #endif
+    139          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0x....'....        DC32     mpuConfig
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_1:
+   \        0x0   0xE000'ED94        DC32     0xe000ed94
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_2:
+   \        0x0   0x100B'0009        DC32     0x100b0009
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_3:
+   \        0x0   0x....'....        DC32     SFE(RESETINFO)
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_4:
+   \        0x0   0x100B'0008        DC32     0x100b0008
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_5:
+   \        0x0   0x4000'9000        DC32     0x40009000
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   halInternalDisableMPU
+         0   -> _executeBarrierInstructions
+       0   halInternalEnableMPU
+         0   -> halInternalLoadMPU
+      16   halInternalIAmAnEmulator
+        16   -> _disableBasePri
+        16   -> _executeBarrierInstructions
+        16   -> _writeBasePri
+      16   halInternalLoadMPU
+        16   -> _disableBasePri
+        16   -> _executeBarrierInstructions
+         0   -> _writeBasePri
+      16   halInternalSetMPUGuardRegionStart
+        16   -> _disableBasePri
+         0   -> _writeBasePri
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+       4  ??DataTable3_5
+      10  halInternalDisableMPU
+       2  halInternalEnableMPU
+      44  halInternalIAmAnEmulator
+      56  halInternalLoadMPU
+      40  halInternalSetMPUGuardRegionStart
+      64  mpuConfig
+
+ 
+  64 bytes in section .data
+ 176 bytes in section .text
+ 
+ 176 bytes of CODE memory
+  64 bytes of DATA memory
+
+Errors: none
+Warnings: none

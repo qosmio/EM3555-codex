@@ -1,0 +1,795 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:29
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\cstartup-common.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\cstartup-common.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\cstartup-common.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"cstartup-common.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\cstartup-common.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\cstartup-common.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\cstartup-common.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\cstartup-common.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\cstartup-common.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief This file defines the basic information needed to go from reset up to
+      4           * the main() found in C code.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          #include PLATFORM_HEADER
+     19          #include "hal/micro/cortexm3/diagnostic.h"
+     20          #include "hal/micro/cortexm3/mpu.h"
+     21          #include "hal/micro/micro.h"
+     22          #include "hal/micro/cortexm3/memmap.h"
+     23          #include "hal/micro/cortexm3/cstartup-common.h"
+     24          #include "hal/micro/cortexm3/internal-storage.h"
+     25          
+     26          #include "stack/include/ember-types.h"
+     27          #include "hal/micro/bootloader-interface.h"
+     28          
+     29          // Pull in the SOFTWARE_VERSION and EMBER_BUILD_NUMBER from the stack
+     30          #include "stack/config/config.h"
+     31          
+     32          // Define the CUSTOMER_APPLICATION_VERSION if it wasn't set
+     33          #ifndef CUSTOMER_APPLICATION_VERSION
+     34            #define CUSTOMER_APPLICATION_VERSION 0
+     35          #endif
+     36          // Define the CUSTOMER_BOOTLOADER_VERSION if it wasn't set
+     37          #ifndef CUSTOMER_BOOTLOADER_VERSION
+     38            #define CUSTOMER_BOOTLOADER_VERSION 0
+     39          #endif
+     40          
+     41          // Verify the various bootloader options that may be specified.  Use of some
+     42          //   options is now deprecated and will be removed in a future release.
+     43          // On the 35x platform, the use of these options is only important to specify
+     44          //   the size of the bootloader, rather than the bootloader type.
+     45          // By default, the lack of any option will indicate an 8k bootloader size
+     46          // The NULL_BTL option indicates no bootloader is used.
+     47          #ifdef APP_BTL
+     48            #pragma message("The APP_BTL build option is deprecated.  Removing this option will build for any 8k bootloader type.")
+     49          #endif
+     50          #ifdef SERIAL_UART_BTL
+     51            #pragma message("The SERIAL_UART_BTL build option is deprecated.  Removing this option will build for any 8k bootloader type.")
+     52          #endif
+     53          #ifdef SERIAL_OTA_BTL
+     54            #pragma message("The SERIAL_UART_OTA build option is deprecated.  Removing this option will build for any 8k bootloader type.")
+     55          #endif
+     56          #ifdef NULL_BTL
+     57          // Fully supported, no error
+     58          #endif
+     59          #ifdef SMALL_BTL
+     60            #error SMALL_BTL is not supported
+     61          #endif
+     62          
+     63          //=============================================================================
+     64          // Define the size of the call stack and define a block of memory for it.
+     65          //
+     66          // Place the cstack area in a segment named CSTACK.  This segment is
+     67          // defined soley for the purpose of placing the stack.  Refer to reset handler
+     68          // for the initialization code and iar-cfg-common.icf for segment placement
+     69          // in memory.
+     70          //
+     71          // **Note well: This sets a default value that should work for simple
+     72          // applications. Larger and more complex applications may very well need to
+     73          // increase the size based on compiler usage analysis or runtime testing.
+     74          //=============================================================================
+     75          #ifndef CSTACK_SIZE
+     76            #ifdef RTOS
+     77          // The RTOS will handle the actual CSTACK sizing per-task, but we must
+     78          // still allocate some space for startup and exceptions.
+     79              #define CSTACK_SIZE (128)  // *4 = 512 bytes
+     80            #else
+     81              #if (defined(EMBER_NO_STACK)    /* nodetest and friends */ \
+     82            || (!defined(EMBER_STACK_IP) && !defined(EMBER_STACK_CONNECT)))
+     83          // Zigbee Pro Stack
+     84                #if defined(STACK_PROTECTION)
+     85          // IAR's stack protection feature causes increased stack usage, so bump
+     86          // up the default in that case
+     87                  #define CSTACK_SIZE  (800)  // *4 = 3200 bytes
+     88                #else
+     89                  #define CSTACK_SIZE  (600)  // *4 = 2400 bytes
+     90                #endif
+     91              #else
+     92          // IP Stack
+     93                #define CSTACK_SIZE  (950)  // *4 = 3800 bytes
+     94              #endif //defined(EMBER_NO_STACK) ...
+     95            #endif
+     96          #endif
+
+   \                                 In section CSTACK, align 4, root
+     97          VAR_AT_SEGMENT(NO_STRIPPING uint32_t cstackMemory[CSTACK_SIZE], __CSTACK__);
+   \                     cstackMemory:
+   \        0x0                      DS8 2'400
+     98          
+     99          #ifndef HTOL_EM3XX
+    100          // Create an array to hold space for the guard region. Do not actually use this
+    101          // array in code as we will move the guard region around programatically. This
+    102          // is only here so that the linker takes into account the size of the guard
+    103          // region when configuring the RAM.
+    104          ALIGNMENT(HEAP_GUARD_REGION_SIZE_BYTES)
+
+   \                                 In section GUARD_REGION, align 32, root
+    105          VAR_AT_SEGMENT(NO_STRIPPING uint8_t guardRegionPlaceHolder[HEAP_GUARD_REGION_SIZE_BYTES], __GUARD_REGION__);
+   \                     guardRegionPlaceHolder:
+   \        0x0                      DS8 32
+    106          #endif
+    107          
+    108          // Reset cause and crash info live in a special RAM segment that is
+    109          // not modified during startup.
+
+   \                                 In section RESETINFO, align 4, root
+    110          VAR_AT_SEGMENT(NO_STRIPPING HalResetInfoType halResetInfo, __RESETINFO__);
+   \                     halResetInfo:
+   \        0x0                      DS8 152
+    111          
+    112          // If space is needed in the flash for data storage like for the local storage
+    113          // bootloader then create an array here to hold a place for this data.
+    114          #if INTERNAL_STORAGE_SIZE_B > 0
+    115          // Define the storage region as an uninitialized array in the
+    116          // __INTERNAL_STORAGE__ region which the linker knows how to place.
+    117          VAR_AT_SEGMENT(NO_STRIPPING uint8_t internalStorage[INTERNAL_STORAGE_SIZE_B], __INTERNAL_STORAGE__);
+    118          #endif
+    119          
+    120          #ifdef __ICCARM__
+    121            #define ENTRY_POINT   Reset_Handler
+    122          #elif defined(__GNUC__)
+    123            #define ENTRY_POINT   Reset_Handler
+    124          #else
+    125            #error Do not know how to get the vector table for this compiler.
+    126          #endif
+    127          
+    128          //=============================================================================
+    129          // Declare the address tables which will always live at well known addresses
+    130          //=============================================================================
+
+   \                                 In section FAT, align 4, root
+    131          VAR_AT_SEGMENT(NO_STRIPPING __no_init const HalFixedAddressTableType halFixedAddressTable, __FAT__);
+   \                     halFixedAddressTable:
+   \        0x0                      DS8 44
+    132          
+    133          #ifdef NULL_BTL
+    134          // In the case of a NULL_BTL application, we define a dummy BAT
+    135          VAR_AT_SEGMENT(NO_STRIPPING const HalBootloaderAddressTableType halBootloaderAddressTable, __BAT_INIT__) = {
+    136            { _CSTACK_SEGMENT_END,
+    137              ENTRY_POINT,
+    138              halNmiIsr,
+    139              halHardFaultIsr,
+    140              BOOTLOADER_ADDRESS_TABLE_TYPE,
+    141              BAT_NULL_VERSION,
+    142              NULL                    // No other vector table.
+    143            },
+    144            BL_EXT_TYPE_NULL,           //uint16_t bootloaderType;
+    145            BOOTLOADER_INVALID_VERSION, //uint16_t bootloaderVersion;
+    146            &halAppAddressTable,
+    147            PLAT,   //uint8_t platInfo;   // type of platform, defined in micro.h
+    148            MICRO,  //uint8_t microInfo;  // type of micro, defined in micro.h
+    149            PHY,    //uint8_t phyInfo;    // type of phy, defined in micro.h
+    150            0,      //uint8_t reserved;   // reserved for future use
+    151            NULL,   // eblProcessInit
+    152            NULL,   // eblProcess
+    153            NULL,   // eblDataFuncs
+    154            NULL,   // eepromInit
+    155            NULL,   // eepromRead
+    156            NULL,   // eepromWrite
+    157            NULL,   // eepromShutdown
+    158            NULL,   // eepromInfo
+    159            NULL,   // eepromErase
+    160            NULL,   // eepromBusy
+    161            EMBER_BUILD_NUMBER, // uint16_t softwareBuild;
+    162            0,                  // uint16_t reserved2;
+    163            CUSTOMER_BOOTLOADER_VERSION  // uint32_t customerBootloaderVersion;
+    164          };
+    165          #else
+    166          // otherwise we just define a variable that maps to the real bootloader BAT
+
+   \                                 In section BAT, align 4, root
+    167          VAR_AT_SEGMENT(NO_STRIPPING __no_init const HalBootloaderAddressTableType halBootloaderAddressTable, __BAT__);
+   \                     halBootloaderAddressTable:
+   \        0x0                      DS8 84
+    168          #endif
+    169          
+
+   \                                 In section AAT, align 4, root
+    170          VAR_AT_SEGMENT(NO_STRIPPING const HalAppAddressTableType halAppAddressTable, __AAT__) = {
+   \                     halAppAddressTable:
+   \        0x0   0x....'....        DC32 SFE(CSTACK), Reset_Handler, halNmiIsr, halHardFaultIsr
+   \              0x....'....  
+   \              0x....'....  
+   \              0x....'....
+   \       0x10   0x0AA7 0x010A      DC16 2'727, 266
+   \       0x14   0x....'....        DC32 __vector_table
+   \       0x18   0x04 0x1F          DC8 4, 31, 3, 172
+   \              0x03 0xAC
+   \       0x1C   0x6810 0x0110      DC16 26'640, 272
+   \       0x20   0x0000'0000        DC32 0
+   \       0x24   0x00               DC8 ""
+   \       0x25                      DS8 15
+   \       0x34   0x0000'0000        DC32 0x0
+   \       0x38   0x00               DC8 0
+   \       0x39                      DS8 11
+   \       0x44   0x0000'0000        DC32 0
+   \       0x48   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF
+   \       0x54   0x....'....        DC32 SFB(SIMEE), 0, SFB(INTERNAL_STORAGE)
+   \              0x0000'0000  
+   \              0x....'....
+   \       0x60   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255, 255, 0
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0x00
+   \       0x6A                      DS8 22
+   \       0x80   0x....'....        DC32 SFB(DEBUG_CHANNEL), SFB(`.noinitlegacy`), SFE(`.bss`), SFE(`.bss`)
+   \              0x....'....  
+   \              0x....'....  
+   \              0x....'....
+   \       0x90   0x....'....        DC32 SFE(CSTACK), SFE(`.data_init`), SFE(`.text`), SFB(CSTACK)
+   \              0x....'....  
+   \              0x....'....  
+   \              0x....'....
+   \       0xA0   0x....'....        DC32 SFE(EMHEAP), SFE(SIMEE), SFE(DEBUG_CHANNEL)
+   \              0x....'....  
+   \              0x....'....
+    171            { _CSTACK_SEGMENT_END,
+    172              ENTRY_POINT,
+    173              halNmiIsr,
+    174              halHardFaultIsr,
+    175              APP_ADDRESS_TABLE_TYPE,
+    176              AAT_VERSION,
+    177              VECTOR_TABLE },
+    178            PLAT,  //uint8_t platInfo;   // type of platform, defined in micro.h
+    179            MICRO, //uint8_t microInfo;  // type of micro, defined in micro.h
+    180            PHY,   //uint8_t phyInfo;    // type of phy, defined in micro.h
+    181            sizeof(HalAppAddressTableType),  // size of aat itself
+    182            SOFTWARE_VERSION,   // uint16_t softwareVersion
+    183            EMBER_BUILD_NUMBER, // uint16_t softwareBuild
+    184            0,  //uint32_t timestamp; // Unix epoch time of .ebl file, filled in by ebl gen
+    185            "", //uint8_t imageInfo[IMAGE_INFO_MAXLEN];  // string, filled in by ebl generation
+    186            NULL, //const void *appProps;
+    187            { 0 }, //uint8_t reserved[] (zero fill)
+    188            0,  //uint32_t imageCrc;  // CRC over following pageRanges, filled in by ebl gen
+    189            { { UNUSED_AAT_PAGE_NUMBER, UNUSED_AAT_PAGE_NUMBER },   //pageRange_t pageRanges[NUM_AAT_PAGE_RANGES];
+    190              { UNUSED_AAT_PAGE_NUMBER, UNUSED_AAT_PAGE_NUMBER },   // Flash pages used by app, filled in by ebl gen
+    191              { UNUSED_AAT_PAGE_NUMBER, UNUSED_AAT_PAGE_NUMBER },
+    192              { UNUSED_AAT_PAGE_NUMBER, UNUSED_AAT_PAGE_NUMBER },
+    193              { UNUSED_AAT_PAGE_NUMBER, UNUSED_AAT_PAGE_NUMBER },
+    194              { UNUSED_AAT_PAGE_NUMBER, UNUSED_AAT_PAGE_NUMBER } },
+    195            _SIMEE_SEGMENT_BEGIN,                               //void *simeeBottom;
+    196            CUSTOMER_APPLICATION_VERSION,                       //uint32_t customerApplicationVersion;
+    197            _INTERNAL_STORAGE_SEGMENT_BEGIN,                    //void *internalStorageBottom;
+    198            { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0XFF },        // image stamp (filled in by em3xx_convert)
+    199            0xFF,                                               //uint8_t familyInfo; (for EFM32, defined in micro.h)
+    200            { 0 },                                              //uint8_t bootloaderReserved[] (zero fill, previously was 0xFF fill)
+    201            _DEBUG_CHANNEL_SEGMENT_BEGIN,                       //void *debugChannelBottom;
+    202            _NO_INIT_SEGMENT_BEGIN,                             //void *noInitBottom;
+    203            _BSS_SEGMENT_END,                                   //void *appRamTop; NO LONGER USED! (set to __BSS__ for 3xx convert)
+    204            _BSS_SEGMENT_END,                                   //void *globalTop;
+    205            _CSTACK_SEGMENT_END,                                //void *cstackTop;
+    206            _DATA_INIT_SEGMENT_END,                             //void *initcTop;
+    207            _TEXT_SEGMENT_END,                                  //void *codeTop;
+    208            _CSTACK_SEGMENT_BEGIN,                              //void *cstackBottom;
+    209            _EMHEAP_SEGMENT_END,                                //void *heapTop;
+    210            _SIMEE_SEGMENT_END,                                 //void *simeeTop;
+    211            _DEBUG_CHANNEL_SEGMENT_END                          //void *debugChannelTop;
+    212          };
+    213          
+    214          // halInternalClassifyReset() records the cause of the last reset and any
+    215          // assert information here. If the last reset was not due to an assert,
+    216          // the saved assert filename and line number will be NULL and 0 respectively.
+
+   \                                 In section .bss, align 2
+    217          static uint16_t savedResetCause;
+   \                     savedResetCause:
+   \        0x0                      DS8 2
+
+   \                                 In section .bss, align 4
+    218          static HalAssertInfoType savedAssertInfo;
+   \                     savedAssertInfo:
+   \        0x0                      DS8 8
+    219          
+
+   \                                 In section .text, align 2, keep-with-next
+    220          void halInternalClassifyReset(void)
+    221          {
+   \                     halInternalClassifyReset: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+    222            // Table used to convert from CMHV->RESETEVENT register bits to reset types
+    223            static const uint16_t resetEventTable[] = {
+    224              RESET_POWERON_HV,            // bit 0: RESET_PWRHV_BIT
+    225              RESET_POWERON_LV,            // bit 1: RESET_PWRLV_BIT
+    226              RESET_EXTERNAL_PIN,          // bit 2: RESET_NRESET_BIT
+    227              RESET_WATCHDOG_EXPIRED,      // bit 3: RESET_WDOG_BIT
+    228              RESET_SOFTWARE,              // bit 4: RESET_SW_BIT
+    229              RESET_BOOTLOADER_DEEPSLEEP,  // bit 5: RESET_DSLEEP_BIT
+    230              RESET_FATAL_OPTIONBYTE,      // bit 6: RESET_OPTBYTEFAIL_BIT
+    231              RESET_FATAL_LOCKUP,          // bit 7: RESET_CPULOCKUP_BIT
+    232            };
+    233          
+    234            // It is possible for RSTB and POWER_HV to be set at the same time, which
+    235            // happens when RSTB releases between HV power good and LV power good. (All
+    236            // other reset events are mutually exclusive.) When both RSTB and POWER_HV
+    237            // are set, POWER_HV should be returned as the cause. The bit test order --
+    238            // from LSB to MSB -- ensures that it will.
+    239            uint16_t resetEvent = CMHV->RESETEVENT
+    240                                  & (CMHV_RESETEVENT_CPULOCKUP
+    241                                     | CMHV_RESETEVENT_OPTBYTEFAIL
+    242                                     | CMHV_RESETEVENT_DSLEEP
+    243                                     | CMHV_RESETEVENT_SW
+    244                                     | CMHV_RESETEVENT_WDOG
+    245                                     | CMHV_RESETEVENT_NRESET
+    246                                     | CMHV_RESETEVENT_PWRLV
+    247                                     | CMHV_RESETEVENT_PWRHV);
+   \        0x2   0x....             LDR.N    R0,??DataTable3
+   \        0x4   0x6801             LDR      R1,[R0, #+0]
+   \        0x6   0xF001 0x01FF      AND      R1,R1,#0xFF
+    248          
+    249            uint16_t cause = RESET_UNKNOWN;
+   \        0xA   0x2000             MOVS     R0,#+0
+    250            uint16_t i;
+    251          
+    252            for (i = 0; i < sizeof(resetEventTable) / sizeof(resetEventTable[0]); i++) {
+   \        0xC   0x4602             MOV      R2,R0
+   \        0xE   0xE000             B.N      ??halInternalClassifyReset_0
+   \                     ??halInternalClassifyReset_1: (+1)
+   \       0x10   0x1C52             ADDS     R2,R2,#+1
+   \                     ??halInternalClassifyReset_0: (+1)
+   \       0x12   0x4613             MOV      R3,R2
+   \       0x14   0xB29B             UXTH     R3,R3
+   \       0x16   0x2B08             CMP      R3,#+8
+   \       0x18   0xD207             BCS.N    ??halInternalClassifyReset_2
+    253              if ((resetEvent & (1 << i)) != 0U) {
+   \       0x1A   0x460B             MOV      R3,R1
+   \       0x1C   0x4113             ASRS     R3,R3,R2
+   \       0x1E   0x07DB             LSLS     R3,R3,#+31
+   \       0x20   0xD5F6             BPL.N    ??halInternalClassifyReset_1
+    254                cause = resetEventTable[i];
+   \       0x22   0x....             LDR.N    R0,??DataTable3_1
+   \       0x24   0xB292             UXTH     R2,R2
+   \       0x26   0xF830 0x0012      LDRH     R0,[R0, R2, LSL #+1]
+    255                break;
+    256              }
+    257            }
+    258          
+    259            if (cause == RESET_SOFTWARE) {
+   \                     ??halInternalClassifyReset_2: (+1)
+   \       0x2A   0x....             LDR.N    R1,??DataTable3_2
+   \       0x2C   0x4602             MOV      R2,R0
+   \       0x2E   0x2A06             CMP      R2,#+6
+   \       0x30   0xD114             BNE.N    ??halInternalClassifyReset_3
+    260              if ((halResetInfo.crash.resetSignature == RESET_VALID_SIGNATURE)
+    261                  && (RESET_BASE_TYPE(halResetInfo.crash.resetReason) < NUM_RESET_BASE_TYPES)) {
+   \       0x32   0x8848             LDRH     R0,[R1, #+2]
+   \       0x34   0xF24F 0x020F      MOVW     R2,#+61455
+   \       0x38   0x4290             CMP      R0,R2
+   \       0x3A   0xD107             BNE.N    ??halInternalClassifyReset_4
+   \       0x3C   0x8808             LDRH     R0,[R1, #+0]
+   \       0x3E   0x4602             MOV      R2,R0
+   \       0x40   0x0A12             LSRS     R2,R2,#+8
+   \       0x42   0x2A0B             CMP      R2,#+11
+   \       0x44   0xDA02             BGE.N    ??halInternalClassifyReset_4
+    262                // The extended reset cause is recovered from RAM
+    263                // This can be trusted because the hardware reset event was software
+    264                //  and additionally because the signature is valid
+    265                savedResetCause = halResetInfo.crash.resetReason;
+   \       0x46   0x....             LDR.N    R2,??DataTable3_3
+   \       0x48   0x8010             STRH     R0,[R2, #+0]
+   \       0x4A   0xE003             B.N      ??halInternalClassifyReset_5
+    266              } else {
+    267                savedResetCause = RESET_SOFTWARE_UNKNOWN;
+   \                     ??halInternalClassifyReset_4: (+1)
+   \       0x4C   0xF44F 0x60C0      MOV      R0,#+1536
+   \       0x50   0x....             LDR.N    R2,??DataTable3_3
+   \       0x52   0x8010             STRH     R0,[R2, #+0]
+    268              }
+    269              // mark the signature as invalid
+    270              halResetInfo.crash.resetSignature = RESET_INVALID_SIGNATURE;
+   \                     ??halInternalClassifyReset_5: (+1)
+   \       0x54   0xF24C 0x303C      MOVW     R0,#+49980
+   \       0x58   0x8048             STRH     R0,[R1, #+2]
+   \       0x5A   0xE015             B.N      ??halInternalClassifyReset_6
+    271            } else if ((cause == RESET_BOOTLOADER_DEEPSLEEP)
+    272                       && (halResetInfo.crash.resetSignature == RESET_VALID_SIGNATURE)
+    273                       && (halResetInfo.crash.resetReason == RESET_BOOTLOADER_DEEPSLEEP)) {
+   \                     ??halInternalClassifyReset_3: (+1)
+   \       0x5C   0xF240 0x2207      MOVW     R2,#+519
+   \       0x60   0x4603             MOV      R3,R0
+   \       0x62   0x4614             MOV      R4,R2
+   \       0x64   0x42A3             CMP      R3,R4
+   \       0x66   0xD10D             BNE.N    ??halInternalClassifyReset_7
+   \       0x68   0x884B             LDRH     R3,[R1, #+2]
+   \       0x6A   0xF24F 0x040F      MOVW     R4,#+61455
+   \       0x6E   0x42A3             CMP      R3,R4
+   \       0x70   0xD108             BNE.N    ??halInternalClassifyReset_7
+   \       0x72   0x880B             LDRH     R3,[R1, #+0]
+   \       0x74   0x4293             CMP      R3,R2
+   \       0x76   0xD105             BNE.N    ??halInternalClassifyReset_7
+    274              // Save the crash info for bootloader deep sleep (even though it's not used
+    275              // yet) and invalidate the resetSignature.
+    276              halResetInfo.crash.resetSignature = RESET_INVALID_SIGNATURE;
+   \       0x78   0xF24C 0x303C      MOVW     R0,#+49980
+   \       0x7C   0x8048             STRH     R0,[R1, #+2]
+    277              savedResetCause = halResetInfo.crash.resetReason;
+   \       0x7E   0x....             LDR.N    R0,??DataTable3_3
+   \       0x80   0x8002             STRH     R2,[R0, #+0]
+   \       0x82   0xE001             B.N      ??halInternalClassifyReset_6
+    278            } else {
+    279              savedResetCause = cause;
+   \                     ??halInternalClassifyReset_7: (+1)
+   \       0x84   0x....             LDR.N    R2,??DataTable3_3
+   \       0x86   0x8010             STRH     R0,[R2, #+0]
+    280            }
+    281            // If the last reset was due to an assert, save the assert info.
+    282            if (savedResetCause == RESET_CRASH_ASSERT) {
+   \                     ??halInternalClassifyReset_6: (+1)
+   \       0x88   0x....             LDR.N    R0,??DataTable3_3
+   \       0x8A   0x8800             LDRH     R0,[R0, #+0]
+   \       0x8C   0xF240 0x7201      MOVW     R2,#+1793
+   \       0x90   0x4290             CMP      R0,R2
+   \       0x92   0xD106             BNE.N    ??halInternalClassifyReset_8
+    283              savedAssertInfo = halResetInfo.crash.data.assertInfo;
+   \       0x94   0xF101 0x0290      ADD      R2,R1,#+144
+   \       0x98   0xE9D2 0x0100      LDRD     R0,R1,[R2, #+0]
+   \       0x9C   0x....             LDR.N    R2,??DataTable3_4
+   \       0x9E   0xE9C2 0x0100      STRD     R0,R1,[R2, #+0]
+    284            }
+    285          }
+   \                     ??halInternalClassifyReset_8: (+1)
+   \       0xA2   0xBC10             POP      {R4}
+   \       0xA4   0x4770             BX       LR
+
+   \                                 In section .rodata, align 4
+   \                     `halInternalClassifyReset::resetEventTable`:
+   \        0x0   0x0401 0x0402      DC16 1'025, 1'026, 769, 1'281, 6, 519, 2'307, 2'305
+   \               0x0301 0x050
+   \              1 0x0006 0x02
+   \              07 0x0903 0x0
+   \              901
+    286          
+
+   \                                 In section .text, align 2, keep-with-next
+    287          uint8_t halGetResetInfo(void)
+    288          {
+    289            return RESET_BASE_TYPE(savedResetCause);
+   \                     halGetResetInfo: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable3_3
+   \        0x2   0x8800             LDRH     R0,[R0, #+0]
+   \        0x4   0x0A00             LSRS     R0,R0,#+8
+   \        0x6   0x4770             BX       LR
+    290          }
+    291          
+
+   \                                 In section .text, align 2, keep-with-next
+    292          uint16_t halGetExtendedResetInfo(void)
+    293          {
+    294            return savedResetCause;
+   \                     halGetExtendedResetInfo: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable3_3
+   \        0x2   0x8800             LDRH     R0,[R0, #+0]
+   \        0x4   0x4770             BX       LR
+    295          }
+    296          
+
+   \                                 In section .text, align 2, keep-with-next
+    297          const HalAssertInfoType *halGetAssertInfo(void)
+    298          {
+    299            return &savedAssertInfo;
+   \                     halGetAssertInfo: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable3_4
+   \        0x2   0x4770             BX       LR
+    300          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0x4000'002C        DC32     0x4000002c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_1:
+   \        0x0   0x....'....        DC32     `halInternalClassifyReset::resetEventTable`
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_2:
+   \        0x0   0x....'....        DC32     halResetInfo
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_3:
+   \        0x0   0x....'....        DC32     savedResetCause
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_4:
+   \        0x0   0x....'....        DC32     savedAssertInfo
+    301          
+    302          #ifdef INTERRUPT_DEBUGGING
+    303          //=============================================================================
+    304          // If interrupt debugging is enabled, the actual ISRs are listed in this
+    305          // secondary interrupt table.  The halInternalIntDebuggingIsr will use this
+    306          // table to jump to the appropriate handler
+    307          //=============================================================================
+    308          NO_STRIPPING const HalVectorTableType __real_vector_table[] =
+    309          {
+    310            { .topOfStack = _CSTACK_SEGMENT_END },
+    311            #define EXCEPTION(vectorNumber, functionName, deviceIrqn, deviceIrqHandler, priorityLevel, subpriority) \
+    312            functionName,
+    313              #include NVIC_CONFIG
+    314            #undef EXCEPTION
+    315          };
+    316          
+    317          
+    318          
+    319          
+    320          
+    321          //=============================================================================
+    322          // The halInternalDebuggingIsr will intercept all exceptions in order to
+    323          // set interrupt debugging IO flags so that interrupt latency and other timings
+    324          // may be measured with a logic analyzer
+    325          //=============================================================================
+    326          void halInternalIntDebuggingIsr(void)
+    327          {
+    328            bool prevState = I_STATE(I_PORT, I_PIN);
+    329            uint32_t exception;
+    330          
+    331          
+    332          
+    333          
+    334          
+    335          
+    336          
+    337          
+    338          
+    339          
+    340            I_SET(I_PORT, I_PIN);
+    341          
+    342            // call the actual exception we were supposed to go to.  The exception
+    343            // number is conveniently available in the SCS->ICSR register
+    344            exception = (SCB->ICSR & SCB_ICSR_VECTACTIVE_Msk) >> SCB_ICSR_VECTACTIVE_Pos;
+    345          
+    346          
+    347          
+    348          
+    349          
+    350          
+    351          
+    352          
+    353          
+    354          
+    355          
+    356          
+    357          
+    358          
+    359          
+    360          
+    361          
+    362            __real_vector_table[exception].ptrToHandler();
+    363          
+    364            // In order to deal with the possibility of nesting, only clear the status
+    365            // output if it was clear when we entered
+    366            if (!prevState) {
+    367              I_CLR(I_PORT, I_PIN);
+    368            }
+    369          
+    370          
+    371          
+    372          
+    373          
+    374          
+    375          
+    376          
+    377          
+    378          
+    379          
+    380          
+    381          
+    382          
+    383          
+    384          
+    385          
+    386          
+    387          
+    388          
+    389          
+    390          
+    391          
+    392          
+    393          
+    394          
+    395          
+    396          
+    397          
+    398          
+    399          
+    400          
+    401          
+    402          
+    403          
+    404          
+    405          
+    406          
+    407          
+    408          
+    409          
+    410          
+    411          
+    412          
+    413          
+    414          
+    415          
+    416          
+    417          
+    418          
+    419          
+    420          
+    421          
+    422          
+    423          
+    424          
+    425          
+    426          
+    427          
+    428          
+    429          
+    430          
+    431          
+    432          
+    433          
+    434          
+    435          
+    436          
+    437          
+    438          
+    439          
+    440          
+    441          
+    442          
+    443          
+    444          }
+    445          
+    446          #endif //INTERRUPT_DEBUGGING
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   halGetAssertInfo
+       0   halGetExtendedResetInfo
+       0   halGetResetInfo
+       4   halInternalClassifyReset
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+   2'400  cstackMemory
+      32  guardRegionPlaceHolder
+     172  halAppAddressTable
+      84  halBootloaderAddressTable
+      44  halFixedAddressTable
+       4  halGetAssertInfo
+       6  halGetExtendedResetInfo
+       8  halGetResetInfo
+     166  halInternalClassifyReset
+     152  halResetInfo
+      16  resetEventTable
+       8  savedAssertInfo
+       2  savedResetCause
+
+ 
+    10 bytes in section .bss
+    16 bytes in section .rodata
+   204 bytes in section .text
+   172 bytes in section AAT
+    84 bytes in section BAT
+ 2'400 bytes in section CSTACK
+    44 bytes in section FAT
+    32 bytes in section GUARD_REGION
+   152 bytes in section RESETINFO
+ 
+   204 bytes of CODE  memory
+   188 bytes of CONST memory
+ 2'722 bytes of DATA  memory
+
+Errors: none
+Warnings: none

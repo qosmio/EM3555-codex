@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.external.networknt.jsonschemavalidator.feature"
+  label="Bundled Json Schema Validator Wrapper Support"
+  description="Simplicity Studio Bundled Json Schema Validator Support"
+  changelog="changelog"
+  version="1.1.0"/>

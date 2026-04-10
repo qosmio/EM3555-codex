@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_metadata_32bit_autogen_ga">
+  <assets path="/metadata/ga/32bit_autogen.zip" diskSizeKB="1225.825" downloadSizeKB="48.661" directory="true">
+    <property key="autoDownload" value="true"/>
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1772047322838"/>
+  </assets>
+</assets>

@@ -1,0 +1,11 @@
+stack_root=/Users/macbook/.silabs/legacy/apps/Simplicity Studio 5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2
+stack_id=com.silabs.sdk.stack.super:3.2.9._1270473715
+stack_state=OK
+framework_count=2
+extension_scan_framework_count=0
+extension_scan_error_count=0
+findFrameworks_afv2_count=0
+findFrameworks_znet_count=0
+framework[0]=class=com.ember.workbench.app_framework.application.Framework name=Configurable Application id=application variant=None dir=/Users/macbook/.silabs/legacy/apps/Simplicity Studio 5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/bootloader/application configurator=False extension_ids=[]
+framework[1]=class=com.ember.workbench.app_framework.application.Framework name=Gecko Bootloader id=bootloader variant=None dir=/Users/macbook/.silabs/legacy/apps/Simplicity Studio 5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/bootloader configurator=False extension_ids=[]
+no_app_configurator_found=1

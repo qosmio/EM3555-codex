@@ -1,0 +1,878 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:24
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\bootloader-interface-app.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\bootloader-interface-app.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\bootloader-interface-app.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"bootloader-interface-app.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\bootloader-interface-app.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\bootloader-interface-app.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\bootloader-interface-app.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\bootloader-interface-app.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\bootloader-interface-app.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Cortex M3 application bootloader interface.
+      4           *              Provides routines used by applications to access and verify
+      5           *              the bootload image.
+      6           *******************************************************************************
+      7           * # License
+      8           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      9           *******************************************************************************
+     10           *
+     11           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     12           * software is governed by the terms of Silicon Labs Master Software License
+     13           * Agreement (MSLA) available at
+     14           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     15           * software is distributed to you in Source Code format and is governed by the
+     16           * sections of the MSLA applicable to Source Code.
+     17           *
+     18           ******************************************************************************/
+     19          #include PLATFORM_HEADER
+     20          #include "stack/include/ember-types.h"
+     21          #include "stack/include/error.h"
+     22          #include "hal/hal.h"
+     23          #include "hal/micro/cortexm3/common/bootloader-common.h"
+     24          #include "hal/micro/cortexm3/common/ebl.h"
+     25          #include "hal/micro/cortexm3/memmap.h"
+     26          
+
+   \                                 In section .text, align 2, keep-with-next
+     27          static void verifyAppBlVersion(uint16_t version)
+     28          {
+     29            assert(BOOTLOADER_BASE_TYPE(halBootloaderAddressTable.bootloaderType)
+     30                   == BL_TYPE_APPLICATION
+     31                   && halBootloaderAddressTable.baseTable.version >= version);
+   \                     verifyAppBlVersion: (+1)
+   \        0x0   0x....             LDR.N    R1,??DataTable13
+   \        0x2   0x8B0A             LDRH     R2,[R1, #+24]
+   \        0x4   0x0A12             LSRS     R2,R2,#+8
+   \        0x6   0x2A02             CMP      R2,#+2
+   \        0x8   0xD102             BNE.N    ??verifyAppBlVersion_0
+   \        0xA   0x8A49             LDRH     R1,[R1, #+18]
+   \        0xC   0x4281             CMP      R1,R0
+   \        0xE   0xD203             BCS.N    ??verifyAppBlVersion_1
+   \                     ??verifyAppBlVersion_0: (+1)
+   \       0x10   0x211F             MOVS     R1,#+31
+   \       0x12   0x....             LDR.N    R0,??DataTable13_1
+   \       0x14   0x.... 0x....      B.W      halInternalAssertFailed
+     32          }
+   \                     ??verifyAppBlVersion_1: (+1)
+   \       0x18   0x4770             BX       LR
+     33          
+
+   \                                 In section .text, align 2, keep-with-next
+     34          uint8_t halAppBootloaderInit(void)
+     35          {
+   \                     halAppBootloaderInit: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     36            // version 0x0105 is the version where the eeprom shared code was
+     37            //   added to the BAT
+     38            verifyAppBlVersion(0x0105);
+   \        0x2   0xF240 0x1005      MOVW     R0,#+261
+   \        0x6   0x.... 0x....      BL       verifyAppBlVersion
+     39          
+     40            // version 0x0108 is where eepromInit was updated with a return value
+     41            if (halBootloaderAddressTable.baseTable.version >= 0x0108U) {
+   \        0xA   0x....             LDR.N    R1,??DataTable13
+   \        0xC   0x6B08             LDR      R0,[R1, #+48]
+   \        0xE   0x8A49             LDRH     R1,[R1, #+18]
+   \       0x10   0xF5B1 0x7F84      CMP      R1,#+264
+   \       0x14   0xD302             BCC.N    ??halAppBootloaderInit_0
+     42              return halBootloaderAddressTable.eepromInit();
+   \       0x16   0xE8BD 0x4002      POP      {R1,LR}
+   \       0x1A   0x4700             BX       R0
+     43            } else {
+     44              halBootloaderAddressTable.eepromInit();
+   \                     ??halAppBootloaderInit_0: (+1)
+   \       0x1C   0x4780             BLX      R0
+     45              return EEPROM_SUCCESS;
+   \       0x1E   0x2000             MOVS     R0,#+0
+   \       0x20   0xBD02             POP      {R1,PC}
+     46            }
+     47          }
+     48          
+
+   \                                 In section .bss, align 4
+     49          HalEepromInformationType fixedEepromInfo;
+   \                     fixedEepromInfo:
+   \        0x0                      DS8 24
+     50          
+
+   \                                 In section .text, align 2, keep-with-next
+     51          const HalEepromInformationType *halAppBootloaderInfo(void)
+     52          {
+   \                     halAppBootloaderInfo: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+     53            // version 0x0105 is the version where the eeprom shared code was
+     54            //   added to the BAT
+     55            verifyAppBlVersion(0x0105);
+   \        0x2   0xF240 0x1005      MOVW     R0,#+261
+   \        0x6   0x.... 0x....      BL       verifyAppBlVersion
+     56          
+     57            // version 0x0108 is where support for this API was added
+     58            if (halBootloaderAddressTable.baseTable.version >= 0x0108U) {
+   \        0xA   0x....             LDR.N    R0,??DataTable13
+   \        0xC   0x8A41             LDRH     R1,[R0, #+18]
+   \        0xE   0xF5B1 0x7F84      CMP      R1,#+264
+   \       0x12   0xD31A             BCC.N    ??halAppBootloaderInfo_0
+     59              // For internal flash bootloaders we need to ask the app for the size of
+     60              // internal storage since the bootloader doesn't know at build time, but only
+     61              // if we have actually set an internal storage bottom in this app. If not, then
+     62              // we return the default struct which has a size of 0.
+     63              if ((halBootloaderAddressTable.bootloaderType == BL_EXT_TYPE_APP_LOCAL_STORAGE)
+     64                  && ((uint32_t)(uint8_t *)halAppAddressTable.internalStorageBottom > MFB_BOTTOM)) {
+   \       0x14   0x8B01             LDRH     R1,[R0, #+24]
+   \       0x16   0xF240 0x2203      MOVW     R2,#+515
+   \       0x1A   0x4291             CMP      R1,R2
+   \       0x1C   0xD111             BNE.N    ??halAppBootloaderInfo_1
+   \       0x1E   0x....             LDR.N    R1,??DataTable13_2
+   \       0x20   0x6DCC             LDR      R4,[R1, #+92]
+   \       0x22   0x....             LDR.N    R1,??DataTable13_3
+   \       0x24   0x428C             CMP      R4,R1
+   \       0x26   0xD30C             BCC.N    ??halAppBootloaderInfo_1
+     65                HalEepromInformationType *temp = (HalEepromInformationType*)halBootloaderAddressTable.eepromInfo();
+   \       0x28   0x6C00             LDR      R0,[R0, #+64]
+   \       0x2A   0x4780             BLX      R0
+     66                MEMCOPY(&fixedEepromInfo, temp, (uint16_t)sizeof(fixedEepromInfo));
+   \       0x2C   0x....             LDR.N    R5,??DataTable13_4
+   \       0x2E   0x2218             MOVS     R2,#+24
+   \       0x30   0x4601             MOV      R1,R0
+   \       0x32   0x4628             MOV      R0,R5
+   \       0x34   0x.... 0x....      BL       __aeabi_memcpy4
+     67                fixedEepromInfo.partSize = (MFB_TOP - (uint32_t)(uint8_t *)halAppAddressTable.internalStorageBottom + 1U);
+   \       0x38   0x....             LDR.N    R0,??DataTable13_5
+   \       0x3A   0x1B04             SUBS     R4,R0,R4
+   \       0x3C   0x60EC             STR      R4,[R5, #+12]
+     68                return &fixedEepromInfo;
+   \       0x3E   0x4628             MOV      R0,R5
+   \       0x40   0xBD32             POP      {R1,R4,R5,PC}
+     69              } else {
+     70                return (const HalEepromInformationType *)halBootloaderAddressTable.eepromInfo();
+   \                     ??halAppBootloaderInfo_1: (+1)
+   \       0x42   0x6C00             LDR      R0,[R0, #+64]
+   \       0x44   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x48   0x4700             BX       R0
+     71              }
+     72            } else {
+     73              // earlier versions did not support this API, so we can only return NULL
+     74              return NULL;
+   \                     ??halAppBootloaderInfo_0: (+1)
+   \       0x4A   0x2000             MOVS     R0,#+0
+   \       0x4C   0xBD32             POP      {R1,R4,R5,PC}
+     75            }
+     76          }
+     77          
+
+   \                                 In section .text, align 2, keep-with-next
+     78          void halAppBootloaderShutdown(void)
+     79          {
+   \                     halAppBootloaderShutdown: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     80            // version 0x0107 is the version where the eeprom drivers were updated
+     81            //  to handle shutdown
+     82            verifyAppBlVersion(0x0107);
+   \        0x2   0xF240 0x1007      MOVW     R0,#+263
+   \        0x6   0x.... 0x....      BL       verifyAppBlVersion
+     83          
+     84            halBootloaderAddressTable.eepromShutdown();
+   \        0xA   0x....             LDR.N    R0,??DataTable13
+   \        0xC   0x6BC0             LDR      R0,[R0, #+60]
+   \        0xE   0xE8BD 0x4002      POP      {R1,LR}
+   \       0x12   0x4700             BX       R0
+     85          }
+     86          
+
+   \                                 In section .bss, align 4
+     87          EepromStateType eepromState;
+   \                     eepromState:
+   \        0x0                      DS8 140
+     88          
+     89          #if EEPROM_PAGE_SIZE < EBL_MIN_TAG_SIZE
+     90            #error EEPROM_PAGE_SIZE smaller than EBL_MIN_TAG_SIZE
+     91          #endif
+
+   \                                 In section .bss, align 4
+     92          static uint8_t buff[EEPROM_PAGE_SIZE];
+   \                     buff:
+   \        0x0                      DS8 128
+
+   \                                 In section .bss, align 4
+     93          EblConfigType eblConfig;
+   \                     eblConfig:
+   \        0x0                      DS8 212
+     94          
+
+   \                                 In section .text, align 2, keep-with-next
+     95          void halAppBootloaderImageIsValidReset(void)
+     96          {
+   \                     halAppBootloaderImageIsValidReset: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+     97            // version 0x0104 is the version where the eblProcess shared code was
+     98            //   moved to its final location in the BAT
+     99            verifyAppBlVersion(0x0104);
+   \        0x2   0xF44F 0x7082      MOV      R0,#+260
+   \        0x6   0x.... 0x....      BL       verifyAppBlVersion
+    100          
+    101            eepromState.address = EEPROM_IMAGE_START;
+   \        0xA   0x....             LDR.N    R1,??DataTable13_6
+   \        0xC   0x2000             MOVS     R0,#+0
+   \        0xE   0x6008             STR      R0,[R1, #+0]
+    102            eepromState.pages = 0;
+   \       0x10   0x6048             STR      R0,[R1, #+4]
+    103            eepromState.pageBufFinger = 0;
+    104            eepromState.pageBufLen = 0;
+   \       0x12   0x8108             STRH     R0,[R1, #+8]
+    105            halBootloaderAddressTable.eblProcessInit(&eblConfig,
+    106                                                     &eepromState,
+    107                                                     buff,
+    108                                                     EBL_MIN_TAG_SIZE,
+    109                                                     true);
+   \       0x14   0x2001             MOVS     R0,#+1
+   \       0x16   0x9000             STR      R0,[SP, #+0]
+   \       0x18   0x2380             MOVS     R3,#+128
+   \       0x1A   0x....             LDR.N    R2,??DataTable13_7
+   \       0x1C   0x....             LDR.N    R0,??DataTable13_8
+   \       0x1E   0x....             LDR.N    R4,??DataTable13
+   \       0x20   0x6A64             LDR      R4,[R4, #+36]
+   \       0x22   0x47A0             BLX      R4
+    110          }
+   \       0x24   0xBD13             POP      {R0,R1,R4,PC}
+    111          
+
+   \                                 In section .text, align 2, keep-with-next
+    112          uint16_t halAppBootloaderImageIsValid(void)
+    113          {
+   \                     halAppBootloaderImageIsValid: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    114            BL_Status status;
+    115            // version 0x0104 is the version where the eblProcess shared code was
+    116            //   moved to its final location in the BAT
+    117            verifyAppBlVersion(0x0104);
+   \        0x2   0xF44F 0x7082      MOV      R0,#+260
+   \        0x6   0x.... 0x....      BL       verifyAppBlVersion
+    118          
+    119            status = halBootloaderAddressTable.eblProcess(halBootloaderAddressTable.eblDataFuncs,
+    120                                                          &eblConfig,
+    121                                                          NULL);
+   \        0xA   0x....             LDR.N    R3,??DataTable13
+   \        0xC   0x2200             MOVS     R2,#+0
+   \        0xE   0x....             LDR.N    R1,??DataTable13_8
+   \       0x10   0x6AD8             LDR      R0,[R3, #+44]
+   \       0x12   0x6A9B             LDR      R3,[R3, #+40]
+   \       0x14   0x4798             BLX      R3
+    122            if (status == BL_EBL_CONTINUE) {
+   \       0x16   0x2850             CMP      R0,#+80
+   \       0x18   0xD102             BNE.N    ??halAppBootloaderImageIsValid_0
+    123              return BL_IMAGE_IS_VALID_CONTINUE;
+   \       0x1A   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x1E   0xBD02             POP      {R1,PC}
+    124            } else if (status == BL_SUCCESS) {
+   \                     ??halAppBootloaderImageIsValid_0: (+1)
+   \       0x20   0x2800             CMP      R0,#+0
+   \       0x22   0xD102             BNE.N    ??halAppBootloaderImageIsValid_1
+    125              return eepromState.pages;
+   \       0x24   0x....             LDR.N    R0,??DataTable13_6
+   \       0x26   0x8880             LDRH     R0,[R0, #+4]
+   \       0x28   0xBD02             POP      {R1,PC}
+    126            } else {
+    127              // error, return invalid
+    128              return 0;
+   \                     ??halAppBootloaderImageIsValid_1: (+1)
+   \       0x2A   0x2000             MOVS     R0,#+0
+   \       0x2C   0xBD02             POP      {R1,PC}
+    129            }
+    130          }
+    131          
+
+   \                                 In section .text, align 2, keep-with-next
+    132          EmberStatus halAppBootloaderInstallNewImage(void)
+    133          {
+   \                     halAppBootloaderInstallNewImage: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    134            if (BOOTLOADER_BASE_TYPE(halBootloaderAddressTable.bootloaderType)
+    135                == BL_TYPE_APPLICATION) {
+   \        0x2   0x....             LDR.N    R0,??DataTable13
+   \        0x4   0x8B00             LDRH     R0,[R0, #+24]
+   \        0x6   0x0A00             LSRS     R0,R0,#+8
+   \        0x8   0x2802             CMP      R0,#+2
+   \        0xA   0xD103             BNE.N    ??halAppBootloaderInstallNewImage_0
+    136              // will not return
+    137              halInternalSysReset(RESET_BOOTLOADER_BOOTLOAD);
+   \        0xC   0xF240 0x2002      MOVW     R0,#+514
+   \       0x10   0x.... 0x....      BL       halInternalSysReset
+    138            }
+    139            return (EmberStatus) EMBER_ERR_FATAL;
+   \                     ??halAppBootloaderInstallNewImage_0: (+1)
+   \       0x14   0x2001             MOVS     R0,#+1
+   \       0x16   0xBD02             POP      {R1,PC}
+    140          }
+    141          
+
+   \                                 In section .text, align 2, keep-with-next
+    142          uint8_t halAppBootloaderWriteRawStorage(uint32_t address,
+    143                                                  const uint8_t *data,
+    144                                                  uint16_t len)
+    145          {
+   \                     halAppBootloaderWriteRawStorage: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+   \        0x6   0x4616             MOV      R6,R2
+    146            // version 0x0107 is the version where the eeprom drivers were updated
+    147            //  to handle arbitrary address/data/len values
+    148            verifyAppBlVersion(0x0107);
+   \        0x8   0xF240 0x1007      MOVW     R0,#+263
+   \        0xC   0x.... 0x....      BL       verifyAppBlVersion
+    149          
+    150            return halBootloaderAddressTable.eepromWrite(address, data, len);
+   \       0x10   0x4632             MOV      R2,R6
+   \       0x12   0x4629             MOV      R1,R5
+   \       0x14   0x4620             MOV      R0,R4
+   \       0x16   0x....             LDR.N    R3,??DataTable13
+   \       0x18   0x6B9B             LDR      R3,[R3, #+56]
+   \       0x1A   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \       0x1E   0x4718             BX       R3
+    151          }
+    152          
+
+   \                                 In section .text, align 2, keep-with-next
+    153          uint8_t halAppBootloaderReadRawStorage(uint32_t address, uint8_t *data, uint16_t len)
+    154          {
+   \                     halAppBootloaderReadRawStorage: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+   \        0x6   0x4616             MOV      R6,R2
+    155            // version 0x0107 is the version where the eeprom drivers were updated
+    156            //  to handle arbitrary address/data/len values
+    157            verifyAppBlVersion(0x0107);
+   \        0x8   0xF240 0x1007      MOVW     R0,#+263
+   \        0xC   0x.... 0x....      BL       verifyAppBlVersion
+    158          
+    159            return halBootloaderAddressTable.eepromRead(address, data, len);
+   \       0x10   0x4632             MOV      R2,R6
+   \       0x12   0x4629             MOV      R1,R5
+   \       0x14   0x4620             MOV      R0,R4
+   \       0x16   0x....             LDR.N    R3,??DataTable13
+   \       0x18   0x6B5B             LDR      R3,[R3, #+52]
+   \       0x1A   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \       0x1E   0x4718             BX       R3
+    160          }
+    161          
+
+   \                                 In section .text, align 2, keep-with-next
+    162          uint8_t halAppBootloaderEraseRawStorage(uint32_t address, uint32_t len)
+    163          {
+   \                     halAppBootloaderEraseRawStorage: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    164            // version 0x0107 is the version where the eeprom drivers were updated
+    165            //  to handle arbitrary address/data/len values.  Should have at least
+    166            //  that version to be calling this API.
+    167            verifyAppBlVersion(0x0107);
+   \        0x6   0xF240 0x1007      MOVW     R0,#+263
+   \        0xA   0x.... 0x....      BL       verifyAppBlVersion
+    168          
+    169            // version 0x0108 is where support for erasing storage was added
+    170            if (halBootloaderAddressTable.baseTable.version >= 0x0108U) {
+   \        0xE   0x....             LDR.N    R2,??DataTable13
+   \       0x10   0x8A50             LDRH     R0,[R2, #+18]
+   \       0x12   0xF5B0 0x7F84      CMP      R0,#+264
+   \       0x16   0xD305             BCC.N    ??halAppBootloaderEraseRawStorage_0
+    171              return halBootloaderAddressTable.eepromErase(address, len);
+   \       0x18   0x4629             MOV      R1,R5
+   \       0x1A   0x4620             MOV      R0,R4
+   \       0x1C   0x6C52             LDR      R2,[R2, #+68]
+   \       0x1E   0xE8BD 0x4038      POP      {R3-R5,LR}
+   \       0x22   0x4710             BX       R2
+    172            } else {
+    173              // earlier versions did not support this API, but earlier drivers also
+    174              //  did not require erasing, so we return an error
+    175              return EEPROM_ERR_NO_ERASE_SUPPORT;
+   \                     ??halAppBootloaderEraseRawStorage_0: (+1)
+   \       0x24   0x2088             MOVS     R0,#+136
+   \       0x26   0xBD32             POP      {R1,R4,R5,PC}
+    176            }
+    177          }
+    178          
+
+   \                                 In section .text, align 2, keep-with-next
+    179          bool halAppBootloaderStorageBusy(void)
+    180          {
+   \                     halAppBootloaderStorageBusy: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    181            // version 0x0107 is the version where the eeprom drivers were updated
+    182            //  to handle arbitrary address/data/len values.  Should have at least
+    183            //  that version to be calling this API.
+    184            verifyAppBlVersion(0x0107);
+   \        0x2   0xF240 0x1007      MOVW     R0,#+263
+   \        0x6   0x.... 0x....      BL       verifyAppBlVersion
+    185          
+    186            // version 0x0108 is where support for busy detection was added
+    187            if (halBootloaderAddressTable.baseTable.version >= 0x0108U) {
+   \        0xA   0x....             LDR.N    R0,??DataTable13
+   \        0xC   0x8A41             LDRH     R1,[R0, #+18]
+   \        0xE   0xF5B1 0x7F84      CMP      R1,#+264
+   \       0x12   0xD303             BCC.N    ??halAppBootloaderStorageBusy_0
+    188              return halBootloaderAddressTable.eepromBusy();
+   \       0x14   0x6C80             LDR      R0,[R0, #+72]
+   \       0x16   0xE8BD 0x4002      POP      {R1,LR}
+   \       0x1A   0x4700             BX       R0
+    189            } else {
+    190              // earlier versions did not support this API, so we can only assume the
+    191              //  operation is complete and return false.
+    192              return false;
+   \                     ??halAppBootloaderStorageBusy_0: (+1)
+   \       0x1C   0x2000             MOVS     R0,#+0
+   \       0x1E   0xBD02             POP      {R1,PC}
+    193            }
+    194          }
+    195          
+    196          // DEPRECATED
+    197          // halAppBootloaderReadDownloadSpace
+    198          //
+    199          // Convert pageToBeRead to an address and call EEPROM read function.
+    200          //
+    201          // Parameters:
+    202          // pageToBeRead - pass in the page to be read, starting at 0. This will be
+    203          //                converted to the appropriate address. Pages are
+    204          //                EEPROM_PAGE_SIZE long.
+    205          // destRamBuffer - a pointer to the buffer to write to
+    206          //
+    207          // Returns EEPROM_SUCCESS or EEPROM_ERR
+    208          //
+
+   \                                 In section .text, align 2, keep-with-next
+    209          uint8_t halAppBootloaderReadDownloadSpace(uint16_t pageToBeRead,
+    210                                                    uint8_t* destRamBuffer)
+    211          {
+    212            uint32_t address;
+    213          
+    214            // convert page to address
+    215            address = (pageToBeRead * (uint32_t)EEPROM_PAGE_SIZE) + EEPROM_IMAGE_START;
+    216          
+    217            // read a page
+    218            return halAppBootloaderReadRawStorage(address, destRamBuffer, EEPROM_PAGE_SIZE);
+   \                     halAppBootloaderReadDownloadSpace: (+1)
+   \        0x0   0x2280             MOVS     R2,#+128
+   \        0x2   0x01C0             LSLS     R0,R0,#+7
+   \        0x4   0x....             B.N      halAppBootloaderReadRawStorage
+    219          }
+    220          
+    221          // DEPRECATED
+    222          // halAppBootloaderWriteDownloadSpace
+    223          //
+    224          // Convert pageToBeWritten to an address and call EEPROM write function
+    225          //
+    226          // Parameters
+    227          // pageToBeWritten - pass in the page to be read, starting at 0. This will
+    228          //                   be converted to the appropriate address. Pages are
+    229          //                   EEPROM_PAGE_SIZE long.
+    230          // RamPtr - a pointer to the data to be written
+    231          //
+    232          // Returns EEPROM_SUCCESS or EEPROM_ERR
+    233          //
+    234          //
+
+   \                                 In section .text, align 2, keep-with-next
+    235          uint8_t halAppBootloaderWriteDownloadSpace(uint16_t pageToBeWritten,
+    236                                                     uint8_t* RamPtr)
+    237          {
+    238            uint32_t address;
+    239          
+    240            // convert page to address
+    241            address = (pageToBeWritten * (uint32_t)EEPROM_PAGE_SIZE) + EEPROM_IMAGE_START;
+    242          
+    243            // write a page
+    244            return halAppBootloaderWriteRawStorage(address, RamPtr, EEPROM_PAGE_SIZE);
+   \                     halAppBootloaderWriteDownloadSpace: (+1)
+   \        0x0   0x2280             MOVS     R2,#+128
+   \        0x2   0x01C0             LSLS     R0,R0,#+7
+   \        0x4   0x....             B.N      halAppBootloaderWriteRawStorage
+    245          }
+    246          
+    247          // halAppBootloaderGetImageData
+    248          //
+    249          // Reads the timestamp and userData section of the saved application image
+    250          // header in EEPROM.
+    251          //
+    252          // Parameters
+    253          // timestamp - time the image was created
+    254          //
+    255          // userData - the IMAGE_INFO_MAXLEN character user data field
+    256          //
+
+   \                                 In section .text, align 2, keep-with-next
+    257          uint8_t halAppBootloaderGetImageData(uint32_t *timestamp, uint8_t  *userData)
+    258          {
+   \                     halAppBootloaderGetImageData: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    259            uint8_t i;
+    260            HalAppAddressTableType *aat;
+    261          
+    262            // read the first page of the app in EEPROM
+    263            if (halAppBootloaderReadDownloadSpace(EEPROM_FIRST_PAGE, buff) == EEPROM_SUCCESS
+    264                && (NTOHS(((eblHdr3xx_t *)buff)->signature) == IMAGE_SIGNATURE)) {
+   \        0x6   0x....             LDR.N    R6,??DataTable13_7
+   \        0x8   0x4631             MOV      R1,R6
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0x.... 0x....      BL       halAppBootloaderReadDownloadSpace
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD116             BNE.N    ??halAppBootloaderGetImageData_0
+   \       0x14   0x88F0             LDRH     R0,[R6, #+6]
+   \       0x16   0xBA40             REV16    R0,R0
+   \       0x18   0xF24E 0x3150      MOVW     R1,#+58192
+   \       0x1C   0x4288             CMP      R0,R1
+   \       0x1E   0xD110             BNE.N    ??halAppBootloaderGetImageData_0
+    265              aat = (HalAppAddressTableType *)(((eblHdr3xx_t *)buff)->aatBuff);
+    266              // save the timestamp
+    267              if (timestamp != NULL) {
+   \       0x20   0x2C00             CMP      R4,#+0
+   \       0x22   0xD001             BEQ.N    ??halAppBootloaderGetImageData_1
+    268                *timestamp = aat->timestamp;
+   \       0x24   0x6B30             LDR      R0,[R6, #+48]
+   \       0x26   0x6020             STR      R0,[R4, #+0]
+    269              }
+    270          
+    271              // save the image info
+    272              if (userData != NULL) {
+   \                     ??halAppBootloaderGetImageData_1: (+1)
+   \       0x28   0x2D00             CMP      R5,#+0
+   \       0x2A   0xD008             BEQ.N    ??halAppBootloaderGetImageData_2
+    273                for (i = 0; i < IMAGE_INFO_MAXLEN; i++) {
+   \       0x2C   0x2000             MOVS     R0,#+0
+   \       0x2E   0xE004             B.N      ??halAppBootloaderGetImageData_3
+    274                  userData[i] = aat->imageInfo[i];
+   \                     ??halAppBootloaderGetImageData_4: (+1)
+   \       0x30   0x1831             ADDS     R1,R6,R0
+   \       0x32   0xF891 0x1034      LDRB     R1,[R1, #+52]
+   \       0x36   0x5429             STRB     R1,[R5, R0]
+    275                }
+   \       0x38   0x1C40             ADDS     R0,R0,#+1
+   \                     ??halAppBootloaderGetImageData_3: (+1)
+   \       0x3A   0x2810             CMP      R0,#+16
+   \       0x3C   0xD3F8             BCC.N    ??halAppBootloaderGetImageData_4
+    276              }
+    277              return EEPROM_SUCCESS;
+   \                     ??halAppBootloaderGetImageData_2: (+1)
+   \       0x3E   0x2000             MOVS     R0,#+0
+   \       0x40   0xBD70             POP      {R4-R6,PC}
+    278            } else {
+    279              return EEPROM_ERR;
+   \                     ??halAppBootloaderGetImageData_0: (+1)
+   \       0x42   0x2001             MOVS     R0,#+1
+   \       0x44   0xBD70             POP      {R4-R6,PC}
+    280            }
+    281          }
+    282          
+    283          // halAppBootloaderGetVersion
+    284          //
+    285          // Returns the application bootloader version
+    286          //
+
+   \                                 In section .text, align 2, keep-with-next
+    287          uint16_t halAppBootloaderGetVersion(void)
+    288          {
+    289            if (BOOTLOADER_BASE_TYPE(halBootloaderAddressTable.bootloaderType)
+    290                == BL_TYPE_APPLICATION) {
+   \                     halAppBootloaderGetVersion: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable13
+   \        0x2   0x8B01             LDRH     R1,[R0, #+24]
+   \        0x4   0x0A09             LSRS     R1,R1,#+8
+   \        0x6   0x2902             CMP      R1,#+2
+   \        0x8   0xD101             BNE.N    ??halAppBootloaderGetVersion_0
+    291              return halBootloaderAddressTable.bootloaderVersion;
+   \        0xA   0x8B40             LDRH     R0,[R0, #+26]
+   \        0xC   0x4770             BX       LR
+    292            } else {
+    293              return BOOTLOADER_INVALID_VERSION;
+   \                     ??halAppBootloaderGetVersion_0: (+1)
+   \        0xE   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x12   0x4770             BX       LR
+    294            }
+    295          }
+    296          
+    297          // halAppBootloaderGetRecoveryVersion
+    298          //
+    299          // Returns the recovery image version
+    300          //
+
+   \                                 In section .text, align 2, keep-with-next
+    301          uint16_t halAppBootloaderGetRecoveryVersion(void)
+    302          {
+    303            // the recovery image is part of the app bootloader itself on the 35x
+    304            return halAppBootloaderGetVersion();
+   \                     halAppBootloaderGetRecoveryVersion: (+1)
+   \        0x0   0x....             B.N      halAppBootloaderGetVersion
+    305          }
+    306          
+    307          // halAppBootloaderSupportsIbr
+    308          //
+    309          // Returns whether the bootloader suppoerts IBRs
+    310          //
+
+   \                                 In section .text, align 2, keep-with-next
+    311          bool halAppBootloaderSupportsIbr(void)
+    312          {
+    313            return halBootloaderAddressTable.baseTable.type == BOOTLOADER_ADDRESS_TABLE_TYPE
+    314                   && BOOTLOADER_BASE_TYPE(halBootloaderAddressTable.bootloaderType) == BL_TYPE_APPLICATION
+    315                   && halBootloaderAddressTable.baseTable.version >= BAT_MIN_IBR_VERSION;
+   \                     halAppBootloaderSupportsIbr: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable13
+   \        0x2   0x8A01             LDRH     R1,[R0, #+16]
+   \        0x4   0xF640 0x32A7      MOVW     R2,#+2983
+   \        0x8   0x4291             CMP      R1,R2
+   \        0xA   0xD109             BNE.N    ??halAppBootloaderSupportsIbr_0
+   \        0xC   0x8B01             LDRH     R1,[R0, #+24]
+   \        0xE   0x0A09             LSRS     R1,R1,#+8
+   \       0x10   0x2902             CMP      R1,#+2
+   \       0x12   0xD105             BNE.N    ??halAppBootloaderSupportsIbr_0
+   \       0x14   0x8A40             LDRH     R0,[R0, #+18]
+   \       0x16   0xF5B0 0x7F85      CMP      R0,#+266
+   \       0x1A   0xDB01             BLT.N    ??halAppBootloaderSupportsIbr_0
+   \       0x1C   0x2001             MOVS     R0,#+1
+   \       0x1E   0x4770             BX       LR
+   \                     ??halAppBootloaderSupportsIbr_0: (+1)
+   \       0x20   0x2000             MOVS     R0,#+0
+   \       0x22   0x4770             BX       LR
+    316          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13:
+   \        0x0   0x....'....        DC32     halBootloaderAddressTable
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_1:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_2:
+   \        0x0   0x....'....        DC32     halAppAddressTable
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_3:
+   \        0x0   0x0800'0001        DC32     0x8000001
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_4:
+   \        0x0   0x....'....        DC32     fixedEepromInfo
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_5:
+   \        0x0   0x0808'0000        DC32     0x8080000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_6:
+   \        0x0   0x....'....        DC32     eepromState
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_7:
+   \        0x0   0x....'....        DC32     buff
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_8:
+   \        0x0   0x....'....        DC32     eblConfig
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x62 0x6F          DC8 "bootloader-interface-app.c"
+   \              0x6F 0x74    
+   \              0x6C 0x6F    
+   \              0x61 0x64    
+   \              0x65 0x72    
+   \              0x2D 0x69    
+   \              0x6E 0x74    
+   \              0x65 0x72    
+   \              0x66 0x61    
+   \              0x63 0x65    
+   \              0x2D 0x61    
+   \              0x70 0x70    
+   \              0x2E 0x63    
+   \              0x00
+   \       0x1B                      DS8 1
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   halAppBootloaderEraseRawStorage
+         0   -- Indirect call
+        16   -> verifyAppBlVersion
+      16   halAppBootloaderGetImageData
+        16   -> halAppBootloaderReadDownloadSpace
+       0   halAppBootloaderGetRecoveryVersion
+         0   -> halAppBootloaderGetVersion
+       0   halAppBootloaderGetVersion
+       8   halAppBootloaderImageIsValid
+         8   -- Indirect call
+         8   -> verifyAppBlVersion
+      16   halAppBootloaderImageIsValidReset
+        16   -- Indirect call
+        16   -> verifyAppBlVersion
+      16   halAppBootloaderInfo
+         0   -- Indirect call
+        16   -- Indirect call
+        16   -> __aeabi_memcpy4
+        16   -> verifyAppBlVersion
+       8   halAppBootloaderInit
+         0   -- Indirect call
+         8   -- Indirect call
+         8   -> verifyAppBlVersion
+       8   halAppBootloaderInstallNewImage
+         8   -> halInternalSysReset
+       0   halAppBootloaderReadDownloadSpace
+         0   -> halAppBootloaderReadRawStorage
+      16   halAppBootloaderReadRawStorage
+         0   -- Indirect call
+        16   -> verifyAppBlVersion
+       8   halAppBootloaderShutdown
+         0   -- Indirect call
+         8   -> verifyAppBlVersion
+       8   halAppBootloaderStorageBusy
+         0   -- Indirect call
+         8   -> verifyAppBlVersion
+       0   halAppBootloaderSupportsIbr
+       0   halAppBootloaderWriteDownloadSpace
+         0   -> halAppBootloaderWriteRawStorage
+      16   halAppBootloaderWriteRawStorage
+         0   -- Indirect call
+        16   -> verifyAppBlVersion
+       0   verifyAppBlVersion
+         0   -> halInternalAssertFailed
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable13
+       4  ??DataTable13_1
+       4  ??DataTable13_2
+       4  ??DataTable13_3
+       4  ??DataTable13_4
+       4  ??DataTable13_5
+       4  ??DataTable13_6
+       4  ??DataTable13_7
+       4  ??DataTable13_8
+      28  ?_0
+     128  buff
+     212  eblConfig
+     140  eepromState
+      24  fixedEepromInfo
+      40  halAppBootloaderEraseRawStorage
+      70  halAppBootloaderGetImageData
+       2  halAppBootloaderGetRecoveryVersion
+      20  halAppBootloaderGetVersion
+      46  halAppBootloaderImageIsValid
+      38  halAppBootloaderImageIsValidReset
+      78  halAppBootloaderInfo
+      34  halAppBootloaderInit
+      24  halAppBootloaderInstallNewImage
+       6  halAppBootloaderReadDownloadSpace
+      32  halAppBootloaderReadRawStorage
+      20  halAppBootloaderShutdown
+      32  halAppBootloaderStorageBusy
+      36  halAppBootloaderSupportsIbr
+       6  halAppBootloaderWriteDownloadSpace
+      32  halAppBootloaderWriteRawStorage
+      26  verifyAppBlVersion
+
+ 
+ 504 bytes in section .bss
+  28 bytes in section .rodata
+ 578 bytes in section .text
+ 
+ 578 bytes of CODE  memory
+  28 bytes of CONST memory
+ 504 bytes of DATA  memory
+
+Errors: none
+Warnings: none

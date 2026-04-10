@@ -1,0 +1,1058 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         01/Apr/2026  22:04:32
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\debug-jtag\debug-jtag-em3xx.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\debug-jtag-em3xx.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\debug-jtag\debug-jtag-em3xx.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"debug-jtag-em3xx.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\debug-jtag\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\debug-jtag-em3xx.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\debug-jtag-em3xx.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\debug-jtag-em3xx.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\debug-jtag-em3xx.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\debug-jtag\debug-jtag-em3xx.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief EM3XX Debug Transport Mechanism (JTAG)
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "hal/hal.h"
+
+   \                                 In section .text, align 2, keep-with-next
+   \   static __softfp void __NVIC_EnableIRQ(IRQn_Type)
+   \                     __NVIC_EnableIRQ: (+1)
+   \        0x0   0x0001             MOVS     R1,R0
+   \        0x2   0xD407             BMI.N    ??__NVIC_EnableIRQ_0
+   \        0x4   0x2201             MOVS     R2,#+1
+   \        0x6   0xF000 0x011F      AND      R1,R0,#0x1F
+   \        0xA   0x408A             LSLS     R2,R2,R1
+   \        0xC   0x....             LDR.N    R1,??DataTable6
+   \        0xE   0x0940             LSRS     R0,R0,#+5
+   \       0x10   0xF841 0x2020      STR      R2,[R1, R0, LSL #+2]
+   \                     ??__NVIC_EnableIRQ_0: (+1)
+   \       0x14   0x4770             BX       LR
+
+  #define EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\em3555-rgbw.h",10  Warning[Pa181]: 
+          incompatible redefinition of macro
+          "EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER" (defined on
+          command line)
+     19          #include "hal/plugin/debug-jtag/debug-channel.h"
+     20          #include "buffer_manager/buffer-management.h"
+     21          
+     22          #if DEBUG_LEVEL >= BASIC_DEBUG
+     23          
+     24          #define RAM_VERSION_INDEX           0
+     25          #define RAM_IN_LENGTH_INDEX         1
+     26          #define RAM_IN_BLOCK_SIZE_INDEX     2
+     27          #define RAM_IN_BLOCK_POINTER_INDEX  4  // uint32_t pointer must be aligned
+     28          #define RAM_OUT_BLOCK_POINTER_INDEX 8  // uint32_t pointer must be aligned
+     29          #define RAM_OUT_STATUS_INDEX        12
+     30          #define RAM_OUT_LENGTH_INDEX        13
+     31          #define RAM_OUT_BLOCK_SIZE_INDEX    14
+     32          #define RAM_SIZE                    16
+     33          #define RAM_OUT_STATUS_GO   1
+     34          #define RAM_OUT_STATUS_STOP 2
+     35          #ifdef RAM_DEBUG_OUTPUT
+     36            #define RAM_VERSION 0xB5
+     37          #else
+     38            #define RAM_VERSION 0xA5
+     39          #endif
+     40          
+     41          #define ramInBlockPointer \
+     42            ((uint32_t *)(debugChannel + RAM_IN_BLOCK_POINTER_INDEX))
+     43          #define ramOutBlockPointer \
+     44            ((uint32_t *)(debugChannel + RAM_OUT_BLOCK_POINTER_INDEX))
+     45          
+     46          #define OUT_VERSION_INDEX   0U
+     47          #define OUT_TYPE_INDEX      1U
+     48          #define OUT_SEQUENCE_INDEX  3U
+     49          #define OUT_DATA_INDEX      4U
+     50          #define OUT_VERSION 0xD1
+     51          
+     52          #define TIMEOUT_MS 500U
+     53          
+     54          // This is the division factor used to generate the correct baud rate:
+     55          // NOTE:  If the prescaler is changed, then the delay in emDebugPowerDown
+     56          //        must be adjusted to be 50 bit times at the new baud rate.
+     57          #define SPEED_HZ 500000
+     58          // This is the amount of time needed to allow a VUART transmission to complete
+     59          // before halStackDebugPutBuffer can return.
+     60          // 20 byte fifo (four 4 byte transmissions plus their header byte)
+     61          // 10 bits per byte
+     62          // 500000 baud rate
+     63          // (1/500000) * (20*10) = 400 us
+     64          #define TX_COMPLETE_DELAY 400
+     65          
+     66          #define MIN(a, b) ((a) < (b) ? (a) : (b))
+     67          
+
+   \                                 In section DEBUG_CHANNEL, align 4
+     68          VAR_AT_SEGMENT(static uint8_t volatile debugChannel[RAM_SIZE], __DEBUG_CHANNEL__);
+   \                     debugChannel:
+   \        0x0                      DS8 16
+     69          
+     70          #include "stack/include/byte-utilities.h"
+     71          
+     72          #define DEBUG_OFF           0
+     73          #define DEBUG_INITIALIZED   1
+     74          #define DEBUG_ENABLED       2
+     75          #define DEBUG_POWERING_DOWN 3
+     76          
+
+   \                                 In section .bss, align 1
+     77          static uint8_t debugChannelState = DEBUG_OFF;
+   \                     debugChannelState:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     78          static uint8_t sequenceNumber = 0;
+   \                     sequenceNumber:
+   \        0x0                      DS8 1
+     79          
+
+   \                                 In section .text, align 2, keep-with-next
+     80          EmberStatus emDebugInit(void)
+     81          {
+   \                     emDebugInit: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+     82            DECLARE_INTERRUPT_STATE;
+     83            DISABLE_INTERRUPTS();
+   \        0x2   0x.... 0x....      BL       _disableBasePri
+   \        0x6   0x4604             MOV      R4,R0
+     84            // Only initialize the debug channel if we're currently in the OFF state
+     85            if (debugChannelState == DEBUG_OFF) {
+   \        0x8   0x....             LDR.N    R5,??DataTable6_1
+   \        0xA   0x7828             LDRB     R0,[R5, #+0]
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD10D             BNE.N    ??emDebugInit_0
+     86              #ifdef RAM_DEBUG_OUTPUT
+     87              *ramOutBlockPointer                    = 0;
+     88              // RAM_OUT_STATUS_INDEX is not modified.
+     89              debugChannel[RAM_OUT_LENGTH_INDEX]     = 0;
+     90              debugChannel[RAM_OUT_BLOCK_SIZE_INDEX] = 0;
+     91              #endif //RAM_DEBUG_OUTPUT
+     92          
+     93              *ramInBlockPointer                    = 0;
+   \       0x10   0x....             LDR.N    R0,??DataTable6_2
+   \       0x12   0x2100             MOVS     R1,#+0
+   \       0x14   0x6041             STR      R1,[R0, #+4]
+     94              debugChannel[RAM_IN_LENGTH_INDEX]     = 0;
+   \       0x16   0x7041             STRB     R1,[R0, #+1]
+     95              debugChannel[RAM_IN_BLOCK_SIZE_INDEX] = 0;
+   \       0x18   0x7081             STRB     R1,[R0, #+2]
+     96              debugChannel[RAM_VERSION_INDEX]       = RAM_VERSION;
+   \       0x1A   0x21A5             MOVS     R1,#+165
+   \       0x1C   0x7001             STRB     R1,[R0, #+0]
+     97              emberDebugReportRestore(true);
+   \       0x1E   0x2001             MOVS     R0,#+1
+   \       0x20   0x.... 0x....      BL       emberDebugReportRestore
+     98              emDebugClearStats();
+   \       0x24   0x.... 0x....      BL       emDebugClearStats
+     99              debugChannelState = DEBUG_INITIALIZED;
+   \       0x28   0x2001             MOVS     R0,#+1
+   \       0x2A   0x7028             STRB     R0,[R5, #+0]
+    100            }
+    101            RESTORE_INTERRUPTS();
+   \                     ??emDebugInit_0: (+1)
+   \       0x2C   0x4620             MOV      R0,R4
+   \       0x2E   0x.... 0x....      BL       _writeBasePri
+    102          
+    103            emDebugPowerUp();
+   \       0x32   0x.... 0x....      BL       emDebugPowerUp
+    104          
+    105            return EMBER_SUCCESS;
+   \       0x36   0x2000             MOVS     R0,#+0
+   \       0x38   0xBD32             POP      {R1,R4,R5,PC}
+    106          }
+    107          
+    108          //NOTE:  If emDebugPowerDown is ever called, emDebugPowerUp must be called
+    109          //       in order to restore configuration.
+
+   \                                 In section .text, align 2, keep-with-next
+    110          void emDebugPowerDown(void)
+    111          {
+   \                     emDebugPowerDown: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+    112            uint8_t done = false;
+   \        0x2   0x2500             MOVS     R5,#+0
+    113          
+    114            // Only begin the power down process if we're in the enabled state
+    115            {
+    116              DECLARE_INTERRUPT_STATE;
+    117              DISABLE_INTERRUPTS();
+   \        0x4   0x.... 0x....      BL       _disableBasePri
+    118              if (debugChannelState != DEBUG_ENABLED) {
+   \        0x8   0x....             LDR.N    R4,??DataTable6_1
+   \        0xA   0x7821             LDRB     R1,[R4, #+0]
+   \        0xC   0x2902             CMP      R1,#+2
+   \        0xE   0xD001             BEQ.N    ??emDebugPowerDown_0
+    119                done = true;
+   \       0x10   0x2501             MOVS     R5,#+1
+   \       0x12   0xE001             B.N      ??emDebugPowerDown_1
+    120              } else {
+    121                // Set the debug state back down to initialized
+    122                debugChannelState = DEBUG_POWERING_DOWN;
+   \                     ??emDebugPowerDown_0: (+1)
+   \       0x14   0x2103             MOVS     R1,#+3
+   \       0x16   0x7021             STRB     R1,[R4, #+0]
+    123              }
+    124              RESTORE_INTERRUPTS();
+   \                     ??emDebugPowerDown_1: (+1)
+   \       0x18   0x.... 0x....      BL       _writeBasePri
+    125            }
+    126            // Now that we're out of the disabled interrupts block return if we are done
+    127            if (done) {
+   \       0x1C   0x2D00             CMP      R5,#+0
+   \       0x1E   0xD11B             BNE.N    ??emDebugPowerDown_2
+    128              return;
+    129            }
+    130          
+    131            #ifndef RAM_DEBUG_OUTPUT
+    132            if ((ITM->TCR & ITM_TCR_ITMENA_Msk)) {
+   \       0x20   0x....             LDR.N    R0,??DataTable6_3
+   \       0x22   0x6801             LDR      R1,[R0, #+0]
+   \       0x24   0x07C9             LSLS     R1,R1,#+31
+   \       0x26   0xD515             BPL.N    ??emDebugPowerDown_3
+    133              //Set DWT Sync Tap to 0, disabling sync counting and preventing any
+    134              //new sync packets from being generated:
+    135              DWT->CTRL = (DWT->CTRL & (~DWT_CTRL_SYNCTAP_Msk));
+   \       0x28   0x....             LDR.N    R1,??DataTable6_4
+   \       0x2A   0x680A             LDR      R2,[R1, #+0]
+   \       0x2C   0xF422 0x6240      BIC      R2,R2,#0xC00
+   \       0x30   0x600A             STR      R2,[R1, #+0]
+    136          
+    137              //Disable ITM, preventing any new activity from being accepted.  Activity
+    138              //already in the hardware FIFO (such as stimulus output or sync output)
+    139              //will not be disrupted.
+    140              ITM->TCR &= ~ITM_TCR_ITMENA_Msk;
+   \       0x32   0x6801             LDR      R1,[R0, #+0]
+   \       0x34   0x0849             LSRS     R1,R1,#+1
+   \       0x36   0x0049             LSLS     R1,R1,#+1
+   \       0x38   0x6001             STR      R1,[R0, #+0]
+    141          
+    142              //Wait for the ITM to indicate that is has gone idle
+    143              while (ITM->TCR & ITM_TCR_BUSY_Msk) {
+   \                     ??emDebugPowerDown_4: (+1)
+   \       0x3A   0x6801             LDR      R1,[R0, #+0]
+   \       0x3C   0x0209             LSLS     R1,R1,#+8
+   \       0x3E   0xD4FC             BMI.N    ??emDebugPowerDown_4
+    144              }
+    145          
+    146              //Don't bother delaying during shutdown if CDBGPWRUPREQ is not set since
+    147              //this indicates that the debugger is not connected so we do not need
+    148              //to worry about cutting off some data.
+    149              if (CMHV->CPWRUPREQSTATUS) {
+   \       0x40   0x....             LDR.N    R0,??DataTable6_5
+   \       0x42   0x6800             LDR      R0,[R0, #+0]
+   \       0x44   0x2800             CMP      R0,#+0
+   \       0x46   0xD002             BEQ.N    ??emDebugPowerDown_5
+    150                //ARM suggests waiting long enough for 5 bytes of data to be output
+    151                //(50 bit times) which should ensure that any old data has been cleanly
+    152                //output.  50 bit times at 500kbps is 100us.  This matches with testing
+    153                //which has shown that the ITM TCR Busy flag will clear about 78us
+    154                //before the TPIU has finished transmitting.  Since the TPIU provides
+    155                //no means of knowing when it is empty/idle, we must manually delay.
+    156                halCommonDelayMicroseconds(100);
+   \       0x48   0x2064             MOVS     R0,#+100
+   \       0x4A   0x.... 0x....      BL       halCommonDelayMicroseconds
+    157              }
+    158          
+    159              //NOTE: At this point, all DWT/ITM/TPIU functionality must be idle
+    160              //      and remain idle until emDebugPowerUp is called.
+    161          
+    162              //When performing an emulated deep sleep the TPIU will go through a
+    163              //partial reset that causes the FIFO pointers to become out of sync.
+    164              //When the chip powers back up, the out of sync pointers will cause
+    165              //the TPIU to resend an unknown amount of data (unknown since we cannot
+    166              //predict how far the pointers will become out of sync).  Since there
+    167              //is no means of stopping or altering this transmission, our only
+    168              //option is to change the TPIU protocol to transmit (flush) these bytes
+    169              //as quickly as possible.  Since the GPIO will be powerup/reenabled
+    170              //before the TPIU is reconfigured, we need to maintain the same
+    171              //protocol used during normal operation (this means we can't switch
+    172              //from NRZ to 4bit synchronous and back again without generating extra
+    173              //edges on the GPIO).  The fastest method, therefore, is to reduce the
+    174              //prescalar and increase baud rate to maximum.  Given a maximum of 8
+    175              //bytes (80 NRZ bits) at 6Mhz, the transmission should complete in
+    176              //13.4us. Since cstartup normally takes ~50us of time, the garbage
+    177              //should be flushed long before LV_FREEZE is cleared and the GPIO are
+    178              //reconfigured for TPIU output.
+    179              TPI->ACPR = 0;    //fastest possible NRZ transmission
+   \                     ??emDebugPowerDown_5: (+1)
+   \       0x4E   0x2000             MOVS     R0,#+0
+   \       0x50   0x....             LDR.N    R1,??DataTable6_6
+   \       0x52   0x6008             STR      R0,[R1, #+0]
+    180            }
+    181            #endif //RAM_DEBUG_OUTPUT
+    182          
+    183            debugChannelState = DEBUG_INITIALIZED;
+   \                     ??emDebugPowerDown_3: (+1)
+   \       0x54   0x2001             MOVS     R0,#+1
+   \       0x56   0x7020             STRB     R0,[R4, #+0]
+    184          }
+   \                     ??emDebugPowerDown_2: (+1)
+   \       0x58   0xBD31             POP      {R0,R4,R5,PC}
+    185          
+
+   \                                 In section .text, align 2, keep-with-next
+    186          void emDebugPowerUp(void)
+    187          {
+   \                     emDebugPowerUp: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+    188            DECLARE_INTERRUPT_STATE;
+    189            DISABLE_INTERRUPTS();
+   \        0x2   0x.... 0x....      BL       _disableBasePri
+   \        0x6   0x4604             MOV      R4,R0
+    190            // Only enable the debug channel if it's in the initialized state
+    191            if (debugChannelState == DEBUG_INITIALIZED) {
+   \        0x8   0x....             LDR.N    R5,??DataTable6_1
+   \        0xA   0x7828             LDRB     R0,[R5, #+0]
+   \        0xC   0x2801             CMP      R0,#+1
+   \        0xE   0xD122             BNE.N    ??emDebugPowerUp_0
+    192              #ifndef RAM_DEBUG_OUTPUT
+    193              CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;          // Trace enable.
+   \       0x10   0x....             LDR.N    R0,??DataTable6_7
+   \       0x12   0x6801             LDR      R1,[R0, #+0]
+   \       0x14   0xF041 0x7180      ORR      R1,R1,#0x1000000
+   \       0x18   0x6001             STR      R1,[R0, #+0]
+    194              TPI->CSPSR = 1;                             // Port size.
+   \       0x1A   0x2001             MOVS     R0,#+1
+   \       0x1C   0x....             LDR.N    R1,??DataTable6_8
+   \       0x1E   0x6008             STR      R0,[R1, #+0]
+    195              halInternalTpiuSetSpeedHz(SPEED_HZ);      // Speed divisor.
+   \       0x20   0x....             LDR.N    R1,??DataTable6_9
+   \       0x22   0x2000             MOVS     R0,#+0
+   \       0x24   0x.... 0x....      BL       halInternalUartSetBaudRate
+    196              TPI->SPPR = 2;                             // Pin protocol (2 = NRZ).
+   \       0x28   0x2002             MOVS     R0,#+2
+   \       0x2A   0x....             LDR.N    R1,??DataTable6_10
+   \       0x2C   0x6008             STR      R0,[R1, #+0]
+    197              TPI->FFCR = 0;                             // Disable formatter.
+   \       0x2E   0x2000             MOVS     R0,#+0
+   \       0x30   0x....             LDR.N    R1,??DataTable6_11
+   \       0x32   0x6008             STR      R0,[R1, #+0]
+    198              ITM->LAR = 0xC5ACCE55;                      // Unlock ITM.
+   \       0x34   0x....             LDR.N    R0,??DataTable6_12
+   \       0x36   0x....             LDR.N    R1,??DataTable6_13
+   \       0x38   0x6001             STR      R1,[R0, #+0]
+    199              ITM->TER = 1;                              // Enable stimulus port 0.
+   \       0x3A   0x2101             MOVS     R1,#+1
+   \       0x3C   0x....             LDR.N    R2,??DataTable6_14
+   \       0x3E   0x6011             STR      R1,[R2, #+0]
+    200              ITM->TCR = ((0x01 << ITM_TCR_TraceBusID_Pos)    // Must be value between 0x01-0x6F
+    201                          | ITM_TCR_DWTENA_Msk              // Enable DWT.
+    202                          | ITM_TCR_SYNCENA_Msk             // Enable synchronization.
+    203                          | ITM_TCR_ITMENA_Msk);             // Enable ITM.
+   \       0x40   0x....             LDR.N    R1,??DataTable6_15
+   \       0x42   0x....             LDR.N    R2,??DataTable6_3
+   \       0x44   0x6011             STR      R1,[R2, #+0]
+    204              DWT->CTRL = ((1 << DWT_CTRL_SYNCTAP_Pos)   // Synchronisation pulse rate.
+    205                           | DWT_CTRL_CYCCNTENA_Msk);       // Enable CYCCNT.
+   \       0x46   0xF240 0x4101      MOVW     R1,#+1025
+   \       0x4A   0x6501             STR      R1,[R0, #+80]
+    206              #endif //RAM_DEBUG_OUTPUT
+    207          
+    208              // Enable halDebugIsr().
+    209              NVIC_EnableIRQ(DEBUG_IRQn);
+   \       0x4C   0x2010             MOVS     R0,#+16
+   \       0x4E   0x.... 0x....      BL       __NVIC_EnableIRQ
+    210              debugChannelState = DEBUG_ENABLED;
+   \       0x52   0x2002             MOVS     R0,#+2
+   \       0x54   0x7028             STRB     R0,[R5, #+0]
+    211            }
+    212            RESTORE_INTERRUPTS();
+   \                     ??emDebugPowerUp_0: (+1)
+   \       0x56   0x4620             MOV      R0,R4
+   \       0x58   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x5C   0x.... 0x....      B.W      _writeBasePri
+    213          }
+    214          
+
+   \                                 In section .text, align 2, keep-with-next
+    215          bool halStackDebugActive(void)
+    216          {
+    217            #ifdef RAM_DEBUG_OUTPUT
+    218            return (debugChannel[RAM_OUT_STATUS_INDEX] == RAM_OUT_STATUS_GO);
+    219            #else//!RAM_DEBUG_OUTPUT
+    220            // To be active, debug needs to be enabled, debugger needs to be connected,
+    221            // and trace needs to be enabled.
+    222            return ((debugChannelState == DEBUG_ENABLED)
+    223                    && CMHV->CPWRUPREQSTATUS
+    224                    && (CoreDebug->DEMCR & CoreDebug_DEMCR_TRCENA_Msk) != 0);
+   \                     halStackDebugActive: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable6_1
+   \        0x2   0x7800             LDRB     R0,[R0, #+0]
+   \        0x4   0x2802             CMP      R0,#+2
+   \        0x6   0xD109             BNE.N    ??halStackDebugActive_0
+   \        0x8   0x....             LDR.N    R0,??DataTable6_5
+   \        0xA   0x6800             LDR      R0,[R0, #+0]
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD005             BEQ.N    ??halStackDebugActive_0
+   \       0x10   0x....             LDR.N    R0,??DataTable6_7
+   \       0x12   0x6800             LDR      R0,[R0, #+0]
+   \       0x14   0x0E00             LSRS     R0,R0,#+24
+   \       0x16   0xF000 0x0001      AND      R0,R0,#0x1
+   \       0x1A   0x4770             BX       LR
+   \                     ??halStackDebugActive_0: (+1)
+   \       0x1C   0x2000             MOVS     R0,#+0
+   \       0x1E   0x4770             BX       LR
+    225            #endif//RAM_DEBUG_OUTPUT
+    226          }
+    227          
+
+   \                                 In section .text, align 2, keep-with-next
+    228          uint8_t emDebugAddInitialFraming(uint8_t *buff, uint16_t debugType)
+    229          {
+    230            buff[OUT_VERSION_INDEX]  = OUT_VERSION;
+   \                     emDebugAddInitialFraming: (+1)
+   \        0x0   0x22D1             MOVS     R2,#+209
+   \        0x2   0x7002             STRB     R2,[R0, #+0]
+    231            buff[OUT_TYPE_INDEX]     = LOW_BYTE(debugType);
+   \        0x4   0x7041             STRB     R1,[R0, #+1]
+    232            buff[OUT_TYPE_INDEX + 1] = HIGH_BYTE(debugType);
+   \        0x6   0x0A09             LSRS     R1,R1,#+8
+   \        0x8   0x7081             STRB     R1,[R0, #+2]
+    233            buff[OUT_SEQUENCE_INDEX] = sequenceNumber++;
+   \        0xA   0x....             LDR.N    R1,??DataTable6_16
+   \        0xC   0x780A             LDRB     R2,[R1, #+0]
+   \        0xE   0x70C2             STRB     R2,[R0, #+3]
+   \       0x10   0x1C52             ADDS     R2,R2,#+1
+   \       0x12   0x700A             STRB     R2,[R1, #+0]
+    234            return OUT_DATA_INDEX;
+   \       0x14   0x2004             MOVS     R0,#+4
+   \       0x16   0x4770             BX       LR
+    235          }
+    236          
+    237          #ifdef RAM_DEBUG_OUTPUT
+    238          
+    239          static EmberStatus sendOutput(uint8_t *data, uint8_t length)
+    240          {
+    241            uint8_t blockSize;
+    242            uint16_t startTime = halCommonGetInt16uMillisecondTick();
+    243            if (debugChannel[RAM_OUT_STATUS_INDEX] != RAM_OUT_STATUS_GO
+    244                || debugChannel[RAM_OUT_LENGTH_INDEX] != 0
+    245                || length < OUT_DATA_INDEX) {
+    246              return EMBER_ERR_FATAL;
+    247            }
+    248            debugChannel[RAM_OUT_LENGTH_INDEX] = length;
+    249            *ramOutBlockPointer = (uint32_t)data;
+    250            blockSize = MIN(length, MAX_BLOCK_SIZE);
+    251            debugChannel[RAM_OUT_BLOCK_SIZE_INDEX] = blockSize;
+    252            while (length > 0) {
+    253              uint16_t now = halCommonGetInt16uMillisecondTick();
+    254              if (elapsedTimeInt16u(startTime, now) > TIMEOUT_MS) {
+    255                break;
+    256              }
+    257              if (debugChannel[RAM_OUT_BLOCK_SIZE_INDEX] == 0) {
+    258                length -= blockSize;
+    259                if (length > 0) {
+    260                  *ramOutBlockPointer += blockSize;
+    261                  blockSize = MIN(length, MAX_BLOCK_SIZE);
+    262                  debugChannel[RAM_OUT_BLOCK_SIZE_INDEX] = blockSize;
+    263                }
+    264              }
+    265            }
+    266            debugChannel[RAM_OUT_LENGTH_INDEX] = 0;
+    267            debugChannel[RAM_OUT_BLOCK_SIZE_INDEX] = 0;
+    268            if (length == 0) {
+    269              return EMBER_SUCCESS;
+    270            } else {
+    271              debugChannel[RAM_OUT_STATUS_INDEX] = RAM_OUT_STATUS_STOP;
+    272              return EMBER_ERR_FATAL;
+    273            }
+    274          }
+    275          
+    276          #else // RAM_DEBUG_OUTPUT
+    277          
+
+   \                                 In section .text, align 2, keep-with-next
+    278          static EmberStatus sendOutput(uint8_t *data, uint8_t dataLength)
+    279          {
+   \                     sendOutput: (+1)
+   \        0x0   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+   \        0x4   0x4606             MOV      R6,R0
+   \        0x6   0x460C             MOV      R4,R1
+    280            uint8_t length = dataLength + 5;
+   \        0x8   0x1D65             ADDS     R5,R4,#+5
+   \        0xA   0xB2ED             UXTB     R5,R5
+    281            uint8_t index = 0;
+   \        0xC   0x2700             MOVS     R7,#+0
+    282            uint16_t startTime = halCommonGetInt16uMillisecondTick();
+   \        0xE   0x.... 0x....      BL       halCommonGetInt16uMillisecondTick
+   \       0x12   0x9000             STR      R0,[SP, #+0]
+    283            uint16_t crc = 0xFFFF;
+   \       0x14   0xF64F 0x7AFF      MOVW     R10,#+65535
+   \       0x18   0xE002             B.N      ??sendOutput_0
+    284          
+    285            while ((halStackDebugActive()) && (index < length)) {
+    286              uint16_t now = halCommonGetInt16uMillisecondTick();
+    287              if (elapsedTimeInt16u(startTime, now) > TIMEOUT_MS) {
+    288                break;
+    289              }
+    290              if (ITM->PORT[0].u32 == 1 /*ITM_SP0_FIFOREADY*/) {
+    291                uint32_t output = 0;
+    292                uint8_t i;
+    293                for (i = 0; i < 4; i++) {
+   \                     ??sendOutput_1: (+1)
+   \       0x1A   0x468A             MOV      R10,R1
+    294                  uint8_t outputByte;
+    295                  if (index == 0) {
+    296                    outputByte = '[';
+    297                    index++;
+    298                  } else if (index == 1) {
+    299                    outputByte = dataLength;
+    300                    index++;
+    301                  } else if (index == length - 3) {
+    302                    outputByte = LOW_BYTE(crc);
+    303                    index++;
+    304                  } else if (index == length - 2) {
+    305                    outputByte = HIGH_BYTE(crc);
+    306                    index++;
+    307                  } else if (index == length - 1) {
+    308                    outputByte = ']';
+    309                    index++;
+    310                  } else if (index == length) {
+    311                    outputByte = 0;
+    312                  } else {
+    313                    outputByte = data[index - 2];
+    314                    crc = halCommonCrc16(outputByte, crc);
+    315                    index++;
+    316                  }
+    317                  output |= (uint32_t) (((uint32_t) outputByte) << (i * 8));
+    318                }
+    319                ITM->PORT[0].u32 = output;
+   \       0x1C   0xF8C8 0x9000      STR      R9,[R8, #+0]
+   \                     ??sendOutput_0: (+1)
+   \       0x20   0x46B8             MOV      R8,R7
+   \       0x22   0xFA5F 0xF888      UXTB     R8,R8
+   \       0x26   0x.... 0x....      BL       halStackDebugActive
+   \       0x2A   0x2800             CMP      R0,#+0
+   \       0x2C   0xD057             BEQ.N    ??sendOutput_2
+   \       0x2E   0x45A8             CMP      R8,R5
+   \       0x30   0xDA55             BGE.N    ??sendOutput_2
+   \       0x32   0x.... 0x....      BL       halCommonGetInt16uMillisecondTick
+   \       0x36   0x9900             LDR      R1,[SP, #+0]
+   \       0x38   0x1A40             SUBS     R0,R0,R1
+   \       0x3A   0xB280             UXTH     R0,R0
+   \       0x3C   0xF240 0x11F5      MOVW     R1,#+501
+   \       0x40   0x4288             CMP      R0,R1
+   \       0x42   0xD24C             BCS.N    ??sendOutput_2
+   \       0x44   0xF04F 0x4860      MOV      R8,#+3758096384
+   \       0x48   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x4C   0x2801             CMP      R0,#+1
+   \       0x4E   0xD1E7             BNE.N    ??sendOutput_0
+   \       0x50   0xF04F 0x0900      MOV      R9,#+0
+   \       0x54   0x4648             MOV      R0,R9
+   \       0x56   0x4651             MOV      R1,R10
+   \       0x58   0x4682             MOV      R10,R0
+   \       0x5A   0xE016             B.N      ??sendOutput_3
+   \                     ??sendOutput_4: (+1)
+   \       0x5C   0x1830             ADDS     R0,R6,R0
+   \       0x5E   0xF810 0xBC02      LDRB     R11,[R0, #-2]
+   \       0x62   0x4658             MOV      R0,R11
+   \       0x64   0x.... 0x....      BL       halCommonCrc16
+   \       0x68   0x4601             MOV      R1,R0
+   \       0x6A   0x1C7F             ADDS     R7,R7,#+1
+   \       0x6C   0xE003             B.N      ??sendOutput_5
+   \                     ??sendOutput_6: (+1)
+   \       0x6E   0x42A8             CMP      R0,R5
+   \       0x70   0xD1F4             BNE.N    ??sendOutput_4
+   \       0x72   0xF04F 0x0B00      MOV      R11,#+0
+   \                     ??sendOutput_5: (+1)
+   \       0x76   0xFA5F 0xFB8B      UXTB     R11,R11
+   \       0x7A   0xEA4F 0x00CA      LSL      R0,R10,#+3
+   \       0x7E   0xFA0B 0xFB00      LSL      R11,R11,R0
+   \       0x82   0xEA4B 0x0909      ORR      R9,R11,R9
+   \       0x86   0xF10A 0x0A01      ADD      R10,R10,#+1
+   \                     ??sendOutput_3: (+1)
+   \       0x8A   0x4650             MOV      R0,R10
+   \       0x8C   0xB2C0             UXTB     R0,R0
+   \       0x8E   0x2803             CMP      R0,#+3
+   \       0x90   0xDCC3             BGT.N    ??sendOutput_1
+   \       0x92   0x4638             MOV      R0,R7
+   \       0x94   0xB2C0             UXTB     R0,R0
+   \       0x96   0x2800             CMP      R0,#+0
+   \       0x98   0xD103             BNE.N    ??sendOutput_7
+   \       0x9A   0xF04F 0x0B5B      MOV      R11,#+91
+   \       0x9E   0x2701             MOVS     R7,#+1
+   \       0xA0   0xE7E9             B.N      ??sendOutput_5
+   \                     ??sendOutput_7: (+1)
+   \       0xA2   0x4638             MOV      R0,R7
+   \       0xA4   0xB2C0             UXTB     R0,R0
+   \       0xA6   0x2801             CMP      R0,#+1
+   \       0xA8   0xD102             BNE.N    ??sendOutput_8
+   \       0xAA   0x46A3             MOV      R11,R4
+   \       0xAC   0x2702             MOVS     R7,#+2
+   \       0xAE   0xE7E2             B.N      ??sendOutput_5
+   \                     ??sendOutput_8: (+1)
+   \       0xB0   0x4638             MOV      R0,R7
+   \       0xB2   0xB2C0             UXTB     R0,R0
+   \       0xB4   0x1CC2             ADDS     R2,R0,#+3
+   \       0xB6   0x42AA             CMP      R2,R5
+   \       0xB8   0xD102             BNE.N    ??sendOutput_9
+   \       0xBA   0x468B             MOV      R11,R1
+   \       0xBC   0x1C7F             ADDS     R7,R7,#+1
+   \       0xBE   0xE7DA             B.N      ??sendOutput_5
+   \                     ??sendOutput_9: (+1)
+   \       0xC0   0x1C82             ADDS     R2,R0,#+2
+   \       0xC2   0x42AA             CMP      R2,R5
+   \       0xC4   0xD104             BNE.N    ??sendOutput_10
+   \       0xC6   0x468B             MOV      R11,R1
+   \       0xC8   0xEA4F 0x2B1B      LSR      R11,R11,#+8
+   \       0xCC   0x1C7F             ADDS     R7,R7,#+1
+   \       0xCE   0xE7D2             B.N      ??sendOutput_5
+   \                     ??sendOutput_10: (+1)
+   \       0xD0   0x1C42             ADDS     R2,R0,#+1
+   \       0xD2   0x42AA             CMP      R2,R5
+   \       0xD4   0xD1CB             BNE.N    ??sendOutput_6
+   \       0xD6   0xF04F 0x0B5D      MOV      R11,#+93
+   \       0xDA   0x1C7F             ADDS     R7,R7,#+1
+   \       0xDC   0xE7CB             B.N      ??sendOutput_5
+    320              }
+    321            }
+    322          
+    323            //By design, emberSerialPrintf of the VUART must complete before returning.
+    324            //But, the hardware has a very deep FIFO that means it's possible to return
+    325            //before the transmission has completed.  The hardware does not provide
+    326            //any means of knowing when transmission has completed, so the simplest,
+    327            //safest, and cleanest method is to simply wait based upon our baud rate.
+    328            //Because of the framing used on the bytes, performing a printf of even
+    329            //just a single byte will result in enough data that this delay will only
+    330            //add a small amount (factor of safety) beyond the time necessary (10-40us).
+    331            halCommonDelayMicroseconds(TX_COMPLETE_DELAY);
+   \                     ??sendOutput_2: (+1)
+   \       0xDE   0xF44F 0x70C8      MOV      R0,#+400
+   \       0xE2   0x.... 0x....      BL       halCommonDelayMicroseconds
+    332          
+    333            if (index == length) {
+   \       0xE6   0x45A8             CMP      R8,R5
+   \       0xE8   0xD101             BNE.N    ??sendOutput_11
+    334              return EMBER_SUCCESS;
+   \       0xEA   0x2000             MOVS     R0,#+0
+   \       0xEC   0xE000             B.N      ??sendOutput_12
+    335            } else {
+    336              return EMBER_ERR_FATAL;
+   \                     ??sendOutput_11: (+1)
+   \       0xEE   0x2001             MOVS     R0,#+1
+   \                     ??sendOutput_12: (+1)
+   \       0xF0   0xE8BD 0x8FF2      POP      {R1,R4-R11,PC}
+    337            }
+    338          }
+    339          
+    340          #endif // RAM_DEBUG_OUTPUT
+    341          
+
+   \                                 In section .text, align 2, keep-with-next
+    342          EmberStatus emDebugSend(uint8_t *data, uint8_t *length)
+    343          {
+   \                     emDebugSend: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4602             MOV      R2,R0
+   \        0x4   0x460C             MOV      R4,R1
+    344            EmberStatus status = EMBER_SUCCESS;
+   \        0x6   0x2000             MOVS     R0,#+0
+    345            if (*length > OUT_DATA_INDEX) {
+   \        0x8   0x7821             LDRB     R1,[R4, #+0]
+   \        0xA   0x460B             MOV      R3,R1
+   \        0xC   0x2B05             CMP      R3,#+5
+   \        0xE   0xD302             BCC.N    ??emDebugSend_0
+    346              status = sendOutput(data, *length);
+   \       0x10   0x4610             MOV      R0,R2
+   \       0x12   0x.... 0x....      BL       sendOutput
+    347            }
+    348            *length = OUT_DATA_INDEX;
+   \                     ??emDebugSend_0: (+1)
+   \       0x16   0x2104             MOVS     R1,#+4
+   \       0x18   0x7021             STRB     R1,[R4, #+0]
+    349            return status;
+   \       0x1A   0xBD10             POP      {R4,PC}
+    350          }
+    351          
+    352          // 255 bytes is the maximum input that the ISA will send us. There is no way to
+    353          // tell the ISA we have a smaller buffer. We have to receive the whole message
+    354          // before processing it because the message type is the last two bytes. If this
+    355          // buffer were small enough to go on the stack, it could be moved inside
+    356          // halDebugIsr().
+
+   \                                 In section .bss, align 4
+    357          static uint8_t rxBuffer[255];
+   \                     rxBuffer:
+   \        0x0                      DS8 256
+    358          
+
+   \                                 In section .text, align 2, keep-with-next
+    359          void halDebugIsr(void)
+    360          {
+   \                     halDebugIsr: (+1)
+   \        0x0   0xE92D 0x43F8      PUSH     {R3-R9,LR}
+    361            uint8_t length = debugChannel[RAM_IN_LENGTH_INDEX];
+   \        0x4   0x....             LDR.N    R6,??DataTable6_2
+   \        0x6   0x7875             LDRB     R5,[R6, #+1]
+    362            if (length > 0) {
+   \        0x8   0x2D00             CMP      R5,#+0
+   \        0xA   0xD045             BEQ.N    ??halDebugIsr_0
+    363              uint16_t startTime = halCommonGetInt16uMillisecondTick();
+   \        0xC   0x.... 0x....      BL       halCommonGetInt16uMillisecondTick
+   \       0x10   0x4680             MOV      R8,R0
+    364          //    if (length > sizeof(rxBuffer)) {
+    365          //      debugChannel[RAM_IN_LENGTH_INDEX] = 0;
+    366          //      return;
+    367          //    }
+    368              uint8_t remainingLength = length;
+   \       0x12   0x462C             MOV      R4,R5
+    369              uint8_t blockSize = MIN(remainingLength, MAX_BLOCK_SIZE);
+   \       0x14   0x2C20             CMP      R4,#+32
+   \       0x16   0xDA01             BGE.N    ??halDebugIsr_1
+   \       0x18   0x46A1             MOV      R9,R4
+   \       0x1A   0xE001             B.N      ??halDebugIsr_2
+   \                     ??halDebugIsr_1: (+1)
+   \       0x1C   0xF04F 0x0920      MOV      R9,#+32
+    370              *ramInBlockPointer = (uint32_t)rxBuffer;
+   \                     ??halDebugIsr_2: (+1)
+   \       0x20   0x....             LDR.N    R7,??DataTable6_17
+   \       0x22   0x6077             STR      R7,[R6, #+4]
+    371              debugChannel[RAM_IN_BLOCK_SIZE_INDEX] = blockSize;
+   \       0x24   0xF886 0x9002      STRB     R9,[R6, #+2]
+   \       0x28   0xE014             B.N      ??halDebugIsr_3
+    372              while (debugChannel[RAM_IN_LENGTH_INDEX] > 0) {
+    373                uint16_t now = halCommonGetInt16uMillisecondTick();
+    374                if (elapsedTimeInt16u(startTime, now) > TIMEOUT_MS) {
+    375                  break;
+    376                }
+    377                if (debugChannel[RAM_IN_BLOCK_SIZE_INDEX] == 0) {
+    378                  remainingLength -= blockSize;
+    379                  debugChannel[RAM_IN_LENGTH_INDEX] = remainingLength;
+    380                  if (remainingLength > 0) {
+    381                    *ramInBlockPointer += blockSize;
+    382                    blockSize = MIN(remainingLength, MAX_BLOCK_SIZE);
+   \                     ??halDebugIsr_4: (+1)
+   \       0x2A   0xF04F 0x0920      MOV      R9,#+32
+   \       0x2E   0xE00F             B.N      ??halDebugIsr_5
+   \                     ??halDebugIsr_6: (+1)
+   \       0x30   0x78B0             LDRB     R0,[R6, #+2]
+   \       0x32   0x2800             CMP      R0,#+0
+   \       0x34   0xD10E             BNE.N    ??halDebugIsr_3
+   \       0x36   0xEBA4 0x0409      SUB      R4,R4,R9
+   \       0x3A   0xB2E4             UXTB     R4,R4
+   \       0x3C   0x7074             STRB     R4,[R6, #+1]
+   \       0x3E   0x2C00             CMP      R4,#+0
+   \       0x40   0xD008             BEQ.N    ??halDebugIsr_3
+   \       0x42   0x6870             LDR      R0,[R6, #+4]
+   \       0x44   0x4481             ADD      R9,R9,R0
+   \       0x46   0xF8C6 0x9004      STR      R9,[R6, #+4]
+   \       0x4A   0x2C20             CMP      R4,#+32
+   \       0x4C   0xDAED             BGE.N    ??halDebugIsr_4
+   \       0x4E   0x46A1             MOV      R9,R4
+    383                    debugChannel[RAM_IN_BLOCK_SIZE_INDEX] = blockSize;
+   \                     ??halDebugIsr_5: (+1)
+   \       0x50   0xF886 0x9002      STRB     R9,[R6, #+2]
+    384                  }
+    385                }
+   \                     ??halDebugIsr_3: (+1)
+   \       0x54   0x7870             LDRB     R0,[R6, #+1]
+   \       0x56   0x2800             CMP      R0,#+0
+   \       0x58   0xD008             BEQ.N    ??halDebugIsr_7
+   \       0x5A   0x.... 0x....      BL       halCommonGetInt16uMillisecondTick
+   \       0x5E   0xEBA0 0x0008      SUB      R0,R0,R8
+   \       0x62   0xB280             UXTH     R0,R0
+   \       0x64   0xF240 0x11F5      MOVW     R1,#+501
+   \       0x68   0x4288             CMP      R0,R1
+   \       0x6A   0xD3E1             BCC.N    ??halDebugIsr_6
+    386              }
+    387              if (remainingLength == 0
+    388                  && debugChannel[RAM_IN_LENGTH_INDEX] == 0
+    389                  && debugChannel[RAM_IN_BLOCK_SIZE_INDEX] == 0) {
+   \                     ??halDebugIsr_7: (+1)
+   \       0x6C   0x2C00             CMP      R4,#+0
+   \       0x6E   0xD110             BNE.N    ??halDebugIsr_8
+   \       0x70   0x7870             LDRB     R0,[R6, #+1]
+   \       0x72   0x2800             CMP      R0,#+0
+   \       0x74   0xD10D             BNE.N    ??halDebugIsr_8
+   \       0x76   0x78B0             LDRB     R0,[R6, #+2]
+   \       0x78   0x2800             CMP      R0,#+0
+   \       0x7A   0xD10A             BNE.N    ??halDebugIsr_8
+    390                uint16_t type = emberFetchLowHighInt16u(rxBuffer + length - 2);
+   \       0x7C   0x1978             ADDS     R0,R7,R5
+   \       0x7E   0x1E80             SUBS     R0,R0,#+2
+   \       0x80   0x.... 0x....      BL       emberFetchLowHighInt16u
+    391                emDebugProcessIncoming(type, rxBuffer, length - 2);
+   \       0x84   0x1EAA             SUBS     R2,R5,#+2
+   \       0x86   0xB2D2             UXTB     R2,R2
+   \       0x88   0x4639             MOV      R1,R7
+   \       0x8A   0xE8BD 0x43F8      POP      {R3-R9,LR}
+   \       0x8E   0x.... 0x....      B.W      emDebugProcessIncoming
+    392              } else {
+    393                debugChannel[RAM_IN_LENGTH_INDEX] = 0;
+   \                     ??halDebugIsr_8: (+1)
+   \       0x92   0x2000             MOVS     R0,#+0
+   \       0x94   0x7070             STRB     R0,[R6, #+1]
+    394                debugChannel[RAM_IN_BLOCK_SIZE_INDEX] = 0;
+   \       0x96   0x70B0             STRB     R0,[R6, #+2]
+    395              }
+    396            }
+    397          }
+   \                     ??halDebugIsr_0: (+1)
+   \       0x98   0xE8BD 0x83F1      POP      {R0,R4-R9,PC}
+    398          
+
+   \                                 In section .text, align 2, keep-with-next
+    399          void emDebugReceiveData(void)
+    400          {
+    401          }
+   \                     emDebugReceiveData: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6:
+   \        0x0   0xE000'E100        DC32     0xe000e100
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_1:
+   \        0x0   0x....'....        DC32     debugChannelState
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_2:
+   \        0x0   0x....'....        DC32     debugChannel
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_3:
+   \        0x0   0xE000'0E80        DC32     0xe0000e80
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_4:
+   \        0x0   0xE000'1000        DC32     0xe0001000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_5:
+   \        0x0   0x4000'0034        DC32     0x40000034
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_6:
+   \        0x0   0xE004'0010        DC32     0xe0040010
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_7:
+   \        0x0   0xE000'EDFC        DC32     0xe000edfc
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_8:
+   \        0x0   0xE004'0004        DC32     0xe0040004
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_9:
+   \        0x0   0x0007'A120        DC32     0x7a120
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_10:
+   \        0x0   0xE004'00F0        DC32     0xe00400f0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_11:
+   \        0x0   0xE004'0304        DC32     0xe0040304
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_12:
+   \        0x0   0xE000'0FB0        DC32     0xe0000fb0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_13:
+   \        0x0   0xC5AC'CE55        DC32     0xc5acce55
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_14:
+   \        0x0   0xE000'0E00        DC32     0xe0000e00
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_15:
+   \        0x0   0x0001'000D        DC32     0x1000d
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_16:
+   \        0x0   0x....'....        DC32     sequenceNumber
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6_17:
+   \        0x0   0x....'....        DC32     rxBuffer
+    402          
+    403          #endif // DEBUG_LEVEL >= BASIC_DEBUG
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   __NVIC_EnableIRQ
+       0   emDebugAddInitialFraming
+      16   emDebugInit
+        16   -> _disableBasePri
+        16   -> _writeBasePri
+        16   -> emDebugClearStats
+        16   -> emDebugPowerUp
+        16   -> emberDebugReportRestore
+      16   emDebugPowerDown
+        16   -> _disableBasePri
+        16   -> _writeBasePri
+        16   -> halCommonDelayMicroseconds
+      16   emDebugPowerUp
+        16   -> __NVIC_EnableIRQ
+        16   -> _disableBasePri
+         0   -> _writeBasePri
+        16   -> halInternalUartSetBaudRate
+       0   emDebugReceiveData
+       8   emDebugSend
+         8   -> sendOutput
+      32   halDebugIsr
+         0   -> emDebugProcessIncoming
+        32   -> emberFetchLowHighInt16u
+        32   -> halCommonGetInt16uMillisecondTick
+       0   halStackDebugActive
+      40   sendOutput
+        40   -> halCommonCrc16
+        40   -> halCommonDelayMicroseconds
+        40   -> halCommonGetInt16uMillisecondTick
+        40   -> halStackDebugActive
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable6
+       4  ??DataTable6_1
+       4  ??DataTable6_10
+       4  ??DataTable6_11
+       4  ??DataTable6_12
+       4  ??DataTable6_13
+       4  ??DataTable6_14
+       4  ??DataTable6_15
+       4  ??DataTable6_16
+       4  ??DataTable6_17
+       4  ??DataTable6_2
+       4  ??DataTable6_3
+       4  ??DataTable6_4
+       4  ??DataTable6_5
+       4  ??DataTable6_6
+       4  ??DataTable6_7
+       4  ??DataTable6_8
+       4  ??DataTable6_9
+      22  __NVIC_EnableIRQ
+      16  debugChannel
+       1  debugChannelState
+      24  emDebugAddInitialFraming
+      58  emDebugInit
+      90  emDebugPowerDown
+      96  emDebugPowerUp
+       2  emDebugReceiveData
+      28  emDebugSend
+     156  halDebugIsr
+      32  halStackDebugActive
+     256  rxBuffer
+     244  sendOutput
+       1  sequenceNumber
+
+ 
+ 258 bytes in section .bss
+ 824 bytes in section .text
+  16 bytes in section DEBUG_CHANNEL
+ 
+ 824 bytes of CODE memory
+ 274 bytes of DATA memory
+
+Errors: none
+Warnings: 1

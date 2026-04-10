@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.external.jxbrowser.feature" 
+  label="Bundled JXBrowser Support" 
+  description="Simplicity Studio Bundled JXBrowser Support" 
+  changelog="changelog" 
+  version="8.9.0">
+   <property key="lntref" value="asset://common/Chromium_License" />
+</package>

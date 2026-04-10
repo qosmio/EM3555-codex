@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.aiml_2.0.0">
+  <assets path="/extension.aiml_2.0.0/demos/brd2601b/ml_voice_control_light.s37" diskSizeKB="513.644" downloadSizeKB="513.644">
+    <property key="timeStamp" value="1734461969604"/>
+  </assets>
+  <assets path="/extension.aiml_2.0.0/demos/brd2601b/ml_magic_wand.s37" diskSizeKB="357.62" downloadSizeKB="357.62">
+    <property key="timeStamp" value="1734461969606"/>
+  </assets>
+  <assets path="/extension.aiml_2.0.0/demos/brd2601b/ml_audio_classifier.s37" diskSizeKB="519.7" downloadSizeKB="519.7">
+    <property key="timeStamp" value="1734461969608"/>
+  </assets>
+  <assets path="/extension.aiml_2.0.0/demos/brd2601b/ml_blink.s37" diskSizeKB="205.14" downloadSizeKB="205.14">
+    <property key="timeStamp" value="1734461969610"/>
+  </assets>
+  <assets path="/extension.aiml_2.0.0/demos/brd2601b/ml_model_profiler.s37" diskSizeKB="463.66" downloadSizeKB="463.66">
+    <property key="timeStamp" value="1734461969612"/>
+  </assets>
+</assets>

@@ -1,0 +1,3215 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:37
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\uart.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\uart.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\uart.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"uart.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\uart.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\uart.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\uart.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\uart.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\uart.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief EM3XX UART Library.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "stack/include/ember.h"
+     19          #include "stack/include/error.h"
+     20          #include "hal/plugin/debug-jtag/debug-channel.h"
+     21          #include "hal/hal.h"
+
+   \                                 In section .text, align 2, keep-with-next
+   \   static __softfp void __NVIC_EnableIRQ(IRQn_Type)
+   \                     __NVIC_EnableIRQ: (+1)
+   \        0x0   0x0001             MOVS     R1,R0
+   \        0x2   0xD408             BMI.N    ??__NVIC_EnableIRQ_0
+   \        0x4   0x2201             MOVS     R2,#+1
+   \        0x6   0xF000 0x011F      AND      R1,R0,#0x1F
+   \        0xA   0x408A             LSLS     R2,R2,R1
+   \        0xC   0x.... 0x....      LDR.W    R1,??DataTable17
+   \       0x10   0x0940             LSRS     R0,R0,#+5
+   \       0x12   0xF841 0x2020      STR      R2,[R1, R0, LSL #+2]
+   \                     ??__NVIC_EnableIRQ_0: (+1)
+   \       0x16   0x4770             BX       LR
+     22          #include "hal/micro/micro-types.h"
+     23          
+     24          #include "serial/serial.h"
+     25          
+     26          // Allow some code to be disabled (and flash saved) if
+     27          // a port is unused or in low-level driver mode
+     28          // port 0 is VUART
+     29          #if (EMBER_SERIAL0_MODE == EMBER_SERIAL_UNUSED)
+     30            #define EM_SERIAL0_ENABLED 0
+     31            #define EM_SER0_PORT_EN(port) (false)
+     32          #else
+     33            #define EM_SERIAL0_ENABLED 1
+     34            #define EM_SER0_PORT_EN(port) ((port) == 0)
+     35          #endif
+     36          #if (EMBER_SERIAL0_MODE == EMBER_SERIAL_LOWLEVEL)
+     37            #error Serial 0 (Virtual Uart) does not support LOWLEVEL mode
+     38          #endif
+     39          
+     40          // port 1 is SC1
+     41          #if !defined(EMBER_MICRO_HAS_SC1)                \
+     42            || (EMBER_SERIAL1_MODE == EMBER_SERIAL_UNUSED) \
+     43            || (EMBER_SERIAL1_MODE == EMBER_SERIAL_LOWLEVEL)
+     44            #define EM_SERIAL1_ENABLED 0
+     45            #define EM_SER1_PORT_EN(port)     (false)
+     46          #else
+     47            #define EM_SERIAL1_ENABLED 1
+     48            #define EM_SER1_PORT_EN(port) ((port) == 1)
+     49            #define EM_PHYSICAL_UART
+     50          #endif
+     51          
+     52          // port 2 is SC3
+     53          #if !defined(EMBER_MICRO_HAS_SC3)                \
+     54            || (EMBER_SERIAL2_MODE == EMBER_SERIAL_UNUSED) \
+     55            || (EMBER_SERIAL2_MODE == EMBER_SERIAL_LOWLEVEL)
+     56            #define EM_SERIAL2_ENABLED 0
+     57            #define EM_SER2_PORT_EN(port)     (false)
+     58          #else
+     59            #define EM_SERIAL2_ENABLED 1
+     60            #define EM_SER2_PORT_EN(port) ((port) == 2)
+     61            #define EM_PHYSICAL_UART
+     62          #endif
+     63          
+     64          // port 3 is USB
+     65          #if !defined(CORTEXM3_EM35X_USB)                 \
+     66            || (EMBER_SERIAL3_MODE == EMBER_SERIAL_UNUSED) \
+     67            || defined (USB_MSD)                           \
+     68            || defined (USB_HID)
+     69            #define EM_SERIAL3_ENABLED 0
+     70            #define EM_SER3_PORT_EN(port) (false)
+     71            #ifdef USB_HID
+     72              #include "hal/micro/cortexm3/usb/em_usb.h"
+     73              #include "hal/micro/cortexm3/usb/hid/usbconfig.h"
+     74              #include "hal/micro/cortexm3/usb/hid/descriptors.h"
+     75            #endif
+     76            #define EM_SER3_PORT_FIFO(port)   (false)
+     77          #else
+     78            #define EM_SERIAL3_ENABLED 1
+     79            #define EM_SER3_PORT_EN(port) ((port) == 3)
+     80          static bool usbNAK = false;
+     81          
+     82            #include "hal/micro/cortexm3/usb/em_usb.h"
+     83            #include "hal/micro/cortexm3/usb/em_usbd.h"
+     84            #include "hal/micro/cortexm3/usb/cdc/usbconfig.h"
+     85            #include "hal/micro/cortexm3/usb/cdc/descriptors.h"
+     86            #if (EMBER_SERIAL3_RX_QUEUE_SIZE <= CDC_EP_SIZE) \
+     87            && (EMBER_SERIAL3_RX_QUEUE_SIZE > 0)
+     88              #error USB RX queue size must exceed 64 (CDC bulk endpoint size)
+     89            #endif
+     90          #endif
+     91          
+     92          #if defined(EM_SER1_FIFO_DMA_USED) || defined(EM_SER2_FIFO_DMA_USED)
+     93            #define FIFO_DMA_USED
+     94          #endif
+     95          
+     96          #if defined(EMBER_SERIAL1_RTSCTS) || defined(EMBER_SERIAL2_RTSCTS)
+     97            #define RTSCTS_USED
+     98          #endif
+     99          
+    100          #if defined(EM_ENABLE_SERIAL_FIFO) && defined(EM_ENABLE_SERIAL_BUFFER)
+    101            #define EM_SER_MULTI(expr) (expr)
+    102          #else // None/Single/Same UARTs -- no need to runtime check their mode at all
+    103            #define EM_SER_MULTI(expr) (true)
+    104          #endif
+    105          
+    106          // TODO
+    107          #if EM_SERIAL1_ENABLED && (defined(EMBER_SERIAL1_RTSCTS) || defined(EMBER_SERIAL1_XONXOFF)) && EM_SERIAL2_ENABLED
+    108            #error Flow control is not currently supported when using both physical UARTs
+    109          #endif
+    110          
+    111          #if (0                       \
+    112               || (EM_SERIAL0_ENABLED) \
+    113            || (EM_SERIAL3_ENABLED)    \
+    114            || (defined(EM_PHYSICAL_UART) && defined(EM_ENABLE_SERIAL_FIFO)))
+    115          #define UARTERRORMARK_NEEDED 1
+    116          #else
+    117          #define UARTERRORMARK_NEEDED 0
+    118          #endif
+    119          
+    120          #if defined(EZSP_ASH)                \
+    121            && !defined(EMBER_SERIAL1_RTSCTS)  \
+    122            && !defined(EMBER_SERIAL1_XONXOFF) \
+    123            && !defined(EZSP_USB)
+    124            #error EZSP-UART requires either RTS/CTS or XON/XOFF flow control!
+    125          #endif
+    126          
+    127          // serial 1 and 2 HW flow control allowed in FIFO mode with DMA
+    128          #ifdef EMBER_SERIAL1_RTSCTS
+    129            #if !((EMBER_SERIAL1_MODE == EMBER_SERIAL_FIFO) && defined(EM_SER1_FIFO_DMA_USED))
+    130            #error "Illegal serial port 1 configuration"
+    131            #endif
+    132          #endif
+    133          
+    134          #ifdef EMBER_SERIAL2_RTSCTS
+    135            #if !((EMBER_SERIAL2_MODE == EMBER_SERIAL_FIFO) && defined(EM_SER2_FIFO_DMA_USED))
+    136            #error "Illegal serial port 2 configuration"
+    137            #endif
+    138          #endif
+    139          
+    140          #ifdef EMBER_SERIAL1_XONXOFF
+    141            #if EMBER_SERIAL1_MODE != EMBER_SERIAL_FIFO
+    142            #error "Illegal serial port 1 configuration"
+    143            #endif
+    144          
+    145          static void halInternalUart1ForceXon(void);   // forward declaration
+    146          
+    147          static int8_t xcmdCount;       // num XONs sent to host, written only by tx isr
+    148                                         //-1 means an XOFF was sent last
+    149                                         // 0 means ready to rx, but no XON has been sent
+    150                                         // n>0 means ready to rx, and n XONs have been sent
+    151          static uint8_t xonXoffTxByte;   // if non-zero, an XON or XOFF byte to send ahead
+    152                                          // of tx queue - cleared when byte is sent
+    153          static uint8_t xonTimer;        // time when last data rx'ed from host, or when
+    154                                          // an XON was sent (in 1/4 ticks)
+    155          
+    156            #define ASCII_XON         0x11  // requests host to pause sending
+    157            #define ASCII_XOFF        0x13  // requests host to resume sending
+    158            #define XON_REFRESH_TIME  8     // delay between repeat XONs (1/4 sec units)
+    159            #define XON_REFRESH_COUNT 3     // max number of repeat XONs to send after 1st
+    160          
+    161          // Define thresholds for XON/XOFF flow control in terms of queue used values
+    162          // Take into account the 4 byte transmit FIFO
+    163            #if (EMBER_SERIAL1_RX_QUEUE_SIZE == 128)
+    164              #define XON_LIMIT       16    // send an XON
+    165              #define XOFF_LIMIT      96    // send an XOFF
+    166            #elif (EMBER_SERIAL1_RX_QUEUE_SIZE == 64)
+    167              #define XON_LIMIT       8
+    168              #define XOFF_LIMIT      36
+    169            #elif (EMBER_SERIAL1_RX_QUEUE_SIZE == 32)
+    170              #define XON_LIMIT       2
+    171              #define XOFF_LIMIT      8
+    172            #elif (EMBER_SERIAL1_RX_QUEUE_SIZE > 32)
+    173              #define XON_LIMIT       (EMBER_SERIAL1_RX_QUEUE_SIZE / 8)
+    174              #define XOFF_LIMIT      (EMBER_SERIAL1_RX_QUEUE_SIZE * 3 / 4)
+    175            #else
+    176              #error "Serial port 1 receive buffer too small!"
+    177            #endif
+    178          #endif  // EMBER_SERIAL1_XONXOFF
+    179          
+    180          #ifdef EMBER_SERIAL2_XONXOFF
+    181            #error "XON/XOFF is not supported on port 2"
+    182          #endif
+    183          
+    184          #ifdef EMBER_SERIAL3_XONXOFF
+    185            #error "XON/XOFF is not supported on port 3"
+    186          #endif
+    187          
+    188          #if defined(RTSCTS_USED)
+    189          void halInternalUartRxCheckRts(uint8_t port);
+    190          
+    191          #else
+    192            #define halInternalUartRxCheckRts(x) do {} while (0)
+    193          #endif
+    194          
+    195          #if defined(EMBER_SERIAL1_RTSCTS)
+    196          // define this for backwards compatibility
+    197          void halInternalUart1RxCheckRts(void)
+    198          {
+    199            halInternalUartRxCheckRts(1);
+    200          }
+    201          
+    202          #endif
+    203          
+    204          // Save flash if ports are undefined
+    205          #if defined(EM_PHYSICAL_UART)
+    206          
+
+   \                                 In section .rodata, align 4
+    207          const uint8_t baudSettings[] = {
+   \                     baudSettings:
+   \        0x0   0x30 0x60          DC8 48, 96, 144, 192, 193, 194, 195, 148, 196, 149, 197, 92, 150, 198
+   \              0x90 0xC0    
+   \              0xC1 0xC2    
+   \              0xC3 0x94    
+   \              0xC4 0x95    
+   \              0xC5 0x5C    
+   \              0x96 0xC6
+   \        0xE   0xAC 0x97          DC8 172, 151, 152, 153, 154
+   \              0x98 0x99    
+   \              0x9A
+   \       0x13                      DS8 1
+    208            // This table is indexed by the supported BAUD_xxx enum from serial.h.
+    209            // The actual baud rate is encoded in a byte and converted algorithmically
+    210            // into the needed SCx register values based on system clock frequency
+    211            // Here each byte is divided into two 4-bit nibbles 0x<mul><exp> where:
+    212            // baud = <mul> * 100 * 2^<exp> when <exp> is <=10
+    213            //  and = <mul> * 100 * 10^(<exp>-10) when <exp> is >10
+    214            // This allows all supported baud rates (and many others) to be represented.
+    215            0x30,   //  0 - BAUD_300    =  3 * 100 * 2^0
+    216            0x60,   //  1 - BAUD_600    =  6 * 100 * 2^0
+    217            0x90,   //  2 - BAUD_900    =  9 * 100 * 2^0
+    218            0xC0,   //  3 - BAUD_1200   = 12 * 100 * 2^0
+    219            0xC1,   //  4 - BAUD_2400   = 12 * 100 * 2^1
+    220            0xC2,   //  5 - BAUD_4800   = 12 * 100 * 2^2
+    221            0xC3,   //  6 - BAUD_9600   = 12 * 100 * 2^3
+    222            0x94,   //  7 - BAUD_14400  =  9 * 100 * 2^4
+    223            0xC4,   //  8 - BAUD_19200  = 12 * 100 * 2^4
+    224            0x95,   //  9 - BAUD_28800  =  9 * 100 * 2^5
+    225            0xC5,   // 10 - BAUD_38400  = 12 * 100 * 2^5
+    226            0x5C,   // 11 - BAUD_50000  =  5 * 100 * 10^2
+    227            0x96,   // 12 - BAUD_57600  =  9 * 100 * 2^6
+    228            0xC6,   // 13 - BAUD_76800  = 12 * 100 * 2^6
+    229            0xAC,   // 14 - BAUD_100000 = 10 * 100 * 10^2
+    230            0x97,   // 15 - BAUD_115200 =  9 * 100 * 2^7
+    231            0x98,   // 16 - BAUD_230400 =  9 * 100 * 2^8
+    232            0x99,   // 17 - BAUD_460800 =  9 * 100 * 2^9
+    233             #ifdef EMBER_SERIAL_BAUD_CUSTOM
+    234            EMBER_SERIAL_BAUD_CUSTOM,   //Hook for custom baud rate, see BOARD_HEADER
+    235             #else
+    236            0x9A,   // 18 - BAUD_921600 =  9 * 100 * 2^10
+    237             #endif
+    238          };
+    239          
+    240          #endif // defined(EM_PHYSICAL_UART)
+    241          
+    242          #if EM_SERIAL1_ENABLED
+    243            #if    SLEEPY_IP_MODEM_UART
+    244          //This macro is used to manipulate TxD to avoid glitching it across sleep
+    245          //which can lead to spurrious data or framing errors seen by peer
+    246              #define SC1_TXD_GPIO(gpioCfg, state) do {                                        \
+    247              GPIO->P[1].CFGL = ((GPIO->P[1].CFGL & ~_GPIO_P_CFGL_Px1_MASK)                    \
+    248                                 | ((gpioCfg) << _GPIO_P_CFGL_Px1_SHIFT));                     \
+    249              (state) ? (GPIO->P[1].SET = GPIO_P_SET_Px1) : (GPIO->P[1].CLR = GPIO_P_CLR_Px1); \
+    250          } while (0)
+    251            #else//!SLEEPY_IP_MODEM_UART
+    252              #define SC1_TXD_GPIO(gpioCfg, state) do {} while (0)
+    253            #endif//SLEEPY_IP_MODEM_UART
+    254          #endif // EM_SERIAL1_ENABLED
+    255          
+    256          //State information for RX DMA Buffer operation
+    257          typedef struct emDmaBufferState {
+    258            const uint16_t fifoSize;
+    259            const uint16_t rxStartIndexB;
+    260            uint16_t prevCountA;
+    261            uint16_t prevCountB;
+    262            bool waitingForTailA;
+    263            bool waitingForTailB;
+    264            bool waitingForInputToB;
+    265            EmberMessageBuffer holdBuf[2];
+    266          } emDmaBufferState;
+    267          
+    268          // figure out how many buffer state structs we need
+    269          #if (EM_SERIAL1_ENABLED                  \
+    270               && defined(EM_SER1_FIFO_DMA_USED))  \
+    271            && (EM_SERIAL2_ENABLED                 \
+    272                && defined(EM_SER2_FIFO_DMA_USED)) \
+    273            && (EM_SERIAL3_ENABLED                 \
+    274                && EMBER_SERIAL3_MODE == EMBER_SERIAL_BUFFER)
+    275          static emDmaBufferState dmaBufferStates[] = {
+    276            { EMBER_SERIAL1_RX_QUEUE_SIZE,
+    277              (EMBER_SERIAL1_RX_QUEUE_SIZE / 2),
+    278              0,
+    279              0,
+    280              false,
+    281              false,
+    282              false,
+    283              { EMBER_NULL_MESSAGE_BUFFER, EMBER_NULL_MESSAGE_BUFFER } },
+    284            { EMBER_SERIAL2_RX_QUEUE_SIZE,
+    285              (EMBER_SERIAL2_RX_QUEUE_SIZE / 2),
+    286              0,
+    287              0,
+    288              false,
+    289              false,
+    290              false,
+    291              { EMBER_NULL_MESSAGE_BUFFER, EMBER_NULL_MESSAGE_BUFFER } },
+    292            { EMBER_SERIAL3_RX_QUEUE_SIZE,
+    293              (EMBER_SERIAL3_RX_QUEUE_SIZE / 2),
+    294              0,
+    295              0,
+    296              false,
+    297              false,
+    298              false,
+    299              { EMBER_NULL_MESSAGE_BUFFER, EMBER_NULL_MESSAGE_BUFFER } }
+    300          };
+    301            #define BUFSTATE(port) (dmaBufferStates + (port) - 1)
+    302          
+    303          #elif (EM_SERIAL1_ENABLED \
+    304                 && defined(EM_SER1_FIFO_DMA_USED))
+
+   \                                 In section .data, align 4
+    305          static emDmaBufferState dmaBufferState = {
+   \                     dmaBufferState:
+   \        0x0   0x0080 0x0040      DC16 128, 64, 0, 0
+   \               0x0000 0x000
+   \              0
+   \        0x8   0x00 0x00          DC8 0, 0, 0
+   \              0x00
+   \        0xB                      DS8 1
+   \        0xC   0x0000 0x0000      DC16 0, 0
+    306            EMBER_SERIAL1_RX_QUEUE_SIZE,
+    307            (EMBER_SERIAL1_RX_QUEUE_SIZE / 2),
+    308            0,
+    309            0,
+    310            false,
+    311            false,
+    312            false,
+    313            { EMBER_NULL_MESSAGE_BUFFER, EMBER_NULL_MESSAGE_BUFFER }
+    314          };
+    315            #define BUFSTATE(port) (&dmaBufferState)
+    316          
+    317          #elif (EM_SERIAL2_ENABLED \
+    318                 && defined(EM_SER2_FIFO_DMA_USED))
+    319          static emDmaBufferState dmaBufferState = {
+    320            EMBER_SERIAL2_RX_QUEUE_SIZE,
+    321            (EMBER_SERIAL2_RX_QUEUE_SIZE / 2),
+    322            0,
+    323            0,
+    324            false,
+    325            false,
+    326            false,
+    327            { EMBER_NULL_MESSAGE_BUFFER, EMBER_NULL_MESSAGE_BUFFER }
+    328          };
+    329            #define BUFSTATE(port) (&dmaBufferState)
+    330          
+    331          #elif (EM_SERIAL3_ENABLED \
+    332                 && EMBER_SERIAL3_MODE == EMBER_SERIAL_BUFFER)
+    333          static emDmaBufferState dmaBufferState = {
+    334            EMBER_SERIAL3_RX_QUEUE_SIZE,
+    335            (EMBER_SERIAL3_RX_QUEUE_SIZE / 2),
+    336            0,
+    337            0,
+    338            false,
+    339            false,
+    340            false,
+    341            { EMBER_NULL_MESSAGE_BUFFER, EMBER_NULL_MESSAGE_BUFFER }
+    342          };
+    343            #define BUFSTATE(port) (&dmaBufferState)
+    344          #endif
+    345          
+    346          //State information for TX DMA Buffer operation
+    347          typedef struct emDmaTxBufferState {
+    348            const uint16_t fifoSize;
+    349            bool usingBufferB;
+    350            bool waitingForUnload;
+    351          } emDmaTxBufferState;
+    352          
+    353          // figure out how many buffer state structs we need
+    354          #if (EM_SERIAL1_ENABLED                 \
+    355               && defined(EM_SER1_FIFO_DMA_USED)) \
+    356            && (EM_SERIAL2_ENABLED                \
+    357                && defined(EM_SER2_FIFO_DMA_USED))
+    358          static emDmaTxBufferState dmaTxBufferStates[] = {
+    359            { EMBER_SERIAL1_TX_QUEUE_SIZE,
+    360              false,
+    361              false },
+    362            { EMBER_SERIAL2_TX_QUEUE_SIZE,
+    363              false,
+    364              false }
+    365          };
+    366            #define TX_BUFSTATE(port) (dmaTxBufferStates + (port) - 1)
+    367          
+    368          #elif (EM_SERIAL1_ENABLED \
+    369                 && defined(EM_SER1_FIFO_DMA_USED))
+
+   \                                 In section .data, align 4
+    370          static emDmaTxBufferState dmaTxBufferState = {
+   \                     dmaTxBufferState:
+   \        0x0   0x0080             DC16 128
+   \        0x2   0x00 0x00          DC8 0, 0
+    371            EMBER_SERIAL1_TX_QUEUE_SIZE,
+    372            false,
+    373            false
+    374          };
+    375            #define TX_BUFSTATE(port) (&dmaTxBufferState)
+    376          
+    377          #elif (EM_SERIAL2_ENABLED \
+    378                 && defined(EM_SER2_FIFO_DMA_USED))
+    379          static emDmaTxBufferState dmaTxBufferState = {
+    380            EMBER_SERIAL2_TX_QUEUE_SIZE,
+    381            false,
+    382            false
+    383          };
+    384            #define TX_BUFSTATE(port) (&dmaTxBufferState)
+    385          
+    386          #endif
+    387          
+    388          // prototypes
+    389          #if defined(EM_PHYSICAL_UART)
+    390          static void halInternalUartTxIsr(uint8_t port, uint16_t causes);
+    391          
+    392          #endif
+    393          #if     UARTERRORMARK_NEEDED
+    394          static void uartErrorMark(uint8_t port, uint8_t errors);
+    395          
+    396          #endif//UARTERRORMARK_NEEDED
+    397          
+    398          #if defined(EM_ENABLE_SERIAL_FIFO) && defined(FIFO_DMA_USED)
+    399          static void halInternalRestartUartDma(uint8_t port);
+    400          
+    401          #endif
+    402          
+    403          #ifdef EM_PHYSICAL_UART
+
+   \                                 In section .text, align 2, keep-with-next
+    404          static void halInternalInitUartInterrupts(uint8_t halInternalInitUartPort)
+    405          {
+   \                     halInternalInitUartInterrupts: (+1)
+   \        0x0   0x2801             CMP      R0,#+1
+   \        0x2   0xD000             BEQ.N    ??halInternalInitUartInterrupts_0
+   \        0x4   0x4770             BX       LR
+   \                     ??halInternalInitUartInterrupts_0: (+1)
+   \        0x6   0xB580             PUSH     {R7,LR}
+    406            #if defined(EM_ENABLE_SERIAL_FIFO)
+    407            if (EM_SER1_PORT_EN(halInternalInitUartPort) || EM_SER2_PORT_EN(halInternalInitUartPort)) {
+    408              #if defined(FIFO_DMA_USED)
+    409              halInternalRestartUartDma(halInternalInitUartPort);
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0x.... 0x....      BL       halInternalRestartUartDma
+    410          
+    411              // don't do this for port 1 if it's being used for EZSP
+    412              #ifdef EZSP_ASH
+    413              if (halInternalInitUartPort != 1U) {
+    414              #endif
+    415              EVENT_SCxCFG(halInternalInitUartPort) |= (EVENT_SC12_CFG_RXOVF
+    416                                                        | EVENT_SC12_CFG_FRMERR
+    417                                                        | EVENT_SC12_CFG_PARERR);
+   \        0xE   0x.... 0x....      LDR.W    R0,??DataTable17_1
+   \       0x12   0x6C01             LDR      R1,[R0, #+64]
+   \       0x14   0xF441 0x41C0      ORR      R1,R1,#0x6000
+   \       0x18   0xF041 0x0108      ORR      R1,R1,#0x8
+   \       0x1C   0x6401             STR      R1,[R0, #+64]
+    418            #ifdef EZSP_ASH
+    419            }
+    420            #endif
+    421          
+    422              // The receive side of buffer mode does not require any interrupts.
+    423              // The transmit side of buffer mode requires interrupts, which
+    424              // will be configured on demand in halInternalStartUartTx(), so just
+    425              // enable the top level interrupt for the transmit side.
+    426              EVENT_SCxFLAG(halInternalInitUartPort) = 0xFFFF;   // Clear any stale interrupts
+   \       0x1E   0xF64F 0x71FF      MOVW     R1,#+65535
+   \       0x22   0x6001             STR      R1,[R0, #+0]
+    427              NVIC_EnableIRQ(SCx_IRQn(halInternalInitUartPort));
+   \       0x24   0x2005             MOVS     R0,#+5
+   \       0x26   0xE8BD 0x4002      POP      {R1,LR}
+   \       0x2A   0x....             B.N      __NVIC_EnableIRQ
+    428          
+    429              #if defined(RTSCTS_USED)
+    430              if (EM_SER1_PORT_EN(halInternalInitUartPort) || EM_SER2_PORT_EN(halInternalInitUartPort)) {
+    431                // Software-based RTS/CTS needs interrupts on DMA buffer unloading.
+    432                EVENT_SCxCFG(halInternalInitUartPort) |= (EVENT_SC12_CFG_RXULDA | EVENT_SC12_CFG_RXULDB
+    433                                                          | EVENT_SC12_CFG_TXULDA | EVENT_SC12_FLAG_TXULDB);
+    434                SCx_REG(halInternalInitUartPort, UARTCFG) |= (SC_UARTCFG_UARTFLOW | SC_UARTCFG_UARTRTS);
+    435              }
+    436              #endif
+    437          
+    438              #else // not using DMA
+    439              // Make the RX Valid interrupt level sensitive (instead of edge)
+    440              // EVENT_SC1->INTMODE = EVENT_SC12_INTMODE_RXVALLEVEL;
+    441              // Enable just RX interrupts; TX interrupts are controlled separately
+    442              EVENT_SCxCFG(halInternalInitUartPort) |= (EVENT_SC12_CFG_RXVAL
+    443                                                        | EVENT_SC12_CFG_RXOVF
+    444                                                        | EVENT_SC12_CFG_FRMERR
+    445                                                        | EVENT_SC12_CFG_PARERR);
+    446              EVENT_SCxFLAG(halInternalInitUartPort) = 0xFFFF;   // Clear any stale interrupts
+    447              NVIC_EnableIRQ(SCx_IRQn(halInternalInitUartPort));
+    448              #endif // DMA
+    449            }
+    450            #endif // FIFO mode
+    451          }
+    452          
+    453          // init function for physical UART
+
+   \                                 In section .text, align 2, keep-with-next
+    454          static EmberStatus halInternalInitPhysicalUart(uint8_t halInternalInitPhysicalPort,
+    455                                                         SerialBaudRate rate,
+    456                                                         SerialParity parity,
+    457                                                         uint8_t stopBits)
+    458          {
+   \                     halInternalInitPhysicalUart: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x4615             MOV      R5,R2
+   \        0x6   0x461E             MOV      R6,R3
+    459            uint32_t tempcfg;
+    460          
+    461            // set baud rate
+    462            // If rate is one of the BAUD_ settings from serial.h then use
+    463            // its baudSetting[] value from above, otherwise interpret it
+    464            // as a custom baudSetting[] encoded value.
+    465            if (rate < sizeof(baudSettings) / sizeof(*baudSettings)) {
+   \        0x8   0x4608             MOV      R0,R1
+   \        0xA   0x2813             CMP      R0,#+19
+   \        0xC   0xD202             BCS.N    ??halInternalInitPhysicalUart_0
+    466              rate = baudSettings[rate];
+   \        0xE   0x.... 0x....      LDR.W    R0,??DataTable17_2
+   \       0x12   0x5C41             LDRB     R1,[R0, R1]
+    467            }
+    468            // Convert encoded rate into baud by extracting the <mul> and <exp>
+    469            // nibbles.  <mul> is always multiplied by 100.  For <exp> <= 10,
+    470            // that result is multipled by 2^<exp>; for <exp> > 10 that result
+    471            // is multipled by 10^(<exp>-10).
+    472            tempcfg = (uint32_t)(rate >> 4U) * 100U;   // multiplier
+   \                     ??halInternalInitPhysicalUart_0: (+1)
+   \       0x14   0x460A             MOV      R2,R1
+   \       0x16   0x0912             LSRS     R2,R2,#+4
+   \       0x18   0x2064             MOVS     R0,#+100
+   \       0x1A   0x4350             MULS     R0,R0,R2
+    473            rate &= 0x0FU;   // exponent
+   \       0x1C   0xF001 0x010F      AND      R1,R1,#0xF
+    474            if (rate <= 10U) {
+   \       0x20   0x460A             MOV      R2,R1
+   \       0x22   0x2A0A             CMP      R2,#+10
+   \       0x24   0xD805             BHI.N    ??halInternalInitPhysicalUart_1
+    475              tempcfg <<= rate;
+   \       0x26   0xFA00 0xF101      LSL      R1,R0,R1
+   \       0x2A   0xE008             B.N      ??halInternalInitPhysicalUart_2
+    476            } else {
+    477              while (rate-- > 10U) {
+    478                tempcfg *= 10U;
+   \                     ??halInternalInitPhysicalUart_3: (+1)
+   \       0x2C   0xEB00 0x0280      ADD      R2,R0,R0, LSL #+2
+   \       0x30   0x0050             LSLS     R0,R2,#+1
+    479              }
+   \                     ??halInternalInitPhysicalUart_1: (+1)
+   \       0x32   0x460A             MOV      R2,R1
+   \       0x34   0x1E51             SUBS     R1,R2,#+1
+   \       0x36   0xB2D2             UXTB     R2,R2
+   \       0x38   0x2A0A             CMP      R2,#+10
+   \       0x3A   0xD8F7             BHI.N    ??halInternalInitPhysicalUart_3
+   \       0x3C   0x4601             MOV      R1,R0
+    480            }
+    481            EmberStatus status = halInternalUartSetBaudRate(halInternalInitPhysicalPort, tempcfg);
+   \                     ??halInternalInitPhysicalUart_2: (+1)
+   \       0x3E   0x4620             MOV      R0,R4
+   \       0x40   0x.... 0x....      BL       halInternalUartSetBaudRate
+    482            if (status != (EmberStatus) EMBER_SUCCESS) {
+   \       0x44   0x0001             MOVS     R1,R0
+   \       0x46   0xD11F             BNE.N    ??halInternalInitPhysicalUart_4
+    483              return status;
+    484            }
+    485          
+    486            // Default is always 8 data bits irrespective of parity setting,
+    487            // according to Lee, but hack overloads high-order nibble of stopBits to
+    488            // allow user to specify desired number of data bits:  7 or 8 (default).
+    489            if (((stopBits & 0xF0U) >> 4U) == 7U) {
+   \       0x48   0x4630             MOV      R0,R6
+   \       0x4A   0x0900             LSRS     R0,R0,#+4
+   \       0x4C   0x2807             CMP      R0,#+7
+   \       0x4E   0xD101             BNE.N    ??halInternalInitPhysicalUart_5
+    490              tempcfg = 0U;
+   \       0x50   0x2000             MOVS     R0,#+0
+   \       0x52   0xE000             B.N      ??halInternalInitPhysicalUart_6
+    491            } else {
+    492              tempcfg = SC_UARTCFG_UART8BIT;
+   \                     ??halInternalInitPhysicalUart_5: (+1)
+   \       0x54   0x2002             MOVS     R0,#+2
+    493            }
+    494          
+    495            // parity bits
+    496            if (parity == (uint8_t) PARITY_ODD) {
+   \                     ??halInternalInitPhysicalUart_6: (+1)
+   \       0x56   0x4629             MOV      R1,R5
+   \       0x58   0x2901             CMP      R1,#+1
+   \       0x5A   0xD102             BNE.N    ??halInternalInitPhysicalUart_7
+    497              tempcfg |= SC_UARTCFG_UARTPAR | SC_UARTCFG_UARTODD;
+   \       0x5C   0xF040 0x0018      ORR      R0,R0,#0x18
+   \       0x60   0xE003             B.N      ??halInternalInitPhysicalUart_8
+    498            } else if ( parity == (uint8_t) PARITY_EVEN ) {
+   \                     ??halInternalInitPhysicalUart_7: (+1)
+   \       0x62   0x2D02             CMP      R5,#+2
+   \       0x64   0xD101             BNE.N    ??halInternalInitPhysicalUart_8
+    499              tempcfg |= SC_UARTCFG_UARTPAR;
+   \       0x66   0xF040 0x0008      ORR      R0,R0,#0x8
+    500            } else {
+    501              // MISRA requires ..else if.. to have terminating else.
+    502            }
+    503          
+    504            // stop bits
+    505            if ((stopBits & 0x0FU) >= 2U) {
+   \                     ??halInternalInitPhysicalUart_8: (+1)
+   \       0x6A   0xF006 0x060F      AND      R6,R6,#0xF
+   \       0x6E   0x2E01             CMP      R6,#+1
+   \       0x70   0xD901             BLS.N    ??halInternalInitPhysicalUart_9
+    506              tempcfg |= SC_UARTCFG_UART2STP;
+   \       0x72   0xF040 0x0004      ORR      R0,R0,#0x4
+    507            }
+    508          
+    509            // set all of the above into the config register
+    510            SCx_REG(halInternalInitPhysicalPort, UARTCFG) = tempcfg;
+   \                     ??halInternalInitPhysicalUart_9: (+1)
+   \       0x76   0x.... 0x....      LDR.W    R1,??DataTable17_3
+   \       0x7A   0x6088             STR      R0,[R1, #+8]
+    511          
+    512            // put the peripheral into UART mode
+    513            SCx_REG(halInternalInitPhysicalPort, MODE) = SC_MODE_MODE_UART;
+   \       0x7C   0x2001             MOVS     R0,#+1
+   \       0x7E   0x6008             STR      R0,[R1, #+0]
+    514          
+    515            if (EM_SER1_PORT_EN(halInternalInitPhysicalPort)) {   // port 1 special glitch-free case
+    516          //snip- use CMSIS GPIO->P[] stuff
+    517              SC1_TXD_GPIO(GPIOCFG_OUT_ALT, 1);   // Can Assign TxD glitch-free to UART now
+    518            }
+    519          
+    520            halInternalInitUartInterrupts(halInternalInitPhysicalPort);
+   \       0x80   0x4620             MOV      R0,R4
+   \       0x82   0x.... 0x....      BL       halInternalInitUartInterrupts
+    521          
+    522            #ifdef EMBER_SERIAL1_XONXOFF
+    523            if (EM_SER1_PORT_EN(halInternalInitPhysicalPort)) {   // port 1 XON/XOFF special case
+    524              halInternalUart1ForceXon();
+    525            }
+    526            #endif
+    527          
+    528            return EMBER_SUCCESS;
+   \       0x86   0x2000             MOVS     R0,#+0
+   \                     ??halInternalInitPhysicalUart_4: (+1)
+   \       0x88   0xBD70             POP      {R4-R6,PC}
+    529          }
+    530          
+    531          #endif // EM_PHYSICAL_UART
+    532          
+    533          // initialize USB Virtual COM Port
+    534          #if EM_SERIAL3_ENABLED
+    535          static EmberStatus halInternalInitUsbVcp(void)
+    536          {
+    537            #if defined(CORTEXM3_EM35X_USB)
+    538            halResetWatchdog();
+    539          
+    540            tokTypeMfgEui64 tokEui64;
+    541            halCommonGetMfgToken((void *)&tokEui64, TOKEN_MFG_EUI_64);
+    542          
+    543            uint8_t i = 0;
+    544            uint8_t j = 0;
+    545            for (j = 0; j < 8; j++) {
+    546              USBCDC_iSerialNumber.name[i++] = nibble2Ascii((tokEui64[j] >> 4) & 0xF);
+    547              USBCDC_iSerialNumber.name[i++] = nibble2Ascii((tokEui64[j] >> 0) & 0xF);
+    548            }
+    549          
+    550            USBD_Init(&USBCDC_initStruct);
+    551          
+    552            // USBD_Read(EP_OUT, receiveBuffer, 50, dataReceivedCallback);
+    553          
+    554            //It is necessary to wait for the COM port on the host to become
+    555            //active before serial port3 can be used.
+    556            uint16_t startTime = halCommonGetInt16uMillisecondTick();
+    557            while (USBD_GetUsbState() != USBD_STATE_CONFIGURED) {
+    558                #ifdef BOOTLOADER
+    559              halUsbIsr();
+    560                #endif
+    561              //Give ourselves a healthy 1 second for a COM port to open.
+    562              if (elapsedTimeInt16u(startTime,
+    563                                    halCommonGetInt16uMillisecondTick()) > 1000) {
+    564                return EMBER_SERIAL_INVALID_PORT;
+    565              }
+    566            }
+    567          
+    568            return EMBER_SUCCESS;
+    569            #else
+    570            return EMBER_SERIAL_INVALID_PORT;
+    571            #endif
+    572          }
+    573          
+    574          #endif
+    575          
+    576          #if (EM_SERIAL0_ENABLED    \
+    577               || EM_SERIAL1_ENABLED \
+    578               || EM_SERIAL2_ENABLED \
+    579               || EM_SERIAL3_ENABLED)
+
+   \                                 In section .text, align 2, keep-with-next
+    580          EmberStatus halInternalUartInit(uint8_t port,
+    581                                          SerialBaudRate rate,
+    582                                          SerialParity parity,
+    583                                          uint8_t stopBits)
+    584          {
+   \                     halInternalUartInit: (+1)
+   \        0x0   0xB418             PUSH     {R3,R4}
+    585            #if EM_SERIAL0_ENABLED
+    586            if (EM_SER0_PORT_EN(port)) {
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0xD102             BNE.N    ??halInternalUartInit_0
+    587              // Initialize the debug channel
+    588              return emDebugInit();
+   \        0x6   0xBC11             POP      {R0,R4}
+   \        0x8   0x.... 0x....      B.W      emDebugInit
+    589            }
+    590            #endif
+    591          
+    592            #ifdef EM_PHYSICAL_UART
+    593            if (EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port)) {
+   \                     ??halInternalUartInit_0: (+1)
+   \        0xC   0x2801             CMP      R0,#+1
+   \        0xE   0xD103             BNE.N    ??halInternalUartInit_1
+    594              return halInternalInitPhysicalUart(port, rate, parity, stopBits);
+   \       0x10   0x2001             MOVS     R0,#+1
+   \       0x12   0xB001             ADD      SP,SP,#+4
+   \       0x14   0xBC10             POP      {R4}
+   \       0x16   0x....             B.N      halInternalInitPhysicalUart
+    595            }
+    596            #endif
+    597          
+    598            #if EM_SERIAL3_ENABLED && defined(CORTEXM3_EM35X_USB)
+    599            if (EM_SER3_PORT_EN(port)) {
+    600              return halInternalInitUsbVcp();
+    601            }
+    602            #endif
+    603          
+    604            return EMBER_SERIAL_INVALID_PORT;
+   \                     ??halInternalUartInit_1: (+1)
+   \       0x18   0x2021             MOVS     R0,#+33
+   \       0x1A   0xBC12             POP      {R1,R4}
+   \       0x1C   0x4770             BX       LR
+    605          }
+    606          
+    607          #endif//(!defined(EM_SERIAL0_DISABLED) || !defined(EM_SERIAL1_DISABLED))
+    608          
+    609          #if (EMBER_SERIAL3_MODE == EMBER_SERIAL_BUFFER) && EM_SERIAL3_ENABLED
+    610          void usbReleaseBuffer(USB_Status_TypeDef status, uint32_t xferred, uint32_t remaining)
+    611          {
+    612            assert(status == USB_STATUS_OK);
+    613            emberReleaseMessageBuffer(BUFSTATE(3)->holdBuf[0]);
+    614            BUFSTATE(3)->holdBuf[0] = EMBER_NULL_MESSAGE_BUFFER;
+    615          }
+    616          
+    617          #endif
+    618          
+
+   \                                 In section .text, align 2, keep-with-next
+    619          void halInternalStartUartTx(uint8_t port)
+    620          {
+   \                     halInternalStartUartTx: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+    621            #if EM_SERIAL0_ENABLED
+    622            if (EM_SER0_PORT_EN(port)) {
+   \        0x2   0x0001             MOVS     R1,R0
+   \        0x4   0xD114             BNE.N    ??halInternalStartUartTx_0
+    623              EmSerialFifoQueue *q = (EmSerialFifoQueue *)emSerialTxQueues[0];
+   \        0x6   0x.... 0x....      LDR.W    R0,??DataTable17_4
+   \        0xA   0x6804             LDR      R4,[R0, #+0]
+    624              assert(q->tail == 0);
+   \        0xC   0x8860             LDRH     R0,[R4, #+2]
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD005             BEQ.N    ??halInternalStartUartTx_1
+   \       0x12   0xF44F 0x711C      MOV      R1,#+624
+   \       0x16   0x.... 0x....      LDR.W    R0,??DataTable17_5
+   \       0x1A   0x.... 0x....      BL       halInternalAssertFailed
+    625              emDebugSendVuartMessage(q->fifo, q->used);
+   \                     ??halInternalStartUartTx_1: (+1)
+   \       0x1E   0x88A1             LDRH     R1,[R4, #+4]
+   \       0x20   0xB2C9             UXTB     R1,R1
+   \       0x22   0x1DA0             ADDS     R0,R4,#+6
+   \       0x24   0x.... 0x....      BL       emDebugSendVuartMessage
+    626              q->used = 0;
+   \       0x28   0x2000             MOVS     R0,#+0
+   \       0x2A   0x80A0             STRH     R0,[R4, #+4]
+    627              q->head = 0;
+   \       0x2C   0x8020             STRH     R0,[R4, #+0]
+    628              return;
+   \       0x2E   0xBD10             POP      {R4,PC}
+    629            }
+    630            #endif//!defined(EM_SERIAL0_DISABLED)
+    631          
+    632            #if defined(EM_PHYSICAL_UART)
+    633            // If the port is configured, go ahead and start transmit
+    634            #if defined(EM_ENABLE_SERIAL_FIFO)
+    635            if ((EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port))
+    636                && (SCx_REG(port, MODE) == SC_MODE_MODE_UART)) {
+   \                     ??halInternalStartUartTx_0: (+1)
+   \       0x30   0x2801             CMP      R0,#+1
+   \       0x32   0xD118             BNE.N    ??halInternalStartUartTx_2
+   \       0x34   0x.... 0x....      LDR.W    R0,??DataTable17_3
+   \       0x38   0x6800             LDR      R0,[R0, #+0]
+   \       0x3A   0x2801             CMP      R0,#+1
+   \       0x3C   0xD113             BNE.N    ??halInternalStartUartTx_2
+    637              // Ensure UART TX interrupts are enabled,
+    638              // and call the ISR to send any pending output
+    639              DECLARE_INTERRUPT_STATE;
+    640              DISABLE_INTERRUPTS();
+   \       0x3E   0x.... 0x....      BL       _disableBasePri
+   \       0x42   0x4604             MOV      R4,R0
+    641              #if defined(FIFO_DMA_USED)
+    642              // enable interupts TX unload interrupts for DMA, and TXIDLE interrupt
+    643              EVENT_SCxCFG(port) |= (EVENT_SC12_CFG_TXULDA | EVENT_SC12_CFG_TXULDB | EVENT_SC12_CFG_TXIDLE);
+   \       0x44   0x.... 0x....      LDR.W    R0,??DataTable17_6
+   \       0x48   0x6801             LDR      R1,[R0, #+0]
+   \       0x4A   0xF441 0x51C0      ORR      R1,R1,#0x1800
+   \       0x4E   0xF041 0x0104      ORR      R1,R1,#0x4
+   \       0x52   0x6001             STR      R1,[R0, #+0]
+    644              #else // non DMA
+    645              // enable interrupst for TXFREE and TXIDLE
+    646              EVENT_SCxCFG(port) |= (EVENT_SC12_CFG_TXFREE | EVENT_SC12_CFG_TXIDLE);
+    647              #endif
+    648              // Pretend we got a tx interrupt
+    649              halInternalUartTxIsr(port, 0);
+   \       0x54   0x2100             MOVS     R1,#+0
+   \       0x56   0x2001             MOVS     R0,#+1
+   \       0x58   0x.... 0x....      BL       halInternalUartTxIsr
+    650              RESTORE_INTERRUPTS();
+   \       0x5C   0x4620             MOV      R0,R4
+   \       0x5E   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x62   0x.... 0x....      B.W      _writeBasePri
+    651              return;
+    652            }
+    653            #endif // FIFO
+    654            #endif // EM_PHYSICAL_UART
+    655          
+    656            #if EM_SERIAL3_ENABLED
+    657            if (EM_SER3_PORT_EN(port)) {
+    658                #if defined(CORTEXM3_EM35X_USB)
+    659              usbTxData();
+    660              return;
+    661                #endif
+    662            }
+    663            #endif // EM_SERIAL3_ENABLED && EMBER_SERIAL3_MODE == EMBER_SERIAL_FIFO
+    664          }
+   \                     ??halInternalStartUartTx_2: (+1)
+   \       0x66   0xBD10             POP      {R4,PC}
+    665          
+
+   \                                 In section .text, align 2, keep-with-next
+    666          void halInternalStopUartTx(uint8_t port)
+    667          {
+    668            // Nothing for port 0 (virtual uart)
+    669          
+    670            #if defined(EM_PHYSICAL_UART)
+    671            #if defined(EM_ENABLE_SERIAL_FIFO)
+    672            if (EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port)) {
+   \                     halInternalStopUartTx: (+1)
+   \        0x0   0x2801             CMP      R0,#+1
+   \        0x2   0xD10F             BNE.N    ??halInternalStopUartTx_0
+    673              #if defined(FIFO_DMA_USED)
+    674              // Ensure DMA operations are complete before shutting off interrupts,
+    675              // otherwise we might miss an important interrupt and cause a
+    676              // packet buffer leak, e.g.
+    677              while (SCx_REG(port, DMACTRL) & (SC_DMACTRL_TXLODA | SC_DMACTRL_TXLODB)) {
+   \                     ??halInternalStopUartTx_1: (+1)
+   \        0x4   0x.... 0x....      LDR.W    R0,??DataTable17_7
+   \        0x8   0x6801             LDR      R1,[R0, #+0]
+   \        0xA   0xF011 0x0F0C      TST      R1,#0xC
+   \        0xE   0xD1F9             BNE.N    ??halInternalStopUartTx_1
+    678              }
+    679              while ( !(SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTTXIDLE)) {
+   \                     ??halInternalStopUartTx_2: (+1)
+   \       0x10   0x6981             LDR      R1,[R0, #+24]
+   \       0x12   0x0649             LSLS     R1,R1,#+25
+   \       0x14   0xD5FC             BPL.N    ??halInternalStopUartTx_2
+    680              }
+    681              // Disable TX Interrupts
+    682              EVENT_SCxCFG(port) &= ~(EVENT_SC12_CFG_TXULDA | EVENT_SC12_CFG_TXULDB | EVENT_SC12_CFG_TXIDLE);
+   \       0x16   0x.... 0x....      LDR.W    R1,??DataTable17_6
+   \       0x1A   0x680A             LDR      R2,[R1, #+0]
+   \       0x1C   0x.... 0x....      LDR.W    R0,??DataTable17_8
+   \       0x20   0x4002             ANDS     R2,R0,R2
+   \       0x22   0x600A             STR      R2,[R1, #+0]
+    683              #else
+    684              // Disable TX Interrupts
+    685              EVENT_SCxCFG(port) &= ~(EVENT_SC12_CFG_TXFREE | EVENT_SC12_CFG_TXIDLE);
+    686              #endif // FIFO_DMA_USED
+    687            }
+    688            #endif // FIFO
+    689            #endif // defined(EM_PHYSICAL_UART)
+    690          }
+   \                     ??halInternalStopUartTx_0: (+1)
+   \       0x24   0x4770             BX       LR
+    691          
+    692          //full blocking, no queue overflow issues, can be used in or out of int context
+    693          //does not return until character is transmitted.
+
+   \                                 In section .text, align 2, keep-with-next
+    694          EmberStatus halInternalForceWriteUartData(uint8_t port, uint8_t *data, uint8_t length)
+    695          {
+   \                     halInternalForceWriteUartData: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x460B             MOV      R3,R1
+    696            #if EM_SERIAL0_ENABLED
+    697            if (EM_SER0_PORT_EN(port)) {
+   \        0x4   0x0001             MOVS     R1,R0
+   \        0x6   0xD105             BNE.N    ??halInternalForceWriteUartData_0
+    698              emDebugSendVuartMessage(data, length);
+   \        0x8   0x4611             MOV      R1,R2
+   \        0xA   0x4618             MOV      R0,R3
+   \        0xC   0x.... 0x....      BL       emDebugSendVuartMessage
+    699              return EMBER_SUCCESS;
+   \       0x10   0x2000             MOVS     R0,#+0
+   \       0x12   0xBD02             POP      {R1,PC}
+    700            }
+    701            #endif
+    702          
+    703            #if defined(EM_PHYSICAL_UART)
+    704            //if the port is configured, go ahead and transmit
+    705            if ((EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port))
+    706                && (SCx_REG(port, MODE) == SC_MODE_MODE_UART)) {
+   \                     ??halInternalForceWriteUartData_0: (+1)
+   \       0x14   0x2801             CMP      R0,#+1
+   \       0x16   0xD104             BNE.N    ??halInternalForceWriteUartData_1
+   \       0x18   0x.... 0x....      LDR.W    R0,??DataTable17_9
+   \       0x1C   0x6981             LDR      R1,[R0, #+24]
+   \       0x1E   0x2901             CMP      R1,#+1
+   \       0x20   0xD007             BEQ.N    ??halInternalForceWriteUartData_2
+    707              while (length-- != 0U) {
+    708                //spin until data register has room for more data
+    709                while (!(SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTTXFREE)) {
+    710                }
+    711                SCx_REG(port, DATA) = *data;
+    712                data++;
+    713              }
+    714          
+    715              //spin until TX complete (TX is idle)
+    716              while (!(SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTTXIDLE)) {
+    717              }
+    718          
+    719              return EMBER_SUCCESS;
+    720            }
+    721            #endif // defined(EM_PHYSICAL_UART)
+    722          
+    723            #if EM_SERIAL3_ENABLED
+    724            if (EM_SER3_PORT_EN(port)) {
+    725                #if defined(CORTEXM3_EM35X_USB)
+    726              //This function will block until done sending all the data.
+    727              usbForceTxData(data, length);
+    728              return EMBER_SUCCESS;
+    729                #endif
+    730            }
+    731            #endif // EM_SERIAL3_ENABLED
+    732          
+    733            return EMBER_SERIAL_INVALID_PORT;
+   \                     ??halInternalForceWriteUartData_1: (+1)
+   \       0x22   0x2021             MOVS     R0,#+33
+   \       0x24   0xBD02             POP      {R1,PC}
+   \                     ??halInternalForceWriteUartData_3: (+1)
+   \       0x26   0x68C1             LDR      R1,[R0, #+12]
+   \       0x28   0x0749             LSLS     R1,R1,#+29
+   \       0x2A   0xD5FC             BPL.N    ??halInternalForceWriteUartData_3
+   \       0x2C   0xF813 0x1B01      LDRB     R1,[R3], #+1
+   \       0x30   0x6001             STR      R1,[R0, #+0]
+   \                     ??halInternalForceWriteUartData_2: (+1)
+   \       0x32   0x4611             MOV      R1,R2
+   \       0x34   0x1E4A             SUBS     R2,R1,#+1
+   \       0x36   0xB2C9             UXTB     R1,R1
+   \       0x38   0x2900             CMP      R1,#+0
+   \       0x3A   0xD1F4             BNE.N    ??halInternalForceWriteUartData_3
+   \                     ??halInternalForceWriteUartData_4: (+1)
+   \       0x3C   0x68C1             LDR      R1,[R0, #+12]
+   \       0x3E   0x0649             LSLS     R1,R1,#+25
+   \       0x40   0xD5FC             BPL.N    ??halInternalForceWriteUartData_4
+   \       0x42   0x2000             MOVS     R0,#+0
+   \       0x44   0xBD02             POP      {R1,PC}
+    734          }
+    735          
+    736          // Useful for waiting on serial port characters before interrupts have been
+    737          // turned on.
+
+   \                                 In section .text, align 2, keep-with-next
+    738          EmberStatus halInternalForceReadUartByte(uint8_t port, uint8_t* dataByte)
+    739          {
+   \                     halInternalForceReadUartByte: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    740            EmberStatus err = EMBER_SUCCESS;
+   \        0x6   0x2600             MOVS     R6,#+0
+    741          
+    742            #if EM_SERIAL0_ENABLED
+    743            if (EM_SER0_PORT_EN(port)) {
+   \        0x8   0x0020             MOVS     R0,R4
+   \        0xA   0xD123             BNE.N    ??halInternalForceReadUartByte_0
+    744              EmSerialFifoQueue *q = emSerialRxQueues[0];
+   \        0xC   0x.... 0x....      LDR.W    R0,??DataTable17_10
+   \       0x10   0x6807             LDR      R7,[R0, #+0]
+    745              {
+    746                DECLARE_INTERRUPT_STATE;
+    747                DISABLE_INTERRUPTS();
+   \       0x12   0x.... 0x....      BL       _disableBasePri
+    748                if (q->used == 0) {
+   \       0x16   0x88B9             LDRH     R1,[R7, #+4]
+   \       0x18   0x2900             CMP      R1,#+0
+   \       0x1A   0xD103             BNE.N    ??halInternalForceReadUartByte_1
+    749                  CMHV->WAKECORE = CMHV_WAKECORE_WAKECOREFIELD;
+   \       0x1C   0x2120             MOVS     R1,#+32
+   \       0x1E   0x.... 0x....      LDR.W    R2,??DataTable17_11
+   \       0x22   0x6011             STR      R1,[R2, #+0]
+    750                }
+    751                if (q->used > 0) {
+   \                     ??halInternalForceReadUartByte_1: (+1)
+   \       0x24   0x88B9             LDRH     R1,[R7, #+4]
+   \       0x26   0x2900             CMP      R1,#+0
+   \       0x28   0xD011             BEQ.N    ??halInternalForceReadUartByte_2
+    752                  *dataByte = FIFO_DEQUEUE(q, emSerialRxQueueWraps[0]);
+   \       0x2A   0x8879             LDRH     R1,[R7, #+2]
+   \       0x2C   0x1879             ADDS     R1,R7,R1
+   \       0x2E   0x7989             LDRB     R1,[R1, #+6]
+   \       0x30   0x7029             STRB     R1,[R5, #+0]
+   \       0x32   0x8879             LDRH     R1,[R7, #+2]
+   \       0x34   0x1C49             ADDS     R1,R1,#+1
+   \       0x36   0x.... 0x....      LDR.W    R2,??DataTable17_12
+   \       0x3A   0x8812             LDRH     R2,[R2, #+0]
+   \       0x3C   0xFB91 0xF3F2      SDIV     R3,R1,R2
+   \       0x40   0xFB02 0x1113      MLS      R1,R2,R3,R1
+   \       0x44   0x8079             STRH     R1,[R7, #+2]
+   \       0x46   0x88B9             LDRH     R1,[R7, #+4]
+   \       0x48   0x1E49             SUBS     R1,R1,#+1
+   \       0x4A   0x80B9             STRH     R1,[R7, #+4]
+   \       0x4C   0xE000             B.N      ??halInternalForceReadUartByte_3
+    753                } else {
+    754                  err = EMBER_SERIAL_RX_EMPTY;
+   \                     ??halInternalForceReadUartByte_2: (+1)
+   \       0x4E   0x2626             MOVS     R6,#+38
+    755                }
+    756                RESTORE_INTERRUPTS();
+   \                     ??halInternalForceReadUartByte_3: (+1)
+   \       0x50   0x.... 0x....      BL       _writeBasePri
+    757              }
+    758            }
+    759            #endif // EM_SERIAL0_ENABLED
+    760          
+    761            #if defined(EM_PHYSICAL_UART)
+    762              #if defined(EM_ENABLE_SERIAL_FIFO)
+    763            if (EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port)) {
+   \                     ??halInternalForceReadUartByte_0: (+1)
+   \       0x54   0x2C01             CMP      R4,#+1
+   \       0x56   0xD106             BNE.N    ??halInternalForceReadUartByte_4
+    764              #if defined(FIFO_DMA_USED)
+    765              //When in FIFO DMA mode, the DMA channel is active and the RXVALID bit (as
+    766              //used below in non DMA mode) will never get set.  To maintain the DMA
+    767              //model of operation, we need to break the conceptual model in this function
+    768              //and make a function call upwards away from the hardware.  The ReadByte
+    769              //function calls back down into halInternalUartRxPump and forces the
+    770              //sequencing of the serial queues and the DMA buffer, resulting in a forced
+    771              //read byte being returned if it is there.
+    772              if (emberSerialReadByte(port, dataByte) != EMBER_SUCCESS) {
+   \       0x58   0x4629             MOV      R1,R5
+   \       0x5A   0x2001             MOVS     R0,#+1
+   \       0x5C   0x.... 0x....      BL       emberSerialReadByte
+   \       0x60   0x2800             CMP      R0,#+0
+   \       0x62   0xD000             BEQ.N    ??halInternalForceReadUartByte_4
+    773                err = EMBER_SERIAL_RX_EMPTY;
+   \       0x64   0x2626             MOVS     R6,#+38
+    774              }
+    775              #else // not DMA
+    776              if ((SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTRXVAL) != 0U) {
+    777                *dataByte = (uint8_t) SCx_REG(port, DATA);
+    778              } else {
+    779                err = EMBER_SERIAL_RX_EMPTY;
+    780              }
+    781              #endif
+    782            }
+    783            #endif // FIFO
+    784            #endif // defined(EM_PHYSICAL_UART)
+    785          
+    786            return err;
+   \                     ??halInternalForceReadUartByte_4: (+1)
+   \       0x66   0x4630             MOV      R0,R6
+   \       0x68   0xBDF2             POP      {R1,R4-R7,PC}
+    787          }
+    788          
+    789          // blocks until the text actually goes out
+
+   \                                 In section .text, align 2, keep-with-next
+    790          void halInternalWaitUartTxComplete(uint8_t port)
+    791          {
+   \                     halInternalWaitUartTxComplete: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    792            halResetWatchdog();
+   \        0x4   0x.... 0x....      BL       halInternalResetWatchDog
+    793          
+    794            // Nothing to do for port 0 (virtual uart)
+    795          
+    796            #if defined(EM_PHYSICAL_UART)
+    797            if (EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port)) {
+   \        0x8   0x2C01             CMP      R4,#+1
+   \        0xA   0xD104             BNE.N    ??halInternalWaitUartTxComplete_0
+    798              while ( !(SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTTXIDLE)) {
+   \                     ??halInternalWaitUartTxComplete_1: (+1)
+   \        0xC   0x.... 0x....      LDR.W    R0,??DataTable17_13
+   \       0x10   0x6800             LDR      R0,[R0, #+0]
+   \       0x12   0x0640             LSLS     R0,R0,#+25
+   \       0x14   0xD5FA             BPL.N    ??halInternalWaitUartTxComplete_1
+    799              }
+    800              return;
+    801            }
+    802            #endif // defined(EM_PHYSICAL_UART)
+    803          }
+   \                     ??halInternalWaitUartTxComplete_0: (+1)
+   \       0x16   0xBD10             POP      {R4,PC}
+    804          
+    805          // Debug Channel calls this ISR to push up data it has received
+
+   \                                 In section .text, align 2, keep-with-next
+    806          void halStackReceiveVuartMessage(uint8_t *data, uint8_t length)
+    807          {
+   \                     halStackReceiveVuartMessage: (+1)
+   \        0x0   0xB430             PUSH     {R4,R5}
+    808            #if EM_SERIAL0_ENABLED
+    809            EmSerialFifoQueue *q = emSerialRxQueues[0];
+   \        0x2   0x.... 0x....      LDR.W    R2,??DataTable17_10
+   \        0x6   0x6812             LDR      R2,[R2, #+0]
+   \        0x8   0xE011             B.N      ??halStackReceiveVuartMessage_0
+    810          
+    811            while (length-- != 0U) {
+    812              //Use (emSerialRxQueueSizes - 1) so that the FIFO never completely fills
+    813              //and the head never wraps around to the tail
+    814              if ((q->used < (emSerialRxQueueSizes[0] - 1))) {
+    815                FIFO_ENQUEUE(q, *data++, emSerialRxQueueWraps[0]);
+   \                     ??halStackReceiveVuartMessage_1: (+1)
+   \        0xA   0xF810 0x3B01      LDRB     R3,[R0], #+1
+   \        0xE   0x8814             LDRH     R4,[R2, #+0]
+   \       0x10   0x1914             ADDS     R4,R2,R4
+   \       0x12   0x71A3             STRB     R3,[R4, #+6]
+   \       0x14   0x8813             LDRH     R3,[R2, #+0]
+   \       0x16   0x1C5B             ADDS     R3,R3,#+1
+   \       0x18   0x.... 0x....      LDR.W    R4,??DataTable17_12
+   \       0x1C   0x8824             LDRH     R4,[R4, #+0]
+   \       0x1E   0xFB93 0xF5F4      SDIV     R5,R3,R4
+   \       0x22   0xFB04 0x3315      MLS      R3,R4,R5,R3
+   \       0x26   0x8013             STRH     R3,[R2, #+0]
+   \       0x28   0x8893             LDRH     R3,[R2, #+4]
+   \       0x2A   0x1C5B             ADDS     R3,R3,#+1
+   \       0x2C   0x8093             STRH     R3,[R2, #+4]
+    816              } else {
+   \                     ??halStackReceiveVuartMessage_0: (+1)
+   \       0x2E   0x460B             MOV      R3,R1
+   \       0x30   0x1E59             SUBS     R1,R3,#+1
+   \       0x32   0xB2DB             UXTB     R3,R3
+   \       0x34   0x2B00             CMP      R3,#+0
+   \       0x36   0xD00A             BEQ.N    ??halStackReceiveVuartMessage_2
+   \       0x38   0x8893             LDRH     R3,[R2, #+4]
+   \       0x3A   0x.... 0x....      LDR.W    R4,??DataTable17_14
+   \       0x3E   0x8824             LDRH     R4,[R4, #+0]
+   \       0x40   0x1E64             SUBS     R4,R4,#+1
+   \       0x42   0x42A3             CMP      R3,R4
+   \       0x44   0xDBE1             BLT.N    ??halStackReceiveVuartMessage_1
+    817                uartErrorMark(0, EMBER_SERIAL_RX_OVERFLOW);
+   \       0x46   0x2123             MOVS     R1,#+35
+   \       0x48   0x2000             MOVS     R0,#+0
+   \       0x4A   0xBC30             POP      {R4,R5}
+   \       0x4C   0x....             B.N      uartErrorMark
+    818                return;    // no sense in trying to enqueue the rest
+    819              }
+    820            }
+   \                     ??halStackReceiveVuartMessage_2: (+1)
+   \       0x4E   0xBC30             POP      {R4,R5}
+   \       0x50   0x4770             BX       LR
+    821            #endif // EM_SERIAL0_ENABLED
+    822          }
+    823          
+    824          #if defined(EM_ENABLE_SERIAL_FIFO) && defined(FIFO_DMA_USED)
+
+   \                                 In section .text, align 2, keep-with-next
+    825          static void halInternalRestartUartDma(uint8_t port)
+    826          {
+   \                     halInternalRestartUartDma: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+    827            //Reset the DMA software and restart it.
+    828            EmSerialFifoQueue *q = emSerialRxQueues[port];
+   \        0x4   0x.... 0x....      LDR.W    R1,??DataTable17_10
+   \        0x8   0xF851 0x0020      LDR      R0,[R1, R0, LSL #+2]
+    829            uint32_t startAddress = (uint32_t)q->fifo;
+   \        0xC   0x1D81             ADDS     R1,R0,#+6
+    830            uint8_t head;
+    831            uint8_t tail;
+    832            uint8_t loadA = 0;
+   \        0xE   0x2200             MOVS     R2,#+0
+    833            uint8_t loadB = 0;
+   \       0x10   0x4613             MOV      R3,R2
+    834            BUFSTATE(port)->prevCountA = 0;
+   \       0x12   0x.... 0x....      LDR.W    R4,??DataTable17_15
+   \       0x16   0x4615             MOV      R5,R2
+   \       0x18   0x6065             STR      R5,[R4, #+4]
+    835            BUFSTATE(port)->prevCountB = 0;
+    836            BUFSTATE(port)->waitingForTailA = false;
+   \       0x1A   0x8125             STRH     R5,[R4, #+8]
+    837            BUFSTATE(port)->waitingForTailB = false;
+    838            BUFSTATE(port)->waitingForInputToB = false;
+   \       0x1C   0x72A5             STRB     R5,[R4, #+10]
+    839            TX_BUFSTATE(port)->usingBufferB = false;
+   \       0x1E   0x.... 0x....      LDR.W    R5,??DataTable17_16
+   \       0x22   0x4616             MOV      R6,R2
+   \       0x24   0x806E             STRH     R6,[R5, #+2]
+    840            TX_BUFSTATE(port)->waitingForUnload = false;
+    841          
+    842            //reload all defaults addresses - they will be adjusted below if needed
+    843            SCx_REG(port, DMACTRL) = SC_DMACTRL_RXDMARST;                               // reset DMA
+   \       0x26   0x.... 0x....      LDR.W    R5,??DataTable17_17
+   \       0x2A   0x2610             MOVS     R6,#+16
+   \       0x2C   0x632E             STR      R6,[R5, #+48]
+    844            SCx_REG(port, RXBEGA) =  startAddress;                                      //
+   \       0x2E   0x6029             STR      R1,[R5, #+0]
+    845            SCx_REG(port, RXENDA) = (startAddress + BUFSTATE(port)->fifoSize / 2 - 1);
+   \       0x30   0x8826             LDRH     R6,[R4, #+0]
+   \       0x32   0xEB11 0x0656      ADDS     R6,R1,R6, LSR #+1
+   \       0x36   0x1E76             SUBS     R6,R6,#+1
+   \       0x38   0x606E             STR      R6,[R5, #+4]
+    846            SCx_REG(port, RXBEGB) =  (startAddress + BUFSTATE(port)->fifoSize / 2);
+   \       0x3A   0x8826             LDRH     R6,[R4, #+0]
+   \       0x3C   0xEB11 0x0656      ADDS     R6,R1,R6, LSR #+1
+   \       0x40   0x60AE             STR      R6,[R5, #+8]
+    847            SCx_REG(port, RXENDB) = (startAddress + BUFSTATE(port)->fifoSize - 1);
+   \       0x42   0x8826             LDRH     R6,[R4, #+0]
+   \       0x44   0x1876             ADDS     R6,R6,R1
+   \       0x46   0x1E76             SUBS     R6,R6,#+1
+   \       0x48   0x60EE             STR      R6,[R5, #+12]
+    848          
+    849            //adjust buffer addresses as needed and reload available buffers
+    850            if ( q->used != BUFSTATE(port)->fifoSize ) {
+   \       0x4A   0x8886             LDRH     R6,[R0, #+4]
+   \       0x4C   0x8827             LDRH     R7,[R4, #+0]
+   \       0x4E   0x42BE             CMP      R6,R7
+   \       0x50   0xD04D             BEQ.N    ??halInternalRestartUartDma_0
+    851              //we can only reload if the FIFO isn't full!
+    852              //the FIFO is not empty or full, figure out what to do:
+    853              //at this point we know we always have to adjust ST_ADDR to the head
+    854              //we need to know which buffer the head is in, and always load that buff
+    855              if ((q->head) < BUFSTATE(port)->rxStartIndexB) {
+   \       0x52   0x8806             LDRH     R6,[R0, #+0]
+   \       0x54   0x4637             MOV      R7,R6
+   \       0x56   0x187F             ADDS     R7,R7,R1
+   \       0x58   0xF8B4 0xC002      LDRH     R12,[R4, #+2]
+   \       0x5C   0x4566             CMP      R6,R12
+   \       0x5E   0xD202             BCS.N    ??halInternalRestartUartDma_1
+    856                SCx_REG(port, RXBEGA) = startAddress + (q->head);
+   \       0x60   0x602F             STR      R7,[R5, #+0]
+    857                loadA++;
+   \       0x62   0x2201             MOVS     R2,#+1
+   \       0x64   0xE001             B.N      ??halInternalRestartUartDma_2
+    858              } else {
+    859                SCx_REG(port, RXBEGB) = startAddress + (q->head);
+   \                     ??halInternalRestartUartDma_1: (+1)
+   \       0x66   0x60AF             STR      R7,[R5, #+8]
+    860                loadB++;
+   \       0x68   0x2301             MOVS     R3,#+1
+    861              }
+    862              //check to see if the head and the tail are not in the same buffer
+    863              if ((q->tail) / (BUFSTATE(port)->rxStartIndexB)) {
+   \                     ??halInternalRestartUartDma_2: (+1)
+   \       0x6A   0x8866             LDRH     R6,[R4, #+2]
+   \       0x6C   0x46B4             MOV      R12,R6
+   \       0x6E   0x8847             LDRH     R7,[R0, #+2]
+   \       0x70   0x46BE             MOV      LR,R7
+   \       0x72   0xFB9E 0xFEFC      SDIV     LR,LR,R12
+   \       0x76   0xF1BE 0x0E01      SUBS     LR,LR,#+1
+   \       0x7A   0xEB6E 0x0E0E      SBC      LR,LR,LR
+   \       0x7E   0xEA6F 0x0E0E      MVN      LR,LR
+   \       0x82   0xEA4F 0x7EDE      LSR      LR,LR,#+31
+    864                tail = true;   //Tail in B buffer
+    865              } else {
+    866                tail = false;   //Tail in A buffer
+    867              }
+    868          
+    869              if ((q->head) / (BUFSTATE(port)->rxStartIndexB)) {
+   \       0x86   0xF8B0 0x8000      LDRH     R8,[R0, #+0]
+   \       0x8A   0xFB98 0xFCFC      SDIV     R12,R8,R12
+   \       0x8E   0xF1BC 0x0C01      SUBS     R12,R12,#+1
+   \       0x92   0xEB6C 0x0C0C      SBC      R12,R12,R12
+   \       0x96   0xEA6F 0x0C0C      MVN      R12,R12
+    870                head = true;   //Head in B buffer
+    871              } else {
+    872                head = false;   //Head in A buffer
+    873              }
+    874          
+    875              if ( tail != head ) {
+   \       0x9A   0xEBBE 0x7FDC      CMP      LR,R12, LSR #+31
+   \       0x9E   0xD007             BEQ.N    ??halInternalRestartUartDma_3
+    876                //the head and the tail are in different buffers
+    877                //we need to flag the buffer the tail is in so the Pump function does
+    878                //not try to reenable it until it has been drained like normal.
+    879                if ((q->tail) < BUFSTATE(port)->rxStartIndexB) {
+   \       0xA0   0x42B7             CMP      R7,R6
+   \       0xA2   0xD202             BCS.N    ??halInternalRestartUartDma_4
+    880                  BUFSTATE(port)->waitingForTailA = true;
+   \       0xA4   0x2001             MOVS     R0,#+1
+   \       0xA6   0x7220             STRB     R0,[R4, #+8]
+   \       0xA8   0xE018             B.N      ??halInternalRestartUartDma_5
+    881                } else {
+    882                  BUFSTATE(port)->waitingForTailB = true;
+   \                     ??halInternalRestartUartDma_4: (+1)
+   \       0xAA   0x2001             MOVS     R0,#+1
+   \       0xAC   0x7260             STRB     R0,[R4, #+9]
+   \       0xAE   0xE015             B.N      ??halInternalRestartUartDma_5
+    883                }
+    884              } else {
+    885                //the head and the tail are in the same buffers
+    886                if (q->used <= BUFSTATE(port)->rxStartIndexB) {
+   \                     ??halInternalRestartUartDma_3: (+1)
+   \       0xB0   0x8880             LDRH     R0,[R0, #+4]
+   \       0xB2   0x4286             CMP      R6,R0
+   \       0xB4   0xD308             BCC.N    ??halInternalRestartUartDma_6
+    887                  //The serial FIFO is less no more than half full!
+    888                  if (!loadB) {
+   \       0xB6   0x0018             MOVS     R0,R3
+   \       0xB8   0xD101             BNE.N    ??halInternalRestartUartDma_7
+    889                    //the head is in B, and we're capable of loading A
+    890                    //BUT: we can't activate A because the DMA defaults to A first,
+    891                    //  and it needs to start using B first to fill from the head
+    892                    //  SO, only load A if B hasn't been marked yet for loading.
+    893                    loadA++;
+   \       0xBA   0x1C52             ADDS     R2,R2,#+1
+   \       0xBC   0xE002             B.N      ??halInternalRestartUartDma_8
+    894                  } else {
+    895                    //B is loaded and waiting for data, A is being supressed until
+    896                    //B receives at least one byte so A doesn't prematurely load and
+    897                    //steal bytes meant for B first.
+    898                    BUFSTATE(port)->waitingForTailA = true;
+   \                     ??halInternalRestartUartDma_7: (+1)
+   \       0xBE   0x2001             MOVS     R0,#+1
+   \       0xC0   0x7220             STRB     R0,[R4, #+8]
+    899                    BUFSTATE(port)->waitingForInputToB = true;
+   \       0xC2   0x72A0             STRB     R0,[R4, #+10]
+    900                  }
+    901                  //We can always loadB at this point thanks to our waiting* flags.
+    902                  loadB++;
+   \                     ??halInternalRestartUartDma_8: (+1)
+   \       0xC4   0x1C5B             ADDS     R3,R3,#+1
+   \       0xC6   0xE009             B.N      ??halInternalRestartUartDma_5
+    903                } else {
+    904                  //The serial FIFO is more than half full!
+    905                  //Since this case requires moving an end address of a buffer, which
+    906                  //severely breaks DMA'ing into a FIFO, we cannot do anything.
+    907                  //Doing nothing is ok because we are more than half full anyways,
+    908                  //and under normal operation we would only load a buffer when our
+    909                  //used count is less than half full.
+    910                  //Configure so the Pump function takes over when the serial FIFO drains
+    911                  SCx_REG(port, RXBEGA) =  startAddress;
+   \                     ??halInternalRestartUartDma_6: (+1)
+   \       0xC8   0x6029             STR      R1,[R5, #+0]
+    912                  SCx_REG(port, RXBEGB) =  (startAddress + BUFSTATE(port)->fifoSize / 2);
+   \       0xCA   0x8820             LDRH     R0,[R4, #+0]
+   \       0xCC   0xEB11 0x0150      ADDS     R1,R1,R0, LSR #+1
+   \       0xD0   0x60A9             STR      R1,[R5, #+8]
+    913                  loadA = 0;
+   \       0xD2   0x2200             MOVS     R2,#+0
+    914                  loadB = 0;
+   \       0xD4   0x4613             MOV      R3,R2
+    915                  BUFSTATE(port)->waitingForTailA = true;
+   \       0xD6   0x2001             MOVS     R0,#+1
+   \       0xD8   0x7220             STRB     R0,[R4, #+8]
+    916                  BUFSTATE(port)->waitingForTailB = true;
+   \       0xDA   0x7260             STRB     R0,[R4, #+9]
+    917                }
+    918              }
+    919          
+    920              //Address are set, flags are set, DMA is ready, so now we load buffers
+    921              if (loadA) {
+   \                     ??halInternalRestartUartDma_5: (+1)
+   \       0xDC   0x2A00             CMP      R2,#+0
+   \       0xDE   0xD001             BEQ.N    ??halInternalRestartUartDma_9
+    922                SCx_REG(port, DMACTRL) = SC_DMACTRL_RXLODA;
+   \       0xE0   0x2001             MOVS     R0,#+1
+   \       0xE2   0x6328             STR      R0,[R5, #+48]
+    923              }
+    924              if (loadB) {
+   \                     ??halInternalRestartUartDma_9: (+1)
+   \       0xE4   0x2B00             CMP      R3,#+0
+   \       0xE6   0xD005             BEQ.N    ??halInternalRestartUartDma_10
+    925                SCx_REG(port, DMACTRL) = SC_DMACTRL_RXLODB;
+   \       0xE8   0x2002             MOVS     R0,#+2
+   \       0xEA   0x6328             STR      R0,[R5, #+48]
+   \       0xEC   0xE002             B.N      ??halInternalRestartUartDma_10
+    926              }
+    927            } else {
+    928              //we're full!!  doh!  have to wait for the FIFO to drain
+    929              BUFSTATE(port)->waitingForTailA = true;
+   \                     ??halInternalRestartUartDma_0: (+1)
+   \       0xEE   0x2001             MOVS     R0,#+1
+   \       0xF0   0x7220             STRB     R0,[R4, #+8]
+    930              BUFSTATE(port)->waitingForTailB = true;
+   \       0xF2   0x7260             STRB     R0,[R4, #+9]
+    931            }
+    932          }
+   \                     ??halInternalRestartUartDma_10: (+1)
+   \       0xF4   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    933          #endif // FIFO DMA mode
+    934          
+    935          #ifdef EM_PHYSICAL_UART
+
+   \                                 In section .text, align 2, keep-with-next
+    936          void halInternalUartRxIsr(uint8_t port, uint16_t causes)
+    937          {
+   \                     halInternalUartRxIsr: (+1)
+   \        0x0   0x2801             CMP      R0,#+1
+   \        0x2   0xD000             BEQ.N    ??halInternalUartRxIsr_0
+   \        0x4   0x4770             BX       LR
+   \                     ??halInternalUartRxIsr_0: (+1)
+   \        0x6   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+    938            #if defined(EM_ENABLE_SERIAL_FIFO)
+    939            if (EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port)) {
+    940              // FIFO with DMA
+    941              #if defined(FIFO_DMA_USED)
+    942              // take care of flow control
+    943              #if defined(EMBER_SERIAL1_RTSCTS)
+    944              // TODO this flow control will fail if port 2 is active
+    945              // If RTS is controlled by sw, this ISR is called when a buffer unloads.
+    946              if (causes & (EVENT_SC12_FLAG_RXULDA | EVENT_SC12_FLAG_RXULDB)) {
+    947                // Deassert RTS if the rx queue tail is not in an active DMA buffer:
+    948                // if it is, then there's at least one empty DMA buffer
+    949                if ( !((emSerialRxQueues[port]->tail < emSerialRxQueueSizes[port] / 2)
+    950                       && (SCx_REG(port, DMASTAT) & SC_DMASTAT_RXACTA))
+    951                     && !((emSerialRxQueues[port]->tail >= emSerialRxQueueSizes[port] / 2)
+    952                          && (SCx_REG(port, DMASTAT) & SC_DMASTAT_RXACTB))) {
+    953                  SCx_REG(port, UARTCFG) &= ~SC_UARTCFG_UARTRTS;             // deassert RTS
+    954                }
+    955                  #ifdef EZSP_ASH
+    956                if (((causes & EVENT_SC12_FLAG_RXULDA) && (SC1_DMASTAT & SC_DMASTAT_RXOVFA))
+    957                    || ((causes & EVENT_SC12_FLAG_RXULDB) && (SC1_DMASTAT & SC_DMASTAT_RXOVFB))) {
+    958                  HANDLE_ASH_ERROR(EMBER_COUNTER_ASH_OVERFLOW_ERROR);
+    959                }
+    960                if (((causes & EVENT_SC12_FLAG_RXULDA) && (SC1_DMASTAT & SC_DMASTAT_RXFRMA))
+    961                    || ((causes & EVENT_SC12_FLAG_RXULDB) && (SC1_DMASTAT & SC_DMASTAT_RXFRMB))) {
+    962                  HANDLE_ASH_ERROR(EMBER_COUNTER_ASH_FRAMING_ERROR);
+    963                }
+    964                #else//!EZSP_ASH
+    965                causes &= ~(EVENT_SC12_FLAG_RXULDA | EVENT_SC12_FLAG_RXULDB);
+    966                if (causes == 0) {   // if no errors in addition, all done
+    967                  return;
+    968                }
+    969                #endif//EZSP_ASH
+    970              }
+    971              #endif // RTSCTS
+    972          
+    973              //Load all of the hardware status, then immediately reset so we can process
+    974              //what happened without worrying about new data changing these values.
+    975              //We're in an error condition anyways, so it is ok to have the DMA disabled
+    976              //for a while (less than 80us, while 4 bytes @ 115.2kbps is 350us)
+    977              EmSerialFifoQueue *q = emSerialRxQueues[port];
+   \        0xA   0x.... 0x....      LDR.W    R0,??DataTable17_10
+   \        0xE   0x6842             LDR      R2,[R0, #+4]
+    978              uint16_t status  = SCx_REG(port, DMASTAT);
+   \       0x10   0x.... 0x....      LDR.W    R7,??DataTable17_18
+   \       0x14   0xF8D7 0xC024      LDR      R12,[R7, #+36]
+   \       0x18   0xFA1F 0xFC8C      UXTH     R12,R12
+    979              uint16_t errCntA = SCx_REG(port, RXERRA);
+   \       0x1C   0xF8D7 0xE02C      LDR      LR,[R7, #+44]
+   \       0x20   0xFA1F 0xFE8E      UXTH     LR,LR
+    980              uint16_t errCntB = SCx_REG(port, RXERRB);
+   \       0x24   0x6B3C             LDR      R4,[R7, #+48]
+   \       0x26   0xB2A4             UXTH     R4,R4
+    981              uint32_t errorIdx = emSerialRxQueueSizes[port] * 2;
+   \       0x28   0x.... 0x....      LDR.W    R0,??DataTable17_14
+   \       0x2C   0x8845             LDRH     R5,[R0, #+2]
+   \       0x2E   0x006D             LSLS     R5,R5,#+1
+    982              uint32_t tempIdx;
+    983              uint32_t startAddress = (uint32_t)q->fifo;
+   \       0x30   0x1D96             ADDS     R6,R2,#+6
+    984          
+    985              //interrupts acknowledged at the start of the master SC1 ISR
+    986              uint16_t intSrc  = causes;
+    987              uint8_t errorType = EMBER_SUCCESS;
+   \       0x32   0xF04F 0x0800      MOV      R8,#+0
+    988          
+    989              SCx_REG(port, DMACTRL) = SC_DMACTRL_RXDMARST;   //to clear error
+   \       0x36   0x2010             MOVS     R0,#+16
+   \       0x38   0x62B8             STR      R0,[R7, #+40]
+    990              //state fully captured, DMA reset, now we process error and restart
+    991          
+    992              if ( intSrc & EVENT_SC12_FLAG_RXOVF ) {
+   \       0x3A   0x.... 0x....      LDR.W    R3,??DataTable17_15
+   \       0x3E   0x0708             LSLS     R0,R1,#+28
+   \       0x40   0xD547             BPL.N    ??halInternalUartRxIsr_1
+    993                //Read the data register four times to clear
+    994                //the RXOVERRUN condition and empty the FIFO, giving us 4 bytes
+    995                //worth of time (from this point) to reenable the DMA.
+    996                (void) SCx_REG(port, DATA);
+   \       0x42   0x6B78             LDR      R0,[R7, #+52]
+    997                (void) SCx_REG(port, DATA);
+   \       0x44   0x6B78             LDR      R0,[R7, #+52]
+    998                (void) SCx_REG(port, DATA);
+   \       0x46   0x6B78             LDR      R0,[R7, #+52]
+    999                (void) SCx_REG(port, DATA);
+   \       0x48   0x6B78             LDR      R0,[R7, #+52]
+   1000          
+   1001                if ( status & (SC_DMASTAT_RXFRMA
+   1002                               | SC_DMASTAT_RXFRMB
+   1003                               | SC_DMASTAT_RXPARA
+   1004                               | SC_DMASTAT_RXPARB)) {
+   \       0x4A   0x4660             MOV      R0,R12
+   \       0x4C   0xF410 0x7F70      TST      R0,#0x3C0
+   \       0x50   0xD13F             BNE.N    ??halInternalUartRxIsr_1
+   1005                  //We just emptied hardware FIFO so the overrun condition is cleared.
+   1006                  //Byte errors require special handling to roll back the serial FIFO.
+   1007                  goto dealWithByteError;
+   1008                }
+   1009          
+   1010                //record the error type
+   1011                emSerialRxError[port] = EMBER_SERIAL_RX_OVERRUN_ERROR;
+   \       0x52   0x2027             MOVS     R0,#+39
+   \       0x54   0x.... 0x....      LDR.W    R1,??DataTable17_19
+   \       0x58   0x7048             STRB     R0,[R1, #+1]
+   1012          
+   1013                //check for a retriggering of the Rx overflow, don't advance FIFO if so
+   1014                if ( !(BUFSTATE(port)->waitingForTailA && BUFSTATE(port)->waitingForTailB)) {
+   \       0x5A   0x7A18             LDRB     R0,[R3, #+8]
+   \       0x5C   0x2800             CMP      R0,#+0
+   \       0x5E   0xD002             BEQ.N    ??halInternalUartRxIsr_2
+   \       0x60   0x7A58             LDRB     R0,[R3, #+9]
+   \       0x62   0x2800             CMP      R0,#+0
+   \       0x64   0xD122             BNE.N    ??halInternalUartRxIsr_3
+   1015                  //first, move head to end of buffer head is in
+   1016                  //second, move head to end of other buffer if tail is not in other buffer
+   1017                  if ((q->head) < BUFSTATE(port)->rxStartIndexB) {
+   \                     ??halInternalUartRxIsr_2: (+1)
+   \       0x66   0x8858             LDRH     R0,[R3, #+2]
+   \       0x68   0x8811             LDRH     R1,[R2, #+0]
+   \       0x6A   0x4281             CMP      R1,R0
+   \       0x6C   0x8894             LDRH     R4,[R2, #+4]
+   \       0x6E   0xD20E             BCS.N    ??halInternalUartRxIsr_4
+   1018                    //head inside A
+   1019                    q->used += (BUFSTATE(port)->rxStartIndexB - q->head);
+   \       0x70   0x1900             ADDS     R0,R0,R4
+   \       0x72   0x1A40             SUBS     R0,R0,R1
+   \       0x74   0x8090             STRH     R0,[R2, #+4]
+   1020                    q->head = (BUFSTATE(port)->rxStartIndexB);
+   \       0x76   0x8858             LDRH     R0,[R3, #+2]
+   \       0x78   0x8010             STRH     R0,[R2, #+0]
+   1021                    if ((q->tail) < BUFSTATE(port)->rxStartIndexB) {
+   \       0x7A   0x8858             LDRH     R0,[R3, #+2]
+   \       0x7C   0x8851             LDRH     R1,[R2, #+2]
+   \       0x7E   0x4281             CMP      R1,R0
+   \       0x80   0xD214             BCS.N    ??halInternalUartRxIsr_3
+   1022                      //tail not inside of B
+   1023                      q->used += BUFSTATE(port)->rxStartIndexB;
+   \       0x82   0x8891             LDRH     R1,[R2, #+4]
+   \       0x84   0x1840             ADDS     R0,R0,R1
+   \       0x86   0x8090             STRH     R0,[R2, #+4]
+   1024                      q->head = 0;
+   \       0x88   0x4640             MOV      R0,R8
+   \       0x8A   0x8010             STRH     R0,[R2, #+0]
+   \       0x8C   0xE00E             B.N      ??halInternalUartRxIsr_3
+   1025                    }
+   1026                  } else {
+   1027                    //head inside B
+   1028                    q->used += (BUFSTATE(port)->fifoSize - q->head);
+   \                     ??halInternalUartRxIsr_4: (+1)
+   \       0x8E   0x8818             LDRH     R0,[R3, #+0]
+   \       0x90   0x1904             ADDS     R4,R0,R4
+   \       0x92   0x1A61             SUBS     R1,R4,R1
+   \       0x94   0x8091             STRH     R1,[R2, #+4]
+   1029                    q->head = 0;
+   \       0x96   0x4640             MOV      R0,R8
+   \       0x98   0x8010             STRH     R0,[R2, #+0]
+   1030                    if ((q->tail) >= BUFSTATE(port)->rxStartIndexB) {
+   \       0x9A   0x8858             LDRH     R0,[R3, #+2]
+   \       0x9C   0x8851             LDRH     R1,[R2, #+2]
+   \       0x9E   0x4281             CMP      R1,R0
+   \       0xA0   0xD304             BCC.N    ??halInternalUartRxIsr_3
+   1031                      //tail is not inside of A
+   1032                      q->used += BUFSTATE(port)->rxStartIndexB;
+   \       0xA2   0x8891             LDRH     R1,[R2, #+4]
+   \       0xA4   0x1840             ADDS     R0,R0,R1
+   \       0xA6   0x8090             STRH     R0,[R2, #+4]
+   1033                      q->head = BUFSTATE(port)->rxStartIndexB;
+   \       0xA8   0x8858             LDRH     R0,[R3, #+2]
+   \       0xAA   0x8010             STRH     R0,[R2, #+0]
+   1034                    }
+   1035                  }
+   1036                }
+   1037          
+   1038                //Record the error position in the serial FIFO
+   1039                if (q->used != BUFSTATE(port)->fifoSize) {
+   \                     ??halInternalUartRxIsr_3: (+1)
+   \       0xAC   0x.... 0x....      LDR.W    R0,??DataTable17_20
+   \       0xB0   0x8891             LDRH     R1,[R2, #+4]
+   \       0xB2   0x881C             LDRH     R4,[R3, #+0]
+   \       0xB4   0x42A1             CMP      R1,R4
+   \       0xB6   0xD002             BEQ.N    ??halInternalUartRxIsr_5
+   1040                  //mark the byte at q->head as the error
+   1041                  emSerialRxErrorIndex[port] = q->head;
+   \       0xB8   0x8811             LDRH     R1,[R2, #+0]
+   \       0xBA   0x8041             STRH     R1,[R0, #+2]
+   \       0xBC   0xE002             B.N      ??halInternalUartRxIsr_6
+   1042                } else {
+   1043                  //Since the FIFO is full, the error index needs special handling
+   1044                  //so there is no conflict between the head and tail looking at the same
+   1045                  //index which needs to be marked as an error.
+   1046                  emSerialRxErrorIndex[port] = RX_FIFO_FULL;
+   \                     ??halInternalUartRxIsr_5: (+1)
+   \       0xBE   0xF64F 0x71FF      MOVW     R1,#+65535
+   \       0xC2   0x8041             STRH     R1,[R0, #+2]
+   1047                }
+   1048          
+   1049                //By now the error is accounted for and the DMA hardware is reset.
+   1050                //By definition, the overrun error means we have no room left, therefore
+   1051                //we can't reenable the DMA.  Reset the previous counter states, and set
+   1052                //the waitingForTail flags to true - this tells the Pump function we have
+   1053                //data to process.  The Pump function will reenable the buffers as they
+   1054                //become available, just like normal.
+   1055                BUFSTATE(port)->prevCountA = 0;
+   \                     ??halInternalUartRxIsr_6: (+1)
+   \       0xC4   0x4640             MOV      R0,R8
+   \       0xC6   0x6058             STR      R0,[R3, #+4]
+   1056                BUFSTATE(port)->prevCountB = 0;
+   1057                BUFSTATE(port)->waitingForInputToB = false;
+   \       0xC8   0x7298             STRB     R0,[R3, #+10]
+   1058                BUFSTATE(port)->waitingForTailA = true;
+   \       0xCA   0x2001             MOVS     R0,#+1
+   \       0xCC   0x7218             STRB     R0,[R3, #+8]
+   1059                BUFSTATE(port)->waitingForTailB = true;
+   \       0xCE   0x7258             STRB     R0,[R3, #+9]
+   \       0xD0   0xE061             B.N      ??halInternalUartRxIsr_7
+   1060                //from this point we fall through to the end of the Isr and return.
+   1061              } else {
+   1062                dealWithByteError:
+   1063                //We have a byte error to deal with and possibly more than one byte error,
+   1064                //of different types in different DMA buffers, so check each error flag.
+   1065                //All four error checks translate the DMA buffer's error position to their
+   1066                //position in the serial FIFO, and compares the error locations to find
+   1067                //the first error to occur after the head of the FIFO.  This error is the
+   1068                //error condition that is stored and operated on.
+   1069                if ( status & SC_DMASTAT_RXFRMA ) {
+   \                     ??halInternalUartRxIsr_1: (+1)
+   \       0xD2   0xEA5F 0x50CC      LSLS     R0,R12,#+23
+   \       0xD6   0xD50A             BPL.N    ??halInternalUartRxIsr_8
+   1070                  tempIdx = errCntA;
+   \       0xD8   0x4671             MOV      R1,LR
+   1071                  if (tempIdx < q->head) {
+   \       0xDA   0x8810             LDRH     R0,[R2, #+0]
+   \       0xDC   0x4281             CMP      R1,R0
+   \       0xDE   0xD201             BCS.N    ??halInternalUartRxIsr_9
+   1072                    tempIdx += BUFSTATE(port)->fifoSize;
+   \       0xE0   0x8818             LDRH     R0,[R3, #+0]
+   \       0xE2   0x1841             ADDS     R1,R0,R1
+   1073                  }
+   1074                  if (tempIdx < errorIdx) {
+   \                     ??halInternalUartRxIsr_9: (+1)
+   \       0xE4   0x42A9             CMP      R1,R5
+   \       0xE6   0xD800             BHI.N    ??halInternalUartRxIsr_10
+   \       0xE8   0x460D             MOV      R5,R1
+   1075                    errorIdx = tempIdx;
+   1076                  }
+   1077                  errorType = EMBER_SERIAL_RX_FRAME_ERROR;
+   \                     ??halInternalUartRxIsr_10: (+1)
+   \       0xEA   0xF04F 0x0824      MOV      R8,#+36
+   1078                }
+   1079                if ( status & SC_DMASTAT_RXFRMB ) {
+   \                     ??halInternalUartRxIsr_8: (+1)
+   \       0xEE   0xEA5F 0x508C      LSLS     R0,R12,#+22
+   \       0xF2   0xD50C             BPL.N    ??halInternalUartRxIsr_11
+   1080                  tempIdx = (errCntB + SCx_REG(port, RXBEGB)) - startAddress;
+   \       0xF4   0x6839             LDR      R1,[R7, #+0]
+   \       0xF6   0x1909             ADDS     R1,R1,R4
+   \       0xF8   0x1B89             SUBS     R1,R1,R6
+   1081                  if (tempIdx < q->head) {
+   \       0xFA   0x8810             LDRH     R0,[R2, #+0]
+   \       0xFC   0x4281             CMP      R1,R0
+   \       0xFE   0xD201             BCS.N    ??halInternalUartRxIsr_12
+   1082                    tempIdx += BUFSTATE(port)->fifoSize;
+   \      0x100   0x8818             LDRH     R0,[R3, #+0]
+   \      0x102   0x1841             ADDS     R1,R0,R1
+   1083                  }
+   1084                  if (tempIdx < errorIdx) {
+   \                     ??halInternalUartRxIsr_12: (+1)
+   \      0x104   0x42A9             CMP      R1,R5
+   \      0x106   0xD800             BHI.N    ??halInternalUartRxIsr_13
+   \      0x108   0x460D             MOV      R5,R1
+   1085                    errorIdx = tempIdx;
+   1086                  }
+   1087                  errorType = EMBER_SERIAL_RX_FRAME_ERROR;
+   \                     ??halInternalUartRxIsr_13: (+1)
+   \      0x10A   0xF04F 0x0824      MOV      R8,#+36
+   1088                }
+   1089                if ( status & SC_DMASTAT_RXPARA ) {
+   \                     ??halInternalUartRxIsr_11: (+1)
+   \      0x10E   0x4660             MOV      R0,R12
+   \      0x110   0x0640             LSLS     R0,R0,#+25
+   \      0x112   0xD50A             BPL.N    ??halInternalUartRxIsr_14
+   1090                  tempIdx = errCntA;
+   1091                  if (tempIdx < q->head) {
+   \      0x114   0x8810             LDRH     R0,[R2, #+0]
+   \      0x116   0x4586             CMP      LR,R0
+   \      0x118   0xD201             BCS.N    ??halInternalUartRxIsr_15
+   1092                    tempIdx += BUFSTATE(port)->fifoSize;
+   \      0x11A   0x8818             LDRH     R0,[R3, #+0]
+   \      0x11C   0x4486             ADD      LR,R0,LR
+   1093                  }
+   1094                  if (tempIdx < errorIdx) {
+   \                     ??halInternalUartRxIsr_15: (+1)
+   \      0x11E   0x45AE             CMP      LR,R5
+   \      0x120   0xD900             BLS.N    ??halInternalUartRxIsr_16
+   \      0x122   0x46AE             MOV      LR,R5
+   \                     ??halInternalUartRxIsr_16: (+1)
+   \      0x124   0x4675             MOV      R5,LR
+   1095                    errorIdx = tempIdx;
+   1096                  }
+   1097                  errorType = EMBER_SERIAL_RX_PARITY_ERROR;
+   \      0x126   0xF04F 0x0825      MOV      R8,#+37
+   1098                }
+   1099                if ( status & SC_DMASTAT_RXPARB ) {
+   \                     ??halInternalUartRxIsr_14: (+1)
+   \      0x12A   0xEA5F 0x600C      LSLS     R0,R12,#+24
+   \      0x12E   0xD50D             BPL.N    ??halInternalUartRxIsr_17
+   1100                  tempIdx = (errCntB + SCx_REG(port, RXBEGB)) - startAddress;
+   \      0x130   0x6838             LDR      R0,[R7, #+0]
+   \      0x132   0x1904             ADDS     R4,R0,R4
+   \      0x134   0x1BA4             SUBS     R4,R4,R6
+   1101                  if (tempIdx < q->head) {
+   \      0x136   0x8810             LDRH     R0,[R2, #+0]
+   \      0x138   0x4284             CMP      R4,R0
+   \      0x13A   0xD201             BCS.N    ??halInternalUartRxIsr_18
+   1102                    tempIdx += BUFSTATE(port)->fifoSize;
+   \      0x13C   0x8818             LDRH     R0,[R3, #+0]
+   \      0x13E   0x1904             ADDS     R4,R0,R4
+   1103                  }
+   1104                  if (tempIdx < errorIdx) {
+   \                     ??halInternalUartRxIsr_18: (+1)
+   \      0x140   0x42AC             CMP      R4,R5
+   \      0x142   0xD900             BLS.N    ??halInternalUartRxIsr_19
+   \      0x144   0x462C             MOV      R4,R5
+   \                     ??halInternalUartRxIsr_19: (+1)
+   \      0x146   0x4625             MOV      R5,R4
+   1105                    errorIdx = tempIdx;
+   1106                  }
+   1107                  errorType = EMBER_SERIAL_RX_PARITY_ERROR;
+   \      0x148   0xF04F 0x0825      MOV      R8,#+37
+   1108                }
+   1109          
+   1110                //We now know the type and location of the first error.
+   1111                //Move up to the error location and increase the used count.
+   1112                q->head = (errorIdx % BUFSTATE(port)->fifoSize);
+   \                     ??halInternalUartRxIsr_17: (+1)
+   \      0x14C   0x8818             LDRH     R0,[R3, #+0]
+   \      0x14E   0xFBB5 0xF1F0      UDIV     R1,R5,R0
+   \      0x152   0xFB00 0x5511      MLS      R5,R0,R1,R5
+   \      0x156   0x8015             STRH     R5,[R2, #+0]
+   1113                if (q->head < q->tail) {
+   \      0x158   0x8851             LDRH     R1,[R2, #+2]
+   \      0x15A   0x462C             MOV      R4,R5
+   \      0x15C   0x428C             CMP      R4,R1
+   \      0x15E   0xD204             BCS.N    ??halInternalUartRxIsr_20
+   1114                  q->used = ((q->head + BUFSTATE(port)->fifoSize) - q->tail);
+   \      0x160   0x8818             LDRH     R0,[R3, #+0]
+   \      0x162   0x1904             ADDS     R4,R0,R4
+   \      0x164   0x1A61             SUBS     R1,R4,R1
+   \      0x166   0x8091             STRH     R1,[R2, #+4]
+   \      0x168   0xE001             B.N      ??halInternalUartRxIsr_21
+   1115                } else {
+   1116                  q->used = (q->head - q->tail);
+   \                     ??halInternalUartRxIsr_20: (+1)
+   \      0x16A   0x1A61             SUBS     R1,R4,R1
+   \      0x16C   0x8091             STRH     R1,[R2, #+4]
+   1117                }
+   1118          
+   1119                //Mark the byte at q->head as the error
+   1120                emSerialRxError[port] = errorType;
+   \                     ??halInternalUartRxIsr_21: (+1)
+   \      0x16E   0x.... 0x....      LDR.W    R0,??DataTable17_19
+   \      0x172   0xF880 0x8001      STRB     R8,[R0, #+1]
+   1121                if (q->used != BUFSTATE(port)->fifoSize) {
+   \      0x176   0x.... 0x....      LDR.W    R0,??DataTable17_20
+   \      0x17A   0x8891             LDRH     R1,[R2, #+4]
+   \      0x17C   0x881B             LDRH     R3,[R3, #+0]
+   \      0x17E   0x4299             CMP      R1,R3
+   \      0x180   0xD002             BEQ.N    ??halInternalUartRxIsr_22
+   1122                  //mark the byte at q->head as the error
+   1123                  emSerialRxErrorIndex[port] = q->head;
+   \      0x182   0x8811             LDRH     R1,[R2, #+0]
+   \      0x184   0x8041             STRH     R1,[R0, #+2]
+   \      0x186   0xE002             B.N      ??halInternalUartRxIsr_23
+   1124                } else {
+   1125                  //Since the FIFO is full, the error index needs special handling
+   1126                  //so there is no conflict between the head and tail looking at the same
+   1127                  //index which needs to be marked as an error.
+   1128                  emSerialRxErrorIndex[port] = RX_FIFO_FULL;
+   \                     ??halInternalUartRxIsr_22: (+1)
+   \      0x188   0xF64F 0x71FF      MOVW     R1,#+65535
+   \      0x18C   0x8041             STRH     R1,[R0, #+2]
+   1129                }
+   1130          
+   1131                //By now the error is accounted for and the DMA hardware is reset.
+   1132                halInternalRestartUartDma(port);
+   \                     ??halInternalUartRxIsr_23: (+1)
+   \      0x18E   0x2001             MOVS     R0,#+1
+   \      0x190   0xE8BD 0x41F0      POP      {R4-R8,LR}
+   \      0x194   0x....             B.N      halInternalRestartUartDma
+   1133              }
+   1134          
+   1135              #else // not DMA
+   1136          
+   1137              EmSerialFifoQueue *q = emSerialRxQueues[port];
+   1138              // At present we really don't care which interrupt(s)
+   1139              // occurred, just that one did.  Loop reading RXVALID
+   1140              // data (loop is necessary for bursty data otherwise
+   1141              // we could leave with RXVALID and not get another
+   1142              // RXVALID interrupt), processing any errors noted
+   1143              // along the way.
+   1144              while ( (SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTRXVAL) != 0U ) {
+   1145                uint8_t errors = SCx_REG(port, UARTSTAT) & (SC_UARTSTAT_UARTFRMERR
+   1146                                                            | SC_UARTSTAT_UARTRXOVF
+   1147                                                            | SC_UARTSTAT_UARTPARERR);
+   1148                uint8_t incoming = (uint8_t) SCx_REG(port, DATA);
+   1149          #if     (CORTEXM3_EM35X_GEN3 && defined(ENABLE_OSC24M) && (ENABLE_OSC24M != 24) \
+   1150                && (ENABLE_OSC24M != 24000) && (ENABLE_OSC24M != 24000000))
+   1151                // Hack workaround for EMLIPARI-101 UART HW bug on non-24 MHz SysClk
+   1152                static bool uartFixTried = false;
+   1153                if ((errors & SC_UARTSTAT_UARTFRMERR) && (incoming != 0 /* a BRK */)) {
+   1154                  if (!uartFixTried) {
+   1155                    // Try to correct for this HW bug by inverting fraction bit
+   1156                    SCx_REG(port, UARTFRAC) = !SCx_REG(port, UARTFRAC);
+   1157                    uartFixTried = true;
+   1158                  }
+   1159                  incoming >>= 1;
+   1160                  errors &= ~SC_UARTFRMERR;
+   1161                }
+   1162          #endif//(CORTEXM3_EM35X_GEN3 && defined(ENABLE_OSC24M) && ...)
+   1163          
+   1164                if ((errors == 0) && (q->used < (emSerialRxQueueSizes[port] - 1))) {
+   1165          #ifdef EMBER_SERIAL1_XONXOFF
+   1166                  if (EM_SER1_PORT_EN(port)) {
+   1167                    // Discard any XON or XOFF bytes received
+   1168                    if ((incoming != ASCII_XON) && (incoming != ASCII_XOFF)) {
+   1169                      FIFO_ENQUEUE(q, incoming, emSerialRxQueueWraps[port]);
+   1170                    }
+   1171                  } else {
+   1172                    FIFO_ENQUEUE(q, incoming, emSerialRxQueueWraps[port]);
+   1173                  }
+   1174          #else
+   1175                  FIFO_ENQUEUE(q, incoming, emSerialRxQueueWraps[port]);
+   1176          #endif
+   1177                } else {
+   1178                  // Translate error code
+   1179                  if ( errors == 0 ) {
+   1180                    errors = EMBER_SERIAL_RX_OVERFLOW;
+   1181                    HANDLE_ASH_ERROR(EMBER_COUNTER_ASH_OVERFLOW_ERROR);
+   1182                  } else if ((errors & SC_UARTSTAT_UARTRXOVF) != 0U) {
+   1183                    errors = EMBER_SERIAL_RX_OVERRUN_ERROR;
+   1184                    HANDLE_ASH_ERROR(EMBER_COUNTER_ASH_OVERRUN_ERROR);
+   1185                  } else if ((errors & SC_UARTSTAT_UARTFRMERR) != 0U) {
+   1186                    errors = EMBER_SERIAL_RX_FRAME_ERROR;
+   1187                    HANDLE_ASH_ERROR(EMBER_COUNTER_ASH_FRAMING_ERROR);
+   1188                  } else if ((errors & SC_UARTSTAT_UARTPARERR) != 0U) {
+   1189                    errors = EMBER_SERIAL_RX_PARITY_ERROR;
+   1190                  } else {   // unknown
+   1191                    errors = EMBER_ERR_FATAL;
+   1192                  }
+   1193                  uartErrorMark(port, errors);
+   1194                }
+   1195          #ifdef EMBER_SERIAL1_XONXOFF
+   1196                if (EM_SER1_PORT_EN(port)
+   1197                    && (q->used >= XOFF_LIMIT) && (xcmdCount >= 0)) {
+   1198                  xonXoffTxByte = ASCII_XOFF;
+   1199                  halInternalStartUartTx(1);
+   1200                }
+   1201          #endif // XONXOFF
+   1202              }   // end of while ( SC1_UARTSTAT & SC1_UARTRXVAL )
+   1203            #endif // DMA
+   1204            }
+   1205            #endif // FIFO
+   1206          }
+   \                     ??halInternalUartRxIsr_7: (+1)
+   \      0x196   0xE8BD 0x81F0      POP      {R4-R8,PC}
+   1207          
+   1208          #endif//!defined(EM_SERIAL1_DISABLED)
+   1209          
+   1210          #if EM_SERIAL3_ENABLED
+   1211          void halInternalUart3RxIsr(uint8_t *rxData, uint8_t length, bool *rxPause)
+   1212          {
+   1213            EmSerialFifoQueue *q = emSerialRxQueues[3];
+   1214            halResetWatchdog();
+   1215            while (length-- != 0U) {
+   1216              if (q->used < (EMBER_SERIAL3_RX_QUEUE_SIZE - 1)) {
+   1217                FIFO_ENQUEUE(q, *rxData, emSerialRxQueueWraps[3]);
+   1218                rxData++;
+   1219                if ((usbNAK == false)
+   1220                    && (EMBER_SERIAL3_RX_QUEUE_SIZE - q->used < CDC_EP_SIZE)) {
+   1221                  usbNAK = true;
+   1222                }
+   1223              } else {
+   1224                *rxPause = usbNAK;
+   1225                uartErrorMark(3, EMBER_SERIAL_RX_OVERFLOW);
+   1226                return;
+   1227              }
+   1228            }
+   1229            *rxPause = usbNAK;
+   1230            return;
+   1231          }
+   1232          #endif
+   1233          
+
+   \                                 In section .text, align 2, keep-with-next
+   1234          void halInternalUartRxPump(uint8_t port)
+   1235          {
+   \                     halInternalUartRxPump: (+1)
+   \        0x0   0x2801             CMP      R0,#+1
+   \        0x2   0xD000             BEQ.N    ??halInternalUartRxPump_0
+   \        0x4   0x4770             BX       LR
+   \                     ??halInternalUartRxPump_0: (+1)
+   \        0x6   0xB4F0             PUSH     {R4-R7}
+   1236            #if defined(EM_ENABLE_SERIAL_FIFO) && defined(FIFO_DMA_USED)
+   1237            if (EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port)) {
+   1238              EmSerialFifoQueue *q = emSerialRxQueues[port];
+   \        0x8   0x....             LDR.N    R0,??DataTable17_10
+   \        0xA   0x6841             LDR      R1,[R0, #+4]
+   1239              uint8_t tail, head;
+   1240              uint16_t count = 0;
+   1241              uint8_t loadA;
+   1242              uint8_t loadB;
+   1243              //Load all of the hardware status, so we can process what happened
+   1244              //without worrying about new data changing these values.
+   1245              uint8_t dmaStatus = SCx_REG(port, DMACTRL);
+   \        0xC   0x....             LDR.N    R2,??DataTable17_17
+   \        0xE   0x6B13             LDR      R3,[R2, #+48]
+   \       0x10   0xB2DB             UXTB     R3,R3
+   1246              uint16_t currCountA = SCx_REG(port, RXCNTA);
+   \       0x12   0x6A10             LDR      R0,[R2, #+32]
+   \       0x14   0xB280             UXTH     R0,R0
+   1247              uint16_t currCountB = SCx_REG(port, RXCNTB);
+   \       0x16   0x6A55             LDR      R5,[R2, #+36]
+   \       0x18   0xB2AD             UXTH     R5,R5
+   1248          
+   1249              //Normal check to see if A has any data
+   1250              if (BUFSTATE(port)->prevCountA != currCountA) {
+   \       0x1A   0x....             LDR.N    R4,??DataTable17_15
+   \       0x1C   0x88A6             LDRH     R6,[R4, #+4]
+   \       0x1E   0x4286             CMP      R6,R0
+   \       0x20   0xD010             BEQ.N    ??halInternalUartRxPump_1
+   1251                //Update the counters and head location for the new data
+   1252                count = (currCountA - BUFSTATE(port)->prevCountA);
+   \       0x22   0x1B86             SUBS     R6,R0,R6
+   1253                q->used += count;
+   \       0x24   0x888F             LDRH     R7,[R1, #+4]
+   \       0x26   0x19F7             ADDS     R7,R6,R7
+   \       0x28   0x808F             STRH     R7,[R1, #+4]
+   1254                q->head = (q->head + count) % emSerialRxQueueSizes[port];
+   \       0x2A   0x880F             LDRH     R7,[R1, #+0]
+   \       0x2C   0xB2B6             UXTH     R6,R6
+   \       0x2E   0x19F6             ADDS     R6,R6,R7
+   \       0x30   0x....             LDR.N    R7,??DataTable17_14
+   \       0x32   0x887F             LDRH     R7,[R7, #+2]
+   \       0x34   0xFB96 0xFCF7      SDIV     R12,R6,R7
+   \       0x38   0xFB07 0x661C      MLS      R6,R7,R12,R6
+   \       0x3C   0x800E             STRH     R6,[R1, #+0]
+   1255                BUFSTATE(port)->prevCountA = currCountA;
+   \       0x3E   0x80A0             STRH     R0,[R4, #+4]
+   1256                BUFSTATE(port)->waitingForTailA = true;
+   \       0x40   0x2001             MOVS     R0,#+1
+   \       0x42   0x7220             STRB     R0,[R4, #+8]
+   1257              }
+   1258              //Normal check to see if B has any data at all
+   1259              if (BUFSTATE(port)->prevCountB != currCountB) {
+   \                     ??halInternalUartRxPump_1: (+1)
+   \       0x44   0x88E0             LDRH     R0,[R4, #+6]
+   \       0x46   0x42A8             CMP      R0,R5
+   \       0x48   0xD012             BEQ.N    ??halInternalUartRxPump_2
+   1260                //Update the counters and head location for the new data
+   1261                count = (currCountB - BUFSTATE(port)->prevCountB);
+   \       0x4A   0x1A28             SUBS     R0,R5,R0
+   1262                q->used += count;
+   \       0x4C   0x888E             LDRH     R6,[R1, #+4]
+   \       0x4E   0x1986             ADDS     R6,R0,R6
+   \       0x50   0x808E             STRH     R6,[R1, #+4]
+   1263                q->head = (q->head + count) % emSerialRxQueueSizes[port];
+   \       0x52   0x880E             LDRH     R6,[R1, #+0]
+   \       0x54   0xB280             UXTH     R0,R0
+   \       0x56   0x1980             ADDS     R0,R0,R6
+   \       0x58   0x....             LDR.N    R6,??DataTable17_14
+   \       0x5A   0x8876             LDRH     R6,[R6, #+2]
+   \       0x5C   0xFB90 0xF7F6      SDIV     R7,R0,R6
+   \       0x60   0xFB06 0x0017      MLS      R0,R6,R7,R0
+   \       0x64   0x8008             STRH     R0,[R1, #+0]
+   1264                BUFSTATE(port)->prevCountB = currCountB;
+   \       0x66   0x80E5             STRH     R5,[R4, #+6]
+   1265                BUFSTATE(port)->waitingForTailB = true;
+   \       0x68   0x2001             MOVS     R0,#+1
+   \       0x6A   0x7260             STRB     R0,[R4, #+9]
+   1266                BUFSTATE(port)->waitingForInputToB = false;
+   \       0x6C   0x2000             MOVS     R0,#+0
+   \       0x6E   0x72A0             STRB     R0,[R4, #+10]
+   1267              }
+   1268          
+   1269              //if the used count is greater than half the buffer size, nothing can be done
+   1270              if (q->used > BUFSTATE(port)->rxStartIndexB) {
+   \                     ??halInternalUartRxPump_2: (+1)
+   \       0x70   0x8865             LDRH     R5,[R4, #+2]
+   \       0x72   0x8888             LDRH     R0,[R1, #+4]
+   \       0x74   0x4285             CMP      R5,R0
+   \       0x76   0xD341             BCC.N    ??halInternalUartRxPump_3
+   1271                return;
+   1272              }
+   1273              //if nothing is in the FIFO, we can reload both if needed
+   1274              if (q->used == 0) {
+   \       0x78   0x8888             LDRH     R0,[R1, #+4]
+   \       0x7A   0x2800             CMP      R0,#+0
+   \       0x7C   0xD102             BNE.N    ??halInternalUartRxPump_4
+   1275                loadA = true;
+   \       0x7E   0x2001             MOVS     R0,#+1
+   1276                loadB = true;
+   \       0x80   0x4605             MOV      R5,R0
+   1277                goto reloadBuffers;
+   \       0x82   0xE016             B.N      ??halInternalUartRxPump_5
+   1278              }
+   1279              //0 < used < bufferSize, so figure out where tail and head are
+   1280              if ((q->tail) / (BUFSTATE(port)->rxStartIndexB)) {
+   \                     ??halInternalUartRxPump_4: (+1)
+   \       0x84   0x8848             LDRH     R0,[R1, #+2]
+   \       0x86   0xFB90 0xF0F5      SDIV     R0,R0,R5
+   \       0x8A   0x1E40             SUBS     R0,R0,#+1
+   \       0x8C   0x4180             SBCS     R0,R0,R0
+   \       0x8E   0x43C0             MVNS     R0,R0
+   \       0x90   0x0FC0             LSRS     R0,R0,#+31
+   1281                tail = true;    //Tail in B buffer
+   1282              } else {
+   1283                tail = false;   //Tail in A buffer
+   1284              }
+   1285          
+   1286              if (((uint16_t)(q->head - 1)) / (BUFSTATE(port)->rxStartIndexB)) {
+   \       0x92   0x880E             LDRH     R6,[R1, #+0]
+   \       0x94   0x1E76             SUBS     R6,R6,#+1
+   \       0x96   0xB2B6             UXTH     R6,R6
+   \       0x98   0xFB96 0xF5F5      SDIV     R5,R6,R5
+   \       0x9C   0x1E6D             SUBS     R5,R5,#+1
+   \       0x9E   0x41AD             SBCS     R5,R5,R5
+   \       0xA0   0x43ED             MVNS     R5,R5
+   1287                head = true;    //Head in B buffer
+   1288              } else {
+   1289                head = false;   //Head in A buffer
+   1290              }
+   1291          
+   1292              //To load, the tail must be in the same buffer as the head so we don't
+   1293              //overwrite any bytes that haven't drained from the serial FIFO yet.
+   1294              if (tail != head) {
+   \       0xA2   0x4606             MOV      R6,R0
+   \       0xA4   0xEBB6 0x7FD5      CMP      R6,R5, LSR #+31
+   \       0xA8   0xD128             BNE.N    ??halInternalUartRxPump_3
+   1295                halInternalUartRxCheckRts(port);
+   1296                return;
+   1297              }
+   1298              // Recall tail true means data is inside B
+   1299              loadA = tail;
+   1300              loadB = !tail;
+   \       0xAA   0x4635             MOV      R5,R6
+   \       0xAC   0x1E6D             SUBS     R5,R5,#+1
+   \       0xAE   0x41AD             SBCS     R5,R5,R5
+   \       0xB0   0x0FED             LSRS     R5,R5,#+31
+   1301              reloadBuffers:
+   1302              //check if the buffers need to be reloaded
+   1303              if ((loadA) && (!BUFSTATE(port)->waitingForInputToB)) {
+   \                     ??halInternalUartRxPump_5: (+1)
+   \       0xB2   0x2800             CMP      R0,#+0
+   \       0xB4   0xD010             BEQ.N    ??halInternalUartRxPump_6
+   1304                if ((dmaStatus & SC_DMACTRL_RXLODA)
+   1305                    != SC_DMACTRL_RXLODA) {
+   \       0xB6   0x7AA6             LDRB     R6,[R4, #+10]
+   \       0xB8   0xF003 0x0001      AND      R0,R3,#0x1
+   \       0xBC   0x4306             ORRS     R6,R0,R6
+   \       0xBE   0xD10B             BNE.N    ??halInternalUartRxPump_6
+   1306                  //An error interrupt can move the addresses of the buffer
+   1307                  //during the flush/reset/reload operation.  At this point the
+   1308                  //buffer is clear of any usage, so we can reset the addresses
+   1309                  SCx_REG(port, RXBEGA) = (uint32_t)q->fifo;
+   \       0xC0   0x1D88             ADDS     R0,R1,#+6
+   \       0xC2   0x6010             STR      R0,[R2, #+0]
+   1310                  SCx_REG(port, RXENDA) = (uint32_t)(q->fifo + BUFSTATE(port)->fifoSize / 2 - 1);
+   \       0xC4   0x1D48             ADDS     R0,R1,#+5
+   \       0xC6   0x8826             LDRH     R6,[R4, #+0]
+   \       0xC8   0xEB10 0x0066      ADDS     R0,R0,R6, ASR #+1
+   \       0xCC   0x6050             STR      R0,[R2, #+4]
+   1311                  BUFSTATE(port)->prevCountA = 0;
+   \       0xCE   0x2000             MOVS     R0,#+0
+   \       0xD0   0x80A0             STRH     R0,[R4, #+4]
+   1312                  BUFSTATE(port)->waitingForTailA = false;
+   \       0xD2   0x7220             STRB     R0,[R4, #+8]
+   1313                  SCx_REG(port, DMACTRL) = SC_DMACTRL_RXLODA;
+   \       0xD4   0x2001             MOVS     R0,#+1
+   \       0xD6   0x6310             STR      R0,[R2, #+48]
+   1314                }
+   1315              }
+   1316              if (loadB) {
+   \                     ??halInternalUartRxPump_6: (+1)
+   \       0xD8   0x2D00             CMP      R5,#+0
+   \       0xDA   0xD00F             BEQ.N    ??halInternalUartRxPump_3
+   1317                if ((dmaStatus & SC_DMACTRL_RXLODB)
+   1318                    != SC_DMACTRL_RXLODB) {
+   \       0xDC   0x0798             LSLS     R0,R3,#+30
+   \       0xDE   0xD40D             BMI.N    ??halInternalUartRxPump_3
+   1319                  //An error interrupt can move the addresses of the buffer
+   1320                  //during the flush/reset/reload operation.  At this point the
+   1321                  //buffer is clear of any usage, so we can reset the addresses
+   1322                  SCx_REG(port, RXBEGB) = (uint32_t)(q->fifo + BUFSTATE(port)->fifoSize / 2);
+   \       0xE0   0x1D88             ADDS     R0,R1,#+6
+   \       0xE2   0x8823             LDRH     R3,[R4, #+0]
+   \       0xE4   0xEB10 0x0063      ADDS     R0,R0,R3, ASR #+1
+   \       0xE8   0x6090             STR      R0,[R2, #+8]
+   1323                  SCx_REG(port, RXENDB) = (uint32_t)(q->fifo + BUFSTATE(port)->fifoSize - 1);
+   \       0xEA   0x1D48             ADDS     R0,R1,#+5
+   \       0xEC   0x8821             LDRH     R1,[R4, #+0]
+   \       0xEE   0x1840             ADDS     R0,R0,R1
+   \       0xF0   0x60D0             STR      R0,[R2, #+12]
+   1324                  BUFSTATE(port)->prevCountB = 0;
+   \       0xF2   0x2000             MOVS     R0,#+0
+   \       0xF4   0x80E0             STRH     R0,[R4, #+6]
+   1325                  BUFSTATE(port)->waitingForTailB = false;
+   \       0xF6   0x7260             STRB     R0,[R4, #+9]
+   1326                  SCx_REG(port, DMACTRL) = SC_DMACTRL_RXLODB;
+   \       0xF8   0x2002             MOVS     R0,#+2
+   \       0xFA   0x6310             STR      R0,[R2, #+48]
+   1327                }
+   1328              }
+   1329              halInternalUartRxCheckRts(port);
+   1330            }
+   1331            #endif // FIFO DMA mode
+   1332          
+   1333            #if EM_SERIAL3_ENABLED
+   1334            if (EM_SER3_PORT_EN(port)) {
+   1335              EmSerialFifoQueue *q = emSerialRxQueues[port];
+   1336              if ((usbNAK == true)
+   1337                  && (EMBER_SERIAL3_RX_QUEUE_SIZE - q->used > CDC_EP_SIZE)) {
+   1338                usbNAK = false;
+   1339                USBD_ArmEp(USBD_GetEpFromAddr(CDC_EP_OUT));
+   1340              }
+   1341            }
+   1342            #endif //EM_SERIAL3_ENABLED
+   1343          }
+   \                     ??halInternalUartRxPump_3: (+1)
+   \       0xFC   0xBCF0             POP      {R4-R7}
+   \       0xFE   0x4770             BX       LR
+   1344          
+   1345          #if defined(EMBER_SERIAL1_RTSCTS) || defined(EMBER_SERIAL2_RTSCTS)
+   1346          void halInternalUartRxCheckRts(uint8_t port)
+   1347          {
+   1348            // Verify RTS is controlled by SW (not AUTO mode), and isn't already asserted.
+   1349            // (The logic to deassert RTS is in halInternalUart1RxIsr().)
+   1350            if ((SCx_REG(port, UARTCFG) & (SC_UARTCFG_UARTFLOW | SC_UARTCFG_UARTAUTO | SC_UARTCFG_UARTRTS)) == SC_UARTCFG_UARTFLOW) {
+   1351              // Assert RTS if the rx queue tail is in an active (or pending) DMA buffer,
+   1352              // because this means the other DMA buffer is empty.
+   1353              {
+   1354                DECLARE_INTERRUPT_STATE;
+   1355                DISABLE_INTERRUPTS();
+   1356                if (((emSerialRxQueues[port]->tail < emSerialRxQueueSizes[port] / 2)
+   1357                     && (SCx_REG(port, DMACTRL) & SC_DMACTRL_RXLODA))
+   1358                    || ((emSerialRxQueues[port]->tail >= emSerialRxQueueSizes[port] / 2)
+   1359                        && (SCx_REG(port, DMACTRL) & SC_DMACTRL_RXLODB))) {
+   1360                  SCx_REG(port, UARTCFG) |= SC_UARTCFG_UARTRTS;             // assert RTS
+   1361                }
+   1362                RESTORE_INTERRUPTS();
+   1363              }
+   1364            }
+   1365          }
+   1366          
+   1367          #endif
+   1368          
+   1369          #ifdef EMBER_SERIAL1_RTSCTS
+   1370          bool halInternalUartFlowControlRxIsEnabled(uint8_t port)
+   1371          {
+   1372            return ((SCx_REG(port, UARTCFG) & (SC_UARTCFG_UARTFLOW | SC_UARTCFG_UARTAUTO | SC_UARTCFG_UARTRTS))
+   1373                    == (SC_UARTCFG_UARTFLOW | SC_UARTCFG_UARTRTS));
+   1374          }
+   1375          
+   1376          #endif
+   1377          
+   1378          #ifdef EMBER_SERIAL1_XONXOFF
+   1379          bool halInternalUartFlowControlRxIsEnabled(uint8_t port)
+   1380          {
+   1381            xonTimer = halCommonGetInt16uQuarterSecondTick();   //FIXME move into new func?
+   1382            return ((xonXoffTxByte == 0) && (xcmdCount > 0));
+   1383          }
+   1384          
+   1385          bool halInternalUartXonRefreshDone(uint8_t port)
+   1386          {
+   1387            return (xcmdCount == XON_REFRESH_COUNT);
+   1388          }
+   1389          
+   1390          #endif
+   1391          
+
+   \                                 In section .text, align 2, keep-with-next
+   1392          bool halInternalUartTxIsIdle(uint8_t port)
+   1393          {
+   1394            // TODO how do we determine idle for the VUART or USB?
+   1395            #if defined(EM_PHYSICAL_UART)
+   1396            if (EM_SER1_PORT_EN(port) || EM_SER2_PORT_EN(port)) {
+   \                     halInternalUartTxIsIdle: (+1)
+   \        0x0   0x2801             CMP      R0,#+1
+   \        0x2   0xD10A             BNE.N    ??halInternalUartTxIsIdle_0
+   1397              return ((SCx_REG(port, MODE) == SC_MODE_MODE_UART)
+   1398                      && ((SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTTXIDLE) != 0));
+   \        0x4   0x....             LDR.N    R0,??DataTable17_13
+   \        0x6   0x68C1             LDR      R1,[R0, #+12]
+   \        0x8   0x2901             CMP      R1,#+1
+   \        0xA   0xD104             BNE.N    ??halInternalUartTxIsIdle_1
+   \        0xC   0x6800             LDR      R0,[R0, #+0]
+   \        0xE   0x0980             LSRS     R0,R0,#+6
+   \       0x10   0xF000 0x0001      AND      R0,R0,#0x1
+   \       0x14   0x4770             BX       LR
+   \                     ??halInternalUartTxIsIdle_1: (+1)
+   \       0x16   0x2000             MOVS     R0,#+0
+   \       0x18   0x4770             BX       LR
+   1399            }
+   1400            #endif
+   1401          
+   1402            return true;
+   \                     ??halInternalUartTxIsIdle_0: (+1)
+   \       0x1A   0x2001             MOVS     R0,#+1
+   \       0x1C   0x4770             BX       LR
+   1403          }
+   1404          
+   1405          #if defined(EM_PHYSICAL_UART)
+   1406          // If called outside of an ISR, it should be from within an ATOMIC block.
+
+   \                                 In section .text, align 2, keep-with-next
+   1407          static void halInternalUartTxIsr(uint8_t port, uint16_t causes)
+   1408          {
+   \                     halInternalUartTxIsr: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   1409            #if defined(EM_ENABLE_SERIAL_FIFO)
+   1410            EmSerialFifoQueue *q = (EmSerialFifoQueue *)emSerialTxQueues[port];
+   \        0x2   0x4603             MOV      R3,R0
+   \        0x4   0x....             LDR.N    R2,??DataTable17_4
+   \        0x6   0xF852 0x4023      LDR      R4,[R2, R3, LSL #+2]
+   1411          
+   1412            // At present we really don't care which interrupt(s)
+   1413            // occurred, just that one did.  Loop while there is
+   1414            // room to send more data and we've got more data to
+   1415            // send.  For UART there is no error detection.
+   1416          
+   1417          #ifdef EMBER_SERIAL1_XONXOFF
+   1418            // Sending an XON or XOFF takes priority over data in the tx queue.
+   1419            if (xonXoffTxByte && (SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTTXFREE)) {
+   1420              SCx_REG(port, DATA) = xonXoffTxByte;
+   1421              if (xonXoffTxByte == ASCII_XOFF) {
+   1422                xcmdCount = -1;
+   1423                HANDLE_ASH_ERROR(EMBER_COUNTER_ASH_XOFF);
+   1424              } else {
+   1425                xcmdCount = (xcmdCount < 0) ? 1 : xcmdCount + 1;
+   1426              }
+   1427            }
+   1428          #endif // XONXOFF
+   1429          
+   1430            #if defined(FIFO_DMA_USED)
+   1431            uint16_t cnt;
+   1432            uint8_t discarded;
+   1433            //interrupts acknowledged at the start of the master SC1 ISR
+   1434          
+   1435            // The only interrupts we care about here are UNLOAD's and IDLE.
+   1436            // Unload the A and B buffers if they are ready, and aside from that
+   1437            // if there is data to send and a DMA channel available to send it, then
+   1438            // out it goes.
+   1439          
+   1440            // if waiting for unload
+   1441            if (TX_BUFSTATE(port)->waitingForUnload) {
+   \        0xA   0x....             LDR.N    R5,??DataTable17_16
+   \        0xC   0x78EA             LDRB     R2,[R5, #+3]
+   \        0xE   0x2A00             CMP      R2,#+0
+   \       0x10   0xD03B             BEQ.N    ??halInternalUartTxIsr_0
+   1442              // if buffer A has been unloaded
+   1443              if (causes & EVENT_SC12_FLAG_TXULDA) {
+   \       0x12   0x050A             LSLS     R2,R1,#+20
+   \       0x14   0xD519             BPL.N    ??halInternalUartTxIsr_1
+   1444                if (!TX_BUFSTATE(port)->usingBufferB) {
+   \       0x16   0x78AA             LDRB     R2,[R5, #+2]
+   \       0x18   0x2A00             CMP      R2,#+0
+   \       0x1A   0xD116             BNE.N    ??halInternalUartTxIsr_1
+   1445                  // if only using buffer A, unload using TXCNT
+   1446                  for (cnt = SCx_REG(port, TXCNT); cnt != 0U; cnt--) {
+   \       0x1C   0x....             LDR.N    R2,??DataTable17_21
+   \       0x1E   0x6992             LDR      R2,[R2, #+24]
+   \       0x20   0xE00D             B.N      ??halInternalUartTxIsr_2
+   1447                    discarded = FIFO_DEQUEUE(q, emSerialTxQueueWraps[port]);
+   \                     ??halInternalUartTxIsr_3: (+1)
+   \       0x22   0x8866             LDRH     R6,[R4, #+2]
+   \       0x24   0x1C76             ADDS     R6,R6,#+1
+   \       0x26   0x....             LDR.N    R7,??DataTable17_22
+   \       0x28   0xF837 0x7013      LDRH     R7,[R7, R3, LSL #+1]
+   \       0x2C   0xFB96 0xFCF7      SDIV     R12,R6,R7
+   \       0x30   0xFB07 0x661C      MLS      R6,R7,R12,R6
+   \       0x34   0x8066             STRH     R6,[R4, #+2]
+   \       0x36   0x88A6             LDRH     R6,[R4, #+4]
+   \       0x38   0x1E76             SUBS     R6,R6,#+1
+   \       0x3A   0x80A6             STRH     R6,[R4, #+4]
+   1448                    (void)discarded;
+   1449                  }
+   \       0x3C   0x1E52             SUBS     R2,R2,#+1
+   \                     ??halInternalUartTxIsr_2: (+1)
+   \       0x3E   0x4616             MOV      R6,R2
+   \       0x40   0xB2B6             UXTH     R6,R6
+   \       0x42   0x2E00             CMP      R6,#+0
+   \       0x44   0xD1ED             BNE.N    ??halInternalUartTxIsr_3
+   1450                  // buffer is done being used
+   1451                  TX_BUFSTATE(port)->waitingForUnload = false;
+   \       0x46   0x2200             MOVS     R2,#+0
+   \       0x48   0x70EA             STRB     R2,[R5, #+3]
+   1452                } else {
+   1453                  // if using both buffers wait for a TXULDB event to unload
+   1454                }
+   1455              }
+   1456          
+   1457              // if buffer B has been unloaded
+   1458              if (causes & EVENT_SC12_FLAG_TXULDB) {
+   \                     ??halInternalUartTxIsr_1: (+1)
+   \       0x4A   0x04C9             LSLS     R1,R1,#+19
+   \       0x4C   0xD51D             BPL.N    ??halInternalUartTxIsr_0
+   1459                // this means both buffers have been unloaded, so dequeue all bytes that
+   1460                // were used in them
+   1461                uint32_t txBegA = SCx_REG(port, TXBEGA);
+   \       0x4E   0x....             LDR.N    R1,??DataTable17_21
+   \       0x50   0x680A             LDR      R2,[R1, #+0]
+   1462                uint32_t txEndA = SCx_REG(port, TXENDA);
+   \       0x52   0x684E             LDR      R6,[R1, #+4]
+   1463                uint32_t txBegB = SCx_REG(port, TXBEGB);
+   \       0x54   0x688F             LDR      R7,[R1, #+8]
+   1464                uint32_t txEndB = SCx_REG(port, TXENDB);
+   \       0x56   0x68C9             LDR      R1,[R1, #+12]
+   1465          
+   1466                // set number of bytes to dequeue
+   1467                cnt = (txEndA - txBegA + 1) + (txEndB - txBegB + 1);
+   \       0x58   0x1AB2             SUBS     R2,R6,R2
+   \       0x5A   0x1889             ADDS     R1,R1,R2
+   \       0x5C   0x1BC9             SUBS     R1,R1,R7
+   \       0x5E   0x1C89             ADDS     R1,R1,#+2
+   \       0x60   0xE00D             B.N      ??halInternalUartTxIsr_4
+   1468                // dequeue all of the bytes from DMA buffer B
+   1469                // equal to q->used
+   1470                while (cnt > 0) {
+   1471                  discarded = FIFO_DEQUEUE(q, emSerialTxQueueWraps[port]);
+   \                     ??halInternalUartTxIsr_5: (+1)
+   \       0x62   0x8862             LDRH     R2,[R4, #+2]
+   \       0x64   0x1C52             ADDS     R2,R2,#+1
+   \       0x66   0x....             LDR.N    R6,??DataTable17_22
+   \       0x68   0xF836 0x6013      LDRH     R6,[R6, R3, LSL #+1]
+   \       0x6C   0xFB92 0xF7F6      SDIV     R7,R2,R6
+   \       0x70   0xFB06 0x2217      MLS      R2,R6,R7,R2
+   \       0x74   0x8062             STRH     R2,[R4, #+2]
+   \       0x76   0x88A2             LDRH     R2,[R4, #+4]
+   \       0x78   0x1E52             SUBS     R2,R2,#+1
+   \       0x7A   0x80A2             STRH     R2,[R4, #+4]
+   1472                  (void)discarded;
+   1473                  cnt--;
+   \       0x7C   0x1E49             SUBS     R1,R1,#+1
+   1474                }
+   \                     ??halInternalUartTxIsr_4: (+1)
+   \       0x7E   0x460A             MOV      R2,R1
+   \       0x80   0xB292             UXTH     R2,R2
+   \       0x82   0x2A00             CMP      R2,#+0
+   \       0x84   0xD1ED             BNE.N    ??halInternalUartTxIsr_5
+   1475                // done unloading buffers
+   1476                TX_BUFSTATE(port)->waitingForUnload = false;
+   \       0x86   0x2100             MOVS     R1,#+0
+   \       0x88   0x70E9             STRB     R1,[R5, #+3]
+   1477              }
+   1478            }
+   1479            // if have data ready to be sent and not waiting for DMA to finish
+   1480            if (q->used > 0 && !TX_BUFSTATE(port)->waitingForUnload) {
+   \                     ??halInternalUartTxIsr_0: (+1)
+   \       0x8A   0x88A1             LDRH     R1,[R4, #+4]
+   \       0x8C   0x2900             CMP      R1,#+0
+   \       0x8E   0xD03F             BEQ.N    ??halInternalUartTxIsr_6
+   \       0x90   0x78E9             LDRB     R1,[R5, #+3]
+   \       0x92   0x2900             CMP      R1,#+0
+   \       0x94   0xD13C             BNE.N    ??halInternalUartTxIsr_6
+   1481              // restart DMA
+   1482              halInternalRestartUartDma(port);
+   \       0x96   0x.... 0x....      BL       halInternalRestartUartDma
+   1483          
+   1484              uint16_t dataStartIndex;
+   1485              uint16_t dataEndIndex;
+   1486              // The DMA channel stops using a buffer and unloads it when (DMA buffer start
+   1487              // address + DMA buffer count) > DMA buffer end address
+   1488              // Therefore the end address for each buffer must be assigned to (end index - 1)
+   1489          
+   1490              // make sure both buffers are available by checking the channel's
+   1491              // SC1_DMACTRL.TX_LOAD   == 0 (channel unloaded) &&
+   1492              // SC1_DMASTAT.TX_ACTIVE == 0 (channel not active)
+   1493              // The latter check should be superfluous but is a safety mechanism.
+   1494              if ( !(SCx_REG(port, DMACTRL) & SC_DMACTRL_TXLODA)
+   1495                   && !(SCx_REG(port, DMASTAT) & SC_DMASTAT_TXACTA)
+   1496                   && !(SCx_REG(port, DMACTRL) & SC_DMACTRL_TXLODB)
+   1497                   && !(SCx_REG(port, DMASTAT) & SC_DMASTAT_TXACTB)) {
+   \       0x9A   0x....             LDR.N    R1,??DataTable17_21
+   \       0x9C   0x6A08             LDR      R0,[R1, #+32]
+   \       0x9E   0x0740             LSLS     R0,R0,#+29
+   \       0xA0   0xD436             BMI.N    ??halInternalUartTxIsr_6
+   \       0xA2   0x69C8             LDR      R0,[R1, #+28]
+   \       0xA4   0x0740             LSLS     R0,R0,#+29
+   \       0xA6   0xD433             BMI.N    ??halInternalUartTxIsr_6
+   \       0xA8   0x6A08             LDR      R0,[R1, #+32]
+   \       0xAA   0x0700             LSLS     R0,R0,#+28
+   \       0xAC   0xD430             BMI.N    ??halInternalUartTxIsr_6
+   \       0xAE   0x69C8             LDR      R0,[R1, #+28]
+   \       0xB0   0x0700             LSLS     R0,R0,#+28
+   \       0xB2   0xD42D             BMI.N    ??halInternalUartTxIsr_6
+   1498                // the data that we want to send is between q->tail and q->head - 1
+   1499                dataStartIndex = q->tail;
+   \       0xB4   0x8862             LDRH     R2,[R4, #+2]
+   1500                dataEndIndex = ((q->head == 0) ? TX_BUFSTATE(port)->fifoSize : q->head) - 1U;
+   \       0xB6   0x8820             LDRH     R0,[R4, #+0]
+   \       0xB8   0x2800             CMP      R0,#+0
+   \       0xBA   0xD100             BNE.N    ??halInternalUartTxIsr_7
+   \       0xBC   0x8828             LDRH     R0,[R5, #+0]
+   \                     ??halInternalUartTxIsr_7: (+1)
+   \       0xBE   0x1E40             SUBS     R0,R0,#+1
+   \       0xC0   0xB280             UXTH     R0,R0
+   1501          
+   1502                if (dataEndIndex < dataStartIndex) {
+   \       0xC2   0x1DA3             ADDS     R3,R4,#+6
+   \       0xC4   0x181B             ADDS     R3,R3,R0
+   \       0xC6   0x1DA6             ADDS     R6,R4,#+6
+   \       0xC8   0x18B6             ADDS     R6,R6,R2
+   \       0xCA   0x....             LDR.N    R7,??DataTable17_1
+   \       0xCC   0xF44F 0x6C00      MOV      R12,#+2048
+   \       0xD0   0x4290             CMP      R0,R2
+   \       0xD2   0xDA13             BGE.N    ??halInternalUartTxIsr_8
+   1503                  // if the end of the data to send has wrapped around to front of queue
+   1504                  // we use both buffers, A for the head to end of queue, and B for the
+   1505                  // start of queue to the tail
+   1506                  TX_BUFSTATE(port)->usingBufferB = true;
+   \       0xD4   0x2001             MOVS     R0,#+1
+   \       0xD6   0x70A8             STRB     R0,[R5, #+2]
+   1507                  SCx_REG(port, TXBEGA) = (uint32_t)&q->fifo[dataStartIndex];
+   \       0xD8   0x600E             STR      R6,[R1, #+0]
+   1508                  SCx_REG(port, TXENDA) = (uint32_t)&q->fifo[TX_BUFSTATE(port)->fifoSize - 1];
+   \       0xDA   0x8828             LDRH     R0,[R5, #+0]
+   \       0xDC   0x1820             ADDS     R0,R4,R0
+   \       0xDE   0x1D40             ADDS     R0,R0,#+5
+   \       0xE0   0x6048             STR      R0,[R1, #+4]
+   1509                  SCx_REG(port, TXBEGB) = (uint32_t)&q->fifo[0];
+   \       0xE2   0x1DA0             ADDS     R0,R4,#+6
+   \       0xE4   0x6088             STR      R0,[R1, #+8]
+   1510                  SCx_REG(port, TXENDB) = (uint32_t)&q->fifo[dataEndIndex];
+   \       0xE6   0x60CB             STR      R3,[R1, #+12]
+   1511          
+   1512                  // ack if pending
+   1513                  EVENT_SCxFLAG(port) = EVENT_SC12_FLAG_TXULDA;
+   \       0xE8   0xF8C7 0xC000      STR      R12,[R7, #+0]
+   1514                  EVENT_SCxFLAG(port) = EVENT_SC12_FLAG_TXULDB;
+   \       0xEC   0xF44F 0x5080      MOV      R0,#+4096
+   \       0xF0   0x6038             STR      R0,[R7, #+0]
+   1515          
+   1516                  // load DMA
+   1517                  SCx_REG(port, DMACTRL) = SC_DMACTRL_TXLODA;
+   \       0xF2   0x2004             MOVS     R0,#+4
+   \       0xF4   0x6208             STR      R0,[R1, #+32]
+   1518                  SCx_REG(port, DMACTRL) = SC_DMACTRL_TXLODB;
+   \       0xF6   0x2008             MOVS     R0,#+8
+   \       0xF8   0x6208             STR      R0,[R1, #+32]
+   \       0xFA   0xE007             B.N      ??halInternalUartTxIsr_9
+   1519                } else {
+   1520                  // if no wrapping, just use buffer A
+   1521                  TX_BUFSTATE(port)->usingBufferB = false;
+   \                     ??halInternalUartTxIsr_8: (+1)
+   \       0xFC   0x2000             MOVS     R0,#+0
+   \       0xFE   0x70A8             STRB     R0,[R5, #+2]
+   1522                  SCx_REG(port, TXBEGA) = (uint32_t)&q->fifo[dataStartIndex];
+   \      0x100   0x600E             STR      R6,[R1, #+0]
+   1523                  SCx_REG(port, TXENDA) = (uint32_t)&q->fifo[dataEndIndex];
+   \      0x102   0x604B             STR      R3,[R1, #+4]
+   1524          
+   1525                  // ack if pending
+   1526                  EVENT_SCxFLAG(port) = EVENT_SC12_FLAG_TXULDA;
+   \      0x104   0xF8C7 0xC000      STR      R12,[R7, #+0]
+   1527          
+   1528                  // load DMA
+   1529                  SCx_REG(port, DMACTRL) = SC_DMACTRL_TXLODA;
+   \      0x108   0x2004             MOVS     R0,#+4
+   \      0x10A   0x6208             STR      R0,[R1, #+32]
+   1530                }
+   1531                TX_BUFSTATE(port)->waitingForUnload = true;
+   \                     ??halInternalUartTxIsr_9: (+1)
+   \      0x10C   0x2001             MOVS     R0,#+1
+   \      0x10E   0x70E8             STRB     R0,[R5, #+3]
+   1532              }
+   1533            }   // if (q->used > 0)
+   1534              #else
+   1535            // non DMA
+   1536            // if tx is free, send data
+   1537            while ((q->used > 0) && (SCx_REG(port, UARTSTAT) & SC_UARTSTAT_UARTTXFREE)) {
+   1538              SCx_REG(port, DATA) = FIFO_DEQUEUE(q, emSerialTxQueueWraps[port]);
+   1539            }
+   1540              #endif // FIFO DMA mode
+   1541            #endif // FIFO
+   1542          }
+   \                     ??halInternalUartTxIsr_6: (+1)
+   \      0x110   0xBDF1             POP      {R0,R4-R7,PC}
+   1543          
+   1544          #endif // defined(EM_PHYSICAL_UART)
+   1545          
+   1546          #if EM_SERIAL1_ENABLED
+   1547          //The following registers are the only SC1-UART registers that need to be
+   1548          //saved across deep sleep cycles.  All other SC1-UART registers are
+   1549          //reenabled or restarted using more complex init or restart algorithms.
+
+   \                                 In section .bss, align 4
+   1550          static uint32_t SC1_UARTPER_SAVED;
+   \                     SC1_UARTPER_SAVED:
+   \        0x0                      DS8 4
+
+   \                                 In section .bss, align 4
+   1551          static uint32_t SC1_UARTFRAC_SAVED;
+   \                     SC1_UARTFRAC_SAVED:
+   \        0x0                      DS8 4
+
+   \                                 In section .bss, align 4
+   1552          static uint32_t SC1_UARTCFG_SAVED;
+   \                     SC1_UARTCFG_SAVED:
+   \        0x0                      DS8 4
+   1553          #endif // EM_SERIAL1_ENABLED
+   1554          #if EM_SERIAL2_ENABLED
+   1555          //The following registers are the only SC3-UART registers that need to be
+   1556          //saved across deep sleep cycles.  All other SC3-UART registers are
+   1557          //reenabled or restarted using more complex init or restart algorithms.
+   1558          static uint32_t SC3_UARTPER_SAVED;
+   1559          static uint32_t SC3_UARTFRAC_SAVED;
+   1560          static uint32_t SC3_UARTCFG_SAVED;
+   1561          #endif // EM_SERIAL2_ENABLED
+   1562          
+
+   \                                 In section .text, align 2, keep-with-next
+   1563          void halInternalPowerDownUart(void)
+   1564          {
+   1565            #if EM_SERIAL1_ENABLED
+   1566            SC1_UARTPER_SAVED = SC1->UARTPER;
+   \                     halInternalPowerDownUart: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable17_23
+   \        0x2   0x68C1             LDR      R1,[R0, #+12]
+   \        0x4   0x....             LDR.N    R2,??DataTable17_24
+   \        0x6   0x6011             STR      R1,[R2, #+0]
+   1567            SC1_UARTFRAC_SAVED = SC1->UARTFRAC;
+   \        0x8   0x6901             LDR      R1,[R0, #+16]
+   \        0xA   0x....             LDR.N    R2,??DataTable17_25
+   \        0xC   0x6011             STR      R1,[R2, #+0]
+   1568            SC1_UARTCFG_SAVED = SC1->UARTCFG;
+   \        0xE   0x6800             LDR      R0,[R0, #+0]
+   \       0x10   0x....             LDR.N    R1,??DataTable17_26
+   \       0x12   0x6008             STR      R0,[R1, #+0]
+   1569            SC1_TXD_GPIO(GPIOCFG_OUT, 1);    // Avoid gitching TxD going down
+   1570            #endif // EM_SERIAL1_ENABLED
+   1571            #if EM_SERIAL2_ENABLED
+   1572            SC3_UARTPER_SAVED = SC3->UARTPER;
+   1573            SC3_UARTFRAC_SAVED = SC3->UARTFRAC;
+   1574            SC3_UARTCFG_SAVED = SC3->UARTCFG;
+   1575            // TODO SC3_TXD_GPIO(GPIOCFG_OUT, 1); // Avoid gitching TxD going down
+   1576            #endif // EM_SERIAL2_ENABLED
+   1577          
+   1578            #if EM_SERIAL3_ENABLED || defined (USB_MSD) || defined (USB_HID)
+   1579              #if defined(CORTEXM3_EM35X_USB)
+   1580                #ifndef USB_SUSPEND
+   1581            USBD_Stop();
+   1582                #endif
+   1583              #endif
+   1584            #endif
+   1585          }
+   \       0x14   0x4770             BX       LR
+   1586          
+
+   \                                 In section .text, align 2, keep-with-next
+   1587          void halInternalPowerUpUart(void)
+   1588          {
+   1589            #if EM_SERIAL1_ENABLED
+   1590            SC1->UARTPER = SC1_UARTPER_SAVED;
+   \                     halInternalPowerUpUart: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable17_3
+   \        0x2   0x....             LDR.N    R1,??DataTable17_24
+   \        0x4   0x6809             LDR      R1,[R1, #+0]
+   \        0x6   0x6141             STR      R1,[R0, #+20]
+   1591            SC1->UARTFRAC = SC1_UARTFRAC_SAVED;
+   \        0x8   0x....             LDR.N    R1,??DataTable17_25
+   \        0xA   0x6809             LDR      R1,[R1, #+0]
+   \        0xC   0x6181             STR      R1,[R0, #+24]
+   1592            SC1->UARTCFG = SC1_UARTCFG_SAVED;
+   \        0xE   0x....             LDR.N    R1,??DataTable17_26
+   \       0x10   0x6809             LDR      R1,[R1, #+0]
+   \       0x12   0x6081             STR      R1,[R0, #+8]
+   1593          
+   1594            SC1->MODE = SC_MODE_MODE_UART;
+   \       0x14   0x2101             MOVS     R1,#+1
+   \       0x16   0x6001             STR      R1,[R0, #+0]
+   1595            SC1_TXD_GPIO(GPIOCFG_OUT_ALT, 1);    // Can Assign TxD glitch-free to UART now
+   1596          
+   1597            halInternalInitUartInterrupts(1);
+   \       0x18   0x4608             MOV      R0,R1
+   \       0x1A   0x....             B.N      halInternalInitUartInterrupts
+   1598            #endif
+   1599          
+   1600            #if EM_SERIAL2_ENABLED
+   1601            SC3->UARTPER = SC3_UARTPER_SAVED;
+   1602            SC3->UARTFRAC = SC3_UARTFRAC_SAVED;
+   1603            SC3->UARTCFG = SC3_UARTCFG_SAVED;
+   1604          
+   1605            SC3->MODE = SC_MODE_MODE_UART;
+   1606            //SC3_TXD_GPIO(GPIOCFG_OUT_ALT, 1); // Can Assign TxD glitch-free to UART now
+   1607          
+   1608            halInternalInitUartInterrupts(2);
+   1609            #endif
+   1610          
+   1611            #if EM_SERIAL3_ENABLED || defined (USB_MSD) || defined (USB_HID)
+   1612            //Remember, halInternalPowerUpUart does not return anything.  Powering
+   1613            //up the USB requires going through its normal configuration and
+   1614            //enumeration process.
+   1615              #if defined(CORTEXM3_EM35X_USB)
+   1616                #ifndef USB_SUSPEND
+   1617            USBD_Init(&USBCDC_initStruct);
+   1618                #endif
+   1619              #endif
+   1620            #endif
+   1621          }
+   1622          
+
+   \                                 In section .text, align 2, keep-with-next
+   1623          void halInternalRestartUart(void)
+   1624          {
+   1625            // This is no longer needed and should be removed as a dinosaur --DMM
+   1626          }
+   \                     halInternalRestartUart: (+1)
+   \        0x0   0x4770             BX       LR
+   1627          
+   1628          #if (EMBER_SERIAL1_MODE == EMBER_SERIAL_FIFO) && defined(EMBER_SERIAL1_XONXOFF)
+   1629          // TODO XON/XOFF on port 2
+   1630          void halInternalUartFlowControl(uint8_t port)
+   1631          {
+   1632            if (EM_SER1_PORT_EN(port)) {
+   1633              uint16_t used = emSerialRxQueues[1]->used;
+   1634              uint8_t time = halCommonGetInt16uQuarterSecondTick();
+   1635          
+   1636              if (used) {
+   1637                xonTimer = time;
+   1638              }
+   1639              // Send an XON if the rx queue is below the XON threshold
+   1640              // and an XOFF had been sent that needs to be reversed
+   1641              {
+   1642                DECLARE_INTERRUPT_STATE;
+   1643                DISABLE_INTERRUPTS();
+   1644                if ((xcmdCount == -1) && (used <= XON_LIMIT)) {
+   1645                  halInternalUart1ForceXon();
+   1646                } else if ((used == 0)
+   1647                           && ((uint8_t)(time - xonTimer) >= XON_REFRESH_TIME)
+   1648                           && (xcmdCount < XON_REFRESH_COUNT)) {
+   1649                  halInternalUart1ForceXon();
+   1650                } else {
+   1651                }
+   1652                RESTORE_INTERRUPTS();
+   1653              }
+   1654            }
+   1655          }
+   1656          
+   1657          #endif
+   1658          
+   1659          #ifdef EMBER_SERIAL1_XONXOFF
+   1660          // Must be called from within an ATOMIC block.
+   1661          static void halInternalUart1ForceXon(void)
+   1662          {
+   1663            if (xonXoffTxByte == ASCII_XOFF) {   // if XOFF waiting to be sent, cancel it
+   1664              xonXoffTxByte = 0;
+   1665              xcmdCount = 0;
+   1666            } else {                            // else, send XON and record the time
+   1667              xonXoffTxByte = ASCII_XON;
+   1668              halInternalStartUartTx(1);
+   1669            }
+   1670            xonTimer = halCommonGetInt16uQuarterSecondTick();
+   1671          }
+   1672          
+   1673          #endif
+   1674          
+   1675          #if EM_SERIAL1_ENABLED
+
+   \                                 In section .text, align 2, keep-with-next
+   1676          void halSc1Isr(void)
+   1677          {
+   \                     halSc1Isr: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   1678            uint32_t interrupt;
+   1679          
+   1680            //this read and mask is performed in two steps otherwise the compiler
+   1681            //will complain about undefined order of volatile access
+   1682            interrupt = EVENT_SC1->FLAG;
+   \        0x2   0x....             LDR.N    R5,??DataTable17_1
+   \        0x4   0x682C             LDR      R4,[R5, #+0]
+   1683            interrupt &= EVENT_SC1->CFG;
+   \        0x6   0x6C28             LDR      R0,[R5, #+64]
+   \        0x8   0x4004             ANDS     R4,R0,R4
+   \        0xA   0xE015             B.N      ??halSc1Isr_0
+   1684          
+   1685            #if (EMBER_SERIAL1_MODE == EMBER_SERIAL_FIFO)
+   1686            while (interrupt != 0) {
+   1687            #endif // (EMBER_SERIAL1_MODE == EMBER_SERIAL_FIFO)
+   1688          
+   1689            EVENT_SC1->FLAG = interrupt;     // acknowledge the interrupts early
+   \                     ??halSc1Isr_1: (+1)
+   \        0xC   0x602C             STR      R4,[R5, #+0]
+   1690          
+   1691            // RX events
+   1692            if ((interrupt & (EVENT_SC12_FLAG_RXVAL         // RX has data
+   1693                              | EVENT_SC12_FLAG_RXOVF      // RX Overrun error
+   1694                              | EVENT_SC12_FLAG_RXFIN      // RX done [TWI]
+   1695                              | EVENT_SC12_FLAG_NAK        // RX Nack [TWI]
+   1696                              | EVENT_SC12_FLAG_RXULDA     // RX DMA A has data
+   1697                              | EVENT_SC12_FLAG_RXULDB     // RX DMA B has data
+   1698                              | EVENT_SC12_FLAG_FRMERR     // RX Frame error
+   1699                              | EVENT_SC12_FLAG_PARERR)    // RX Parity error
+   1700                 ) != 0U) {
+   \        0xE   0xF246 0x7029      MOVW     R0,#+26409
+   \       0x12   0x4204             TST      R4,R0
+   \       0x14   0xD004             BEQ.N    ??halSc1Isr_2
+   1701              halInternalUartRxIsr(1, interrupt);
+   \       0x16   0x4621             MOV      R1,R4
+   \       0x18   0xB289             UXTH     R1,R1
+   \       0x1A   0x2001             MOVS     R0,#+1
+   \       0x1C   0x.... 0x....      BL       halInternalUartRxIsr
+   1702            }
+   1703          
+   1704            // TX events
+   1705            if ((interrupt & (EVENT_SC12_FLAG_TXFREE        // TX has room
+   1706                              | EVENT_SC12_FLAG_TXIDLE     // TX idle (more room)
+   1707                              | EVENT_SC12_FLAG_TXUND      // TX Underrun [SPI/TWI]
+   1708                              | EVENT_SC12_FLAG_TXFIN      // TX complete [TWI]
+   1709                              | EVENT_SC12_FLAG_CMDFIN     // TX Start/Stop done [TWI]
+   1710                              | EVENT_SC12_FLAG_TXULDA     // TX DMA A has room
+   1711                              | EVENT_SC12_FLAG_TXULDB)    // TX DMA B has room
+   1712                 ) != 0U) {
+   \                     ??halSc1Isr_2: (+1)
+   \       0x20   0xF641 0x00D6      MOVW     R0,#+6358
+   \       0x24   0x4204             TST      R4,R0
+   \       0x26   0xD004             BEQ.N    ??halSc1Isr_3
+   1713              halInternalUartTxIsr(1, interrupt);
+   \       0x28   0x4621             MOV      R1,R4
+   \       0x2A   0xB289             UXTH     R1,R1
+   \       0x2C   0x2001             MOVS     R0,#+1
+   \       0x2E   0x.... 0x....      BL       halInternalUartTxIsr
+   1714            }
+   1715          
+   1716            #if (EMBER_SERIAL1_MODE == EMBER_SERIAL_FIFO)
+   1717            interrupt = EVENT_SC1->FLAG;
+   \                     ??halSc1Isr_3: (+1)
+   \       0x32   0x6828             LDR      R0,[R5, #+0]
+   1718            interrupt &= EVENT_SC1->CFG;
+   \       0x34   0x6C2C             LDR      R4,[R5, #+64]
+   \       0x36   0x4004             ANDS     R4,R4,R0
+   1719          }
+   \                     ??halSc1Isr_0: (+1)
+   \       0x38   0xD1E8             BNE.N    ??halSc1Isr_1
+   1720          
+   1721            #endif // (EMBER_SERIAL1_MODE == EMBER_SERIAL_FIFO)
+   1722          }
+   \       0x3A   0xBD31             POP      {R0,R4,R5,PC}
+   1723          #endif // EM_SERIAL1_ENABLED
+   1724          
+   1725          #if EM_SERIAL2_ENABLED
+   1726          void halSc3Isr(void)
+   1727          {
+   1728            uint32_t interrupt;
+   1729          
+   1730            //this read and mask is performed in two steps otherwise the compiler
+   1731            //will complain about undefined order of volatile access
+   1732            interrupt = EVENT_SCxFLAG(2);
+   1733            interrupt &= EVENT_SCxCFG(2);
+   1734          
+   1735            #if (EMBER_SERIAL2_MODE == EMBER_SERIAL_FIFO)
+   1736            while (interrupt != 0) {
+   1737            #endif // (EMBER_SERIAL2_MODE == EMBER_SERIAL_FIFO)
+   1738          
+   1739            EVENT_SCxFLAG(2) = interrupt;     // acknowledge the interrupts early
+   1740          
+   1741            // RX events
+   1742            if ( interrupt & (EVENT_SC12_FLAG_RXVAL        // RX has data
+   1743                              | EVENT_SC12_FLAG_RXOVF      // RX Overrun error
+   1744                              | EVENT_SC12_FLAG_RXFIN      // RX done [TWI]
+   1745                              | EVENT_SC12_FLAG_NAK        // RX Nack [TWI]
+   1746                              | EVENT_SC12_FLAG_RXULDA     // RX DMA A has data
+   1747                              | EVENT_SC12_FLAG_RXULDB     // RX DMA B has data
+   1748                              | EVENT_SC12_FLAG_FRMERR     // RX Frame error
+   1749                              | EVENT_SC12_FLAG_PARERR)    // RX Parity error
+   1750                 ) {
+   1751              halInternalUartRxIsr(2, interrupt);
+   1752            }
+   1753          
+   1754            // TX events
+   1755            if ( interrupt & (EVENT_SC12_FLAG_TXFREE       // TX has room
+   1756                              | EVENT_SC12_FLAG_TXIDLE     // TX idle (more room)
+   1757                              | EVENT_SC12_FLAG_TXUND      // TX Underrun [SPI/TWI]
+   1758                              | EVENT_SC12_FLAG_TXFIN      // TX complete [TWI]
+   1759                              | EVENT_SC12_FLAG_CMDFIN     // TX Start/Stop done [TWI]
+   1760                              | EVENT_SC12_FLAG_TXULDA     // TX DMA A has room
+   1761                              | EVENT_SC12_FLAG_TXULDB)    // TX DMA B has room
+   1762                 ) {
+   1763              halInternalUartTxIsr(2, interrupt);
+   1764            }
+   1765          
+   1766            #if (EMBER_SERIAL2_MODE == EMBER_SERIAL_FIFO)
+   1767            interrupt = EVENT_SCxFLAG(2);
+   1768            interrupt &= EVENT_SCxCFG(2);
+   1769          }
+   1770          
+   1771            #endif // (EMBER_SERIAL2_MODE == EMBER_SERIAL_FIFO)
+   1772          }
+   1773          #endif // EM_SERIAL2_ENABLED
+   1774          
+   1775          #if     UARTERRORMARK_NEEDED
+
+   \                                 In section .text, align 2, keep-with-next
+   1776          static void uartErrorMark(uint8_t port, uint8_t errors)
+   1777          {
+   \                     uartErrorMark: (+1)
+   \        0x0   0xB430             PUSH     {R4,R5}
+   1778            EmSerialFifoQueue *q = emSerialRxQueues[port];
+   \        0x2   0x....             LDR.N    R2,??DataTable17_10
+   \        0x4   0xF852 0x3020      LDR      R3,[R2, R0, LSL #+2]
+   1779          
+   1780            // save error code & location in queue
+   1781            if ( emSerialRxError[port] == EMBER_SUCCESS ) {
+   \        0x8   0x....             LDR.N    R4,??DataTable17_20
+   \        0xA   0x....             LDR.N    R5,??DataTable17_19
+   \        0xC   0x5C2A             LDRB     R2,[R5, R0]
+   \        0xE   0x2A00             CMP      R2,#+0
+   \       0x10   0xD104             BNE.N    ??uartErrorMark_0
+   1782              emSerialRxErrorIndex[port] = q->head;
+   \       0x12   0x881A             LDRH     R2,[R3, #+0]
+   \       0x14   0xF824 0x2010      STRH     R2,[R4, R0, LSL #+1]
+   1783              emSerialRxError[port] = errors;
+   \       0x18   0x5429             STRB     R1,[R5, R0]
+   \       0x1A   0xE010             B.N      ??uartErrorMark_1
+   1784            } else {
+   1785              // Flush back to previous error location & update value
+   1786              q->head = emSerialRxErrorIndex[port];
+   \                     ??uartErrorMark_0: (+1)
+   \       0x1C   0xF834 0x2010      LDRH     R2,[R4, R0, LSL #+1]
+   \       0x20   0x801A             STRH     R2,[R3, #+0]
+   1787              emSerialRxError[port] = errors;
+   \       0x22   0x5429             STRB     R1,[R5, R0]
+   1788              if (q->head < q->tail) {
+   \       0x24   0x8859             LDRH     R1,[R3, #+2]
+   \       0x26   0x881A             LDRH     R2,[R3, #+0]
+   \       0x28   0x428A             CMP      R2,R1
+   \       0x2A   0xD206             BCS.N    ??uartErrorMark_2
+   1789                q->used = (emSerialRxQueueSizes[port] - q->tail) + q->head;
+   \       0x2C   0x....             LDR.N    R4,??DataTable17_14
+   \       0x2E   0xF834 0x0010      LDRH     R0,[R4, R0, LSL #+1]
+   \       0x32   0x1A41             SUBS     R1,R0,R1
+   \       0x34   0x1851             ADDS     R1,R2,R1
+   \       0x36   0x8099             STRH     R1,[R3, #+4]
+   \       0x38   0xE001             B.N      ??uartErrorMark_1
+   1790              } else {
+   1791                q->used = q->head - q->tail;
+   \                     ??uartErrorMark_2: (+1)
+   \       0x3A   0x1A51             SUBS     R1,R2,R1
+   \       0x3C   0x8099             STRH     R1,[R3, #+4]
+   1792              }
+   1793            }
+   1794          }
+   \                     ??uartErrorMark_1: (+1)
+   \       0x3E   0xBC30             POP      {R4,R5}
+   \       0x40   0x4770             BX       LR
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17:
+   \        0x0   0xE000'E100        DC32     0xe000e100
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_1:
+   \        0x0   0x4000'A808        DC32     0x4000a808
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_2:
+   \        0x0   0x....'....        DC32     baudSettings
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_3:
+   \        0x0   0x4000'C854        DC32     0x4000c854
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_4:
+   \        0x0   0x....'....        DC32     emSerialTxQueues
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_5:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_6:
+   \        0x0   0x4000'A848        DC32     0x4000a848
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_7:
+   \        0x0   0x4000'C830        DC32     0x4000c830
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_8:
+   \        0x0   0xFFFF'E7FB        DC32     0xffffe7fb
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_9:
+   \        0x0   0x4000'C83C        DC32     0x4000c83c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_10:
+   \        0x0   0x....'....        DC32     emSerialRxQueues
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_11:
+   \        0x0   0x4000'0024        DC32     0x40000024
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_12:
+   \        0x0   0x....'....        DC32     emSerialRxQueueWraps
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_13:
+   \        0x0   0x4000'C848        DC32     0x4000c848
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_14:
+   \        0x0   0x....'....        DC32     emSerialRxQueueSizes
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_15:
+   \        0x0   0x....'....        DC32     dmaBufferState
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_16:
+   \        0x0   0x....'....        DC32     dmaTxBufferState
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_17:
+   \        0x0   0x4000'C800        DC32     0x4000c800
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_18:
+   \        0x0   0x4000'C808        DC32     0x4000c808
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_19:
+   \        0x0   0x....'....        DC32     emSerialRxError
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_20:
+   \        0x0   0x....'....        DC32     emSerialRxErrorIndex
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_21:
+   \        0x0   0x4000'C810        DC32     0x4000c810
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_22:
+   \        0x0   0x....'....        DC32     emSerialTxQueueWraps
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_23:
+   \        0x0   0x4000'C85C        DC32     0x4000c85c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_24:
+   \        0x0   0x....'....        DC32     SC1_UARTPER_SAVED
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_25:
+   \        0x0   0x....'....        DC32     SC1_UARTFRAC_SAVED
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_26:
+   \        0x0   0x....'....        DC32     SC1_UARTCFG_SAVED
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x75 0x61          DC8 "uart.c"
+   \              0x72 0x74    
+   \              0x2E 0x63    
+   \              0x00
+   \        0x7                      DS8 1
+   1795          
+   1796          #endif//UARTERRORMARK_NEEDED
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   __NVIC_EnableIRQ
+      24   halInternalForceReadUartByte
+        24   -> _disableBasePri
+        24   -> _writeBasePri
+        24   -> emberSerialReadByte
+       8   halInternalForceWriteUartData
+         8   -> emDebugSendVuartMessage
+      16   halInternalInitPhysicalUart
+        16   -> halInternalInitUartInterrupts
+        16   -> halInternalUartSetBaudRate
+       8   halInternalInitUartInterrupts
+         0   -> __NVIC_EnableIRQ
+         8   -> halInternalRestartUartDma
+       0   halInternalPowerDownUart
+       0   halInternalPowerUpUart
+         0   -> halInternalInitUartInterrupts
+       0   halInternalRestartUart
+      24   halInternalRestartUartDma
+       8   halInternalStartUartTx
+         8   -> _disableBasePri
+         0   -> _writeBasePri
+         8   -> emDebugSendVuartMessage
+         8   -> halInternalAssertFailed
+         8   -> halInternalUartTxIsr
+       0   halInternalStopUartTx
+       8   halInternalUartInit
+         0   -> emDebugInit
+         0   -> halInternalInitPhysicalUart
+      24   halInternalUartRxIsr
+         0   -> halInternalRestartUartDma
+      16   halInternalUartRxPump
+       0   halInternalUartTxIsIdle
+      24   halInternalUartTxIsr
+        24   -> halInternalRestartUartDma
+       8   halInternalWaitUartTxComplete
+         8   -> halInternalResetWatchDog
+      16   halSc1Isr
+        16   -> halInternalUartRxIsr
+        16   -> halInternalUartTxIsr
+       8   halStackReceiveVuartMessage
+         0   -> uartErrorMark
+       8   uartErrorMark
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable17
+       4  ??DataTable17_1
+       4  ??DataTable17_10
+       4  ??DataTable17_11
+       4  ??DataTable17_12
+       4  ??DataTable17_13
+       4  ??DataTable17_14
+       4  ??DataTable17_15
+       4  ??DataTable17_16
+       4  ??DataTable17_17
+       4  ??DataTable17_18
+       4  ??DataTable17_19
+       4  ??DataTable17_2
+       4  ??DataTable17_20
+       4  ??DataTable17_21
+       4  ??DataTable17_22
+       4  ??DataTable17_23
+       4  ??DataTable17_24
+       4  ??DataTable17_25
+       4  ??DataTable17_26
+       4  ??DataTable17_3
+       4  ??DataTable17_4
+       4  ??DataTable17_5
+       4  ??DataTable17_6
+       4  ??DataTable17_7
+       4  ??DataTable17_8
+       4  ??DataTable17_9
+       8  ?_0
+       4  SC1_UARTCFG_SAVED
+       4  SC1_UARTFRAC_SAVED
+       4  SC1_UARTPER_SAVED
+      24  __NVIC_EnableIRQ
+      20  baudSettings
+      16  dmaBufferState
+       4  dmaTxBufferState
+     106  halInternalForceReadUartByte
+      70  halInternalForceWriteUartData
+     138  halInternalInitPhysicalUart
+      44  halInternalInitUartInterrupts
+      22  halInternalPowerDownUart
+      28  halInternalPowerUpUart
+       2  halInternalRestartUart
+     248  halInternalRestartUartDma
+     104  halInternalStartUartTx
+      38  halInternalStopUartTx
+      30  halInternalUartInit
+     410  halInternalUartRxIsr
+     256  halInternalUartRxPump
+      30  halInternalUartTxIsIdle
+     274  halInternalUartTxIsr
+      24  halInternalWaitUartTxComplete
+      60  halSc1Isr
+      82  halStackReceiveVuartMessage
+      66  uartErrorMark
+
+ 
+    12 bytes in section .bss
+    20 bytes in section .data
+    28 bytes in section .rodata
+ 2'164 bytes in section .text
+ 
+ 2'164 bytes of CODE  memory
+    28 bytes of CONST memory
+    32 bytes of DATA  memory
+
+Errors: none
+Warnings: none

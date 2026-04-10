@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.external.salesforce.feature" 
+  label="Bundled Salesforce Support" 
+  description="Simplicity Studio Bundled Salesforce Support" 
+  changelog="changelog" 
+  version="4.8.0"/>

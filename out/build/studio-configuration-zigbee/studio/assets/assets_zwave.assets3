@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_zwave">
+  <assets version="A01" path="/zwave/boards/BRD4200/BRD4200A-A01-bom.xlsx" diskSizeKB="12.335" downloadSizeKB="12.335" category="Schematic and Layout Files" label="ZGM130S BRD4200A Radio Board Bill of Materials">
+    <property key="timeStamp" value="1563570560892"/>
+  </assets>
+  <assets version="A01" path="/zwave/boards/BRD4200/BRD4200A-A01-schematic.pdf" diskSizeKB="177.172" downloadSizeKB="177.172" category="Schematic and Layout Files" label="ZGM130S BRD4200A Radio Board Schematic">
+    <property key="timeStamp" value="1563570561149"/>
+  </assets>
+  <assets version="A03" path="/zwave/boards/BRD4200/BRD4200A-A03-bom.xlsx" diskSizeKB="12.274" downloadSizeKB="12.274" category="Schematic and Layout Files" label="ZGM130S BRD4200A Radio Board Bill of Materials">
+    <property key="timeStamp" value="1563570561037"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4200/BRD4200A-A03-schematic-dsn.zip" diskSizeKB="264.357" downloadSizeKB="264.357">
+    <property key="timeStamp" value="1579883448288"/>
+  </assets>
+  <assets version="A03" path="/zwave/boards/BRD4200/BRD4200A-A03-schematic.pdf" diskSizeKB="177.08" downloadSizeKB="177.08" category="Schematic and Layout Files" label="ZGM130S BRD4200A Radio Board Schematic">
+    <property key="timeStamp" value="1563570561009"/>
+  </assets>
+  <assets version="A04" path="/zwave/boards/BRD4200/BRD4200A-A04-bom.xlsx" diskSizeKB="12.254" downloadSizeKB="12.254" category="Schematic and Layout Files" label="ZGM130S BRD4200A Radio Board Bill of Materials">
+    <property key="timeStamp" value="1579883448696"/>
+  </assets>
+  <assets version="A04" path="/zwave/boards/BRD4200/BRD4200A-A04-schematic.pdf" diskSizeKB="506.835" downloadSizeKB="506.835" category="Schematic and Layout Files" label="ZGM130S BRD4200A Radio Board Schematic">
+    <property key="timeStamp" value="1579883448267"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4200/BRD4200A.DSN" diskSizeKB="398.336" downloadSizeKB="398.336" category="Schematic and Layout Files" label="BRD4200A DSN">
+    <property key="timeStamp" value="1579883449013"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4200/PCB4200-A00-assy-draw.pdf" diskSizeKB="52.323" downloadSizeKB="52.323" category="Schematic and Layout Files" label="ZGM130S BRD4200A Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1563570560981"/>
+  </assets>
+  <assets version="A01" path="/zwave/boards/BRD4200/PCB4200-A01-assy-draw.pdf" diskSizeKB="53.39" downloadSizeKB="53.39" category="Schematic and Layout Files" label="ZGM130S BRD4200A Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1563570561175"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4200/PCB4200A-A00-altium-design.zip" diskSizeKB="1835.131" downloadSizeKB="1835.131" category="Schematic and Layout Files" label="BRD4200A Altium Layout">
+    <property key="timeStamp" value="1563570561121"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4200/PCB4200A-A00-gerbers.zip" diskSizeKB="315.278" downloadSizeKB="315.278" category="Schematic and Layout Files" label="BRD4200A Gerber Files">
+    <property key="timeStamp" value="1563570560918"/>
+  </assets>
+  <assets version="A01" path="/zwave/boards/BRD4200/PCB4200A-A01-altium-design.zip" diskSizeKB="2057.958" downloadSizeKB="2057.958" category="Schematic and Layout Files" label="BRD4200A Altium Layout">
+    <property key="timeStamp" value="1563570560955"/>
+  </assets>
+  <assets version="A01" path="/zwave/boards/BRD4200/PCB4200A-A01-gerbers.zip" diskSizeKB="310.934" downloadSizeKB="310.934" category="Schematic and Layout Files" label="BRD4200A Gerber Files">
+    <property key="timeStamp" value="1563570561060"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4200/ZGM130S_no_label.png" diskSizeKB="1626.892" downloadSizeKB="1626.892">
+    <property key="timeStamp" value="1563570561231"/>
+  </assets>
+  <assets version="1.0" path="/zwave/boards/BRD4200/ug373-brd4200a-user-guide.pdf" diskSizeKB="1428.155" downloadSizeKB="1428.155" category="User's Guides" label="UG373: ZGM130S Zen Gecko Wireless Starter Kit User's Guide">
+    <property key="timeStamp" value="1563570561204"/>
+  </assets>
+  <assets version="A06" path="/zwave/boards/BRD4201/BRD4201A-A06-bom.xlsx" diskSizeKB="12.618" downloadSizeKB="12.618" category="Schematic and Layout Files" label="BRD4201A EFR32ZG14 Radio Board Bill of Materials">
+    <property key="timeStamp" value="1563570561253"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/BRD4201A-A06-schematic-dsn.zip" diskSizeKB="259.724" downloadSizeKB="259.724">
+    <property key="timeStamp" value="1579883449314"/>
+  </assets>
+  <assets version="A06" path="/zwave/boards/BRD4201/BRD4201A-A06-schematic.pdf" diskSizeKB="168.657" downloadSizeKB="168.657" category="Schematic and Layout Files" label="EFR32ZG14 BRD4201A Radio Board Schematic">
+    <property key="timeStamp" value="1563570561517"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/BRD4201A.DSN" diskSizeKB="585.216" downloadSizeKB="585.216" category="Schematic and Layout Files" label="BRD4201A DSN">
+    <property key="timeStamp" value="1563570561430"/>
+  </assets>
+  <assets version="A01" path="/zwave/boards/BRD4201/BRD4201B-A01-bom.xlsx" diskSizeKB="12.645" downloadSizeKB="12.645" category="Schematic and Layout Files" label="BRD4201B EFR32RZ13 QFN32 Radio Board Bill of Materials">
+    <property key="timeStamp" value="1563570561327"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/BRD4201B-A01-schematic-dsn.zip" diskSizeKB="163.611" downloadSizeKB="163.611">
+    <property key="timeStamp" value="1579883449293"/>
+  </assets>
+  <assets version="A01" path="/zwave/boards/BRD4201/BRD4201B-A01-schematic.pdf" diskSizeKB="183.31" downloadSizeKB="183.31" category="Schematic and Layout Files" label="EFR32RZ13 QFN32 BRD4201B Radio Board Schematic">
+    <property key="timeStamp" value="1563570561379"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/BRD4201B.DSN" diskSizeKB="374.784" downloadSizeKB="374.784" category="Schematic and Layout Files" label="BRD4201B DSN">
+    <property key="timeStamp" value="1563570561305"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4201/BRD4201C-A00-bom.xlsx" diskSizeKB="12.642" downloadSizeKB="12.642" category="Schematic and Layout Files" label="BRD4201C EFR32ZG13L Radio Board Bill of Materials">
+    <property key="timeStamp" value="1584938140564"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4201/BRD4201C-A00-schematic.pdf" diskSizeKB="183.914" downloadSizeKB="183.914" category="Schematic and Layout Files" label="EFR32ZG13L Radio Board Schematic">
+    <property key="timeStamp" value="1584938140006"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/BRD4201C.DSN" diskSizeKB="374.784" downloadSizeKB="374.784" category="Schematic and Layout Files" label="BRD4201C EFR32ZG13L Radio Board DSN">
+    <property key="timeStamp" value="1584938139963"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4201/BRD4201D-A00-bom.xlsx" diskSizeKB="12.642" downloadSizeKB="12.642" category="Schematic and Layout Files" label="BRD4201D EFR32ZG13S Radio Board Bill of Materials">
+    <property key="timeStamp" value="1584938139917"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4201/BRD4201D-A00-schematic.pdf" diskSizeKB="183.792" downloadSizeKB="183.792" category="Schematic and Layout Files" label="EFR32ZG13S Radio Board Schematic">
+    <property key="timeStamp" value="1584938140219"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/BRD4201D.DSN" diskSizeKB="374.784" downloadSizeKB="374.784" category="Schematic and Layout Files" label="BRD4201D EFR32ZG13S Radio Board DSN">
+    <property key="timeStamp" value="1584938140237"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/EFR32ZG14.png" diskSizeKB="1316.842" downloadSizeKB="1316.842">
+    <property key="timeStamp" value="1563570561357"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/PCB4201-A02-assy-draw.pdf" diskSizeKB="51.366" downloadSizeKB="51.366" category="Schematic and Layout Files" label="BRD4201 Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1563570561281"/>
+  </assets>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201A-A02-altium-design.zip" diskSizeKB="1689.655" downloadSizeKB="1689.655" category="Schematic and Layout Files" label="BRD4201 Altium Layout">
+    <property key="timeStamp" value="1563570561497"/>
+  </assets>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201A-A02-gerbers.zip" diskSizeKB="270.856" downloadSizeKB="270.856" category="Schematic and Layout Files" label="BRD4201 Gerber Files">
+    <property key="timeStamp" value="1563570561402"/>
+  </assets>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201C-A02-altium-design.zip" diskSizeKB="2249.368" downloadSizeKB="2249.368" category="Schematic and Layout Files" label="BRD4201C EFR32ZG13L Radio Board Altium Layout">
+    <property key="timeStamp" value="1584938140089"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/PCB4201C-A02-assy-draw.pdf" diskSizeKB="52.541" downloadSizeKB="52.541" category="Schematic and Layout Files" label="BRD4201C EFR32ZG13L Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1584938139904"/>
+  </assets>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201C-A02-gerbers.zip" diskSizeKB="265.059" downloadSizeKB="265.059" category="Schematic and Layout Files" label="BRD4201C EFR32ZG13L Radio Board Gerber Files">
+    <property key="timeStamp" value="1584938140577"/>
+  </assets>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201D-A02-altium-design.zip" diskSizeKB="2249.055" downloadSizeKB="2249.055" category="Schematic and Layout Files" label="BRD4201D EFR32ZG13S Radio Board Altium Layout">
+    <property key="timeStamp" value="1584938140733"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4201/PCB4201D-A02-assy-draw.pdf" diskSizeKB="52.541" downloadSizeKB="52.541" category="Schematic and Layout Files" label="BRD4201D EFR32ZG13S Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1584938140712"/>
+  </assets>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201D-A02-gerbers.zip" diskSizeKB="266.223" downloadSizeKB="266.223" category="Schematic and Layout Files" label="BRD4201D EFR32ZG13S Radio Board Gerber Files">
+    <property key="timeStamp" value="1584938140250"/>
+  </assets>
+  <assets version="1.0" path="/zwave/boards/BRD4201/ug374-brd4201a-user-guide.pdf" diskSizeKB="1327.801" downloadSizeKB="1327.801" category="User's Guides" label="UG374: EFR32ZG14 Zen Gecko Wireless Starter Kit User's Guide">
+    <property key="timeStamp" value="1563570561461"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4202/BRD4202A-A00-bom.xlsx" diskSizeKB="11.713" downloadSizeKB="11.713" category="Schematic and Layout Files" label="BRD4202A ZGM130S Radio Board Bill of Materials">
+    <property key="timeStamp" value="1563570561623"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4202/BRD4202A-A00-schematic-dsn.zip" diskSizeKB="268.109" downloadSizeKB="268.109">
+    <property key="timeStamp" value="1579883450126"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4202/BRD4202A-A00-schematic.pdf" diskSizeKB="166.339" downloadSizeKB="166.339" category="Schematic and Layout Files" label="ZGM130S BRD4202A Radio Board Schematic">
+    <property key="timeStamp" value="1563570561648"/>
+  </assets>
+  <assets version="A01" path="/zwave/boards/BRD4202/BRD4202A-A01-bom.xlsx" diskSizeKB="11.739" downloadSizeKB="11.739" category="Schematic and Layout Files" label="BRD4202A ZGM130S Radio Board Bill of Materials">
+    <property key="timeStamp" value="1579883450082"/>
+  </assets>
+  <assets version="A01" path="/zwave/boards/BRD4202/BRD4202A-A01-schematic.pdf" diskSizeKB="438.864" downloadSizeKB="438.864" category="Schematic and Layout Files" label="ZGM130S BRD4202A Radio Board Schematic">
+    <property key="timeStamp" value="1579883449815"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4202/BRD4202A.DSN" diskSizeKB="384.0" downloadSizeKB="384.0" category="Schematic and Layout Files" label="BRD4202A DSN">
+    <property key="timeStamp" value="1579883449799"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4202/PCB4202-A00-assy-draw.pdf" diskSizeKB="444.02" downloadSizeKB="444.02" category="Schematic and Layout Files" label="ZGM130S BRD4202A Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1563570561710"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4202/PCB4202A-A00-altium-design.zip" diskSizeKB="2563.233" downloadSizeKB="2563.233" category="Schematic and Layout Files" label="BRD4202A Altium Layout">
+    <property key="timeStamp" value="1563570561687"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4202/PCB4202A-A00-gerbers.zip" diskSizeKB="159.66" downloadSizeKB="159.66" category="Schematic and Layout Files" label="BRD4202A Gerber Files">
+    <property key="timeStamp" value="1563570561570"/>
+  </assets>
+  <assets version="1.0" path="/zwave/boards/BRD4202/ug381-brd4202a-user-guide.pdf" diskSizeKB="1390.912" downloadSizeKB="1390.912" category="User's Guides" label="UG381: ZGM130S Zen Gecko Wireless Starter Kit User's Guide">
+    <property key="timeStamp" value="1563570561601"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4203/BRD4203A-A00-bom.xlsx" diskSizeKB="13.373" downloadSizeKB="13.373" category="Schematic and Layout Files" label="BRD4203A EFR32RZ13 QFN48 Radio Board Bill of Materials">
+    <property key="timeStamp" value="1563570560783"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4203/BRD4203A-A00-schematic-dsn.zip" diskSizeKB="167.428" downloadSizeKB="167.428">
+    <property key="timeStamp" value="1579883448237"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4203/BRD4203A-A00-schematic.pdf" diskSizeKB="524.788" downloadSizeKB="524.788" category="Schematic and Layout Files" label="EFR32RZ13 QFN8 BRD4203A Radio Board Schematic">
+    <property key="timeStamp" value="1563570560809"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4203/BRD4203A.DSN" diskSizeKB="389.632" downloadSizeKB="389.632" category="Schematic and Layout Files" label="BRD4203A DSN">
+    <property key="timeStamp" value="1563570560839"/>
+  </assets>
+  <assets path="/zwave/boards/BRD4203/PCB4203-A00-assy-draw.pdf" diskSizeKB="276.726" downloadSizeKB="276.726" category="Schematic and Layout Files" label="EFR32RZ13 QFN48 BRD4203A Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1563570560868"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4203/PCB4203A-A00-altium-design.zip" diskSizeKB="1936.244" downloadSizeKB="1936.244" category="Schematic and Layout Files" label="BRD4203A Altium Layout">
+    <property key="timeStamp" value="1563570560756"/>
+  </assets>
+  <assets version="A00" path="/zwave/boards/BRD4203/PCB4203A-A00-gerbers.zip" diskSizeKB="343.474" downloadSizeKB="343.474" category="Schematic and Layout Files" label="BRD4203A Gerber Files">
+    <property key="timeStamp" value="1563570560721"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8010/BRD8010A-A02-bom.xlsx" diskSizeKB="11.517" downloadSizeKB="11.517">
+    <property key="timeStamp" value="1579883450466"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8010/BRD8010A-A02-schematic.pdf" diskSizeKB="104.037" downloadSizeKB="104.037">
+    <property key="timeStamp" value="1579883450454"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8010/PCB8010-A02-assy-draw.pdf" diskSizeKB="21.15" downloadSizeKB="21.15">
+    <property key="timeStamp" value="1579883450477"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8010/PCB8010A-A02-gerbers.zip" diskSizeKB="6356.887" downloadSizeKB="6356.887">
+    <property key="timeStamp" value="1579883450438"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8029/BRD8029A-A00-bom.xlsx" diskSizeKB="11.408" downloadSizeKB="11.408">
+    <property key="timeStamp" value="1579883450357"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8029/BRD8029A-A00-schematic.pdf" diskSizeKB="122.845" downloadSizeKB="122.845">
+    <property key="timeStamp" value="1579883450328"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8029/PCB8029-A00-assy-draw.pdf" diskSizeKB="250.513" downloadSizeKB="250.513">
+    <property key="timeStamp" value="1579883450405"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8029/PCB8029A-A00-altium-design.zip" diskSizeKB="787.337" downloadSizeKB="787.337">
+    <property key="timeStamp" value="1579883450345"/>
+  </assets>
+  <assets path="/zwave/boards/BRD8029/PCB8029A-A00-gerbers.zip" diskSizeKB="68.366" downloadSizeKB="68.366">
+    <property key="timeStamp" value="1579883450370"/>
+  </assets>
+  <assets version="1.0" path="/zwave/datasheet/zgm130s-datasheet.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Data Sheets" label="ZGM130S Data Sheet: ZGM Module">
+    <property key="timeStamp" value="1563570561739"/>
+  </assets>
+  <assets version="0.1" path="/zwave/errata/zgm130s-errata.pdf" diskSizeKB="276.3" downloadSizeKB="276.3" category="Errata" label="ZGM130S Errata: Zen Gecko Z-Wave Module">
+    <property key="timeStamp" value="1563570561766"/>
+  </assets>
+</assets>

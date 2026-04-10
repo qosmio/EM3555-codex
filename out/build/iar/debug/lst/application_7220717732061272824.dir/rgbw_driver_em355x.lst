@@ -1,0 +1,1989 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:38
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\rgbw_driver_em355x.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\rgbw_driver_em355x.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\src\rgbw_driver_em355x.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"rgbw_driver_em355x.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\rgbw_driver_em355x.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\rgbw_driver_em355x.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir\rgbw_driver_em355x.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\rgbw_driver_em355x.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\src\rgbw_driver_em355x.c
+      1          #include "rgbw_driver_em355x.h"
+      2          
+      3          #include <stddef.h>
+      4          #include <stdbool.h>
+      5          
+      6          #include "fw_compat.h"
+      7          
+      8          #include "config/firmware_config.h"
+      9          #include "config/pin_config.h"
+     10          
+
+   \                                 In section .bss, align 4
+     11          static Em3555RgbwChannels s_currentOutput;
+   \                     s_currentOutput:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     12          static Em3555RgbwChannels s_requestedOutput;
+   \                     s_requestedOutput:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     13          static Em3555RgbwChannels s_statusOverrideOutput;
+   \                     s_statusOverrideOutput:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     14          static Em3555RgbwChannels s_rawTimerOverrideOutput;
+   \                     s_rawTimerOverrideOutput:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 1
+     15          static bool s_identifyActive;
+   \                     s_identifyActive:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     16          static bool s_statusOverrideActive;
+   \                     s_statusOverrideActive:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     17          static bool s_initialized;
+   \                     s_initialized:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     18          static bool s_requestedOn;
+   \                     s_requestedOn:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     19          static bool s_timerUsable;
+   \                     s_timerUsable:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     20          static bool s_gpioFallbackActive;
+   \                     s_gpioFallbackActive:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     21          static bool s_directGpioActive;
+   \                     s_directGpioActive:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     22          static bool s_pwmPinsConfigured;
+   \                     s_pwmPinsConfigured:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     23          static bool s_gpioPinsConfigured;
+   \                     s_gpioPinsConfigured:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     24          static bool s_rawPortBOverrideActive;
+   \                     s_rawPortBOverrideActive:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     25          static bool s_rawTimerOverrideActive;
+   \                     s_rawTimerOverrideActive:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 4
+     26          static uint32_t s_rawPortBOverrideValue;
+   \                     s_rawPortBOverrideValue:
+   \        0x0                      DS8 4
+
+   \                                 In section .bss, align 2
+     27          static uint16_t s_timerTopValue;
+   \                     s_timerTopValue:
+   \        0x0                      DS8 2
+     28          
+     29          #define EM3555_PORTB_WHITE_MASK (1UL << EM3555_PWM_WHITE_PIN)
+     30          #define EM3555_PORTB_RED_MASK   (1UL << EM3555_PWM_RED_PIN)
+     31          #define EM3555_PORTB_GREEN_MASK (1UL << EM3555_PWM_GREEN_PIN)
+     32          #define EM3555_PORTB_BLUE_MASK  (1UL << EM3555_PWM_BLUE_PIN)
+     33          #define EM3555_PORTB_OUTPUT_MASK (EM3555_PORTB_WHITE_MASK | EM3555_PORTB_RED_MASK | EM3555_PORTB_GREEN_MASK | EM3555_PORTB_BLUE_MASK)
+     34          #define EM3555_TIM2_PWM_CLOCK_HZ   6000000UL
+     35          #define EM3555_TIM_PWM_MODE_1      6UL
+     36          
+     37          #if defined(EM3555_HAVE_DEVICE_HEADERS)
+     38          #define EM3555_TIM2_REMAP_MASK  (TIM_OR_TIM_REMAPC1 | TIM_OR_TIM_REMAPC2 | TIM_OR_TIM_REMAPC3 | TIM_OR_TIM_REMAPC4)
+     39          #define EM3555_GPIO_CFG_MASK    (0xFUL)
+     40          #define EM3555_TIM2_OUTPUT_ENABLE_MASK (TIM_CCER_TIM_CC1E | TIM_CCER_TIM_CC2E | TIM_CCER_TIM_CC3E | TIM_CCER_TIM_CC4E)
+     41          
+
+   \                                 In section .text, align 2, keep-with-next
+     42          static uint32_t update_pin_cfg(uint32_t registerValue, uint8_t cfgBit, uint32_t cfgValue)
+     43          {
+     44            registerValue &= ~((uint32_t)EM3555_GPIO_CFG_MASK << cfgBit);
+     45            registerValue |= ((cfgValue & EM3555_GPIO_CFG_MASK) << cfgBit);
+     46            return registerValue;
+   \                     update_pin_cfg: (+1)
+   \        0x0   0x230F             MOVS     R3,#+15
+   \        0x2   0x408B             LSLS     R3,R3,R1
+   \        0x4   0x4398             BICS     R0,R0,R3
+   \        0x6   0xF002 0x020F      AND      R2,R2,#0xF
+   \        0xA   0xFA02 0xF101      LSL      R1,R2,R1
+   \        0xE   0x4308             ORRS     R0,R1,R0
+   \       0x10   0x4770             BX       LR
+     47          }
+     48          
+     49          static bool timer_pwm_ready(void);
+     50          
+
+   \                                 In section .text, align 2, keep-with-next
+     51          static uint32_t read_pin_cfg(uint32_t registerValue, uint8_t cfgBit)
+     52          {
+     53            return ((registerValue >> cfgBit) & EM3555_GPIO_CFG_MASK);
+   \                     read_pin_cfg: (+1)
+   \        0x0   0x40C8             LSRS     R0,R0,R1
+   \        0x2   0xF000 0x000F      AND      R0,R0,#0xF
+   \        0x6   0x4770             BX       LR
+     54          }
+     55          
+
+   \                                 In section .text, align 2, keep-with-next
+     56          static bool gpio_pin_cfg_matches(uint32_t cfgl, uint32_t cfgh, uint32_t cfgValue)
+     57          {
+   \                     gpio_pin_cfg_matches: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+   \        0x6   0x4616             MOV      R6,R2
+     58            return read_pin_cfg(cfgl, PB1_CFG_BIT) == cfgValue
+     59                   && read_pin_cfg(cfgl, PB2_CFG_BIT) == cfgValue
+     60                   && read_pin_cfg(cfgl, PB3_CFG_BIT) == cfgValue
+     61                   && read_pin_cfg(cfgh, PB4_CFG_BIT) == cfgValue;
+   \        0x8   0x2104             MOVS     R1,#+4
+   \        0xA   0x.... 0x....      BL       read_pin_cfg
+   \        0xE   0x42B0             CMP      R0,R6
+   \       0x10   0xD113             BNE.N    ??gpio_pin_cfg_matches_0
+   \       0x12   0x2108             MOVS     R1,#+8
+   \       0x14   0x4620             MOV      R0,R4
+   \       0x16   0x.... 0x....      BL       read_pin_cfg
+   \       0x1A   0x42B0             CMP      R0,R6
+   \       0x1C   0xD10D             BNE.N    ??gpio_pin_cfg_matches_0
+   \       0x1E   0x210C             MOVS     R1,#+12
+   \       0x20   0x4620             MOV      R0,R4
+   \       0x22   0x.... 0x....      BL       read_pin_cfg
+   \       0x26   0x42B0             CMP      R0,R6
+   \       0x28   0xD107             BNE.N    ??gpio_pin_cfg_matches_0
+   \       0x2A   0x2100             MOVS     R1,#+0
+   \       0x2C   0x4628             MOV      R0,R5
+   \       0x2E   0x.... 0x....      BL       read_pin_cfg
+   \       0x32   0x42B0             CMP      R0,R6
+   \       0x34   0xD101             BNE.N    ??gpio_pin_cfg_matches_0
+   \       0x36   0x2001             MOVS     R0,#+1
+   \       0x38   0xBD70             POP      {R4-R6,PC}
+   \                     ??gpio_pin_cfg_matches_0: (+1)
+   \       0x3A   0x2000             MOVS     R0,#+0
+   \       0x3C   0xBD70             POP      {R4-R6,PC}
+     62          }
+     63          
+
+   \                                 In section .text, align 2, keep-with-next
+     64          static bool gpio_output_mode_active(void)
+     65          {
+     66            uint32_t cfgl = GPIO_PBCFGL;
+   \                     gpio_output_mode_active: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R1,??DataTable25
+   \        0x4   0x6808             LDR      R0,[R1, #+0]
+     67            uint32_t cfgh = GPIO_PBCFGH;
+   \        0x6   0x6849             LDR      R1,[R1, #+4]
+     68            return gpio_pin_cfg_matches(cfgl, cfgh, GPIOCFG_OUT);
+   \        0x8   0x2201             MOVS     R2,#+1
+   \        0xA   0x....             B.N      gpio_pin_cfg_matches
+     69          }
+     70          
+
+   \                                 In section .text, align 2, keep-with-next
+     71          static bool gpio_pwm_mode_active(void)
+     72          {
+     73            uint32_t cfgl = GPIO_PBCFGL;
+   \                     gpio_pwm_mode_active: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R1,??DataTable25
+   \        0x4   0x6808             LDR      R0,[R1, #+0]
+     74            uint32_t cfgh = GPIO_PBCFGH;
+   \        0x6   0x6849             LDR      R1,[R1, #+4]
+     75            return gpio_pin_cfg_matches(cfgl, cfgh, GPIOCFG_OUT_ALT);
+   \        0x8   0x2209             MOVS     R2,#+9
+   \        0xA   0x....             B.N      gpio_pin_cfg_matches
+     76          }
+     77          
+
+   \                                 In section .text, align 2, keep-with-next
+     78          static uint16_t timer_top_value(void)
+     79          {
+     80            return (s_timerTopValue == 0U ? EM3555_PWM_TOP : s_timerTopValue);
+   \                     timer_top_value: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R0,??DataTable25_1
+   \        0x4   0x8800             LDRH     R0,[R0, #+0]
+   \        0x6   0x2800             CMP      R0,#+0
+   \        0x8   0xD101             BNE.N    ??timer_top_value_0
+   \        0xA   0xF240 0x30E7      MOVW     R0,#+999
+   \                     ??timer_top_value_0: (+1)
+   \        0xE   0x4770             BX       LR
+     81          }
+     82          
+
+   \                                 In section .text, align 2, keep-with-next
+     83          static uint16_t apply_channel_polarity(uint16_t pwmValue, bool activeLow)
+     84          {
+   \                     apply_channel_polarity: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     85            if (!activeLow) {
+   \        0x4   0x2900             CMP      R1,#+0
+   \        0x6   0xD004             BEQ.N    ??apply_channel_polarity_0
+     86              return pwmValue;
+     87            }
+     88          
+     89            return (uint16_t)(timer_top_value() - pwmValue);
+   \        0x8   0x.... 0x....      BL       timer_top_value
+   \        0xC   0x1B04             SUBS     R4,R0,R4
+   \        0xE   0x4620             MOV      R0,R4
+   \       0x10   0xB280             UXTH     R0,R0
+   \                     ??apply_channel_polarity_0: (+1)
+   \       0x12   0xBD10             POP      {R4,PC}
+     90          }
+     91          
+
+   \                                 In section .text, align 4, keep-with-next
+     92          static void write_timer_channel(uint8_t channel, uint16_t pwmValue)
+     93          {
+     94            switch (channel) {
+   \                     write_timer_channel: (+1)
+   \        0x0   0x1E40             SUBS     R0,R0,#+1
+   \        0x2   0x2803             CMP      R0,#+3
+   \        0x4   0xD812             BHI.N    ??write_timer_channel_1
+   \        0x6   0xE8DF 0xF000      TBB      [PC, R0]
+   \                     ??write_timer_channel_0:
+   \        0xA   0x02 0x06          DC8      0x2,0x6,0xA,0xE
+   \              0x0A 0x0E
+     95              case 1U:
+     96                TIM2_CCR1 = pwmValue;
+   \                     ??write_timer_channel_2: (+1)
+   \        0xE   0x.... 0x....      LDR.W    R0,??DataTable25_2
+   \       0x12   0x6001             STR      R1,[R0, #+0]
+     97                break;
+   \       0x14   0x4770             BX       LR
+     98              case 2U:
+     99                TIM2_CCR2 = pwmValue;
+   \                     ??write_timer_channel_3: (+1)
+   \       0x16   0x.... 0x....      LDR.W    R0,??DataTable25_2
+   \       0x1A   0x6041             STR      R1,[R0, #+4]
+    100                break;
+   \       0x1C   0x4770             BX       LR
+    101              case 3U:
+    102                TIM2_CCR3 = pwmValue;
+   \                     ??write_timer_channel_4: (+1)
+   \       0x1E   0x.... 0x....      LDR.W    R0,??DataTable25_2
+   \       0x22   0x6081             STR      R1,[R0, #+8]
+    103                break;
+   \       0x24   0x4770             BX       LR
+    104              case 4U:
+    105                TIM2_CCR4 = pwmValue;
+   \                     ??write_timer_channel_5: (+1)
+   \       0x26   0x.... 0x....      LDR.W    R0,??DataTable25_2
+   \       0x2A   0x60C1             STR      R1,[R0, #+12]
+    106                break;
+    107              default:
+    108                break;
+    109            }
+    110          }
+   \                     ??write_timer_channel_1: (+1)
+   \       0x2C   0x4770             BX       LR
+    111          
+
+   \                                 In section .text, align 4, keep-with-next
+    112          static uint16_t read_timer_channel(uint8_t channel)
+    113          {
+    114            switch (channel) {
+   \                     read_timer_channel: (+1)
+   \        0x0   0x1E40             SUBS     R0,R0,#+1
+   \        0x2   0x2803             CMP      R0,#+3
+   \        0x4   0xD817             BHI.N    ??read_timer_channel_1
+   \        0x6   0xE8DF 0xF000      TBB      [PC, R0]
+   \                     ??read_timer_channel_0:
+   \        0xA   0x02 0x07          DC8      0x2,0x7,0xC,0x11
+   \              0x0C 0x11
+    115              case 1U:
+    116                return (uint16_t)TIM2_CCR1;
+   \                     ??read_timer_channel_2: (+1)
+   \        0xE   0x.... 0x....      LDR.W    R0,??DataTable25_2
+   \       0x12   0x6800             LDR      R0,[R0, #+0]
+   \       0x14   0xB280             UXTH     R0,R0
+   \       0x16   0x4770             BX       LR
+    117              case 2U:
+    118                return (uint16_t)TIM2_CCR2;
+   \                     ??read_timer_channel_3: (+1)
+   \       0x18   0x.... 0x....      LDR.W    R0,??DataTable25_2
+   \       0x1C   0x6840             LDR      R0,[R0, #+4]
+   \       0x1E   0xB280             UXTH     R0,R0
+   \       0x20   0x4770             BX       LR
+    119              case 3U:
+    120                return (uint16_t)TIM2_CCR3;
+   \                     ??read_timer_channel_4: (+1)
+   \       0x22   0x.... 0x....      LDR.W    R0,??DataTable25_2
+   \       0x26   0x6880             LDR      R0,[R0, #+8]
+   \       0x28   0xB280             UXTH     R0,R0
+   \       0x2A   0x4770             BX       LR
+    121              case 4U:
+    122                return (uint16_t)TIM2_CCR4;
+   \                     ??read_timer_channel_5: (+1)
+   \       0x2C   0x.... 0x....      LDR.W    R0,??DataTable25_2
+   \       0x30   0x68C0             LDR      R0,[R0, #+12]
+   \       0x32   0xB280             UXTH     R0,R0
+   \       0x34   0x4770             BX       LR
+    123              default:
+    124                return 0U;
+   \                     ??read_timer_channel_1: (+1)
+   \       0x36   0x2000             MOVS     R0,#+0
+   \       0x38   0x4770             BX       LR
+    125            }
+    126          }
+    127          
+
+   \                                 In section .text, align 2, keep-with-next
+    128          static uint16_t clamp_compare_value(uint16_t value)
+    129          {
+   \                     clamp_compare_value: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    130            uint16_t top = timer_top_value();
+   \        0x4   0x.... 0x....      BL       timer_top_value
+    131            return (value > top ? top : value);
+   \        0x8   0x42A0             CMP      R0,R4
+   \        0xA   0xD900             BLS.N    ??clamp_compare_value_0
+   \        0xC   0x4620             MOV      R0,R4
+   \                     ??clamp_compare_value_0: (+1)
+   \        0xE   0xBD10             POP      {R4,PC}
+    132          }
+    133          
+    134          static uint32_t timer_channel_polarity_mask(uint8_t channel)
+    135          {
+    136            switch (channel) {
+    137              case 1U:
+    138                return TIM_CCER_TIM_CC1P;
+    139              case 2U:
+    140                return TIM_CCER_TIM_CC2P;
+    141              case 3U:
+    142                return TIM_CCER_TIM_CC3P;
+    143              case 4U:
+    144                return TIM_CCER_TIM_CC4P;
+    145              default:
+    146                return 0UL;
+    147            }
+    148          }
+    149          
+
+   \                                 In section .text, align 2, keep-with-next
+    150          static void claim_portb_output_ownership(void)
+    151          {
+    152            GPIO_PBWAKE &= ~EM3555_PORTB_OUTPUT_MASK;
+   \                     claim_portb_output_ownership: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R0,??DataTable25_3
+   \        0x4   0x6801             LDR      R1,[R0, #+0]
+   \        0x6   0xF021 0x011E      BIC      R1,R1,#0x1E
+   \        0xA   0x6001             STR      R1,[R0, #+0]
+    153          }
+   \        0xC   0x4770             BX       LR
+    154          
+
+   \                                 In section .text, align 2, keep-with-next
+    155          static void refresh_pin_mode_flags(void)
+    156          {
+   \                     refresh_pin_mode_flags: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    157            s_gpioPinsConfigured = gpio_output_mode_active();
+   \        0x2   0x.... 0x....      BL       gpio_output_mode_active
+   \        0x6   0x.... 0x....      LDR.W    R1,??DataTable25_4
+   \        0xA   0x7008             STRB     R0,[R1, #+0]
+    158            s_pwmPinsConfigured = gpio_pwm_mode_active();
+   \        0xC   0x.... 0x....      BL       gpio_pwm_mode_active
+   \       0x10   0x.... 0x....      LDR.W    R1,??DataTable25_5
+   \       0x14   0x7008             STRB     R0,[R1, #+0]
+    159          }
+   \       0x16   0xBD01             POP      {R0,PC}
+    160          
+
+   \                                 In section .text, align 2, keep-with-next
+    161          static void refresh_output_backend_state(void)
+    162          {
+   \                     refresh_output_backend_state: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+    163            refresh_pin_mode_flags();
+   \        0x2   0x.... 0x....      BL       refresh_pin_mode_flags
+    164            s_timerUsable = timer_pwm_ready();
+   \        0x6   0x.... 0x....      LDR.W    R4,??DataTable25_6
+   \        0xA   0x.... 0x....      BL       timer_pwm_ready
+   \        0xE   0x7020             STRB     R0,[R4, #+0]
+    165            s_gpioFallbackActive = !s_timerUsable;
+   \       0x10   0x1E40             SUBS     R0,R0,#+1
+   \       0x12   0x4180             SBCS     R0,R0,R0
+   \       0x14   0x0FC0             LSRS     R0,R0,#+31
+   \       0x16   0x.... 0x....      LDR.W    R1,??DataTable25_7
+   \       0x1A   0x7008             STRB     R0,[R1, #+0]
+    166          }
+   \       0x1C   0xBD10             POP      {R4,PC}
+    167          
+
+   \                                 In section .text, align 2, keep-with-next
+    168          static void configure_gpio_for_output(void)
+    169          {
+   \                     configure_gpio_for_output: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+    170            uint32_t cfgl;
+    171            uint32_t cfgh;
+    172          
+    173            if (s_gpioPinsConfigured && gpio_output_mode_active()) {
+   \        0x2   0x.... 0x....      LDR.W    R4,??DataTable25_4
+   \        0x6   0x7820             LDRB     R0,[R4, #+0]
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD003             BEQ.N    ??configure_gpio_for_output_0
+   \        0xC   0x.... 0x....      BL       gpio_output_mode_active
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD121             BNE.N    ??configure_gpio_for_output_1
+    174              return;
+    175            }
+    176          
+    177            claim_portb_output_ownership();
+   \                     ??configure_gpio_for_output_0: (+1)
+   \       0x14   0x.... 0x....      BL       claim_portb_output_ownership
+    178            cfgl = GPIO_PBCFGL;
+   \       0x18   0x.... 0x....      LDR.W    R5,??DataTable25
+   \       0x1C   0x6828             LDR      R0,[R5, #+0]
+    179            cfgh = GPIO_PBCFGH;
+   \       0x1E   0x686E             LDR      R6,[R5, #+4]
+    180            cfgl = update_pin_cfg(cfgl, PB1_CFG_BIT, GPIOCFG_OUT);
+   \       0x20   0x2201             MOVS     R2,#+1
+   \       0x22   0x2104             MOVS     R1,#+4
+   \       0x24   0x.... 0x....      BL       update_pin_cfg
+    181            cfgl = update_pin_cfg(cfgl, PB2_CFG_BIT, GPIOCFG_OUT);
+   \       0x28   0x2201             MOVS     R2,#+1
+   \       0x2A   0x2108             MOVS     R1,#+8
+   \       0x2C   0x.... 0x....      BL       update_pin_cfg
+    182            cfgl = update_pin_cfg(cfgl, PB3_CFG_BIT, GPIOCFG_OUT);
+   \       0x30   0x2201             MOVS     R2,#+1
+   \       0x32   0x210C             MOVS     R1,#+12
+   \       0x34   0x.... 0x....      BL       update_pin_cfg
+   \       0x38   0x4607             MOV      R7,R0
+    183            cfgh = update_pin_cfg(cfgh, PB4_CFG_BIT, GPIOCFG_OUT);
+   \       0x3A   0x2201             MOVS     R2,#+1
+   \       0x3C   0x2100             MOVS     R1,#+0
+   \       0x3E   0x4630             MOV      R0,R6
+   \       0x40   0x.... 0x....      BL       update_pin_cfg
+    184            GPIO_PBCFGL = cfgl;
+   \       0x44   0x602F             STR      R7,[R5, #+0]
+    185            GPIO_PBCFGH = cfgh;
+   \       0x46   0x6068             STR      R0,[R5, #+4]
+    186            GPIO_PBCLR = EM3555_PORTB_OUTPUT_MASK;
+   \       0x48   0x201E             MOVS     R0,#+30
+   \       0x4A   0x6168             STR      R0,[R5, #+20]
+    187          
+    188            s_gpioPinsConfigured = true;
+   \       0x4C   0x2001             MOVS     R0,#+1
+   \       0x4E   0x7020             STRB     R0,[R4, #+0]
+    189            s_pwmPinsConfigured = false;
+   \       0x50   0x2000             MOVS     R0,#+0
+   \       0x52   0x.... 0x....      LDR.W    R1,??DataTable25_5
+   \       0x56   0x7008             STRB     R0,[R1, #+0]
+    190          }
+   \                     ??configure_gpio_for_output_1: (+1)
+   \       0x58   0xBDF1             POP      {R0,R4-R7,PC}
+    191          
+
+   \                                 In section .text, align 2, keep-with-next
+    192          static void configure_gpio_for_pwm(void)
+    193          {
+   \                     configure_gpio_for_pwm: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+    194            uint32_t cfgl;
+    195            uint32_t cfgh;
+    196          
+    197            if (s_pwmPinsConfigured && gpio_pwm_mode_active()) {
+   \        0x2   0x.... 0x....      LDR.W    R4,??DataTable25_5
+   \        0x6   0x7820             LDRB     R0,[R4, #+0]
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD003             BEQ.N    ??configure_gpio_for_pwm_0
+   \        0xC   0x.... 0x....      BL       gpio_pwm_mode_active
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD121             BNE.N    ??configure_gpio_for_pwm_1
+    198              return;
+    199            }
+    200          
+    201            configure_gpio_for_output();
+   \                     ??configure_gpio_for_pwm_0: (+1)
+   \       0x14   0x.... 0x....      BL       configure_gpio_for_output
+    202            claim_portb_output_ownership();
+   \       0x18   0x.... 0x....      BL       claim_portb_output_ownership
+    203            cfgl = GPIO_PBCFGL;
+   \       0x1C   0x.... 0x....      LDR.W    R5,??DataTable25
+   \       0x20   0x6828             LDR      R0,[R5, #+0]
+    204            cfgh = GPIO_PBCFGH;
+   \       0x22   0x686E             LDR      R6,[R5, #+4]
+    205            cfgl = update_pin_cfg(cfgl, PB1_CFG_BIT, GPIOCFG_OUT_ALT);
+   \       0x24   0x2209             MOVS     R2,#+9
+   \       0x26   0x2104             MOVS     R1,#+4
+   \       0x28   0x.... 0x....      BL       update_pin_cfg
+    206            cfgl = update_pin_cfg(cfgl, PB2_CFG_BIT, GPIOCFG_OUT_ALT);
+   \       0x2C   0x2209             MOVS     R2,#+9
+   \       0x2E   0x2108             MOVS     R1,#+8
+   \       0x30   0x.... 0x....      BL       update_pin_cfg
+    207            cfgl = update_pin_cfg(cfgl, PB3_CFG_BIT, GPIOCFG_OUT_ALT);
+   \       0x34   0x2209             MOVS     R2,#+9
+   \       0x36   0x210C             MOVS     R1,#+12
+   \       0x38   0x.... 0x....      BL       update_pin_cfg
+   \       0x3C   0x4607             MOV      R7,R0
+    208            cfgh = update_pin_cfg(cfgh, PB4_CFG_BIT, GPIOCFG_OUT_ALT);
+   \       0x3E   0x2209             MOVS     R2,#+9
+   \       0x40   0x2100             MOVS     R1,#+0
+   \       0x42   0x4630             MOV      R0,R6
+   \       0x44   0x.... 0x....      BL       update_pin_cfg
+    209            GPIO_PBCFGL = cfgl;
+   \       0x48   0x602F             STR      R7,[R5, #+0]
+    210            GPIO_PBCFGH = cfgh;
+   \       0x4A   0x6068             STR      R0,[R5, #+4]
+    211          
+    212            s_pwmPinsConfigured = true;
+   \       0x4C   0x2001             MOVS     R0,#+1
+   \       0x4E   0x7020             STRB     R0,[R4, #+0]
+    213            s_gpioPinsConfigured = false;
+   \       0x50   0x2000             MOVS     R0,#+0
+   \       0x52   0x.... 0x....      LDR.W    R1,??DataTable25_4
+   \       0x56   0x7008             STRB     R0,[R1, #+0]
+    214          }
+   \                     ??configure_gpio_for_pwm_1: (+1)
+   \       0x58   0xBDF1             POP      {R0,R4-R7,PC}
+    215          
+
+   \                                 In section .text, align 2, keep-with-next
+    216          static void write_gpio_mask(uint32_t mask, bool active, bool activeLow)
+    217          {
+    218            bool driveHigh = active;
+    219          
+    220            if (activeLow) {
+   \                     write_gpio_mask: (+1)
+   \        0x0   0x2A00             CMP      R2,#+0
+   \        0x2   0xD002             BEQ.N    ??write_gpio_mask_0
+    221              driveHigh = !driveHigh;
+   \        0x4   0x1E49             SUBS     R1,R1,#+1
+   \        0x6   0x4189             SBCS     R1,R1,R1
+   \        0x8   0x0FC9             LSRS     R1,R1,#+31
+    222            }
+    223          
+    224            if (driveHigh) {
+   \                     ??write_gpio_mask_0: (+1)
+   \        0xA   0x.... 0x....      LDR.W    R2,??DataTable25_8
+   \        0xE   0x2900             CMP      R1,#+0
+   \       0x10   0xD001             BEQ.N    ??write_gpio_mask_1
+    225              GPIO_PBSET = mask;
+   \       0x12   0x6010             STR      R0,[R2, #+0]
+   \       0x14   0x4770             BX       LR
+    226            } else {
+    227              GPIO_PBCLR = mask;
+   \                     ??write_gpio_mask_1: (+1)
+   \       0x16   0x6050             STR      R0,[R2, #+4]
+    228            }
+    229          }
+   \       0x18   0x4770             BX       LR
+    230          
+
+   \                                 In section .text, align 2, keep-with-next
+    231          static void write_channels_to_gpio(const Em3555RgbwChannels *channels)
+    232          {
+   \                     write_channels_to_gpio: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    233            write_gpio_mask(EM3555_PORTB_RED_MASK,
+    234                            channels->red != 0U,
+    235                            EM3555_PWM_RED_ACTIVE_LOW != 0U);
+   \        0x4   0x8820             LDRH     R0,[R4, #+0]
+   \        0x6   0x1E40             SUBS     R0,R0,#+1
+   \        0x8   0x4180             SBCS     R0,R0,R0
+   \        0xA   0x43C0             MVNS     R0,R0
+   \        0xC   0x0FC0             LSRS     R0,R0,#+31
+   \        0xE   0x2200             MOVS     R2,#+0
+   \       0x10   0x4601             MOV      R1,R0
+   \       0x12   0x2004             MOVS     R0,#+4
+   \       0x14   0x.... 0x....      BL       write_gpio_mask
+    236            write_gpio_mask(EM3555_PORTB_GREEN_MASK,
+    237                            channels->green != 0U,
+    238                            EM3555_PWM_GREEN_ACTIVE_LOW != 0U);
+   \       0x18   0x8860             LDRH     R0,[R4, #+2]
+   \       0x1A   0x1E40             SUBS     R0,R0,#+1
+   \       0x1C   0x4180             SBCS     R0,R0,R0
+   \       0x1E   0x43C0             MVNS     R0,R0
+   \       0x20   0x0FC0             LSRS     R0,R0,#+31
+   \       0x22   0x2200             MOVS     R2,#+0
+   \       0x24   0x4601             MOV      R1,R0
+   \       0x26   0x2010             MOVS     R0,#+16
+   \       0x28   0x.... 0x....      BL       write_gpio_mask
+    239            write_gpio_mask(EM3555_PORTB_WHITE_MASK,
+    240                            channels->white != 0U,
+    241                            EM3555_PWM_WHITE_ACTIVE_LOW != 0U);
+   \       0x2C   0x88E0             LDRH     R0,[R4, #+6]
+   \       0x2E   0x1E40             SUBS     R0,R0,#+1
+   \       0x30   0x4180             SBCS     R0,R0,R0
+   \       0x32   0x43C0             MVNS     R0,R0
+   \       0x34   0x0FC0             LSRS     R0,R0,#+31
+   \       0x36   0x2200             MOVS     R2,#+0
+   \       0x38   0x4601             MOV      R1,R0
+   \       0x3A   0x2002             MOVS     R0,#+2
+   \       0x3C   0x.... 0x....      BL       write_gpio_mask
+    242            write_gpio_mask(EM3555_PORTB_BLUE_MASK,
+    243                            channels->blue != 0U,
+    244                            EM3555_PWM_BLUE_ACTIVE_LOW != 0U);
+   \       0x40   0x88A0             LDRH     R0,[R4, #+4]
+   \       0x42   0x1E40             SUBS     R0,R0,#+1
+   \       0x44   0x4180             SBCS     R0,R0,R0
+   \       0x46   0x43C0             MVNS     R0,R0
+   \       0x48   0x0FC0             LSRS     R0,R0,#+31
+   \       0x4A   0x2200             MOVS     R2,#+0
+   \       0x4C   0x4601             MOV      R1,R0
+   \       0x4E   0x2008             MOVS     R0,#+8
+   \       0x50   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x54   0x....             B.N      write_gpio_mask
+    245          }
+    246          
+
+   \                                 In section .text, align 2, keep-with-next
+    247          static void write_raw_portb_output(uint32_t portBPattern)
+    248          {
+    249            GPIO_PBCLR = EM3555_PORTB_OUTPUT_MASK;
+   \                     write_raw_portb_output: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R1,??DataTable25_8
+   \        0x4   0x221E             MOVS     R2,#+30
+   \        0x6   0x604A             STR      R2,[R1, #+4]
+    250            GPIO_PBSET = (portBPattern & EM3555_PORTB_OUTPUT_MASK);
+   \        0x8   0xF000 0x001E      AND      R0,R0,#0x1E
+   \        0xC   0x6008             STR      R0,[R1, #+0]
+    251          }
+   \        0xE   0x4770             BX       LR
+    252          
+
+   \                                 In section .text, align 2, keep-with-next
+    253          static void configure_timer_for_pwm(void)
+    254          {
+    255            uint32_t timerTop = EM3555_PWM_TOP;
+    256            uint32_t ccer = (TIM_CCER_TIM_CC1E
+    257                             | TIM_CCER_TIM_CC2E
+    258                             | TIM_CCER_TIM_CC3E
+    259                              | TIM_CCER_TIM_CC4E);
+    260            uint32_t ccmr1;
+    261            uint32_t ccmr2;
+    262            uint32_t cr1 = 0UL;
+    263          
+    264            PERIPHERAL_DISABLE &= ~PERIDIS_TIM2;
+   \                     configure_timer_for_pwm: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R0,??DataTable25_9
+   \        0x4   0x6801             LDR      R1,[R0, #+0]
+   \        0x6   0xF021 0x0108      BIC      R1,R1,#0x8
+   \        0xA   0x6001             STR      R1,[R0, #+0]
+    265          
+    266            if (EM3555_PWM_FREQUENCY_HZ != 0UL) {
+    267              timerTop = (EM3555_TIM2_PWM_CLOCK_HZ / EM3555_PWM_FREQUENCY_HZ);
+    268            }
+    269            if (timerTop == 0UL) {
+    270              timerTop = 1UL;
+    271            }
+    272            timerTop -= 1UL;
+    273            if (timerTop > 0xFFFFUL) {
+    274              timerTop = 0xFFFFUL;
+    275            }
+    276            s_timerTopValue = (uint16_t)timerTop;
+   \        0xC   0xF241 0x706F      MOVW     R0,#+5999
+   \       0x10   0x.... 0x....      LDR.W    R1,??DataTable25_1
+   \       0x14   0x8008             STRH     R0,[R1, #+0]
+    277          
+    278            TIM2_CR1 = 0UL;
+   \       0x16   0x.... 0x....      LDR.W    R1,??DataTable25_10
+   \       0x1A   0x2200             MOVS     R2,#+0
+   \       0x1C   0x600A             STR      R2,[R1, #+0]
+    279            TIM2_CR2 = 0UL;
+   \       0x1E   0x604A             STR      R2,[R1, #+4]
+    280            TIM2_SMCR = 0UL;
+   \       0x20   0x608A             STR      R2,[R1, #+8]
+    281            TIM2->DIER = 0UL;
+   \       0x22   0x60CA             STR      R2,[R1, #+12]
+    282            TIM2->SR = 0UL;
+   \       0x24   0x610A             STR      R2,[R1, #+16]
+    283            TIM2_OR = EM3555_TIM2_REMAP_MASK;
+   \       0x26   0x22F0             MOVS     R2,#+240
+   \       0x28   0x650A             STR      R2,[R1, #+80]
+    284            TIM2_PSC = 1UL;
+   \       0x2A   0x2201             MOVS     R2,#+1
+   \       0x2C   0x628A             STR      R2,[R1, #+40]
+    285            TIM2_EGR = TIM_EGR_TIM_UG;
+   \       0x2E   0x614A             STR      R2,[R1, #+20]
+    286            TIM2_ARR = s_timerTopValue;
+   \       0x30   0x62C8             STR      R0,[R1, #+44]
+    287            TIM2_CNT = 0UL;
+   \       0x32   0x2000             MOVS     R0,#+0
+   \       0x34   0x6248             STR      R0,[R1, #+36]
+    288            TIM2_CCR1 = 0UL;
+   \       0x36   0x6348             STR      R0,[R1, #+52]
+    289            TIM2_CCR2 = 0UL;
+   \       0x38   0x6388             STR      R0,[R1, #+56]
+    290            TIM2_CCR3 = 0UL;
+   \       0x3A   0x63C8             STR      R0,[R1, #+60]
+    291            TIM2_CCR4 = 0UL;
+   \       0x3C   0x6408             STR      R0,[R1, #+64]
+    292          
+    293            /*
+    294             * TIM2 drives low-side MOSFET gates directly. Use PWM mode 1 so CCR=0 is
+    295             * fully off and larger compare values increase on-time linearly.
+    296             */
+    297            ccmr1 = ((EM3555_TIM_PWM_MODE_1 << _TIM_CCMR1_TIM_OC1M_SHIFT)
+    298                     | (EM3555_TIM_PWM_MODE_1 << _TIM_CCMR1_TIM_OC2M_SHIFT)
+    299                     | TIM_CCMR1_TIM_OC1BE
+    300                     | TIM_CCMR1_TIM_OC2BE);
+    301            ccmr2 = ((EM3555_TIM_PWM_MODE_1 << _TIM_CCMR2_TIM_OC3M_SHIFT)
+    302                     | (EM3555_TIM_PWM_MODE_1 << _TIM_CCMR2_TIM_OC4M_SHIFT)
+    303                     | TIM_CCMR2_TIM_OC3BE
+    304                     | TIM_CCMR2_TIM_OC4BE);
+    305            TIM2_CCMR1 = ccmr1;
+   \       0x3E   0xF646 0x0068      MOVW     R0,#+26728
+   \       0x42   0x6188             STR      R0,[R1, #+24]
+    306            TIM2_CCMR2 = ccmr2;
+   \       0x44   0x61C8             STR      R0,[R1, #+28]
+    307          
+    308            if (EM3555_PWM_RED_ACTIVE_LOW != 0U) {
+    309              ccer |= timer_channel_polarity_mask(EM3555_PWM_RED_CHANNEL);
+    310            }
+    311            if (EM3555_PWM_GREEN_ACTIVE_LOW != 0U) {
+    312              ccer |= timer_channel_polarity_mask(EM3555_PWM_GREEN_CHANNEL);
+    313            }
+    314            if (EM3555_PWM_WHITE_ACTIVE_LOW != 0U) {
+    315              ccer |= timer_channel_polarity_mask(EM3555_PWM_WHITE_CHANNEL);
+    316            }
+    317            if (EM3555_PWM_BLUE_ACTIVE_LOW != 0U) {
+    318              ccer |= timer_channel_polarity_mask(EM3555_PWM_BLUE_CHANNEL);
+    319            }
+    320          
+    321            TIM2_CCER = ccer;
+   \       0x46   0xF241 0x1011      MOVW     R0,#+4369
+   \       0x4A   0x6208             STR      R0,[R1, #+32]
+    322            cr1 |= TIM_CR1_TIM_ARBE;
+    323            TIM2_CR1 = cr1;
+   \       0x4C   0x2080             MOVS     R0,#+128
+   \       0x4E   0x6008             STR      R0,[R1, #+0]
+    324            TIM2_EGR = TIM_EGR_TIM_UG;
+   \       0x50   0x4610             MOV      R0,R2
+   \       0x52   0x6148             STR      R0,[R1, #+20]
+    325            TIM2_CR1 = (cr1 | TIM_CR1_TIM_CEN);
+   \       0x54   0x2081             MOVS     R0,#+129
+   \       0x56   0x6008             STR      R0,[R1, #+0]
+    326          }
+   \       0x58   0x4770             BX       LR
+    327          
+
+   \                                 In section .text, align 2, keep-with-next
+    328          static bool timer_outputs_configured(void)
+    329          {
+    330            return ((PERIPHERAL_DISABLE & PERIDIS_TIM2) == 0UL)
+    331                   && ((TIM2_CR1 & TIM_CR1_TIM_CEN) != 0UL)
+    332                   && ((TIM2_CCER & EM3555_TIM2_OUTPUT_ENABLE_MASK) == EM3555_TIM2_OUTPUT_ENABLE_MASK)
+    333                   && ((TIM2_OR & EM3555_TIM2_REMAP_MASK) == EM3555_TIM2_REMAP_MASK);
+   \                     timer_outputs_configured: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R0,??DataTable25_9
+   \        0x4   0x6800             LDR      R0,[R0, #+0]
+   \        0x6   0x0700             LSLS     R0,R0,#+28
+   \        0x8   0xD411             BMI.N    ??timer_outputs_configured_0
+   \        0xA   0x.... 0x....      LDR.W    R0,??DataTable25_10
+   \        0xE   0x6801             LDR      R1,[R0, #+0]
+   \       0x10   0x07C9             LSLS     R1,R1,#+31
+   \       0x12   0xD50C             BPL.N    ??timer_outputs_configured_0
+   \       0x14   0xF241 0x1111      MOVW     R1,#+4369
+   \       0x18   0x6A02             LDR      R2,[R0, #+32]
+   \       0x1A   0x400A             ANDS     R2,R1,R2
+   \       0x1C   0x428A             CMP      R2,R1
+   \       0x1E   0xD106             BNE.N    ??timer_outputs_configured_0
+   \       0x20   0x6D00             LDR      R0,[R0, #+80]
+   \       0x22   0xF000 0x00F0      AND      R0,R0,#0xF0
+   \       0x26   0x28F0             CMP      R0,#+240
+   \       0x28   0xD101             BNE.N    ??timer_outputs_configured_0
+   \       0x2A   0x2001             MOVS     R0,#+1
+   \       0x2C   0x4770             BX       LR
+   \                     ??timer_outputs_configured_0: (+1)
+   \       0x2E   0x2000             MOVS     R0,#+0
+   \       0x30   0x4770             BX       LR
+    334          }
+    335          
+
+   \                                 In section .text, align 2, keep-with-next
+    336          static bool timer_pwm_ready(void)
+    337          {
+    338            /*
+    339             * Normal runtime updates reapply light state very frequently. Re-probing
+    340             * TIM2_CNT here makes a configured PWM engine flap back into GPIO fallback
+    341             * when the sample lands badly, which collapses dimming into binary on/off.
+    342             * Once TIM2 is configured and enabled, trust that setup for steady-state
+    343             * output and only fall back if the timer configuration itself is missing.
+    344             */
+    345            return timer_outputs_configured();
+   \                     timer_pwm_ready: (+1)
+   \        0x0   0x....             B.N      timer_outputs_configured
+    346          }
+    347          
+
+   \                                 In section .text, align 2, keep-with-next
+    348          static void ensure_pwm_engine_ready(void)
+    349          {
+   \                     ensure_pwm_engine_ready: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    350            refresh_pin_mode_flags();
+   \        0x2   0x.... 0x....      BL       refresh_pin_mode_flags
+    351          
+    352            if (!s_pwmPinsConfigured) {
+   \        0x6   0x.... 0x....      LDR.W    R0,??DataTable25_5
+   \        0xA   0x7800             LDRB     R0,[R0, #+0]
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD101             BNE.N    ??ensure_pwm_engine_ready_0
+    353              configure_gpio_for_pwm();
+   \       0x10   0x.... 0x....      BL       configure_gpio_for_pwm
+    354            }
+    355          
+    356            if (!timer_outputs_configured()) {
+   \                     ??ensure_pwm_engine_ready_0: (+1)
+   \       0x14   0x.... 0x....      BL       timer_outputs_configured
+   \       0x18   0x2800             CMP      R0,#+0
+   \       0x1A   0xD101             BNE.N    ??ensure_pwm_engine_ready_1
+    357              configure_timer_for_pwm();
+   \       0x1C   0x.... 0x....      BL       configure_timer_for_pwm
+    358            }
+    359          
+    360            refresh_output_backend_state();
+   \                     ??ensure_pwm_engine_ready_1: (+1)
+   \       0x20   0xE8BD 0x4001      POP      {R0,LR}
+   \       0x24   0x....             B.N      refresh_output_backend_state
+    361          }
+    362          
+
+   \                                 In section .text, align 2, keep-with-next
+    363          static void write_channels_to_timer(const Em3555RgbwChannels *channels)
+    364          {
+   \                     write_channels_to_timer: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    365            write_timer_channel(EM3555_PWM_RED_CHANNEL,
+    366                                apply_channel_polarity(em3555ColorMathScaleToPwm(channels->red, timer_top_value()),
+    367                                                       EM3555_PWM_RED_ACTIVE_LOW != 0U));
+   \        0x4   0x.... 0x....      BL       timer_top_value
+   \        0x8   0x4601             MOV      R1,R0
+   \        0xA   0x8820             LDRH     R0,[R4, #+0]
+   \        0xC   0x.... 0x....      BL       em3555ColorMathScaleToPwm
+   \       0x10   0x2100             MOVS     R1,#+0
+   \       0x12   0x.... 0x....      BL       apply_channel_polarity
+   \       0x16   0x4601             MOV      R1,R0
+   \       0x18   0x2002             MOVS     R0,#+2
+   \       0x1A   0x.... 0x....      BL       write_timer_channel
+    368            write_timer_channel(EM3555_PWM_GREEN_CHANNEL,
+    369                                apply_channel_polarity(em3555ColorMathScaleToPwm(channels->green, timer_top_value()),
+    370                                                       EM3555_PWM_GREEN_ACTIVE_LOW != 0U));
+   \       0x1E   0x.... 0x....      BL       timer_top_value
+   \       0x22   0x4601             MOV      R1,R0
+   \       0x24   0x8860             LDRH     R0,[R4, #+2]
+   \       0x26   0x.... 0x....      BL       em3555ColorMathScaleToPwm
+   \       0x2A   0x2100             MOVS     R1,#+0
+   \       0x2C   0x.... 0x....      BL       apply_channel_polarity
+   \       0x30   0x4601             MOV      R1,R0
+   \       0x32   0x2004             MOVS     R0,#+4
+   \       0x34   0x.... 0x....      BL       write_timer_channel
+    371            write_timer_channel(EM3555_PWM_WHITE_CHANNEL,
+    372                                apply_channel_polarity(em3555ColorMathScaleToPwm(channels->white, timer_top_value()),
+    373                                                       EM3555_PWM_WHITE_ACTIVE_LOW != 0U));
+   \       0x38   0x.... 0x....      BL       timer_top_value
+   \       0x3C   0x4601             MOV      R1,R0
+   \       0x3E   0x88E0             LDRH     R0,[R4, #+6]
+   \       0x40   0x.... 0x....      BL       em3555ColorMathScaleToPwm
+   \       0x44   0x2100             MOVS     R1,#+0
+   \       0x46   0x.... 0x....      BL       apply_channel_polarity
+   \       0x4A   0x4601             MOV      R1,R0
+   \       0x4C   0x2001             MOVS     R0,#+1
+   \       0x4E   0x.... 0x....      BL       write_timer_channel
+    374            write_timer_channel(EM3555_PWM_BLUE_CHANNEL,
+    375                                apply_channel_polarity(em3555ColorMathScaleToPwm(channels->blue, timer_top_value()),
+    376                                                       EM3555_PWM_BLUE_ACTIVE_LOW != 0U));
+   \       0x52   0x.... 0x....      BL       timer_top_value
+   \       0x56   0x4601             MOV      R1,R0
+   \       0x58   0x88A0             LDRH     R0,[R4, #+4]
+   \       0x5A   0x.... 0x....      BL       em3555ColorMathScaleToPwm
+   \       0x5E   0x2100             MOVS     R1,#+0
+   \       0x60   0x.... 0x....      BL       apply_channel_polarity
+   \       0x64   0x4601             MOV      R1,R0
+   \       0x66   0x2003             MOVS     R0,#+3
+   \       0x68   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x6C   0x....             B.N      write_timer_channel
+    377          }
+    378          
+
+   \                                 In section .text, align 2, keep-with-next
+    379          static void write_raw_timer_channels(const Em3555RgbwChannels *channels)
+    380          {
+   \                     write_raw_timer_channels: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    381            write_timer_channel(EM3555_PWM_RED_CHANNEL, clamp_compare_value(channels->red));
+   \        0x4   0x8820             LDRH     R0,[R4, #+0]
+   \        0x6   0x.... 0x....      BL       clamp_compare_value
+   \        0xA   0x4601             MOV      R1,R0
+   \        0xC   0x2002             MOVS     R0,#+2
+   \        0xE   0x.... 0x....      BL       write_timer_channel
+    382            write_timer_channel(EM3555_PWM_GREEN_CHANNEL, clamp_compare_value(channels->green));
+   \       0x12   0x8860             LDRH     R0,[R4, #+2]
+   \       0x14   0x.... 0x....      BL       clamp_compare_value
+   \       0x18   0x4601             MOV      R1,R0
+   \       0x1A   0x2004             MOVS     R0,#+4
+   \       0x1C   0x.... 0x....      BL       write_timer_channel
+    383            write_timer_channel(EM3555_PWM_WHITE_CHANNEL, clamp_compare_value(channels->white));
+   \       0x20   0x88E0             LDRH     R0,[R4, #+6]
+   \       0x22   0x.... 0x....      BL       clamp_compare_value
+   \       0x26   0x4601             MOV      R1,R0
+   \       0x28   0x2001             MOVS     R0,#+1
+   \       0x2A   0x.... 0x....      BL       write_timer_channel
+    384            write_timer_channel(EM3555_PWM_BLUE_CHANNEL, clamp_compare_value(channels->blue));
+   \       0x2E   0x88A0             LDRH     R0,[R4, #+4]
+   \       0x30   0x.... 0x....      BL       clamp_compare_value
+   \       0x34   0x4601             MOV      R1,R0
+   \       0x36   0x2003             MOVS     R0,#+3
+   \       0x38   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x3C   0x....             B.N      write_timer_channel
+    385          }
+    386          #endif
+    387          
+
+   \                                 In section .text, align 2, keep-with-next
+    388          static void write_effective_output(void)
+    389          {
+   \                     write_effective_output: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+    390            Em3555RgbwChannels effective;
+    391          
+    392            effective.red = 0U;
+   \        0x2   0x2100             MOVS     R1,#+0
+    393            effective.green = 0U;
+   \        0x4   0x460A             MOV      R2,R1
+    394            effective.blue = 0U;
+   \        0x6   0x460B             MOV      R3,R1
+    395            effective.white = 0U;
+   \        0x8   0x460D             MOV      R5,R1
+    396          
+    397            if (s_requestedOn) {
+   \        0xA   0x.... 0x....      LDR.W    R0,??DataTable25_11
+   \        0xE   0x7800             LDRB     R0,[R0, #+0]
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD005             BEQ.N    ??write_effective_output_0
+    398              effective = s_requestedOutput;
+   \       0x14   0x.... 0x....      LDR.W    R0,??DataTable25_12
+   \       0x18   0x8801             LDRH     R1,[R0, #+0]
+   \       0x1A   0x8842             LDRH     R2,[R0, #+2]
+   \       0x1C   0x8883             LDRH     R3,[R0, #+4]
+   \       0x1E   0x88C5             LDRH     R5,[R0, #+6]
+    399            }
+    400          
+    401            if (s_statusOverrideActive) {
+   \                     ??write_effective_output_0: (+1)
+   \       0x20   0x.... 0x....      LDR.W    R0,??DataTable25_13
+   \       0x24   0x7800             LDRB     R0,[R0, #+0]
+   \       0x26   0x2800             CMP      R0,#+0
+   \       0x28   0xD005             BEQ.N    ??write_effective_output_1
+    402              effective = s_statusOverrideOutput;
+   \       0x2A   0x.... 0x....      LDR.W    R0,??DataTable25_14
+   \       0x2E   0x8801             LDRH     R1,[R0, #+0]
+   \       0x30   0x8842             LDRH     R2,[R0, #+2]
+   \       0x32   0x8883             LDRH     R3,[R0, #+4]
+   \       0x34   0x88C5             LDRH     R5,[R0, #+6]
+    403            }
+    404          
+    405            if (s_identifyActive) {
+   \                     ??write_effective_output_1: (+1)
+   \       0x36   0x.... 0x....      LDR.W    R0,??DataTable25_15
+   \       0x3A   0x7800             LDRB     R0,[R0, #+0]
+   \       0x3C   0x2800             CMP      R0,#+0
+   \       0x3E   0xD004             BEQ.N    ??write_effective_output_2
+    406              effective.red = 0U;
+   \       0x40   0x2100             MOVS     R1,#+0
+    407              effective.green = 0U;
+   \       0x42   0x460A             MOV      R2,R1
+    408              effective.blue = 0U;
+   \       0x44   0x460B             MOV      R3,R1
+    409              effective.white = EM3555_IDENTIFY_OUTPUT_LEVEL;
+   \       0x46   0xF44F 0x5500      MOV      R5,#+8192
+    410            }
+    411          
+    412            s_currentOutput = effective;
+   \                     ??write_effective_output_2: (+1)
+   \       0x4A   0x.... 0x....      LDR.W    R4,??DataTable25_16
+   \       0x4E   0x8021             STRH     R1,[R4, #+0]
+   \       0x50   0x8062             STRH     R2,[R4, #+2]
+   \       0x52   0x80A3             STRH     R3,[R4, #+4]
+   \       0x54   0x80E5             STRH     R5,[R4, #+6]
+    413          
+    414          #if defined(EM3555_HAVE_DEVICE_HEADERS)
+    415            refresh_output_backend_state();
+   \       0x56   0x.... 0x....      BL       refresh_output_backend_state
+    416          
+    417            if (s_rawPortBOverrideActive) {
+   \       0x5A   0x....             LDR.N    R0,??DataTable25_17
+   \       0x5C   0x7800             LDRB     R0,[R0, #+0]
+   \       0x5E   0x2800             CMP      R0,#+0
+   \       0x60   0xD006             BEQ.N    ??write_effective_output_3
+    418              configure_gpio_for_output();
+   \       0x62   0x.... 0x....      BL       configure_gpio_for_output
+    419              write_raw_portb_output(s_rawPortBOverrideValue);
+   \       0x66   0x....             LDR.N    R0,??DataTable25_18
+   \       0x68   0x6800             LDR      R0,[R0, #+0]
+   \       0x6A   0x.... 0x....      BL       write_raw_portb_output
+   \       0x6E   0xE01D             B.N      ??write_effective_output_4
+    420            } else if (s_rawTimerOverrideActive) {
+   \                     ??write_effective_output_3: (+1)
+   \       0x70   0x....             LDR.N    R0,??DataTable25_19
+   \       0x72   0x7800             LDRB     R0,[R0, #+0]
+   \       0x74   0x2800             CMP      R0,#+0
+   \       0x76   0xD005             BEQ.N    ??write_effective_output_5
+    421              ensure_pwm_engine_ready();
+   \       0x78   0x.... 0x....      BL       ensure_pwm_engine_ready
+    422              write_raw_timer_channels(&s_rawTimerOverrideOutput);
+   \       0x7C   0x....             LDR.N    R0,??DataTable25_20
+   \       0x7E   0x.... 0x....      BL       write_raw_timer_channels
+   \       0x82   0xE013             B.N      ??write_effective_output_4
+    423            } else if (s_directGpioActive || s_gpioFallbackActive) {
+   \                     ??write_effective_output_5: (+1)
+   \       0x84   0x....             LDR.N    R5,??DataTable25_7
+   \       0x86   0x....             LDR.N    R0,??DataTable25_21
+   \       0x88   0x7801             LDRB     R1,[R0, #+0]
+   \       0x8A   0x7828             LDRB     R0,[R5, #+0]
+   \       0x8C   0x4301             ORRS     R1,R0,R1
+   \       0x8E   0xD104             BNE.N    ??write_effective_output_6
+    424              configure_gpio_for_output();
+    425              write_channels_to_gpio(&s_currentOutput);
+    426            } else {
+    427              ensure_pwm_engine_ready();
+   \       0x90   0x.... 0x....      BL       ensure_pwm_engine_ready
+    428              if (s_gpioFallbackActive) {
+   \       0x94   0x7828             LDRB     R0,[R5, #+0]
+   \       0x96   0x2800             CMP      R0,#+0
+   \       0x98   0xD005             BEQ.N    ??write_effective_output_7
+    429                configure_gpio_for_output();
+   \                     ??write_effective_output_6: (+1)
+   \       0x9A   0x.... 0x....      BL       configure_gpio_for_output
+    430                write_channels_to_gpio(&s_currentOutput);
+   \       0x9E   0x4620             MOV      R0,R4
+   \       0xA0   0x.... 0x....      BL       write_channels_to_gpio
+   \       0xA4   0xE002             B.N      ??write_effective_output_4
+    431              } else {
+    432                write_channels_to_timer(&s_currentOutput);
+   \                     ??write_effective_output_7: (+1)
+   \       0xA6   0x4620             MOV      R0,R4
+   \       0xA8   0x.... 0x....      BL       write_channels_to_timer
+    433              }
+    434            }
+    435          
+    436            refresh_output_backend_state();
+   \                     ??write_effective_output_4: (+1)
+   \       0xAC   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0xB0   0x....             B.N      refresh_output_backend_state
+    437          #endif
+    438          }
+    439          
+
+   \                                 In section .text, align 2, keep-with-next
+    440          void em3555RgbwDriverInit(void)
+    441          {
+   \                     em3555RgbwDriverInit: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    442            s_currentOutput.red = 0U;
+   \        0x2   0x....             LDR.N    R2,??DataTable25_16
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x6010             STR      R0,[R2, #+0]
+    443            s_currentOutput.green = 0U;
+    444            s_currentOutput.blue = 0U;
+   \        0x8   0x6050             STR      R0,[R2, #+4]
+    445            s_currentOutput.white = 0U;
+    446            s_requestedOutput = s_currentOutput;
+   \        0xA   0xE9D2 0x0100      LDRD     R0,R1,[R2, #+0]
+   \        0xE   0x....             LDR.N    R3,??DataTable25_12
+   \       0x10   0xE9C3 0x0100      STRD     R0,R1,[R3, #+0]
+    447            s_statusOverrideOutput = s_currentOutput;
+   \       0x14   0x....             LDR.N    R3,??DataTable25_14
+   \       0x16   0xE9C3 0x0100      STRD     R0,R1,[R3, #+0]
+    448            s_rawTimerOverrideOutput = s_currentOutput;
+   \       0x1A   0x....             LDR.N    R2,??DataTable25_20
+   \       0x1C   0xE9C2 0x0100      STRD     R0,R1,[R2, #+0]
+    449            s_identifyActive = false;
+   \       0x20   0x....             LDR.N    R1,??DataTable25_15
+   \       0x22   0x7008             STRB     R0,[R1, #+0]
+    450            s_statusOverrideActive = false;
+   \       0x24   0x....             LDR.N    R1,??DataTable25_13
+   \       0x26   0x7008             STRB     R0,[R1, #+0]
+    451            s_initialized = true;
+   \       0x28   0x2001             MOVS     R0,#+1
+   \       0x2A   0x....             LDR.N    R1,??DataTable25_22
+   \       0x2C   0x7008             STRB     R0,[R1, #+0]
+    452            s_requestedOn = false;
+   \       0x2E   0x2000             MOVS     R0,#+0
+   \       0x30   0x....             LDR.N    R1,??DataTable25_11
+   \       0x32   0x7008             STRB     R0,[R1, #+0]
+    453            s_timerUsable = false;
+   \       0x34   0x....             LDR.N    R1,??DataTable25_6
+   \       0x36   0x7008             STRB     R0,[R1, #+0]
+    454            s_gpioFallbackActive = false;
+   \       0x38   0x....             LDR.N    R1,??DataTable25_7
+   \       0x3A   0x7008             STRB     R0,[R1, #+0]
+    455            s_directGpioActive = false;
+   \       0x3C   0x....             LDR.N    R1,??DataTable25_21
+   \       0x3E   0x7008             STRB     R0,[R1, #+0]
+    456            s_pwmPinsConfigured = false;
+   \       0x40   0x....             LDR.N    R1,??DataTable25_5
+   \       0x42   0x7008             STRB     R0,[R1, #+0]
+    457            s_gpioPinsConfigured = false;
+   \       0x44   0x....             LDR.N    R1,??DataTable25_4
+   \       0x46   0x7008             STRB     R0,[R1, #+0]
+    458            s_rawPortBOverrideActive = false;
+   \       0x48   0x....             LDR.N    R1,??DataTable25_17
+   \       0x4A   0x7008             STRB     R0,[R1, #+0]
+    459            s_rawTimerOverrideActive = false;
+   \       0x4C   0x....             LDR.N    R1,??DataTable25_19
+   \       0x4E   0x7008             STRB     R0,[R1, #+0]
+    460            s_rawPortBOverrideValue = 0UL;
+   \       0x50   0x....             LDR.N    R1,??DataTable25_18
+   \       0x52   0x6008             STR      R0,[R1, #+0]
+    461            s_timerTopValue = EM3555_PWM_TOP;
+   \       0x54   0xF240 0x30E7      MOVW     R0,#+999
+   \       0x58   0x....             LDR.N    R1,??DataTable25_1
+   \       0x5A   0x8008             STRH     R0,[R1, #+0]
+    462          
+    463          #if defined(EM3555_HAVE_DEVICE_HEADERS)
+    464            claim_portb_output_ownership();
+   \       0x5C   0x.... 0x....      BL       claim_portb_output_ownership
+    465            configure_gpio_for_pwm();
+   \       0x60   0x.... 0x....      BL       configure_gpio_for_pwm
+    466            configure_timer_for_pwm();
+   \       0x64   0x.... 0x....      BL       configure_timer_for_pwm
+    467            refresh_output_backend_state();
+   \       0x68   0x.... 0x....      BL       refresh_output_backend_state
+    468            write_effective_output();
+   \       0x6C   0xE8BD 0x4001      POP      {R0,LR}
+   \       0x70   0x....             B.N      write_effective_output
+    469          #endif
+    470          }
+    471          
+
+   \                                 In section .text, align 2, keep-with-next
+    472          void em3555RgbwDriverApply(const Em3555RgbwChannels *channels, bool on)
+    473          {
+   \                     em3555RgbwDriverApply: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    474            if (!s_initialized) {
+   \        0x6   0x....             LDR.N    R0,??DataTable25_22
+   \        0x8   0x7800             LDRB     R0,[R0, #+0]
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD101             BNE.N    ??em3555RgbwDriverApply_0
+    475              em3555RgbwDriverInit();
+   \        0xE   0x.... 0x....      BL       em3555RgbwDriverInit
+    476            }
+    477          
+    478            s_requestedOn = on;
+   \                     ??em3555RgbwDriverApply_0: (+1)
+   \       0x12   0x....             LDR.N    R0,??DataTable25_11
+   \       0x14   0x7005             STRB     R5,[R0, #+0]
+    479            if (channels != NULL) {
+   \       0x16   0x....             LDR.N    R0,??DataTable25_12
+   \       0x18   0x2C00             CMP      R4,#+0
+   \       0x1A   0xD004             BEQ.N    ??em3555RgbwDriverApply_1
+    480              s_requestedOutput = *channels;
+   \       0x1C   0x4621             MOV      R1,R4
+   \       0x1E   0x2208             MOVS     R2,#+8
+   \       0x20   0x.... 0x....      BL       __aeabi_memcpy
+   \       0x24   0xE002             B.N      ??em3555RgbwDriverApply_2
+    481            } else {
+    482              s_requestedOutput.red = 0U;
+   \                     ??em3555RgbwDriverApply_1: (+1)
+   \       0x26   0x2100             MOVS     R1,#+0
+   \       0x28   0x6001             STR      R1,[R0, #+0]
+    483              s_requestedOutput.green = 0U;
+    484              s_requestedOutput.blue = 0U;
+   \       0x2A   0x6041             STR      R1,[R0, #+4]
+    485              s_requestedOutput.white = 0U;
+    486            }
+    487          
+    488            write_effective_output();
+   \                     ??em3555RgbwDriverApply_2: (+1)
+   \       0x2C   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0x30   0x....             B.N      write_effective_output
+    489          }
+    490          
+
+   \                                 In section .text, align 2, keep-with-next
+    491          void em3555RgbwDriverSetIdentify(bool active)
+    492          {
+   \                     em3555RgbwDriverSetIdentify: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    493            if (!s_initialized) {
+   \        0x4   0x....             LDR.N    R0,??DataTable25_22
+   \        0x6   0x7800             LDRB     R0,[R0, #+0]
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD101             BNE.N    ??em3555RgbwDriverSetIdentify_0
+    494              em3555RgbwDriverInit();
+   \        0xC   0x.... 0x....      BL       em3555RgbwDriverInit
+    495            }
+    496          
+    497            s_identifyActive = active;
+   \                     ??em3555RgbwDriverSetIdentify_0: (+1)
+   \       0x10   0x....             LDR.N    R0,??DataTable25_15
+   \       0x12   0x7004             STRB     R4,[R0, #+0]
+    498            write_effective_output();
+   \       0x14   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x18   0x....             B.N      write_effective_output
+    499          }
+    500          
+
+   \                                 In section .text, align 2, keep-with-next
+    501          void em3555RgbwDriverSetDirectGpioMode(bool active)
+    502          {
+   \                     em3555RgbwDriverSetDirectGpioMode: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    503            if (!s_initialized) {
+   \        0x4   0x....             LDR.N    R0,??DataTable25_22
+   \        0x6   0x7800             LDRB     R0,[R0, #+0]
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD101             BNE.N    ??em3555RgbwDriverSetDirectGpioMode_0
+    504              em3555RgbwDriverInit();
+   \        0xC   0x.... 0x....      BL       em3555RgbwDriverInit
+    505            }
+    506          
+    507            s_directGpioActive = active;
+   \                     ??em3555RgbwDriverSetDirectGpioMode_0: (+1)
+   \       0x10   0x....             LDR.N    R0,??DataTable25_21
+   \       0x12   0x7004             STRB     R4,[R0, #+0]
+    508            write_effective_output();
+   \       0x14   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x18   0x....             B.N      write_effective_output
+    509          }
+    510          
+
+   \                                 In section .text, align 2, keep-with-next
+    511          void em3555RgbwDriverSetStatusOverride(const Em3555RgbwChannels *channels, bool active)
+    512          {
+   \                     em3555RgbwDriverSetStatusOverride: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    513            if (!s_initialized) {
+   \        0x6   0x....             LDR.N    R0,??DataTable25_22
+   \        0x8   0x7800             LDRB     R0,[R0, #+0]
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD101             BNE.N    ??em3555RgbwDriverSetStatusOverride_0
+    514              em3555RgbwDriverInit();
+   \        0xE   0x.... 0x....      BL       em3555RgbwDriverInit
+    515            }
+    516          
+    517            s_statusOverrideActive = active;
+   \                     ??em3555RgbwDriverSetStatusOverride_0: (+1)
+   \       0x12   0x....             LDR.N    R0,??DataTable25_13
+   \       0x14   0x7005             STRB     R5,[R0, #+0]
+    518            if (active && channels != NULL) {
+   \       0x16   0x2D00             CMP      R5,#+0
+   \       0x18   0xD007             BEQ.N    ??em3555RgbwDriverSetStatusOverride_1
+   \       0x1A   0x2C00             CMP      R4,#+0
+   \       0x1C   0xD005             BEQ.N    ??em3555RgbwDriverSetStatusOverride_1
+    519              s_statusOverrideOutput = *channels;
+   \       0x1E   0x....             LDR.N    R0,??DataTable25_14
+   \       0x20   0x4621             MOV      R1,R4
+   \       0x22   0x2208             MOVS     R2,#+8
+   \       0x24   0x.... 0x....      BL       __aeabi_memcpy
+   \       0x28   0xE003             B.N      ??em3555RgbwDriverSetStatusOverride_2
+    520            } else {
+    521              s_statusOverrideOutput.red = 0U;
+   \                     ??em3555RgbwDriverSetStatusOverride_1: (+1)
+   \       0x2A   0x....             LDR.N    R0,??DataTable25_14
+   \       0x2C   0x2100             MOVS     R1,#+0
+   \       0x2E   0x6001             STR      R1,[R0, #+0]
+    522              s_statusOverrideOutput.green = 0U;
+    523              s_statusOverrideOutput.blue = 0U;
+   \       0x30   0x6041             STR      R1,[R0, #+4]
+    524              s_statusOverrideOutput.white = 0U;
+    525            }
+    526          
+    527            write_effective_output();
+   \                     ??em3555RgbwDriverSetStatusOverride_2: (+1)
+   \       0x32   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0x36   0x....             B.N      write_effective_output
+    528          }
+    529          
+
+   \                                 In section .text, align 2, keep-with-next
+    530          void em3555RgbwDriverSetRawPortBOutput(uint32_t portBPattern, bool active)
+    531          {
+   \                     em3555RgbwDriverSetRawPortBOutput: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    532            if (!s_initialized) {
+   \        0x6   0x....             LDR.N    R0,??DataTable25_22
+   \        0x8   0x7800             LDRB     R0,[R0, #+0]
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD101             BNE.N    ??em3555RgbwDriverSetRawPortBOutput_0
+    533              em3555RgbwDriverInit();
+   \        0xE   0x.... 0x....      BL       em3555RgbwDriverInit
+    534            }
+    535          
+    536            s_rawPortBOverrideActive = active;
+   \                     ??em3555RgbwDriverSetRawPortBOutput_0: (+1)
+   \       0x12   0x....             LDR.N    R0,??DataTable25_17
+   \       0x14   0x7005             STRB     R5,[R0, #+0]
+    537            s_rawPortBOverrideValue = (portBPattern & EM3555_PORTB_OUTPUT_MASK);
+   \       0x16   0xF004 0x041E      AND      R4,R4,#0x1E
+   \       0x1A   0x....             LDR.N    R0,??DataTable25_18
+   \       0x1C   0x6004             STR      R4,[R0, #+0]
+    538            write_effective_output();
+   \       0x1E   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0x22   0x....             B.N      write_effective_output
+    539          }
+    540          
+
+   \                                 In section .text, align 2, keep-with-next
+    541          void em3555RgbwDriverSetRawTimerOutput(const Em3555RgbwChannels *channels, bool active)
+    542          {
+   \                     em3555RgbwDriverSetRawTimerOutput: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    543            if (!s_initialized) {
+   \        0x6   0x....             LDR.N    R0,??DataTable25_22
+   \        0x8   0x7800             LDRB     R0,[R0, #+0]
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD101             BNE.N    ??em3555RgbwDriverSetRawTimerOutput_0
+    544              em3555RgbwDriverInit();
+   \        0xE   0x.... 0x....      BL       em3555RgbwDriverInit
+    545            }
+    546          
+    547            s_rawTimerOverrideActive = active;
+   \                     ??em3555RgbwDriverSetRawTimerOutput_0: (+1)
+   \       0x12   0x....             LDR.N    R0,??DataTable25_19
+   \       0x14   0x7005             STRB     R5,[R0, #+0]
+    548            if (active && channels != NULL) {
+   \       0x16   0x2D00             CMP      R5,#+0
+   \       0x18   0xD007             BEQ.N    ??em3555RgbwDriverSetRawTimerOutput_1
+   \       0x1A   0x2C00             CMP      R4,#+0
+   \       0x1C   0xD005             BEQ.N    ??em3555RgbwDriverSetRawTimerOutput_1
+    549              s_rawTimerOverrideOutput = *channels;
+   \       0x1E   0x....             LDR.N    R0,??DataTable25_20
+   \       0x20   0x4621             MOV      R1,R4
+   \       0x22   0x2208             MOVS     R2,#+8
+   \       0x24   0x.... 0x....      BL       __aeabi_memcpy
+   \       0x28   0xE003             B.N      ??em3555RgbwDriverSetRawTimerOutput_2
+    550            } else {
+    551              s_rawTimerOverrideOutput.red = 0U;
+   \                     ??em3555RgbwDriverSetRawTimerOutput_1: (+1)
+   \       0x2A   0x....             LDR.N    R0,??DataTable25_20
+   \       0x2C   0x2100             MOVS     R1,#+0
+   \       0x2E   0x6001             STR      R1,[R0, #+0]
+    552              s_rawTimerOverrideOutput.green = 0U;
+    553              s_rawTimerOverrideOutput.blue = 0U;
+   \       0x30   0x6041             STR      R1,[R0, #+4]
+    554              s_rawTimerOverrideOutput.white = 0U;
+    555            }
+    556          
+    557            write_effective_output();
+   \                     ??em3555RgbwDriverSetRawTimerOutput_2: (+1)
+   \       0x32   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0x36   0x....             B.N      write_effective_output
+    558          }
+    559          
+
+   \                                 In section .text, align 2, keep-with-next
+    560          const Em3555RgbwChannels *em3555RgbwDriverCurrent(void)
+    561          {
+    562            return &s_currentOutput;
+   \                     em3555RgbwDriverCurrent: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable25_16
+   \        0x2   0x4770             BX       LR
+    563          }
+    564          
+
+   \                                 In section .text, align 2, keep-with-next
+    565          void em3555RgbwDriverReadHardwareState(Em3555RgbwDriverHardwareState *state)
+    566          {
+   \                     em3555RgbwDriverReadHardwareState: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+    567            if (state == NULL) {
+   \        0x4   0xF000 0x8085      BEQ.W    ??em3555RgbwDriverReadHardwareState_0
+    568              return;
+    569            }
+    570          
+    571            state->effective = s_currentOutput;
+   \        0x8   0x....             LDR.N    R1,??DataTable25_16
+   \        0xA   0x2208             MOVS     R2,#+8
+   \        0xC   0x.... 0x....      BL       __aeabi_memcpy
+    572            state->redCompare = 0U;
+   \       0x10   0x2000             MOVS     R0,#+0
+   \       0x12   0x8120             STRH     R0,[R4, #+8]
+    573            state->greenCompare = 0U;
+   \       0x14   0x8160             STRH     R0,[R4, #+10]
+    574            state->blueCompare = 0U;
+   \       0x16   0x81A0             STRH     R0,[R4, #+12]
+    575            state->whiteCompare = 0U;
+   \       0x18   0x81E0             STRH     R0,[R4, #+14]
+    576            state->timerCompare1 = 0U;
+   \       0x1A   0x8220             STRH     R0,[R4, #+16]
+    577            state->timerCompare2 = 0U;
+   \       0x1C   0x8260             STRH     R0,[R4, #+18]
+    578            state->timerCompare3 = 0U;
+   \       0x1E   0x82A0             STRH     R0,[R4, #+20]
+    579            state->timerCompare4 = 0U;
+   \       0x20   0x82E0             STRH     R0,[R4, #+22]
+    580            state->timerCount = 0U;
+   \       0x22   0x8420             STRH     R0,[R4, #+32]
+    581            state->timerPrescaler = 0U;
+   \       0x24   0x8460             STRH     R0,[R4, #+34]
+    582            state->timerTop = 0U;
+   \       0x26   0x84A0             STRH     R0,[R4, #+36]
+    583            state->portBCfgl = 0UL;
+   \       0x28   0x62A0             STR      R0,[R4, #+40]
+    584            state->portBCfgh = 0UL;
+   \       0x2A   0x62E0             STR      R0,[R4, #+44]
+    585            state->portBIn = 0UL;
+   \       0x2C   0x6320             STR      R0,[R4, #+48]
+    586            state->portBOut = 0UL;
+   \       0x2E   0x6360             STR      R0,[R4, #+52]
+    587            state->rawPortBOverride = s_rawPortBOverrideValue;
+   \       0x30   0x....             LDR.N    R0,??DataTable25_18
+   \       0x32   0x6800             LDR      R0,[R0, #+0]
+   \       0x34   0x63A0             STR      R0,[R4, #+56]
+    588            state->rawTimerOverride = s_rawTimerOverrideOutput;
+   \       0x36   0xF104 0x0018      ADD      R0,R4,#+24
+   \       0x3A   0x....             LDR.N    R1,??DataTable25_20
+   \       0x3C   0x2208             MOVS     R2,#+8
+   \       0x3E   0x.... 0x....      BL       __aeabi_memcpy
+    589            state->timerCr1 = 0UL;
+   \       0x42   0x2000             MOVS     R0,#+0
+   \       0x44   0x63E0             STR      R0,[R4, #+60]
+    590            state->timerCcer = 0UL;
+   \       0x46   0x6420             STR      R0,[R4, #+64]
+    591            state->timerCcmr1 = 0UL;
+   \       0x48   0x6460             STR      R0,[R4, #+68]
+    592            state->timerCcmr2 = 0UL;
+   \       0x4A   0x64A0             STR      R0,[R4, #+72]
+    593            state->timerOr = 0UL;
+   \       0x4C   0x64E0             STR      R0,[R4, #+76]
+    594            state->peripheralDisable = 0UL;
+   \       0x4E   0x6520             STR      R0,[R4, #+80]
+    595            state->gpioDbgcfg = 0UL;
+   \       0x50   0x6560             STR      R0,[R4, #+84]
+    596            state->gpioDbgstat = 0UL;
+   \       0x52   0x65A0             STR      R0,[R4, #+88]
+    597            state->legacyPortBCfgl = 0UL;
+   \       0x54   0x65E0             STR      R0,[R4, #+92]
+    598            state->legacyPortBCfgh = 0UL;
+   \       0x56   0x6620             STR      R0,[R4, #+96]
+    599            state->legacyPortBIn = 0UL;
+   \       0x58   0x6660             STR      R0,[R4, #+100]
+    600            state->legacyPortBOut = 0UL;
+   \       0x5A   0x66A0             STR      R0,[R4, #+104]
+    601            state->timerUsable = s_timerUsable;
+   \       0x5C   0xF104 0x006C      ADD      R0,R4,#+108
+   \       0x60   0x....             LDR.N    R1,??DataTable25_6
+   \       0x62   0x7809             LDRB     R1,[R1, #+0]
+   \       0x64   0x7001             STRB     R1,[R0, #+0]
+    602            state->gpioFallbackActive = s_gpioFallbackActive;
+   \       0x66   0x....             LDR.N    R1,??DataTable25_7
+   \       0x68   0x7809             LDRB     R1,[R1, #+0]
+   \       0x6A   0x7041             STRB     R1,[R0, #+1]
+    603            state->directGpioActive = s_directGpioActive;
+   \       0x6C   0x....             LDR.N    R1,??DataTable25_21
+   \       0x6E   0x7809             LDRB     R1,[R1, #+0]
+   \       0x70   0x7081             STRB     R1,[R0, #+2]
+    604            state->rawPortBOverrideActive = s_rawPortBOverrideActive;
+   \       0x72   0x....             LDR.N    R1,??DataTable25_17
+   \       0x74   0x7809             LDRB     R1,[R1, #+0]
+   \       0x76   0x70C1             STRB     R1,[R0, #+3]
+    605            state->rawTimerOverrideActive = s_rawTimerOverrideActive;
+   \       0x78   0x....             LDR.N    R1,??DataTable25_19
+   \       0x7A   0x7809             LDRB     R1,[R1, #+0]
+   \       0x7C   0x7101             STRB     R1,[R0, #+4]
+    606          
+    607          #if defined(EM3555_HAVE_DEVICE_HEADERS)
+    608            state->timerCompare1 = read_timer_channel(1U);
+   \       0x7E   0x2001             MOVS     R0,#+1
+   \       0x80   0x.... 0x....      BL       read_timer_channel
+   \       0x84   0x8220             STRH     R0,[R4, #+16]
+    609            state->timerCompare2 = read_timer_channel(2U);
+   \       0x86   0x2002             MOVS     R0,#+2
+   \       0x88   0x.... 0x....      BL       read_timer_channel
+   \       0x8C   0x8260             STRH     R0,[R4, #+18]
+    610            state->timerCompare3 = read_timer_channel(3U);
+   \       0x8E   0x2003             MOVS     R0,#+3
+   \       0x90   0x.... 0x....      BL       read_timer_channel
+   \       0x94   0x82A0             STRH     R0,[R4, #+20]
+    611            state->timerCompare4 = read_timer_channel(4U);
+   \       0x96   0x2004             MOVS     R0,#+4
+   \       0x98   0x.... 0x....      BL       read_timer_channel
+   \       0x9C   0x82E0             STRH     R0,[R4, #+22]
+    612            state->redCompare = read_timer_channel(EM3555_PWM_RED_CHANNEL);
+   \       0x9E   0x2002             MOVS     R0,#+2
+   \       0xA0   0x.... 0x....      BL       read_timer_channel
+   \       0xA4   0x8120             STRH     R0,[R4, #+8]
+    613            state->greenCompare = read_timer_channel(EM3555_PWM_GREEN_CHANNEL);
+   \       0xA6   0x2004             MOVS     R0,#+4
+   \       0xA8   0x.... 0x....      BL       read_timer_channel
+   \       0xAC   0x8160             STRH     R0,[R4, #+10]
+    614            state->blueCompare = read_timer_channel(EM3555_PWM_BLUE_CHANNEL);
+   \       0xAE   0x2003             MOVS     R0,#+3
+   \       0xB0   0x.... 0x....      BL       read_timer_channel
+   \       0xB4   0x81A0             STRH     R0,[R4, #+12]
+    615            state->whiteCompare = read_timer_channel(EM3555_PWM_WHITE_CHANNEL);
+   \       0xB6   0x2001             MOVS     R0,#+1
+   \       0xB8   0x.... 0x....      BL       read_timer_channel
+   \       0xBC   0x81E0             STRH     R0,[R4, #+14]
+    616            state->timerCount = (uint16_t)TIM2_CNT;
+   \       0xBE   0x....             LDR.N    R0,??DataTable25_10
+   \       0xC0   0x6A41             LDR      R1,[R0, #+36]
+   \       0xC2   0x8421             STRH     R1,[R4, #+32]
+    617            state->timerPrescaler = (uint16_t)TIM2_PSC;
+   \       0xC4   0x6A81             LDR      R1,[R0, #+40]
+   \       0xC6   0x8461             STRH     R1,[R4, #+34]
+    618            state->timerTop = (uint16_t)TIM2_ARR;
+   \       0xC8   0x6AC1             LDR      R1,[R0, #+44]
+   \       0xCA   0x84A1             STRH     R1,[R4, #+36]
+    619            state->portBCfgl = GPIO_PBCFGL;
+   \       0xCC   0x....             LDR.N    R1,??DataTable25
+   \       0xCE   0x680A             LDR      R2,[R1, #+0]
+   \       0xD0   0x62A2             STR      R2,[R4, #+40]
+    620            state->portBCfgh = GPIO_PBCFGH;
+   \       0xD2   0x684A             LDR      R2,[R1, #+4]
+   \       0xD4   0x62E2             STR      R2,[R4, #+44]
+    621            state->portBIn = GPIO_PBIN;
+   \       0xD6   0x688A             LDR      R2,[R1, #+8]
+   \       0xD8   0x6322             STR      R2,[R4, #+48]
+    622            state->portBOut = GPIO_PBOUT;
+   \       0xDA   0x68CA             LDR      R2,[R1, #+12]
+   \       0xDC   0x6362             STR      R2,[R4, #+52]
+    623            state->timerCr1 = TIM2_CR1;
+   \       0xDE   0x6802             LDR      R2,[R0, #+0]
+   \       0xE0   0x63E2             STR      R2,[R4, #+60]
+    624            state->timerCcer = TIM2_CCER;
+   \       0xE2   0x6A02             LDR      R2,[R0, #+32]
+   \       0xE4   0x6422             STR      R2,[R4, #+64]
+    625            state->timerCcmr1 = TIM2_CCMR1;
+   \       0xE6   0x6982             LDR      R2,[R0, #+24]
+   \       0xE8   0x6462             STR      R2,[R4, #+68]
+    626            state->timerCcmr2 = TIM2_CCMR2;
+   \       0xEA   0x69C2             LDR      R2,[R0, #+28]
+   \       0xEC   0x64A2             STR      R2,[R4, #+72]
+    627            state->timerOr = TIM2_OR;
+   \       0xEE   0x6D00             LDR      R0,[R0, #+80]
+   \       0xF0   0x64E0             STR      R0,[R4, #+76]
+    628            state->peripheralDisable = PERIPHERAL_DISABLE;
+   \       0xF2   0x....             LDR.N    R0,??DataTable25_9
+   \       0xF4   0x6800             LDR      R0,[R0, #+0]
+   \       0xF6   0x6520             STR      R0,[R4, #+80]
+    629            state->gpioDbgcfg = GPIO_DBGCFG;
+   \       0xF8   0x....             LDR.N    R0,??DataTable25_23
+   \       0xFA   0x6802             LDR      R2,[R0, #+0]
+   \       0xFC   0x6562             STR      R2,[R4, #+84]
+    630            state->gpioDbgstat = GPIO_DBGSTAT;
+   \       0xFE   0x6840             LDR      R0,[R0, #+4]
+   \      0x100   0x65A0             STR      R0,[R4, #+88]
+    631            state->legacyPortBCfgl = GPIO->P[EM3555_GPIO_PORT_B_INDEX].CFGL;
+   \      0x102   0x6808             LDR      R0,[R1, #+0]
+   \      0x104   0x65E0             STR      R0,[R4, #+92]
+    632            state->legacyPortBCfgh = GPIO->P[EM3555_GPIO_PORT_B_INDEX].CFGH;
+   \      0x106   0x6848             LDR      R0,[R1, #+4]
+   \      0x108   0x6620             STR      R0,[R4, #+96]
+    633            state->legacyPortBIn = GPIO->P[EM3555_GPIO_PORT_B_INDEX].IN;
+   \      0x10A   0x6888             LDR      R0,[R1, #+8]
+   \      0x10C   0x6660             STR      R0,[R4, #+100]
+    634            state->legacyPortBOut = GPIO->P[EM3555_GPIO_PORT_B_INDEX].OUT;
+   \      0x10E   0x68C8             LDR      R0,[R1, #+12]
+   \      0x110   0x66A0             STR      R0,[R4, #+104]
+    635          #endif
+    636          }
+   \                     ??em3555RgbwDriverReadHardwareState_0: (+1)
+   \      0x112   0xBD10             POP      {R4,PC}
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25:
+   \        0x0   0x4000'B200        DC32     0x4000b200
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_1:
+   \        0x0   0x....'....        DC32     s_timerTopValue
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_2:
+   \        0x0   0x4001'0034        DC32     0x40010034
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_3:
+   \        0x0   0x4000'BC0C        DC32     0x4000bc0c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_4:
+   \        0x0   0x....'....        DC32     s_gpioPinsConfigured
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_5:
+   \        0x0   0x....'....        DC32     s_pwmPinsConfigured
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_6:
+   \        0x0   0x....'....        DC32     s_timerUsable
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_7:
+   \        0x0   0x....'....        DC32     s_gpioFallbackActive
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_8:
+   \        0x0   0x4000'B210        DC32     0x4000b210
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_9:
+   \        0x0   0x4000'4038        DC32     0x40004038
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_10:
+   \        0x0   0x4001'0000        DC32     0x40010000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_11:
+   \        0x0   0x....'....        DC32     s_requestedOn
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_12:
+   \        0x0   0x....'....        DC32     s_requestedOutput
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_13:
+   \        0x0   0x....'....        DC32     s_statusOverrideActive
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_14:
+   \        0x0   0x....'....        DC32     s_statusOverrideOutput
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_15:
+   \        0x0   0x....'....        DC32     s_identifyActive
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_16:
+   \        0x0   0x....'....        DC32     s_currentOutput
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_17:
+   \        0x0   0x....'....        DC32     s_rawPortBOverrideActive
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_18:
+   \        0x0   0x....'....        DC32     s_rawPortBOverrideValue
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_19:
+   \        0x0   0x....'....        DC32     s_rawTimerOverrideActive
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_20:
+   \        0x0   0x....'....        DC32     s_rawTimerOverrideOutput
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_21:
+   \        0x0   0x....'....        DC32     s_directGpioActive
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_22:
+   \        0x0   0x....'....        DC32     s_initialized
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable25_23:
+   \        0x0   0x4000'BC00        DC32     0x4000bc00
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   apply_channel_polarity
+         8   -> timer_top_value
+       0   claim_portb_output_ownership
+       8   clamp_compare_value
+         8   -> timer_top_value
+      24   configure_gpio_for_output
+        24   -> claim_portb_output_ownership
+        24   -> gpio_output_mode_active
+        24   -> update_pin_cfg
+      24   configure_gpio_for_pwm
+        24   -> claim_portb_output_ownership
+        24   -> configure_gpio_for_output
+        24   -> gpio_pwm_mode_active
+        24   -> update_pin_cfg
+       0   configure_timer_for_pwm
+      16   em3555RgbwDriverApply
+        16   -> __aeabi_memcpy
+        16   -> em3555RgbwDriverInit
+         0   -> write_effective_output
+       0   em3555RgbwDriverCurrent
+       8   em3555RgbwDriverInit
+         8   -> claim_portb_output_ownership
+         8   -> configure_gpio_for_pwm
+         8   -> configure_timer_for_pwm
+         8   -> refresh_output_backend_state
+         0   -> write_effective_output
+       8   em3555RgbwDriverReadHardwareState
+         8   -> __aeabi_memcpy
+         8   -> read_timer_channel
+       8   em3555RgbwDriverSetDirectGpioMode
+         8   -> em3555RgbwDriverInit
+         0   -> write_effective_output
+       8   em3555RgbwDriverSetIdentify
+         8   -> em3555RgbwDriverInit
+         0   -> write_effective_output
+      16   em3555RgbwDriverSetRawPortBOutput
+        16   -> em3555RgbwDriverInit
+         0   -> write_effective_output
+      16   em3555RgbwDriverSetRawTimerOutput
+        16   -> __aeabi_memcpy
+        16   -> em3555RgbwDriverInit
+         0   -> write_effective_output
+      16   em3555RgbwDriverSetStatusOverride
+        16   -> __aeabi_memcpy
+        16   -> em3555RgbwDriverInit
+         0   -> write_effective_output
+       8   ensure_pwm_engine_ready
+         8   -> configure_gpio_for_pwm
+         8   -> configure_timer_for_pwm
+         0   -> refresh_output_backend_state
+         8   -> refresh_pin_mode_flags
+         8   -> timer_outputs_configured
+       0   gpio_output_mode_active
+         0   -> gpio_pin_cfg_matches
+      16   gpio_pin_cfg_matches
+        16   -> read_pin_cfg
+       0   gpio_pwm_mode_active
+         0   -> gpio_pin_cfg_matches
+       0   read_pin_cfg
+       0   read_timer_channel
+       8   refresh_output_backend_state
+         8   -> refresh_pin_mode_flags
+         8   -> timer_pwm_ready
+       8   refresh_pin_mode_flags
+         8   -> gpio_output_mode_active
+         8   -> gpio_pwm_mode_active
+       0   timer_outputs_configured
+       0   timer_pwm_ready
+         0   -> timer_outputs_configured
+       0   timer_top_value
+       0   update_pin_cfg
+       8   write_channels_to_gpio
+         0   -> write_gpio_mask
+         8   -> write_gpio_mask
+       8   write_channels_to_timer
+         8   -> apply_channel_polarity
+         8   -> em3555ColorMathScaleToPwm
+         8   -> timer_top_value
+         0   -> write_timer_channel
+         8   -> write_timer_channel
+      16   write_effective_output
+        16   -> configure_gpio_for_output
+        16   -> ensure_pwm_engine_ready
+         0   -> refresh_output_backend_state
+        16   -> refresh_output_backend_state
+        16   -> write_channels_to_gpio
+        16   -> write_channels_to_timer
+        16   -> write_raw_portb_output
+        16   -> write_raw_timer_channels
+       0   write_gpio_mask
+       0   write_raw_portb_output
+       8   write_raw_timer_channels
+         8   -> clamp_compare_value
+         0   -> write_timer_channel
+         8   -> write_timer_channel
+       0   write_timer_channel
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable25
+       4  ??DataTable25_1
+       4  ??DataTable25_10
+       4  ??DataTable25_11
+       4  ??DataTable25_12
+       4  ??DataTable25_13
+       4  ??DataTable25_14
+       4  ??DataTable25_15
+       4  ??DataTable25_16
+       4  ??DataTable25_17
+       4  ??DataTable25_18
+       4  ??DataTable25_19
+       4  ??DataTable25_2
+       4  ??DataTable25_20
+       4  ??DataTable25_21
+       4  ??DataTable25_22
+       4  ??DataTable25_23
+       4  ??DataTable25_3
+       4  ??DataTable25_4
+       4  ??DataTable25_5
+       4  ??DataTable25_6
+       4  ??DataTable25_7
+       4  ??DataTable25_8
+       4  ??DataTable25_9
+      20  apply_channel_polarity
+      14  claim_portb_output_ownership
+      16  clamp_compare_value
+      90  configure_gpio_for_output
+      90  configure_gpio_for_pwm
+      90  configure_timer_for_pwm
+      50  em3555RgbwDriverApply
+       4  em3555RgbwDriverCurrent
+     114  em3555RgbwDriverInit
+     276  em3555RgbwDriverReadHardwareState
+      26  em3555RgbwDriverSetDirectGpioMode
+      26  em3555RgbwDriverSetIdentify
+      36  em3555RgbwDriverSetRawPortBOutput
+      56  em3555RgbwDriverSetRawTimerOutput
+      56  em3555RgbwDriverSetStatusOverride
+      38  ensure_pwm_engine_ready
+      12  gpio_output_mode_active
+      62  gpio_pin_cfg_matches
+      12  gpio_pwm_mode_active
+       8  read_pin_cfg
+      58  read_timer_channel
+      30  refresh_output_backend_state
+      24  refresh_pin_mode_flags
+       8  s_currentOutput
+       1  s_directGpioActive
+       1  s_gpioFallbackActive
+       1  s_gpioPinsConfigured
+       1  s_identifyActive
+       1  s_initialized
+       1  s_pwmPinsConfigured
+       1  s_rawPortBOverrideActive
+       4  s_rawPortBOverrideValue
+       1  s_rawTimerOverrideActive
+       8  s_rawTimerOverrideOutput
+       1  s_requestedOn
+       8  s_requestedOutput
+       1  s_statusOverrideActive
+       8  s_statusOverrideOutput
+       2  s_timerTopValue
+       1  s_timerUsable
+      50  timer_outputs_configured
+       2  timer_pwm_ready
+      16  timer_top_value
+      18  update_pin_cfg
+      86  write_channels_to_gpio
+     110  write_channels_to_timer
+     178  write_effective_output
+      26  write_gpio_mask
+      16  write_raw_portb_output
+      62  write_raw_timer_channels
+      46  write_timer_channel
+
+ 
+    49 bytes in section .bss
+ 1'914 bytes in section .text
+ 
+ 1'914 bytes of CODE memory
+    49 bytes of DATA memory
+
+Errors: none
+Warnings: none

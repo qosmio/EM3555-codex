@@ -1,0 +1,811 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:00
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\message.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\message.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\message.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"message.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\message.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\message.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\message.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\message.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\message.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Code for manipulating the incoming and outgoing messages in a flat
+      4           * memory buffer.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          #include "app/framework/include/af.h"
+     20          #include "app/framework/util/util.h"
+     21          #include "app/framework/util/config.h"
+     22          
+     23          //------------------------------------------------------------------------------
+     24          
+     25          // these variables are for storing responses that are created by zcl-utils
+     26          // in functions called from emberIncomingMsgHandler. The response is sent
+     27          // from emberAfTick (meant to be called immediately after emberTick).
+     28          // There is only space for one response as each call to emberTick will
+     29          // only result in a single call to emberIncomingMsgHandler. If the device
+     30          // receives multiple ZCL messages, the stack will queue these and hand
+     31          // these to the application via emberIncomingMsgHandler one at a time.
+
+   \                                 In section .bss, align 4
+     32          EmberApsFrame      emberAfResponseApsFrame;
+   \                     emberAfResponseApsFrame:
+   \        0x0                      DS8 12
+
+   \                                 In section .bss, align 2
+     33          EmberNodeId        emberAfResponseDestination;
+   \                     emberAfResponseDestination:
+   \        0x0                      DS8 2
+
+   \                                 In section .bss, align 4
+     34          uint8_t  appResponseData[EMBER_AF_RESPONSE_BUFFER_LEN];
+   \                     appResponseData:
+   \        0x0                      DS8 84
+
+   \                                 In section .bss, align 2
+     35          uint16_t  appResponseLength;
+   \                     appResponseLength:
+   \        0x0                      DS8 2
+     36          
+     37          // Used for empty string
+
+   \                                 In section .bss, align 2
+     38          static uint16_t zeroLenByte = 0;
+   \                     zeroLenByte:
+   \        0x0                      DS8 2
+
+   \                                 In section .rodata, align 4
+     39          static uint8_t* zeroLenBytePtr = (uint8_t *)&zeroLenByte;
+   \                     zeroLenBytePtr:
+   \        0x0   0x....'....        DC32 zeroLenByte
+     40          
+     41          //------------------------------------------------------------------------------
+     42          // Utilities for adding bytes to the response buffer: appResponseData. These
+     43          // functions take care of incrementing appResponseLength.
+     44          
+
+   \                                 In section .text, align 2, keep-with-next
+     45          void emberAfClearResponseData(void)
+     46          {
+   \                     emberAfClearResponseData: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     47            emberAfResponseType = ZCL_UTIL_RESP_NORMAL;
+   \        0x2   0x2000             MOVS     R0,#+0
+   \        0x4   0x....             LDR.N    R1,??DataTable4
+   \        0x6   0x7008             STRB     R0,[R1, #+0]
+     48            // To prevent accidentally sending to someone else,
+     49            // set the destination to ourselves.
+     50            emberAfResponseDestination = emberAfGetNodeId();
+   \        0x8   0x.... 0x....      BL       emberAfGetNodeId
+   \        0xC   0x....             LDR.N    R1,??DataTable4_1
+   \        0xE   0x8008             STRH     R0,[R1, #+0]
+     51            MEMSET(appResponseData, 0, EMBER_AF_RESPONSE_BUFFER_LEN);
+   \       0x10   0x2200             MOVS     R2,#+0
+   \       0x12   0x2152             MOVS     R1,#+82
+   \       0x14   0x....             LDR.N    R0,??DataTable4_2
+   \       0x16   0x.... 0x....      BL       __aeabi_memset4
+     52            appResponseLength = 0;
+   \       0x1A   0x2000             MOVS     R0,#+0
+   \       0x1C   0x....             LDR.N    R1,??DataTable4_3
+   \       0x1E   0x8008             STRH     R0,[R1, #+0]
+     53            MEMSET(&emberAfResponseApsFrame, 0, sizeof(EmberApsFrame));
+   \       0x20   0x4602             MOV      R2,R0
+   \       0x22   0x210C             MOVS     R1,#+12
+   \       0x24   0x....             LDR.N    R0,??DataTable4_4
+   \       0x26   0xE8BD 0x4008      POP      {R3,LR}
+   \       0x2A   0x.... 0x....      B.W      __aeabi_memset4
+     54          }
+     55          
+
+   \                                 In section .text, align 2, keep-with-next
+     56          uint8_t * emberAfPutInt8uInResp(uint8_t value)
+     57          {
+   \                     emberAfPutInt8uInResp: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+     58            //emberAfDebugPrint("try %x max %x\r\n", appResponseLength, EMBER_AF_RESPONSE_BUFFER_LEN);
+     59            if (appResponseLength < EMBER_AF_RESPONSE_BUFFER_LEN) {
+   \        0x2   0x....             LDR.N    R1,??DataTable4_3
+   \        0x4   0x880A             LDRH     R2,[R1, #+0]
+   \        0x6   0x4613             MOV      R3,R2
+   \        0x8   0x2B52             CMP      R3,#+82
+   \        0xA   0xDA07             BGE.N    ??emberAfPutInt8uInResp_0
+     60              //emberAfDebugPrint("put %x at spot %x\r\n", value, appResponseLength);
+     61              appResponseData[appResponseLength] = value;
+   \        0xC   0x....             LDR.N    R4,??DataTable4_2
+   \        0xE   0x54E0             STRB     R0,[R4, R3]
+     62              appResponseLength++;
+   \       0x10   0x1C52             ADDS     R2,R2,#+1
+   \       0x12   0x800A             STRH     R2,[R1, #+0]
+     63              return &appResponseData[appResponseLength - 1];
+   \       0x14   0xB292             UXTH     R2,R2
+   \       0x16   0x18A0             ADDS     R0,R4,R2
+   \       0x18   0x1E40             SUBS     R0,R0,#+1
+   \       0x1A   0xE000             B.N      ??emberAfPutInt8uInResp_1
+     64            }
+     65          
+     66            return NULL;
+   \                     ??emberAfPutInt8uInResp_0: (+1)
+   \       0x1C   0x2000             MOVS     R0,#+0
+   \                     ??emberAfPutInt8uInResp_1: (+1)
+   \       0x1E   0xBC10             POP      {R4}
+   \       0x20   0x4770             BX       LR
+     67          }
+     68          
+
+   \                                 In section .text, align 2, keep-with-next
+     69          uint16_t * emberAfPutInt16uInResp(uint16_t value)
+     70          {
+   \                     emberAfPutInt16uInResp: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4605             MOV      R5,R0
+     71            uint8_t * low = emberAfPutInt8uInResp(LOW_BYTE(value));
+   \        0x4   0xB2C0             UXTB     R0,R0
+   \        0x6   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \        0xA   0x4604             MOV      R4,R0
+     72            uint8_t * high = emberAfPutInt8uInResp(HIGH_BYTE(value));
+   \        0xC   0x0A2D             LSRS     R5,R5,#+8
+   \        0xE   0x4628             MOV      R0,R5
+   \       0x10   0x.... 0x....      BL       emberAfPutInt8uInResp
+     73          
+     74            if (low && high) {
+   \       0x14   0x2C00             CMP      R4,#+0
+   \       0x16   0xD003             BEQ.N    ??emberAfPutInt16uInResp_0
+   \       0x18   0x2800             CMP      R0,#+0
+   \       0x1A   0xD001             BEQ.N    ??emberAfPutInt16uInResp_0
+     75              return (uint16_t *) low;
+   \       0x1C   0x4620             MOV      R0,R4
+   \       0x1E   0xBD32             POP      {R1,R4,R5,PC}
+     76            } else {
+     77              return NULL;
+   \                     ??emberAfPutInt16uInResp_0: (+1)
+   \       0x20   0x2000             MOVS     R0,#+0
+   \       0x22   0xBD32             POP      {R1,R4,R5,PC}
+     78            }
+     79          }
+     80          
+
+   \                                 In section .text, align 2, keep-with-next
+     81          uint32_t * emberAfPutInt32uInResp(uint32_t value)
+     82          {
+   \                     emberAfPutInt32uInResp: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4607             MOV      R7,R0
+     83            uint8_t * a =  emberAfPutInt8uInResp(BYTE_0(value));
+   \        0x4   0xB2C0             UXTB     R0,R0
+   \        0x6   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \        0xA   0x4604             MOV      R4,R0
+     84            uint8_t * b =  emberAfPutInt8uInResp(BYTE_1(value));
+   \        0xC   0x4638             MOV      R0,R7
+   \        0xE   0x0A00             LSRS     R0,R0,#+8
+   \       0x10   0xB2C0             UXTB     R0,R0
+   \       0x12   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x16   0x4605             MOV      R5,R0
+     85            uint8_t * c =  emberAfPutInt8uInResp(BYTE_2(value));
+   \       0x18   0x4638             MOV      R0,R7
+   \       0x1A   0x0C00             LSRS     R0,R0,#+16
+   \       0x1C   0xB2C0             UXTB     R0,R0
+   \       0x1E   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x22   0x4606             MOV      R6,R0
+     86            uint8_t * d =  emberAfPutInt8uInResp(BYTE_3(value));
+   \       0x24   0x0E3F             LSRS     R7,R7,#+24
+   \       0x26   0x4638             MOV      R0,R7
+   \       0x28   0x.... 0x....      BL       emberAfPutInt8uInResp
+     87          
+     88            if (a && b && c && d) {
+   \       0x2C   0x2C00             CMP      R4,#+0
+   \       0x2E   0xD007             BEQ.N    ??emberAfPutInt32uInResp_0
+   \       0x30   0x2D00             CMP      R5,#+0
+   \       0x32   0xD005             BEQ.N    ??emberAfPutInt32uInResp_0
+   \       0x34   0x2E00             CMP      R6,#+0
+   \       0x36   0xD003             BEQ.N    ??emberAfPutInt32uInResp_0
+   \       0x38   0x2800             CMP      R0,#+0
+   \       0x3A   0xD001             BEQ.N    ??emberAfPutInt32uInResp_0
+     89              return (uint32_t *)a;
+   \       0x3C   0x4620             MOV      R0,R4
+   \       0x3E   0xBDF2             POP      {R1,R4-R7,PC}
+     90            } else {
+     91              return NULL;
+   \                     ??emberAfPutInt32uInResp_0: (+1)
+   \       0x40   0x2000             MOVS     R0,#+0
+   \       0x42   0xBDF2             POP      {R1,R4-R7,PC}
+     92            }
+     93          }
+     94          
+
+   \                                 In section .text, align 2, keep-with-next
+     95          uint32_t * emberAfPutInt24uInResp(uint32_t value)
+     96          {
+   \                     emberAfPutInt24uInResp: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4606             MOV      R6,R0
+     97            uint8_t * a = emberAfPutInt8uInResp(BYTE_0(value));
+   \        0x4   0xB2C0             UXTB     R0,R0
+   \        0x6   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \        0xA   0x4604             MOV      R4,R0
+     98            uint8_t * b = emberAfPutInt8uInResp(BYTE_1(value));
+   \        0xC   0x4630             MOV      R0,R6
+   \        0xE   0x0A00             LSRS     R0,R0,#+8
+   \       0x10   0xB2C0             UXTB     R0,R0
+   \       0x12   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x16   0x4605             MOV      R5,R0
+     99            uint8_t * c = emberAfPutInt8uInResp(BYTE_2(value));
+   \       0x18   0x0C36             LSRS     R6,R6,#+16
+   \       0x1A   0x4630             MOV      R0,R6
+   \       0x1C   0xB2C0             UXTB     R0,R0
+   \       0x1E   0x.... 0x....      BL       emberAfPutInt8uInResp
+    100          
+    101            if (a && b && c) {
+   \       0x22   0x2C00             CMP      R4,#+0
+   \       0x24   0xD005             BEQ.N    ??emberAfPutInt24uInResp_0
+   \       0x26   0x2D00             CMP      R5,#+0
+   \       0x28   0xD003             BEQ.N    ??emberAfPutInt24uInResp_0
+   \       0x2A   0x2800             CMP      R0,#+0
+   \       0x2C   0xD001             BEQ.N    ??emberAfPutInt24uInResp_0
+    102              return (uint32_t *) a;
+   \       0x2E   0x4620             MOV      R0,R4
+   \       0x30   0xBD70             POP      {R4-R6,PC}
+    103            } else {
+    104              return NULL;
+   \                     ??emberAfPutInt24uInResp_0: (+1)
+   \       0x32   0x2000             MOVS     R0,#+0
+   \       0x34   0xBD70             POP      {R4-R6,PC}
+    105            }
+    106          }
+    107          
+
+   \                                 In section .text, align 2, keep-with-next
+    108          uint8_t * emberAfPutBlockInResp(const uint8_t* data, uint16_t length)
+    109          {
+   \                     emberAfPutBlockInResp: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0x460C             MOV      R4,R1
+    110            if ((appResponseLength + length) < EMBER_AF_RESPONSE_BUFFER_LEN) {
+   \        0x6   0x....             LDR.N    R5,??DataTable4_3
+   \        0x8   0x882E             LDRH     R6,[R5, #+0]
+   \        0xA   0x4633             MOV      R3,R6
+   \        0xC   0x4627             MOV      R7,R4
+   \        0xE   0x18F9             ADDS     R1,R7,R3
+   \       0x10   0x2952             CMP      R1,#+82
+   \       0x12   0xDA0E             BGE.N    ??emberAfPutBlockInResp_0
+    111              MEMMOVE(appResponseData + appResponseLength, data, length);
+   \       0x14   0x.... 0x....      LDR.W    R8,??DataTable4_2
+   \       0x18   0x4622             MOV      R2,R4
+   \       0x1A   0x4601             MOV      R1,R0
+   \       0x1C   0xEB08 0x0003      ADD      R0,R8,R3
+   \       0x20   0x.... 0x....      BL       __aeabi_memmove
+    112              appResponseLength += length;
+   \       0x24   0x19A4             ADDS     R4,R4,R6
+   \       0x26   0x802C             STRH     R4,[R5, #+0]
+    113              return &appResponseData[appResponseLength - length];
+   \       0x28   0xB2A4             UXTH     R4,R4
+   \       0x2A   0x1BE4             SUBS     R4,R4,R7
+   \       0x2C   0xEB08 0x0004      ADD      R0,R8,R4
+   \       0x30   0xE000             B.N      ??emberAfPutBlockInResp_1
+    114            } else {
+    115              return NULL;
+   \                     ??emberAfPutBlockInResp_0: (+1)
+   \       0x32   0x2000             MOVS     R0,#+0
+   \                     ??emberAfPutBlockInResp_1: (+1)
+   \       0x34   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    116            }
+    117          }
+    118          
+
+   \                                 In section .text, align 2, keep-with-next
+    119          uint8_t * emberAfPutStringInResp(const uint8_t *buffer)
+    120          {
+   \                     emberAfPutStringInResp: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    121            uint8_t length = emberAfStringLength(buffer);
+   \        0x4   0x.... 0x....      BL       emberAfStringLength
+    122            return emberAfPutBlockInResp(buffer, length + 1);
+   \        0x8   0x1C40             ADDS     R0,R0,#+1
+   \        0xA   0x4601             MOV      R1,R0
+   \        0xC   0x4620             MOV      R0,R4
+   \        0xE   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x12   0x....             B.N      emberAfPutBlockInResp
+    123          }
+    124          
+
+   \                                 In section .text, align 2, keep-with-next
+    125          uint8_t * emberAfPutDateInResp(EmberAfDate *value)
+    126          {
+   \                     emberAfPutDateInResp: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4607             MOV      R7,R0
+    127            uint8_t * a = emberAfPutInt8uInResp(value->year);
+   \        0x4   0x7838             LDRB     R0,[R7, #+0]
+   \        0x6   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \        0xA   0x4604             MOV      R4,R0
+    128            uint8_t * b = emberAfPutInt8uInResp(value->month);
+   \        0xC   0x7878             LDRB     R0,[R7, #+1]
+   \        0xE   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x12   0x4605             MOV      R5,R0
+    129            uint8_t * c = emberAfPutInt8uInResp(value->dayOfMonth);
+   \       0x14   0x78B8             LDRB     R0,[R7, #+2]
+   \       0x16   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x1A   0x4606             MOV      R6,R0
+    130            uint8_t * d = emberAfPutInt8uInResp(value->dayOfWeek);
+   \       0x1C   0x78F8             LDRB     R0,[R7, #+3]
+   \       0x1E   0x.... 0x....      BL       emberAfPutInt8uInResp
+    131          
+    132            if (a && b && c && d) {
+   \       0x22   0x2C00             CMP      R4,#+0
+   \       0x24   0xD007             BEQ.N    ??emberAfPutDateInResp_0
+   \       0x26   0x2D00             CMP      R5,#+0
+   \       0x28   0xD005             BEQ.N    ??emberAfPutDateInResp_0
+   \       0x2A   0x2E00             CMP      R6,#+0
+   \       0x2C   0xD003             BEQ.N    ??emberAfPutDateInResp_0
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD001             BEQ.N    ??emberAfPutDateInResp_0
+    133              return a;
+   \       0x32   0x4620             MOV      R0,R4
+   \       0x34   0xBDF2             POP      {R1,R4-R7,PC}
+    134            } else {
+    135              return NULL;
+   \                     ??emberAfPutDateInResp_0: (+1)
+   \       0x36   0x2000             MOVS     R0,#+0
+   \       0x38   0xBDF2             POP      {R1,R4-R7,PC}
+    136            }
+    137          }
+    138          
+    139          // ------------------------------------
+    140          // Utilities for reading from RAM buffers (reading from incoming message
+    141          // buffer)
+    142          // ------------------------------------
+    143          
+    144          // retrieves an uint32_t which contains between 1 and 4 bytes of relevent data
+    145          // depending on number of bytes requested.
+
+   \                                 In section .text, align 2, keep-with-next
+    146          uint32_t emberAfGetInt(const uint8_t* message,
+    147                                 uint16_t currentIndex,
+    148                                 uint16_t msgLen,
+    149                                 uint8_t bytes)
+    150          {
+   \                     emberAfGetInt: (+1)
+   \        0x0   0xB430             PUSH     {R4,R5}
+   \        0x2   0x4604             MOV      R4,R0
+    151            uint32_t result = 0;
+   \        0x4   0x2000             MOVS     R0,#+0
+    152            uint8_t i = bytes;
+   \        0x6   0x461D             MOV      R5,R3
+    153            if ((currentIndex + bytes) > msgLen) {
+   \        0x8   0x185B             ADDS     R3,R3,R1
+   \        0xA   0x429A             CMP      R2,R3
+   \        0xC   0xDA09             BGE.N    ??emberAfGetInt_0
+    154              emberAfDebugPrintln("GetInt, %x bytes short", bytes);
+    155              emberAfDebugFlush();
+    156              return 0;
+   \        0xE   0xE00C             B.N      ??emberAfGetInt_1
+    157            }
+    158            while (i > 0) {
+    159              result = (result << 8) + message[(currentIndex + i) - 1];
+   \                     ??emberAfGetInt_2: (+1)
+   \       0x10   0x462A             MOV      R2,R5
+   \       0x12   0xB2D2             UXTB     R2,R2
+   \       0x14   0x1852             ADDS     R2,R2,R1
+   \       0x16   0x18A2             ADDS     R2,R4,R2
+   \       0x18   0xF812 0x2C01      LDRB     R2,[R2, #-1]
+   \       0x1C   0xEB02 0x2000      ADD      R0,R2,R0, LSL #+8
+    160              i--;
+   \       0x20   0x1E6D             SUBS     R5,R5,#+1
+    161            }
+   \                     ??emberAfGetInt_0: (+1)
+   \       0x22   0x462A             MOV      R2,R5
+   \       0x24   0xB2D2             UXTB     R2,R2
+   \       0x26   0x2A00             CMP      R2,#+0
+   \       0x28   0xD1F2             BNE.N    ??emberAfGetInt_2
+    162            return result;
+   \                     ??emberAfGetInt_1: (+1)
+   \       0x2A   0xBC30             POP      {R4,R5}
+   \       0x2C   0x4770             BX       LR
+    163          }
+    164          
+
+   \                                 In section .text, align 2, keep-with-next
+    165          uint32_t emberAfGetInt32u(const uint8_t* message, uint16_t currentIndex, uint16_t msgLen)
+    166          {
+    167            return emberAfGetInt(message, currentIndex, msgLen, 4);
+   \                     emberAfGetInt32u: (+1)
+   \        0x0   0x2304             MOVS     R3,#+4
+   \        0x2   0x....             B.N      emberAfGetInt
+    168          }
+    169          
+
+   \                                 In section .text, align 2, keep-with-next
+    170          uint32_t emberAfGetInt24u(const uint8_t* message, uint16_t currentIndex, uint16_t msgLen)
+    171          {
+    172            return emberAfGetInt(message, currentIndex, msgLen, 3);
+   \                     emberAfGetInt24u: (+1)
+   \        0x0   0x2303             MOVS     R3,#+3
+   \        0x2   0x....             B.N      emberAfGetInt
+    173          }
+    174          
+
+   \                                 In section .text, align 2, keep-with-next
+    175          uint16_t emberAfGetInt16u(const uint8_t* message, uint16_t currentIndex, uint16_t msgLen)
+    176          {
+   \                     emberAfGetInt16u: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    177            return (uint16_t)emberAfGetInt(message, currentIndex, msgLen, 2);
+   \        0x2   0x2302             MOVS     R3,#+2
+   \        0x4   0x.... 0x....      BL       emberAfGetInt
+   \        0x8   0xB280             UXTH     R0,R0
+   \        0xA   0xBD02             POP      {R1,PC}
+    178          }
+    179          
+
+   \                                 In section .text, align 2, keep-with-next
+    180          uint8_t* emberAfGetString(uint8_t* message, uint16_t currentIndex, uint16_t msgLen)
+    181          {
+   \                     emberAfGetString: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x460C             MOV      R4,R1
+   \        0x4   0x4615             MOV      R5,R2
+    182            // Strings must contain at least one byte for the length.
+    183            if (msgLen <= currentIndex) {
+   \        0x6   0x4291             CMP      R1,R2
+   \        0x8   0xD302             BCC.N    ??emberAfGetString_0
+    184              emberAfDebugPrintln("GetString: %p", "buffer too short");
+    185              return zeroLenBytePtr;
+   \        0xA   0x....             LDR.N    R0,??DataTable4_5
+   \        0xC   0x6800             LDR      R0,[R0, #+0]
+   \        0xE   0xBD70             POP      {R4-R6,PC}
+    186            }
+    187          
+    188            // Starting from the current index, there must be enough bytes in the message
+    189            // for the string and the length byte.
+    190            if (msgLen < currentIndex + emberAfStringLength(&message[currentIndex]) + 1) {
+   \                     ??emberAfGetString_0: (+1)
+   \       0x10   0x1906             ADDS     R6,R0,R4
+   \       0x12   0x4630             MOV      R0,R6
+   \       0x14   0x.... 0x....      BL       emberAfStringLength
+   \       0x18   0x1904             ADDS     R4,R0,R4
+   \       0x1A   0x1C64             ADDS     R4,R4,#+1
+   \       0x1C   0x42A5             CMP      R5,R4
+   \       0x1E   0xDA02             BGE.N    ??emberAfGetString_1
+    191              emberAfDebugPrintln("GetString: %p", "len byte wrong");
+    192              return zeroLenBytePtr;
+   \       0x20   0x....             LDR.N    R0,??DataTable4_5
+   \       0x22   0x6800             LDR      R0,[R0, #+0]
+   \       0x24   0xBD70             POP      {R4-R6,PC}
+    193            }
+    194          
+    195            return &message[currentIndex];
+   \                     ??emberAfGetString_1: (+1)
+   \       0x26   0x4630             MOV      R0,R6
+   \       0x28   0xBD70             POP      {R4-R6,PC}
+    196          }
+    197          
+
+   \                                 In section .text, align 2, keep-with-next
+    198          uint8_t* emberAfGetLongString(uint8_t* message, uint16_t currentIndex, uint16_t msgLen)
+    199          {
+   \                     emberAfGetLongString: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x460C             MOV      R4,R1
+   \        0x4   0x4615             MOV      R5,R2
+    200            // Long strings must contain at least two bytes for the length.
+    201            if (msgLen <= currentIndex + 1) {
+   \        0x6   0x1C61             ADDS     R1,R4,#+1
+   \        0x8   0x42A9             CMP      R1,R5
+   \        0xA   0xDB02             BLT.N    ??emberAfGetLongString_0
+    202              emberAfDebugPrintln("GetLongString: %p", "buffer too short");
+    203              return zeroLenBytePtr;
+   \        0xC   0x....             LDR.N    R0,??DataTable4_5
+   \        0xE   0x6800             LDR      R0,[R0, #+0]
+   \       0x10   0xBD70             POP      {R4-R6,PC}
+    204            }
+    205          
+    206            // Starting from the current index, there must be enough bytes in the message
+    207            // for the string and the length bytes.
+    208            if (msgLen
+    209                < currentIndex + emberAfLongStringLength(&message[currentIndex]) + 2) {
+   \                     ??emberAfGetLongString_0: (+1)
+   \       0x12   0x1906             ADDS     R6,R0,R4
+   \       0x14   0x4630             MOV      R0,R6
+   \       0x16   0x.... 0x....      BL       emberAfLongStringLength
+   \       0x1A   0x1904             ADDS     R4,R0,R4
+   \       0x1C   0x1CA4             ADDS     R4,R4,#+2
+   \       0x1E   0x42A5             CMP      R5,R4
+   \       0x20   0xDA02             BGE.N    ??emberAfGetLongString_1
+    210              emberAfDebugPrintln("GetLongString: %p", "len bytes wrong");
+    211              return zeroLenBytePtr;
+   \       0x22   0x....             LDR.N    R0,??DataTable4_5
+   \       0x24   0x6800             LDR      R0,[R0, #+0]
+   \       0x26   0xBD70             POP      {R4-R6,PC}
+    212            }
+    213          
+    214            return &message[currentIndex];
+   \                     ??emberAfGetLongString_1: (+1)
+   \       0x28   0x4630             MOV      R0,R6
+   \       0x2A   0xBD70             POP      {R4-R6,PC}
+    215          }
+    216          
+
+   \                                 In section .text, align 2, keep-with-next
+    217          uint8_t emberAfStringLength(const uint8_t *buffer)
+    218          {
+    219            // The first byte specifies the length of the string.  A length of 0xFF means
+    220            // the string is invalid and there is no character data.
+    221            return (buffer[0] == 0xFF ? 0 : buffer[0]);
+   \                     emberAfStringLength: (+1)
+   \        0x0   0x7800             LDRB     R0,[R0, #+0]
+   \        0x2   0x28FF             CMP      R0,#+255
+   \        0x4   0xD100             BNE.N    ??emberAfStringLength_0
+   \        0x6   0x2000             MOVS     R0,#+0
+   \                     ??emberAfStringLength_0: (+1)
+   \        0x8   0x4770             BX       LR
+    222          }
+    223          
+
+   \                                 In section .text, align 2, keep-with-next
+    224          uint16_t emberAfLongStringLength(const uint8_t *buffer)
+    225          {
+   \                     emberAfLongStringLength: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    226            // The first two bytes specify the length of the long string.  A length of
+    227            // 0xFFFF means the string is invalid and there is no character data.
+    228            uint16_t length = emberAfGetInt16u(buffer, 0, 2);
+   \        0x2   0x2202             MOVS     R2,#+2
+   \        0x4   0x2100             MOVS     R1,#+0
+   \        0x6   0x.... 0x....      BL       emberAfGetInt16u
+    229            return (length == 0xFFFF ? 0 : length);
+   \        0xA   0x4601             MOV      R1,R0
+   \        0xC   0xF64F 0x72FF      MOVW     R2,#+65535
+   \       0x10   0x4291             CMP      R1,R2
+   \       0x12   0xD100             BNE.N    ??emberAfLongStringLength_0
+   \       0x14   0x2000             MOVS     R0,#+0
+   \                     ??emberAfLongStringLength_0: (+1)
+   \       0x16   0xBD02             POP      {R1,PC}
+    230          }
+    231          
+
+   \                                 In section .text, align 2, keep-with-next
+    232          uint8_t emberAfGetDate(uint8_t* message,
+    233                                 uint16_t currentIndex,
+    234                                 uint16_t msgLen,
+    235                                 EmberAfDate *destination)
+    236          {
+   \                     emberAfGetDate: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+    237            if ((currentIndex + 4) > msgLen) {
+   \        0x2   0x1D0C             ADDS     R4,R1,#+4
+   \        0x4   0x42A2             CMP      R2,R4
+   \        0x6   0xDA01             BGE.N    ??emberAfGetDate_0
+    238              emberAfDebugPrintln("GetDate, %x bytes short", 4);
+    239              emberAfDebugFlush();
+    240              return 0;
+   \        0x8   0x2000             MOVS     R0,#+0
+   \        0xA   0xE009             B.N      ??emberAfGetDate_1
+    241            }
+    242            destination->year       = message[(currentIndex + 0)];
+   \                     ??emberAfGetDate_0: (+1)
+   \        0xC   0x1840             ADDS     R0,R0,R1
+   \        0xE   0x7801             LDRB     R1,[R0, #+0]
+   \       0x10   0x7019             STRB     R1,[R3, #+0]
+    243            destination->month      = message[(currentIndex + 1)];
+   \       0x12   0x7841             LDRB     R1,[R0, #+1]
+   \       0x14   0x7059             STRB     R1,[R3, #+1]
+    244            destination->dayOfMonth = message[(currentIndex + 2)];
+   \       0x16   0x7881             LDRB     R1,[R0, #+2]
+   \       0x18   0x7099             STRB     R1,[R3, #+2]
+    245            destination->dayOfWeek  = message[(currentIndex + 3)];
+   \       0x1A   0x78C0             LDRB     R0,[R0, #+3]
+   \       0x1C   0x70D8             STRB     R0,[R3, #+3]
+    246            return 4;
+   \       0x1E   0x2004             MOVS     R0,#+4
+   \                     ??emberAfGetDate_1: (+1)
+   \       0x20   0xBC10             POP      {R4}
+   \       0x22   0x4770             BX       LR
+    247          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4:
+   \        0x0   0x....'....        DC32     emberAfResponseType
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_1:
+   \        0x0   0x....'....        DC32     emberAfResponseDestination
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_2:
+   \        0x0   0x....'....        DC32     appResponseData
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_3:
+   \        0x0   0x....'....        DC32     appResponseLength
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_4:
+   \        0x0   0x....'....        DC32     emberAfResponseApsFrame
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_5:
+   \        0x0   0x....'....        DC32     zeroLenBytePtr
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   emberAfClearResponseData
+         0   -> __aeabi_memset4
+         8   -> __aeabi_memset4
+         8   -> emberAfGetNodeId
+       4   emberAfGetDate
+       8   emberAfGetInt
+       8   emberAfGetInt16u
+         8   -> emberAfGetInt
+       0   emberAfGetInt24u
+         0   -> emberAfGetInt
+       0   emberAfGetInt32u
+         0   -> emberAfGetInt
+      16   emberAfGetLongString
+        16   -> emberAfLongStringLength
+      16   emberAfGetString
+        16   -> emberAfStringLength
+       8   emberAfLongStringLength
+         8   -> emberAfGetInt16u
+      24   emberAfPutBlockInResp
+        24   -> __aeabi_memmove
+      24   emberAfPutDateInResp
+        24   -> emberAfPutInt8uInResp
+      16   emberAfPutInt16uInResp
+        16   -> emberAfPutInt8uInResp
+      16   emberAfPutInt24uInResp
+        16   -> emberAfPutInt8uInResp
+      24   emberAfPutInt32uInResp
+        24   -> emberAfPutInt8uInResp
+       4   emberAfPutInt8uInResp
+       8   emberAfPutStringInResp
+         0   -> emberAfPutBlockInResp
+         8   -> emberAfStringLength
+       0   emberAfStringLength
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable4
+       4  ??DataTable4_1
+       4  ??DataTable4_2
+       4  ??DataTable4_3
+       4  ??DataTable4_4
+       4  ??DataTable4_5
+      84  appResponseData
+       2  appResponseLength
+      46  emberAfClearResponseData
+      36  emberAfGetDate
+      46  emberAfGetInt
+      12  emberAfGetInt16u
+       4  emberAfGetInt24u
+       4  emberAfGetInt32u
+      44  emberAfGetLongString
+      42  emberAfGetString
+      24  emberAfLongStringLength
+      56  emberAfPutBlockInResp
+      58  emberAfPutDateInResp
+      36  emberAfPutInt16uInResp
+      54  emberAfPutInt24uInResp
+      68  emberAfPutInt32uInResp
+      34  emberAfPutInt8uInResp
+      20  emberAfPutStringInResp
+      12  emberAfResponseApsFrame
+       2  emberAfResponseDestination
+      10  emberAfStringLength
+       2  zeroLenByte
+       4  zeroLenBytePtr
+
+ 
+ 102 bytes in section .bss
+   4 bytes in section .rodata
+ 618 bytes in section .text
+ 
+ 618 bytes of CODE  memory
+   4 bytes of CONST memory
+ 102 bytes of DATA  memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,2274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.matter_2.8.1">
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2898.73" downloadSizeKB="2898.73">
+    <property key="timeStamp" value="1774541431544"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2798.212" downloadSizeKB="2798.212">
+    <property key="timeStamp" value="1774541431548"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2915.566" downloadSizeKB="2915.566">
+    <property key="timeStamp" value="1774541431552"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2803.294" downloadSizeKB="2803.294">
+    <property key="timeStamp" value="1774541431556"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2878.422" downloadSizeKB="2878.422">
+    <property key="timeStamp" value="1774541431560"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2893.966" downloadSizeKB="2893.966">
+    <property key="timeStamp" value="1774541431564"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/platform-template-series-2-internal-solution-peripherals-icd/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2750.344" downloadSizeKB="2750.344">
+    <property key="timeStamp" value="1774541431567"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3020.918" downloadSizeKB="3020.918">
+    <property key="timeStamp" value="1774541431571"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2765.066" downloadSizeKB="2765.066">
+    <property key="timeStamp" value="1774541431575"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2618.36" downloadSizeKB="2618.36">
+    <property key="timeStamp" value="1774541431584"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3003.506" downloadSizeKB="3003.506">
+    <property key="timeStamp" value="1774541431591"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2764.126" downloadSizeKB="2764.126">
+    <property key="timeStamp" value="1774541431597"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2898.656" downloadSizeKB="2898.656">
+    <property key="timeStamp" value="1774541431602"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2902.316" downloadSizeKB="2902.316">
+    <property key="timeStamp" value="1774541431607"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/platform-template-series-2-internal-solution-peripherals/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2879.04" downloadSizeKB="2879.04">
+    <property key="timeStamp" value="1774541431612"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4337a/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="2952.762" downloadSizeKB="2952.762">
+    <property key="timeStamp" value="1774541431621"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution-peripherals-icd/platform-template/artifact/platform-template.s37" diskSizeKB="2948.334" downloadSizeKB="2948.334">
+    <property key="timeStamp" value="1774541431626"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution-peripherals-icd/artifact/platform-template-series-3-full.s37" diskSizeKB="3025.518" downloadSizeKB="3025.518">
+    <property key="timeStamp" value="1774541431631"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution-peripherals-icd/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431637"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution-peripherals-icd/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431640"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/bootloader-series-3-solution-btl_lockbit_override/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.22" downloadSizeKB="77.22">
+    <property key="timeStamp" value="1774541431645"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/bootloader-series-3-solution-btl_lockbit_override/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.204" downloadSizeKB="77.204">
+    <property key="timeStamp" value="1774541431648"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/refrigerator-app-series-3-solution/refrigerator-app/artifact/refrigerator-app.s37" diskSizeKB="3093.812" downloadSizeKB="3093.812">
+    <property key="timeStamp" value="1774541431653"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/refrigerator-app-series-3-solution/artifact/refrigerator-app-series-3-full.s37" diskSizeKB="3170.998" downloadSizeKB="3170.998">
+    <property key="timeStamp" value="1774541431658"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/refrigerator-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431661"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/refrigerator-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431663"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/window-app-series-3-solution/window-app/artifact/window-app.s37" diskSizeKB="2963.824" downloadSizeKB="2963.824">
+    <property key="timeStamp" value="1774541431668"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/window-app-series-3-solution/artifact/window-app-series-3-full.s37" diskSizeKB="3041.008" downloadSizeKB="3041.008">
+    <property key="timeStamp" value="1774541431673"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/window-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431675"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/window-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431677"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/onoff-plug-app-series-3-solution/artifact/onoff-plug-app-series-3-full.s37" diskSizeKB="3279.81" downloadSizeKB="3279.81">
+    <property key="timeStamp" value="1774541431682"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/onoff-plug-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431684"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/onoff-plug-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431686"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/onoff-plug-app-series-3-solution/onoff-plug-app/artifact/onoff-plug-app.s37" diskSizeKB="3202.624" downloadSizeKB="3202.624">
+    <property key="timeStamp" value="1774541431693"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/thermostat-series-3-solution/artifact/thermostat-series-3-full.s37" diskSizeKB="3229.81" downloadSizeKB="3229.81">
+    <property key="timeStamp" value="1774541431698"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/thermostat-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431700"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/thermostat-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431702"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/thermostat-series-3-solution/thermostat/artifact/thermostat-thread.s37" diskSizeKB="3152.638" downloadSizeKB="3152.638">
+    <property key="timeStamp" value="1774541431707"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/performance-test-app-series-3-solution/artifact/performance-test-app-series-3-full.s37" diskSizeKB="3080.34" downloadSizeKB="3080.34">
+    <property key="timeStamp" value="1774541431713"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/performance-test-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431715"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/performance-test-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431719"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/performance-test-app-series-3-solution/performance-test-app/artifact/performance-test-app.s37" diskSizeKB="3003.156" downloadSizeKB="3003.156">
+    <property key="timeStamp" value="1774541431724"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/rangehood-app-series-3-solution/artifact/rangehood-app-series-3-full.s37" diskSizeKB="3175.36" downloadSizeKB="3175.36">
+    <property key="timeStamp" value="1774541431729"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/rangehood-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431730"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/rangehood-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431731"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/rangehood-app-series-3-solution/rangehood-app/artifact/rangehood-app.s37" diskSizeKB="3098.174" downloadSizeKB="3098.174">
+    <property key="timeStamp" value="1774541431735"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution/platform-template/artifact/platform-template.s37" diskSizeKB="2815.71" downloadSizeKB="2815.71">
+    <property key="timeStamp" value="1774541431739"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution/artifact/platform-template-series-3-full.s37" diskSizeKB="2892.894" downloadSizeKB="2892.894">
+    <property key="timeStamp" value="1774541431742"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431743"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431744"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/light-switch-app-series-3-solution/light-switch-app/artifact/light-switch-app.s37" diskSizeKB="3077.556" downloadSizeKB="3077.556">
+    <property key="timeStamp" value="1774541431748"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/light-switch-app-series-3-solution/artifact/light-switch-app-series-3-full.s37" diskSizeKB="3154.742" downloadSizeKB="3154.742">
+    <property key="timeStamp" value="1774541431752"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/light-switch-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431753"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/light-switch-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431754"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/lighting-app-series-3-solution/lighting-app/artifact/lighting-app.s37" diskSizeKB="3220.244" downloadSizeKB="3220.244">
+    <property key="timeStamp" value="1774541431758"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/lighting-app-series-3-solution/artifact/lighting-app-series-3-full.s37" diskSizeKB="3297.43" downloadSizeKB="3297.43">
+    <property key="timeStamp" value="1774541431762"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/lighting-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431763"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/lighting-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431764"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/zigbee-matter-light-series-3-solution-sequential/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="4078.018" downloadSizeKB="4078.018">
+    <property key="timeStamp" value="1774541431769"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/zigbee-matter-light-series-3-solution-sequential/artifact/zigbee-matter-light-series-3-full.s37" diskSizeKB="4155.204" downloadSizeKB="4155.204">
+    <property key="timeStamp" value="1774541431773"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/zigbee-matter-light-series-3-solution-sequential/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431778"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/zigbee-matter-light-series-3-solution-sequential/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431779"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/multi-sensor-app-series-3-solution/multi-sensor-app/artifact/multi-sensor-app.s37" diskSizeKB="2963.156" downloadSizeKB="2963.156">
+    <property key="timeStamp" value="1774541431783"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/multi-sensor-app-series-3-solution/artifact/multi-sensor-app-series-3-full.s37" diskSizeKB="3040.34" downloadSizeKB="3040.34">
+    <property key="timeStamp" value="1774541431791"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/multi-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431797"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/multi-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431799"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/lock-app-series-3-solution/lock-app/artifact/lock-app.s37" diskSizeKB="3114.268" downloadSizeKB="3114.268">
+    <property key="timeStamp" value="1774541431803"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/lock-app-series-3-solution/artifact/lock-app-series-3-full.s37" diskSizeKB="3191.454" downloadSizeKB="3191.454">
+    <property key="timeStamp" value="1774541431809"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/lock-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431811"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/lock-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431813"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/thermostat-series-3-solution-cmp-concurrent/artifact/thermostat-series-3-full.s37" diskSizeKB="3963.146" downloadSizeKB="3963.146">
+    <property key="timeStamp" value="1774541431818"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/thermostat-series-3-solution-cmp-concurrent/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431820"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/thermostat-series-3-solution-cmp-concurrent/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431823"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/thermostat-series-3-solution-cmp-concurrent/thermostat/artifact/thermostat-thread.s37" diskSizeKB="3885.99" downloadSizeKB="3885.99">
+    <property key="timeStamp" value="1774541431828"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/air-quality-sensor-app-series-3-solution/air-quality-sensor-app/artifact/air-quality-sensor-app.s37" diskSizeKB="3098.072" downloadSizeKB="3098.072">
+    <property key="timeStamp" value="1774541431833"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/air-quality-sensor-app-series-3-solution/artifact/air-quality-sensor-app-series-3-full.s37" diskSizeKB="3175.258" downloadSizeKB="3175.258">
+    <property key="timeStamp" value="1774541431838"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/air-quality-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431840"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/air-quality-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431842"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/fan-control-app-series-3-solution/fan-control-app/artifact/fan-control-app.s37" diskSizeKB="3101.93" downloadSizeKB="3101.93">
+    <property key="timeStamp" value="1774541431846"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/fan-control-app-series-3-solution/artifact/fan-control-app-series-3-full.s37" diskSizeKB="3179.116" downloadSizeKB="3179.116">
+    <property key="timeStamp" value="1774541431851"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/fan-control-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431853"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/fan-control-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431855"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/closure-app-series-3-solution/closure-app/artifact/closure-app.s37" diskSizeKB="2997.714" downloadSizeKB="2997.714">
+    <property key="timeStamp" value="1774541431859"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/closure-app-series-3-solution/artifact/closure-app-series-3-full.s37" diskSizeKB="3074.898" downloadSizeKB="3074.898">
+    <property key="timeStamp" value="1774541431863"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/closure-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431865"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/closure-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431867"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution-peripherals/platform-template/artifact/platform-template.s37" diskSizeKB="3077.326" downloadSizeKB="3077.326">
+    <property key="timeStamp" value="1774541431871"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution-peripherals/artifact/platform-template-series-3-full.s37" diskSizeKB="3154.512" downloadSizeKB="3154.512">
+    <property key="timeStamp" value="1774541431876"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution-peripherals/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431878"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/platform-template-series-3-solution-peripherals/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431879"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/zigbee-matter-light-series-3-solution/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="4084.882" downloadSizeKB="4084.882">
+    <property key="timeStamp" value="1774541431885"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/zigbee-matter-light-series-3-solution/artifact/zigbee-matter-light-series-3-full.s37" diskSizeKB="4162.068" downloadSizeKB="4162.068">
+    <property key="timeStamp" value="1774541431890"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/zigbee-matter-light-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541431892"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2719a/zigbee-matter-light-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541431895"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2901.842" downloadSizeKB="2901.842">
+    <property key="timeStamp" value="1774541431900"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2801.34" downloadSizeKB="2801.34">
+    <property key="timeStamp" value="1774541431904"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2918.206" downloadSizeKB="2918.206">
+    <property key="timeStamp" value="1774541431908"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2806.214" downloadSizeKB="2806.214">
+    <property key="timeStamp" value="1774541431913"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2881.358" downloadSizeKB="2881.358">
+    <property key="timeStamp" value="1774541431917"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2897.078" downloadSizeKB="2897.078">
+    <property key="timeStamp" value="1774541431921"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/platform-template-series-2-internal-solution-peripherals-icd/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2751.92" downloadSizeKB="2751.92">
+    <property key="timeStamp" value="1774541431925"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3023.838" downloadSizeKB="3023.838">
+    <property key="timeStamp" value="1774541431930"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2767.306" downloadSizeKB="2767.306">
+    <property key="timeStamp" value="1774541431934"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2616.888" downloadSizeKB="2616.888">
+    <property key="timeStamp" value="1774541431942"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3006.442" downloadSizeKB="3006.442">
+    <property key="timeStamp" value="1774541431945"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/zigbee-matter-light-series-2-internal-solution-sequential/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3891.718" downloadSizeKB="3891.718">
+    <property key="timeStamp" value="1774541431950"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2766.846" downloadSizeKB="2766.846">
+    <property key="timeStamp" value="1774541431954"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2901.576" downloadSizeKB="2901.576">
+    <property key="timeStamp" value="1774541431957"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/zigbee-matter-light-series-2-internal-solution/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3891.526" downloadSizeKB="3891.526">
+    <property key="timeStamp" value="1774541431962"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2905.236" downloadSizeKB="2905.236">
+    <property key="timeStamp" value="1774541431966"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/platform-template-series-2-internal-solution-peripherals/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2881.0" downloadSizeKB="2881.0">
+    <property key="timeStamp" value="1774541431969"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2709a/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="2955.89" downloadSizeKB="2955.89">
+    <property key="timeStamp" value="1774541431973"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/lock-app-siwx-solution/artifact/lock-app-siwx.rps" diskSizeKB="719.68" downloadSizeKB="719.68">
+    <property key="timeStamp" value="1774541431975"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/oven-app-siwx-solution/artifact/oven-app-siwx.rps" diskSizeKB="654.86" downloadSizeKB="654.86">
+    <property key="timeStamp" value="1774541431976"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/rangehood-app-siwx-solution/artifact/rangehood-app-siwx.rps" diskSizeKB="647.224" downloadSizeKB="647.224">
+    <property key="timeStamp" value="1774541431978"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/closure-app-siwx-solution/artifact/closure-app-siwx.rps" diskSizeKB="665.996" downloadSizeKB="665.996">
+    <property key="timeStamp" value="1774541431979"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/light-switch-app-siwx-solution/artifact/light-switch-app-siwx.rps" diskSizeKB="679.524" downloadSizeKB="679.524">
+    <property key="timeStamp" value="1774541431981"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/thermostat-siwx-solution/artifact/thermostat-siwx.rps" diskSizeKB="659.588" downloadSizeKB="659.588">
+    <property key="timeStamp" value="1774541431982"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/window-app-siwx-solution/artifact/window-app-siwx.rps" diskSizeKB="669.596" downloadSizeKB="669.596">
+    <property key="timeStamp" value="1774541431984"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/air-quality-sensor-app-siwx-solution/artifact/air-quality-sensor-app-siwx.rps" diskSizeKB="641.676" downloadSizeKB="641.676">
+    <property key="timeStamp" value="1774541431985"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/fan-control-app-siwx-solution/artifact/fan-control-app-siwx.rps" diskSizeKB="644.196" downloadSizeKB="644.196">
+    <property key="timeStamp" value="1774541431987"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/multi-sensor-app-siwx-solution/artifact/multi-sensor-app-siwx.rps" diskSizeKB="660.6" downloadSizeKB="660.6">
+    <property key="timeStamp" value="1774541431988"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/lighting-app-siwx-solution/artifact/lighting-app-siwx.rps" diskSizeKB="688.192" downloadSizeKB="688.192">
+    <property key="timeStamp" value="1774541431990"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/refrigerator-app-siwx-solution/artifact/refrigerator-app-siwx.rps" diskSizeKB="641.092" downloadSizeKB="641.092">
+    <property key="timeStamp" value="1774541431993"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/onoff-plug-app-siwx-solution/artifact/onoff-plug-app-siwx.rps" diskSizeKB="676.64" downloadSizeKB="676.64">
+    <property key="timeStamp" value="1774541431996"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2911a/platform-template-siwx-solution/artifact/platform-template-siwx.rps" diskSizeKB="606.728" downloadSizeKB="606.728">
+    <property key="timeStamp" value="1774541432001"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/lock-app-siwx-solution/artifact/lock-app-siwx.rps" diskSizeKB="721.184" downloadSizeKB="721.184">
+    <property key="timeStamp" value="1774541432004"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/oven-app-siwx-solution/artifact/oven-app-siwx.rps" diskSizeKB="658.492" downloadSizeKB="658.492">
+    <property key="timeStamp" value="1774541432013"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/rangehood-app-siwx-solution/artifact/rangehood-app-siwx.rps" diskSizeKB="650.536" downloadSizeKB="650.536">
+    <property key="timeStamp" value="1774541432014"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/closure-app-siwx-solution/artifact/closure-app-siwx.rps" diskSizeKB="669.228" downloadSizeKB="669.228">
+    <property key="timeStamp" value="1774541432016"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/light-switch-app-siwx-solution/artifact/light-switch-app-siwx.rps" diskSizeKB="682.756" downloadSizeKB="682.756">
+    <property key="timeStamp" value="1774541432018"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/thermostat-siwx-solution/artifact/thermostat-siwx.rps" diskSizeKB="662.852" downloadSizeKB="662.852">
+    <property key="timeStamp" value="1774541432020"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/window-app-siwx-solution/artifact/window-app-siwx.rps" diskSizeKB="671.132" downloadSizeKB="671.132">
+    <property key="timeStamp" value="1774541432023"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/air-quality-sensor-app-siwx-solution/artifact/air-quality-sensor-app-siwx.rps" diskSizeKB="644.908" downloadSizeKB="644.908">
+    <property key="timeStamp" value="1774541432024"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/fan-control-app-siwx-solution/artifact/fan-control-app-siwx.rps" diskSizeKB="647.492" downloadSizeKB="647.492">
+    <property key="timeStamp" value="1774541432026"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/multi-sensor-app-siwx-solution/artifact/multi-sensor-app-siwx.rps" diskSizeKB="662.112" downloadSizeKB="662.112">
+    <property key="timeStamp" value="1774541432028"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/lighting-app-siwx-solution/artifact/lighting-app-siwx.rps" diskSizeKB="697.056" downloadSizeKB="697.056">
+    <property key="timeStamp" value="1774541432029"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/refrigerator-app-siwx-solution/artifact/refrigerator-app-siwx.rps" diskSizeKB="644.324" downloadSizeKB="644.324">
+    <property key="timeStamp" value="1774541432031"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/onoff-plug-app-siwx-solution/artifact/onoff-plug-app-siwx.rps" diskSizeKB="679.952" downloadSizeKB="679.952">
+    <property key="timeStamp" value="1774541432032"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2605a/platform-template-siwx-solution/artifact/platform-template-siwx.rps" diskSizeKB="607.6" downloadSizeKB="607.6">
+    <property key="timeStamp" value="1774541432034"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2899.21" downloadSizeKB="2899.21">
+    <property key="timeStamp" value="1774541432037"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2798.788" downloadSizeKB="2798.788">
+    <property key="timeStamp" value="1774541432043"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2916.142" downloadSizeKB="2916.142">
+    <property key="timeStamp" value="1774541432048"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2803.87" downloadSizeKB="2803.87">
+    <property key="timeStamp" value="1774541432055"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2878.902" downloadSizeKB="2878.902">
+    <property key="timeStamp" value="1774541432059"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2894.542" downloadSizeKB="2894.542">
+    <property key="timeStamp" value="1774541432066"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3021.494" downloadSizeKB="3021.494">
+    <property key="timeStamp" value="1774541432071"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2765.642" downloadSizeKB="2765.642">
+    <property key="timeStamp" value="1774541432086"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2618.84" downloadSizeKB="2618.84">
+    <property key="timeStamp" value="1774541432093"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3004.082" downloadSizeKB="3004.082">
+    <property key="timeStamp" value="1774541432098"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2764.702" downloadSizeKB="2764.702">
+    <property key="timeStamp" value="1774541432103"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2899.232" downloadSizeKB="2899.232">
+    <property key="timeStamp" value="1774541432112"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2902.892" downloadSizeKB="2902.892">
+    <property key="timeStamp" value="1774541432118"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4319a_a00/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="2953.338" downloadSizeKB="2953.338">
+    <property key="timeStamp" value="1774541432123"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/lock-app-siwx-solution/artifact/lock-app-siwx.rps" diskSizeKB="719.68" downloadSizeKB="719.68">
+    <property key="timeStamp" value="1774541432126"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/oven-app-siwx-solution/artifact/oven-app-siwx.rps" diskSizeKB="654.86" downloadSizeKB="654.86">
+    <property key="timeStamp" value="1774541432136"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/rangehood-app-siwx-solution/artifact/rangehood-app-siwx.rps" diskSizeKB="647.224" downloadSizeKB="647.224">
+    <property key="timeStamp" value="1774541432140"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/closure-app-siwx-solution/artifact/closure-app-siwx.rps" diskSizeKB="665.996" downloadSizeKB="665.996">
+    <property key="timeStamp" value="1774541432142"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/light-switch-app-siwx-solution/artifact/light-switch-app-siwx.rps" diskSizeKB="679.524" downloadSizeKB="679.524">
+    <property key="timeStamp" value="1774541432146"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/thermostat-siwx-solution/artifact/thermostat-siwx.rps" diskSizeKB="659.588" downloadSizeKB="659.588">
+    <property key="timeStamp" value="1774541432148"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/window-app-siwx-solution/artifact/window-app-siwx.rps" diskSizeKB="669.596" downloadSizeKB="669.596">
+    <property key="timeStamp" value="1774541432150"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/air-quality-sensor-app-siwx-solution/artifact/air-quality-sensor-app-siwx.rps" diskSizeKB="641.676" downloadSizeKB="641.676">
+    <property key="timeStamp" value="1774541432152"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/fan-control-app-siwx-solution/artifact/fan-control-app-siwx.rps" diskSizeKB="644.196" downloadSizeKB="644.196">
+    <property key="timeStamp" value="1774541432154"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/multi-sensor-app-siwx-solution/artifact/multi-sensor-app-siwx.rps" diskSizeKB="660.6" downloadSizeKB="660.6">
+    <property key="timeStamp" value="1774541432157"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/lighting-app-siwx-solution/artifact/lighting-app-siwx.rps" diskSizeKB="688.192" downloadSizeKB="688.192">
+    <property key="timeStamp" value="1774541432161"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/refrigerator-app-siwx-solution/artifact/refrigerator-app-siwx.rps" diskSizeKB="641.092" downloadSizeKB="641.092">
+    <property key="timeStamp" value="1774541432168"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/onoff-plug-app-siwx-solution/artifact/onoff-plug-app-siwx.rps" diskSizeKB="676.64" downloadSizeKB="676.64">
+    <property key="timeStamp" value="1774541432170"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2708a/platform-template-siwx-solution/artifact/platform-template-siwx.rps" diskSizeKB="606.728" downloadSizeKB="606.728">
+    <property key="timeStamp" value="1774541432176"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3940.548" downloadSizeKB="3940.548">
+    <property key="timeStamp" value="1774541432186"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3055.408" downloadSizeKB="3055.408">
+    <property key="timeStamp" value="1774541432192"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2945.836" downloadSizeKB="2945.836">
+    <property key="timeStamp" value="1774541432203"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/lock-app-917-ncp-solution/artifact/lock-app-917-ncp-full.s37" diskSizeKB="2179.898" downloadSizeKB="2179.898">
+    <property key="timeStamp" value="1774541432208"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/lock-app-917-ncp-solution-brd4357a/artifact/lock-app-917-ncp-full.s37" diskSizeKB="2177.21" downloadSizeKB="2177.21">
+    <property key="timeStamp" value="1774541432212"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2622.518" downloadSizeKB="2622.518">
+    <property key="timeStamp" value="1774541432215"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2953.022" downloadSizeKB="2953.022">
+    <property key="timeStamp" value="1774541432220"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2956.73" downloadSizeKB="2956.73">
+    <property key="timeStamp" value="1774541432224"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/lock-app-wf200-solution/artifact/lock-app-wf200-full.s37" diskSizeKB="3396.352" downloadSizeKB="3396.352">
+    <property key="timeStamp" value="1774541432229"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/thermostat-917-ncp-solution-brd4357a/artifact/thermostat-917-ncp-full.s37" diskSizeKB="2026.382" downloadSizeKB="2026.382">
+    <property key="timeStamp" value="1774541432232"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/window-app-917-ncp-solution-brd4357a/artifact/window-app-917-ncp-full.s37" diskSizeKB="2027.166" downloadSizeKB="2027.166">
+    <property key="timeStamp" value="1774541432235"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/window-app-917-ncp-solution/artifact/window-app-917-ncp-full.s37" diskSizeKB="2029.758" downloadSizeKB="2029.758">
+    <property key="timeStamp" value="1774541432239"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/thermostat-917-ncp-solution/artifact/thermostat-917-ncp-full.s37" diskSizeKB="2028.974" downloadSizeKB="2028.974">
+    <property key="timeStamp" value="1774541432242"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/fan-control-app-917-ncp-solution/artifact/fan-control-app-917-ncp-full.s37" diskSizeKB="1994.288" downloadSizeKB="1994.288">
+    <property key="timeStamp" value="1774541432245"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2960.648" downloadSizeKB="2960.648">
+    <property key="timeStamp" value="1774541432249"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2855.18" downloadSizeKB="2855.18">
+    <property key="timeStamp" value="1774541432253"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2967.332" downloadSizeKB="2967.332">
+    <property key="timeStamp" value="1774541432263"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2831.212" downloadSizeKB="2831.212">
+    <property key="timeStamp" value="1774541432274"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/fan-control-app-917-ncp-solution-brd4357a/artifact/fan-control-app-917-ncp-full.s37" diskSizeKB="1991.6" downloadSizeKB="1991.6">
+    <property key="timeStamp" value="1774541432278"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2930.132" downloadSizeKB="2930.132">
+    <property key="timeStamp" value="1774541432282"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3072.788" downloadSizeKB="3072.788">
+    <property key="timeStamp" value="1774541432286"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3029.68" downloadSizeKB="3029.68">
+    <property key="timeStamp" value="1774541432290"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3940.836" downloadSizeKB="3940.836">
+    <property key="timeStamp" value="1774541432295"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/thermostat-wf200-solution/artifact/thermostat-wf200-full.s37" diskSizeKB="3293.156" downloadSizeKB="3293.156">
+    <property key="timeStamp" value="1774541432299"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2855.154" downloadSizeKB="2855.154">
+    <property key="timeStamp" value="1774541432303"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4186c/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2821.264" downloadSizeKB="2821.264">
+    <property key="timeStamp" value="1774541432308"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2960.442" downloadSizeKB="2960.442">
+    <property key="timeStamp" value="1774541432313"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2854.828" downloadSizeKB="2854.828">
+    <property key="timeStamp" value="1774541432317"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2967.03" downloadSizeKB="2967.03">
+    <property key="timeStamp" value="1774541432321"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2854.878" downloadSizeKB="2854.878">
+    <property key="timeStamp" value="1774541432325"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2929.91" downloadSizeKB="2929.91">
+    <property key="timeStamp" value="1774541432329"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2945.63" downloadSizeKB="2945.63">
+    <property key="timeStamp" value="1774541432334"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3072.582" downloadSizeKB="3072.582">
+    <property key="timeStamp" value="1774541432338"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2820.962" downloadSizeKB="2820.962">
+    <property key="timeStamp" value="1774541432341"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2620.776" downloadSizeKB="2620.776">
+    <property key="timeStamp" value="1774541432344"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3055.186" downloadSizeKB="3055.186">
+    <property key="timeStamp" value="1774541432349"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/zigbee-matter-light-series-2-internal-solution-sequential/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3940.726" downloadSizeKB="3940.726">
+    <property key="timeStamp" value="1774541432354"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2831.678" downloadSizeKB="2831.678">
+    <property key="timeStamp" value="1774541432359"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2952.8" downloadSizeKB="2952.8">
+    <property key="timeStamp" value="1774541432363"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/zigbee-matter-light-series-2-internal-solution/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3940.534" downloadSizeKB="3940.534">
+    <property key="timeStamp" value="1774541432368"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2956.428" downloadSizeKB="2956.428">
+    <property key="timeStamp" value="1774541432372"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="3030.146" downloadSizeKB="3030.146">
+    <property key="timeStamp" value="1774541432377"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/platform-template-siwx-solution-peripherals-icd/artifact/platform-template-siwx.rps" diskSizeKB="685.256" downloadSizeKB="685.256">
+    <property key="timeStamp" value="1774541432379"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/lock-app-siwx-solution/artifact/lock-app-siwx.rps" diskSizeKB="741.848" downloadSizeKB="741.848">
+    <property key="timeStamp" value="1774541432381"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/oven-app-siwx-solution/artifact/oven-app-siwx.rps" diskSizeKB="678.896" downloadSizeKB="678.896">
+    <property key="timeStamp" value="1774541432383"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/rangehood-app-siwx-solution/artifact/rangehood-app-siwx.rps" diskSizeKB="671.344" downloadSizeKB="671.344">
+    <property key="timeStamp" value="1774541432385"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/closure-app-siwx-solution/artifact/closure-app-siwx.rps" diskSizeKB="690.864" downloadSizeKB="690.864">
+    <property key="timeStamp" value="1774541432387"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/light-switch-app-siwx-solution/artifact/light-switch-app-siwx.rps" diskSizeKB="702.7" downloadSizeKB="702.7">
+    <property key="timeStamp" value="1774541432389"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/thermostat-siwx-solution/artifact/thermostat-siwx.rps" diskSizeKB="686.852" downloadSizeKB="686.852">
+    <property key="timeStamp" value="1774541432391"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/window-app-siwx-solution/artifact/window-app-siwx.rps" diskSizeKB="693.364" downloadSizeKB="693.364">
+    <property key="timeStamp" value="1774541432393"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/air-quality-sensor-app-siwx-solution/artifact/air-quality-sensor-app-siwx.rps" diskSizeKB="668.228" downloadSizeKB="668.228">
+    <property key="timeStamp" value="1774541432395"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/fan-control-app-siwx-solution/artifact/fan-control-app-siwx.rps" diskSizeKB="668.284" downloadSizeKB="668.284">
+    <property key="timeStamp" value="1774541432397"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/multi-sensor-app-siwx-solution/artifact/multi-sensor-app-siwx.rps" diskSizeKB="683.768" downloadSizeKB="683.768">
+    <property key="timeStamp" value="1774541432399"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/platform-template-siwx-solution-peripherals/artifact/platform-template-siwx.rps" diskSizeKB="656.764" downloadSizeKB="656.764">
+    <property key="timeStamp" value="1774541432401"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/lighting-app-siwx-solution/artifact/lighting-app-siwx.rps" diskSizeKB="711.44" downloadSizeKB="711.44">
+    <property key="timeStamp" value="1774541432402"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/refrigerator-app-siwx-solution/artifact/refrigerator-app-siwx.rps" diskSizeKB="664.276" downloadSizeKB="664.276">
+    <property key="timeStamp" value="1774541432404"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/onoff-plug-app-siwx-solution/artifact/onoff-plug-app-siwx.rps" diskSizeKB="699.928" downloadSizeKB="699.928">
+    <property key="timeStamp" value="1774541432406"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4342a/platform-template-siwx-solution/artifact/platform-template-siwx.rps" diskSizeKB="607.6" downloadSizeKB="607.6">
+    <property key="timeStamp" value="1774541432409"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/bootloader-series-3-solution-btl_lockbit_override/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.22" downloadSizeKB="77.22">
+    <property key="timeStamp" value="1774541432410"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/bootloader-series-3-solution-btl_lockbit_override/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.204" downloadSizeKB="77.204">
+    <property key="timeStamp" value="1774541432413"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/refrigerator-app-series-3-solution/refrigerator-app/artifact/refrigerator-app.s37" diskSizeKB="3335.996" downloadSizeKB="3335.996">
+    <property key="timeStamp" value="1774541432417"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/refrigerator-app-series-3-solution/artifact/refrigerator-app-series-3-full.s37" diskSizeKB="3413.182" downloadSizeKB="3413.182">
+    <property key="timeStamp" value="1774541432421"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/refrigerator-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432423"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/refrigerator-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432424"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/window-app-series-3-solution/window-app/artifact/window-app.s37" diskSizeKB="3211.496" downloadSizeKB="3211.496">
+    <property key="timeStamp" value="1774541432429"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/window-app-series-3-solution/artifact/window-app-series-3-full.s37" diskSizeKB="3288.682" downloadSizeKB="3288.682">
+    <property key="timeStamp" value="1774541432433"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/window-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432435"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/window-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432436"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/onoff-plug-app-series-3-solution/artifact/onoff-plug-app-series-3-full.s37" diskSizeKB="3522.762" downloadSizeKB="3522.762">
+    <property key="timeStamp" value="1774541432440"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/onoff-plug-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432441"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/onoff-plug-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432443"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/onoff-plug-app-series-3-solution/onoff-plug-app/artifact/onoff-plug-app.s37" diskSizeKB="3445.576" downloadSizeKB="3445.576">
+    <property key="timeStamp" value="1774541432448"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/thermostat-series-3-solution/artifact/thermostat-series-3-full.s37" diskSizeKB="3498.106" downloadSizeKB="3498.106">
+    <property key="timeStamp" value="1774541432452"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/thermostat-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432454"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/thermostat-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432455"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/thermostat-series-3-solution/thermostat/artifact/thermostat-thread.s37" diskSizeKB="3420.934" downloadSizeKB="3420.934">
+    <property key="timeStamp" value="1774541432460"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/performance-test-app-series-3-solution/artifact/performance-test-app-series-3-full.s37" diskSizeKB="3322.638" downloadSizeKB="3322.638">
+    <property key="timeStamp" value="1774541432464"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/performance-test-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432466"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/performance-test-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432467"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/performance-test-app-series-3-solution/performance-test-app/artifact/performance-test-app.s37" diskSizeKB="3245.452" downloadSizeKB="3245.452">
+    <property key="timeStamp" value="1774541432471"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/rangehood-app-series-3-solution/artifact/rangehood-app-series-3-full.s37" diskSizeKB="3420.616" downloadSizeKB="3420.616">
+    <property key="timeStamp" value="1774541432476"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/rangehood-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432477"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/rangehood-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432479"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/rangehood-app-series-3-solution/rangehood-app/artifact/rangehood-app.s37" diskSizeKB="3343.43" downloadSizeKB="3343.43">
+    <property key="timeStamp" value="1774541432483"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/platform-template-series-3-solution/platform-template/artifact/platform-template.s37" diskSizeKB="3012.318" downloadSizeKB="3012.318">
+    <property key="timeStamp" value="1774541432487"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/platform-template-series-3-solution/artifact/platform-template-series-3-full.s37" diskSizeKB="3089.502" downloadSizeKB="3089.502">
+    <property key="timeStamp" value="1774541432491"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/platform-template-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432492"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/platform-template-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432494"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/light-switch-app-series-3-solution/light-switch-app/artifact/light-switch-app.s37" diskSizeKB="3320.62" downloadSizeKB="3320.62">
+    <property key="timeStamp" value="1774541432498"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/light-switch-app-series-3-solution/artifact/light-switch-app-series-3-full.s37" diskSizeKB="3397.806" downloadSizeKB="3397.806">
+    <property key="timeStamp" value="1774541432502"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/light-switch-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432503"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/light-switch-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432504"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/lighting-app-series-3-solution/lighting-app/artifact/lighting-app.s37" diskSizeKB="3463.212" downloadSizeKB="3463.212">
+    <property key="timeStamp" value="1774541432509"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/lighting-app-series-3-solution/artifact/lighting-app-series-3-full.s37" diskSizeKB="3540.398" downloadSizeKB="3540.398">
+    <property key="timeStamp" value="1774541432515"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/lighting-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432517"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/lighting-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432518"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/zigbee-matter-light-series-3-solution-sequential/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="4320.986" downloadSizeKB="4320.986">
+    <property key="timeStamp" value="1774541432522"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/zigbee-matter-light-series-3-solution-sequential/artifact/zigbee-matter-light-series-3-full.s37" diskSizeKB="4398.172" downloadSizeKB="4398.172">
+    <property key="timeStamp" value="1774541432527"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/zigbee-matter-light-series-3-solution-sequential/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432528"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/zigbee-matter-light-series-3-solution-sequential/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432529"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/multi-sensor-app-series-3-solution/multi-sensor-app/artifact/multi-sensor-app.s37" diskSizeKB="3222.316" downloadSizeKB="3222.316">
+    <property key="timeStamp" value="1774541432535"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/multi-sensor-app-series-3-solution/artifact/multi-sensor-app-series-3-full.s37" diskSizeKB="3299.502" downloadSizeKB="3299.502">
+    <property key="timeStamp" value="1774541432540"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/multi-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432541"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/multi-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432543"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/lock-app-series-3-solution/lock-app/artifact/lock-app.s37" diskSizeKB="3357.332" downloadSizeKB="3357.332">
+    <property key="timeStamp" value="1774541432547"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/lock-app-series-3-solution/artifact/lock-app-series-3-full.s37" diskSizeKB="3434.518" downloadSizeKB="3434.518">
+    <property key="timeStamp" value="1774541432552"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/lock-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432553"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/lock-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432554"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/thermostat-series-3-solution-cmp-concurrent/artifact/thermostat-series-3-full.s37" diskSizeKB="4232.29" downloadSizeKB="4232.29">
+    <property key="timeStamp" value="1774541432560"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/thermostat-series-3-solution-cmp-concurrent/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432561"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/thermostat-series-3-solution-cmp-concurrent/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432562"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/thermostat-series-3-solution-cmp-concurrent/thermostat/artifact/thermostat-thread.s37" diskSizeKB="4155.134" downloadSizeKB="4155.134">
+    <property key="timeStamp" value="1774541432567"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/air-quality-sensor-app-series-3-solution/air-quality-sensor-app/artifact/air-quality-sensor-app.s37" diskSizeKB="3351.024" downloadSizeKB="3351.024">
+    <property key="timeStamp" value="1774541432572"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/air-quality-sensor-app-series-3-solution/artifact/air-quality-sensor-app-series-3-full.s37" diskSizeKB="3428.21" downloadSizeKB="3428.21">
+    <property key="timeStamp" value="1774541432576"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/air-quality-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432578"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/air-quality-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432579"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/fan-control-app-series-3-solution/fan-control-app/artifact/fan-control-app.s37" diskSizeKB="3347.202" downloadSizeKB="3347.202">
+    <property key="timeStamp" value="1774541432583"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/fan-control-app-series-3-solution/artifact/fan-control-app-series-3-full.s37" diskSizeKB="3424.388" downloadSizeKB="3424.388">
+    <property key="timeStamp" value="1774541432588"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/fan-control-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432589"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/fan-control-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432591"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/closure-app-series-3-solution/closure-app/artifact/closure-app.s37" diskSizeKB="3245.394" downloadSizeKB="3245.394">
+    <property key="timeStamp" value="1774541432595"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/closure-app-series-3-solution/artifact/closure-app-series-3-full.s37" diskSizeKB="3322.58" downloadSizeKB="3322.58">
+    <property key="timeStamp" value="1774541432599"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/closure-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432601"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/closure-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432602"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/zigbee-matter-light-series-3-solution/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="4327.946" downloadSizeKB="4327.946">
+    <property key="timeStamp" value="1774541432608"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/zigbee-matter-light-series-3-solution/artifact/zigbee-matter-light-series-3-full.s37" diskSizeKB="4405.132" downloadSizeKB="4405.132">
+    <property key="timeStamp" value="1774541432613"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/zigbee-matter-light-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432616"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4408a/zigbee-matter-light-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432617"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3941.276" downloadSizeKB="3941.276">
+    <property key="timeStamp" value="1774541432622"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3056.04" downloadSizeKB="3056.04">
+    <property key="timeStamp" value="1774541432626"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2946.468" downloadSizeKB="2946.468">
+    <property key="timeStamp" value="1774541432631"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/lock-app-917-ncp-solution/artifact/lock-app-917-ncp-full.s37" diskSizeKB="2180.474" downloadSizeKB="2180.474">
+    <property key="timeStamp" value="1774541432634"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/lock-app-917-ncp-solution-brd4357a/artifact/lock-app-917-ncp-full.s37" diskSizeKB="2177.882" downloadSizeKB="2177.882">
+    <property key="timeStamp" value="1774541432638"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/lighting-app-series-2-solution-trustzone/artifact/lighting-app-series-2-full.s37" diskSizeKB="3259.078" downloadSizeKB="3259.078">
+    <property key="timeStamp" value="1774541432642"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/lighting-app-series-2-solution-trustzone/artifact/lighting-app-series-2-app-only.s37" diskSizeKB="3204.966" downloadSizeKB="3204.966">
+    <property key="timeStamp" value="1774541432646"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2623.15" downloadSizeKB="2623.15">
+    <property key="timeStamp" value="1774541432650"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2953.75" downloadSizeKB="2953.75">
+    <property key="timeStamp" value="1774541432654"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2957.362" downloadSizeKB="2957.362">
+    <property key="timeStamp" value="1774541432658"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/lock-app-wf200-solution/artifact/lock-app-wf200-full.s37" diskSizeKB="3396.984" downloadSizeKB="3396.984">
+    <property key="timeStamp" value="1774541432662"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/platform-template-series-2-solution-peripherals/artifact/platform-template-series-2-full.s37" diskSizeKB="2930.582" downloadSizeKB="2930.582">
+    <property key="timeStamp" value="1774541432666"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/thermostat-series-2-solution-cmp-concurrent/artifact/thermostat-series-2-full.s37" diskSizeKB="3767.842" downloadSizeKB="3767.842">
+    <property key="timeStamp" value="1774541432671"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/thermostat-917-ncp-solution-brd4357a/artifact/thermostat-917-ncp-full.s37" diskSizeKB="2026.958" downloadSizeKB="2026.958">
+    <property key="timeStamp" value="1774541432674"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/lighting-app-series-2-solution-multipan/artifact/lighting-app-series-2-full.s37" diskSizeKB="3263.918" downloadSizeKB="3263.918">
+    <property key="timeStamp" value="1774541432678"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/window-app-917-ncp-solution-brd4357a/artifact/window-app-917-ncp-full.s37" diskSizeKB="2027.742" downloadSizeKB="2027.742">
+    <property key="timeStamp" value="1774541432682"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/window-app-917-ncp-solution/artifact/window-app-917-ncp-full.s37" diskSizeKB="2030.43" downloadSizeKB="2030.43">
+    <property key="timeStamp" value="1774541432685"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/thermostat-917-ncp-solution/artifact/thermostat-917-ncp-full.s37" diskSizeKB="2029.646" downloadSizeKB="2029.646">
+    <property key="timeStamp" value="1774541432688"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/fan-control-app-917-ncp-solution/artifact/fan-control-app-917-ncp-full.s37" diskSizeKB="1994.864" downloadSizeKB="1994.864">
+    <property key="timeStamp" value="1774541432691"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2961.392" downloadSizeKB="2961.392">
+    <property key="timeStamp" value="1774541432695"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2855.812" downloadSizeKB="2855.812">
+    <property key="timeStamp" value="1774541432699"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2967.964" downloadSizeKB="2967.964">
+    <property key="timeStamp" value="1774541432703"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2831.844" downloadSizeKB="2831.844">
+    <property key="timeStamp" value="1774541432707"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/platform-template-series-2-solution-peripherals-icd/artifact/platform-template-series-2-full.s37" diskSizeKB="2801.71" downloadSizeKB="2801.71">
+    <property key="timeStamp" value="1774541432711"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/fan-control-app-917-ncp-solution-brd4357a/artifact/fan-control-app-917-ncp-full.s37" diskSizeKB="1992.176" downloadSizeKB="1992.176">
+    <property key="timeStamp" value="1774541432714"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2930.764" downloadSizeKB="2930.764">
+    <property key="timeStamp" value="1774541432719"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3073.42" downloadSizeKB="3073.42">
+    <property key="timeStamp" value="1774541432723"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3030.312" downloadSizeKB="3030.312">
+    <property key="timeStamp" value="1774541432728"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3941.564" downloadSizeKB="3941.564">
+    <property key="timeStamp" value="1774541432733"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/thermostat-wf200-solution/artifact/thermostat-wf200-full.s37" diskSizeKB="3293.884" downloadSizeKB="3293.884">
+    <property key="timeStamp" value="1774541432737"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2855.786" downloadSizeKB="2855.786">
+    <property key="timeStamp" value="1774541432741"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4187c/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2821.896" downloadSizeKB="2821.896">
+    <property key="timeStamp" value="1774541432744"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3942.836" downloadSizeKB="3942.836">
+    <property key="timeStamp" value="1774541432749"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3057.608" downloadSizeKB="3057.608">
+    <property key="timeStamp" value="1774541432752"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2948.036" downloadSizeKB="2948.036">
+    <property key="timeStamp" value="1774541432756"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2623.582" downloadSizeKB="2623.582">
+    <property key="timeStamp" value="1774541432760"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2955.318" downloadSizeKB="2955.318">
+    <property key="timeStamp" value="1774541432765"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2958.93" downloadSizeKB="2958.93">
+    <property key="timeStamp" value="1774541432774"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2962.96" downloadSizeKB="2962.96">
+    <property key="timeStamp" value="1774541432781"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2857.396" downloadSizeKB="2857.396">
+    <property key="timeStamp" value="1774541432789"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2969.548" downloadSizeKB="2969.548">
+    <property key="timeStamp" value="1774541432793"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2834.18" downloadSizeKB="2834.18">
+    <property key="timeStamp" value="1774541432801"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2932.332" downloadSizeKB="2932.332">
+    <property key="timeStamp" value="1774541432807"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3074.988" downloadSizeKB="3074.988">
+    <property key="timeStamp" value="1774541432813"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3032.648" downloadSizeKB="3032.648">
+    <property key="timeStamp" value="1774541432818"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3943.124" downloadSizeKB="3943.124">
+    <property key="timeStamp" value="1774541432823"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2857.354" downloadSizeKB="2857.354">
+    <property key="timeStamp" value="1774541432827"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4120a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2823.464" downloadSizeKB="2823.464">
+    <property key="timeStamp" value="1774541432830"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3921.62" downloadSizeKB="3921.62">
+    <property key="timeStamp" value="1774541432836"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3020.312" downloadSizeKB="3020.312">
+    <property key="timeStamp" value="1774541432840"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2911.06" downloadSizeKB="2911.06">
+    <property key="timeStamp" value="1774541432845"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2623.582" downloadSizeKB="2623.582">
+    <property key="timeStamp" value="1774541432848"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2915.462" downloadSizeKB="2915.462">
+    <property key="timeStamp" value="1774541432853"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2919.122" downloadSizeKB="2919.122">
+    <property key="timeStamp" value="1774541432857"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2915.728" downloadSizeKB="2915.728">
+    <property key="timeStamp" value="1774541432861"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2835.276" downloadSizeKB="2835.276">
+    <property key="timeStamp" value="1774541432865"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2932.172" downloadSizeKB="2932.172">
+    <property key="timeStamp" value="1774541432869"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2793.26" downloadSizeKB="2793.26">
+    <property key="timeStamp" value="1774541432873"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2895.228" downloadSizeKB="2895.228">
+    <property key="timeStamp" value="1774541432877"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3053.956" downloadSizeKB="3053.956">
+    <property key="timeStamp" value="1774541432881"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="2983.712" downloadSizeKB="2983.712">
+    <property key="timeStamp" value="1774541432885"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3921.908" downloadSizeKB="3921.908">
+    <property key="timeStamp" value="1774541432890"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2815.21" downloadSizeKB="2815.21">
+    <property key="timeStamp" value="1774541432894"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2608a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2781.272" downloadSizeKB="2781.272">
+    <property key="timeStamp" value="1774541432898"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution-peripherals-icd/platform-template/artifact/platform-template.s37" diskSizeKB="2994.79" downloadSizeKB="2994.79">
+    <property key="timeStamp" value="1774541432902"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution-peripherals-icd/artifact/platform-template-series-3-full.s37" diskSizeKB="3071.974" downloadSizeKB="3071.974">
+    <property key="timeStamp" value="1774541432906"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution-peripherals-icd/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432907"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution-peripherals-icd/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432908"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/bootloader-series-3-solution-btl_lockbit_override/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.22" downloadSizeKB="77.22">
+    <property key="timeStamp" value="1774541432910"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/bootloader-series-3-solution-btl_lockbit_override/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.204" downloadSizeKB="77.204">
+    <property key="timeStamp" value="1774541432911"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/refrigerator-app-series-3-solution/refrigerator-app/artifact/refrigerator-app.s37" diskSizeKB="3139.388" downloadSizeKB="3139.388">
+    <property key="timeStamp" value="1774541432915"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/refrigerator-app-series-3-solution/artifact/refrigerator-app-series-3-full.s37" diskSizeKB="3216.574" downloadSizeKB="3216.574">
+    <property key="timeStamp" value="1774541432920"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/refrigerator-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432921"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/refrigerator-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432922"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/window-app-series-3-solution/window-app/artifact/window-app.s37" diskSizeKB="3014.888" downloadSizeKB="3014.888">
+    <property key="timeStamp" value="1774541432926"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/window-app-series-3-solution/artifact/window-app-series-3-full.s37" diskSizeKB="3092.072" downloadSizeKB="3092.072">
+    <property key="timeStamp" value="1774541432930"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/window-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432933"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/window-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432937"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/onoff-plug-app-series-3-solution/artifact/onoff-plug-app-series-3-full.s37" diskSizeKB="3326.154" downloadSizeKB="3326.154">
+    <property key="timeStamp" value="1774541432941"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/onoff-plug-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432945"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/onoff-plug-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432947"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/onoff-plug-app-series-3-solution/onoff-plug-app/artifact/onoff-plug-app.s37" diskSizeKB="3248.968" downloadSizeKB="3248.968">
+    <property key="timeStamp" value="1774541432952"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/thermostat-series-3-solution/artifact/thermostat-series-3-full.s37" diskSizeKB="3301.498" downloadSizeKB="3301.498">
+    <property key="timeStamp" value="1774541432956"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/thermostat-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432958"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/thermostat-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432959"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/thermostat-series-3-solution/thermostat/artifact/thermostat-thread.s37" diskSizeKB="3224.326" downloadSizeKB="3224.326">
+    <property key="timeStamp" value="1774541432964"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/performance-test-app-series-3-solution/artifact/performance-test-app-series-3-full.s37" diskSizeKB="3126.028" downloadSizeKB="3126.028">
+    <property key="timeStamp" value="1774541432968"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/performance-test-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432969"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/performance-test-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432971"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/performance-test-app-series-3-solution/performance-test-app/artifact/performance-test-app.s37" diskSizeKB="3048.844" downloadSizeKB="3048.844">
+    <property key="timeStamp" value="1774541432975"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution-lto/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="3359.074" downloadSizeKB="3359.074">
+    <property key="timeStamp" value="1774541432979"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/rangehood-app-series-3-solution/artifact/rangehood-app-series-3-full.s37" diskSizeKB="3224.008" downloadSizeKB="3224.008">
+    <property key="timeStamp" value="1774541432983"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/rangehood-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432985"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/rangehood-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541432986"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/rangehood-app-series-3-solution/rangehood-app/artifact/rangehood-app.s37" diskSizeKB="3146.822" downloadSizeKB="3146.822">
+    <property key="timeStamp" value="1774541432990"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution/platform-template/artifact/platform-template.s37" diskSizeKB="2815.71" downloadSizeKB="2815.71">
+    <property key="timeStamp" value="1774541432994"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution/artifact/platform-template-series-3-full.s37" diskSizeKB="2892.894" downloadSizeKB="2892.894">
+    <property key="timeStamp" value="1774541432997"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541432999"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433000"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/light-switch-app-series-3-solution/light-switch-app/artifact/light-switch-app.s37" diskSizeKB="3124.012" downloadSizeKB="3124.012">
+    <property key="timeStamp" value="1774541433004"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/light-switch-app-series-3-solution/artifact/light-switch-app-series-3-full.s37" diskSizeKB="3201.198" downloadSizeKB="3201.198">
+    <property key="timeStamp" value="1774541433009"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/light-switch-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433010"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/light-switch-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433013"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lighting-app-series-3-solution/lighting-app/artifact/lighting-app.s37" diskSizeKB="3266.604" downloadSizeKB="3266.604">
+    <property key="timeStamp" value="1774541433018"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lighting-app-series-3-solution/artifact/lighting-app-series-3-full.s37" diskSizeKB="3343.79" downloadSizeKB="3343.79">
+    <property key="timeStamp" value="1774541433022"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lighting-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433024"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lighting-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433025"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution-sequential/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="4124.378" downloadSizeKB="4124.378">
+    <property key="timeStamp" value="1774541433030"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution-sequential/artifact/zigbee-matter-light-series-3-full.s37" diskSizeKB="4201.564" downloadSizeKB="4201.564">
+    <property key="timeStamp" value="1774541433036"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution-sequential/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433038"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution-sequential/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433039"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/multi-sensor-app-series-3-solution/multi-sensor-app/artifact/multi-sensor-app.s37" diskSizeKB="3025.708" downloadSizeKB="3025.708">
+    <property key="timeStamp" value="1774541433043"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/multi-sensor-app-series-3-solution/artifact/multi-sensor-app-series-3-full.s37" diskSizeKB="3102.892" downloadSizeKB="3102.892">
+    <property key="timeStamp" value="1774541433048"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/multi-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433049"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/multi-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433050"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lock-app-series-3-solution/lock-app/artifact/lock-app.s37" diskSizeKB="3160.724" downloadSizeKB="3160.724">
+    <property key="timeStamp" value="1774541433054"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lock-app-series-3-solution/artifact/lock-app-series-3-full.s37" diskSizeKB="3237.91" downloadSizeKB="3237.91">
+    <property key="timeStamp" value="1774541433060"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lock-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433062"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lock-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433063"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/thermostat-series-3-solution-cmp-concurrent/artifact/thermostat-series-3-full.s37" diskSizeKB="4035.682" downloadSizeKB="4035.682">
+    <property key="timeStamp" value="1774541433069"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/thermostat-series-3-solution-cmp-concurrent/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433070"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/thermostat-series-3-solution-cmp-concurrent/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433071"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/thermostat-series-3-solution-cmp-concurrent/thermostat/artifact/thermostat-thread.s37" diskSizeKB="3958.526" downloadSizeKB="3958.526">
+    <property key="timeStamp" value="1774541433076"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lock-app-series-3-solution-lto/lock-app/artifact/lock-app.s37" diskSizeKB="2442.892" downloadSizeKB="2442.892">
+    <property key="timeStamp" value="1774541433080"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/air-quality-sensor-app-series-3-solution/air-quality-sensor-app/artifact/air-quality-sensor-app.s37" diskSizeKB="3154.416" downloadSizeKB="3154.416">
+    <property key="timeStamp" value="1774541433084"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/air-quality-sensor-app-series-3-solution/artifact/air-quality-sensor-app-series-3-full.s37" diskSizeKB="3231.602" downloadSizeKB="3231.602">
+    <property key="timeStamp" value="1774541433088"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/air-quality-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433090"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/air-quality-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433091"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/fan-control-app-series-3-solution/fan-control-app/artifact/fan-control-app.s37" diskSizeKB="3150.594" downloadSizeKB="3150.594">
+    <property key="timeStamp" value="1774541433096"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/fan-control-app-series-3-solution/artifact/fan-control-app-series-3-full.s37" diskSizeKB="3227.78" downloadSizeKB="3227.78">
+    <property key="timeStamp" value="1774541433100"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/fan-control-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433102"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/fan-control-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433103"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/lighting-app-series-3-solution-lto/lighting-app/artifact/lighting-app.s37" diskSizeKB="2605.7" downloadSizeKB="2605.7">
+    <property key="timeStamp" value="1774541433107"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/closure-app-series-3-solution/closure-app/artifact/closure-app.s37" diskSizeKB="3048.786" downloadSizeKB="3048.786">
+    <property key="timeStamp" value="1774541433111"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/closure-app-series-3-solution/artifact/closure-app-series-3-full.s37" diskSizeKB="3125.97" downloadSizeKB="3125.97">
+    <property key="timeStamp" value="1774541433115"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/closure-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433117"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/closure-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433118"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution-peripherals/platform-template/artifact/platform-template.s37" diskSizeKB="3123.686" downloadSizeKB="3123.686">
+    <property key="timeStamp" value="1774541433122"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution-peripherals/artifact/platform-template-series-3-full.s37" diskSizeKB="3200.872" downloadSizeKB="3200.872">
+    <property key="timeStamp" value="1774541433126"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution-peripherals/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433128"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/platform-template-series-3-solution-peripherals/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433129"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="4131.338" downloadSizeKB="4131.338">
+    <property key="timeStamp" value="1774541433136"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution/artifact/zigbee-matter-light-series-3-full.s37" diskSizeKB="4208.524" downloadSizeKB="4208.524">
+    <property key="timeStamp" value="1774541433141"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433144"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4407a/zigbee-matter-light-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433147"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3943.036" downloadSizeKB="3943.036">
+    <property key="timeStamp" value="1774541433153"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3057.808" downloadSizeKB="3057.808">
+    <property key="timeStamp" value="1774541433157"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2948.252" downloadSizeKB="2948.252">
+    <property key="timeStamp" value="1774541433161"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2623.782" downloadSizeKB="2623.782">
+    <property key="timeStamp" value="1774541433165"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2955.518" downloadSizeKB="2955.518">
+    <property key="timeStamp" value="1774541433169"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2959.146" downloadSizeKB="2959.146">
+    <property key="timeStamp" value="1774541433173"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2963.16" downloadSizeKB="2963.16">
+    <property key="timeStamp" value="1774541433177"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2857.596" downloadSizeKB="2857.596">
+    <property key="timeStamp" value="1774541433181"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2969.748" downloadSizeKB="2969.748">
+    <property key="timeStamp" value="1774541433185"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2834.396" downloadSizeKB="2834.396">
+    <property key="timeStamp" value="1774541433189"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2932.532" downloadSizeKB="2932.532">
+    <property key="timeStamp" value="1774541433192"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3075.204" downloadSizeKB="3075.204">
+    <property key="timeStamp" value="1774541433196"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3032.864" downloadSizeKB="3032.864">
+    <property key="timeStamp" value="1774541433200"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3943.324" downloadSizeKB="3943.324">
+    <property key="timeStamp" value="1774541433205"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2857.57" downloadSizeKB="2857.57">
+    <property key="timeStamp" value="1774541433208"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4121a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2823.68" downloadSizeKB="2823.68">
+    <property key="timeStamp" value="1774541433212"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3055.048" downloadSizeKB="3055.048">
+    <property key="timeStamp" value="1774541433215"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2945.204" downloadSizeKB="2945.204">
+    <property key="timeStamp" value="1774541433220"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2625.43" downloadSizeKB="2625.43">
+    <property key="timeStamp" value="1774541433223"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2952.662" downloadSizeKB="2952.662">
+    <property key="timeStamp" value="1774541433227"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2956.29" downloadSizeKB="2956.29">
+    <property key="timeStamp" value="1774541433230"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2960.112" downloadSizeKB="2960.112">
+    <property key="timeStamp" value="1774541433234"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2854.836" downloadSizeKB="2854.836">
+    <property key="timeStamp" value="1774541433238"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2967.188" downloadSizeKB="2967.188">
+    <property key="timeStamp" value="1774541433241"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2831.068" downloadSizeKB="2831.068">
+    <property key="timeStamp" value="1774541433245"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2929.676" downloadSizeKB="2929.676">
+    <property key="timeStamp" value="1774541433249"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3072.444" downloadSizeKB="3072.444">
+    <property key="timeStamp" value="1774541433252"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3029.048" downloadSizeKB="3029.048">
+    <property key="timeStamp" value="1774541433256"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2854.522" downloadSizeKB="2854.522">
+    <property key="timeStamp" value="1774541433259"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4318a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2821.504" downloadSizeKB="2821.504">
+    <property key="timeStamp" value="1774541433263"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2959.442" downloadSizeKB="2959.442">
+    <property key="timeStamp" value="1774541433266"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2853.844" downloadSizeKB="2853.844">
+    <property key="timeStamp" value="1774541433269"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2966.03" downloadSizeKB="2966.03">
+    <property key="timeStamp" value="1774541433273"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2853.878" downloadSizeKB="2853.878">
+    <property key="timeStamp" value="1774541433276"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2928.926" downloadSizeKB="2928.926">
+    <property key="timeStamp" value="1774541433280"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2944.63" downloadSizeKB="2944.63">
+    <property key="timeStamp" value="1774541433284"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3071.582" downloadSizeKB="3071.582">
+    <property key="timeStamp" value="1774541433288"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2819.962" downloadSizeKB="2819.962">
+    <property key="timeStamp" value="1774541433291"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2619.776" downloadSizeKB="2619.776">
+    <property key="timeStamp" value="1774541433295"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3054.202" downloadSizeKB="3054.202">
+    <property key="timeStamp" value="1774541433298"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/zigbee-matter-light-series-2-internal-solution-sequential/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3939.726" downloadSizeKB="3939.726">
+    <property key="timeStamp" value="1774541433305"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2830.678" downloadSizeKB="2830.678">
+    <property key="timeStamp" value="1774541433309"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2951.816" downloadSizeKB="2951.816">
+    <property key="timeStamp" value="1774541433312"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/zigbee-matter-light-series-2-internal-solution/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3939.534" downloadSizeKB="3939.534">
+    <property key="timeStamp" value="1774541433317"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2955.428" downloadSizeKB="2955.428">
+    <property key="timeStamp" value="1774541433321"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="3029.146" downloadSizeKB="3029.146">
+    <property key="timeStamp" value="1774541433325"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3055.528" downloadSizeKB="3055.528">
+    <property key="timeStamp" value="1774541433329"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2945.78" downloadSizeKB="2945.78">
+    <property key="timeStamp" value="1774541433333"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2626.014" downloadSizeKB="2626.014">
+    <property key="timeStamp" value="1774541433336"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2953.238" downloadSizeKB="2953.238">
+    <property key="timeStamp" value="1774541433341"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2956.866" downloadSizeKB="2956.866">
+    <property key="timeStamp" value="1774541433345"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/platform-template-series-2-solution-peripherals/artifact/platform-template-series-2-full.s37" diskSizeKB="2930.95" downloadSizeKB="2930.95">
+    <property key="timeStamp" value="1774541433349"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2960.592" downloadSizeKB="2960.592">
+    <property key="timeStamp" value="1774541433352"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2855.316" downloadSizeKB="2855.316">
+    <property key="timeStamp" value="1774541433358"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2967.668" downloadSizeKB="2967.668">
+    <property key="timeStamp" value="1774541433362"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2831.644" downloadSizeKB="2831.644">
+    <property key="timeStamp" value="1774541433366"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/platform-template-series-2-solution-peripherals-icd/artifact/platform-template-series-2-full.s37" diskSizeKB="2802.558" downloadSizeKB="2802.558">
+    <property key="timeStamp" value="1774541433370"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2930.252" downloadSizeKB="2930.252">
+    <property key="timeStamp" value="1774541433374"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3072.924" downloadSizeKB="3072.924">
+    <property key="timeStamp" value="1774541433378"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3029.624" downloadSizeKB="3029.624">
+    <property key="timeStamp" value="1774541433382"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2855.002" downloadSizeKB="2855.002">
+    <property key="timeStamp" value="1774541433386"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4316a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2822.08" downloadSizeKB="2822.08">
+    <property key="timeStamp" value="1774541433390"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2898.866" downloadSizeKB="2898.866">
+    <property key="timeStamp" value="1774541433394"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2798.348" downloadSizeKB="2798.348">
+    <property key="timeStamp" value="1774541433398"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2915.694" downloadSizeKB="2915.694">
+    <property key="timeStamp" value="1774541433402"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2803.414" downloadSizeKB="2803.414">
+    <property key="timeStamp" value="1774541433413"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2878.558" downloadSizeKB="2878.558">
+    <property key="timeStamp" value="1774541433417"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2894.102" downloadSizeKB="2894.102">
+    <property key="timeStamp" value="1774541433421"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3021.054" downloadSizeKB="3021.054">
+    <property key="timeStamp" value="1774541433425"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2764.794" downloadSizeKB="2764.794">
+    <property key="timeStamp" value="1774541433429"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2619.568" downloadSizeKB="2619.568">
+    <property key="timeStamp" value="1774541433434"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3003.642" downloadSizeKB="3003.642">
+    <property key="timeStamp" value="1774541433439"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2764.238" downloadSizeKB="2764.238">
+    <property key="timeStamp" value="1774541433443"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2898.776" downloadSizeKB="2898.776">
+    <property key="timeStamp" value="1774541433447"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2902.452" downloadSizeKB="2902.452">
+    <property key="timeStamp" value="1774541433452"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2704a/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="2952.898" downloadSizeKB="2952.898">
+    <property key="timeStamp" value="1774541433456"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3942.836" downloadSizeKB="3942.836">
+    <property key="timeStamp" value="1774541433461"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3057.608" downloadSizeKB="3057.608">
+    <property key="timeStamp" value="1774541433466"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2948.036" downloadSizeKB="2948.036">
+    <property key="timeStamp" value="1774541433470"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2623.582" downloadSizeKB="2623.582">
+    <property key="timeStamp" value="1774541433473"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2955.318" downloadSizeKB="2955.318">
+    <property key="timeStamp" value="1774541433478"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2958.93" downloadSizeKB="2958.93">
+    <property key="timeStamp" value="1774541433482"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/platform-template-series-2-solution-peripherals/artifact/platform-template-series-2-full.s37" diskSizeKB="2932.15" downloadSizeKB="2932.15">
+    <property key="timeStamp" value="1774541433486"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/thermostat-series-2-solution-cmp-concurrent/artifact/thermostat-series-2-full.s37" diskSizeKB="3770.074" downloadSizeKB="3770.074">
+    <property key="timeStamp" value="1774541433490"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2962.96" downloadSizeKB="2962.96">
+    <property key="timeStamp" value="1774541433494"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2857.396" downloadSizeKB="2857.396">
+    <property key="timeStamp" value="1774541433498"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2969.548" downloadSizeKB="2969.548">
+    <property key="timeStamp" value="1774541433503"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2834.18" downloadSizeKB="2834.18">
+    <property key="timeStamp" value="1774541433506"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/platform-template-series-2-solution-peripherals-icd/artifact/platform-template-series-2-full.s37" diskSizeKB="2803.294" downloadSizeKB="2803.294">
+    <property key="timeStamp" value="1774541433510"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2932.332" downloadSizeKB="2932.332">
+    <property key="timeStamp" value="1774541433514"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3074.988" downloadSizeKB="3074.988">
+    <property key="timeStamp" value="1774541433518"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3032.648" downloadSizeKB="3032.648">
+    <property key="timeStamp" value="1774541433522"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3943.124" downloadSizeKB="3943.124">
+    <property key="timeStamp" value="1774541433526"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2857.354" downloadSizeKB="2857.354">
+    <property key="timeStamp" value="1774541433530"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4116a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2823.464" downloadSizeKB="2823.464">
+    <property key="timeStamp" value="1774541433535"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2960.442" downloadSizeKB="2960.442">
+    <property key="timeStamp" value="1774541433538"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2854.828" downloadSizeKB="2854.828">
+    <property key="timeStamp" value="1774541433542"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2967.03" downloadSizeKB="2967.03">
+    <property key="timeStamp" value="1774541433546"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2854.878" downloadSizeKB="2854.878">
+    <property key="timeStamp" value="1774541433550"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2929.91" downloadSizeKB="2929.91">
+    <property key="timeStamp" value="1774541433553"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2945.63" downloadSizeKB="2945.63">
+    <property key="timeStamp" value="1774541433557"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/platform-template-series-2-internal-solution-peripherals-icd/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2800.872" downloadSizeKB="2800.872">
+    <property key="timeStamp" value="1774541433561"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3072.582" downloadSizeKB="3072.582">
+    <property key="timeStamp" value="1774541433565"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2820.962" downloadSizeKB="2820.962">
+    <property key="timeStamp" value="1774541433568"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2620.776" downloadSizeKB="2620.776">
+    <property key="timeStamp" value="1774541433572"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3055.186" downloadSizeKB="3055.186">
+    <property key="timeStamp" value="1774541433576"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/zigbee-matter-light-series-2-internal-solution-sequential/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3940.726" downloadSizeKB="3940.726">
+    <property key="timeStamp" value="1774541433581"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2831.678" downloadSizeKB="2831.678">
+    <property key="timeStamp" value="1774541433584"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2952.8" downloadSizeKB="2952.8">
+    <property key="timeStamp" value="1774541433588"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/zigbee-matter-light-series-2-internal-solution/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3940.534" downloadSizeKB="3940.534">
+    <property key="timeStamp" value="1774541433592"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2956.428" downloadSizeKB="2956.428">
+    <property key="timeStamp" value="1774541433596"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/platform-template-series-2-internal-solution-peripherals/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2929.648" downloadSizeKB="2929.648">
+    <property key="timeStamp" value="1774541433599"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4351a_a02/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="3030.146" downloadSizeKB="3030.146">
+    <property key="timeStamp" value="1774541433603"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3918.18" downloadSizeKB="3918.18">
+    <property key="timeStamp" value="1774541433608"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3016.864" downloadSizeKB="3016.864">
+    <property key="timeStamp" value="1774541433611"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2907.596" downloadSizeKB="2907.596">
+    <property key="timeStamp" value="1774541433615"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2622.422" downloadSizeKB="2622.422">
+    <property key="timeStamp" value="1774541433619"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2911.998" downloadSizeKB="2911.998">
+    <property key="timeStamp" value="1774541433626"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2915.754" downloadSizeKB="2915.754">
+    <property key="timeStamp" value="1774541433630"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2912.36" downloadSizeKB="2912.36">
+    <property key="timeStamp" value="1774541433633"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2831.812" downloadSizeKB="2831.812">
+    <property key="timeStamp" value="1774541433637"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2928.724" downloadSizeKB="2928.724">
+    <property key="timeStamp" value="1774541433640"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2789.22" downloadSizeKB="2789.22">
+    <property key="timeStamp" value="1774541433644"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2891.78" downloadSizeKB="2891.78">
+    <property key="timeStamp" value="1774541433648"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3050.508" downloadSizeKB="3050.508">
+    <property key="timeStamp" value="1774541433652"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="2979.576" downloadSizeKB="2979.576">
+    <property key="timeStamp" value="1774541433655"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3918.468" downloadSizeKB="3918.468">
+    <property key="timeStamp" value="1774541433660"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2811.858" downloadSizeKB="2811.858">
+    <property key="timeStamp" value="1774541433664"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2601b/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2777.824" downloadSizeKB="2777.824">
+    <property key="timeStamp" value="1774541433667"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3942.892" downloadSizeKB="3942.892">
+    <property key="timeStamp" value="1774541433672"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3057.664" downloadSizeKB="3057.664">
+    <property key="timeStamp" value="1774541433675"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2948.108" downloadSizeKB="2948.108">
+    <property key="timeStamp" value="1774541433679"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2623.638" downloadSizeKB="2623.638">
+    <property key="timeStamp" value="1774541433682"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2955.374" downloadSizeKB="2955.374">
+    <property key="timeStamp" value="1774541433686"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2959.002" downloadSizeKB="2959.002">
+    <property key="timeStamp" value="1774541433690"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2963.016" downloadSizeKB="2963.016">
+    <property key="timeStamp" value="1774541433694"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2857.452" downloadSizeKB="2857.452">
+    <property key="timeStamp" value="1774541433697"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2969.604" downloadSizeKB="2969.604">
+    <property key="timeStamp" value="1774541433701"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2834.252" downloadSizeKB="2834.252">
+    <property key="timeStamp" value="1774541433704"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2932.388" downloadSizeKB="2932.388">
+    <property key="timeStamp" value="1774541433708"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3075.06" downloadSizeKB="3075.06">
+    <property key="timeStamp" value="1774541433712"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3032.72" downloadSizeKB="3032.72">
+    <property key="timeStamp" value="1774541433715"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3943.18" downloadSizeKB="3943.18">
+    <property key="timeStamp" value="1774541433719"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2857.426" downloadSizeKB="2857.426">
+    <property key="timeStamp" value="1774541433723"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4118a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2823.536" downloadSizeKB="2823.536">
+    <property key="timeStamp" value="1774541433726"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2900.122" downloadSizeKB="2900.122">
+    <property key="timeStamp" value="1774541433729"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2799.604" downloadSizeKB="2799.604">
+    <property key="timeStamp" value="1774541433733"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2916.47" downloadSizeKB="2916.47">
+    <property key="timeStamp" value="1774541433736"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2804.494" downloadSizeKB="2804.494">
+    <property key="timeStamp" value="1774541433740"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2879.622" downloadSizeKB="2879.622">
+    <property key="timeStamp" value="1774541433743"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2895.358" downloadSizeKB="2895.358">
+    <property key="timeStamp" value="1774541433746"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3022.118" downloadSizeKB="3022.118">
+    <property key="timeStamp" value="1774541433750"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2765.57" downloadSizeKB="2765.57">
+    <property key="timeStamp" value="1774541433753"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2616.016" downloadSizeKB="2616.016">
+    <property key="timeStamp" value="1774541433756"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3004.706" downloadSizeKB="3004.706">
+    <property key="timeStamp" value="1774541433760"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2765.126" downloadSizeKB="2765.126">
+    <property key="timeStamp" value="1774541433763"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2899.856" downloadSizeKB="2899.856">
+    <property key="timeStamp" value="1774541433766"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2903.516" downloadSizeKB="2903.516">
+    <property key="timeStamp" value="1774541433770"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd2703a/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="2954.154" downloadSizeKB="2954.154">
+    <property key="timeStamp" value="1774541433773"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/zigbee-matter-light-series-2-solution/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3943.036" downloadSizeKB="3943.036">
+    <property key="timeStamp" value="1774541433778"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3057.808" downloadSizeKB="3057.808">
+    <property key="timeStamp" value="1774541433781"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2948.252" downloadSizeKB="2948.252">
+    <property key="timeStamp" value="1774541433785"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2623.782" downloadSizeKB="2623.782">
+    <property key="timeStamp" value="1774541433788"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2955.518" downloadSizeKB="2955.518">
+    <property key="timeStamp" value="1774541433791"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2959.146" downloadSizeKB="2959.146">
+    <property key="timeStamp" value="1774541433795"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2963.16" downloadSizeKB="2963.16">
+    <property key="timeStamp" value="1774541433798"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2857.596" downloadSizeKB="2857.596">
+    <property key="timeStamp" value="1774541433801"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2969.748" downloadSizeKB="2969.748">
+    <property key="timeStamp" value="1774541433805"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2834.396" downloadSizeKB="2834.396">
+    <property key="timeStamp" value="1774541433808"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2932.532" downloadSizeKB="2932.532">
+    <property key="timeStamp" value="1774541433812"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3075.204" downloadSizeKB="3075.204">
+    <property key="timeStamp" value="1774541433815"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3032.864" downloadSizeKB="3032.864">
+    <property key="timeStamp" value="1774541433819"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/zigbee-matter-light-series-2-solution-sequential/artifact/zigbee-matter-light-series-2-full.s37" diskSizeKB="3943.324" downloadSizeKB="3943.324">
+    <property key="timeStamp" value="1774541433823"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2857.57" downloadSizeKB="2857.57">
+    <property key="timeStamp" value="1774541433826"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4117a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2823.68" downloadSizeKB="2823.68">
+    <property key="timeStamp" value="1774541433830"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/platform-template-siwx-solution-peripherals-icd/artifact/platform-template-siwx.rps" diskSizeKB="685.256" downloadSizeKB="685.256">
+    <property key="timeStamp" value="1774541433831"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/lock-app-siwx-solution/artifact/lock-app-siwx.rps" diskSizeKB="741.848" downloadSizeKB="741.848">
+    <property key="timeStamp" value="1774541433832"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/oven-app-siwx-solution/artifact/oven-app-siwx.rps" diskSizeKB="678.896" downloadSizeKB="678.896">
+    <property key="timeStamp" value="1774541433834"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/rangehood-app-siwx-solution/artifact/rangehood-app-siwx.rps" diskSizeKB="671.344" downloadSizeKB="671.344">
+    <property key="timeStamp" value="1774541433835"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/closure-app-siwx-solution/artifact/closure-app-siwx.rps" diskSizeKB="690.864" downloadSizeKB="690.864">
+    <property key="timeStamp" value="1774541433836"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/light-switch-app-siwx-solution/artifact/light-switch-app-siwx.rps" diskSizeKB="702.7" downloadSizeKB="702.7">
+    <property key="timeStamp" value="1774541433838"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/lighting-app-siwx-solution-lto/artifact/lighting-app-siwx.rps" diskSizeKB="690.972" downloadSizeKB="690.972">
+    <property key="timeStamp" value="1774541433839"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/thermostat-siwx-solution/artifact/thermostat-siwx.rps" diskSizeKB="686.852" downloadSizeKB="686.852">
+    <property key="timeStamp" value="1774541433841"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/window-app-siwx-solution/artifact/window-app-siwx.rps" diskSizeKB="693.364" downloadSizeKB="693.364">
+    <property key="timeStamp" value="1774541433842"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/air-quality-sensor-app-siwx-solution/artifact/air-quality-sensor-app-siwx.rps" diskSizeKB="668.228" downloadSizeKB="668.228">
+    <property key="timeStamp" value="1774541433846"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/fan-control-app-siwx-solution/artifact/fan-control-app-siwx.rps" diskSizeKB="668.284" downloadSizeKB="668.284">
+    <property key="timeStamp" value="1774541433848"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/multi-sensor-app-siwx-solution/artifact/multi-sensor-app-siwx.rps" diskSizeKB="683.768" downloadSizeKB="683.768">
+    <property key="timeStamp" value="1774541433850"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/platform-template-siwx-solution-peripherals/artifact/platform-template-siwx.rps" diskSizeKB="656.764" downloadSizeKB="656.764">
+    <property key="timeStamp" value="1774541433852"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/lighting-app-siwx-solution/artifact/lighting-app-siwx.rps" diskSizeKB="711.44" downloadSizeKB="711.44">
+    <property key="timeStamp" value="1774541433853"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/refrigerator-app-siwx-solution/artifact/refrigerator-app-siwx.rps" diskSizeKB="664.276" downloadSizeKB="664.276">
+    <property key="timeStamp" value="1774541433856"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/onoff-plug-app-siwx-solution/artifact/onoff-plug-app-siwx.rps" diskSizeKB="699.928" downloadSizeKB="699.928">
+    <property key="timeStamp" value="1774541433858"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4338a/platform-template-siwx-solution/artifact/platform-template-siwx.rps" diskSizeKB="607.6" downloadSizeKB="607.6">
+    <property key="timeStamp" value="1774541433860"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/air-quality-sensor-app-series-2-internal-solution/artifact/air-quality-sensor-app-series-2-internal-full.s37" diskSizeKB="2959.442" downloadSizeKB="2959.442">
+    <property key="timeStamp" value="1774541433864"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/closure-app-series-2-internal-solution/artifact/closure-app-series-2-internal-full.s37" diskSizeKB="2853.844" downloadSizeKB="2853.844">
+    <property key="timeStamp" value="1774541433868"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/lock-app-series-2-internal-solution/artifact/lock-app-series-2-internal-full.s37" diskSizeKB="2966.03" downloadSizeKB="2966.03">
+    <property key="timeStamp" value="1774541433872"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/performance-test-app-series-2-internal-solution/artifact/performance-test-app-series-2-internal-full.s37" diskSizeKB="2853.878" downloadSizeKB="2853.878">
+    <property key="timeStamp" value="1774541433876"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/light-switch-app-series-2-internal-solution/artifact/light-switch-app-series-2-internal-full.s37" diskSizeKB="2928.926" downloadSizeKB="2928.926">
+    <property key="timeStamp" value="1774541433880"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/refrigerator-app-series-2-internal-solution/artifact/refrigerator-app-series-2-internal-full.s37" diskSizeKB="2944.63" downloadSizeKB="2944.63">
+    <property key="timeStamp" value="1774541433884"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/lighting-app-series-2-internal-solution/artifact/lighting-app-series-2-internal-full.s37" diskSizeKB="3071.582" downloadSizeKB="3071.582">
+    <property key="timeStamp" value="1774541433888"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/window-app-series-2-internal-solution/artifact/window-app-series-2-internal-full.s37" diskSizeKB="2819.962" downloadSizeKB="2819.962">
+    <property key="timeStamp" value="1774541433892"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/platform-template-series-2-internal-solution/artifact/platform-template-series-2-internal-full.s37" diskSizeKB="2619.776" downloadSizeKB="2619.776">
+    <property key="timeStamp" value="1774541433897"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/onoff-plug-app-series-2-internal-solution/artifact/onoff-plug-app-series-2-internal-full.s37" diskSizeKB="3054.202" downloadSizeKB="3054.202">
+    <property key="timeStamp" value="1774541433901"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/zigbee-matter-light-series-2-internal-solution-sequential/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3939.726" downloadSizeKB="3939.726">
+    <property key="timeStamp" value="1774541433905"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/multi-sensor-app-series-2-internal-solution/artifact/multi-sensor-app-series-2-internal-full.s37" diskSizeKB="2830.678" downloadSizeKB="2830.678">
+    <property key="timeStamp" value="1774541433909"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/rangehood-app-series-2-internal-solution/artifact/rangehood-app-series-2-internal-full.s37" diskSizeKB="2951.816" downloadSizeKB="2951.816">
+    <property key="timeStamp" value="1774541433913"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/zigbee-matter-light-series-2-internal-solution/artifact/zigbee-matter-light-series-2-internal-full.s37" diskSizeKB="3939.534" downloadSizeKB="3939.534">
+    <property key="timeStamp" value="1774541433918"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/fan-control-app-series-2-internal-solution/artifact/fan-control-app-series-2-internal-full.s37" diskSizeKB="2955.428" downloadSizeKB="2955.428">
+    <property key="timeStamp" value="1774541433923"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4350a_a02/thermostat-series-2-internal-solution/artifact/thermostat-series-2-internal-full.s37" diskSizeKB="3029.146" downloadSizeKB="3029.146">
+    <property key="timeStamp" value="1774541433927"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution-peripherals-icd/platform-template/artifact/platform-template.s37" diskSizeKB="2993.99" downloadSizeKB="2993.99">
+    <property key="timeStamp" value="1774541433931"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution-peripherals-icd/artifact/platform-template-series-3-full.s37" diskSizeKB="3071.174" downloadSizeKB="3071.174">
+    <property key="timeStamp" value="1774541433935"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution-peripherals-icd/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433936"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution-peripherals-icd/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433938"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/bootloader-series-3-solution-btl_lockbit_override/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.22" downloadSizeKB="77.22">
+    <property key="timeStamp" value="1774541433939"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/bootloader-series-3-solution-btl_lockbit_override/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.204" downloadSizeKB="77.204">
+    <property key="timeStamp" value="1774541433940"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/refrigerator-app-series-3-solution/refrigerator-app/artifact/refrigerator-app.s37" diskSizeKB="3137.068" downloadSizeKB="3137.068">
+    <property key="timeStamp" value="1774541433945"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/refrigerator-app-series-3-solution/artifact/refrigerator-app-series-3-full.s37" diskSizeKB="3214.254" downloadSizeKB="3214.254">
+    <property key="timeStamp" value="1774541433949"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/refrigerator-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433951"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/refrigerator-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433952"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/window-app-series-3-solution/window-app/artifact/window-app.s37" diskSizeKB="3013.32" downloadSizeKB="3013.32">
+    <property key="timeStamp" value="1774541433958"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/window-app-series-3-solution/artifact/window-app-series-3-full.s37" diskSizeKB="3090.504" downloadSizeKB="3090.504">
+    <property key="timeStamp" value="1774541433962"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/window-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433964"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/window-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433965"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/onoff-plug-app-series-3-solution/artifact/onoff-plug-app-series-3-full.s37" diskSizeKB="3324.602" downloadSizeKB="3324.602">
+    <property key="timeStamp" value="1774541433969"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/onoff-plug-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433971"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/onoff-plug-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433972"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/onoff-plug-app-series-3-solution/onoff-plug-app/artifact/onoff-plug-app.s37" diskSizeKB="3247.416" downloadSizeKB="3247.416">
+    <property key="timeStamp" value="1774541433976"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/thermostat-series-3-solution/artifact/thermostat-series-3-full.s37" diskSizeKB="3299.162" downloadSizeKB="3299.162">
+    <property key="timeStamp" value="1774541433980"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/thermostat-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541433982"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/thermostat-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541433985"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/thermostat-series-3-solution/thermostat/artifact/thermostat-thread.s37" diskSizeKB="3221.99" downloadSizeKB="3221.99">
+    <property key="timeStamp" value="1774541433994"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/performance-test-app-series-3-solution/artifact/performance-test-app-series-3-full.s37" diskSizeKB="3124.46" downloadSizeKB="3124.46">
+    <property key="timeStamp" value="1774541434003"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/performance-test-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434005"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/performance-test-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434006"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/performance-test-app-series-3-solution/performance-test-app/artifact/performance-test-app.s37" diskSizeKB="3047.276" downloadSizeKB="3047.276">
+    <property key="timeStamp" value="1774541434010"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/rangehood-app-series-3-solution/artifact/rangehood-app-series-3-full.s37" diskSizeKB="3221.688" downloadSizeKB="3221.688">
+    <property key="timeStamp" value="1774541434015"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/rangehood-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434016"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/rangehood-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434017"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/rangehood-app-series-3-solution/rangehood-app/artifact/rangehood-app.s37" diskSizeKB="3144.502" downloadSizeKB="3144.502">
+    <property key="timeStamp" value="1774541434021"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution/platform-template/artifact/platform-template.s37" diskSizeKB="2815.71" downloadSizeKB="2815.71">
+    <property key="timeStamp" value="1774541434024"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution/artifact/platform-template-series-3-full.s37" diskSizeKB="2892.894" downloadSizeKB="2892.894">
+    <property key="timeStamp" value="1774541434028"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434029"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434030"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/light-switch-app-series-3-solution/light-switch-app/artifact/light-switch-app.s37" diskSizeKB="3121.7" downloadSizeKB="3121.7">
+    <property key="timeStamp" value="1774541434034"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/light-switch-app-series-3-solution/artifact/light-switch-app-series-3-full.s37" diskSizeKB="3198.886" downloadSizeKB="3198.886">
+    <property key="timeStamp" value="1774541434038"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/light-switch-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434039"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/light-switch-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434040"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/lighting-app-series-3-solution/lighting-app/artifact/lighting-app.s37" diskSizeKB="3264.268" downloadSizeKB="3264.268">
+    <property key="timeStamp" value="1774541434044"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/lighting-app-series-3-solution/artifact/lighting-app-series-3-full.s37" diskSizeKB="3341.454" downloadSizeKB="3341.454">
+    <property key="timeStamp" value="1774541434052"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/lighting-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434054"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/lighting-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434055"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/zigbee-matter-light-series-3-solution-sequential/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="4122.81" downloadSizeKB="4122.81">
+    <property key="timeStamp" value="1774541434060"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/zigbee-matter-light-series-3-solution-sequential/artifact/zigbee-matter-light-series-3-full.s37" diskSizeKB="4199.996" downloadSizeKB="4199.996">
+    <property key="timeStamp" value="1774541434064"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/zigbee-matter-light-series-3-solution-sequential/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434065"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/zigbee-matter-light-series-3-solution-sequential/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434066"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/multi-sensor-app-series-3-solution/multi-sensor-app/artifact/multi-sensor-app.s37" diskSizeKB="3024.14" downloadSizeKB="3024.14">
+    <property key="timeStamp" value="1774541434070"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/multi-sensor-app-series-3-solution/artifact/multi-sensor-app-series-3-full.s37" diskSizeKB="3101.324" downloadSizeKB="3101.324">
+    <property key="timeStamp" value="1774541434073"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/multi-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434074"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/multi-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434075"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/lock-app-series-3-solution/lock-app/artifact/lock-app.s37" diskSizeKB="3159.172" downloadSizeKB="3159.172">
+    <property key="timeStamp" value="1774541434078"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/lock-app-series-3-solution/artifact/lock-app-series-3-full.s37" diskSizeKB="3236.358" downloadSizeKB="3236.358">
+    <property key="timeStamp" value="1774541434082"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/lock-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434083"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/lock-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434084"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/thermostat-series-3-solution-cmp-concurrent/artifact/thermostat-series-3-full.s37" diskSizeKB="4033.362" downloadSizeKB="4033.362">
+    <property key="timeStamp" value="1774541434088"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/thermostat-series-3-solution-cmp-concurrent/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434089"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/thermostat-series-3-solution-cmp-concurrent/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434090"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/thermostat-series-3-solution-cmp-concurrent/thermostat/artifact/thermostat-thread.s37" diskSizeKB="3956.19" downloadSizeKB="3956.19">
+    <property key="timeStamp" value="1774541434095"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/air-quality-sensor-app-series-3-solution/air-quality-sensor-app/artifact/air-quality-sensor-app.s37" diskSizeKB="3152.096" downloadSizeKB="3152.096">
+    <property key="timeStamp" value="1774541434099"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/air-quality-sensor-app-series-3-solution/artifact/air-quality-sensor-app-series-3-full.s37" diskSizeKB="3229.282" downloadSizeKB="3229.282">
+    <property key="timeStamp" value="1774541434103"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/air-quality-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434104"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/air-quality-sensor-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434105"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/fan-control-app-series-3-solution/fan-control-app/artifact/fan-control-app.s37" diskSizeKB="3148.258" downloadSizeKB="3148.258">
+    <property key="timeStamp" value="1774541434109"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/fan-control-app-series-3-solution/artifact/fan-control-app-series-3-full.s37" diskSizeKB="3225.444" downloadSizeKB="3225.444">
+    <property key="timeStamp" value="1774541434113"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/fan-control-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434114"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/fan-control-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434115"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/closure-app-series-3-solution/closure-app/artifact/closure-app.s37" diskSizeKB="3046.45" downloadSizeKB="3046.45">
+    <property key="timeStamp" value="1774541434119"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/closure-app-series-3-solution/artifact/closure-app-series-3-full.s37" diskSizeKB="3123.634" downloadSizeKB="3123.634">
+    <property key="timeStamp" value="1774541434123"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/closure-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434124"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/closure-app-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434124"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution-peripherals/platform-template/artifact/platform-template.s37" diskSizeKB="3122.902" downloadSizeKB="3122.902">
+    <property key="timeStamp" value="1774541434128"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution-peripherals/artifact/platform-template-series-3-full.s37" diskSizeKB="3200.088" downloadSizeKB="3200.088">
+    <property key="timeStamp" value="1774541434133"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution-peripherals/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434134"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/platform-template-series-3-solution-peripherals/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434135"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/zigbee-matter-light-series-3-solution/zigbee-matter-light/artifact/zigbee-matter-light.s37" diskSizeKB="4129.77" downloadSizeKB="4129.77">
+    <property key="timeStamp" value="1774541434139"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/zigbee-matter-light-series-3-solution/artifact/zigbee-matter-light-series-3-full.s37" diskSizeKB="4206.956" downloadSizeKB="4206.956">
+    <property key="timeStamp" value="1774541434144"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/zigbee-matter-light-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k-crc.s37" diskSizeKB="77.316" downloadSizeKB="77.316">
+    <property key="timeStamp" value="1774541434145"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd1019a,SIMG301M113WIH/zigbee-matter-light-series-3-solution/matter-bootloader/artifact/matter-bootloader-storage-single-4096k.s37" diskSizeKB="77.3" downloadSizeKB="77.3">
+    <property key="timeStamp" value="1774541434146"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/platform-template-siwx-solution-peripherals-icd/artifact/platform-template-siwx.rps" diskSizeKB="684.304" downloadSizeKB="684.304">
+    <property key="timeStamp" value="1774541434148"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/lock-app-siwx-solution/artifact/lock-app-siwx.rps" diskSizeKB="740.864" downloadSizeKB="740.864">
+    <property key="timeStamp" value="1774541434149"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/oven-app-siwx-solution/artifact/oven-app-siwx.rps" diskSizeKB="678.024" downloadSizeKB="678.024">
+    <property key="timeStamp" value="1774541434151"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/rangehood-app-siwx-solution/artifact/rangehood-app-siwx.rps" diskSizeKB="670.456" downloadSizeKB="670.456">
+    <property key="timeStamp" value="1774541434154"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/closure-app-siwx-solution/artifact/closure-app-siwx.rps" diskSizeKB="689.992" downloadSizeKB="689.992">
+    <property key="timeStamp" value="1774541434156"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/light-switch-app-siwx-solution/artifact/light-switch-app-siwx.rps" diskSizeKB="701.828" downloadSizeKB="701.828">
+    <property key="timeStamp" value="1774541434158"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/thermostat-siwx-solution/artifact/thermostat-siwx.rps" diskSizeKB="685.996" downloadSizeKB="685.996">
+    <property key="timeStamp" value="1774541434160"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/window-app-siwx-solution/artifact/window-app-siwx.rps" diskSizeKB="692.396" downloadSizeKB="692.396">
+    <property key="timeStamp" value="1774541434161"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/air-quality-sensor-app-siwx-solution/artifact/air-quality-sensor-app-siwx.rps" diskSizeKB="667.372" downloadSizeKB="667.372">
+    <property key="timeStamp" value="1774541434163"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/fan-control-app-siwx-solution/artifact/fan-control-app-siwx.rps" diskSizeKB="667.412" downloadSizeKB="667.412">
+    <property key="timeStamp" value="1774541434166"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/multi-sensor-app-siwx-solution/artifact/multi-sensor-app-siwx.rps" diskSizeKB="682.784" downloadSizeKB="682.784">
+    <property key="timeStamp" value="1774541434168"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/platform-template-siwx-solution-peripherals/artifact/platform-template-siwx.rps" diskSizeKB="655.892" downloadSizeKB="655.892">
+    <property key="timeStamp" value="1774541434170"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/lighting-app-siwx-solution/artifact/lighting-app-siwx.rps" diskSizeKB="710.6" downloadSizeKB="710.6">
+    <property key="timeStamp" value="1774541434171"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/refrigerator-app-siwx-solution/artifact/refrigerator-app-siwx.rps" diskSizeKB="663.404" downloadSizeKB="663.404">
+    <property key="timeStamp" value="1774541434173"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/onoff-plug-app-siwx-solution/artifact/onoff-plug-app-siwx.rps" diskSizeKB="699.04" downloadSizeKB="699.04">
+    <property key="timeStamp" value="1774541434175"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4343a/platform-template-siwx-solution/artifact/platform-template-siwx.rps" diskSizeKB="606.728" downloadSizeKB="606.728">
+    <property key="timeStamp" value="1774541434177"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/onoff-plug-app-series-2-solution/artifact/onoff-plug-app-series-2-full.s37" diskSizeKB="3056.432" downloadSizeKB="3056.432">
+    <property key="timeStamp" value="1774541434181"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/refrigerator-app-series-2-solution/artifact/refrigerator-app-series-2-full.s37" diskSizeKB="2946.668" downloadSizeKB="2946.668">
+    <property key="timeStamp" value="1774541434185"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/platform-template-series-2-solution/artifact/platform-template-series-2-full.s37" diskSizeKB="2626.918" downloadSizeKB="2626.918">
+    <property key="timeStamp" value="1774541434189"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/rangehood-app-series-2-solution/artifact/rangehood-app-series-2-full.s37" diskSizeKB="2954.142" downloadSizeKB="2954.142">
+    <property key="timeStamp" value="1774541434192"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/fan-control-app-series-2-solution/artifact/fan-control-app-series-2-full.s37" diskSizeKB="2957.754" downloadSizeKB="2957.754">
+    <property key="timeStamp" value="1774541434197"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/air-quality-sensor-app-series-2-solution/artifact/air-quality-sensor-app-series-2-full.s37" diskSizeKB="2961.496" downloadSizeKB="2961.496">
+    <property key="timeStamp" value="1774541434201"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/performance-test-app-series-2-solution/artifact/performance-test-app-series-2-full.s37" diskSizeKB="2856.22" downloadSizeKB="2856.22">
+    <property key="timeStamp" value="1774541434205"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/lock-app-series-2-solution/artifact/lock-app-series-2-full.s37" diskSizeKB="2968.572" downloadSizeKB="2968.572">
+    <property key="timeStamp" value="1774541434209"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/multi-sensor-app-series-2-solution/artifact/multi-sensor-app-series-2-full.s37" diskSizeKB="2832.548" downloadSizeKB="2832.548">
+    <property key="timeStamp" value="1774541434213"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/light-switch-app-series-2-solution/artifact/light-switch-app-series-2-full.s37" diskSizeKB="2931.156" downloadSizeKB="2931.156">
+    <property key="timeStamp" value="1774541434216"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/lighting-app-series-2-solution/artifact/lighting-app-series-2-full.s37" diskSizeKB="3073.812" downloadSizeKB="3073.812">
+    <property key="timeStamp" value="1774541434220"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/thermostat-series-2-solution/artifact/thermostat-series-2-full.s37" diskSizeKB="3030.512" downloadSizeKB="3030.512">
+    <property key="timeStamp" value="1774541434224"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/closure-app-series-2-solution/artifact/closure-app-series-2-full.s37" diskSizeKB="2855.986" downloadSizeKB="2855.986">
+    <property key="timeStamp" value="1774541434228"/>
+  </assets>
+  <assets path="/extension.matter_2.8.1/demos/brd4317a/window-app-series-2-solution/artifact/window-app-series-2-full.s37" diskSizeKB="2822.984" downloadSizeKB="2822.984">
+    <property key="timeStamp" value="1774541434232"/>
+  </assets>
+</assets>

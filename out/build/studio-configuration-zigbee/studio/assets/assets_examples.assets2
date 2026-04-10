@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_examples">
+  <assets path="/examples/ble_2000/examples_thunderboard_sense.zip" diskSizeKB="20095.8" downloadSizeKB="7884.06" directory="true"/>
+  <assets version="1.1" path="/examples/ble_2000/examples_thunderboard_sense/doc/ug250_tb001_user_guide.pdf" diskSizeKB="3654.519" downloadSizeKB="3654.519" category="User's Guides" label="UG250: Thunderboard Sense User's Guide"/>
+  <assets version="1.1" path="/examples/ble_2000/examples_thunderboard_sense/doc/ug251_tb001_app_user_guide.pdf" diskSizeKB="2087.45" downloadSizeKB="2087.45" category="User's Guides" label="UG251: Thunderboard Sense Bluetooth Low Energy Demo User's Guide"/>
+  <assets path="/examples/icon_stack_40x40.png" diskSizeKB="3.96" downloadSizeKB="3.96"/>
+  <assets path="/examples/templates.repos" diskSizeKB="13.816" downloadSizeKB="13.816"/>
+  <assets path="/examples/wf200/examples_wf200.zip" diskSizeKB="1312.282" downloadSizeKB="297.499" directory="true"/>
+</assets>

@@ -1,0 +1,67 @@
+4.3.10
+	SV5.10.0 release changes
+4.3.9
+  Improve support for firmware download in minimal Studio install.
+4.3.8
+  SV5.9.3.0 release
+4.3.7
+  SV5.9.1.1 release
+4.3.6
+  Minor bug fixes and improvements.
+4.3.5
+	Minor bug fixes and improvements.
+4.3.4
+	SV5.7 release notes
+4.3.3
+	Minor bug fix.
+4.3.2
+	Fix bug manually detecting secure parts in Debug OUT mode
+4.3.1
+	Address issue with module revision suffix that was causing device detection problems.
+4.3.0
+	Updates for Eclipse 4.23 and Studio SV5.4.0.0
+4.2.14
+	Fix bug relating to use of external debug adapter
+4.2.13
+	Fix bug when configuring device connected to JLink PRO
+4.2.12
+	Add support for Multi-Project Solutions
+	Add support to detect target MCU of device in Debug OUT mode
+4.2.11
+	Code maintenance.
+4.2.10
+	General updates to support debugger bug fixes
+4.2.9
+	Enable support for PG22 parts
+4.2.8
+	Enable support for XG22 parts
+4.2.7
+	Fix incorrect address for 32 bit binary upload operations. 
+4.2.6
+	Enable Secure Part functionality for BG21 and FG21
+4.2.5
+	Improve to API for working with device target interface
+4.2.4
+	Improvement to infrastructure API
+4.2.3
+	Improve support for secure parts
+4.2.2
+	General bug fixes
+4.2.1
+	Laying down some groundwork for new features
+4.2.0
+	General bug fixes
+4.0.7
+	Allow flashing demos without bootloader
+4.0.6
+	Add warning string in case flashing result in error
+4.0.5
+	Support for specifying bootloader with demos
+4.0.4
+	Package signing
+4.0.3
+	Improved filtering of debugger reset types
+4.0.2
+	updates for jlink 6 compatibility
+4.0.0
+	Initial release

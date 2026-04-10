@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.external.aws.feature" 
+  label="Bundled AWS Support" 
+  description="Simplicity Studio Bundled AWS Support" 
+  changelog="changelog" 
+  version="1.11.54"/>

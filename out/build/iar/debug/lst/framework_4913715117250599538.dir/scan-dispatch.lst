@@ -1,0 +1,566 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:12
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\scan-dispatch\scan-dispatch.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\scan-dispatch.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\scan-dispatch\scan-dispatch.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"scan-dispatch.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\scan-dispatch\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\scan-dispatch.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\scan-dispatch.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\scan-dispatch.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\scan-dispatch.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\scan-dispatch\scan-dispatch.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Dispatching 802.15.4 scan results to interested parties.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include "app/framework/include/af.h"
+     19          
+     20          #include "scan-dispatch.h"
+     21          
+     22          // -----------------------------------------------------------------------------
+     23          // Global variables
+     24          
+     25          extern EmberEventControl emberAfPluginScanDispatchScanNetworkEventControls[];
+     26          
+     27          // -----------------------------------------------------------------------------
+     28          // Internal implementation elements
+     29          
+
+   \                                 In section .bss, align 1
+     30          static uint8_t head = 0;
+   \                     head:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     31          static uint8_t tail = 0;
+   \                     tail:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     32          static uint8_t count = 0;
+   \                     count:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 4
+     33          static EmberAfPluginScanDispatchScanData handlerQueue[EMBER_AF_PLUGIN_SCAN_DISPATCH_SCAN_QUEUE_SIZE];
+   \                     handlerQueue:
+   \        0x0                      DS8 160
+     34          #define handlerQueueIsEmpty() (!count)
+     35          #define handlerQueueIsFull()  (count == EMBER_AF_PLUGIN_SCAN_DISPATCH_SCAN_QUEUE_SIZE)
+     36          
+     37          // We save 12 bytes of text by having this as a function.
+
+   \                                 In section .text, align 2, keep-with-next
+     38          static uint8_t handlerQueueNextIndex(uint8_t i)
+     39          {
+     40            return (++i % EMBER_AF_PLUGIN_SCAN_DISPATCH_SCAN_QUEUE_SIZE);
+   \                     handlerQueueNextIndex: (+1)
+   \        0x0   0x1C40             ADDS     R0,R0,#+1
+   \        0x2   0xB2C0             UXTB     R0,R0
+   \        0x4   0x210A             MOVS     R1,#+10
+   \        0x6   0xFB90 0xF1F1      SDIV     R1,R0,R1
+   \        0xA   0xEB01 0x0281      ADD      R2,R1,R1, LSL #+2
+   \        0xE   0xEBA0 0x0042      SUB      R0,R0,R2, LSL #+1
+   \       0x12   0xB2C0             UXTB     R0,R0
+   \       0x14   0x4770             BX       LR
+     41          }
+     42          
+
+   \                                 In section .text, align 2, keep-with-next
+     43          static void maybeCallNextHandler(uint8_t statusOrRssi,
+     44                                           uint8_t channelOrLqi,
+     45                                           EmberNetworkScanType scanType,
+     46                                           bool isComplete,
+     47                                           bool isFailure,
+     48                                           EmberZigbeeNetwork *network)
+     49          {
+   \                     maybeCallNextHandler: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+     50            if (!handlerQueueIsEmpty()) {
+   \        0x2   0x....             LDR.N    R4,??DataTable5
+   \        0x4   0x7824             LDRB     R4,[R4, #+0]
+   \        0x6   0x2C00             CMP      R4,#+0
+   \        0x8   0xD023             BEQ.N    ??maybeCallNextHandler_0
+   \        0xA   0x9C07             LDR      R4,[SP, #+28]
+     51              EmberAfPluginScanDispatchScanResults results = {
+     52                .status = statusOrRssi,
+     53                .rssi = statusOrRssi,
+     54                .channel = channelOrLqi,
+     55                .lqi = channelOrLqi,
+     56                .network = network,
+     57                .mask = (scanType
+     58                         | (isComplete
+     59                            ? EM_AF_PLUGIN_SCAN_DISPATCH_SCAN_RESULTS_MASK_COMPLETE
+     60                            : 0)
+     61                         | (isFailure
+     62                            ? EM_AF_PLUGIN_SCAN_DISPATCH_SCAN_RESULTS_MASK_FAILURE
+     63                            : 0)),
+     64              };
+   \        0xC   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \       0x10   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \       0x14   0xF88D 0x1002      STRB     R1,[SP, #+2]
+   \       0x18   0xF88D 0x1003      STRB     R1,[SP, #+3]
+   \       0x1C   0x9401             STR      R4,[SP, #+4]
+   \       0x1E   0x2B00             CMP      R3,#+0
+   \       0x20   0xD002             BEQ.N    ??maybeCallNextHandler_1
+   \       0x22   0xF44F 0x7180      MOV      R1,#+256
+   \       0x26   0xE000             B.N      ??maybeCallNextHandler_2
+   \                     ??maybeCallNextHandler_1: (+1)
+   \       0x28   0x2100             MOVS     R1,#+0
+   \                     ??maybeCallNextHandler_2: (+1)
+   \       0x2A   0x9806             LDR      R0,[SP, #+24]
+   \       0x2C   0xB2C0             UXTB     R0,R0
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD002             BEQ.N    ??maybeCallNextHandler_3
+   \       0x32   0xF44F 0x7000      MOV      R0,#+512
+   \       0x36   0xE000             B.N      ??maybeCallNextHandler_4
+   \                     ??maybeCallNextHandler_3: (+1)
+   \       0x38   0x2000             MOVS     R0,#+0
+   \                     ??maybeCallNextHandler_4: (+1)
+   \       0x3A   0x430A             ORRS     R2,R1,R2
+   \       0x3C   0x4302             ORRS     R2,R0,R2
+   \       0x3E   0xF8AD 0x2008      STRH     R2,[SP, #+8]
+     65              handlerQueue[head].handler(&results);
+   \       0x42   0x4668             MOV      R0,SP
+   \       0x44   0x....             LDR.N    R1,??DataTable5_1
+   \       0x46   0x....             LDR.N    R2,??DataTable5_2
+   \       0x48   0x7812             LDRB     R2,[R2, #+0]
+   \       0x4A   0xEB11 0x1102      ADDS     R1,R1,R2, LSL #+4
+   \       0x4E   0x68C9             LDR      R1,[R1, #+12]
+   \       0x50   0x4788             BLX      R1
+     66            }
+     67          }
+   \                     ??maybeCallNextHandler_0: (+1)
+   \       0x52   0xBD1F             POP      {R0-R4,PC}
+     68          
+     69          // -----------------------------------------------------------------------------
+     70          // Public API
+     71          
+
+   \                                 In section .text, align 2, keep-with-next
+     72          EmberStatus emberAfPluginScanDispatchScheduleScan(EmberAfPluginScanDispatchScanData *data)
+     73          {
+   \                     emberAfPluginScanDispatchScheduleScan: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4601             MOV      R1,R0
+     74            EmberStatus status = EMBER_ERR_FATAL;
+   \        0x4   0x2601             MOVS     R6,#+1
+     75          
+     76            if (!handlerQueueIsFull()) {
+   \        0x6   0x....             LDR.N    R4,??DataTable5
+   \        0x8   0x7825             LDRB     R5,[R4, #+0]
+   \        0xA   0x2D0A             CMP      R5,#+10
+   \        0xC   0xD012             BEQ.N    ??emberAfPluginScanDispatchScheduleScan_0
+     77              handlerQueue[tail] = *data;
+   \        0xE   0x....             LDR.N    R6,??DataTable5_3
+   \       0x10   0x7837             LDRB     R7,[R6, #+0]
+   \       0x12   0x....             LDR.N    R0,??DataTable5_1
+   \       0x14   0x463A             MOV      R2,R7
+   \       0x16   0xEB10 0x1002      ADDS     R0,R0,R2, LSL #+4
+   \       0x1A   0x2210             MOVS     R2,#+16
+   \       0x1C   0x.... 0x....      BL       __aeabi_memcpy4
+     78              tail = handlerQueueNextIndex(tail);
+   \       0x20   0x4638             MOV      R0,R7
+   \       0x22   0x.... 0x....      BL       handlerQueueNextIndex
+   \       0x26   0x7030             STRB     R0,[R6, #+0]
+     79              count++;
+   \       0x28   0x1C6D             ADDS     R5,R5,#+1
+   \       0x2A   0x7025             STRB     R5,[R4, #+0]
+     80              status = EMBER_SUCCESS;
+   \       0x2C   0x2600             MOVS     R6,#+0
+     81              emberAfNetworkEventControlSetActive(emberAfPluginScanDispatchScanNetworkEventControls);
+   \       0x2E   0x....             LDR.N    R0,??DataTable5_4
+   \       0x30   0x.... 0x....      BL       emberAfNetworkEventControlSetActive
+     82            }
+     83          
+     84            return status;
+   \                     ??emberAfPluginScanDispatchScheduleScan_0: (+1)
+   \       0x34   0x4630             MOV      R0,R6
+   \       0x36   0xBDF2             POP      {R1,R4-R7,PC}
+     85          }
+     86          
+
+   \                                 In section .text, align 2, keep-with-next
+     87          void emberAfPluginScanDispatchClear(void)
+     88          {
+   \                     emberAfPluginScanDispatchClear: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     89            emberStopScan();
+   \        0x2   0x.... 0x....      BL       emberStopScan
+     90            head = tail = count = 0;
+   \        0x6   0x2000             MOVS     R0,#+0
+   \        0x8   0x....             LDR.N    R1,??DataTable5
+   \        0xA   0x7008             STRB     R0,[R1, #+0]
+   \        0xC   0x....             LDR.N    R1,??DataTable5_3
+   \        0xE   0x7008             STRB     R0,[R1, #+0]
+   \       0x10   0x....             LDR.N    R1,??DataTable5_2
+   \       0x12   0x7008             STRB     R0,[R1, #+0]
+     91          }
+   \       0x14   0xBD01             POP      {R0,PC}
+     92          
+     93          // -----------------------------------------------------------------------------
+     94          // Public callbacks
+     95          
+
+   \                                 In section .text, align 2, keep-with-next
+     96          void emberAfPluginScanDispatchScanNetworkEventHandler(void)
+     97          {
+   \                     emberAfPluginScanDispatchScanNetworkEventHandler: (+1)
+   \        0x0   0xB5FE             PUSH     {R1-R7,LR}
+     98            EmberStatus status;
+     99          
+    100            emberAfNetworkEventControlSetInactive(emberAfPluginScanDispatchScanNetworkEventControls);
+   \        0x2   0x....             LDR.N    R4,??DataTable5_4
+   \        0x4   0x4620             MOV      R0,R4
+   \        0x6   0x.... 0x....      BL       emberAfNetworkEventControlSetInactive
+    101          
+    102            // If there is a handler in the queue, start a scan for it.
+    103            // If we are already scanning, we should try again.
+    104            // If there is an error, we abort the scan and tell the consumer.
+    105            if (!handlerQueueIsEmpty()) {
+   \        0xA   0x....             LDR.N    R5,??DataTable5
+   \        0xC   0x7828             LDRB     R0,[R5, #+0]
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD025             BEQ.N    ??emberAfPluginScanDispatchScanNetworkEventHand_0
+    106              status = emberStartScan(handlerQueue[head].scanType,
+    107                                      handlerQueue[head].channelMask,
+    108                                      handlerQueue[head].duration);
+   \       0x12   0x....             LDR.N    R6,??DataTable5_2
+   \       0x14   0x....             LDR.N    R7,??DataTable5_1
+   \       0x16   0x7830             LDRB     R0,[R6, #+0]
+   \       0x18   0xEB17 0x1000      ADDS     R0,R7,R0, LSL #+4
+   \       0x1C   0x7A02             LDRB     R2,[R0, #+8]
+   \       0x1E   0x6841             LDR      R1,[R0, #+4]
+   \       0x20   0x7800             LDRB     R0,[R0, #+0]
+   \       0x22   0x.... 0x....      BL       emberStartScan
+    109              if (status != EMBER_MAC_SCANNING) {
+   \       0x26   0x4601             MOV      R1,R0
+   \       0x28   0x293D             CMP      R1,#+61
+   \       0x2A   0xD018             BEQ.N    ??emberAfPluginScanDispatchScanNetworkEventHand_0
+    110                if (status != EMBER_SUCCESS) {
+   \       0x2C   0x0001             MOVS     R1,R0
+   \       0x2E   0xD016             BEQ.N    ??emberAfPluginScanDispatchScanNetworkEventHand_0
+    111                  maybeCallNextHandler(status,
+    112                                       0, // channel or LQI - meh
+    113                                       handlerQueue[head].scanType,
+    114                                       true,  // complete?
+    115                                       true,  // failure?
+    116                                       NULL); // network
+   \       0x30   0x2100             MOVS     R1,#+0
+   \       0x32   0x9101             STR      R1,[SP, #+4]
+   \       0x34   0x2101             MOVS     R1,#+1
+   \       0x36   0x9100             STR      R1,[SP, #+0]
+   \       0x38   0x460B             MOV      R3,R1
+   \       0x3A   0x7831             LDRB     R1,[R6, #+0]
+   \       0x3C   0x0109             LSLS     R1,R1,#+4
+   \       0x3E   0x5C7A             LDRB     R2,[R7, R1]
+   \       0x40   0x2100             MOVS     R1,#+0
+   \       0x42   0x.... 0x....      BL       maybeCallNextHandler
+    117                  head = handlerQueueNextIndex(head);
+   \       0x46   0x7830             LDRB     R0,[R6, #+0]
+   \       0x48   0x.... 0x....      BL       handlerQueueNextIndex
+   \       0x4C   0x7030             STRB     R0,[R6, #+0]
+    118                  count--;
+   \       0x4E   0x7828             LDRB     R0,[R5, #+0]
+   \       0x50   0x1E40             SUBS     R0,R0,#+1
+   \       0x52   0x7028             STRB     R0,[R5, #+0]
+    119                  emberAfNetworkEventControlSetActive(emberAfPluginScanDispatchScanNetworkEventControls);
+   \       0x54   0x4620             MOV      R0,R4
+   \       0x56   0xE8BD 0x40FE      POP      {R1-R7,LR}
+   \       0x5A   0x.... 0x....      B.W      emberAfNetworkEventControlSetActive
+    120                }
+    121              }
+    122            }
+    123          }
+   \                     ??emberAfPluginScanDispatchScanNetworkEventHand_0: (+1)
+   \       0x5E   0xBDF7             POP      {R0-R2,R4-R7,PC}
+    124          
+
+   \                                 In section .text, align 2, keep-with-next
+    125          void emberAfEnergyScanResultCallback(uint8_t channel, int8_t rssi)
+    126          {
+   \                     emberAfEnergyScanResultCallback: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x460C             MOV      R4,R1
+    127            maybeCallNextHandler((uint8_t)rssi,
+    128                                 channel,
+    129                                 EMBER_ENERGY_SCAN,
+    130                                 false,  // complete?
+    131                                 false,  // failure?
+    132                                 NULL);  // network
+   \        0x4   0x2100             MOVS     R1,#+0
+   \        0x6   0x9101             STR      R1,[SP, #+4]
+   \        0x8   0x9100             STR      R1,[SP, #+0]
+   \        0xA   0x460B             MOV      R3,R1
+   \        0xC   0x460A             MOV      R2,R1
+   \        0xE   0x4601             MOV      R1,R0
+   \       0x10   0x4620             MOV      R0,R4
+   \       0x12   0xB2C0             UXTB     R0,R0
+   \       0x14   0x.... 0x....      BL       maybeCallNextHandler
+    133          }
+   \       0x18   0xBD13             POP      {R0,R1,R4,PC}
+    134          
+
+   \                                 In section .text, align 2, keep-with-next
+    135          void emberAfNetworkFoundCallback(EmberZigbeeNetwork *networkFound,
+    136                                           uint8_t lqi,
+    137                                           int8_t rssi)
+    138          {
+   \                     emberAfNetworkFoundCallback: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x4614             MOV      R4,R2
+    139            maybeCallNextHandler((uint8_t)rssi,
+    140                                 lqi,
+    141                                 EMBER_ACTIVE_SCAN,
+    142                                 false, // complete?
+    143                                 false, // failure?
+    144                                 networkFound);
+   \        0x4   0x9001             STR      R0,[SP, #+4]
+   \        0x6   0x2000             MOVS     R0,#+0
+   \        0x8   0x9000             STR      R0,[SP, #+0]
+   \        0xA   0x4603             MOV      R3,R0
+   \        0xC   0x2201             MOVS     R2,#+1
+   \        0xE   0x4620             MOV      R0,R4
+   \       0x10   0xB2C0             UXTB     R0,R0
+   \       0x12   0x.... 0x....      BL       maybeCallNextHandler
+    145          }
+   \       0x16   0xBD13             POP      {R0,R1,R4,PC}
+    146          
+
+   \                                 In section .text, align 2, keep-with-next
+    147          void emberAfScanCompleteCallback(uint8_t channel, EmberStatus status)
+    148          {
+   \                     emberAfScanCompleteCallback: (+1)
+   \        0x0   0xB57C             PUSH     {R2-R6,LR}
+   \        0x2   0x460C             MOV      R4,R1
+    149            maybeCallNextHandler(status,
+    150                                 channel,
+    151                                 handlerQueue[head].scanType,
+    152                                 true,  // complete?
+    153                                 false, // failure?
+    154                                 NULL); // network
+   \        0x4   0x....             LDR.N    R5,??DataTable5_2
+   \        0x6   0x....             LDR.N    R6,??DataTable5_1
+   \        0x8   0x2100             MOVS     R1,#+0
+   \        0xA   0x9101             STR      R1,[SP, #+4]
+   \        0xC   0x9100             STR      R1,[SP, #+0]
+   \        0xE   0x2301             MOVS     R3,#+1
+   \       0x10   0x7829             LDRB     R1,[R5, #+0]
+   \       0x12   0x0109             LSLS     R1,R1,#+4
+   \       0x14   0x5C72             LDRB     R2,[R6, R1]
+   \       0x16   0x4601             MOV      R1,R0
+   \       0x18   0x4620             MOV      R0,R4
+   \       0x1A   0x.... 0x....      BL       maybeCallNextHandler
+    155          
+    156            // The scan is done when the status is set to EMBER_SUCCESS.
+    157            // See documentation for the emberScanCompleteHandler callback.
+    158            // For Active scan we call the EMBER_ACTIVE_SCAN anyways,
+    159            // beacuse of the change in network-steering code which
+    160            // continues to schedule a scan on the next channel after a failure
+    161            if ((status == EMBER_SUCCESS ||  handlerQueue[head].scanType == EMBER_ACTIVE_SCAN) && !handlerQueueIsEmpty()) {
+   \       0x1E   0x2C00             CMP      R4,#+0
+   \       0x20   0xD004             BEQ.N    ??emberAfScanCompleteCallback_0
+   \       0x22   0x7828             LDRB     R0,[R5, #+0]
+   \       0x24   0x0100             LSLS     R0,R0,#+4
+   \       0x26   0x5C30             LDRB     R0,[R6, R0]
+   \       0x28   0x2801             CMP      R0,#+1
+   \       0x2A   0xD10E             BNE.N    ??emberAfScanCompleteCallback_1
+   \                     ??emberAfScanCompleteCallback_0: (+1)
+   \       0x2C   0x....             LDR.N    R6,??DataTable5
+   \       0x2E   0x7834             LDRB     R4,[R6, #+0]
+   \       0x30   0x2C00             CMP      R4,#+0
+   \       0x32   0xD00A             BEQ.N    ??emberAfScanCompleteCallback_1
+    162              head = handlerQueueNextIndex(head);
+   \       0x34   0x7828             LDRB     R0,[R5, #+0]
+   \       0x36   0x.... 0x....      BL       handlerQueueNextIndex
+   \       0x3A   0x7028             STRB     R0,[R5, #+0]
+    163              count--;
+   \       0x3C   0x1E60             SUBS     R0,R4,#+1
+   \       0x3E   0x7030             STRB     R0,[R6, #+0]
+    164              emberAfNetworkEventControlSetActive(emberAfPluginScanDispatchScanNetworkEventControls);
+   \       0x40   0x....             LDR.N    R0,??DataTable5_4
+   \       0x42   0xE8BD 0x4076      POP      {R1,R2,R4-R6,LR}
+   \       0x46   0x.... 0x....      B.W      emberAfNetworkEventControlSetActive
+    165            }
+    166          }
+   \                     ??emberAfScanCompleteCallback_1: (+1)
+   \       0x4A   0xBD73             POP      {R0,R1,R4-R6,PC}
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5:
+   \        0x0   0x....'....        DC32     count
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_1:
+   \        0x0   0x....'....        DC32     handlerQueue
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_2:
+   \        0x0   0x....'....        DC32     head
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_3:
+   \        0x0   0x....'....        DC32     tail
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_4:
+   \        0x0   0x....'....        DC32     emberAfPluginScanDispatchScanNetworkEventControls
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   emberAfEnergyScanResultCallback
+        16   -> maybeCallNextHandler
+      16   emberAfNetworkFoundCallback
+        16   -> maybeCallNextHandler
+       8   emberAfPluginScanDispatchClear
+         8   -> emberStopScan
+      32   emberAfPluginScanDispatchScanNetworkEventHandler
+         0   -> emberAfNetworkEventControlSetActive
+        32   -> emberAfNetworkEventControlSetInactive
+        32   -> emberStartScan
+        32   -> handlerQueueNextIndex
+        32   -> maybeCallNextHandler
+      24   emberAfPluginScanDispatchScheduleScan
+        24   -> __aeabi_memcpy4
+        24   -> emberAfNetworkEventControlSetActive
+        24   -> handlerQueueNextIndex
+      24   emberAfScanCompleteCallback
+         0   -> emberAfNetworkEventControlSetActive
+        24   -> handlerQueueNextIndex
+        24   -> maybeCallNextHandler
+       0   handlerQueueNextIndex
+      24   maybeCallNextHandler
+        24   -- Indirect call
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable5
+       4  ??DataTable5_1
+       4  ??DataTable5_2
+       4  ??DataTable5_3
+       4  ??DataTable5_4
+       1  count
+      26  emberAfEnergyScanResultCallback
+      24  emberAfNetworkFoundCallback
+      22  emberAfPluginScanDispatchClear
+      96  emberAfPluginScanDispatchScanNetworkEventHandler
+      56  emberAfPluginScanDispatchScheduleScan
+      76  emberAfScanCompleteCallback
+     160  handlerQueue
+      22  handlerQueueNextIndex
+       1  head
+      84  maybeCallNextHandler
+       1  tail
+
+ 
+ 163 bytes in section .bss
+ 426 bytes in section .text
+ 
+ 426 bytes of CODE memory
+ 163 bytes of DATA memory
+
+Errors: none
+Warnings: none

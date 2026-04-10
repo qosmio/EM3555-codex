@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.wiseconnect_4.0.0">
+  <assets path="/extension.wiseconnect_4.0.0/wifi_app/brd4338a/wifi_commander_soc.rps" diskSizeKB="113.028" downloadSizeKB="113.028">
+    <property key="timeStamp" value="1769107398223"/>
+  </assets>
+  <assets path="/extension.wiseconnect_4.0.0/connectivity_firmware/standard/SiWG917-B.2.15.5.0.0.12.rps" diskSizeKB="1681.92" downloadSizeKB="1681.92">
+    <property key="timeStamp" value="1769107398227"/>
+  </assets>
+  <assets path="/extension.wiseconnect_4.0.0/platform_nwp_siwx91x_app/brd2605a/siwx917_dev_kit.rps" diskSizeKB="149.324" downloadSizeKB="149.324">
+    <property key="timeStamp" value="1769107398229"/>
+  </assets>
+  <assets path="/extension.wiseconnect_4.0.0/multi_protocol_siwx91x_app/brd2605a/out_of_box_demo.rps" diskSizeKB="141.932" downloadSizeKB="141.932">
+    <property key="timeStamp" value="1769107398232"/>
+  </assets>
+  <assets path="/extension.wiseconnect_4.0.0/multi_protocol_siwx91x_app/brd2708a/out_of_box_demo.rps" diskSizeKB="140.98" downloadSizeKB="140.98">
+    <property key="timeStamp" value="1769107398234"/>
+  </assets>
+  <assets path="/extension.wiseconnect_4.0.0/multi_protocol_siwx91x_app/brd4342a/out_of_box_demo.rps" diskSizeKB="141.908" downloadSizeKB="141.908">
+    <property key="timeStamp" value="1769107398236"/>
+  </assets>
+  <assets path="/extension.wiseconnect_4.0.0/multi_protocol_siwx91x_app/brd4338a/wireless_test_soc.rps" diskSizeKB="172.736" downloadSizeKB="172.736">
+    <property key="timeStamp" value="1769107398237"/>
+  </assets>
+  <assets path="/extension.wiseconnect_4.0.0/multi_protocol_siwx91x_app/brd4338a/out_of_box_demo.rps" diskSizeKB="141.908" downloadSizeKB="141.908">
+    <property key="timeStamp" value="1769107398239"/>
+  </assets>
+  <assets path="/extension.wiseconnect_4.0.0/multi_protocol_siwx91x_app/brd4343a/out_of_box_demo.rps" diskSizeKB="140.988" downloadSizeKB="140.988">
+    <property key="timeStamp" value="1769107398240"/>
+  </assets>
+</assets>

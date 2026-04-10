@@ -1,0 +1,855 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:06
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\ota-storage-common\ota-storage-common.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ota-storage-common.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\ota-storage-common\ota-storage-common.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"ota-storage-common.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\ota-storage-common\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ota-storage-common.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ota-storage-common.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\ota-storage-common.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ota-storage-common.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\ota-storage-common\ota-storage-common.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Over The Air [Cluster] Upgrade Image Storage, Common Routines
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          // this file contains all the common includes for clusters in the util
+     19          #include "app/framework/util/common.h"
+     20          #include "app/framework/util/attribute-storage.h"
+     21          #include "enums.h"
+     22          
+     23          #include "app/framework/plugin/ota-common/ota.h"
+     24          #include "app/framework/plugin/ota-storage-common/ota-storage.h"
+     25          
+     26          #if defined (IMAGE_BUILDER)
+     27          // For our PC tool, we use a simpler #define to turn on this code.
+     28            #define ZCL_USING_OTA_BOOTLOAD_CLUSTER_CLIENT
+     29          #endif
+     30          
+     31          //------------------------------------------------------------------------------
+     32          // Globals
+     33          
+     34          #if !defined EMBER_AF_PLUGIN_OTA_STORAGE_COMMON_MAX_TAGS_IN_OTA_FILE
+     35            #define EMBER_AF_PLUGIN_OTA_STORAGE_COMMON_MAX_TAGS_IN_OTA_FILE 6
+     36          #endif
+     37          
+     38          //------------------------------------------------------------------------------
+     39          // API
+     40          
+
+   \                                 In section .text, align 2, keep-with-next
+     41          EmberAfOtaImageId emAfOtaStorageGetImageIdFromHeader(const EmberAfOtaHeader* header)
+     42          {
+   \                     emAfOtaStorageGetImageIdFromHeader: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+     43            EmberAfOtaImageId id = INVALID_OTA_IMAGE_ID;
+   \        0x8   0x4668             MOV      R0,SP
+   \        0xA   0x....             LDR.N    R1,??DataTable1
+   \        0xC   0x2210             MOVS     R2,#+16
+   \        0xE   0x.... 0x....      BL       __aeabi_memcpy4
+     44            id.manufacturerId = header->manufacturerId;
+   \       0x12   0x88E8             LDRH     R0,[R5, #+6]
+   \       0x14   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+     45            id.imageTypeId = header->imageTypeId;
+   \       0x18   0x8928             LDRH     R0,[R5, #+8]
+   \       0x1A   0xF8AD 0x0002      STRH     R0,[SP, #+2]
+     46            id.firmwareVersion = header->firmwareVersion;
+   \       0x1E   0x68E8             LDR      R0,[R5, #+12]
+   \       0x20   0x9001             STR      R0,[SP, #+4]
+     47          
+     48            if (headerHasUpgradeFileDest(header)) {
+   \       0x22   0x7928             LDRB     R0,[R5, #+4]
+   \       0x24   0x0780             LSLS     R0,R0,#+30
+   \       0x26   0xD505             BPL.N    ??emAfOtaStorageGetImageIdFromHeader_0
+     49              MEMCOPY(id.deviceSpecificFileEui64,
+     50                      &header->upgradeFileDestination,
+     51                      EUI64_SIZE);
+   \       0x28   0x2208             MOVS     R2,#+8
+   \       0x2A   0xF105 0x0139      ADD      R1,R5,#+57
+   \       0x2E   0xA802             ADD      R0,SP,#+8
+   \       0x30   0x.... 0x....      BL       __aeabi_memcpy
+     52            }
+     53          
+     54            return id;
+   \                     ??emAfOtaStorageGetImageIdFromHeader_0: (+1)
+   \       0x34   0x4620             MOV      R0,R4
+   \       0x36   0x4669             MOV      R1,SP
+   \       0x38   0x2210             MOVS     R2,#+16
+   \       0x3A   0x.... 0x....      BL       __aeabi_memcpy4
+   \       0x3E   0xB005             ADD      SP,SP,#+20
+   \       0x40   0xBD30             POP      {R4,R5,PC}
+     55          }
+     56          
+
+   \                                 In section .text, align 2, keep-with-next
+     57          uint16_t emGetUpgradeFileDestinationLength(uint16_t headerVersion)
+     58          {
+     59            if (!isValidHeaderVersion(headerVersion)) {
+   \                     emGetUpgradeFileDestinationLength: (+1)
+   \        0x0   0x4601             MOV      R1,R0
+   \        0x2   0xF5B1 0x7F80      CMP      R1,#+256
+   \        0x6   0xD004             BEQ.N    ??emGetUpgradeFileDestinationLength_0
+   \        0x8   0xF5B1 0x7F00      CMP      R1,#+512
+   \        0xC   0xD001             BEQ.N    ??emGetUpgradeFileDestinationLength_0
+     60              return 0;
+   \        0xE   0x2000             MOVS     R0,#+0
+   \       0x10   0x4770             BX       LR
+     61            }
+     62            return ((headerVersion == OTA_HEADER_VERSION_THREAD) ? UID_SIZE : EUI64_SIZE);
+   \                     ??emGetUpgradeFileDestinationLength_0: (+1)
+   \       0x12   0xF5B0 0x7F00      CMP      R0,#+512
+   \       0x16   0xD101             BNE.N    ??emGetUpgradeFileDestinationLength_1
+   \       0x18   0x2020             MOVS     R0,#+32
+   \       0x1A   0x4770             BX       LR
+   \                     ??emGetUpgradeFileDestinationLength_1: (+1)
+   \       0x1C   0x2008             MOVS     R0,#+8
+   \       0x1E   0x4770             BX       LR
+     63          }
+     64          
+     65          // Although the header length is really 16-bit, we often want to use it to increment
+     66          // a 32-bit offset variable, so just make it 32-bit.
+     67          
+
+   \                                 In section .text, align 2, keep-with-next
+     68          EmberAfOtaStorageStatus emAfOtaStorageGetHeaderLengthAndImageSize(const EmberAfOtaImageId* id,
+     69                                                                            uint32_t *returnHeaderLength,
+     70                                                                            uint32_t *returnImageSize)
+     71          {
+   \                     emAfOtaStorageGetHeaderLengthAndImageSize: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB098             SUB      SP,SP,#+96
+   \        0x4   0x460C             MOV      R4,R1
+   \        0x6   0x4615             MOV      R5,R2
+     72            // The EmberAfOtaHeader struct is rather large, and on the 32-bit machines
+     73            // all the 16-bit fields will be padded to 32-bits, thus increasing its size.
+     74            // Most of the time we only want the header length and image size, so to
+     75            // conserve the data stack this routine returns only those values.
+     76          
+     77            EmberAfOtaHeader fullHeader;
+     78            EmberAfOtaStorageStatus status
+     79              = emberAfOtaStorageGetFullHeaderCallback(id,
+     80                                                       &fullHeader);
+   \        0x8   0x4669             MOV      R1,SP
+   \        0xA   0x.... 0x....      BL       emberAfOtaStorageGetFullHeaderCallback
+     81          
+     82            if (EMBER_AF_OTA_STORAGE_SUCCESS != status) {
+   \        0xE   0x0001             MOVS     R1,R0
+   \       0x10   0xD108             BNE.N    ??emAfOtaStorageGetHeaderLengthAndImageSize_0
+     83              return status;
+     84            }
+     85          
+     86            if (returnHeaderLength) {
+   \       0x12   0x2C00             CMP      R4,#+0
+   \       0x14   0xD002             BEQ.N    ??emAfOtaStorageGetHeaderLengthAndImageSize_1
+     87              *returnHeaderLength = fullHeader.headerLength;
+   \       0x16   0xF8BD 0x1002      LDRH     R1,[SP, #+2]
+   \       0x1A   0x6021             STR      R1,[R4, #+0]
+     88            }
+     89            if (returnImageSize) {
+   \                     ??emAfOtaStorageGetHeaderLengthAndImageSize_1: (+1)
+   \       0x1C   0x2D00             CMP      R5,#+0
+   \       0x1E   0xD001             BEQ.N    ??emAfOtaStorageGetHeaderLengthAndImageSize_0
+     90              *returnImageSize = fullHeader.imageSize;
+   \       0x20   0x990D             LDR      R1,[SP, #+52]
+   \       0x22   0x6029             STR      R1,[R5, #+0]
+     91            }
+     92            return status;
+   \                     ??emAfOtaStorageGetHeaderLengthAndImageSize_0: (+1)
+   \       0x24   0xB019             ADD      SP,SP,#+100
+   \       0x26   0xBD30             POP      {R4,R5,PC}
+     93          }
+     94          
+
+   \                                 In section .text, align 2, keep-with-next
+     95          EmberAfOtaStorageStatus emAfOtaStorageGetZigbeeStackVersion(const EmberAfOtaImageId* id,
+     96                                                                      uint16_t *returnZigbeeStackVersion)
+     97          {
+   \                     emAfOtaStorageGetZigbeeStackVersion: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0xB098             SUB      SP,SP,#+96
+   \        0x4   0x460C             MOV      R4,R1
+     98            EmberAfOtaHeader fullHeader;
+     99            EmberAfOtaStorageStatus status = emberAfOtaStorageGetFullHeaderCallback(id, &fullHeader);
+   \        0x6   0x4669             MOV      R1,SP
+   \        0x8   0x.... 0x....      BL       emberAfOtaStorageGetFullHeaderCallback
+    100          
+    101            if (EMBER_AF_OTA_STORAGE_SUCCESS != status) {
+   \        0xC   0x0001             MOVS     R1,R0
+   \        0xE   0xD104             BNE.N    ??emAfOtaStorageGetZigbeeStackVersion_0
+    102              return status;
+    103            }
+    104          
+    105            if (returnZigbeeStackVersion) {
+   \       0x10   0x2C00             CMP      R4,#+0
+   \       0x12   0xD002             BEQ.N    ??emAfOtaStorageGetZigbeeStackVersion_0
+    106              *returnZigbeeStackVersion = fullHeader.zigbeeStackVersion;
+   \       0x14   0xF8BD 0x1010      LDRH     R1,[SP, #+16]
+   \       0x18   0x8021             STRH     R1,[R4, #+0]
+    107            }
+    108            return status;
+   \                     ??emAfOtaStorageGetZigbeeStackVersion_0: (+1)
+   \       0x1A   0xB018             ADD      SP,SP,#+96
+   \       0x1C   0xBD10             POP      {R4,PC}
+    109          }
+    110          
+
+   \                                 In section .text, align 2, keep-with-next
+    111          EmberAfOtaStorageStatus emAfOtaStorageGetTagOffsetAndSize(const EmberAfOtaImageId* id,
+    112                                                                    uint16_t tag,
+    113                                                                    uint32_t* returnTagOffset,
+    114                                                                    uint32_t* returnTagSize)
+    115          {
+   \                     emAfOtaStorageGetTagOffsetAndSize: (+1)
+   \        0x0   0xE92D 0x43F8      PUSH     {R3-R9,LR}
+   \        0x4   0xB08E             SUB      SP,SP,#+56
+   \        0x6   0x4681             MOV      R9,R0
+   \        0x8   0x460C             MOV      R4,R1
+   \        0xA   0x4617             MOV      R7,R2
+   \        0xC   0x4698             MOV      R8,R3
+    116            EmberAfTagData tags[EMBER_AF_PLUGIN_OTA_STORAGE_COMMON_MAX_TAGS_IN_OTA_FILE];
+    117            uint16_t totalTags;
+    118            uint8_t i;
+    119            bool found = false;
+   \        0xE   0x2500             MOVS     R5,#+0
+    120            uint32_t offset;
+    121            //Initializer needed according to Lint
+    122            uint32_t tagLength = 0;
+   \       0x10   0x462E             MOV      R6,R5
+    123          
+    124            if (EMBER_AF_OTA_STORAGE_SUCCESS
+    125                != emAfOtaStorageGetHeaderLengthAndImageSize(id,
+    126                                                             &offset,
+    127                                                             NULL) // image size return ptr (not needed)
+    128                || (EMBER_AF_OTA_STORAGE_SUCCESS
+    129                    != emAfOtaStorageReadAllTagInfo(id,
+    130                                                    tags,
+    131                                                    EMBER_AF_PLUGIN_OTA_STORAGE_COMMON_MAX_TAGS_IN_OTA_FILE,
+    132                                                    &totalTags))) {
+   \       0x12   0x462A             MOV      R2,R5
+   \       0x14   0xA901             ADD      R1,SP,#+4
+   \       0x16   0x.... 0x....      BL       emAfOtaStorageGetHeaderLengthAndImageSize
+   \       0x1A   0x2800             CMP      R0,#+0
+   \       0x1C   0xD107             BNE.N    ??emAfOtaStorageGetTagOffsetAndSize_0
+   \       0x1E   0x466B             MOV      R3,SP
+   \       0x20   0x2206             MOVS     R2,#+6
+   \       0x22   0xA902             ADD      R1,SP,#+8
+   \       0x24   0x4648             MOV      R0,R9
+   \       0x26   0x.... 0x....      BL       emAfOtaStorageReadAllTagInfo
+   \       0x2A   0x2800             CMP      R0,#+0
+   \       0x2C   0xD001             BEQ.N    ??emAfOtaStorageGetTagOffsetAndSize_1
+    133              return EMBER_AF_OTA_STORAGE_ERROR;
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_0: (+1)
+   \       0x2E   0x2001             MOVS     R0,#+1
+   \       0x30   0xE026             B.N      ??emAfOtaStorageGetTagOffsetAndSize_2
+    134            }
+    135          
+    136            for (i = 0; !found && i < totalTags; i++) {
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_1: (+1)
+   \       0x32   0x4628             MOV      R0,R5
+   \       0x34   0x4623             MOV      R3,R4
+   \       0x36   0xE013             B.N      ??emAfOtaStorageGetTagOffsetAndSize_3
+    137              offset += TAG_OVERHEAD;
+    138              if (tags[i].id == tag) {
+    139                tagLength = tags[i].length;
+    140                found = true;
+    141              } else {
+    142                offset += tags[i].length;
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_4: (+1)
+   \       0x38   0x9A01             LDR      R2,[SP, #+4]
+   \       0x3A   0x1889             ADDS     R1,R1,R2
+   \       0x3C   0x9101             STR      R1,[SP, #+4]
+   \       0x3E   0xE00D             B.N      ??emAfOtaStorageGetTagOffsetAndSize_5
+    143              }
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_6: (+1)
+   \       0x40   0x9901             LDR      R1,[SP, #+4]
+   \       0x42   0x1D89             ADDS     R1,R1,#+6
+   \       0x44   0x9101             STR      R1,[SP, #+4]
+   \       0x46   0xA902             ADD      R1,SP,#+8
+   \       0x48   0xEB01 0x01C0      ADD      R1,R1,R0, LSL #+3
+   \       0x4C   0x6849             LDR      R1,[R1, #+4]
+   \       0x4E   0xAA02             ADD      R2,SP,#+8
+   \       0x50   0xF832 0x2030      LDRH     R2,[R2, R0, LSL #+3]
+   \       0x54   0x429A             CMP      R2,R3
+   \       0x56   0xD1EF             BNE.N    ??emAfOtaStorageGetTagOffsetAndSize_4
+   \       0x58   0x460E             MOV      R6,R1
+   \       0x5A   0x2501             MOVS     R5,#+1
+    144            }
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_5: (+1)
+   \       0x5C   0x1C40             ADDS     R0,R0,#+1
+   \       0x5E   0xB2C0             UXTB     R0,R0
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_3: (+1)
+   \       0x60   0x0029             MOVS     R1,R5
+   \       0x62   0xD103             BNE.N    ??emAfOtaStorageGetTagOffsetAndSize_7
+   \       0x64   0xF8BD 0x1000      LDRH     R1,[SP, #+0]
+   \       0x68   0x4288             CMP      R0,R1
+   \       0x6A   0xDBE9             BLT.N    ??emAfOtaStorageGetTagOffsetAndSize_6
+    145            if (!found) {
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_7: (+1)
+   \       0x6C   0x0028             MOVS     R0,R5
+   \       0x6E   0xD003             BEQ.N    ??emAfOtaStorageGetTagOffsetAndSize_8
+    146              return EMBER_AF_OTA_STORAGE_ERROR;
+    147            }
+    148          
+    149            *returnTagOffset = offset;
+   \       0x70   0x9801             LDR      R0,[SP, #+4]
+   \       0x72   0x6038             STR      R0,[R7, #+0]
+    150            *returnTagSize = tagLength;
+   \       0x74   0xF8C8 0x6000      STR      R6,[R8, #+0]
+    151            return EMBER_AF_OTA_STORAGE_SUCCESS;
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_8: (+1)
+   \       0x78   0x4628             MOV      R0,R5
+   \       0x7A   0x1E40             SUBS     R0,R0,#+1
+   \       0x7C   0x4180             SBCS     R0,R0,R0
+   \       0x7E   0x0FC0             LSRS     R0,R0,#+31
+   \                     ??emAfOtaStorageGetTagOffsetAndSize_2: (+1)
+   \       0x80   0xB00F             ADD      SP,SP,#+60
+   \       0x82   0xE8BD 0x83F0      POP      {R4-R9,PC}
+    152          }
+    153          
+
+   \                                 In section .text, align 2, keep-with-next
+    154          EmberAfOtaStorageStatus emAfOtaStorageGetTagOffsetsAndSizes(const EmberAfOtaImageId* id,
+    155                                                                      uint16_t tag,
+    156                                                                      uint32_t** returnTagOffset,
+    157                                                                      uint32_t** returnTagSize)
+    158          {
+   \                     emAfOtaStorageGetTagOffsetsAndSizes: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0xB08E             SUB      SP,SP,#+56
+   \        0x6   0x4680             MOV      R8,R0
+   \        0x8   0x460C             MOV      R4,R1
+   \        0xA   0x4615             MOV      R5,R2
+   \        0xC   0x461E             MOV      R6,R3
+    159            EmberAfTagData tags[EMBER_AF_PLUGIN_OTA_STORAGE_COMMON_MAX_TAGS_IN_OTA_FILE];
+    160            uint16_t totalTags;
+    161            uint8_t i;
+    162            uint8_t found = 0;
+   \        0xE   0x2700             MOVS     R7,#+0
+    163            uint32_t offset;
+    164            //Initializer needed according to Lint
+    165          
+    166            if (EMBER_AF_OTA_STORAGE_SUCCESS
+    167                != emAfOtaStorageGetHeaderLengthAndImageSize(id,
+    168                                                             &offset,
+    169                                                             NULL) // image size return ptr (not needed)
+    170                || (EMBER_AF_OTA_STORAGE_SUCCESS
+    171                    != emAfOtaStorageReadAllTagInfo(id,
+    172                                                    tags,
+    173                                                    EMBER_AF_PLUGIN_OTA_STORAGE_COMMON_MAX_TAGS_IN_OTA_FILE,
+    174                                                    &totalTags))) {
+   \       0x10   0x463A             MOV      R2,R7
+   \       0x12   0xA901             ADD      R1,SP,#+4
+   \       0x14   0x.... 0x....      BL       emAfOtaStorageGetHeaderLengthAndImageSize
+   \       0x18   0x2800             CMP      R0,#+0
+   \       0x1A   0xD107             BNE.N    ??emAfOtaStorageGetTagOffsetsAndSizes_0
+   \       0x1C   0x466B             MOV      R3,SP
+   \       0x1E   0x2206             MOVS     R2,#+6
+   \       0x20   0xA902             ADD      R1,SP,#+8
+   \       0x22   0x4640             MOV      R0,R8
+   \       0x24   0x.... 0x....      BL       emAfOtaStorageReadAllTagInfo
+   \       0x28   0x2800             CMP      R0,#+0
+   \       0x2A   0xD001             BEQ.N    ??emAfOtaStorageGetTagOffsetsAndSizes_1
+    175              return EMBER_AF_OTA_STORAGE_ERROR;
+   \                     ??emAfOtaStorageGetTagOffsetsAndSizes_0: (+1)
+   \       0x2C   0x2001             MOVS     R0,#+1
+   \       0x2E   0xE029             B.N      ??emAfOtaStorageGetTagOffsetsAndSizes_2
+    176            }
+    177          
+    178            for (i = 0; i < totalTags; i++) {
+   \                     ??emAfOtaStorageGetTagOffsetsAndSizes_1: (+1)
+   \       0x30   0x4638             MOV      R0,R7
+   \       0x32   0xE01E             B.N      ??emAfOtaStorageGetTagOffsetsAndSizes_3
+    179              offset += TAG_OVERHEAD;
+   \                     ??emAfOtaStorageGetTagOffsetsAndSizes_4: (+1)
+   \       0x34   0x9901             LDR      R1,[SP, #+4]
+   \       0x36   0x1D89             ADDS     R1,R1,#+6
+   \       0x38   0x9101             STR      R1,[SP, #+4]
+    180              if (tags[i].id == tag) {
+   \       0x3A   0xA902             ADD      R1,SP,#+8
+   \       0x3C   0xEB01 0x01C0      ADD      R1,R1,R0, LSL #+3
+   \       0x40   0xAA02             ADD      R2,SP,#+8
+   \       0x42   0xF832 0x2030      LDRH     R2,[R2, R0, LSL #+3]
+   \       0x46   0x4623             MOV      R3,R4
+   \       0x48   0x429A             CMP      R2,R3
+   \       0x4A   0xD10C             BNE.N    ??emAfOtaStorageGetTagOffsetsAndSizes_5
+    181                (*returnTagOffset)[found] = offset;
+   \       0x4C   0x463A             MOV      R2,R7
+   \       0x4E   0xB2D2             UXTB     R2,R2
+   \       0x50   0x9B01             LDR      R3,[SP, #+4]
+   \       0x52   0xF8D5 0xC000      LDR      R12,[R5, #+0]
+   \       0x56   0xF84C 0x3022      STR      R3,[R12, R2, LSL #+2]
+    182                (*returnTagSize)[found] = tags[i].length;
+   \       0x5A   0x684B             LDR      R3,[R1, #+4]
+   \       0x5C   0xF8D6 0xC000      LDR      R12,[R6, #+0]
+   \       0x60   0xF84C 0x3022      STR      R3,[R12, R2, LSL #+2]
+    183                found++;
+   \       0x64   0x1C7F             ADDS     R7,R7,#+1
+    184              }
+    185          
+    186              offset += tags[i].length;
+   \                     ??emAfOtaStorageGetTagOffsetsAndSizes_5: (+1)
+   \       0x66   0x9A01             LDR      R2,[SP, #+4]
+   \       0x68   0x6849             LDR      R1,[R1, #+4]
+   \       0x6A   0x188A             ADDS     R2,R1,R2
+   \       0x6C   0x9201             STR      R2,[SP, #+4]
+    187            }
+   \       0x6E   0x1C40             ADDS     R0,R0,#+1
+   \       0x70   0xB2C0             UXTB     R0,R0
+   \                     ??emAfOtaStorageGetTagOffsetsAndSizes_3: (+1)
+   \       0x72   0xF8BD 0x1000      LDRH     R1,[SP, #+0]
+   \       0x76   0x4288             CMP      R0,R1
+   \       0x78   0xDBDC             BLT.N    ??emAfOtaStorageGetTagOffsetsAndSizes_4
+   \       0x7A   0x4638             MOV      R0,R7
+   \       0x7C   0xB2C0             UXTB     R0,R0
+   \       0x7E   0x1E40             SUBS     R0,R0,#+1
+   \       0x80   0x4180             SBCS     R0,R0,R0
+   \       0x82   0x0FC0             LSRS     R0,R0,#+31
+   \                     ??emAfOtaStorageGetTagOffsetsAndSizes_2: (+1)
+   \       0x84   0xB00E             ADD      SP,SP,#+56
+   \       0x86   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    188          
+    189            if (found == 0) {
+    190              return EMBER_AF_OTA_STORAGE_ERROR;
+    191            } else {
+    192              return EMBER_AF_OTA_STORAGE_SUCCESS;
+    193            }
+    194          }
+    195          
+
+   \                                 In section .text, align 2, keep-with-next
+    196          EmberAfOtaStorageStatus emAfOtaStorageGetTagDataFromImage(const EmberAfOtaImageId* id,
+    197                                                                    uint16_t tag,
+    198                                                                    uint8_t* returnData,
+    199                                                                    uint32_t* returnDataLength,
+    200                                                                    uint32_t maxReturnDataLength)
+    201          {
+   \                     emAfOtaStorageGetTagDataFromImage: (+1)
+   \        0x0   0xB57F             PUSH     {R0-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x4615             MOV      R5,R2
+   \        0x6   0x461E             MOV      R6,R3
+    202            uint32_t offset;
+    203            uint32_t tagLength;
+    204            EmberAfOtaStorageStatus status;
+    205          
+    206            status =
+    207              emAfOtaStorageGetTagOffsetAndSize(id,
+    208                                                tag,
+    209                                                &offset,
+    210                                                &tagLength);
+   \        0x8   0xAB01             ADD      R3,SP,#+4
+   \        0xA   0xAA02             ADD      R2,SP,#+8
+   \        0xC   0x.... 0x....      BL       emAfOtaStorageGetTagOffsetAndSize
+    211            if (status != EMBER_AF_OTA_STORAGE_SUCCESS) {
+   \       0x10   0x0001             MOVS     R1,R0
+   \       0x12   0xD10C             BNE.N    ??emAfOtaStorageGetTagDataFromImage_0
+   \       0x14   0x9808             LDR      R0,[SP, #+32]
+    212              return status;
+    213            }
+    214          
+    215            if (tagLength > maxReturnDataLength) {
+   \       0x16   0x9901             LDR      R1,[SP, #+4]
+   \       0x18   0x4288             CMP      R0,R1
+   \       0x1A   0xD201             BCS.N    ??emAfOtaStorageGetTagDataFromImage_1
+    216              return EMBER_AF_OTA_STORAGE_RETURN_DATA_TOO_LONG;
+   \       0x1C   0x2002             MOVS     R0,#+2
+   \       0x1E   0xE006             B.N      ??emAfOtaStorageGetTagDataFromImage_0
+    217            }
+    218          
+    219            return emberAfOtaStorageReadImageDataCallback(id,
+    220                                                          offset,
+    221                                                          tagLength,
+    222                                                          returnData,
+    223                                                          returnDataLength);
+   \                     ??emAfOtaStorageGetTagDataFromImage_1: (+1)
+   \       0x20   0x9600             STR      R6,[SP, #+0]
+   \       0x22   0x462B             MOV      R3,R5
+   \       0x24   0x460A             MOV      R2,R1
+   \       0x26   0x9902             LDR      R1,[SP, #+8]
+   \       0x28   0x4620             MOV      R0,R4
+   \       0x2A   0x.... 0x....      BL       emberAfOtaStorageReadImageDataCallback
+   \                     ??emAfOtaStorageGetTagDataFromImage_0: (+1)
+   \       0x2E   0xB004             ADD      SP,SP,#+16
+   \       0x30   0xBD70             POP      {R4-R6,PC}
+    224          }
+    225          
+
+   \                                 In section .text, align 2, keep-with-next
+    226          EmberAfOtaStorageStatus emAfOtaStorageGetRawHeaderData(const EmberAfOtaImageId* id,
+    227                                                                 uint8_t* returnData,
+    228                                                                 uint32_t* returnDataLength,
+    229                                                                 uint32_t maxReturnDataLength)
+    230          {
+   \                     emAfOtaStorageGetRawHeaderData: (+1)
+   \        0x0   0xB57C             PUSH     {R2-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+   \        0x6   0x4616             MOV      R6,R2
+    231            // We need to know the header size before we can get the raw data.
+    232            uint32_t headerLength;
+    233            EmberAfOtaStorageStatus status
+    234              = emAfOtaStorageGetHeaderLengthAndImageSize(id,
+    235                                                          &headerLength,
+    236                                                          NULL); // image size ptr (don't care)
+   \        0x8   0x2200             MOVS     R2,#+0
+   \        0xA   0xA901             ADD      R1,SP,#+4
+   \        0xC   0x.... 0x....      BL       emAfOtaStorageGetHeaderLengthAndImageSize
+    237          
+    238            if (status) {
+   \       0x10   0x0001             MOVS     R1,R0
+   \       0x12   0xD10C             BNE.N    ??emAfOtaStorageGetRawHeaderData_0
+    239              return status;
+    240            }
+    241          
+    242            if (*returnDataLength < headerLength) {
+   \       0x14   0x6830             LDR      R0,[R6, #+0]
+   \       0x16   0x9901             LDR      R1,[SP, #+4]
+   \       0x18   0x4288             CMP      R0,R1
+   \       0x1A   0xD201             BCS.N    ??emAfOtaStorageGetRawHeaderData_1
+    243              return EMBER_AF_OTA_STORAGE_RETURN_DATA_TOO_LONG;
+   \       0x1C   0x2002             MOVS     R0,#+2
+   \       0x1E   0xBD76             POP      {R1,R2,R4-R6,PC}
+    244            }
+    245          
+    246            return emberAfOtaStorageReadImageDataCallback(id,
+    247                                                          0,           // start offset
+    248                                                          headerLength,
+    249                                                          returnData,
+    250                                                          returnDataLength);
+   \                     ??emAfOtaStorageGetRawHeaderData_1: (+1)
+   \       0x20   0x9600             STR      R6,[SP, #+0]
+   \       0x22   0x462B             MOV      R3,R5
+   \       0x24   0x9A01             LDR      R2,[SP, #+4]
+   \       0x26   0x2100             MOVS     R1,#+0
+   \       0x28   0x4620             MOV      R0,R4
+   \       0x2A   0x.... 0x....      BL       emberAfOtaStorageReadImageDataCallback
+   \                     ??emAfOtaStorageGetRawHeaderData_0: (+1)
+   \       0x2E   0xBD76             POP      {R1,R2,R4-R6,PC}
+    251          }
+    252          
+
+   \                                 In section .text, align 2, keep-with-next
+    253          EmberAfOtaStorageStatus emAfOtaStorageReadAllTagInfo(const EmberAfOtaImageId* id,
+    254                                                               EmberAfTagData* tagInfo,
+    255                                                               uint16_t maxTags,
+    256                                                               uint16_t* totalTags)
+    257          {
+   \                     emAfOtaStorageReadAllTagInfo: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0xB086             SUB      SP,SP,#+24
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+   \        0x8   0x4616             MOV      R6,R2
+   \        0xA   0x461F             MOV      R7,R3
+    258            uint8_t tagData[TAG_OVERHEAD];
+    259            uint32_t returnedLength;
+    260            uint32_t offset;
+    261            uint32_t imageSize;
+    262            EmberAfOtaStorageStatus status
+    263              = emAfOtaStorageGetHeaderLengthAndImageSize(id,
+    264                                                          &offset,
+    265                                                          &imageSize);
+   \        0xC   0xAA02             ADD      R2,SP,#+8
+   \        0xE   0xA901             ADD      R1,SP,#+4
+   \       0x10   0x.... 0x....      BL       emAfOtaStorageGetHeaderLengthAndImageSize
+    266          
+    267            if (EMBER_AF_OTA_STORAGE_SUCCESS != status) {
+   \       0x14   0x0001             MOVS     R1,R0
+   \       0x16   0xD13D             BNE.N    ??emAfOtaStorageReadAllTagInfo_0
+    268              return status;
+    269            }
+    270          
+    271            // Although there is a field in the file that tells us the max
+    272            // number of tags in the file, we do not rely upon that.
+    273            // We count the number of tags actually in the file.
+    274            *totalTags = 0;
+   \       0x18   0x2000             MOVS     R0,#+0
+   \       0x1A   0x8038             STRH     R0,[R7, #+0]
+   \       0x1C   0xE026             B.N      ??emAfOtaStorageReadAllTagInfo_1
+    275          
+    276            while (offset < imageSize) {
+    277              uint32_t lengthOfEmberAfOtaStorageStatusInFile;
+    278              EmberAfOtaStorageStatus status =
+    279                emberAfOtaStorageReadImageDataCallback(id,
+    280                                                       offset,
+    281                                                       TAG_OVERHEAD,
+    282                                                       tagData,
+    283                                                       &returnedLength);
+    284              if (status != EMBER_AF_OTA_STORAGE_SUCCESS
+    285                  || TAG_OVERHEAD != returnedLength) {
+   \                     ??emAfOtaStorageReadAllTagInfo_2: (+1)
+   \       0x1E   0x9803             LDR      R0,[SP, #+12]
+   \       0x20   0x2806             CMP      R0,#+6
+   \       0x22   0xD131             BNE.N    ??emAfOtaStorageReadAllTagInfo_3
+    286                // File is too short or could not read the data on disk.
+    287                return EMBER_AF_OTA_STORAGE_ERROR;
+    288              }
+    289              lengthOfEmberAfOtaStorageStatusInFile = ((uint32_t)(tagData[2])
+    290                                                       + ((uint32_t)(tagData[3]) << 8)
+    291                                                       + ((uint32_t)(tagData[4]) << 16)
+    292                                                       + ((uint32_t)(tagData[5]) << 24));
+   \       0x24   0xA904             ADD      R1,SP,#+16
+   \       0x26   0xF89D 0x0012      LDRB     R0,[SP, #+18]
+   \       0x2A   0x78CA             LDRB     R2,[R1, #+3]
+   \       0x2C   0xEB00 0x2002      ADD      R0,R0,R2, LSL #+8
+   \       0x30   0x790A             LDRB     R2,[R1, #+4]
+   \       0x32   0xEB00 0x4002      ADD      R0,R0,R2, LSL #+16
+   \       0x36   0xF89D 0x2015      LDRB     R2,[SP, #+21]
+   \       0x3A   0xEB00 0x6002      ADD      R0,R0,R2, LSL #+24
+    293              if (*totalTags < maxTags) {
+   \       0x3E   0x883A             LDRH     R2,[R7, #+0]
+   \       0x40   0x4613             MOV      R3,R2
+   \       0x42   0x46B4             MOV      R12,R6
+   \       0x44   0x4563             CMP      R3,R12
+   \       0x46   0xD221             BCS.N    ??emAfOtaStorageReadAllTagInfo_4
+    294                tagInfo[*totalTags].id = tagData[0] + (tagData[1] << 8);
+   \       0x48   0xF89D 0x3010      LDRB     R3,[SP, #+16]
+   \       0x4C   0x7849             LDRB     R1,[R1, #+1]
+   \       0x4E   0xEB03 0x2301      ADD      R3,R3,R1, LSL #+8
+   \       0x52   0xF825 0x3032      STRH     R3,[R5, R2, LSL #+3]
+    295                tagInfo[*totalTags].length = lengthOfEmberAfOtaStorageStatusInFile;
+   \       0x56   0x8839             LDRH     R1,[R7, #+0]
+   \       0x58   0xEB05 0x01C1      ADD      R1,R5,R1, LSL #+3
+   \       0x5C   0x6048             STR      R0,[R1, #+4]
+    296              } else if (*totalTags > maxTags) {
+    297                // To prevent bad data from making us go into an endless loop we will
+    298                // stop processing tags once we surpass the number of max tags we
+    299                // can return data for.
+    300                return EMBER_AF_OTA_STORAGE_SUCCESS;
+    301              }
+    302              (*totalTags)++;
+   \                     ??emAfOtaStorageReadAllTagInfo_5: (+1)
+   \       0x5E   0x8839             LDRH     R1,[R7, #+0]
+   \       0x60   0x1C49             ADDS     R1,R1,#+1
+   \       0x62   0x8039             STRH     R1,[R7, #+0]
+    303              offset += TAG_OVERHEAD + lengthOfEmberAfOtaStorageStatusInFile;
+   \       0x64   0x9901             LDR      R1,[SP, #+4]
+   \       0x66   0x1840             ADDS     R0,R0,R1
+   \       0x68   0x1D80             ADDS     R0,R0,#+6
+   \       0x6A   0x9001             STR      R0,[SP, #+4]
+   \                     ??emAfOtaStorageReadAllTagInfo_1: (+1)
+   \       0x6C   0x9801             LDR      R0,[SP, #+4]
+   \       0x6E   0x9902             LDR      R1,[SP, #+8]
+   \       0x70   0x4288             CMP      R0,R1
+   \       0x72   0xD20E             BCS.N    ??emAfOtaStorageReadAllTagInfo_6
+   \       0x74   0xA803             ADD      R0,SP,#+12
+   \       0x76   0x9000             STR      R0,[SP, #+0]
+   \       0x78   0xAB04             ADD      R3,SP,#+16
+   \       0x7A   0x2206             MOVS     R2,#+6
+   \       0x7C   0x9901             LDR      R1,[SP, #+4]
+   \       0x7E   0x4620             MOV      R0,R4
+   \       0x80   0x.... 0x....      BL       emberAfOtaStorageReadImageDataCallback
+   \       0x84   0x2800             CMP      R0,#+0
+   \       0x86   0xD0CA             BEQ.N    ??emAfOtaStorageReadAllTagInfo_2
+   \                     ??emAfOtaStorageReadAllTagInfo_3: (+1)
+   \       0x88   0x2001             MOVS     R0,#+1
+   \       0x8A   0xE003             B.N      ??emAfOtaStorageReadAllTagInfo_0
+   \                     ??emAfOtaStorageReadAllTagInfo_4: (+1)
+   \       0x8C   0x4631             MOV      R1,R6
+   \       0x8E   0x4291             CMP      R1,R2
+   \       0x90   0xD2E5             BCS.N    ??emAfOtaStorageReadAllTagInfo_5
+    304            }
+    305          
+    306            return EMBER_AF_OTA_STORAGE_SUCCESS;
+   \                     ??emAfOtaStorageReadAllTagInfo_6: (+1)
+   \       0x92   0x2000             MOVS     R0,#+0
+   \                     ??emAfOtaStorageReadAllTagInfo_0: (+1)
+   \       0x94   0xB007             ADD      SP,SP,#+28
+   \       0x96   0xBDF0             POP      {R4-R7,PC}
+    307          }
+    308          
+
+   \                                 In section .text, align 2, keep-with-next
+    309          bool emberAfIsOtaImageIdValid(const EmberAfOtaImageId* idToCompare)
+    310          {
+   \                     emberAfIsOtaImageIdValid: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    311            return (0 != MEMCOMPARE(idToCompare,
+    312                                    &emberAfInvalidImageId,
+    313                                    sizeof(EmberAfOtaImageId)));
+   \        0x2   0x2210             MOVS     R2,#+16
+   \        0x4   0x....             LDR.N    R1,??DataTable1_1
+   \        0x6   0x.... 0x....      BL       memcmp
+   \        0xA   0x1E40             SUBS     R0,R0,#+1
+   \        0xC   0x4180             SBCS     R0,R0,R0
+   \        0xE   0x43C0             MVNS     R0,R0
+   \       0x10   0x0FC0             LSRS     R0,R0,#+31
+   \       0x12   0xBD02             POP      {R1,PC}
+    314          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \        0x0   0x....'....        DC32     emberAfInvalidImageId
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0xFFFF 0xFFFF      DC16 65'535, 65'535
+   \        0x4   0xFFFF'FFFF        DC32 4'294'967'295
+   \        0x8   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+     112   emAfOtaStorageGetHeaderLengthAndImageSize
+       112   -> emberAfOtaStorageGetFullHeaderCallback
+      32   emAfOtaStorageGetImageIdFromHeader
+        32   -> __aeabi_memcpy
+        32   -> __aeabi_memcpy4
+      24   emAfOtaStorageGetRawHeaderData
+        24   -> emAfOtaStorageGetHeaderLengthAndImageSize
+        24   -> emberAfOtaStorageReadImageDataCallback
+      32   emAfOtaStorageGetTagDataFromImage
+        32   -> emAfOtaStorageGetTagOffsetAndSize
+        32   -> emberAfOtaStorageReadImageDataCallback
+      88   emAfOtaStorageGetTagOffsetAndSize
+        88   -> emAfOtaStorageGetHeaderLengthAndImageSize
+        88   -> emAfOtaStorageReadAllTagInfo
+      80   emAfOtaStorageGetTagOffsetsAndSizes
+        80   -> emAfOtaStorageGetHeaderLengthAndImageSize
+        80   -> emAfOtaStorageReadAllTagInfo
+     104   emAfOtaStorageGetZigbeeStackVersion
+       104   -> emberAfOtaStorageGetFullHeaderCallback
+      48   emAfOtaStorageReadAllTagInfo
+        48   -> emAfOtaStorageGetHeaderLengthAndImageSize
+        48   -> emberAfOtaStorageReadImageDataCallback
+       0   emGetUpgradeFileDestinationLength
+       8   emberAfIsOtaImageIdValid
+         8   -> memcmp
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+      16  ?_0
+      40  emAfOtaStorageGetHeaderLengthAndImageSize
+      66  emAfOtaStorageGetImageIdFromHeader
+      48  emAfOtaStorageGetRawHeaderData
+      50  emAfOtaStorageGetTagDataFromImage
+     134  emAfOtaStorageGetTagOffsetAndSize
+     138  emAfOtaStorageGetTagOffsetsAndSizes
+      30  emAfOtaStorageGetZigbeeStackVersion
+     152  emAfOtaStorageReadAllTagInfo
+      32  emGetUpgradeFileDestinationLength
+      20  emberAfIsOtaImageIdValid
+
+ 
+  16 bytes in section .rodata
+ 718 bytes in section .text
+ 
+ 718 bytes of CODE  memory
+  16 bytes of CONST memory
+
+Errors: none
+Warnings: none

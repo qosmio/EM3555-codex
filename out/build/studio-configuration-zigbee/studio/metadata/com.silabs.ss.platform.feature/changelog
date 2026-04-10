@@ -1,0 +1,138 @@
+5.4.1
+   SV5.12.0.0 release
+5.3.20
+   SV5.10.3.0 release
+5.3.19
+	SV5.10.1 release changes
+  * Update copyright year
+5.3.18
+	SV5.10.0 release changes
+5.3.17
+   SV5.9.3.1 release.
+5.3.16
+   SV5.9.3.0 release.
+5.3.15
+   SV5.9.2.0 release.
+5.3.14
+  Minor bug fixes and improvements.
+5.3.13
+	Minor improvements.
+5.3.12
+	Minor bug fixes and improvements.
+5.3.11
+   SV5.8.1.1 release - fix copyright year notice
+5.3.10
+   SV5.8.0.1 release.
+   Fixes for duplicate IAR installation preventing proper detection of toolchains in studio.
+5.3.9
+   SV5.8.0.0 release.
+   GIT LFS support changes.
+5.3.8
+    Bug fixes for special characters in generated files
+5.3.7
+  SV5.7.2.0 release
+    Bug Fixes
+5.3.6
+  SV5.7.1.1 release
+	* Fix issue with pintool file when importing SLC CLI generated project into Studio.
+5.3.5
+	SV5.7 release notes
+5.3.4
+	Bug Fixes
+5.3.3
+	Bug Fixes
+5.3.2
+	Add Generic Templates framework to support third party IDEs and build systems
+	Bug Fixes
+5.3.1
+	Adding infrastructure for post-build and workspaces support.
+5.3.0
+	Platform changes for SV5.5.0.0 release.
+	Enabling Silicon Labs Matter package integration.
+	Fixed issue with external repo and default branch name.
+5.2.2
+	Bug fixes
+	- consistent folder picking for offline archives
+5.2.1
+	Bug fix updating usb_monitor
+5.2.0
+  Bug fixes
+    - Secure library access
+    - 3rd party installation tools
+5.1.0
+  Bug fixes and new features for Studio SV5.4.0.0 release
+    - Improved Linux installation flow
+    - Improved Launcher view filtering of Examples and Demos
+    - Addressing various code quality issues
+5.0.11
+  Bug fix: Using proxy when accessing github
+5.0.10
+  Minor Bug fixes
+5.0.9
+  Bug fix for the External Repos support
+5.0.8
+  Bug fixes to GSDK-on-GitHub support
+5.0.7
+  GSDK to GitHub support
+5.0.6
+  Bug fixes - better support for non-english characters in file names
+5.0.5
+  SQ clean up and performance enhancement
+5.0.4
+  Improve picking target part when determining preferred SDK
+5.0.3
+  Improved project archives handling method
+5.0.2
+  Add support to collect GDB Debugger server logs.
+  Add support to display Silicon Labs GitHub example projects in Launcher and project wizard.
+5.0.1
+  Bug fixes
+5.0.0
+  Initial release, includes these key features:
+ 
+  * Launcher
+    - Fresh, clean user interface
+    - Automatic detection of connected development boards
+    - Context-aware development board and target device developer resources
+    - SDK download and update manager
+    - Easy programming of pre-built demo apps
+    - Simple cloning of software examples
+    - Quick access to software and hardware documentation with search and filter capabilities
+  * Software creation & management tools
+    - Support for Gecko SDK Suite 3.0 and later
+    - Creation of projects for
+      o The integrated Simplicity Studio IDE
+      o IAR Embedded Workbench
+      o Command-line GNU toolchain (GNU makefiles)
+    - Searchable library of device-relevant software making it easy to add software components to projects
+    - Configure software components in a GUI or text (C source) editor
+      o Configurable peripheral initialization, drivers, middleware, kernels and utilities
+    - Built-in software configuration error-checking
+    - Software dependency manager simplifies porting from
+      o SDK to SDK
+      o Silicon Labs development kits to custom hardware designs
+    - Graphical configuration tools
+      o Pin tool to assign pin and peripheral hardware resources
+      o Proprietary radio configurator tool
+      o Editor for Bluetooth LE Generic Attribute Profile (GATT)
+    - Source/Project management and revision control
+      o Option to copy or link SDK source
+      o No hard-coded paths
+      o Clear separation between SDK and customer source code
+      o Easy transfer of projects (share/import/export of projects)
+      o Source code management and software engineering workflows
+  * Development Tools
+    - Powerful integrated development environment (IDE)
+      o Built on latest Eclipse framework (v4.14 and newer)
+      o C/C++ Development Tooling (CDT, v9.10 and newer)
+      o Eclipse marketplace to enhance and customize
+    - Valuable insights with Silicon Labs analysis tools
+      o Wireless network traffic capture and analysis
+        - Test and analyze the traffic of your wireless devices and networks
+        - Data collected directly from devices under test
+        - Includes signal strength, LQI (Link Quality Indicator) and filtering information (unique to Silicon Labs)
+      o Capture and display energy usage
+        - Monitor single device or multiple nodes on a wireless network
+        - Code-correlated energy data – identify where your embedded application is consuming energy and design power-optimized applications
+        - Advanced trigger and search functions locate power events
+      o Energy monitoring and profiling tools

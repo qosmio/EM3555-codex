@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.wiseconnect_3.5.1">
+  <assets path="/extension.wiseconnect_3.5.1/connectivity_firmware.zip" diskSizeKB="5994.209" downloadSizeKB="3427.121" directory="true"/>
+  <assets path="/extension.wiseconnect_3.5.1/demos/brd2605a/out_of_box_demo.rps" diskSizeKB="134.912" downloadSizeKB="134.912"/>
+  <assets path="/extension.wiseconnect_3.5.1/demos/brd2605a/siwx917_dev_kit.rps" diskSizeKB="142.232" downloadSizeKB="142.232"/>
+  <assets path="/extension.wiseconnect_3.5.1/demos/brd2708a/out_of_box_demo.rps" diskSizeKB="134.888" downloadSizeKB="134.888"/>
+  <assets path="/extension.wiseconnect_3.5.1/demos/brd4342a/out_of_box_demo.rps" diskSizeKB="135.808" downloadSizeKB="135.808"/>
+  <assets path="/extension.wiseconnect_3.5.1/demos/brd4338a/wireless_test_soc.rps" diskSizeKB="163.228" downloadSizeKB="163.228"/>
+  <assets path="/extension.wiseconnect_3.5.1/demos/brd4338a/out_of_box_demo.rps" diskSizeKB="135.808" downloadSizeKB="135.808"/>
+  <assets path="/extension.wiseconnect_3.5.1/demos/brd4338a/wifi_commander_soc.rps" diskSizeKB="106.592" downloadSizeKB="106.592"/>
+  <assets path="/extension.wiseconnect_3.5.1/demos/brd4343a/out_of_box_demo.rps" diskSizeKB="134.888" downloadSizeKB="134.888"/>
+</assets>

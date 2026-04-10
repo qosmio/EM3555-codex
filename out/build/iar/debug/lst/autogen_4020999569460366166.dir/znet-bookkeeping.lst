@@ -1,0 +1,292 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:40
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\znet-bookkeeping.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\znet-bookkeeping.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\znet-bookkeeping.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"znet-bookkeeping.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\autogen_4020999569460366166.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\znet-bookkeeping.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\znet-bookkeeping.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\autogen_4020999569460366166.dir\znet-bookkeeping.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\znet-bookkeeping.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\znet-bookkeeping.c
+      1          #include "app/framework/include/af.h"
+      2          #include "app/framework/util/common.h"
+      3          
+
+   \                                 In section .text, align 4, keep-with-next
+      4          bool emAfRetrieveAttributeAndCraftResponse(uint8_t endpoint,
+      5                                                     EmberAfClusterId clusterId,
+      6                                                     EmberAfAttributeId attrId,
+      7                                                     uint8_t mask,
+      8                                                     uint16_t manufacturerCode,
+      9                                                     uint16_t readLength)
+     10          {
+   \                     emAfRetrieveAttributeAndCraftResponse: (+1)
+   \        0x0   0xB578             PUSH     {R3-R6,LR}
+   \        0x2   0xB095             SUB      SP,SP,#+84
+   \        0x4   0x4615             MOV      R5,R2
+   \        0x6   0x9C1B             LDR      R4,[SP, #+108]
+     11            EmberAfStatus status;
+     12            EmberAfAttributeType dataType = ZCL_NO_DATA_ATTRIBUTE_TYPE;
+   \        0x8   0x2200             MOVS     R2,#+0
+   \        0xA   0xF88D 0x2010      STRB     R2,[SP, #+16]
+     13            uint8_t data[ATTRIBUTE_LARGEST];
+     14            uint8_t dataLen;
+     15          
+     16            if (readLength < 5U) {
+   \        0xE   0x4622             MOV      R2,R4
+   \       0x10   0xB292             UXTH     R2,R2
+   \       0x12   0x2A04             CMP      R2,#+4
+   \       0x14   0xD93A             BLS.N    ??emAfRetrieveAttributeAndCraftResponse_1
+     17              return false;
+     18            }
+     19          
+     20            status = emAfReadAttribute(endpoint,
+     21                                       clusterId,
+     22                                       attrId,
+     23                                       mask,
+     24                                       manufacturerCode,
+     25                                       data,
+     26                                       ATTRIBUTE_LARGEST,
+     27                                       &dataType);
+   \       0x16   0xAA04             ADD      R2,SP,#+16
+   \       0x18   0x9203             STR      R2,[SP, #+12]
+   \       0x1A   0x2240             MOVS     R2,#+64
+   \       0x1C   0x9202             STR      R2,[SP, #+8]
+   \       0x1E   0xAA05             ADD      R2,SP,#+20
+   \       0x20   0x9201             STR      R2,[SP, #+4]
+   \       0x22   0xF8BD 0x2068      LDRH     R2,[SP, #+104]
+   \       0x26   0x9200             STR      R2,[SP, #+0]
+   \       0x28   0x462A             MOV      R2,R5
+   \       0x2A   0x.... 0x....      BL       emAfReadAttribute
+   \       0x2E   0x0006             MOVS     R6,R0
+     28            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x30   0xD007             BEQ.N    ??emAfRetrieveAttributeAndCraftResponse_2
+     29              emberAfPutInt16uInResp(attrId);
+   \       0x32   0x4628             MOV      R0,R5
+   \       0x34   0x.... 0x....      BL       emberAfPutInt16uInResp
+     30              emberAfPutInt8uInResp(status);
+   \       0x38   0x4630             MOV      R0,R6
+   \       0x3A   0x.... 0x....      BL       emberAfPutInt8uInResp
+     31              return true;
+   \       0x3E   0x2001             MOVS     R0,#+1
+   \       0x40   0xE03B             B.N      ??emAfRetrieveAttributeAndCraftResponse_3
+     32            }
+     33          
+     34            if (dataType == ZCL_OCTET_STRING_ATTRIBUTE_TYPE
+     35                || dataType == ZCL_CHAR_STRING_ATTRIBUTE_TYPE) {
+   \                     ??emAfRetrieveAttributeAndCraftResponse_2: (+1)
+   \       0x42   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \       0x46   0x2841             CMP      R0,#+65
+   \       0x48   0xD001             BEQ.N    ??emAfRetrieveAttributeAndCraftResponse_4
+   \       0x4A   0x2842             CMP      R0,#+66
+   \       0x4C   0xD106             BNE.N    ??emAfRetrieveAttributeAndCraftResponse_5
+     36              dataLen = emberAfStringLength(data) + 1U;
+   \                     ??emAfRetrieveAttributeAndCraftResponse_4: (+1)
+   \       0x4E   0xA805             ADD      R0,SP,#+20
+   \       0x50   0x.... 0x....      BL       emberAfStringLength
+   \       0x54   0x4606             MOV      R6,R0
+   \       0x56   0x1C76             ADDS     R6,R6,#+1
+   \       0x58   0xB2F6             UXTB     R6,R6
+   \       0x5A   0xE00D             B.N      ??emAfRetrieveAttributeAndCraftResponse_6
+     37            } else if (dataType == ZCL_LONG_OCTET_STRING_ATTRIBUTE_TYPE
+     38                       || dataType == ZCL_LONG_CHAR_STRING_ATTRIBUTE_TYPE) {
+   \                     ??emAfRetrieveAttributeAndCraftResponse_5: (+1)
+   \       0x5C   0x2843             CMP      R0,#+67
+   \       0x5E   0xD001             BEQ.N    ??emAfRetrieveAttributeAndCraftResponse_7
+   \       0x60   0x2844             CMP      R0,#+68
+   \       0x62   0xD106             BNE.N    ??emAfRetrieveAttributeAndCraftResponse_8
+     39              dataLen = emberAfLongStringLength(data) + 2U;
+   \                     ??emAfRetrieveAttributeAndCraftResponse_7: (+1)
+   \       0x64   0xA805             ADD      R0,SP,#+20
+   \       0x66   0x.... 0x....      BL       emberAfLongStringLength
+   \       0x6A   0x4606             MOV      R6,R0
+   \       0x6C   0x1CB6             ADDS     R6,R6,#+2
+   \       0x6E   0xB2F6             UXTB     R6,R6
+   \       0x70   0xE002             B.N      ??emAfRetrieveAttributeAndCraftResponse_6
+     40            } else {
+     41              dataLen = emberAfGetDataSize(dataType);
+   \                     ??emAfRetrieveAttributeAndCraftResponse_8: (+1)
+   \       0x72   0x.... 0x....      BL       emberAfGetDataSize
+   \       0x76   0x4606             MOV      R6,R0
+     42            }
+     43          
+     44            if (readLength < (uint16_t)(4U + dataLen)
+     45                || (appResponseLength + 4U + dataLen) > EMBER_AF_RESPONSE_BUFFER_LEN) {
+   \                     ??emAfRetrieveAttributeAndCraftResponse_6: (+1)
+   \       0x78   0x1D30             ADDS     R0,R6,#+4
+   \       0x7A   0xB2A4             UXTH     R4,R4
+   \       0x7C   0x4284             CMP      R4,R0
+   \       0x7E   0xD305             BCC.N    ??emAfRetrieveAttributeAndCraftResponse_1
+   \       0x80   0x4C0F             LDR.N    R4,??emAfRetrieveAttributeAndCraftResponse_0
+   \       0x82   0x8820             LDRH     R0,[R4, #+0]
+   \       0x84   0x1830             ADDS     R0,R6,R0
+   \       0x86   0x1D00             ADDS     R0,R0,#+4
+   \       0x88   0x2853             CMP      R0,#+83
+   \       0x8A   0xD301             BCC.N    ??emAfRetrieveAttributeAndCraftResponse_9
+     46              return false;
+   \                     ??emAfRetrieveAttributeAndCraftResponse_1: (+1)
+   \       0x8C   0x2000             MOVS     R0,#+0
+   \       0x8E   0xE014             B.N      ??emAfRetrieveAttributeAndCraftResponse_3
+     47            }
+     48          
+     49            emberAfPutInt16uInResp(attrId);
+   \                     ??emAfRetrieveAttributeAndCraftResponse_9: (+1)
+   \       0x90   0x4628             MOV      R0,R5
+   \       0x92   0x.... 0x....      BL       emberAfPutInt16uInResp
+     50            emberAfPutInt8uInResp(EMBER_ZCL_STATUS_SUCCESS);
+   \       0x96   0x2000             MOVS     R0,#+0
+   \       0x98   0x.... 0x....      BL       emberAfPutInt8uInResp
+     51            emberAfPutInt8uInResp(dataType);
+   \       0x9C   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \       0xA0   0x.... 0x....      BL       emberAfPutInt8uInResp
+     52          
+     53          #if (BIGENDIAN_CPU)
+     54            if (dataType == ZCL_OCTET_STRING_ATTRIBUTE_TYPE
+     55                || dataType == ZCL_CHAR_STRING_ATTRIBUTE_TYPE
+     56                || dataType == ZCL_LONG_OCTET_STRING_ATTRIBUTE_TYPE
+     57                || dataType == ZCL_LONG_CHAR_STRING_ATTRIBUTE_TYPE) {
+     58              MEMMOVE(&appResponseData[appResponseLength], data, dataLen);
+     59            } else {
+     60              uint8_t i;
+     61              for (i = 0; i < dataLen; i++) {
+     62                appResponseData[appResponseLength + i] = data[dataLen - i - 1U];
+     63              }
+     64            }
+     65          #else
+     66            MEMMOVE(&appResponseData[appResponseLength], data, dataLen);
+   \       0xA4   0x8825             LDRH     R5,[R4, #+0]
+   \       0xA6   0x4632             MOV      R2,R6
+   \       0xA8   0xA905             ADD      R1,SP,#+20
+   \       0xAA   0x4806             LDR.N    R0,??emAfRetrieveAttributeAndCraftResponse_0+4
+   \       0xAC   0x462B             MOV      R3,R5
+   \       0xAE   0x18C0             ADDS     R0,R0,R3
+   \       0xB0   0x.... 0x....      BL       __aeabi_memmove
+     67          #endif
+     68          
+     69            appResponseLength += dataLen;
+   \       0xB4   0x1976             ADDS     R6,R6,R5
+   \       0xB6   0x8026             STRH     R6,[R4, #+0]
+     70            return true;
+   \       0xB8   0x2001             MOVS     R0,#+1
+   \                     ??emAfRetrieveAttributeAndCraftResponse_3: (+1)
+   \       0xBA   0xB016             ADD      SP,SP,#+88
+   \       0xBC   0xBD70             POP      {R4-R6,PC}
+   \       0xBE   0xBF00             Nop
+   \                     ??emAfRetrieveAttributeAndCraftResponse_0:
+   \       0xC0   0x....'....        DC32     appResponseLength
+   \       0xC4   0x....'....        DC32     appResponseData
+     71          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+     104   emAfRetrieveAttributeAndCraftResponse
+       104   -> __aeabi_memmove
+       104   -> emAfReadAttribute
+       104   -> emberAfGetDataSize
+       104   -> emberAfLongStringLength
+       104   -> emberAfPutInt16uInResp
+       104   -> emberAfPutInt8uInResp
+       104   -> emberAfStringLength
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+     200  emAfRetrieveAttributeAndCraftResponse
+
+ 
+ 200 bytes in section .text
+ 
+ 200 bytes of CODE memory
+
+Errors: none
+Warnings: none

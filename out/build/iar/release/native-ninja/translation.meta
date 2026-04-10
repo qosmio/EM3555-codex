@@ -1,0 +1,6 @@
+translator=/Users/macbook/Documents/code/silabs/EM3555/tools/translate_iar_ninja.py
+tool_driver=/Users/macbook/Documents/code/silabs/EM3555/tools/crossover_iar_tool.py
+wine=/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/bin/wine
+bottle=IAR
+iar_bin_win=C:\iar\ewarm-9.70.2\arm\bin
+drive_c_root=/Users/macbook/Documents/code/silabs/EM3555/build/iar/crossover-drive-c

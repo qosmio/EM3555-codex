@@ -1,0 +1,28 @@
+5.1.6
+	SV5.11.0.0 updates
+5.1.5
+	Minor bug fixes and improvements.
+5.1.4
+	Minor update to a dependency link.
+5.1.2
+	Update jxBrowser to version 7.25
+5.1.1
+	Updating jxBrowser version to 7.25
+5.1.0
+	Update for SV5.4 release (Eclipse 4.23)
+5.0.6
+	Updating jxBrowser version to 7.19.0
+5.0.5
+    Fix for Locale issue with Turkish OS
+5.0.4
+	Code maintenance.
+5.0.3
+	Code maintenance.
+5.0.2
+   Minor bug fixes.
+5.0.1
+	Add crash reports to Studio bug report package.
+5.0.0
+	Updating to using SWT instead of JavaFX; new version of jxBrowser updated to 7.6.0
+4.0.0
+	Initial release

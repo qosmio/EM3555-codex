@@ -1,0 +1,2716 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:39
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\call-command-handler.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\call-command-handler.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\call-command-handler.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"call-command-handler.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\autogen_4020999569460366166.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\call-command-handler.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\call-command-handler.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\autogen_4020999569460366166.dir\call-command-handler.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\call-command-handler.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\call-command-handler.c
+      1          #include "app/framework/include/af.h"
+      2          
+      3          #include "app_runtime.h"
+      4          #include "config/firmware_config.h"
+      5          #include "debug_output.h"
+      6          #include "fw_compat.h"
+      7          #include "light_state.h"
+      8          
+      9          bool emberAfOnOffClusterOffCallback(void);
+     10          bool emberAfOnOffClusterOnCallback(void);
+     11          bool emberAfOnOffClusterToggleCallback(void);
+     12          
+     13          bool emberAfLevelControlClusterMoveToLevelCallback(uint8_t level,
+     14                                                             uint16_t transitionTime,
+     15                                                             uint8_t optionMask,
+     16                                                             uint8_t optionOverride);
+     17          bool emberAfLevelControlClusterMoveToLevelWithOnOffCallback(uint8_t level,
+     18                                                                      uint16_t transitionTime);
+     19          bool emberAfLevelControlClusterMoveCallback(uint8_t moveMode,
+     20                                                      uint8_t rate,
+     21                                                      uint8_t optionMask,
+     22                                                      uint8_t optionOverride);
+     23          bool emberAfLevelControlClusterMoveWithOnOffCallback(uint8_t moveMode, uint8_t rate);
+     24          bool emberAfLevelControlClusterStepCallback(uint8_t stepMode,
+     25                                                      uint8_t stepSize,
+     26                                                      uint16_t transitionTime,
+     27                                                      uint8_t optionMask,
+     28                                                      uint8_t optionOverride);
+     29          bool emberAfLevelControlClusterStepWithOnOffCallback(uint8_t stepMode,
+     30                                                               uint8_t stepSize,
+     31                                                               uint16_t transitionTime);
+     32          bool emberAfLevelControlClusterStopCallback(uint8_t optionMask,
+     33                                                      uint8_t optionOverride);
+     34          bool emberAfLevelControlClusterStopWithOnOffCallback(void);
+     35          
+     36          bool emberAfGroupsClusterAddGroupCallback(uint16_t groupId, uint8_t *groupName);
+     37          bool emberAfGroupsClusterViewGroupCallback(uint16_t groupId);
+     38          bool emberAfGroupsClusterGetGroupMembershipCallback(uint8_t groupCount, uint8_t *groupList);
+     39          bool emberAfGroupsClusterRemoveGroupCallback(uint16_t groupId);
+     40          bool emberAfGroupsClusterRemoveAllGroupsCallback(void);
+     41          bool emberAfGroupsClusterAddGroupIfIdentifyingCallback(uint16_t groupId, uint8_t *groupName);
+     42          
+     43          bool emberAfScenesClusterAddSceneCallback(uint16_t groupId,
+     44                                                    uint8_t sceneId,
+     45                                                    uint16_t transitionTime,
+     46                                                    uint8_t *sceneName,
+     47                                                    uint8_t *extensionFieldSets);
+     48          bool emberAfScenesClusterViewSceneCallback(uint16_t groupId, uint8_t sceneId);
+     49          bool emberAfScenesClusterRemoveSceneCallback(uint16_t groupId, uint8_t sceneId);
+     50          bool emberAfScenesClusterRemoveAllScenesCallback(uint16_t groupId);
+     51          bool emberAfScenesClusterStoreSceneCallback(uint16_t groupId, uint8_t sceneId);
+     52          bool emberAfScenesClusterRecallSceneCallback(uint16_t groupId,
+     53                                                       uint8_t sceneId,
+     54                                                       uint16_t transitionTime);
+     55          bool emberAfScenesClusterGetSceneMembershipCallback(uint16_t groupId);
+     56          
+     57          #ifndef ZCL_ENHANCED_MOVE_TO_HUE_COMMAND_ID
+     58          #define ZCL_ENHANCED_MOVE_TO_HUE_COMMAND_ID                0x40U
+     59          #endif
+     60          
+     61          #ifndef ZCL_ENHANCED_MOVE_TO_HUE_AND_SATURATION_COMMAND_ID
+     62          #define ZCL_ENHANCED_MOVE_TO_HUE_AND_SATURATION_COMMAND_ID 0x43U
+     63          #endif
+     64          
+     65          #ifndef ZCL_STOP_MOVE_STEP_COMMAND_ID
+     66          #define ZCL_STOP_MOVE_STEP_COMMAND_ID                     0x47U
+     67          #endif
+     68          
+     69          #ifndef ZCL_COLOR_LOOP_SET_COMMAND_ID
+     70          #define ZCL_COLOR_LOOP_SET_COMMAND_ID                     0x44U
+     71          #endif
+     72          
+     73          #ifndef ZCL_MOVE_COLOR_TEMPERATURE_COMMAND_ID
+     74          #define ZCL_MOVE_COLOR_TEMPERATURE_COMMAND_ID             0x4BU
+     75          #endif
+     76          
+     77          #ifndef ZCL_STEP_COLOR_TEMPERATURE_COMMAND_ID
+     78          #define ZCL_STEP_COLOR_TEMPERATURE_COMMAND_ID             0x4CU
+     79          #endif
+     80          
+     81          #ifndef ZCL_ADD_GROUP_COMMAND_ID
+     82          #define ZCL_ADD_GROUP_COMMAND_ID                 0x00U
+     83          #define ZCL_VIEW_GROUP_COMMAND_ID                0x01U
+     84          #define ZCL_GET_GROUP_MEMBERSHIP_COMMAND_ID      0x02U
+     85          #define ZCL_REMOVE_GROUP_COMMAND_ID              0x03U
+     86          #define ZCL_REMOVE_ALL_GROUPS_COMMAND_ID         0x04U
+     87          #define ZCL_ADD_GROUP_IF_IDENTIFYING_COMMAND_ID  0x05U
+     88          #endif
+     89          
+     90          #ifndef ZCL_ADD_SCENE_COMMAND_ID
+     91          #define ZCL_ADD_SCENE_COMMAND_ID                 0x00U
+     92          #define ZCL_VIEW_SCENE_COMMAND_ID                0x01U
+     93          #define ZCL_REMOVE_SCENE_COMMAND_ID              0x02U
+     94          #define ZCL_REMOVE_ALL_SCENES_COMMAND_ID         0x03U
+     95          #define ZCL_STORE_SCENE_COMMAND_ID               0x04U
+     96          #define ZCL_RECALL_SCENE_COMMAND_ID              0x05U
+     97          #define ZCL_GET_SCENE_MEMBERSHIP_COMMAND_ID      0x06U
+     98          #endif
+     99          
+    100          #ifndef ZCL_TRIGGER_EFFECT_COMMAND_ID
+    101          #define ZCL_TRIGGER_EFFECT_COMMAND_ID            0x40U
+    102          #endif
+    103          
+
+   \                                 In section .text, align 2, keep-with-next
+    104          static uint16_t read_u16(const uint8_t *payload)
+    105          {
+   \                     read_u16: (+1)
+   \        0x0   0x4601             MOV      R1,R0
+    106            return (uint16_t)(payload[0] | ((uint16_t)payload[1] << 8));
+   \        0x2   0x7808             LDRB     R0,[R1, #+0]
+   \        0x4   0x7849             LDRB     R1,[R1, #+1]
+   \        0x6   0xEA40 0x2001      ORR      R0,R0,R1, LSL #+8
+   \        0xA   0x4770             BX       LR
+    107          }
+    108          
+
+   \                                 In section .text, align 2, keep-with-next
+    109          static int16_t read_s16(const uint8_t *payload)
+    110          {
+   \                     read_s16: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    111            return (int16_t)read_u16(payload);
+   \        0x2   0x.... 0x....      BL       read_u16
+   \        0x6   0xB200             SXTH     R0,R0
+   \        0x8   0xBD02             POP      {R1,PC}
+    112          }
+    113          
+
+   \                                 In section .text, align 2, keep-with-next
+    114          static uint8_t enhanced_hue_to_zcl_hue(uint16_t enhancedHue)
+    115          {
+    116            uint32_t scaled = ((uint32_t)enhancedHue * 254UL) + 32767UL;
+    117            return (uint8_t)(scaled / 65535UL);
+   \                     enhanced_hue_to_zcl_hue: (+1)
+   \        0x0   0xEBC0 0x11C0      RSB      R1,R0,R0, LSL #+7
+   \        0x4   0xF647 0x70FF      MOVW     R0,#+32767
+   \        0x8   0xEB00 0x0041      ADD      R0,R0,R1, LSL #+1
+   \        0xC   0xF64F 0x71FF      MOVW     R1,#+65535
+   \       0x10   0xFBB0 0xF0F1      UDIV     R0,R0,R1
+   \       0x14   0xB2C0             UXTB     R0,R0
+   \       0x16   0x4770             BX       LR
+    118          }
+    119          
+
+   \                                 In section .text, align 2, keep-with-next
+    120          static uint8_t clamp_color_component_u8(int32_t value)
+    121          {
+    122            if (value < 0) {
+   \                     clamp_color_component_u8: (+1)
+   \        0x0   0x2800             CMP      R0,#+0
+   \        0x2   0xD501             BPL.N    ??clamp_color_component_u8_0
+    123              return 0U;
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x4770             BX       LR
+    124            }
+    125            if (value > 254) {
+   \                     ??clamp_color_component_u8_0: (+1)
+   \        0x8   0x28FF             CMP      R0,#+255
+   \        0xA   0xDB01             BLT.N    ??clamp_color_component_u8_1
+    126              return 254U;
+   \        0xC   0x20FE             MOVS     R0,#+254
+   \        0xE   0x4770             BX       LR
+    127            }
+    128            return (uint8_t)value;
+   \                     ??clamp_color_component_u8_1: (+1)
+   \       0x10   0xB2C0             UXTB     R0,R0
+   \       0x12   0x4770             BX       LR
+    129          }
+    130          
+
+   \                                 In section .text, align 2, keep-with-next
+    131          static uint8_t clamp_level_u8(int32_t value)
+    132          {
+    133            if (value < 0) {
+   \                     clamp_level_u8: (+1)
+   \        0x0   0x2800             CMP      R0,#+0
+   \        0x2   0xD501             BPL.N    ??clamp_level_u8_0
+    134              return 0U;
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x4770             BX       LR
+    135            }
+    136            if (value > 254) {
+   \                     ??clamp_level_u8_0: (+1)
+   \        0x8   0x28FF             CMP      R0,#+255
+   \        0xA   0xDB01             BLT.N    ??clamp_level_u8_1
+    137              return 254U;
+   \        0xC   0x20FE             MOVS     R0,#+254
+   \        0xE   0x4770             BX       LR
+    138            }
+    139            return (uint8_t)value;
+   \                     ??clamp_level_u8_1: (+1)
+   \       0x10   0xB2C0             UXTB     R0,R0
+   \       0x12   0x4770             BX       LR
+    140          }
+    141          
+
+   \                                 In section .text, align 2, keep-with-next
+    142          static uint8_t wrap_hue_u8(int32_t value)
+    143          {
+    144            int32_t wrapped = value % 255;
+   \                     wrap_hue_u8: (+1)
+   \        0x0   0x21FF             MOVS     R1,#+255
+   \        0x2   0xFB90 0xF1F1      SDIV     R1,R0,R1
+   \        0x6   0xEBC1 0x2101      RSB      R1,R1,R1, LSL #+8
+   \        0xA   0x1A40             SUBS     R0,R0,R1
+    145          
+    146            if (wrapped < 0) {
+   \        0xC   0xD500             BPL.N    ??wrap_hue_u8_0
+    147              wrapped += 255;
+   \        0xE   0x30FF             ADDS     R0,R0,#+255
+    148            }
+    149            return (uint8_t)wrapped;
+   \                     ??wrap_hue_u8_0: (+1)
+   \       0x10   0xB2C0             UXTB     R0,R0
+   \       0x12   0x4770             BX       LR
+    150          }
+    151          
+
+   \                                 In section .text, align 2, keep-with-next
+    152          static uint16_t clamp_u16_range(uint32_t value, uint16_t minimum, uint16_t maximum)
+    153          {
+   \                     clamp_u16_range: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+    154            if (minimum > maximum) {
+   \        0x2   0x4613             MOV      R3,R2
+   \        0x4   0x460C             MOV      R4,R1
+   \        0x6   0x42A3             CMP      R3,R4
+   \        0x8   0xD202             BCS.N    ??clamp_u16_range_0
+    155              uint16_t swapped = minimum;
+   \        0xA   0x460B             MOV      R3,R1
+    156              minimum = maximum;
+   \        0xC   0x4611             MOV      R1,R2
+    157              maximum = swapped;
+   \        0xE   0x461A             MOV      R2,R3
+    158            }
+    159          
+    160            if (value < minimum) {
+   \                     ??clamp_u16_range_0: (+1)
+   \       0x10   0x460B             MOV      R3,R1
+   \       0x12   0x4298             CMP      R0,R3
+   \       0x14   0xD201             BCS.N    ??clamp_u16_range_1
+    161              return minimum;
+   \       0x16   0x4608             MOV      R0,R1
+   \       0x18   0xE005             B.N      ??clamp_u16_range_2
+    162            }
+    163            if (value > maximum) {
+   \                     ??clamp_u16_range_1: (+1)
+   \       0x1A   0x4611             MOV      R1,R2
+   \       0x1C   0x4281             CMP      R1,R0
+   \       0x1E   0xD201             BCS.N    ??clamp_u16_range_3
+    164              return maximum;
+   \       0x20   0x4610             MOV      R0,R2
+   \       0x22   0xE000             B.N      ??clamp_u16_range_2
+    165            }
+    166            return (uint16_t)value;
+   \                     ??clamp_u16_range_3: (+1)
+   \       0x24   0xB280             UXTH     R0,R0
+   \                     ??clamp_u16_range_2: (+1)
+   \       0x26   0xBC10             POP      {R4}
+   \       0x28   0x4770             BX       LR
+    167          }
+    168          
+
+   \                                 In section .text, align 2, keep-with-next
+    169          static uint16_t add_s16_clamped_u16(uint16_t base,
+    170                                              int16_t delta,
+    171                                              uint16_t minimum,
+    172                                              uint16_t maximum)
+    173          {
+   \                     add_s16_clamped_u16: (+1)
+   \        0x0   0xB418             PUSH     {R3,R4}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x4610             MOV      R0,R2
+   \        0x6   0x461A             MOV      R2,R3
+    174            int32_t sum = (int32_t)base + (int32_t)delta;
+   \        0x8   0x190C             ADDS     R4,R1,R4
+    175          
+    176            if (sum < 0) {
+   \        0xA   0xD403             BMI.N    ??add_s16_clamped_u16_0
+    177              return minimum;
+    178            }
+    179            return clamp_u16_range((uint32_t)sum, minimum, maximum);
+   \        0xC   0x4601             MOV      R1,R0
+   \        0xE   0x4620             MOV      R0,R4
+   \       0x10   0xBC18             POP      {R3,R4}
+   \       0x12   0x....             B.N      clamp_u16_range
+   \                     ??add_s16_clamped_u16_0: (+1)
+   \       0x14   0xBC12             POP      {R1,R4}
+   \       0x16   0x4770             BX       LR
+    180          }
+    181          
+
+   \                                 In section .text, align 2, keep-with-next
+    182          static EmberAfStatus apply_hs(uint8_t hue, uint8_t saturation, uint16_t transitionDs)
+    183          {
+   \                     apply_hs: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    184            em3555LightStateSetHueSat(hue, saturation, transitionDs);
+   \        0x2   0x.... 0x....      BL       em3555LightStateSetHueSat
+    185            em3555ApplyLightStateAndPersist();
+   \        0x6   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    186            return EMBER_ZCL_STATUS_SUCCESS;
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0xBD02             POP      {R1,PC}
+    187          }
+    188          
+
+   \                                 In section .text, align 2, keep-with-next
+    189          static EmberAfStatus apply_xy(uint16_t x, uint16_t y, uint16_t transitionDs)
+    190          {
+   \                     apply_xy: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    191            em3555LightStateSetXy(x, y, transitionDs);
+   \        0x2   0x.... 0x....      BL       em3555LightStateSetXy
+    192            em3555ApplyLightStateAndPersist();
+   \        0x6   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    193            return EMBER_ZCL_STATUS_SUCCESS;
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0xBD02             POP      {R1,PC}
+    194          }
+    195          
+
+   \                                 In section .text, align 2, keep-with-next
+    196          static EmberAfStatus apply_ct(uint16_t colorTemperatureMireds, uint16_t transitionDs)
+    197          {
+   \                     apply_ct: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    198            em3555LightStateSetColorTemperature(colorTemperatureMireds, transitionDs);
+   \        0x2   0x.... 0x....      BL       em3555LightStateSetColorTemperature
+    199            em3555ApplyLightStateAndPersist();
+   \        0x6   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    200            return EMBER_ZCL_STATUS_SUCCESS;
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0xBD02             POP      {R1,PC}
+    201          }
+    202          
+
+   \                                 In section .text, align 2, keep-with-next
+    203          static EmberAfStatus apply_on_off_level(bool on, uint8_t level, uint16_t transitionDs)
+    204          {
+   \                     apply_on_off_level: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    205            em3555LightStateSetOnOffLevel(on, level, transitionDs);
+   \        0x2   0x.... 0x....      BL       em3555LightStateSetOnOffLevel
+    206            em3555ApplyLightStateAndPersist();
+   \        0x6   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    207            return EMBER_ZCL_STATUS_SUCCESS;
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0xBD02             POP      {R1,PC}
+    208          }
+    209          
+
+   \                                 In section .text, align 2, keep-with-next
+    210          static EmberAfStatus apply_level(uint8_t level, uint16_t transitionDs)
+    211          {
+   \                     apply_level: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    212            em3555LightStateSetLevel(level, transitionDs);
+   \        0x2   0x.... 0x....      BL       em3555LightStateSetLevel
+    213            em3555ApplyLightStateAndPersist();
+   \        0x6   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    214            return EMBER_ZCL_STATUS_SUCCESS;
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0xBD02             POP      {R1,PC}
+    215          }
+    216          
+
+   \                                 In section .text, align 2, keep-with-next
+    217          static EmberAfStatus apply_on_command(void)
+    218          {
+   \                     apply_on_command: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    219            const Em3555PersistedLightState *state = em3555LightStateCurrent();
+   \        0x2   0x.... 0x....      BL       em3555LightStateCurrent
+    220            uint8_t level = state->currentLevel;
+   \        0x6   0x7881             LDRB     R1,[R0, #+2]
+    221          
+    222            if (level == 0U) {
+   \        0x8   0x000A             MOVS     R2,R1
+   \        0xA   0xD100             BNE.N    ??apply_on_command_0
+    223              level = EM3555_DEFAULT_ON_LEVEL;
+   \        0xC   0x21FE             MOVS     R1,#+254
+    224            }
+    225            return apply_on_off_level(true, level, state->onTransitionDs);
+   \                     ??apply_on_command_0: (+1)
+   \        0xE   0x89C2             LDRH     R2,[R0, #+14]
+   \       0x10   0x2001             MOVS     R0,#+1
+   \       0x12   0xE8BD 0x4008      POP      {R3,LR}
+   \       0x16   0x....             B.N      apply_on_off_level
+    226          }
+    227          
+
+   \                                 In section .text, align 2, keep-with-next
+    228          static EmberAfStatus apply_off_command(void)
+    229          {
+   \                     apply_off_command: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    230            const Em3555PersistedLightState *state = em3555LightStateCurrent();
+   \        0x2   0x.... 0x....      BL       em3555LightStateCurrent
+    231            return apply_on_off_level(false, state->currentLevel, state->offTransitionDs);
+   \        0x6   0x8A02             LDRH     R2,[R0, #+16]
+   \        0x8   0x7881             LDRB     R1,[R0, #+2]
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0xE8BD 0x4008      POP      {R3,LR}
+   \       0x10   0x....             B.N      apply_on_off_level
+    232          }
+    233          
+
+   \                                 In section .text, align 2, keep-with-next
+    234          static EmberAfStatus apply_toggle_command(void)
+    235          {
+   \                     apply_toggle_command: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    236            const Em3555PersistedLightState *state = em3555LightStateCurrent();
+   \        0x2   0x.... 0x....      BL       em3555LightStateCurrent
+    237          
+    238            if (state->on != 0U) {
+   \        0x6   0x7800             LDRB     R0,[R0, #+0]
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD002             BEQ.N    ??apply_toggle_command_0
+    239              return apply_off_command();
+   \        0xC   0xE8BD 0x4001      POP      {R0,LR}
+   \       0x10   0x....             B.N      apply_off_command
+    240            }
+    241            return apply_on_command();
+   \                     ??apply_toggle_command_0: (+1)
+   \       0x12   0xE8BD 0x4001      POP      {R0,LR}
+   \       0x16   0x....             B.N      apply_on_command
+    242          }
+    243          
+
+   \                                 In section .text, align 2, keep-with-next
+    244          static EmberAfStatus parse_optional_options(const uint8_t *payload,
+    245                                                      uint16_t payloadLength,
+    246                                                      uint16_t baseLength,
+    247                                                      uint8_t *optionsMask,
+    248                                                      uint8_t *optionsOverride)
+    249          {
+   \                     parse_optional_options: (+1)
+   \        0x0   0xB470             PUSH     {R4-R6}
+   \        0x2   0x4604             MOV      R4,R0
+    250            if (optionsMask != NULL) {
+   \        0x4   0x2B00             CMP      R3,#+0
+   \        0x6   0xD001             BEQ.N    ??parse_optional_options_0
+    251              *optionsMask = 0U;
+   \        0x8   0x2000             MOVS     R0,#+0
+   \        0xA   0x7018             STRB     R0,[R3, #+0]
+   \                     ??parse_optional_options_0: (+1)
+   \        0xC   0x9803             LDR      R0,[SP, #+12]
+    252            }
+    253            if (optionsOverride != NULL) {
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD001             BEQ.N    ??parse_optional_options_1
+    254              *optionsOverride = 0U;
+   \       0x12   0x2500             MOVS     R5,#+0
+   \       0x14   0x7005             STRB     R5,[R0, #+0]
+    255            }
+    256          
+    257            if (payloadLength == baseLength) {
+   \                     ??parse_optional_options_1: (+1)
+   \       0x16   0x460D             MOV      R5,R1
+   \       0x18   0x4616             MOV      R6,R2
+   \       0x1A   0x42B5             CMP      R5,R6
+   \       0x1C   0xD00E             BEQ.N    ??parse_optional_options_2
+    258              return EMBER_ZCL_STATUS_SUCCESS;
+    259            }
+    260          
+    261            if (payloadLength == (uint16_t)(baseLength + 2U)) {
+   \       0x1E   0x1E89             SUBS     R1,R1,#+2
+   \       0x20   0x4615             MOV      R5,R2
+   \       0x22   0xB289             UXTH     R1,R1
+   \       0x24   0x42A9             CMP      R1,R5
+   \       0x26   0xD10B             BNE.N    ??parse_optional_options_3
+    262              if (optionsMask != NULL) {
+   \       0x28   0x2B00             CMP      R3,#+0
+   \       0x2A   0xD002             BEQ.N    ??parse_optional_options_4
+    263                *optionsMask = payload[baseLength];
+   \       0x2C   0x4611             MOV      R1,R2
+   \       0x2E   0x5C61             LDRB     R1,[R4, R1]
+   \       0x30   0x7019             STRB     R1,[R3, #+0]
+    264              }
+    265              if (optionsOverride != NULL) {
+   \                     ??parse_optional_options_4: (+1)
+   \       0x32   0x2800             CMP      R0,#+0
+   \       0x34   0xD002             BEQ.N    ??parse_optional_options_2
+    266                *optionsOverride = payload[baseLength + 1U];
+   \       0x36   0x18A1             ADDS     R1,R4,R2
+   \       0x38   0x7849             LDRB     R1,[R1, #+1]
+   \       0x3A   0x7001             STRB     R1,[R0, #+0]
+    267              }
+    268              return EMBER_ZCL_STATUS_SUCCESS;
+   \                     ??parse_optional_options_2: (+1)
+   \       0x3C   0x2000             MOVS     R0,#+0
+   \       0x3E   0xE000             B.N      ??parse_optional_options_5
+    269            }
+    270          
+    271            return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+   \                     ??parse_optional_options_3: (+1)
+   \       0x40   0x2080             MOVS     R0,#+128
+   \                     ??parse_optional_options_5: (+1)
+   \       0x42   0xBC70             POP      {R4-R6}
+   \       0x44   0x4770             BX       LR
+    272          }
+    273          
+
+   \                                 In section .text, align 2, keep-with-next
+    274          static bool parse_zcl_string(const EmberAfClusterCommand *cmd,
+    275                                       uint16_t offset,
+    276                                       uint8_t **stringPtr,
+    277                                       uint16_t *nextOffset)
+    278          {
+   \                     parse_zcl_string: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0x460E             MOV      R6,R1
+   \        0x6   0x4614             MOV      R4,R2
+   \        0x8   0x461D             MOV      R5,R3
+    279            const uint8_t *payload = cmd->buffer + cmd->payloadStartIndex;
+   \        0xA   0x7D02             LDRB     R2,[R0, #+20]
+   \        0xC   0x6881             LDR      R1,[R0, #+8]
+   \        0xE   0x4613             MOV      R3,R2
+   \       0x10   0x18C9             ADDS     R1,R1,R3
+    280            uint16_t payloadLength = cmd->bufLen - cmd->payloadStartIndex;
+   \       0x12   0x8987             LDRH     R7,[R0, #+12]
+   \       0x14   0x1ABF             SUBS     R7,R7,R2
+   \       0x16   0xB2BF             UXTH     R7,R7
+    281            uint8_t stringLength;
+    282          
+    283            if (offset >= payloadLength) {
+   \       0x18   0x4630             MOV      R0,R6
+   \       0x1A   0x42B8             CMP      R0,R7
+   \       0x1C   0xDA09             BGE.N    ??parse_zcl_string_0
+    284              return false;
+    285            }
+    286          
+    287            stringLength = emberAfStringLength(payload + offset);
+   \       0x1E   0xEB01 0x0800      ADD      R8,R1,R0
+   \       0x22   0x4640             MOV      R0,R8
+   \       0x24   0x.... 0x....      BL       emberAfStringLength
+    288            if ((uint32_t)offset + (uint32_t)stringLength + 1UL > payloadLength) {
+   \       0x28   0x4631             MOV      R1,R6
+   \       0x2A   0x1841             ADDS     R1,R0,R1
+   \       0x2C   0x1C49             ADDS     R1,R1,#+1
+   \       0x2E   0x428F             CMP      R7,R1
+   \       0x30   0xD201             BCS.N    ??parse_zcl_string_1
+    289              return false;
+   \                     ??parse_zcl_string_0: (+1)
+   \       0x32   0x2000             MOVS     R0,#+0
+   \       0x34   0xE009             B.N      ??parse_zcl_string_2
+    290            }
+    291          
+    292            if (stringPtr != NULL) {
+   \                     ??parse_zcl_string_1: (+1)
+   \       0x36   0x2C00             CMP      R4,#+0
+   \       0x38   0xD001             BEQ.N    ??parse_zcl_string_3
+    293              *stringPtr = (uint8_t *)(payload + offset);
+   \       0x3A   0xF8C4 0x8000      STR      R8,[R4, #+0]
+    294            }
+    295            if (nextOffset != NULL) {
+   \                     ??parse_zcl_string_3: (+1)
+   \       0x3E   0x2D00             CMP      R5,#+0
+   \       0x40   0xD002             BEQ.N    ??parse_zcl_string_4
+    296              *nextOffset = (uint16_t)(offset + stringLength + 1U);
+   \       0x42   0x1986             ADDS     R6,R0,R6
+   \       0x44   0x1C76             ADDS     R6,R6,#+1
+   \       0x46   0x802E             STRH     R6,[R5, #+0]
+    297            }
+    298            return true;
+   \                     ??parse_zcl_string_4: (+1)
+   \       0x48   0x2001             MOVS     R0,#+1
+   \                     ??parse_zcl_string_2: (+1)
+   \       0x4A   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    299          }
+    300          
+
+   \                                 In section .text, align 2, keep-with-next
+    301          static EmberAfStatus handle_identify_command(const EmberAfClusterCommand *cmd)
+    302          {
+   \                     handle_identify_command: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    303            uint16_t identifyTime;
+    304          
+    305            if ((cmd->bufLen - cmd->payloadStartIndex) < 2U) {
+   \        0x2   0x7D01             LDRB     R1,[R0, #+20]
+   \        0x4   0x8982             LDRH     R2,[R0, #+12]
+   \        0x6   0x1A52             SUBS     R2,R2,R1
+   \        0x8   0x2A02             CMP      R2,#+2
+   \        0xA   0xD201             BCS.N    ??handle_identify_command_0
+    306              return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+   \        0xC   0x2080             MOVS     R0,#+128
+   \        0xE   0xBD02             POP      {R1,PC}
+    307            }
+    308          
+    309            identifyTime = read_u16(cmd->buffer + cmd->payloadStartIndex);
+   \                     ??handle_identify_command_0: (+1)
+   \       0x10   0x6880             LDR      R0,[R0, #+8]
+   \       0x12   0x1840             ADDS     R0,R0,R1
+   \       0x14   0x.... 0x....      BL       read_u16
+    310            emberAfPluginIdentifyStartFeedbackCallback(EM3555_LIGHT_ENDPOINT, identifyTime);
+   \       0x18   0x4601             MOV      R1,R0
+   \       0x1A   0x2003             MOVS     R0,#+3
+   \       0x1C   0x.... 0x....      BL       emberAfPluginIdentifyStartFeedbackCallback
+    311            (void)emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_SUCCESS);
+   \       0x20   0x2000             MOVS     R0,#+0
+   \       0x22   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    312            return EMBER_ZCL_STATUS_SUCCESS;
+   \       0x26   0x2000             MOVS     R0,#+0
+   \       0x28   0xBD02             POP      {R1,PC}
+    313          }
+    314          
+
+   \                                 In section .text, align 2, keep-with-next
+    315          static EmberAfStatus handle_identify_trigger_effect(const EmberAfClusterCommand *cmd)
+    316          {
+   \                     handle_identify_trigger_effect: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    317            const uint8_t *payload = cmd->buffer + cmd->payloadStartIndex;
+   \        0x2   0x7D01             LDRB     R1,[R0, #+20]
+   \        0x4   0x6882             LDR      R2,[R0, #+8]
+   \        0x6   0x460B             MOV      R3,R1
+   \        0x8   0x18D2             ADDS     R2,R2,R3
+    318            uint16_t payloadLength = cmd->bufLen - cmd->payloadStartIndex;
+    319            uint8_t effectId;
+    320            uint8_t effectVariant;
+    321            bool ok;
+    322          
+    323            if (payloadLength < 2U) {
+   \        0xA   0x8980             LDRH     R0,[R0, #+12]
+   \        0xC   0x1A41             SUBS     R1,R0,R1
+   \        0xE   0xB289             UXTH     R1,R1
+   \       0x10   0x2902             CMP      R1,#+2
+   \       0x12   0xD201             BCS.N    ??handle_identify_trigger_effect_0
+    324              return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+   \       0x14   0x2080             MOVS     R0,#+128
+   \       0x16   0xBD02             POP      {R1,PC}
+    325            }
+    326          
+    327            effectId = payload[0];
+   \                     ??handle_identify_trigger_effect_0: (+1)
+   \       0x18   0x7810             LDRB     R0,[R2, #+0]
+    328            effectVariant = payload[1];
+    329            if (effectId == 0xFFU) {
+   \       0x1A   0x4601             MOV      R1,R0
+   \       0x1C   0x29FF             CMP      R1,#+255
+   \       0x1E   0xD105             BNE.N    ??handle_identify_trigger_effect_1
+    330              em3555LightStateStopEffect();
+   \       0x20   0x.... 0x....      BL       em3555LightStateStopEffect
+    331              em3555ApplyLightStateAndPersist();
+   \       0x24   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    332              ok = true;
+   \       0x28   0x2001             MOVS     R0,#+1
+   \       0x2A   0xE002             B.N      ??handle_identify_trigger_effect_2
+    333            } else {
+    334              ok = em3555LightStateStartTriggerEffect(effectId, effectVariant);
+   \                     ??handle_identify_trigger_effect_1: (+1)
+   \       0x2C   0x7851             LDRB     R1,[R2, #+1]
+   \       0x2E   0x.... 0x....      BL       em3555LightStateStartTriggerEffect
+    335            }
+    336          
+    337            if (!ok) {
+   \                     ??handle_identify_trigger_effect_2: (+1)
+   \       0x32   0x2800             CMP      R0,#+0
+   \       0x34   0xD101             BNE.N    ??handle_identify_trigger_effect_3
+    338              return EMBER_ZCL_STATUS_INVALID_VALUE;
+   \       0x36   0x2087             MOVS     R0,#+135
+   \       0x38   0xBD02             POP      {R1,PC}
+    339            }
+    340          
+    341            (void)emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_SUCCESS);
+   \                     ??handle_identify_trigger_effect_3: (+1)
+   \       0x3A   0x2000             MOVS     R0,#+0
+   \       0x3C   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    342            return EMBER_ZCL_STATUS_SUCCESS;
+   \       0x40   0x2000             MOVS     R0,#+0
+   \       0x42   0xBD02             POP      {R1,PC}
+    343          }
+    344          
+
+   \                                 In section .text, align 2, keep-with-next
+    345          static EmberAfStatus handle_on_off_command(const EmberAfClusterCommand *cmd)
+    346          {
+    347            switch (cmd->commandId) {
+   \                     handle_on_off_command: (+1)
+   \        0x0   0x7CC0             LDRB     R0,[R0, #+19]
+   \        0x2   0x2800             CMP      R0,#+0
+   \        0x4   0xD003             BEQ.N    ??handle_on_off_command_0
+   \        0x6   0x2802             CMP      R0,#+2
+   \        0x8   0xD003             BEQ.N    ??handle_on_off_command_1
+   \        0xA   0xD301             BCC.N    ??handle_on_off_command_2
+   \        0xC   0xE002             B.N      ??handle_on_off_command_3
+    348              case ZCL_OFF_COMMAND_ID:
+    349                return apply_off_command();
+   \                     ??handle_on_off_command_0: (+1)
+   \        0xE   0x....             B.N      apply_off_command
+    350              case ZCL_ON_COMMAND_ID:
+    351                return apply_on_command();
+   \                     ??handle_on_off_command_2: (+1)
+   \       0x10   0x....             B.N      apply_on_command
+    352              case ZCL_TOGGLE_COMMAND_ID:
+    353                return apply_toggle_command();
+   \                     ??handle_on_off_command_1: (+1)
+   \       0x12   0x....             B.N      apply_toggle_command
+    354              default:
+    355                return EMBER_ZCL_STATUS_UNSUP_CLUSTER_COMMAND;
+   \                     ??handle_on_off_command_3: (+1)
+   \       0x14   0x2081             MOVS     R0,#+129
+   \       0x16   0x4770             BX       LR
+    356            }
+    357          }
+    358          
+
+   \                                 In section .text, align 4, keep-with-next
+    359          static EmberAfStatus handle_level_command(const EmberAfClusterCommand *cmd)
+    360          {
+   \                     handle_level_command: (+1)
+   \        0x0   0xB5FE             PUSH     {R1-R7,LR}
+   \        0x2   0x4607             MOV      R7,R0
+    361            const uint8_t *payload = cmd->buffer + cmd->payloadStartIndex;
+   \        0x4   0x7D38             LDRB     R0,[R7, #+20]
+   \        0x6   0x68B9             LDR      R1,[R7, #+8]
+   \        0x8   0x4602             MOV      R2,R0
+   \        0xA   0x188C             ADDS     R4,R1,R2
+    362            uint16_t payloadLength = cmd->bufLen - cmd->payloadStartIndex;
+   \        0xC   0x89BE             LDRH     R6,[R7, #+12]
+   \        0xE   0x1A36             SUBS     R6,R6,R0
+   \       0x10   0xB2B6             UXTH     R6,R6
+    363            const Em3555PersistedLightState *state = em3555LightStateCurrent();
+   \       0x12   0x.... 0x....      BL       em3555LightStateCurrent
+   \       0x16   0x4605             MOV      R5,R0
+    364            uint8_t optionsMask;
+    365            uint8_t optionsOverride;
+    366            uint8_t nextLevel;
+    367            uint8_t moveMode;
+    368            EmberAfStatus status;
+    369          
+    370            switch (cmd->commandId) {
+   \       0x18   0x7CF8             LDRB     R0,[R7, #+19]
+   \       0x1A   0x2807             CMP      R0,#+7
+   \       0x1C   0xF200 0x80C0      BHI.W    ??handle_level_command_1
+   \       0x20   0xE8DF 0xF000      TBB      [PC, R0]
+   \                     ??handle_level_command_0:
+   \       0x24   0x04 0x29          DC8      0x4,0x29,0x60,0xAD
+   \              0x60 0xAD
+   \       0x28   0x1B 0x48          DC8      0x1B,0x48,0x87,0xB8
+   \              0x87 0xB8
+    371              case ZCL_MOVE_TO_LEVEL_COMMAND_ID:
+    372                if (payloadLength < 3U) {
+   \                     ??handle_level_command_2: (+1)
+   \       0x2C   0x2E02             CMP      R6,#+2
+   \       0x2E   0xF240 0x8082      BLS.W    ??handle_level_command_3
+    373                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    374                }
+    375                status = parse_optional_options(payload,
+    376                                                payloadLength,
+    377                                                3U,
+    378                                                &optionsMask,
+    379                                                &optionsOverride);
+   \       0x32   0xA801             ADD      R0,SP,#+4
+   \       0x34   0x9000             STR      R0,[SP, #+0]
+   \       0x36   0xF10D 0x0305      ADD      R3,SP,#+5
+   \       0x3A   0x2203             MOVS     R2,#+3
+   \       0x3C   0x4631             MOV      R1,R6
+   \       0x3E   0x4620             MOV      R0,R4
+   \       0x40   0x.... 0x....      BL       parse_optional_options
+    380                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x44   0x0001             MOVS     R1,R0
+   \       0x46   0xF040 0x80AC      BNE.W    ??handle_level_command_4
+    381                  return status;
+    382                }
+    383                return apply_level(payload[0], read_u16(payload + 1U));
+   \       0x4A   0x1C60             ADDS     R0,R4,#+1
+   \       0x4C   0x.... 0x....      BL       read_u16
+   \       0x50   0x4601             MOV      R1,R0
+   \       0x52   0x7820             LDRB     R0,[R4, #+0]
+   \       0x54   0x.... 0x....      BL       apply_level
+   \       0x58   0xBDFE             POP      {R1-R7,PC}
+    384          
+    385              case ZCL_MOVE_TO_LEVEL_WITH_ON_OFF_COMMAND_ID:
+    386                if (payloadLength < 3U) {
+   \                     ??handle_level_command_5: (+1)
+   \       0x5A   0x2E02             CMP      R6,#+2
+   \       0x5C   0xD96B             BLS.N    ??handle_level_command_3
+    387                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    388                }
+    389                return apply_on_off_level(payload[0] != 0U, payload[0], read_u16(payload + 1U));
+   \       0x5E   0x1C60             ADDS     R0,R4,#+1
+   \       0x60   0x.... 0x....      BL       read_u16
+   \       0x64   0x4602             MOV      R2,R0
+   \       0x66   0x7821             LDRB     R1,[R4, #+0]
+   \       0x68   0x1E48             SUBS     R0,R1,#+1
+   \       0x6A   0x4180             SBCS     R0,R0,R0
+   \       0x6C   0x43C0             MVNS     R0,R0
+   \       0x6E   0x0FC0             LSRS     R0,R0,#+31
+   \       0x70   0x.... 0x....      BL       apply_on_off_level
+   \       0x74   0xBDFE             POP      {R1-R7,PC}
+    390          
+    391              case ZCL_MOVE_COMMAND_ID:
+    392                if (payloadLength < 2U) {
+   \                     ??handle_level_command_6: (+1)
+   \       0x76   0x2E02             CMP      R6,#+2
+   \       0x78   0xD35D             BCC.N    ??handle_level_command_3
+    393                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    394                }
+    395                status = parse_optional_options(payload,
+    396                                                payloadLength,
+    397                                                2U,
+    398                                                &optionsMask,
+    399                                                &optionsOverride);
+   \       0x7A   0xA801             ADD      R0,SP,#+4
+   \       0x7C   0x9000             STR      R0,[SP, #+0]
+   \       0x7E   0xF10D 0x0305      ADD      R3,SP,#+5
+   \       0x82   0x2202             MOVS     R2,#+2
+   \       0x84   0x4631             MOV      R1,R6
+   \       0x86   0x4620             MOV      R0,R4
+   \       0x88   0x.... 0x....      BL       parse_optional_options
+    400                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x8C   0x0001             MOVS     R1,R0
+   \       0x8E   0xF040 0x8088      BNE.W    ??handle_level_command_4
+    401                  return status;
+    402                }
+    403                moveMode = payload[0];
+   \       0x92   0x7821             LDRB     R1,[R4, #+0]
+    404                if (payload[1] == 0U) {
+   \       0x94   0x7860             LDRB     R0,[R4, #+1]
+   \       0x96   0x2800             CMP      R0,#+0
+   \       0x98   0xD012             BEQ.N    ??handle_level_command_7
+    405                  return EMBER_ZCL_STATUS_SUCCESS;
+    406                }
+    407                if (moveMode == EMBER_ZCL_MOVE_MODE_UP) {
+   \       0x9A   0x2900             CMP      R1,#+0
+   \       0x9C   0xD103             BNE.N    ??handle_level_command_8
+    408                  em3555LightStateStartLevelMove((int32_t)payload[1], false);
+   \       0x9E   0x2100             MOVS     R1,#+0
+   \       0xA0   0x.... 0x....      BL       em3555LightStateStartLevelMove
+   \       0xA4   0xE01A             B.N      ??handle_level_command_9
+    409                } else if (moveMode == EMBER_ZCL_MOVE_MODE_DOWN) {
+   \                     ??handle_level_command_8: (+1)
+   \       0xA6   0x2901             CMP      R1,#+1
+   \       0xA8   0xD167             BNE.N    ??handle_level_command_10
+    410                  em3555LightStateStartLevelMove(-(int32_t)payload[1], false);
+   \       0xAA   0x2100             MOVS     R1,#+0
+   \       0xAC   0x4240             RSBS     R0,R0,#+0
+   \       0xAE   0x.... 0x....      BL       em3555LightStateStartLevelMove
+   \       0xB2   0xE013             B.N      ??handle_level_command_9
+    411                } else {
+    412                  return EMBER_ZCL_STATUS_INVALID_VALUE;
+    413                }
+    414                em3555ApplyLightStateAndPersist();
+    415                return EMBER_ZCL_STATUS_SUCCESS;
+    416          
+    417              case ZCL_MOVE_WITH_ON_OFF_COMMAND_ID:
+    418                if (payloadLength < 2U) {
+   \                     ??handle_level_command_11: (+1)
+   \       0xB4   0x2E02             CMP      R6,#+2
+   \       0xB6   0xD33E             BCC.N    ??handle_level_command_3
+    419                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    420                }
+    421                moveMode = payload[0];
+   \       0xB8   0x7821             LDRB     R1,[R4, #+0]
+    422                if (payload[1] == 0U) {
+   \       0xBA   0x7860             LDRB     R0,[R4, #+1]
+   \       0xBC   0x2800             CMP      R0,#+0
+   \       0xBE   0xD101             BNE.N    ??handle_level_command_12
+    423                  return EMBER_ZCL_STATUS_SUCCESS;
+   \                     ??handle_level_command_7: (+1)
+   \       0xC0   0x2000             MOVS     R0,#+0
+   \       0xC2   0xBDFE             POP      {R1-R7,PC}
+    424                }
+    425                if (moveMode == EMBER_ZCL_MOVE_MODE_UP) {
+   \                     ??handle_level_command_12: (+1)
+   \       0xC4   0x2900             CMP      R1,#+0
+   \       0xC6   0xD103             BNE.N    ??handle_level_command_13
+    426                  em3555LightStateStartLevelMove((int32_t)payload[1], true);
+   \       0xC8   0x2101             MOVS     R1,#+1
+   \       0xCA   0x.... 0x....      BL       em3555LightStateStartLevelMove
+   \       0xCE   0xE005             B.N      ??handle_level_command_9
+    427                } else if (moveMode == EMBER_ZCL_MOVE_MODE_DOWN) {
+   \                     ??handle_level_command_13: (+1)
+   \       0xD0   0x2901             CMP      R1,#+1
+   \       0xD2   0xD152             BNE.N    ??handle_level_command_10
+    428                  em3555LightStateStartLevelMove(-(int32_t)payload[1], true);
+   \       0xD4   0x2101             MOVS     R1,#+1
+   \       0xD6   0x4240             RSBS     R0,R0,#+0
+   \       0xD8   0x.... 0x....      BL       em3555LightStateStartLevelMove
+    429                } else {
+    430                  return EMBER_ZCL_STATUS_INVALID_VALUE;
+    431                }
+    432                em3555ApplyLightStateAndPersist();
+   \                     ??handle_level_command_9: (+1)
+   \       0xDC   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    433                return EMBER_ZCL_STATUS_SUCCESS;
+   \       0xE0   0x2000             MOVS     R0,#+0
+   \       0xE2   0xBDFE             POP      {R1-R7,PC}
+    434          
+    435              case ZCL_STEP_COMMAND_ID:
+    436                if (payloadLength < 4U) {
+   \                     ??handle_level_command_14: (+1)
+   \       0xE4   0x2E03             CMP      R6,#+3
+   \       0xE6   0xD926             BLS.N    ??handle_level_command_3
+    437                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    438                }
+    439                status = parse_optional_options(payload,
+    440                                                payloadLength,
+    441                                                4U,
+    442                                                &optionsMask,
+    443                                                &optionsOverride);
+   \       0xE8   0xA801             ADD      R0,SP,#+4
+   \       0xEA   0x9000             STR      R0,[SP, #+0]
+   \       0xEC   0xF10D 0x0305      ADD      R3,SP,#+5
+   \       0xF0   0x2204             MOVS     R2,#+4
+   \       0xF2   0x4631             MOV      R1,R6
+   \       0xF4   0x4620             MOV      R0,R4
+   \       0xF6   0x.... 0x....      BL       parse_optional_options
+    444                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0xFA   0x0001             MOVS     R1,R0
+   \       0xFC   0xD151             BNE.N    ??handle_level_command_4
+    445                  return status;
+    446                }
+    447                if (payload[0] == EMBER_ZCL_STEP_MODE_UP) {
+   \       0xFE   0x7820             LDRB     R0,[R4, #+0]
+   \      0x100   0x2800             CMP      R0,#+0
+   \      0x102   0xD106             BNE.N    ??handle_level_command_15
+    448                  nextLevel = clamp_level_u8((int32_t)state->currentLevel + (int32_t)payload[1]);
+   \      0x104   0x78A8             LDRB     R0,[R5, #+2]
+   \      0x106   0x7861             LDRB     R1,[R4, #+1]
+   \      0x108   0x1808             ADDS     R0,R1,R0
+   \      0x10A   0x.... 0x....      BL       clamp_level_u8
+   \      0x10E   0x4605             MOV      R5,R0
+   \      0x110   0xE007             B.N      ??handle_level_command_16
+    449                } else if (payload[0] == EMBER_ZCL_STEP_MODE_DOWN) {
+   \                     ??handle_level_command_15: (+1)
+   \      0x112   0x2801             CMP      R0,#+1
+   \      0x114   0xD131             BNE.N    ??handle_level_command_10
+    450                  nextLevel = clamp_level_u8((int32_t)state->currentLevel - (int32_t)payload[1]);
+   \      0x116   0x78A8             LDRB     R0,[R5, #+2]
+   \      0x118   0x7861             LDRB     R1,[R4, #+1]
+   \      0x11A   0x1A40             SUBS     R0,R0,R1
+   \      0x11C   0x.... 0x....      BL       clamp_level_u8
+   \      0x120   0x4605             MOV      R5,R0
+    451                } else {
+    452                  return EMBER_ZCL_STATUS_INVALID_VALUE;
+    453                }
+    454                return apply_level(nextLevel, read_u16(payload + 2U));
+   \                     ??handle_level_command_16: (+1)
+   \      0x122   0x1CA0             ADDS     R0,R4,#+2
+   \      0x124   0x.... 0x....      BL       read_u16
+   \      0x128   0x4601             MOV      R1,R0
+   \      0x12A   0x4628             MOV      R0,R5
+   \      0x12C   0x.... 0x....      BL       apply_level
+   \      0x130   0xBDFE             POP      {R1-R7,PC}
+    455          
+    456              case ZCL_STEP_WITH_ON_OFF_COMMAND_ID:
+    457                if (payloadLength < 4U) {
+   \                     ??handle_level_command_17: (+1)
+   \      0x132   0x2E03             CMP      R6,#+3
+   \      0x134   0xD801             BHI.N    ??handle_level_command_18
+    458                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+   \                     ??handle_level_command_3: (+1)
+   \      0x136   0x2080             MOVS     R0,#+128
+   \      0x138   0xBDFE             POP      {R1-R7,PC}
+    459                }
+    460                if (payload[0] == EMBER_ZCL_STEP_MODE_UP) {
+   \                     ??handle_level_command_18: (+1)
+   \      0x13A   0x7820             LDRB     R0,[R4, #+0]
+   \      0x13C   0x2800             CMP      R0,#+0
+   \      0x13E   0xD113             BNE.N    ??handle_level_command_19
+    461                  nextLevel = clamp_level_u8((int32_t)state->currentLevel + (int32_t)payload[1]);
+   \      0x140   0x78A8             LDRB     R0,[R5, #+2]
+   \      0x142   0x7861             LDRB     R1,[R4, #+1]
+   \      0x144   0x1808             ADDS     R0,R1,R0
+   \      0x146   0x.... 0x....      BL       clamp_level_u8
+   \      0x14A   0x4605             MOV      R5,R0
+    462                } else if (payload[0] == EMBER_ZCL_STEP_MODE_DOWN) {
+    463                  nextLevel = clamp_level_u8((int32_t)state->currentLevel - (int32_t)payload[1]);
+    464                } else {
+    465                  return EMBER_ZCL_STATUS_INVALID_VALUE;
+    466                }
+    467                return apply_on_off_level(nextLevel != 0U, nextLevel, read_u16(payload + 2U));
+   \                     ??handle_level_command_20: (+1)
+   \      0x14C   0x1CA0             ADDS     R0,R4,#+2
+   \      0x14E   0x.... 0x....      BL       read_u16
+   \      0x152   0x4629             MOV      R1,R5
+   \      0x154   0x460B             MOV      R3,R1
+   \      0x156   0x1E5B             SUBS     R3,R3,#+1
+   \      0x158   0x419B             SBCS     R3,R3,R3
+   \      0x15A   0x43DB             MVNS     R3,R3
+   \      0x15C   0x0FDB             LSRS     R3,R3,#+31
+   \      0x15E   0x4602             MOV      R2,R0
+   \      0x160   0x4618             MOV      R0,R3
+   \      0x162   0x.... 0x....      BL       apply_on_off_level
+   \      0x166   0xBDFE             POP      {R1-R7,PC}
+   \                     ??handle_level_command_19: (+1)
+   \      0x168   0x2801             CMP      R0,#+1
+   \      0x16A   0xD106             BNE.N    ??handle_level_command_10
+   \      0x16C   0x78A8             LDRB     R0,[R5, #+2]
+   \      0x16E   0x7861             LDRB     R1,[R4, #+1]
+   \      0x170   0x1A40             SUBS     R0,R0,R1
+   \      0x172   0x.... 0x....      BL       clamp_level_u8
+   \      0x176   0x4605             MOV      R5,R0
+   \      0x178   0xE7E8             B.N      ??handle_level_command_20
+   \                     ??handle_level_command_10: (+1)
+   \      0x17A   0x2087             MOVS     R0,#+135
+   \      0x17C   0xBDFE             POP      {R1-R7,PC}
+    468          
+    469              case ZCL_STOP_COMMAND_ID:
+    470                status = parse_optional_options(payload,
+    471                                                payloadLength,
+    472                                                0U,
+    473                                                &optionsMask,
+    474                                                &optionsOverride);
+   \                     ??handle_level_command_21: (+1)
+   \      0x17E   0xA801             ADD      R0,SP,#+4
+   \      0x180   0x9000             STR      R0,[SP, #+0]
+   \      0x182   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x186   0x2200             MOVS     R2,#+0
+   \      0x188   0x4631             MOV      R1,R6
+   \      0x18A   0x4620             MOV      R0,R4
+   \      0x18C   0x.... 0x....      BL       parse_optional_options
+    475                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \      0x190   0x0001             MOVS     R1,R0
+   \      0x192   0xD106             BNE.N    ??handle_level_command_4
+    476                  return status;
+    477                }
+    478                em3555LightStateStop();
+    479                em3555ApplyLightStateAndPersist();
+    480                return EMBER_ZCL_STATUS_SUCCESS;
+    481          
+    482              case ZCL_STOP_WITH_ON_OFF_COMMAND_ID:
+    483                em3555LightStateStop();
+   \                     ??handle_level_command_22: (+1)
+   \      0x194   0x.... 0x....      BL       em3555LightStateStop
+    484                em3555ApplyLightStateAndPersist();
+   \      0x198   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    485                return EMBER_ZCL_STATUS_SUCCESS;
+   \      0x19C   0x2000             MOVS     R0,#+0
+   \      0x19E   0xBDFE             POP      {R1-R7,PC}
+    486          
+    487              default:
+    488                return EMBER_ZCL_STATUS_UNSUP_CLUSTER_COMMAND;
+   \                     ??handle_level_command_1: (+1)
+   \      0x1A0   0x2081             MOVS     R0,#+129
+   \                     ??handle_level_command_4: (+1)
+   \      0x1A2   0xBDFE             POP      {R1-R7,PC}
+    489            }
+    490          }
+    491          
+
+   \                                 In section .text, align 2, keep-with-next
+    492          static EmberAfStatus handle_color_command(const EmberAfClusterCommand *cmd)
+    493          {
+   \                     handle_color_command: (+1)
+   \        0x0   0xE92D 0x41FC      PUSH     {R2-R8,LR}
+   \        0x4   0x4606             MOV      R6,R0
+    494            const uint8_t *payload = cmd->buffer + cmd->payloadStartIndex;
+   \        0x6   0x7D30             LDRB     R0,[R6, #+20]
+   \        0x8   0x68B1             LDR      R1,[R6, #+8]
+   \        0xA   0x4602             MOV      R2,R0
+   \        0xC   0x188C             ADDS     R4,R1,R2
+    495            uint16_t payloadLength = cmd->bufLen - cmd->payloadStartIndex;
+   \        0xE   0x89B7             LDRH     R7,[R6, #+12]
+   \       0x10   0x1A3F             SUBS     R7,R7,R0
+    496            const Em3555PersistedLightState *state = em3555LightStateCurrent();
+   \       0x12   0x.... 0x....      BL       em3555LightStateCurrent
+   \       0x16   0x4605             MOV      R5,R0
+    497            uint8_t optionsMask;
+    498            uint8_t optionsOverride;
+    499            EmberAfStatus status;
+    500            uint16_t transitionTime;
+    501            uint16_t minimum;
+    502            uint16_t maximum;
+    503          
+    504            switch (cmd->commandId) {
+   \       0x18   0x7CF0             LDRB     R0,[R6, #+19]
+   \       0x1A   0x2800             CMP      R0,#+0
+   \       0x1C   0xD02E             BEQ.N    ??handle_color_command_0
+   \       0x1E   0x2801             CMP      R0,#+1
+   \       0x20   0xD067             BEQ.N    ??handle_color_command_1
+   \       0x22   0x2802             CMP      R0,#+2
+   \       0x24   0xF000 0x808A      BEQ.W    ??handle_color_command_2
+   \       0x28   0x2803             CMP      R0,#+3
+   \       0x2A   0xF000 0x80AF      BEQ.W    ??handle_color_command_3
+   \       0x2E   0x2804             CMP      R0,#+4
+   \       0x30   0xF000 0x80C7      BEQ.W    ??handle_color_command_4
+   \       0x34   0x2805             CMP      R0,#+5
+   \       0x36   0xF000 0x80E6      BEQ.W    ??handle_color_command_5
+   \       0x3A   0x2806             CMP      R0,#+6
+   \       0x3C   0xF000 0x810D      BEQ.W    ??handle_color_command_6
+   \       0x40   0x2807             CMP      R0,#+7
+   \       0x42   0xF000 0x8145      BEQ.W    ??handle_color_command_7
+   \       0x46   0x2808             CMP      R0,#+8
+   \       0x48   0xF000 0x8164      BEQ.W    ??handle_color_command_8
+   \       0x4C   0x2809             CMP      R0,#+9
+   \       0x4E   0xF000 0x8181      BEQ.W    ??handle_color_command_9
+   \       0x52   0x280A             CMP      R0,#+10
+   \       0x54   0xF000 0x81AE      BEQ.W    ??handle_color_command_10
+   \       0x58   0x2840             CMP      R0,#+64
+   \       0x5A   0xD02A             BEQ.N    ??handle_color_command_11
+   \       0x5C   0x2843             CMP      R0,#+67
+   \       0x5E   0xF000 0x8117      BEQ.W    ??handle_color_command_12
+   \       0x62   0x2844             CMP      R0,#+68
+   \       0x64   0xF000 0x8245      BEQ.W    ??handle_color_command_13
+   \       0x68   0x2847             CMP      R0,#+71
+   \       0x6A   0xF000 0x8230      BEQ.W    ??handle_color_command_14
+   \       0x6E   0x284B             CMP      R0,#+75
+   \       0x70   0xF000 0x81BD      BEQ.W    ??handle_color_command_15
+   \       0x74   0x284C             CMP      R0,#+76
+   \       0x76   0xF000 0x81ED      BEQ.W    ??handle_color_command_16
+   \       0x7A   0xE251             B.N      ??handle_color_command_17
+    505              case ZCL_MOVE_TO_HUE_COMMAND_ID:
+    506                if (payloadLength < 4U) {
+   \                     ??handle_color_command_0: (+1)
+   \       0x7C   0x4638             MOV      R0,R7
+   \       0x7E   0xB280             UXTH     R0,R0
+   \       0x80   0x2804             CMP      R0,#+4
+   \       0x82   0xF0C0 0x8239      BCC.W    ??handle_color_command_18
+    507                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    508                }
+    509                status = parse_optional_options(payload,
+    510                                                payloadLength,
+    511                                                4U,
+    512                                                &optionsMask,
+    513                                                &optionsOverride);
+   \       0x86   0xA801             ADD      R0,SP,#+4
+   \       0x88   0x9000             STR      R0,[SP, #+0]
+   \       0x8A   0xF10D 0x0305      ADD      R3,SP,#+5
+   \       0x8E   0x2204             MOVS     R2,#+4
+   \       0x90   0x4639             MOV      R1,R7
+   \       0x92   0xB289             UXTH     R1,R1
+   \       0x94   0x4620             MOV      R0,R4
+   \       0x96   0x.... 0x....      BL       parse_optional_options
+    514                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x9A   0x0001             MOVS     R1,R0
+   \       0x9C   0xF040 0x8241      BNE.W    ??handle_color_command_19
+    515                  return status;
+    516                }
+    517                return apply_hs(payload[0], state->currentSaturation, read_u16(payload + 2U));
+   \       0xA0   0x1CA0             ADDS     R0,R4,#+2
+   \       0xA2   0x.... 0x....      BL       read_u16
+   \       0xA6   0x4602             MOV      R2,R0
+   \       0xA8   0x7929             LDRB     R1,[R5, #+4]
+   \       0xAA   0x7820             LDRB     R0,[R4, #+0]
+   \       0xAC   0x.... 0x....      BL       apply_hs
+   \       0xB0   0xE237             B.N      ??handle_color_command_19
+    518          
+    519              case ZCL_ENHANCED_MOVE_TO_HUE_COMMAND_ID:
+    520                if (payloadLength < 5U) {
+   \                     ??handle_color_command_11: (+1)
+   \       0xB2   0x4638             MOV      R0,R7
+   \       0xB4   0xB280             UXTH     R0,R0
+   \       0xB6   0x2804             CMP      R0,#+4
+   \       0xB8   0xF240 0x821E      BLS.W    ??handle_color_command_18
+    521                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    522                }
+    523                status = parse_optional_options(payload,
+    524                                                payloadLength,
+    525                                                5U,
+    526                                                &optionsMask,
+    527                                                &optionsOverride);
+   \       0xBC   0xA801             ADD      R0,SP,#+4
+   \       0xBE   0x9000             STR      R0,[SP, #+0]
+   \       0xC0   0xF10D 0x0305      ADD      R3,SP,#+5
+   \       0xC4   0x2205             MOVS     R2,#+5
+   \       0xC6   0x4639             MOV      R1,R7
+   \       0xC8   0xB289             UXTH     R1,R1
+   \       0xCA   0x4620             MOV      R0,R4
+   \       0xCC   0x.... 0x....      BL       parse_optional_options
+    528                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0xD0   0x0001             MOVS     R1,R0
+   \       0xD2   0xF040 0x8226      BNE.W    ??handle_color_command_19
+    529                  return status;
+    530                }
+    531                return apply_hs(enhanced_hue_to_zcl_hue(read_u16(payload)),
+    532                                state->currentSaturation,
+    533                                read_u16(payload + 3U));
+   \       0xD6   0x1CE0             ADDS     R0,R4,#+3
+   \       0xD8   0x.... 0x....      BL       read_u16
+   \       0xDC   0x4606             MOV      R6,R0
+   \       0xDE   0x4620             MOV      R0,R4
+   \       0xE0   0x.... 0x....      BL       read_u16
+   \       0xE4   0x.... 0x....      BL       enhanced_hue_to_zcl_hue
+   \       0xE8   0x4632             MOV      R2,R6
+   \       0xEA   0x7929             LDRB     R1,[R5, #+4]
+   \       0xEC   0x.... 0x....      BL       apply_hs
+   \       0xF0   0xE217             B.N      ??handle_color_command_19
+    534          
+    535              case ZCL_MOVE_HUE_COMMAND_ID:
+    536                if (payloadLength < 2U) {
+   \                     ??handle_color_command_1: (+1)
+   \       0xF2   0x4638             MOV      R0,R7
+   \       0xF4   0xB280             UXTH     R0,R0
+   \       0xF6   0x2802             CMP      R0,#+2
+   \       0xF8   0xF0C0 0x81FE      BCC.W    ??handle_color_command_18
+    537                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    538                }
+    539                status = parse_optional_options(payload,
+    540                                                payloadLength,
+    541                                                2U,
+    542                                                &optionsMask,
+    543                                                &optionsOverride);
+   \       0xFC   0xA801             ADD      R0,SP,#+4
+   \       0xFE   0x9000             STR      R0,[SP, #+0]
+   \      0x100   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x104   0x2202             MOVS     R2,#+2
+   \      0x106   0x4639             MOV      R1,R7
+   \      0x108   0xB289             UXTH     R1,R1
+   \      0x10A   0x4620             MOV      R0,R4
+   \      0x10C   0x.... 0x....      BL       parse_optional_options
+    544                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \      0x110   0x0001             MOVS     R1,R0
+   \      0x112   0xF040 0x8206      BNE.W    ??handle_color_command_19
+    545                  return status;
+    546                }
+    547                if (payload[0] == EMBER_ZCL_HUE_MOVE_MODE_STOP) {
+   \      0x116   0x7820             LDRB     R0,[R4, #+0]
+   \      0x118   0x2800             CMP      R0,#+0
+   \      0x11A   0xF000 0x81E4      BEQ.W    ??handle_color_command_20
+    548                  em3555LightStateStop();
+    549                  em3555ApplyLightStateAndPersist();
+    550                  return EMBER_ZCL_STATUS_SUCCESS;
+    551                }
+    552                if (payload[0] == EMBER_ZCL_HUE_MOVE_MODE_DOWN) {
+   \      0x11E   0x7861             LDRB     R1,[R4, #+1]
+   \      0x120   0x2803             CMP      R0,#+3
+   \      0x122   0xD107             BNE.N    ??handle_color_command_21
+    553                  em3555LightStateStartHueMove(-(int32_t)payload[1]);
+   \      0x124   0x4249             RSBS     R1,R1,#+0
+   \      0x126   0x4608             MOV      R0,R1
+   \      0x128   0x.... 0x....      BL       em3555LightStateStartHueMove
+    554                } else {
+    555                  em3555LightStateStartHueMove((int32_t)payload[1]);
+    556                }
+    557                em3555ApplyLightStateAndPersist();
+    558                return EMBER_ZCL_STATUS_SUCCESS;
+    559          
+    560              case ZCL_STEP_HUE_COMMAND_ID:
+    561                if (payloadLength < 3U) {
+    562                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    563                }
+    564                status = parse_optional_options(payload,
+    565                                                payloadLength,
+    566                                                3U,
+    567                                                &optionsMask,
+    568                                                &optionsOverride);
+    569                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    570                  return status;
+    571                }
+    572                transitionTime = payload[2];
+    573                if (payload[0] == EMBER_ZCL_HUE_STEP_MODE_DOWN) {
+    574                  return apply_hs(wrap_hue_u8((int32_t)state->currentHue - (int32_t)payload[1]),
+    575                                  state->currentSaturation,
+    576                                  transitionTime);
+    577                }
+    578                return apply_hs(wrap_hue_u8((int32_t)state->currentHue + (int32_t)payload[1]),
+    579                                state->currentSaturation,
+    580                                transitionTime);
+    581          
+    582              case ZCL_MOVE_TO_SATURATION_COMMAND_ID:
+    583                if (payloadLength < 3U) {
+    584                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    585                }
+    586                status = parse_optional_options(payload,
+    587                                                payloadLength,
+    588                                                3U,
+    589                                                &optionsMask,
+    590                                                &optionsOverride);
+    591                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    592                  return status;
+    593                }
+    594                return apply_hs(state->currentHue, payload[0], read_u16(payload + 1U));
+    595          
+    596              case ZCL_MOVE_SATURATION_COMMAND_ID:
+    597                if (payloadLength < 2U) {
+    598                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    599                }
+    600                status = parse_optional_options(payload,
+    601                                                payloadLength,
+    602                                                2U,
+    603                                                &optionsMask,
+    604                                                &optionsOverride);
+    605                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    606                  return status;
+    607                }
+    608                if (payload[0] == EMBER_ZCL_SATURATION_MOVE_MODE_STOP) {
+    609                  em3555LightStateStop();
+    610                  em3555ApplyLightStateAndPersist();
+    611                  return EMBER_ZCL_STATUS_SUCCESS;
+    612                }
+    613                if (payload[0] == EMBER_ZCL_SATURATION_MOVE_MODE_DOWN) {
+    614                  em3555LightStateStartSaturationMove(-(int32_t)payload[1]);
+    615                } else {
+    616                  em3555LightStateStartSaturationMove((int32_t)payload[1]);
+    617                }
+    618                em3555ApplyLightStateAndPersist();
+    619                return EMBER_ZCL_STATUS_SUCCESS;
+    620          
+    621              case ZCL_STEP_SATURATION_COMMAND_ID:
+    622                if (payloadLength < 3U) {
+    623                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    624                }
+    625                status = parse_optional_options(payload,
+    626                                                payloadLength,
+    627                                                3U,
+    628                                                &optionsMask,
+    629                                                &optionsOverride);
+    630                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    631                  return status;
+    632                }
+    633                transitionTime = payload[2];
+    634                if (payload[0] == EMBER_ZCL_SATURATION_STEP_MODE_DOWN) {
+    635                  return apply_hs(state->currentHue,
+    636                                  clamp_color_component_u8((int32_t)state->currentSaturation - (int32_t)payload[1]),
+    637                                  transitionTime);
+    638                }
+    639                return apply_hs(state->currentHue,
+    640                                clamp_color_component_u8((int32_t)state->currentSaturation + (int32_t)payload[1]),
+    641                                transitionTime);
+    642          
+    643              case ZCL_MOVE_TO_HUE_AND_SATURATION_COMMAND_ID:
+    644                if (payloadLength < 4U) {
+    645                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    646                }
+    647                status = parse_optional_options(payload,
+    648                                                payloadLength,
+    649                                                4U,
+    650                                                &optionsMask,
+    651                                                &optionsOverride);
+    652                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    653                  return status;
+    654                }
+    655                return apply_hs(payload[0], payload[1], read_u16(payload + 2U));
+    656          
+    657              case ZCL_ENHANCED_MOVE_TO_HUE_AND_SATURATION_COMMAND_ID:
+    658                if (payloadLength < 5U) {
+    659                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    660                }
+    661                status = parse_optional_options(payload,
+    662                                                payloadLength,
+    663                                                5U,
+    664                                                &optionsMask,
+    665                                                &optionsOverride);
+    666                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    667                  return status;
+    668                }
+    669                return apply_hs(enhanced_hue_to_zcl_hue(read_u16(payload)),
+    670                                payload[2],
+    671                                read_u16(payload + 3U));
+    672          
+    673              case ZCL_MOVE_TO_COLOR_COMMAND_ID:
+    674                if (payloadLength < 6U) {
+    675                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    676                }
+    677                status = parse_optional_options(payload,
+    678                                                payloadLength,
+    679                                                6U,
+    680                                                &optionsMask,
+    681                                                &optionsOverride);
+    682                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    683                  return status;
+    684                }
+    685                return apply_xy(read_u16(payload), read_u16(payload + 2U), read_u16(payload + 4U));
+    686          
+    687              case ZCL_MOVE_COLOR_COMMAND_ID:
+    688                if (payloadLength < 4U) {
+    689                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    690                }
+    691                status = parse_optional_options(payload,
+    692                                                payloadLength,
+    693                                                4U,
+    694                                                &optionsMask,
+    695                                                &optionsOverride);
+    696                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    697                  return status;
+    698                }
+    699                em3555LightStateStartXyMove((int32_t)read_s16(payload),
+    700                                            (int32_t)read_s16(payload + 2U));
+    701                em3555ApplyLightStateAndPersist();
+    702                return EMBER_ZCL_STATUS_SUCCESS;
+    703          
+    704              case ZCL_STEP_COLOR_COMMAND_ID:
+    705                if (payloadLength < 6U) {
+    706                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    707                }
+    708                status = parse_optional_options(payload,
+    709                                                payloadLength,
+    710                                                6U,
+    711                                                &optionsMask,
+    712                                                &optionsOverride);
+    713                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    714                  return status;
+    715                }
+    716                return apply_xy(add_s16_clamped_u16(state->currentX, read_s16(payload), 0U, 0xFFFFU),
+    717                                add_s16_clamped_u16(state->currentY, read_s16(payload + 2U), 0U, 0xFFFFU),
+    718                                read_u16(payload + 4U));
+    719          
+    720              case ZCL_MOVE_TO_COLOR_TEMPERATURE_COMMAND_ID:
+    721                if (payloadLength < 4U) {
+    722                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    723                }
+    724                status = parse_optional_options(payload,
+    725                                                payloadLength,
+    726                                                4U,
+    727                                                &optionsMask,
+    728                                                &optionsOverride);
+    729                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    730                  return status;
+    731                }
+    732                return apply_ct(read_u16(payload), read_u16(payload + 2U));
+    733          
+    734              case ZCL_MOVE_COLOR_TEMPERATURE_COMMAND_ID:
+    735                if (payloadLength < 7U) {
+    736                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    737                }
+    738                status = parse_optional_options(payload,
+    739                                                payloadLength,
+    740                                                7U,
+    741                                                &optionsMask,
+    742                                                &optionsOverride);
+    743                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    744                  return status;
+    745                }
+    746                if (payload[0] == 0U) {
+    747                  em3555LightStateStop();
+    748                  em3555ApplyLightStateAndPersist();
+    749                  return EMBER_ZCL_STATUS_SUCCESS;
+    750                }
+    751                minimum = read_u16(payload + 3U);
+    752                maximum = read_u16(payload + 5U);
+    753                if (payload[0] == 0x03U) {
+    754                  em3555LightStateStartColorTemperatureMove(-(int32_t)read_u16(payload + 1U),
+    755                                                            minimum,
+    756                                                            maximum);
+    757                } else if (payload[0] == 0x01U) {
+    758                  em3555LightStateStartColorTemperatureMove((int32_t)read_u16(payload + 1U),
+    759                                                            minimum,
+    760                                                            maximum);
+    761                } else {
+    762                  return EMBER_ZCL_STATUS_INVALID_VALUE;
+    763                }
+    764                em3555ApplyLightStateAndPersist();
+    765                return EMBER_ZCL_STATUS_SUCCESS;
+    766          
+    767              case ZCL_STEP_COLOR_TEMPERATURE_COMMAND_ID:
+    768                if (payloadLength < 9U) {
+    769                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    770                }
+    771                status = parse_optional_options(payload,
+    772                                                payloadLength,
+    773                                                9U,
+    774                                                &optionsMask,
+    775                                                &optionsOverride);
+    776                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    777                  return status;
+    778                }
+    779                minimum = read_u16(payload + 5U);
+    780                maximum = read_u16(payload + 7U);
+    781                transitionTime = read_u16(payload + 3U);
+    782                if (payload[0] == EMBER_ZCL_STEP_MODE_DOWN) {
+    783                  return apply_ct(add_s16_clamped_u16(state->colorTemperatureMireds,
+    784                                                      -(int16_t)read_u16(payload + 1U),
+    785                                                      minimum,
+    786                                                      maximum),
+    787                                  transitionTime);
+    788                }
+    789                return apply_ct(add_s16_clamped_u16(state->colorTemperatureMireds,
+    790                                                    (int16_t)read_u16(payload + 1U),
+    791                                                    minimum,
+    792                                                    maximum),
+    793                                transitionTime);
+    794          
+    795              case ZCL_STOP_MOVE_STEP_COMMAND_ID:
+    796                status = parse_optional_options(payload,
+    797                                                payloadLength,
+    798                                                0U,
+    799                                                &optionsMask,
+    800                                                &optionsOverride);
+    801                if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    802                  return status;
+    803                }
+    804                em3555LightStateStop();
+    805                em3555ApplyLightStateAndPersist();
+    806                return EMBER_ZCL_STATUS_SUCCESS;
+    807          
+    808              case ZCL_COLOR_LOOP_SET_COMMAND_ID:
+    809                if (payloadLength < 6U) {
+    810                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    811                }
+    812                if (!em3555LightStateStartColorLoop(payload[0],
+    813                                                    payload[1],
+    814                                                    read_u16(payload + 2U),
+    815                                                    read_u16(payload + 4U))) {
+    816                  return EMBER_ZCL_STATUS_INVALID_VALUE;
+    817                }
+    818                em3555ApplyLightStateAndPersist();
+   \                     ??handle_color_command_22: (+1)
+   \      0x12C   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    819                return EMBER_ZCL_STATUS_SUCCESS;
+   \      0x130   0x2000             MOVS     R0,#+0
+   \      0x132   0xE1F6             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_21: (+1)
+   \      0x134   0x4608             MOV      R0,R1
+   \      0x136   0x.... 0x....      BL       em3555LightStateStartHueMove
+   \      0x13A   0xE7F7             B.N      ??handle_color_command_22
+   \                     ??handle_color_command_2: (+1)
+   \      0x13C   0x4638             MOV      R0,R7
+   \      0x13E   0xB280             UXTH     R0,R0
+   \      0x140   0x2803             CMP      R0,#+3
+   \      0x142   0xF0C0 0x81D9      BCC.W    ??handle_color_command_18
+   \      0x146   0xA801             ADD      R0,SP,#+4
+   \      0x148   0x9000             STR      R0,[SP, #+0]
+   \      0x14A   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x14E   0x2203             MOVS     R2,#+3
+   \      0x150   0x4639             MOV      R1,R7
+   \      0x152   0xB289             UXTH     R1,R1
+   \      0x154   0x4620             MOV      R0,R4
+   \      0x156   0x.... 0x....      BL       parse_optional_options
+   \      0x15A   0x0001             MOVS     R1,R0
+   \      0x15C   0xF040 0x81E1      BNE.W    ??handle_color_command_19
+   \      0x160   0x78A6             LDRB     R6,[R4, #+2]
+   \      0x162   0x7860             LDRB     R0,[R4, #+1]
+   \      0x164   0x78E9             LDRB     R1,[R5, #+3]
+   \      0x166   0x7822             LDRB     R2,[R4, #+0]
+   \      0x168   0x2A03             CMP      R2,#+3
+   \      0x16A   0xD107             BNE.N    ??handle_color_command_23
+   \      0x16C   0x1A08             SUBS     R0,R1,R0
+   \      0x16E   0x.... 0x....      BL       wrap_hue_u8
+   \      0x172   0x4632             MOV      R2,R6
+   \      0x174   0x7929             LDRB     R1,[R5, #+4]
+   \      0x176   0x.... 0x....      BL       apply_hs
+   \      0x17A   0xE1D2             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_23: (+1)
+   \      0x17C   0x1840             ADDS     R0,R0,R1
+   \      0x17E   0x.... 0x....      BL       wrap_hue_u8
+   \      0x182   0x4632             MOV      R2,R6
+   \      0x184   0x7929             LDRB     R1,[R5, #+4]
+   \      0x186   0x.... 0x....      BL       apply_hs
+   \      0x18A   0xE1CA             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_3: (+1)
+   \      0x18C   0x4638             MOV      R0,R7
+   \      0x18E   0xB280             UXTH     R0,R0
+   \      0x190   0x2803             CMP      R0,#+3
+   \      0x192   0xF0C0 0x81B1      BCC.W    ??handle_color_command_18
+   \      0x196   0xA801             ADD      R0,SP,#+4
+   \      0x198   0x9000             STR      R0,[SP, #+0]
+   \      0x19A   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x19E   0x2203             MOVS     R2,#+3
+   \      0x1A0   0x4639             MOV      R1,R7
+   \      0x1A2   0xB289             UXTH     R1,R1
+   \      0x1A4   0x4620             MOV      R0,R4
+   \      0x1A6   0x.... 0x....      BL       parse_optional_options
+   \      0x1AA   0x0001             MOVS     R1,R0
+   \      0x1AC   0xF040 0x81B9      BNE.W    ??handle_color_command_19
+   \      0x1B0   0x1C60             ADDS     R0,R4,#+1
+   \      0x1B2   0x.... 0x....      BL       read_u16
+   \      0x1B6   0x4602             MOV      R2,R0
+   \      0x1B8   0x7821             LDRB     R1,[R4, #+0]
+   \      0x1BA   0x78E8             LDRB     R0,[R5, #+3]
+   \      0x1BC   0x.... 0x....      BL       apply_hs
+   \      0x1C0   0xE1AF             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_4: (+1)
+   \      0x1C2   0x4638             MOV      R0,R7
+   \      0x1C4   0xB280             UXTH     R0,R0
+   \      0x1C6   0x2802             CMP      R0,#+2
+   \      0x1C8   0xF0C0 0x8196      BCC.W    ??handle_color_command_18
+   \      0x1CC   0xA801             ADD      R0,SP,#+4
+   \      0x1CE   0x9000             STR      R0,[SP, #+0]
+   \      0x1D0   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x1D4   0x2202             MOVS     R2,#+2
+   \      0x1D6   0x4639             MOV      R1,R7
+   \      0x1D8   0xB289             UXTH     R1,R1
+   \      0x1DA   0x4620             MOV      R0,R4
+   \      0x1DC   0x.... 0x....      BL       parse_optional_options
+   \      0x1E0   0x0001             MOVS     R1,R0
+   \      0x1E2   0xF040 0x819E      BNE.W    ??handle_color_command_19
+   \      0x1E6   0x7820             LDRB     R0,[R4, #+0]
+   \      0x1E8   0x2800             CMP      R0,#+0
+   \      0x1EA   0xF000 0x817C      BEQ.W    ??handle_color_command_20
+   \      0x1EE   0x7861             LDRB     R1,[R4, #+1]
+   \      0x1F0   0x2803             CMP      R0,#+3
+   \      0x1F2   0xD104             BNE.N    ??handle_color_command_24
+   \      0x1F4   0x4249             RSBS     R1,R1,#+0
+   \      0x1F6   0x4608             MOV      R0,R1
+   \      0x1F8   0x.... 0x....      BL       em3555LightStateStartSaturationMove
+   \      0x1FC   0xE796             B.N      ??handle_color_command_22
+   \                     ??handle_color_command_24: (+1)
+   \      0x1FE   0x4608             MOV      R0,R1
+   \      0x200   0x.... 0x....      BL       em3555LightStateStartSaturationMove
+   \      0x204   0xE792             B.N      ??handle_color_command_22
+   \                     ??handle_color_command_5: (+1)
+   \      0x206   0x4638             MOV      R0,R7
+   \      0x208   0xB280             UXTH     R0,R0
+   \      0x20A   0x2803             CMP      R0,#+3
+   \      0x20C   0xF0C0 0x8174      BCC.W    ??handle_color_command_18
+   \      0x210   0xA801             ADD      R0,SP,#+4
+   \      0x212   0x9000             STR      R0,[SP, #+0]
+   \      0x214   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x218   0x2203             MOVS     R2,#+3
+   \      0x21A   0x4639             MOV      R1,R7
+   \      0x21C   0xB289             UXTH     R1,R1
+   \      0x21E   0x4620             MOV      R0,R4
+   \      0x220   0x.... 0x....      BL       parse_optional_options
+   \      0x224   0x0001             MOVS     R1,R0
+   \      0x226   0xF040 0x817C      BNE.W    ??handle_color_command_19
+   \      0x22A   0x78A6             LDRB     R6,[R4, #+2]
+   \      0x22C   0x7860             LDRB     R0,[R4, #+1]
+   \      0x22E   0x7929             LDRB     R1,[R5, #+4]
+   \      0x230   0x7822             LDRB     R2,[R4, #+0]
+   \      0x232   0x2A03             CMP      R2,#+3
+   \      0x234   0xD108             BNE.N    ??handle_color_command_25
+   \      0x236   0x1A08             SUBS     R0,R1,R0
+   \      0x238   0x.... 0x....      BL       clamp_color_component_u8
+   \      0x23C   0x4601             MOV      R1,R0
+   \      0x23E   0x4632             MOV      R2,R6
+   \      0x240   0x78E8             LDRB     R0,[R5, #+3]
+   \      0x242   0x.... 0x....      BL       apply_hs
+   \      0x246   0xE16C             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_25: (+1)
+   \      0x248   0x1840             ADDS     R0,R0,R1
+   \      0x24A   0x.... 0x....      BL       clamp_color_component_u8
+   \      0x24E   0x4632             MOV      R2,R6
+   \      0x250   0x4601             MOV      R1,R0
+   \      0x252   0x78E8             LDRB     R0,[R5, #+3]
+   \      0x254   0x.... 0x....      BL       apply_hs
+   \      0x258   0xE163             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_6: (+1)
+   \      0x25A   0x4638             MOV      R0,R7
+   \      0x25C   0xB280             UXTH     R0,R0
+   \      0x25E   0x2804             CMP      R0,#+4
+   \      0x260   0xF0C0 0x814A      BCC.W    ??handle_color_command_18
+   \      0x264   0xA801             ADD      R0,SP,#+4
+   \      0x266   0x9000             STR      R0,[SP, #+0]
+   \      0x268   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x26C   0x2204             MOVS     R2,#+4
+   \      0x26E   0x4639             MOV      R1,R7
+   \      0x270   0xB289             UXTH     R1,R1
+   \      0x272   0x4620             MOV      R0,R4
+   \      0x274   0x.... 0x....      BL       parse_optional_options
+   \      0x278   0x0001             MOVS     R1,R0
+   \      0x27A   0xF040 0x8152      BNE.W    ??handle_color_command_19
+   \      0x27E   0x1CA0             ADDS     R0,R4,#+2
+   \      0x280   0x.... 0x....      BL       read_u16
+   \      0x284   0x4602             MOV      R2,R0
+   \      0x286   0x7861             LDRB     R1,[R4, #+1]
+   \      0x288   0x7820             LDRB     R0,[R4, #+0]
+   \      0x28A   0x.... 0x....      BL       apply_hs
+   \      0x28E   0xE148             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_12: (+1)
+   \      0x290   0x4638             MOV      R0,R7
+   \      0x292   0xB280             UXTH     R0,R0
+   \      0x294   0x2804             CMP      R0,#+4
+   \      0x296   0xF240 0x812F      BLS.W    ??handle_color_command_18
+   \      0x29A   0xA801             ADD      R0,SP,#+4
+   \      0x29C   0x9000             STR      R0,[SP, #+0]
+   \      0x29E   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x2A2   0x2205             MOVS     R2,#+5
+   \      0x2A4   0x4639             MOV      R1,R7
+   \      0x2A6   0xB289             UXTH     R1,R1
+   \      0x2A8   0x4620             MOV      R0,R4
+   \      0x2AA   0x.... 0x....      BL       parse_optional_options
+   \      0x2AE   0x0001             MOVS     R1,R0
+   \      0x2B0   0xF040 0x8137      BNE.W    ??handle_color_command_19
+   \      0x2B4   0x1CE0             ADDS     R0,R4,#+3
+   \      0x2B6   0x.... 0x....      BL       read_u16
+   \      0x2BA   0x4605             MOV      R5,R0
+   \      0x2BC   0x4620             MOV      R0,R4
+   \      0x2BE   0x.... 0x....      BL       read_u16
+   \      0x2C2   0x.... 0x....      BL       enhanced_hue_to_zcl_hue
+   \      0x2C6   0x462A             MOV      R2,R5
+   \      0x2C8   0x78A1             LDRB     R1,[R4, #+2]
+   \      0x2CA   0x.... 0x....      BL       apply_hs
+   \      0x2CE   0xE128             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_7: (+1)
+   \      0x2D0   0x4638             MOV      R0,R7
+   \      0x2D2   0xB280             UXTH     R0,R0
+   \      0x2D4   0x2805             CMP      R0,#+5
+   \      0x2D6   0xF240 0x810F      BLS.W    ??handle_color_command_18
+   \      0x2DA   0xA801             ADD      R0,SP,#+4
+   \      0x2DC   0x9000             STR      R0,[SP, #+0]
+   \      0x2DE   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x2E2   0x2206             MOVS     R2,#+6
+   \      0x2E4   0x4639             MOV      R1,R7
+   \      0x2E6   0xB289             UXTH     R1,R1
+   \      0x2E8   0x4620             MOV      R0,R4
+   \      0x2EA   0x.... 0x....      BL       parse_optional_options
+   \      0x2EE   0x0001             MOVS     R1,R0
+   \      0x2F0   0xF040 0x8117      BNE.W    ??handle_color_command_19
+   \      0x2F4   0x1D20             ADDS     R0,R4,#+4
+   \      0x2F6   0x.... 0x....      BL       read_u16
+   \      0x2FA   0x4605             MOV      R5,R0
+   \      0x2FC   0x1CA0             ADDS     R0,R4,#+2
+   \      0x2FE   0x.... 0x....      BL       read_u16
+   \      0x302   0x4606             MOV      R6,R0
+   \      0x304   0x4620             MOV      R0,R4
+   \      0x306   0x.... 0x....      BL       read_u16
+   \      0x30A   0x462A             MOV      R2,R5
+   \      0x30C   0x4631             MOV      R1,R6
+   \      0x30E   0x.... 0x....      BL       apply_xy
+   \      0x312   0xE106             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_8: (+1)
+   \      0x314   0x4638             MOV      R0,R7
+   \      0x316   0xB280             UXTH     R0,R0
+   \      0x318   0x2804             CMP      R0,#+4
+   \      0x31A   0xF0C0 0x80ED      BCC.W    ??handle_color_command_18
+   \      0x31E   0xA801             ADD      R0,SP,#+4
+   \      0x320   0x9000             STR      R0,[SP, #+0]
+   \      0x322   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x326   0x2204             MOVS     R2,#+4
+   \      0x328   0x4639             MOV      R1,R7
+   \      0x32A   0xB289             UXTH     R1,R1
+   \      0x32C   0x4620             MOV      R0,R4
+   \      0x32E   0x.... 0x....      BL       parse_optional_options
+   \      0x332   0x0001             MOVS     R1,R0
+   \      0x334   0xF040 0x80F5      BNE.W    ??handle_color_command_19
+   \      0x338   0x1CA0             ADDS     R0,R4,#+2
+   \      0x33A   0x.... 0x....      BL       read_s16
+   \      0x33E   0x4605             MOV      R5,R0
+   \      0x340   0x4620             MOV      R0,R4
+   \      0x342   0x.... 0x....      BL       read_s16
+   \      0x346   0x4629             MOV      R1,R5
+   \      0x348   0x.... 0x....      BL       em3555LightStateStartXyMove
+   \      0x34C   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+   \      0x350   0x2000             MOVS     R0,#+0
+   \      0x352   0xE0E6             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_9: (+1)
+   \      0x354   0x4638             MOV      R0,R7
+   \      0x356   0xB280             UXTH     R0,R0
+   \      0x358   0x2805             CMP      R0,#+5
+   \      0x35A   0xF240 0x80CD      BLS.W    ??handle_color_command_18
+   \      0x35E   0xA801             ADD      R0,SP,#+4
+   \      0x360   0x9000             STR      R0,[SP, #+0]
+   \      0x362   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x366   0x2206             MOVS     R2,#+6
+   \      0x368   0x4639             MOV      R1,R7
+   \      0x36A   0xB289             UXTH     R1,R1
+   \      0x36C   0x4620             MOV      R0,R4
+   \      0x36E   0x.... 0x....      BL       parse_optional_options
+   \      0x372   0x0001             MOVS     R1,R0
+   \      0x374   0xF040 0x80D5      BNE.W    ??handle_color_command_19
+   \      0x378   0x1D20             ADDS     R0,R4,#+4
+   \      0x37A   0x.... 0x....      BL       read_u16
+   \      0x37E   0x4606             MOV      R6,R0
+   \      0x380   0x1CA0             ADDS     R0,R4,#+2
+   \      0x382   0x.... 0x....      BL       read_s16
+   \      0x386   0xF64F 0x77FF      MOVW     R7,#+65535
+   \      0x38A   0x463B             MOV      R3,R7
+   \      0x38C   0x2200             MOVS     R2,#+0
+   \      0x38E   0x4601             MOV      R1,R0
+   \      0x390   0x8928             LDRH     R0,[R5, #+8]
+   \      0x392   0x.... 0x....      BL       add_s16_clamped_u16
+   \      0x396   0x4680             MOV      R8,R0
+   \      0x398   0x4620             MOV      R0,R4
+   \      0x39A   0x.... 0x....      BL       read_s16
+   \      0x39E   0x463B             MOV      R3,R7
+   \      0x3A0   0x2200             MOVS     R2,#+0
+   \      0x3A2   0x4601             MOV      R1,R0
+   \      0x3A4   0x88E8             LDRH     R0,[R5, #+6]
+   \      0x3A6   0x.... 0x....      BL       add_s16_clamped_u16
+   \      0x3AA   0x4632             MOV      R2,R6
+   \      0x3AC   0x4641             MOV      R1,R8
+   \      0x3AE   0x.... 0x....      BL       apply_xy
+   \      0x3B2   0xE0B6             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_10: (+1)
+   \      0x3B4   0x4638             MOV      R0,R7
+   \      0x3B6   0xB280             UXTH     R0,R0
+   \      0x3B8   0x2804             CMP      R0,#+4
+   \      0x3BA   0xF0C0 0x809D      BCC.W    ??handle_color_command_18
+   \      0x3BE   0xA801             ADD      R0,SP,#+4
+   \      0x3C0   0x9000             STR      R0,[SP, #+0]
+   \      0x3C2   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x3C6   0x2204             MOVS     R2,#+4
+   \      0x3C8   0x4639             MOV      R1,R7
+   \      0x3CA   0xB289             UXTH     R1,R1
+   \      0x3CC   0x4620             MOV      R0,R4
+   \      0x3CE   0x.... 0x....      BL       parse_optional_options
+   \      0x3D2   0x0001             MOVS     R1,R0
+   \      0x3D4   0xF040 0x80A5      BNE.W    ??handle_color_command_19
+   \      0x3D8   0x1CA0             ADDS     R0,R4,#+2
+   \      0x3DA   0x.... 0x....      BL       read_u16
+   \      0x3DE   0x4605             MOV      R5,R0
+   \      0x3E0   0x4620             MOV      R0,R4
+   \      0x3E2   0x.... 0x....      BL       read_u16
+   \      0x3E6   0x4629             MOV      R1,R5
+   \      0x3E8   0x.... 0x....      BL       apply_ct
+   \      0x3EC   0xE099             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_15: (+1)
+   \      0x3EE   0x4638             MOV      R0,R7
+   \      0x3F0   0xB280             UXTH     R0,R0
+   \      0x3F2   0x2806             CMP      R0,#+6
+   \      0x3F4   0xF240 0x8080      BLS.W    ??handle_color_command_18
+   \      0x3F8   0xA801             ADD      R0,SP,#+4
+   \      0x3FA   0x9000             STR      R0,[SP, #+0]
+   \      0x3FC   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x400   0x2207             MOVS     R2,#+7
+   \      0x402   0x4639             MOV      R1,R7
+   \      0x404   0xB289             UXTH     R1,R1
+   \      0x406   0x4620             MOV      R0,R4
+   \      0x408   0x.... 0x....      BL       parse_optional_options
+   \      0x40C   0x0001             MOVS     R1,R0
+   \      0x40E   0xF040 0x8088      BNE.W    ??handle_color_command_19
+   \      0x412   0x7820             LDRB     R0,[R4, #+0]
+   \      0x414   0x2800             CMP      R0,#+0
+   \      0x416   0xD066             BEQ.N    ??handle_color_command_20
+   \      0x418   0x1CE0             ADDS     R0,R4,#+3
+   \      0x41A   0x.... 0x....      BL       read_u16
+   \      0x41E   0x4605             MOV      R5,R0
+   \      0x420   0x1D60             ADDS     R0,R4,#+5
+   \      0x422   0x.... 0x....      BL       read_u16
+   \      0x426   0x4606             MOV      R6,R0
+   \      0x428   0x7820             LDRB     R0,[R4, #+0]
+   \      0x42A   0x2803             CMP      R0,#+3
+   \      0x42C   0xD108             BNE.N    ??handle_color_command_26
+   \      0x42E   0x1C60             ADDS     R0,R4,#+1
+   \      0x430   0x.... 0x....      BL       read_u16
+   \      0x434   0x4632             MOV      R2,R6
+   \      0x436   0x4629             MOV      R1,R5
+   \      0x438   0x4240             RSBS     R0,R0,#+0
+   \      0x43A   0x.... 0x....      BL       em3555LightStateStartColorTemperatureMove
+   \      0x43E   0xE675             B.N      ??handle_color_command_22
+   \                     ??handle_color_command_26: (+1)
+   \      0x440   0x2801             CMP      R0,#+1
+   \      0x442   0xD16B             BNE.N    ??handle_color_command_27
+   \      0x444   0x1C60             ADDS     R0,R4,#+1
+   \      0x446   0x.... 0x....      BL       read_u16
+   \      0x44A   0x4632             MOV      R2,R6
+   \      0x44C   0x4629             MOV      R1,R5
+   \      0x44E   0x.... 0x....      BL       em3555LightStateStartColorTemperatureMove
+   \      0x452   0xE66B             B.N      ??handle_color_command_22
+   \                     ??handle_color_command_16: (+1)
+   \      0x454   0x4638             MOV      R0,R7
+   \      0x456   0xB280             UXTH     R0,R0
+   \      0x458   0x2809             CMP      R0,#+9
+   \      0x45A   0xD34D             BCC.N    ??handle_color_command_18
+   \      0x45C   0xA801             ADD      R0,SP,#+4
+   \      0x45E   0x9000             STR      R0,[SP, #+0]
+   \      0x460   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x464   0x2209             MOVS     R2,#+9
+   \      0x466   0x4639             MOV      R1,R7
+   \      0x468   0xB289             UXTH     R1,R1
+   \      0x46A   0x4620             MOV      R0,R4
+   \      0x46C   0x.... 0x....      BL       parse_optional_options
+   \      0x470   0x0001             MOVS     R1,R0
+   \      0x472   0xD156             BNE.N    ??handle_color_command_19
+   \      0x474   0x1D60             ADDS     R0,R4,#+5
+   \      0x476   0x.... 0x....      BL       read_u16
+   \      0x47A   0x4607             MOV      R7,R0
+   \      0x47C   0x1DE0             ADDS     R0,R4,#+7
+   \      0x47E   0x.... 0x....      BL       read_u16
+   \      0x482   0x4680             MOV      R8,R0
+   \      0x484   0x1CE0             ADDS     R0,R4,#+3
+   \      0x486   0x.... 0x....      BL       read_u16
+   \      0x48A   0x4606             MOV      R6,R0
+   \      0x48C   0x7820             LDRB     R0,[R4, #+0]
+   \      0x48E   0x2801             CMP      R0,#+1
+   \      0x490   0xD10F             BNE.N    ??handle_color_command_28
+   \      0x492   0x1C60             ADDS     R0,R4,#+1
+   \      0x494   0x.... 0x....      BL       read_u16
+   \      0x498   0x4643             MOV      R3,R8
+   \      0x49A   0x463A             MOV      R2,R7
+   \      0x49C   0xB200             SXTH     R0,R0
+   \      0x49E   0x4240             RSBS     R0,R0,#+0
+   \      0x4A0   0x4601             MOV      R1,R0
+   \      0x4A2   0xB209             SXTH     R1,R1
+   \      0x4A4   0x8968             LDRH     R0,[R5, #+10]
+   \      0x4A6   0x.... 0x....      BL       add_s16_clamped_u16
+   \      0x4AA   0x4631             MOV      R1,R6
+   \      0x4AC   0x.... 0x....      BL       apply_ct
+   \      0x4B0   0xE037             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_28: (+1)
+   \      0x4B2   0x1C60             ADDS     R0,R4,#+1
+   \      0x4B4   0x.... 0x....      BL       read_u16
+   \      0x4B8   0x4643             MOV      R3,R8
+   \      0x4BA   0x463A             MOV      R2,R7
+   \      0x4BC   0x4601             MOV      R1,R0
+   \      0x4BE   0xB209             SXTH     R1,R1
+   \      0x4C0   0x8968             LDRH     R0,[R5, #+10]
+   \      0x4C2   0x.... 0x....      BL       add_s16_clamped_u16
+   \      0x4C6   0x4631             MOV      R1,R6
+   \      0x4C8   0x.... 0x....      BL       apply_ct
+   \      0x4CC   0xE029             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_14: (+1)
+   \      0x4CE   0xA801             ADD      R0,SP,#+4
+   \      0x4D0   0x9000             STR      R0,[SP, #+0]
+   \      0x4D2   0xF10D 0x0305      ADD      R3,SP,#+5
+   \      0x4D6   0x2200             MOVS     R2,#+0
+   \      0x4D8   0x4639             MOV      R1,R7
+   \      0x4DA   0xB289             UXTH     R1,R1
+   \      0x4DC   0x4620             MOV      R0,R4
+   \      0x4DE   0x.... 0x....      BL       parse_optional_options
+   \      0x4E2   0x0001             MOVS     R1,R0
+   \      0x4E4   0xD11D             BNE.N    ??handle_color_command_19
+   \                     ??handle_color_command_20: (+1)
+   \      0x4E6   0x.... 0x....      BL       em3555LightStateStop
+   \      0x4EA   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+   \      0x4EE   0x2000             MOVS     R0,#+0
+   \      0x4F0   0xE017             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_13: (+1)
+   \      0x4F2   0xB2BF             UXTH     R7,R7
+   \      0x4F4   0x2F05             CMP      R7,#+5
+   \      0x4F6   0xD801             BHI.N    ??handle_color_command_29
+   \                     ??handle_color_command_18: (+1)
+   \      0x4F8   0x2080             MOVS     R0,#+128
+   \      0x4FA   0xE012             B.N      ??handle_color_command_19
+   \                     ??handle_color_command_29: (+1)
+   \      0x4FC   0x1D20             ADDS     R0,R4,#+4
+   \      0x4FE   0x.... 0x....      BL       read_u16
+   \      0x502   0x4605             MOV      R5,R0
+   \      0x504   0x1CA0             ADDS     R0,R4,#+2
+   \      0x506   0x.... 0x....      BL       read_u16
+   \      0x50A   0x462B             MOV      R3,R5
+   \      0x50C   0x4602             MOV      R2,R0
+   \      0x50E   0x7861             LDRB     R1,[R4, #+1]
+   \      0x510   0x7820             LDRB     R0,[R4, #+0]
+   \      0x512   0x.... 0x....      BL       em3555LightStateStartColorLoop
+   \      0x516   0x2800             CMP      R0,#+0
+   \      0x518   0xF47F 0xAE08      BNE.W    ??handle_color_command_22
+   \                     ??handle_color_command_27: (+1)
+   \      0x51C   0x2087             MOVS     R0,#+135
+   \      0x51E   0xE000             B.N      ??handle_color_command_19
+    820          
+    821              default:
+    822                return EMBER_ZCL_STATUS_UNSUP_CLUSTER_COMMAND;
+   \                     ??handle_color_command_17: (+1)
+   \      0x520   0x2081             MOVS     R0,#+129
+   \                     ??handle_color_command_19: (+1)
+   \      0x522   0xE8BD 0x81F6      POP      {R1,R2,R4-R8,PC}
+    823            }
+    824          }
+    825          
+
+   \                                 In section .text, align 4, keep-with-next
+    826          static EmberAfStatus handle_groups_command(const EmberAfClusterCommand *cmd)
+    827          {
+   \                     handle_groups_command: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    828            const uint8_t *payload = cmd->buffer + cmd->payloadStartIndex;
+   \        0x4   0x7D22             LDRB     R2,[R4, #+20]
+   \        0x6   0x68A0             LDR      R0,[R4, #+8]
+   \        0x8   0x4611             MOV      R1,R2
+   \        0xA   0x1840             ADDS     R0,R0,R1
+    829            uint16_t payloadLength = cmd->bufLen - cmd->payloadStartIndex;
+   \        0xC   0x89A1             LDRH     R1,[R4, #+12]
+   \        0xE   0x1A89             SUBS     R1,R1,R2
+   \       0x10   0xB289             UXTH     R1,R1
+    830            uint16_t groupId;
+    831            uint8_t *groupName = NULL;
+   \       0x12   0x2200             MOVS     R2,#+0
+   \       0x14   0x9200             STR      R2,[SP, #+0]
+    832            uint8_t groupCount;
+    833          
+    834            switch (cmd->commandId) {
+   \       0x16   0x7CE2             LDRB     R2,[R4, #+19]
+   \       0x18   0x2A05             CMP      R2,#+5
+   \       0x1A   0xD84E             BHI.N    ??handle_groups_command_1
+   \       0x1C   0xE8DF 0xF002      TBB      [PC, R2]
+   \                     ??handle_groups_command_0:
+   \       0x20   0x03 0x21          DC8      0x3,0x21,0x2B,0x3B
+   \              0x2B 0x3B
+   \       0x24   0x47 0x03          DC8      0x47,0x3
+    835              case ZCL_ADD_GROUP_COMMAND_ID:
+    836              case ZCL_ADD_GROUP_IF_IDENTIFYING_COMMAND_ID:
+    837                if (payloadLength < 3U) {
+   \                     ??handle_groups_command_2: (+1)
+   \       0x26   0x2902             CMP      R1,#+2
+   \       0x28   0xD937             BLS.N    ??handle_groups_command_3
+    838                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    839                }
+    840                groupId = read_u16(payload);
+   \       0x2A   0x.... 0x....      BL       read_u16
+   \       0x2E   0x4605             MOV      R5,R0
+    841                if (!parse_zcl_string(cmd, 2U, &groupName, NULL)) {
+   \       0x30   0x2300             MOVS     R3,#+0
+   \       0x32   0x466A             MOV      R2,SP
+   \       0x34   0x2102             MOVS     R1,#+2
+   \       0x36   0x4620             MOV      R0,R4
+   \       0x38   0x.... 0x....      BL       parse_zcl_string
+   \       0x3C   0x2800             CMP      R0,#+0
+   \       0x3E   0xD02C             BEQ.N    ??handle_groups_command_3
+    842                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    843                }
+    844                if (cmd->commandId == ZCL_ADD_GROUP_COMMAND_ID) {
+   \       0x40   0x7CE0             LDRB     R0,[R4, #+19]
+   \       0x42   0x2800             CMP      R0,#+0
+   \       0x44   0x9900             LDR      R1,[SP, #+0]
+   \       0x46   0x4628             MOV      R0,R5
+   \       0x48   0xD105             BNE.N    ??handle_groups_command_4
+    845                  return (emberAfGroupsClusterAddGroupCallback(groupId, groupName)
+    846                          ? EMBER_ZCL_STATUS_SUCCESS
+    847                          : EMBER_ZCL_STATUS_FAILURE);
+   \       0x4A   0x.... 0x....      BL       emberAfGroupsClusterAddGroupCallback
+   \       0x4E   0x1E40             SUBS     R0,R0,#+1
+   \       0x50   0x4180             SBCS     R0,R0,R0
+   \       0x52   0x0FC0             LSRS     R0,R0,#+31
+   \       0x54   0xBD32             POP      {R1,R4,R5,PC}
+    848                }
+    849                return (emberAfGroupsClusterAddGroupIfIdentifyingCallback(groupId, groupName)
+    850                        ? EMBER_ZCL_STATUS_SUCCESS
+    851                        : EMBER_ZCL_STATUS_FAILURE);
+   \                     ??handle_groups_command_4: (+1)
+   \       0x56   0x.... 0x....      BL       emberAfGroupsClusterAddGroupIfIdentifyingCallback
+   \       0x5A   0x1E40             SUBS     R0,R0,#+1
+   \       0x5C   0x4180             SBCS     R0,R0,R0
+   \       0x5E   0x0FC0             LSRS     R0,R0,#+31
+   \       0x60   0xBD32             POP      {R1,R4,R5,PC}
+    852          
+    853              case ZCL_VIEW_GROUP_COMMAND_ID:
+    854                if (payloadLength < 2U) {
+   \                     ??handle_groups_command_5: (+1)
+   \       0x62   0x2902             CMP      R1,#+2
+   \       0x64   0xD319             BCC.N    ??handle_groups_command_3
+    855                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    856                }
+    857                return (emberAfGroupsClusterViewGroupCallback(read_u16(payload))
+    858                        ? EMBER_ZCL_STATUS_SUCCESS
+    859                        : EMBER_ZCL_STATUS_FAILURE);
+   \       0x66   0x.... 0x....      BL       read_u16
+   \       0x6A   0x.... 0x....      BL       emberAfGroupsClusterViewGroupCallback
+   \       0x6E   0x1E40             SUBS     R0,R0,#+1
+   \       0x70   0x4180             SBCS     R0,R0,R0
+   \       0x72   0x0FC0             LSRS     R0,R0,#+31
+   \       0x74   0xBD32             POP      {R1,R4,R5,PC}
+    860          
+    861              case ZCL_GET_GROUP_MEMBERSHIP_COMMAND_ID:
+    862                if (payloadLength < 1U) {
+   \                     ??handle_groups_command_6: (+1)
+   \       0x76   0x2900             CMP      R1,#+0
+   \       0x78   0xD00F             BEQ.N    ??handle_groups_command_3
+    863                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    864                }
+    865                groupCount = payload[0];
+   \       0x7A   0x7802             LDRB     R2,[R0, #+0]
+    866                if ((uint32_t)1U + ((uint32_t)groupCount * 2UL) > payloadLength) {
+   \       0x7C   0x4613             MOV      R3,R2
+   \       0x7E   0x005B             LSLS     R3,R3,#+1
+   \       0x80   0x1C5B             ADDS     R3,R3,#+1
+   \       0x82   0x4299             CMP      R1,R3
+   \       0x84   0xD309             BCC.N    ??handle_groups_command_3
+    867                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    868                }
+    869                return (emberAfGroupsClusterGetGroupMembershipCallback(groupCount,
+    870                                                                       (uint8_t *)(payload + 1U))
+    871                        ? EMBER_ZCL_STATUS_SUCCESS
+    872                        : EMBER_ZCL_STATUS_FAILURE);
+   \       0x86   0x1C41             ADDS     R1,R0,#+1
+   \       0x88   0x4610             MOV      R0,R2
+   \       0x8A   0x.... 0x....      BL       emberAfGroupsClusterGetGroupMembershipCallback
+   \       0x8E   0x1E40             SUBS     R0,R0,#+1
+   \       0x90   0x4180             SBCS     R0,R0,R0
+   \       0x92   0x0FC0             LSRS     R0,R0,#+31
+   \       0x94   0xBD32             POP      {R1,R4,R5,PC}
+    873          
+    874              case ZCL_REMOVE_GROUP_COMMAND_ID:
+    875                if (payloadLength < 2U) {
+   \                     ??handle_groups_command_7: (+1)
+   \       0x96   0x2902             CMP      R1,#+2
+   \       0x98   0xD201             BCS.N    ??handle_groups_command_8
+    876                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+   \                     ??handle_groups_command_3: (+1)
+   \       0x9A   0x2080             MOVS     R0,#+128
+   \       0x9C   0xBD32             POP      {R1,R4,R5,PC}
+    877                }
+    878                return (emberAfGroupsClusterRemoveGroupCallback(read_u16(payload))
+    879                        ? EMBER_ZCL_STATUS_SUCCESS
+    880                        : EMBER_ZCL_STATUS_FAILURE);
+   \                     ??handle_groups_command_8: (+1)
+   \       0x9E   0x.... 0x....      BL       read_u16
+   \       0xA2   0x.... 0x....      BL       emberAfGroupsClusterRemoveGroupCallback
+   \       0xA6   0x1E40             SUBS     R0,R0,#+1
+   \       0xA8   0x4180             SBCS     R0,R0,R0
+   \       0xAA   0x0FC0             LSRS     R0,R0,#+31
+   \       0xAC   0xBD32             POP      {R1,R4,R5,PC}
+    881          
+    882              case ZCL_REMOVE_ALL_GROUPS_COMMAND_ID:
+    883                return (emberAfGroupsClusterRemoveAllGroupsCallback()
+    884                        ? EMBER_ZCL_STATUS_SUCCESS
+    885                        : EMBER_ZCL_STATUS_FAILURE);
+   \                     ??handle_groups_command_9: (+1)
+   \       0xAE   0x.... 0x....      BL       emberAfGroupsClusterRemoveAllGroupsCallback
+   \       0xB2   0x1E40             SUBS     R0,R0,#+1
+   \       0xB4   0x4180             SBCS     R0,R0,R0
+   \       0xB6   0x0FC0             LSRS     R0,R0,#+31
+   \       0xB8   0xBD32             POP      {R1,R4,R5,PC}
+    886          
+    887              default:
+    888                return EMBER_ZCL_STATUS_UNSUP_CLUSTER_COMMAND;
+   \                     ??handle_groups_command_1: (+1)
+   \       0xBA   0x2081             MOVS     R0,#+129
+   \       0xBC   0xBD32             POP      {R1,R4,R5,PC}
+    889            }
+    890          }
+    891          
+
+   \                                 In section .text, align 4, keep-with-next
+    892          static EmberAfStatus handle_scenes_command(const EmberAfClusterCommand *cmd)
+    893          {
+   \                     handle_scenes_command: (+1)
+   \        0x0   0xE92D 0x41FF      PUSH     {R0-R8,LR}
+   \        0x4   0x4605             MOV      R5,R0
+    894            const uint8_t *payload = cmd->buffer + cmd->payloadStartIndex;
+   \        0x6   0x7D29             LDRB     R1,[R5, #+20]
+   \        0x8   0x68A8             LDR      R0,[R5, #+8]
+   \        0xA   0x460A             MOV      R2,R1
+   \        0xC   0x1884             ADDS     R4,R0,R2
+    895            uint16_t payloadLength = cmd->bufLen - cmd->payloadStartIndex;
+   \        0xE   0x89A8             LDRH     R0,[R5, #+12]
+   \       0x10   0x1A40             SUBS     R0,R0,R1
+   \       0x12   0xB280             UXTH     R0,R0
+    896            uint16_t groupId;
+    897            uint16_t transitionTime;
+    898            uint16_t nextOffset;
+    899            uint8_t sceneId;
+    900            uint8_t *sceneName = NULL;
+   \       0x14   0x2100             MOVS     R1,#+0
+   \       0x16   0x9102             STR      R1,[SP, #+8]
+    901            bool ok;
+    902          
+    903            switch (cmd->commandId) {
+   \       0x18   0x7CE9             LDRB     R1,[R5, #+19]
+   \       0x1A   0x2906             CMP      R1,#+6
+   \       0x1C   0xF200 0x807B      BHI.W    ??handle_scenes_command_1
+   \       0x20   0xE8DF 0xF001      TBB      [PC, R1]
+   \                     ??handle_scenes_command_0:
+   \       0x24   0x04 0x25          DC8      0x4,0x25,0x31,0x3D
+   \              0x31 0x3D
+   \       0x28   0x48 0x54          DC8      0x48,0x54,0x6C,0x0
+   \              0x6C 0x00
+    904              case ZCL_ADD_SCENE_COMMAND_ID:
+    905                if (payloadLength < 6U) {
+   \                     ??handle_scenes_command_2: (+1)
+   \       0x2C   0x2805             CMP      R0,#+5
+   \       0x2E   0xD967             BLS.N    ??handle_scenes_command_3
+    906                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    907                }
+    908                groupId = read_u16(payload);
+   \       0x30   0x4620             MOV      R0,R4
+   \       0x32   0x.... 0x....      BL       read_u16
+   \       0x36   0x4606             MOV      R6,R0
+    909                sceneId = payload[2];
+   \       0x38   0x78A7             LDRB     R7,[R4, #+2]
+    910                transitionTime = read_u16(payload + 3U);
+   \       0x3A   0x1CE0             ADDS     R0,R4,#+3
+   \       0x3C   0x.... 0x....      BL       read_u16
+   \       0x40   0x4680             MOV      R8,R0
+    911                if (!parse_zcl_string(cmd, 5U, &sceneName, &nextOffset)) {
+   \       0x42   0xAB01             ADD      R3,SP,#+4
+   \       0x44   0xAA02             ADD      R2,SP,#+8
+   \       0x46   0x2105             MOVS     R1,#+5
+   \       0x48   0x4628             MOV      R0,R5
+   \       0x4A   0x.... 0x....      BL       parse_zcl_string
+   \       0x4E   0x2800             CMP      R0,#+0
+   \       0x50   0xD056             BEQ.N    ??handle_scenes_command_3
+    912                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    913                }
+    914                return (emberAfScenesClusterAddSceneCallback(groupId,
+    915                                                             sceneId,
+    916                                                             transitionTime,
+    917                                                             sceneName,
+    918                                                             (uint8_t *)(payload + nextOffset))
+    919                        ? EMBER_ZCL_STATUS_SUCCESS
+    920                        : EMBER_ZCL_STATUS_FAILURE);
+   \       0x52   0xF8BD 0x0004      LDRH     R0,[SP, #+4]
+   \       0x56   0x1820             ADDS     R0,R4,R0
+   \       0x58   0x9000             STR      R0,[SP, #+0]
+   \       0x5A   0x9B02             LDR      R3,[SP, #+8]
+   \       0x5C   0x4642             MOV      R2,R8
+   \       0x5E   0x4639             MOV      R1,R7
+   \       0x60   0x4630             MOV      R0,R6
+   \       0x62   0x.... 0x....      BL       emberAfScenesClusterAddSceneCallback
+   \       0x66   0x1E40             SUBS     R0,R0,#+1
+   \       0x68   0x4180             SBCS     R0,R0,R0
+   \       0x6A   0x0FC0             LSRS     R0,R0,#+31
+   \       0x6C   0xE054             B.N      ??handle_scenes_command_4
+    921          
+    922              case ZCL_VIEW_SCENE_COMMAND_ID:
+    923                if (payloadLength < 3U) {
+   \                     ??handle_scenes_command_5: (+1)
+   \       0x6E   0x2802             CMP      R0,#+2
+   \       0x70   0xD946             BLS.N    ??handle_scenes_command_3
+    924                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    925                }
+    926                return (emberAfScenesClusterViewSceneCallback(read_u16(payload), payload[2])
+    927                        ? EMBER_ZCL_STATUS_SUCCESS
+    928                        : EMBER_ZCL_STATUS_FAILURE);
+   \       0x72   0x4620             MOV      R0,R4
+   \       0x74   0x.... 0x....      BL       read_u16
+   \       0x78   0x78A1             LDRB     R1,[R4, #+2]
+   \       0x7A   0x.... 0x....      BL       emberAfScenesClusterViewSceneCallback
+   \       0x7E   0x1E40             SUBS     R0,R0,#+1
+   \       0x80   0x4180             SBCS     R0,R0,R0
+   \       0x82   0x0FC0             LSRS     R0,R0,#+31
+   \       0x84   0xE048             B.N      ??handle_scenes_command_4
+    929          
+    930              case ZCL_REMOVE_SCENE_COMMAND_ID:
+    931                if (payloadLength < 3U) {
+   \                     ??handle_scenes_command_6: (+1)
+   \       0x86   0x2802             CMP      R0,#+2
+   \       0x88   0xD93A             BLS.N    ??handle_scenes_command_3
+    932                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    933                }
+    934                return (emberAfScenesClusterRemoveSceneCallback(read_u16(payload), payload[2])
+    935                        ? EMBER_ZCL_STATUS_SUCCESS
+    936                        : EMBER_ZCL_STATUS_FAILURE);
+   \       0x8A   0x4620             MOV      R0,R4
+   \       0x8C   0x.... 0x....      BL       read_u16
+   \       0x90   0x78A1             LDRB     R1,[R4, #+2]
+   \       0x92   0x.... 0x....      BL       emberAfScenesClusterRemoveSceneCallback
+   \       0x96   0x1E40             SUBS     R0,R0,#+1
+   \       0x98   0x4180             SBCS     R0,R0,R0
+   \       0x9A   0x0FC0             LSRS     R0,R0,#+31
+   \       0x9C   0xE03C             B.N      ??handle_scenes_command_4
+    937          
+    938              case ZCL_REMOVE_ALL_SCENES_COMMAND_ID:
+    939                if (payloadLength < 2U) {
+   \                     ??handle_scenes_command_7: (+1)
+   \       0x9E   0x2802             CMP      R0,#+2
+   \       0xA0   0xD32E             BCC.N    ??handle_scenes_command_3
+    940                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    941                }
+    942                return (emberAfScenesClusterRemoveAllScenesCallback(read_u16(payload))
+    943                        ? EMBER_ZCL_STATUS_SUCCESS
+    944                        : EMBER_ZCL_STATUS_FAILURE);
+   \       0xA2   0x4620             MOV      R0,R4
+   \       0xA4   0x.... 0x....      BL       read_u16
+   \       0xA8   0x.... 0x....      BL       emberAfScenesClusterRemoveAllScenesCallback
+   \       0xAC   0x1E40             SUBS     R0,R0,#+1
+   \       0xAE   0x4180             SBCS     R0,R0,R0
+   \       0xB0   0x0FC0             LSRS     R0,R0,#+31
+   \       0xB2   0xE031             B.N      ??handle_scenes_command_4
+    945          
+    946              case ZCL_STORE_SCENE_COMMAND_ID:
+    947                if (payloadLength < 3U) {
+   \                     ??handle_scenes_command_8: (+1)
+   \       0xB4   0x2802             CMP      R0,#+2
+   \       0xB6   0xD923             BLS.N    ??handle_scenes_command_3
+    948                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    949                }
+    950                return (emberAfScenesClusterStoreSceneCallback(read_u16(payload), payload[2])
+    951                        ? EMBER_ZCL_STATUS_SUCCESS
+    952                        : EMBER_ZCL_STATUS_FAILURE);
+   \       0xB8   0x4620             MOV      R0,R4
+   \       0xBA   0x.... 0x....      BL       read_u16
+   \       0xBE   0x78A1             LDRB     R1,[R4, #+2]
+   \       0xC0   0x.... 0x....      BL       emberAfScenesClusterStoreSceneCallback
+   \       0xC4   0x1E40             SUBS     R0,R0,#+1
+   \       0xC6   0x4180             SBCS     R0,R0,R0
+   \       0xC8   0x0FC0             LSRS     R0,R0,#+31
+   \       0xCA   0xE025             B.N      ??handle_scenes_command_4
+    953          
+    954              case ZCL_RECALL_SCENE_COMMAND_ID:
+    955                if (payloadLength < 5U) {
+   \                     ??handle_scenes_command_9: (+1)
+   \       0xCC   0x2805             CMP      R0,#+5
+   \       0xCE   0xD317             BCC.N    ??handle_scenes_command_3
+    956                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+    957                }
+    958                groupId = read_u16(payload);
+   \       0xD0   0x4620             MOV      R0,R4
+   \       0xD2   0x.... 0x....      BL       read_u16
+   \       0xD6   0x4605             MOV      R5,R0
+    959                sceneId = payload[2];
+   \       0xD8   0x78A6             LDRB     R6,[R4, #+2]
+    960                transitionTime = read_u16(payload + 3U);
+   \       0xDA   0x1CE0             ADDS     R0,R4,#+3
+   \       0xDC   0x.... 0x....      BL       read_u16
+   \       0xE0   0x4602             MOV      R2,R0
+    961                ok = emberAfScenesClusterRecallSceneCallback(groupId, sceneId, transitionTime);
+   \       0xE2   0x4631             MOV      R1,R6
+   \       0xE4   0x4628             MOV      R0,R5
+   \       0xE6   0x.... 0x....      BL       emberAfScenesClusterRecallSceneCallback
+   \       0xEA   0x0004             MOVS     R4,R0
+    962                if (ok) {
+   \       0xEC   0xD001             BEQ.N    ??handle_scenes_command_10
+    963                  em3555ApplyLightStateAndPersist();
+   \       0xEE   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+    964                }
+    965                return (ok ? EMBER_ZCL_STATUS_SUCCESS : EMBER_ZCL_STATUS_FAILURE);
+   \                     ??handle_scenes_command_10: (+1)
+   \       0xF2   0x4620             MOV      R0,R4
+   \       0xF4   0x1E40             SUBS     R0,R0,#+1
+   \       0xF6   0x4180             SBCS     R0,R0,R0
+   \       0xF8   0x0FC0             LSRS     R0,R0,#+31
+   \       0xFA   0xE00D             B.N      ??handle_scenes_command_4
+    966          
+    967              case ZCL_GET_SCENE_MEMBERSHIP_COMMAND_ID:
+    968                if (payloadLength < 2U) {
+   \                     ??handle_scenes_command_11: (+1)
+   \       0xFC   0x2802             CMP      R0,#+2
+   \       0xFE   0xD201             BCS.N    ??handle_scenes_command_12
+    969                  return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+   \                     ??handle_scenes_command_3: (+1)
+   \      0x100   0x2080             MOVS     R0,#+128
+   \      0x102   0xE009             B.N      ??handle_scenes_command_4
+    970                }
+    971                return (emberAfScenesClusterGetSceneMembershipCallback(read_u16(payload))
+    972                        ? EMBER_ZCL_STATUS_SUCCESS
+    973                        : EMBER_ZCL_STATUS_FAILURE);
+   \                     ??handle_scenes_command_12: (+1)
+   \      0x104   0x4620             MOV      R0,R4
+   \      0x106   0x.... 0x....      BL       read_u16
+   \      0x10A   0x.... 0x....      BL       emberAfScenesClusterGetSceneMembershipCallback
+   \      0x10E   0x1E40             SUBS     R0,R0,#+1
+   \      0x110   0x4180             SBCS     R0,R0,R0
+   \      0x112   0x0FC0             LSRS     R0,R0,#+31
+   \      0x114   0xE000             B.N      ??handle_scenes_command_4
+    974          
+    975              default:
+    976                return EMBER_ZCL_STATUS_UNSUP_CLUSTER_COMMAND;
+   \                     ??handle_scenes_command_1: (+1)
+   \      0x116   0x2081             MOVS     R0,#+129
+   \                     ??handle_scenes_command_4: (+1)
+   \      0x118   0xB004             ADD      SP,SP,#+16
+   \      0x11A   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    977            }
+    978          }
+    979          
+
+   \                                 In section .text, align 2, keep-with-next
+    980          EmberAfStatus emberAfClusterSpecificCommandParse(EmberAfClusterCommand *cmd)
+    981          {
+   \                     emberAfClusterSpecificCommandParse: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+    982            EmberAfStatus status;
+    983            EmberAfClusterId clusterId;
+    984          
+    985            if (cmd == NULL || cmd->apsFrame == NULL) {
+   \        0x4   0xD002             BEQ.N    ??emberAfClusterSpecificCommandParse_0
+   \        0x6   0x6820             LDR      R0,[R4, #+0]
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD101             BNE.N    ??emberAfClusterSpecificCommandParse_1
+    986              return EMBER_ZCL_STATUS_MALFORMED_COMMAND;
+   \                     ??emberAfClusterSpecificCommandParse_0: (+1)
+   \        0xC   0x2080             MOVS     R0,#+128
+   \        0xE   0xBD32             POP      {R1,R4,R5,PC}
+    987            }
+    988          
+    989            if (cmd->apsFrame->destinationEndpoint != EM3555_LIGHT_ENDPOINT
+    990                && cmd->apsFrame->destinationEndpoint != 0xFFU) {
+   \                     ??emberAfClusterSpecificCommandParse_1: (+1)
+   \       0x10   0x7941             LDRB     R1,[R0, #+5]
+   \       0x12   0x2903             CMP      R1,#+3
+   \       0x14   0xD003             BEQ.N    ??emberAfClusterSpecificCommandParse_2
+   \       0x16   0x29FF             CMP      R1,#+255
+   \       0x18   0xD001             BEQ.N    ??emberAfClusterSpecificCommandParse_2
+    991              return EMBER_ZCL_STATUS_UNSUP_CLUSTER_COMMAND;
+   \       0x1A   0x2081             MOVS     R0,#+129
+   \       0x1C   0xBD32             POP      {R1,R4,R5,PC}
+    992            }
+    993          
+    994            clusterId = cmd->apsFrame->clusterId;
+    995          
+    996            switch (clusterId) {
+   \                     ??emberAfClusterSpecificCommandParse_2: (+1)
+   \       0x1E   0x8840             LDRH     R0,[R0, #+2]
+   \       0x20   0x2803             CMP      R0,#+3
+   \       0x22   0xD00B             BEQ.N    ??emberAfClusterSpecificCommandParse_3
+   \       0x24   0x2804             CMP      R0,#+4
+   \       0x26   0xD030             BEQ.N    ??emberAfClusterSpecificCommandParse_4
+   \       0x28   0x2805             CMP      R0,#+5
+   \       0x2A   0xD032             BEQ.N    ??emberAfClusterSpecificCommandParse_5
+   \       0x2C   0x2806             CMP      R0,#+6
+   \       0x2E   0xD016             BEQ.N    ??emberAfClusterSpecificCommandParse_6
+   \       0x30   0x2808             CMP      R0,#+8
+   \       0x32   0xD020             BEQ.N    ??emberAfClusterSpecificCommandParse_7
+   \       0x34   0xF5B0 0x7F40      CMP      R0,#+768
+   \       0x38   0xD022             BEQ.N    ??emberAfClusterSpecificCommandParse_8
+   \       0x3A   0xE037             B.N      ??emberAfClusterSpecificCommandParse_9
+    997              case ZCL_IDENTIFY_CLUSTER_ID:
+    998                if (cmd->commandId == ZCL_IDENTIFY_COMMAND_ID) {
+   \                     ??emberAfClusterSpecificCommandParse_3: (+1)
+   \       0x3C   0x7CE0             LDRB     R0,[R4, #+19]
+   \       0x3E   0x2800             CMP      R0,#+0
+   \       0x40   0xD104             BNE.N    ??emberAfClusterSpecificCommandParse_10
+    999                  return handle_identify_command(cmd);
+   \       0x42   0x4620             MOV      R0,R4
+   \       0x44   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x48   0x.... 0x....      B.W      handle_identify_command
+   1000                }
+   1001                if (cmd->commandId == ZCL_TRIGGER_EFFECT_COMMAND_ID) {
+   \                     ??emberAfClusterSpecificCommandParse_10: (+1)
+   \       0x4C   0x2840             CMP      R0,#+64
+   \       0x4E   0xD104             BNE.N    ??emberAfClusterSpecificCommandParse_11
+   1002                  return handle_identify_trigger_effect(cmd);
+   \       0x50   0x4620             MOV      R0,R4
+   \       0x52   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x56   0x.... 0x....      B.W      handle_identify_trigger_effect
+   1003                }
+   1004                return EMBER_ZCL_STATUS_UNSUP_CLUSTER_COMMAND;
+   \                     ??emberAfClusterSpecificCommandParse_11: (+1)
+   \       0x5A   0x2081             MOVS     R0,#+129
+   \       0x5C   0xBD32             POP      {R1,R4,R5,PC}
+   1005          
+   1006              case ZCL_ON_OFF_CLUSTER_ID:
+   1007                status = handle_on_off_command(cmd);
+   \                     ??emberAfClusterSpecificCommandParse_6: (+1)
+   \       0x5E   0x4620             MOV      R0,R4
+   \       0x60   0x.... 0x....      BL       handle_on_off_command
+   \       0x64   0x4605             MOV      R5,R0
+   1008                break;
+   1009          
+   1010              case ZCL_LEVEL_CONTROL_CLUSTER_ID:
+   1011                status = handle_level_command(cmd);
+   1012                break;
+   1013          
+   1014              case ZCL_COLOR_CONTROL_CLUSTER_ID:
+   1015                status = handle_color_command(cmd);
+   1016                break;
+   1017          
+   1018              case ZCL_GROUPS_CLUSTER_ID:
+   1019                return handle_groups_command(cmd);
+   1020          
+   1021              case ZCL_SCENES_CLUSTER_ID:
+   1022                status = handle_scenes_command(cmd);
+   1023                if (status == EMBER_ZCL_STATUS_SUCCESS
+   1024                    && cmd->commandId == ZCL_RECALL_SCENE_COMMAND_ID) {
+   1025                  (void)emberAfSendDefaultResponse(cmd, status);
+   1026                }
+   1027                return status;
+   1028          
+   1029              default:
+   1030                return EMBER_ZCL_STATUS_UNSUP_CLUSTER_COMMAND;
+   1031            }
+   1032          
+   1033            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+   \                     ??emberAfClusterSpecificCommandParse_12: (+1)
+   \       0x66   0x0028             MOVS     R0,R5
+   \       0x68   0xD103             BNE.N    ??emberAfClusterSpecificCommandParse_13
+   1034              (void)emberAfSendDefaultResponse(cmd, status);
+   \       0x6A   0x2100             MOVS     R1,#+0
+   \       0x6C   0x4620             MOV      R0,R4
+   \       0x6E   0x.... 0x....      BL       emberAfSendDefaultResponse
+   1035            }
+   1036          
+   1037            return status;
+   \                     ??emberAfClusterSpecificCommandParse_13: (+1)
+   \       0x72   0x4628             MOV      R0,R5
+   \       0x74   0xBD32             POP      {R1,R4,R5,PC}
+   \                     ??emberAfClusterSpecificCommandParse_7: (+1)
+   \       0x76   0x4620             MOV      R0,R4
+   \       0x78   0x.... 0x....      BL       handle_level_command
+   \       0x7C   0x4605             MOV      R5,R0
+   \       0x7E   0xE7F2             B.N      ??emberAfClusterSpecificCommandParse_12
+   \                     ??emberAfClusterSpecificCommandParse_8: (+1)
+   \       0x80   0x4620             MOV      R0,R4
+   \       0x82   0x.... 0x....      BL       handle_color_command
+   \       0x86   0x4605             MOV      R5,R0
+   \       0x88   0xE7ED             B.N      ??emberAfClusterSpecificCommandParse_12
+   \                     ??emberAfClusterSpecificCommandParse_4: (+1)
+   \       0x8A   0x4620             MOV      R0,R4
+   \       0x8C   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x90   0x....             B.N      handle_groups_command
+   \                     ??emberAfClusterSpecificCommandParse_5: (+1)
+   \       0x92   0x4620             MOV      R0,R4
+   \       0x94   0x.... 0x....      BL       handle_scenes_command
+   \       0x98   0x0005             MOVS     R5,R0
+   \       0x9A   0xD1EA             BNE.N    ??emberAfClusterSpecificCommandParse_13
+   \       0x9C   0x7CE0             LDRB     R0,[R4, #+19]
+   \       0x9E   0x2805             CMP      R0,#+5
+   \       0xA0   0xD1E7             BNE.N    ??emberAfClusterSpecificCommandParse_13
+   \       0xA2   0x2100             MOVS     R1,#+0
+   \       0xA4   0x4620             MOV      R0,R4
+   \       0xA6   0x.... 0x....      BL       emberAfSendDefaultResponse
+   \       0xAA   0xE7E2             B.N      ??emberAfClusterSpecificCommandParse_13
+   \                     ??emberAfClusterSpecificCommandParse_9: (+1)
+   \       0xAC   0x2081             MOVS     R0,#+129
+   \       0xAE   0xBD32             POP      {R1,R4,R5,PC}
+   1038          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   add_s16_clamped_u16
+         0   -> clamp_u16_range
+       8   apply_ct
+         8   -> em3555ApplyLightStateAndPersist
+         8   -> em3555LightStateSetColorTemperature
+       8   apply_hs
+         8   -> em3555ApplyLightStateAndPersist
+         8   -> em3555LightStateSetHueSat
+       8   apply_level
+         8   -> em3555ApplyLightStateAndPersist
+         8   -> em3555LightStateSetLevel
+       8   apply_off_command
+         0   -> apply_on_off_level
+         8   -> em3555LightStateCurrent
+       8   apply_on_command
+         0   -> apply_on_off_level
+         8   -> em3555LightStateCurrent
+       8   apply_on_off_level
+         8   -> em3555ApplyLightStateAndPersist
+         8   -> em3555LightStateSetOnOffLevel
+       8   apply_toggle_command
+         0   -> apply_off_command
+         0   -> apply_on_command
+         8   -> em3555LightStateCurrent
+       8   apply_xy
+         8   -> em3555ApplyLightStateAndPersist
+         8   -> em3555LightStateSetXy
+       0   clamp_color_component_u8
+       0   clamp_level_u8
+       4   clamp_u16_range
+      16   emberAfClusterSpecificCommandParse
+        16   -> emberAfSendDefaultResponse
+        16   -> handle_color_command
+         0   -> handle_groups_command
+         0   -> handle_identify_command
+         0   -> handle_identify_trigger_effect
+        16   -> handle_level_command
+        16   -> handle_on_off_command
+        16   -> handle_scenes_command
+       0   enhanced_hue_to_zcl_hue
+      32   handle_color_command
+        32   -> add_s16_clamped_u16
+        32   -> apply_ct
+        32   -> apply_hs
+        32   -> apply_xy
+        32   -> clamp_color_component_u8
+        32   -> em3555ApplyLightStateAndPersist
+        32   -> em3555LightStateCurrent
+        32   -> em3555LightStateStartColorLoop
+        32   -> em3555LightStateStartColorTemperatureMove
+        32   -> em3555LightStateStartHueMove
+        32   -> em3555LightStateStartSaturationMove
+        32   -> em3555LightStateStartXyMove
+        32   -> em3555LightStateStop
+        32   -> enhanced_hue_to_zcl_hue
+        32   -> parse_optional_options
+        32   -> read_s16
+        32   -> read_u16
+        32   -> wrap_hue_u8
+      16   handle_groups_command
+        16   -> emberAfGroupsClusterAddGroupCallback
+        16   -> emberAfGroupsClusterAddGroupIfIdentifyingCallback
+        16   -> emberAfGroupsClusterGetGroupMembershipCallback
+        16   -> emberAfGroupsClusterRemoveAllGroupsCallback
+        16   -> emberAfGroupsClusterRemoveGroupCallback
+        16   -> emberAfGroupsClusterViewGroupCallback
+        16   -> parse_zcl_string
+        16   -> read_u16
+       8   handle_identify_command
+         8   -> emberAfPluginIdentifyStartFeedbackCallback
+         8   -> emberAfSendImmediateDefaultResponse
+         8   -> read_u16
+       8   handle_identify_trigger_effect
+         8   -> em3555ApplyLightStateAndPersist
+         8   -> em3555LightStateStartTriggerEffect
+         8   -> em3555LightStateStopEffect
+         8   -> emberAfSendImmediateDefaultResponse
+      32   handle_level_command
+        32   -> apply_level
+        32   -> apply_on_off_level
+        32   -> clamp_level_u8
+        32   -> em3555ApplyLightStateAndPersist
+        32   -> em3555LightStateCurrent
+        32   -> em3555LightStateStartLevelMove
+        32   -> em3555LightStateStop
+        32   -> parse_optional_options
+        32   -> read_u16
+       0   handle_on_off_command
+         0   -> apply_off_command
+         0   -> apply_on_command
+         0   -> apply_toggle_command
+      40   handle_scenes_command
+        40   -> em3555ApplyLightStateAndPersist
+        40   -> emberAfScenesClusterAddSceneCallback
+        40   -> emberAfScenesClusterGetSceneMembershipCallback
+        40   -> emberAfScenesClusterRecallSceneCallback
+        40   -> emberAfScenesClusterRemoveAllScenesCallback
+        40   -> emberAfScenesClusterRemoveSceneCallback
+        40   -> emberAfScenesClusterStoreSceneCallback
+        40   -> emberAfScenesClusterViewSceneCallback
+        40   -> parse_zcl_string
+        40   -> read_u16
+      12   parse_optional_options
+      24   parse_zcl_string
+        24   -> emberAfStringLength
+       8   read_s16
+         8   -> read_u16
+       0   read_u16
+       0   wrap_hue_u8
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      24  add_s16_clamped_u16
+      14  apply_ct
+      14  apply_hs
+      14  apply_level
+      18  apply_off_command
+      24  apply_on_command
+      14  apply_on_off_level
+      24  apply_toggle_command
+      14  apply_xy
+      20  clamp_color_component_u8
+      20  clamp_level_u8
+      42  clamp_u16_range
+     176  emberAfClusterSpecificCommandParse
+      24  enhanced_hue_to_zcl_hue
+   1'318  handle_color_command
+     190  handle_groups_command
+      42  handle_identify_command
+      68  handle_identify_trigger_effect
+     420  handle_level_command
+      24  handle_on_off_command
+     286  handle_scenes_command
+      70  parse_optional_options
+      78  parse_zcl_string
+      10  read_s16
+      12  read_u16
+      20  wrap_hue_u8
+
+ 
+ 2'980 bytes in section .text
+ 
+ 2'980 bytes of CODE memory
+
+Errors: none
+Warnings: none

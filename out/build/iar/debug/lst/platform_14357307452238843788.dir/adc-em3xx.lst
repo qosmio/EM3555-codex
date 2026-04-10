@@ -1,0 +1,992 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         04/Apr/2026  22:55:37
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\adc\adc-em3xx.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\adc-em3xx.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\adc\adc-em3xx.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"adc-em3xx.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\adc\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\adc-em3xx.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\adc-em3xx.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\adc-em3xx.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\adc-em3xx.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\adc\adc-em3xx.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief EM3XX-specific ADC HAL functions
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "stack/include/error.h"
+     19          #include "hal/micro/micro-common.h"
+     20          #include "hal/micro/cortexm3/micro-common.h"
+
+   \                                 In section .text, align 2, keep-with-next
+   \   static __softfp void __NVIC_EnableIRQ(IRQn_Type)
+   \                     __NVIC_EnableIRQ: (+1)
+   \        0x0   0x0001             MOVS     R1,R0
+   \        0x2   0xD408             BMI.N    ??__NVIC_EnableIRQ_0
+   \        0x4   0x2201             MOVS     R2,#+1
+   \        0x6   0xF000 0x011F      AND      R1,R0,#0x1F
+   \        0xA   0x408A             LSLS     R2,R2,R1
+   \        0xC   0x.... 0x....      LDR.W    R1,??DataTable9
+   \       0x10   0x0940             LSRS     R0,R0,#+5
+   \       0x12   0xF841 0x2020      STR      R2,[R1, R0, LSL #+2]
+   \                     ??__NVIC_EnableIRQ_0: (+1)
+   \       0x16   0x4770             BX       LR
+     21          #include "plugin/adc/adc.h"
+     22          
+     23          #if (NUM_ADC_USERS > 8U)
+     24            #error NUM_ADC_USERS must not be greater than 8, or uint8_t variables in adc-em3xx.c must be changed
+     25          #endif
+     26          
+
+   \                                 In section .bss, align 2
+     27          static uint16_t adcData;             // conversion result written by DMA
+   \                     adcData:
+   \        0x0                      DS8 2
+
+   \                                 In section .bss, align 1
+     28          static uint8_t adcPendingRequests;   // bitmap of pending requests
+   \                     adcPendingRequests:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     29          static volatile uint8_t adcPendingConversion; // id of pending conversion
+   \                     adcPendingConversion:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     30          static uint8_t adcReadingValid;      // bitmap of valid adcReadings
+   \                     adcReadingValid:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 4
+     31          static uint16_t adcReadings[NUM_ADC_USERS];
+   \                     adcReadings:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     32          static uint16_t adcConfig[NUM_ADC_USERS];
+   \                     adcConfig:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 1
+     33          static bool adcCalibrated;
+   \                     adcCalibrated:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 2
+     34          static int16_t Nvss;
+   \                     Nvss:
+   \        0x0                      DS8 2
+
+   \                                 In section .bss, align 2
+     35          static int16_t Nvdd;
+   \                     Nvdd:
+   \        0x0                      DS8 2
+
+   \                                 In section .bss, align 2
+     36          static uint16_t adcStaticConfig;
+   \                     adcStaticConfig:
+   \        0x0                      DS8 2
+     37          
+
+   \                                 In section .text, align 2, keep-with-next
+     38          void halAdcSetClock(bool slow)
+     39          {
+     40            if (slow) {
+   \                     halAdcSetClock: (+1)
+   \        0x0   0x....             LDR.N    R1,??DataTable9_1
+   \        0x2   0x880A             LDRH     R2,[R1, #+0]
+   \        0x4   0x2800             CMP      R0,#+0
+   \        0x6   0xD003             BEQ.N    ??halAdcSetClock_0
+     41              adcStaticConfig |= (uint16_t)_ADC_CFG_1MHZCLK_MASK;
+   \        0x8   0xF042 0x0204      ORR      R2,R2,#0x4
+   \        0xC   0x800A             STRH     R2,[R1, #+0]
+   \        0xE   0x4770             BX       LR
+     42            } else {
+     43              adcStaticConfig &= (uint16_t)(~_ADC_CFG_1MHZCLK_MASK);
+   \                     ??halAdcSetClock_0: (+1)
+   \       0x10   0xF64F 0x70FB      MOVW     R0,#+65531
+   \       0x14   0x4002             ANDS     R2,R0,R2
+   \       0x16   0x800A             STRH     R2,[R1, #+0]
+     44            }
+     45          }
+   \       0x18   0x4770             BX       LR
+     46          
+
+   \                                 In section .text, align 2, keep-with-next
+     47          bool halAdcGetClock(void)
+     48          {
+     49            return ((adcStaticConfig & _ADC_CFG_1MHZCLK_MASK) != 0U);
+   \                     halAdcGetClock: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable9_1
+   \        0x2   0x8800             LDRH     R0,[R0, #+0]
+   \        0x4   0xB2C0             UXTB     R0,R0
+   \        0x6   0x0880             LSRS     R0,R0,#+2
+   \        0x8   0xF000 0x0001      AND      R0,R0,#0x1
+   \        0xC   0x4770             BX       LR
+     50          }
+     51          
+     52          // Define a channel field that combines _ADC_CFG_MUXP_MASK and _ADC_CFG_MUXN_MASK
+     53          #define ADC_CHAN_MASK   (_ADC_CFG_MUXP_MASK | _ADC_CFG_MUXN_MASK)
+     54          #define ADC_CHAN_BIT    _ADC_CFG_MUXN_SHIFT
+     55          
+
+   \                                 In section .text, align 4, keep-with-next
+     56          void halAdcIsr(void)
+     57          {
+   \                     halAdcIsr: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+     58            uint8_t i;
+     59            uint8_t conversion = adcPendingConversion; //fix 'volatile' warning; costs no flash
+   \        0x2   0x....             LDR.N    R4,??DataTable9_2
+   \        0x4   0x7820             LDRB     R0,[R4, #+0]
+     60          
+     61            // make sure data is ready and the desired conversion is valid
+     62            if (((EVENT_ADC->FLAG & EVENT_ADC_FLAG_ULDFULL) != 0U)
+     63                && (conversion < NUM_ADC_USERS)) {
+   \        0x6   0x....             LDR.N    R5,??DataTable9_3
+   \        0x8   0x6829             LDR      R1,[R5, #+0]
+   \        0xA   0x0749             LSLS     R1,R1,#+29
+   \        0xC   0xD524             BPL.N    ??halAdcIsr_0
+   \        0xE   0x2803             CMP      R0,#+3
+   \       0x10   0xD222             BCS.N    ??halAdcIsr_0
+     64              adcReadings[conversion] = adcData;
+   \       0x12   0x....             LDR.N    R1,??DataTable9_4
+   \       0x14   0x8809             LDRH     R1,[R1, #+0]
+   \       0x16   0x....             LDR.N    R2,??DataTable9_5
+   \       0x18   0xF822 0x1010      STRH     R1,[R2, R0, LSL #+1]
+     65              adcReadingValid |= BIT(conversion); // mark the reading as valid
+   \       0x1C   0x2101             MOVS     R1,#+1
+   \       0x1E   0x....             LDR.N    R2,??DataTable9_6
+   \       0x20   0x7813             LDRB     R3,[R2, #+0]
+   \       0x22   0xFA01 0xF000      LSL      R0,R1,R0
+   \       0x26   0x4318             ORRS     R0,R0,R3
+   \       0x28   0x7010             STRB     R0,[R2, #+0]
+     66              // setup the next conversion if any
+     67              if ((adcPendingRequests) != 0U) {
+   \       0x2A   0x....             LDR.N    R2,??DataTable9_7
+   \       0x2C   0x7810             LDRB     R0,[R2, #+0]
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD018             BEQ.N    ??halAdcIsr_1
+     68                for (i = 0; i < NUM_ADC_USERS; i++) {
+   \       0x32   0x2300             MOVS     R3,#+0
+   \       0x34   0xE001             B.N      ??halAdcIsr_2
+   \                     ??halAdcIsr_3: (+1)
+   \       0x36   0x1C5B             ADDS     R3,R3,#+1
+   \       0x38   0xB2DB             UXTB     R3,R3
+   \                     ??halAdcIsr_2: (+1)
+   \       0x3A   0x2B03             CMP      R3,#+3
+   \       0x3C   0xD20C             BCS.N    ??halAdcIsr_0
+     69                  if ((BIT(i) & adcPendingRequests) != 0U) {
+   \       0x3E   0x4606             MOV      R6,R0
+   \       0x40   0x40DE             LSRS     R6,R6,R3
+   \       0x42   0x07F6             LSLS     R6,R6,#+31
+   \       0x44   0xD5F7             BPL.N    ??halAdcIsr_3
+     70                    adcPendingConversion = i;     // set pending conversion
+   \       0x46   0x7023             STRB     R3,[R4, #+0]
+     71                    adcPendingRequests ^= BIT(i); //clear request: conversion is starting
+   \       0x48   0x4099             LSLS     R1,R1,R3
+   \       0x4A   0x4041             EORS     R1,R1,R0
+   \       0x4C   0x7011             STRB     R1,[R2, #+0]
+     72                    ADC->CFG = adcConfig[i];
+   \       0x4E   0x....             LDR.N    R0,??DataTable9_8
+   \       0x50   0xF830 0x0013      LDRH     R0,[R0, R3, LSL #+1]
+   \       0x54   0x....             LDR.N    R1,??DataTable9_9
+   \       0x56   0x6008             STR      R0,[R1, #+0]
+     73                    break; //conversion started, so we're done here (only one at a time)
+     74                  }
+     75                }
+     76              } else {                                // no conversion to do
+     77                ADC->CFG = 0;                          // disable adc
+     78                halCommonDisableVreg1v8();
+     79                adcPendingConversion = NUM_ADC_USERS; //nothing pending, so go "idle"
+     80              }
+     81            }
+     82            EVENT_ADC->FLAG = 0xFFFF;
+   \                     ??halAdcIsr_0: (+1)
+   \       0x58   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x5C   0x6028             STR      R0,[R5, #+0]
+     83            asm ("DMB");
+   \       0x5E   0xF3BF 0x8F5F      DMB
+     84          }
+   \       0x62   0xBD70             POP      {R4-R6,PC}
+   \                     ??halAdcIsr_1: (+1)
+   \       0x64   0x2000             MOVS     R0,#+0
+   \       0x66   0x....             LDR.N    R1,??DataTable9_9
+   \       0x68   0x6008             STR      R0,[R1, #+0]
+   \       0x6A   0x.... 0x....      BL       halCommonDisableVreg1v8
+   \       0x6E   0x2003             MOVS     R0,#+3
+   \       0x70   0x7020             STRB     R0,[R4, #+0]
+   \       0x72   0xE7F1             B.N      ??halAdcIsr_0
+     85          
+     86          // An internal support routine called from functions below.
+     87          // Returns the user number of the started conversion, or NUM_ADC_USERS
+     88          // otherwise.
+
+   \                                 In section .text, align 2, keep-with-next
+     89          ADCUser startNextConversion(void)
+     90          {
+   \                     startNextConversion: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+     91            uint8_t i;
+     92          
+     93            {
+     94              DECLARE_INTERRUPT_STATE;
+     95              DISABLE_INTERRUPTS();
+   \        0x2   0x.... 0x....      BL       _disableBasePri
+   \        0x6   0x4604             MOV      R4,R0
+     96              halCommonEnableVreg1v8();
+   \        0x8   0x.... 0x....      BL       halCommonEnableVreg1v8
+     97              // start the next requested conversion if any
+     98              if ((adcPendingRequests != 0U) && ((ADC->CFG & ADC_CFG_ENABLE) == 0U)) {
+   \        0xC   0x....             LDR.N    R1,??DataTable9_7
+   \        0xE   0x7808             LDRB     R0,[R1, #+0]
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD027             BEQ.N    ??startNextConversion_0
+   \       0x14   0x....             LDR.N    R2,??DataTable9_9
+   \       0x16   0x6813             LDR      R3,[R2, #+0]
+   \       0x18   0x07DB             LSLS     R3,R3,#+31
+   \       0x1A   0xD423             BMI.N    ??startNextConversion_0
+     99                for (i = 0; i < NUM_ADC_USERS; i++) {
+   \       0x1C   0x2500             MOVS     R5,#+0
+   \       0x1E   0xE000             B.N      ??startNextConversion_1
+   \                     ??startNextConversion_2: (+1)
+   \       0x20   0x1C6D             ADDS     R5,R5,#+1
+   \                     ??startNextConversion_1: (+1)
+   \       0x22   0x462B             MOV      R3,R5
+   \       0x24   0xB2DB             UXTB     R3,R3
+   \       0x26   0x2B03             CMP      R3,#+3
+   \       0x28   0xD216             BCS.N    ??startNextConversion_3
+    100                  if ((BIT(i) & adcPendingRequests) != 0U) {
+   \       0x2A   0x4603             MOV      R3,R0
+   \       0x2C   0x40EB             LSRS     R3,R3,R5
+   \       0x2E   0x07DB             LSLS     R3,R3,#+31
+   \       0x30   0xD5F6             BPL.N    ??startNextConversion_2
+    101                    adcPendingConversion = i;     // set pending conversion
+   \       0x32   0x....             LDR.N    R3,??DataTable9_2
+   \       0x34   0x701D             STRB     R5,[R3, #+0]
+    102                    adcPendingRequests ^= BIT(i); // clear request
+   \       0x36   0x2301             MOVS     R3,#+1
+   \       0x38   0x40AB             LSLS     R3,R3,R5
+   \       0x3A   0x4058             EORS     R0,R3,R0
+   \       0x3C   0x7008             STRB     R0,[R1, #+0]
+    103                    ADC->CFG = adcConfig[i];       // set the configuration to desired
+   \       0x3E   0x....             LDR.N    R0,??DataTable9_8
+   \       0x40   0x4629             MOV      R1,R5
+   \       0x42   0xB2C9             UXTB     R1,R1
+   \       0x44   0xF830 0x0011      LDRH     R0,[R0, R1, LSL #+1]
+   \       0x48   0x6010             STR      R0,[R2, #+0]
+    104                    EVENT_ADC->FLAG = 0xFFFF;
+   \       0x4A   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x4E   0x....             LDR.N    R1,??DataTable9_3
+   \       0x50   0x6008             STR      R0,[R1, #+0]
+    105                    NVIC_EnableIRQ(ADC_IRQn);
+   \       0x52   0x200B             MOVS     R0,#+11
+   \       0x54   0x.... 0x....      BL       __NVIC_EnableIRQ
+    106                    break;
+    107                  }
+    108                }
+    109              } else {
+    110                i = NUM_ADC_USERS;
+    111              }
+    112              RESTORE_INTERRUPTS();
+   \                     ??startNextConversion_3: (+1)
+   \       0x58   0x4620             MOV      R0,R4
+   \       0x5A   0x.... 0x....      BL       _writeBasePri
+    113            }
+    114            return i;
+   \       0x5E   0x4628             MOV      R0,R5
+   \       0x60   0xB2C0             UXTB     R0,R0
+   \       0x62   0xBD32             POP      {R1,R4,R5,PC}
+   \                     ??startNextConversion_0: (+1)
+   \       0x64   0x2503             MOVS     R5,#+3
+   \       0x66   0xE7F7             B.N      ??startNextConversion_3
+    115          }
+    116          
+
+   \                                 In section .text, align 2, keep-with-next
+    117          void halInternalInitAdc(void)
+    118          {
+   \                     halInternalInitAdc: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    119            // reset the state variables
+    120            adcPendingRequests = 0;
+   \        0x2   0x2000             MOVS     R0,#+0
+   \        0x4   0x....             LDR.N    R1,??DataTable9_7
+   \        0x6   0x7008             STRB     R0,[R1, #+0]
+    121            adcPendingConversion = NUM_ADC_USERS;
+   \        0x8   0x2003             MOVS     R0,#+3
+   \        0xA   0x....             LDR.N    R1,??DataTable9_2
+   \        0xC   0x7008             STRB     R0,[R1, #+0]
+    122            adcCalibrated = false;
+   \        0xE   0x2000             MOVS     R0,#+0
+   \       0x10   0x....             LDR.N    R1,??DataTable9_10
+   \       0x12   0x7008             STRB     R0,[R1, #+0]
+    123            adcStaticConfig = (uint16_t)(_ADC_CFG_1MHZCLK_MASK | _ADC_CFG_ENABLE_MASK); // init config: 1MHz, low voltage
+   \       0x14   0x2005             MOVS     R0,#+5
+   \       0x16   0x....             LDR.N    R1,??DataTable9_1
+   \       0x18   0x8008             STRH     R0,[R1, #+0]
+    124          
+    125            // set all adcReadings as invalid
+    126            adcReadingValid = 0;
+   \       0x1A   0x2000             MOVS     R0,#+0
+   \       0x1C   0x....             LDR.N    R1,??DataTable9_6
+   \       0x1E   0x7008             STRB     R0,[R1, #+0]
+    127          
+    128            // turn off the ADC
+    129            ADC->CFG = 0;                   // disable ADC, turn off HV buffers
+   \       0x20   0x....             LDR.N    R0,??DataTable9_9
+   \       0x22   0x2100             MOVS     R1,#+0
+   \       0x24   0x6001             STR      R1,[R0, #+0]
+    130            ADC->OFFSET = _ADC_OFFSET_RESETVALUE;
+   \       0x26   0x6041             STR      R1,[R0, #+4]
+    131            ADC->GAIN = _ADC_GAIN_RESETVALUE;
+   \       0x28   0xF44F 0x4100      MOV      R1,#+32768
+   \       0x2C   0x6081             STR      R1,[R0, #+8]
+    132            ADC->DMACFG = ADC_DMACFG_DMARST;
+   \       0x2E   0x2110             MOVS     R1,#+16
+   \       0x30   0x60C1             STR      R1,[R0, #+12]
+    133            ADC->DMABEG = (uint32_t)&adcData;
+   \       0x32   0x....             LDR.N    R1,??DataTable9_4
+   \       0x34   0x6141             STR      R1,[R0, #+20]
+    134            ADC->DMASIZE = 1;
+   \       0x36   0x2101             MOVS     R1,#+1
+   \       0x38   0x6181             STR      R1,[R0, #+24]
+    135            ADC->DMACFG = (ADC_DMACFG_DMAAUTOWRAP | ADC_DMACFG_DMALOAD);
+   \       0x3A   0x2103             MOVS     R1,#+3
+   \       0x3C   0x60C1             STR      R1,[R0, #+12]
+    136          
+    137            // clear the ADC interrupts and enable
+    138            EVENT_ADC->CFG = EVENT_ADC_CFG_ULDFULL;
+   \       0x3E   0x....             LDR.N    R0,??DataTable9_3
+   \       0x40   0x2104             MOVS     R1,#+4
+   \       0x42   0x6401             STR      R1,[R0, #+64]
+    139            EVENT_ADC->FLAG = 0xFFFF;
+   \       0x44   0xF64F 0x71FF      MOVW     R1,#+65535
+   \       0x48   0x6001             STR      R1,[R0, #+0]
+    140            NVIC_EnableIRQ(ADC_IRQn);
+   \       0x4A   0x200B             MOVS     R0,#+11
+   \       0x4C   0x.... 0x....      BL       __NVIC_EnableIRQ
+    141          
+    142            emberCalibrateVref();
+   \       0x50   0xE8BD 0x4001      POP      {R0,LR}
+   \       0x54   0x.... 0x....      B.W      emberCalibrateVref
+    143          }
+    144          
+
+   \                                 In section .text, align 2, keep-with-next
+    145          EmberStatus halStartAdcConversion(ADCUser id,
+    146                                            ADCReferenceType reference,
+    147                                            ADCChannelType channel,
+    148                                            ADCRateType rate)
+    149          {
+   \                     halStartAdcConversion: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    150            if (reference != (ADCReferenceType) ADC_REF_INT) {
+   \        0x4   0x292A             CMP      R1,#+42
+   \        0x6   0xD001             BEQ.N    ??halStartAdcConversion_0
+    151              return (EmberStatus) EMBER_ERR_FATAL;
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0xBD70             POP      {R4-R6,PC}
+    152            }
+    153          
+    154            // save the chosen configuration for this user
+    155            adcConfig[id] = (uint16_t)(((rate << (uint8_t)_ADC_CFG_PERIOD_SHIFT) & _ADC_CFG_PERIOD_MASK)
+    156                                       | ((channel << (uint8_t)ADC_CHAN_BIT) & ADC_CHAN_MASK)
+    157                                       | adcStaticConfig);
+   \                     ??halStartAdcConversion_0: (+1)
+   \        0xC   0x00D2             LSLS     R2,R2,#+3
+   \        0xE   0xEA42 0x3243      ORR      R2,R2,R3, LSL #+13
+   \       0x12   0x....             LDR.N    R0,??DataTable9_1
+   \       0x14   0x8800             LDRH     R0,[R0, #+0]
+   \       0x16   0x4302             ORRS     R2,R0,R2
+   \       0x18   0x....             LDR.N    R0,??DataTable9_8
+   \       0x1A   0x4621             MOV      R1,R4
+   \       0x1C   0xF820 0x2011      STRH     R2,[R0, R1, LSL #+1]
+    158          
+    159            // if the user already has a pending request, overwrite params
+    160            if ((adcPendingRequests & BIT(id)) != 0U) {
+   \       0x20   0x2501             MOVS     R5,#+1
+   \       0x22   0x40A5             LSLS     R5,R5,R4
+   \       0x24   0x....             LDR.N    R6,??DataTable9_7
+   \       0x26   0x7830             LDRB     R0,[R6, #+0]
+   \       0x28   0x4228             TST      R0,R5
+   \       0x2A   0xD001             BEQ.N    ??halStartAdcConversion_1
+    161              return (EmberStatus) EMBER_ADC_CONVERSION_DEFERRED;
+   \       0x2C   0x2082             MOVS     R0,#+130
+   \       0x2E   0xBD70             POP      {R4-R6,PC}
+    162            }
+    163          
+    164            {
+    165              DECLARE_INTERRUPT_STATE;
+    166              DISABLE_INTERRUPTS();
+   \                     ??halStartAdcConversion_1: (+1)
+   \       0x30   0x.... 0x....      BL       _disableBasePri
+    167              // otherwise, queue the transaction
+    168              adcPendingRequests |= BIT(id);
+   \       0x34   0x7831             LDRB     R1,[R6, #+0]
+   \       0x36   0x4329             ORRS     R1,R5,R1
+   \       0x38   0x7031             STRB     R1,[R6, #+0]
+    169              // try and start the conversion if there is not one happening
+    170              adcReadingValid &= ~BIT(id);
+   \       0x3A   0x....             LDR.N    R1,??DataTable9_6
+   \       0x3C   0x780A             LDRB     R2,[R1, #+0]
+   \       0x3E   0xEA22 0x0505      BIC      R5,R2,R5
+   \       0x42   0x700D             STRB     R5,[R1, #+0]
+    171              RESTORE_INTERRUPTS();
+   \       0x44   0x.... 0x....      BL       _writeBasePri
+    172            }
+    173            if (startNextConversion() == id) {
+   \       0x48   0x.... 0x....      BL       startNextConversion
+   \       0x4C   0x42A0             CMP      R0,R4
+   \       0x4E   0xD101             BNE.N    ??halStartAdcConversion_2
+    174              return (EmberStatus) EMBER_ADC_CONVERSION_BUSY;
+   \       0x50   0x2081             MOVS     R0,#+129
+   \       0x52   0xBD70             POP      {R4-R6,PC}
+    175            } else {
+    176              return (EmberStatus) EMBER_ADC_CONVERSION_DEFERRED;
+   \                     ??halStartAdcConversion_2: (+1)
+   \       0x54   0x2082             MOVS     R0,#+130
+   \       0x56   0xBD70             POP      {R4-R6,PC}
+    177            }
+    178          }
+    179          
+    180          #define NVIC_ENABLED_IRQ(IRQn) ((NVIC->ISER[(uint32_t)(IRQn) >> 5] & (1 << ((uint32_t)(IRQn) & 0x1F))) ? 1U : 0U)
+    181          
+
+   \                                 In section .text, align 2, keep-with-next
+    182          EmberStatus halRequestAdcData(ADCUser id, uint16_t *value)
+    183          {
+   \                     halRequestAdcData: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    184            //Both the ADC interrupt and the global interrupt need to be enabled,
+    185            //otherwise the ADC ISR cannot be serviced.
+    186            bool intsAreOff = (INTERRUPTS_ARE_OFF()
+    187                               || !NVIC_ENABLED_IRQ(ADC_IRQn)
+    188                               || ((EVENT_ADC->CFG & EVENT_ADC_CFG_ULDFULL) == 0U));
+   \        0x6   0x.... 0x....      BL       _basePriIsDisabled
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD10B             BNE.N    ??halRequestAdcData_0
+   \        0xE   0x....             LDR.N    R0,??DataTable9
+   \       0x10   0x6800             LDR      R0,[R0, #+0]
+   \       0x12   0x0500             LSLS     R0,R0,#+20
+   \       0x14   0xD507             BPL.N    ??halRequestAdcData_0
+   \       0x16   0x....             LDR.N    R0,??DataTable9_11
+   \       0x18   0x6806             LDR      R6,[R0, #+0]
+   \       0x1A   0x08B6             LSRS     R6,R6,#+2
+   \       0x1C   0xF006 0x0601      AND      R6,R6,#0x1
+   \       0x20   0xF086 0x0601      EOR      R6,R6,#0x1
+   \       0x24   0xE000             B.N      ??halRequestAdcData_1
+   \                     ??halRequestAdcData_0: (+1)
+   \       0x26   0x2601             MOVS     R6,#+1
+    189            EmberStatus stat;
+    190          
+    191            {
+    192              DECLARE_INTERRUPT_STATE;
+    193              DISABLE_INTERRUPTS();
+   \                     ??halRequestAdcData_1: (+1)
+   \       0x28   0x.... 0x....      BL       _disableBasePri
+   \       0x2C   0x4607             MOV      R7,R0
+    194              // If interupts are disabled but the flag is set,
+    195              // manually run the isr...
+    196              //FIXME -= is this valid???
+    197              if ( intsAreOff
+    198                   && (NVIC_ENABLED_IRQ(ADC_IRQn) && (EVENT_ADC->CFG & EVENT_ADC_CFG_ULDFULL))) {
+   \       0x2E   0x2E00             CMP      R6,#+0
+   \       0x30   0xD009             BEQ.N    ??halRequestAdcData_2
+   \       0x32   0x....             LDR.N    R0,??DataTable9
+   \       0x34   0x6800             LDR      R0,[R0, #+0]
+   \       0x36   0x0500             LSLS     R0,R0,#+20
+   \       0x38   0xD505             BPL.N    ??halRequestAdcData_2
+   \       0x3A   0x....             LDR.N    R0,??DataTable9_11
+   \       0x3C   0x6800             LDR      R0,[R0, #+0]
+   \       0x3E   0x0740             LSLS     R0,R0,#+29
+   \       0x40   0xD501             BPL.N    ??halRequestAdcData_2
+    199                halAdcIsr();
+   \       0x42   0x.... 0x....      BL       halAdcIsr
+    200              }
+    201          
+    202              // check if we are done
+    203              if (BIT(id) & adcReadingValid) {
+   \                     ??halRequestAdcData_2: (+1)
+   \       0x46   0x2101             MOVS     R1,#+1
+   \       0x48   0x40A1             LSLS     R1,R1,R4
+   \       0x4A   0x....             LDR.N    R0,??DataTable9_6
+   \       0x4C   0x7802             LDRB     R2,[R0, #+0]
+   \       0x4E   0x4613             MOV      R3,R2
+   \       0x50   0x40E3             LSRS     R3,R3,R4
+   \       0x52   0x07DB             LSLS     R3,R3,#+31
+   \       0x54   0xD507             BPL.N    ??halRequestAdcData_3
+    204                *value = adcReadings[id];
+   \       0x56   0x....             LDR.N    R3,??DataTable9_5
+   \       0x58   0xF833 0x3014      LDRH     R3,[R3, R4, LSL #+1]
+   \       0x5C   0x802B             STRH     R3,[R5, #+0]
+    205                adcReadingValid ^= BIT(id);
+   \       0x5E   0x4051             EORS     R1,R1,R2
+   \       0x60   0x7001             STRB     R1,[R0, #+0]
+    206                stat = (EmberStatus) EMBER_ADC_CONVERSION_DONE;
+   \       0x62   0x2480             MOVS     R4,#+128
+   \       0x64   0xE00C             B.N      ??halRequestAdcData_4
+    207              } else if (adcPendingRequests & BIT(id)) {
+   \                     ??halRequestAdcData_3: (+1)
+   \       0x66   0x....             LDR.N    R0,??DataTable9_7
+   \       0x68   0x7800             LDRB     R0,[R0, #+0]
+   \       0x6A   0x4208             TST      R0,R1
+   \       0x6C   0xD001             BEQ.N    ??halRequestAdcData_5
+    208                stat = (EmberStatus) EMBER_ADC_CONVERSION_DEFERRED;
+   \       0x6E   0x2482             MOVS     R4,#+130
+   \       0x70   0xE006             B.N      ??halRequestAdcData_4
+    209              } else if (adcPendingConversion == id) {
+   \                     ??halRequestAdcData_5: (+1)
+   \       0x72   0x....             LDR.N    R0,??DataTable9_2
+   \       0x74   0x7800             LDRB     R0,[R0, #+0]
+   \       0x76   0x42A0             CMP      R0,R4
+   \       0x78   0xD101             BNE.N    ??halRequestAdcData_6
+    210                stat = (EmberStatus) EMBER_ADC_CONVERSION_BUSY;
+   \       0x7A   0x2481             MOVS     R4,#+129
+   \       0x7C   0xE000             B.N      ??halRequestAdcData_4
+    211              } else {
+    212                stat = (EmberStatus) EMBER_ADC_NO_CONVERSION_PENDING;
+   \                     ??halRequestAdcData_6: (+1)
+   \       0x7E   0x2484             MOVS     R4,#+132
+    213              }
+    214              RESTORE_INTERRUPTS();
+   \                     ??halRequestAdcData_4: (+1)
+   \       0x80   0x4638             MOV      R0,R7
+   \       0x82   0x.... 0x....      BL       _writeBasePri
+    215            }
+    216            return stat;
+   \       0x86   0x4620             MOV      R0,R4
+   \       0x88   0xBDF2             POP      {R1,R4-R7,PC}
+    217          }
+    218          
+
+   \                                 In section .text, align 2, keep-with-next
+    219          EmberStatus halReadAdcBlocking(ADCUser id, uint16_t *value)
+    220          {
+   \                     halReadAdcBlocking: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    221            EmberStatus stat;
+    222          
+    223            do {
+    224              stat = (EmberStatus) halRequestAdcData(id, value);
+   \                     ??halReadAdcBlocking_0: (+1)
+   \        0x6   0x4629             MOV      R1,R5
+   \        0x8   0x4620             MOV      R0,R4
+   \        0xA   0x.... 0x....      BL       halRequestAdcData
+    225              if (stat == (EmberStatus) EMBER_ADC_NO_CONVERSION_PENDING) {
+   \        0xE   0x2884             CMP      R0,#+132
+   \       0x10   0xD001             BEQ.N    ??halReadAdcBlocking_1
+    226                break;
+    227              }
+    228            } while (stat != (EmberStatus) EMBER_ADC_CONVERSION_DONE);
+   \       0x12   0x2880             CMP      R0,#+128
+   \       0x14   0xD1F7             BNE.N    ??halReadAdcBlocking_0
+    229            return (EmberStatus) stat;
+   \                     ??halReadAdcBlocking_1: (+1)
+   \       0x16   0xBD32             POP      {R1,R4,R5,PC}
+    230          }
+    231          
+
+   \                                 In section .text, align 2, keep-with-next
+    232          EmberStatus halAdcCalibrate(ADCUser id)
+    233          {
+   \                     halAdcCalibrate: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    234            EmberStatus stat;
+    235          
+    236            (void) halStartAdcConversion(id,
+    237                                         ADC_REF_INT,
+    238                                         ADC_SOURCE_GND_VREF2,
+    239                                         ADC_CONVERSION_TIME_US_4096);
+   \        0x4   0x2307             MOVS     R3,#+7
+   \        0x6   0x2289             MOVS     R2,#+137
+   \        0x8   0x212A             MOVS     R1,#+42
+   \        0xA   0x.... 0x....      BL       halStartAdcConversion
+    240            stat = (EmberStatus) halReadAdcBlocking(id, (uint16_t *)(&Nvss));
+   \        0xE   0x....             LDR.N    R5,??DataTable9_12
+   \       0x10   0x4629             MOV      R1,R5
+   \       0x12   0x4620             MOV      R0,R4
+   \       0x14   0x.... 0x....      BL       halReadAdcBlocking
+    241            if (stat == (EmberStatus) EMBER_ADC_CONVERSION_DONE) {
+   \       0x18   0x4601             MOV      R1,R0
+   \       0x1A   0x2980             CMP      R1,#+128
+   \       0x1C   0xD109             BNE.N    ??halAdcCalibrate_0
+    242              (void) halStartAdcConversion(id,
+    243                                           ADC_REF_INT,
+    244                                           ADC_SOURCE_VREG2_VREF2,
+    245                                           ADC_CONVERSION_TIME_US_4096);
+   \       0x1E   0x2307             MOVS     R3,#+7
+   \       0x20   0x22B9             MOVS     R2,#+185
+   \       0x22   0x212A             MOVS     R1,#+42
+   \       0x24   0x4620             MOV      R0,R4
+   \       0x26   0x.... 0x....      BL       halStartAdcConversion
+    246              stat = (EmberStatus) halReadAdcBlocking(id, (uint16_t *)(&Nvdd));
+   \       0x2A   0x....             LDR.N    R1,??DataTable9_13
+   \       0x2C   0x4620             MOV      R0,R4
+   \       0x2E   0x.... 0x....      BL       halReadAdcBlocking
+    247            }
+    248            if (stat == (EmberStatus) EMBER_ADC_CONVERSION_DONE) {
+   \                     ??halAdcCalibrate_0: (+1)
+   \       0x32   0x....             LDR.N    R2,??DataTable9_10
+   \       0x34   0x4601             MOV      R1,R0
+   \       0x36   0x2980             CMP      R1,#+128
+   \       0x38   0xD107             BNE.N    ??halAdcCalibrate_1
+    249              Nvdd -= Nvss;
+   \       0x3A   0x....             LDR.N    R3,??DataTable9_13
+   \       0x3C   0x881C             LDRH     R4,[R3, #+0]
+   \       0x3E   0x8829             LDRH     R1,[R5, #+0]
+   \       0x40   0x1A64             SUBS     R4,R4,R1
+   \       0x42   0x801C             STRH     R4,[R3, #+0]
+    250              adcCalibrated = true;
+   \       0x44   0x2101             MOVS     R1,#+1
+   \       0x46   0x7011             STRB     R1,[R2, #+0]
+   \       0x48   0xBD32             POP      {R1,R4,R5,PC}
+    251            } else {
+    252              adcCalibrated = false;
+   \                     ??halAdcCalibrate_1: (+1)
+   \       0x4A   0x2000             MOVS     R0,#+0
+   \       0x4C   0x7010             STRB     R0,[R2, #+0]
+    253              stat = (EmberStatus) EMBER_ERR_FATAL;
+   \       0x4E   0x2001             MOVS     R0,#+1
+    254            }
+    255            return (EmberStatus) stat;
+   \       0x50   0xBD32             POP      {R1,R4,R5,PC}
+    256          }
+    257          
+    258          // Use the ratio of the sample reading to the of VDD_PADSA/2, a 'known'
+    259          // value (nominally 900mV in normal mode, but slightly higher in boost mode)
+    260          // to convert to 100uV units.
+    261          // FIXME: support external Vref
+    262          //        use #define of Vref, ignore VDD_PADSA
+
+   \                                 In section .text, align 2, keep-with-next
+    263          int32_t halConvertValueToVolts(uint16_t value)
+    264          {
+   \                     halConvertValueToVolts: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    265            int32_t N;
+    266            int32_t V;
+    267            int32_t nvalue;
+    268          
+    269            if (!adcCalibrated) {
+   \        0x4   0x....             LDR.N    R5,??DataTable9_10
+   \        0x6   0x7828             LDRB     R0,[R5, #+0]
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD102             BNE.N    ??halConvertValueToVolts_0
+    270              (void) halAdcCalibrate(ADC_USER_LQI);
+   \        0xC   0x2000             MOVS     R0,#+0
+   \        0xE   0x.... 0x....      BL       halAdcCalibrate
+    271            }
+    272            if (adcCalibrated) {
+   \                     ??halConvertValueToVolts_0: (+1)
+   \       0x12   0x7828             LDRB     R0,[R5, #+0]
+   \       0x14   0x2800             CMP      R0,#+0
+   \       0x16   0xD01D             BEQ.N    ??halConvertValueToVolts_1
+    273              assert((Nvdd != 0));
+   \       0x18   0x....             LDR.N    R5,??DataTable9_13
+   \       0x1A   0xF9B5 0x0000      LDRSH    R0,[R5, #+0]
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD104             BNE.N    ??halConvertValueToVolts_2
+   \       0x22   0xF240 0x1111      MOVW     R1,#+273
+   \       0x26   0x....             LDR.N    R0,??DataTable9_14
+   \       0x28   0x.... 0x....      BL       halInternalAssertFailed
+    274              nvalue = (int32_t)value - Nvss;
+    275              // Convert input value (minus ground) to a fraction of VDD/2.
+    276              N = (int32_t)(((nvalue << 16) + Nvdd / 2) / Nvdd);
+   \                     ??halConvertValueToVolts_2: (+1)
+   \       0x2C   0xF9B5 0x1000      LDRSH    R1,[R5, #+0]
+   \       0x30   0x....             LDR.N    R0,??DataTable9_12
+   \       0x32   0xF9B0 0x0000      LDRSH    R0,[R0, #+0]
+   \       0x36   0x1A24             SUBS     R4,R4,R0
+   \       0x38   0xEB01 0x70D1      ADD      R0,R1,R1, LSR #+31
+   \       0x3C   0x1040             ASRS     R0,R0,#+1
+   \       0x3E   0xEB00 0x4004      ADD      R0,R0,R4, LSL #+16
+   \       0x42   0xFB90 0xF4F1      SDIV     R4,R0,R1
+    277              // Calculate voltage with: V = (N * Vreg/2) / (2^16)
+    278              // Mutiplying by Vreg/2*10 makes the result units of 100 uVolts
+    279              // (in fixed point E-4 which allows for 13.5 bits vs millivolts
+    280              // which is only 10.2 bits).
+    281              V = (int32_t)((N * ((int32_t)halInternalGetVreg()) * 5) >> 16);
+   \       0x46   0x.... 0x....      BL       halInternalGetVreg
+   \       0x4A   0x4360             MULS     R0,R0,R4
+   \       0x4C   0xEB00 0x0080      ADD      R0,R0,R0, LSL #+2
+   \       0x50   0x1400             ASRS     R0,R0,#+16
+   \       0x52   0xBD32             POP      {R1,R4,R5,PC}
+    282            } else {
+    283              V = -32768;
+   \                     ??halConvertValueToVolts_1: (+1)
+   \       0x54   0x....             LDR.N    R0,??DataTable9_15
+    284            }
+    285            return V;
+   \       0x56   0xBD32             POP      {R1,R4,R5,PC}
+    286          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9:
+   \        0x0   0xE000'E100        DC32     0xe000e100
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_1:
+   \        0x0   0x....'....        DC32     adcStaticConfig
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_2:
+   \        0x0   0x....'....        DC32     adcPendingConversion
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_3:
+   \        0x0   0x4000'A810        DC32     0x4000a810
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_4:
+   \        0x0   0x....'....        DC32     adcData
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_5:
+   \        0x0   0x....'....        DC32     adcReadings
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_6:
+   \        0x0   0x....'....        DC32     adcReadingValid
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_7:
+   \        0x0   0x....'....        DC32     adcPendingRequests
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_8:
+   \        0x0   0x....'....        DC32     adcConfig
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_9:
+   \        0x0   0x4000'E004        DC32     0x4000e004
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_10:
+   \        0x0   0x....'....        DC32     adcCalibrated
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_11:
+   \        0x0   0x4000'A850        DC32     0x4000a850
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_12:
+   \        0x0   0x....'....        DC32     Nvss
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_13:
+   \        0x0   0x....'....        DC32     Nvdd
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_14:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_15:
+   \        0x0   0xFFFF'8000        DC32     0xffff8000
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x61 0x64          DC8 "adc-em3xx.c"
+   \              0x63 0x2D    
+   \              0x65 0x6D    
+   \              0x33 0x78    
+   \              0x78 0x2E    
+   \              0x63 0x00
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   __NVIC_EnableIRQ
+      16   halAdcCalibrate
+        16   -> halReadAdcBlocking
+        16   -> halStartAdcConversion
+       0   halAdcGetClock
+      16   halAdcIsr
+        16   -> halCommonDisableVreg1v8
+       0   halAdcSetClock
+      16   halConvertValueToVolts
+        16   -> halAdcCalibrate
+        16   -> halInternalAssertFailed
+        16   -> halInternalGetVreg
+       8   halInternalInitAdc
+         8   -> __NVIC_EnableIRQ
+         0   -> emberCalibrateVref
+      16   halReadAdcBlocking
+        16   -> halRequestAdcData
+      24   halRequestAdcData
+        24   -> _basePriIsDisabled
+        24   -> _disableBasePri
+        24   -> _writeBasePri
+        24   -> halAdcIsr
+      16   halStartAdcConversion
+        16   -> _disableBasePri
+        16   -> _writeBasePri
+        16   -> startNextConversion
+      16   startNextConversion
+        16   -> __NVIC_EnableIRQ
+        16   -> _disableBasePri
+        16   -> _writeBasePri
+        16   -> halCommonEnableVreg1v8
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable9
+       4  ??DataTable9_1
+       4  ??DataTable9_10
+       4  ??DataTable9_11
+       4  ??DataTable9_12
+       4  ??DataTable9_13
+       4  ??DataTable9_14
+       4  ??DataTable9_15
+       4  ??DataTable9_2
+       4  ??DataTable9_3
+       4  ??DataTable9_4
+       4  ??DataTable9_5
+       4  ??DataTable9_6
+       4  ??DataTable9_7
+       4  ??DataTable9_8
+       4  ??DataTable9_9
+      12  ?_0
+       2  Nvdd
+       2  Nvss
+      24  __NVIC_EnableIRQ
+       1  adcCalibrated
+       8  adcConfig
+       2  adcData
+       1  adcPendingConversion
+       1  adcPendingRequests
+       1  adcReadingValid
+       8  adcReadings
+       2  adcStaticConfig
+      82  halAdcCalibrate
+      14  halAdcGetClock
+     116  halAdcIsr
+      26  halAdcSetClock
+      88  halConvertValueToVolts
+      88  halInternalInitAdc
+      24  halReadAdcBlocking
+     138  halRequestAdcData
+      88  halStartAdcConversion
+     104  startNextConversion
+
+ 
+  28 bytes in section .bss
+  12 bytes in section .rodata
+ 856 bytes in section .text
+ 
+ 856 bytes of CODE  memory
+  12 bytes of CONST memory
+  28 bytes of DATA  memory
+
+Errors: none
+Warnings: none

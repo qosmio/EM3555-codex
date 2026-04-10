@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_emxxx">
+  <assets path="/emxxx/debug/EM317.json" diskSizeKB="144.523" downloadSizeKB="144.523"/>
+  <assets path="/emxxx/debug/EM317_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM351.json" diskSizeKB="144.523" downloadSizeKB="144.523"/>
+  <assets path="/emxxx/debug/EM351_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM357.json" diskSizeKB="144.523" downloadSizeKB="144.523"/>
+  <assets path="/emxxx/debug/EM357P2P.json" diskSizeKB="144.523" downloadSizeKB="144.523"/>
+  <assets path="/emxxx/debug/EM357P2P_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM357_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3581.json" diskSizeKB="149.258" downloadSizeKB="149.258"/>
+  <assets path="/emxxx/debug/EM3581_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3582.json" diskSizeKB="190.797" downloadSizeKB="190.797"/>
+  <assets path="/emxxx/debug/EM3582_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3585.json" diskSizeKB="149.258" downloadSizeKB="149.258"/>
+  <assets path="/emxxx/debug/EM3585_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3586.json" diskSizeKB="190.797" downloadSizeKB="190.797"/>
+  <assets path="/emxxx/debug/EM3586_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3587.json" diskSizeKB="149.258" downloadSizeKB="149.258"/>
+  <assets path="/emxxx/debug/EM3587_core.json" diskSizeKB="1.182" downloadSizeKB="1.182"/>
+  <assets path="/emxxx/debug/EM3588.json" diskSizeKB="190.797" downloadSizeKB="190.797"/>
+  <assets path="/emxxx/debug/EM3588_core.json" diskSizeKB="1.182" downloadSizeKB="1.182"/>
+  <assets path="/emxxx/debug/EM3591.json" diskSizeKB="211.894" downloadSizeKB="211.894"/>
+  <assets path="/emxxx/debug/EM3591_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3592.json" diskSizeKB="253.433" downloadSizeKB="253.433"/>
+  <assets path="/emxxx/debug/EM3592_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3595.json" diskSizeKB="211.894" downloadSizeKB="211.894"/>
+  <assets path="/emxxx/debug/EM3595_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3596.json" diskSizeKB="253.433" downloadSizeKB="253.433"/>
+  <assets path="/emxxx/debug/EM3596_core.json" diskSizeKB="1.181" downloadSizeKB="1.181"/>
+  <assets path="/emxxx/debug/EM3597.json" diskSizeKB="211.894" downloadSizeKB="211.894"/>
+  <assets path="/emxxx/debug/EM3597_core.json" diskSizeKB="1.182" downloadSizeKB="1.182"/>
+  <assets path="/emxxx/debug/EM3598.json" diskSizeKB="253.433" downloadSizeKB="253.433"/>
+  <assets path="/emxxx/debug/EM3598_core.json" diskSizeKB="1.182" downloadSizeKB="1.182"/>
+</assets>

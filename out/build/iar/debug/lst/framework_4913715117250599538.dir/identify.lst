@@ -1,0 +1,515 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:56
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\identify\identify.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\identify.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\identify\identify.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"identify.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\identify\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\identify.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\identify.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\identify.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\identify.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\identify\identify.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Routines for the Identify plugin, which implements the Identify
+      4           *        cluster.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          // *******************************************************************
+     20          // * identify.c
+     21          // *
+     22          // *
+     23          // * Copyright 2007 by Ember Corporation. All rights reserved.              *80*
+     24          // *******************************************************************
+     25          
+     26          // this file contains all the common includes for clusters in the util
+     27          #include "app/framework/include/af.h"
+     28          #include "app/framework/util/common.h"
+     29          
+     30          void emberAfFillCommandIdentifyClusterIdentifyQueryResponse(uint16_t identifyTime);
+     31          
+     32          typedef struct {
+     33            bool identifying;
+     34            uint16_t identifyTime;
+     35          } EmAfIdentifyState;
+     36          
+
+   \                                 In section .bss, align 4
+     37          static EmAfIdentifyState stateTable[EMBER_AF_IDENTIFY_CLUSTER_SERVER_ENDPOINT_COUNT];
+   \                     stateTable:
+   \        0x0                      DS8 4
+     38          
+     39          static EmberAfStatus readIdentifyTime(uint8_t endpoint, uint16_t *identifyTime);
+     40          static EmberAfStatus writeIdentifyTime(uint8_t endpoint, uint16_t identifyTime);
+     41          static EmberStatus scheduleIdentifyTick(uint8_t endpoint);
+     42          
+     43          static EmAfIdentifyState *getIdentifyState(uint8_t endpoint);
+     44          
+
+   \                                 In section .text, align 2, keep-with-next
+     45          static EmAfIdentifyState *getIdentifyState(uint8_t endpoint)
+     46          {
+   \                     getIdentifyState: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     47            uint8_t ep = emberAfFindClusterServerEndpointIndex(endpoint, ZCL_IDENTIFY_CLUSTER_ID);
+   \        0x2   0x2103             MOVS     R1,#+3
+   \        0x4   0x.... 0x....      BL       emberAfFindClusterServerEndpointIndex
+     48            return (ep == 0xFF ? NULL : &stateTable[ep]);
+   \        0x8   0x28FF             CMP      R0,#+255
+   \        0xA   0xD101             BNE.N    ??getIdentifyState_0
+   \        0xC   0x2000             MOVS     R0,#+0
+   \        0xE   0xBD02             POP      {R1,PC}
+   \                     ??getIdentifyState_0: (+1)
+   \       0x10   0x....             LDR.N    R1,??DataTable2
+   \       0x12   0xEB01 0x0080      ADD      R0,R1,R0, LSL #+2
+   \       0x16   0xBD02             POP      {R1,PC}
+     49          }
+     50          
+
+   \                                 In section .text, align 2, keep-with-next
+     51          void emberAfIdentifyClusterServerInitCallback(uint8_t endpoint)
+     52          {
+     53            scheduleIdentifyTick(endpoint);
+   \                     emberAfIdentifyClusterServerInitCallback: (+1)
+   \        0x0   0x....             B.N      scheduleIdentifyTick
+     54          }
+     55          
+
+   \                                 In section .text, align 2, keep-with-next
+     56          void emberAfIdentifyClusterServerTickCallback(uint8_t endpoint)
+     57          {
+   \                     emberAfIdentifyClusterServerTickCallback: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     58            uint16_t identifyTime;
+     59            if (readIdentifyTime(endpoint, &identifyTime) == EMBER_ZCL_STATUS_SUCCESS) {
+   \        0x4   0x4669             MOV      R1,SP
+   \        0x6   0x.... 0x....      BL       readIdentifyTime
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD10A             BNE.N    ??emberAfIdentifyClusterServerTickCallback_0
+     60              // This tick writes the new attribute, which will trigger the Attribute
+     61              // Changed callback below, which in turn will schedule or cancel the tick.
+     62              // Because of this, the tick does not have to be scheduled here.
+     63              writeIdentifyTime(endpoint, (identifyTime == 0 ? 0 : identifyTime - 1));
+   \        0xE   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0x12   0x2800             CMP      R0,#+0
+   \       0x14   0xD101             BNE.N    ??emberAfIdentifyClusterServerTickCallback_1
+   \       0x16   0x2100             MOVS     R1,#+0
+   \       0x18   0xE000             B.N      ??emberAfIdentifyClusterServerTickCallback_2
+   \                     ??emberAfIdentifyClusterServerTickCallback_1: (+1)
+   \       0x1A   0x1E41             SUBS     R1,R0,#+1
+   \                     ??emberAfIdentifyClusterServerTickCallback_2: (+1)
+   \       0x1C   0xB289             UXTH     R1,R1
+   \       0x1E   0x4620             MOV      R0,R4
+   \       0x20   0x.... 0x....      BL       writeIdentifyTime
+     64            }
+     65          }
+   \                     ??emberAfIdentifyClusterServerTickCallback_0: (+1)
+   \       0x24   0xBD13             POP      {R0,R1,R4,PC}
+     66          
+
+   \                                 In section .text, align 2, keep-with-next
+     67          void emberAfIdentifyClusterServerAttributeChangedCallback(uint8_t endpoint,
+     68                                                                    EmberAfAttributeId attributeId)
+     69          {
+     70            if (attributeId == ZCL_IDENTIFY_TIME_ATTRIBUTE_ID) {
+   \                     emberAfIdentifyClusterServerAttributeChangedCallback: (+1)
+   \        0x0   0x2900             CMP      R1,#+0
+   \        0x2   0xD100             BNE.N    ??emberAfIdentifyClusterServerAttributeChangedC_0
+     71              scheduleIdentifyTick(endpoint);
+   \        0x4   0x....             B.N      scheduleIdentifyTick
+     72            }
+     73          }
+   \                     ??emberAfIdentifyClusterServerAttributeChangedC_0: (+1)
+   \        0x6   0x4770             BX       LR
+     74          
+
+   \                                 In section .text, align 2, keep-with-next
+     75          bool emberAfIdentifyClusterIdentifyCallback(uint16_t time)
+     76          {
+   \                     emberAfIdentifyClusterIdentifyCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x4601             MOV      R1,R0
+     77            EmberStatus sendStatus;
+     78            // This Identify callback writes the new attribute, which will trigger the
+     79            // Attribute Changed callback above, which in turn will schedule or cancel the
+     80            // tick.  Because of this, the tick does not have to be scheduled here.
+     81            emberAfIdentifyClusterPrintln("RX identify:IDENTIFY 0x%2x", time);
+     82            sendStatus = emberAfSendImmediateDefaultResponse(
+     83              writeIdentifyTime(emberAfCurrentEndpoint(), time));
+   \        0x4   0x....             LDR.N    R0,??DataTable2_1
+   \        0x6   0x6800             LDR      R0,[R0, #+0]
+   \        0x8   0x6800             LDR      R0,[R0, #+0]
+   \        0xA   0x7940             LDRB     R0,[R0, #+5]
+   \        0xC   0x.... 0x....      BL       writeIdentifyTime
+   \       0x10   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+     84            if (EMBER_SUCCESS != sendStatus) {
+     85              emberAfIdentifyClusterPrintln("Identify: failed to send %s response: "
+     86                                            "0x%x",
+     87                                            "default",
+     88                                            sendStatus);
+     89            }
+     90            return true;
+   \       0x14   0x2001             MOVS     R0,#+1
+   \       0x16   0xBD02             POP      {R1,PC}
+     91          }
+     92          
+
+   \                                 In section .text, align 2, keep-with-next
+     93          bool emberAfIdentifyClusterIdentifyQueryCallback(void)
+     94          {
+   \                     emberAfIdentifyClusterIdentifyQueryCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     95            EmberAfStatus status;
+     96            EmberStatus sendStatus;
+     97            uint16_t identifyTime;
+     98          
+     99            emberAfIdentifyClusterPrintln("RX identify:QUERY");
+    100          
+    101            // According to the 075123r02ZB, a device shall not send an Identify Query
+    102            // Response if it is not currently identifying.  Instead, or if reading the
+    103            // Identify Time attribute fails, send a Default Response.
+    104            status = readIdentifyTime(emberAfCurrentEndpoint(), &identifyTime);
+   \        0x2   0x4669             MOV      R1,SP
+   \        0x4   0x....             LDR.N    R0,??DataTable2_1
+   \        0x6   0x6800             LDR      R0,[R0, #+0]
+   \        0x8   0x6800             LDR      R0,[R0, #+0]
+   \        0xA   0x7940             LDRB     R0,[R0, #+5]
+   \        0xC   0x.... 0x....      BL       readIdentifyTime
+    105            if (status != EMBER_ZCL_STATUS_SUCCESS || identifyTime == 0) {
+   \       0x10   0x0001             MOVS     R1,R0
+   \       0x12   0xD103             BNE.N    ??emberAfIdentifyClusterIdentifyQueryCallback_0
+   \       0x14   0xF8BD 0x1000      LDRH     R1,[SP, #+0]
+   \       0x18   0x2900             CMP      R1,#+0
+   \       0x1A   0xD103             BNE.N    ??emberAfIdentifyClusterIdentifyQueryCallback_1
+    106              sendStatus = emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfIdentifyClusterIdentifyQueryCallback_0: (+1)
+   \       0x1C   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    107              if (EMBER_SUCCESS != sendStatus) {
+    108                emberAfIdentifyClusterPrintln("Identify: failed to send %s response: "
+    109                                              "0x%x",
+    110                                              "default",
+    111                                              sendStatus);
+    112              }
+    113              return true;
+   \       0x20   0x2001             MOVS     R0,#+1
+   \       0x22   0xBD02             POP      {R1,PC}
+    114            }
+    115          
+    116            emberAfFillCommandIdentifyClusterIdentifyQueryResponse(identifyTime);
+   \                     ??emberAfIdentifyClusterIdentifyQueryCallback_1: (+1)
+   \       0x24   0x4608             MOV      R0,R1
+   \       0x26   0x.... 0x....      BL       emberAfFillCommandIdentifyClusterIdentifyQueryResponse
+    117            sendStatus = emberAfSendResponse();
+   \       0x2A   0x.... 0x....      BL       emberAfSendResponse
+    118            if (EMBER_SUCCESS != sendStatus) {
+    119              emberAfIdentifyClusterPrintln("Identify: failed to send %s response: 0x%x",
+    120                                            "query",
+    121                                            sendStatus);
+    122            }
+    123            return true;
+   \       0x2E   0x2001             MOVS     R0,#+1
+   \       0x30   0xBD02             POP      {R1,PC}
+    124          }
+    125          
+
+   \                                 In section .text, align 2, keep-with-next
+    126          EmberAfStatus readIdentifyTime(uint8_t endpoint,
+    127                                         uint16_t *identifyTime)
+    128          {
+   \                     readIdentifyTime: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+    129            EmberAfStatus status = emberAfReadAttribute(endpoint,
+    130                                                        ZCL_IDENTIFY_CLUSTER_ID,
+    131                                                        ZCL_IDENTIFY_TIME_ATTRIBUTE_ID,
+    132                                                        CLUSTER_MASK_SERVER,
+    133                                                        (uint8_t *)identifyTime,
+    134                                                        sizeof(*identifyTime),
+    135                                                        NULL); // data type
+    136          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_IDENTIFY_CLUSTER)
+    137            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    138              emberAfIdentifyClusterPrintln("ERR: reading identify time %x", status);
+    139            }
+    140          #endif //defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_IDENTIFY_CLUSTER)
+    141            return status;
+   \        0x2   0x2200             MOVS     R2,#+0
+   \        0x4   0x9202             STR      R2,[SP, #+8]
+   \        0x6   0x2202             MOVS     R2,#+2
+   \        0x8   0x9201             STR      R2,[SP, #+4]
+   \        0xA   0x9100             STR      R1,[SP, #+0]
+   \        0xC   0x2301             MOVS     R3,#+1
+   \        0xE   0x2200             MOVS     R2,#+0
+   \       0x10   0x2103             MOVS     R1,#+3
+   \       0x12   0x.... 0x....      BL       emberAfReadAttribute
+   \       0x16   0xBD0E             POP      {R1-R3,PC}
+    142          }
+    143          
+
+   \                                 In section .text, align 2, keep-with-next
+    144          static EmberAfStatus writeIdentifyTime(uint8_t endpoint, uint16_t identifyTime)
+    145          {
+   \                     writeIdentifyTime: (+1)
+   \        0x0   0xB502             PUSH     {R1,LR}
+   \        0x2   0xB082             SUB      SP,SP,#+8
+    146            EmberAfStatus status = emberAfWriteAttribute(endpoint,
+    147                                                         ZCL_IDENTIFY_CLUSTER_ID,
+    148                                                         ZCL_IDENTIFY_TIME_ATTRIBUTE_ID,
+    149                                                         CLUSTER_MASK_SERVER,
+    150                                                         (uint8_t *)&identifyTime,
+    151                                                         ZCL_INT16U_ATTRIBUTE_TYPE);
+    152          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_IDENTIFY_CLUSTER)
+    153            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    154              emberAfIdentifyClusterPrintln("ERR: writing identify time %x", status);
+    155            }
+    156          #endif //defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_IDENTIFY_CLUSTER)
+    157            return status;
+   \        0x4   0x2121             MOVS     R1,#+33
+   \        0x6   0x9101             STR      R1,[SP, #+4]
+   \        0x8   0xA902             ADD      R1,SP,#+8
+   \        0xA   0x9100             STR      R1,[SP, #+0]
+   \        0xC   0x2301             MOVS     R3,#+1
+   \        0xE   0x2200             MOVS     R2,#+0
+   \       0x10   0x2103             MOVS     R1,#+3
+   \       0x12   0x.... 0x....      BL       emberAfWriteAttribute
+   \       0x16   0xBD0E             POP      {R1-R3,PC}
+    158          }
+    159          
+
+   \                                 In section .text, align 2, keep-with-next
+    160          static EmberStatus scheduleIdentifyTick(uint8_t endpoint)
+    161          {
+   \                     scheduleIdentifyTick: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4605             MOV      R5,R0
+    162            EmberAfStatus status;
+    163            EmAfIdentifyState *state = getIdentifyState(endpoint);
+   \        0x4   0x.... 0x....      BL       getIdentifyState
+   \        0x8   0x0004             MOVS     R4,R0
+    164            uint16_t identifyTime;
+    165          
+    166            if (state == NULL) {
+   \        0xA   0xD101             BNE.N    ??scheduleIdentifyTick_0
+    167              return EMBER_BAD_ARGUMENT;
+   \        0xC   0x2002             MOVS     R0,#+2
+   \        0xE   0xBD32             POP      {R1,R4,R5,PC}
+    168            }
+    169          
+    170            status = readIdentifyTime(endpoint, &identifyTime);
+    171            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+   \                     ??scheduleIdentifyTick_0: (+1)
+   \       0x10   0x4669             MOV      R1,SP
+   \       0x12   0x4628             MOV      R0,R5
+   \       0x14   0x.... 0x....      BL       readIdentifyTime
+   \       0x18   0x2800             CMP      R0,#+0
+   \       0x1A   0xD117             BNE.N    ??scheduleIdentifyTick_1
+    172              if (!state->identifying) {
+   \       0x1C   0x7820             LDRB     R0,[R4, #+0]
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD109             BNE.N    ??scheduleIdentifyTick_2
+    173                state->identifying = true;
+   \       0x22   0x2001             MOVS     R0,#+1
+   \       0x24   0x7020             STRB     R0,[R4, #+0]
+    174                state->identifyTime = identifyTime;
+   \       0x26   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0x2A   0x8060             STRH     R0,[R4, #+2]
+    175                emberAfPluginIdentifyStartFeedbackCallback(endpoint,
+    176                                                           identifyTime);
+   \       0x2C   0xF8BD 0x1000      LDRH     R1,[SP, #+0]
+   \       0x30   0x4628             MOV      R0,R5
+   \       0x32   0x.... 0x....      BL       emberAfPluginIdentifyStartFeedbackCallback
+    177              }
+    178              if (identifyTime > 0) {
+   \                     ??scheduleIdentifyTick_2: (+1)
+   \       0x36   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0x3A   0x2800             CMP      R0,#+0
+   \       0x3C   0xD006             BEQ.N    ??scheduleIdentifyTick_1
+    179                return emberAfScheduleServerTick(endpoint,
+    180                                                 ZCL_IDENTIFY_CLUSTER_ID,
+    181                                                 MILLISECOND_TICKS_PER_SECOND);
+   \       0x3E   0xF44F 0x6280      MOV      R2,#+1024
+   \       0x42   0x2103             MOVS     R1,#+3
+   \       0x44   0x4628             MOV      R0,R5
+   \       0x46   0x.... 0x....      BL       emberAfScheduleServerTick
+   \       0x4A   0xBD32             POP      {R1,R4,R5,PC}
+    182              }
+    183            }
+    184          
+    185            state->identifying = false;
+   \                     ??scheduleIdentifyTick_1: (+1)
+   \       0x4C   0x2000             MOVS     R0,#+0
+   \       0x4E   0x7020             STRB     R0,[R4, #+0]
+    186            emberAfPluginIdentifyStopFeedbackCallback(endpoint);
+   \       0x50   0x4628             MOV      R0,R5
+   \       0x52   0x.... 0x....      BL       emberAfPluginIdentifyStopFeedbackCallback
+    187            return emberAfDeactivateServerTick(endpoint, ZCL_IDENTIFY_CLUSTER_ID);
+   \       0x56   0x2103             MOVS     R1,#+3
+   \       0x58   0x4628             MOV      R0,R5
+   \       0x5A   0x.... 0x....      BL       emberAfDeactivateServerTick
+   \       0x5E   0xBD32             POP      {R1,R4,R5,PC}
+    188          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0x....'....        DC32     stateTable
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \        0x0   0x....'....        DC32     emAfCurrentCommand
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   emberAfIdentifyClusterIdentifyCallback
+         8   -> emberAfSendImmediateDefaultResponse
+         8   -> writeIdentifyTime
+       8   emberAfIdentifyClusterIdentifyQueryCallback
+         8   -> emberAfFillCommandIdentifyClusterIdentifyQueryResponse
+         8   -> emberAfSendImmediateDefaultResponse
+         8   -> emberAfSendResponse
+         8   -> readIdentifyTime
+       0   emberAfIdentifyClusterServerAttributeChangedCallback
+         0   -> scheduleIdentifyTick
+       0   emberAfIdentifyClusterServerInitCallback
+         0   -> scheduleIdentifyTick
+      16   emberAfIdentifyClusterServerTickCallback
+        16   -> readIdentifyTime
+        16   -> writeIdentifyTime
+       8   getIdentifyState
+         8   -> emberAfFindClusterServerEndpointIndex
+      16   readIdentifyTime
+        16   -> emberAfReadAttribute
+      16   scheduleIdentifyTick
+        16   -> emberAfDeactivateServerTick
+        16   -> emberAfPluginIdentifyStartFeedbackCallback
+        16   -> emberAfPluginIdentifyStopFeedbackCallback
+        16   -> emberAfScheduleServerTick
+        16   -> getIdentifyState
+        16   -> readIdentifyTime
+      16   writeIdentifyTime
+        16   -> emberAfWriteAttribute
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+      24  emberAfIdentifyClusterIdentifyCallback
+      50  emberAfIdentifyClusterIdentifyQueryCallback
+       8  emberAfIdentifyClusterServerAttributeChangedCallback
+       2  emberAfIdentifyClusterServerInitCallback
+      38  emberAfIdentifyClusterServerTickCallback
+      24  getIdentifyState
+      24  readIdentifyTime
+      96  scheduleIdentifyTick
+       4  stateTable
+      24  writeIdentifyTime
+
+ 
+   4 bytes in section .bss
+ 298 bytes in section .text
+ 
+ 298 bytes of CODE memory
+   4 bytes of DATA memory
+
+Errors: none
+Warnings: none

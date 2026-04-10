@@ -1,0 +1,22 @@
+5.1.4
+	SV5.8 release.
+	Adding native builds for Mac M1/M2 machines.
+5.1.3
+	SV5.7 release notes
+5.1.2
+	Fix issue on Linux clean install relating to udev rules.
+5.1.1
+	Fix detection issues on linux
+5.1.0
+	automate update of udev rules during installation
+5.0.0
+	Update to 64-bit
+4.0.4
+	Added signature for authentication
+4.0.3
+	Fix potential dll dependency issues
+4.0.1
+	Fix potential issue when detecting multiple devices
+4.0.0
+	Initial release
+	

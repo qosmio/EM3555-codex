@@ -1,0 +1,277 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         06/Apr/2026  14:23:00
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\led.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\led.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\led.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"led.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\led.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\led.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\led.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\led.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\led.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief LED manipulation routines; stack and example APIs
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #if !defined(MINIMAL_HAL) && defined(BOARD_HEADER)
+     19          // full hal needs the board header to get pulled in
+     20            #include "hal/micro/micro.h"
+     21            #include BOARD_HEADER
+     22          #endif
+     23          #include "hal/micro/led.h"
+     24          
+     25          #ifdef LED_ACTIVE_HIGH
+     26          #define GPIO_SET_LED   SET
+     27          #define GPIO_CLEAR_LED CLR
+     28          #else
+     29          #define GPIO_SET_LED   CLR
+     30          #define GPIO_CLEAR_LED SET
+     31          #endif
+     32          
+
+   \                                 In section .text, align 2, keep-with-next
+     33          void halSetLed(HalBoardLed led)
+     34          {
+     35            uint32_t port = (uint8_t) led / 8U;
+     36            uint32_t pin = (uint8_t) led & 0x7U;
+     37          #if (!defined(MINIMAL_HAL) && !defined(BOOTLOADER) && defined(RHO_GPIO))
+     38            if (led == RHO_GPIO && halGetRadioHoldOff()) { // Avoid Radio HoldOff conflict
+     39              return;
+     40            }
+     41          #endif
+     42          
+     43            GPIO->P[port].GPIO_SET_LED = BIT(pin);
+   \                     halSetLed: (+1)
+   \        0x0   0x....             LDR.N    R1,??DataTable2
+   \        0x2   0x4602             MOV      R2,R0
+   \        0x4   0x08D2             LSRS     R2,R2,#+3
+   \        0x6   0xEB11 0x2142      ADDS     R1,R1,R2, LSL #+9
+   \        0xA   0x2201             MOVS     R2,#+1
+   \        0xC   0xF000 0x0007      AND      R0,R0,#0x7
+   \       0x10   0xFA02 0xF000      LSL      R0,R2,R0
+   \       0x14   0x6148             STR      R0,[R1, #+20]
+     44          }
+   \       0x16   0x4770             BX       LR
+     45          
+
+   \                                 In section .text, align 2, keep-with-next
+     46          void halClearLed(HalBoardLed led)
+     47          {
+     48            uint32_t port = (uint8_t) led / 8U;
+     49            uint32_t pin = (uint8_t) led & 0x7U;
+     50          #if (!defined(MINIMAL_HAL) && !defined(BOOTLOADER) && defined(RHO_GPIO))
+     51            if (led == RHO_GPIO && halGetRadioHoldOff()) { // Avoid Radio HoldOff conflict
+     52              return;
+     53            }
+     54          #endif
+     55          
+     56            GPIO->P[port].GPIO_CLEAR_LED = BIT(pin);
+   \                     halClearLed: (+1)
+   \        0x0   0x....             LDR.N    R1,??DataTable2
+   \        0x2   0x4602             MOV      R2,R0
+   \        0x4   0x08D2             LSRS     R2,R2,#+3
+   \        0x6   0xEB11 0x2142      ADDS     R1,R1,R2, LSL #+9
+   \        0xA   0x2201             MOVS     R2,#+1
+   \        0xC   0xF000 0x0007      AND      R0,R0,#0x7
+   \       0x10   0xFA02 0xF000      LSL      R0,R2,R0
+   \       0x14   0x6108             STR      R0,[R1, #+16]
+     57          }
+   \       0x16   0x4770             BX       LR
+     58          
+
+   \                                 In section .text, align 2, keep-with-next
+     59          void halToggleLed(HalBoardLed led)
+     60          {
+   \                     halToggleLed: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     61            uint32_t port = (uint8_t) led / 8U;
+   \        0x4   0x4625             MOV      R5,R4
+   \        0x6   0x08ED             LSRS     R5,R5,#+3
+     62            uint32_t pin = (uint8_t) led & 0x7U;
+     63          #if (!defined(MINIMAL_HAL) && !defined(BOOTLOADER) && defined(RHO_GPIO))
+     64            if (led == RHO_GPIO && halGetRadioHoldOff()) { // Avoid Radio HoldOff conflict
+     65              return;
+     66            }
+     67          #endif
+     68          
+     69            //to avoid contention with other code using the other pins for other
+     70            //purposes, we disable interrupts since this is a read-modify-write
+     71            {
+     72              DECLARE_INTERRUPT_STATE;
+     73              DISABLE_INTERRUPTS();
+   \        0x8   0x.... 0x....      BL       _disableBasePri
+     74              GPIO->P[port].OUT ^= BIT(pin);
+   \        0xC   0x....             LDR.N    R1,??DataTable2
+   \        0xE   0xEB11 0x2145      ADDS     R1,R1,R5, LSL #+9
+   \       0x12   0x68CA             LDR      R2,[R1, #+12]
+   \       0x14   0x2301             MOVS     R3,#+1
+   \       0x16   0xF004 0x0407      AND      R4,R4,#0x7
+   \       0x1A   0xFA03 0xF404      LSL      R4,R3,R4
+   \       0x1E   0x4054             EORS     R4,R4,R2
+   \       0x20   0x60CC             STR      R4,[R1, #+12]
+     75              RESTORE_INTERRUPTS();
+   \       0x22   0xE8BD 0x4032      POP      {R1,R4,R5,LR}
+   \       0x26   0x.... 0x....      B.W      _writeBasePri
+     76            }
+     77          }
+     78          
+     79          #ifndef MINIMAL_HAL
+
+   \                                 In section .text, align 2, keep-with-next
+     80          void halStackIndicateActivity(bool turnOn)
+     81          {
+     82           #if     NO_LED
+     83            // Don't touch LEDs when built with NO_LED
+     84           #else//!NO_LED
+     85            if (turnOn) {
+   \                     halStackIndicateActivity: (+1)
+   \        0x0   0x2800             CMP      R0,#+0
+   \        0x2   0xD001             BEQ.N    ??halStackIndicateActivity_0
+     86              halSetLed(BOARD_ACTIVITY_LED);
+   \        0x4   0x2006             MOVS     R0,#+6
+   \        0x6   0x....             B.N      halSetLed
+     87            } else {
+     88              halClearLed(BOARD_ACTIVITY_LED);
+   \                     ??halStackIndicateActivity_0: (+1)
+   \        0x8   0x2006             MOVS     R0,#+6
+   \        0xA   0x....             B.N      halClearLed
+     89            }
+     90           #endif//NO_LED
+     91          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0x4000'B000        DC32     0x4000b000
+     92          
+     93          #endif //MINIMAL_HAL
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   halClearLed
+       0   halSetLed
+       0   halStackIndicateActivity
+         0   -> halClearLed
+         0   -> halSetLed
+      16   halToggleLed
+        16   -> _disableBasePri
+         0   -> _writeBasePri
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+      24  halClearLed
+      24  halSetLed
+      12  halStackIndicateActivity
+      42  halToggleLed
+
+ 
+ 106 bytes in section .text
+ 
+ 106 bytes of CODE memory
+
+Errors: none
+Warnings: none

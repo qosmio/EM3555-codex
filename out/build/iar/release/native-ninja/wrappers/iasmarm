@@ -1,0 +1,3 @@
+#!/bin/bash
+set -euo pipefail
+exec python3 /Users/macbook/Documents/code/silabs/EM3555/tools/crossover_iar_tool.py --wine /Applications/CrossOver.app/Contents/SharedSupport/CrossOver/bin/wine --bottle IAR --exe 'C:\iar\ewarm-9.70.2\arm\bin\iasmarm.exe' --drive-c-root /Users/macbook/Documents/code/silabs/EM3555/build/iar/crossover-drive-c -- "$@"

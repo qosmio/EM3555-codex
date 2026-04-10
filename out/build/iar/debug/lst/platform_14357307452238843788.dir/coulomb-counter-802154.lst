@@ -1,0 +1,209 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:29
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154\coulomb-counter-802154.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coulomb-counter-802154.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154\coulomb-counter-802154.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"coulomb-counter-802154.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coulomb-counter-802154.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coulomb-counter-802154.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\coulomb-counter-802154.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coulomb-counter-802154.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154\coulomb-counter-802154.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Coulomb Counter Specific callbacks.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2020 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          /** @addtogroup micro
+     19           *@{
+     20           */
+     21          #ifndef SIMULATION_DEVICE
+     22          #include PLATFORM_HEADER
+     23          #include "stack/include/ember-types.h"
+     24          #endif // SIMULATION_DEVICE
+     25          
+     26          #include <stdint.h>
+     27          #include <stddef.h>
+     28          #include "coexistence-hal.h"
+     29          #include "coexistence/protocol/ieee802154/coexistence-802154.h"
+     30          #include "coexistence/protocol/ieee802154/coulomb-counter-802154.h"
+     31          
+     32          #ifdef EMBER_AF_PLUGIN_COULOMB_COUNTER
+     33          
+     34          #include "coulomb-counter.h"
+     35          
+     36          /**
+     37           * Set state for Coulomb Counter, Idle/Awake/Tx/Rx.
+     38           *
+     39           * @param[in] ptaStackEvent PTA stack event.
+     40           *
+     41           * This function maps PTA events to
+     42           * corresponding Idle/Awake/Tx/Rx Coulomb Counter events .
+     43           * Runs in ISR context
+     44           *
+     45           */
+     46          void halCoulombCounterEvent(halPtaStackEvent_t ptaStackEvent)
+     47          {
+     48            static uint16_t ccState = 0U;
+     49            static bool normalTxActive = false;
+     50          
+     51            switch (ptaStackEvent) {
+     52              // RX listening start event(s):
+     53              case PTA_STACK_EVENT_RX_LISTEN:
+     54                ccState |= EMBER_AF_PLUGIN_COULOMB_COUNTER_RADIO_MODE_RX;
+     55                break;
+     56          
+     57              // RX end event(s):
+     58              case PTA_STACK_EVENT_RX_IDLED:
+     59                ccState &= ~EMBER_AF_PLUGIN_COULOMB_COUNTER_RADIO_MODE_RX;
+     60                break;
+     61          
+     62              // TX start event(s):
+     63              case PTA_STACK_EVENT_TX_PENDED_PHY:
+     64                normalTxActive = true;
+     65              // Fall through - To enter TX state...
+     66          
+     67              // ACK TX start event(s):
+     68              case PTA_STACK_EVENT_RX_ACKING:
+     69                // RX is implicitly turned on when TX is on
+     70                // since that's the state post-TX returns to;
+     71                // it gets turned off only when RX_IDLED.
+     72                ccState |= (EMBER_AF_PLUGIN_COULOMB_COUNTER_RADIO_MODE_TX
+     73                            | EMBER_AF_PLUGIN_COULOMB_COUNTER_RADIO_MODE_RX);
+     74                break;
+     75          
+     76              // TX end event(s):
+     77              case PTA_STACK_EVENT_TX_BLOCKED:
+     78              case PTA_STACK_EVENT_TX_ABORTED:
+     79              case PTA_STACK_EVENT_TX_ENDED:
+     80              case PTA_STACK_EVENT_TX_ACK_WAITING:
+     81              case PTA_STACK_EVENT_TX_IDLED:
+     82                normalTxActive = false;
+     83              // Fall through - To exit TX state (back to RX)...
+     84          
+     85              // ACK TX start event(s):
+     86              case PTA_STACK_EVENT_RX_ACK_BLOCKED:
+     87              case PTA_STACK_EVENT_RX_ACK_ABORTED:
+     88              case PTA_STACK_EVENT_RX_ACK_SENT:
+     89                if (!normalTxActive) {
+     90                  ccState &= ~EMBER_AF_PLUGIN_COULOMB_COUNTER_RADIO_MODE_TX;
+     91                }
+     92                break;
+     93          
+     94              // Events that don't matter:
+     95              default:
+     96                return;
+     97                break;
+     98            }
+     99            coexCoulombCounterEventCallback(ccState);
+    100          }
+    101          
+    102          #endif //EMBER_AF_PLUGIN_COULOMB_COUNTER
+    103          
+    104          /**@} END micro group
+    105           */
+
+
+ 
+ 
+ 0 bytes of memory
+
+Errors: none
+Warnings: none

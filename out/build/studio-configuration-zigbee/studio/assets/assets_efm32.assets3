@@ -1,0 +1,2679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_efm32">
+  <assets path="/efm32/configurator/efm32wg.zip" diskSizeKB="20009.57" downloadSizeKB="1446.959" directory="true">
+    <property key="timeStamp" value="1741985747390"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32zg.zip" diskSizeKB="3517.515" downloadSizeKB="402.67" directory="true">
+    <property key="timeStamp" value="1741985747807"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32lg.zip" diskSizeKB="20008.71" downloadSizeKB="1444.502" directory="true">
+    <property key="timeStamp" value="1741985748772"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32jg13b.zip" diskSizeKB="5483.254" downloadSizeKB="506.297" directory="true">
+    <property key="timeStamp" value="1741985749233"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32jg12b.zip" diskSizeKB="5211.854" downloadSizeKB="500.543" directory="true">
+    <property key="timeStamp" value="1741985749672"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32gg.zip" diskSizeKB="13570.49" downloadSizeKB="1050.495" directory="true">
+    <property key="timeStamp" value="1741985750445"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32g.zip" diskSizeKB="7504.562" downloadSizeKB="669.016" directory="true">
+    <property key="timeStamp" value="1741985751031"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32tg.zip" diskSizeKB="7504.035" downloadSizeKB="680.952" directory="true">
+    <property key="timeStamp" value="1741985751589"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32pg12b.zip" diskSizeKB="5211.854" downloadSizeKB="500.48" directory="true">
+    <property key="timeStamp" value="1741985752007"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32hg.zip" diskSizeKB="4266.765" downloadSizeKB="434.642" directory="true">
+    <property key="timeStamp" value="1741985752414"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32pg13b.zip" diskSizeKB="5483.254" downloadSizeKB="506.223" directory="true">
+    <property key="timeStamp" value="1741985752838"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32pg1b.zip" diskSizeKB="6356.995" downloadSizeKB="510.561" directory="true">
+    <property key="timeStamp" value="1741985753230"/>
+  </assets>
+  <assets path="/efm32/configurator/efm32jg1b.zip" diskSizeKB="5749.822" downloadSizeKB="479.677" directory="true">
+    <property key="timeStamp" value="1741985753635"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg842_errata_history.pdf" diskSizeKB="253.04" downloadSizeKB="253.04" label="EFM32WG842 Errata History">
+    <property key="timeStamp" value="1468886361037"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg380_errata.pdf" diskSizeKB="252.355" downloadSizeKB="252.355" category="Errata" label="EFM32WG380 Rev A Errata">
+    <property key="timeStamp" value="1468886361001"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg308_errata.pdf" diskSizeKB="250.061" downloadSizeKB="250.061" category="Errata" label="EFM32HG308 Rev. B Errata">
+    <property key="timeStamp" value="1479155319913"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg230_errata_history.pdf" diskSizeKB="320.024" downloadSizeKB="320.024" label="EFM32GG230 Errata History">
+    <property key="timeStamp" value="1477061395882"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg840_errata.pdf" diskSizeKB="242.428" downloadSizeKB="242.428" category="Errata" label="EFM32WG840 Rev A Errata">
+    <property key="timeStamp" value="1468886360870"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg390_errata_history.pdf" diskSizeKB="349.057" downloadSizeKB="349.057" label="EFM32LG390 Errata History">
+    <property key="timeStamp" value="1468886361057"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg230_errata.pdf" diskSizeKB="351.907" downloadSizeKB="351.907" category="Errata" label="EFM32TG230 Rev C Errata">
+    <property key="timeStamp" value="1477061391233"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg110_errata.pdf" diskSizeKB="250.051" downloadSizeKB="250.051" category="Errata" label="EFM32TG110 Rev C Errata">
+    <property key="timeStamp" value="1468886361018"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg321_errata.pdf" diskSizeKB="251.438" downloadSizeKB="251.438" category="Errata" label="EFM32HG321 Rev. B Errata">
+    <property key="timeStamp" value="1479155327573"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g232_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G232 Rev D Errata">
+    <property key="timeStamp" value="1533764105975"/>
+  </assets>
+  <assets version="1.6" path="/efm32/errata/efm32pg1_errata.pdf" diskSizeKB="775.121" downloadSizeKB="775.121" category="Errata" label="EFM32PG1 Errata">
+    <property key="timeStamp" value="1513889368095"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg822_errata.pdf" diskSizeKB="352.777" downloadSizeKB="352.777" category="Errata" label="EFM32TG822 Rev C Errata">
+    <property key="timeStamp" value="1477061389362"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg900_errata_history.pdf" diskSizeKB="262.532" downloadSizeKB="262.532" label="EFM32WG900 Errata History">
+    <property key="timeStamp" value="1468886360894"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg995_errata_history.pdf" diskSizeKB="349.058" downloadSizeKB="349.058" label="EFM32LG995 Errata History">
+    <property key="timeStamp" value="1468886360879"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg395_errata_history.pdf" diskSizeKB="349.052" downloadSizeKB="349.052" label="EFM32LG395 Errata History">
+    <property key="timeStamp" value="1468886360982"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg308_errata_history.pdf" diskSizeKB="265.501" downloadSizeKB="265.501" label="EFM32HG308 Errata History">
+    <property key="timeStamp" value="1479155330128"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg309_errata_history.pdf" diskSizeKB="266.594" downloadSizeKB="266.594" label="EFM32HG309 Errata History">
+    <property key="timeStamp" value="1479155316595"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg842_errata.pdf" diskSizeKB="351.897" downloadSizeKB="351.897" category="Errata" label="EFM32TG842 Rev C Errata">
+    <property key="timeStamp" value="1477061392935"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg330_errata_history.pdf" diskSizeKB="342.334" downloadSizeKB="342.334" label="EFM32GG330 Errata History">
+    <property key="timeStamp" value="1477061388050"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g880_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G880 Rev D Errata">
+    <property key="timeStamp" value="1533764086359"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg842_errata_history.pdf" diskSizeKB="323.565" downloadSizeKB="323.565" label="EFM32LG842 Errata History">
+    <property key="timeStamp" value="1468886360998"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg232_errata_history.pdf" diskSizeKB="253.044" downloadSizeKB="253.044" label="EFM32WG232 Errata History">
+    <property key="timeStamp" value="1468886361055"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg880_errata.pdf" diskSizeKB="256.953" downloadSizeKB="256.953" category="Errata" label="EFM32GG880 Rev D Errata">
+    <property key="timeStamp" value="1545070721902"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g200_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G200 Rev D Errata">
+    <property key="timeStamp" value="1533764101181"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg280_errata.pdf" diskSizeKB="268.867" downloadSizeKB="268.867" category="Errata" label="EFM32GG280 Rev D Errata">
+    <property key="timeStamp" value="1468886360868"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg360_errata.pdf" diskSizeKB="249.559" downloadSizeKB="249.559" category="Errata" label="EFM32LG360 Rev E Errata">
+    <property key="timeStamp" value="1468886361076"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg295_errata.pdf" diskSizeKB="268.866" downloadSizeKB="268.866" category="Errata" label="EFM32GG295 Rev D Errata">
+    <property key="timeStamp" value="1468886360881"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg900_errata.pdf" diskSizeKB="255.04" downloadSizeKB="255.04" category="Errata" label="EFM32GG900 Errata">
+    <property key="timeStamp" value="1468886360909"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg840_errata_history.pdf" diskSizeKB="320.029" downloadSizeKB="320.029" label="EFM32GG840 Errata History">
+    <property key="timeStamp" value="1477061382338"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg990_errata_history.pdf" diskSizeKB="349.054" downloadSizeKB="349.054" label="EFM32LG990 Errata History">
+    <property key="timeStamp" value="1468886360877"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg940_errata_history.pdf" diskSizeKB="339.396" downloadSizeKB="339.396" label="EFM32LG940 Errata History">
+    <property key="timeStamp" value="1468886360945"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg395_errata_history.pdf" diskSizeKB="264.075" downloadSizeKB="264.075" label="EFM32WG395 Errata History">
+    <property key="timeStamp" value="1468886360971"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g210_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G210 Rev D Errata">
+    <property key="timeStamp" value="1533763935757"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg230_errata_history.pdf" diskSizeKB="253.048" downloadSizeKB="253.048" label="EFM32WG230 Errata History">
+    <property key="timeStamp" value="1468886360952"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg895_errata.pdf" diskSizeKB="242.422" downloadSizeKB="242.422" category="Errata" label="EFM32WG895 Rev A Errata">
+    <property key="timeStamp" value="1468886361062"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg842_errata.pdf" diskSizeKB="262.234" downloadSizeKB="262.234" category="Errata" label="EFM32LG842 Rev E Errata">
+    <property key="timeStamp" value="1468886360917"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg232_errata.pdf" diskSizeKB="242.425" downloadSizeKB="242.425" category="Errata" label="EFM32WG232 Rev A Errata">
+    <property key="timeStamp" value="1468886360899"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg880_errata_history.pdf" diskSizeKB="325.373" downloadSizeKB="325.373" label="EFM32LG880 Errata History">
+    <property key="timeStamp" value="1468886361049"/>
+  </assets>
+  <assets path="/efm32/errata/efm32pg1_errata_history.pdf" diskSizeKB="283.315" downloadSizeKB="283.315">
+    <property key="timeStamp" value="1468886360947"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg108_errata.pdf" diskSizeKB="242.004" downloadSizeKB="242.004" category="Errata" label="EFM32HG108 Rev. B Errata">
+    <property key="timeStamp" value="1479155326400"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg942_errata.pdf" diskSizeKB="252.353" downloadSizeKB="252.353" category="Errata" label="EFM32WG942 Rev A Errata">
+    <property key="timeStamp" value="1468886360864"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg395_errata.pdf" diskSizeKB="272.176" downloadSizeKB="272.176" category="Errata" label="EFM32LG395 Rev E Errata">
+    <property key="timeStamp" value="1468886360959"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg980_errata.pdf" diskSizeKB="272.188" downloadSizeKB="272.188" category="Errata" label="EFM32LG980 Rev E Errata">
+    <property key="timeStamp" value="1468886360954"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg360_errata_history.pdf" diskSizeKB="262.621" downloadSizeKB="262.621" label="EFM32LG360 Errata History">
+    <property key="timeStamp" value="1468886361015"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg230_errata.pdf" diskSizeKB="268.373" downloadSizeKB="268.373" category="Errata" label="EFM32GG230 Rev D Errata">
+    <property key="timeStamp" value="1468886360938"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg330_errata_history.pdf" diskSizeKB="264.08" downloadSizeKB="264.08" label="EFM32WG330 Errata History">
+    <property key="timeStamp" value="1468886360967"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg880_errata.pdf" diskSizeKB="262.235" downloadSizeKB="262.235" category="Errata" label="EFM32LG880 Rev E Errata">
+    <property key="timeStamp" value="1468886360991"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg890_errata_history.pdf" diskSizeKB="253.049" downloadSizeKB="253.049" label="EFM32WG890 Errata History">
+    <property key="timeStamp" value="1468886360869"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg900_errata.pdf" diskSizeKB="249.468" downloadSizeKB="249.468" category="Errata" label="EFM32LG900 Rev. E Errata">
+    <property key="timeStamp" value="1468886360985"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg890_errata_history.pdf" diskSizeKB="329.457" downloadSizeKB="329.457" label="EFM32GG890 Errata History">
+    <property key="timeStamp" value="1477061370316"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg110_errata_history.pdf" diskSizeKB="264.949" downloadSizeKB="264.949" label="EFM32HG110 Errata History">
+    <property key="timeStamp" value="1479155315929"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg995_errata_history.pdf" diskSizeKB="344.19" downloadSizeKB="344.19" label="EFM32GG995 Errata History">
+    <property key="timeStamp" value="1477061382340"/>
+  </assets>
+  <assets version="0.4" path="/efm32/errata/efm32gg11_errata.pdf" diskSizeKB="771.052" downloadSizeKB="771.052" category="Errata" label="EFM32GG11 Errata">
+    <property key="timeStamp" value="1537046185494"/>
+  </assets>
+  <assets version="1.00" path="/efm32/errata/efm32g800_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G800 Rev D Errata">
+    <property key="timeStamp" value="1533764131722"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg890_errata.pdf" diskSizeKB="262.24" downloadSizeKB="262.24" category="Errata" label="EFM32LG890 Rev E Errata">
+    <property key="timeStamp" value="1468886361067"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg895_errata_history.pdf" diskSizeKB="253.046" downloadSizeKB="253.046" label="EFM32WG895 Errata History">
+    <property key="timeStamp" value="1468886361068"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg332_errata.pdf" diskSizeKB="252.358" downloadSizeKB="252.358" category="Errata" label="EFM32WG332 Rev A Errata">
+    <property key="timeStamp" value="1468886360981"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg940_errata.pdf" diskSizeKB="252.355" downloadSizeKB="252.355" category="Errata" label="EFM32WG940 Rev A Errata">
+    <property key="timeStamp" value="1468886360963"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg225_errata.pdf" diskSizeKB="345.99" downloadSizeKB="345.99" category="Errata" label="EFM32TG225 Rev C Errata">
+    <property key="timeStamp" value="1477061392602"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg360_errata.pdf" diskSizeKB="249.558" downloadSizeKB="249.558" category="Errata" label="EFM32WG360 Rev A Errata">
+    <property key="timeStamp" value="1468886361071"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg280_errata.pdf" diskSizeKB="242.423" downloadSizeKB="242.423" category="Errata" label="EFM32WG280 Rev A Errata">
+    <property key="timeStamp" value="1468886361032"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg232_errata_history.pdf" diskSizeKB="320.017" downloadSizeKB="320.017" label="EFM32GG232 Errata History">
+    <property key="timeStamp" value="1477061373999"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg990_errata.pdf" diskSizeKB="252.35" downloadSizeKB="252.35" category="Errata" label="EFM32WG990 Rev A Errata">
+    <property key="timeStamp" value="1468886360978"/>
+  </assets>
+  <assets version="0.2" path="/efm32/errata/efm32tg11_errata.pdf" diskSizeKB="683.751" downloadSizeKB="683.751" category="Errata" label="EFM32TG11 Errata">
+    <property key="timeStamp" value="1530562128133"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg890_errata.pdf" diskSizeKB="242.425" downloadSizeKB="242.425" category="Errata" label="EFM32WG890 Rev A Errata">
+    <property key="timeStamp" value="1468886360898"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg108_errata.pdf" diskSizeKB="349.492" downloadSizeKB="349.492" category="Errata" label="EFM32TG108 Rev C Errata">
+    <property key="timeStamp" value="1477061391731"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg990_errata_history.pdf" diskSizeKB="264.076" downloadSizeKB="264.076" label="EFM32WG990 Errata History">
+    <property key="timeStamp" value="1468886361025"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg395_errata.pdf" diskSizeKB="252.349" downloadSizeKB="252.349" category="Errata" label="EFM32WG395 Rev A Errata">
+    <property key="timeStamp" value="1468886360897"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg290_errata.pdf" diskSizeKB="262.236" downloadSizeKB="262.236" category="Errata" label="EFM32LG290 Rev E Errata">
+    <property key="timeStamp" value="1468886360988"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg940_errata.pdf" diskSizeKB="276.423" downloadSizeKB="276.423" category="Errata" label="EFM32GG940 Rev D Errata">
+    <property key="timeStamp" value="1468886361028"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg332_errata_history.pdf" diskSizeKB="342.337" downloadSizeKB="342.337" label="EFM32GG332 Errata History">
+    <property key="timeStamp" value="1477061385466"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg895_errata_history.pdf" diskSizeKB="325.375" downloadSizeKB="325.375" label="EFM32LG895 Errata History">
+    <property key="timeStamp" value="1468886361065"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg321_errata_history.pdf" diskSizeKB="267.273" downloadSizeKB="267.273" label="EFM32HG321 Errata History">
+    <property key="timeStamp" value="1479155324902"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg880_errata.pdf" diskSizeKB="242.426" downloadSizeKB="242.426" category="Errata" label="EFM32WG880 Rev A Errata">
+    <property key="timeStamp" value="1468886360918"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg942_errata.pdf" diskSizeKB="272.18" downloadSizeKB="272.18" category="Errata" label="EFM32LG942 Rev E Errata">
+    <property key="timeStamp" value="1468886360983"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg990_errata_history.pdf" diskSizeKB="344.186" downloadSizeKB="344.186" label="EFM32GG990 Errata History">
+    <property key="timeStamp" value="1477061390908"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg880_errata_history.pdf" diskSizeKB="253.043" downloadSizeKB="253.043" label="EFM32WG880 Errata History">
+    <property key="timeStamp" value="1468886361033"/>
+  </assets>
+  <assets version="0.30" path="/efm32/errata/efm32zg108_errata.pdf" diskSizeKB="240.392" downloadSizeKB="240.392" category="Errata" label="EFM32ZG108 Rev A Errata">
+    <property key="timeStamp" value="1479155312964"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g842_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G842 Rev D Errata">
+    <property key="timeStamp" value="1533764029276"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg232_errata.pdf" diskSizeKB="262.23" downloadSizeKB="262.23" category="Errata" label="EFM32LG232 Rev E Errata">
+    <property key="timeStamp" value="1468886360900"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg290_errata.pdf" diskSizeKB="242.427" downloadSizeKB="242.427" category="Errata" label="EFM32WG290 Rev A Errata">
+    <property key="timeStamp" value="1468886360883"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg995_errata.pdf" diskSizeKB="277.565" downloadSizeKB="277.565" category="Errata" label="EFM32GG995 Rev D Errata">
+    <property key="timeStamp" value="1468886360968"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg825_errata.pdf" diskSizeKB="346.001" downloadSizeKB="346.001" category="Errata" label="EFM32TG825 Rev C Errata">
+    <property key="timeStamp" value="1477061386543"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg295_errata_history.pdf" diskSizeKB="325.371" downloadSizeKB="325.371" label="EFM32LG295 Errata History">
+    <property key="timeStamp" value="1468886360910"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg980_errata_history.pdf" diskSizeKB="330.579" downloadSizeKB="330.579" label="EFM32GG980 Errata History">
+    <property key="timeStamp" value="1545070721839"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg840_errata_history.pdf" diskSizeKB="253.049" downloadSizeKB="253.049" label="EFM32WG840 Errata History">
+    <property key="timeStamp" value="1468886361021"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg110_errata.pdf" diskSizeKB="242.71" downloadSizeKB="242.71" category="Errata" label="EFM32HG110 Rev. B Errata">
+    <property key="timeStamp" value="1479155327397"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg330_errata_history.pdf" diskSizeKB="339.388" downloadSizeKB="339.388" label="EFM32LG330 Errata History">
+    <property key="timeStamp" value="1468886360906"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g290_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G290 Rev D Errata">
+    <property key="timeStamp" value="1533764020435"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg232_errata.pdf" diskSizeKB="351.892" downloadSizeKB="351.892" category="Errata" label="EFM32TG232 Rev C Errata">
+    <property key="timeStamp" value="1477061384069"/>
+  </assets>
+  <assets version="0.30" path="/efm32/errata/efm32zg110_errata_history.pdf" diskSizeKB="252.309" downloadSizeKB="252.309" label="EFM32ZG110 Errata History">
+    <property key="timeStamp" value="1479155321793"/>
+  </assets>
+  <assets version="0.30" path="/efm32/errata/efm32zg222_errata.pdf" diskSizeKB="241.053" downloadSizeKB="241.053" category="Errata" label="EFM32ZG222 Rev A Errata">
+    <property key="timeStamp" value="1479155326039"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg980_errata.pdf" diskSizeKB="277.566" downloadSizeKB="277.566" category="Errata" label="EFM32GG980 Rev D Errata">
+    <property key="timeStamp" value="1468886360890"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg210_errata.pdf" diskSizeKB="356.994" downloadSizeKB="356.994" category="Errata" label="EFM32TG210 Rev C Errata">
+    <property key="timeStamp" value="1477061375541"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg980_errata_history.pdf" diskSizeKB="264.085" downloadSizeKB="264.085" label="EFM32WG980 Errata History">
+    <property key="timeStamp" value="1468886361031"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg290_errata.pdf" diskSizeKB="256.956" downloadSizeKB="256.956" category="Errata" label="EFM32GG290 Rev D Errata">
+    <property key="timeStamp" value="1545070696290"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg895_errata.pdf" diskSizeKB="262.235" downloadSizeKB="262.235" category="Errata" label="EFM32LG895 Rev E Errata">
+    <property key="timeStamp" value="1468886361013"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg990_errata.pdf" diskSizeKB="272.181" downloadSizeKB="272.181" category="Errata" label="EFM32LG990 Rev E Errata">
+    <property key="timeStamp" value="1468886360863"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg280_errata.pdf" diskSizeKB="262.232" downloadSizeKB="262.232" category="Errata" label="EFM32LG280 Rev E Errata">
+    <property key="timeStamp" value="1468886361072"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg380_errata_history.pdf" diskSizeKB="264.08" downloadSizeKB="264.08" label="EFM32WG380 Errata History">
+    <property key="timeStamp" value="1468886361048"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg380_errata_history.pdf" diskSizeKB="349.058" downloadSizeKB="349.058" label="EFM32LG380 Errata History">
+    <property key="timeStamp" value="1468886360908"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg295_errata.pdf" diskSizeKB="262.232" downloadSizeKB="262.232" category="Errata" label="EFM32LG295 Rev E Errata">
+    <property key="timeStamp" value="1468886361000"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg330_errata.pdf" diskSizeKB="276.424" downloadSizeKB="276.424" category="Errata" label="EFM32GG330 Rev D Errata">
+    <property key="timeStamp" value="1468886360872"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg332_errata_history.pdf" diskSizeKB="339.393" downloadSizeKB="339.393" label="EFM32LG332 Errata History">
+    <property key="timeStamp" value="1468886360921"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg840_errata.pdf" diskSizeKB="262.234" downloadSizeKB="262.234" category="Errata" label="EFM32LG840 Rev E Errata">
+    <property key="timeStamp" value="1468886360964"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32lg-errata.pdf" diskSizeKB="682.242" downloadSizeKB="682.242" category="Errata" label="EMF32LG Errata">
+    <property key="timeStamp" value="1516990253333"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg390_errata.pdf" diskSizeKB="252.353" downloadSizeKB="252.353" category="Errata" label="EFM32WG390 Rev A Errata">
+    <property key="timeStamp" value="1468886360913"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg995_errata_history.pdf" diskSizeKB="264.083" downloadSizeKB="264.083" label="EFM32WG995 Errata History">
+    <property key="timeStamp" value="1468886361036"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg380_errata_history.pdf" diskSizeKB="344.176" downloadSizeKB="344.176" label="EFM32GG380 Errata History">
+    <property key="timeStamp" value="1477061384575"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g280_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G280 Rev D Errata">
+    <property key="timeStamp" value="1533764019162"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg332_errata_history.pdf" diskSizeKB="264.076" downloadSizeKB="264.076" label="EFM32WG332 Errata History">
+    <property key="timeStamp" value="1468886360926"/>
+  </assets>
+  <assets version="0.4" path="/efm32/errata/efm32pg12_errata.pdf" diskSizeKB="651.249" downloadSizeKB="651.249" category="Errata" label="EFM32PG12 Errata">
+    <property key="timeStamp" value="1522960443595"/>
+  </assets>
+  <assets version="0.30" path="/efm32/errata/efm32zg210_errata.pdf" diskSizeKB="241.051" downloadSizeKB="241.051" category="Errata" label="EFM32ZG210 Rev A Errata">
+    <property key="timeStamp" value="1479155331842"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg322_errata.pdf" diskSizeKB="251.441" downloadSizeKB="251.441" category="Errata" label="EFM32HG322 Rev. B Errata">
+    <property key="timeStamp" value="1479155310823"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg309_errata.pdf" diskSizeKB="251.444" downloadSizeKB="251.444" category="Errata" label="EFM32HG309 Rev. B Errata">
+    <property key="timeStamp" value="1479155331678"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg842_errata.pdf" diskSizeKB="242.42" downloadSizeKB="242.42" category="Errata" label="EFM32WG842 Rev A Errata">
+    <property key="timeStamp" value="1468886361003"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg390_errata.pdf" diskSizeKB="277.563" downloadSizeKB="277.563" category="Errata" label="EFM32GG390 Rev D Errata">
+    <property key="timeStamp" value="1468886360980"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg290_errata_history.pdf" diskSizeKB="325.376" downloadSizeKB="325.376" label="EFM32LG290 Errata History">
+    <property key="timeStamp" value="1468886361060"/>
+  </assets>
+  <assets version="1.6" path="/efm32/errata/efm32jg1_errata.pdf" diskSizeKB="775.163" downloadSizeKB="775.163" category="Errata" label="EFM32JG1 Errata">
+    <property key="timeStamp" value="1513889368353"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg280_errata_history.pdf" diskSizeKB="253.046" downloadSizeKB="253.046" label="EFM32WG280 Errata History">
+    <property key="timeStamp" value="1468886361039"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg230_errata.pdf" diskSizeKB="262.241" downloadSizeKB="262.241" category="Errata" label="EFM32LG230 Rev E Errata">
+    <property key="timeStamp" value="1468886360885"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg840_errata.pdf" diskSizeKB="256.456" downloadSizeKB="256.456" category="Errata" label="EFM32GG840 Rev D Errata">
+    <property key="timeStamp" value="1545070706126"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg230_errata.pdf" diskSizeKB="242.429" downloadSizeKB="242.429" category="Errata" label="EFM32WG230 Rev A Errata">
+    <property key="timeStamp" value="1468886360972"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg232_errata_history.pdf" diskSizeKB="323.571" downloadSizeKB="323.571" label="EFM32LG232 Errata History">
+    <property key="timeStamp" value="1468886360888"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg380_errata.pdf" diskSizeKB="265.683" downloadSizeKB="265.683" category="Errata" label="EFM32GG380 Rev D Errata">
+    <property key="timeStamp" value="1545070702963"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg840_errata.pdf" diskSizeKB="248.708" downloadSizeKB="248.708" category="Errata" label="EFM32TG840 Rev C Errata">
+    <property key="timeStamp" value="1468886360866"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg332_errata.pdf" diskSizeKB="276.429" downloadSizeKB="276.429" category="Errata" label="EFM32GG332 Rev D Errata">
+    <property key="timeStamp" value="1468886360966"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg942_errata.pdf" diskSizeKB="264.55" downloadSizeKB="264.55" category="Errata" label="EFM32GG942 Rev D Errata">
+    <property key="timeStamp" value="1545070696670"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg880_errata_history.pdf" diskSizeKB="316.105" downloadSizeKB="316.105" label="EFM32GG880 Errata History">
+    <property key="timeStamp" value="1545070735344"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg330_errata.pdf" diskSizeKB="272.178" downloadSizeKB="272.178" category="Errata" label="EFM32LG330 Rev E Errata">
+    <property key="timeStamp" value="1468886361022"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg330_errata.pdf" diskSizeKB="252.349" downloadSizeKB="252.349" category="Errata" label="EFM32WG330 Rev A Errata">
+    <property key="timeStamp" value="1468886360987"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg390_errata.pdf" diskSizeKB="272.184" downloadSizeKB="272.184" category="Errata" label="EFM32LG390 Rev E Errata">
+    <property key="timeStamp" value="1468886361043"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg995_errata.pdf" diskSizeKB="252.354" downloadSizeKB="252.354" category="Errata" label="EFM32WG995 Rev A Errata">
+    <property key="timeStamp" value="1468886361024"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg295_errata_history.pdf" diskSizeKB="264.045" downloadSizeKB="264.045" label="EFM32WG295 Errata History">
+    <property key="timeStamp" value="1468886361054"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg350_errata.pdf" diskSizeKB="251.442" downloadSizeKB="251.442" category="Errata" label="EFM32HG350 Rev. B Errata">
+    <property key="timeStamp" value="1479155322857"/>
+  </assets>
+  <assets path="/efm32/errata/efm32g222_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata">
+    <property key="timeStamp" value="1533764064194"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg390_errata_history.pdf" diskSizeKB="344.193" downloadSizeKB="344.193" label="EFM32GG390 Errata History">
+    <property key="timeStamp" value="1477061381147"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg940_errata_history.pdf" diskSizeKB="264.085" downloadSizeKB="264.085" label="EFM32WG940 Errata History">
+    <property key="timeStamp" value="1468886361012"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg322_errata_history.pdf" diskSizeKB="267.278" downloadSizeKB="267.278" label="EFM32HG322 Errata History">
+    <property key="timeStamp" value="1479155328766"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg940_errata.pdf" diskSizeKB="272.187" downloadSizeKB="272.187" category="Errata" label="EFM32LG940 Rev E Errata">
+    <property key="timeStamp" value="1468886360930"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg995_errata.pdf" diskSizeKB="272.186" downloadSizeKB="272.186" category="Errata" label="EFM32LG995 Rev E Errata">
+    <property key="timeStamp" value="1468886360992"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg395_errata.pdf" diskSizeKB="277.559" downloadSizeKB="277.559" category="Errata" label="EFM32GG395 Rev D Errata">
+    <property key="timeStamp" value="1468886360931"/>
+  </assets>
+  <assets version="0.30" path="/efm32/errata/efm32zg108_errata_history.pdf" diskSizeKB="243.569" downloadSizeKB="243.569" label="EFM32ZG108 Errata History">
+    <property key="timeStamp" value="1479155332053"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg942_errata_history.pdf" diskSizeKB="339.392" downloadSizeKB="339.392" label="EFM32LG942 Errata History">
+    <property key="timeStamp" value="1468886360993"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg295_errata_history.pdf" diskSizeKB="329.441" downloadSizeKB="329.441" label="EFM32GG295 Errata History">
+    <property key="timeStamp" value="1477061382821"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g840_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G840 Rev D Errata">
+    <property key="timeStamp" value="1533763933297"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg210_errata_history.pdf" diskSizeKB="264.941" downloadSizeKB="264.941" label="EFM32HG210 Errata History">
+    <property key="timeStamp" value="1479155332574"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg380_errata.pdf" diskSizeKB="272.178" downloadSizeKB="272.178" category="Errata" label="EFM32LG380 Rev E Errata">
+    <property key="timeStamp" value="1468886360884"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg990_errata.pdf" diskSizeKB="277.562" downloadSizeKB="277.562" category="Errata" label="EFM32GG990 Rev D Errata">
+    <property key="timeStamp" value="1468886360960"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg310_errata.pdf" diskSizeKB="251.439" downloadSizeKB="251.439" category="Errata" label="EFM32HG310 Rev. B Errata">
+    <property key="timeStamp" value="1479155327574"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg842_errata_history.pdf" diskSizeKB="306.826" downloadSizeKB="306.826" label="EFM32GG842 Errata History">
+    <property key="timeStamp" value="1545070712225"/>
+  </assets>
+  <assets path="/efm32/errata/efm32jg1_errata_history.pdf" diskSizeKB="283.472" downloadSizeKB="283.472">
+    <property key="timeStamp" value="1468886361008"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg360_errata_history.pdf" diskSizeKB="262.62" downloadSizeKB="262.62" label="EFM32WG360 Errata History">
+    <property key="timeStamp" value="1468886361059"/>
+  </assets>
+  <assets version="1.0" path="/efm32/errata/efm32tg222_errata.pdf" diskSizeKB="351.9" downloadSizeKB="351.9" category="Errata" label="EFM32TG222 Rev C Errata">
+    <property key="timeStamp" value="1477061372297"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg210_errata.pdf" diskSizeKB="242.709" downloadSizeKB="242.709" category="Errata" label="EFM32HG210 Rev. B Errata">
+    <property key="timeStamp" value="1479155335027"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg290_errata_history.pdf" diskSizeKB="329.447" downloadSizeKB="329.447" label="EFM32GG290 Errata History">
+    <property key="timeStamp" value="1477061380965"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg980_errata_history.pdf" diskSizeKB="349.063" downloadSizeKB="349.063" label="EFM32LG980 Errata History">
+    <property key="timeStamp" value="1468886361074"/>
+  </assets>
+  <assets version="0.4" path="/efm32/errata/efm32pg12-errata.pdf" diskSizeKB="651.249" downloadSizeKB="651.249" category="Errata" label="EFM32PG12 Errata">
+    <property key="timeStamp" value="1522960408647"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg222_errata_history.pdf" diskSizeKB="265.822" downloadSizeKB="265.822" label="EFM32HG222 Errata History">
+    <property key="timeStamp" value="1479155316233"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg280_errata_history.pdf" diskSizeKB="325.366" downloadSizeKB="325.366" label="EFM32LG280 Errata History">
+    <property key="timeStamp" value="1468886360912"/>
+  </assets>
+  <assets version="0.30" path="/efm32/errata/efm32zg210_errata_history.pdf" diskSizeKB="252.306" downloadSizeKB="252.306" label="EFM32ZG210 Errata History">
+    <property key="timeStamp" value="1479155316436"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg895_errata_history.pdf" diskSizeKB="329.449" downloadSizeKB="329.449" label="EFM32GG895 Errata History">
+    <property key="timeStamp" value="1477061378502"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g230_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G230 Rev D Errata">
+    <property key="timeStamp" value="1533764039834"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg942_errata_history.pdf" diskSizeKB="264.078" downloadSizeKB="264.078" label="EFM32WG942 Errata History">
+    <property key="timeStamp" value="1468886360949"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg940_errata_history.pdf" diskSizeKB="328.832" downloadSizeKB="328.832" label="EFM32GG940 Errata History">
+    <property key="timeStamp" value="1545070754977"/>
+  </assets>
+  <assets version="0.4" path="/efm32/errata/efm32jg12_errata.pdf" diskSizeKB="651.256" downloadSizeKB="651.256" category="Errata" label="EFM32JG12 Errata">
+    <property key="timeStamp" value="1522960389517"/>
+  </assets>
+  <assets version="2.0" path="/efm32/errata/efm32g890_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025" category="Errata" label="EFM32G890 Rev D Errata">
+    <property key="timeStamp" value="1533764105887"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg980_errata.pdf" diskSizeKB="252.358" downloadSizeKB="252.358" category="Errata" label="EFM32WG980 Rev A Errata">
+    <property key="timeStamp" value="1468886360951"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg390_errata_history.pdf" diskSizeKB="264.081" downloadSizeKB="264.081" label="EFM32WG390 Errata History">
+    <property key="timeStamp" value="1468886360996"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg890_errata_history.pdf" diskSizeKB="325.385" downloadSizeKB="325.385" label="EFM32LG890 Errata History">
+    <property key="timeStamp" value="1468886360936"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg900_errata_history.pdf" diskSizeKB="262.53" downloadSizeKB="262.53" label="EFM32LG900 Errata History">
+    <property key="timeStamp" value="1468886360873"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg222_errata.pdf" diskSizeKB="242.716" downloadSizeKB="242.716" category="Errata" label="EFM32HG222 Rev. B Errata">
+    <property key="timeStamp" value="1479155328616"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg332_errata.pdf" diskSizeKB="272.183" downloadSizeKB="272.183" category="Errata" label="EFM32LG332 Rev E Errata">
+    <property key="timeStamp" value="1468886361063"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg942_errata_history.pdf" diskSizeKB="342.341" downloadSizeKB="342.341" label="EFM32GG942 Errata History">
+    <property key="timeStamp" value="1477061389538"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg108_errata_history.pdf" diskSizeKB="256.138" downloadSizeKB="256.138" label="EFM32HG108 Errata History">
+    <property key="timeStamp" value="1479155331307"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg295_errata.pdf" diskSizeKB="252.315" downloadSizeKB="252.315" category="Errata" label="EFM32WG295 Rev A Errata">
+    <property key="timeStamp" value="1468886360942"/>
+  </assets>
+  <assets version="0.30" path="/efm32/errata/efm32zg110_errata.pdf" diskSizeKB="241.053" downloadSizeKB="241.053" category="Errata" label="EFM32ZG110 Rev A Errata">
+    <property key="timeStamp" value="1479155328764"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg310_errata_history.pdf" diskSizeKB="266.596" downloadSizeKB="266.596" label="EFM32HG310 Errata History">
+    <property key="timeStamp" value="1479155317603"/>
+  </assets>
+  <assets version="0.4" path="/efm32/errata/efm32jg12-errata.pdf" diskSizeKB="651.256" downloadSizeKB="651.256" category="Errata" label="EFM32JG12 Errata">
+    <property key="timeStamp" value="1522960395640"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg895_errata.pdf" diskSizeKB="268.866" downloadSizeKB="268.866" category="Errata" label="EFM32GG895 Rev D Errata">
+    <property key="timeStamp" value="1468886360943"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32hg350_errata_history.pdf" diskSizeKB="266.599" downloadSizeKB="266.599" label="EFM32HG350 Errata History">
+    <property key="timeStamp" value="1479155327398"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg890_errata.pdf" diskSizeKB="268.871" downloadSizeKB="268.871" category="Errata" label="EFM32GG890 Rev D Errata">
+    <property key="timeStamp" value="1468886360950"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg280_errata_history.pdf" diskSizeKB="329.442" downloadSizeKB="329.442" label="EFM32GG280 Errata History">
+    <property key="timeStamp" value="1477061384921"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg900_errata_history.pdf" diskSizeKB="283.08" downloadSizeKB="283.08" label="EFM32GG900 Errata History">
+    <property key="timeStamp" value="1477061378905"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg900_errata.pdf" diskSizeKB="249.47" downloadSizeKB="249.47" category="Errata" label="EFM32WG900 Rev A Errata">
+    <property key="timeStamp" value="1468886361061"/>
+  </assets>
+  <assets version="0.30" path="/efm32/errata/efm32zg222_errata_history.pdf" diskSizeKB="252.31" downloadSizeKB="252.31" label="EFM32ZG222 Errata History">
+    <property key="timeStamp" value="1479155313284"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg232_errata.pdf" diskSizeKB="268.366" downloadSizeKB="268.366" category="Errata" label="EFM32GG232 Rev D Errata">
+    <property key="timeStamp" value="1468886361014"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg395_errata_history.pdf" diskSizeKB="344.187" downloadSizeKB="344.187" label="EFM32GG395 Errata History">
+    <property key="timeStamp" value="1477061387704"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg230_errata_history.pdf" diskSizeKB="323.578" downloadSizeKB="323.578" label="EFM32LG230 Errata History">
+    <property key="timeStamp" value="1468886361035"/>
+  </assets>
+  <assets version="1.20" path="/efm32/errata/efm32gg842_errata.pdf" diskSizeKB="268.367" downloadSizeKB="268.367" category="Errata" label="EFM32GG842 Rev D Errata">
+    <property key="timeStamp" value="1468886360892"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32lg840_errata_history.pdf" diskSizeKB="323.57" downloadSizeKB="323.57" label="EFM32LG840 Errata History">
+    <property key="timeStamp" value="1468886361066"/>
+  </assets>
+  <assets version="1.10" path="/efm32/errata/efm32wg290_errata_history.pdf" diskSizeKB="253.045" downloadSizeKB="253.045" label="EFM32WG290 Errata History">
+    <property key="timeStamp" value="1468886360929"/>
+  </assets>
+  <assets version="1.09" path="/efm32/appnote/an0018_efm32_supply_voltage_monitoring.zip" diskSizeKB="2934.669" downloadSizeKB="1249.215" directory="true" label="an0018_efm32_supply_voltage_monitoring">
+    <property key="timeStamp" value="1741985755172"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0918_efm32_migration_guide.zip" diskSizeKB="1297.208" downloadSizeKB="1110.216" directory="true" label="an0918_efm32_migration_guide">
+    <property key="timeStamp" value="1741985755226"/>
+  </assets>
+  <assets version="1.05" path="/efm32/appnote/an0060_efm32_aes_bootloader.zip" diskSizeKB="2587.552" downloadSizeKB="1072.133" directory="true" label="an0060_efm32_aes_bootloader">
+    <property key="timeStamp" value="1741985755340"/>
+  </assets>
+  <assets version="1.02" path="/efm32/appnote/an0040_efm32_capacitive_sense_hw_design.zip" diskSizeKB="3248.925" downloadSizeKB="3047.366" directory="true" label="an0040_efm32_capacitive_sense_hw_design">
+    <property key="timeStamp" value="1741985755464"/>
+  </assets>
+  <assets version="1.07" path="/efm32/appnote/an0030_efm32_fat_on_sd_card.zip" diskSizeKB="609.942" downloadSizeKB="295.66" directory="true" label="an0030_efm32_fat_on_sd_card">
+    <property key="timeStamp" value="1741985755499"/>
+  </assets>
+  <assets version="1.08" path="/efm32/appnote/an0026_efm32_letimer.zip" diskSizeKB="2230.35" downloadSizeKB="1009.429" directory="true" label="an0026_efm32_letimer">
+    <property key="timeStamp" value="1741985755614"/>
+  </assets>
+  <assets version="1.04" path="/efm32/appnote/an0039_efm32_interrupt_handling.zip" diskSizeKB="1953.68" downloadSizeKB="625.171" directory="true" label="an0039_efm32_interrupt_handling">
+    <property key="timeStamp" value="1741985755728"/>
+  </assets>
+  <assets version="1.48" path="/efm32/appnote/an0002_efm32_hardware_design_considerations.zip" diskSizeKB="16725.165" downloadSizeKB="15994.39" directory="true" label="an0002_efm32_hardware_design_considerations">
+    <property key="timeStamp" value="1741985756314"/>
+  </assets>
+  <assets version="1.08" path="/efm32/appnote/an0034_efm32_ebi.zip" diskSizeKB="701.514" downloadSizeKB="294.549" directory="true" label="an0034_efm32_ebi">
+    <property key="timeStamp" value="1741985756356"/>
+  </assets>
+  <assets version="0.00" path="/efm32/appnote/an0955_efm32_mbedtls_crypto_demo.zip" diskSizeKB="1414.565" downloadSizeKB="743.381" directory="true" label="an0955_efm32_mbedtls_crypto_demo">
+    <property key="timeStamp" value="1741985756440"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0065_efm32_usb_device.zip" diskSizeKB="32050.694" downloadSizeKB="11066.884" directory="true" label="an0065_efm32_usb_device">
+    <property key="timeStamp" value="1741985757691"/>
+  </assets>
+  <assets version="0.00" path="/efm32/appnote/an1029_efm32_ldma.zip" diskSizeKB="1210.306" downloadSizeKB="722.464" directory="true" label="an1029_efm32_ldma">
+    <property key="timeStamp" value="1741985757757"/>
+  </assets>
+  <assets version="1.07" path="/efm32/appnote/an0047_efm32_graphical_display.zip" diskSizeKB="1466.683" downloadSizeKB="665.488" directory="true" label="an0047_efm32_graphical_display">
+    <property key="timeStamp" value="1741985757844"/>
+  </assets>
+  <assets version="1.04" path="/efm32/appnote/an0048_efm32_energy_friendly_display.zip" diskSizeKB="4772.651" downloadSizeKB="2755.452" directory="true" label="an0048_efm32_energy_friendly_display">
+    <property key="timeStamp" value="1741985758104"/>
+  </assets>
+  <assets version="1.01" path="/efm32/appnote/an0801_efm32_usb_host.zip" diskSizeKB="834.475" downloadSizeKB="484.351" directory="true" label="an0801_efm32_usb_host">
+    <property key="timeStamp" value="1741985758154"/>
+  </assets>
+  <assets version="1.08" path="/efm32/appnote/an0017_efm32_leuart.zip" diskSizeKB="987.928" downloadSizeKB="394.871" directory="true" label="an0017_efm32_leuart">
+    <property key="timeStamp" value="1741985758208"/>
+  </assets>
+  <assets version="1.05" path="/efm32/appnote/an0055_efm32_speex_codec.zip" diskSizeKB="4849.746" downloadSizeKB="2158.561" directory="true" label="an0055_efm32_speex_codec">
+    <property key="timeStamp" value="1741985758500"/>
+  </assets>
+  <assets version="1.11" path="/efm32/appnote/an0021_efm32_adc.zip" diskSizeKB="1215.491" downloadSizeKB="500.665" directory="true" label="an0021_efm32_adc">
+    <property key="timeStamp" value="1741985758566"/>
+  </assets>
+  <assets version="1.01" path="/efm32/appnote/an0046_efm32_usb_hardware_design_guidelines.zip" diskSizeKB="1133.883" downloadSizeKB="986.06" directory="true" label="an0046_efm32_usb_hardware_design_guidelines">
+    <property key="timeStamp" value="1741985758611"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0045_efm32_uart_rs-232.zip" diskSizeKB="421.019" downloadSizeKB="227.612" directory="true" label="an0045_efm32_uart_rs-232">
+    <property key="timeStamp" value="1741985758634"/>
+  </assets>
+  <assets version="0.00" path="/efm32/appnote/an0948_efm32_power_configurations_and_dcdc.zip" diskSizeKB="817.179" downloadSizeKB="545.014" directory="true" label="an0948_efm32_power_configurations_and_dcdc">
+    <property key="timeStamp" value="1741985758677"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0027_efm32_energy_optimization.zip" diskSizeKB="2504.216" downloadSizeKB="2011.429" directory="true" label="an0027_efm32_energy_optimization">
+    <property key="timeStamp" value="1741985758759"/>
+  </assets>
+  <assets version="1.01" path="/efm32/appnote/an0031_efm32_kit_prototyping_library.zip" diskSizeKB="811.737" downloadSizeKB="581.329" directory="true" label="an0031_efm32_kit_prototyping_library">
+    <property key="timeStamp" value="1741985758793"/>
+  </assets>
+  <assets version="0.00" path="/efm32/appnote/an0816_efm32_bldc.zip" diskSizeKB="29030.2" downloadSizeKB="10829.665" directory="true" label="an0816_efm32_bldc">
+    <property key="timeStamp" value="1741985759978"/>
+  </assets>
+  <assets version="1.08" path="/efm32/appnote/an0025_efm32_prs.zip" diskSizeKB="1202.768" downloadSizeKB="588.146" directory="true" label="an0025_efm32_prs">
+    <property key="timeStamp" value="1741985760052"/>
+  </assets>
+  <assets version="1.02" path="/efm32/appnote/an0806_efm32_fortuna_prng.zip" diskSizeKB="785.596" downloadSizeKB="299.212" directory="true" label="an0806_efm32_fortuna_prng">
+    <property key="timeStamp" value="1741985760100"/>
+  </assets>
+  <assets version="2.05" path="/efm32/appnote/an0006_efm32_tickless_calendar.zip" diskSizeKB="983.94" downloadSizeKB="326.895" directory="true" label="an0006_efm32_tickless_calendar">
+    <property key="timeStamp" value="1741985760163"/>
+  </assets>
+  <assets version="2.10" path="/efm32/appnote/an0028_efm32_lesense_capacitive_sense.zip" diskSizeKB="1014.091" downloadSizeKB="690.34" directory="true" label="an0028_efm32_lesense_capacitive_sense">
+    <property key="timeStamp" value="1741985760216"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0043_efm32_debug_trace_capabilities.zip" diskSizeKB="1687.729" downloadSizeKB="1164.883" directory="true" label="an0043_efm32_debug_trace_capabilities">
+    <property key="timeStamp" value="1741985760294"/>
+  </assets>
+  <assets version="1.10" path="/efm32/appnote/an0014_efm32_timer.zip" diskSizeKB="5656.168" downloadSizeKB="1173.542" directory="true" label="an0014_efm32_timer">
+    <property key="timeStamp" value="1741985760643"/>
+  </assets>
+  <assets version="1.02" path="/efm32/appnote/an0062_efm32_programming_guide.zip" diskSizeKB="1129.658" downloadSizeKB="571.748" directory="true" label="an0062_efm32_programming_guide">
+    <property key="timeStamp" value="1741985760711"/>
+  </assets>
+  <assets version="1.01" path="/efm32/appnote/an0063_efm32_epd.zip" diskSizeKB="3703.338" downloadSizeKB="2938.386" directory="true" label="an0063_efm32_epd">
+    <property key="timeStamp" value="1741985760894"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0053_efm32_ir_sensor_lesense.zip" diskSizeKB="771.894" downloadSizeKB="386.252" directory="true" label="an0053_efm32_ir_sensor_lesense">
+    <property key="timeStamp" value="1741985760934"/>
+  </assets>
+  <assets version="1.08" path="/efm32/appnote/an0020_efm32_analog_comparator.zip" diskSizeKB="1280.558" downloadSizeKB="353.399" directory="true" label="an0020_efm32_analog_comparator">
+    <property key="timeStamp" value="1741985761011"/>
+  </assets>
+  <assets version="1.04" path="/efm32/appnote/an0057_efm32_segment_lcd.zip" diskSizeKB="2743.134" downloadSizeKB="1877.688" directory="true" label="an0057_efm32_segment_lcd">
+    <property key="timeStamp" value="1741985761146"/>
+  </assets>
+  <assets version="1.06" path="/efm32/appnote/an0011_efm32_i2c.zip" diskSizeKB="560.468" downloadSizeKB="246.202" directory="true" label="an0011_efm32_i2c">
+    <property key="timeStamp" value="1741985761183"/>
+  </assets>
+  <assets version="2.01" path="/efm32/appnote/an0012_efm32_gpio.zip" diskSizeKB="5782.169" downloadSizeKB="1181.01" directory="true" label="an0012_efm32_gpio">
+    <property key="timeStamp" value="1741985761539"/>
+  </assets>
+  <assets version="1.10" path="/efm32/appnote/an0022_efm32_dac.zip" diskSizeKB="2335.176" downloadSizeKB="593.463" directory="true" label="an0022_efm32_dac">
+    <property key="timeStamp" value="1741985761669"/>
+  </assets>
+  <assets version="1.22" path="/efm32/appnote/an0009_efm32_getting_started.zip" diskSizeKB="8154.876" downloadSizeKB="3131.623" directory="true" label="an0009_efm32_getting_started">
+    <property key="timeStamp" value="1741985762106"/>
+  </assets>
+  <assets version="2.05" path="/efm32/appnote/an0013_efm32_dma.zip" diskSizeKB="1659.061" downloadSizeKB="454.289" directory="true" label="an0013_efm32_dma">
+    <property key="timeStamp" value="1741985762206"/>
+  </assets>
+  <assets version="1.06" path="/efm32/appnote/an0029_efm32_lesense_lc_sense.zip" diskSizeKB="1318.239" downloadSizeKB="500.654" directory="true" label="an0029_efm32_lesense_lc_sense">
+    <property key="timeStamp" value="1741985762282"/>
+  </assets>
+  <assets version="1.13" path="/efm32/appnote/an0008_efm32_usart-spi.zip" diskSizeKB="429.388" downloadSizeKB="225.211" directory="true" label="an0008_efm32_usart-spi">
+    <property key="timeStamp" value="1741985762316"/>
+  </assets>
+  <assets version="1.48" path="/efm32/appnote/an0015_efm32_watchdog.zip" diskSizeKB="2391.093" downloadSizeKB="1207.889" directory="true" label="an0015_efm32_watchdog">
+    <property key="timeStamp" value="1741985762441"/>
+  </assets>
+  <assets version="1.10" path="/efm32/appnote/an0004_efm32_cmu.zip" diskSizeKB="2321.5" downloadSizeKB="1341.956" directory="true" label="an0004_efm32_cmu">
+    <property key="timeStamp" value="1741985762588"/>
+  </assets>
+  <assets version="0.00" path="/efm32/appnote/an1011_efm32_standalone_programmer.zip" diskSizeKB="4214.502" downloadSizeKB="1118.097" directory="true" label="an1011_efm32_standalone_programmer">
+    <property key="timeStamp" value="1741985762728"/>
+  </assets>
+  <assets version="1.00" path="/efm32/appnote/an0064_efm32_idac.zip" diskSizeKB="858.294" downloadSizeKB="304.956" directory="true" label="an0064_efm32_idac">
+    <property key="timeStamp" value="1741985762784"/>
+  </assets>
+  <assets version="1.00" path="/efm32/appnote/an0861_efm32_lufa_usb_cdc.zip" diskSizeKB="38139.129" downloadSizeKB="12268.683" directory="true" label="an0861_efm32_lufa_usb_cdc">
+    <property key="timeStamp" value="1741985766839"/>
+  </assets>
+  <assets version="1.09" path="/efm32/appnote/an0005_efm32_rtc.zip" diskSizeKB="1596.92" downloadSizeKB="652.228" directory="true" label="an0005_efm32_rtc">
+    <property key="timeStamp" value="1741985766946"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0059_efm32_uart_flow_control.zip" diskSizeKB="3483.932" downloadSizeKB="1257.35" directory="true" label="an0059_efm32_uart_flow_control">
+    <property key="timeStamp" value="1741985767127"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0052_efm32_usb_msd_host_bootloader.zip" diskSizeKB="1913.347" downloadSizeKB="1338.876" directory="true" label="an0052_efm32_usb_msd_host_bootloader">
+    <property key="timeStamp" value="1741985767267"/>
+  </assets>
+  <assets version="1.07" path="/efm32/appnote/an0024_efm32_pcnt.zip" diskSizeKB="1063.258" downloadSizeKB="339.801" directory="true" label="an0024_efm32_pcnt">
+    <property key="timeStamp" value="1741985767338"/>
+  </assets>
+  <assets version="1.22" path="/efm32/appnote/an0042_efm32_usb_uart_bootloader.zip" diskSizeKB="4473.157" downloadSizeKB="1666.617" directory="true" label="an0042_efm32_usb_uart_bootloader">
+    <property key="timeStamp" value="1741985767686"/>
+  </assets>
+  <assets version="1.74" path="/efm32/appnote/an0003_efm32_uart_bootloader.zip" diskSizeKB="3340.595" downloadSizeKB="1529.324" directory="true" label="an0003_efm32_uart_bootloader">
+    <property key="timeStamp" value="1741985768189"/>
+  </assets>
+  <assets version="1.11" path="/efm32/appnote/an0033_efm32_aes_cipher_modes.zip" diskSizeKB="1741.006" downloadSizeKB="710.217" directory="true" label="an0033_efm32_aes_cipher_modes">
+    <property key="timeStamp" value="1741985768333"/>
+  </assets>
+  <assets version="1.10" path="/efm32/appnote/an0007_efm32_energymodes.zip" diskSizeKB="2563.86" downloadSizeKB="1572.819" directory="true" label="an0007_efm32_energymodes">
+    <property key="timeStamp" value="1741985768453"/>
+  </assets>
+  <assets version="1.30" path="/efm32/appnote/an0016_efm32_oscillator_design_considerations.zip" diskSizeKB="1389.689" downloadSizeKB="1180.454" directory="true" label="an0016_efm32_oscillator_design_considerations">
+    <property key="timeStamp" value="1741985768514"/>
+  </assets>
+  <assets version="1.08" path="/efm32/appnote/an0032_efm32_ethernet.zip" diskSizeKB="3780.831" downloadSizeKB="2073.948" directory="true" label="an0032_efm32_ethernet">
+    <property key="timeStamp" value="1741985768770"/>
+  </assets>
+  <assets version="1.00" path="/efm32/appnote/an0820_efm32_smart_card.zip" diskSizeKB="10310.139" downloadSizeKB="8822.432" directory="true" label="an0820_efm32_smart_card">
+    <property key="timeStamp" value="1741985769134"/>
+  </assets>
+  <assets version="1.04" path="/efm32/appnote/an0054_efm32_phone_audio_jack_interface.zip" diskSizeKB="1411.763" downloadSizeKB="1115.225" directory="true" label="an0054_efm32_phone_audio_jack_interface">
+    <property key="timeStamp" value="1741985769196"/>
+  </assets>
+  <assets version="1.06" path="/efm32/appnote/an0036_efm32_lesense_resistive_sense.zip" diskSizeKB="878.182" downloadSizeKB="349.576" directory="true" label="an0036_efm32_lesense_resistive_sense">
+    <property key="timeStamp" value="1741985769246"/>
+  </assets>
+  <assets version="1.09" path="/efm32/appnote/an0019_efm32_eeprom_emulation.zip" diskSizeKB="1229.734" downloadSizeKB="356.956" directory="true" label="an0019_efm32_eeprom_emulation">
+    <property key="timeStamp" value="1741985769317"/>
+  </assets>
+  <assets version="1.02" path="/efm32/appnote/an0061_efm32_energy_harvesting.zip" diskSizeKB="1143.035" downloadSizeKB="774.059" directory="true" label="an0061_efm32_energy_harvesting">
+    <property key="timeStamp" value="1741985769370"/>
+  </assets>
+  <assets version="0.00" path="/efm32/appnote/an1112_efm32_helix_mp3_decoder.zip" diskSizeKB="83135.929" downloadSizeKB="29530.928" directory="true" label="an1112_efm32_helix_mp3_decoder">
+    <property key="timeStamp" value="1741985775115"/>
+  </assets>
+  <assets version="1.13" path="/efm32/appnote/an0023_efm32_eclipse_toolchain.zip" diskSizeKB="15030.35" downloadSizeKB="14662.663" directory="true" label="an0023_efm32_eclipse_toolchain">
+    <property key="timeStamp" value="1741985775726"/>
+  </assets>
+  <assets version="1.26" path="/efm32/appnote/an0041_efm32_backup_power_domain.zip" diskSizeKB="2332.468" downloadSizeKB="1935.596" directory="true" label="an0041_efm32_backup_power_domain">
+    <property key="timeStamp" value="1741985775829"/>
+  </assets>
+  <assets version="1.06" path="/efm32/appnote/an0038_efm32_operational_amplifiers.zip" diskSizeKB="8708.353" downloadSizeKB="6783.188" directory="true" label="an0038_efm32_operational_amplifiers">
+    <property key="timeStamp" value="1741985776305"/>
+  </assets>
+  <assets version="1.03" path="/efm32/appnote/an0051_efm32_dsp.zip" diskSizeKB="1532.383" downloadSizeKB="455.11" directory="true" label="an0051_efm32_dsp">
+    <property key="timeStamp" value="1741985776426"/>
+  </assets>
+  <assets version="" path="/efm32/sensor_puck/sensor_puck_bom.pdf" diskSizeKB="119.653" downloadSizeKB="119.653" category="Schematic and Layout Files" label="Sensor Puck Bill of Materials">
+    <property key="timeStamp" value="1468886363538"/>
+  </assets>
+  <assets version="" path="/efm32/sensor_puck/sensor_puck_schematic.pdf" diskSizeKB="34.949" downloadSizeKB="34.949" category="Schematic and Layout Files" label="Sensor Puck Schematic">
+    <property key="timeStamp" value="1468886363536"/>
+  </assets>
+  <assets path="/efm32/sensor_puck/sensor-puck.png" diskSizeKB="338.177" downloadSizeKB="338.177">
+    <property key="timeStamp" value="1553280005215"/>
+  </assets>
+  <assets path="/efm32/sensor_puck/sensor_puck_ug_rev1.0.pdf" diskSizeKB="904.596" downloadSizeKB="904.596" category="User's Guides">
+    <property key="timeStamp" value="1468886363538"/>
+  </assets>
+  <assets path="/efm32/sensor_puck/sensor_puck_assembly_drawing.pdf" diskSizeKB="435.355" downloadSizeKB="435.355" category="Schematic and Layout Files">
+    <property key="timeStamp" value="1468886363540"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG12B500F1024IM48_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1486815186956"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F256GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361816"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG13BxxxF256_core.json" diskSizeKB="1.176" downloadSizeKB="1.176">
+    <property key="timeStamp" value="1497053326846"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B100.json" diskSizeKB="2212.266" downloadSizeKB="2212.266">
+    <property key="timeStamp" value="1486815186942"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B100F256GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361811"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B100F64GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361810"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F128GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361804"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG12B500F1024IL125_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1486815186948"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F256GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361804"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F128GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361810"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG12B500F1024GM48_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1486815186933"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F64GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361812"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B200.json" diskSizeKB="2212.266" downloadSizeKB="2212.266">
+    <property key="timeStamp" value="1486815186980"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F64GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361809"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG1B100F128GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361803"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG12B500F1024GL125_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1486815186984"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG13BxxxF512_core.json" diskSizeKB="1.179" downloadSizeKB="1.179">
+    <property key="timeStamp" value="1497053332035"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG13.json" diskSizeKB="3247.042" downloadSizeKB="3247.042">
+    <property key="timeStamp" value="1497053330647"/>
+  </assets>
+  <assets path="/efm32/debug/jg/EFM32JG12B500.json" diskSizeKB="3604.255" downloadSizeKB="3604.255">
+    <property key="timeStamp" value="1486815186971"/>
+  </assets>
+  <assets path="/efm32/debug/common/CM4.json" diskSizeKB="129.678" downloadSizeKB="129.678">
+    <property key="timeStamp" value="1582654572439"/>
+  </assets>
+  <assets path="/efm32/debug/common/CM0P.json" diskSizeKB="89.985" downloadSizeKB="89.985">
+    <property key="timeStamp" value="1701094306127"/>
+  </assets>
+  <assets path="/efm32/debug/common/CM33.json" diskSizeKB="211.818" downloadSizeKB="211.818">
+    <property key="timeStamp" value="1582654572422"/>
+  </assets>
+  <assets path="/efm32/debug/common/CM3.json" diskSizeKB="128.528" downloadSizeKB="128.528">
+    <property key="timeStamp" value="1573256294340"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG842F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361762"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG232F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361796"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG842F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361764"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG110F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361747"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG210F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361797"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG230.json" diskSizeKB="1344.982" downloadSizeKB="1344.982">
+    <property key="timeStamp" value="1486815186858"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG840.json" diskSizeKB="1373.089" downloadSizeKB="1373.089">
+    <property key="timeStamp" value="1486815186814"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG110.json" diskSizeKB="1344.982" downloadSizeKB="1344.982">
+    <property key="timeStamp" value="1486815186902"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG840F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361747"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG822F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361773"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG230F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361795"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG110F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361783"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG222F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361802"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG840F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361754"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG840F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361748"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG230F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361778"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG825F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361802"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG108F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361785"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG825F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361755"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG210F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361761"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG225.json" diskSizeKB="1344.982" downloadSizeKB="1344.982">
+    <property key="timeStamp" value="1486815186795"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG225F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361782"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG842.json" diskSizeKB="1373.089" downloadSizeKB="1373.089">
+    <property key="timeStamp" value="1486815186838"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG825.json" diskSizeKB="1373.089" downloadSizeKB="1373.089">
+    <property key="timeStamp" value="1486815186773"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG210F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361771"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG108F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361788"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG110F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361784"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG11B120.json" diskSizeKB="3225.734" downloadSizeKB="3225.734">
+    <property key="timeStamp" value="1498239241697"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG11B340.json" diskSizeKB="3261.621" downloadSizeKB="3261.621">
+    <property key="timeStamp" value="1498239238915"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG11B520.json" diskSizeKB="3261.621" downloadSizeKB="3261.621">
+    <property key="timeStamp" value="1498239236139"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG222.json" diskSizeKB="1344.982" downloadSizeKB="1344.982">
+    <property key="timeStamp" value="1486815186782"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG108F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361769"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG225F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361770"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG11B140.json" diskSizeKB="3225.734" downloadSizeKB="3225.734">
+    <property key="timeStamp" value="1498239240763"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG842F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361768"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG232F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361745"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG232.json" diskSizeKB="1344.982" downloadSizeKB="1344.982">
+    <property key="timeStamp" value="1486815186873"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG230F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361797"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG210.json" diskSizeKB="1344.982" downloadSizeKB="1344.982">
+    <property key="timeStamp" value="1486815186883"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG108.json" diskSizeKB="1175.943" downloadSizeKB="1175.943">
+    <property key="timeStamp" value="1486815186845"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG11B320.json" diskSizeKB="3261.621" downloadSizeKB="3261.621">
+    <property key="timeStamp" value="1498239238006"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG232F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361771"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG822.json" diskSizeKB="1373.089" downloadSizeKB="1373.089">
+    <property key="timeStamp" value="1486815186920"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG110F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361791"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG108F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361764"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG825F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361763"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG225F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361798"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG222F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361779"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG11B540.json" diskSizeKB="3261.621" downloadSizeKB="3261.621">
+    <property key="timeStamp" value="1498239236152"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG222F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361746"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG822F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361792"/>
+  </assets>
+  <assets path="/efm32/debug/tg/EFM32TG822F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361772"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg28b310f1024im68.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480600047"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EEFM32PG23Bxx0FxxxIM4x.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1626374554874"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG12B500F1024GL125_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1486815187010"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22c200f64im32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480599704"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b210f256im48.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599799"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b210f64im48.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599824"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b301f2048il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777469"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b301f2048im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777470"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22c200f256im32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480599651"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b200f64im40.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599767"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b301f1024im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777475"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG12B500F1024IL125_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1486815186993"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG1B200F256GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361818"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b501f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777479"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22_core.json" diskSizeKB="3409.481" downloadSizeKB="3409.481">
+    <property key="timeStamp" value="1678480599610"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22c200f128im32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480599624"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22c200f128im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480599637"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG12B500F1024GM48_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1486815186991"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG1B100F128GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361817"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG13.json" diskSizeKB="3254.449" downloadSizeKB="3254.449">
+    <property key="timeStamp" value="1497053453606"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b501f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777584"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG1B200F128GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361824"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG12B500F1024IM48_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1486815187036"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b101f512im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777591"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b301f1024il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777593"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22c200f256im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480599663"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b200f512im40.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599754"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG1B200.json" diskSizeKB="2219.673" downloadSizeKB="2219.673">
+    <property key="timeStamp" value="1486815187008"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b310f64im48.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599958"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG23Bxx0FxxxIM4x.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1623859409478"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b200f256im40.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599743"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG12B500.json" diskSizeKB="3611.662" downloadSizeKB="3611.662">
+    <property key="timeStamp" value="1486815187020"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG13BxxxF512_core.json" diskSizeKB="1.176" downloadSizeKB="1.176">
+    <property key="timeStamp" value="1497053455770"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26_core.json" diskSizeKB="7022.168" downloadSizeKB="7022.168">
+    <property key="timeStamp" value="1741985777741"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b101f512il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777746"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b210f512im48.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599813"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG23Bxx0F64IM4x.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1623859409469"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG13BxxxF256_core.json" diskSizeKB="1.176" downloadSizeKB="1.176">
+    <property key="timeStamp" value="1497053455768"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b310f256im48.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599907"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22c200f512im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480599692"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b501f3200il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777758"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG23_core.json" diskSizeKB="5353.063" downloadSizeKB="5353.063">
+    <property key="timeStamp" value="1623859409501"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22c200f64im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480599717"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b210f128im48.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599778"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b500f3200il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777836"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b500f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777838"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg28_core.json" diskSizeKB="5989.316" downloadSizeKB="5989.316">
+    <property key="timeStamp" value="1678480599995"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b200f128im40.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599729"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b310f128im48.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599837"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg28b200f512im68.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480600008"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg26b500f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1741985777923"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG1B200F128GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361828"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg28b300f512im68.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480600036"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg22c200f512im32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480599679"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg23b310f512im48.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480599946"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG1B100.json" diskSizeKB="2219.673" downloadSizeKB="2219.673">
+    <property key="timeStamp" value="1486815187034"/>
+  </assets>
+  <assets path="/efm32/debug/pg/efm32pg28b210f1024im68.json" diskSizeKB="0.315" downloadSizeKB="0.315">
+    <property key="timeStamp" value="1678480600025"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG1B100F256GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361818"/>
+  </assets>
+  <assets path="/efm32/debug/pg/EFM32PG1B200F256GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361819"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG310F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361567"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG322.json" diskSizeKB="1237.511" downloadSizeKB="1237.511">
+    <property key="timeStamp" value="1486815186378"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG309F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361591"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG310F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361575"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG308F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361574"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG222.json" diskSizeKB="1100.439" downloadSizeKB="1100.439">
+    <property key="timeStamp" value="1486815186370"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG321F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361571"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG350F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361582"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG210F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361594"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG110F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361582"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG322F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361566"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG308.json" diskSizeKB="1182.39" downloadSizeKB="1182.39">
+    <property key="timeStamp" value="1486815186357"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG108F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361566"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG108F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361578"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG310.json" diskSizeKB="1237.511" downloadSizeKB="1237.511">
+    <property key="timeStamp" value="1486815186330"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG210.json" diskSizeKB="1100.439" downloadSizeKB="1100.439">
+    <property key="timeStamp" value="1486815186257"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG222F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361591"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG308F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361587"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG321.json" diskSizeKB="1227.338" downloadSizeKB="1227.338">
+    <property key="timeStamp" value="1486815186285"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG309F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361596"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG108.json" diskSizeKB="1045.318" downloadSizeKB="1045.318">
+    <property key="timeStamp" value="1486815186311"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG110F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361595"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG322F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361585"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG321F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361590"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG110.json" diskSizeKB="1100.439" downloadSizeKB="1100.439">
+    <property key="timeStamp" value="1486815186298"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG222F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361570"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG309.json" diskSizeKB="1237.511" downloadSizeKB="1237.511">
+    <property key="timeStamp" value="1486815186343"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG350.json" diskSizeKB="1237.511" downloadSizeKB="1237.511">
+    <property key="timeStamp" value="1486815186272"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG210F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361581"/>
+  </assets>
+  <assets path="/efm32/debug/hg/EFM32HG350F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361586"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G210F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361561"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G880F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361551"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G880.json" diskSizeKB="1326.268" downloadSizeKB="1326.268">
+    <property key="timeStamp" value="1486815186141"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G230.json" diskSizeKB="1231.885" downloadSizeKB="1231.885">
+    <property key="timeStamp" value="1486815186232"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G842.json" diskSizeKB="1259.383" downloadSizeKB="1259.383">
+    <property key="timeStamp" value="1486815186148"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G230F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361557"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G232F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361531"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G890F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361560"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G222F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361504"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G290F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361563"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G880F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361506"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G800.json" diskSizeKB="1326.268" downloadSizeKB="1326.268">
+    <property key="timeStamp" value="1486815186158"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G200.json" diskSizeKB="1023.942" downloadSizeKB="1023.942">
+    <property key="timeStamp" value="1486815186119"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G842F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361532"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G232F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361516"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G800F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361517"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G290F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361534"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G840.json" diskSizeKB="1259.383" downloadSizeKB="1259.383">
+    <property key="timeStamp" value="1486815186104"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G842F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361552"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G222.json" diskSizeKB="1126.599" downloadSizeKB="1126.599">
+    <property key="timeStamp" value="1486815186242"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G842F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361552"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G200F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361562"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G840F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361527"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G800F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361515"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G200F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361510"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G232.json" diskSizeKB="1231.885" downloadSizeKB="1231.885">
+    <property key="timeStamp" value="1486815186192"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G800F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361531"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G890.json" diskSizeKB="1326.268" downloadSizeKB="1326.268">
+    <property key="timeStamp" value="1486815186183"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G200F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361533"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G280F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361516"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G290F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361505"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G210.json" diskSizeKB="1037.046" downloadSizeKB="1037.046">
+    <property key="timeStamp" value="1486815186176"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G280.json" diskSizeKB="1298.77" downloadSizeKB="1298.77">
+    <property key="timeStamp" value="1486815186203"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G290.json" diskSizeKB="1298.77" downloadSizeKB="1298.77">
+    <property key="timeStamp" value="1486815186213"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G280F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361553"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G890F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361550"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G840F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361547"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G232F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361543"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G222F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361514"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G230F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361554"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G280F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361543"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G880F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361510"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G890F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361519"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G230F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361503"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G222F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361518"/>
+  </assets>
+  <assets path="/efm32/debug/g/EFM32G840F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361509"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B510.json" diskSizeKB="5759.011" downloadSizeKB="5759.011">
+    <property key="timeStamp" value="1497556512574"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG295F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361488"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B520.json" diskSizeKB="5759.011" downloadSizeKB="5759.011">
+    <property key="timeStamp" value="1497556527875"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B530.json" diskSizeKB="4471.826" downloadSizeKB="4471.826">
+    <property key="timeStamp" value="1545070412067"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG230.json" diskSizeKB="1968.105" downloadSizeKB="1968.105">
+    <property key="timeStamp" value="1486815185898"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG842F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361474"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG890F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361398"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG880.json" diskSizeKB="2215.859" downloadSizeKB="2215.859">
+    <property key="timeStamp" value="1486815185926"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG290F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361401"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG280.json" diskSizeKB="2181.023" downloadSizeKB="2181.023">
+    <property key="timeStamp" value="1486815185836"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B830.json" diskSizeKB="5172.465" downloadSizeKB="5172.465">
+    <property key="timeStamp" value="1545070393297"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG330F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361449"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B320.json" diskSizeKB="5759.011" downloadSizeKB="5759.011">
+    <property key="timeStamp" value="1497556533213"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG942.json" diskSizeKB="2381.622" downloadSizeKB="2381.622">
+    <property key="timeStamp" value="1486815186077"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG395F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361403"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG280F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361421"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG842F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361399"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG995F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361363"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG332F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361495"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG842.json" diskSizeKB="2002.941" downloadSizeKB="2002.941">
+    <property key="timeStamp" value="1486815185825"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG940.json" diskSizeKB="2381.622" downloadSizeKB="2381.622">
+    <property key="timeStamp" value="1486815185815"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B590.json" diskSizeKB="5759.011" downloadSizeKB="5759.011">
+    <property key="timeStamp" value="1497556526688"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG380F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361409"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B110.json" diskSizeKB="4532.377" downloadSizeKB="4532.377">
+    <property key="timeStamp" value="1545070424343"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B110.json" diskSizeKB="5846.647" downloadSizeKB="5846.647">
+    <property key="timeStamp" value="1497556527895"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG380.json" diskSizeKB="2559.704" downloadSizeKB="2559.704">
+    <property key="timeStamp" value="1486815186037"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B510.json" diskSizeKB="4471.827" downloadSizeKB="4471.827">
+    <property key="timeStamp" value="1545070374103"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG380F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361392"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG290.json" diskSizeKB="2181.023" downloadSizeKB="2181.023">
+    <property key="timeStamp" value="1486815186047"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B820.json" diskSizeKB="6581.411" downloadSizeKB="6581.411">
+    <property key="timeStamp" value="1497556512596"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B310.json" diskSizeKB="5759.011" downloadSizeKB="5759.011">
+    <property key="timeStamp" value="1497556509990"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG890F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361489"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B430.json" diskSizeKB="5172.465" downloadSizeKB="5172.465">
+    <property key="timeStamp" value="1545070426798"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG942F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361448"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B410.json" diskSizeKB="5172.466" downloadSizeKB="5172.466">
+    <property key="timeStamp" value="1545070453154"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG990F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361501"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG332F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361432"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG390F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361477"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG990.json" diskSizeKB="2594.54" downloadSizeKB="2594.54">
+    <property key="timeStamp" value="1486815185962"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG280F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361402"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG840F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361503"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG395.json" diskSizeKB="2559.704" downloadSizeKB="2559.704">
+    <property key="timeStamp" value="1486815185989"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG230F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361475"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B390.json" diskSizeKB="4535.059" downloadSizeKB="4535.059">
+    <property key="timeStamp" value="1545070444177"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG995.json" diskSizeKB="2594.54" downloadSizeKB="2594.54">
+    <property key="timeStamp" value="1486815185886"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B130.json" diskSizeKB="4532.376" downloadSizeKB="4532.376">
+    <property key="timeStamp" value="1545070450851"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B120.json" diskSizeKB="5846.647" downloadSizeKB="5846.647">
+    <property key="timeStamp" value="1497556527867"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG895F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361453"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG895.json" diskSizeKB="2215.859" downloadSizeKB="2215.859">
+    <property key="timeStamp" value="1486815185999"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG980F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361500"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B810.json" diskSizeKB="5172.466" downloadSizeKB="5172.466">
+    <property key="timeStamp" value="1545070374211"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG330F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361473"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG990F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361478"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG980.json" diskSizeKB="2594.54" downloadSizeKB="2594.54">
+    <property key="timeStamp" value="1486815185953"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG880F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361416"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG395F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361493"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG890.json" diskSizeKB="2215.859" downloadSizeKB="2215.859">
+    <property key="timeStamp" value="1486815185795"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG230F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361431"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG295F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361476"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG232F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361479"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B310.json" diskSizeKB="4568.265" downloadSizeKB="4568.265">
+    <property key="timeStamp" value="1545070414842"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG895F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361450"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B390.json" diskSizeKB="5759.011" downloadSizeKB="5759.011">
+    <property key="timeStamp" value="1497556515427"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG900.json" diskSizeKB="2594.54" downloadSizeKB="2594.54">
+    <property key="timeStamp" value="1486815185846"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG232F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361399"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG880F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361494"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG390.json" diskSizeKB="2559.704" downloadSizeKB="2559.704">
+    <property key="timeStamp" value="1486815186011"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG332.json" diskSizeKB="2346.786" downloadSizeKB="2346.786">
+    <property key="timeStamp" value="1486815185937"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG330.json" diskSizeKB="2346.786" downloadSizeKB="2346.786">
+    <property key="timeStamp" value="1486815185859"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG12B330.json" diskSizeKB="4568.264" downloadSizeKB="4568.264">
+    <property key="timeStamp" value="1545070411978"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG900F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361447"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG290F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361465"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG980F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361364"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG942F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361362"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG390F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361452"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG995F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361449"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG295.json" diskSizeKB="2181.023" downloadSizeKB="2181.023">
+    <property key="timeStamp" value="1486815185805"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG232.json" diskSizeKB="1968.105" downloadSizeKB="1968.105">
+    <property key="timeStamp" value="1486815186061"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG940F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249">
+    <property key="timeStamp" value="1468886361400"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG900F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361500"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B840.json" diskSizeKB="6581.411" downloadSizeKB="6581.411">
+    <property key="timeStamp" value="1497556512585"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG11B420.json" diskSizeKB="6581.411" downloadSizeKB="6581.411">
+    <property key="timeStamp" value="1497556522891"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG940F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361451"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG840.json" diskSizeKB="2002.941" downloadSizeKB="2002.941">
+    <property key="timeStamp" value="1486815185911"/>
+  </assets>
+  <assets path="/efm32/debug/gg/EFM32GG840F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1468886361502"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG842F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361656"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG842F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361721"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG395F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361742"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG360.json" diskSizeKB="2487.449" downloadSizeKB="2487.449">
+    <property key="timeStamp" value="1486815186579"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG995F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361626"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG380F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361658"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG980F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361655"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG390F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361696"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG942.json" diskSizeKB="2380.51" downloadSizeKB="2380.51">
+    <property key="timeStamp" value="1486815186470"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG842F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361720"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG280F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361728"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG232.json" diskSizeKB="1966.993" downloadSizeKB="1966.993">
+    <property key="timeStamp" value="1486815186558"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG390.json" diskSizeKB="2559.612" downloadSizeKB="2559.612">
+    <property key="timeStamp" value="1486815186723"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG900.json" diskSizeKB="2594.448" downloadSizeKB="2594.448">
+    <property key="timeStamp" value="1486815186604"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG280.json" diskSizeKB="2180.931" downloadSizeKB="2180.931">
+    <property key="timeStamp" value="1486815186706"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG295F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361744"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG890.json" diskSizeKB="2215.767" downloadSizeKB="2215.767">
+    <property key="timeStamp" value="1486815186455"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG332F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361654"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG942F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361601"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG290F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361624"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG380F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361729"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG895.json" diskSizeKB="2215.767" downloadSizeKB="2215.767">
+    <property key="timeStamp" value="1486815186526"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG230F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361660"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG230F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361666"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG942F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361624"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG940F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361641"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG895F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361607"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG995.json" diskSizeKB="2594.448" downloadSizeKB="2594.448">
+    <property key="timeStamp" value="1486815186681"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG390F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361659"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG295.json" diskSizeKB="2180.931" downloadSizeKB="2180.931">
+    <property key="timeStamp" value="1486815186615"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG840F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361695"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG280F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361743"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG330.json" diskSizeKB="2345.674" downloadSizeKB="2345.674">
+    <property key="timeStamp" value="1486815186666"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG895F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361605"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG995F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361683"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG942F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361737"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG232F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361631"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG990F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361608"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG290F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361720"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG890F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361701"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG360F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361652"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG395F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361699"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG232F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361606"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG880.json" diskSizeKB="2215.767" downloadSizeKB="2215.767">
+    <property key="timeStamp" value="1486815186486"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG900F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361677"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG360F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361697"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG390F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361675"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG230F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361676"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG232F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361625"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG290F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361723"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG332F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361657"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG880F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361667"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG890F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361612"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG980F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361614"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG940.json" diskSizeKB="2380.51" downloadSizeKB="2380.51">
+    <property key="timeStamp" value="1486815186495"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG900F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361730"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG332.json" diskSizeKB="2345.674" downloadSizeKB="2345.674">
+    <property key="timeStamp" value="1486815186593"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG842.json" diskSizeKB="2001.829" downloadSizeKB="2001.829">
+    <property key="timeStamp" value="1486815186435"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG990.json" diskSizeKB="2594.448" downloadSizeKB="2594.448">
+    <property key="timeStamp" value="1486815186644"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG995F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361660"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG380.json" diskSizeKB="2559.612" downloadSizeKB="2559.612">
+    <property key="timeStamp" value="1486815186655"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG230.json" diskSizeKB="1966.993" downloadSizeKB="1966.993">
+    <property key="timeStamp" value="1486815186390"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG330F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361744"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG840F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361722"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG360F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361724"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG332F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361623"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG990F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361613"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG280F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361667"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG290.json" diskSizeKB="2180.931" downloadSizeKB="2180.931">
+    <property key="timeStamp" value="1486815186745"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG330F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361736"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG940F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361665"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG395F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361682"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG895F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361643"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG980.json" diskSizeKB="2594.448" downloadSizeKB="2594.448">
+    <property key="timeStamp" value="1486815186410"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG395.json" diskSizeKB="2559.612" downloadSizeKB="2559.612">
+    <property key="timeStamp" value="1486815186426"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG900F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361735"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG880F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361699"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG295F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361642"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG980F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361698"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG330F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361714"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG840.json" diskSizeKB="2001.829" downloadSizeKB="2001.829">
+    <property key="timeStamp" value="1486815186549"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG380F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361722"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG880F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361657"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG840F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361700"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG295F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361736"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG940F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361632"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG990F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361677"/>
+  </assets>
+  <assets path="/efm32/debug/lg/EFM32LG890F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361738"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG840F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361360"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG295.json" diskSizeKB="2188.338" downloadSizeKB="2188.338">
+    <property key="timeStamp" value="1486815185680"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG360.json" diskSizeKB="2487.449" downloadSizeKB="2487.449">
+    <property key="timeStamp" value="1486815185545"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG380F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361276"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG290.json" diskSizeKB="2188.338" downloadSizeKB="2188.338">
+    <property key="timeStamp" value="1486815185529"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG895F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361250"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG840.json" diskSizeKB="2009.236" downloadSizeKB="2009.236">
+    <property key="timeStamp" value="1486815185630"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG360F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361289"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG980F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361229"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG842.json" diskSizeKB="2009.236" downloadSizeKB="2009.236">
+    <property key="timeStamp" value="1486815185643"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG842F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361336"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG900.json" diskSizeKB="2601.855" downloadSizeKB="2601.855">
+    <property key="timeStamp" value="1486815185734"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG390.json" diskSizeKB="2567.019" downloadSizeKB="2567.019">
+    <property key="timeStamp" value="1486815185760"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG390F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361255"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG395F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361269"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG940F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361284"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG380F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361276"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG330.json" diskSizeKB="2353.081" downloadSizeKB="2353.081">
+    <property key="timeStamp" value="1486815185416"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG880.json" diskSizeKB="2223.174" downloadSizeKB="2223.174">
+    <property key="timeStamp" value="1486815185458"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG395.json" diskSizeKB="2567.019" downloadSizeKB="2567.019">
+    <property key="timeStamp" value="1486815185708"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG990.json" diskSizeKB="2601.855" downloadSizeKB="2601.855">
+    <property key="timeStamp" value="1486815185480"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG995.json" diskSizeKB="2601.855" downloadSizeKB="2601.855">
+    <property key="timeStamp" value="1486815185508"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG332F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361237"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG890F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361275"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG290F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361294"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG840F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361268"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG280F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361229"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG842F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361237"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG380.json" diskSizeKB="2567.019" downloadSizeKB="2567.019">
+    <property key="timeStamp" value="1486815185744"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG900F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361310"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG980F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361243"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG940F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361244"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG980.json" diskSizeKB="2601.855" downloadSizeKB="2601.855">
+    <property key="timeStamp" value="1486815185566"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG990F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361310"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG942F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361328"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG990F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361327"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG380F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361219"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG942F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361339"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG980F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361361"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG330F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361326"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG900F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361231"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG280F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361298"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG330F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361219"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG332F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361242"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG280F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361311"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG332.json" diskSizeKB="2353.081" downloadSizeKB="2353.081">
+    <property key="timeStamp" value="1486815185769"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG390F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361282"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG230F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361320"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG895F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361337"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG390F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361317"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG895F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361236"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG232F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361338"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG995F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361350"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG842F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361319"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG232F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361223"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG940F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361335"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG360F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361230"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG280.json" diskSizeKB="2188.338" downloadSizeKB="2188.338">
+    <property key="timeStamp" value="1486815185661"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG230.json" diskSizeKB="1974.4" downloadSizeKB="1974.4">
+    <property key="timeStamp" value="1486815185440"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG995F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361218"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG900F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361305"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG230F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361335"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG880F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361270"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG332F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361318"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG232.json" diskSizeKB="1974.4" downloadSizeKB="1974.4">
+    <property key="timeStamp" value="1486815185518"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG295F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361300"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG990F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361349"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG880F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361228"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG360F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361283"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG230F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361220"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG290F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361299"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG395F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361221"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG290F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361319"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG295F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361362"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG995F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361282"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG880F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361244"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG942.json" diskSizeKB="2387.917" downloadSizeKB="2387.917">
+    <property key="timeStamp" value="1486815185586"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG840F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361327"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG890.json" diskSizeKB="2223.174" downloadSizeKB="2223.174">
+    <property key="timeStamp" value="1486815185493"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG890F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361301"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG330F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361312"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG895.json" diskSizeKB="2223.174" downloadSizeKB="2223.174">
+    <property key="timeStamp" value="1486815185599"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG232F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361222"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG395F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361325"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG295F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361255"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG940.json" diskSizeKB="2387.917" downloadSizeKB="2387.917">
+    <property key="timeStamp" value="1486815185611"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG942F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361338"/>
+  </assets>
+  <assets path="/efm32/debug/wg/EFM32WG890F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886361350"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG110F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361839"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG210F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361840"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG110F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361850"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG110F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361835"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG222.json" diskSizeKB="877.992" downloadSizeKB="877.992">
+    <property key="timeStamp" value="1486815187071"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG108F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361850"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG210F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361839"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG222F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361844"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG210F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361844"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG222F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361849"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG210.json" diskSizeKB="877.992" downloadSizeKB="877.992">
+    <property key="timeStamp" value="1486815187089"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG210F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361834"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG108F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361836"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG108.json" diskSizeKB="824.845" downloadSizeKB="824.845">
+    <property key="timeStamp" value="1486815187043"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG222F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244">
+    <property key="timeStamp" value="1468886361845"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG108F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361841"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG222F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361843"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG110F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361846"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG108F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886361848"/>
+  </assets>
+  <assets path="/efm32/debug/zg/EFM32ZG110.json" diskSizeKB="877.992" downloadSizeKB="877.992">
+    <property key="timeStamp" value="1486815187056"/>
+  </assets>
+  <assets version="0.6" path="/efm32/reference/efm32jg1_reference_manual.pdf" diskSizeKB="6756.24" downloadSizeKB="6756.24" category="Reference Manuals" label="EFM32JG1 Reference Manual">
+    <property key="timeStamp" value="1477061404900"/>
+  </assets>
+  <assets version="0.5" path="/efm32/reference/efm32gg11_reference_manual.pdf" diskSizeKB="14876.108" downloadSizeKB="14876.108" category="Reference Manuals" label="EFM32GG11 Reference Manual">
+    <property key="timeStamp" value="1500307330249"/>
+  </assets>
+  <assets version="0.5" path="/efm32/reference/efm32tg11_reference_manual.pdf" diskSizeKB="9862.623" downloadSizeKB="9862.623" category="Reference Manuals" label="EFM32TG11 Reference Manual">
+    <property key="timeStamp" value="1519422970490"/>
+  </assets>
+  <assets version="0.9" path="/efm32/reference/efm32hg_reference_manual.pdf" diskSizeKB="9321.316" downloadSizeKB="9321.316" category="Reference Manuals" label="EFM32HG Reference Manual">
+    <property key="timeStamp" value="1468886361172"/>
+  </assets>
+  <assets version="0.5" path="/efm32/reference/efm32pg12_reference_manual.pdf" diskSizeKB="9249.96" downloadSizeKB="9249.96" category="Reference Manuals" label="EFM32PG12 Reference Manual">
+    <property key="timeStamp" value="1487966218826"/>
+  </assets>
+  <assets version="1.31" path="/efm32/reference/efm32g_reference_manual.pdf" diskSizeKB="7460.154" downloadSizeKB="7460.154" category="Reference Manuals" label="EFM32G Reference Manual">
+    <property key="timeStamp" value="1502911503048"/>
+  </assets>
+  <assets version="1.2" path="/efm32/reference/efm32lg_reference_manual.pdf" diskSizeKB="13301.708" downloadSizeKB="13301.708" category="Reference Manuals" label="EFM32LG Reference Manual - Leopard Gecko Series">
+    <property key="timeStamp" value="1497053835416"/>
+  </assets>
+  <assets version="0.5" path="/efm32/reference/efm32jg12_reference_manual.pdf" diskSizeKB="9250.037" downloadSizeKB="9250.037" category="Reference Manuals" label="EFM32JG12 Reference Manual">
+    <property key="timeStamp" value="1487966251192"/>
+  </assets>
+  <assets version="0.6" path="/efm32/reference/efm32pg1_reference_manual.pdf" diskSizeKB="6755.276" downloadSizeKB="6755.276" category="Reference Manuals" label="EFM32PG1 Reference Manual">
+    <property key="timeStamp" value="1477061404885"/>
+  </assets>
+  <assets version="1.1" path="/efm32/reference/efm32wg_reference_manual.pdf" diskSizeKB="9856.939" downloadSizeKB="9856.939" category="Reference Manuals" label="EFM32WG Reference Manual">
+    <property key="timeStamp" value="1497053807589"/>
+  </assets>
+  <assets version="1.10" path="/efm32/reference/efm32zg_reference_manual.pdf" diskSizeKB="6220.264" downloadSizeKB="6220.264" category="Reference Manuals" label="EFM32ZG Reference Manual">
+    <property key="timeStamp" value="1545070785251"/>
+  </assets>
+  <assets version="1.20" path="/efm32/reference/efm32gg_reference_manual.pdf" diskSizeKB="13853.095" downloadSizeKB="13853.095" category="Reference Manuals" label="EFM32GG Reference Manual">
+    <property key="timeStamp" value="1468886361099"/>
+  </assets>
+  <assets version="1.20" path="/efm32/reference/efm32tg_reference_manual.pdf" diskSizeKB="8967.888" downloadSizeKB="8967.888" category="Reference Manuals" label="EFM32TG Reference Manual">
+    <property key="timeStamp" value="1468886361196"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg890_datasheet.pdf" diskSizeKB="2256.609" downloadSizeKB="2256.609" category="Data Sheets" label="EFM32WG890 Data Sheet">
+    <property key="timeStamp" value="1468886360840"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg895_datasheet.pdf" diskSizeKB="1808.815" downloadSizeKB="1808.815" category="Data Sheets" label="EFM32GG895 Data Sheet">
+    <property key="timeStamp" value="1477932222825"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg321_datasheet.pdf" diskSizeKB="2188.358" downloadSizeKB="2188.358" category="Data Sheets" label="EFM32HG321 Data Sheet">
+    <property key="timeStamp" value="1477932218503"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg350_datasheet.pdf" diskSizeKB="2134.092" downloadSizeKB="2134.092" category="Data Sheets" label="EFM32HG350 Data Sheet">
+    <property key="timeStamp" value="1477932258156"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg822_datasheet.pdf" diskSizeKB="2229.729" downloadSizeKB="2229.729" category="Data Sheets" label="EFM32TG822 Data Sheet">
+    <property key="timeStamp" value="1468886360754"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g222_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G222 Data Sheet">
+    <property key="timeStamp" value="1533761947290"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg395_datasheet.pdf" diskSizeKB="2176.928" downloadSizeKB="2176.928" category="Data Sheets" label="EFM32WG395 Data Sheet">
+    <property key="timeStamp" value="1468886360532"/>
+  </assets>
+  <assets version="1.10" path="/efm32/datasheet/efm32zg210_datasheet.pdf" diskSizeKB="1880.944" downloadSizeKB="1880.944" category="Data Sheets" label="EFM32ZG210 Data Sheet">
+    <property key="timeStamp" value="1468886360757"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg332_datasheet.pdf" diskSizeKB="2095.369" downloadSizeKB="2095.369" category="Data Sheets" label="EFM32LG332 Data Sheet">
+    <property key="timeStamp" value="1472682996042"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg380_datasheet.pdf" diskSizeKB="2213.42" downloadSizeKB="2213.42" category="Data Sheets" label="EFM32WG380 Data Sheet">
+    <property key="timeStamp" value="1468886360836"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g890_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G890 Data Sheet">
+    <property key="timeStamp" value="1533761512256"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg940_datasheet.pdf" diskSizeKB="2105.398" downloadSizeKB="2105.398" category="Data Sheets" label="EFM32LG940 Data Sheet">
+    <property key="timeStamp" value="1472683014594"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg880_datasheet.pdf" diskSizeKB="2246.102" downloadSizeKB="2246.102" category="Data Sheets" label="EFM32LG880 Data Sheet">
+    <property key="timeStamp" value="1472683036312"/>
+  </assets>
+  <assets version="0.5" path="/efm32/datasheet/efm32tg11_datasheet.pdf" diskSizeKB="2664.273" downloadSizeKB="2664.273" category="Data Sheets" label="EFM32TG11 Family Data Sheet">
+    <property key="timeStamp" value="1519420053610"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg390_datasheet.pdf" diskSizeKB="2222.362" downloadSizeKB="2222.362" category="Data Sheets" label="EFM32LG390 Data Sheet">
+    <property key="timeStamp" value="1472683042769"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg395_datasheet.pdf" diskSizeKB="2175.029" downloadSizeKB="2175.029" category="Data Sheets" label="EFM32LG395 Data Sheet">
+    <property key="timeStamp" value="1472683070052"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g840_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G840 Data Sheet">
+    <property key="timeStamp" value="1533761622841"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg890_datasheet.pdf" diskSizeKB="1804.124" downloadSizeKB="1804.124" category="Data Sheets" label="EFM32GG890 Data Sheet">
+    <property key="timeStamp" value="1477932235287"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg210_datasheet.pdf" diskSizeKB="2177.231" downloadSizeKB="2177.231" category="Data Sheets" label="EFM32HG210 Data Sheet">
+    <property key="timeStamp" value="1477932217090"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g280_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G280 Data Sheet">
+    <property key="timeStamp" value="1533761403912"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg825_datasheet.pdf" diskSizeKB="2226.138" downloadSizeKB="2226.138" category="Data Sheets" label="EFM32TG825 Data Sheet">
+    <property key="timeStamp" value="1468886360561"/>
+  </assets>
+  <assets version="1.0" path="/efm32/datasheet/efm32gg11_datasheet.pdf" diskSizeKB="3911.798" downloadSizeKB="3911.798" category="Data Sheets" label="EFM32GG11 Data Sheet">
+    <property key="timeStamp" value="1537045670189"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg380_datasheet.pdf" diskSizeKB="2211.513" downloadSizeKB="2211.513" category="Data Sheets" label="EFM32LG380 Data Sheet">
+    <property key="timeStamp" value="1472683089699"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg230_datasheet.pdf" diskSizeKB="2284.755" downloadSizeKB="2284.755" category="Data Sheets" label="EFM32TG230 Data Sheet">
+    <property key="timeStamp" value="1468886360766"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg222_datasheet.pdf" diskSizeKB="2180.593" downloadSizeKB="2180.593" category="Data Sheets" label="EFM32HG222 Data Sheet">
+    <property key="timeStamp" value="1477932219981"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg232_datasheet.pdf" diskSizeKB="2085.272" downloadSizeKB="2085.272" category="Data Sheets" label="EFM32WG232 Data Sheet">
+    <property key="timeStamp" value="1468886360617"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg308_datasheet.pdf" diskSizeKB="1701.456" downloadSizeKB="1701.456" category="Data Sheets" label="EFM32HG308 Data Sheet">
+    <property key="timeStamp" value="1477932221354"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg232_datasheet.pdf" diskSizeKB="2282.725" downloadSizeKB="2282.725" category="Data Sheets" label="EFM32TG232 Data Sheet">
+    <property key="timeStamp" value="1468886360791"/>
+  </assets>
+  <assets version="1.10" path="/efm32/datasheet/efm32zg110_datasheet.pdf" diskSizeKB="1895.373" downloadSizeKB="1895.373" category="Data Sheets" label="EFM32ZG110 Data Sheet">
+    <property key="timeStamp" value="1468886360775"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg110_datasheet.pdf" diskSizeKB="2214.335" downloadSizeKB="2214.335" category="Data Sheets" label="EFM32TG110 Data Sheet">
+    <property key="timeStamp" value="1468886360717"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg840_datasheet.pdf" diskSizeKB="2103.084" downloadSizeKB="2103.084" category="Data Sheets" label="EFM32WG840 Data Sheet">
+    <property key="timeStamp" value="1468886360579"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g232_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G232 Data Sheet">
+    <property key="timeStamp" value="1533762207119"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg232_datasheet.pdf" diskSizeKB="2083.408" downloadSizeKB="2083.408" category="Data Sheets" label="EFM32LG232 Data Sheet">
+    <property key="timeStamp" value="1472683056560"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg895_datasheet.pdf" diskSizeKB="2209.779" downloadSizeKB="2209.779" category="Data Sheets" label="EFM32LG895 Data Sheet">
+    <property key="timeStamp" value="1472683058956"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg980_datasheet.pdf" diskSizeKB="2253.362" downloadSizeKB="2253.362" category="Data Sheets" label="EFM32WG980 Data Sheet">
+    <property key="timeStamp" value="1468886360761"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg290_datasheet.pdf" diskSizeKB="1754.012" downloadSizeKB="1754.012" category="Data Sheets" label="EFM32GG290 Data Sheet">
+    <property key="timeStamp" value="1477932196931"/>
+  </assets>
+  <assets version="1.10" path="/efm32/datasheet/efm32zg222_datasheet.pdf" diskSizeKB="1878.588" downloadSizeKB="1878.588" category="Data Sheets" label="EFM32ZG222 Data Sheet">
+    <property key="timeStamp" value="1468886360626"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg942_datasheet.pdf" diskSizeKB="2126.466" downloadSizeKB="2126.466" category="Data Sheets" label="EFM32WG942 Data Sheet">
+    <property key="timeStamp" value="1468886360514"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32lg360_datasheet.pdf" diskSizeKB="1804.117" downloadSizeKB="1804.117" category="Data Sheets" label="EFM32LG360 Data Sheet">
+    <property key="timeStamp" value="1472682996046"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg210_datasheet.pdf" diskSizeKB="2209.099" downloadSizeKB="2209.099" category="Data Sheets" label="EFM32TG210 Data Sheet">
+    <property key="timeStamp" value="1468886360742"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg380_datasheet.pdf" diskSizeKB="1771.993" downloadSizeKB="1771.993" category="Data Sheets" label="EFM32GG380 Data Sheet">
+    <property key="timeStamp" value="1477932206550"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg330_datasheet.pdf" diskSizeKB="2086.054" downloadSizeKB="2086.054" category="Data Sheets" label="EFM32WG330 Data Sheet">
+    <property key="timeStamp" value="1468886360602"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g880_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G880 Data Sheet">
+    <property key="timeStamp" value="1533762121533"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg232_datasheet.pdf" diskSizeKB="1586.866" downloadSizeKB="1586.866" category="Data Sheets" label="EFM32GG232 Data Sheet">
+    <property key="timeStamp" value="1477932222819"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg990_datasheet.pdf" diskSizeKB="2263.932" downloadSizeKB="2263.932" category="Data Sheets" label="EFM32WG990 Data Sheet">
+    <property key="timeStamp" value="1468886360520"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg280_datasheet.pdf" diskSizeKB="2207.27" downloadSizeKB="2207.27" category="Data Sheets" label="EFM32WG280 Data Sheet">
+    <property key="timeStamp" value="1468886360749"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg309_datasheet.pdf" diskSizeKB="2180.642" downloadSizeKB="2180.642" category="Data Sheets" label="EFM32HG309 Data Sheet">
+    <property key="timeStamp" value="1477932256908"/>
+  </assets>
+  <assets version="1.1" path="/efm32/datasheet/efm32pg1_datasheet.pdf" diskSizeKB="1859.999" downloadSizeKB="1859.999" category="Data Sheets" label="EFM32PG1 Data Sheet">
+    <property key="timeStamp" value="1480712766721"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg230_datasheet.pdf" diskSizeKB="2072.101" downloadSizeKB="2072.101" category="Data Sheets" label="EFM32LG230 Data Sheet">
+    <property key="timeStamp" value="1472683061903"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg222_datasheet.pdf" diskSizeKB="2195.167" downloadSizeKB="2195.167" category="Data Sheets" label="EFM32TG222 Data Sheet">
+    <property key="timeStamp" value="1468886360612"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg330_datasheet.pdf" diskSizeKB="1610.066" downloadSizeKB="1610.066" category="Data Sheets" label="EFM32GG330 Data Sheet">
+    <property key="timeStamp" value="1477932235278"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg310_datasheet.pdf" diskSizeKB="2186.179" downloadSizeKB="2186.179" category="Data Sheets" label="EFM32HG310 Data Sheet">
+    <property key="timeStamp" value="1477932229909"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg940_datasheet.pdf" diskSizeKB="1638.557" downloadSizeKB="1638.557" category="Data Sheets" label="EFM32GG940 Data sheet">
+    <property key="timeStamp" value="1477932266986"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32wg360_datasheet.pdf" diskSizeKB="1804.403" downloadSizeKB="1804.403" category="Data Sheets" label="EFM32WG360 Data Sheet">
+    <property key="timeStamp" value="1468886360827"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg295_datasheet.pdf" diskSizeKB="1740.66" downloadSizeKB="1740.66" category="Data Sheets" label="EFM32GG295 Data Sheet">
+    <property key="timeStamp" value="1477932278096"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg280_datasheet.pdf" diskSizeKB="1756.4" downloadSizeKB="1756.4" category="Data Sheets" label="EFM32GG280 Data Sheet">
+    <property key="timeStamp" value="1477932186749"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg842_datasheet.pdf" diskSizeKB="2311.299" downloadSizeKB="2311.299" category="Data Sheets" label="EFM32TG842 Data Sheet">
+    <property key="timeStamp" value="1468886360538"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg110_datasheet.pdf" diskSizeKB="2168.824" downloadSizeKB="2168.824" category="Data Sheets" label="EFM32HG110 Data Sheet">
+    <property key="timeStamp" value="1477932266999"/>
+  </assets>
+  <assets version="1.20" path="/efm32/datasheet/efm32wg900_datasheet.pdf" diskSizeKB="482.511" downloadSizeKB="482.511" category="Data Sheets" label="EFM32WG900 Data Sheet">
+    <property key="timeStamp" value="1468886360677"/>
+  </assets>
+  <assets version="1.1" path="/efm32/datasheet/efm32pg12_datasheet.pdf" diskSizeKB="2230.337" downloadSizeKB="2230.337" category="Data Sheets" label="EFM32PG12 Family Data Sheet">
+    <property key="timeStamp" value="1522957803837"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg395_datasheet.pdf" diskSizeKB="1775.143" downloadSizeKB="1775.143" category="Data Sheets" label="EFM32GG395 Data Sheet">
+    <property key="timeStamp" value="1477932236786"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg990_datasheet.pdf" diskSizeKB="1815.734" downloadSizeKB="1815.734" category="Data Sheets" label="EFM32GG990 Data Sheet">
+    <property key="timeStamp" value="1477932219986"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg995_datasheet.pdf" diskSizeKB="1827.027" downloadSizeKB="1827.027" category="Data Sheets" label="EFM32GG995 Data Sheet">
+    <property key="timeStamp" value="1477932266993"/>
+  </assets>
+  <assets version="1.10" path="/efm32/datasheet/efm32zg108_datasheet.pdf" diskSizeKB="1417.328" downloadSizeKB="1417.328" category="Data Sheets" label="EFM32ZG108 Data Sheet">
+    <property key="timeStamp" value="1468886360674"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g210_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G210 Data Sheet">
+    <property key="timeStamp" value="1533761843051"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg390_datasheet.pdf" diskSizeKB="1769.023" downloadSizeKB="1769.023" category="Data Sheets" label="EFM32GG390 Data Sheet">
+    <property key="timeStamp" value="1477932218497"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg230_datasheet.pdf" diskSizeKB="2073.916" downloadSizeKB="2073.916" category="Data Sheets" label="EFM32WG230 Data Sheet">
+    <property key="timeStamp" value="1468886360634"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg332_datasheet.pdf" diskSizeKB="1608.597" downloadSizeKB="1608.597" category="Data Sheets" label="EFM32GG332 Data Sheet">
+    <property key="timeStamp" value="1477932279558"/>
+  </assets>
+  <assets version="1.1" path="/efm32/datasheet/efm32jg12-datasheet.pdf" diskSizeKB="2229.813" downloadSizeKB="2229.813" category="Data Sheets" label="EFM32JG12 Family Data Sheet">
+    <property key="timeStamp" value="1522957902068"/>
+  </assets>
+  <assets version="1.1" path="/efm32/datasheet/efm32pg12-datasheet.pdf" diskSizeKB="2230.337" downloadSizeKB="2230.337" category="Data Sheets" label="EFM32PG12 Family Data Sheet">
+    <property key="timeStamp" value="1522957812935"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g290_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G290 Data Sheet">
+    <property key="timeStamp" value="1533761773672"/>
+  </assets>
+  <assets version="1.1" path="/efm32/datasheet/efm32jg12_datasheet.pdf" diskSizeKB="2229.813" downloadSizeKB="2229.813" category="Data Sheets" label="EFM32JG12 Family Data Sheet">
+    <property key="timeStamp" value="1522957601300"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg842_datasheet.pdf" diskSizeKB="1624.86" downloadSizeKB="1624.86" category="Data Sheets" label="EFM32GG842 Data Sheet">
+    <property key="timeStamp" value="1477932218492"/>
+  </assets>
+  <assets version="2.10" path="/efm32/datasheet/efm32lg-datasheet.pdf" diskSizeKB="5841.344" downloadSizeKB="5841.344" category="Data Sheets" label="EFM32LG Data Sheet">
+    <property key="timeStamp" value="1509134245748"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg108_datasheet.pdf" diskSizeKB="1675.757" downloadSizeKB="1675.757" category="Data Sheets" label="EFM32HG108 Data Sheet">
+    <property key="timeStamp" value="1477932246790"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg840_datasheet.pdf" diskSizeKB="2101.403" downloadSizeKB="2101.403" category="Data Sheets" label="EFM32LG840 Data Sheet">
+    <property key="timeStamp" value="1472683036307"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg230_datasheet.pdf" diskSizeKB="1592.641" downloadSizeKB="1592.641" category="Data Sheets" label="EFM32GG230 Data Sheet">
+    <property key="timeStamp" value="1477932264078"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg225_datasheet.pdf" diskSizeKB="2198.235" downloadSizeKB="2198.235" category="Data Sheets" label="EFM32TG225 Data Sheet">
+    <property key="timeStamp" value="1468886360795"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g800_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G800 Data Sheet">
+    <property key="timeStamp" value="1533762145881"/>
+  </assets>
+  <assets version="1.20" path="/efm32/datasheet/efm32lg900_datasheet.pdf" diskSizeKB="5806.861" downloadSizeKB="5806.861" category="Data Sheets" label="EFM32LG900 Data Sheet">
+    <property key="timeStamp" value="1497053766554"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg890_datasheet.pdf" diskSizeKB="2254.995" downloadSizeKB="2254.995" category="Data Sheets" label="EFM32LG890 Data Sheet">
+    <property key="timeStamp" value="1472683027753"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg295_datasheet.pdf" diskSizeKB="2170.734" downloadSizeKB="2170.734" category="Data Sheets" label="EFM32WG295 Data Sheet">
+    <property key="timeStamp" value="1468886360725"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg942_datasheet.pdf" diskSizeKB="2124.303" downloadSizeKB="2124.303" category="Data Sheets" label="EFM32LG942 Data Sheet">
+    <property key="timeStamp" value="1472682996050"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg980_datasheet.pdf" diskSizeKB="1821.791" downloadSizeKB="1821.791" category="Data Sheets" label="EFM32GG980 Data Sheet">
+    <property key="timeStamp" value="1477932206544"/>
+  </assets>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg322_datasheet.pdf" diskSizeKB="2191.285" downloadSizeKB="2191.285" category="Data Sheets" label="EFM32HG322 Data Sheet">
+    <property key="timeStamp" value="1477932206555"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g842_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G842 Data Sheet">
+    <property key="timeStamp" value="1533761428327"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg290_datasheet.pdf" diskSizeKB="2213.963" downloadSizeKB="2213.963" category="Data Sheets" label="EFM32LG290 Data Sheet">
+    <property key="timeStamp" value="1472683032666"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g230_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G230 Data Sheet">
+    <property key="timeStamp" value="1533761938063"/>
+  </assets>
+  <assets version="1.1" path="/efm32/datasheet/efm32jg1_datasheet.pdf" diskSizeKB="1799.763" downloadSizeKB="1799.763" category="Data Sheets" label="EFM32JG1 Data Sheet: EFM32 Jade Gecko Family">
+    <property key="timeStamp" value="1486814977504"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg995_datasheet.pdf" diskSizeKB="2218.54" downloadSizeKB="2218.54" category="Data Sheets" label="EFM32WG995 Data Sheet">
+    <property key="timeStamp" value="1468886360857"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg332_datasheet.pdf" diskSizeKB="2097.232" downloadSizeKB="2097.232" category="Data Sheets" label="EFM32WG332 Data Sheet">
+    <property key="timeStamp" value="1468886360696"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg942_datasheet.pdf" diskSizeKB="1635.859" downloadSizeKB="1635.859" category="Data Sheets" label="EFM32GG942 Data Sheet">
+    <property key="timeStamp" value="1477932259564"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg280_datasheet.pdf" diskSizeKB="2205.707" downloadSizeKB="2205.707" category="Data Sheets" label="EFM32LG280 Data Sheet">
+    <property key="timeStamp" value="1472683036631"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg842_datasheet.pdf" diskSizeKB="2119.072" downloadSizeKB="2119.072" category="Data Sheets" label="EFM32LG842 Data Sheet">
+    <property key="timeStamp" value="1472682987895"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg108_datasheet.pdf" diskSizeKB="1365.161" downloadSizeKB="1365.161" category="Data Sheets" label="EFM32TG108 Data Sheet">
+    <property key="timeStamp" value="1468886360528"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg995_datasheet.pdf" diskSizeKB="2217.251" downloadSizeKB="2217.251" category="Data Sheets" label="EFM32LG995 Data Sheet">
+    <property key="timeStamp" value="1472683076993"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg980_datasheet.pdf" diskSizeKB="2252.037" downloadSizeKB="2252.037" category="Data Sheets" label="EFM32LG980 Data Sheet">
+    <property key="timeStamp" value="1472683056554"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg390_datasheet.pdf" diskSizeKB="2223.82" downloadSizeKB="2223.82" category="Data Sheets" label="EFM32WG390 Data Sheet">
+    <property key="timeStamp" value="1468886360566"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg900_datasheet.pdf" diskSizeKB="490.417" downloadSizeKB="490.417" category="Data Sheets" label="EFM32GG900 Data Sheet">
+    <property key="timeStamp" value="1477932266988"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg330_datasheet.pdf" diskSizeKB="2084.113" downloadSizeKB="2084.113" category="Data Sheets" label="EFM32LG330 Data Sheet">
+    <property key="timeStamp" value="1472683006390"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg880_datasheet.pdf" diskSizeKB="1805.317" downloadSizeKB="1805.317" category="Data Sheets" label="EFM32GG880 Data Sheet">
+    <property key="timeStamp" value="1477932233918"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg990_datasheet.pdf" diskSizeKB="2262.631" downloadSizeKB="2262.631" category="Data Sheets" label="EFM32LG990 Data Sheet">
+    <property key="timeStamp" value="1468886360849"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg940_datasheet.pdf" diskSizeKB="2107.594" downloadSizeKB="2107.594" category="Data Sheets" label="EFM32WG940 Data Sheet">
+    <property key="timeStamp" value="1468886360597"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg842_datasheet.pdf" diskSizeKB="2120.69" downloadSizeKB="2120.69" category="Data Sheets" label="EFM32WG842 Data Sheet">
+    <property key="timeStamp" value="1468886360831"/>
+  </assets>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg295_datasheet.pdf" diskSizeKB="2169.168" downloadSizeKB="2169.168" category="Data Sheets" label="EFM32LG295 Data Sheet">
+    <property key="timeStamp" value="1472683003845"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg840_datasheet.pdf" diskSizeKB="2311.055" downloadSizeKB="2311.055" category="Data Sheets" label="EFM32TG840 Data Sheet">
+    <property key="timeStamp" value="1468886360681"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg840_datasheet.pdf" diskSizeKB="1627.855" downloadSizeKB="1627.855" category="Data Sheets" label="EFM32GG840 Data Sheet">
+    <property key="timeStamp" value="1477932196926"/>
+  </assets>
+  <assets version="1.90" path="/efm32/datasheet/efm32g200_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977" category="Data Sheets" label="EFM32G200 Data Sheet">
+    <property key="timeStamp" value="1533761707882"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg290_datasheet.pdf" diskSizeKB="2215.542" downloadSizeKB="2215.542" category="Data Sheets" label="EFM32WG290 Data Sheet">
+    <property key="timeStamp" value="1468886360844"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg895_datasheet.pdf" diskSizeKB="2211.378" downloadSizeKB="2211.378" category="Data Sheets" label="EFM32WG895 Data Sheet">
+    <property key="timeStamp" value="1468886360738"/>
+  </assets>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg880_datasheet.pdf" diskSizeKB="2247.717" downloadSizeKB="2247.717" category="Data Sheets" label="EFM32WG880 Data Sheet">
+    <property key="timeStamp" value="1468886360806"/>
+  </assets>
+</assets>

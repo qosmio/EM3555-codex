@@ -1,0 +1,1037 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:52
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\client-api.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\client-api.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\client-api.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"client-api.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\client-api.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\client-api.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\client-api.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\client-api.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\client-api.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include PLATFORM_HEADER
+     19          #include "common.h"
+     20          #include "util.h"
+     21          #include "client-api.h"
+     22          
+
+   \                                 In section .bss, align 4
+     23          uint8_t *emAfZclBuffer = NULL;
+   \                     emAfZclBuffer:
+   \        0x0                      DS8 4
+
+   \                                 In section .bss, align 2
+     24          uint16_t emAfZclBufferLen = 0;
+   \                     emAfZclBufferLen:
+   \        0x0                      DS8 2
+     25          
+     26          // Pointer to where this API should put the length
+
+   \                                 In section .bss, align 4
+     27          uint16_t *emAfResponseLengthPtr = NULL;
+   \                     emAfResponseLengthPtr:
+   \        0x0                      DS8 4
+     28          
+     29          // Pointer to where the API should put the cluster ID
+
+   \                                 In section .bss, align 4
+     30          EmberApsFrame *emAfCommandApsFrame = NULL;
+   \                     emAfCommandApsFrame:
+   \        0x0                      DS8 4
+     31          
+     32          /////////////////
+     33          
+     34          // Method that fills in the buffer.
+     35          // It returns number of bytes filled
+     36          // and 0 on error.
+
+   \                                 In section .text, align 2, keep-with-next
+     37          static uint16_t vFillBuffer(uint8_t *buffer,
+     38                                      uint16_t bufferLen,
+     39                                      uint8_t frameControl,
+     40                                      uint16_t manufacturerCode,
+     41                                      uint8_t commandId,
+     42                                      const char * format,
+     43                                      va_list argPointer)
+     44          {
+   \                     vFillBuffer: (+1)
+   \        0x0   0xE92D 0x4FF2      PUSH     {R1,R4-R11,LR}
+   \        0x4   0x4605             MOV      R5,R0
+     45            uint32_t value;
+     46            uint8_t valueLen;
+     47            uint8_t *data;
+     48            uint16_t dataLen;
+     49            uint8_t i;
+     50            uint16_t bytes = 0;
+     51          
+     52            // The destination buffer must be at least large enough to hold the ZCL
+     53            // overhead: frame control, manufacturer code (if applicable), sequence
+     54            // number, and command id.  If it is, add these in order.
+     55            if (bufferLen < EMBER_AF_ZCL_OVERHEAD
+     56                || (manufacturerCode != EMBER_AF_NULL_MANUFACTURER_CODE
+     57                    && bufferLen < EMBER_AF_ZCL_MANUFACTURER_SPECIFIC_OVERHEAD)) {
+   \        0x6   0x4608             MOV      R0,R1
+   \        0x8   0x2802             CMP      R0,#+2
+   \        0xA   0xF340 0x80AF      BLE.W    ??vFillBuffer_0
+   \        0xE   0x0018             MOVS     R0,R3
+   \       0x10   0xD003             BEQ.N    ??vFillBuffer_1
+   \       0x12   0x4608             MOV      R0,R1
+   \       0x14   0x2805             CMP      R0,#+5
+   \       0x16   0xF2C0 0x80A9      BLT.W    ??vFillBuffer_0
+     58              emberAfDebugPrintln("ERR: Buffer too short for ZCL header");
+     59              return 0;
+     60            }
+     61            if (manufacturerCode != EMBER_AF_NULL_MANUFACTURER_CODE) {
+   \                     ??vFillBuffer_1: (+1)
+   \       0x1A   0x0018             MOVS     R0,R3
+   \       0x1C   0xD001             BEQ.N    ??vFillBuffer_2
+     62              frameControl |= ZCL_MANUFACTURER_SPECIFIC_MASK;
+   \       0x1E   0xF042 0x0204      ORR      R2,R2,#0x4
+     63            }
+     64            buffer[bytes++] = frameControl;
+   \                     ??vFillBuffer_2: (+1)
+   \       0x22   0x702A             STRB     R2,[R5, #+0]
+   \       0x24   0x2701             MOVS     R7,#+1
+     65            if (manufacturerCode != EMBER_AF_NULL_MANUFACTURER_CODE) {
+   \       0x26   0x0018             MOVS     R0,R3
+   \       0x28   0xD003             BEQ.N    ??vFillBuffer_3
+     66              buffer[bytes++] = LOW_BYTE(manufacturerCode);
+   \       0x2A   0x706B             STRB     R3,[R5, #+1]
+     67              buffer[bytes++] = HIGH_BYTE(manufacturerCode);
+   \       0x2C   0x0A1B             LSRS     R3,R3,#+8
+   \       0x2E   0x70AB             STRB     R3,[R5, #+2]
+   \       0x30   0x2703             MOVS     R7,#+3
+   \                     ??vFillBuffer_3: (+1)
+   \       0x32   0x9C0A             LDR      R4,[SP, #+40]
+     68            }
+     69            buffer[bytes++] = emberAfNextSequence();
+   \       0x34   0x.... 0x....      BL       emberAfNextSequence
+   \       0x38   0x4639             MOV      R1,R7
+   \       0x3A   0x5468             STRB     R0,[R5, R1]
+   \       0x3C   0x1C7F             ADDS     R7,R7,#+1
+     70            buffer[bytes++] = commandId;
+   \       0x3E   0x4638             MOV      R0,R7
+   \       0x40   0x542C             STRB     R4,[R5, R0]
+   \       0x42   0x1C7F             ADDS     R7,R7,#+1
+     71          
+     72            // Each argument comes in as an integer value, a pointer to a buffer, or a
+     73            // pointer to a buffer followed by an integer length.
+     74            for (i = 0; format[i] != 0; i++) {
+   \       0x44   0xF04F 0x0800      MOV      R8,#+0
+   \       0x48   0x9E0C             LDR      R6,[SP, #+48]
+   \       0x4A   0xE00A             B.N      ??vFillBuffer_4
+     75              char cmd;
+     76              value = 0;
+     77              valueLen = 0;
+     78              data = 0;
+     79              cmd = format[i];
+     80              if (cmd <= 's') {
+     81                //  0--9, A--G, L, S, b, l, and s all have a pointer to a buffer.  The
+     82                // length of that buffer is implied by 0--9 and A--G (0 to 16 bytes).
+     83                // For L, S, and b, a separate integer specifies the length.  That length
+     84                // will precede the data in the destination buffer for L and S, which
+     85                // turns them into regular ZigBee strings.  In this case, care must be
+     86                // taken to account for invalid strings, which have length 0xFFFF or 0xFF
+     87                // for L and S respectively.  In the case of invalid strings, the length
+     88                // byte(s) are copied to the destination buffer but the string itself is
+     89                // not.  Finally, l and s are just ZigBee strings and the length of the
+     90                // string data is contained within the buffer itself and the entire
+     91                // buffer is copied as is to the destination buffer.  Note that
+     92                // emberAf(Long)StringLength handles invalid strings, but it does not
+     93                // include the length byte(s) in the total length, so the overhead
+     94                // must be maually accounted for when copying.
+     95                data = (uint8_t *)va_arg(argPointer, uint8_t *);
+     96                valueLen = 0;
+     97                if (cmd == 'L' || cmd == 'S' || cmd == 'b') {
+     98                  dataLen = (uint16_t)va_arg(argPointer, int);
+     99                  if (cmd == 'L') {
+    100                    value = dataLen;
+    101                    valueLen = (value == 0xFFFF ? 0 : 2);
+    102                  } else if (cmd == 'S') {
+    103                    value = (uint8_t)dataLen;
+    104                    valueLen = (value == 0xFF ? 0 : 1);
+    105                  } else {
+    106                    // MISRA requires ..else if.. to have terminating else.
+    107                  }
+    108                } else if (cmd == 'l') {
+    109                  dataLen = emberAfLongStringLength(data) + 2;
+    110                } else if (cmd == 's') {
+    111                  dataLen = emberAfStringLength(data) + 1;
+    112                } else if ('0' <= cmd && cmd <= '9') {
+    113                  dataLen = cmd - '0';
+    114                } else if ('A' <= cmd && cmd <= 'G') {
+    115                  dataLen = cmd - 'A' + 10;
+    116                } else {
+    117                  emberAfDebugPrintln("ERR: Unknown format '%c'", cmd);
+    118                  return 0;
+    119                }
+    120              } else {
+    121                // u, v, x, and w are one-, two-, three-, or four-byte integers.  u and v
+    122                // must be extracted as an int while x and w come through as an uint32_t.
+    123                // In all cases, the value is copied to the destination buffer in little-
+    124                // endian format.
+    125                dataLen = 0;
+    126                if (cmd == 'u') {
+    127                  valueLen = 1;
+    128                } else if (cmd == 'v') {
+    129                  valueLen = 2;
+    130                } else if (cmd == 'x') {
+    131                  valueLen = 3;
+    132                } else if (cmd == 'w') {
+    133                  valueLen = 4;
+    134                } else {
+    135                  emberAfDebugPrintln("ERR: Unknown format '%c'", cmd);
+    136                  return 0;
+    137                }
+    138                value = (uint32_t)(valueLen <= 2
+    139                                   ? va_arg(argPointer, int)
+    140                                   : va_arg(argPointer, uint32_t));
+    141              }
+    142          
+    143              // The destination buffer must be at least as large as the running total
+    144              // plus the length of the integer value (if applicable) plus the length of
+    145              // the data (if applicable).
+    146              if (bufferLen < bytes + dataLen + valueLen) {
+    147                emberAfDebugPrintln("ERR: Buffer too short for %d bytes for format '%c'",
+    148                                    dataLen + valueLen,
+    149                                    cmd);
+    150                return 0;
+    151              }
+    152          
+    153              // If there is an integer value, add it to destination buffer in little-
+    154              // endian format.
+    155              for (; 0 < valueLen; valueLen--) {
+    156                buffer[bytes++] = LOW_BYTE(value);
+    157                value = value >> 8;
+    158              }
+    159          
+    160              // Finally, if there is data, add it to the destination buffer as is.  If
+    161              // the data length is zero, data may actually be NULL.  Even if the length
+    162              // argument is zero, passing NULL as either the source or destination to
+    163              // MEMCOPY is invalid and the behavior is undefined.  We avoid that with an
+    164              // explicit check.
+    165              if (dataLen != 0) {
+    166                if (data == NULL) {
+    167                  emberAfDebugPrintln("ERR: Missing data for %d bytes for format '%c'",
+    168                                      dataLen,
+    169                                      cmd);
+    170                  return 0;
+    171                }
+    172                MEMCOPY(buffer + bytes, data, dataLen);
+   \                     ??vFillBuffer_5: (+1)
+   \       0x4C   0x464A             MOV      R2,R9
+   \       0x4E   0xB292             UXTH     R2,R2
+   \       0x50   0x4621             MOV      R1,R4
+   \       0x52   0x4638             MOV      R0,R7
+   \       0x54   0xB280             UXTH     R0,R0
+   \       0x56   0x1828             ADDS     R0,R5,R0
+   \       0x58   0x.... 0x....      BL       __aeabi_memcpy
+    173                bytes += dataLen;
+   \       0x5C   0x444F             ADD      R7,R9,R7
+   \                     ??vFillBuffer_6: (+1)
+   \       0x5E   0xF108 0x0801      ADD      R8,R8,#+1
+   \                     ??vFillBuffer_4: (+1)
+   \       0x62   0x980B             LDR      R0,[SP, #+44]
+   \       0x64   0x4641             MOV      R1,R8
+   \       0x66   0xB2C9             UXTB     R1,R1
+   \       0x68   0x5C40             LDRB     R0,[R0, R1]
+   \       0x6A   0x2800             CMP      R0,#+0
+   \       0x6C   0xF000 0x8080      BEQ.W    ??vFillBuffer_7
+   \       0x70   0xF04F 0x0A00      MOV      R10,#+0
+   \       0x74   0x46D3             MOV      R11,R10
+   \       0x76   0x4654             MOV      R4,R10
+   \       0x78   0x2873             CMP      R0,#+115
+   \       0x7A   0xDC40             BGT.N    ??vFillBuffer_8
+   \       0x7C   0xF856 0x4B04      LDR      R4,[R6], #+4
+   \       0x80   0x284C             CMP      R0,#+76
+   \       0x82   0xD003             BEQ.N    ??vFillBuffer_9
+   \       0x84   0x2853             CMP      R0,#+83
+   \       0x86   0xD001             BEQ.N    ??vFillBuffer_9
+   \       0x88   0x2862             CMP      R0,#+98
+   \       0x8A   0xD118             BNE.N    ??vFillBuffer_10
+   \                     ??vFillBuffer_9: (+1)
+   \       0x8C   0xF856 0x9B04      LDR      R9,[R6], #+4
+   \       0x90   0x284C             CMP      R0,#+76
+   \       0x92   0xD109             BNE.N    ??vFillBuffer_11
+   \       0x94   0x46CA             MOV      R10,R9
+   \       0x96   0xFA1F 0xFA8A      UXTH     R10,R10
+   \       0x9A   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x9E   0x4582             CMP      R10,R0
+   \       0xA0   0xD043             BEQ.N    ??vFillBuffer_12
+   \       0xA2   0xF04F 0x0B02      MOV      R11,#+2
+   \       0xA6   0xE040             B.N      ??vFillBuffer_12
+   \                     ??vFillBuffer_11: (+1)
+   \       0xA8   0x2853             CMP      R0,#+83
+   \       0xAA   0xD13E             BNE.N    ??vFillBuffer_12
+   \       0xAC   0x46CA             MOV      R10,R9
+   \       0xAE   0xFA5F 0xFA8A      UXTB     R10,R10
+   \       0xB2   0xF1BA 0x0FFF      CMP      R10,#+255
+   \       0xB6   0xD038             BEQ.N    ??vFillBuffer_12
+   \       0xB8   0xF04F 0x0B01      MOV      R11,#+1
+   \       0xBC   0xE035             B.N      ??vFillBuffer_12
+   \                     ??vFillBuffer_10: (+1)
+   \       0xBE   0x286C             CMP      R0,#+108
+   \       0xC0   0xD106             BNE.N    ??vFillBuffer_13
+   \       0xC2   0x4620             MOV      R0,R4
+   \       0xC4   0x.... 0x....      BL       emberAfLongStringLength
+   \       0xC8   0x4681             MOV      R9,R0
+   \       0xCA   0xF109 0x0902      ADD      R9,R9,#+2
+   \       0xCE   0xE02C             B.N      ??vFillBuffer_12
+   \                     ??vFillBuffer_13: (+1)
+   \       0xD0   0x2873             CMP      R0,#+115
+   \       0xD2   0xD106             BNE.N    ??vFillBuffer_14
+   \       0xD4   0x4620             MOV      R0,R4
+   \       0xD6   0x.... 0x....      BL       emberAfStringLength
+   \       0xDA   0x4681             MOV      R9,R0
+   \       0xDC   0xF109 0x0901      ADD      R9,R9,#+1
+   \       0xE0   0xE023             B.N      ??vFillBuffer_12
+   \                     ??vFillBuffer_14: (+1)
+   \       0xE2   0xF1A0 0x0130      SUB      R1,R0,#+48
+   \       0xE6   0x290A             CMP      R1,#+10
+   \       0xE8   0xD202             BCS.N    ??vFillBuffer_15
+   \       0xEA   0xF1A0 0x0930      SUB      R9,R0,#+48
+   \       0xEE   0xE01C             B.N      ??vFillBuffer_12
+   \                     ??vFillBuffer_15: (+1)
+   \       0xF0   0xF1A0 0x0141      SUB      R1,R0,#+65
+   \       0xF4   0x2907             CMP      R1,#+7
+   \       0xF6   0xD239             BCS.N    ??vFillBuffer_0
+   \       0xF8   0xF1A0 0x0937      SUB      R9,R0,#+55
+   \       0xFC   0xE015             B.N      ??vFillBuffer_12
+   \                     ??vFillBuffer_8: (+1)
+   \       0xFE   0x46A1             MOV      R9,R4
+   \      0x100   0x2875             CMP      R0,#+117
+   \      0x102   0xD102             BNE.N    ??vFillBuffer_16
+   \      0x104   0xF04F 0x0B01      MOV      R11,#+1
+   \      0x108   0xE00D             B.N      ??vFillBuffer_17
+   \                     ??vFillBuffer_16: (+1)
+   \      0x10A   0x2876             CMP      R0,#+118
+   \      0x10C   0xD102             BNE.N    ??vFillBuffer_18
+   \      0x10E   0xF04F 0x0B02      MOV      R11,#+2
+   \      0x112   0xE008             B.N      ??vFillBuffer_17
+   \                     ??vFillBuffer_18: (+1)
+   \      0x114   0x2878             CMP      R0,#+120
+   \      0x116   0xD102             BNE.N    ??vFillBuffer_19
+   \      0x118   0xF04F 0x0B03      MOV      R11,#+3
+   \      0x11C   0xE003             B.N      ??vFillBuffer_17
+   \                     ??vFillBuffer_19: (+1)
+   \      0x11E   0x2877             CMP      R0,#+119
+   \      0x120   0xD124             BNE.N    ??vFillBuffer_0
+   \      0x122   0xF04F 0x0B04      MOV      R11,#+4
+   \                     ??vFillBuffer_17: (+1)
+   \      0x126   0xF856 0xAB04      LDR      R10,[R6], #+4
+   \                     ??vFillBuffer_12: (+1)
+   \      0x12A   0xF8BD 0x1000      LDRH     R1,[SP, #+0]
+   \      0x12E   0x463A             MOV      R2,R7
+   \      0x130   0xB292             UXTH     R2,R2
+   \      0x132   0x4648             MOV      R0,R9
+   \      0x134   0xB280             UXTH     R0,R0
+   \      0x136   0x1882             ADDS     R2,R0,R2
+   \      0x138   0x4658             MOV      R0,R11
+   \      0x13A   0x1882             ADDS     R2,R0,R2
+   \      0x13C   0x4291             CMP      R1,R2
+   \      0x13E   0xDA09             BGE.N    ??vFillBuffer_20
+   \      0x140   0xE014             B.N      ??vFillBuffer_0
+   \                     ??vFillBuffer_21: (+1)
+   \      0x142   0x4638             MOV      R0,R7
+   \      0x144   0xB280             UXTH     R0,R0
+   \      0x146   0xF805 0xA000      STRB     R10,[R5, R0]
+   \      0x14A   0x1C7F             ADDS     R7,R7,#+1
+   \      0x14C   0xEA4F 0x2A1A      LSR      R10,R10,#+8
+   \      0x150   0xF1AB 0x0B01      SUB      R11,R11,#+1
+   \                     ??vFillBuffer_20: (+1)
+   \      0x154   0x4658             MOV      R0,R11
+   \      0x156   0xB2C0             UXTB     R0,R0
+   \      0x158   0x2800             CMP      R0,#+0
+   \      0x15A   0xD1F2             BNE.N    ??vFillBuffer_21
+   \      0x15C   0x4648             MOV      R0,R9
+   \      0x15E   0xB280             UXTH     R0,R0
+   \      0x160   0x2800             CMP      R0,#+0
+   \      0x162   0xF43F 0xAF7C      BEQ.W    ??vFillBuffer_6
+   \      0x166   0x2C00             CMP      R4,#+0
+   \      0x168   0xF47F 0xAF70      BNE.W    ??vFillBuffer_5
+   \                     ??vFillBuffer_0: (+1)
+   \      0x16C   0x2000             MOVS     R0,#+0
+   \      0x16E   0xE001             B.N      ??vFillBuffer_22
+    174              }
+    175            }
+    176          
+    177            return bytes;
+   \                     ??vFillBuffer_7: (+1)
+   \      0x170   0x4638             MOV      R0,R7
+   \      0x172   0xB280             UXTH     R0,R0
+   \                     ??vFillBuffer_22: (+1)
+   \      0x174   0xE8BD 0x8FF2      POP      {R1,R4-R11,PC}
+    178          }
+    179          
+    180          ////////////////////// Public API ////////////////////////
+    181          
+
+   \                                 In section .text, align 2, keep-with-next
+    182          void emberAfSetExternalBuffer(uint8_t *buffer,
+    183                                        uint16_t bufferLen,
+    184                                        uint16_t *lenPtr,
+    185                                        EmberApsFrame *apsFrame)
+    186          {
+   \                     emberAfSetExternalBuffer: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+    187            emAfZclBuffer = buffer;
+   \        0x2   0x....             LDR.N    R4,??DataTable13
+   \        0x4   0x6020             STR      R0,[R4, #+0]
+    188            emAfZclBufferLen = bufferLen;
+   \        0x6   0x....             LDR.N    R0,??DataTable13_1
+   \        0x8   0x8001             STRH     R1,[R0, #+0]
+    189            emAfResponseLengthPtr = lenPtr;
+   \        0xA   0x....             LDR.N    R0,??DataTable13_2
+   \        0xC   0x6002             STR      R2,[R0, #+0]
+    190            emAfCommandApsFrame = apsFrame;
+   \        0xE   0x....             LDR.N    R0,??DataTable13_3
+   \       0x10   0x6003             STR      R3,[R0, #+0]
+    191          }
+   \       0x12   0xBC10             POP      {R4}
+   \       0x14   0x4770             BX       LR
+    192          
+
+   \                                 In section .text, align 2, keep-with-next
+    193          uint16_t emberAfFillExternalManufacturerSpecificBuffer(uint8_t frameControl,
+    194                                                                 EmberAfClusterId clusterId,
+    195                                                                 uint16_t manufacturerCode,
+    196                                                                 uint8_t commandId,
+    197                                                                 const char * format,
+    198                                                                 ...)
+    199          {
+   \                     emberAfFillExternalManufacturerSpecificBuffer: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x460C             MOV      R4,R1
+    200            uint16_t returnValue;
+    201            va_list argPointer = { 0 };
+    202          
+    203            va_start(argPointer, format);
+   \        0x4   0xA907             ADD      R1,SP,#+28
+    204            returnValue = vFillBuffer(emAfZclBuffer,
+    205                                      emAfZclBufferLen,
+    206                                      frameControl,
+    207                                      manufacturerCode,
+    208                                      commandId,
+    209                                      format,
+    210                                      argPointer);
+   \        0x6   0x9102             STR      R1,[SP, #+8]
+   \        0x8   0x9906             LDR      R1,[SP, #+24]
+   \        0xA   0x9101             STR      R1,[SP, #+4]
+   \        0xC   0x9300             STR      R3,[SP, #+0]
+   \        0xE   0x4613             MOV      R3,R2
+   \       0x10   0x4602             MOV      R2,R0
+   \       0x12   0x....             LDR.N    R0,??DataTable13_1
+   \       0x14   0x8801             LDRH     R1,[R0, #+0]
+   \       0x16   0x....             LDR.N    R0,??DataTable13
+   \       0x18   0x6800             LDR      R0,[R0, #+0]
+   \       0x1A   0x.... 0x....      BL       vFillBuffer
+    211            va_end(argPointer);
+    212            *emAfResponseLengthPtr = returnValue;
+   \       0x1E   0x....             LDR.N    R1,??DataTable13_2
+   \       0x20   0x6809             LDR      R1,[R1, #+0]
+   \       0x22   0x8008             STRH     R0,[R1, #+0]
+    213            emAfCommandApsFrame->clusterId = clusterId;
+   \       0x24   0x....             LDR.N    R1,??DataTable13_3
+   \       0x26   0x680A             LDR      R2,[R1, #+0]
+   \       0x28   0x8054             STRH     R4,[R2, #+2]
+    214            emAfCommandApsFrame->options = EMBER_AF_DEFAULT_APS_OPTIONS;
+   \       0x2A   0xF44F 0x528A      MOV      R2,#+4416
+   \       0x2E   0x6809             LDR      R1,[R1, #+0]
+   \       0x30   0x80CA             STRH     R2,[R1, #+6]
+    215            return returnValue;
+   \       0x32   0xB004             ADD      SP,SP,#+16
+   \       0x34   0xBD10             POP      {R4,PC}
+    216          }
+    217          
+
+   \                                 In section .text, align 2, keep-with-next
+    218          uint16_t emberAfFillExternalBuffer(uint8_t frameControl,
+    219                                             EmberAfClusterId clusterId,
+    220                                             uint8_t commandId,
+    221                                             const char * format,
+    222                                             ...)
+    223          {
+   \                     emberAfFillExternalBuffer: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x460C             MOV      R4,R1
+    224            uint16_t returnValue;
+    225            va_list argPointer = { 0 };
+    226          
+    227            va_start(argPointer, format);
+   \        0x4   0xA906             ADD      R1,SP,#+24
+    228            returnValue = vFillBuffer(emAfZclBuffer,
+    229                                      emAfZclBufferLen,
+    230                                      frameControl,
+    231                                      EMBER_AF_NULL_MANUFACTURER_CODE,
+    232                                      commandId,
+    233                                      format,
+    234                                      argPointer);
+   \        0x6   0x9102             STR      R1,[SP, #+8]
+   \        0x8   0x9301             STR      R3,[SP, #+4]
+   \        0xA   0x9200             STR      R2,[SP, #+0]
+   \        0xC   0x2300             MOVS     R3,#+0
+   \        0xE   0x4602             MOV      R2,R0
+   \       0x10   0x....             LDR.N    R0,??DataTable13_1
+   \       0x12   0x8801             LDRH     R1,[R0, #+0]
+   \       0x14   0x....             LDR.N    R0,??DataTable13
+   \       0x16   0x6800             LDR      R0,[R0, #+0]
+   \       0x18   0x.... 0x....      BL       vFillBuffer
+    235            va_end(argPointer);
+    236            *emAfResponseLengthPtr = returnValue;
+   \       0x1C   0x....             LDR.N    R1,??DataTable13_2
+   \       0x1E   0x6809             LDR      R1,[R1, #+0]
+   \       0x20   0x8008             STRH     R0,[R1, #+0]
+    237            emAfCommandApsFrame->clusterId = clusterId;
+   \       0x22   0x....             LDR.N    R1,??DataTable13_3
+   \       0x24   0x680A             LDR      R2,[R1, #+0]
+   \       0x26   0x8054             STRH     R4,[R2, #+2]
+    238            emAfCommandApsFrame->options = EMBER_AF_DEFAULT_APS_OPTIONS;
+   \       0x28   0xF44F 0x528A      MOV      R2,#+4416
+   \       0x2C   0x6809             LDR      R1,[R1, #+0]
+   \       0x2E   0x80CA             STRH     R2,[R1, #+6]
+    239            return returnValue;
+   \       0x30   0xB004             ADD      SP,SP,#+16
+   \       0x32   0xBD10             POP      {R4,PC}
+    240          }
+    241          
+
+   \                                 In section .text, align 2, keep-with-next
+    242          uint16_t emberAfFillBuffer(uint8_t *buffer,
+    243                                     uint16_t bufferLen,
+    244                                     uint8_t frameControl,
+    245                                     uint8_t commandId,
+    246                                     const char * format,
+    247                                     ...)
+    248          {
+   \                     emberAfFillBuffer: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+    249            uint16_t returnValue;
+    250            va_list argPointer = { 0 };
+    251            va_start(argPointer, format);
+   \        0x2   0xAC07             ADD      R4,SP,#+28
+    252            returnValue = vFillBuffer(buffer,
+    253                                      bufferLen,
+    254                                      frameControl,
+    255                                      EMBER_AF_NULL_MANUFACTURER_CODE,
+    256                                      commandId,
+    257                                      format,
+    258                                      argPointer);
+    259            va_end(argPointer);
+    260            return returnValue;
+   \        0x4   0x9402             STR      R4,[SP, #+8]
+   \        0x6   0x9C06             LDR      R4,[SP, #+24]
+   \        0x8   0x9401             STR      R4,[SP, #+4]
+   \        0xA   0x9300             STR      R3,[SP, #+0]
+   \        0xC   0x2300             MOVS     R3,#+0
+   \        0xE   0x.... 0x....      BL       vFillBuffer
+   \       0x12   0xB004             ADD      SP,SP,#+16
+   \       0x14   0xBD10             POP      {R4,PC}
+    261          }
+    262          
+
+   \                                 In section .text, align 2, keep-with-next
+    263          EmberStatus emberAfSendCommandUnicastToBindingsWithCallback(EmberAfMessageSentFunction callback)
+    264          {
+   \                     emberAfSendCommandUnicastToBindingsWithCallback: (+1)
+   \        0x0   0x4603             MOV      R3,R0
+    265            return emberAfSendUnicastToBindingsWithCallback(emAfCommandApsFrame,
+    266                                                            *emAfResponseLengthPtr,
+    267                                                            emAfZclBuffer,
+    268                                                            callback);
+   \        0x2   0x....             LDR.N    R0,??DataTable13
+   \        0x4   0x6802             LDR      R2,[R0, #+0]
+   \        0x6   0x....             LDR.N    R0,??DataTable13_2
+   \        0x8   0x6800             LDR      R0,[R0, #+0]
+   \        0xA   0x8801             LDRH     R1,[R0, #+0]
+   \        0xC   0x....             LDR.N    R0,??DataTable13_3
+   \        0xE   0x6800             LDR      R0,[R0, #+0]
+   \       0x10   0x.... 0x....      B.W      emberAfSendUnicastToBindingsWithCallback
+    269          }
+    270          
+
+   \                                 In section .text, align 2, keep-with-next
+    271          EmberStatus emberAfSendCommandUnicastToBindings(void)
+    272          {
+    273            return emberAfSendCommandUnicastToBindingsWithCallback(NULL);
+   \                     emberAfSendCommandUnicastToBindings: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x....             B.N      emberAfSendCommandUnicastToBindingsWithCallback
+    274          }
+    275          
+
+   \                                 In section .text, align 2, keep-with-next
+    276          EmberStatus emberAfSendCommandMulticastWithCallback(EmberMulticastId multicastId,
+    277                                                              EmberAfMessageSentFunction callback)
+    278          {
+   \                     emberAfSendCommandMulticastWithCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    279            return emberAfSendMulticastWithCallback(multicastId,
+    280                                                    emAfCommandApsFrame,
+    281                                                    *emAfResponseLengthPtr,
+    282                                                    emAfZclBuffer,
+    283                                                    callback);
+   \        0x2   0x9100             STR      R1,[SP, #+0]
+   \        0x4   0x....             LDR.N    R1,??DataTable13
+   \        0x6   0x680B             LDR      R3,[R1, #+0]
+   \        0x8   0x....             LDR.N    R1,??DataTable13_2
+   \        0xA   0x6809             LDR      R1,[R1, #+0]
+   \        0xC   0x880A             LDRH     R2,[R1, #+0]
+   \        0xE   0x....             LDR.N    R1,??DataTable13_3
+   \       0x10   0x6809             LDR      R1,[R1, #+0]
+   \       0x12   0x.... 0x....      BL       emberAfSendMulticastWithCallback
+   \       0x16   0xBD02             POP      {R1,PC}
+    284          }
+    285          
+
+   \                                 In section .text, align 2, keep-with-next
+    286          EmberStatus emberAfSendCommandMulticastWithAliasWithCallback(EmberMulticastId multicastId, EmberNodeId alias, uint8_t sequence, EmberAfMessageSentFunction callback)
+    287          {
+   \                     emberAfSendCommandMulticastWithAliasWithCallback: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+    288            return emberAfSendMulticastWithAliasWithCallback(multicastId,
+    289                                                             emAfCommandApsFrame,
+    290                                                             *emAfResponseLengthPtr,
+    291                                                             emAfZclBuffer,
+    292                                                             alias,
+    293                                                             sequence,
+    294                                                             callback);
+   \        0x2   0x9302             STR      R3,[SP, #+8]
+   \        0x4   0x9201             STR      R2,[SP, #+4]
+   \        0x6   0x9100             STR      R1,[SP, #+0]
+   \        0x8   0x....             LDR.N    R1,??DataTable13
+   \        0xA   0x680B             LDR      R3,[R1, #+0]
+   \        0xC   0x....             LDR.N    R1,??DataTable13_2
+   \        0xE   0x6809             LDR      R1,[R1, #+0]
+   \       0x10   0x880A             LDRH     R2,[R1, #+0]
+   \       0x12   0x....             LDR.N    R1,??DataTable13_3
+   \       0x14   0x6809             LDR      R1,[R1, #+0]
+   \       0x16   0x.... 0x....      BL       emberAfSendMulticastWithAliasWithCallback
+   \       0x1A   0xBD0E             POP      {R1-R3,PC}
+    295          }
+    296          
+
+   \                                 In section .text, align 2, keep-with-next
+    297          EmberStatus emberAfSendCommandMulticast(EmberMulticastId multicastId)
+    298          {
+    299            return emberAfSendCommandMulticastWithCallback(multicastId, NULL);
+   \                     emberAfSendCommandMulticast: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x....             B.N      emberAfSendCommandMulticastWithCallback
+    300          }
+    301          
+
+   \                                 In section .text, align 2, keep-with-next
+    302          EmberStatus emberAfSendCommandMulticastWithAlias(EmberMulticastId multicastId, EmberNodeId alias, uint8_t sequence)
+    303          {
+    304            return emberAfSendCommandMulticastWithAliasWithCallback(multicastId, alias, sequence, NULL);
+   \                     emberAfSendCommandMulticastWithAlias: (+1)
+   \        0x0   0x2300             MOVS     R3,#+0
+   \        0x2   0x....             B.N      emberAfSendCommandMulticastWithAliasWithCallback
+    305          }
+    306          
+
+   \                                 In section .text, align 2, keep-with-next
+    307          EmberStatus emberAfSendCommandMulticastToBindings(void)
+    308          {
+    309            return emberAfSendMulticastToBindings(emAfCommandApsFrame,
+    310                                                  *emAfResponseLengthPtr,
+    311                                                  emAfZclBuffer);
+   \                     emberAfSendCommandMulticastToBindings: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable13
+   \        0x2   0x6802             LDR      R2,[R0, #+0]
+   \        0x4   0x....             LDR.N    R0,??DataTable13_2
+   \        0x6   0x6800             LDR      R0,[R0, #+0]
+   \        0x8   0x8801             LDRH     R1,[R0, #+0]
+   \        0xA   0x....             LDR.N    R0,??DataTable13_3
+   \        0xC   0x6800             LDR      R0,[R0, #+0]
+   \        0xE   0x.... 0x....      B.W      emberAfSendMulticastToBindings
+    312          }
+    313          
+
+   \                                 In section .text, align 2, keep-with-next
+    314          EmberStatus emberAfSendCommandUnicastWithCallback(EmberOutgoingMessageType type,
+    315                                                            uint16_t indexOrDestination,
+    316                                                            EmberAfMessageSentFunction callback)
+    317          {
+   \                     emberAfSendCommandUnicastWithCallback: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+    318            return emberAfSendUnicastWithCallback(type,
+    319                                                  indexOrDestination,
+    320                                                  emAfCommandApsFrame,
+    321                                                  *emAfResponseLengthPtr,
+    322                                                  emAfZclBuffer,
+    323                                                  callback);
+   \        0x2   0x9201             STR      R2,[SP, #+4]
+   \        0x4   0x....             LDR.N    R2,??DataTable13
+   \        0x6   0x6812             LDR      R2,[R2, #+0]
+   \        0x8   0x9200             STR      R2,[SP, #+0]
+   \        0xA   0x....             LDR.N    R2,??DataTable13_2
+   \        0xC   0x6812             LDR      R2,[R2, #+0]
+   \        0xE   0x8813             LDRH     R3,[R2, #+0]
+   \       0x10   0x....             LDR.N    R2,??DataTable13_3
+   \       0x12   0x6812             LDR      R2,[R2, #+0]
+   \       0x14   0x.... 0x....      BL       emberAfSendUnicastWithCallback
+   \       0x18   0xBD0E             POP      {R1-R3,PC}
+    324          }
+    325          
+
+   \                                 In section .text, align 2, keep-with-next
+    326          EmberStatus emberAfSendCommandUnicast(EmberOutgoingMessageType type,
+    327                                                uint16_t indexOrDestination)
+    328          {
+    329            return emberAfSendCommandUnicastWithCallback(type, indexOrDestination, NULL);
+   \                     emberAfSendCommandUnicast: (+1)
+   \        0x0   0x2200             MOVS     R2,#+0
+   \        0x2   0x....             B.N      emberAfSendCommandUnicastWithCallback
+    330          }
+    331          
+
+   \                                 In section .text, align 2, keep-with-next
+    332          EmberStatus emberAfSendCommandBroadcastWithCallback(EmberNodeId destination,
+    333                                                              EmberAfMessageSentFunction callback)
+    334          {
+   \                     emberAfSendCommandBroadcastWithCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    335            return emberAfSendBroadcastWithCallback(destination,
+    336                                                    emAfCommandApsFrame,
+    337                                                    *emAfResponseLengthPtr,
+    338                                                    emAfZclBuffer,
+    339                                                    callback);
+   \        0x2   0x9100             STR      R1,[SP, #+0]
+   \        0x4   0x....             LDR.N    R1,??DataTable13
+   \        0x6   0x680B             LDR      R3,[R1, #+0]
+   \        0x8   0x....             LDR.N    R1,??DataTable13_2
+   \        0xA   0x6809             LDR      R1,[R1, #+0]
+   \        0xC   0x880A             LDRH     R2,[R1, #+0]
+   \        0xE   0x....             LDR.N    R1,??DataTable13_3
+   \       0x10   0x6809             LDR      R1,[R1, #+0]
+   \       0x12   0x.... 0x....      BL       emberAfSendBroadcastWithCallback
+   \       0x16   0xBD02             POP      {R1,PC}
+    340          }
+    341          
+
+   \                                 In section .text, align 2, keep-with-next
+    342          EmberStatus emberAfSendCommandBroadcastWithAliasWithCallback(EmberNodeId destination,
+    343                                                                       EmberNodeId alias,
+    344                                                                       uint8_t sequence,
+    345                                                                       EmberAfMessageSentFunction callback)
+    346          {
+   \                     emberAfSendCommandBroadcastWithAliasWithCallback: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+    347            return emberAfSendBroadcastWithAliasWithCallback(destination,
+    348                                                             emAfCommandApsFrame,
+    349                                                             *emAfResponseLengthPtr,
+    350                                                             emAfZclBuffer,
+    351                                                             alias,
+    352                                                             sequence,
+    353                                                             callback);
+   \        0x2   0x9302             STR      R3,[SP, #+8]
+   \        0x4   0x9201             STR      R2,[SP, #+4]
+   \        0x6   0x9100             STR      R1,[SP, #+0]
+   \        0x8   0x....             LDR.N    R1,??DataTable13
+   \        0xA   0x680B             LDR      R3,[R1, #+0]
+   \        0xC   0x....             LDR.N    R1,??DataTable13_2
+   \        0xE   0x6809             LDR      R1,[R1, #+0]
+   \       0x10   0x880A             LDRH     R2,[R1, #+0]
+   \       0x12   0x....             LDR.N    R1,??DataTable13_3
+   \       0x14   0x6809             LDR      R1,[R1, #+0]
+   \       0x16   0x.... 0x....      BL       emberAfSendBroadcastWithAliasWithCallback
+   \       0x1A   0xBD0E             POP      {R1-R3,PC}
+    354          }
+    355          
+
+   \                                 In section .text, align 2, keep-with-next
+    356          EmberStatus emberAfSendCommandBroadcastWithAlias(EmberNodeId destination,
+    357                                                           EmberNodeId alias,
+    358                                                           uint8_t sequence)
+    359          {
+    360            return emberAfSendCommandBroadcastWithAliasWithCallback(destination,
+    361                                                                    alias,
+    362                                                                    sequence,
+    363                                                                    NULL);
+   \                     emberAfSendCommandBroadcastWithAlias: (+1)
+   \        0x0   0x2300             MOVS     R3,#+0
+   \        0x2   0x....             B.N      emberAfSendCommandBroadcastWithAliasWithCallback
+    364          }
+    365          
+
+   \                                 In section .text, align 2, keep-with-next
+    366          EmberStatus emberAfSendCommandBroadcast(EmberNodeId destination)
+    367          {
+    368            return emberAfSendCommandBroadcastWithCallback(destination, NULL);
+   \                     emberAfSendCommandBroadcast: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x....             B.N      emberAfSendCommandBroadcastWithCallback
+    369          }
+    370          
+
+   \                                 In section .text, align 2, keep-with-next
+    371          EmberStatus emberAfSendCommandInterPan(EmberPanId panId,
+    372                                                 const EmberEUI64 destinationLongId,
+    373                                                 EmberNodeId destinationShortId,
+    374                                                 EmberMulticastId multicastId,
+    375                                                 EmberAfProfileId profileId)
+    376          {
+   \                     emberAfSendCommandInterPan: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+    377            return emberAfSendInterPan(panId,
+    378                                       destinationLongId,
+    379                                       destinationShortId,
+    380                                       multicastId,
+    381                                       emAfCommandApsFrame->clusterId,
+    382                                       profileId,
+    383                                       *emAfResponseLengthPtr,
+    384                                       emAfZclBuffer);
+   \        0x2   0x....             LDR.N    R4,??DataTable13
+   \        0x4   0x6824             LDR      R4,[R4, #+0]
+   \        0x6   0x9403             STR      R4,[SP, #+12]
+   \        0x8   0x....             LDR.N    R4,??DataTable13_2
+   \        0xA   0x6824             LDR      R4,[R4, #+0]
+   \        0xC   0x8824             LDRH     R4,[R4, #+0]
+   \        0xE   0x9402             STR      R4,[SP, #+8]
+   \       0x10   0xF8BD 0x4018      LDRH     R4,[SP, #+24]
+   \       0x14   0x9401             STR      R4,[SP, #+4]
+   \       0x16   0x....             LDR.N    R4,??DataTable13_3
+   \       0x18   0x6824             LDR      R4,[R4, #+0]
+   \       0x1A   0x8864             LDRH     R4,[R4, #+2]
+   \       0x1C   0x9400             STR      R4,[SP, #+0]
+   \       0x1E   0x.... 0x....      BL       emberAfSendInterPan
+   \       0x22   0xB004             ADD      SP,SP,#+16
+   \       0x24   0xBD10             POP      {R4,PC}
+    385          }
+    386          
+
+   \                                 In section .text, align 2, keep-with-next
+    387          EmberApsFrame *emberAfGetCommandApsFrame(void)
+    388          {
+    389            return emAfCommandApsFrame;
+   \                     emberAfGetCommandApsFrame: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable13_3
+   \        0x2   0x6800             LDR      R0,[R0, #+0]
+   \        0x4   0x4770             BX       LR
+    390          }
+    391          
+
+   \                                 In section .text, align 2, keep-with-next
+    392          void emberAfSetCommandEndpoints(uint8_t sourceEndpoint, uint8_t destinationEndpoint)
+    393          {
+    394            emAfCommandApsFrame->sourceEndpoint = sourceEndpoint;
+   \                     emberAfSetCommandEndpoints: (+1)
+   \        0x0   0x....             LDR.N    R2,??DataTable13_3
+   \        0x2   0x6813             LDR      R3,[R2, #+0]
+   \        0x4   0x7118             STRB     R0,[R3, #+4]
+    395            emAfCommandApsFrame->destinationEndpoint = destinationEndpoint;
+   \        0x6   0x6810             LDR      R0,[R2, #+0]
+   \        0x8   0x7141             STRB     R1,[R0, #+5]
+    396          }
+   \        0xA   0x4770             BX       LR
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13:
+   \        0x0   0x....'....        DC32     emAfZclBuffer
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_1:
+   \        0x0   0x....'....        DC32     emAfZclBufferLen
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_2:
+   \        0x0   0x....'....        DC32     emAfResponseLengthPtr
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable13_3:
+   \        0x0   0x....'....        DC32     emAfCommandApsFrame
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   emberAfFillBuffer
+        24   -> vFillBuffer
+      24   emberAfFillExternalBuffer
+        24   -> vFillBuffer
+      24   emberAfFillExternalManufacturerSpecificBuffer
+        24   -> vFillBuffer
+       0   emberAfGetCommandApsFrame
+       0   emberAfSendCommandBroadcast
+         0   -> emberAfSendCommandBroadcastWithCallback
+       0   emberAfSendCommandBroadcastWithAlias
+         0   -> emberAfSendCommandBroadcastWithAliasWithCallback
+      16   emberAfSendCommandBroadcastWithAliasWithCallback
+        16   -> emberAfSendBroadcastWithAliasWithCallback
+       8   emberAfSendCommandBroadcastWithCallback
+         8   -> emberAfSendBroadcastWithCallback
+      24   emberAfSendCommandInterPan
+        24   -> emberAfSendInterPan
+       0   emberAfSendCommandMulticast
+         0   -> emberAfSendCommandMulticastWithCallback
+       0   emberAfSendCommandMulticastToBindings
+         0   -> emberAfSendMulticastToBindings
+       0   emberAfSendCommandMulticastWithAlias
+         0   -> emberAfSendCommandMulticastWithAliasWithCallback
+      16   emberAfSendCommandMulticastWithAliasWithCallback
+        16   -> emberAfSendMulticastWithAliasWithCallback
+       8   emberAfSendCommandMulticastWithCallback
+         8   -> emberAfSendMulticastWithCallback
+       0   emberAfSendCommandUnicast
+         0   -> emberAfSendCommandUnicastWithCallback
+       0   emberAfSendCommandUnicastToBindings
+         0   -> emberAfSendCommandUnicastToBindingsWithCallback
+       0   emberAfSendCommandUnicastToBindingsWithCallback
+         0   -> emberAfSendUnicastToBindingsWithCallback
+      16   emberAfSendCommandUnicastWithCallback
+        16   -> emberAfSendUnicastWithCallback
+       0   emberAfSetCommandEndpoints
+       4   emberAfSetExternalBuffer
+      40   vFillBuffer
+        40   -> __aeabi_memcpy
+        40   -> emberAfLongStringLength
+        40   -> emberAfNextSequence
+        40   -> emberAfStringLength
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable13
+       4  ??DataTable13_1
+       4  ??DataTable13_2
+       4  ??DataTable13_3
+       4  emAfCommandApsFrame
+       4  emAfResponseLengthPtr
+       4  emAfZclBuffer
+       2  emAfZclBufferLen
+      22  emberAfFillBuffer
+      52  emberAfFillExternalBuffer
+      54  emberAfFillExternalManufacturerSpecificBuffer
+       6  emberAfGetCommandApsFrame
+       4  emberAfSendCommandBroadcast
+       4  emberAfSendCommandBroadcastWithAlias
+      28  emberAfSendCommandBroadcastWithAliasWithCallback
+      24  emberAfSendCommandBroadcastWithCallback
+      38  emberAfSendCommandInterPan
+       4  emberAfSendCommandMulticast
+      18  emberAfSendCommandMulticastToBindings
+       4  emberAfSendCommandMulticastWithAlias
+      28  emberAfSendCommandMulticastWithAliasWithCallback
+      24  emberAfSendCommandMulticastWithCallback
+       4  emberAfSendCommandUnicast
+       4  emberAfSendCommandUnicastToBindings
+      20  emberAfSendCommandUnicastToBindingsWithCallback
+      26  emberAfSendCommandUnicastWithCallback
+      12  emberAfSetCommandEndpoints
+      22  emberAfSetExternalBuffer
+     376  vFillBuffer
+
+ 
+  14 bytes in section .bss
+ 790 bytes in section .text
+ 
+ 790 bytes of CODE memory
+  14 bytes of DATA memory
+
+Errors: none
+Warnings: none

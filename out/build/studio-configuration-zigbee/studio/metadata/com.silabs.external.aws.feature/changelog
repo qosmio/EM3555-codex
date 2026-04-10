@@ -1,0 +1,6 @@
+1.11.54
+	Added jaxb dependency as required for JavaSE-11
+1.11.53
+	Improved validation of event logs
+1.11.52
+	Initial release which contains Amazon AWS SDK for Java version 1.11.52

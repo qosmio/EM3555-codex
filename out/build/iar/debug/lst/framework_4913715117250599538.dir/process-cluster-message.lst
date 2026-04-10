@@ -1,0 +1,255 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:10
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\process-cluster-message.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\process-cluster-message.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\process-cluster-message.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"process-cluster-message.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\process-cluster-message.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\process-cluster-message.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\process-cluster-message.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\process-cluster-message.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\process-cluster-message.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief This file contains a function that processes cluster-specific
+      4           * ZCL message.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          // this file contains all the common includes for clusters in the zcl-util
+     20          #include "common.h"
+     21          
+     22          // for pulling in defines dealing with EITHER server or client
+     23          #include "af-main.h"
+     24          
+     25          // the EM260 host needs to include the config file
+     26          #ifdef EZSP_HOST
+     27            #include "config.h"
+     28          #endif
+     29          
+     30          //------------------------------------------------------------------------------
+     31          // Forward Declarations
+     32          
+     33          EmberAfStatus emberAfClusterSpecificCommandParse(EmberAfClusterCommand *cmd);
+     34          bool emberAfOtaClientIncomingMessageRawCallback(EmberAfClusterCommand *cmd);
+     35          bool emberAfOtaServerIncomingMessageRawCallback(EmberAfClusterCommand *cmd);
+     36          
+     37          //------------------------------------------------------------------------------
+     38          
+
+   \                                 In section .text, align 2, keep-with-next
+     39          bool emAfProcessClusterSpecificCommand(EmberAfClusterCommand *cmd)
+     40          {
+   \                     emAfProcessClusterSpecificCommand: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     41            EmberAfStatus status;
+     42          
+     43            // if we are disabled then we can only respond to read or write commands
+     44            // or identify cluster (see device enabled attr of basic cluster)
+     45            if (!emberAfIsDeviceEnabled(cmd->apsFrame->destinationEndpoint)
+     46                && cmd->apsFrame->clusterId != ZCL_IDENTIFY_CLUSTER_ID) {
+   \        0x4   0x6820             LDR      R0,[R4, #+0]
+   \        0x6   0x7940             LDRB     R0,[R0, #+5]
+   \        0x8   0x.... 0x....      BL       emberAfIsDeviceEnabled
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD109             BNE.N    ??emAfProcessClusterSpecificCommand_0
+   \       0x10   0x6820             LDR      R0,[R4, #+0]
+   \       0x12   0x8840             LDRH     R0,[R0, #+2]
+   \       0x14   0x2803             CMP      R0,#+3
+   \       0x16   0xD005             BEQ.N    ??emAfProcessClusterSpecificCommand_0
+     47              emberAfCorePrintln("%pd, dropping ep 0x%x clus 0x%2x cmd 0x%x",
+     48                                 "disable",
+     49                                 cmd->apsFrame->destinationEndpoint,
+     50                                 cmd->apsFrame->clusterId,
+     51                                 cmd->commandId);
+     52              emberAfSendDefaultResponse(cmd, EMBER_ZCL_STATUS_FAILURE);
+   \       0x18   0x2101             MOVS     R1,#+1
+   \       0x1A   0x4620             MOV      R0,R4
+   \       0x1C   0x.... 0x....      BL       emberAfSendDefaultResponse
+     53              return true;
+   \       0x20   0x2001             MOVS     R0,#+1
+   \       0x22   0xBD10             POP      {R4,PC}
+     54            }
+     55          
+     56          #ifdef ZCL_USING_KEY_ESTABLISHMENT_CLUSTER_CLIENT
+     57            if (cmd->apsFrame->clusterId == ZCL_KEY_ESTABLISHMENT_CLUSTER_ID
+     58                && cmd->direction == ZCL_DIRECTION_SERVER_TO_CLIENT
+     59                && emberAfKeyEstablishmentClusterClientCommandReceivedCallback(cmd)) {
+     60              return true;
+     61            }
+     62          #endif
+     63          #ifdef ZCL_USING_KEY_ESTABLISHMENT_CLUSTER_SERVER
+     64            if (cmd->apsFrame->clusterId == ZCL_KEY_ESTABLISHMENT_CLUSTER_ID
+     65                && cmd->direction == ZCL_DIRECTION_CLIENT_TO_SERVER
+     66                && emberAfKeyEstablishmentClusterServerCommandReceivedCallback(cmd)) {
+     67              return true;
+     68            }
+     69          #endif
+     70          
+     71          #ifdef ZCL_USING_OTA_BOOTLOAD_CLUSTER_CLIENT
+     72            if (cmd->apsFrame->clusterId == ZCL_OTA_BOOTLOAD_CLUSTER_ID
+     73                && cmd->direction == ZCL_DIRECTION_SERVER_TO_CLIENT
+     74                && emberAfOtaClientIncomingMessageRawCallback(cmd)) {
+   \                     ??emAfProcessClusterSpecificCommand_0: (+1)
+   \       0x24   0x6820             LDR      R0,[R4, #+0]
+   \       0x26   0x8840             LDRH     R0,[R0, #+2]
+   \       0x28   0x2819             CMP      R0,#+25
+   \       0x2A   0xD107             BNE.N    ??emAfProcessClusterSpecificCommand_1
+   \       0x2C   0x7D60             LDRB     R0,[R4, #+21]
+   \       0x2E   0x2801             CMP      R0,#+1
+   \       0x30   0xD104             BNE.N    ??emAfProcessClusterSpecificCommand_1
+   \       0x32   0x4620             MOV      R0,R4
+   \       0x34   0x.... 0x....      BL       emberAfOtaClientIncomingMessageRawCallback
+   \       0x38   0x2800             CMP      R0,#+0
+   \       0x3A   0xD107             BNE.N    ??emAfProcessClusterSpecificCommand_2
+     75              return true;
+     76            }
+     77          #endif
+     78          #ifdef ZCL_USING_OTA_BOOTLOAD_CLUSTER_SERVER
+     79            if (cmd->apsFrame->clusterId == ZCL_OTA_BOOTLOAD_CLUSTER_ID
+     80                && cmd->direction == ZCL_DIRECTION_CLIENT_TO_SERVER
+     81                && emberAfOtaServerIncomingMessageRawCallback(cmd)) {
+     82              return true;
+     83            }
+     84          #endif
+     85          
+     86            // Pass the command to the generated command parser for processing
+     87            status = emberAfClusterSpecificCommandParse(cmd);
+   \                     ??emAfProcessClusterSpecificCommand_1: (+1)
+   \       0x3C   0x4620             MOV      R0,R4
+   \       0x3E   0x.... 0x....      BL       emberAfClusterSpecificCommandParse
+   \       0x42   0x0001             MOVS     R1,R0
+     88            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x44   0xD002             BEQ.N    ??emAfProcessClusterSpecificCommand_2
+     89              emberAfSendDefaultResponse(cmd, status);
+   \       0x46   0x4620             MOV      R0,R4
+   \       0x48   0x.... 0x....      BL       emberAfSendDefaultResponse
+     90            }
+     91          
+     92            return true;
+   \                     ??emAfProcessClusterSpecificCommand_2: (+1)
+   \       0x4C   0x2001             MOVS     R0,#+1
+   \       0x4E   0xBD10             POP      {R4,PC}
+     93          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   emAfProcessClusterSpecificCommand
+         8   -> emberAfClusterSpecificCommandParse
+         8   -> emberAfIsDeviceEnabled
+         8   -> emberAfOtaClientIncomingMessageRawCallback
+         8   -> emberAfSendDefaultResponse
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      80  emAfProcessClusterSpecificCommand
+
+ 
+ 80 bytes in section .text
+ 
+ 80 bytes of CODE memory
+
+Errors: none
+Warnings: none

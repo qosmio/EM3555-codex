@@ -1,0 +1,12 @@
+stack_root=/Users/macbook/Documents/code/silabs/EM3555/build/legacy-zigbee-stack
+stack_id=com.silabs.stack.external.znet:6.6.1._-1605295543
+stack_state=OK
+framework_count=2
+extension_scan_framework_count=0
+extension_scan_error_count=0
+findFrameworks_afv2_count=1
+findFrameworks_znet_count=0
+framework[0]=class=com.ember.workbench.app_framework.application.Framework name=EmberZNet 6.6.1.0 GA Zigbee Application Framework id=afv2 variant=None dir=/Users/macbook/Documents/code/silabs/EM3555/build/legacy-zigbee-stack/app/framework configurator=False extension_ids=[]
+framework[1]=class=com.ember.workbench.app_framework.application.Framework name=EmberZNet 6.6.1.0 GA Green Power Device Framework id=gpd variant=None dir=/Users/macbook/Documents/code/silabs/EM3555/build/legacy-zigbee-stack/app/gpd configurator=False extension_ids=[]
+findFrameworks_afv2[0]=class=com.ember.workbench.app_framework.application.Framework name=EmberZNet 6.6.1.0 GA Zigbee Application Framework id=afv2 variant=None dir=/Users/macbook/Documents/code/silabs/EM3555/build/legacy-zigbee-stack/app/framework configurator=False
+no_app_configurator_found=1

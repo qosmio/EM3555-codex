@@ -1,0 +1,118 @@
+5.7.5.0
+   SV5.12.0.1, correcetion to digital signing, no code updates
+5.7.4.0
+   SV5.12.0.0, platform update, new Commander 1.22.1
+5.7.3.0
+   SV5.11.1.2, new JxBrowser version 8.9
+5.7.2.0
+   SV5.11.1.1, new Commander 1.19.2
+5.7.1.0
+   SV5.11.1, Fixed UI scaling issues
+5.7.0.0
+   SV5.11.0, new Eclipse Base 4.34, New Java RE 21, new commander 1.18.2
+5.6.22.0
+   SV5.10.3.1, release of Simplicity Commander 1.18.0
+5.6.21.0
+   SV5.10.3.0, release of Simplicity Commander 1.17.5
+5.6.20.0
+   SV5.10.2.1 release of new Simplicity Commander
+5.6.19.0
+   SV5.10.1 release changes
+5.6.18.0
+   SV5.10.0 release changes
+5.6.17.0
+   SV5.10.0.0 release
+5.6.16.0
+   SV5.9.3.1 release
+5.6.15.0
+   SV5.9.3.0 release
+5.6.14.0
+   SV5.9.2.1 release
+5.6.13.0
+   SV5.9.2.0 release
+5.6.12.0
+   SV5.9.1.0 release
+5.6.11.0
+   SV5.9.0.1 release
+5.6.10.0
+   SV5.9.0.0 release
+5.6.9.0
+   SV5.8.2.0 release
+5.6.8.0
+   SV5.8.1.1 release - fix copyright year notice
+5.6.7.0
+	SV5.8.1.0 release
+5.6.6.0
+   SV5.8.0.1 release
+5.6.5.0
+   SV5.8.0.0 release
+5.6.4.0
+   SV5.7.3.0 release
+5.6.3.0
+   SV5.7.2.0 release
+   Bug Fixes
+5.6.2.0
+   SV5.7.1.1 release
+   * Improve loading of example projects.
+5.6.1.0
+   SV5.7.1.0 release
+5.6.0.0
+   SV5.7.0.1 updates
+5.5.9.0
+   SV5.7 release notes
+5.5.8.0
+   Update package for SV5.6.4.0 release
+5.5.7.0
+   Update package for SV5.6.3.0 release
+5.5.6.0
+   Fix for the user preferences settings.
+5.5.5.0
+   Update package for SV5.6.0.0 release.
+5.5.4.0
+   Update package for SV5.5.1.0 release.
+5.5.3.0
+   Update package for SV5.5.0.0 release.
+5.5.2.0
+   Update packages for SV5.4.2.0 release.
+5.5.1.0
+   Bug fix: install by device now includes GSDK
+5.5.0.0
+   Updates for Stuidio 5.4.0.0
+5.3.3.0
+   Updates for studio 5.3.3.0
+5.3.2.0
+   Updates for Studio 5.3.2.0
+5.3.1.0
+   Ensure Detect Part UI is visible for JLink PRO and debug mode MINI
+5.3.0.0
+   Updates for studio 5.3.0.0
+5.2.4.0
+   Bug fix
+5.2.3.0
+   Updates for 5.2.3.0 release
+5.2.2.0
+   Updates for 5.2.2.0 release
+5.2.1.0
+   Updates for 5.2.1.0
+5.2.0.0
+   Updates for 5.2.0.0
+5.1.2.0
+   Part compatibility fix
+5.1.1.0
+   Bug fixes
+5.1.0.0
+   UI Improvements
+5.0.2.1
+   Fixed editor performance issue
+5.0.2.0
+   Fixed Installer UI bug with non-responsive dialog
+5.0.1.1
+   Fixed Update issue with 5.0.0.0
+5.0.1.0
+   Updates to Wireless Tools. 
+5.0.0.0
+	Studio V5 GA
+5.0.0.rc1
+	First release candidate of V5
+5.0.0.beta3
+	Initial release

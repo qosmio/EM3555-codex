@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.sdk.gecko_platform.v3.2.feature"
+         label="Gecko Platform"
+		 description="Silicon Labs Gecko Platform"
+		 changelog="changelog"
+		 icon="icon_stack_40x40.png" 
+		 partCompatibility=""
+		 types="sdk,commonSdk,stack"
+		 version="3.2.9">
+
+	<!-- The default install path is relative to the Simplicity installation folder -->
+	<property key="defaultInstallPath" value="developer/sdks/gecko_sdk_suite/v3.2" />
+	<property key="commonSdkUpdatable" value="false" />
+	<property key="lntref" value="asset://common/Master_Software_License_Agreement" />
+
+</package>

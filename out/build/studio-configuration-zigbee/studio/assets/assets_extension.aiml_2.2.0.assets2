@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.aiml_2.2.0">
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4343b/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.802" downloadSizeKB="667.802"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4339b/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.418" downloadSizeKB="667.418"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2605a/aiml_soc_blink_siwg917_baremetal.s37" diskSizeKB="402.256" downloadSizeKB="402.256"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2605a/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.706" downloadSizeKB="667.706"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2605a/aiml_soc_voice_control_light_siwg917_baremetal.s37" diskSizeKB="2380.22" downloadSizeKB="2380.22"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2605a/aiml_soc_magic_wand_siwg917_baremetal.s37" diskSizeKB="570.21" downloadSizeKB="570.21"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2605a/aiml_soc_audio_classifier_siwg917_baremetal.s37" diskSizeKB="2379.91" downloadSizeKB="2379.91"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4186c/aiml_soc_model_profiler_efr32_baremetal.s37" diskSizeKB="469.212" downloadSizeKB="469.212"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4186c/aiml_soc_blink_efr32_baremetal.s37" diskSizeKB="220.028" downloadSizeKB="220.028"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4342a/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.706" downloadSizeKB="667.706"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4187c/aiml_soc_model_profiler_efr32_baremetal.s37" diskSizeKB="469.5" downloadSizeKB="469.5"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4187c/aiml_soc_blink_efr32_baremetal.s37" diskSizeKB="220.412" downloadSizeKB="220.412"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_data_capture_efr32_baremetal.s37" diskSizeKB="135.22" downloadSizeKB="135.22"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_model_profiler_efr32_baremetal.s37" diskSizeKB="470.34" downloadSizeKB="470.34"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_anomaly_detection_efr32_baremetal.s37" diskSizeKB="471.356" downloadSizeKB="471.356"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_zigbee_soc_z3_switch_with_voice_efr32_baremetal.s37" diskSizeKB="1120.468" downloadSizeKB="1120.468"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_image_classifier_efr32_baremetal.s37" diskSizeKB="619.332" downloadSizeKB="619.332"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_magic_wand_efr32_baremetal.s37" diskSizeKB="374.58" downloadSizeKB="374.58"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_blink_efr32_baremetal.s37" diskSizeKB="223.764" downloadSizeKB="223.764"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_profiler_firmware_efr32_baremetal.s37" diskSizeKB="905.932" downloadSizeKB="905.932"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_voice_control_light_efr32_micriumos.s37" diskSizeKB="661.236" downloadSizeKB="661.236"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2608a/aiml_soc_audio_classifier_efr32_micriumos.s37" diskSizeKB="667.3" downloadSizeKB="667.3"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4340b/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.706" downloadSizeKB="667.706"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_data_capture_efr32_baremetal.s37" diskSizeKB="131.116" downloadSizeKB="131.116"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_model_profiler_efr32_baremetal.s37" diskSizeKB="469.02" downloadSizeKB="469.02"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_anomaly_detection_efr32_baremetal.s37" diskSizeKB="466.42" downloadSizeKB="466.42"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_zigbee_soc_z3_switch_with_voice_efr32_baremetal.s37" diskSizeKB="1104.94" downloadSizeKB="1104.94"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_image_classifier_efr32_baremetal.s37" diskSizeKB="613.516" downloadSizeKB="613.516"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_magic_wand_efr32_baremetal.s37" diskSizeKB="369.628" downloadSizeKB="369.628"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_blink_efr32_baremetal.s37" diskSizeKB="219.884" downloadSizeKB="219.884"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_profiler_firmware_efr32_baremetal.s37" diskSizeKB="903.188" downloadSizeKB="903.188"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_voice_control_light_efr32_micriumos.s37" diskSizeKB="658.012" downloadSizeKB="658.012"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd2601b/aiml_soc_audio_classifier_efr32_micriumos.s37" diskSizeKB="664.188" downloadSizeKB="664.188"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4343q/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.802" downloadSizeKB="667.802"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4338a/aiml_soc_blink_siwg917_baremetal.s37" diskSizeKB="403.288" downloadSizeKB="403.288"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4338a/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.706" downloadSizeKB="667.706"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4338a/aiml_soc_voice_control_light_siwg917_baremetal.s37" diskSizeKB="2377.428" downloadSizeKB="2377.428"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4338a/aiml_soc_audio_classifier_siwg917_baremetal.s37" diskSizeKB="2377.31" downloadSizeKB="2377.31"/>
+  <assets path="/extension.aiml_2.2.0/aiml_app/brd4343a/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.802" downloadSizeKB="667.802"/>
+</assets>

@@ -1,0 +1,32 @@
+4.0.15
+	Update for SV5.11.0 release
+4.0.14
+	Use the auto-install feature to address connected device and demo-only install.
+4.0.13
+	Address issue when installing by connected Si91x device
+4.0.12
+	SV5.7 release notes
+4.0.11
+	Feature build with Eclipse 4.23
+4.0.10
+   Updated signing
+4.0.9
+	Update to JLink version 6.62d
+4.0.8
+	Update to JLink version 6.34f
+4.0.7
+	Update to JLink version 6.30k
+4.0.6
+	Update to JLink version 6.22d
+4.0.5
+	Added flag to elevate permissions when installing drivers
+4.0.4
+	Update JLink libraries to V6.18c
+4.0.3
+	Update to JLink version 6.12f
+4.0.2
+	Update to JLink version 6.10g
+4.0.1
+	Update to JLink version 6.10d
+4.0.0
+	Initial Release

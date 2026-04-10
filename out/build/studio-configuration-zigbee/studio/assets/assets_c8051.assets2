@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_c8051">
+  <assets version="0.2" path="/c8051/appnote/AN0821/AN0821.pdf" diskSizeKB="4062.044" downloadSizeKB="4062.044" label="AN0821: Simplicity Studio C8051F85x Walkthrough"/>
+  <assets path="/c8051/appnote/AN0828/AN0828.pdf" diskSizeKB="306.608" downloadSizeKB="306.608"/>
+  <assets version="0.2" path="/c8051/appnote/AN0829/AN0829.pdf" diskSizeKB="1151.699" downloadSizeKB="1151.699" label="AN0829: Capacitive Sensing Library Configuration Guide"/>
+  <assets version="1.4" path="/c8051/appnote/AN111/an111.pdf" diskSizeKB="189.412" downloadSizeKB="189.412" label="AN111: Using the 8-Bit MCUs in 5 Volt Systems"/>
+  <assets version="1.1" path="/c8051/appnote/AN114/an114.pdf" diskSizeKB="4382.979" downloadSizeKB="4382.979" label="AN114: Hand Soldering Tutorial for Fine Pitch QFP Devices"/>
+  <assets version="1.3" path="/c8051/appnote/AN119/an119.pdf" diskSizeKB="220.28" downloadSizeKB="220.28" label="AN119: Calculating Settling Time for Switched Capacitor ADCs"/>
+  <assets version="1.4" path="/c8051/appnote/AN124/an124.pdf" diskSizeKB="217.333" downloadSizeKB="217.333" label="AN124: Pin Sharing Techniques for the C2 Interface"/>
+  <assets version="1.6" path="/c8051/appnote/AN136/an136.pdf" diskSizeKB="799.604" downloadSizeKB="799.604" label="AN136: Silicon Labs Production Programming Options"/>
+  <assets version="0.3" path="/c8051/appnote/AN203/AN203.pdf" diskSizeKB="315.011" downloadSizeKB="315.011" label="AN203: 8-Bit MCU Printed Circuit Board Design Notes"/>
+  <assets version="0.4" path="/c8051/appnote/AN367/AN367.pdf" diskSizeKB="1477.63" downloadSizeKB="1477.63" label="AN367: Understanding Capacitive Sensing Signal to Noise Ratios"/>
+  <assets version="0.2" path="/c8051/appnote/AN376/AN376.pdf" diskSizeKB="1408.568" downloadSizeKB="1408.568" label="AN376: Effects of ESD Protection Devices on Capacitive Sensing Performance"/>
+  <assets version="0.1" path="/c8051/appnote/AN431/AN431.pdf" diskSizeKB="1402.312" downloadSizeKB="1402.312" label="AN431: C8051F93x-90x Software Porting Guide"/>
+  <assets version="0.3" path="/c8051/appnote/AN447/AN447.pdf" diskSizeKB="1736.821" downloadSizeKB="1736.821" label="AN447: Printed Circuit Design Notes for Capacitive Sensing with the CS0 Module"/>
+  <assets version="0.2" path="/c8051/appnote/AN507/AN507.pdf" diskSizeKB="1450.692" downloadSizeKB="1450.692" label="AN507: Low Power Capacitive Sensing"/>
+  <assets version="0.1" path="/c8051/appnote/AN522/AN522.pdf" diskSizeKB="362.393" downloadSizeKB="362.393" label="AN522: Using the Si1141 for Touchless Lavatory Appliances"/>
+  <assets version="0.1" path="/c8051/appnote/AN530/AN530.pdf" diskSizeKB="1476.984" downloadSizeKB="1476.984" label="AN530: C8051F90x/91x/98x/99x Software Porting Guide"/>
+  <assets version="0.2" path="/c8051/appnote/AN723/AN723.pdf" diskSizeKB="1441.035" downloadSizeKB="1441.035" label="AN723: Porting Considerations from C8051F330-5 and C8051F336-9 to C8051F39x-37x"/>
+  <assets version="0.1" path="/c8051/appnote/AN789/AN789.pdf" diskSizeKB="1418.668" downloadSizeKB="1418.668" label="AN789: Porting Considerations from C8051F34x to C8051F38x"/>
+  <assets version="0.1" path="/c8051/appnote/AN807/AN807.pdf" diskSizeKB="2114.878" downloadSizeKB="2114.878" label="AN807: Recertifying a Customized Windows HCK Driver Package"/>
+  <assets path="/c8051/configurator/f300/C8051F300_E.zip" diskSizeKB="1554.473" downloadSizeKB="282.62" directory="true"/>
+  <assets path="/c8051/configurator/f310/C8051F310_B.zip" diskSizeKB="2045.186" downloadSizeKB="354.997" directory="true"/>
+  <assets path="/c8051/configurator/f320/C8051F320_E.zip" diskSizeKB="2154.954" downloadSizeKB="366.78" directory="true"/>
+  <assets path="/c8051/configurator/f326/C8051F326_D.zip" diskSizeKB="1111.698" downloadSizeKB="218.82" directory="true"/>
+  <assets path="/c8051/configurator/f330/C8051F330_B.zip" diskSizeKB="1843.646" downloadSizeKB="333.766" directory="true"/>
+  <assets path="/c8051/configurator/f336/C8051F336_A.zip" diskSizeKB="1913.009" downloadSizeKB="333.724" directory="true"/>
+  <assets path="/c8051/configurator/f340/C8051F340_B.zip" diskSizeKB="3032.067" downloadSizeKB="517.564" directory="true"/>
+  <assets path="/c8051/configurator/f350/C8051F350_C.zip" diskSizeKB="1868.045" downloadSizeKB="336.339" directory="true"/>
+  <assets path="/c8051/configurator/f360/C8051F360_C.zip" diskSizeKB="2656.051" downloadSizeKB="448.079" directory="true"/>
+  <assets path="/c8051/configurator/f380/C8051F380_A.zip" diskSizeKB="3028.392" downloadSizeKB="511.144" directory="true"/>
+  <assets path="/c8051/configurator/f388/C8051F388_A.zip" diskSizeKB="2571.524" downloadSizeKB="438.043" directory="true"/>
+  <assets path="/c8051/configurator/f390/C8051F390_A.zip" diskSizeKB="2582.305" downloadSizeKB="453.331" directory="true"/>
+  <assets path="/c8051/configurator/f410/C8051F410_F.zip" diskSizeKB="2438.036" downloadSizeKB="412.186" directory="true"/>
+  <assets path="/c8051/configurator/f500/C8051F500_B.zip" diskSizeKB="3515.603" downloadSizeKB="562.686" directory="true"/>
+  <assets path="/c8051/configurator/f530/C8051F530_C.zip" diskSizeKB="2602.676" downloadSizeKB="485.172" directory="true"/>
+  <assets path="/c8051/configurator/f540/C8051F540_A.zip" diskSizeKB="2663.085" downloadSizeKB="446.255" directory="true"/>
+  <assets path="/c8051/configurator/f550/C8051F550_A.zip" diskSizeKB="3876.921" downloadSizeKB="637.102" directory="true"/>
+  <assets path="/c8051/configurator/f580/C8051F580_A.zip" diskSizeKB="4078.767" downloadSizeKB="624.632" directory="true"/>
+  <assets path="/c8051/configurator/f700/C8051F700_C.zip" diskSizeKB="3259.799" downloadSizeKB="578.223" directory="true"/>
+  <assets path="/c8051/configurator/f800/C8051F800_C.zip" diskSizeKB="2891.179" downloadSizeKB="554.167" directory="true"/>
+  <assets path="/c8051/configurator/f850/C8051F850_C.zip" diskSizeKB="15449.12" downloadSizeKB="1903.035" directory="true"/>
+  <assets path="/c8051/configurator/f911/C8051F911_D.zip" diskSizeKB="2478.124" downloadSizeKB="422.877" directory="true"/>
+  <assets path="/c8051/configurator/f912/C8051F912_D.zip" diskSizeKB="2509.731" downloadSizeKB="426.797" directory="true"/>
+  <assets path="/c8051/configurator/f930/C8051F930_G.zip" diskSizeKB="15520.415" downloadSizeKB="1900.486" directory="true"/>
+  <assets path="/c8051/configurator/f960/C8051F960_A.zip" diskSizeKB="4354.494" downloadSizeKB="665.131" directory="true"/>
+  <assets path="/c8051/configurator/f970/C8051F970_A.zip" diskSizeKB="3748.703" downloadSizeKB="602.969" directory="true"/>
+  <assets path="/c8051/configurator/f990/C8051F990_B.zip" diskSizeKB="15547.405" downloadSizeKB="1948.61" directory="true"/>
+  <assets version="2.9" path="/c8051/datasheet/C8051F300_datasheet.pdf" diskSizeKB="2142.99" downloadSizeKB="2142.99" category="Data Sheets" label="C8051F30x Mixed-Signal ISP Flash MCU Family"/>
+  <assets version="1.8" path="/c8051/datasheet/C8051F310_datasheet.pdf" diskSizeKB="2885.534" downloadSizeKB="2885.534" category="Data Sheets" label="C8051F31x 8 kB and 16 kB ISP Flash MCU Family"/>
+  <assets version="1.4" path="/c8051/datasheet/C8051F320_datasheet.pdf" diskSizeKB="3024.326" downloadSizeKB="3024.326" category="Data Sheets" label="C8051F32x Full-Speed USB 16 k ISP Flash MCU Family"/>
+  <assets path="/c8051/datasheet/C8051F326_datasheet.pdf" diskSizeKB="2190.805" downloadSizeKB="2190.805" category="Data Sheets"/>
+  <assets version="1.7" path="/c8051/datasheet/C8051F330_datasheet.pdf" diskSizeKB="2607.115" downloadSizeKB="2607.115" category="Data Sheets" label="C8051F330 and C8051F331 and C8051F332 and C8051F333 and C8051F334 and C8051F335 Mixed-Signal ISP Flash MCU"/>
+  <assets path="/c8051/datasheet/C8051F336_datasheet.pdf" diskSizeKB="1884.787" downloadSizeKB="1884.787" category="Data Sheets"/>
+  <assets version="1.4" path="/c8051/datasheet/C8051F340_datasheet.pdf" diskSizeKB="5410.002" downloadSizeKB="5410.002" category="Data Sheets" label="C8051F34x Full-Speed USB Flash MCU Family"/>
+  <assets version="1.1" path="/c8051/datasheet/C8051F350_datasheet.pdf" diskSizeKB="2706.4" downloadSizeKB="2706.4" category="Data Sheets" label="C8051F35x 8 k ISP Flash MCU Family"/>
+  <assets version="1.1" path="/c8051/datasheet/C8051F360_datasheet.pdf" diskSizeKB="3730.554" downloadSizeKB="3730.554" category="Data Sheets" label="C8051F36x Mixed-Signal ISP Flash MCU Family"/>
+  <assets version="1.4" path="/c8051/datasheet/C8051F380_datasheet.pdf" diskSizeKB="4716.105" downloadSizeKB="4716.105" category="Data Sheets" label="C8051F38x Full-Speed USB Flash MCU Family"/>
+  <assets path="/c8051/datasheet/C8051F388_datasheet.pdf" diskSizeKB="4292.044" downloadSizeKB="4292.044" category="Data Sheets"/>
+  <assets path="/c8051/datasheet/C8051F390_datasheet.pdf" diskSizeKB="1761.478" downloadSizeKB="1761.478" category="Data Sheets"/>
+  <assets version="1.1" path="/c8051/datasheet/C8051F410_datasheet.pdf" diskSizeKB="3421.11" downloadSizeKB="3421.11" category="Data Sheets" label="C8051F41x 2.0 V 32 kB and 16 kB Flash SmaRTClock 12-bit ADC"/>
+  <assets path="/c8051/datasheet/C8051F500_datasheet.pdf" diskSizeKB="4758.594" downloadSizeKB="4758.594" category="Data Sheets"/>
+  <assets path="/c8051/datasheet/C8051F530_datasheet.pdf" diskSizeKB="1325.327" downloadSizeKB="1325.327" category="Data Sheets"/>
+  <assets version="1.1" path="/c8051/datasheet/C8051F540_datasheet.pdf" diskSizeKB="3963.59" downloadSizeKB="3963.59" category="Data Sheets" label="C8051F54x Mixed-Signal ISP Flash MCU Family"/>
+  <assets path="/c8051/datasheet/C8051F550_datasheet.pdf" diskSizeKB="2706.998" downloadSizeKB="2706.998" category="Data Sheets"/>
+  <assets path="/c8051/datasheet/C8051F580_datasheet.pdf" diskSizeKB="3487.347" downloadSizeKB="3487.347" category="Data Sheets"/>
+  <assets version="1.0" path="/c8051/datasheet/C8051F700_datasheet.pdf" diskSizeKB="3961.93" downloadSizeKB="3961.93" category="Data Sheets" label="C8051F70x and C805171x Mixed-Signal ISP Flash MCU Family"/>
+  <assets path="/c8051/datasheet/C8051F800_datasheet.pdf" diskSizeKB="2794.424" downloadSizeKB="2794.424" category="Data Sheets"/>
+  <assets path="/c8051/datasheet/C8051F850_datasheet.pdf" diskSizeKB="2164.64" downloadSizeKB="2164.64" category="Data Sheets"/>
+  <assets path="/c8051/datasheet/C8051F911_datasheet.pdf" diskSizeKB="2648.887" downloadSizeKB="2648.887" category="Data Sheets"/>
+  <assets path="/c8051/datasheet/C8051F912_datasheet.pdf" diskSizeKB="2648.887" downloadSizeKB="2648.887" category="Data Sheets"/>
+  <assets path="/c8051/datasheet/C8051F930_datasheet.pdf" diskSizeKB="2854.464" downloadSizeKB="2854.464" category="Data Sheets"/>
+  <assets version="1.0" path="/c8051/datasheet/C8051F960_datasheet.pdf" diskSizeKB="14663.33" downloadSizeKB="14663.33" category="Data Sheets" label="C8051F96x Ultra Low Power 128 K LCD MCU Family"/>
+  <assets version="1.1" path="/c8051/datasheet/C8051F970_datasheet.pdf" diskSizeKB="5958.349" downloadSizeKB="5958.349" category="Data Sheets" label="C8051F97x Data Sheet"/>
+  <assets version="1.3" path="/c8051/datasheet/C8051F990_datasheet.pdf" diskSizeKB="8432.313" downloadSizeKB="8432.313" category="Data Sheets" label="C8051F99x-C8051F98x Data Sheet: Ultra Low Power, 8-2 kB Flash, Capacitive Sensing MCU"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F300-E-GM_debug.json" diskSizeKB="195.133" downloadSizeKB="195.133"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F300-E-GS_debug.json" diskSizeKB="195.133" downloadSizeKB="195.133"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F301-E-GM_debug.json" diskSizeKB="179.555" downloadSizeKB="179.555"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F301-E-GS_debug.json" diskSizeKB="179.555" downloadSizeKB="179.555"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F302-E-GM_debug.json" diskSizeKB="195.133" downloadSizeKB="195.133"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F302-E-GS_debug.json" diskSizeKB="195.133" downloadSizeKB="195.133"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F303-E-GM_debug.json" diskSizeKB="179.555" downloadSizeKB="179.555"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F303-E-GS_debug.json" diskSizeKB="179.555" downloadSizeKB="179.555"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F304-E-GM_debug.json" diskSizeKB="179.554" downloadSizeKB="179.554"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F304-E-GS_debug.json" diskSizeKB="179.554" downloadSizeKB="179.554"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F305-E-GM_debug.json" diskSizeKB="179.553" downloadSizeKB="179.553"/>
+  <assets path="/c8051/debug/f300/C8051F300_E/C8051F305-E-GS_debug.json" diskSizeKB="179.553" downloadSizeKB="179.553"/>
+  <assets path="/c8051/debug/f310/C8051F310_B/C8051F310-B-GQ_debug.json" diskSizeKB="316.903" downloadSizeKB="316.903"/>
+  <assets path="/c8051/debug/f310/C8051F310_B/C8051F311-B-GM_debug.json" diskSizeKB="315.623" downloadSizeKB="315.623"/>
+  <assets path="/c8051/debug/f310/C8051F310_B/C8051F312-B-GQ_debug.json" diskSizeKB="316.903" downloadSizeKB="316.903"/>
+  <assets path="/c8051/debug/f310/C8051F310_B/C8051F313-B-GM_debug.json" diskSizeKB="315.623" downloadSizeKB="315.623"/>
+  <assets path="/c8051/debug/f310/C8051F310_B/C8051F314-B-GQ_debug.json" diskSizeKB="295.529" downloadSizeKB="295.529"/>
+  <assets path="/c8051/debug/f310/C8051F310_B/C8051F315-B-GM_debug.json" diskSizeKB="295.529" downloadSizeKB="295.529"/>
+  <assets path="/c8051/debug/f310/C8051F310_B/C8051F316-B-GM_debug.json" diskSizeKB="313.703" downloadSizeKB="313.703"/>
+  <assets path="/c8051/debug/f310/C8051F310_B/C8051F317-B-GM_debug.json" diskSizeKB="294.877" downloadSizeKB="294.877"/>
+  <assets path="/c8051/debug/f320/C8051F320_E/C8051F320-E-GQ_debug.json" diskSizeKB="398.252" downloadSizeKB="398.252"/>
+  <assets path="/c8051/debug/f320/C8051F320_E/C8051F321-E-GM_debug.json" diskSizeKB="396.32" downloadSizeKB="396.32"/>
+  <assets path="/c8051/debug/f326/C8051F326_D/C8051F326-D-GM_debug.json" diskSizeKB="178.142" downloadSizeKB="178.142"/>
+  <assets path="/c8051/debug/f326/C8051F326_D/C8051F327-D-GM_debug.json" diskSizeKB="178.142" downloadSizeKB="178.142"/>
+  <assets path="/c8051/debug/f330/C8051F330_B/C8051F330-B-GM_debug.json" diskSizeKB="265.603" downloadSizeKB="265.603"/>
+  <assets path="/c8051/debug/f330/C8051F330_B/C8051F331-B-GM_debug.json" diskSizeKB="240.452" downloadSizeKB="240.452"/>
+  <assets path="/c8051/debug/f330/C8051F330_B/C8051F332-B-GM_debug.json" diskSizeKB="265.602" downloadSizeKB="265.602"/>
+  <assets path="/c8051/debug/f330/C8051F330_B/C8051F333-B-GM_debug.json" diskSizeKB="240.451" downloadSizeKB="240.451"/>
+  <assets path="/c8051/debug/f330/C8051F330_B/C8051F334-B-GM_debug.json" diskSizeKB="265.601" downloadSizeKB="265.601"/>
+  <assets path="/c8051/debug/f330/C8051F330_B/C8051F335-B-GM_debug.json" diskSizeKB="240.45" downloadSizeKB="240.45"/>
+  <assets path="/c8051/debug/f336/C8051F336_A/C8051F336-A-GM_debug.json" diskSizeKB="311.7" downloadSizeKB="311.7"/>
+  <assets path="/c8051/debug/f336/C8051F336_A/C8051F337-A-GM_debug.json" diskSizeKB="286.5" downloadSizeKB="286.5"/>
+  <assets path="/c8051/debug/f336/C8051F336_A/C8051F338-A-GM_debug.json" diskSizeKB="313.632" downloadSizeKB="313.632"/>
+  <assets path="/c8051/debug/f336/C8051F336_A/C8051F339-A-GM_debug.json" diskSizeKB="287.152" downloadSizeKB="287.152"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F340-B-GQ_debug.json" diskSizeKB="470.626" downloadSizeKB="470.626"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F341-B-GQ_debug.json" diskSizeKB="470.625" downloadSizeKB="470.625"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F342-B-GM_debug.json" diskSizeKB="438.969" downloadSizeKB="438.969"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F342-B-GQ_debug.json" diskSizeKB="438.969" downloadSizeKB="438.969"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F343-B-GM_debug.json" diskSizeKB="438.968" downloadSizeKB="438.968"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F343-B-GQ_debug.json" diskSizeKB="438.968" downloadSizeKB="438.968"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F344-B-GQ_debug.json" diskSizeKB="470.626" downloadSizeKB="470.626"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F345-B-GQ_debug.json" diskSizeKB="470.625" downloadSizeKB="470.625"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F346-B-GM_debug.json" diskSizeKB="438.969" downloadSizeKB="438.969"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F346-B-GQ_debug.json" diskSizeKB="438.969" downloadSizeKB="438.969"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F347-B-GM_debug.json" diskSizeKB="438.968" downloadSizeKB="438.968"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F347-B-GQ_debug.json" diskSizeKB="438.968" downloadSizeKB="438.968"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F348-B-GQ_debug.json" diskSizeKB="448.868" downloadSizeKB="448.868"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F349-B-GM_debug.json" diskSizeKB="416.891" downloadSizeKB="416.891"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F349-B-GQ_debug.json" diskSizeKB="416.891" downloadSizeKB="416.891"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F34A-B-GM_debug.json" diskSizeKB="454.168" downloadSizeKB="454.168"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F34A-B-GQ_debug.json" diskSizeKB="454.168" downloadSizeKB="454.168"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F34B-B-GM_debug.json" diskSizeKB="470.945" downloadSizeKB="470.945"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F34B-B-GQ_debug.json" diskSizeKB="454.167" downloadSizeKB="454.167"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F34C-B-GQ_debug.json" diskSizeKB="448.869" downloadSizeKB="448.869"/>
+  <assets path="/c8051/debug/f340/C8051F340_B/C8051F34D-B-GQ_debug.json" diskSizeKB="433.67" downloadSizeKB="433.67"/>
+  <assets path="/c8051/debug/f350/C8051F350_C/C8051F350-C-GQ_debug.json" diskSizeKB="283.888" downloadSizeKB="283.888"/>
+  <assets path="/c8051/debug/f350/C8051F350_C/C8051F351-C-GM_debug.json" diskSizeKB="283.944" downloadSizeKB="283.944"/>
+  <assets path="/c8051/debug/f350/C8051F350_C/C8051F352-C-GQ_debug.json" diskSizeKB="283.888" downloadSizeKB="283.888"/>
+  <assets path="/c8051/debug/f350/C8051F350_C/C8051F353-C-GM_debug.json" diskSizeKB="283.944" downloadSizeKB="283.944"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F360-C-GQ_debug.json" diskSizeKB="443.496" downloadSizeKB="443.496"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F361-C-GQ_debug.json" diskSizeKB="444.752" downloadSizeKB="444.752"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F362-C-GM_debug.json" diskSizeKB="443.472" downloadSizeKB="443.472"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F363-C-GQ_debug.json" diskSizeKB="443.496" downloadSizeKB="443.496"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F364-C-GQ_debug.json" diskSizeKB="444.752" downloadSizeKB="444.752"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F365-C-GM_debug.json" diskSizeKB="443.472" downloadSizeKB="443.472"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F366-C-GQ_debug.json" diskSizeKB="444.752" downloadSizeKB="444.752"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F367-C-GM_debug.json" diskSizeKB="443.472" downloadSizeKB="443.472"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F368-C-GQ_debug.json" diskSizeKB="444.752" downloadSizeKB="444.752"/>
+  <assets path="/c8051/debug/f360/C8051F360_C/C8051F369-C-GM_debug.json" diskSizeKB="443.472" downloadSizeKB="443.472"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F380-A-GQ_debug.json" diskSizeKB="525.772" downloadSizeKB="525.772"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F381-A-GM_debug.json" diskSizeKB="521.926" downloadSizeKB="521.926"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F381-A-GQ_debug.json" diskSizeKB="521.926" downloadSizeKB="521.926"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F382-A-GQ_debug.json" diskSizeKB="525.771" downloadSizeKB="525.771"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F383-A-GM_debug.json" diskSizeKB="521.925" downloadSizeKB="521.925"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F383-A-GQ_debug.json" diskSizeKB="521.925" downloadSizeKB="521.925"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F384-A-GQ_debug.json" diskSizeKB="498.234" downloadSizeKB="498.234"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F385-A-GM_debug.json" diskSizeKB="497.908" downloadSizeKB="497.908"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F385-A-GQ_debug.json" diskSizeKB="497.908" downloadSizeKB="497.908"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F386-A-GQ_debug.json" diskSizeKB="498.233" downloadSizeKB="498.233"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F387-A-GM_debug.json" diskSizeKB="497.907" downloadSizeKB="497.907"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F387-A-GQ_debug.json" diskSizeKB="497.907" downloadSizeKB="497.907"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F38C-A-GM_debug.json" diskSizeKB="521.925" downloadSizeKB="521.925"/>
+  <assets path="/c8051/debug/f380/C8051F380_A/C8051F38C-A-GQ_debug.json" diskSizeKB="521.925" downloadSizeKB="521.925"/>
+  <assets path="/c8051/debug/f388/C8051F388_A/C8051F388-A-GQ_debug.json" diskSizeKB="443.386" downloadSizeKB="443.386"/>
+  <assets path="/c8051/debug/f388/C8051F388_A/C8051F389-A-GM_debug.json" diskSizeKB="439.54" downloadSizeKB="439.54"/>
+  <assets path="/c8051/debug/f388/C8051F388_A/C8051F389-A-GQ_debug.json" diskSizeKB="439.54" downloadSizeKB="439.54"/>
+  <assets path="/c8051/debug/f388/C8051F388_A/C8051F38A-A-GQ_debug.json" diskSizeKB="443.704" downloadSizeKB="443.704"/>
+  <assets path="/c8051/debug/f388/C8051F388_A/C8051F38B-A-GM_debug.json" diskSizeKB="439.858" downloadSizeKB="439.858"/>
+  <assets path="/c8051/debug/f388/C8051F388_A/C8051F38B-A-GQ_debug.json" diskSizeKB="439.858" downloadSizeKB="439.858"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F370-A-GM_debug.json" diskSizeKB="411.075" downloadSizeKB="411.075"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F371-A-GM_debug.json" diskSizeKB="372.536" downloadSizeKB="372.536"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F374-A-GM_debug.json" diskSizeKB="411.075" downloadSizeKB="411.075"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F375-A-GM_debug.json" diskSizeKB="372.536" downloadSizeKB="372.536"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F390-A-GM_debug.json" diskSizeKB="410.932" downloadSizeKB="410.932"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F391-A-GM_debug.json" diskSizeKB="372.393" downloadSizeKB="372.393"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F392-A-GM_debug.json" diskSizeKB="409.64" downloadSizeKB="409.64"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F393-A-GM_debug.json" diskSizeKB="371.741" downloadSizeKB="371.741"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F394-A-GM_debug.json" diskSizeKB="410.932" downloadSizeKB="410.932"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F395-A-GM_debug.json" diskSizeKB="372.393" downloadSizeKB="372.393"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F396-A-GM_debug.json" diskSizeKB="409.64" downloadSizeKB="409.64"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F397-A-GM_debug.json" diskSizeKB="371.741" downloadSizeKB="371.741"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F398-A-GM_debug.json" diskSizeKB="409.639" downloadSizeKB="409.639"/>
+  <assets path="/c8051/debug/f390/C8051F390_A/C8051F399-A-GM_debug.json" diskSizeKB="371.74" downloadSizeKB="371.74"/>
+  <assets path="/c8051/debug/f410/C8051F410_F/C8051F410-F-GQ_debug.json" diskSizeKB="418.668" downloadSizeKB="418.668"/>
+  <assets path="/c8051/debug/f410/C8051F410_F/C8051F411-F-GM_debug.json" diskSizeKB="418.007" downloadSizeKB="418.007"/>
+  <assets path="/c8051/debug/f410/C8051F410_F/C8051F412-F-GQ_debug.json" diskSizeKB="418.668" downloadSizeKB="418.668"/>
+  <assets path="/c8051/debug/f410/C8051F410_F/C8051F413-F-GM_debug.json" diskSizeKB="418.007" downloadSizeKB="418.007"/>
+  <assets path="/c8051/debug/f410/C8051F410_F/C8051F414-F-GQ_debug.json" diskSizeKB="418.668" downloadSizeKB="418.668"/>
+  <assets path="/c8051/debug/f410/C8051F410_F/C8051F415-F-GM_debug.json" diskSizeKB="418.007" downloadSizeKB="418.007"/>
+  <assets path="/c8051/debug/f410/C8051F410_F/C8051F416-F-GQ_debug.json" diskSizeKB="418.668" downloadSizeKB="418.668"/>
+  <assets path="/c8051/debug/f410/C8051F410_F/C8051F417-F-GM_debug.json" diskSizeKB="418.007" downloadSizeKB="418.007"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F500-B-IM_debug.json" diskSizeKB="540.425" downloadSizeKB="540.425"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F500-B-IQ_debug.json" diskSizeKB="540.425" downloadSizeKB="540.425"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F501-B-IM_debug.json" diskSizeKB="457.921" downloadSizeKB="457.921"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F501-B-IQ_debug.json" diskSizeKB="457.921" downloadSizeKB="457.921"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F502-B-IM_debug.json" diskSizeKB="529.192" downloadSizeKB="529.192"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F502-B-IQ_debug.json" diskSizeKB="529.192" downloadSizeKB="529.192"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F503-B-IM_debug.json" diskSizeKB="446.688" downloadSizeKB="446.688"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F503-B-IQ_debug.json" diskSizeKB="446.688" downloadSizeKB="446.688"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F504-B-IM_debug.json" diskSizeKB="540.425" downloadSizeKB="540.425"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F504-B-IQ_debug.json" diskSizeKB="540.425" downloadSizeKB="540.425"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F505-B-IM_debug.json" diskSizeKB="457.921" downloadSizeKB="457.921"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F505-B-IQ_debug.json" diskSizeKB="457.921" downloadSizeKB="457.921"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F506-B-IM_debug.json" diskSizeKB="529.192" downloadSizeKB="529.192"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F506-B-IQ_debug.json" diskSizeKB="529.192" downloadSizeKB="529.192"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F507-B-IM_debug.json" diskSizeKB="446.688" downloadSizeKB="446.688"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F507-B-IQ_debug.json" diskSizeKB="446.688" downloadSizeKB="446.688"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F508-B-IM_debug.json" diskSizeKB="540.425" downloadSizeKB="540.425"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F509-B-IM_debug.json" diskSizeKB="457.921" downloadSizeKB="457.921"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F510-B-IM_debug.json" diskSizeKB="540.425" downloadSizeKB="540.425"/>
+  <assets path="/c8051/debug/f500/C8051F500_B/C8051F511-B-IM_debug.json" diskSizeKB="457.921" downloadSizeKB="457.921"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F520-C-IM_debug.json" diskSizeKB="264.104" downloadSizeKB="264.104"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F521-C-IM_debug.json" diskSizeKB="264.104" downloadSizeKB="264.104"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F523-C-IM_debug.json" diskSizeKB="264.103" downloadSizeKB="264.103"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F524-C-IM_debug.json" diskSizeKB="264.103" downloadSizeKB="264.103"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F526-C-IM_debug.json" diskSizeKB="264.102" downloadSizeKB="264.102"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F527-C-IM_debug.json" diskSizeKB="264.102" downloadSizeKB="264.102"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F530-C-IM_debug.json" diskSizeKB="299.335" downloadSizeKB="299.335"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F530-C-IT_debug.json" diskSizeKB="299.335" downloadSizeKB="299.335"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F531-C-IM_debug.json" diskSizeKB="299.335" downloadSizeKB="299.335"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F531-C-IT_debug.json" diskSizeKB="299.335" downloadSizeKB="299.335"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F533-C-IM_debug.json" diskSizeKB="299.334" downloadSizeKB="299.334"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F533-C-IT_debug.json" diskSizeKB="299.334" downloadSizeKB="299.334"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F534-C-IM_debug.json" diskSizeKB="299.334" downloadSizeKB="299.334"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F534-C-IT_debug.json" diskSizeKB="299.334" downloadSizeKB="299.334"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F536-C-IM_debug.json" diskSizeKB="299.333" downloadSizeKB="299.333"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F536-C-IT_debug.json" diskSizeKB="299.333" downloadSizeKB="299.333"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F537-C-IM_debug.json" diskSizeKB="299.333" downloadSizeKB="299.333"/>
+  <assets path="/c8051/debug/f530/C8051F530_C/C8051F537-C-IT_debug.json" diskSizeKB="299.333" downloadSizeKB="299.333"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F540-A-IM_debug.json" diskSizeKB="438.571" downloadSizeKB="438.571"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F540-A-IQ_debug.json" diskSizeKB="438.571" downloadSizeKB="438.571"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F541-A-IM_debug.json" diskSizeKB="407.605" downloadSizeKB="407.605"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F541-A-IQ_debug.json" diskSizeKB="407.605" downloadSizeKB="407.605"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F542-A-IM_debug.json" diskSizeKB="429.932" downloadSizeKB="429.932"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F543-A-IM_debug.json" diskSizeKB="398.966" downloadSizeKB="398.966"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F544-A-IM_debug.json" diskSizeKB="438.571" downloadSizeKB="438.571"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F544-A-IQ_debug.json" diskSizeKB="438.571" downloadSizeKB="438.571"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F545-A-IM_debug.json" diskSizeKB="407.605" downloadSizeKB="407.605"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F545-A-IQ_debug.json" diskSizeKB="407.605" downloadSizeKB="407.605"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F546-A-IM_debug.json" diskSizeKB="429.932" downloadSizeKB="429.932"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F547-A-IM_debug.json" diskSizeKB="398.966" downloadSizeKB="398.966"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F54B-A-IM_debug.json" diskSizeKB="407.605" downloadSizeKB="407.605"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F54B-A-IQ_debug.json" diskSizeKB="407.605" downloadSizeKB="407.605"/>
+  <assets path="/c8051/debug/f540/C8051F540_A/C8051F54D-A-IM_debug.json" diskSizeKB="398.966" downloadSizeKB="398.966"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F550-A-IM_debug.json" diskSizeKB="494.597" downloadSizeKB="494.597"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F551-A-IM_debug.json" diskSizeKB="463.633" downloadSizeKB="463.633"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F552-A-IM_debug.json" diskSizeKB="443.059" downloadSizeKB="443.059"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F553-A-IM_debug.json" diskSizeKB="412.095" downloadSizeKB="412.095"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F554-A-IM_debug.json" diskSizeKB="494.597" downloadSizeKB="494.597"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F555-A-IM_debug.json" diskSizeKB="443.059" downloadSizeKB="443.059"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F556-A-IM_debug.json" diskSizeKB="463.633" downloadSizeKB="463.633"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F557-A-IM_debug.json" diskSizeKB="412.095" downloadSizeKB="412.095"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F560-A-IM_debug.json" diskSizeKB="530.195" downloadSizeKB="530.195"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F560-A-IQ_debug.json" diskSizeKB="530.195" downloadSizeKB="530.195"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F561-A-IM_debug.json" diskSizeKB="499.231" downloadSizeKB="499.231"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F561-A-IQ_debug.json" diskSizeKB="499.231" downloadSizeKB="499.231"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F562-A-IM_debug.json" diskSizeKB="478.657" downloadSizeKB="478.657"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F562-A-IQ_debug.json" diskSizeKB="478.657" downloadSizeKB="478.657"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F563-A-IM_debug.json" diskSizeKB="447.693" downloadSizeKB="447.693"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F563-A-IQ_debug.json" diskSizeKB="447.693" downloadSizeKB="447.693"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F564-A-IM_debug.json" diskSizeKB="530.195" downloadSizeKB="530.195"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F564-A-IQ_debug.json" diskSizeKB="530.195" downloadSizeKB="530.195"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F565-A-IM_debug.json" diskSizeKB="478.657" downloadSizeKB="478.657"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F565-A-IQ_debug.json" diskSizeKB="478.657" downloadSizeKB="478.657"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F566-A-IM_debug.json" diskSizeKB="499.231" downloadSizeKB="499.231"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F566-A-IQ_debug.json" diskSizeKB="499.231" downloadSizeKB="499.231"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F567-A-IM_debug.json" diskSizeKB="447.693" downloadSizeKB="447.693"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F567-A-IQ_debug.json" diskSizeKB="447.693" downloadSizeKB="447.693"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F568-A-IM_debug.json" diskSizeKB="532.668" downloadSizeKB="532.668"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F569-A-IM_debug.json" diskSizeKB="501.704" downloadSizeKB="501.704"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F570-A-IM_debug.json" diskSizeKB="481.13" downloadSizeKB="481.13"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F571-A-IM_debug.json" diskSizeKB="450.166" downloadSizeKB="450.166"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F572-A-IM_debug.json" diskSizeKB="532.668" downloadSizeKB="532.668"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F573-A-IM_debug.json" diskSizeKB="481.13" downloadSizeKB="481.13"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F574-A-IM_debug.json" diskSizeKB="501.704" downloadSizeKB="501.704"/>
+  <assets path="/c8051/debug/f550/C8051F550_A/C8051F575-A-IM_debug.json" diskSizeKB="450.166" downloadSizeKB="450.166"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F580-A-IM_debug.json" diskSizeKB="662.701" downloadSizeKB="662.701"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F580-A-IQ_debug.json" diskSizeKB="662.701" downloadSizeKB="662.701"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F581-A-IM_debug.json" diskSizeKB="580.199" downloadSizeKB="580.199"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F581-A-IQ_debug.json" diskSizeKB="580.199" downloadSizeKB="580.199"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F582-A-IM_debug.json" diskSizeKB="651.468" downloadSizeKB="651.468"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F582-A-IQ_debug.json" diskSizeKB="651.468" downloadSizeKB="651.468"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F583-A-IM_debug.json" diskSizeKB="568.966" downloadSizeKB="568.966"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F583-A-IQ_debug.json" diskSizeKB="568.966" downloadSizeKB="568.966"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F584-A-IM_debug.json" diskSizeKB="662.362" downloadSizeKB="662.362"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F584-A-IQ_debug.json" diskSizeKB="662.362" downloadSizeKB="662.362"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F585-A-IM_debug.json" diskSizeKB="579.86" downloadSizeKB="579.86"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F585-A-IQ_debug.json" diskSizeKB="579.86" downloadSizeKB="579.86"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F586-A-IM_debug.json" diskSizeKB="651.129" downloadSizeKB="651.129"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F586-A-IQ_debug.json" diskSizeKB="651.129" downloadSizeKB="651.129"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F587-A-IM_debug.json" diskSizeKB="568.627" downloadSizeKB="568.627"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F587-A-IQ_debug.json" diskSizeKB="568.627" downloadSizeKB="568.627"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F588-A-IM_debug.json" diskSizeKB="662.701" downloadSizeKB="662.701"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F589-A-IM_debug.json" diskSizeKB="580.199" downloadSizeKB="580.199"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F590-A-IM_debug.json" diskSizeKB="662.362" downloadSizeKB="662.362"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F591-A-IM_debug.json" diskSizeKB="579.86" downloadSizeKB="579.86"/>
+  <assets path="/c8051/debug/f580/C8051F580_A/C8051F592-A-AM_debug.json" diskSizeKB="620.504" downloadSizeKB="620.504"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F700-C-GQ_debug.json" diskSizeKB="480.714" downloadSizeKB="480.714"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F701-C-GQ_debug.json" diskSizeKB="480.714" downloadSizeKB="480.714"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F702-C-GQ_debug.json" diskSizeKB="475.77" downloadSizeKB="475.77"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F703-C-GQ_debug.json" diskSizeKB="475.77" downloadSizeKB="475.77"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F704-C-GM_debug.json" diskSizeKB="478.341" downloadSizeKB="478.341"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F704-C-GQ_debug.json" diskSizeKB="478.341" downloadSizeKB="478.341"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F705-C-GM_debug.json" diskSizeKB="478.341" downloadSizeKB="478.341"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F705-C-GQ_debug.json" diskSizeKB="478.341" downloadSizeKB="478.341"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F706-C-GM_debug.json" diskSizeKB="473.397" downloadSizeKB="473.397"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F706-C-GQ_debug.json" diskSizeKB="473.397" downloadSizeKB="473.397"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F707-C-GM_debug.json" diskSizeKB="473.397" downloadSizeKB="473.397"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F707-C-GQ_debug.json" diskSizeKB="473.397" downloadSizeKB="473.397"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F708-C-GQ_debug.json" diskSizeKB="480.714" downloadSizeKB="480.714"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F709-C-GQ_debug.json" diskSizeKB="480.714" downloadSizeKB="480.714"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F710-C-GQ_debug.json" diskSizeKB="475.77" downloadSizeKB="475.77"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F711-C-GQ_debug.json" diskSizeKB="475.77" downloadSizeKB="475.77"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F712-C-GM_debug.json" diskSizeKB="478.341" downloadSizeKB="478.341"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F712-C-GQ_debug.json" diskSizeKB="480.392" downloadSizeKB="480.392"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F713-C-GM_debug.json" diskSizeKB="478.341" downloadSizeKB="478.341"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F713-C-GQ_debug.json" diskSizeKB="478.341" downloadSizeKB="478.341"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F714-C-GM_debug.json" diskSizeKB="473.397" downloadSizeKB="473.397"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F714-C-GQ_debug.json" diskSizeKB="473.397" downloadSizeKB="473.397"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F715-C-GM_debug.json" diskSizeKB="473.397" downloadSizeKB="473.397"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F715-C-GQ_debug.json" diskSizeKB="473.397" downloadSizeKB="473.397"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F716-C-GM_debug.json" diskSizeKB="472.908" downloadSizeKB="472.908"/>
+  <assets path="/c8051/debug/f700/C8051F700_C/C8051F717-C-GM_debug.json" diskSizeKB="471.658" downloadSizeKB="471.658"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F800-C-GM_debug.json" diskSizeKB="315.393" downloadSizeKB="315.393"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F800-C-GU_debug.json" diskSizeKB="316.021" downloadSizeKB="316.021"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F801-C-GM_debug.json" diskSizeKB="315.393" downloadSizeKB="315.393"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F801-C-GU_debug.json" diskSizeKB="316.021" downloadSizeKB="316.021"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F802-C-GM_debug.json" diskSizeKB="299.81" downloadSizeKB="299.81"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F802-C-GU_debug.json" diskSizeKB="299.81" downloadSizeKB="299.81"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F803-C-GS_debug.json" diskSizeKB="314.119" downloadSizeKB="314.119"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F804-C-GS_debug.json" diskSizeKB="314.119" downloadSizeKB="314.119"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F805-C-GS_debug.json" diskSizeKB="299.158" downloadSizeKB="299.158"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F806-C-GM_debug.json" diskSizeKB="296.593" downloadSizeKB="296.593"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F806-C-GU_debug.json" diskSizeKB="297.221" downloadSizeKB="297.221"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F807-C-GM_debug.json" diskSizeKB="296.593" downloadSizeKB="296.593"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F807-C-GU_debug.json" diskSizeKB="297.221" downloadSizeKB="297.221"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F808-C-GM_debug.json" diskSizeKB="281.01" downloadSizeKB="281.01"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F808-C-GU_debug.json" diskSizeKB="281.01" downloadSizeKB="281.01"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F809-C-GS_debug.json" diskSizeKB="295.319" downloadSizeKB="295.319"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F810-C-GS_debug.json" diskSizeKB="295.319" downloadSizeKB="295.319"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F811-C-GS_debug.json" diskSizeKB="280.358" downloadSizeKB="280.358"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F812-C-GM_debug.json" diskSizeKB="315.393" downloadSizeKB="315.393"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F812-C-GU_debug.json" diskSizeKB="316.021" downloadSizeKB="316.021"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F813-C-GM_debug.json" diskSizeKB="315.393" downloadSizeKB="315.393"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F813-C-GU_debug.json" diskSizeKB="316.021" downloadSizeKB="316.021"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F814-C-GM_debug.json" diskSizeKB="299.81" downloadSizeKB="299.81"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F814-C-GU_debug.json" diskSizeKB="299.81" downloadSizeKB="299.81"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F815-C-GS_debug.json" diskSizeKB="314.119" downloadSizeKB="314.119"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F816-C-GS_debug.json" diskSizeKB="314.119" downloadSizeKB="314.119"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F817-C-GS_debug.json" diskSizeKB="299.158" downloadSizeKB="299.158"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F818-C-GM_debug.json" diskSizeKB="296.593" downloadSizeKB="296.593"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F818-C-GU_debug.json" diskSizeKB="297.221" downloadSizeKB="297.221"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F819-C-GM_debug.json" diskSizeKB="296.593" downloadSizeKB="296.593"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F819-C-GU_debug.json" diskSizeKB="297.221" downloadSizeKB="297.221"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F820-C-GM_debug.json" diskSizeKB="281.01" downloadSizeKB="281.01"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F820-C-GU_debug.json" diskSizeKB="281.01" downloadSizeKB="281.01"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F821-C-GS_debug.json" diskSizeKB="295.319" downloadSizeKB="295.319"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F822-C-GS_debug.json" diskSizeKB="295.319" downloadSizeKB="295.319"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F823-C-GS_debug.json" diskSizeKB="280.358" downloadSizeKB="280.358"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F824-C-GS_debug.json" diskSizeKB="313.792" downloadSizeKB="313.792"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F825-C-GS_debug.json" diskSizeKB="313.792" downloadSizeKB="313.792"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F826-C-GS_debug.json" diskSizeKB="298.831" downloadSizeKB="298.831"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F827-C-GS_debug.json" diskSizeKB="294.992" downloadSizeKB="294.992"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F828-C-GS_debug.json" diskSizeKB="294.992" downloadSizeKB="294.992"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F829-C-GS_debug.json" diskSizeKB="280.031" downloadSizeKB="280.031"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F830-C-GS_debug.json" diskSizeKB="313.791" downloadSizeKB="313.791"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F831-C-GS_debug.json" diskSizeKB="313.791" downloadSizeKB="313.791"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F832-C-GS_debug.json" diskSizeKB="298.83" downloadSizeKB="298.83"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F833-C-GS_debug.json" diskSizeKB="294.991" downloadSizeKB="294.991"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F834-C-GS_debug.json" diskSizeKB="294.991" downloadSizeKB="294.991"/>
+  <assets path="/c8051/debug/f800/C8051F800_C/C8051F835-C-GS_debug.json" diskSizeKB="280.03" downloadSizeKB="280.03"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F850-C-GM_debug.json" diskSizeKB="331.164" downloadSizeKB="331.164"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F850-C-GU_debug.json" diskSizeKB="331.64" downloadSizeKB="331.64"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F851-C-GM_debug.json" diskSizeKB="331.163" downloadSizeKB="331.163"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F851-C-GU_debug.json" diskSizeKB="331.639" downloadSizeKB="331.639"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F852-C-GM_debug.json" diskSizeKB="330.846" downloadSizeKB="330.846"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F852-C-GU_debug.json" diskSizeKB="331.322" downloadSizeKB="331.322"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F853-C-GM_debug.json" diskSizeKB="301.201" downloadSizeKB="301.201"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F853-C-GU_debug.json" diskSizeKB="301.521" downloadSizeKB="301.521"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F854-C-GM_debug.json" diskSizeKB="301.2" downloadSizeKB="301.2"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F854-C-GU_debug.json" diskSizeKB="301.52" downloadSizeKB="301.52"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F855-C-GM_debug.json" diskSizeKB="300.883" downloadSizeKB="300.883"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F855-C-GU_debug.json" diskSizeKB="301.203" downloadSizeKB="301.203"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F860-C-GS_debug.json" diskSizeKB="329.736" downloadSizeKB="329.736"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F861-C-GS_debug.json" diskSizeKB="329.735" downloadSizeKB="329.735"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F862-C-GS_debug.json" diskSizeKB="329.418" downloadSizeKB="329.418"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F863-C-GS_debug.json" diskSizeKB="300.241" downloadSizeKB="300.241"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F864-C-GS_debug.json" diskSizeKB="300.24" downloadSizeKB="300.24"/>
+  <assets path="/c8051/debug/f850/C8051F850_C/C8051F865-C-GS_debug.json" diskSizeKB="299.923" downloadSizeKB="299.923"/>
+  <assets path="/c8051/debug/f911/C8051F911_D/C8051F901-D-GM_debug.json" diskSizeKB="428.956" downloadSizeKB="428.956"/>
+  <assets path="/c8051/debug/f911/C8051F911_D/C8051F901-D-GU_debug.json" diskSizeKB="428.956" downloadSizeKB="428.956"/>
+  <assets path="/c8051/debug/f911/C8051F911_D/C8051F911-D-GM_debug.json" diskSizeKB="428.956" downloadSizeKB="428.956"/>
+  <assets path="/c8051/debug/f911/C8051F911_D/C8051F911-D-GU_debug.json" diskSizeKB="428.956" downloadSizeKB="428.956"/>
+  <assets path="/c8051/debug/f912/C8051F912_D/C8051F902-D-GM_debug.json" diskSizeKB="442.328" downloadSizeKB="442.328"/>
+  <assets path="/c8051/debug/f912/C8051F912_D/C8051F902-D-GU_debug.json" diskSizeKB="442.328" downloadSizeKB="442.328"/>
+  <assets path="/c8051/debug/f912/C8051F912_D/C8051F912-D-GM_debug.json" diskSizeKB="442.328" downloadSizeKB="442.328"/>
+  <assets path="/c8051/debug/f912/C8051F912_D/C8051F912-D-GU_debug.json" diskSizeKB="442.328" downloadSizeKB="442.328"/>
+  <assets path="/c8051/debug/f930/C8051F930_G/C8051F920-G-GM_debug.json" diskSizeKB="462.72" downloadSizeKB="462.72"/>
+  <assets path="/c8051/debug/f930/C8051F930_G/C8051F920-G-GQ_debug.json" diskSizeKB="462.72" downloadSizeKB="462.72"/>
+  <assets path="/c8051/debug/f930/C8051F930_G/C8051F921-G-GM_debug.json" diskSizeKB="449.262" downloadSizeKB="449.262"/>
+  <assets path="/c8051/debug/f930/C8051F930_G/C8051F930-G-GM_debug.json" diskSizeKB="462.72" downloadSizeKB="462.72"/>
+  <assets path="/c8051/debug/f930/C8051F930_G/C8051F930-G-GQ_debug.json" diskSizeKB="462.72" downloadSizeKB="462.72"/>
+  <assets path="/c8051/debug/f930/C8051F930_G/C8051F931-G-GM_debug.json" diskSizeKB="449.262" downloadSizeKB="449.262"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F960-A-GM_debug.json" diskSizeKB="834.337" downloadSizeKB="834.337"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F960-A-GQ_debug.json" diskSizeKB="834.337" downloadSizeKB="834.337"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F961-A-GM_debug.json" diskSizeKB="834.337" downloadSizeKB="834.337"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F962-A-GM_debug.json" diskSizeKB="787.737" downloadSizeKB="787.737"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F962-A-GQ_debug.json" diskSizeKB="787.737" downloadSizeKB="787.737"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F963-A-GM_debug.json" diskSizeKB="787.737" downloadSizeKB="787.737"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F964-A-GM_debug.json" diskSizeKB="833.658" downloadSizeKB="833.658"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F964-A-GQ_debug.json" diskSizeKB="833.658" downloadSizeKB="833.658"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F965-A-GM_debug.json" diskSizeKB="833.658" downloadSizeKB="833.658"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F966-A-GM_debug.json" diskSizeKB="832.526" downloadSizeKB="832.526"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F966-A-GQ_debug.json" diskSizeKB="832.526" downloadSizeKB="832.526"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F967-A-GM_debug.json" diskSizeKB="832.526" downloadSizeKB="832.526"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F968-A-GM_debug.json" diskSizeKB="832.526" downloadSizeKB="832.526"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F968-A-GQ_debug.json" diskSizeKB="832.526" downloadSizeKB="832.526"/>
+  <assets path="/c8051/debug/f960/C8051F960_A/C8051F969-A-GM_debug.json" diskSizeKB="832.526" downloadSizeKB="832.526"/>
+  <assets path="/c8051/debug/f970/C8051F970_A/C8051F970-A-GM_debug.json" diskSizeKB="684.197" downloadSizeKB="684.197"/>
+  <assets path="/c8051/debug/f970/C8051F970_A/C8051F971-A-GM_debug.json" diskSizeKB="659.84" downloadSizeKB="659.84"/>
+  <assets path="/c8051/debug/f970/C8051F970_A/C8051F972-A-GM_debug.json" diskSizeKB="636.425" downloadSizeKB="636.425"/>
+  <assets path="/c8051/debug/f970/C8051F970_A/C8051F973-A-GM_debug.json" diskSizeKB="684.197" downloadSizeKB="684.197"/>
+  <assets path="/c8051/debug/f970/C8051F970_A/C8051F974-A-GM_debug.json" diskSizeKB="659.84" downloadSizeKB="659.84"/>
+  <assets path="/c8051/debug/f970/C8051F970_A/C8051F975-A-GM_debug.json" diskSizeKB="636.425" downloadSizeKB="636.425"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F980-B-GM_debug.json" diskSizeKB="370.905" downloadSizeKB="370.905"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F981-B-GM_debug.json" diskSizeKB="344.945" downloadSizeKB="344.945"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F982-B-GM_debug.json" diskSizeKB="370.904" downloadSizeKB="370.904"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F983-B-GM_debug.json" diskSizeKB="344.944" downloadSizeKB="344.944"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F985-B-GM_debug.json" diskSizeKB="344.616" downloadSizeKB="344.616"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F986-B-GM_debug.json" diskSizeKB="371.072" downloadSizeKB="371.072"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F986-B-GU_debug.json" diskSizeKB="371.072" downloadSizeKB="371.072"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F987-B-GM_debug.json" diskSizeKB="344.945" downloadSizeKB="344.945"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F987-B-GU_debug.json" diskSizeKB="344.945" downloadSizeKB="344.945"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F988-B-GM_debug.json" diskSizeKB="371.071" downloadSizeKB="371.071"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F988-B-GU_debug.json" diskSizeKB="371.071" downloadSizeKB="371.071"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F989-B-GM_debug.json" diskSizeKB="344.944" downloadSizeKB="344.944"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F989-B-GU_debug.json" diskSizeKB="344.944" downloadSizeKB="344.944"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F990-B-GDI_debug.json" diskSizeKB="406.952" downloadSizeKB="406.952"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F990-B-GM_debug.json" diskSizeKB="406.628" downloadSizeKB="406.628"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F991-B-GDI_debug.json" diskSizeKB="380.839" downloadSizeKB="380.839"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F991-B-GM_debug.json" diskSizeKB="380.727" downloadSizeKB="380.727"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F996-B-GDI_debug.json" diskSizeKB="406.952" downloadSizeKB="406.952"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F996-B-GM_debug.json" diskSizeKB="406.952" downloadSizeKB="406.952"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F996-B-GU_debug.json" diskSizeKB="406.952" downloadSizeKB="406.952"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F997-B-GDI_debug.json" diskSizeKB="380.839" downloadSizeKB="380.839"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F997-B-GM_debug.json" diskSizeKB="380.727" downloadSizeKB="380.727"/>
+  <assets path="/c8051/debug/f990/C8051F990_B/C8051F997-B-GU_debug.json" diskSizeKB="380.727" downloadSizeKB="380.727"/>
+  <assets version="121108" path="/c8051/errata/C8051F336_errata.pdf" diskSizeKB="104.66" downloadSizeKB="104.66" category="Errata" label="C8051F336/7/8/9 Rev A Errata"/>
+  <assets version="02.27.04" path="/c8051/errata/C8051F350_errata.pdf" diskSizeKB="99.237" downloadSizeKB="99.237" category="Errata" label="C8051F35x Rev B Errata"/>
+  <assets version="07.27.16" path="/c8051/errata/C8051F380_errata.pdf" diskSizeKB="66.899" downloadSizeKB="66.899" category="Errata" label="C8051F38x Errata"/>
+  <assets version="01.12.15" path="/c8051/errata/C8051F388_errata.pdf" diskSizeKB="96.95" downloadSizeKB="96.95" category="Errata" label="C8051F388-B Errata"/>
+  <assets version="04.04.13" path="/c8051/errata/C8051F410_errata.pdf" diskSizeKB="122.844" downloadSizeKB="122.844" category="Errata" label="C8051F41x Errata"/>
+  <assets path="/c8051/errata/C8051F500_Errata.pdf" diskSizeKB="47.253" downloadSizeKB="47.253" category="Errata"/>
+  <assets path="/c8051/errata/C8051F530_errata.pdf" diskSizeKB="157.336" downloadSizeKB="157.336" category="Errata"/>
+  <assets path="/c8051/errata/C8051F540_errata.pdf" diskSizeKB="107.324" downloadSizeKB="107.324" category="Errata"/>
+  <assets path="/c8051/errata/C8051F550_errata.pdf" diskSizeKB="38.088" downloadSizeKB="38.088" category="Errata"/>
+  <assets version="07.11.11" path="/c8051/errata/C8051F58x-59xErrata.pdf" diskSizeKB="103.88" downloadSizeKB="103.88" category="Errata" label="C8051F58x-59x Rev A Errata"/>
+  <assets path="/c8051/errata/C8051F85x-86x_ErrataRevC.pdf" diskSizeKB="553.631" downloadSizeKB="553.631"/>
+  <assets path="/c8051/errata/C8051F930_errata.pdf" diskSizeKB="79.98" downloadSizeKB="79.98" category="Errata"/>
+  <assets version="061312" path="/c8051/errata/C8051F960_errata.pdf" diskSizeKB="168.19" downloadSizeKB="168.19" category="Errata" label="C8051F960 Rev A Errata"/>
+  <assets version="01.27.14" path="/c8051/errata/C8051F990_errata.pdf" diskSizeKB="50.59" downloadSizeKB="50.59" category="Errata" label="C8051F99x Rev. A/B Errata"/>
+  <assets version="0.6" path="/c8051/kit/C8051F30x-DK.pdf" diskSizeKB="368.774" downloadSizeKB="368.774" category="User's Guides" label="C8051F30x-DK User Guide"/>
+  <assets version="0.7" path="/c8051/kit/C8051F31x-DK.pdf" diskSizeKB="433.823" downloadSizeKB="433.823" category="User's Guides" label="C8051F31x-DK User Guide"/>
+  <assets version="0.3" path="/c8051/kit/C8051F326-DK.pdf" diskSizeKB="360.848" downloadSizeKB="360.848" category="User's Guides" label="C8051F326-DK User Guide"/>
+  <assets version="0.9" path="/c8051/kit/C8051F32x-DK.pdf" diskSizeKB="404.692" downloadSizeKB="404.692" category="User's Guides" label="C8051F32x-DK User Guide"/>
+  <assets version="0.3" path="/c8051/kit/C8051F336DK.pdf" diskSizeKB="460.632" downloadSizeKB="460.632" category="User's Guides" label="C8051F336DK User Guide"/>
+  <assets version="0.7" path="/c8051/kit/C8051F33x-DK.pdf" diskSizeKB="377.113" downloadSizeKB="377.113" category="User's Guides" label="C8051F33x-DK User Guide"/>
+  <assets version="0.3" path="/c8051/kit/C8051F34x-DK.pdf" diskSizeKB="514.649" downloadSizeKB="514.649" category="User's Guides" label="C8051F34x-DK User Guide"/>
+  <assets path="/c8051/kit/C8051F350-DK.pdf" diskSizeKB="384.954" downloadSizeKB="384.954" category="User's Guides"/>
+  <assets path="/c8051/kit/C8051F360-DK.pdf" diskSizeKB="442.756" downloadSizeKB="442.756" category="User's Guides"/>
+  <assets version="0.2" path="/c8051/kit/C8051F38x-DK.pdf" diskSizeKB="452.55" downloadSizeKB="452.55" category="User's Guides" label="C8051F38x-DK User's Guide"/>
+  <assets version="0.3" path="/c8051/kit/C8051F41x-DK.pdf" diskSizeKB="519.868" downloadSizeKB="519.868" category="User's Guides" label="C8051F41x-DK User Guide"/>
+  <assets version="0.2" path="/c8051/kit/C8051F500DK.pdf" diskSizeKB="1118.621" downloadSizeKB="1118.621" category="User's Guides" label="C8051F500DK User's Guide"/>
+  <assets version="0.4" path="/c8051/kit/C8051F530A-DK.pdf" diskSizeKB="514.522" downloadSizeKB="514.522" category="User's Guides" label="C8051F530A-DK User Guide"/>
+  <assets path="/c8051/kit/C8051F540A-DK.pdf" diskSizeKB="758.43" downloadSizeKB="758.43" category="User's Guides"/>
+  <assets path="/c8051/kit/C8051F560-DK.pdf" diskSizeKB="1133.581" downloadSizeKB="1133.581" category="User's Guides"/>
+  <assets version="0.1" path="/c8051/kit/C8051F580DK.pdf" diskSizeKB="1068.567" downloadSizeKB="1068.567" category="User's Guides" label="C8051F580-DK User's Guide"/>
+  <assets version="0.3" path="/c8051/kit/C8051F700-DK.pdf" diskSizeKB="427.951" downloadSizeKB="427.951" category="User's Guides" label="C8051F700-DK"/>
+  <assets version="0.2" path="/c8051/kit/C8051F800-DK.pdf" diskSizeKB="416.779" downloadSizeKB="416.779" category="User's Guides" label="C8051F800-DK User's Guide"/>
+  <assets version="0.3" path="/c8051/kit/C8051F850-DK.pdf" diskSizeKB="1442.405" downloadSizeKB="1442.405" category="User's Guides" label="C8051F850-DK: UDP C8051F850 MCU Care User's Guide for C8051F85X/86X MCUs"/>
+  <assets version="0.2" path="/c8051/kit/C8051F912-DK.pdf" diskSizeKB="855.214" downloadSizeKB="855.214" category="User's Guides" label="C8051F912-DK User's Guide"/>
+  <assets version="0.7" path="/c8051/kit/C8051F930-DK.pdf" diskSizeKB="1030.356" downloadSizeKB="1030.356" category="User's Guides" label="C8051F930-DK User Guide"/>
+  <assets version="0.1" path="/c8051/kit/C8051F970-DK.pdf" diskSizeKB="996.096" downloadSizeKB="996.096" category="User's Guides" label="C8051F970-DK User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/C8051F970DK-QS-Guide.pdf" diskSizeKB="1744.058" downloadSizeKB="1744.058" label="C8051F970 DK Quick Start Guide"/>
+  <assets version="0.2" path="/c8051/kit/C8051F996-DK.pdf" diskSizeKB="907.482" downloadSizeKB="907.482" category="User's Guides" label="C8051F996-DK User's Guide"/>
+  <assets version="0.3" path="/c8051/kit/ToolStick-F362-DC-UG.pdf" diskSizeKB="511.616" downloadSizeKB="511.616" category="User's Guides" label="ToolStick C8051F362 Daughter Card User Guide"/>
+  <assets version="0.1" path="/c8051/kit/ToolStick-F582-DC-UG.pdf" diskSizeKB="596.536" downloadSizeKB="596.536" category="User's Guides" label="ToolStick C8051F582 Daughter Card User Guide"/>
+  <assets version="0.3" path="/c8051/kit/ToolStick-F700-DC-UG.pdf" diskSizeKB="794.938" downloadSizeKB="794.938" category="User's Guides" label="ToolStick C8051F700 DC User Guide"/>
+  <assets version="0.1" path="/c8051/kit/ToolStick-F800DC-UG.pdf" diskSizeKB="747.77" downloadSizeKB="747.77" category="User's Guides" label="ToolStick C8051F800 Daughter Card User's Guide"/>
+  <assets version="0.1" path="/c8051/kit/ToolStick_C8051F530ADC_UG.pdf" diskSizeKB="394.435" downloadSizeKB="394.435" category="User's Guides" label="ToolStick C8051F530A Daughter Card User Guide"/>
+  <assets path="/c8051/kit/ToolStick_C8051F540ADC_UG.pdf" diskSizeKB="1700.086" downloadSizeKB="1700.086" category="User's Guides"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_C8051F560_DC_UG.pdf" diskSizeKB="543.691" downloadSizeKB="543.691" category="User's Guides" label="ToolStick C8051F560 Daughter Card User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F300_DC_UG.pdf" diskSizeKB="465.185" downloadSizeKB="465.185" category="User's Guides" label="ToolStick C8051F300 Daughter Card User Guide"/>
+  <assets version="0.1" path="/c8051/kit/ToolStick_F311_DC_UG.pdf" diskSizeKB="484.413" downloadSizeKB="484.413" category="User's Guides" label="ToolStick C8051F311 Daughter Card User Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F321_DC_UG.pdf" diskSizeKB="416.736" downloadSizeKB="416.736" category="User's Guides" label="ToolStick C8051F321 Daughter Card User Guide"/>
+  <assets version="0.1" path="/c8051/kit/ToolStick_F327_DC_UG.pdf" diskSizeKB="407.277" downloadSizeKB="407.277" category="User's Guides" label="ToolStick C8051F327 Daughter Card User Guide"/>
+  <assets version="0.4" path="/c8051/kit/ToolStick_F330_DC_UG.pdf" diskSizeKB="478.437" downloadSizeKB="478.437" category="User's Guides" label="ToolStick F330 Daughter Card User Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F336_DC_UG.pdf" diskSizeKB="436.446" downloadSizeKB="436.446" category="User's Guides" label="ToolStick F336 DC User Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F342_DC_UG.pdf" diskSizeKB="433.665" downloadSizeKB="433.665" category="User's Guides" label="ToolStick C8051F342 Daughter Card User Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F370_DC_UG.pdf" diskSizeKB="461.904" downloadSizeKB="461.904" category="User's Guides" label="ToolStick C8051F370 Daughter Card User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F381_DC_UG.pdf" diskSizeKB="414.963" downloadSizeKB="414.963" category="User's Guides" label="ToolStick C8051F381 Daughter Card User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F411_DC_UG.pdf" diskSizeKB="485.405" downloadSizeKB="485.405" category="User's Guides" label="ToolStick C8051F411 Daughter Card User Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F502_DC_UG.pdf" diskSizeKB="478.278" downloadSizeKB="478.278" category="User's Guides" label="ToolStick C8051F502 DC User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F850_DC_UG.pdf" diskSizeKB="532.645" downloadSizeKB="532.645" category="User's Guides" label="Toolstick850DC: Toolstick C8051F850 Daughter Card User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F912_DC_UG.pdf" diskSizeKB="453.315" downloadSizeKB="453.315" category="User's Guides" label="ToolStick C8051F912 Daughter Card User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/ToolStick_F931_DC_UG.pdf" diskSizeKB="631.712" downloadSizeKB="631.712" category="User's Guides" label="ToolStick C8051F931 Daughter Card User Guide"/>
+  <assets version="0.4" path="/c8051/kit/ToolStick_F990_DC_UG.pdf" diskSizeKB="618.142" downloadSizeKB="618.142" category="User's Guides" label="ToolStick C8051F990 Daughter Card User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/UPMP-F960-EMIF.pdf" diskSizeKB="1608.568" downloadSizeKB="1608.568" category="User's Guides" label="UPMP-F960-EMIF User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/UPMP-F960-MLCD.pdf" diskSizeKB="1832.788" downloadSizeKB="1832.788" category="User's Guides" label="UPMP-F960-MLCD User's Guide"/>
+  <assets version="0.2" path="/c8051/kit/UPMU-F390-F370.pdf" diskSizeKB="1192.765" downloadSizeKB="1192.765" category="User's Guides" label="UPMU F390/F370"/>
+  <assets path="/c8051/photos/C8051F30x-BD.png" diskSizeKB="58.404" downloadSizeKB="58.404"/>
+  <assets path="/c8051/photos/C8051F31x-BD.png" diskSizeKB="59.463" downloadSizeKB="59.463"/>
+  <assets path="/c8051/photos/C8051F33x-BD.png" diskSizeKB="65.625" downloadSizeKB="65.625"/>
+  <assets path="/c8051/photos/C8051F34x-BD.png" diskSizeKB="72.916" downloadSizeKB="72.916"/>
+  <assets path="/c8051/photos/C8051F35x-BD.png" diskSizeKB="63.131" downloadSizeKB="63.131"/>
+  <assets path="/c8051/photos/C8051F36x-BD.png" diskSizeKB="72.394" downloadSizeKB="72.394"/>
+  <assets path="/c8051/photos/C8051F37x-BD.png" diskSizeKB="87.143" downloadSizeKB="87.143"/>
+  <assets path="/c8051/photos/C8051F38x-BD.png" diskSizeKB="82.05" downloadSizeKB="82.05"/>
+  <assets path="/c8051/photos/C8051F39x-BD.png" diskSizeKB="85.508" downloadSizeKB="85.508"/>
+  <assets path="/c8051/photos/C8051F41x-BD.png" diskSizeKB="80.235" downloadSizeKB="80.235"/>
+  <assets path="/c8051/photos/C8051F50x-BD.png" diskSizeKB="63.05" downloadSizeKB="63.05"/>
+  <assets path="/c8051/photos/C8051F52x-53x-BD.png" diskSizeKB="59.308" downloadSizeKB="59.308"/>
+  <assets path="/c8051/photos/C8051F54x-BD.png" diskSizeKB="61.821" downloadSizeKB="61.821"/>
+  <assets path="/c8051/photos/C8051F55x-56x-57x-BD.png" diskSizeKB="67.444" downloadSizeKB="67.444"/>
+  <assets path="/c8051/photos/C8051F58x-59x-BD.png" diskSizeKB="67.903" downloadSizeKB="67.903"/>
+  <assets path="/c8051/photos/C8051F5xx-BD.png" diskSizeKB="66.413" downloadSizeKB="66.413"/>
+  <assets path="/c8051/photos/C8051F85x-86x-BD.png" diskSizeKB="81.954" downloadSizeKB="81.954"/>
+  <assets path="/c8051/photos/C8051F8xx-BD.png" diskSizeKB="65.934" downloadSizeKB="65.934"/>
+  <assets path="/c8051/photos/C8051F90x-91x-BD.png" diskSizeKB="72.664" downloadSizeKB="72.664"/>
+  <assets path="/c8051/photos/C8051F92x-93x-BD.png" diskSizeKB="72.509" downloadSizeKB="72.509"/>
+  <assets path="/c8051/photos/C8051F96x-BD.png" diskSizeKB="79.202" downloadSizeKB="79.202"/>
+  <assets path="/c8051/photos/C8051F97x-BD.png" diskSizeKB="83.022" downloadSizeKB="83.022"/>
+  <assets path="/c8051/photos/C8051F98x-BD.png" diskSizeKB="73.598" downloadSizeKB="73.598"/>
+  <assets path="/c8051/photos/C8051F99x-BD.png" diskSizeKB="72.507" downloadSizeKB="72.507"/>
+  <assets path="/c8051/photos/Si705x-BD.png" diskSizeKB="26.474" downloadSizeKB="26.474"/>
+</assets>

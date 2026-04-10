@@ -1,0 +1,60 @@
+4.3.9
+	SV5.11.0.0 updates
+4.3.8
+	SV5.10.0 release changes
+4.3.7
+  Enhance support for flashing devices in minimial Studio install.
+4.3.6
+  Minor bug fixes and improvements.
+4.3.5
+  Minor bug fixes and improvements.
+4.3.4
+	Minor bug fixes and improvements.
+4.3.3
+	Change message to user when no SE f/w files are available for the current part.
+4.3.2
+	SV5.7 release notes
+4.3.1
+	Adding support for deubg-out-only mode board.
+4.2.12
+	Fix issue with external debug adapter
+4.2.10
+   Fix for Locale issue with Turkish OS
+4.2.9
+	Code maintenance.
+4.2.8
+    General bug fixes
+4.2.7
+	General bug fixes
+4.2.6
+	Enable support for XG22 parts
+4.2.5
+	Infrastructure changes
+4.2.4
+	Improve warning message during bootloader update
+4.2.3
+	CTune panel bug fixes
+4.2.2
+	Provide error message when SE firmware version is unsupported
+4.2.1
+	Laying down some groundwork for new features
+4.2.0
+	General bug fixes
+4.0.8
+	Fix issues with the changelog link.
+4.0.7
+	Improvement to displaying the change-log link.
+	Make adapter text on Launcher "copy-able".
+4.0.6
+	Fix issue where Download Firmware link does nothing for EMF32GG11 and EF32TG11 parts
+	Provide error message when no firmware assets are available
+4.0.5
+	Updated Firmware handling
+4.0.3
+	Improved handling of missing adapter pack
+4.0.2
+	refresh device detection values when changing MCU mode
+4.0.1
+	Improve error handling from flashing process
+4.0.0
+	Initial release

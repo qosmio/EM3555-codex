@@ -1,0 +1,984 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:35
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\token-def.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\token-def.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\token-def.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"token-def.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\token-def.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\token-def.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\token-def.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\token-def.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\token-def.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief This file is for the code definitions (arrays) needed for the tokens.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "stack/include/ember.h"
+     19          
+     20          //-- Build structure defines (these define all the data types of the tokens).
+     21          #define DEFINETYPES
+     22          // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+     23          //cstat !MISRAC2012-Dir-4.10
+     24            #include "stack/config/token-stack.h"
+     25          #undef DEFINETYPES
+     26          
+     27          //-- Build parameter links
+     28          #define DEFINETOKENS
+     29          #define TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize, ...)
+     30          
+     31          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+     32            NVM3KEY_##name,
+
+   \                                 In section .rodata, align 4
+     33          const uint32_t tokenNvm3Keys[] = {
+   \                     tokenNvm3Keys:
+   \        0x0   0xFFFF'FFFF        DC32 4'294'967'295
+     34          #if defined (USE_NVM3)
+     35            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+     36            //cstat !MISRAC2012-Dir-4.10
+     37            #include "stack/config/token-stack.h"
+     38          #else
+     39            0xFFFFFFFFUL // Dummy
+     40          #endif
+     41          };
+     42          
+     43          #undef TOKEN_DEF
+     44          
+     45          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+     46            creator,
+
+   \                                 In section .rodata, align 4
+     47          const uint16_t tokenCreators[] = {
+   \                     tokenCreators:
+   \        0x0   0xFF01 0xE123      DC16 65'281, 57'635, 58'485, 57'955, 58'723, 57'698, 60'281, 61'028
+   \               0xE475 0xE26
+   \              3 0xE563 0xE1
+   \              62 0xEB79 0xE
+   \              E64
+   \       0x10   0xE124 0xE125      DC16 57'636, 57'637, 57'638, 57'639, 57'640, 57'641, 53'829, 57'872
+   \               0xE126 0xE12
+   \              7 0xE128 0xE1
+   \              29 0xD245 0xE
+   \              210
+   \       0x20   0xE211 0xE212      DC16 57'873, 57'874, 57'875, 57'876, 57'877, 57'888, 57'889, 57'972
+   \               0xE213 0xE21
+   \              4 0xE215 0xE2
+   \              20 0xE221 0xE
+   \              274
+   \       0x30   0xFF0D 0xE456      DC16 65'293, 58'454, 58'624, 58'627, 58'625, 58'626, 57'944, 57'945
+   \               0xE500 0xE50
+   \              3 0xE501 0xE5
+   \              02 0xE258 0xE
+   \              259
+   \       0x40   0xE25B 0xE25A      DC16 57'947, 57'946, 57'948, 58'704, 58'705, 34'597, 34'595, 34'596
+   \               0xE25C 0xE55
+   \              0 0xE551 0x87
+   \              25 0x8723 0x8
+   \              724
+   \       0x50   0xEC50 0xEC51      DC16 60'496, 60'497, 60'498
+   \               0xEC52
+   \       0x56                      DS8 2
+     48          #if !defined (USE_NVM3) || defined (SIMEE2_TO_NVM3_UPGRADE)
+     49            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+     50            //cstat !MISRAC2012-Dir-4.10
+     51            #include "stack/config/token-stack.h"
+     52          #else
+     53            0xFFFFUL   // Dummy
+     54          #endif
+     55          };
+     56          #undef TOKEN_DEF
+     57          
+     58          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+     59            iscnt,
+
+   \                                 In section .rodata, align 4
+     60          const bool tokenIsCnt[] = {
+   \                     tokenIsCnt:
+   \        0x0   0x00 0x01          DC8 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+   \              0x00 0x01    
+   \              0x01 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x01    
+   \              0x00
+   \       0x17   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00
+   \       0x2B                      DS8 1
+     61            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+     62            //cstat !MISRAC2012-Dir-4.10
+     63              #include "stack/config/token-stack.h"
+     64          };
+     65          #undef TOKEN_DEF
+     66          
+     67          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+     68            isidx,
+
+   \                                 In section .rodata, align 1
+     69          const bool tokenIsIdx[] = {
+   \                     tokenIsIdx:
+   \        0x0   0x00               DC8 0
+     70          #if defined (USE_NVM3)
+     71            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+     72            //cstat !MISRAC2012-Dir-4.10
+     73              #include "stack/config/token-stack.h"
+     74          #else
+     75            false // Dummy
+     76          #endif
+     77          };
+     78          #undef TOKEN_DEF
+     79          
+     80          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+     81            sizeof(type),
+
+   \                                 In section .rodata, align 4
+     82          const uint8_t tokenSize[] = {
+   \                     tokenSize:
+   \        0x0   0x02 0x04          DC8 2, 4, 17, 4, 4, 2, 17, 16, 26, 8, 10, 2, 24, 1, 4, 17, 16, 17, 26
+   \              0x11 0x04    
+   \              0x04 0x02    
+   \              0x11 0x10    
+   \              0x1A 0x08    
+   \              0x0A 0x02    
+   \              0x18 0x01    
+   \              0x04 0x11    
+   \              0x10 0x11    
+   \              0x1A
+   \       0x13   0x08 0x0A          DC8 8, 10, 4, 2, 13, 11, 25, 92, 1, 16, 40, 18, 52, 4, 48, 4, 11, 1, 20
+   \              0x04 0x02    
+   \              0x0D 0x0B    
+   \              0x19 0x5C    
+   \              0x01 0x10    
+   \              0x28 0x12    
+   \              0x34 0x04    
+   \              0x30 0x04    
+   \              0x0B 0x01    
+   \              0x14
+   \       0x26   0x01 0x26          DC8 1, 38, 32, 8, 48
+   \              0x20 0x08    
+   \              0x30
+   \       0x2B                      DS8 1
+     83            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+     84            //cstat !MISRAC2012-Dir-4.10
+     85              #include "stack/config/token-stack.h"
+     86          };
+     87          #undef TOKEN_DEF
+     88          
+     89          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+     90            arraysize,
+
+   \                                 In section .rodata, align 4
+     91          const uint8_t tokenArraySize[] = {
+   \                     tokenArraySize:
+   \        0x0   0x01 0x01          DC8 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, 0, 0, 0, 0, 0, 0, 1
+   \              0x01 0x01    
+   \              0x01 0x01    
+   \              0x01 0x01    
+   \              0x01 0x01    
+   \              0x01 0x01    
+   \              0x01 0x01    
+   \              0x10 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x01
+   \       0x16   0x00 0x10          DC8 0, 16, 4, 0, 0, 4, 1, 1, 1, 5, 0, 0, 0, 0, 0, 10, 1, 16, 1, 1, 1
+   \              0x04 0x00    
+   \              0x00 0x04    
+   \              0x01 0x01    
+   \              0x01 0x05    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x0A    
+   \              0x01 0x10    
+   \              0x01 0x01    
+   \              0x01
+   \       0x2B                      DS8 1
+     92            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+     93            //cstat !MISRAC2012-Dir-4.10
+     94              #include "stack/config/token-stack.h"
+     95          };
+     96          #undef TOKEN_DEF
+     97          
+     98          //These set of DEFAULT token values are only used in the tokenDefaults array
+     99          //below.
+    100          
+    101          // -------------------------------------------------------------------------
+    102          // MISRAC2012-Rule-20.7 doesn't allow for this use of concatenation within
+    103          // a macro expansion. Moreover, since TOKEN_DEF is only being used here as a
+    104          // static declaration of token default values, there's no risk that it will
+    105          // interfere with any other logic.
+    106          // -------------------------------------------------------------------------
+    107          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+    108            const type TOKEN_##name##_DEFAULTS = __VA_ARGS__;
+    109          // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    110          //cstat !MISRAC2012-Dir-4.10
+    111            #include "stack/config/token-stack.h"
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_STACK_NVDATA_VERSION_DEFAULTS
+   \                     TOKEN_STACK_NVDATA_VERSION_DEFAULTS:
+   \        0x0   0x03FC             DC16 1'020
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint32_t const TOKEN_STACK_APS_FRAME_COUNTER_DEFAULTS
+   \                     TOKEN_STACK_APS_FRAME_COUNTER_DEFAULTS:
+   \        0x0   0x0000'0000        DC32 0
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackKeys const TOKEN_STACK_ALTERNATE_KEY_DEFAULTS
+   \                     TOKEN_STACK_ALTERNATE_KEY_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x11                      DS8 3
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint32_t const TOKEN_STACK_BOOT_COUNTER_DEFAULTS
+   \                     TOKEN_STACK_BOOT_COUNTER_DEFAULTS:
+   \        0x0   0x0000'0000        DC32 0
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint32_t const TOKEN_STACK_NONCE_COUNTER_DEFAULTS
+   \                     TOKEN_STACK_NONCE_COUNTER_DEFAULTS:
+   \        0x0   0x0000'0000        DC32 0
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_STACK_ANALYSIS_REBOOT_DEFAULTS
+   \                     TOKEN_STACK_ANALYSIS_REBOOT_DEFAULTS:
+   \        0x0   0x0000             DC16 0
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackKeys const TOKEN_STACK_KEYS_DEFAULTS
+   \                     TOKEN_STACK_KEYS_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x11                      DS8 3
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackNodeData const TOKEN_STACK_NODE_DATA_DEFAULTS
+   \                     TOKEN_STACK_NODE_DATA_DEFAULTS:
+   \        0x0   0xFFFF             DC16 65'535
+   \        0x2   0xFF 0x00          DC8 -1, 0, 0, 0
+   \              0x00 0x00
+   \        0x6   0x0000             DC16 0
+   \        0x8   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#178 const TOKEN_STACK_TRUST_CENTER_DEFAULTS
+   \                     TOKEN_STACK_TRUST_CENTER_DEFAULTS:
+   \        0x0   0x0000             DC16 0
+   \        0x2   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x19   0x00               DC8 0
+   \       0x1A                      DS8 2
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#179 const TOKEN_STACK_NETWORK_MANAGEMENT_DEFAULTS
+   \                     TOKEN_STACK_NETWORK_MANAGEMENT_DEFAULTS:
+   \        0x0   0x0000'0000        DC32 0
+   \        0x4   0xFFFF             DC16 65'535
+   \        0x6   0x00               DC8 0
+   \        0x7                      DS8 1
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#180 const TOKEN_STACK_PARENT_INFO_DEFAULTS
+   \                     TOKEN_STACK_PARENT_INFO_DEFAULTS:
+   \        0x0   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF
+   \        0x8   0xFFFF             DC16 65'535
+   \        0xA                      DS8 2
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS
+   \                     TOKEN_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS:
+   \        0x0   0x0000             DC16 0
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#181 const TOKEN_STACK_MULTI_PHY_NWK_INFO_DEFAULTS
+   \                     TOKEN_STACK_MULTI_PHY_NWK_INFO_DEFAULTS:
+   \        0x0   0xFF 0x00          DC8 -1, 0
+   \        0x2                      DS8 2
+   \        0x4   0x0000'0000        DC32 0, 0, 0, 0
+   \              0x0000'0000  
+   \              0x0000'0000  
+   \              0x0000'0000
+   \       0x14   0x80               DC8 128
+   \       0x15                      DS8 3
+
+   \                                 In section .rodata, align 1
+   \   __absolute int8_t const TOKEN_STACK_MIN_RECEIVED_RSSI_DEFAULTS
+   \                     TOKEN_STACK_MIN_RECEIVED_RSSI_DEFAULTS:
+   \        0x0   0x9C               DC8 -100
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackCalData const TOKEN_STACK_CAL_DATA_DEFAULTS
+   \                     TOKEN_STACK_CAL_DATA_DEFAULTS:
+   \        0x0   0x7F 0x80          DC8 127, 128, 127, 128
+   \              0x7F 0x80
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackKeys const TOKEN_MULTI_NETWORK_STACK_KEYS_DEFAULTS
+   \                     TOKEN_MULTI_NETWORK_STACK_KEYS_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x11                      DS8 3
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackNodeData const TOKEN_MULTI_NETWORK_STACK_NODE_DATA_DEFAULTS
+   \                     TOKEN_MULTI_NETWORK_STACK_NODE_DATA_DEFAULTS:
+   \        0x0   0x0000             DC16 0
+   \        0x2   0x00 0x00          DC8 0, 0, 0, 0
+   \              0x00 0x00
+   \        0x6   0x0000             DC16 0
+   \        0x8   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackKeys const TOKEN_MULTI_NETWORK_STACK_ALTERNATE_KEY_DEFAULTS
+   \                     TOKEN_MULTI_NETWORK_STACK_ALTERNATE_KEY_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x11                      DS8 3
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#178 const TOKEN_MULTI_NETWORK_STACK_TRUST_CENTER_DEFAULTS
+   \                     TOKEN_MULTI_NETWORK_STACK_TRUST_CENTER_DEFAULTS:
+   \        0x0   0x0000             DC16 0
+   \        0x2   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x19   0x00               DC8 0
+   \       0x1A                      DS8 2
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#179 const TOKEN_MULTI_NETWORK_STACK_NETWORK_MANAGEMENT_DEFAULTS
+   \                     TOKEN_MULTI_NETWORK_STACK_NETWORK_MANAGEMENT_DEFAULTS:
+   \        0x0   0x0000'0000        DC32 0
+   \        0x4   0x0000             DC16 0
+   \        0x6   0x00               DC8 0
+   \        0x7                      DS8 1
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#180 const TOKEN_MULTI_NETWORK_STACK_PARENT_INFO_DEFAULTS
+   \                     TOKEN_MULTI_NETWORK_STACK_PARENT_INFO_DEFAULTS:
+   \        0x0   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF
+   \        0x8   0xFFFF             DC16 65'535
+   \        0xA                      DS8 2
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint32_t const TOKEN_MULTI_NETWORK_STACK_NONCE_COUNTER_DEFAULTS
+   \                     TOKEN_MULTI_NETWORK_STACK_NONCE_COUNTER_DEFAULTS:
+   \        0x0   0x0000'0000        DC32 0
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MULTI_NETWORK_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS
+   \                     TOKEN_MULTI_NETWORK_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS:
+   \        0x0   0x0000             DC16 0
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint8_t const TOKEN_STACK_BINDING_TABLE_DEFAULTS[13]
+   \                     TOKEN_STACK_BINDING_TABLE_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \        0xD                      DS8 3
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint8_t const TOKEN_STACK_CHILD_TABLE_DEFAULTS[11]
+   \                     TOKEN_STACK_CHILD_TABLE_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \        0xB                      DS8 1
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint8_t const TOKEN_STACK_KEY_TABLE_DEFAULTS[25]
+   \                     TOKEN_STACK_KEY_TABLE_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x17   0x00 0x00          DC8 0, 0
+   \       0x19                      DS8 3
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint8_t const TOKEN_STACK_CERTIFICATE_TABLE_DEFAULTS[92]
+   \                     TOKEN_STACK_CERTIFICATE_TABLE_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x17   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x2E   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x45   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+
+   \                                 In section .rodata, align 1
+   \   __absolute uint8_t const TOKEN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS
+   \                     TOKEN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS:
+   \        0x0   0x0F               DC8 15
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackZllData const TOKEN_STACK_ZLL_DATA_DEFAULTS
+   \                     TOKEN_STACK_ZLL_DATA_DEFAULTS:
+   \        0x0   0x0000'0001        DC32 1
+   \        0x4   0x0000 0x0000      DC16 0, 0, 0, 0, 0
+   \               0x0000 0x000
+   \              0 0x0000
+   \        0xE   0x00               DC8 0
+   \        0xF                      DS8 1
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#184 const TOKEN_STACK_ZLL_SECURITY_DEFAULTS
+   \                     TOKEN_STACK_ZLL_SECURITY_DEFAULTS:
+   \        0x0   0x0000'0000        DC32 0
+   \        0x4   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x1B   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00
+   \       0x25                      DS8 3
+
+   \                                 In section .rodata, align 4
+   \   __absolute tokTypeStackGpData const TOKEN_STACK_GP_DATA_DEFAULTS
+   \                     TOKEN_STACK_GP_DATA_DEFAULTS:
+   \        0x0   0xFF 0xFF          DC8 255, 255, -1, 255
+   \              0xFF 0xFF
+   \        0x4   0xFFFF 0xFFFF      DC16 65'535, 65'535, 65'535
+   \               0xFFFF
+   \        0xA   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF
+   \       0x11                      DS8 1
+   \       0x12                      DS8 2
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#186 const TOKEN_STACK_GP_PROXY_TABLE_DEFAULTS
+   \                     TOKEN_STACK_GP_PROXY_TABLE_DEFAULTS:
+   \        0x0   0xFF               DC8 255
+   \        0x1                      DS8 3
+   \        0x4   0xFFFF'FFFF        DC32 4'294'967'295
+   \        0x8   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF
+   \       0x15   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF
+   \       0x22   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF
+   \       0x2F   0xFF 0xFF          DC8 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint32_t const TOKEN_STACK_GP_INCOMING_FC_DEFAULTS
+   \                     TOKEN_STACK_GP_INCOMING_FC_DEFAULTS:
+   \        0x0   0xFFFF'FFFF        DC32 4'294'967'295
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#187 const TOKEN_STACK_GP_SINK_TABLE_DEFAULTS
+   \                     TOKEN_STACK_GP_SINK_TABLE_DEFAULTS:
+   \        0x0   0xFF               DC8 255
+   \        0x1                      DS8 1
+   \        0x2   0xFFFF             DC16 65'535
+   \        0x4   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF
+   \       0x11   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF
+   \       0x1E   0xFF 0xFF          DC8 255, 255
+   \       0x20   0xFFFF 0xFFFF      DC16 65'535, 65'535, 65'535, 65'535
+   \               0xFFFF 0xFFF
+   \              F
+   \       0x28   0x0000'FFFF        DC32 65'535
+   \       0x2C   0x00FF             DC16 255
+   \       0x2E   0xFF 0x00          DC8 255, 0
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint32_t const TOKEN_STACK_GP_INCOMING_FC_IN_SINK_DEFAULTS
+   \                     TOKEN_STACK_GP_INCOMING_FC_IN_SINK_DEFAULTS:
+   \        0x0   0xFFFF'FFFF        DC32 4'294'967'295
+
+   \                                 In section .rodata, align 4
+   \   __absolute uint8_t const TOKEN_MULTI_PAN_STACK_CHILD_TABLE_DEFAULTS[11]
+   \                     TOKEN_MULTI_PAN_STACK_CHILD_TABLE_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \        0xB                      DS8 1
+
+   \                                 In section .rodata, align 1
+   \   __absolute uint8_t const TOKEN_MULTI_PAN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS
+   \                     TOKEN_MULTI_PAN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS:
+   \        0x0   0x0F               DC8 15
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#228 const TOKEN_REPORT_TABLE_DEFAULTS
+   \                     TOKEN_REPORT_TABLE_DEFAULTS:
+   \        0x0   0x00 0x00          DC8 0, 0
+   \        0x2                      DS8 18
+
+   \                                 In section .rodata, align 1
+   \   __absolute uint8_t const TOKEN_SCENES_NUM_ENTRIES_DEFAULTS
+   \                     TOKEN_SCENES_NUM_ENTRIES_DEFAULTS:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#224 const TOKEN_SCENES_TABLE_DEFAULTS
+   \                     TOKEN_SCENES_TABLE_DEFAULTS:
+   \        0x0   0x00               DC8 0
+   \        0x1                      DS8 1
+   \        0x2   0x0000             DC16 0
+   \        0x4   0x00               DC8 0
+   \        0x5                      DS8 1
+   \        0x6   0x0000             DC16 0
+   \        0x8   0x00 0x00          DC8 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00
+   \        0xE   0x0000             DC16 0
+   \       0x10   0x00               DC8 0
+   \       0x11                      DS8 1
+   \       0x12   0x0000             DC16 0
+   \       0x14   0x00               DC8 0
+   \       0x15                      DS8 1
+   \       0x16   0x0000             DC16 0
+   \       0x18   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00
+   \       0x1F                      DS8 1
+   \       0x20   0x0000             DC16 0
+   \       0x22   0x00               DC8 0
+   \       0x23                      DS8 1
+   \       0x24   0x0000             DC16 0
+   \       0x26                      DS8 2
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#192 const TOKEN_EM3555_LIGHT_STATE_TOKEN_DEFAULTS
+   \                     TOKEN_EM3555_LIGHT_STATE_TOKEN_DEFAULTS:
+   \        0x0   0x0000 0x0000      DC16 0, 0
+   \        0x4   0x00 0x01          DC8 0, 1, 254, 0, 254
+   \              0xFE 0x00    
+   \              0xFE
+   \        0x9                      DS8 1
+   \        0xA   0x6162 0x6076      DC16 24'930, 24'694, 370
+   \               0x0172
+   \       0x10   0x00               DC8 0
+   \       0x11                      DS8 1
+   \       0x12   0x0005 0x0005      DC16 5, 5, 0
+   \               0x0000
+   \       0x18   0xFF               DC8 255
+   \       0x19                      DS8 1
+   \       0x1A   0xFFFF 0xFFFF      DC16 65'535, 65'535, 65'535
+   \               0xFFFF
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#193 const TOKEN_EM3555_FACTORY_RESET_TOKEN_DEFAULTS
+   \                     TOKEN_EM3555_FACTORY_RESET_TOKEN_DEFAULTS:
+   \        0x0   0x0000 0x0000      DC16 0, 0
+   \        0x4   0x00 0x00          DC8 0, 0, 0, 0
+   \              0x00 0x00
+
+   \                                 In section .rodata, align 4
+   \   __absolute struct <unnamed>#194 const TOKEN_EM3555_OTA_JOURNAL_TOKEN_DEFAULTS
+   \                     TOKEN_EM3555_OTA_JOURNAL_TOKEN_DEFAULTS:
+   \        0x0   0x0000'0000        DC32 0
+   \        0x4   0x0000 0x0000      DC16 0, 0, 0, 0
+   \               0x0000 0x000
+   \              0
+   \        0xC   0x0000'0000        DC32 0
+   \       0x10   0x0000 0x0000      DC16 0, 0
+   \       0x14   0x0000'0000        DC32 0, 0, 0, 0, 0
+   \              0x0000'0000  
+   \              0x0000'0000  
+   \              0x0000'0000  
+   \              0x0000'0000
+   \       0x28   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00
+    112          #undef TOKEN_DEF
+    113          // -------------------------------------------------------------------------
+    114          // -------------------------------------------------------------------------
+    115          
+    116          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+    117            ((void *)&TOKEN_##name##_DEFAULTS),
+
+   \                                 In section .rodata, align 4
+    118          const void * const tokenDefaults[] = {
+   \                     tokenDefaults:
+   \        0x0   0x....'....        DC32 TOKEN_STACK_NVDATA_VERSION_DEFAULTS
+   \        0x4   0x....'....        DC32 TOKEN_STACK_APS_FRAME_COUNTER_DEFAULTS
+   \        0x8   0x....'....        DC32 TOKEN_STACK_ALTERNATE_KEY_DEFAULTS
+   \        0xC   0x....'....        DC32 TOKEN_STACK_BOOT_COUNTER_DEFAULTS
+   \       0x10   0x....'....        DC32 TOKEN_STACK_NONCE_COUNTER_DEFAULTS
+   \       0x14   0x....'....        DC32 TOKEN_STACK_ANALYSIS_REBOOT_DEFAULTS, TOKEN_STACK_KEYS_DEFAULTS
+   \              0x....'....
+   \       0x1C   0x....'....        DC32 TOKEN_STACK_NODE_DATA_DEFAULTS, TOKEN_STACK_TRUST_CENTER_DEFAULTS
+   \              0x....'....
+   \       0x24   0x....'....        DC32 TOKEN_STACK_NETWORK_MANAGEMENT_DEFAULTS
+   \       0x28   0x....'....        DC32 TOKEN_STACK_PARENT_INFO_DEFAULTS
+   \       0x2C   0x....'....        DC32 TOKEN_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS
+   \       0x30   0x....'....        DC32 TOKEN_STACK_MULTI_PHY_NWK_INFO_DEFAULTS
+   \       0x34   0x....'....        DC32 TOKEN_STACK_MIN_RECEIVED_RSSI_DEFAULTS
+   \       0x38   0x....'....        DC32 TOKEN_STACK_CAL_DATA_DEFAULTS
+   \       0x3C   0x....'....        DC32 TOKEN_MULTI_NETWORK_STACK_KEYS_DEFAULTS
+   \       0x40   0x....'....        DC32 TOKEN_MULTI_NETWORK_STACK_NODE_DATA_DEFAULTS
+   \       0x44   0x....'....        DC32 TOKEN_MULTI_NETWORK_STACK_ALTERNATE_KEY_DEFAULTS
+   \       0x48   0x....'....        DC32 TOKEN_MULTI_NETWORK_STACK_TRUST_CENTER_DEFAULTS
+   \       0x4C   0x....'....        DC32 TOKEN_MULTI_NETWORK_STACK_NETWORK_MANAGEMENT_DEFAULTS
+   \       0x50   0x....'....        DC32 TOKEN_MULTI_NETWORK_STACK_PARENT_INFO_DEFAULTS
+   \       0x54   0x....'....        DC32 TOKEN_MULTI_NETWORK_STACK_NONCE_COUNTER_DEFAULTS
+   \       0x58   0x....'....        DC32 TOKEN_MULTI_NETWORK_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS
+   \       0x5C   0x....'....        DC32 TOKEN_STACK_BINDING_TABLE_DEFAULTS
+   \       0x60   0x....'....        DC32 TOKEN_STACK_CHILD_TABLE_DEFAULTS, TOKEN_STACK_KEY_TABLE_DEFAULTS
+   \              0x....'....
+   \       0x68   0x....'....        DC32 TOKEN_STACK_CERTIFICATE_TABLE_DEFAULTS
+   \       0x6C   0x....'....        DC32 TOKEN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS
+   \       0x70   0x....'....        DC32 TOKEN_STACK_ZLL_DATA_DEFAULTS, TOKEN_STACK_ZLL_SECURITY_DEFAULTS
+   \              0x....'....
+   \       0x78   0x....'....        DC32 TOKEN_STACK_GP_DATA_DEFAULTS, TOKEN_STACK_GP_PROXY_TABLE_DEFAULTS
+   \              0x....'....
+   \       0x80   0x....'....        DC32 TOKEN_STACK_GP_INCOMING_FC_DEFAULTS
+   \       0x84   0x....'....        DC32 TOKEN_STACK_GP_SINK_TABLE_DEFAULTS
+   \       0x88   0x....'....        DC32 TOKEN_STACK_GP_INCOMING_FC_IN_SINK_DEFAULTS
+   \       0x8C   0x....'....        DC32 TOKEN_MULTI_PAN_STACK_CHILD_TABLE_DEFAULTS
+   \       0x90   0x....'....        DC32 TOKEN_MULTI_PAN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS
+   \       0x94   0x....'....        DC32 TOKEN_REPORT_TABLE_DEFAULTS, TOKEN_SCENES_NUM_ENTRIES_DEFAULTS
+   \              0x....'....
+   \       0x9C   0x....'....        DC32 TOKEN_SCENES_TABLE_DEFAULTS
+   \       0xA0   0x....'....        DC32 TOKEN_EM3555_LIGHT_STATE_TOKEN_DEFAULTS
+   \       0xA4   0x....'....        DC32 TOKEN_EM3555_FACTORY_RESET_TOKEN_DEFAULTS
+   \       0xA8   0x....'....        DC32 TOKEN_EM3555_OTA_JOURNAL_TOKEN_DEFAULTS
+    119            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    120            //cstat !MISRAC2012-Dir-4.10
+    121              #include "stack/config/token-stack.h"
+    122          };
+    123          #undef TOKEN_DEF
+    124          
+    125          #undef DEFINETOKENS
+    126          
+    127          #undef TOKEN_MFG
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       8  TOKEN_EM3555_FACTORY_RESET_TOKEN_DEFAULTS
+      32  TOKEN_EM3555_LIGHT_STATE_TOKEN_DEFAULTS
+      48  TOKEN_EM3555_OTA_JOURNAL_TOKEN_DEFAULTS
+      20  TOKEN_MULTI_NETWORK_STACK_ALTERNATE_KEY_DEFAULTS
+      20  TOKEN_MULTI_NETWORK_STACK_KEYS_DEFAULTS
+       8  TOKEN_MULTI_NETWORK_STACK_NETWORK_MANAGEMENT_DEFAULTS
+      16  TOKEN_MULTI_NETWORK_STACK_NODE_DATA_DEFAULTS
+       4  TOKEN_MULTI_NETWORK_STACK_NONCE_COUNTER_DEFAULTS
+       2  TOKEN_MULTI_NETWORK_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS
+      12  TOKEN_MULTI_NETWORK_STACK_PARENT_INFO_DEFAULTS
+      28  TOKEN_MULTI_NETWORK_STACK_TRUST_CENTER_DEFAULTS
+       1  TOKEN_MULTI_PAN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS
+      12  TOKEN_MULTI_PAN_STACK_CHILD_TABLE_DEFAULTS
+      20  TOKEN_REPORT_TABLE_DEFAULTS
+       1  TOKEN_SCENES_NUM_ENTRIES_DEFAULTS
+      40  TOKEN_SCENES_TABLE_DEFAULTS
+       1  TOKEN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS
+      20  TOKEN_STACK_ALTERNATE_KEY_DEFAULTS
+       2  TOKEN_STACK_ANALYSIS_REBOOT_DEFAULTS
+       4  TOKEN_STACK_APS_FRAME_COUNTER_DEFAULTS
+      16  TOKEN_STACK_BINDING_TABLE_DEFAULTS
+       4  TOKEN_STACK_BOOT_COUNTER_DEFAULTS
+       4  TOKEN_STACK_CAL_DATA_DEFAULTS
+      92  TOKEN_STACK_CERTIFICATE_TABLE_DEFAULTS
+      12  TOKEN_STACK_CHILD_TABLE_DEFAULTS
+      20  TOKEN_STACK_GP_DATA_DEFAULTS
+       4  TOKEN_STACK_GP_INCOMING_FC_DEFAULTS
+       4  TOKEN_STACK_GP_INCOMING_FC_IN_SINK_DEFAULTS
+      52  TOKEN_STACK_GP_PROXY_TABLE_DEFAULTS
+      48  TOKEN_STACK_GP_SINK_TABLE_DEFAULTS
+      20  TOKEN_STACK_KEYS_DEFAULTS
+      28  TOKEN_STACK_KEY_TABLE_DEFAULTS
+       1  TOKEN_STACK_MIN_RECEIVED_RSSI_DEFAULTS
+      24  TOKEN_STACK_MULTI_PHY_NWK_INFO_DEFAULTS
+       8  TOKEN_STACK_NETWORK_MANAGEMENT_DEFAULTS
+      16  TOKEN_STACK_NODE_DATA_DEFAULTS
+       4  TOKEN_STACK_NONCE_COUNTER_DEFAULTS
+       2  TOKEN_STACK_NVDATA_VERSION_DEFAULTS
+       2  TOKEN_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS
+      12  TOKEN_STACK_PARENT_INFO_DEFAULTS
+      28  TOKEN_STACK_TRUST_CENTER_DEFAULTS
+      16  TOKEN_STACK_ZLL_DATA_DEFAULTS
+      40  TOKEN_STACK_ZLL_SECURITY_DEFAULTS
+      44  tokenArraySize
+      88  tokenCreators
+     172  tokenDefaults
+      44  tokenIsCnt
+       1  tokenIsIdx
+       4  tokenNvm3Keys
+      44  tokenSize
+
+ 
+ 1'153 bytes in section .rodata
+ 
+ 1'153 bytes of CONST memory
+
+Errors: none
+Warnings: none

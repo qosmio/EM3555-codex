@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_iots">
+  <assets path="/iots/boards/RD-0001-0201/zigbee-border-router.png" diskSizeKB="2414.099" downloadSizeKB="2414.099"/>
+  <assets path="/iots/boards/RD-0030-0201/IST-A30-BOM.pdf" diskSizeKB="190.815" downloadSizeKB="190.815"/>
+  <assets path="/iots/boards/RD-0030-0201/IST-A30-GBR.pdf" diskSizeKB="211.672" downloadSizeKB="211.672"/>
+  <assets path="/iots/boards/RD-0030-0201/IST-A30-SCH.pdf" diskSizeKB="511.98" downloadSizeKB="511.98"/>
+  <assets path="/iots/boards/RD-0030-0201/SiLabs-IST-A30-REV2-TRANSPARENT.png" diskSizeKB="7015.064" downloadSizeKB="7015.064"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A21-BOM.pdf" diskSizeKB="185.554" downloadSizeKB="185.554"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A21-GBR.pdf" diskSizeKB="240.148" downloadSizeKB="240.148"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A21-REV3-white.png" diskSizeKB="6747.243" downloadSizeKB="6747.243"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A21-SCH.pdf" diskSizeKB="380.377" downloadSizeKB="380.377"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A35-BOM.pdf" diskSizeKB="185.317" downloadSizeKB="185.317"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A35-GBR.pdf" diskSizeKB="267.62" downloadSizeKB="267.62"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A35-SCH.pdf" diskSizeKB="313.371" downloadSizeKB="313.371"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A36-BOM.pdf" diskSizeKB="175.816" downloadSizeKB="175.816"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A36-GBR.pdf" diskSizeKB="124.087" downloadSizeKB="124.087"/>
+  <assets path="/iots/boards/RD-0035-0601/IST-A36-SCH.pdf" diskSizeKB="105.368" downloadSizeKB="105.368"/>
+  <assets path="/iots/boards/RD-0039-0201/IST-A39-BOM.pdf" diskSizeKB="191.476" downloadSizeKB="191.476"/>
+  <assets path="/iots/boards/RD-0039-0201/IST-A39-GBR.pdf" diskSizeKB="246.617" downloadSizeKB="246.617"/>
+  <assets path="/iots/boards/RD-0039-0201/IST-A39-SCH.pdf" diskSizeKB="623.565" downloadSizeKB="623.565"/>
+  <assets path="/iots/boards/RD-0039-0201/LIGHT-SWITCH-PLATE-BACK-TRANSPARENT.png" diskSizeKB="2644.313" downloadSizeKB="2644.313"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0074-BOM.pdf" diskSizeKB="184.982" downloadSizeKB="184.982"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0074-GBR.pdf" diskSizeKB="432.333" downloadSizeKB="432.333"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0074-SCH.pdf" diskSizeKB="427.438" downloadSizeKB="427.438"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0075-BOM.pdf" diskSizeKB="183.363" downloadSizeKB="183.363"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0075-GBR.pdf" diskSizeKB="127.086" downloadSizeKB="127.086"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0075-SCH.pdf" diskSizeKB="169.3" downloadSizeKB="169.3"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0081-BOM.pdf" diskSizeKB="192.968" downloadSizeKB="192.968"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0081-GBR.pdf" diskSizeKB="377.132" downloadSizeKB="377.132"/>
+  <assets path="/iots/boards/RD-0051-0201/IST-A0081-SCH.pdf" diskSizeKB="440.839" downloadSizeKB="440.839"/>
+  <assets path="/iots/boards/RD-0072-0201/IST-A0072-BOM.pdf" diskSizeKB="356.244" downloadSizeKB="356.244"/>
+  <assets path="/iots/boards/RD-0072-0201/IST-A0072-GBR.pdf" diskSizeKB="403.742" downloadSizeKB="403.742"/>
+  <assets path="/iots/boards/RD-0072-0201/IST-A0072-SCH.pdf" diskSizeKB="508.502" downloadSizeKB="508.502"/>
+  <assets path="/iots/boards/RD-0078-0201/IST-A0078-BOM.pdf" diskSizeKB="193.326" downloadSizeKB="193.326"/>
+  <assets path="/iots/boards/RD-0078-0201/IST-A0078-GBR.pdf" diskSizeKB="452.361" downloadSizeKB="452.361"/>
+  <assets path="/iots/boards/RD-0078-0201/IST-A0078-SCH.pdf" diskSizeKB="596.749" downloadSizeKB="596.749"/>
+  <assets path="/iots/boards/RD-0078-0201/Occupancy_Sensor.png" diskSizeKB="2367.097" downloadSizeKB="2367.097"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0050-BOM.pdf" diskSizeKB="358.974" downloadSizeKB="358.974"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0050-GBR.pdf" diskSizeKB="410.377" downloadSizeKB="410.377"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0050-SCH.pdf" diskSizeKB="944.561" downloadSizeKB="944.561"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0085-BOM.pdf" diskSizeKB="186.629" downloadSizeKB="186.629"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0085-GBR.pdf" diskSizeKB="143.56" downloadSizeKB="143.56"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0085-SCH.pdf" diskSizeKB="217.823" downloadSizeKB="217.823"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0088-BOM.pdf" diskSizeKB="339.379" downloadSizeKB="339.379"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0088-GBR.pdf" diskSizeKB="308.71" downloadSizeKB="308.71"/>
+  <assets path="/iots/boards/RD-0085-0401/IST-A0088-SCH.pdf" diskSizeKB="194.343" downloadSizeKB="194.343"/>
+  <assets path="/iots/boards/RD-0091-0201/IST-A0091-BOM.pdf" diskSizeKB="347.484" downloadSizeKB="347.484"/>
+  <assets path="/iots/boards/RD-0091-0201/IST-A0091-GBR.pdf" diskSizeKB="186.674" downloadSizeKB="186.674"/>
+  <assets path="/iots/boards/RD-0091-0201/IST-A0091-SCH.pdf" diskSizeKB="289.063" downloadSizeKB="289.063"/>
+  <assets path="/iots/boards/RD-0097-0201/IST-A0097-BOM.pdf" diskSizeKB="357.641" downloadSizeKB="357.641"/>
+  <assets path="/iots/boards/RD-0097-0201/IST-A0097-GBR.pdf" diskSizeKB="357.613" downloadSizeKB="357.613"/>
+  <assets path="/iots/boards/RD-0097-0201/IST-A0097-SCH.pdf" diskSizeKB="419.83" downloadSizeKB="419.83"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0050-BOM.pdf" diskSizeKB="358.974" downloadSizeKB="358.974"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0050-GBR.pdf" diskSizeKB="410.377" downloadSizeKB="410.377"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0050-SCH.pdf" diskSizeKB="944.561" downloadSizeKB="944.561"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0088-BOM.pdf" diskSizeKB="339.379" downloadSizeKB="339.379"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0088-GBR.pdf" diskSizeKB="308.71" downloadSizeKB="308.71"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0088-SCH.pdf" diskSizeKB="194.343" downloadSizeKB="194.343"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0098-BOM.pdf" diskSizeKB="345.235" downloadSizeKB="345.235"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0098-GBR.pdf" diskSizeKB="269.568" downloadSizeKB="269.568"/>
+  <assets path="/iots/boards/RD-0098-0401/IST-A0098-SCH.pdf" diskSizeKB="242.405" downloadSizeKB="242.405"/>
+  <assets path="/iots/boards/RD-0099-0201/IST-A0099-BOM.pdf" diskSizeKB="195.519" downloadSizeKB="195.519"/>
+  <assets path="/iots/boards/RD-0099-0201/IST-A0099-GBR.pdf" diskSizeKB="249.139" downloadSizeKB="249.139"/>
+  <assets path="/iots/boards/RD-0099-0201/IST-A0099-SCH.pdf" diskSizeKB="608.124" downloadSizeKB="608.124"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0075-BOM.pdf" diskSizeKB="183.363" downloadSizeKB="183.363"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0075-GBR.pdf" diskSizeKB="127.086" downloadSizeKB="127.086"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0075-SCH.pdf" diskSizeKB="169.3" downloadSizeKB="169.3"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0081-BOM.pdf" diskSizeKB="192.968" downloadSizeKB="192.968"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0081-GBR.pdf" diskSizeKB="377.132" downloadSizeKB="377.132"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0081-SCH.pdf" diskSizeKB="440.839" downloadSizeKB="440.839"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0100-BOM.pdf" diskSizeKB="187.966" downloadSizeKB="187.966"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0100-GBR.pdf" diskSizeKB="10.063" downloadSizeKB="10.063"/>
+  <assets path="/iots/boards/RD-0100-0201/IST-A0100-SCH.pdf" diskSizeKB="432.898" downloadSizeKB="432.898"/>
+  <assets path="/iots/examples/iots_examples.zip" diskSizeKB="241.955" downloadSizeKB="62.325" directory="true"/>
+  <assets version="0.7" path="/iots/kits/RD-0001-0201/ug129-zigbee-gateway-ref-design-guide.pdf" diskSizeKB="1716.335" downloadSizeKB="1716.335"/>
+  <assets version="0.7" path="/iots/kits/RD-0002-0201/ug129-zigbee-gateway-ref-design-guide.pdf" diskSizeKB="1716.335" downloadSizeKB="1716.335"/>
+  <assets version="1.0" path="/iots/kits/RD-0004-0201/qsg102-thread-border-router-kit.pdf" diskSizeKB="728.278" downloadSizeKB="728.278"/>
+  <assets version="0.4" path="/iots/kits/RD-0004-0201/ug116-border-router-ug.pdf" diskSizeKB="2816.622" downloadSizeKB="2816.622"/>
+  <assets version="0.4" path="/iots/kits/RD-0030-0201/UG124_Zigbee_Contact_Sensor_Reference_Design_Kit_Users_Guide.pdf" diskSizeKB="490.266" downloadSizeKB="490.266"/>
+  <assets version="0.4" path="/iots/kits/RD-0035-0601/UG252_Zigbee_Lighting_Reference_Design_Demo_Board_Kit_Users_Guide.pdf" diskSizeKB="974.646" downloadSizeKB="974.646"/>
+  <assets version="0.4" path="/iots/kits/RD-0039-0201/UG120_Zigbee_Dimmer_Switch_Reference_Design_Kit_Users_Guide.pdf" diskSizeKB="9678.252" downloadSizeKB="9678.252"/>
+  <assets version="0.2" path="/iots/kits/RD-0051-0201/UG171_Zigbee_Smart_Outlet_Reference_Design_Kit_Users_Guide.pdf" diskSizeKB="846.709" downloadSizeKB="846.709"/>
+  <assets version="0.2" path="/iots/kits/RD-0078-0201/UG249_Zigbee_Occupancy_Sensor_Reference_Design_Kit_Users_Guide.pdf" diskSizeKB="1430.798" downloadSizeKB="1430.798"/>
+  <assets version="0.4" path="/iots/kits/RD-0085-0401/UG252_Zigbee_Lighting_Reference_Design_Demo_Board_Kit_Users_Guide.pdf" diskSizeKB="974.646" downloadSizeKB="974.646"/>
+  <assets version="0.4" path="/iots/kits/RD-0098-0401/UG252_Zigbee_Lighting_Reference_Design_Demo_Board_Kit_Users_Guide.pdf" diskSizeKB="974.646" downloadSizeKB="974.646"/>
+  <assets version="0.2" path="/iots/kits/RD-0099-0201/UG249_Zigbee_Occupancy_Sensor_Reference_Design_Kit_Users_Guide.pdf" diskSizeKB="1430.798" downloadSizeKB="1430.798"/>
+  <assets version="0.2" path="/iots/kits/RD-0100-0201/UG171_Zigbee_Smart_Outlet_Reference_Design_Kit_Users_Guide.pdf" diskSizeKB="846.709" downloadSizeKB="846.709"/>
+</assets>

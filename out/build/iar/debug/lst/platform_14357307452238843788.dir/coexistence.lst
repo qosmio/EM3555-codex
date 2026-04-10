@@ -1,0 +1,927 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:28
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\common\coexistence.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coexistence.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\common\coexistence.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"coexistence.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\common\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coexistence.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coexistence.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\coexistence.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coexistence.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\common\coexistence.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Radio coexistence utilities
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2020 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include "coexistence/common/coexistence.h"
+     19          #include "coexistence-hal.h"
+     20          
+     21          #ifndef COEX_HAL_DISABLED
+     22          #define coexReqAndGntIrqShared() \
+     23            (reqCfg.cb == &COEX_GNT_ISR)
+     24          
+     25          typedef struct COEX_ReqArgs {
+     26            /** PTA request arguments*/
+     27            COEX_ReqState_t *reqState;
+     28            COEX_Req_t coexReq;
+     29            COEX_ReqCb_t cb;
+     30          } COEX_ReqArgs_t;
+     31          
+     32          static void (*setCoexPowerStateCallbackPtr)(bool powerUp);
+     33          static void (*setCoexReqCallbackPtr)(COEX_ReqArgs_t *reqArgs);
+     34          static void setCoexReqCallback(COEX_ReqArgs_t *reqArgs);
+     35          static const COEX_HalCallbacks_t *coexHalCallbacks;
+     36          static COEX_RadioCallback_t coexRadioCallback;
+     37          static COEX_RandomDelayCallback_t coexRandomDelayCallback;
+     38          static void coexNotifyRadio(void);
+     39          __STATIC_INLINE void coexUpdateReqIsr(void);
+     40          
+     41          /** PTA radio hold off GPIO configuration */
+     42          static COEX_GpioHandle_t rhoHandle = NULL;
+     43          
+     44          /** PTA grant GPIO configuration */
+     45          static COEX_GpioHandle_t gntHandle = NULL;
+     46          
+     47          /** PTA request GPIO configuration */
+     48          static COEX_GpioHandle_t reqHandle = NULL;
+     49          
+     50          /** PTA PWM request GPIO configuration */
+     51          static COEX_GpioHandle_t pwmReqHandle = NULL;
+     52          
+     53          /** PTA priority GPIO configuration */
+     54          static COEX_GpioHandle_t priHandle = NULL;
+     55          
+     56          /** PHY select GPIO configuration */
+     57          static COEX_GpioHandle_t phySelectHandle = NULL;
+     58          
+     59          typedef struct COEX_Cfg {
+     60            /** PTA request states*/
+     61            COEX_ReqState_t *reqHead;
+     62            volatile COEX_Req_t combinedRequestState;
+     63            volatile bool radioOn : 1;
+     64            volatile bool requestDenied : 1;
+     65            volatile bool updateGrantInProgress : 1;
+     66            volatile COEX_Options_t options;
+     67          } COEX_Cfg_t;
+     68          
+     69          static void COEX_REQ_ISR(void);
+     70          static void COEX_GNT_ISR(void);
+     71          static void COEX_RHO_ISR(void);
+     72          static void COEX_PHY_SEL_ISR(void);
+     73          
+     74          static COEX_Cfg_t coexCfg;
+     75          
+     76          static COEX_GpioConfig_t phySelectCfg = {
+     77          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+     78            .index = COEX_GPIO_INDEX_PHY_SELECT,
+     79          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+     80            .options = (COEX_GpioOptions_t)(COEX_GPIO_OPTION_INT_ASSERTED),
+     81            .cb = &COEX_PHY_SEL_ISR
+     82          };
+     83          
+     84          static COEX_GpioConfig_t rhoCfg = {
+     85          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+     86            .index = COEX_GPIO_INDEX_RHO,
+     87          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+     88            .options = (COEX_GpioOptions_t)(COEX_GPIO_OPTION_INT_ASSERTED
+     89                                            | COEX_GPIO_OPTION_INT_DEASSERTED),
+     90            .cb = &COEX_RHO_ISR
+     91          };
+     92          
+     93          static COEX_GpioConfig_t gntCfg = {
+     94          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+     95            .index = COEX_GPIO_INDEX_GNT,
+     96          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+     97            .options = (COEX_GpioOptions_t)(COEX_GPIO_OPTION_DEFAULT_ASSERTED
+     98                                            | COEX_GPIO_OPTION_INT_ASSERTED
+     99                                            | COEX_GPIO_OPTION_INT_DEASSERTED),
+    100            .cb = &COEX_GNT_ISR
+    101          };
+    102          
+    103          static COEX_GpioConfig_t reqCfg = {
+    104          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    105            .index = COEX_GPIO_INDEX_REQ,
+    106          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    107            .options = (COEX_GpioOptions_t)(COEX_GPIO_OPTION_INT_DEASSERTED
+    108                                            | COEX_GPIO_OPTION_OUTPUT),
+    109            .cb = &COEX_REQ_ISR
+    110          };
+    111          
+    112          static COEX_GpioConfig_t pwmReqCfg = {
+    113            .options = (COEX_GpioOptions_t)(COEX_GPIO_OPTION_OUTPUT
+    114                                            | COEX_GPIO_OPTION_SHARED)
+    115          };
+    116          
+    117          static COEX_GpioConfig_t priCfg = {
+    118            .options = COEX_GPIO_OPTION_OUTPUT
+    119          };
+    120          
+    121          static bool gntWasAsserted = false;
+    122          
+    123          void COEX_SetHalCallbacks(const COEX_HalCallbacks_t *callbacks)
+    124          {
+    125            coexHalCallbacks = callbacks;
+    126          }
+    127          
+    128          void COEX_SetRandomDelayCallback(COEX_RandomDelayCallback_t callback)
+    129          {
+    130            coexRandomDelayCallback = callback;
+    131          }
+    132          
+    133          void COEX_SetRadioCallback(COEX_RadioCallback_t callback)
+    134          {
+    135            coexRadioCallback = callback;
+    136          }
+    137          
+    138          __STATIC_INLINE bool isReqShared(void)
+    139          {
+    140            return (reqCfg.options & COEX_GPIO_OPTION_SHARED) != 0U;
+    141          }
+    142          
+    143          __STATIC_INLINE void coexReqRandomBackoff(void)
+    144          {
+    145            if (coexRandomDelayCallback != NULL) {
+    146              (*coexRandomDelayCallback)(coexCfg.options
+    147                                         & COEX_OPTION_MAX_REQ_BACKOFF_MASK);
+    148            }
+    149          }
+    150          
+    151          #ifndef COEX_HAL_GetPriority
+    152          #define COEX_HAL_GetPriority() getGpioOut(priHandle, false)
+    153          #endif //COEX_HAL_GetPriority
+    154          
+    155          static void setCoexOption(COEX_Options_t option, bool enable)
+    156          {
+    157            if (enable) {
+    158              coexCfg.options |= option;
+    159            } else {
+    160              coexCfg.options &= ~option;
+    161            }
+    162          }
+    163          
+    164          static void setGpio(COEX_GpioHandle_t gpioHandle, bool enabled)
+    165          {
+    166            (*coexHalCallbacks->setGpio)(gpioHandle, enabled);
+    167          }
+    168          
+    169          static bool isGpioInSet(COEX_GpioHandle_t gpioHandle, bool defaultValue)
+    170          {
+    171            return (*coexHalCallbacks->isGpioInSet)(gpioHandle, defaultValue);
+    172          }
+    173          
+    174          static bool getGpioOut(COEX_GpioHandle_t gpioHandle, bool defaultValue)
+    175          {
+    176            return (*coexHalCallbacks->isGpioOutSet)(gpioHandle, defaultValue);
+    177          }
+    178          
+    179          static void enableGpioInt(COEX_GpioHandle_t gpioHandle, bool *wasAsserted)
+    180          {
+    181            (*coexHalCallbacks->enableGpioInt)(gpioHandle, true, wasAsserted);
+    182          }
+    183          
+    184          static void disableGpioInt(COEX_GpioHandle_t gpioHandle)
+    185          {
+    186            (*coexHalCallbacks->enableGpioInt)(gpioHandle, false, NULL);
+    187          }
+    188          
+    189          static void setGpioFlag(COEX_GpioHandle_t gpioHandle)
+    190          {
+    191            (*coexHalCallbacks->setGpioFlag)(gpioHandle, true);
+    192          }
+    193          
+    194          static void clearGpioFlag(COEX_GpioHandle_t gpioHandle)
+    195          {
+    196            (*coexHalCallbacks->setGpioFlag)(gpioHandle, false);
+    197          }
+    198          
+    199          static void configGpio(COEX_GpioHandle_t gpioHandle,
+    200                                 COEX_GpioHandle_t *handlePtr,
+    201                                 COEX_GpioConfig_t *config)
+    202          {
+    203            if (config->cb != NULL) {
+    204              disableGpioInt(*handlePtr);
+    205            }
+    206            *handlePtr = gpioHandle;
+    207            coexHalCallbacks->configGpio(gpioHandle, config);
+    208          }
+    209          
+    210          static void coexEventCallback(COEX_Events_t events)
+    211          {
+    212            if (coexRadioCallback != NULL) {
+    213              if (COEX_HAL_GetPriority()) {
+    214                events |= COEX_EVENT_PRIORITY_ASSERTED;
+    215              }
+    216              coexRadioCallback(events);
+    217            }
+    218          }
+    219          
+    220          #ifdef COEX_PULSE_REQ_ON_RHO_RELEASE_SUPPORT
+    221          static void toggleCoexReq(void)
+    222          {
+    223            if ( ((coexCfg.options
+    224                   & COEX_OPTION_PULSE_REQ_ON_RHO_RELEASE) != 0U) // Pulse request on RHO release selected
+    225                 && getGpioOut(reqHandle, false)          // REQUESTing and
+    226                 && !isGpioInSet(rhoHandle, false)          // RHO not asserted and
+    227                 && !isGpioInSet(gntHandle, true)) {        // GRANT not asserted
+    228              setGpio(reqHandle, false);
+    229              setGpio(reqHandle, true);
+    230            }
+    231          }
+    232          #else //!COEX_PULSE_REQ_ON_RHO_RELEASE_SUPPORT
+    233          static void toggleCoexReq(void)
+    234          {
+    235          }
+    236          #endif //COEX_PULSE_REQ_ON_RHO_RELEASE_SUPPORT
+    237          
+    238          void COEX_UpdateGrant(void)
+    239          {
+    240            if (coexCfg.updateGrantInProgress) {
+    241              // Prevent this function from being called recursively
+    242              return;
+    243            } else {
+    244              coexCfg.updateGrantInProgress = true;
+    245            }
+    246            if (getGpioOut(reqHandle, false)) {    // GRANT phase
+    247              bool newGnt = isGpioInSet(gntHandle, false);   // Sample GPIO once, now
+    248              if (newGnt != gntWasAsserted) {
+    249                gntWasAsserted = newGnt;
+    250                coexNotifyRadio();
+    251                // Issue callbacks on GRANT assert or negate
+    252                // These are not one-shot callbacks
+    253                COEX_ReqState_t* reqPtr;
+    254                COEX_Req_t newState = (newGnt ? COEX_REQCB_GRANTED : COEX_REQCB_NEGATED);
+    255                for (reqPtr = coexCfg.reqHead; reqPtr != NULL; reqPtr = reqPtr->next) {
+    256                  if ((reqPtr->cb != NULL) && ((reqPtr->coexReq & newState) != 0U)) {
+    257                    (*reqPtr->cb)(newState);
+    258                  }
+    259                }
+    260                if (!newGnt) {
+    261                  coexEventCallback(COEX_EVENT_GRANT_RELEASED);
+    262          
+    263                  // Do we need this to meet GRANT -> REQUEST timing?
+    264                  // On GNT deassertion, pulse REQUEST to keep us going.
+    265                  // Don't want to revert to REQUEST phase here but stay in GRANT phase.
+    266                  // This seems dangerous in that it could allow a peer to assert their
+    267                  // REQUEST causing a conflict/race.
+    268                  if ((coexCfg.options & COEX_OPTION_PULSE_REQ_ON_GNT_RELEASE) != 0U) {
+    269                    setGpio(reqHandle, false);
+    270                    setGpio(reqHandle, true);
+    271                  }
+    272                }
+    273              }
+    274            } else {                          // REQUEST phase
+    275              if (coexReqAndGntIrqShared() && isReqShared()) {
+    276                // External REQUEST deasserted so we can assert ours
+    277                disableGpioInt(reqHandle);   // This is a one-shot event
+    278                coexReqRandomBackoff();
+    279                coexUpdateReqIsr();
+    280              } else {
+    281                // Ignore GRANT changes unless we are REQUESTing
+    282              }
+    283            }
+    284            coexCfg.updateGrantInProgress = false;
+    285          }
+    286          
+    287          // Triggered on both GRANT edges
+    288          static void COEX_GNT_ISR(void)
+    289          {
+    290            clearGpioFlag(gntHandle);
+    291            COEX_UpdateGrant();
+    292          }
+    293          
+    294          // Public API
+    295          bool COEX_SetRequest(COEX_ReqState_t *reqState,
+    296                               COEX_Req_t coexReq,
+    297                               COEX_ReqCb_t cb)
+    298          {
+    299            if (setCoexReqCallbackPtr == NULL || reqState == NULL) {
+    300              return false;
+    301            }
+    302            COEX_ReqArgs_t reqArgs;
+    303            reqArgs.reqState = reqState;
+    304            reqArgs.coexReq = coexReq;
+    305            reqArgs.cb = cb;
+    306            COEX_HAL_CallAtomic((COEX_AtomicCallback_t)setCoexReqCallbackPtr,
+    307                                &reqArgs);
+    308            return true;
+    309          }
+    310          
+    311          static void updateReqList(COEX_ReqState_t *reqState)
+    312          {
+    313            bool reqFound = false;
+    314            COEX_ReqState_t** current;
+    315            COEX_Req_t combinedRequestState = reqState->coexReq;
+    316            for (current = &coexCfg.reqHead; *current != NULL; current = &((*current)->next)) {
+    317              if (*current == reqState) {
+    318                reqFound = true;
+    319                if (reqState->coexReq == COEX_REQ_OFF) {
+    320                  // remove disabled request from the list, it has nothing to combine
+    321                  *current = (*current)->next;
+    322                  reqState->next = NULL;
+    323                  if (*current == NULL) {
+    324                    // break out the loop if the tail was deleted
+    325                    break;
+    326                  }
+    327                }
+    328              }
+    329              combinedRequestState |= (*current)->coexReq;
+    330            }
+    331            if (!reqFound && (reqState->coexReq != COEX_REQ_OFF)) {
+    332              // Insert new non-OFF entry at head of list
+    333              reqState->next = coexCfg.reqHead;
+    334              coexCfg.reqHead = reqState;
+    335            }
+    336            coexCfg.combinedRequestState = combinedRequestState;
+    337          }
+    338          
+    339          static void setCoexReqCallback(COEX_ReqArgs_t *reqArgs)
+    340          {
+    341            COEX_ReqState_t *reqState = reqArgs->reqState;
+    342            COEX_Req_t coexReq = reqArgs->coexReq;
+    343          
+    344            if (((coexReq & COEX_REQ_ON) == 0U)
+    345                && ((reqState->coexReq & COEX_REQ_ON) != 0U)
+    346                && (reqState->cb != NULL)
+    347                && ((reqState->coexReq & COEX_REQCB_OFF) != 0U)) {
+    348              (*reqState->cb)(COEX_REQCB_OFF);
+    349            }
+    350            reqState->cb = reqArgs->cb;
+    351            if (reqState->coexReq != coexReq) {
+    352              reqState->coexReq = coexReq;
+    353              updateReqList(reqState);
+    354              coexUpdateReqIsr();
+    355            }
+    356          }
+    357          
+    358          static void coexRadioHoldOffPowerDown(void)
+    359          {
+    360            coexCfg.radioOn = false;
+    361            // When sleeping radio, no need to monitor RHO anymore
+    362            disableGpioInt(rhoHandle); //clear RHO top level int enable
+    363          }
+    364          
+    365          static void coexRadioHoldOffPowerUp(void)
+    366          {
+    367            coexCfg.radioOn = true;
+    368            if (rhoHandle != NULL) {
+    369              // When waking radio, set up initial state and resume monitoring
+    370              disableGpioInt(rhoHandle); //ensure RHO interrupt is off
+    371              rhoCfg.cb(); // Manually call ISR to assess current state
+    372              enableGpioInt(rhoHandle, NULL); //enable RHO interrupt
+    373            }
+    374          }
+    375          
+    376          void setCoexPowerState(bool powerUp)
+    377          {
+    378            if (setCoexPowerStateCallbackPtr != NULL) {
+    379              setCoexPowerStateCallbackPtr(powerUp);
+    380            }
+    381          }
+    382          
+    383          static void setCoexPowerStateCallback(bool powerUp)
+    384          {
+    385            if (powerUp) {
+    386              coexRadioHoldOffPowerUp();
+    387            } else {
+    388              coexRadioHoldOffPowerDown();
+    389            }
+    390          }
+    391          
+    392          static void COEX_RHO_ISR(void)
+    393          {
+    394            // Ack interrupt before reading GPIO to avoid potential of missing int
+    395            clearGpioFlag(rhoHandle);
+    396            // Notify Radio land of state change
+    397            toggleCoexReq();
+    398            coexNotifyRadio();
+    399          }
+    400          
+    401          static bool (*enableCoexistenceCb)(void) = NULL;
+    402          
+    403          static bool enableCoexistence(void)
+    404          {
+    405            bool enabled = ((coexCfg.options & COEX_OPTION_COEX_ENABLED) != 0U);
+    406            COEX_ReqState_t* reqPtr;
+    407          
+    408            if (enabled) {
+    409              setCoexReqCallbackPtr = &setCoexReqCallback;
+    410            }
+    411            for (reqPtr = coexCfg.reqHead; reqPtr != NULL; reqPtr = reqPtr->next) {
+    412              COEX_SetRequest(reqPtr, COEX_REQ_OFF, NULL);
+    413            }
+    414            if (!enabled) {
+    415              setCoexReqCallbackPtr = NULL;
+    416            }
+    417            (*coexEventCallback)(COEX_EVENT_COEX_CHANGED);
+    418            coexNotifyRadio();
+    419            return true;
+    420          }
+    421          
+    422          static bool (*enableRadioHoldOffCb)(void) = NULL;
+    423          
+    424          static bool enableRadioHoldOff(void)
+    425          {
+    426            bool enabled = ((coexCfg.options & COEX_OPTION_RHO_ENABLED) != 0U);
+    427          
+    428            // Configure GPIO as input and if pulling, pull it toward deasserted state
+    429            if (!enabled) {
+    430              disableGpioInt(rhoHandle);
+    431            }
+    432            if (coexCfg.radioOn || !enabled) {
+    433              coexNotifyRadio(); //Notify Radio land of current state
+    434            }
+    435            if (coexCfg.radioOn && enabled) {
+    436              enableGpioInt(rhoHandle, NULL);
+    437            }
+    438            return true;
+    439          }
+    440          
+    441          static bool coexHoldOffActive(void)
+    442          {
+    443            return ((coexCfg.options & COEX_OPTION_COEX_ENABLED) != 0U)
+    444                   && ((!getGpioOut(reqHandle, true)       // not REQUESTing or
+    445                        || !isGpioInSet(gntHandle, true) ) );    // REQUEST not GRANTed
+    446          }
+    447          
+    448          static bool radioHoldOffActive(void)
+    449          {
+    450            return ((coexCfg.options & COEX_OPTION_RHO_ENABLED) != 0U)
+    451                   && isGpioInSet(rhoHandle, false);
+    452          }
+    453          
+    454          static void coexNotifyRadio(void)
+    455          {
+    456            bool coexRho = coexHoldOffActive() || radioHoldOffActive();
+    457            if (!coexRho) {
+    458              coexCfg.requestDenied = false;
+    459            }
+    460            setCoexOption(COEX_OPTION_HOLDOFF_ACTIVE, coexRho);
+    461            coexEventCallback(COEX_EVENT_HOLDOFF_CHANGED);
+    462          }
+    463          
+    464          bool COEX_IsEnabled(void)
+    465          {
+    466            return (rhoHandle != NULL)
+    467                   || (gntHandle != NULL)
+    468                   || (reqHandle != NULL);
+    469          }
+    470          
+    471          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    472          static uint8_t gpioInputOverride = 0U;
+    473          static COEX_GpioHandle_t overrideGpioHandles[COEX_GPIO_INDEX_COUNT];
+    474          
+    475          bool COEX_GetGpioInputOverride(COEX_GpioIndex_t gpioIndex)
+    476          {
+    477            return gpioInputOverride & (1U << gpioIndex);
+    478          }
+    479          
+    480          bool COEX_SetGpioInputOverride(COEX_GpioIndex_t gpioIndex, bool enable)
+    481          {
+    482            uint8_t gpioMask = (1U << gpioIndex);
+    483          
+    484            bool oldValue = ((gpioInputOverride & gpioMask) != 0U);
+    485            if ((gpioIndex == 0U) || (gpioIndex >= COEX_GPIO_INDEX_COUNT)) {
+    486              return false;
+    487            }
+    488            if (oldValue != enable) {
+    489              if (enable) {
+    490                gpioInputOverride |= gpioMask;
+    491              } else {
+    492                gpioInputOverride &= ~gpioMask;
+    493              }
+    494              setGpioFlag(overrideGpioHandles[gpioIndex]);
+    495            }
+    496            return true;
+    497          }
+    498          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    499          
+    500          bool COEX_ConfigPhySelect(COEX_GpioHandle_t gpioHandle)
+    501          {
+    502          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    503            overrideGpioHandles[COEX_GPIO_INDEX_PHY_SELECT] = gpioHandle;
+    504          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    505            // Register chip specific PHY select interrupt
+    506            configGpio(gpioHandle, &phySelectHandle, &phySelectCfg);
+    507            COEX_PHY_SEL_ISR();
+    508            return true;
+    509          }
+    510          
+    511          bool COEX_ConfigRadioHoldOff(COEX_GpioHandle_t gpioHandle)
+    512          {
+    513          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    514            overrideGpioHandles[COEX_GPIO_INDEX_RHO] = gpioHandle;
+    515          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    516            setCoexPowerStateCallbackPtr = &setCoexPowerStateCallback;
+    517          
+    518            // Register chip specific RHO interrupt
+    519            configGpio(gpioHandle, &rhoHandle, &rhoCfg);
+    520            enableRadioHoldOffCb = &enableRadioHoldOff;
+    521            enableRadioHoldOff();
+    522          
+    523            return true;
+    524          }
+    525          
+    526          bool COEX_ConfigPriority(COEX_GpioHandle_t gpioHandle)
+    527          {
+    528            if ((coexCfg.options & COEX_OPTION_PRI_SHARED) != 0U) {
+    529              priCfg.options |= COEX_GPIO_OPTION_SHARED;
+    530            } else {
+    531              priCfg.options &= ~COEX_GPIO_OPTION_SHARED;
+    532            }
+    533            configGpio(gpioHandle, &priHandle, &priCfg);
+    534            return true;
+    535          }
+    536          
+    537          bool COEX_ConfigPwmRequest(COEX_GpioHandle_t gpioHandle)
+    538          {
+    539            configGpio(gpioHandle, &pwmReqHandle, &pwmReqCfg);
+    540            return true;
+    541          }
+    542          
+    543          bool COEX_ConfigGrant(COEX_GpioHandle_t gpioHandle)
+    544          {
+    545          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    546            overrideGpioHandles[COEX_GPIO_INDEX_GNT] = gpioHandle;
+    547          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    548            configGpio(gpioHandle, &gntHandle, &gntCfg);
+    549            return true;
+    550          }
+    551          
+    552          bool COEX_ConfigRequest(COEX_GpioHandle_t gpioHandle)
+    553          {
+    554          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    555            overrideGpioHandles[COEX_GPIO_INDEX_REQ] = gpioHandle;
+    556          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    557            if ((coexCfg.options & COEX_OPTION_REQ_SHARED) != 0U) {
+    558              reqCfg.options |= COEX_GPIO_OPTION_SHARED;
+    559            } else {
+    560              reqCfg.options &= ~COEX_GPIO_OPTION_SHARED;
+    561            }
+    562            configGpio(gpioHandle, &reqHandle, &reqCfg);
+    563          
+    564            enableCoexistenceCb = &enableCoexistence;
+    565            enableCoexistence();
+    566          
+    567            return true;
+    568          }
+    569          
+    570          bool COEX_SetOptions(COEX_Options_t options)
+    571          {
+    572            COEX_Options_t changedOptions = (COEX_Options_t)(coexCfg.options ^ options);
+    573          
+    574            coexCfg.options = options;
+    575            if ((changedOptions & COEX_OPTION_RHO_ENABLED) != 0U) {
+    576              if (enableRadioHoldOffCb == NULL) {
+    577                return false;
+    578              }
+    579              enableRadioHoldOffCb();
+    580            }
+    581            if ((changedOptions & COEX_OPTION_COEX_ENABLED) != 0U) {
+    582              if (enableCoexistenceCb == NULL) {
+    583                return false;
+    584              }
+    585              enableCoexistenceCb();
+    586            }
+    587            return true;
+    588          }
+    589          
+    590          COEX_Options_t COEX_GetOptions(void)
+    591          {
+    592            return coexCfg.options;
+    593          }
+    594          
+    595          static void COEX_PHY_SEL_ISR(void)
+    596          {
+    597            disableGpioInt(phySelectHandle);
+    598            coexEventCallback(COEX_EVENT_PHY_SELECT_CHANGED);
+    599          }
+    600          
+    601          static void enablePhySelectIsr(void *args)
+    602          {
+    603            (void)args;
+    604            enableGpioInt(phySelectHandle, NULL);
+    605            if (isGpioInSet(phySelectHandle, false)) {
+    606              COEX_PHY_SEL_ISR();
+    607            }
+    608          }
+    609          
+    610          void COEX_EnablePhySelectIsr(bool enable)
+    611          {
+    612            if (enable) {
+    613              clearGpioFlag(phySelectHandle);
+    614              COEX_HAL_CallAtomic(enablePhySelectIsr, NULL);
+    615            } else {
+    616              disableGpioInt(phySelectHandle);
+    617            }
+    618          }
+    619          
+    620          #ifdef COEX_HAL_FAST_REQUEST
+    621          #if SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    622          #define COEX_ReadRequest() isGpioInSet(reqHandle, false)
+    623          #else //!SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    624          #define COEX_ReadRequest() COEX_HAL_ReadRequest()
+    625          #endif //SL_RAIL_UTIL_COEX_OVERRIDE_GPIO_INPUT
+    626          
+    627          __STATIC_INLINE void COEX_SetPriorityAndRequest(bool request, bool priority)
+    628          {
+    629            // We are purposely defining every combination of request
+    630            // and priority. This reduces the delay between setting
+    631            // the 3 coex GPIOs.  If all 3 coex registers are on the
+    632            // same port, all GPIOs can be set simultaneously.
+    633            if (request) {
+    634              if (priority) {
+    635          #ifdef COEX_HAL_CONFIG_DP_PRS
+    636                //Setup PRS priority config before enabling request
+    637                COEX_HAL_SetPriority();
+    638          #endif //COEX_HAL_CONFIG_DP_PRS
+    639                COEX_HAL_SetPwmRequest();
+    640                COEX_HAL_SetRequest();
+    641          #ifndef COEX_HAL_CONFIG_DP_PRS
+    642                COEX_HAL_SetPriority();
+    643          #endif //COEX_HAL_CONFIG_DP_PRS
+    644              } else {
+    645                COEX_HAL_SetPwmRequest();
+    646                COEX_HAL_SetRequest();
+    647                COEX_HAL_ClearPriority();
+    648              }
+    649            } else {
+    650              if (priority) {
+    651                COEX_HAL_SetPwmRequest();
+    652                COEX_HAL_ClearRequest();
+    653                COEX_HAL_SetPriority();
+    654              } else {
+    655                COEX_HAL_SetPwmRequest();
+    656                COEX_HAL_ClearRequest();
+    657                COEX_HAL_ClearPriority();
+    658              }
+    659            }
+    660          }
+    661          __STATIC_INLINE void COEX_ClearRequestAndPriority(void)
+    662          {
+    663            COEX_HAL_ClearPriority();
+    664            COEX_HAL_ClearRequest();
+    665            COEX_HAL_ClearPwmRequest();
+    666          }
+    667          #else //!COEX_HAL_FAST_REQUEST
+    668          #define COEX_ReadRequest() isGpioInSet(reqHandle, false)
+    669          __STATIC_INLINE void COEX_SetPriorityAndRequest(bool request, bool priority)
+    670          {
+    671            setGpio(pwmReqHandle, true);
+    672            setGpio(reqHandle, request);
+    673            setGpio(priHandle, priority);
+    674          }
+    675          __STATIC_INLINE void COEX_ClearRequestAndPriority(void)
+    676          {
+    677            setGpio(priHandle, false);
+    678            setGpio(reqHandle, false);
+    679            setGpio(pwmReqHandle, false);
+    680          }
+    681          #endif //!COEX_HAL_FAST_REQUEST
+    682          
+    683          #if defined(__ICCARM__) /* IAR */
+    684          #pragma optimize=speed
+    685          #elif __clang__
+    686          __attribute__((optnone))
+    687          #elif defined(__GNUC__)
+    688          __attribute__((optimize("-Ofast")))
+    689          #else
+    690          // Don't know how to optimize unsupported compiler
+    691          #endif
+    692          // This IRQ is triggered on the negate REQUEST edge,
+    693          // needed only when REQUEST signal is shared,
+    694          // and not piggybacking GNT and REQ on same IRQ.
+    695          static void COEX_REQ_ISR(void)
+    696          {
+    697            // External REQUEST deasserted so we can assert ours
+    698            //clearGpioFlag(reqHandle) // Covered within disableGpioInt(reqHandle)
+    699            disableGpioInt(reqHandle); // This is a one-shot event
+    700            coexReqRandomBackoff();
+    701            coexUpdateReqIsr();
+    702          }
+    703          
+    704          #if defined(__ICCARM__) /* IAR */
+    705          #pragma optimize=speed
+    706          #elif __clang__
+    707          __attribute__((optnone))
+    708          #elif defined(__GNUC__)
+    709          __attribute__((optimize("-Ofast")))
+    710          #else
+    711          // Don't know how to optimize unsupported compiler
+    712          #endif
+    713          
+    714          #if SL_RAIL_UTIL_COEX_DP_ENABLED
+    715          __STATIC_INLINE void pulseDirectionalPriority(void)
+    716          {
+    717            COEX_Req_t combinedReqState = coexCfg.combinedRequestState; // Local non-volatile flavor avoids warnings
+    718            bool highPriority = ((combinedReqState & COEX_REQ_HIPRI) != 0U);
+    719            bool setRequest = ((combinedReqState & COEX_REQ_ON) != 0U);
+    720          
+    721            // DP priority possible
+    722            // Not in Direction PRIORITY bypass?
+    723            if ((COEX_HAL_GetDpPulseWidth() != 0)
+    724                // coexUpdateReqIsr() triggered by REQUEST changing, not PWM changing?
+    725                && (setRequest != getGpioOut(reqHandle, false))
+    726                // PRIORITY changing requiring a new priority pulse?
+    727                && (highPriority && !COEX_HAL_GetPriority())) {
+    728              COEX_ClearRequestAndPriority(); // then deaasert all PTA signals
+    729            }
+    730          }
+    731          #else
+    732          #define pulseDirectionalPriority() //no-op
+    733          #endif
+    734          
+    735          // Must be called with interrupts disabled
+    736          __STATIC_INLINE void coexUpdateReqIsr(void)
+    737          {
+    738            COEX_Req_t combinedReqState = coexCfg.combinedRequestState; // Local non-volatile flavor avoids warnings
+    739            bool myReq = ((combinedReqState & (COEX_REQ_ON | COEX_REQ_PWM)) != 0U); // I need to REQUEST
+    740            bool force = ((combinedReqState & COEX_REQ_FORCE) != 0U); // (ignoring others)
+    741            bool exReq; // external requestor?
+    742          
+    743            if (!isReqShared() || getGpioOut(reqHandle, false)) {  // in GRANT phase
+    744              exReq = false;                // ignore external requestors
+    745            } else {                        // in REQUEST phase
+    746              clearGpioFlag(reqHandle);  // Before sampling REQUEST, avoids race
+    747              exReq = COEX_ReadRequest();
+    748            }
+    749            if (myReq) {                    // want to assert REQUEST
+    750              if (force || !exReq) {        // can assert REQUEST
+    751                if (!getGpioOut(reqHandle, false)) {
+    752                  // Assume request denied until request is granted
+    753                  coexCfg.requestDenied = true;
+    754                }
+    755                clearGpioFlag(gntHandle);
+    756                enableGpioInt(gntHandle, &gntWasAsserted);
+    757                bool highPriority = ((combinedReqState & COEX_REQ_HIPRI) != 0U);
+    758                // If COEX_REQ_ON is not set this must be a PWM request
+    759                // If request is not shared map PWM requests to the standard request
+    760                bool setRequest = ((combinedReqState & COEX_REQ_ON) != 0U) || !isReqShared();
+    761                pulseDirectionalPriority();
+    762                COEX_SetPriorityAndRequest(setRequest, highPriority);
+    763          
+    764                // Issue callbacks on REQUEST assertion
+    765                // These are one-shot callbacks
+    766                COEX_ReqState_t* reqPtr;
+    767                for (reqPtr = coexCfg.reqHead; reqPtr != NULL; reqPtr = reqPtr->next) {
+    768                  if ((reqPtr->cb != NULL) && ((reqPtr->coexReq & COEX_REQCB_REQUESTED) != 0U)) {
+    769                    reqPtr->coexReq &= ~COEX_REQCB_REQUESTED;
+    770                    (*reqPtr->cb)(COEX_REQCB_REQUESTED);
+    771                  }
+    772                }
+    773                setGpioFlag(gntHandle); // Manually force GRANT check if missed/no edge
+    774              } else {                      // must wait for REQUEST
+    775                enableGpioInt(reqHandle, NULL);
+    776              }
+    777            } else {                        // negate REQUEST
+    778              if (getGpioOut(reqHandle, false) ) {
+    779                COEX_Events_t coexEvents = COEX_EVENT_REQUEST_RELEASED;
+    780                if (coexCfg.requestDenied) {
+    781                  coexCfg.requestDenied = false;
+    782                  coexEvents |= COEX_EVENT_REQUEST_DENIED;
+    783                }
+    784                coexEventCallback(coexEvents);
+    785              }
+    786              COEX_ClearRequestAndPriority();
+    787              disableGpioInt(gntHandle);
+    788              if (isReqShared()) {
+    789                disableGpioInt(reqHandle);
+    790              }
+    791            }
+    792            coexNotifyRadio(); // Reassess (assert) RHO
+    793          }
+    794          
+    795          void COEX_InitHalConfigOptions(void)
+    796          {
+    797            COEX_Options_t options = COEX_OPTION_NONE;
+    798          
+    799            #ifdef SL_RAIL_UTIL_COEX_RHO_PORT
+    800            options |= COEX_OPTION_RHO_ENABLED;
+    801            #endif //SL_RAIL_UTIL_COEX_RHO_PORT
+    802            #if defined(SL_RAIL_UTIL_COEX_REQ_PORT) || defined(SL_RAIL_UTIL_COEX_GNT_PORT)
+    803            options |= COEX_OPTION_COEX_ENABLED;
+    804            #endif //defined(SL_RAIL_UTIL_COEX_REQ_PORT) || defined(SL_RAIL_UTIL_COEX_GNT_PORT)
+    805            #if SL_RAIL_UTIL_COEX_REQ_BACKOFF
+    806            options |= (COEX_OPTION_MAX_REQ_BACKOFF_MASK
+    807                        & SL_RAIL_UTIL_COEX_REQ_BACKOFF);
+    808            #endif //SL_RAIL_UTIL_COEX_REQ_BACKOFF
+    809            #if SL_RAIL_UTIL_COEX_REQ_SHARED
+    810            options |= COEX_OPTION_REQ_SHARED;
+    811            #endif //SL_RAIL_UTIL_COEX_REQ_SHARED
+    812            #if SL_RAIL_UTIL_COEX_PRI_SHARED && !SL_RAIL_UTIL_COEX_DP_ENABLED
+    813            options |= COEX_OPTION_PRI_SHARED;
+    814            #endif //SL_RAIL_UTIL_COEX_PRI_SHARED && !SL_RAIL_UTIL_COEX_DP_ENABLED
+    815            #if SL_RAIL_UTIL_COEX_TX_ABORT
+    816            options |= COEX_OPTION_TX_ABORT;
+    817            #endif //SL_RAIL_UTIL_COEX_TX_ABORT
+    818            #if SL_RAIL_UTIL_COEX_DP_ENABLED
+    819            COEX_HAL_ConfigDp(SL_RAIL_UTIL_COEX_DP_PULSE_WIDTH_US);
+    820            #endif
+    821            COEX_SetOptions(options);
+    822          }
+    823          #endif //COEX_HAL_DISABLED
+
+
+ 
+ 
+ 0 bytes of memory
+
+Errors: none
+Warnings: none

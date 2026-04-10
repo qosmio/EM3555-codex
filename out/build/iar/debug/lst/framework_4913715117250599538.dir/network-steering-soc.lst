@@ -1,0 +1,346 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:00
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\network-steering\network-steering-soc.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\network-steering-soc.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\network-steering\network-steering-soc.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"network-steering-soc.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\network-steering\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\network-steering-soc.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\network-steering-soc.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\network-steering-soc.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\network-steering-soc.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\network-steering\network-steering-soc.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief SoC routines for the Network Steering plugin.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include "app/framework/include/af.h"
+     19          #include "debug_output.h"
+     20          #include "app/framework/plugin/network-steering/network-steering.h"
+     21          #include "app/framework/plugin/network-steering/network-steering-internal.h"
+     22          
+     23          //============================================================================
+     24          // Globals
+     25          
+     26          #define MAX_NETWORKS (PACKET_BUFFER_SIZE >> 1)  // 16
+     27          
+     28          #define NULL_PAN_ID 0xFFFF
+     29          
+
+   \                                 In section .bss, align 4
+     30          static uint16_t storedNetworks[MAX_NETWORKS];
+   \                     storedNetworks:
+   \        0x0                      DS8 32
+
+   \                                 In section .bss, align 1
+     31          static bool storedNetworksInitialized = false;
+   \                     storedNetworksInitialized:
+   \        0x0                      DS8 1
+     32          
+     33          #define PLUGIN_NAME emAfNetworkSteeringPluginName
+     34          
+
+   \                                 In section .text, align 2, keep-with-next
+     35          static void steeringSocSerialLog(const char *format, ...)
+     36          {
+   \                     steeringSocSerialLog: (+1)
+   \        0x0   0xB40E             PUSH     {R1-R3}
+   \        0x2   0xB518             PUSH     {R3,R4,LR}
+   \        0x4   0x4604             MOV      R4,R0
+     37            va_list args;
+     38          
+     39            if (!em3555DebugOutputActive()) {
+   \        0x6   0x.... 0x....      BL       em3555DebugOutputActive
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD006             BEQ.N    ??steeringSocSerialLog_0
+     40              return;
+     41            }
+     42          
+     43            va_start(args, format);
+   \        0xE   0xA903             ADD      R1,SP,#+12
+     44            em3555DebugOutputVPrintf(format, args);
+   \       0x10   0x4620             MOV      R0,R4
+   \       0x12   0x.... 0x....      BL       em3555DebugOutputVPrintf
+     45            va_end(args);
+     46            em3555DebugOutputWrite("\r\n");
+   \       0x16   0x....             ADR.N    R0,??DataTable2
+   \       0x18   0x.... 0x....      BL       em3555DebugOutputWrite
+     47          }
+   \                     ??steeringSocSerialLog_0: (+1)
+   \       0x1C   0xBC11             POP      {R0,R4}
+   \       0x1E   0xF85D 0xFB10      LDR      PC,[SP], #+16
+     48          
+     49          //============================================================================
+     50          // Forward Declarations
+     51          
+     52          //============================================================================
+     53          
+
+   \                                 In section .text, align 2, keep-with-next
+     54          uint8_t emAfPluginNetworkSteeringGetMaxPossiblePanIds(void)
+     55          {
+     56            return MAX_NETWORKS;
+   \                     emAfPluginNetworkSteeringGetMaxPossiblePanIds: (+1)
+   \        0x0   0x2010             MOVS     R0,#+16
+   \        0x2   0x4770             BX       LR
+     57          }
+     58          
+
+   \                                 In section .text, align 2, keep-with-next
+     59          void emAfPluginNetworkSteeringClearStoredPanIds(void)
+     60          {
+     61            for (uint8_t i = 0; i < MAX_NETWORKS; i++) {
+   \                     emAfPluginNetworkSteeringClearStoredPanIds: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0xF64F 0x72FF      MOVW     R2,#+65535
+   \        0x6   0x....             LDR.N    R3,??DataTable2_1
+   \        0x8   0xE002             B.N      ??emAfPluginNetworkSteeringClearStoredPanIds_0
+     62              storedNetworks[i] = NULL_PAN_ID;
+   \                     ??emAfPluginNetworkSteeringClearStoredPanIds_1: (+1)
+   \        0xA   0xF823 0x2011      STRH     R2,[R3, R1, LSL #+1]
+     63            }
+   \        0xE   0x1C40             ADDS     R0,R0,#+1
+   \                     ??emAfPluginNetworkSteeringClearStoredPanIds_0: (+1)
+   \       0x10   0x4601             MOV      R1,R0
+   \       0x12   0xB2C9             UXTB     R1,R1
+   \       0x14   0x2910             CMP      R1,#+16
+   \       0x16   0xDBF8             BLT.N    ??emAfPluginNetworkSteeringClearStoredPanIds_1
+     64            storedNetworksInitialized = false;
+   \       0x18   0x2000             MOVS     R0,#+0
+   \       0x1A   0x....             LDR.N    R1,??DataTable2_2
+   \       0x1C   0x7008             STRB     R0,[R1, #+0]
+     65          }
+   \       0x1E   0x4770             BX       LR
+     66          
+
+   \                                 In section .text, align 2, keep-with-next
+     67          uint16_t* emAfPluginNetworkSteeringGetStoredPanIdPointer(uint8_t index)
+     68          {
+   \                     emAfPluginNetworkSteeringGetStoredPanIdPointer: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     69            if (index >= MAX_NETWORKS) {
+   \        0x4   0x2C10             CMP      R4,#+16
+   \        0x6   0xDB01             BLT.N    ??emAfPluginNetworkSteeringGetStoredPanIdPointe_0
+     70              return NULL;
+   \        0x8   0x2000             MOVS     R0,#+0
+   \        0xA   0xBD32             POP      {R1,R4,R5,PC}
+     71            }
+     72          
+     73            if (!storedNetworksInitialized) {
+   \                     ??emAfPluginNetworkSteeringGetStoredPanIdPointe_0: (+1)
+   \        0xC   0x....             LDR.N    R5,??DataTable2_2
+   \        0xE   0x7828             LDRB     R0,[R5, #+0]
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD107             BNE.N    ??emAfPluginNetworkSteeringGetStoredPanIdPointe_1
+     74              emAfPluginNetworkSteeringClearStoredPanIds();
+   \       0x14   0x.... 0x....      BL       emAfPluginNetworkSteeringClearStoredPanIds
+     75              storedNetworksInitialized = true;
+   \       0x18   0x2001             MOVS     R0,#+1
+   \       0x1A   0x7028             STRB     R0,[R5, #+0]
+     76              steeringSocSerialLog("steer buffer static slots=%d", MAX_NETWORKS);
+   \       0x1C   0x2110             MOVS     R1,#+16
+   \       0x1E   0x....             LDR.N    R0,??DataTable2_3
+   \       0x20   0x.... 0x....      BL       steeringSocSerialLog
+     77            }
+     78          
+     79            return &storedNetworks[index];
+   \                     ??emAfPluginNetworkSteeringGetStoredPanIdPointe_1: (+1)
+   \       0x24   0x....             LDR.N    R0,??DataTable2_1
+   \       0x26   0xEB00 0x0044      ADD      R0,R0,R4, LSL #+1
+   \       0x2A   0xBD32             POP      {R1,R4,R5,PC}
+     80          }
+     81          
+
+   \                                 In section .text, align 2, keep-with-next
+     82          void emberAfPluginNetworkSteeringMarker(void)
+     83          {
+     84            // PAN candidate storage is kept in static RAM, so there is no packet buffer
+     85            // handle to mark during GC.
+     86          }
+   \                     emberAfPluginNetworkSteeringMarker: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0x0D 0x0A          DC8      0x0D, 0x0A, 0x00, 0x00
+   \              0x00 0x00
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \        0x0   0x....'....        DC32     storedNetworks
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \        0x0   0x....'....        DC32     storedNetworksInitialized
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_3:
+   \        0x0   0x....'....        DC32     ?_1
+
+   \                                 In section .rodata, align 4
+   \        0x0   0x0D 0x0A          DC8 "\015\012"
+   \              0x00
+   \        0x3                      DS8 1
+
+   \                                 In section .rodata, align 4
+   \                     ?_1:
+   \        0x0   0x73 0x74          DC8 "steer buffer static slots=%d"
+   \              0x65 0x65    
+   \              0x72 0x20    
+   \              0x62 0x75    
+   \              0x66 0x66    
+   \              0x65 0x72    
+   \              0x20 0x73    
+   \              0x74 0x61    
+   \              0x74 0x69    
+   \              0x63 0x20    
+   \              0x73 0x6C    
+   \              0x6F 0x74    
+   \              0x73 0x3D    
+   \              0x25 0x64    
+   \              0x00
+   \       0x1D                      DS8 3
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   emAfPluginNetworkSteeringClearStoredPanIds
+       0   emAfPluginNetworkSteeringGetMaxPossiblePanIds
+      16   emAfPluginNetworkSteeringGetStoredPanIdPointer
+        16   -> emAfPluginNetworkSteeringClearStoredPanIds
+        16   -> steeringSocSerialLog
+       0   emberAfPluginNetworkSteeringMarker
+      24   steeringSocSerialLog
+        24   -> em3555DebugOutputActive
+        24   -> em3555DebugOutputVPrintf
+        24   -> em3555DebugOutputWrite
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ?_0
+      32  ?_1
+      32  emAfPluginNetworkSteeringClearStoredPanIds
+       4  emAfPluginNetworkSteeringGetMaxPossiblePanIds
+      44  emAfPluginNetworkSteeringGetStoredPanIdPointer
+       2  emberAfPluginNetworkSteeringMarker
+      34  steeringSocSerialLog
+      32  storedNetworks
+       1  storedNetworksInitialized
+
+ 
+  33 bytes in section .bss
+  36 bytes in section .rodata
+ 132 bytes in section .text
+ 
+ 132 bytes of CODE  memory
+  36 bytes of CONST memory
+  33 bytes of DATA  memory
+
+Errors: none
+Warnings: none

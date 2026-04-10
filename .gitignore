@@ -1,7 +1,6 @@
 .DS_Store
 .vscode/
 
-.ewp.*
 .projectchecksums
 .projectlinkstore
 
@@ -15,27 +14,6 @@
 *.tmp
 *~
 
-build*/
-
-*.bin
-*.elf
-*.gbl
-*.hex
-*.lst
-*.map
-*.out
-*.s37
-
-compile_commands.json
-
-config/api/
-*.Makefile
-*.project.mak
-*.ewd
-*.ewp
-*.eww
-*.ipcf
-*.slcp.*
 zcl_config.zap
 
 **/.slc_state/

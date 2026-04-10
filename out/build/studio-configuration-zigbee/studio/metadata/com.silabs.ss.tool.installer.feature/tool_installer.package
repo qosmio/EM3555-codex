@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package id="com.silabs.ss.tool.installer.feature"
+  label="Installer Tool"
+  description="Installer Tool"
+  changelog="changelog"
+  icon="tool_installer_40x40.png"
+  version="5.5.0"/>

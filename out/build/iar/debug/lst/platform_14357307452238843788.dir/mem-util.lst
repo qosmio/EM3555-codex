@@ -1,0 +1,432 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:34
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\mem-util.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mem-util.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\mem-util.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"mem-util.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mem-util.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mem-util.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\mem-util.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mem-util.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\mem-util.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief generic memory manipulation routines.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "stack/include/ember-types.h"
+     19          #include "include/error.h"
+     20          
+     21          #include "hal/hal.h"
+     22          
+     23          #if !defined(XAP2B) && !defined(UNIX)
+     24          // A version of memmove. This can handle overlapping source and
+     25          // destination regions.
+     26          
+
+   \                                 In section .text, align 2, keep-with-next
+     27          void halCommonMemMove(void *dest, const void *src, uint16_t bytes)
+     28          {
+     29            uint8_t *d = (uint8_t *)dest;
+     30            uint8_t *s = (uint8_t *)src;
+     31          
+     32            if (d > s) {
+   \                     halCommonMemMove: (+1)
+   \        0x0   0x4281             CMP      R1,R0
+   \        0x2   0xD235             BCS.N    ??halCommonMemMove_0
+     33              d += bytes - 1;
+   \        0x4   0x4613             MOV      R3,R2
+   \        0x6   0x18C0             ADDS     R0,R0,R3
+   \        0x8   0x1E40             SUBS     R0,R0,#+1
+     34              s += bytes - 1;
+   \        0xA   0x18C9             ADDS     R1,R1,R3
+   \        0xC   0x1E49             SUBS     R1,R1,#+1
+   \        0xE   0xE010             B.N      ??halCommonMemMove_1
+     35              #ifndef _HAL_SMALL_MEMUTILS_
+     36              while (bytes >= 4) {
+     37                bytes -= 4;
+   \                     ??halCommonMemMove_2: (+1)
+   \       0x10   0x1F12             SUBS     R2,R2,#+4
+     38                *d-- = *s--;
+   \       0x12   0xF811 0x3901      LDRB     R3,[R1], #-1
+   \       0x16   0xF800 0x3901      STRB     R3,[R0], #-1
+     39                *d-- = *s--;
+   \       0x1A   0xF811 0x3901      LDRB     R3,[R1], #-1
+   \       0x1E   0xF800 0x3901      STRB     R3,[R0], #-1
+     40                *d-- = *s--;
+   \       0x22   0xF811 0x3901      LDRB     R3,[R1], #-1
+   \       0x26   0xF800 0x3901      STRB     R3,[R0], #-1
+     41                *d-- = *s--;
+   \       0x2A   0xF811 0x3901      LDRB     R3,[R1], #-1
+   \       0x2E   0xF800 0x3901      STRB     R3,[R0], #-1
+     42              }
+   \                     ??halCommonMemMove_1: (+1)
+   \       0x32   0x4613             MOV      R3,R2
+   \       0x34   0xB29B             UXTH     R3,R3
+   \       0x36   0x2B04             CMP      R3,#+4
+   \       0x38   0xDAEA             BGE.N    ??halCommonMemMove_2
+     43              #endif // _HAL_SMALL_MEMUTILS_
+     44              for (; bytes != 0U; bytes--) {
+   \                     ??halCommonMemMove_3: (+1)
+   \       0x3A   0x4613             MOV      R3,R2
+   \       0x3C   0xB29B             UXTH     R3,R3
+   \       0x3E   0x2B00             CMP      R3,#+0
+   \       0x40   0xD024             BEQ.N    ??halCommonMemMove_4
+     45                *d-- = *s--;
+   \       0x42   0xF811 0x3901      LDRB     R3,[R1], #-1
+   \       0x46   0xF800 0x3901      STRB     R3,[R0], #-1
+     46              }
+   \       0x4A   0x1E52             SUBS     R2,R2,#+1
+   \       0x4C   0xE7F5             B.N      ??halCommonMemMove_3
+     47            } else {
+     48              #ifndef _HAL_SMALL_MEMUTILS_
+     49              while (bytes >= 4) {
+     50                bytes -= 4;
+   \                     ??halCommonMemMove_5: (+1)
+   \       0x4E   0x1F12             SUBS     R2,R2,#+4
+     51                *d++ = *s++;
+   \       0x50   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x54   0xF800 0x3B01      STRB     R3,[R0], #+1
+     52                *d++ = *s++;
+   \       0x58   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x5C   0xF800 0x3B01      STRB     R3,[R0], #+1
+     53                *d++ = *s++;
+   \       0x60   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x64   0xF800 0x3B01      STRB     R3,[R0], #+1
+     54                *d++ = *s++;
+   \       0x68   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x6C   0xF800 0x3B01      STRB     R3,[R0], #+1
+     55              }
+   \                     ??halCommonMemMove_0: (+1)
+   \       0x70   0x4613             MOV      R3,R2
+   \       0x72   0xB29B             UXTH     R3,R3
+   \       0x74   0x2B04             CMP      R3,#+4
+   \       0x76   0xDAEA             BGE.N    ??halCommonMemMove_5
+     56              #endif // _HAL_SMALL_MEMUTILS_
+     57              for (; bytes != 0U; bytes--) {
+   \                     ??halCommonMemMove_6: (+1)
+   \       0x78   0x4613             MOV      R3,R2
+   \       0x7A   0xB29B             UXTH     R3,R3
+   \       0x7C   0x2B00             CMP      R3,#+0
+   \       0x7E   0xD005             BEQ.N    ??halCommonMemMove_4
+     58                *d++ = *s++;
+   \       0x80   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x84   0xF800 0x3B01      STRB     R3,[R0], #+1
+     59              }
+   \       0x88   0x1E52             SUBS     R2,R2,#+1
+   \       0x8A   0xE7F5             B.N      ??halCommonMemMove_6
+     60            }
+     61          }
+   \                     ??halCommonMemMove_4: (+1)
+   \       0x8C   0x4770             BX       LR
+     62          
+     63          // Same as above except copies from Program space to RAM.
+     64          // This routine never has to worry about overlapping source and dest
+
+   \                                 In section .text, align 2, keep-with-next
+     65          void halCommonMemPGMCopy(void* dest, const void PGM_NO_CONST *source, uint16_t bytes)
+     66          {
+     67            uint8_t *d = (uint8_t *)dest;
+     68            PGM_PU s = (PGM_PU)source;
+   \                     halCommonMemPGMCopy: (+1)
+   \        0x0   0xE010             B.N      ??halCommonMemPGMCopy_0
+     69          
+     70            #ifndef _HAL_SMALL_MEMUTILS_
+     71            while (bytes >= 4) {
+     72              bytes -= 4;
+   \                     ??halCommonMemPGMCopy_1: (+1)
+   \        0x2   0x1F12             SUBS     R2,R2,#+4
+     73              *d++ = *s++;
+   \        0x4   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \        0x8   0xF800 0x3B01      STRB     R3,[R0], #+1
+     74              *d++ = *s++;
+   \        0xC   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x10   0xF800 0x3B01      STRB     R3,[R0], #+1
+     75              *d++ = *s++;
+   \       0x14   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x18   0xF800 0x3B01      STRB     R3,[R0], #+1
+     76              *d++ = *s++;
+   \       0x1C   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x20   0xF800 0x3B01      STRB     R3,[R0], #+1
+     77            }
+   \                     ??halCommonMemPGMCopy_0: (+1)
+   \       0x24   0x4613             MOV      R3,R2
+   \       0x26   0xB29B             UXTH     R3,R3
+   \       0x28   0x2B04             CMP      R3,#+4
+   \       0x2A   0xDAEA             BGE.N    ??halCommonMemPGMCopy_1
+     78            #endif // _HAL_SMALL_MEMUTILS_
+     79            for (; bytes != 0U; bytes--) {
+   \                     ??halCommonMemPGMCopy_2: (+1)
+   \       0x2C   0x4613             MOV      R3,R2
+   \       0x2E   0xB29B             UXTH     R3,R3
+   \       0x30   0x2B00             CMP      R3,#+0
+   \       0x32   0xD005             BEQ.N    ??halCommonMemPGMCopy_3
+     80              *d++ = *s++;
+   \       0x34   0xF811 0x3B01      LDRB     R3,[R1], #+1
+   \       0x38   0xF800 0x3B01      STRB     R3,[R0], #+1
+     81            }
+   \       0x3C   0x1E52             SUBS     R2,R2,#+1
+   \       0x3E   0xE7F5             B.N      ??halCommonMemPGMCopy_2
+     82          }
+   \                     ??halCommonMemPGMCopy_3: (+1)
+   \       0x40   0x4770             BX       LR
+     83          
+
+   \                                 In section .text, align 2, keep-with-next
+     84          void halCommonMemSet(void *dest, uint8_t val, uint16_t bytes)
+     85          {
+     86            uint8_t *d = (uint8_t *)dest;
+   \                     halCommonMemSet: (+1)
+   \        0x0   0xE002             B.N      ??halCommonMemSet_0
+     87          
+     88            for (; bytes != 0U; bytes--) {
+     89              *d++ = val;
+   \                     ??halCommonMemSet_1: (+1)
+   \        0x2   0xF800 0x1B01      STRB     R1,[R0], #+1
+     90            }
+   \        0x6   0x1E52             SUBS     R2,R2,#+1
+   \                     ??halCommonMemSet_0: (+1)
+   \        0x8   0x4613             MOV      R3,R2
+   \        0xA   0xB29B             UXTH     R3,R3
+   \        0xC   0x2B00             CMP      R3,#+0
+   \        0xE   0xD1F8             BNE.N    ??halCommonMemSet_1
+     91          }
+   \       0x10   0x4770             BX       LR
+     92          
+
+   \                                 In section .text, align 2, keep-with-next
+     93          int16_t halCommonMemCompare(const void *source0, const void *source1, uint16_t bytes)
+     94          {
+   \                     halCommonMemCompare: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+   \        0x2   0x4603             MOV      R3,R0
+     95            uint8_t *s0 = (uint8_t *)source0;
+     96            uint8_t *s1 = (uint8_t *)source1;
+   \        0x4   0xE002             B.N      ??halCommonMemCompare_0
+     97          
+     98            while (0 < bytes) {
+     99              uint8_t b0 = *s0;
+    100              uint8_t b1 = *s1;
+    101              if (b0 != b1) {
+    102                return b0 - b1;
+    103              }
+    104              bytes--;
+   \                     ??halCommonMemCompare_1: (+1)
+   \        0x6   0x1E52             SUBS     R2,R2,#+1
+    105              s0++;
+   \        0x8   0x1C5B             ADDS     R3,R3,#+1
+    106              s1++;
+   \        0xA   0x1C49             ADDS     R1,R1,#+1
+   \                     ??halCommonMemCompare_0: (+1)
+   \        0xC   0x4610             MOV      R0,R2
+   \        0xE   0xB280             UXTH     R0,R0
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD007             BEQ.N    ??halCommonMemCompare_2
+   \       0x14   0x7818             LDRB     R0,[R3, #+0]
+   \       0x16   0x780C             LDRB     R4,[R1, #+0]
+   \       0x18   0x42A0             CMP      R0,R4
+   \       0x1A   0xD0F4             BEQ.N    ??halCommonMemCompare_1
+   \       0x1C   0x1B00             SUBS     R0,R0,R4
+   \       0x1E   0xB200             SXTH     R0,R0
+   \                     ??halCommonMemCompare_3: (+1)
+   \       0x20   0xBC10             POP      {R4}
+   \       0x22   0x4770             BX       LR
+    107            }
+    108            return 0;
+   \                     ??halCommonMemCompare_2: (+1)
+   \       0x24   0x2000             MOVS     R0,#+0
+   \       0x26   0xE7FB             B.N      ??halCommonMemCompare_3
+    109          }
+    110          
+    111          // Test code for halCommonMemCompare().  There is no good place for unit tests
+    112          // for this file.  If you change the function you should probably rerun the
+    113          // test.
+    114          //  {
+    115          //    uint8_t s0[3] = { 0, 0, 0};
+    116          //    uint8_t s1[3] = { 0, 0, 0};
+    117          //    uint8_t i;
+    118          //    assert(halCommonMemCompare(s0, s1, 0) == 0);
+    119          //    assert(halCommonMemCompare(s0, s1, 3) == 0);
+    120          //    for (i = 0; i < 3; i++) {
+    121          //      s0[i] = 1;
+    122          //      assert(halCommonMemCompare(s0, s1, 3) > 0);
+    123          //      s1[i] = 2;
+    124          //      assert(halCommonMemCompare(s0, s1, 3) < 0);
+    125          //      s0[i] = 2;
+    126          //    }
+    127          //  }
+    128          
+    129          // Same again, except that the second source is in program space.
+    130          
+
+   \                                 In section .text, align 2, keep-with-next
+    131          int8_t halCommonMemPGMCompare(const void *source0, const void PGM_NO_CONST *source1, uint16_t bytes)
+    132          {
+   \                     halCommonMemPGMCompare: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+   \        0x2   0x4603             MOV      R3,R0
+    133            uint8_t *s0 = (uint8_t *)source0;
+    134            uint8_t PGM *s1 = (uint8_t PGM *)source1;
+   \        0x4   0xE002             B.N      ??halCommonMemPGMCompare_0
+    135          
+    136            while (0 < bytes) {
+    137              uint8_t b0 = *s0;
+    138              uint8_t b1 = *s1;
+    139              if (b0 != b1) {
+    140                return b0 - b1;
+    141              }
+    142              bytes--;
+   \                     ??halCommonMemPGMCompare_1: (+1)
+   \        0x6   0x1E52             SUBS     R2,R2,#+1
+    143              s0++;
+   \        0x8   0x1C5B             ADDS     R3,R3,#+1
+    144              s1++;
+   \        0xA   0x1C49             ADDS     R1,R1,#+1
+   \                     ??halCommonMemPGMCompare_0: (+1)
+   \        0xC   0x4610             MOV      R0,R2
+   \        0xE   0xB280             UXTH     R0,R0
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD007             BEQ.N    ??halCommonMemPGMCompare_2
+   \       0x14   0x7818             LDRB     R0,[R3, #+0]
+   \       0x16   0x780C             LDRB     R4,[R1, #+0]
+   \       0x18   0x42A0             CMP      R0,R4
+   \       0x1A   0xD0F4             BEQ.N    ??halCommonMemPGMCompare_1
+   \       0x1C   0x1B00             SUBS     R0,R0,R4
+   \       0x1E   0xB240             SXTB     R0,R0
+   \                     ??halCommonMemPGMCompare_3: (+1)
+   \       0x20   0xBC10             POP      {R4}
+   \       0x22   0x4770             BX       LR
+    145            }
+    146            return 0;
+   \                     ??halCommonMemPGMCompare_2: (+1)
+   \       0x24   0x2000             MOVS     R0,#+0
+   \       0x26   0xE7FB             B.N      ??halCommonMemPGMCompare_3
+    147          }
+    148          
+    149          #endif
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       4   halCommonMemCompare
+       0   halCommonMemMove
+       4   halCommonMemPGMCompare
+       0   halCommonMemPGMCopy
+       0   halCommonMemSet
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      40  halCommonMemCompare
+     142  halCommonMemMove
+      40  halCommonMemPGMCompare
+      66  halCommonMemPGMCopy
+      18  halCommonMemSet
+
+ 
+ 306 bytes in section .text
+ 
+ 306 bytes of CODE memory
+
+Errors: none
+Warnings: none

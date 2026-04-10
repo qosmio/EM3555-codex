@@ -1,0 +1,566 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:03
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\on-off\on-off.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\on-off.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\on-off\on-off.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"on-off.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\on-off\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\on-off.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\on-off.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\on-off.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\on-off.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\on-off\on-off.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Routines for the On-Off plugin, which implements the On-Off server
+      4           *        cluster.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          #include "af.h"
+     20          
+     21          #ifdef EMBER_AF_PLUGIN_REPORTING
+     22            #include "app/framework/plugin/reporting/reporting.h"
+     23          #endif
+     24          
+     25          void emberAfOnOffClusterLevelControlEffectCallback(uint8_t endpoint,
+     26                                                             bool newValue);
+     27          void emberAfScenesClusterMakeInvalidCallback(uint8_t endpoint);
+     28          
+     29          #ifdef EMBER_AF_PLUGIN_SCENES
+     30            #include "../scenes/scenes.h"
+     31          #endif //EMBER_AF_PLUGIN_SCENES
+     32          
+     33          #ifdef EMBER_AF_PLUGIN_ZLL_ON_OFF_SERVER
+     34            #include "../zll-on-off-server/zll-on-off-server.h"
+     35          #endif
+     36          
+     37          #ifdef EMBER_AF_PLUGIN_ZLL_LEVEL_CONTROL_SERVER
+     38            #include "../zll-level-control-server/zll-level-control-server.h"
+     39          #endif
+     40          
+     41          #ifdef ZCL_USING_ON_OFF_CLUSTER_START_UP_ON_OFF_ATTRIBUTE
+     42          static bool areStartUpOnOffServerAttributesTokenized(uint8_t endpoint);
+     43          #endif
+     44          
+
+   \                                 In section .text, align 2, keep-with-next
+     45          EmberAfStatus emberAfOnOffClusterSetValueCallback(uint8_t endpoint,
+     46                                                            uint8_t command,
+     47                                                            bool initiatedByLevelChange)
+     48          {
+   \                     emberAfOnOffClusterSetValueCallback: (+1)
+   \        0x0   0xB57F             PUSH     {R0-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460E             MOV      R6,R1
+   \        0x6   0x4615             MOV      R5,R2
+     49            EmberAfStatus status;
+     50            bool currentValue, newValue;
+     51          
+     52            emberAfOnOffClusterPrintln("On/Off set value: %x %x", endpoint, command);
+     53          
+     54            // read current on/off value
+     55            status = emberAfReadAttribute(endpoint,
+     56                                          ZCL_ON_OFF_CLUSTER_ID,
+     57                                          ZCL_ON_OFF_ATTRIBUTE_ID,
+     58                                          CLUSTER_MASK_SERVER,
+     59                                          (uint8_t *)&currentValue,
+     60                                          sizeof(currentValue),
+     61                                          NULL); // data type
+   \        0x8   0x2000             MOVS     R0,#+0
+   \        0xA   0x9002             STR      R0,[SP, #+8]
+   \        0xC   0x2001             MOVS     R0,#+1
+   \        0xE   0x9001             STR      R0,[SP, #+4]
+   \       0x10   0xF10D 0x000D      ADD      R0,SP,#+13
+   \       0x14   0x9000             STR      R0,[SP, #+0]
+   \       0x16   0x2301             MOVS     R3,#+1
+   \       0x18   0x2200             MOVS     R2,#+0
+   \       0x1A   0x2106             MOVS     R1,#+6
+   \       0x1C   0x4620             MOV      R0,R4
+   \       0x1E   0x.... 0x....      BL       emberAfReadAttribute
+     62            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x22   0x0001             MOVS     R1,R0
+   \       0x24   0xD134             BNE.N    ??emberAfOnOffClusterSetValueCallback_0
+     63              emberAfOnOffClusterPrintln("ERR: reading on/off %x", status);
+     64              return status;
+     65            }
+     66          
+     67            // if the value is already what we want to set it to then do nothing
+     68            if ((!currentValue && command == ZCL_OFF_COMMAND_ID)
+     69                || (currentValue && command == ZCL_ON_COMMAND_ID)) {
+   \       0x26   0xF89D 0x000D      LDRB     R0,[SP, #+13]
+   \       0x2A   0x2800             CMP      R0,#+0
+   \       0x2C   0xD101             BNE.N    ??emberAfOnOffClusterSetValueCallback_1
+   \       0x2E   0x0030             MOVS     R0,R6
+   \       0x30   0xD02D             BEQ.N    ??emberAfOnOffClusterSetValueCallback_2
+   \                     ??emberAfOnOffClusterSetValueCallback_1: (+1)
+   \       0x32   0xF89D 0x000D      LDRB     R0,[SP, #+13]
+   \       0x36   0x2800             CMP      R0,#+0
+   \       0x38   0xD001             BEQ.N    ??emberAfOnOffClusterSetValueCallback_3
+   \       0x3A   0x2E01             CMP      R6,#+1
+   \       0x3C   0xD027             BEQ.N    ??emberAfOnOffClusterSetValueCallback_2
+     70              emberAfOnOffClusterPrintln("On/off already set to new value");
+     71              return EMBER_ZCL_STATUS_SUCCESS;
+     72            }
+     73          
+     74            // we either got a toggle, or an on when off, or an off when on,
+     75            // so we need to swap the value
+     76            newValue = !currentValue;
+   \                     ??emberAfOnOffClusterSetValueCallback_3: (+1)
+   \       0x3E   0x1E40             SUBS     R0,R0,#+1
+   \       0x40   0x4180             SBCS     R0,R0,R0
+   \       0x42   0x0FC0             LSRS     R0,R0,#+31
+   \       0x44   0xF88D 0x000C      STRB     R0,[SP, #+12]
+     77            emberAfOnOffClusterPrintln("Toggle on/off from %x to %x", currentValue, newValue);
+     78          
+     79            // the sequence of updating on/off attribute and kick off level change effect should
+     80            // be depend on whether we are turning on or off. If we are turning on the light, we
+     81            // should update the on/off attribute before kicking off level change, if we are
+     82            // turning off the light, we should do the opposite, that is kick off level change
+     83            // before updating the on/off attribute.
+     84            if (newValue) {
+   \       0x48   0xD024             BEQ.N    ??emberAfOnOffClusterSetValueCallback_4
+     85              // write the new on/off value
+     86              status = emberAfWriteAttribute(endpoint,
+     87                                             ZCL_ON_OFF_CLUSTER_ID,
+     88                                             ZCL_ON_OFF_ATTRIBUTE_ID,
+     89                                             CLUSTER_MASK_SERVER,
+     90                                             (uint8_t *)&newValue,
+     91                                             ZCL_BOOLEAN_ATTRIBUTE_TYPE);
+   \       0x4A   0x2010             MOVS     R0,#+16
+   \       0x4C   0x9001             STR      R0,[SP, #+4]
+   \       0x4E   0xA803             ADD      R0,SP,#+12
+   \       0x50   0x9000             STR      R0,[SP, #+0]
+   \       0x52   0x2301             MOVS     R3,#+1
+   \       0x54   0x2200             MOVS     R2,#+0
+   \       0x56   0x2106             MOVS     R1,#+6
+   \       0x58   0x4620             MOV      R0,R4
+   \       0x5A   0x.... 0x....      BL       emberAfWriteAttribute
+     92              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x5E   0x0001             MOVS     R1,R0
+   \       0x60   0xD116             BNE.N    ??emberAfOnOffClusterSetValueCallback_0
+     93                emberAfOnOffClusterPrintln("ERR: writing on/off %x", status);
+     94                return status;
+     95              }
+     96          
+     97              // If initiatedByLevelChange is false, then we assume that the level change
+     98              // ZCL stuff has not happened and we do it here
+     99              if (!initiatedByLevelChange
+    100                  && emberAfContainsServer(endpoint, ZCL_LEVEL_CONTROL_CLUSTER_ID)) {
+   \       0x62   0x2D00             CMP      R5,#+0
+   \       0x64   0xD10A             BNE.N    ??emberAfOnOffClusterSetValueCallback_5
+   \       0x66   0x2108             MOVS     R1,#+8
+   \       0x68   0x4620             MOV      R0,R4
+   \       0x6A   0x.... 0x....      BL       emberAfContainsServer
+   \       0x6E   0x2800             CMP      R0,#+0
+   \       0x70   0xD004             BEQ.N    ??emberAfOnOffClusterSetValueCallback_5
+    101                emberAfOnOffClusterLevelControlEffectCallback(endpoint,
+    102                                                              newValue);
+   \       0x72   0xF89D 0x100C      LDRB     R1,[SP, #+12]
+   \       0x76   0x4620             MOV      R0,R4
+   \       0x78   0x.... 0x....      BL       emberAfOnOffClusterLevelControlEffectCallback
+    103              }
+    104            } else {
+    105              // If initiatedByLevelChange is false, then we assume that the level change
+    106              // ZCL stuff has not happened and we do it here
+    107              if (!initiatedByLevelChange
+    108                  && emberAfContainsServer(endpoint, ZCL_LEVEL_CONTROL_CLUSTER_ID)) {
+    109                emberAfOnOffClusterLevelControlEffectCallback(endpoint,
+    110                                                              newValue);
+    111              }
+    112          
+    113              // write the new on/off value
+    114              status = emberAfWriteAttribute(endpoint,
+    115                                             ZCL_ON_OFF_CLUSTER_ID,
+    116                                             ZCL_ON_OFF_ATTRIBUTE_ID,
+    117                                             CLUSTER_MASK_SERVER,
+    118                                             (uint8_t *)&newValue,
+    119                                             ZCL_BOOLEAN_ATTRIBUTE_TYPE);
+    120              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    121                emberAfOnOffClusterPrintln("ERR: writing on/off %x", status);
+    122                return status;
+    123              }
+    124            }
+    125          
+    126          #ifdef EMBER_AF_PLUGIN_ZLL_ON_OFF_SERVER
+    127            if (initiatedByLevelChange) {
+    128              emberAfPluginZllOnOffServerLevelControlZllExtensions(endpoint);
+    129            }
+    130          #endif
+    131          
+    132            // the scene has been changed (the value of on/off has changed) so
+    133            // the current scene as descibed in the attribute table is invalid,
+    134            // so mark it as invalid (just writes the valid/invalid attribute)
+    135            if (emberAfContainsServer(endpoint, ZCL_SCENES_CLUSTER_ID)) {
+   \                     ??emberAfOnOffClusterSetValueCallback_5: (+1)
+   \       0x7C   0x2105             MOVS     R1,#+5
+   \       0x7E   0x4620             MOV      R0,R4
+   \       0x80   0x.... 0x....      BL       emberAfContainsServer
+   \       0x84   0x2800             CMP      R0,#+0
+   \       0x86   0xD002             BEQ.N    ??emberAfOnOffClusterSetValueCallback_2
+    136              emberAfScenesClusterMakeInvalidCallback(endpoint);
+   \       0x88   0x4620             MOV      R0,R4
+   \       0x8A   0x.... 0x....      BL       emberAfScenesClusterMakeInvalidCallback
+    137            }
+    138          
+    139            // The returned status is based solely on the On/Off cluster.  Errors in the
+    140            // Level Control and/or Scenes cluster are ignored.
+    141            return EMBER_ZCL_STATUS_SUCCESS;
+   \                     ??emberAfOnOffClusterSetValueCallback_2: (+1)
+   \       0x8E   0x2000             MOVS     R0,#+0
+   \                     ??emberAfOnOffClusterSetValueCallback_0: (+1)
+   \       0x90   0xB004             ADD      SP,SP,#+16
+   \       0x92   0xBD70             POP      {R4-R6,PC}
+   \                     ??emberAfOnOffClusterSetValueCallback_4: (+1)
+   \       0x94   0x2D00             CMP      R5,#+0
+   \       0x96   0xD10A             BNE.N    ??emberAfOnOffClusterSetValueCallback_6
+   \       0x98   0x2108             MOVS     R1,#+8
+   \       0x9A   0x4620             MOV      R0,R4
+   \       0x9C   0x.... 0x....      BL       emberAfContainsServer
+   \       0xA0   0x2800             CMP      R0,#+0
+   \       0xA2   0xD004             BEQ.N    ??emberAfOnOffClusterSetValueCallback_6
+   \       0xA4   0xF89D 0x100C      LDRB     R1,[SP, #+12]
+   \       0xA8   0x4620             MOV      R0,R4
+   \       0xAA   0x.... 0x....      BL       emberAfOnOffClusterLevelControlEffectCallback
+   \                     ??emberAfOnOffClusterSetValueCallback_6: (+1)
+   \       0xAE   0x2010             MOVS     R0,#+16
+   \       0xB0   0x9001             STR      R0,[SP, #+4]
+   \       0xB2   0xA803             ADD      R0,SP,#+12
+   \       0xB4   0x9000             STR      R0,[SP, #+0]
+   \       0xB6   0x2301             MOVS     R3,#+1
+   \       0xB8   0x2200             MOVS     R2,#+0
+   \       0xBA   0x2106             MOVS     R1,#+6
+   \       0xBC   0x4620             MOV      R0,R4
+   \       0xBE   0x.... 0x....      BL       emberAfWriteAttribute
+   \       0xC2   0x0001             MOVS     R1,R0
+   \       0xC4   0xD0DA             BEQ.N    ??emberAfOnOffClusterSetValueCallback_5
+   \       0xC6   0xE7E3             B.N      ??emberAfOnOffClusterSetValueCallback_0
+    142          }
+    143          
+
+   \                                 In section .text, align 2, keep-with-next
+    144          bool emberAfOnOffClusterOffCallback(void)
+    145          {
+   \                     emberAfOnOffClusterOffCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    146            EmberAfStatus status = emberAfOnOffClusterSetValueCallback(emberAfCurrentEndpoint(),
+    147                                                                       ZCL_OFF_COMMAND_ID,
+    148                                                                       false);
+   \        0x2   0x2200             MOVS     R2,#+0
+   \        0x4   0x4611             MOV      R1,R2
+   \        0x6   0x....             LDR.N    R0,??DataTable3
+   \        0x8   0x6800             LDR      R0,[R0, #+0]
+   \        0xA   0x6800             LDR      R0,[R0, #+0]
+   \        0xC   0x7940             LDRB     R0,[R0, #+5]
+   \        0xE   0x.... 0x....      BL       emberAfOnOffClusterSetValueCallback
+    149          #ifdef EMBER_AF_PLUGIN_ZLL_ON_OFF_SERVER
+    150            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+    151              emberAfPluginZllOnOffServerOffZllExtensions(emberAfCurrentCommand());
+    152            }
+    153          #endif
+    154            emberAfSendImmediateDefaultResponse(status);
+   \       0x12   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    155            return true;
+   \       0x16   0x2001             MOVS     R0,#+1
+   \       0x18   0xBD02             POP      {R1,PC}
+    156          }
+    157          
+
+   \                                 In section .text, align 2, keep-with-next
+    158          bool emberAfOnOffClusterOnCallback(void)
+    159          {
+   \                     emberAfOnOffClusterOnCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    160            EmberAfStatus status = emberAfOnOffClusterSetValueCallback(emberAfCurrentEndpoint(),
+    161                                                                       ZCL_ON_COMMAND_ID,
+    162                                                                       false);
+   \        0x2   0x2200             MOVS     R2,#+0
+   \        0x4   0x2101             MOVS     R1,#+1
+   \        0x6   0x....             LDR.N    R0,??DataTable3
+   \        0x8   0x6800             LDR      R0,[R0, #+0]
+   \        0xA   0x6800             LDR      R0,[R0, #+0]
+   \        0xC   0x7940             LDRB     R0,[R0, #+5]
+   \        0xE   0x.... 0x....      BL       emberAfOnOffClusterSetValueCallback
+    163          #ifdef EMBER_AF_PLUGIN_ZLL_ON_OFF_SERVER
+    164            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+    165              emberAfPluginZllOnOffServerOnZllExtensions(emberAfCurrentCommand());
+    166            }
+    167          #endif
+    168            emberAfSendImmediateDefaultResponse(status);
+   \       0x12   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    169            return true;
+   \       0x16   0x2001             MOVS     R0,#+1
+   \       0x18   0xBD02             POP      {R1,PC}
+    170          }
+    171          
+
+   \                                 In section .text, align 2, keep-with-next
+    172          bool emberAfOnOffClusterToggleCallback(void)
+    173          {
+   \                     emberAfOnOffClusterToggleCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    174            EmberAfStatus status = emberAfOnOffClusterSetValueCallback(emberAfCurrentEndpoint(),
+    175                                                                       ZCL_TOGGLE_COMMAND_ID,
+    176                                                                       false);
+   \        0x2   0x2200             MOVS     R2,#+0
+   \        0x4   0x2102             MOVS     R1,#+2
+   \        0x6   0x....             LDR.N    R0,??DataTable3
+   \        0x8   0x6800             LDR      R0,[R0, #+0]
+   \        0xA   0x6800             LDR      R0,[R0, #+0]
+   \        0xC   0x7940             LDRB     R0,[R0, #+5]
+   \        0xE   0x.... 0x....      BL       emberAfOnOffClusterSetValueCallback
+    177          #ifdef EMBER_AF_PLUGIN_ZLL_ON_OFF_SERVER
+    178            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+    179              emberAfPluginZllOnOffServerToggleZllExtensions(emberAfCurrentCommand());
+    180            }
+    181          #endif
+    182            emberAfSendImmediateDefaultResponse(status);
+   \       0x12   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    183            return true;
+   \       0x16   0x2001             MOVS     R0,#+1
+   \       0x18   0xBD02             POP      {R1,PC}
+    184          }
+    185          
+
+   \                                 In section .text, align 2, keep-with-next
+    186          void emberAfOnOffClusterServerInitCallback(uint8_t endpoint)
+    187          {
+    188          #ifdef ZCL_USING_ON_OFF_CLUSTER_START_UP_ON_OFF_ATTRIBUTE
+    189            // StartUp behavior relies on OnOff and StartUpOnOff attributes being tokenized.
+    190            if (areStartUpOnOffServerAttributesTokenized(endpoint)) {
+    191              // Read the StartUpOnOff attribute and set the OnOff attribute as per
+    192              // following from zcl 7 14-0127-20i-zcl-ch-3-general.doc.
+    193              // 3.8.2.2.5	StartUpOnOff Attribute
+    194              // The StartUpOnOff attribute SHALL define the desired startup behavior of a
+    195              // lamp device when it is supplied with power and this state SHALL be
+    196              // reflected in the OnOff attribute.  The values of the StartUpOnOff
+    197              // attribute are listed below.
+    198              // Table 3 46. Values of the StartUpOnOff Attribute
+    199              // Value      Action on power up
+    200              // 0x00       Set the OnOff attribute to 0 (off).
+    201              // 0x01       Set the OnOff attribute to 1 (on).
+    202              // 0x02       If the previous value of the OnOff attribute is equal to 0,
+    203              //            set the OnOff attribute to 1.If the previous value of the OnOff
+    204              //            attribute is equal to 1, set the OnOff attribute to 0 (toggle).
+    205              // 0x03-0xfe  These values are reserved.  No action.
+    206              // 0xff       Set the OnOff attribute to its previous value.
+    207          
+    208              // Initialize startUpOnOff to No action value 0xFE
+    209              uint8_t startUpOnOff = 0xFE;
+    210              EmberAfStatus status = emberAfReadAttribute(endpoint,
+    211                                                          ZCL_ON_OFF_CLUSTER_ID,
+    212                                                          ZCL_START_UP_ON_OFF_ATTRIBUTE_ID,
+    213                                                          CLUSTER_MASK_SERVER,
+    214                                                          (uint8_t *)&startUpOnOff,
+    215                                                          sizeof(startUpOnOff),
+    216                                                          NULL);
+    217              if (status == EMBER_ZCL_STATUS_SUCCESS) {
+    218                // Initialise updated value to 0
+    219                bool updatedOnOff = 0;
+    220                status = emberAfReadAttribute(endpoint,
+    221                                              ZCL_ON_OFF_CLUSTER_ID,
+    222                                              ZCL_ON_OFF_ATTRIBUTE_ID,
+    223                                              CLUSTER_MASK_SERVER,
+    224                                              (uint8_t *)&updatedOnOff,
+    225                                              sizeof(updatedOnOff),
+    226                                              NULL);
+    227                if (status == EMBER_ZCL_STATUS_SUCCESS) {
+    228                  switch (startUpOnOff) {
+    229                    case EMBER_ZCL_START_UP_ON_OFF_VALUE_SET_TO_OFF:
+    230                      updatedOnOff = 0; // Off
+    231                      break;
+    232                    case EMBER_ZCL_START_UP_ON_OFF_VALUE_SET_TO_ON:
+    233                      updatedOnOff = 1; //On
+    234                      break;
+    235                    case EMBER_ZCL_START_UP_ON_OFF_VALUE_SET_TO_TOGGLE:
+    236                      updatedOnOff = !updatedOnOff;
+    237                      break;
+    238                    case EMBER_ZCL_START_UP_ON_OFF_VALUE_SET_TO_PREVIOUS:
+    239                    default:
+    240                      // All other values 0x03- 0xFE are reserved - no action.
+    241                      // When value is 0xFF - update with last value - that is as good as
+    242                      // no action.
+    243                      break;
+    244                  }
+    245                  status = emberAfWriteAttribute(endpoint,
+    246                                                 ZCL_ON_OFF_CLUSTER_ID,
+    247                                                 ZCL_ON_OFF_ATTRIBUTE_ID,
+    248                                                 CLUSTER_MASK_SERVER,
+    249                                                 (uint8_t *)&updatedOnOff,
+    250                                                 ZCL_BOOLEAN_ATTRIBUTE_TYPE);
+    251                }
+    252              }
+    253            }
+    254          #endif
+    255            emberAfPluginOnOffClusterServerPostInitCallback(endpoint);
+   \                     emberAfOnOffClusterServerInitCallback: (+1)
+   \        0x0   0x.... 0x....      B.W      emberAfPluginOnOffClusterServerPostInitCallback
+    256          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0x....'....        DC32     emAfCurrentCommand
+    257          
+    258          #ifdef ZCL_USING_ON_OFF_CLUSTER_START_UP_ON_OFF_ATTRIBUTE
+    259          static bool areStartUpOnOffServerAttributesTokenized(uint8_t endpoint)
+    260          {
+    261            EmberAfAttributeMetadata *metadata;
+    262          
+    263            metadata = emberAfLocateAttributeMetadata(endpoint,
+    264                                                      ZCL_ON_OFF_CLUSTER_ID,
+    265                                                      ZCL_ON_OFF_ATTRIBUTE_ID,
+    266                                                      CLUSTER_MASK_SERVER,
+    267                                                      EMBER_AF_NULL_MANUFACTURER_CODE);
+    268            if (!emberAfAttributeIsTokenized(metadata)) {
+    269              return false;
+    270            }
+    271          
+    272            metadata = emberAfLocateAttributeMetadata(endpoint,
+    273                                                      ZCL_ON_OFF_CLUSTER_ID,
+    274                                                      ZCL_START_UP_ON_OFF_ATTRIBUTE_ID,
+    275                                                      CLUSTER_MASK_SERVER,
+    276                                                      EMBER_AF_NULL_MANUFACTURER_CODE);
+    277            if (!emberAfAttributeIsTokenized(metadata)) {
+    278              return false;
+    279            }
+    280          
+    281            return true;
+    282          }
+    283          #endif
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   emberAfOnOffClusterOffCallback
+         8   -> emberAfOnOffClusterSetValueCallback
+         8   -> emberAfSendImmediateDefaultResponse
+       8   emberAfOnOffClusterOnCallback
+         8   -> emberAfOnOffClusterSetValueCallback
+         8   -> emberAfSendImmediateDefaultResponse
+       0   emberAfOnOffClusterServerInitCallback
+         0   -> emberAfPluginOnOffClusterServerPostInitCallback
+      32   emberAfOnOffClusterSetValueCallback
+        32   -> emberAfContainsServer
+        32   -> emberAfOnOffClusterLevelControlEffectCallback
+        32   -> emberAfReadAttribute
+        32   -> emberAfScenesClusterMakeInvalidCallback
+        32   -> emberAfWriteAttribute
+       8   emberAfOnOffClusterToggleCallback
+         8   -> emberAfOnOffClusterSetValueCallback
+         8   -> emberAfSendImmediateDefaultResponse
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+      26  emberAfOnOffClusterOffCallback
+      26  emberAfOnOffClusterOnCallback
+       4  emberAfOnOffClusterServerInitCallback
+     200  emberAfOnOffClusterSetValueCallback
+      26  emberAfOnOffClusterToggleCallback
+
+ 
+ 286 bytes in section .text
+ 
+ 286 bytes of CODE memory
+
+Errors: none
+Warnings: none

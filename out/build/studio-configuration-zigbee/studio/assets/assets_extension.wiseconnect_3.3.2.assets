@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.wiseconnect_3.3.2">
+  <assets path="/extension.wiseconnect_3.3.2/demos/brd2605a/out_of_box_demo.rps" diskSizeKB="105.532" downloadSizeKB="105.532"/>
+  <assets path="/extension.wiseconnect_3.3.2/demos/brd2605a/siwx917_dev_kit.rps" diskSizeKB="123.916" downloadSizeKB="123.916"/>
+  <assets path="/extension.wiseconnect_3.3.2/demos/brd4342a/out_of_box_demo.rps" diskSizeKB="106.676" downloadSizeKB="106.676"/>
+  <assets path="/extension.wiseconnect_3.3.2/demos/brd4338a/cli_demo_soc.rps" diskSizeKB="129.876" downloadSizeKB="129.876"/>
+  <assets path="/extension.wiseconnect_3.3.2/demos/brd4338a/out_of_box_demo.rps" diskSizeKB="106.692" downloadSizeKB="106.692"/>
+</assets>

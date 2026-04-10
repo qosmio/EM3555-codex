@@ -1,0 +1,438 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:30
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\ember-base-configuration.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\ember-base-configuration.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\ember-base-configuration.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"ember-base-configuration.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\ember-base-configuration.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\ember-base-configuration.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\ember-base-configuration.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\ember-base-configuration.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\ember-base-configuration.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief User-configurable stack memory allocation and convenience stubs
+      4           * for little-used callbacks.
+      5           *
+      6           * \b Note: Application developers should \b not modify any portion
+      7           * of this file. Doing so may lead to mysterious bugs. Allocations should be
+      8           * adjusted only with macros in a custom CONFIGURATION_HEADER.
+      9           *******************************************************************************
+     10           * # License
+     11           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+     12           *******************************************************************************
+     13           *
+     14           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     15           * software is governed by the terms of Silicon Labs Master Software License
+     16           * Agreement (MSLA) available at
+     17           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     18           * software is distributed to you in Source Code format and is governed by the
+     19           * sections of the MSLA applicable to Source Code.
+     20           *
+     21           ******************************************************************************/
+     22          #include PLATFORM_HEADER
+     23          #include "stack/include/ember.h"
+     24          #include "hal/hal.h"
+     25          #ifdef EMBER_STACK_COBRA
+     26            #include "hal_uart.h"
+     27          #endif
+     28          
+     29          #include "stack/config/ember-configuration-defaults.h"
+     30          
+     31          #ifndef EMBER_APPLICATION_HAS_CUSTOM_RADIO_CALIBRATION_CALLBACK
+     32          // See stack-info.h for more information.
+
+   \                                 In section .text, align 2, keep-with-next
+     33          void emberRadioNeedsCalibratingHandler(void)
+     34          {
+     35            // TODO: Failsafe any critical processes or peripherals.
+     36            sl_mac_calibrate_current_channel();
+   \                     emberRadioNeedsCalibratingHandler: (+1)
+   \        0x0   0x.... 0x....      B.W      sl_mac_calibrate_current_channel
+     37          }
+     38          
+     39          #endif//EMBER_APPLICATION_HAS_CUSTOM_RADIO_CALIBRATION_CALLBACK
+     40          
+     41          #ifndef EMBER_APPLICATION_HAS_BUTTON_HANDLER
+     42          void halButtonIsr(uint8_t button, uint8_t state)
+     43          {
+     44          }
+     45          
+     46          #endif
+     47          
+     48          #if defined (CORTEXM3)
+     49          #if !defined (USE_NVM3) || defined (SIMEE2_TO_NVM3_UPGRADE)
+     50          #ifndef EMBER_APPLICATION_HAS_CUSTOM_SIM_EEPROM_CALLBACK
+     51          #include "hal/plugin/sim-eeprom/sim-eeprom.h"
+     52          // The Simulated EEPROM Callback function.
+
+   \                                 In section .text, align 2, keep-with-next
+     53          void halSimEepromCallback(EmberStatus status)
+     54          {
+   \                     halSimEepromCallback: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     55            switch (status) {
+   \        0x4   0x3843             SUBS     R0,R0,#+67
+   \        0x6   0xD008             BEQ.N    ??halSimEepromCallback_0
+   \        0x8   0x1E40             SUBS     R0,R0,#+1
+   \        0xA   0x2801             CMP      R0,#+1
+   \        0xC   0xD909             BLS.N    ??halSimEepromCallback_1
+   \        0xE   0x1E80             SUBS     R0,R0,#+2
+   \       0x10   0x2801             CMP      R0,#+1
+   \       0x12   0xD90F             BLS.N    ??halSimEepromCallback_2
+   \       0x14   0x1FC0             SUBS     R0,R0,#+7
+   \       0x16   0xD035             BEQ.N    ??halSimEepromCallback_3
+   \       0x18   0xE02E             B.N      ??halSimEepromCallback_4
+     56              case EMBER_SIM_EEPROM_ERASE_PAGE_GREEN:
+     57                //SimEE is asking for one page to be erased.
+     58                (void)halSimEepromErasePage();
+   \                     ??halSimEepromCallback_0: (+1)
+   \       0x1A   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0x1E   0x.... 0x....      B.W      halSimEepromErasePage
+     59                break;
+     60              case EMBER_SIM_EEPROM_ERASE_PAGE_RED:
+     61              case EMBER_SIM_EEPROM_FULL:
+     62              { //SimEE says we're out of room!  Erase all pages now or data
+     63                //currently being written will be dropped.
+     64                if (halSimEepromPagesRemainingToBeErased() > 0) {
+   \                     ??halSimEepromCallback_1: (+1)
+   \       0x22   0x.... 0x....      BL       halSimEepromPagesRemainingToBeErased
+   \       0x26   0x2800             CMP      R0,#+0
+   \       0x28   0xD004             BEQ.N    ??halSimEepromCallback_2
+     65                  //If there is at least one HW page to erase, loop over ErasePage until
+     66                  //all HW pages are erased.  Without this explicit check before
+     67                  //ErasePage, when halSimEepromErasePage() returns 0 the code wont
+     68                  //know if a page was actually erased or not and properly break out.
+     69                  while (halSimEepromErasePage() != 0U) {
+   \                     ??halSimEepromCallback_5: (+1)
+   \       0x2A   0x.... 0x....      BL       halSimEepromErasePage
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD1FB             BNE.N    ??halSimEepromCallback_5
+   \       0x32   0xBD31             POP      {R0,R4,R5,PC}
+     70                  }
+     71                  // A fresh virtual page now exists to use
+     72                  break;
+     73                }
+     74                //If there are still pages to erase, then we have a situation where page
+     75                //rotation is stuck because live tokens still exist in the
+     76                //page we want to erase.  In this case we must do a repair to
+     77                //get all live tokens into one virtual page. [BugzId:14392]
+     78                //This bug pertains to SimEE2.
+     79                //Fall into...
+     80              }
+     81              case EMBER_ERR_FLASH_WRITE_INHIBITED:
+     82              case EMBER_ERR_FLASH_VERIFY_FAILED:
+     83              { //Something went wrong while writing a token.  There is stale data and the
+     84                //token the app expected to write did not get written.  Also there may
+     85                //now be "stray" data written in the flash that could inhibit future token
+     86                //writes.  To deal with stray/stale data, we must repair the Simulated
+     87                //EEPROM.  Because the expected token write failed and will not be retried,
+     88                //it is best to reset the chip and let normal boot sequences take over.
+     89                //Since halInternalSimEeRepair() could potentially result in another write
+     90                //failure, we use a simple semaphore to prevent recursion.
+     91                static bool repairActive = false;
+     92                if (!repairActive) {
+   \                     ??halSimEepromCallback_2: (+1)
+   \       0x34   0x....             LDR.N    R5,??DataTable1
+   \       0x36   0x7828             LDRB     R0,[R5, #+0]
+   \       0x38   0x2800             CMP      R0,#+0
+   \       0x3A   0xD123             BNE.N    ??halSimEepromCallback_3
+     93                  repairActive = true;
+   \       0x3C   0x2001             MOVS     R0,#+1
+   \       0x3E   0x7028             STRB     R0,[R5, #+0]
+     94                  halInternalSimEeRepair(false);
+   \       0x40   0x2000             MOVS     R0,#+0
+   \       0x42   0x.... 0x....      BL       halInternalSimEeStartup
+     95                  switch (status) {
+   \       0x46   0x2C44             CMP      R4,#+68
+   \       0x48   0xD013             BEQ.N    ??halSimEepromCallback_6
+   \       0x4A   0xD30E             BCC.N    ??halSimEepromCallback_7
+   \       0x4C   0x2C46             CMP      R4,#+70
+   \       0x4E   0xD007             BEQ.N    ??halSimEepromCallback_8
+   \       0x50   0xD30F             BCC.N    ??halSimEepromCallback_6
+   \       0x52   0x2C47             CMP      R4,#+71
+   \       0x54   0xD109             BNE.N    ??halSimEepromCallback_7
+     96                    case EMBER_SIM_EEPROM_ERASE_PAGE_RED:
+     97                    case EMBER_SIM_EEPROM_FULL:
+     98                      //Don't reboot - return to let SimEE code retry the token write
+     99                      //[BugzId:14392]
+    100                      break;
+    101                    case EMBER_ERR_FLASH_VERIFY_FAILED:
+    102          
+    103          
+    104                  #if defined (CORTEXM3)
+    105                      halInternalSysReset(RESET_FLASH_VERIFY);
+   \       0x56   0xF640 0x0001      MOVW     R0,#+2049
+   \       0x5A   0x.... 0x....      BL       halInternalSysReset
+    106                  #elif defined (EMBER_STACK_COBRA)
+    107                      halInternalSystemReset(RESET_FLASH);
+    108                  #else
+    109                      assert(0);
+    110                  #endif
+    111                      break;
+   \       0x5E   0xE008             B.N      ??halSimEepromCallback_6
+    112                    case EMBER_ERR_FLASH_WRITE_INHIBITED:
+    113                  #if defined (CORTEXM3)
+    114                      halInternalSysReset(RESET_FLASH_INHIBIT);
+   \                     ??halSimEepromCallback_8: (+1)
+   \       0x60   0xF640 0x0002      MOVW     R0,#+2050
+   \       0x64   0x.... 0x....      BL       halInternalSysReset
+    115                  #elif defined (EMBER_STACK_COBRA)
+    116                      halInternalSystemReset(RESET_FLASH);
+    117                  #else
+    118                      assert(0);
+    119                  #endif
+    120                      break;
+   \       0x68   0xE003             B.N      ??halSimEepromCallback_6
+    121                    default:
+    122                      assert(0);
+   \                     ??halSimEepromCallback_7: (+1)
+   \       0x6A   0x217A             MOVS     R1,#+122
+   \       0x6C   0x....             LDR.N    R0,??DataTable1_1
+   \       0x6E   0x.... 0x....      BL       halInternalAssertFailed
+    123                      break;
+    124                  }
+    125                  repairActive = false;
+   \                     ??halSimEepromCallback_6: (+1)
+   \       0x72   0x2000             MOVS     R0,#+0
+   \       0x74   0x7028             STRB     R0,[R5, #+0]
+   \       0x76   0xBD31             POP      {R0,R4,R5,PC}
+    126                }
+    127                break;
+    128              }
+    129              case EMBER_SIM_EEPROM_REPAIRING:
+    130                // While there's nothing for an app to do when the SimEE is going to
+    131                // repair itself (SimEE has to be fully functional for the rest of the
+    132                // system to work), alert the application to the fact that repairing
+    133                // is occuring.  There are debugging scenarios where an app might want
+    134                // to know that repairing is happening; such as monitoring frequency.
+    135                // NOTE:  Common situations will trigger an expected repair, such as
+    136                //        using an erased chip or changing token definitions.
+    137                break;
+    138              default:
+    139                // this condition indicates an unexpected problem.
+    140                assert(0);
+   \                     ??halSimEepromCallback_4: (+1)
+   \       0x78   0x218C             MOVS     R1,#+140
+   \       0x7A   0x....             LDR.N    R0,??DataTable1_1
+   \       0x7C   0xE8BD 0x4034      POP      {R2,R4,R5,LR}
+   \       0x80   0x.... 0x....      B.W      halInternalAssertFailed
+    141                break;
+    142            }
+    143          }
+   \                     ??halSimEepromCallback_3: (+1)
+   \       0x84   0xBD31             POP      {R0,R4,R5,PC}
+
+   \                                 In section .bss, align 1
+   \                     `halSimEepromCallback{1}{2}{6}::repairActive`:
+   \        0x0                      DS8 1
+    144          
+    145          #endif//EMBER_APPLICATION_HAS_CUSTOM_SIM_EEPROM_CALLBACK
+    146          
+    147          #endif // !defined (USE_NVM3) || defined (SIMEE2_TO_NVM3_UPGRADE)
+    148          #if defined (USE_NVM3)
+    149          
+    150          #ifndef EMBER_APPLICATION_HAS_CUSTOM_NVM3_CALLBACK
+    151          #include "hal/plugin/nvm3/nvm3-token.h"
+    152          // The NVM3 Callback function.
+    153          void halNvm3Callback(Ecode_t status)
+    154          {
+    155            // NVM3 does error handling internally, but this callback is included
+    156            // in case the application requires any custom error handling.
+    157          }
+    158          
+    159          #endif//EMBER_APPLICATION_HAS_CUSTOM_NVM3_CALLBACK
+    160          #endif//USE_NVM3
+    161          
+    162          #ifndef EMBER_APPLICATION_HAS_CUSTOM_ISRS
+
+   \                                 In section .text, align 2, keep-with-next
+    163          uint16_t halInternalSc2Isr(uint16_t interrupt, uint16_t pcbContext)
+    164          {
+    165            return interrupt;
+   \                     halInternalSc2Isr: (+1)
+   \        0x0   0x4770             BX       LR
+    166          }
+    167          
+    168          #endif//EMBER_APPLICATION_HAS_CUSTOM_ISRS
+    169          
+    170          #ifndef EMBER_APPLICATION_HAS_CUSTOM_RADIO_POWER_UP_HANDLER
+
+   \                                 In section .text, align 2
+    171          WEAK(void halRadioPowerUpHandler(void))
+    172          {
+    173          }
+   \                     halRadioPowerUpHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    174          
+    175          #endif // EMBER_APPLICATION_HAS_CUSTOM_RADIO_POWER_UP_HANDLER
+    176          
+    177          #ifndef EMBER_APPLICATION_HAS_CUSTOM_RADIO_POWER_DOWN_HANDLER
+
+   \                                 In section .text, align 2
+    178          WEAK(void halRadioPowerDownHandler(void))
+    179          {
+    180          }
+   \                     halRadioPowerDownHandler: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0x....'....        DC32     `halSimEepromCallback{1}{2}{6}::repairActive`
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x65 0x6D          DC8 "ember-base-configuration.c"
+   \              0x62 0x65    
+   \              0x72 0x2D    
+   \              0x62 0x61    
+   \              0x73 0x65    
+   \              0x2D 0x63    
+   \              0x6F 0x6E    
+   \              0x66 0x69    
+   \              0x67 0x75    
+   \              0x72 0x61    
+   \              0x74 0x69    
+   \              0x6F 0x6E    
+   \              0x2E 0x63    
+   \              0x00
+   \       0x1B                      DS8 1
+    181          
+    182          #endif // EMBER_APPLICATION_HAS_CUSTOM_RADIO_POWER_DOWN_HANDLER
+    183          
+    184          #endif
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   emberRadioNeedsCalibratingHandler
+         0   -> sl_mac_calibrate_current_channel
+       0   halInternalSc2Isr
+       0   halRadioPowerDownHandler
+       0   halRadioPowerUpHandler
+      16   halSimEepromCallback
+         0   -> halInternalAssertFailed
+        16   -> halInternalAssertFailed
+        16   -> halInternalSimEeStartup
+        16   -> halInternalSysReset
+         0   -> halSimEepromErasePage
+        16   -> halSimEepromErasePage
+        16   -> halSimEepromPagesRemainingToBeErased
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+      28  ?_0
+       4  emberRadioNeedsCalibratingHandler
+       2  halInternalSc2Isr
+       2  halRadioPowerDownHandler
+       2  halRadioPowerUpHandler
+     134  halSimEepromCallback
+       1  repairActive
+
+ 
+   1 byte  in section .bss
+  28 bytes in section .rodata
+ 152 bytes in section .text
+ 
+ 148 bytes of CODE  memory (+ 4 bytes shared)
+  28 bytes of CONST memory
+   1 byte  of DATA  memory
+
+Errors: none
+Warnings: none

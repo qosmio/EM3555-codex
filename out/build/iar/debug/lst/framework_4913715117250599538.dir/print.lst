@@ -1,0 +1,466 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:10
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\print.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\print.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\print.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"print.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\print.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\print.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\print.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\print.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\print.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Utilities and command line interface for printing, and enabling/disabling
+      4           * printing to different areas.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          #include "app/framework/include/af.h"
+     20          
+     21          //------------------------------------------------------------------------------
+     22          // Globals
+     23          
+     24          // Enable this if you want area names printed. It proved annoying
+     25          // so we're disabling it here.
+     26          //#define EMBER_AF_PRINT_AREA_NAME
+     27          
+     28          #ifdef EMBER_AF_PRINT_AREA_NAME
+     29          static void reallyPrintAreaName(uint16_t area);
+     30            #define printAreaName(area) reallyPrintAreaName(area)
+     31          #else
+     32            #define printAreaName(area)
+     33          #endif //EMBER_AF_PRINT_AREA_NAME
+     34          
+     35          #ifdef EMBER_AF_PRINT_NAMES
+     36          static const char * areaNames[] = EMBER_AF_PRINT_NAMES;
+     37          #endif
+     38          
+     39          #ifdef EMBER_AF_PRINT_BITS
+     40          static uint8_t enablementBytes[] = EMBER_AF_PRINT_BITS;
+     41          #endif
+     42          
+
+   \                                 In section .bss, align 2
+     43          uint16_t emberAfPrintActiveArea = 0;
+   \                     emberAfPrintActiveArea:
+   \        0x0                      DS8 2
+     44          
+     45          //------------------------------------------------------------------------------
+     46          
+     47          // Returns true if the area print is enabled
+
+   \                                 In section .text, align 2, keep-with-next
+     48          bool emberAfPrintEnabled(uint16_t area)
+     49          {
+     50          #ifndef EMBER_AF_PRINT_BITS
+     51            return false;
+   \                     emberAfPrintEnabled: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     52          #else
+     53            uint8_t index = (uint8_t)(area >> 8);
+     54            if ( area == 0xFFFF ) {
+     55              return true;
+     56            }
+     57            if ( index >= sizeof(enablementBytes) ) {
+     58              return false;
+     59            } else {
+     60              uint8_t byte = enablementBytes[index];
+     61              return ( (byte & (uint8_t)(area & 0xFF) ) != 0x00);
+     62            }
+     63          #endif // EMBER_AF_PRINT_BITS
+     64          }
+     65          
+
+   \                                 In section .text, align 2, keep-with-next
+     66          static void printEnable(uint16_t area, bool on)
+     67          {
+     68          #ifdef EMBER_AF_PRINT_BITS
+     69            uint8_t index = (uint8_t)(area >> 8);
+     70            if ( index < sizeof(enablementBytes) ) {
+     71              if ( on ) {
+     72                enablementBytes[index] |= (uint8_t)(area & 0xFF);
+     73              } else {
+     74                enablementBytes[index] &= ~(uint8_t)(area & 0xFF);
+     75              }
+     76            }
+     77          #endif // EMBER_AF_PRINT_BITS
+     78          }
+   \                     printEnable: (+1)
+   \        0x0   0x4770             BX       LR
+     79          
+
+   \                                 In section .text, align 2, keep-with-next
+     80          static uint16_t convertUserNumberAreaToInternalArea(uint16_t userNumberedArea)
+     81          {
+   \                     convertUserNumberAreaToInternalArea: (+1)
+   \        0x0   0x4601             MOV      R1,R0
+     82            uint16_t index = userNumberedArea / 8;
+     83            index = (uint16_t)(index << 8)
+     84                    + (uint16_t)( ((uint16_t)0x0001) << (userNumberedArea % 8) );
+   \        0x2   0x08C9             LSRS     R1,R1,#+3
+   \        0x4   0x2201             MOVS     R2,#+1
+   \        0x6   0x4603             MOV      R3,R0
+   \        0x8   0x109B             ASRS     R3,R3,#+2
+   \        0xA   0xEB10 0x7353      ADDS     R3,R0,R3, LSR #+29
+   \        0xE   0xF003 0x03F8      AND      R3,R3,#0xF8
+   \       0x12   0x1AC0             SUBS     R0,R0,R3
+   \       0x14   0xFA02 0xF000      LSL      R0,R2,R0
+   \       0x18   0xEB00 0x2001      ADD      R0,R0,R1, LSL #+8
+     85            return index;
+   \       0x1C   0xB280             UXTH     R0,R0
+   \       0x1E   0x4770             BX       LR
+     86          }
+     87          
+     88          #if defined EMBER_AF_PRINT_AREA_NAME
+     89          static void reallyPrintAreaName(uint16_t area)
+     90          {
+     91          #ifdef EMBER_AF_PRINT_NAMES
+     92            uint8_t hi, lo, count;
+     93            uint16_t index;
+     94          
+     95            hi = (uint8_t)(area >> 8);
+     96            lo = (uint8_t)(area & 0xFF);
+     97            count = 0;
+     98          
+     99            if ( lo != 0 ) {
+    100              while ( !(lo & 0x01) ) {
+    101                lo >>= 1;
+    102                count++;
+    103              }
+    104            }
+    105            index = ((8 * hi) + count);
+    106          
+    107            if (area != 0xFFFF
+    108                && index < EMBER_AF_PRINT_NAME_NUMBER) {
+    109              emberSerialPrintf(EMBER_AF_PRINT_OUTPUT, "%p:", areaNames[index]);
+    110            }
+    111          #endif // EMBER_AF_PRINT_NAMES
+    112          }
+    113          #endif //EMBER_AF_PRINT_AREA_NAME
+    114          
+    115          // Prints the trace if trace is enabled
+
+   \                                 In section .text, align 2, keep-with-next
+    116          static void emAfPrintInternalVarArg(uint16_t area,
+    117                                              bool newLine,
+    118                                              const char * formatString,
+    119                                              va_list ap)
+    120          {
+   \                     emAfPrintInternalVarArg: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+   \        0x6   0x4616             MOV      R6,R2
+   \        0x8   0x461F             MOV      R7,R3
+    121            if ( !emberAfPrintEnabled(area) ) {
+   \        0xA   0x.... 0x....      BL       emberAfPrintEnabled
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD00C             BEQ.N    ??emAfPrintInternalVarArg_0
+    122              return;
+    123            }
+    124            printAreaName(area);
+    125          
+    126            emberSerialPrintfVarArg(EMBER_AF_PRINT_OUTPUT, formatString, ap);
+   \       0x12   0x463A             MOV      R2,R7
+   \       0x14   0x4631             MOV      R1,R6
+   \       0x16   0x2000             MOVS     R0,#+0
+   \       0x18   0x.... 0x....      BL       emberSerialPrintfVarArg
+    127          
+    128            if (newLine) {
+   \       0x1C   0x2D00             CMP      R5,#+0
+   \       0x1E   0xD003             BEQ.N    ??emAfPrintInternalVarArg_1
+    129              emberSerialPrintf(EMBER_AF_PRINT_OUTPUT, "\r\n");
+   \       0x20   0x....             ADR.N    R1,??DataTable1
+   \       0x22   0x2000             MOVS     R0,#+0
+   \       0x24   0x.... 0x....      BL       emberSerialPrintf
+    130            }
+    131            emberAfPrintActiveArea = area;
+   \                     ??emAfPrintInternalVarArg_1: (+1)
+   \       0x28   0x....             LDR.N    R0,??DataTable1_1
+   \       0x2A   0x8004             STRH     R4,[R0, #+0]
+    132          }
+   \                     ??emAfPrintInternalVarArg_0: (+1)
+   \       0x2C   0xBDF1             POP      {R0,R4-R7,PC}
+    133          
+
+   \                                 In section .text, align 2, keep-with-next
+    134          void emberAfPrintln(uint16_t area, const char * formatString, ...)
+    135          {
+   \                     emberAfPrintln: (+1)
+   \        0x0   0xB40C             PUSH     {R2,R3}
+   \        0x2   0xB580             PUSH     {R7,LR}
+   \        0x4   0x460A             MOV      R2,R1
+    136            va_list ap = { 0 };
+    137            va_start(ap, formatString);
+   \        0x6   0xAB02             ADD      R3,SP,#+8
+    138            emAfPrintInternalVarArg(area, true, formatString, ap);
+   \        0x8   0x2101             MOVS     R1,#+1
+   \        0xA   0x.... 0x....      BL       emAfPrintInternalVarArg
+    139            va_end(ap);
+    140          }
+   \        0xE   0xBC01             POP      {R0}
+   \       0x10   0xF85D 0xFB0C      LDR      PC,[SP], #+12
+    141          
+
+   \                                 In section .text, align 2, keep-with-next
+    142          void emberAfPrint(uint16_t area, const char * formatString, ...)
+    143          {
+   \                     emberAfPrint: (+1)
+   \        0x0   0xB40C             PUSH     {R2,R3}
+   \        0x2   0xB580             PUSH     {R7,LR}
+   \        0x4   0x460A             MOV      R2,R1
+    144            va_list ap = { 0 };
+    145            va_start(ap, formatString);
+   \        0x6   0xAB02             ADD      R3,SP,#+8
+    146            emAfPrintInternalVarArg(area, false, formatString, ap);
+   \        0x8   0x2100             MOVS     R1,#+0
+   \        0xA   0x.... 0x....      BL       emAfPrintInternalVarArg
+    147            va_end(ap);
+    148          }
+   \        0xE   0xBC01             POP      {R0}
+   \       0x10   0xF85D 0xFB0C      LDR      PC,[SP], #+12
+    149          
+
+   \                                 In section .text, align 2, keep-with-next
+    150          void emberAfPrintStatus(void)
+    151          {
+    152          #ifdef EMBER_AF_PRINT_NAMES
+    153            uint8_t i;
+    154            for (i = 0; i < EMBER_AF_PRINT_NAME_NUMBER; i++) {
+    155              emberSerialPrintfLine(EMBER_AF_PRINT_OUTPUT, "[%d] %p : %p",
+    156                                    i,
+    157                                    areaNames[i],
+    158                                    (emberAfPrintEnabled(
+    159                                       convertUserNumberAreaToInternalArea(i))
+    160                                     ? "YES"
+    161                                     : "no"));
+    162              emberSerialWaitSend(EMBER_AF_PRINT_OUTPUT);
+    163            }
+    164          #endif // EMBER_AF_PRINT_NAMES
+    165          }
+   \                     emberAfPrintStatus: (+1)
+   \        0x0   0x4770             BX       LR
+    166          
+
+   \                                 In section .text, align 2, keep-with-next
+    167          void emberAfPrintAllOn(void)
+    168          {
+    169          #ifdef EMBER_AF_PRINT_BITS
+    170            MEMSET(enablementBytes, 0xFF, sizeof(enablementBytes));
+    171          #endif
+    172          }
+   \                     emberAfPrintAllOn: (+1)
+   \        0x0   0x4770             BX       LR
+    173          
+
+   \                                 In section .text, align 2, keep-with-next
+    174          void emberAfPrintAllOff(void)
+    175          {
+    176          #ifdef EMBER_AF_PRINT_BITS
+    177            MEMSET(enablementBytes, 0x00, sizeof(enablementBytes));
+    178          #endif
+    179          }
+   \                     emberAfPrintAllOff: (+1)
+   \        0x0   0x4770             BX       LR
+    180          
+    181          // These are CLI functions where a user will supply a sequential numbered
+    182          // area; as opposed to the bitmask area number that we keep track
+    183          // of internally.
+    184          
+
+   \                                 In section .text, align 2, keep-with-next
+    185          void emberAfPrintOn(uint16_t userArea)
+    186          {
+   \                     emberAfPrintOn: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    187            printEnable(convertUserNumberAreaToInternalArea(userArea),
+    188                        true);   // enable?
+   \        0x2   0x.... 0x....      BL       convertUserNumberAreaToInternalArea
+   \        0x6   0x2101             MOVS     R1,#+1
+   \        0x8   0xE8BD 0x4004      POP      {R2,LR}
+   \        0xC   0x....             B.N      printEnable
+    189          }
+    190          
+
+   \                                 In section .text, align 2, keep-with-next
+    191          void emberAfPrintOff(uint16_t userArea)
+    192          {
+   \                     emberAfPrintOff: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    193            printEnable(convertUserNumberAreaToInternalArea(userArea),
+    194                        false);  // enable?
+   \        0x2   0x.... 0x....      BL       convertUserNumberAreaToInternalArea
+   \        0x6   0x2100             MOVS     R1,#+0
+   \        0x8   0xE8BD 0x4004      POP      {R2,LR}
+   \        0xC   0x....             B.N      printEnable
+    195          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0x0D 0x0A          DC8      0x0D, 0x0A, 0x00, 0x00
+   \              0x00 0x00
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \        0x0   0x....'....        DC32     emberAfPrintActiveArea
+
+   \                                 In section .rodata, align 4
+   \        0x0   0x0D 0x0A          DC8 "\015\012"
+   \              0x00
+   \        0x3                      DS8 1
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   convertUserNumberAreaToInternalArea
+      24   emAfPrintInternalVarArg
+        24   -> emberAfPrintEnabled
+        24   -> emberSerialPrintf
+        24   -> emberSerialPrintfVarArg
+      16   emberAfPrint
+        16   -> emAfPrintInternalVarArg
+       0   emberAfPrintAllOff
+       0   emberAfPrintAllOn
+       0   emberAfPrintEnabled
+       8   emberAfPrintOff
+         8   -> convertUserNumberAreaToInternalArea
+         0   -> printEnable
+       8   emberAfPrintOn
+         8   -> convertUserNumberAreaToInternalArea
+         0   -> printEnable
+       0   emberAfPrintStatus
+      16   emberAfPrintln
+        16   -> emAfPrintInternalVarArg
+       0   printEnable
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+       4  ?_0
+      32  convertUserNumberAreaToInternalArea
+      46  emAfPrintInternalVarArg
+      20  emberAfPrint
+       2  emberAfPrintActiveArea
+       2  emberAfPrintAllOff
+       2  emberAfPrintAllOn
+       4  emberAfPrintEnabled
+      14  emberAfPrintOff
+      14  emberAfPrintOn
+       2  emberAfPrintStatus
+      20  emberAfPrintln
+       2  printEnable
+
+ 
+   2 bytes in section .bss
+   4 bytes in section .rodata
+ 166 bytes in section .text
+ 
+ 166 bytes of CODE  memory
+   4 bytes of CONST memory
+   2 bytes of DATA  memory
+
+Errors: none
+Warnings: none

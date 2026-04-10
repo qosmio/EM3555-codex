@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.ss.support.mcu.part.feature"
+  label="MCU Part Support"
+  description="Simplicity Studio MCU Part Support"
+  changelog="changelog"
+  version="4.3.10"/>

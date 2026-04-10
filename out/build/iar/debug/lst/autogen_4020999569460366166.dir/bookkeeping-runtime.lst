@@ -1,0 +1,223 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:38
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\bookkeeping-runtime.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\bookkeeping-runtime.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\bookkeeping-runtime.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"bookkeeping-runtime.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\autogen_4020999569460366166.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\bookkeeping-runtime.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\bookkeeping-runtime.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\autogen_4020999569460366166.dir\bookkeeping-runtime.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\bookkeeping-runtime.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\bookkeeping-runtime.c
+      1          #include "app/framework/include/af.h"
+      2          #include "app/framework/util/util.h"
+      3          
+      4          #include "callback.h"
+      5          
+
+   \                                 In section .text, align 2, keep-with-next
+      6          void emAfInit(void)
+      7          {
+   \                     emAfInit: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+      8            emberAfMainInitCallback();
+   \        0x2   0x.... 0x....      BL       emberAfMainInitCallback
+      9            emberAfInit();
+   \        0x6   0xE8BD 0x4001      POP      {R0,LR}
+   \        0xA   0x.... 0x....      B.W      emberAfInit
+     10          }
+     11          
+
+   \                                 In section .text, align 2, keep-with-next
+     12          void emAfTick(void)
+     13          {
+   \                     emAfTick: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     14            emberAfMainTickCallback();
+   \        0x2   0x.... 0x....      BL       emberAfMainTickCallback
+     15            emberAfTick();
+   \        0x6   0xE8BD 0x4001      POP      {R0,LR}
+   \        0xA   0x.... 0x....      B.W      emberAfTick
+     16          }
+     17          
+
+   \                                 In section .text, align 2, keep-with-next
+     18          bool emAfPreCommandReceived(EmberAfClusterCommand *cmd)
+     19          {
+     20            return emberAfPreCommandReceivedCallback(cmd);
+   \                     emAfPreCommandReceived: (+1)
+   \        0x0   0x.... 0x....      B.W      emberAfPreCommandReceivedCallback
+     21          }
+     22          
+
+   \                                 In section .text, align 2, keep-with-next
+     23          bool emAfPreZDOMessageReceived(EmberNodeId emberNodeId,
+     24                                         EmberApsFrame *apsFrame,
+     25                                         uint8_t *message,
+     26                                         uint16_t length)
+     27          {
+     28            return emberAfPreZDOMessageReceivedCallback(emberNodeId,
+     29                                                        apsFrame,
+     30                                                        message,
+     31                                                        length);
+   \                     emAfPreZDOMessageReceived: (+1)
+   \        0x0   0x.... 0x....      B.W      emberAfPreZDOMessageReceivedCallback
+     32          }
+     33          
+
+   \                                 In section .text, align 2, keep-with-next
+     34          void emAfZigbeeKeyEstablishment(EmberEUI64 partner, EmberKeyStatus status)
+     35          {
+     36            emberAfZigbeeKeyEstablishmentCallback(partner, status);
+   \                     emAfZigbeeKeyEstablishment: (+1)
+   \        0x0   0x.... 0x....      B.W      emberAfZigbeeKeyEstablishmentCallback
+     37          }
+     38          
+
+   \                                 In section .text, align 2, keep-with-next
+     39          bool emAfReadAttributesResponse(EmberAfClusterId clusterId,
+     40                                          uint8_t *buffer,
+     41                                          uint16_t bufLen)
+     42          {
+     43            return emberAfReadAttributesResponseCallback(clusterId, buffer, bufLen);
+   \                     emAfReadAttributesResponse: (+1)
+   \        0x0   0x.... 0x....      B.W      emberAfReadAttributesResponseCallback
+     44          }
+     45          
+
+   \                                 In section .text, align 2, keep-with-next
+     46          bool emAfReportAttributes(EmberAfClusterId clusterId,
+     47                                    uint8_t *buffer,
+     48                                    uint16_t bufLen)
+     49          {
+     50            return emberAfReportAttributesCallback(clusterId, buffer, bufLen);
+   \                     emAfReportAttributes: (+1)
+   \        0x0   0x.... 0x....      B.W      emberAfReportAttributesCallback
+     51          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   emAfInit
+         0   -> emberAfInit
+         8   -> emberAfMainInitCallback
+       0   emAfPreCommandReceived
+         0   -> emberAfPreCommandReceivedCallback
+       0   emAfPreZDOMessageReceived
+         0   -> emberAfPreZDOMessageReceivedCallback
+       0   emAfReadAttributesResponse
+         0   -> emberAfReadAttributesResponseCallback
+       0   emAfReportAttributes
+         0   -> emberAfReportAttributesCallback
+       8   emAfTick
+         8   -> emberAfMainTickCallback
+         0   -> emberAfTick
+       0   emAfZigbeeKeyEstablishment
+         0   -> emberAfZigbeeKeyEstablishmentCallback
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      14  emAfInit
+       4  emAfPreCommandReceived
+       4  emAfPreZDOMessageReceived
+       4  emAfReadAttributesResponse
+       4  emAfReportAttributes
+      14  emAfTick
+       4  emAfZigbeeKeyEstablishment
+
+ 
+ 48 bytes in section .text
+ 
+ 48 bytes of CODE memory
+
+Errors: none
+Warnings: none

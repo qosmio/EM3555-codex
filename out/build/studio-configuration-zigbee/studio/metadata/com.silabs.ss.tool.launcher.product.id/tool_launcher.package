@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.ss.tool.launcher.product.id"
+         label="Tool Launcher"
+		 description="Launcher UI Tool"
+		 changelog="changelog"
+		 partCompatibility=".*"
+		 version="5.7.5" />

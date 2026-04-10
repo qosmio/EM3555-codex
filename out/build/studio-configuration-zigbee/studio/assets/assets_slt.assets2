@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_slt">
+  <assets path="/slt/settings.zip" diskSizeKB="6.605" downloadSizeKB="1.738" directory="true"/>
+  <assets path="/slt/releases/alpha7/gui-alpha7.zip" diskSizeKB="28.129" downloadSizeKB="10.834" directory="true"/>
+  <assets path="/slt/releases/alpha7/manifest-alpha7.zip" diskSizeKB="74.544" downloadSizeKB="6.532" directory="true"/>
+  <assets path="/slt/releases/alpha6/manifest-alpha6.zip" diskSizeKB="77.427" downloadSizeKB="4.761" directory="true"/>
+  <assets path="/slt/releases/alpha6/gui-alpha6.zip" diskSizeKB="28.174" downloadSizeKB="10.851" directory="true"/>
+  <assets path="/slt/releases/alpha4.1/manifest-alpha4.1.zip" diskSizeKB="59.286" downloadSizeKB="3.201" directory="true"/>
+  <assets path="/slt/releases/alpha4.1/gui-alpha4.1.zip" diskSizeKB="17.94" downloadSizeKB="3.934" directory="true"/>
+  <assets path="/slt/releases/alpha4/gui-alpha4.zip" diskSizeKB="17.94" downloadSizeKB="3.914" directory="true"/>
+  <assets path="/slt/releases/alpha4/manifest-alpha4.zip" diskSizeKB="62.866" downloadSizeKB="3.261" directory="true"/>
+  <assets path="/slt/releases/alpha5/manifest-alpha5.zip" diskSizeKB="64.416" downloadSizeKB="3.976" directory="true"/>
+  <assets path="/slt/releases/alpha5/gui-alpha5.zip" diskSizeKB="27.95" downloadSizeKB="10.748" directory="true"/>
+  <assets path="/slt/recipes.zip" diskSizeKB="5.597" downloadSizeKB="1.62" directory="true"/>
+  <assets path="/slt/slt.ini" diskSizeKB="0.412" downloadSizeKB="0.412"/>
+  <assets path="/slt/gui.zip" diskSizeKB="27.991" downloadSizeKB="10.596" directory="true"/>
+  <assets path="/slt/packages_types.json" diskSizeKB="2.044" downloadSizeKB="2.044"/>
+  <assets path="/slt/settings.ini" diskSizeKB="0.16" downloadSizeKB="0.16"/>
+  <assets path="/external_tools/zwave_zniffer.zip" diskSizeKB="742.555" downloadSizeKB="723.567" directory="true"/>
+  <assets path="/external_tools/energy_profiler.zip" diskSizeKB="79.126" downloadSizeKB="61.997" directory="true"/>
+  <assets path="/external_tools/tools.json" diskSizeKB="1.019" downloadSizeKB="1.019"/>
+  <assets path="/external_tools/device_manager.zip" diskSizeKB="217.136" downloadSizeKB="176.174" directory="true"/>
+  <assets path="/external_tools/ml-profiler.zip" diskSizeKB="307.778" downloadSizeKB="201.426" directory="true"/>
+  <assets path="/external_tools/wifi_commander.zip" diskSizeKB="175.365" downloadSizeKB="145.731" directory="true"/>
+  <assets path="/external_tools/network_analyzer.zip" diskSizeKB="2661.786" downloadSizeKB="2634.639" directory="true"/>
+  <assets path="/external_tools/memory_calculator.zip" diskSizeKB="379.86" downloadSizeKB="290.645" directory="true"/>
+  <assets path="/external_tools/positioning_tool.zip" diskSizeKB="756.843" downloadSizeKB="737.236" directory="true"/>
+  <assets path="/external_tools/aoa_viewer.zip" diskSizeKB="205.037" downloadSizeKB="190.564" directory="true"/>
+  <assets path="/external_tools/zwave_pc_controller.zip" diskSizeKB="360.611" downloadSizeKB="341.589" directory="true"/>
+  <assets path="/external_tools/wifi_power_estimator.zip" diskSizeKB="163.173" downloadSizeKB="156.262" directory="true"/>
+  <assets path="/external_tools/ncp_commander.zip" diskSizeKB="306.309" downloadSizeKB="292.66" directory="true"/>
+  <assets path="/external_tools/aox_analyzer.zip" diskSizeKB="336.738" downloadSizeKB="262.719" directory="true"/>
+  <assets path="/external_tools/simplicity_commander.zip" diskSizeKB="60.387" downloadSizeKB="55.626" directory="true"/>
+  <assets path="/external_tools/cs_analyzer.zip" diskSizeKB="274.841" downloadSizeKB="243.938" directory="true"/>
+</assets>

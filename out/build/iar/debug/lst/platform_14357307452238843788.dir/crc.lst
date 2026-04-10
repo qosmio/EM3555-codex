@@ -1,0 +1,240 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         04/Apr/2026  22:55:42
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\crc.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\crc.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\crc.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"crc.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\crc.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\crc.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\crc.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\crc.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\crc.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief  Generic firmware source for Cyclic Redundancy Check calculations.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "hal/micro/crc.h"
+     19          
+     20          /*
+     21           *    16bit CRC notes:
+     22           *    "CRC-CCITT"
+     23           *     poly is g(X) = X^16 + X^12 + X^5 + 1  (0x1021)
+     24           *     used in the FPGA (green boards and 15.4)
+     25           *     initial remainder should be 0xFFFF
+     26           */
+     27          
+     28          
+     29          
+     30          
+     31          
+     32          
+
+   \                                 In section .text, align 2, keep-with-next
+     33          uint16_t halCommonCrc16(uint8_t newByte, uint16_t prevResult)
+     34          {
+     35            prevResult = ((uint16_t) (prevResult >> 8)) | ((uint16_t) (prevResult << 8));
+     36            prevResult ^= newByte;
+   \                     halCommonCrc16: (+1)
+   \        0x0   0x460A             MOV      R2,R1
+   \        0x2   0x0A12             LSRS     R2,R2,#+8
+   \        0x4   0xEA42 0x2201      ORR      R2,R2,R1, LSL #+8
+   \        0x8   0x4050             EORS     R0,R0,R2
+     37            prevResult ^= (prevResult & 0xff) >> 4;
+   \        0xA   0xF3C0 0x1103      UBFX     R1,R0,#+4,#+4
+   \        0xE   0x4048             EORS     R0,R1,R0
+     38            prevResult ^= (uint16_t) (((uint16_t) (prevResult << 8)) << 4);
+   \       0x10   0xEA80 0x3000      EOR      R0,R0,R0, LSL #+12
+     39          
+     40          
+     41          
+     42          
+     43          
+     44          
+     45            prevResult ^= ((uint8_t) (((uint8_t) (prevResult & 0xff)) << 5))
+     46                          | ((uint16_t) ((uint16_t) ((uint8_t) (((uint8_t) (prevResult & 0xff)) >> 3)) << 8));
+     47          
+     48            return prevResult;
+   \       0x14   0x0141             LSLS     R1,R0,#+5
+   \       0x16   0xB2C9             UXTB     R1,R1
+   \       0x18   0x4602             MOV      R2,R0
+   \       0x1A   0xB2D2             UXTB     R2,R2
+   \       0x1C   0x08D2             LSRS     R2,R2,#+3
+   \       0x1E   0xEA41 0x2102      ORR      R1,R1,R2, LSL #+8
+   \       0x22   0x4048             EORS     R0,R1,R0
+   \       0x24   0xB280             UXTH     R0,R0
+   \       0x26   0x4770             BX       LR
+     49          }
+     50          
+     51          //--------------------------------------------------------------
+     52          // CRC-32
+     53          #define POLYNOMIAL              (0xEDB88320UL)
+     54          
+
+   \                                 In section .text, align 2, keep-with-next
+     55          uint32_t halCommonCrc32(uint8_t newByte, uint32_t prevResult)
+     56          {
+     57            uint8_t jj;
+     58            uint32_t previous;
+     59            uint32_t oper;
+     60          
+     61            previous = (prevResult >> 8) & 0x00FFFFFFL;
+   \                     halCommonCrc32: (+1)
+   \        0x0   0x460A             MOV      R2,R1
+     62            oper = (prevResult ^ newByte) & 0xFF;
+   \        0x2   0x4048             EORS     R0,R0,R1
+   \        0x4   0xF000 0x00FF      AND      R0,R0,#0xFF
+     63            for (jj = 0; jj < 8; jj++) {
+   \        0x8   0x2100             MOVS     R1,#+0
+   \        0xA   0xE008             B.N      ??halCommonCrc32_0
+     64              oper = ((oper & 0x01)
+     65                      ? ((oper >> 1) ^ POLYNOMIAL)
+     66                      : (oper >> 1));
+   \                     ??halCommonCrc32_1: (+1)
+   \        0xC   0x4618             MOV      R0,R3
+   \        0xE   0xE005             B.N      ??halCommonCrc32_2
+   \                     ??halCommonCrc32_3: (+1)
+   \       0x10   0x4603             MOV      R3,R0
+   \       0x12   0x085B             LSRS     R3,R3,#+1
+   \       0x14   0x07C0             LSLS     R0,R0,#+31
+   \       0x16   0xD5F9             BPL.N    ??halCommonCrc32_1
+   \       0x18   0x....             LDR.N    R0,??DataTable1
+   \       0x1A   0x4058             EORS     R0,R0,R3
+     67            }
+   \                     ??halCommonCrc32_2: (+1)
+   \       0x1C   0x1C49             ADDS     R1,R1,#+1
+   \                     ??halCommonCrc32_0: (+1)
+   \       0x1E   0x460B             MOV      R3,R1
+   \       0x20   0xB2DB             UXTB     R3,R3
+   \       0x22   0x2B08             CMP      R3,#+8
+   \       0x24   0xDBF4             BLT.N    ??halCommonCrc32_3
+     68          
+     69            return (previous ^ oper);
+   \       0x26   0xEA90 0x2012      EORS     R0,R0,R2, LSR #+8
+   \       0x2A   0x4770             BX       LR
+     70          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0xEDB8'8320        DC32     0xedb88320
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   halCommonCrc16
+       0   halCommonCrc32
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+      40  halCommonCrc16
+      44  halCommonCrc32
+
+ 
+ 88 bytes in section .text
+ 
+ 88 bytes of CODE memory
+
+Errors: none
+Warnings: none

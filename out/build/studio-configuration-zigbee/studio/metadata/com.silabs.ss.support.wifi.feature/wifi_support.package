@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.ss.support.wifi.feature"
+  label="WiFi Part Support"
+  description="Configuration support for WiFi parts"
+  changelog="changelog"
+  icon="icon_wifi_support.png"
+  partCompatibility="mcu.arm.efr32.*"
+  types="tool"
+  version="1.2.1"/>

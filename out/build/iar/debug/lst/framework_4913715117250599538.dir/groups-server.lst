@@ -1,0 +1,1235 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:54
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\groups-server\groups-server.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\groups-server.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\groups-server\groups-server.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"groups-server.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\groups-server\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\groups-server.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\groups-server.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\groups-server.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\groups-server.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\groups-server\groups-server.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Routines for the Groups Server plugin, the server implementation of
+      4           *        the Groups cluster.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          // *******************************************************************
+     20          // * groups-server.c
+     21          // *
+     22          // *
+     23          // * Copyright 2010 by Ember Corporation. All rights reserved.              *80*
+     24          // *******************************************************************
+     25          
+     26          #include "app/framework/include/af.h"
+     27          
+     28          #define GROUP_NAME_SUPPORT_ENABLED_BIT (0x80)
+     29          
+     30          void emberAfFillCommandGroupsClusterAddGroupResponse(EmberAfStatus status,
+     31                                                               uint16_t groupId);
+     32          void emberAfFillCommandGroupsClusterViewGroupResponse(EmberAfStatus status,
+     33                                                                uint16_t groupId,
+     34                                                                uint8_t *groupName);
+     35          void emberAfFillCommandGroupsClusterGetGroupMembershipResponse(uint8_t capacity,
+     36                                                                         uint8_t groupCount,
+     37                                                                         uint8_t *groupList,
+     38                                                                         uint16_t groupListLen);
+     39          void emberAfFillCommandGroupsClusterRemoveGroupResponse(EmberAfStatus status,
+     40                                                                  uint16_t groupId);
+     41          void emberAfScenesClusterRemoveScenesInGroupCallback(uint8_t endpoint,
+     42                                                               uint16_t groupId);
+     43          
+     44          static bool isGroupPresent(uint8_t endpoint, uint16_t groupId);
+     45          
+     46          static bool bindingGroupMatch(uint8_t endpoint,
+     47                                        uint16_t groupId,
+     48                                        EmberBindingTableEntry *entry);
+     49          
+     50          static uint8_t findGroupIndex(uint8_t endpoint, uint16_t groupId);
+     51          
+
+   \                                 In section .text, align 2, keep-with-next
+     52          void emberAfGroupsClusterServerInitCallback(uint8_t endpoint)
+     53          {
+   \                     emberAfGroupsClusterServerInitCallback: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     54            // The high bit of Name Support indicates whether group names are supported.
+     55            // Group names are not supported by this plugin.
+     56            EmberAfStatus status;
+     57            uint8_t nameSupport = 0;
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0xF88D 0x0008      STRB     R0,[SP, #+8]
+     58            if (emberAfPluginGroupsServerGroupNamesSupportedCallback(endpoint)) {
+   \        0xA   0x4620             MOV      R0,R4
+   \        0xC   0x.... 0x....      BL       emberAfPluginGroupsServerGroupNamesSupportedCallback
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD005             BEQ.N    ??emberAfGroupsClusterServerInitCallback_0
+     59              nameSupport |= GROUP_NAME_SUPPORT_ENABLED_BIT;
+   \       0x14   0xF89D 0x0008      LDRB     R0,[SP, #+8]
+   \       0x18   0xF040 0x0080      ORR      R0,R0,#0x80
+   \       0x1C   0xF88D 0x0008      STRB     R0,[SP, #+8]
+     60            }
+     61            status = emberAfWriteAttribute(endpoint,
+     62                                           ZCL_GROUPS_CLUSTER_ID,
+     63                                           ZCL_GROUP_NAME_SUPPORT_ATTRIBUTE_ID,
+     64                                           CLUSTER_MASK_SERVER,
+     65                                           (uint8_t *)&nameSupport,
+     66                                           ZCL_BITMAP8_ATTRIBUTE_TYPE);
+   \                     ??emberAfGroupsClusterServerInitCallback_0: (+1)
+   \       0x20   0x2018             MOVS     R0,#+24
+   \       0x22   0x9001             STR      R0,[SP, #+4]
+   \       0x24   0xA802             ADD      R0,SP,#+8
+   \       0x26   0x9000             STR      R0,[SP, #+0]
+   \       0x28   0x2301             MOVS     R3,#+1
+   \       0x2A   0x2200             MOVS     R2,#+0
+   \       0x2C   0x2104             MOVS     R1,#+4
+   \       0x2E   0x4620             MOV      R0,R4
+   \       0x30   0x.... 0x....      BL       emberAfWriteAttribute
+     67            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+     68              emberAfGroupsClusterPrintln("ERR: writing name support %x", status);
+     69            }
+     70          }
+   \       0x34   0xBD1F             POP      {R0-R4,PC}
+     71          
+     72          // --------------------------
+     73          // Internal functions used to maintain the group table within the context
+     74          // of the binding table.
+     75          //
+     76          // In the binding:
+     77          // The first two bytes of the identifier is set to the groupId
+     78          // The local endpoint is set to the endpoint that is mapped to this group
+     79          // --------------------------
+
+   \                                 In section .text, align 2, keep-with-next
+     80          static EmberAfStatus addEntryToGroupTable(uint8_t endpoint, uint16_t groupId, uint8_t *groupName)
+     81          {
+   \                     addEntryToGroupTable: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+   \        0x8   0x4616             MOV      R6,R2
+     82            uint8_t i;
+     83          
+     84            // Check for duplicates.
+     85            if (isGroupPresent(endpoint, groupId)) {
+   \        0xA   0x.... 0x....      BL       isGroupPresent
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD007             BEQ.N    ??addEntryToGroupTable_0
+     86              // Even if the group already exists, tell the application about the name,
+     87              // so it can cope with renames.
+     88              emberAfPluginGroupsServerSetGroupNameCallback(endpoint,
+     89                                                            groupId,
+     90                                                            groupName);
+   \       0x12   0x4632             MOV      R2,R6
+   \       0x14   0x4629             MOV      R1,R5
+   \       0x16   0x4620             MOV      R0,R4
+   \       0x18   0x.... 0x....      BL       emberAfPluginGroupsServerSetGroupNameCallback
+     91              return EMBER_ZCL_STATUS_DUPLICATE_EXISTS;
+   \       0x1C   0x208A             MOVS     R0,#+138
+   \                     ??addEntryToGroupTable_1: (+1)
+   \       0x1E   0xB005             ADD      SP,SP,#+20
+   \       0x20   0xBDF0             POP      {R4-R7,PC}
+     92            }
+     93          
+     94            // Look for an empty binding slot.
+     95            for (i = 0; i < EMBER_BINDING_TABLE_SIZE; i++) {
+   \                     ??addEntryToGroupTable_0: (+1)
+   \       0x22   0x2700             MOVS     R7,#+0
+   \       0x24   0xE000             B.N      ??addEntryToGroupTable_2
+   \                     ??addEntryToGroupTable_3: (+1)
+   \       0x26   0x1C7F             ADDS     R7,R7,#+1
+   \                     ??addEntryToGroupTable_2: (+1)
+   \       0x28   0x4638             MOV      R0,R7
+   \       0x2A   0xB2C0             UXTB     R0,R0
+   \       0x2C   0x2810             CMP      R0,#+16
+   \       0x2E   0xDA23             BGE.N    ??addEntryToGroupTable_4
+     96              EmberBindingTableEntry binding;
+     97              if (emberGetBinding(i, &binding) == EMBER_SUCCESS
+     98                  && binding.type == EMBER_UNUSED_BINDING) {
+   \       0x30   0x4669             MOV      R1,SP
+   \       0x32   0x4638             MOV      R0,R7
+   \       0x34   0xB2C0             UXTB     R0,R0
+   \       0x36   0x.... 0x....      BL       emberGetBinding
+   \       0x3A   0x2800             CMP      R0,#+0
+   \       0x3C   0xD1F3             BNE.N    ??addEntryToGroupTable_3
+   \       0x3E   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x42   0x2800             CMP      R0,#+0
+   \       0x44   0xD1EF             BNE.N    ??addEntryToGroupTable_3
+     99                EmberStatus status;
+    100                binding.type = EMBER_MULTICAST_BINDING;
+   \       0x46   0x2003             MOVS     R0,#+3
+   \       0x48   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    101                binding.identifier[0] = LOW_BYTE(groupId);
+   \       0x4C   0x4628             MOV      R0,R5
+   \       0x4E   0xF88D 0x0005      STRB     R0,[SP, #+5]
+    102                binding.identifier[1] = HIGH_BYTE(groupId);
+   \       0x52   0x0A00             LSRS     R0,R0,#+8
+   \       0x54   0xF88D 0x0006      STRB     R0,[SP, #+6]
+    103                binding.local = endpoint;
+   \       0x58   0xF88D 0x4001      STRB     R4,[SP, #+1]
+    104          
+    105                status = emberSetBinding(i, &binding);
+    106                if (status == EMBER_SUCCESS) {
+   \       0x5C   0x4669             MOV      R1,SP
+   \       0x5E   0x4638             MOV      R0,R7
+   \       0x60   0xB2C0             UXTB     R0,R0
+   \       0x62   0x.... 0x....      BL       emberSetBinding
+   \       0x66   0x2800             CMP      R0,#+0
+   \       0x68   0xD1DD             BNE.N    ??addEntryToGroupTable_3
+    107                  // Set the group name, if supported
+    108                  emberAfPluginGroupsServerSetGroupNameCallback(endpoint,
+    109                                                                groupId,
+    110                                                                groupName);
+   \       0x6A   0x4632             MOV      R2,R6
+   \       0x6C   0x4629             MOV      R1,R5
+   \       0x6E   0x4620             MOV      R0,R4
+   \       0x70   0x.... 0x....      BL       emberAfPluginGroupsServerSetGroupNameCallback
+    111                  return EMBER_ZCL_STATUS_SUCCESS;
+   \       0x74   0x2000             MOVS     R0,#+0
+   \       0x76   0xE7D2             B.N      ??addEntryToGroupTable_1
+    112                } else {
+    113                  emberAfGroupsClusterPrintln("ERR: Failed to create binding (0x%x)",
+    114                                              status);
+    115                }
+    116              }
+    117            }
+    118            emberAfGroupsClusterPrintln("ERR: Binding table is full");
+    119            return EMBER_ZCL_STATUS_INSUFFICIENT_SPACE;
+   \                     ??addEntryToGroupTable_4: (+1)
+   \       0x78   0x2089             MOVS     R0,#+137
+   \       0x7A   0xE7D0             B.N      ??addEntryToGroupTable_1
+    120          }
+    121          
+
+   \                                 In section .text, align 2, keep-with-next
+    122          static EmberAfStatus removeEntryFromGroupTable(uint8_t endpoint, uint16_t groupId)
+    123          {
+   \                     removeEntryFromGroupTable: (+1)
+   \        0x0   0xB530             PUSH     {R4,R5,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+    124            if (isGroupPresent(endpoint, groupId)) {
+   \        0x8   0x.... 0x....      BL       isGroupPresent
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD015             BEQ.N    ??removeEntryFromGroupTable_0
+    125              uint8_t bindingIndex = findGroupIndex(endpoint, groupId);
+   \       0x10   0x4629             MOV      R1,R5
+   \       0x12   0x4620             MOV      R0,R4
+   \       0x14   0x.... 0x....      BL       findGroupIndex
+    126              EmberStatus status = emberDeleteBinding(bindingIndex);
+    127              if (status == EMBER_SUCCESS) {
+   \       0x18   0x.... 0x....      BL       emberDeleteBinding
+   \       0x1C   0x2800             CMP      R0,#+0
+   \       0x1E   0xD10B             BNE.N    ??removeEntryFromGroupTable_1
+   \       0x20   0x2200             MOVS     R2,#+0
+   \       0x22   0x2111             MOVS     R1,#+17
+   \       0x24   0x4668             MOV      R0,SP
+   \       0x26   0x.... 0x....      BL       __aeabi_memset4
+    128                uint8_t groupName[ZCL_GROUPS_CLUSTER_MAXIMUM_NAME_LENGTH + 1] = { 0 };
+    129                emberAfPluginGroupsServerSetGroupNameCallback(endpoint,
+    130                                                              groupId,
+    131                                                              groupName);
+   \       0x2A   0x466A             MOV      R2,SP
+   \       0x2C   0x4629             MOV      R1,R5
+   \       0x2E   0x4620             MOV      R0,R4
+   \       0x30   0x.... 0x....      BL       emberAfPluginGroupsServerSetGroupNameCallback
+    132                return EMBER_ZCL_STATUS_SUCCESS;
+   \       0x34   0x2000             MOVS     R0,#+0
+   \       0x36   0xE002             B.N      ??removeEntryFromGroupTable_2
+    133              } else {
+    134                emberAfGroupsClusterPrintln("ERR: Failed to delete binding (0x%x)",
+    135                                            status);
+    136                return EMBER_ZCL_STATUS_FAILURE;
+   \                     ??removeEntryFromGroupTable_1: (+1)
+   \       0x38   0x2001             MOVS     R0,#+1
+   \       0x3A   0xE000             B.N      ??removeEntryFromGroupTable_2
+    137              }
+    138            }
+    139            return EMBER_ZCL_STATUS_NOT_FOUND;
+   \                     ??removeEntryFromGroupTable_0: (+1)
+   \       0x3C   0x208B             MOVS     R0,#+139
+   \                     ??removeEntryFromGroupTable_2: (+1)
+   \       0x3E   0xB005             ADD      SP,SP,#+20
+   \       0x40   0xBD30             POP      {R4,R5,PC}
+    140          }
+    141          
+
+   \                                 In section .text, align 2, keep-with-next
+    142          bool emberAfGroupsClusterAddGroupCallback(uint16_t groupId, uint8_t *groupName)
+    143          {
+   \                     emberAfGroupsClusterAddGroupCallback: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460A             MOV      R2,R1
+    144            EmberAfStatus status;
+    145          
+    146            emberAfGroupsClusterPrint("RX: AddGroup 0x%2x, \"", groupId);
+    147            emberAfGroupsClusterPrintString(groupName);
+    148            emberAfGroupsClusterPrintln("\"");
+    149          
+    150            status = addEntryToGroupTable(emberAfCurrentEndpoint(), groupId, groupName);
+   \        0x6   0x....             LDR.N    R5,??DataTable6
+   \        0x8   0x4621             MOV      R1,R4
+   \        0xA   0x6828             LDR      R0,[R5, #+0]
+   \        0xC   0x6800             LDR      R0,[R0, #+0]
+   \        0xE   0x7940             LDRB     R0,[R0, #+5]
+   \       0x10   0x.... 0x....      BL       addEntryToGroupTable
+    151          
+    152            // For all networks, Add Group commands are only responded to when
+    153            // they are addressed to a single device.
+    154            if (emberAfCurrentCommand()->type != EMBER_INCOMING_UNICAST
+    155                && emberAfCurrentCommand()->type != EMBER_INCOMING_UNICAST_REPLY) {
+   \       0x14   0x6829             LDR      R1,[R5, #+0]
+   \       0x16   0x7909             LDRB     R1,[R1, #+4]
+   \       0x18   0x2900             CMP      R1,#+0
+   \       0x1A   0xD003             BEQ.N    ??emberAfGroupsClusterAddGroupCallback_0
+   \       0x1C   0x2901             CMP      R1,#+1
+   \       0x1E   0xD001             BEQ.N    ??emberAfGroupsClusterAddGroupCallback_0
+    156              return true;
+   \       0x20   0x2001             MOVS     R0,#+1
+   \       0x22   0xBD32             POP      {R1,R4,R5,PC}
+    157            }
+    158            emberAfFillCommandGroupsClusterAddGroupResponse(status, groupId);
+   \                     ??emberAfGroupsClusterAddGroupCallback_0: (+1)
+   \       0x24   0x4621             MOV      R1,R4
+   \       0x26   0x.... 0x....      BL       emberAfFillCommandGroupsClusterAddGroupResponse
+    159            emberAfSendResponse();
+   \       0x2A   0x.... 0x....      BL       emberAfSendResponse
+    160            return true;
+   \       0x2E   0x2001             MOVS     R0,#+1
+   \       0x30   0xBD32             POP      {R1,R4,R5,PC}
+    161          }
+    162          
+
+   \                                 In section .text, align 2, keep-with-next
+    163          bool emberAfGroupsClusterViewGroupCallback(uint16_t groupId)
+    164          {
+   \                     emberAfGroupsClusterViewGroupCallback: (+1)
+   \        0x0   0xB578             PUSH     {R3-R6,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+   \        0x4   0x4604             MOV      R4,R0
+    165            EmberAfStatus status = EMBER_ZCL_STATUS_NOT_FOUND;
+   \        0x6   0x258B             MOVS     R5,#+139
+   \        0x8   0x2200             MOVS     R2,#+0
+   \        0xA   0x2111             MOVS     R1,#+17
+   \        0xC   0x4668             MOV      R0,SP
+   \        0xE   0x.... 0x....      BL       __aeabi_memset4
+    166            EmberStatus sendStatus;
+    167            uint8_t groupName[ZCL_GROUPS_CLUSTER_MAXIMUM_NAME_LENGTH + 1] = { 0 };
+    168          
+    169            // Get the group name, if supported
+    170            emberAfPluginGroupsServerGetGroupNameCallback(emberAfCurrentEndpoint(),
+    171                                                          groupId,
+    172                                                          groupName);
+   \       0x12   0x....             LDR.N    R6,??DataTable6
+   \       0x14   0x466A             MOV      R2,SP
+   \       0x16   0x4621             MOV      R1,R4
+   \       0x18   0x6830             LDR      R0,[R6, #+0]
+   \       0x1A   0x6800             LDR      R0,[R0, #+0]
+   \       0x1C   0x7940             LDRB     R0,[R0, #+5]
+   \       0x1E   0x.... 0x....      BL       emberAfPluginGroupsServerGetGroupNameCallback
+    173          
+    174            emberAfGroupsClusterPrintln("RX: ViewGroup 0x%2x", groupId);
+    175          
+    176            // For all networks, View Group commands can only be addressed to a
+    177            // single device.
+    178            if (emberAfCurrentCommand()->type != EMBER_INCOMING_UNICAST
+    179                && emberAfCurrentCommand()->type != EMBER_INCOMING_UNICAST_REPLY) {
+   \       0x22   0x6832             LDR      R2,[R6, #+0]
+   \       0x24   0x7910             LDRB     R0,[R2, #+4]
+   \       0x26   0x2800             CMP      R0,#+0
+   \       0x28   0xD003             BEQ.N    ??emberAfGroupsClusterViewGroupCallback_0
+   \       0x2A   0x2801             CMP      R0,#+1
+   \       0x2C   0xD001             BEQ.N    ??emberAfGroupsClusterViewGroupCallback_0
+    180              return true;
+   \       0x2E   0x2001             MOVS     R0,#+1
+   \       0x30   0xE00F             B.N      ??emberAfGroupsClusterViewGroupCallback_1
+    181            }
+    182          
+    183            if (isGroupPresent(emberAfCurrentEndpoint(), groupId)) {
+   \                     ??emberAfGroupsClusterViewGroupCallback_0: (+1)
+   \       0x32   0x4621             MOV      R1,R4
+   \       0x34   0x6810             LDR      R0,[R2, #+0]
+   \       0x36   0x7940             LDRB     R0,[R0, #+5]
+   \       0x38   0x.... 0x....      BL       isGroupPresent
+   \       0x3C   0x2800             CMP      R0,#+0
+   \       0x3E   0xD000             BEQ.N    ??emberAfGroupsClusterViewGroupCallback_2
+    184              status = EMBER_ZCL_STATUS_SUCCESS;
+   \       0x40   0x2500             MOVS     R5,#+0
+    185            }
+    186          
+    187            emberAfFillCommandGroupsClusterViewGroupResponse(status, groupId, groupName);
+   \                     ??emberAfGroupsClusterViewGroupCallback_2: (+1)
+   \       0x42   0x466A             MOV      R2,SP
+   \       0x44   0x4621             MOV      R1,R4
+   \       0x46   0x4628             MOV      R0,R5
+   \       0x48   0x.... 0x....      BL       emberAfFillCommandGroupsClusterViewGroupResponse
+    188            sendStatus = emberAfSendResponse();
+   \       0x4C   0x.... 0x....      BL       emberAfSendResponse
+    189            if (EMBER_SUCCESS != sendStatus) {
+    190              emberAfGroupsClusterPrintln("Groups: failed to send %s response: 0x%x",
+    191                                          "view_group",
+    192                                          sendStatus);
+    193            }
+    194            return true;
+   \       0x50   0x2001             MOVS     R0,#+1
+   \                     ??emberAfGroupsClusterViewGroupCallback_1: (+1)
+   \       0x52   0xB006             ADD      SP,SP,#+24
+   \       0x54   0xBD70             POP      {R4-R6,PC}
+    195          }
+    196          
+
+   \                                 In section .text, align 2, keep-with-next
+    197          bool emberAfGroupsClusterGetGroupMembershipCallback(uint8_t groupCount,
+    198                                                              uint8_t *groupList)
+    199          {
+   \                     emberAfGroupsClusterGetGroupMembershipCallback: (+1)
+   \        0x0   0xE92D 0x47F0      PUSH     {R4-R10,LR}
+   \        0x4   0xB08C             SUB      SP,SP,#+48
+    200            EmberStatus status;
+    201            uint8_t i, j;
+    202            uint8_t count = 0;
+   \        0x6   0x2400             MOVS     R4,#+0
+    203            uint8_t list[EMBER_BINDING_TABLE_SIZE << 1];
+    204            uint8_t listLen = 0;
+   \        0x8   0x4625             MOV      R5,R4
+    205          
+    206            emberAfGroupsClusterPrint("RX: GetGroupMembership 0x%x,", groupCount);
+    207            for (i = 0; i < groupCount; i++) {
+   \        0xA   0x4622             MOV      R2,R4
+   \        0xC   0x4606             MOV      R6,R0
+   \        0xE   0x4633             MOV      R3,R6
+   \       0x10   0xE000             B.N      ??emberAfGroupsClusterGetGroupMembershipCallbac_0
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_1: (+1)
+   \       0x12   0x1C52             ADDS     R2,R2,#+1
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_0: (+1)
+   \       0x14   0x4610             MOV      R0,R2
+   \       0x16   0xB2C0             UXTB     R0,R0
+   \       0x18   0x4298             CMP      R0,R3
+   \       0x1A   0xD3FA             BCC.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_1
+    208              emberAfGroupsClusterPrint(" [0x%2x]",
+    209                                        emberAfGetInt16u(groupList + (i << 1), 0, 2));
+    210            }
+    211            emberAfGroupsClusterPrintln("");
+    212          
+    213            // For all networks, Get Group Membership commands may be sent either
+    214            // unicast or broadcast (removing the ZLL-specific limitation to unicast).
+    215          
+    216            // When Group Count is zero, respond with a list of all active groups.
+    217            // Otherwise, respond with a list of matches.
+    218            if (groupCount == 0) {
+   \       0x1C   0x0030             MOVS     R0,R6
+   \       0x1E   0xD125             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_2
+    219              for (i = 0; i < EMBER_BINDING_TABLE_SIZE; i++) {
+   \       0x20   0x4627             MOV      R7,R4
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_3: (+1)
+   \       0x22   0x4638             MOV      R0,R7
+   \       0x24   0xB2C0             UXTB     R0,R0
+   \       0x26   0x2810             CMP      R0,#+16
+   \       0x28   0xDA65             BGE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_4
+    220                EmberBindingTableEntry entry;
+    221                status = emberGetBinding(i, &entry);
+    222                if ((status == EMBER_SUCCESS)
+    223                    && (entry.type == EMBER_MULTICAST_BINDING)
+    224                    && (entry.local == emberAfCurrentEndpoint())) {
+   \       0x2A   0x4669             MOV      R1,SP
+   \       0x2C   0x4638             MOV      R0,R7
+   \       0x2E   0xB2C0             UXTB     R0,R0
+   \       0x30   0x.... 0x....      BL       emberGetBinding
+   \       0x34   0x2800             CMP      R0,#+0
+   \       0x36   0xD117             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_5
+   \       0x38   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x3C   0x2803             CMP      R0,#+3
+   \       0x3E   0xD113             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_5
+   \       0x40   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x44   0x....             LDR.N    R1,??DataTable6
+   \       0x46   0x6809             LDR      R1,[R1, #+0]
+   \       0x48   0x6809             LDR      R1,[R1, #+0]
+   \       0x4A   0x7949             LDRB     R1,[R1, #+5]
+   \       0x4C   0x4288             CMP      R0,R1
+   \       0x4E   0xD10B             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_5
+    225                  list[listLen]     = entry.identifier[0];
+   \       0x50   0xF89D 0x0005      LDRB     R0,[SP, #+5]
+   \       0x54   0xA904             ADD      R1,SP,#+16
+   \       0x56   0x5548             STRB     R0,[R1, R5]
+    226                  list[listLen + 1] = entry.identifier[1];
+   \       0x58   0xF89D 0x0006      LDRB     R0,[SP, #+6]
+   \       0x5C   0xF10D 0x0111      ADD      R1,SP,#+17
+   \       0x60   0x5548             STRB     R0,[R1, R5]
+    227                  listLen += 2;
+   \       0x62   0x1CAD             ADDS     R5,R5,#+2
+   \       0x64   0xB2ED             UXTB     R5,R5
+    228                  count++;
+   \       0x66   0x1C64             ADDS     R4,R4,#+1
+    229                }
+    230              }
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_5: (+1)
+   \       0x68   0x1C7F             ADDS     R7,R7,#+1
+   \       0x6A   0xE7DA             B.N      ??emberAfGroupsClusterGetGroupMembershipCallbac_3
+    231            } else {
+    232              for (i = 0; i < groupCount; i++) {
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_2: (+1)
+   \       0x6C   0x46A0             MOV      R8,R4
+   \       0x6E   0x460F             MOV      R7,R1
+   \       0x70   0xE030             B.N      ??emberAfGroupsClusterGetGroupMembershipCallbac_6
+    233                uint16_t groupId = emberAfGetInt16u(groupList + (i << 1), 0, 2);
+    234                for (j = 0; j < EMBER_BINDING_TABLE_SIZE; j++) {
+    235                  EmberBindingTableEntry entry;
+    236                  status = emberGetBinding(j, &entry);
+    237                  if ((status == EMBER_SUCCESS)
+    238                      && (entry.type == EMBER_MULTICAST_BINDING)) {
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_7: (+1)
+   \       0x72   0x4669             MOV      R1,SP
+   \       0x74   0x4650             MOV      R0,R10
+   \       0x76   0xB2C0             UXTB     R0,R0
+   \       0x78   0x.... 0x....      BL       emberGetBinding
+   \       0x7C   0x2800             CMP      R0,#+0
+   \       0x7E   0xD121             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_8
+   \       0x80   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x84   0x2803             CMP      R0,#+3
+   \       0x86   0xD11D             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_8
+    239                    if (entry.local == emberAfCurrentEndpoint()
+    240                        && entry.identifier[0] == LOW_BYTE(groupId)
+    241                        && entry.identifier[1] == HIGH_BYTE(groupId)) {
+   \       0x88   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x8C   0x....             LDR.N    R1,??DataTable6
+   \       0x8E   0x6809             LDR      R1,[R1, #+0]
+   \       0x90   0x6809             LDR      R1,[R1, #+0]
+   \       0x92   0x7949             LDRB     R1,[R1, #+5]
+   \       0x94   0x4288             CMP      R0,R1
+   \       0x96   0xD115             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_8
+   \       0x98   0xF89D 0x0005      LDRB     R0,[SP, #+5]
+   \       0x9C   0x4601             MOV      R1,R0
+   \       0x9E   0x464A             MOV      R2,R9
+   \       0xA0   0xB2D2             UXTB     R2,R2
+   \       0xA2   0x4291             CMP      R1,R2
+   \       0xA4   0xD10E             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_8
+   \       0xA6   0xF89D 0x1006      LDRB     R1,[SP, #+6]
+   \       0xAA   0x460A             MOV      R2,R1
+   \       0xAC   0x464B             MOV      R3,R9
+   \       0xAE   0xEBB2 0x2F23      CMP      R2,R3, ASR #+8
+   \       0xB2   0xD107             BNE.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_8
+    242                      list[listLen]     = entry.identifier[0];
+   \       0xB4   0xAA04             ADD      R2,SP,#+16
+   \       0xB6   0x5550             STRB     R0,[R2, R5]
+    243                      list[listLen + 1] = entry.identifier[1];
+   \       0xB8   0xF10D 0x0011      ADD      R0,SP,#+17
+   \       0xBC   0x5541             STRB     R1,[R0, R5]
+    244                      listLen += 2;
+   \       0xBE   0x1CAD             ADDS     R5,R5,#+2
+   \       0xC0   0xB2ED             UXTB     R5,R5
+    245                      count++;
+   \       0xC2   0x1C64             ADDS     R4,R4,#+1
+    246                    }
+    247                  }
+    248                }
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_8: (+1)
+   \       0xC4   0xF10A 0x0A01      ADD      R10,R10,#+1
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_9: (+1)
+   \       0xC8   0x4650             MOV      R0,R10
+   \       0xCA   0xB2C0             UXTB     R0,R0
+   \       0xCC   0x2810             CMP      R0,#+16
+   \       0xCE   0xDBD0             BLT.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_7
+   \       0xD0   0xF108 0x0801      ADD      R8,R8,#+1
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_6: (+1)
+   \       0xD4   0x4640             MOV      R0,R8
+   \       0xD6   0x4631             MOV      R1,R6
+   \       0xD8   0xB2C0             UXTB     R0,R0
+   \       0xDA   0x4288             CMP      R0,R1
+   \       0xDC   0xD20B             BCS.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_4
+   \       0xDE   0x2202             MOVS     R2,#+2
+   \       0xE0   0x2100             MOVS     R1,#+0
+   \       0xE2   0x4640             MOV      R0,R8
+   \       0xE4   0xB2C0             UXTB     R0,R0
+   \       0xE6   0xEB07 0x0040      ADD      R0,R7,R0, LSL #+1
+   \       0xEA   0x.... 0x....      BL       emberAfGetInt16u
+   \       0xEE   0xF04F 0x0A00      MOV      R10,#+0
+   \       0xF2   0x4681             MOV      R9,R0
+   \       0xF4   0xE7E8             B.N      ??emberAfGroupsClusterGetGroupMembershipCallbac_9
+    249              }
+    250            }
+    251          
+    252            // Only send a response if the Group Count was zero or if one or more active
+    253            // groups matched.  Otherwise, a Default Response is sent.
+    254            if (groupCount == 0 || count != 0) {
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_4: (+1)
+   \       0xF6   0x2E00             CMP      R6,#+0
+   \       0xF8   0xD003             BEQ.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_10
+   \       0xFA   0x4620             MOV      R0,R4
+   \       0xFC   0xB2C0             UXTB     R0,R0
+   \       0xFE   0x2800             CMP      R0,#+0
+   \      0x100   0xD009             BEQ.N    ??emberAfGroupsClusterGetGroupMembershipCallbac_11
+    255              // A capacity of 0xFF means that it is unknown if any further groups may be
+    256              // added.  Each group requires a binding and, because the binding table is
+    257              // used for other purposes besides groups, we can't be sure what the
+    258              // capacity will be in the future.
+    259              emberAfFillCommandGroupsClusterGetGroupMembershipResponse(0xFF, // capacity
+    260                                                                        count,
+    261                                                                        list,
+    262                                                                        listLen);
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_10: (+1)
+   \      0x102   0x462B             MOV      R3,R5
+   \      0x104   0xAA04             ADD      R2,SP,#+16
+   \      0x106   0x4621             MOV      R1,R4
+   \      0x108   0xB2C9             UXTB     R1,R1
+   \      0x10A   0x20FF             MOVS     R0,#+255
+   \      0x10C   0x.... 0x....      BL       emberAfFillCommandGroupsClusterGetGroupMembershipResponse
+    263              status = emberAfSendResponse();
+   \      0x110   0x.... 0x....      BL       emberAfSendResponse
+   \      0x114   0xE002             B.N      ??emberAfGroupsClusterGetGroupMembershipCallbac_12
+    264            } else {
+    265              status = emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_NOT_FOUND);
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_11: (+1)
+   \      0x116   0x208B             MOVS     R0,#+139
+   \      0x118   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    266            }
+    267            if (EMBER_SUCCESS != status) {
+    268              emberAfGroupsClusterPrintln("Groups: failed to send %s: 0x%x",
+    269                                          (groupCount == 0 || count != 0)
+    270                                          ? "get_group_membership response"
+    271                                          : "default_response",
+    272                                          status);
+    273            }
+    274            return true;
+   \                     ??emberAfGroupsClusterGetGroupMembershipCallbac_12: (+1)
+   \      0x11C   0x2001             MOVS     R0,#+1
+   \      0x11E   0xB00C             ADD      SP,SP,#+48
+   \      0x120   0xE8BD 0x87F0      POP      {R4-R10,PC}
+    275          }
+    276          
+
+   \                                 In section .text, align 2, keep-with-next
+    277          bool emberAfGroupsClusterRemoveGroupCallback(uint16_t groupId)
+    278          {
+   \                     emberAfGroupsClusterRemoveGroupCallback: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    279            EmberAfStatus status;
+    280            EmberStatus sendStatus;
+    281          
+    282            emberAfGroupsClusterPrintln("RX: RemoveGroup 0x%2x", groupId);
+    283          
+    284            status = removeEntryFromGroupTable(emberAfCurrentEndpoint(),
+    285                                               groupId);
+   \        0x4   0x....             LDR.N    R6,??DataTable6
+   \        0x6   0x4621             MOV      R1,R4
+   \        0x8   0x6830             LDR      R0,[R6, #+0]
+   \        0xA   0x6800             LDR      R0,[R0, #+0]
+   \        0xC   0x7940             LDRB     R0,[R0, #+5]
+   \        0xE   0x.... 0x....      BL       removeEntryFromGroupTable
+   \       0x12   0x4605             MOV      R5,R0
+    286          
+    287            // For all networks, Remove Group commands are only responded to when
+    288            // they are addressed to a single device.
+    289            if (emberAfCurrentCommand()->type != EMBER_INCOMING_UNICAST
+    290                && emberAfCurrentCommand()->type != EMBER_INCOMING_UNICAST_REPLY) {
+   \       0x14   0x6832             LDR      R2,[R6, #+0]
+   \       0x16   0x7910             LDRB     R0,[R2, #+4]
+   \       0x18   0x2800             CMP      R0,#+0
+   \       0x1A   0xD003             BEQ.N    ??emberAfGroupsClusterRemoveGroupCallback_0
+   \       0x1C   0x2801             CMP      R0,#+1
+   \       0x1E   0xD001             BEQ.N    ??emberAfGroupsClusterRemoveGroupCallback_0
+    291              return true;
+   \       0x20   0x2001             MOVS     R0,#+1
+   \       0x22   0xBD70             POP      {R4-R6,PC}
+    292            }
+    293          
+    294            // EMAPPFWKV2-1414: if we remove a group, we should remove any scene
+    295            // associated with it. ZCL6: 3.6.2.3.5: "Note that if a group is
+    296            // removed the scenes associated with that group SHOULD be removed."
+    297            emberAfScenesClusterRemoveScenesInGroupCallback(emberAfCurrentEndpoint(),
+    298                                                            groupId);
+   \                     ??emberAfGroupsClusterRemoveGroupCallback_0: (+1)
+   \       0x24   0x4621             MOV      R1,R4
+   \       0x26   0x6810             LDR      R0,[R2, #+0]
+   \       0x28   0x7940             LDRB     R0,[R0, #+5]
+   \       0x2A   0x.... 0x....      BL       emberAfScenesClusterRemoveScenesInGroupCallback
+    299          
+    300            emberAfFillCommandGroupsClusterRemoveGroupResponse(status, groupId);
+   \       0x2E   0x4621             MOV      R1,R4
+   \       0x30   0x4628             MOV      R0,R5
+   \       0x32   0x.... 0x....      BL       emberAfFillCommandGroupsClusterRemoveGroupResponse
+    301            sendStatus = emberAfSendResponse();
+   \       0x36   0x.... 0x....      BL       emberAfSendResponse
+    302            if (EMBER_SUCCESS != sendStatus) {
+    303              emberAfGroupsClusterPrintln("Groups: failed to send %s response: 0x%x",
+    304                                          "remove_group",
+    305                                          sendStatus);
+    306            }
+    307            return true;
+   \       0x3A   0x2001             MOVS     R0,#+1
+   \       0x3C   0xBD70             POP      {R4-R6,PC}
+    308          }
+    309          
+
+   \                                 In section .text, align 2, keep-with-next
+    310          bool emberAfGroupsClusterRemoveAllGroupsCallback(void)
+    311          {
+   \                     emberAfGroupsClusterRemoveAllGroupsCallback: (+1)
+   \        0x0   0xE92D 0x41F8      PUSH     {R3-R8,LR}
+   \        0x4   0xB089             SUB      SP,SP,#+36
+    312            EmberStatus sendStatus;
+    313            uint8_t i, endpoint = emberAfCurrentEndpoint();
+   \        0x6   0x....             LDR.N    R4,??DataTable6
+   \        0x8   0x6820             LDR      R0,[R4, #+0]
+   \        0xA   0x6800             LDR      R0,[R0, #+0]
+   \        0xC   0x7945             LDRB     R5,[R0, #+5]
+    314            bool success = true;
+   \        0xE   0x2601             MOVS     R6,#+1
+    315          
+    316            emberAfGroupsClusterPrintln("RX: RemoveAllGroups");
+    317          
+    318            for (i = 0; i < EMBER_BINDING_TABLE_SIZE; i++) {
+   \       0x10   0x2700             MOVS     R7,#+0
+   \       0x12   0xE02C             B.N      ??emberAfGroupsClusterRemoveAllGroupsCallback_0
+    319              EmberBindingTableEntry binding;
+    320              if (emberGetBinding(i, &binding) == EMBER_SUCCESS) {
+    321                if (binding.type == EMBER_MULTICAST_BINDING
+    322                    && endpoint == binding.local) {
+    323                  EmberStatus status = emberDeleteBinding(i);
+    324                  if (status != EMBER_SUCCESS) {
+   \                     ??emberAfGroupsClusterRemoveAllGroupsCallback_1: (+1)
+   \       0x14   0x2200             MOVS     R2,#+0
+   \       0x16   0x2111             MOVS     R1,#+17
+   \       0x18   0xA804             ADD      R0,SP,#+16
+   \       0x1A   0x.... 0x....      BL       __aeabi_memset4
+    325                    success = false;
+    326                    emberAfGroupsClusterPrintln("ERR: Failed to delete binding (0x%x)",
+    327                                                status);
+    328                  } else {
+    329                    uint8_t groupName[ZCL_GROUPS_CLUSTER_MAXIMUM_NAME_LENGTH + 1] = { 0 };
+    330                    uint16_t groupId = HIGH_LOW_TO_INT(binding.identifier[1],
+    331                                                       binding.identifier[0]);
+   \       0x1E   0xF89D 0x0006      LDRB     R0,[SP, #+6]
+   \       0x22   0xF89D 0x8005      LDRB     R8,[SP, #+5]
+   \       0x26   0xEB08 0x2800      ADD      R8,R8,R0, LSL #+8
+    332                    emberAfPluginGroupsServerSetGroupNameCallback(endpoint,
+    333                                                                  groupId,
+    334                                                                  groupName);
+   \       0x2A   0xAA04             ADD      R2,SP,#+16
+   \       0x2C   0x4641             MOV      R1,R8
+   \       0x2E   0x4628             MOV      R0,R5
+   \       0x30   0x.... 0x....      BL       emberAfPluginGroupsServerSetGroupNameCallback
+    335                    success = true && success;
+    336          
+    337                    // EMAPPFWKV2-1414: if we remove a group, we should remove any scene
+    338                    // associated with it. ZCL6: 3.6.2.3.5: "Note that if a group is
+    339                    // removed the scenes associated with that group SHOULD be removed."
+    340                    emberAfScenesClusterRemoveScenesInGroupCallback(endpoint, groupId);
+   \       0x34   0x4641             MOV      R1,R8
+   \       0x36   0x4628             MOV      R0,R5
+   \       0x38   0x.... 0x....      BL       emberAfScenesClusterRemoveScenesInGroupCallback
+   \       0x3C   0xE016             B.N      ??emberAfGroupsClusterRemoveAllGroupsCallback_2
+    341                  }
+   \                     ??emberAfGroupsClusterRemoveAllGroupsCallback_3: (+1)
+   \       0x3E   0x4669             MOV      R1,SP
+   \       0x40   0x4638             MOV      R0,R7
+   \       0x42   0xB2C0             UXTB     R0,R0
+   \       0x44   0x.... 0x....      BL       emberGetBinding
+   \       0x48   0x2800             CMP      R0,#+0
+   \       0x4A   0xD10F             BNE.N    ??emberAfGroupsClusterRemoveAllGroupsCallback_2
+   \       0x4C   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x50   0x2803             CMP      R0,#+3
+   \       0x52   0xD10B             BNE.N    ??emberAfGroupsClusterRemoveAllGroupsCallback_2
+   \       0x54   0x4628             MOV      R0,R5
+   \       0x56   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \       0x5A   0x4288             CMP      R0,R1
+   \       0x5C   0xD106             BNE.N    ??emberAfGroupsClusterRemoveAllGroupsCallback_2
+   \       0x5E   0x4638             MOV      R0,R7
+   \       0x60   0xB2C0             UXTB     R0,R0
+   \       0x62   0x.... 0x....      BL       emberDeleteBinding
+   \       0x66   0x2800             CMP      R0,#+0
+   \       0x68   0xD0D4             BEQ.N    ??emberAfGroupsClusterRemoveAllGroupsCallback_1
+   \       0x6A   0x2600             MOVS     R6,#+0
+    342                }
+    343              }
+    344            }
+   \                     ??emberAfGroupsClusterRemoveAllGroupsCallback_2: (+1)
+   \       0x6C   0x1C7F             ADDS     R7,R7,#+1
+   \                     ??emberAfGroupsClusterRemoveAllGroupsCallback_0: (+1)
+   \       0x6E   0x4638             MOV      R0,R7
+   \       0x70   0xB2C0             UXTB     R0,R0
+   \       0x72   0x2810             CMP      R0,#+16
+   \       0x74   0xDBE3             BLT.N    ??emberAfGroupsClusterRemoveAllGroupsCallback_3
+    345          
+    346            emberAfScenesClusterRemoveScenesInGroupCallback(emberAfCurrentEndpoint(),
+    347                                                            ZCL_SCENES_GLOBAL_SCENE_GROUP_ID);
+   \       0x76   0x2100             MOVS     R1,#+0
+   \       0x78   0x6820             LDR      R0,[R4, #+0]
+   \       0x7A   0x6800             LDR      R0,[R0, #+0]
+   \       0x7C   0x7940             LDRB     R0,[R0, #+5]
+   \       0x7E   0x.... 0x....      BL       emberAfScenesClusterRemoveScenesInGroupCallback
+    348          
+    349            sendStatus = emberAfSendImmediateDefaultResponse(success
+    350                                                             ? EMBER_ZCL_STATUS_SUCCESS
+    351                                                             : EMBER_ZCL_STATUS_FAILURE);
+   \       0x82   0xF086 0x0601      EOR      R6,R6,#0x1
+   \       0x86   0x4630             MOV      R0,R6
+   \       0x88   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    352            if (EMBER_SUCCESS != sendStatus) {
+    353              emberAfGroupsClusterPrintln("Groups: failed to send %s: 0x%x",
+    354                                          "default_response",
+    355                                          sendStatus);
+    356            }
+    357            return true;
+   \       0x8C   0x2001             MOVS     R0,#+1
+   \       0x8E   0xB00A             ADD      SP,SP,#+40
+   \       0x90   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    358          }
+    359          
+
+   \                                 In section .text, align 2, keep-with-next
+    360          bool emberAfGroupsClusterAddGroupIfIdentifyingCallback(uint16_t groupId,
+    361                                                                 uint8_t *groupName)
+    362          {
+   \                     emberAfGroupsClusterAddGroupIfIdentifyingCallback: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    363            EmberAfStatus status;
+    364            EmberStatus sendStatus;
+    365          
+    366            emberAfGroupsClusterPrint("RX: AddGroupIfIdentifying 0x%2x, \"", groupId);
+    367            emberAfGroupsClusterPrintString(groupName);
+    368            emberAfGroupsClusterPrintln("\"");
+    369          
+    370            if (!emberAfIsDeviceIdentifying(emberAfCurrentEndpoint())) {
+   \        0x6   0x....             LDR.N    R6,??DataTable6
+   \        0x8   0x6830             LDR      R0,[R6, #+0]
+   \        0xA   0x6800             LDR      R0,[R0, #+0]
+   \        0xC   0x7940             LDRB     R0,[R0, #+5]
+   \        0xE   0x.... 0x....      BL       emberAfIsDeviceIdentifying
+   \       0x12   0x2800             CMP      R0,#+0
+   \       0x14   0xD101             BNE.N    ??emberAfGroupsClusterAddGroupIfIdentifyingCall_0
+    371              // If not identifying, ignore add group -> success; not a failure.
+    372              status = EMBER_ZCL_STATUS_SUCCESS;
+   \       0x16   0x2000             MOVS     R0,#+0
+   \       0x18   0xE006             B.N      ??emberAfGroupsClusterAddGroupIfIdentifyingCall_1
+    373            } else {
+    374              status = addEntryToGroupTable(emberAfCurrentEndpoint(),
+    375                                            groupId,
+    376                                            groupName);
+   \                     ??emberAfGroupsClusterAddGroupIfIdentifyingCall_0: (+1)
+   \       0x1A   0x462A             MOV      R2,R5
+   \       0x1C   0x4621             MOV      R1,R4
+   \       0x1E   0x6830             LDR      R0,[R6, #+0]
+   \       0x20   0x6800             LDR      R0,[R0, #+0]
+   \       0x22   0x7940             LDRB     R0,[R0, #+5]
+   \       0x24   0x.... 0x....      BL       addEntryToGroupTable
+    377            }
+    378          
+    379            sendStatus = emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfGroupsClusterAddGroupIfIdentifyingCall_1: (+1)
+   \       0x28   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    380            if (EMBER_SUCCESS != sendStatus) {
+    381              emberAfGroupsClusterPrintln("Groups: failed to send %s: 0x%x",
+    382                                          "default_response",
+    383                                          sendStatus);
+    384            }
+    385            return true;
+   \       0x2C   0x2001             MOVS     R0,#+1
+   \       0x2E   0xBD70             POP      {R4-R6,PC}
+    386          }
+    387          
+
+   \                                 In section .text, align 2, keep-with-next
+    388          bool emberAfGroupsClusterEndpointInGroupCallback(uint8_t endpoint,
+    389                                                           uint16_t groupId)
+    390          {
+    391            return isGroupPresent(endpoint, groupId);
+   \                     emberAfGroupsClusterEndpointInGroupCallback: (+1)
+   \        0x0   0x....             B.N      isGroupPresent
+    392          }
+    393          
+
+   \                                 In section .text, align 2, keep-with-next
+    394          void emberAfGroupsClusterClearGroupTableCallback(uint8_t endpoint)
+    395          {
+   \                     emberAfGroupsClusterClearGroupTableCallback: (+1)
+   \        0x0   0xB57F             PUSH     {R0-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    396            uint8_t i, networkIndex = emberGetCurrentNetwork();
+   \        0x4   0x.... 0x....      BL       emberGetCurrentNetwork
+   \        0x8   0x4605             MOV      R5,R0
+    397            for (i = 0; i < EMBER_BINDING_TABLE_SIZE; i++) {
+   \        0xA   0x2600             MOVS     R6,#+0
+   \        0xC   0xE01A             B.N      ??emberAfGroupsClusterClearGroupTableCallback_0
+    398              EmberBindingTableEntry binding;
+    399              if (emberGetBinding(i, &binding) == EMBER_SUCCESS
+    400                  && binding.type == EMBER_MULTICAST_BINDING
+    401                  && (endpoint == binding.local
+    402                      || (endpoint == EMBER_BROADCAST_ENDPOINT
+    403                          && networkIndex == binding.networkIndex))) {
+   \                     ??emberAfGroupsClusterClearGroupTableCallback_1: (+1)
+   \        0xE   0x4669             MOV      R1,SP
+   \       0x10   0x4630             MOV      R0,R6
+   \       0x12   0xB2C0             UXTB     R0,R0
+   \       0x14   0x.... 0x....      BL       emberGetBinding
+   \       0x18   0x2800             CMP      R0,#+0
+   \       0x1A   0xD112             BNE.N    ??emberAfGroupsClusterClearGroupTableCallback_2
+   \       0x1C   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x20   0x2803             CMP      R0,#+3
+   \       0x22   0xD10E             BNE.N    ??emberAfGroupsClusterClearGroupTableCallback_2
+   \       0x24   0x4620             MOV      R0,R4
+   \       0x26   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \       0x2A   0x4288             CMP      R0,R1
+   \       0x2C   0xD005             BEQ.N    ??emberAfGroupsClusterClearGroupTableCallback_3
+   \       0x2E   0x28FF             CMP      R0,#+255
+   \       0x30   0xD107             BNE.N    ??emberAfGroupsClusterClearGroupTableCallback_2
+   \       0x32   0xF89D 0x000D      LDRB     R0,[SP, #+13]
+   \       0x36   0x4285             CMP      R5,R0
+   \       0x38   0xD103             BNE.N    ??emberAfGroupsClusterClearGroupTableCallback_2
+    404                EmberStatus status = emberDeleteBinding(i);
+   \                     ??emberAfGroupsClusterClearGroupTableCallback_3: (+1)
+   \       0x3A   0x4630             MOV      R0,R6
+   \       0x3C   0xB2C0             UXTB     R0,R0
+   \       0x3E   0x.... 0x....      BL       emberDeleteBinding
+    405                if (status != EMBER_SUCCESS) {
+    406                  emberAfGroupsClusterPrintln("ERR: Failed to delete binding (0x%x)",
+    407                                              status);
+    408                }
+    409              }
+    410            }
+   \                     ??emberAfGroupsClusterClearGroupTableCallback_2: (+1)
+   \       0x42   0x1C76             ADDS     R6,R6,#+1
+   \                     ??emberAfGroupsClusterClearGroupTableCallback_0: (+1)
+   \       0x44   0x4630             MOV      R0,R6
+   \       0x46   0xB2C0             UXTB     R0,R0
+   \       0x48   0x2810             CMP      R0,#+16
+   \       0x4A   0xDBE0             BLT.N    ??emberAfGroupsClusterClearGroupTableCallback_1
+    411          }
+   \       0x4C   0xBD7F             POP      {R0-R6,PC}
+    412          
+
+   \                                 In section .text, align 2, keep-with-next
+    413          static bool isGroupPresent(uint8_t endpoint, uint16_t groupId)
+    414          {
+   \                     isGroupPresent: (+1)
+   \        0x0   0xB57F             PUSH     {R0-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    415            uint8_t i;
+    416          
+    417            for (i = 0; i < EMBER_BINDING_TABLE_SIZE; i++) {
+   \        0x6   0x2600             MOVS     R6,#+0
+   \        0x8   0xE000             B.N      ??isGroupPresent_0
+   \                     ??isGroupPresent_1: (+1)
+   \        0xA   0x1C76             ADDS     R6,R6,#+1
+   \                     ??isGroupPresent_0: (+1)
+   \        0xC   0x4630             MOV      R0,R6
+   \        0xE   0xB2C0             UXTB     R0,R0
+   \       0x10   0x2810             CMP      R0,#+16
+   \       0x12   0xDA10             BGE.N    ??isGroupPresent_2
+    418              EmberBindingTableEntry binding;
+    419              if (emberGetBinding(i, &binding) == EMBER_SUCCESS) {
+   \       0x14   0x4669             MOV      R1,SP
+   \       0x16   0x4630             MOV      R0,R6
+   \       0x18   0xB2C0             UXTB     R0,R0
+   \       0x1A   0x.... 0x....      BL       emberGetBinding
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD1F3             BNE.N    ??isGroupPresent_1
+    420                if (bindingGroupMatch(endpoint, groupId, &binding)) {
+   \       0x22   0x466A             MOV      R2,SP
+   \       0x24   0x4629             MOV      R1,R5
+   \       0x26   0x4620             MOV      R0,R4
+   \       0x28   0x.... 0x....      BL       bindingGroupMatch
+   \       0x2C   0x2800             CMP      R0,#+0
+   \       0x2E   0xD0EC             BEQ.N    ??isGroupPresent_1
+    421                  return true;
+   \       0x30   0x2001             MOVS     R0,#+1
+   \                     ??isGroupPresent_3: (+1)
+   \       0x32   0xB004             ADD      SP,SP,#+16
+   \       0x34   0xBD70             POP      {R4-R6,PC}
+    422                }
+    423              }
+    424            }
+    425          
+    426            return false;
+   \                     ??isGroupPresent_2: (+1)
+   \       0x36   0x2000             MOVS     R0,#+0
+   \       0x38   0xE7FB             B.N      ??isGroupPresent_3
+    427          }
+    428          
+
+   \                                 In section .text, align 2, keep-with-next
+    429          static bool bindingGroupMatch(uint8_t endpoint,
+    430                                        uint16_t groupId,
+    431                                        EmberBindingTableEntry *entry)
+    432          {
+   \                     bindingGroupMatch: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+    433            return (entry->type == EMBER_MULTICAST_BINDING
+    434                    && entry->identifier[0] == LOW_BYTE(groupId)
+    435                    && entry->identifier[1] == HIGH_BYTE(groupId)
+    436                    && entry->local == endpoint);
+   \        0x2   0x7813             LDRB     R3,[R2, #+0]
+   \        0x4   0x2B03             CMP      R3,#+3
+   \        0x6   0xD10D             BNE.N    ??bindingGroupMatch_0
+   \        0x8   0x7953             LDRB     R3,[R2, #+5]
+   \        0xA   0x460C             MOV      R4,R1
+   \        0xC   0xB2E4             UXTB     R4,R4
+   \        0xE   0x42A3             CMP      R3,R4
+   \       0x10   0xD108             BNE.N    ??bindingGroupMatch_0
+   \       0x12   0x7993             LDRB     R3,[R2, #+6]
+   \       0x14   0xEBB3 0x2F11      CMP      R3,R1, LSR #+8
+   \       0x18   0xD104             BNE.N    ??bindingGroupMatch_0
+   \       0x1A   0x7851             LDRB     R1,[R2, #+1]
+   \       0x1C   0x4281             CMP      R1,R0
+   \       0x1E   0xD101             BNE.N    ??bindingGroupMatch_0
+   \       0x20   0x2001             MOVS     R0,#+1
+   \       0x22   0xE000             B.N      ??bindingGroupMatch_1
+   \                     ??bindingGroupMatch_0: (+1)
+   \       0x24   0x2000             MOVS     R0,#+0
+   \                     ??bindingGroupMatch_1: (+1)
+   \       0x26   0xBC10             POP      {R4}
+   \       0x28   0x4770             BX       LR
+    437          }
+    438          
+
+   \                                 In section .text, align 2, keep-with-next
+    439          static uint8_t findGroupIndex(uint8_t endpoint, uint16_t groupId)
+    440          {
+   \                     findGroupIndex: (+1)
+   \        0x0   0xB57F             PUSH     {R0-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    441            EmberStatus status;
+    442            uint8_t i;
+    443          
+    444            for (i = 0; i < EMBER_BINDING_TABLE_SIZE; i++) {
+   \        0x6   0x2600             MOVS     R6,#+0
+   \        0x8   0xE000             B.N      ??findGroupIndex_0
+   \                     ??findGroupIndex_1: (+1)
+   \        0xA   0x1C76             ADDS     R6,R6,#+1
+   \                     ??findGroupIndex_0: (+1)
+   \        0xC   0x4630             MOV      R0,R6
+   \        0xE   0xB2C0             UXTB     R0,R0
+   \       0x10   0x2810             CMP      R0,#+16
+   \       0x12   0xDA11             BGE.N    ??findGroupIndex_2
+    445              EmberBindingTableEntry entry;
+    446              status = emberGetBinding(i, &entry);
+    447              if ((status == EMBER_SUCCESS)
+    448                  && bindingGroupMatch(endpoint, groupId, &entry)) {
+   \       0x14   0x4669             MOV      R1,SP
+   \       0x16   0x4630             MOV      R0,R6
+   \       0x18   0xB2C0             UXTB     R0,R0
+   \       0x1A   0x.... 0x....      BL       emberGetBinding
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD1F3             BNE.N    ??findGroupIndex_1
+   \       0x22   0x466A             MOV      R2,SP
+   \       0x24   0x4629             MOV      R1,R5
+   \       0x26   0x4620             MOV      R0,R4
+   \       0x28   0x.... 0x....      BL       bindingGroupMatch
+   \       0x2C   0x2800             CMP      R0,#+0
+   \       0x2E   0xD0EC             BEQ.N    ??findGroupIndex_1
+    449                return i;
+   \       0x30   0x4630             MOV      R0,R6
+   \       0x32   0xB2C0             UXTB     R0,R0
+   \                     ??findGroupIndex_3: (+1)
+   \       0x34   0xB004             ADD      SP,SP,#+16
+   \       0x36   0xBD70             POP      {R4-R6,PC}
+    450              }
+    451            }
+    452            return EMBER_AF_GROUP_TABLE_NULL_INDEX;
+   \                     ??findGroupIndex_2: (+1)
+   \       0x38   0x20FF             MOVS     R0,#+255
+   \       0x3A   0xE7FB             B.N      ??findGroupIndex_3
+    453          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6:
+   \        0x0   0x....'....        DC32     emAfCurrentCommand
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      40   addEntryToGroupTable
+        40   -> emberAfPluginGroupsServerSetGroupNameCallback
+        40   -> emberGetBinding
+        40   -> emberSetBinding
+        40   -> isGroupPresent
+       4   bindingGroupMatch
+      16   emberAfGroupsClusterAddGroupCallback
+        16   -> addEntryToGroupTable
+        16   -> emberAfFillCommandGroupsClusterAddGroupResponse
+        16   -> emberAfSendResponse
+      16   emberAfGroupsClusterAddGroupIfIdentifyingCallback
+        16   -> addEntryToGroupTable
+        16   -> emberAfIsDeviceIdentifying
+        16   -> emberAfSendImmediateDefaultResponse
+      32   emberAfGroupsClusterClearGroupTableCallback
+        32   -> emberDeleteBinding
+        32   -> emberGetBinding
+        32   -> emberGetCurrentNetwork
+       0   emberAfGroupsClusterEndpointInGroupCallback
+         0   -> isGroupPresent
+      80   emberAfGroupsClusterGetGroupMembershipCallback
+        80   -> emberAfFillCommandGroupsClusterGetGroupMembershipResponse
+        80   -> emberAfGetInt16u
+        80   -> emberAfSendImmediateDefaultResponse
+        80   -> emberAfSendResponse
+        80   -> emberGetBinding
+      64   emberAfGroupsClusterRemoveAllGroupsCallback
+        64   -> __aeabi_memset4
+        64   -> emberAfPluginGroupsServerSetGroupNameCallback
+        64   -> emberAfScenesClusterRemoveScenesInGroupCallback
+        64   -> emberAfSendImmediateDefaultResponse
+        64   -> emberDeleteBinding
+        64   -> emberGetBinding
+      16   emberAfGroupsClusterRemoveGroupCallback
+        16   -> emberAfFillCommandGroupsClusterRemoveGroupResponse
+        16   -> emberAfScenesClusterRemoveScenesInGroupCallback
+        16   -> emberAfSendResponse
+        16   -> removeEntryFromGroupTable
+      24   emberAfGroupsClusterServerInitCallback
+        24   -> emberAfPluginGroupsServerGroupNamesSupportedCallback
+        24   -> emberAfWriteAttribute
+      40   emberAfGroupsClusterViewGroupCallback
+        40   -> __aeabi_memset4
+        40   -> emberAfFillCommandGroupsClusterViewGroupResponse
+        40   -> emberAfPluginGroupsServerGetGroupNameCallback
+        40   -> emberAfSendResponse
+        40   -> isGroupPresent
+      32   findGroupIndex
+        32   -> bindingGroupMatch
+        32   -> emberGetBinding
+      32   isGroupPresent
+        32   -> bindingGroupMatch
+        32   -> emberGetBinding
+      32   removeEntryFromGroupTable
+        32   -> __aeabi_memset4
+        32   -> emberAfPluginGroupsServerSetGroupNameCallback
+        32   -> emberDeleteBinding
+        32   -> findGroupIndex
+        32   -> isGroupPresent
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable6
+     124  addEntryToGroupTable
+      42  bindingGroupMatch
+      50  emberAfGroupsClusterAddGroupCallback
+      48  emberAfGroupsClusterAddGroupIfIdentifyingCallback
+      78  emberAfGroupsClusterClearGroupTableCallback
+       2  emberAfGroupsClusterEndpointInGroupCallback
+     292  emberAfGroupsClusterGetGroupMembershipCallback
+     148  emberAfGroupsClusterRemoveAllGroupsCallback
+      62  emberAfGroupsClusterRemoveGroupCallback
+      54  emberAfGroupsClusterServerInitCallback
+      86  emberAfGroupsClusterViewGroupCallback
+      60  findGroupIndex
+      58  isGroupPresent
+      66  removeEntryFromGroupTable
+
+ 
+ 1'174 bytes in section .text
+ 
+ 1'174 bytes of CODE memory
+
+Errors: none
+Warnings: none

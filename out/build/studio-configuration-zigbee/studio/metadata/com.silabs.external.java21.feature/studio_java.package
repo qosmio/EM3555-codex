@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.external.java21.feature" 
+  label="Bundled JRE Support" 
+  description="Simplicity Studio Bundled JRE Support" 
+  changelog="changelog" 
+  version="21.0.5"/>

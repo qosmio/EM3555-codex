@@ -1,0 +1,250 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:33
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\ledvance_vendor.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\ledvance_vendor.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\src\ledvance_vendor.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"ledvance_vendor.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\ledvance_vendor.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\ledvance_vendor.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir\ledvance_vendor.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\ledvance_vendor.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\src\ledvance_vendor.c
+      1          #include "ledvance_vendor.h"
+      2          
+      3          #include "app_runtime.h"
+      4          #include "config/firmware_config.h"
+      5          #include "light_state.h"
+      6          
+
+   \                                 In section .text, align 4, keep-with-next
+      7          bool em3555LedvanceHandlePreCommand(EmberAfClusterCommand *cmd)
+      8          {
+   \                     em3555LedvanceHandlePreCommand: (+1)
+   \        0x0   0xB57C             PUSH     {R2-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+      9            if (cmd == NULL || cmd->apsFrame == NULL) {
+   \        0x4   0xD017             BEQ.N    ??em3555LedvanceHandlePreCommand_1
+   \        0x6   0x6820             LDR      R0,[R4, #+0]
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD014             BEQ.N    ??em3555LedvanceHandlePreCommand_1
+     10              return false;
+     11            }
+     12          
+     13            if (cmd->apsFrame->destinationEndpoint != EM3555_LIGHT_ENDPOINT
+     14                && cmd->apsFrame->destinationEndpoint != 0xFFU) {
+   \        0xC   0x7941             LDRB     R1,[R0, #+5]
+   \        0xE   0x2903             CMP      R1,#+3
+   \       0x10   0xD001             BEQ.N    ??em3555LedvanceHandlePreCommand_2
+   \       0x12   0x29FF             CMP      R1,#+255
+   \       0x14   0xD10F             BNE.N    ??em3555LedvanceHandlePreCommand_1
+     15              return false;
+     16            }
+     17          
+     18            if (!cmd->clusterSpecific
+     19                || !cmd->mfgSpecific
+     20                || cmd->mfgCode != EM3555_OSRAM_MANUFACTURER_CODE
+     21                || cmd->apsFrame->clusterId != EM3555_OSRAM_CLUSTER_ID) {
+   \                     ??em3555LedvanceHandlePreCommand_2: (+1)
+   \       0x16   0x7BA1             LDRB     R1,[R4, #+14]
+   \       0x18   0x2900             CMP      R1,#+0
+   \       0x1A   0xD00C             BEQ.N    ??em3555LedvanceHandlePreCommand_1
+   \       0x1C   0x7BE1             LDRB     R1,[R4, #+15]
+   \       0x1E   0x2900             CMP      R1,#+0
+   \       0x20   0xD009             BEQ.N    ??em3555LedvanceHandlePreCommand_1
+   \       0x22   0xF241 0x150C      MOVW     R5,#+4364
+   \       0x26   0x8A21             LDRH     R1,[R4, #+16]
+   \       0x28   0x42A9             CMP      R1,R5
+   \       0x2A   0xD104             BNE.N    ??em3555LedvanceHandlePreCommand_1
+   \       0x2C   0xF64F 0x460F      MOVW     R6,#+64527
+   \       0x30   0x8840             LDRH     R0,[R0, #+2]
+   \       0x32   0x42B0             CMP      R0,R6
+   \       0x34   0xD001             BEQ.N    ??em3555LedvanceHandlePreCommand_3
+     22              return false;
+   \                     ??em3555LedvanceHandlePreCommand_1: (+1)
+   \       0x36   0x2000             MOVS     R0,#+0
+   \       0x38   0xBD76             POP      {R1,R2,R4-R6,PC}
+     23            }
+     24          
+     25            switch (cmd->commandId) {
+   \                     ??em3555LedvanceHandlePreCommand_3: (+1)
+   \       0x3A   0x7CE0             LDRB     R0,[R4, #+19]
+   \       0x3C   0x2801             CMP      R0,#+1
+   \       0x3E   0xD002             BEQ.N    ??em3555LedvanceHandlePreCommand_4
+   \       0x40   0x2802             CMP      R0,#+2
+   \       0x42   0xD011             BEQ.N    ??em3555LedvanceHandlePreCommand_5
+   \       0x44   0xE01B             B.N      ??em3555LedvanceHandlePreCommand_6
+     26              case EM3555_OSRAM_CMD_SAVE_STARTUP_PARAMS:
+     27                em3555LightStateSetRememberState(true);
+   \                     ??em3555LedvanceHandlePreCommand_4: (+1)
+   \       0x46   0x2001             MOVS     R0,#+1
+   \       0x48   0x.... 0x....      BL       em3555LightStateSetRememberState
+     28                em3555ApplyLightStateAndPersist();
+   \       0x4C   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+     29                emberAfFillExternalManufacturerSpecificBuffer(ZCL_CLUSTER_SPECIFIC_COMMAND
+     30                                                              | ZCL_FRAME_CONTROL_SERVER_TO_CLIENT
+     31                                                              | ZCL_MANUFACTURER_SPECIFIC_MASK
+     32                                                              | EMBER_AF_DEFAULT_RESPONSE_POLICY_RESPONSES,
+     33                                                              EM3555_OSRAM_CLUSTER_ID,
+     34                                                              EM3555_OSRAM_MANUFACTURER_CODE,
+     35                                                              0x00U,
+     36                                                              "");
+   \       0x50   0xA00E             ADR.N    R0,??em3555LedvanceHandlePreCommand_0
+   \       0x52   0x9000             STR      R0,[SP, #+0]
+   \       0x54   0x2300             MOVS     R3,#+0
+   \       0x56   0x462A             MOV      R2,R5
+   \       0x58   0x4631             MOV      R1,R6
+   \       0x5A   0x200D             MOVS     R0,#+13
+   \       0x5C   0x.... 0x....      BL       emberAfFillExternalManufacturerSpecificBuffer
+     37                (void)emberAfSendResponse();
+   \       0x60   0x.... 0x....      BL       emberAfSendResponse
+     38                return true;
+   \       0x64   0x2001             MOVS     R0,#+1
+   \       0x66   0xBD76             POP      {R1,R2,R4-R6,PC}
+     39          
+     40              case EM3555_OSRAM_CMD_RESET_STARTUP_PARAMS:
+     41                em3555LightStateSetRememberState(false);
+   \                     ??em3555LedvanceHandlePreCommand_5: (+1)
+   \       0x68   0x2000             MOVS     R0,#+0
+   \       0x6A   0x.... 0x....      BL       em3555LightStateSetRememberState
+     42                em3555ApplyLightStateAndPersist();
+   \       0x6E   0x.... 0x....      BL       em3555ApplyLightStateAndPersist
+     43                (void)emberAfSendDefaultResponse(cmd, EMBER_ZCL_STATUS_SUCCESS);
+   \       0x72   0x2100             MOVS     R1,#+0
+   \       0x74   0x4620             MOV      R0,R4
+   \       0x76   0x.... 0x....      BL       emberAfSendDefaultResponse
+     44                return true;
+   \       0x7A   0x2001             MOVS     R0,#+1
+   \       0x7C   0xBD76             POP      {R1,R2,R4-R6,PC}
+     45          
+     46              default:
+     47                (void)emberAfSendDefaultResponse(cmd, EMBER_ZCL_STATUS_INVALID_VALUE);
+   \                     ??em3555LedvanceHandlePreCommand_6: (+1)
+   \       0x7E   0x2187             MOVS     R1,#+135
+   \       0x80   0x4620             MOV      R0,R4
+   \       0x82   0x.... 0x....      BL       emberAfSendDefaultResponse
+     48                return true;
+   \       0x86   0x2001             MOVS     R0,#+1
+   \       0x88   0xBD76             POP      {R1,R2,R4-R6,PC}
+   \       0x8A   0xBF00             Nop
+   \                     ??em3555LedvanceHandlePreCommand_0:
+   \       0x8C   0x00 0x00          DC8      "",0x0,0x0,0x0 
+   \              0x00 0x00
+     49            }
+     50          }
+
+   \                                 In section .rodata, align 1
+   \        0x0   0x00               DC8 ""
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   em3555LedvanceHandlePreCommand
+        24   -> em3555ApplyLightStateAndPersist
+        24   -> em3555LightStateSetRememberState
+        24   -> emberAfFillExternalManufacturerSpecificBuffer
+        24   -> emberAfSendDefaultResponse
+        24   -> emberAfSendResponse
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       1  ?_0
+     144  em3555LedvanceHandlePreCommand
+
+ 
+   1 byte  in section .rodata
+ 144 bytes in section .text
+ 
+ 144 bytes of CODE  memory
+   1 byte  of CONST memory
+
+Errors: none
+Warnings: none

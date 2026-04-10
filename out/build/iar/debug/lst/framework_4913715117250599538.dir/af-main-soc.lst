@@ -1,0 +1,2022 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:45
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\af-main-soc.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\af-main-soc.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\af-main-soc.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"af-main-soc.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\af-main-soc.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\af-main-soc.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\af-main-soc.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\af-main-soc.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\af-main-soc.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include "app/framework/include/af.h"
+     19          #include "app/framework/util/attribute-storage.h"
+     20          #include "app/util/serial/command-interpreter2.h"
+     21          
+     22          // ZDO
+     23          #include "app/util/zigbee-framework/zigbee-device-common.h"
+     24          #include "app/util/zigbee-framework/zigbee-device-library.h"
+     25          
+     26          #include "app/util/counters/counters.h"
+     27          #include "app/util/security/security.h"
+     28          #include "app/util/common/form-and-join.h"
+     29          
+     30          #include "app/framework/util/service-discovery.h"
+     31          #include "app/framework/util/af-main.h"
+     32          #include "app/framework/util/util.h"
+     33          
+     34          #include "app/framework/security/af-security.h"
+     35          #include "app/framework/security/crypto-state.h"
+     36          
+     37          #include "app/framework/plugin/partner-link-key-exchange/partner-link-key-exchange.h"
+     38          #include "app/framework/plugin/fragmentation/fragmentation.h"
+     39          
+     40          #include "znet-bookkeeping.h"
+     41          
+     42          #include "stack/include/source-route.h"
+     43          #include "stack/include/aes-mmo.h"
+     44          
+     45          #if defined(CORTEXM3_EFR32_MICRO) || defined(CORTEXM3_EMBER_MICRO)
+     46            #define EXTENDED_RESET_INFO
+     47            #include "hal/micro/cortexm3/diagnostic.h"
+     48          #endif
+     49          
+     50          // *****************************************************************************
+     51          // Globals
+     52          
+     53          // APP_SERIAL is set in the project files
+
+   \                                 In section .bss, align 1
+     54          uint8_t serialPort = APP_SERIAL;
+   \                     serialPort:
+   \        0x0                      DS8 1
+     55          
+     56          #if (EMBER_AF_BAUD_RATE == 300)
+     57            #define BAUD_RATE BAUD_300
+     58          #elif (EMBER_AF_BAUD_RATE == 600)
+     59            #define BAUD_RATE BAUD_600
+     60          #elif (EMBER_AF_BAUD_RATE == 900)
+     61            #define BAUD_RATE BAUD_900
+     62          #elif (EMBER_AF_BAUD_RATE == 1200)
+     63            #define BAUD_RATE BAUD_1200
+     64          #elif (EMBER_AF_BAUD_RATE == 2400)
+     65            #define BAUD_RATE BAUD_2400
+     66          #elif (EMBER_AF_BAUD_RATE == 4800)
+     67            #define BAUD_RATE BAUD_4800
+     68          #elif (EMBER_AF_BAUD_RATE == 9600)
+     69            #define BAUD_RATE BAUD_9600
+     70          #elif (EMBER_AF_BAUD_RATE == 14400)
+     71            #define BAUD_RATE BAUD_14400
+     72          #elif (EMBER_AF_BAUD_RATE == 19200)
+     73            #define BAUD_RATE BAUD_19200
+     74          #elif (EMBER_AF_BAUD_RATE == 28800)
+     75            #define BAUD_RATE BAUD_28800
+     76          #elif (EMBER_AF_BAUD_RATE == 38400)
+     77            #define BAUD_RATE BAUD_38400
+     78          #elif (EMBER_AF_BAUD_RATE == 50000)
+     79            #define BAUD_RATE BAUD_50000
+     80          #elif (EMBER_AF_BAUD_RATE == 57600)
+     81            #define BAUD_RATE BAUD_57600
+     82          #elif (EMBER_AF_BAUD_RATE == 76800)
+     83            #define BAUD_RATE BAUD_76800
+     84          #elif (EMBER_AF_BAUD_RATE == 100000)
+     85            #define BAUD_RATE BAUD_100000
+     86          #elif (EMBER_AF_BAUD_RATE == 115200)
+     87            #define BAUD_RATE BAUD_115200
+     88          #elif (EMBER_AF_BAUD_RATE == 230400)
+     89            #define BAUD_RATE BAUD_230400
+     90          #elif (EMBER_AF_BAUD_RATE == 460800)
+     91            #define BAUD_RATE BAUD_460800
+     92          #elif defined(HAL_CONFIG)
+     93            #define BAUD_RATE HAL_SERIAL_APP_BAUD_RATE
+     94          #else
+     95            #error EMBER_AF_BAUD_RATE set to an invalid baud rate
+     96          #endif
+     97          
+     98          #if defined(MAIN_FUNCTION_HAS_STANDARD_ARGUMENTS)
+     99            #define APP_FRAMEWORK_MAIN_ARGUMENTS argc, argv
+    100          #else
+    101            #define APP_FRAMEWORK_MAIN_ARGUMENTS 0, NULL
+    102          #endif
+    103          
+    104          #if defined(__CYGWIN__)
+    105          // This is necessary when running simulation on Windows.
+    106          const EmberLibraryStatus emNcpLibraryStatus = EMBER_LIBRARY_IS_STUB;
+    107          #endif
+    108          
+    109          // *****************************************************************************
+    110          // Forward declarations.
+    111          
+    112          void emAfInit(void);
+    113          void emAfTick(void);
+    114          void emAfZigbeeKeyEstablishment(EmberEUI64 partner, EmberKeyStatus status);
+    115          void emAfMarkBuffers(void);
+    116          void emberAfNetworkFoundCallback(EmberZigbeeNetwork *networkFound,
+    117                                           uint8_t lqi,
+    118                                           int8_t rssi);
+    119          void emberAfScanCompleteCallback(uint8_t channel, EmberStatus status);
+    120          void emberAfEnergyScanResultCallback(uint8_t channel, int8_t rssi);
+    121          void emberAfUnusedPanIdFoundCallback(EmberPanId panId, uint8_t channel);
+    122          
+    123          #if defined(EMBER_TEST) && defined(EMBER_AF_PLUGIN_OTA_STORAGE_SIMPLE_EEPROM)
+    124          void emAfSetupFakeEepromForSimulation(void);
+    125            #define SETUP_FAKE_EEPROM_FOR_SIMULATION() emAfSetupFakeEepromForSimulation()
+    126          #else
+    127            #define SETUP_FAKE_EEPROM_FOR_SIMULATION()
+    128          #endif
+    129          
+    130          #if defined(ZA_CLI_FULL)
+    131            #define COMMAND_READER_INIT() emberCommandReaderInit()
+    132          #else
+    133            #define COMMAND_READER_INIT()
+    134          #endif
+    135          
+    136          // *****************************************************************************
+    137          // Functions
+    138          
+
+   \                                 In section .text, align 2, keep-with-next
+    139          void emberAfMainInit(void)
+    140          {
+   \                     emberAfMainInit: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+    141            SETUP_FAKE_EEPROM_FOR_SIMULATION();
+    142          
+    143            INTERRUPTS_ON();  // Safe to enable interrupts at this point
+   \        0x2   0x.... 0x....      BL       _enableBasePri
+    144          
+    145            emberSerialInit(APP_SERIAL, BAUD_RATE, PARITY_NONE, 1);
+   \        0x6   0x2301             MOVS     R3,#+1
+   \        0x8   0x2200             MOVS     R2,#+0
+   \        0xA   0x210F             MOVS     R1,#+15
+   \        0xC   0x4610             MOV      R0,R2
+   \        0xE   0x.... 0x....      BL       emberSerialInit
+    146          
+    147            emberAfCorePrintln("Reset info: 0x%x (%p)",
+    148                               halGetResetInfo(),
+    149                               halGetResetString());
+    150          
+    151          #if defined(EXTENDED_RESET_INFO)
+    152            emberAfCorePrintln("Extended Reset info: 0x%2X (%p)",
+    153                               halGetExtendedResetInfo(),
+    154                               halGetExtendedResetString());
+    155          
+    156            if (halResetWasCrash()) {
+   \       0x12   0xF240 0x74A1      MOVW     R4,#+1953
+   \       0x16   0x.... 0x....      BL       halGetResetInfo
+   \       0x1A   0x4104             ASRS     R4,R4,R0
+   \       0x1C   0x07E0             LSLS     R0,R4,#+31
+   \       0x1E   0xD50C             BPL.N    ??emberAfMainInit_0
+    157              halPrintCrashSummary(serialPort);
+   \       0x20   0x.... 0x....      LDR.W    R4,??DataTable7
+   \       0x24   0x7820             LDRB     R0,[R4, #+0]
+   \       0x26   0x.... 0x....      BL       halPrintCrashSummary
+    158              halPrintCrashDetails(serialPort);
+   \       0x2A   0x7820             LDRB     R0,[R4, #+0]
+   \       0x2C   0x.... 0x....      BL       halPrintCrashDetails
+    159              halPrintCrashData(serialPort);
+   \       0x30   0x7820             LDRB     R0,[R4, #+0]
+   \       0x32   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x36   0x.... 0x....      B.W      halPrintCrashData
+    160            }
+    161          #endif
+    162          }
+   \                     ??emberAfMainInit_0: (+1)
+   \       0x3A   0xBD10             POP      {R4,PC}
+    163          
+
+   \                                 In section .text, align 2, keep-with-next
+    164          int emberAfMain(MAIN_FUNCTION_PARAMETERS)
+    165          {
+   \                     emberAfMain: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    166            EmberStatus status;
+    167          
+    168            {
+    169              int returnCode;
+    170              if (emberAfMainStartCallback(&returnCode, APP_FRAMEWORK_MAIN_ARGUMENTS)) {
+   \        0x2   0x2200             MOVS     R2,#+0
+   \        0x4   0x4611             MOV      R1,R2
+   \        0x6   0x4668             MOV      R0,SP
+   \        0x8   0x.... 0x....      BL       emberAfMainStartCallback
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD001             BEQ.N    ??emberAfMain_0
+    171                return returnCode;
+   \       0x10   0x9800             LDR      R0,[SP, #+0]
+   \       0x12   0xBD02             POP      {R1,PC}
+    172              }
+    173            }
+    174          
+    175            // Initialize the Ember Stack.
+    176            status = emberInit();
+    177          
+    178            #ifdef EMBER_AF_PLUGIN_EM4 // prevent the call in em3xx case
+    179          // we moved this before emberInit to pre-initialize the tokens
+    180            #if defined(EMBER_TEST)
+    181            uint8_t reset;
+    182            reset = halGetResetInfo();
+    183            if (reset == RESET_2xx_SOFTWARE_EM4) {
+    184              // This can only be called if idle-sleep plugin is enabled, and em4 is OK.
+    185              emberAfPostEm4ResetCallback();
+    186            }
+    187          #else
+    188            uint16_t extReset;
+    189            extReset = halGetExtendedResetInfo();
+    190            emberAfDebugPrintln("extReset reason is: %d while RESET_SOFTWARE_EM4 is %d, and RESET_EXTERNAL_EM4PIN is %d",
+    191                                extReset,
+    192                                RESET_SOFTWARE_EM4,
+    193                                RESET_EXTERNAL_EM4PIN);
+    194            if (extReset == RESET_SOFTWARE_EM4 || extReset == RESET_EXTERNAL_EM4PIN) {
+    195              emberAfPostEm4ResetCallback();
+    196            }
+    197          #endif // EMBER_TEST
+    198          #endif //#ifdef EMBER_AF_PLUGIN_EM4
+    199          
+    200            if (status != EMBER_SUCCESS) {
+   \                     ??emberAfMain_0: (+1)
+   \       0x14   0x.... 0x....      BL       emberInit
+   \       0x18   0x2800             CMP      R0,#+0
+   \       0x1A   0xD004             BEQ.N    ??emberAfMain_1
+    201              emberAfCorePrintln("%pemberInit 0x%x", "ERROR: ", status);
+    202          
+    203              // The app can choose what to do here.  If the app is running
+    204              // another device then it could stay running and report the
+    205              // error visually for example. This app asserts.
+    206              assert(false);
+   \       0x1C   0x21CE             MOVS     R1,#+206
+   \       0x1E   0x.... 0x....      LDR.W    R0,??DataTable7_1
+   \       0x22   0x.... 0x....      BL       halInternalAssertFailed
+    207            } else {
+    208              emberAfDebugPrintln("init pass");
+    209            }
+    210          
+    211            // This will initialize the stack of networks maintained by the framework,
+    212            // including setting the default network.
+    213            emAfInitializeNetworkIndexStack();
+   \                     ??emberAfMain_1: (+1)
+   \       0x26   0x.... 0x....      BL       emAfInitializeNetworkIndexStack
+    214          
+    215            // Initialize messageSentCallbacks table
+    216            emAfInitializeMessageSentCallbackArray();
+   \       0x2A   0x.... 0x....      BL       emAfInitializeMessageSentCallbackArray
+    217          
+    218            emberAfEndpointConfigure();
+   \       0x2E   0x.... 0x....      BL       emberAfEndpointConfigure
+    219          
+    220            emAfInit();
+   \       0x32   0x.... 0x....      BL       emAfInit
+    221          
+    222            // The address cache needs to be initialized and used with the source routing
+    223            // code for the trust center to operate properly.
+    224            securityAddressCacheInit(EMBER_AF_PLUGIN_ADDRESS_TABLE_SIZE,                     // offset
+    225                                     EMBER_AF_PLUGIN_ADDRESS_TABLE_TRUST_CENTER_CACHE_SIZE); // size
+   \       0x36   0x2102             MOVS     R1,#+2
+   \       0x38   0x2008             MOVS     R0,#+8
+   \       0x3A   0x.... 0x....      BL       securityAddressCacheInit
+    226          
+    227            emAfNetworkSecurityInit();
+   \       0x3E   0x.... 0x....      BL       emAfNetworkSecurityInit
+    228            EM_AF_NETWORK_INIT();
+   \       0x42   0x.... 0x....      BL       emAfNetworkInit
+    229          
+    230            COMMAND_READER_INIT();
+    231          
+    232            // Set the manufacturing code. This is defined by ZigBee document 053874r10
+    233            // Ember's ID is 0x1002 and is the default, but this can be overridden in App Builder.
+    234            emberSetManufacturerCode(EMBER_AF_MANUFACTURER_CODE);
+   \       0x46   0xF241 0x100C      MOVW     R0,#+4364
+   \       0x4A   0x.... 0x....      LDR.W    R1,??DataTable7_2
+   \       0x4E   0x8008             STRH     R0,[R1, #+0]
+    235          
+    236            emberSetMaximumIncomingTransferSize(EMBER_AF_INCOMING_BUFFER_LENGTH);
+   \       0x50   0x2052             MOVS     R0,#+82
+   \       0x52   0x.... 0x....      LDR.W    R1,??DataTable7_3
+   \       0x56   0x8008             STRH     R0,[R1, #+0]
+    237            emberSetMaximumOutgoingTransferSize(EMBER_AF_MAXIMUM_SEND_PAYLOAD_LENGTH);
+   \       0x58   0x.... 0x....      LDR.W    R1,??DataTable7_4
+   \       0x5C   0x8008             STRH     R0,[R1, #+0]
+    238            emberSetTxPowerMode(EMBER_AF_TX_POWER_MODE);
+   \       0x5E   0x2000             MOVS     R0,#+0
+   \       0x60   0x.... 0x....      BL       emberSetTxPowerMode
+   \       0x64   0xE003             B.N      ??emberAfMain_2
+    239          
+    240            while (true) {
+    241              halResetWatchdog();   // Periodically reset the watchdog.
+    242              emberTick();          // Allow the stack to run.
+    243              // Allow the ZCL clusters and plugin ticks to run. This should go
+    244              // immediately after emberTick
+    245              // Skip these ticks if a crypto operation is ongoing
+    246              if (0 == emAfIsCryptoOperationInProgress()) {
+    247                emAfTick();
+    248              }
+    249          
+    250              emberAfRunEvents();
+   \                     ??emberAfMain_3: (+1)
+   \       0x66   0x.... 0x....      BL       emberAfRunEvents
+    251          
+    252          #if defined(ZA_CLI_FULL)
+    253              if (emberProcessCommandInput(APP_SERIAL)) {
+    254                emberAfGuaranteedPrint("%p>", ZA_PROMPT);
+    255              }
+    256          #endif
+    257          
+    258          #if defined(EMBER_TEST)
+    259              if (true) {
+    260                // Simulation only
+    261                uint32_t timeToNextEventMax = emberMsToNextStackEvent();
+    262                timeToNextEventMax = emberAfMsToNextEvent(timeToNextEventMax);
+    263                simulatedTimePassesMs(timeToNextEventMax);
+    264              }
+    265          #endif
+    266          
+    267              // After each interation through the main loop, our network index stack
+    268              // should be empty and we should be on the default network index again.
+    269              emAfAssertNetworkIndexStackIsEmpty();
+   \       0x6A   0x.... 0x....      BL       emAfAssertNetworkIndexStackIsEmpty
+    270          
+    271              if (false) {
+   \                     ??emberAfMain_2: (+1)
+   \       0x6E   0x.... 0x....      BL       halInternalResetWatchDog
+   \       0x72   0x.... 0x....      BL       emberTick
+   \       0x76   0x.... 0x....      BL       emAfGetCryptoStatus
+   \       0x7A   0x2801             CMP      R0,#+1
+   \       0x7C   0xD0F3             BEQ.N    ??emberAfMain_3
+   \       0x7E   0x.... 0x....      BL       emAfTick
+   \       0x82   0xE7F0             B.N      ??emberAfMain_3
+    272                break;
+    273              }
+    274            }
+    275            return 0;
+    276          }
+    277          
+
+   \                                 In section .text, align 2, keep-with-next
+    278          void emberAfGetMfgString(uint8_t* returnData)
+    279          {
+    280            halCommonGetMfgToken(returnData, TOKEN_MFG_STRING);
+   \                     emberAfGetMfgString: (+1)
+   \        0x0   0x2310             MOVS     R3,#+16
+   \        0x2   0x227F             MOVS     R2,#+127
+   \        0x4   0x.... 0x....      LDR.W    R1,??DataTable7_5
+   \        0x8   0x8809             LDRH     R1,[R1, #+0]
+   \        0xA   0x.... 0x....      B.W      halInternalGetMfgTokenData
+    281          }
+    282          
+
+   \                                 In section .text, align 2, keep-with-next
+    283          EmberNodeId emberAfGetNodeId(void)
+    284          {
+    285            return emberGetNodeId();
+   \                     emberAfGetNodeId: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetNodeId
+    286          }
+    287          
+
+   \                                 In section .text, align 2, keep-with-next
+    288          EmberPanId emberAfGetPanId(void)
+    289          {
+    290            return emberGetPanId();
+   \                     emberAfGetPanId: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetPanId
+    291          }
+    292          
+
+   \                                 In section .text, align 2, keep-with-next
+    293          EmberNetworkStatus emberAfNetworkState(void)
+    294          {
+    295            return emberNetworkState();
+   \                     emberAfNetworkState: (+1)
+   \        0x0   0x.... 0x....      B.W      emberNetworkState
+    296          }
+    297          
+
+   \                                 In section .text, align 2, keep-with-next
+    298          uint8_t emberAfGetRadioChannel(void)
+    299          {
+    300            return emberGetRadioChannel();
+   \                     emberAfGetRadioChannel: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetRadioChannel
+    301          }
+    302          
+
+   \                                 In section .text, align 2, keep-with-next
+    303          uint8_t emberAfGetBindingIndex(void)
+    304          {
+    305            return emberGetBindingIndex();
+   \                     emberAfGetBindingIndex: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetBindingIndex
+    306          }
+    307          
+
+   \                                 In section .text, align 2, keep-with-next
+    308          uint8_t emberAfGetStackProfile(void)
+    309          {
+    310            return emberStackProfile();
+   \                     emberAfGetStackProfile: (+1)
+   \        0x0   0x.... 0x....      B.W      emberStackProfile
+    311          }
+    312          
+
+   \                                 In section .text, align 2, keep-with-next
+    313          uint8_t emberAfGetAddressIndex(void)
+    314          {
+   \                     emberAfGetAddressIndex: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+    315            EmberEUI64 longId;
+    316            EmberEUI64 longIdIterator;
+    317            uint8_t i;
+    318          
+    319            if ((emberGetSenderEui64(longId)) == EMBER_SUCCESS) {
+   \        0x4   0xA802             ADD      R0,SP,#+8
+   \        0x6   0x.... 0x....      BL       emberGetSenderEui64
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD112             BNE.N    ??emberAfGetAddressIndex_0
+    320              for (i = 0; i < EMBER_AF_PLUGIN_ADDRESS_TABLE_SIZE; i++) {
+   \        0xE   0x2400             MOVS     R4,#+0
+   \                     ??emberAfGetAddressIndex_1: (+1)
+   \       0x10   0x4620             MOV      R0,R4
+   \       0x12   0xB2C0             UXTB     R0,R0
+   \       0x14   0x2808             CMP      R0,#+8
+   \       0x16   0xDA24             BGE.N    ??emberAfGetAddressIndex_2
+    321                emberGetAddressTableRemoteEui64(i, longIdIterator);
+   \       0x18   0x4669             MOV      R1,SP
+   \       0x1A   0x4620             MOV      R0,R4
+   \       0x1C   0xB2C0             UXTB     R0,R0
+   \       0x1E   0x.... 0x....      BL       emberGetAddressTableRemoteEui64
+    322                if (MEMCOMPARE(longIdIterator, longId, EUI64_SIZE) == 0) {
+   \       0x22   0x2208             MOVS     R2,#+8
+   \       0x24   0xA902             ADD      R1,SP,#+8
+   \       0x26   0x4668             MOV      R0,SP
+   \       0x28   0x.... 0x....      BL       memcmp
+   \       0x2C   0x2800             CMP      R0,#+0
+   \       0x2E   0xD015             BEQ.N    ??emberAfGetAddressIndex_3
+    323                  return i;
+    324                }
+    325              }
+   \       0x30   0x1C64             ADDS     R4,R4,#+1
+   \       0x32   0xE7ED             B.N      ??emberAfGetAddressIndex_1
+    326            } else {
+    327              EmberNodeId nodeId = emberGetSender();
+   \                     ??emberAfGetAddressIndex_0: (+1)
+   \       0x34   0x.... 0x....      BL       emberGetSender
+   \       0x38   0x4605             MOV      R5,R0
+    328              if (nodeId == EMBER_NULL_NODE_ID) {
+   \       0x3A   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x3E   0x4285             CMP      R5,R0
+   \       0x40   0xD00F             BEQ.N    ??emberAfGetAddressIndex_2
+    329                return EMBER_NULL_ADDRESS_TABLE_INDEX;
+    330              }
+    331              for (i = 0; i < EMBER_AF_PLUGIN_ADDRESS_TABLE_SIZE; i++) {
+   \       0x42   0x2400             MOVS     R4,#+0
+   \       0x44   0xE000             B.N      ??emberAfGetAddressIndex_4
+   \                     ??emberAfGetAddressIndex_5: (+1)
+   \       0x46   0x1C64             ADDS     R4,R4,#+1
+   \                     ??emberAfGetAddressIndex_4: (+1)
+   \       0x48   0x4620             MOV      R0,R4
+   \       0x4A   0xB2C0             UXTB     R0,R0
+   \       0x4C   0x2808             CMP      R0,#+8
+   \       0x4E   0xDA08             BGE.N    ??emberAfGetAddressIndex_2
+    332                if (emberGetAddressTableRemoteNodeId(i) == nodeId) {
+   \       0x50   0x4620             MOV      R0,R4
+   \       0x52   0xB2C0             UXTB     R0,R0
+   \       0x54   0x.... 0x....      BL       emberGetAddressTableRemoteNodeId
+   \       0x58   0x42A8             CMP      R0,R5
+   \       0x5A   0xD1F4             BNE.N    ??emberAfGetAddressIndex_5
+    333                  return i;
+   \                     ??emberAfGetAddressIndex_3: (+1)
+   \       0x5C   0x4620             MOV      R0,R4
+   \       0x5E   0xB2C0             UXTB     R0,R0
+   \       0x60   0xE000             B.N      ??emberAfGetAddressIndex_6
+    334                }
+    335              }
+    336            }
+    337            return EMBER_NULL_ADDRESS_TABLE_INDEX;
+   \                     ??emberAfGetAddressIndex_2: (+1)
+   \       0x62   0x20FF             MOVS     R0,#+255
+   \                     ??emberAfGetAddressIndex_6: (+1)
+   \       0x64   0xB005             ADD      SP,SP,#+20
+   \       0x66   0xBD30             POP      {R4,R5,PC}
+    338          }
+    339          
+    340          // ******************************************************************
+    341          // binding
+    342          // ******************************************************************
+
+   \                                 In section .text, align 2, keep-with-next
+    343          EmberStatus emberAfSendEndDeviceBind(uint8_t endpoint)
+    344          {
+   \                     emberAfSendEndDeviceBind: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    345            EmberStatus status;
+    346            EmberApsOption options = ((EMBER_AF_DEFAULT_APS_OPTIONS
+    347                                       | EMBER_APS_OPTION_SOURCE_EUI64)
+    348                                      & ~EMBER_APS_OPTION_RETRY);
+    349          
+    350            status = emberAfPushEndpointNetworkIndex(endpoint);
+   \        0x4   0x.... 0x....      BL       emberAfPushEndpointNetworkIndex
+    351            if (status != EMBER_SUCCESS) {
+   \        0x8   0x0001             MOVS     R1,R0
+   \        0xA   0xD108             BNE.N    ??emberAfSendEndDeviceBind_0
+    352              return status;
+    353            }
+    354          
+    355            emberAfZdoPrintln("send %x %2x", endpoint, options);
+    356            status = emberEndDeviceBindRequest(endpoint, options);
+   \        0xC   0xF44F 0x51A8      MOV      R1,#+5376
+   \       0x10   0x4620             MOV      R0,R4
+   \       0x12   0x.... 0x....      BL       emberEndDeviceBindRequest
+   \       0x16   0x4604             MOV      R4,R0
+    357            emberAfZdoPrintln("done: %x.", status);
+    358            emberAfZdoFlush();
+    359          
+    360            emberAfPopNetworkIndex();
+   \       0x18   0x.... 0x....      BL       emberAfPopNetworkIndex
+    361            return status;
+   \       0x1C   0x4620             MOV      R0,R4
+   \                     ??emberAfSendEndDeviceBind_0: (+1)
+   \       0x1E   0xBD10             POP      {R4,PC}
+    362          }
+    363          
+
+   \                                 In section .text, align 2, keep-with-next
+    364          EmberZdoStatus emberRemoteSetBindingHandler(EmberBindingTableEntry *entry)
+    365          {
+   \                     emberRemoteSetBindingHandler: (+1)
+   \        0x0   0xB57F             PUSH     {R0-R6,LR}
+   \        0x2   0x4605             MOV      R5,R0
+    366            EmberStatus setStatus;
+    367            EmberZdoStatus status = EMBER_ZDP_TABLE_FULL;
+    368            EmberBindingTableEntry candidate;
+    369            uint8_t i;
+    370          
+    371            emberAfPushCallbackNetworkIndex();
+   \        0x4   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    372          
+    373            // If we receive a bind request for the Key Establishment cluster and we are
+    374            // not the trust center, then we are doing partner link key exchange.  We
+    375            // don't actually have to create a binding.
+    376            if (emberAfGetNodeId() != EMBER_TRUST_CENTER_NODE_ID
+    377                && entry->clusterId == ZCL_KEY_ESTABLISHMENT_CLUSTER_ID) {
+   \        0x8   0x.... 0x....      BL       emberAfGetNodeId
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD008             BEQ.N    ??emberRemoteSetBindingHandler_0
+   \       0x10   0x8868             LDRH     R0,[R5, #+2]
+   \       0x12   0xF5B0 0x6F00      CMP      R0,#+2048
+   \       0x16   0xD104             BNE.N    ??emberRemoteSetBindingHandler_0
+    378              status = emberAfPartnerLinkKeyExchangeRequestCallback(entry->identifier);
+   \       0x18   0x1D68             ADDS     R0,R5,#+5
+   \       0x1A   0x.... 0x....      BL       emberAfPartnerLinkKeyExchangeRequestCallback
+   \       0x1E   0x4604             MOV      R4,R0
+    379              goto kickout;
+   \       0x20   0xE029             B.N      ??emberRemoteSetBindingHandler_1
+    380            }
+    381          
+    382            // ask the application if current binding request is allowed or not
+    383            status = emberAfRemoteSetBindingPermissionCallback(entry) == EMBER_SUCCESS ? EMBER_ZDP_SUCCESS : EMBER_ZDP_NOT_AUTHORIZED;
+   \                     ??emberRemoteSetBindingHandler_0: (+1)
+   \       0x22   0x4628             MOV      R0,R5
+   \       0x24   0x.... 0x....      BL       emberAfRemoteSetBindingPermissionCallback
+   \       0x28   0x2800             CMP      R0,#+0
+   \       0x2A   0xD101             BNE.N    ??emberRemoteSetBindingHandler_2
+   \       0x2C   0x2400             MOVS     R4,#+0
+   \       0x2E   0xE000             B.N      ??emberRemoteSetBindingHandler_3
+   \                     ??emberRemoteSetBindingHandler_2: (+1)
+   \       0x30   0x248D             MOVS     R4,#+141
+    384            if (status == EMBER_ZDP_SUCCESS) {
+   \                     ??emberRemoteSetBindingHandler_3: (+1)
+   \       0x32   0x0020             MOVS     R0,R4
+   \       0x34   0xD11F             BNE.N    ??emberRemoteSetBindingHandler_1
+    385              // For all other requests, we search the binding table for an unused entry
+    386              // and store the new entry there if we find one.
+    387              for (i = 0; i < EMBER_BINDING_TABLE_SIZE; i++) {
+   \       0x36   0x2600             MOVS     R6,#+0
+   \       0x38   0xE000             B.N      ??emberRemoteSetBindingHandler_4
+   \                     ??emberRemoteSetBindingHandler_5: (+1)
+   \       0x3A   0x1C76             ADDS     R6,R6,#+1
+   \                     ??emberRemoteSetBindingHandler_4: (+1)
+   \       0x3C   0x4630             MOV      R0,R6
+   \       0x3E   0xB2C0             UXTB     R0,R0
+   \       0x40   0x2810             CMP      R0,#+16
+   \       0x42   0xDA17             BGE.N    ??emberRemoteSetBindingHandler_6
+    388                if (emberGetBinding(i, &candidate) == EMBER_SUCCESS
+    389                    && candidate.type == EMBER_UNUSED_BINDING) {
+   \       0x44   0x4669             MOV      R1,SP
+   \       0x46   0x4630             MOV      R0,R6
+   \       0x48   0xB2C0             UXTB     R0,R0
+   \       0x4A   0x.... 0x....      BL       emberGetBinding
+   \       0x4E   0x2800             CMP      R0,#+0
+   \       0x50   0xD1F3             BNE.N    ??emberRemoteSetBindingHandler_5
+   \       0x52   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x56   0x2800             CMP      R0,#+0
+   \       0x58   0xD1EF             BNE.N    ??emberRemoteSetBindingHandler_5
+    390                  setStatus = emberSetBinding(i, entry);
+   \       0x5A   0x4629             MOV      R1,R5
+   \       0x5C   0x4630             MOV      R0,R6
+   \       0x5E   0xB2C0             UXTB     R0,R0
+   \       0x60   0x.... 0x....      BL       emberSetBinding
+    391                  status = setStatus == EMBER_SUCCESS ? EMBER_ZDP_SUCCESS // binding set
+    392                           : (setStatus == EMBER_BINDING_IS_ACTIVE ? EMBER_ZDP_NOT_PERMITTED // selected index is active
+    393                              : EMBER_ZDP_TABLE_FULL); // report full for any other failure
+   \       0x64   0x2800             CMP      R0,#+0
+   \       0x66   0xD006             BEQ.N    ??emberRemoteSetBindingHandler_1
+   \       0x68   0x2875             CMP      R0,#+117
+   \       0x6A   0xD101             BNE.N    ??emberRemoteSetBindingHandler_7
+   \       0x6C   0x248B             MOVS     R4,#+139
+   \       0x6E   0xE002             B.N      ??emberRemoteSetBindingHandler_1
+   \                     ??emberRemoteSetBindingHandler_7: (+1)
+   \       0x70   0x248C             MOVS     R4,#+140
+   \       0x72   0xE000             B.N      ??emberRemoteSetBindingHandler_1
+    394                  goto kickout;
+    395                }
+    396              }
+    397              // If we get here, we didn't find an empty table slot, so table is full.
+    398              status = EMBER_ZDP_TABLE_FULL;
+   \                     ??emberRemoteSetBindingHandler_6: (+1)
+   \       0x74   0x248C             MOVS     R4,#+140
+    399            }
+    400          
+    401            kickout:
+    402            emberAfPopNetworkIndex();
+   \                     ??emberRemoteSetBindingHandler_1: (+1)
+   \       0x76   0x.... 0x....      BL       emberAfPopNetworkIndex
+    403            return status;
+   \       0x7A   0x4620             MOV      R0,R4
+   \       0x7C   0xB004             ADD      SP,SP,#+16
+   \       0x7E   0xBD70             POP      {R4-R6,PC}
+    404          }
+    405          
+
+   \                                 In section .text, align 2, keep-with-next
+    406          EmberZdoStatus emberRemoteDeleteBindingHandler(uint8_t index)
+    407          {
+   \                     emberRemoteDeleteBindingHandler: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    408            EmberStatus deleteStatus;
+    409            EmberZdoStatus status;
+    410            emberAfPushCallbackNetworkIndex();
+   \        0x4   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    411          
+    412            // ask the application if current binding request is allowed or not
+    413            status = emberAfRemoteDeleteBindingPermissionCallback(index) == EMBER_SUCCESS ? EMBER_ZDP_SUCCESS : EMBER_ZDP_NOT_AUTHORIZED;
+   \        0x8   0x4620             MOV      R0,R4
+   \        0xA   0x.... 0x....      BL       emberAfRemoteDeleteBindingPermissionCallback
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD101             BNE.N    ??emberRemoteDeleteBindingHandler_0
+   \       0x12   0x2500             MOVS     R5,#+0
+   \       0x14   0xE000             B.N      ??emberRemoteDeleteBindingHandler_1
+   \                     ??emberRemoteDeleteBindingHandler_0: (+1)
+   \       0x16   0x258D             MOVS     R5,#+141
+    414            if (status == EMBER_SUCCESS) {
+   \                     ??emberRemoteDeleteBindingHandler_1: (+1)
+   \       0x18   0x0028             MOVS     R0,R5
+   \       0x1A   0xD109             BNE.N    ??emberRemoteDeleteBindingHandler_2
+    415              deleteStatus = emberDeleteBinding(index);
+   \       0x1C   0x4620             MOV      R0,R4
+   \       0x1E   0x.... 0x....      BL       emberDeleteBinding
+    416              status = deleteStatus == EMBER_SUCCESS ? EMBER_ZDP_SUCCESS // binding deleted
+    417                       : (deleteStatus == EMBER_BINDING_IS_ACTIVE ? EMBER_ZDP_NOT_PERMITTED //selected index is active
+    418                          : EMBER_ZDP_NO_ENTRY); // report no entry for any other failure
+   \       0x22   0x2800             CMP      R0,#+0
+   \       0x24   0xD004             BEQ.N    ??emberRemoteDeleteBindingHandler_2
+   \       0x26   0x2875             CMP      R0,#+117
+   \       0x28   0xD101             BNE.N    ??emberRemoteDeleteBindingHandler_3
+   \       0x2A   0x258B             MOVS     R5,#+139
+   \       0x2C   0xE000             B.N      ??emberRemoteDeleteBindingHandler_2
+   \                     ??emberRemoteDeleteBindingHandler_3: (+1)
+   \       0x2E   0x2588             MOVS     R5,#+136
+    419              emberAfZdoPrintln("delete binding: %x %x", index, status);
+    420            }
+    421          
+    422            emberAfPopNetworkIndex();
+   \                     ??emberRemoteDeleteBindingHandler_2: (+1)
+   \       0x30   0x.... 0x....      BL       emberAfPopNetworkIndex
+    423            return status;
+   \       0x34   0x4628             MOV      R0,R5
+   \       0x36   0xBD32             POP      {R1,R4,R5,PC}
+    424          }
+    425          
+    426          // ******************************************************************
+    427          // setup endpoints and clusters for responding to ZDO requests
+    428          // ******************************************************************
+
+   \                                 In section .text, align 2, keep-with-next
+    429          uint8_t emberGetEndpoint(uint8_t index)
+    430          {
+   \                     emberGetEndpoint: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    431            uint8_t endpoint = EMBER_AF_INVALID_ENDPOINT;
+   \        0x4   0x25FF             MOVS     R5,#+255
+   \        0x6   0xF88D 0x5000      STRB     R5,[SP, #+0]
+    432            if (emberAfGetEndpointByIndexCallback(index, &endpoint)) {
+   \        0xA   0x4669             MOV      R1,SP
+   \        0xC   0x.... 0x....      BL       emberAfGetEndpointByIndexCallback
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD002             BEQ.N    ??emberGetEndpoint_0
+    433              return endpoint;
+   \       0x14   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x18   0xBD32             POP      {R1,R4,R5,PC}
+    434            }
+    435            return (((emberAfNetworkIndexFromEndpointIndex(index)
+    436                      == emberGetCallbackNetwork())
+    437                     && emberAfEndpointIndexIsEnabled(index))
+    438                    ? emberAfEndpointFromIndex(index)
+    439                    : 0xFF);
+   \                     ??emberGetEndpoint_0: (+1)
+   \       0x1A   0x.... 0x....      BL       emberGetCallbackNetwork
+   \       0x1E   0x....             LDR.N    R1,??DataTable7_6
+   \       0x20   0x4622             MOV      R2,R4
+   \       0x22   0xEB11 0x1102      ADDS     R1,R1,R2, LSL #+4
+   \       0x26   0x7B09             LDRB     R1,[R1, #+12]
+   \       0x28   0x4281             CMP      R1,R0
+   \       0x2A   0xD108             BNE.N    ??emberGetEndpoint_1
+   \       0x2C   0x4620             MOV      R0,R4
+   \       0x2E   0x.... 0x....      BL       emberAfEndpointIndexIsEnabled
+   \       0x32   0x2800             CMP      R0,#+0
+   \       0x34   0xD003             BEQ.N    ??emberGetEndpoint_1
+   \       0x36   0x4620             MOV      R0,R4
+   \       0x38   0x.... 0x....      BL       emberAfEndpointFromIndex
+   \       0x3C   0x4605             MOV      R5,R0
+   \                     ??emberGetEndpoint_1: (+1)
+   \       0x3E   0x4628             MOV      R0,R5
+   \       0x40   0xBD32             POP      {R1,R4,R5,PC}
+    440          }
+    441          
+    442          // must return the endpoint desc of the endpoint specified
+
+   \                                 In section .text, align 2, keep-with-next
+    443          bool emberGetEndpointDescription(uint8_t endpoint,
+    444                                           EmberEndpointDescription *result)
+    445          {
+   \                     emberGetEndpointDescription: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    446            if (emberAfGetEndpointDescriptionCallback(endpoint, result)) {
+   \        0x6   0x.... 0x....      BL       emberAfGetEndpointDescriptionCallback
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD001             BEQ.N    ??emberGetEndpointDescription_0
+    447              return true;
+   \        0xE   0x2001             MOVS     R0,#+1
+   \       0x10   0xBD70             POP      {R4-R6,PC}
+    448            }
+    449            uint8_t endpointIndex = emberAfIndexFromEndpoint(endpoint);
+   \                     ??emberGetEndpointDescription_0: (+1)
+   \       0x12   0x4620             MOV      R0,R4
+   \       0x14   0x.... 0x....      BL       emberAfIndexFromEndpoint
+   \       0x18   0x4606             MOV      R6,R0
+    450            if (endpointIndex == 0xFF
+    451                || (emberAfNetworkIndexFromEndpointIndex(endpointIndex)
+    452                    != emberGetCallbackNetwork())) {
+   \       0x1A   0x2EFF             CMP      R6,#+255
+   \       0x1C   0xD007             BEQ.N    ??emberGetEndpointDescription_1
+   \       0x1E   0x.... 0x....      BL       emberGetCallbackNetwork
+   \       0x22   0x....             LDR.N    R1,??DataTable7_6
+   \       0x24   0xEB11 0x1106      ADDS     R1,R1,R6, LSL #+4
+   \       0x28   0x7B0A             LDRB     R2,[R1, #+12]
+   \       0x2A   0x4282             CMP      R2,R0
+   \       0x2C   0xD001             BEQ.N    ??emberGetEndpointDescription_2
+    453              return false;
+   \                     ??emberGetEndpointDescription_1: (+1)
+   \       0x2E   0x2000             MOVS     R0,#+0
+   \       0x30   0xBD70             POP      {R4-R6,PC}
+    454            }
+    455            result->profileId          = emberAfProfileIdFromIndex(endpointIndex);
+   \                     ??emberGetEndpointDescription_2: (+1)
+   \       0x32   0x8848             LDRH     R0,[R1, #+2]
+   \       0x34   0x8028             STRH     R0,[R5, #+0]
+    456            result->deviceId           = emberAfDeviceIdFromIndex(endpointIndex);
+   \       0x36   0x8888             LDRH     R0,[R1, #+4]
+   \       0x38   0x8068             STRH     R0,[R5, #+2]
+    457            result->deviceVersion      = emberAfDeviceVersionFromIndex(endpointIndex);
+   \       0x3A   0x7988             LDRB     R0,[R1, #+6]
+   \       0x3C   0x7128             STRB     R0,[R5, #+4]
+    458            result->inputClusterCount  = emberAfClusterCount(endpoint, true);
+   \       0x3E   0x2101             MOVS     R1,#+1
+   \       0x40   0x4620             MOV      R0,R4
+   \       0x42   0x.... 0x....      BL       emberAfClusterCount
+   \       0x46   0x7168             STRB     R0,[R5, #+5]
+    459            result->outputClusterCount = emberAfClusterCount(endpoint, false);
+   \       0x48   0x2100             MOVS     R1,#+0
+   \       0x4A   0x4620             MOV      R0,R4
+   \       0x4C   0x.... 0x....      BL       emberAfClusterCount
+   \       0x50   0x71A8             STRB     R0,[R5, #+6]
+    460            return true;
+   \       0x52   0x2001             MOVS     R0,#+1
+   \       0x54   0xBD70             POP      {R4-R6,PC}
+    461          }
+    462          
+    463          // must return the clusterId at listIndex in the list specified for the
+    464          // endpoint specified
+
+   \                                 In section .text, align 2, keep-with-next
+    465          uint16_t emberGetEndpointCluster(uint8_t endpoint,
+    466                                           EmberClusterListId listId,
+    467                                           uint8_t listIndex)
+    468          {
+   \                     emberGetEndpointCluster: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0x4605             MOV      R5,R0
+   \        0x6   0x460E             MOV      R6,R1
+   \        0x8   0x4617             MOV      R7,R2
+    469            EmberAfCluster *cluster = NULL;
+   \        0xA   0x2400             MOVS     R4,#+0
+    470            uint8_t endpointIndex = emberAfIndexFromEndpoint(endpoint);
+   \        0xC   0x.... 0x....      BL       emberAfIndexFromEndpoint
+   \       0x10   0x4680             MOV      R8,R0
+    471            if (endpointIndex == 0xFF
+    472                || (emberAfNetworkIndexFromEndpointIndex(endpointIndex)
+    473                    != emberGetCallbackNetwork())) {
+   \       0x12   0xF1B8 0x0FFF      CMP      R8,#+255
+   \       0x16   0xD007             BEQ.N    ??emberGetEndpointCluster_0
+   \       0x18   0x.... 0x....      BL       emberGetCallbackNetwork
+   \       0x1C   0x....             LDR.N    R1,??DataTable7_6
+   \       0x1E   0xEB01 0x1108      ADD      R1,R1,R8, LSL #+4
+   \       0x22   0x7B09             LDRB     R1,[R1, #+12]
+   \       0x24   0x4281             CMP      R1,R0
+   \       0x26   0xD002             BEQ.N    ??emberGetEndpointCluster_1
+    474              return 0xFFFF;
+   \                     ??emberGetEndpointCluster_0: (+1)
+   \       0x28   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x2C   0xE016             B.N      ??emberGetEndpointCluster_2
+    475            } else if (listId == EMBER_INPUT_CLUSTER_LIST) {
+   \                     ??emberGetEndpointCluster_1: (+1)
+   \       0x2E   0x0030             MOVS     R0,R6
+   \       0x30   0xD106             BNE.N    ??emberGetEndpointCluster_3
+    476              cluster = emberAfGetNthCluster(endpoint, listIndex, true);
+   \       0x32   0x2201             MOVS     R2,#+1
+   \       0x34   0x4639             MOV      R1,R7
+   \       0x36   0x4628             MOV      R0,R5
+   \       0x38   0x.... 0x....      BL       emberAfGetNthCluster
+   \       0x3C   0x4604             MOV      R4,R0
+   \       0x3E   0xE007             B.N      ??emberGetEndpointCluster_4
+    477            } else if (listId == EMBER_OUTPUT_CLUSTER_LIST) {
+   \                     ??emberGetEndpointCluster_3: (+1)
+   \       0x40   0x2E01             CMP      R6,#+1
+   \       0x42   0xD105             BNE.N    ??emberGetEndpointCluster_4
+    478              cluster = emberAfGetNthCluster(endpoint, listIndex, false);
+   \       0x44   0x4622             MOV      R2,R4
+   \       0x46   0x4639             MOV      R1,R7
+   \       0x48   0x4628             MOV      R0,R5
+   \       0x4A   0x.... 0x....      BL       emberAfGetNthCluster
+   \       0x4E   0x4604             MOV      R4,R0
+    479            } else {
+    480              // MISRA requires ..else if.. to have terminating else.
+    481            }
+    482            return (cluster == NULL ? 0xFFFF : cluster->clusterId);
+   \                     ??emberGetEndpointCluster_4: (+1)
+   \       0x50   0x2C00             CMP      R4,#+0
+   \       0x52   0xD102             BNE.N    ??emberGetEndpointCluster_5
+   \       0x54   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x58   0xE000             B.N      ??emberGetEndpointCluster_2
+   \                     ??emberGetEndpointCluster_5: (+1)
+   \       0x5A   0x8820             LDRH     R0,[R4, #+0]
+   \                     ??emberGetEndpointCluster_2: (+1)
+   \       0x5C   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    483          }
+    484          
+    485          // *******************************************************************
+    486          // Handlers required to use the Ember Stack.
+    487          
+    488          // Called when the stack status changes, usually as a result of an
+    489          // attempt to form, join, or leave a network.
+
+   \                                 In section .text, align 2, keep-with-next
+    490          void emberStackStatusHandler(EmberStatus status)
+    491          {
+   \                     emberStackStatusHandler: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    492            emberAfPushCallbackNetworkIndex();
+   \        0x4   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    493            emAfStackStatusHandler(status);
+   \        0x8   0x4620             MOV      R0,R4
+   \        0xA   0x.... 0x....      BL       emAfStackStatusHandler
+    494            emberAfPopNetworkIndex();
+   \        0xE   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x12   0x.... 0x....      B.W      emberAfPopNetworkIndex
+    495          }
+    496          
+    497          // Copy the message buffer into a RAM buffer.
+    498          //   If message is too large, 0 is returned and no copying is done.
+    499          //   Otherwise data is copied, and length of copied data is returned.
+
+   \                                 In section .text, align 2, keep-with-next
+    500          uint8_t emAfCopyMessageIntoRamBuffer(EmberMessageBuffer message,
+    501                                               uint8_t *buffer,
+    502                                               uint16_t bufLen)
+    503          {
+   \                     emAfCopyMessageIntoRamBuffer: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+   \        0x6   0x4616             MOV      R6,R2
+    504            if (message == EMBER_NULL_MESSAGE_BUFFER) {
+   \        0x8   0x0020             MOVS     R0,R4
+   \        0xA   0xD101             BNE.N    ??emAfCopyMessageIntoRamBuffer_0
+    505              return 0;
+   \        0xC   0x2000             MOVS     R0,#+0
+   \        0xE   0xBDF2             POP      {R1,R4-R7,PC}
+    506            }
+    507            uint8_t length = emberMessageBufferLength(message);
+   \                     ??emAfCopyMessageIntoRamBuffer_0: (+1)
+   \       0x10   0x.... 0x....      BL       emGetBufferLength
+   \       0x14   0x4607             MOV      R7,R0
+    508            if (bufLen < length) {
+   \       0x16   0xB2C0             UXTB     R0,R0
+   \       0x18   0x4286             CMP      R6,R0
+   \       0x1A   0xD201             BCS.N    ??emAfCopyMessageIntoRamBuffer_1
+    509              emberAfAppPrintln("%pmsg too big (%d > %d)",
+    510                                "ERROR: ",
+    511                                length,
+    512                                bufLen);
+    513              return 0;
+   \       0x1C   0x2000             MOVS     R0,#+0
+   \       0x1E   0xBDF2             POP      {R1,R4-R7,PC}
+    514            }
+    515            emberCopyFromLinkedBuffers(message, 0, buffer, length); // no offset
+   \                     ??emAfCopyMessageIntoRamBuffer_1: (+1)
+   \       0x20   0x2000             MOVS     R0,#+0
+   \       0x22   0x9000             STR      R0,[SP, #+0]
+   \       0x24   0x463B             MOV      R3,R7
+   \       0x26   0xB2DB             UXTB     R3,R3
+   \       0x28   0x4602             MOV      R2,R0
+   \       0x2A   0x4621             MOV      R1,R4
+   \       0x2C   0x4628             MOV      R0,R5
+   \       0x2E   0x.... 0x....      BL       emReallyCopyToLinkedBuffers
+    516            return length;
+   \       0x32   0x4638             MOV      R0,R7
+   \       0x34   0xB2C0             UXTB     R0,R0
+   \       0x36   0xBDF2             POP      {R1,R4-R7,PC}
+    517          }
+    518          
+
+   \                                 In section .text, align 2, keep-with-next
+    519          void emberIncomingMessageHandler(EmberIncomingMessageType type,
+    520                                           EmberApsFrame *apsFrame,
+    521                                           EmberMessageBuffer message)
+    522          {
+   \                     emberIncomingMessageHandler: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0xB098             SUB      SP,SP,#+96
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+   \        0x8   0x4616             MOV      R6,R2
+    523            uint8_t lastHopLqi;
+    524            int8_t lastHopRssi;
+    525            uint16_t messageLength;
+    526            uint8_t messageContents[EMBER_AF_MAXIMUM_APS_PAYLOAD_LENGTH];
+    527          
+    528            emberAfPushCallbackNetworkIndex();
+   \        0xA   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    529          
+    530            messageLength = emAfCopyMessageIntoRamBuffer(message,
+    531                                                         messageContents,
+    532                                                         EMBER_AF_MAXIMUM_APS_PAYLOAD_LENGTH);
+   \        0xE   0x2252             MOVS     R2,#+82
+   \       0x10   0xA903             ADD      R1,SP,#+12
+   \       0x12   0x4630             MOV      R0,R6
+   \       0x14   0x.... 0x....      BL       emAfCopyMessageIntoRamBuffer
+   \       0x18   0x0006             MOVS     R6,R0
+    533            if (messageLength == 0) {
+   \       0x1A   0xD011             BEQ.N    ??emberIncomingMessageHandler_0
+    534              goto kickout;
+    535            }
+    536          
+    537            emberGetLastHopLqi(&lastHopLqi);
+   \       0x1C   0xF10D 0x0009      ADD      R0,SP,#+9
+   \       0x20   0x.... 0x....      BL       emberGetLastHopLqi
+    538            emberGetLastHopRssi(&lastHopRssi);
+   \       0x24   0xA802             ADD      R0,SP,#+8
+   \       0x26   0x.... 0x....      BL       emberGetLastHopRssi
+    539          
+    540            emAfIncomingMessageHandler(type,
+    541                                       apsFrame,
+    542                                       lastHopLqi,
+    543                                       lastHopRssi,
+    544                                       messageLength,
+    545                                       messageContents);
+   \       0x2A   0xA803             ADD      R0,SP,#+12
+   \       0x2C   0x9001             STR      R0,[SP, #+4]
+   \       0x2E   0x9600             STR      R6,[SP, #+0]
+   \       0x30   0xF99D 0x3008      LDRSB    R3,[SP, #+8]
+   \       0x34   0xF89D 0x2009      LDRB     R2,[SP, #+9]
+   \       0x38   0x4629             MOV      R1,R5
+   \       0x3A   0x4620             MOV      R0,R4
+   \       0x3C   0x.... 0x....      BL       emAfIncomingMessageHandler
+    546          
+    547            kickout:
+    548            emberAfPopNetworkIndex();
+   \                     ??emberIncomingMessageHandler_0: (+1)
+   \       0x40   0x.... 0x....      BL       emberAfPopNetworkIndex
+    549          }
+   \       0x44   0xB018             ADD      SP,SP,#+96
+   \       0x46   0xBD70             POP      {R4-R6,PC}
+    550          
+    551          #define INVALID_MESSAGE_TAG 0x0000
+
+   \                                 In section .text, align 2, keep-with-next
+    552          static uint16_t calculateMessageTagHash(uint8_t *messageContents, uint8_t messageLength)
+    553          {
+   \                     calculateMessageTagHash: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x460B             MOV      R3,R1
+    554            uint8_t temp[EMBER_ENCRYPTION_KEY_SIZE];
+    555            uint16_t hashReturn = 0;
+   \        0x4   0x2400             MOVS     R4,#+0
+    556            emberAesHashSimple(messageLength, messageContents, temp);
+   \        0x6   0x466A             MOV      R2,SP
+   \        0x8   0x4601             MOV      R1,R0
+   \        0xA   0x4618             MOV      R0,R3
+   \        0xC   0x.... 0x....      BL       emberAesHashSimple
+    557            for (uint8_t i = 0; i < EMBER_ENCRYPTION_KEY_SIZE; i += 2) {
+   \       0x10   0x4620             MOV      R0,R4
+   \       0x12   0xE003             B.N      ??calculateMessageTagHash_0
+    558              hashReturn ^= *((uint16_t *)(temp + i));
+   \                     ??calculateMessageTagHash_1: (+1)
+   \       0x14   0x4669             MOV      R1,SP
+   \       0x16   0x5A09             LDRH     R1,[R1, R0]
+   \       0x18   0x404C             EORS     R4,R1,R4
+    559            }
+   \       0x1A   0x1C80             ADDS     R0,R0,#+2
+   \                     ??calculateMessageTagHash_0: (+1)
+   \       0x1C   0x2810             CMP      R0,#+16
+   \       0x1E   0xDBF9             BLT.N    ??calculateMessageTagHash_1
+    560            if (hashReturn == INVALID_MESSAGE_TAG) {
+   \       0x20   0x0020             MOVS     R0,R4
+   \       0x22   0xD100             BNE.N    ??calculateMessageTagHash_2
+    561              hashReturn = 1;
+   \       0x24   0x2401             MOVS     R4,#+1
+    562            }
+    563            return hashReturn;
+   \                     ??calculateMessageTagHash_2: (+1)
+   \       0x26   0x4620             MOV      R0,R4
+   \       0x28   0xB004             ADD      SP,SP,#+16
+   \       0x2A   0xBD10             POP      {R4,PC}
+    564          }
+    565          
+    566          // Called when a message we sent is acked by the destination or when an
+    567          // ack fails to arrive after several retransmissions.
+
+   \                                 In section .text, align 2, keep-with-next
+    568          void emberMessageSentHandler(EmberOutgoingMessageType type,
+    569                                       uint16_t indexOrDestination,
+    570                                       EmberApsFrame *apsFrame,
+    571                                       EmberMessageBuffer message,
+    572                                       EmberStatus status)
+    573          {
+   \                     emberMessageSentHandler: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0xB098             SUB      SP,SP,#+96
+   \        0x6   0x4605             MOV      R5,R0
+   \        0x8   0x460E             MOV      R6,R1
+   \        0xA   0x4617             MOV      R7,R2
+   \        0xC   0x461C             MOV      R4,R3
+    574            uint8_t messageContents[EMBER_AF_MAXIMUM_APS_PAYLOAD_LENGTH];
+    575            uint8_t messageLength;
+    576            uint16_t messageTag;
+    577            emberAfPushCallbackNetworkIndex();
+   \        0xE   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    578          
+    579          #ifdef EMBER_AF_PLUGIN_FRAGMENTATION
+    580            if (emAfFragmentationMessageSent(apsFrame, status)) {
+    581              goto kickout;
+    582            }
+    583          #endif //EMBER_AF_PLUGIN_FRAGMENTATION
+    584          
+    585            messageLength = emAfCopyMessageIntoRamBuffer(message,
+    586                                                         messageContents,
+    587                                                         EMBER_AF_MAXIMUM_APS_PAYLOAD_LENGTH);
+   \       0x12   0x2252             MOVS     R2,#+82
+   \       0x14   0xA903             ADD      R1,SP,#+12
+   \       0x16   0x4620             MOV      R0,R4
+   \       0x18   0x.... 0x....      BL       emAfCopyMessageIntoRamBuffer
+   \       0x1C   0x4680             MOV      R8,R0
+    588            if (messageLength == 0) {
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD015             BEQ.N    ??emberMessageSentHandler_0
+   \       0x22   0x9C1E             LDR      R4,[SP, #+120]
+    589              // Message too long.  Error printed by above function.
+    590              goto kickout;
+    591            }
+    592            emberConcentratorNoteDeliveryFailure(type, status);
+   \       0x24   0x4621             MOV      R1,R4
+   \       0x26   0xB2C9             UXTB     R1,R1
+   \       0x28   0x4628             MOV      R0,R5
+   \       0x2A   0x.... 0x....      BL       emberConcentratorNoteDeliveryFailure
+    593          
+    594            messageTag = calculateMessageTagHash(messageContents, messageLength);
+   \       0x2E   0x4641             MOV      R1,R8
+   \       0x30   0xA803             ADD      R0,SP,#+12
+   \       0x32   0x.... 0x....      BL       calculateMessageTagHash
+    595            emAfMessageSentHandler(type,
+    596                                   indexOrDestination,
+    597                                   apsFrame,
+    598                                   status,
+    599                                   messageLength,
+    600                                   messageContents,
+    601                                   messageTag);
+   \       0x36   0x9002             STR      R0,[SP, #+8]
+   \       0x38   0xA803             ADD      R0,SP,#+12
+   \       0x3A   0x9001             STR      R0,[SP, #+4]
+   \       0x3C   0xF8CD 0x8000      STR      R8,[SP, #+0]
+   \       0x40   0x4623             MOV      R3,R4
+   \       0x42   0xB2DB             UXTB     R3,R3
+   \       0x44   0x463A             MOV      R2,R7
+   \       0x46   0x4631             MOV      R1,R6
+   \       0x48   0x4628             MOV      R0,R5
+   \       0x4A   0x.... 0x....      BL       emAfMessageSentHandler
+    602          
+    603            kickout:
+    604            emberAfPopNetworkIndex();
+   \                     ??emberMessageSentHandler_0: (+1)
+   \       0x4E   0x.... 0x....      BL       emberAfPopNetworkIndex
+    605          }
+   \       0x52   0xB018             ADD      SP,SP,#+96
+   \       0x54   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    606          
+
+   \                                 In section .text, align 4, keep-with-next
+    607          EmberStatus emAfSend(EmberOutgoingMessageType type,
+    608                               uint16_t indexOrDestination,
+    609                               EmberApsFrame *apsFrame,
+    610                               uint8_t messageLength,
+    611                               uint8_t *message,
+    612                               uint16_t *messageTag,
+    613                               EmberNodeId alias,
+    614                               uint8_t sequence)
+    615          {
+   \                     emAfSend: (+1)
+   \        0x0   0xE92D 0x47FC      PUSH     {R2-R10,LR}
+   \        0x4   0x4607             MOV      R7,R0
+   \        0x6   0x460D             MOV      R5,R1
+   \        0x8   0x4614             MOV      R4,R2
+   \        0xA   0x4698             MOV      R8,R3
+   \        0xC   0xF8DD 0x9028      LDR      R9,[SP, #+40]
+    616            EmberMessageBuffer payload = emberFillLinkedBuffers(message, messageLength);
+   \       0x10   0x2200             MOVS     R2,#+0
+   \       0x12   0x4641             MOV      R1,R8
+   \       0x14   0x4648             MOV      R0,R9
+   \       0x16   0x.... 0x....      BL       emReallyFillBuffer
+   \       0x1A   0x0006             MOVS     R6,R0
+    617            if (payload == EMBER_NULL_MESSAGE_BUFFER) {
+   \       0x1C   0xD101             BNE.N    ??emAfSend_1
+    618              return EMBER_NO_BUFFERS;
+   \       0x1E   0x2018             MOVS     R0,#+24
+   \       0x20   0xE043             B.N      ??emAfSend_2
+    619            } else {
+   \                     ??emAfSend_1: (+1)
+   \       0x22   0xF8DD 0xA02C      LDR      R10,[SP, #+44]
+    620              EmberStatus status;
+    621          
+    622              *messageTag = calculateMessageTagHash(message, messageLength);
+   \       0x26   0x4641             MOV      R1,R8
+   \       0x28   0x4648             MOV      R0,R9
+   \       0x2A   0x.... 0x....      BL       calculateMessageTagHash
+   \       0x2E   0xF8AA 0x0000      STRH     R0,[R10, #+0]
+   \       0x32   0x4620             MOV      R0,R4
+   \       0x34   0x9C0C             LDR      R4,[SP, #+48]
+   \       0x36   0x9A0D             LDR      R2,[SP, #+52]
+    623          
+    624              switch (type) {
+   \       0x38   0x4639             MOV      R1,R7
+   \       0x3A   0x2906             CMP      R1,#+6
+   \       0x3C   0xD834             BHI.N    ??emAfSend_3
+   \       0x3E   0xE8DF 0xF001      TBB      [PC, R1]
+   \                     ??emAfSend_0:
+   \       0x42   0x04 0x04          DC8      0x4,0x4,0x4,0xD
+   \              0x04 0x0D
+   \       0x46   0x15 0x28          DC8      0x15,0x28,0x1F,0x0
+   \              0x1F 0x00
+    625                case EMBER_OUTGOING_DIRECT:
+    626                case EMBER_OUTGOING_VIA_ADDRESS_TABLE:
+    627                case EMBER_OUTGOING_VIA_BINDING:
+    628                  status = emberSendUnicast(type, indexOrDestination, apsFrame, payload);
+   \                     ??emAfSend_4: (+1)
+   \       0x4A   0x4633             MOV      R3,R6
+   \       0x4C   0x4602             MOV      R2,R0
+   \       0x4E   0x4629             MOV      R1,R5
+   \       0x50   0x4638             MOV      R0,R7
+   \       0x52   0xB002             ADD      SP,SP,#+8
+   \       0x54   0xE8BD 0x47F0      POP      {R4-R10,LR}
+   \       0x58   0x.... 0x....      B.W      emberSendUnicast
+    629                  break;
+    630                case EMBER_OUTGOING_MULTICAST:
+    631                  status = emberSendMulticast(apsFrame,
+    632                                              ZA_MAX_HOPS, // radius
+    633                                              ZA_MAX_HOPS, // nonmember radius
+    634                                              payload);
+   \                     ??emAfSend_5: (+1)
+   \       0x5C   0x4633             MOV      R3,R6
+   \       0x5E   0x220C             MOVS     R2,#+12
+   \       0x60   0x4611             MOV      R1,R2
+   \       0x62   0xB002             ADD      SP,SP,#+8
+   \       0x64   0xE8BD 0x47F0      POP      {R4-R10,LR}
+   \       0x68   0x.... 0x....      B.W      emberSendMulticast
+    635                  break;
+    636                case EMBER_OUTGOING_MULTICAST_WITH_ALIAS:
+    637                  status = emberSendMulticastWithAlias(apsFrame,
+    638                                                       apsFrame->radius, //radius
+    639                                                       apsFrame->radius, //nonmember radius
+    640                                                       payload,
+    641                                                       alias,
+    642                                                       sequence);
+   \                     ??emAfSend_6: (+1)
+   \       0x6C   0x7AC1             LDRB     R1,[R0, #+11]
+   \       0x6E   0xB2D2             UXTB     R2,R2
+   \       0x70   0x9201             STR      R2,[SP, #+4]
+   \       0x72   0xB2A4             UXTH     R4,R4
+   \       0x74   0x9400             STR      R4,[SP, #+0]
+   \       0x76   0x4633             MOV      R3,R6
+   \       0x78   0x460A             MOV      R2,R1
+   \       0x7A   0x.... 0x....      BL       emberSendMulticastWithAlias
+    643                  break;
+   \       0x7E   0xE014             B.N      ??emAfSend_2
+    644                case EMBER_OUTGOING_BROADCAST:
+    645                  status = emberSendBroadcast(indexOrDestination,
+    646                                              apsFrame,
+    647                                              ZA_MAX_HOPS, // radius
+    648                                              payload);
+   \                     ??emAfSend_7: (+1)
+   \       0x80   0x4633             MOV      R3,R6
+   \       0x82   0x220C             MOVS     R2,#+12
+   \       0x84   0x4601             MOV      R1,R0
+   \       0x86   0x4628             MOV      R0,R5
+   \       0x88   0xB002             ADD      SP,SP,#+8
+   \       0x8A   0xE8BD 0x47F0      POP      {R4-R10,LR}
+   \       0x8E   0x.... 0x....      B.W      emberSendBroadcast
+    649                  break;
+    650                case EMBER_OUTGOING_BROADCAST_WITH_ALIAS:
+    651                  status = emberProxyBroadcast(alias,
+    652                                               indexOrDestination,
+    653                                               sequence,
+    654                                               apsFrame,
+    655                                               apsFrame->radius, // radius
+    656                                               payload);
+   \                     ??emAfSend_8: (+1)
+   \       0x92   0x9601             STR      R6,[SP, #+4]
+   \       0x94   0x7AC1             LDRB     R1,[R0, #+11]
+   \       0x96   0x9100             STR      R1,[SP, #+0]
+   \       0x98   0x4603             MOV      R3,R0
+   \       0x9A   0xB2D2             UXTB     R2,R2
+   \       0x9C   0x4629             MOV      R1,R5
+   \       0x9E   0x4620             MOV      R0,R4
+   \       0xA0   0xB280             UXTH     R0,R0
+   \       0xA2   0x.... 0x....      BL       emberProxyBroadcast
+    657                  break;
+   \       0xA6   0xE000             B.N      ??emAfSend_2
+    658                default:
+    659                  status = EMBER_BAD_ARGUMENT;
+   \                     ??emAfSend_3: (+1)
+   \       0xA8   0x2002             MOVS     R0,#+2
+    660                  break;
+    661              }
+    662          
+    663              emberReleaseMessageBuffer(payload);
+    664          
+    665              return status;
+   \                     ??emAfSend_2: (+1)
+   \       0xAA   0xE8BD 0x87F6      POP      {R1,R2,R4-R10,PC}
+    666            }
+    667          }
+    668          
+
+   \                                 In section .text, align 2, keep-with-next
+    669          void emberAfGetEui64(EmberEUI64 returnEui64)
+    670          {
+    671            MEMMOVE(returnEui64, emberGetEui64(), EUI64_SIZE);
+   \                     emberAfGetEui64: (+1)
+   \        0x0   0x2208             MOVS     R2,#+8
+   \        0x2   0x....             LDR.N    R1,??DataTable7_7
+   \        0x4   0x.... 0x....      B.W      __aeabi_memmove
+    672          }
+    673          
+
+   \                                 In section .text, align 2, keep-with-next
+    674          EmberStatus emberAfGetNetworkParameters(EmberNodeType* nodeType,
+    675                                                  EmberNetworkParameters* parameters)
+    676          {
+   \                     emberAfGetNetworkParameters: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x4608             MOV      R0,R1
+    677            emberGetNetworkParameters(parameters);
+   \        0x6   0x.... 0x....      BL       emberGetNetworkParameters
+    678            return emberGetNodeType(nodeType);
+   \        0xA   0x4620             MOV      R0,R4
+   \        0xC   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x10   0x.... 0x....      B.W      emberGetNodeType
+    679          }
+    680          
+
+   \                                 In section .text, align 2, keep-with-next
+    681          EmberStatus emberAfGetNodeType(EmberNodeType *nodeType)
+    682          {
+    683            return emberGetNodeType(nodeType);
+   \                     emberAfGetNodeType: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetNodeType
+    684          }
+    685          
+
+   \                                 In section .text, align 2, keep-with-next
+    686          uint8_t emberAfGetSecurityLevel(void)
+    687          {
+    688            return emberSecurityLevel();
+   \                     emberAfGetSecurityLevel: (+1)
+   \        0x0   0x.... 0x....      B.W      emberSecurityLevel
+    689          }
+    690          
+
+   \                                 In section .text, align 2, keep-with-next
+    691          uint8_t emberAfGetKeyTableSize(void)
+    692          {
+    693            return EMBER_KEY_TABLE_SIZE;
+   \                     emberAfGetKeyTableSize: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    694          }
+    695          
+
+   \                                 In section .text, align 2, keep-with-next
+    696          uint8_t emberAfGetBindingTableSize(void)
+    697          {
+    698            return EMBER_BINDING_TABLE_SIZE;
+   \                     emberAfGetBindingTableSize: (+1)
+   \        0x0   0x2010             MOVS     R0,#+16
+   \        0x2   0x4770             BX       LR
+    699          }
+    700          
+
+   \                                 In section .text, align 2, keep-with-next
+    701          uint8_t emberAfGetAddressTableSize(void)
+    702          {
+    703            return EMBER_ADDRESS_TABLE_SIZE;
+   \                     emberAfGetAddressTableSize: (+1)
+   \        0x0   0x200A             MOVS     R0,#+10
+   \        0x2   0x4770             BX       LR
+    704          }
+    705          
+
+   \                                 In section .text, align 2, keep-with-next
+    706          uint8_t emberAfGetChildTableSize(void)
+    707          {
+    708            return EMBER_CHILD_TABLE_SIZE;
+   \                     emberAfGetChildTableSize: (+1)
+   \        0x0   0x2004             MOVS     R0,#+4
+   \        0x2   0x4770             BX       LR
+    709          }
+    710          
+
+   \                                 In section .text, align 2, keep-with-next
+    711          uint8_t emberAfGetNeighborTableSize(void)
+    712          {
+    713            return EMBER_NEIGHBOR_TABLE_SIZE;
+   \                     emberAfGetNeighborTableSize: (+1)
+   \        0x0   0x2010             MOVS     R0,#+16
+   \        0x2   0x4770             BX       LR
+    714          }
+    715          
+
+   \                                 In section .text, align 2, keep-with-next
+    716          uint8_t emberAfGetRouteTableSize(void)
+    717          {
+    718            return EMBER_ROUTE_TABLE_SIZE;
+   \                     emberAfGetRouteTableSize: (+1)
+   \        0x0   0x2010             MOVS     R0,#+16
+   \        0x2   0x4770             BX       LR
+    719          }
+    720          
+
+   \                                 In section .text, align 2, keep-with-next
+    721          uint8_t emberAfGetSleepyMulticastConfig(void)
+    722          {
+    723            return EMBER_SEND_MULTICASTS_TO_SLEEPY_ADDRESS;
+   \                     emberAfGetSleepyMulticastConfig: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    724          }
+    725          
+
+   \                                 In section .text, align 2, keep-with-next
+    726          EmberStatus emberAfGetSourceRouteTableEntry(
+    727            uint8_t index,
+    728            EmberNodeId *destination,
+    729            uint8_t *closerIndex)
+    730          {
+    731            return emberGetSourceRouteTableEntry(index,
+    732                                                 destination,
+    733                                                 closerIndex);
+   \                     emberAfGetSourceRouteTableEntry: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetSourceRouteTableEntry
+    734          }
+    735          
+
+   \                                 In section .text, align 2, keep-with-next
+    736          uint8_t emberAfGetSourceRouteTableTotalSize(void)
+    737          {
+    738            return emberGetSourceRouteTableTotalSize();
+   \                     emberAfGetSourceRouteTableTotalSize: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetSourceRouteTableTotalSize
+    739          }
+    740          
+
+   \                                 In section .text, align 2, keep-with-next
+    741          uint8_t emberAfGetSourceRouteTableFilledSize(void)
+    742          {
+    743            return emberGetSourceRouteTableFilledSize();
+   \                     emberAfGetSourceRouteTableFilledSize: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetSourceRouteTableFilledSize
+    744          }
+    745          
+
+   \                                 In section .text, align 2, keep-with-next
+    746          EmberStatus emberAfGetChildData(uint8_t index,
+    747                                          EmberChildData *childData)
+    748          {
+    749            return emberGetChildData(index,
+    750                                     childData);
+   \                     emberAfGetChildData: (+1)
+   \        0x0   0x.... 0x....      B.W      emberGetChildData
+    751          }
+    752          
+
+   \                                 In section .text, align 2, keep-with-next
+    753          uint8_t emAfGetPacketBufferFreeCount(void)
+    754          {
+   \                     emAfGetPacketBufferFreeCount: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    755            return emBufferBytesRemaining() / PACKET_BUFFER_SIZE;
+   \        0x2   0x.... 0x....      BL       emBufferBytesRemaining
+   \        0x6   0x0940             LSRS     R0,R0,#+5
+   \        0x8   0xB2C0             UXTB     R0,R0
+   \        0xA   0xBD02             POP      {R1,PC}
+    756          }
+    757          
+
+   \                                 In section .text, align 2, keep-with-next
+    758          uint8_t emAfGetPacketBufferTotalCount(void)
+    759          {
+   \                     emAfGetPacketBufferTotalCount: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    760            return emBufferBytesTotal() / PACKET_BUFFER_SIZE;
+   \        0x2   0x.... 0x....      BL       emBufferBytesTotal
+   \        0x6   0x0940             LSRS     R0,R0,#+5
+   \        0x8   0xB2C0             UXTB     R0,R0
+   \        0xA   0xBD02             POP      {R1,PC}
+    761          }
+    762          
+
+   \                                 In section .text, align 2, keep-with-next
+    763          void emAfCliVersionCommand(void)
+    764          {
+   \                     emAfCliVersionCommand: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+    765            emAfParseAndPrintVersion(emberVersion);
+   \        0x2   0x4668             MOV      R0,SP
+   \        0x4   0x....             LDR.N    R1,??DataTable7_8
+   \        0x6   0x2208             MOVS     R2,#+8
+   \        0x8   0x.... 0x....      BL       __aeabi_memcpy
+   \        0xC   0xE9DD 0x0100      LDRD     R0,R1,[SP, #+0]
+   \       0x10   0x.... 0x....      BL       emAfParseAndPrintVersion
+    766          }
+   \       0x14   0xBD07             POP      {R0-R2,PC}
+    767          
+    768          // TODO: find out a better way to handle these form-and-join scan callbacks.
+    769          // Backwards compatibility...ugh.
+    770          
+
+   \                                 In section .text, align 2, keep-with-next
+    771          void emberNetworkFoundHandler(EmberZigbeeNetwork *networkFound)
+    772          {
+   \                     emberNetworkFoundHandler: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    773            uint8_t lqi;
+    774            int8_t rssi;
+    775            emberAfPushCallbackNetworkIndex();
+   \        0x4   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    776            emberGetLastHopLqi(&lqi);
+   \        0x8   0xF10D 0x0001      ADD      R0,SP,#+1
+   \        0xC   0x.... 0x....      BL       emberGetLastHopLqi
+    777            emberGetLastHopRssi(&rssi);
+   \       0x10   0x4668             MOV      R0,SP
+   \       0x12   0x.... 0x....      BL       emberGetLastHopRssi
+    778          
+    779          #ifdef EMBER_AF_PLUGIN_FORM_AND_JOIN
+    780            if (!emberFormAndJoinNetworkFoundHandler(networkFound, lqi, rssi)) {
+    781              emberAfNetworkFoundCallback(networkFound, lqi, rssi);
+    782            }
+    783          #else
+    784            emberAfNetworkFoundCallback(networkFound, lqi, rssi);
+   \       0x16   0xF99D 0x2000      LDRSB    R2,[SP, #+0]
+   \       0x1A   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \       0x1E   0x4620             MOV      R0,R4
+   \       0x20   0x.... 0x....      BL       emberAfNetworkFoundCallback
+    785          #endif
+    786          
+    787            emberAfPopNetworkIndex();
+   \       0x24   0x.... 0x....      BL       emberAfPopNetworkIndex
+    788          }
+   \       0x28   0xBD13             POP      {R0,R1,R4,PC}
+    789          
+
+   \                                 In section .text, align 2, keep-with-next
+    790          void emberScanCompleteHandler(uint8_t channel, EmberStatus status)
+    791          {
+   \                     emberScanCompleteHandler: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    792            emberAfPushCallbackNetworkIndex();
+   \        0x6   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    793          
+    794          #ifdef EMBER_AF_PLUGIN_FORM_AND_JOIN
+    795            if (!emberFormAndJoinScanCompleteHandler(channel, status)) {
+    796              emberAfScanCompleteCallback(channel, status);
+    797            }
+    798          #else
+    799            emberAfScanCompleteCallback(channel, status);
+   \        0xA   0x4629             MOV      R1,R5
+   \        0xC   0x4620             MOV      R0,R4
+   \        0xE   0x.... 0x....      BL       emberAfScanCompleteCallback
+    800          #endif
+    801          
+    802            emberAfPopNetworkIndex();
+   \       0x12   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0x16   0x.... 0x....      B.W      emberAfPopNetworkIndex
+    803          }
+    804          
+
+   \                                 In section .text, align 2, keep-with-next
+    805          void emberEnergyScanResultHandler(uint8_t channel, int8_t maxRssiValue)
+    806          {
+   \                     emberEnergyScanResultHandler: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    807            emberAfPushCallbackNetworkIndex();
+   \        0x6   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    808          
+    809          #ifdef EMBER_AF_PLUGIN_FORM_AND_JOIN
+    810            if (!emberFormAndJoinEnergyScanResultHandler(channel, maxRssiValue)) {
+    811              emberAfEnergyScanResultCallback(channel, maxRssiValue);
+    812            }
+    813          #else
+    814            emberAfEnergyScanResultCallback(channel, maxRssiValue);
+   \        0xA   0x4629             MOV      R1,R5
+   \        0xC   0x4620             MOV      R0,R4
+   \        0xE   0x.... 0x....      BL       emberAfEnergyScanResultCallback
+    815          #endif
+    816          
+    817            emberAfPopNetworkIndex();
+   \       0x12   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0x16   0x.... 0x....      B.W      emberAfPopNetworkIndex
+    818          }
+    819          
+
+   \                                 In section .text, align 2, keep-with-next
+    820          void emberUnusedPanIdFoundHandler(EmberPanId panId, uint8_t channel)
+    821          {
+   \                     emberUnusedPanIdFoundHandler: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    822            emberAfPushCallbackNetworkIndex();
+   \        0x6   0x.... 0x....      BL       emberAfPushCallbackNetworkIndex
+    823          #ifdef EMBER_AF_PLUGIN_FORM_AND_JOIN
+    824            if (!emberFormAndJoinUnusedPanIdFoundHandler(panId, channel)) {
+    825              emberAfUnusedPanIdFoundCallback(panId, channel);
+    826            }
+    827          #else
+    828            emberAfUnusedPanIdFoundCallback(panId, channel);
+   \        0xA   0x4629             MOV      R1,R5
+   \        0xC   0x4620             MOV      R0,R4
+   \        0xE   0x.... 0x....      BL       emberAfUnusedPanIdFoundCallback
+    829          #endif
+    830            emberAfPopNetworkIndex();
+   \       0x12   0xE8BD 0x4031      POP      {R0,R4,R5,LR}
+   \       0x16   0x.... 0x....      B.W      emberAfPopNetworkIndex
+    831          }
+    832          
+
+   \                                 In section .text, align 2, keep-with-next
+    833          void emAfPrintEzspEndpointFlags(uint8_t endpoint)
+    834          {
+    835            // Not applicable for SOC
+    836          }
+   \                     emAfPrintEzspEndpointFlags: (+1)
+   \        0x0   0x4770             BX       LR
+    837          
+
+   \                                 In section .text, align 2, keep-with-next
+    838          void emberZigbeeKeyEstablishmentHandler(EmberEUI64 partner,
+    839                                                  EmberKeyStatus status)
+    840          {
+    841            // This function is generated.
+    842            emAfZigbeeKeyEstablishment(partner, status);
+   \                     emberZigbeeKeyEstablishmentHandler: (+1)
+   \        0x0   0x.... 0x....      B.W      emAfZigbeeKeyEstablishment
+    843          }
+    844          
+
+   \                                 In section .text, align 2, keep-with-next
+    845          void emberMarkApplicationBuffers(void)
+    846          {
+    847            emAfMarkBuffers();
+   \                     emberMarkApplicationBuffers: (+1)
+   \        0x0   0x.... 0x....      B.W      emAfMarkBuffers
+    848          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7:
+   \        0x0   0x....'....        DC32     serialPort
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_1:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_2:
+   \        0x0   0x....'....        DC32     emManufacturerCode
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_3:
+   \        0x0   0x....'....        DC32     emMaximumIncomingTransferSize
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_4:
+   \        0x0   0x....'....        DC32     emMaximumOutgoingTransferSize
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_5:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_STRING
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_6:
+   \        0x0   0x....'....        DC32     emAfEndpoints
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_7:
+   \        0x0   0x....'....        DC32     emLocalEui64
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_8:
+   \        0x0   0x....'....        DC32     emberVersion
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x61 0x66          DC8 "af-main-soc.c"
+   \              0x2D 0x6D    
+   \              0x61 0x69    
+   \              0x6E 0x2D    
+   \              0x73 0x6F    
+   \              0x63 0x2E    
+   \              0x63 0x00
+   \        0xE                      DS8 2
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   calculateMessageTagHash
+        24   -> emberAesHashSimple
+      16   emAfCliVersionCommand
+        16   -> __aeabi_memcpy
+        16   -> emAfParseAndPrintVersion
+      24   emAfCopyMessageIntoRamBuffer
+        24   -> emGetBufferLength
+        24   -> emReallyCopyToLinkedBuffers
+       8   emAfGetPacketBufferFreeCount
+         8   -> emBufferBytesRemaining
+       8   emAfGetPacketBufferTotalCount
+         8   -> emBufferBytesTotal
+       0   emAfPrintEzspEndpointFlags
+      40   emAfSend
+        40   -> calculateMessageTagHash
+        40   -> emReallyFillBuffer
+        40   -> emberProxyBroadcast
+         0   -> emberSendBroadcast
+         0   -> emberSendMulticast
+        40   -> emberSendMulticastWithAlias
+         0   -> emberSendUnicast
+      32   emberAfGetAddressIndex
+        32   -> emberGetAddressTableRemoteEui64
+        32   -> emberGetAddressTableRemoteNodeId
+        32   -> emberGetSender
+        32   -> emberGetSenderEui64
+        32   -> memcmp
+       0   emberAfGetAddressTableSize
+       0   emberAfGetBindingIndex
+         0   -> emberGetBindingIndex
+       0   emberAfGetBindingTableSize
+       0   emberAfGetChildData
+         0   -> emberGetChildData
+       0   emberAfGetChildTableSize
+       0   emberAfGetEui64
+         0   -> __aeabi_memmove
+       0   emberAfGetKeyTableSize
+       0   emberAfGetMfgString
+         0   -> halInternalGetMfgTokenData
+       0   emberAfGetNeighborTableSize
+       8   emberAfGetNetworkParameters
+         8   -> emberGetNetworkParameters
+         0   -> emberGetNodeType
+       0   emberAfGetNodeId
+         0   -> emberGetNodeId
+       0   emberAfGetNodeType
+         0   -> emberGetNodeType
+       0   emberAfGetPanId
+         0   -> emberGetPanId
+       0   emberAfGetRadioChannel
+         0   -> emberGetRadioChannel
+       0   emberAfGetRouteTableSize
+       0   emberAfGetSecurityLevel
+         0   -> emberSecurityLevel
+       0   emberAfGetSleepyMulticastConfig
+       0   emberAfGetSourceRouteTableEntry
+         0   -> emberGetSourceRouteTableEntry
+       0   emberAfGetSourceRouteTableFilledSize
+         0   -> emberGetSourceRouteTableFilledSize
+       0   emberAfGetSourceRouteTableTotalSize
+         0   -> emberGetSourceRouteTableTotalSize
+       0   emberAfGetStackProfile
+         0   -> emberStackProfile
+       8   emberAfMain
+         8   -> emAfAssertNetworkIndexStackIsEmpty
+         8   -> emAfGetCryptoStatus
+         8   -> emAfInit
+         8   -> emAfInitializeMessageSentCallbackArray
+         8   -> emAfInitializeNetworkIndexStack
+         8   -> emAfNetworkInit
+         8   -> emAfNetworkSecurityInit
+         8   -> emAfTick
+         8   -> emberAfEndpointConfigure
+         8   -> emberAfMainStartCallback
+         8   -> emberAfRunEvents
+         8   -> emberInit
+         8   -> emberSetTxPowerMode
+         8   -> emberTick
+         8   -> halInternalAssertFailed
+         8   -> halInternalResetWatchDog
+         8   -> securityAddressCacheInit
+       8   emberAfMainInit
+         8   -> _enableBasePri
+         8   -> emberSerialInit
+         8   -> halGetResetInfo
+         0   -> halPrintCrashData
+         8   -> halPrintCrashDetails
+         8   -> halPrintCrashSummary
+       0   emberAfNetworkState
+         0   -> emberNetworkState
+       8   emberAfSendEndDeviceBind
+         8   -> emberAfPopNetworkIndex
+         8   -> emberAfPushEndpointNetworkIndex
+         8   -> emberEndDeviceBindRequest
+      16   emberEnergyScanResultHandler
+        16   -> emberAfEnergyScanResultCallback
+         0   -> emberAfPopNetworkIndex
+        16   -> emberAfPushCallbackNetworkIndex
+      16   emberGetEndpoint
+        16   -> emberAfEndpointFromIndex
+        16   -> emberAfEndpointIndexIsEnabled
+        16   -> emberAfGetEndpointByIndexCallback
+        16   -> emberGetCallbackNetwork
+      24   emberGetEndpointCluster
+        24   -> emberAfGetNthCluster
+        24   -> emberAfIndexFromEndpoint
+        24   -> emberGetCallbackNetwork
+      16   emberGetEndpointDescription
+        16   -> emberAfClusterCount
+        16   -> emberAfGetEndpointDescriptionCallback
+        16   -> emberAfIndexFromEndpoint
+        16   -> emberGetCallbackNetwork
+     112   emberIncomingMessageHandler
+       112   -> emAfCopyMessageIntoRamBuffer
+       112   -> emAfIncomingMessageHandler
+       112   -> emberAfPopNetworkIndex
+       112   -> emberAfPushCallbackNetworkIndex
+       112   -> emberGetLastHopLqi
+       112   -> emberGetLastHopRssi
+       0   emberMarkApplicationBuffers
+         0   -> emAfMarkBuffers
+     120   emberMessageSentHandler
+       120   -> calculateMessageTagHash
+       120   -> emAfCopyMessageIntoRamBuffer
+       120   -> emAfMessageSentHandler
+       120   -> emberAfPopNetworkIndex
+       120   -> emberAfPushCallbackNetworkIndex
+       120   -> emberConcentratorNoteDeliveryFailure
+      16   emberNetworkFoundHandler
+        16   -> emberAfNetworkFoundCallback
+        16   -> emberAfPopNetworkIndex
+        16   -> emberAfPushCallbackNetworkIndex
+        16   -> emberGetLastHopLqi
+        16   -> emberGetLastHopRssi
+      16   emberRemoteDeleteBindingHandler
+        16   -> emberAfPopNetworkIndex
+        16   -> emberAfPushCallbackNetworkIndex
+        16   -> emberAfRemoteDeleteBindingPermissionCallback
+        16   -> emberDeleteBinding
+      32   emberRemoteSetBindingHandler
+        32   -> emberAfGetNodeId
+        32   -> emberAfPartnerLinkKeyExchangeRequestCallback
+        32   -> emberAfPopNetworkIndex
+        32   -> emberAfPushCallbackNetworkIndex
+        32   -> emberAfRemoteSetBindingPermissionCallback
+        32   -> emberGetBinding
+        32   -> emberSetBinding
+      16   emberScanCompleteHandler
+         0   -> emberAfPopNetworkIndex
+        16   -> emberAfPushCallbackNetworkIndex
+        16   -> emberAfScanCompleteCallback
+       8   emberStackStatusHandler
+         8   -> emAfStackStatusHandler
+         0   -> emberAfPopNetworkIndex
+         8   -> emberAfPushCallbackNetworkIndex
+      16   emberUnusedPanIdFoundHandler
+         0   -> emberAfPopNetworkIndex
+        16   -> emberAfPushCallbackNetworkIndex
+        16   -> emberAfUnusedPanIdFoundCallback
+       0   emberZigbeeKeyEstablishmentHandler
+         0   -> emAfZigbeeKeyEstablishment
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+       4  ??DataTable7_4
+       4  ??DataTable7_5
+       4  ??DataTable7_6
+       4  ??DataTable7_7
+       4  ??DataTable7_8
+      16  ?_0
+      44  calculateMessageTagHash
+      22  emAfCliVersionCommand
+      56  emAfCopyMessageIntoRamBuffer
+      12  emAfGetPacketBufferFreeCount
+      12  emAfGetPacketBufferTotalCount
+       2  emAfPrintEzspEndpointFlags
+     174  emAfSend
+     104  emberAfGetAddressIndex
+       4  emberAfGetAddressTableSize
+       4  emberAfGetBindingIndex
+       4  emberAfGetBindingTableSize
+       4  emberAfGetChildData
+       4  emberAfGetChildTableSize
+       8  emberAfGetEui64
+       4  emberAfGetKeyTableSize
+      14  emberAfGetMfgString
+       4  emberAfGetNeighborTableSize
+      20  emberAfGetNetworkParameters
+       4  emberAfGetNodeId
+       4  emberAfGetNodeType
+       4  emberAfGetPanId
+       4  emberAfGetRadioChannel
+       4  emberAfGetRouteTableSize
+       4  emberAfGetSecurityLevel
+       4  emberAfGetSleepyMulticastConfig
+       4  emberAfGetSourceRouteTableEntry
+       4  emberAfGetSourceRouteTableFilledSize
+       4  emberAfGetSourceRouteTableTotalSize
+       4  emberAfGetStackProfile
+     132  emberAfMain
+      60  emberAfMainInit
+       4  emberAfNetworkState
+      32  emberAfSendEndDeviceBind
+      26  emberEnergyScanResultHandler
+      66  emberGetEndpoint
+      96  emberGetEndpointCluster
+      86  emberGetEndpointDescription
+      72  emberIncomingMessageHandler
+       4  emberMarkApplicationBuffers
+      88  emberMessageSentHandler
+      42  emberNetworkFoundHandler
+      56  emberRemoteDeleteBindingHandler
+     128  emberRemoteSetBindingHandler
+      26  emberScanCompleteHandler
+      22  emberStackStatusHandler
+      26  emberUnusedPanIdFoundHandler
+       4  emberZigbeeKeyEstablishmentHandler
+       1  serialPort
+
+ 
+     1 byte  in section .bss
+    16 bytes in section .rodata
+ 1'546 bytes in section .text
+ 
+ 1'546 bytes of CODE  memory
+    16 bytes of CONST memory
+     1 byte  of DATA  memory
+
+Errors: none
+Warnings: none

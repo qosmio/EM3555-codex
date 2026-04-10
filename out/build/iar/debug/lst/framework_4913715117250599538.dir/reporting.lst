@@ -1,0 +1,2823 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:12
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\reporting\reporting.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\reporting.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\reporting\reporting.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"reporting.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\reporting\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\reporting.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\reporting.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\reporting.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\reporting.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\reporting\reporting.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Routines for the Reporting plugin, which sends asynchronous reports
+      4           *        when a ZCL attribute's value has changed.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          #include "app/framework/include/af.h"
+     20          #include "app/framework/util/common.h"
+     21          #include "app/framework/util/attribute-storage.h"
+     22          #include "reporting.h"
+     23          
+     24          #ifdef ATTRIBUTE_LARGEST
+     25          #define READ_DATA_SIZE ATTRIBUTE_LARGEST
+     26          #else
+     27          #define READ_DATA_SIZE 8 // max size if attributes aren't present
+     28          #endif
+     29          
+
+   \                                 In section .bss, align 2
+     30          static uint16_t reportTableActiveLength = 0;
+   \                     reportTableActiveLength:
+   \        0x0                      DS8 2
+     31          
+     32          static void conditionallySendReport(uint8_t endpoint, EmberAfClusterId clusterId);
+     33          static void scheduleTick(void);
+     34          static void removeConfiguration(uint16_t index);
+     35          static void removeConfigurationAndScheduleTick(uint16_t index);
+     36          static EmberAfStatus configureReceivedAttribute(const EmberAfClusterCommand *cmd,
+     37                                                          EmberAfAttributeId attributeId,
+     38                                                          uint8_t mask,
+     39                                                          uint16_t timeout);
+     40          static void putReportableChangeInResp(const EmberAfPluginReportingEntry *entry,
+     41                                                EmberAfAttributeType dataType);
+     42          static void retrySendReport(EmberOutgoingMessageType type,
+     43                                      uint16_t indexOrDestination,
+     44                                      EmberApsFrame *apsFrame,
+     45                                      uint16_t msgLen,
+     46                                      uint8_t *message,
+     47                                      EmberStatus status);
+     48          static uint32_t computeStringHash(uint8_t *data, uint8_t length);
+     49          
+
+   \                                 In section .bss, align 4
+     50          EmberEventControl emberAfPluginReportingTickEventControl;
+   \                     emberAfPluginReportingTickEventControl:
+   \        0x0                      DS8 8
+     51          
+
+   \                                 In section .bss, align 8
+     52          EmAfPluginReportVolatileData emAfPluginReportVolatileData[REPORT_TABLE_SIZE];
+   \                     emAfPluginReportVolatileData:
+   \        0x0                      DS8 240
+     53          
+
+   \                                 In section .text, align 2, keep-with-next
+     54          static void retrySendReport(EmberOutgoingMessageType type,
+     55                                      uint16_t indexOrDestination,
+     56                                      EmberApsFrame *apsFrame,
+     57                                      uint16_t msgLen,
+     58                                      uint8_t *message,
+     59                                      EmberStatus status)
+     60          {
+   \                     retrySendReport: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x9C05             LDR      R4,[SP, #+20]
+     61            // Retry once, and do so by unicasting without a pointer to this callback
+     62            if (status != EMBER_SUCCESS) {
+   \        0x4   0xB2E4             UXTB     R4,R4
+   \        0x6   0x2C00             CMP      R4,#+0
+   \        0x8   0xD003             BEQ.N    ??retrySendReport_0
+     63              emberAfSendUnicast(type, indexOrDestination, apsFrame, msgLen, message);
+   \        0xA   0x9C04             LDR      R4,[SP, #+16]
+   \        0xC   0x9400             STR      R4,[SP, #+0]
+   \        0xE   0x.... 0x....      BL       emberAfSendUnicast
+     64            }
+     65          }
+   \                     ??retrySendReport_0: (+1)
+   \       0x12   0xBD13             POP      {R0,R1,R4,PC}
+     66          
+     67          // Implementation based on public domain Fowler/Noll/Vo FNV-1a hash function:
+     68          // http://isthe.com/chongo/tech/comp/fnv/
+     69          // https://tools.ietf.org/html/draft-eastlake-fnv-14
+     70          // https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function
+     71          //
+     72          // Used to save and compare hashes of CHAR and OCTET string values in order to detect
+     73          // reportable changes. The strings themselves are longer than the storage size.
+     74          #define FNV1_OFFSET_BASIS (2166136261)
+     75          #define FNV1_PRIME (16777619)
+
+   \                                 In section .text, align 2, keep-with-next
+     76          static uint32_t computeStringHash(uint8_t *data, uint8_t length)
+     77          {
+   \                     computeStringHash: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+   \        0x2   0x4602             MOV      R2,R0
+     78            // FNV-1a, 32-bit hash
+     79            uint32_t hash = FNV1_OFFSET_BASIS;
+   \        0x4   0x.... 0x....      LDR.W    R0,??DataTable17
+     80            for (int i = 0; i < length; ++i) {
+   \        0x8   0x2300             MOVS     R3,#+0
+   \        0xA   0xE006             B.N      ??computeStringHash_0
+     81              hash ^= data[i];
+     82              hash *= FNV1_PRIME; // Or, hash += (hash<<1) + (hash<<4) + (hash<<7) + (hash<<8) + (hash<<24);
+   \                     ??computeStringHash_1: (+1)
+   \        0xC   0x5CD4             LDRB     R4,[R2, R3]
+   \        0xE   0x4060             EORS     R0,R4,R0
+   \       0x10   0x4604             MOV      R4,R0
+   \       0x12   0x.... 0x....      LDR.W    R0,??DataTable17_1
+   \       0x16   0x4360             MULS     R0,R0,R4
+     83            }
+   \       0x18   0x1C5B             ADDS     R3,R3,#+1
+   \                     ??computeStringHash_0: (+1)
+   \       0x1A   0x460C             MOV      R4,R1
+   \       0x1C   0x42A3             CMP      R3,R4
+   \       0x1E   0xDBF5             BLT.N    ??computeStringHash_1
+     84            return hash;
+   \       0x20   0xBC10             POP      {R4}
+   \       0x22   0x4770             BX       LR
+     85          }
+     86          
+     87          #define ifValidIndex(expr) do {      \
+     88              if (index < REPORT_TABLE_SIZE) { \
+     89                expr;                          \
+     90              }                                \
+     91          } while (0)
+     92          
+     93          #ifdef EZSP_HOST
+     94          static EmberAfPluginReportingEntry table[REPORT_TABLE_SIZE];
+     95          void emAfPluginReportingGetEntry(uint16_t index, EmberAfPluginReportingEntry *result)
+     96          {
+     97            ifValidIndex(MEMMOVE(result, &table[index], sizeof(EmberAfPluginReportingEntry)));
+     98          }
+     99          void emAfPluginReportingSetEntry(uint16_t index, EmberAfPluginReportingEntry *value)
+    100          {
+    101            ifValidIndex(MEMMOVE(&table[index], value, sizeof(EmberAfPluginReportingEntry)));
+    102          }
+    103          #elif defined(EMBER_AF_PLUGIN_REPORTING_ENABLE_EXPANDED_TABLE)
+    104          #define reportingTableKey(index) (NVM3KEY_REPORTING_TABLE_EXPANDED + (index))
+    105          void emAfPluginReportingGetEntry(uint16_t index, EmberAfPluginReportingEntry *result)
+    106          {
+    107            ifValidIndex(nvm3_readData(nvm3_defaultHandle, reportingTableKey(index), result, sizeof(EmberAfPluginReportingEntry)));
+    108          }
+    109          void emAfPluginReportingSetEntry(uint16_t index, EmberAfPluginReportingEntry *value)
+    110          {
+    111            ifValidIndex(nvm3_writeData(nvm3_defaultHandle, reportingTableKey(index), value, sizeof(EmberAfPluginReportingEntry)));
+    112          }
+    113          #else
+
+   \                                 In section .text, align 2, keep-with-next
+    114          void emAfPluginReportingGetEntry(uint16_t index, EmberAfPluginReportingEntry *result)
+    115          {
+   \                     emAfPluginReportingGetEntry: (+1)
+   \        0x0   0x4602             MOV      R2,R0
+   \        0x2   0x4608             MOV      R0,R1
+    116            ifValidIndex(halCommonGetIndexedToken(result, TOKEN_REPORT_TABLE, index));
+   \        0x4   0x4611             MOV      R1,R2
+   \        0x6   0x290A             CMP      R1,#+10
+   \        0x8   0xDA04             BGE.N    ??emAfPluginReportingGetEntry_0
+   \        0xA   0x2314             MOVS     R3,#+20
+   \        0xC   0xB2D2             UXTB     R2,R2
+   \        0xE   0x2125             MOVS     R1,#+37
+   \       0x10   0x.... 0x....      B.W      halInternalGetTokenData
+    117          }
+   \                     ??emAfPluginReportingGetEntry_0: (+1)
+   \       0x14   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+    118          void emAfPluginReportingSetEntry(uint16_t index, EmberAfPluginReportingEntry *value)
+    119          {
+   \                     emAfPluginReportingSetEntry: (+1)
+   \        0x0   0x460A             MOV      R2,R1
+    120            ifValidIndex(halCommonSetIndexedToken(TOKEN_REPORT_TABLE, index, value));
+   \        0x2   0x4601             MOV      R1,R0
+   \        0x4   0x290A             CMP      R1,#+10
+   \        0x6   0xDA04             BGE.N    ??emAfPluginReportingSetEntry_0
+   \        0x8   0x2314             MOVS     R3,#+20
+   \        0xA   0xB2C9             UXTB     R1,R1
+   \        0xC   0x2025             MOVS     R0,#+37
+   \        0xE   0x.... 0x....      B.W      halInternalSetTokenData
+    121          }
+   \                     ??emAfPluginReportingSetEntry_0: (+1)
+   \       0x12   0x4770             BX       LR
+    122          #endif
+    123          
+
+   \                                 In section .text, align 2, keep-with-next
+    124          void emberAfPluginReportingStackStatusCallback(EmberStatus status)
+    125          {
+   \                     emberAfPluginReportingStackStatusCallback: (+1)
+   \        0x0   0x2890             CMP      R0,#+144
+   \        0x2   0xD000             BEQ.N    ??emberAfPluginReportingStackStatusCallback_0
+   \        0x4   0x4770             BX       LR
+   \                     ??emberAfPluginReportingStackStatusCallback_0: (+1)
+   \        0x6   0xB580             PUSH     {R7,LR}
+    126            if (status == EMBER_NETWORK_UP) {
+    127              // Load default reporting configurations
+    128              emberAfPluginReportingLoadReportingConfigDefaults();
+   \        0x8   0x.... 0x....      BL       emberAfPluginReportingLoadReportingConfigDefaults
+    129          
+    130              scheduleTick();
+   \        0xC   0xE8BD 0x4001      POP      {R0,LR}
+   \       0x10   0x....             B.N      scheduleTick
+    131            }
+    132          }
+    133          
+
+   \                                 In section .text, align 2, keep-with-next
+    134          void emberAfPluginReportingInitCallback(void)
+    135          {
+   \                     emberAfPluginReportingInitCallback: (+1)
+   \        0x0   0xB530             PUSH     {R4,R5,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+    136            // On device initialization, any attributes that have been set up to report
+    137            // should generate an attribute report.
+    138            uint16_t i;
+    139            for (i = 0; i < REPORT_TABLE_SIZE; i++) {
+   \        0x4   0x2400             MOVS     R4,#+0
+   \        0x6   0xE00C             B.N      ??emberAfPluginReportingInitCallback_0
+    140              EmberAfPluginReportingEntry entry;
+    141              entry.endpoint = EMBER_AF_PLUGIN_REPORTING_UNUSED_ENDPOINT_ID;
+    142              emAfPluginReportingGetEntry(i, &entry);
+    143              if (entry.endpoint == EMBER_AF_PLUGIN_REPORTING_UNUSED_ENDPOINT_ID) {
+    144                // we structure the table so that all "active" entries fall within
+    145                // a single range.  When we encounter an unused entry, assume
+    146                // we've reached the end of active entries and break the loop
+    147                break;
+    148              } else if (entry.direction == EMBER_ZCL_REPORTING_DIRECTION_REPORTED) {
+   \                     ??emberAfPluginReportingInitCallback_1: (+1)
+   \        0x8   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD107             BNE.N    ??emberAfPluginReportingInitCallback_2
+    149                emAfPluginReportVolatileData[i].reportableChange = true;
+   \       0x10   0x2001             MOVS     R0,#+1
+   \       0x12   0x.... 0x....      LDR.W    R1,??DataTable17_2
+   \       0x16   0xEB05 0x0245      ADD      R2,R5,R5, LSL #+1
+   \       0x1A   0xEB11 0x01C2      ADDS     R1,R1,R2, LSL #+3
+   \       0x1E   0x7408             STRB     R0,[R1, #+16]
+    150              }
+   \                     ??emberAfPluginReportingInitCallback_2: (+1)
+   \       0x20   0x1C64             ADDS     R4,R4,#+1
+   \                     ??emberAfPluginReportingInitCallback_0: (+1)
+   \       0x22   0x4625             MOV      R5,R4
+   \       0x24   0xB2AD             UXTH     R5,R5
+   \       0x26   0x2D0A             CMP      R5,#+10
+   \       0x28   0xDA0B             BGE.N    ??emberAfPluginReportingInitCallback_3
+   \       0x2A   0x2000             MOVS     R0,#+0
+   \       0x2C   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \       0x30   0x4669             MOV      R1,SP
+   \       0x32   0x4620             MOV      R0,R4
+   \       0x34   0xB280             UXTH     R0,R0
+   \       0x36   0x.... 0x....      BL       emAfPluginReportingGetEntry
+   \       0x3A   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x3E   0x2800             CMP      R0,#+0
+   \       0x40   0xD1E2             BNE.N    ??emberAfPluginReportingInitCallback_1
+    151            }
+    152          
+    153            reportTableActiveLength = i;
+   \                     ??emberAfPluginReportingInitCallback_3: (+1)
+   \       0x42   0x.... 0x....      LDR.W    R0,??DataTable17_3
+   \       0x46   0x8004             STRH     R4,[R0, #+0]
+    154            scheduleTick();
+   \       0x48   0x.... 0x....      BL       scheduleTick
+    155          }
+   \       0x4C   0xB005             ADD      SP,SP,#+20
+   \       0x4E   0xBD30             POP      {R4,R5,PC}
+    156          
+
+   \                                 In section .text, align 2, keep-with-next
+    157          uint16_t emAfPluginReportingNumEntries(void)
+    158          {
+    159            return reportTableActiveLength;
+   \                     emAfPluginReportingNumEntries: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R0,??DataTable17_3
+   \        0x4   0x8800             LDRH     R0,[R0, #+0]
+   \        0x6   0x4770             BX       LR
+    160          }
+    161          
+
+   \                                 In section .text, align 2, keep-with-next
+    162          void emberAfPluginReportingTickEventHandler(void)
+    163          {
+   \                     emberAfPluginReportingTickEventHandler: (+1)
+   \        0x0   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+   \        0x4   0xB09E             SUB      SP,SP,#+120
+    164            EmberApsFrame *apsFrame = NULL;
+   \        0x6   0x2400             MOVS     R4,#+0
+    165            EmberAfStatus status;
+    166            EmberAfAttributeType dataType;
+    167            uint16_t manufacturerCode = 0;
+   \        0x8   0x4625             MOV      R5,R4
+    168            uint8_t readData[READ_DATA_SIZE];
+    169            uint16_t dataSize;
+    170            bool clientToServer = false;
+   \        0xA   0x4626             MOV      R6,R4
+    171            EmberBindingTableEntry bindingEntry;
+    172            uint8_t reportSize = 0, currentPayloadMaxLength = 0, smallestPayloadMaxLength = 0;
+   \        0xC   0x4627             MOV      R7,R4
+    173            uint16_t i;
+    174          
+    175            for (i = 0; i < reportTableActiveLength; i++) {
+   \        0xE   0x46A0             MOV      R8,R4
+   \       0x10   0xE05A             B.N      ??emberAfPluginReportingTickEventHandler_0
+    176              EmberAfPluginReportingEntry entry;
+    177              uint32_t elapsedMs;
+    178              emAfPluginReportingGetEntry(i, &entry);
+    179              // We will only send reports for active reported attributes and only if a
+    180              // reportable change has occurred and the minimum interval has elapsed or
+    181              // if the maximum interval is set and has elapsed.
+    182              elapsedMs = elapsedTimeInt32u(emAfPluginReportVolatileData[i].lastReportTimeMs,
+    183                                            halCommonGetInt32uMillisecondTick());
+    184              if (entry.direction != EMBER_ZCL_REPORTING_DIRECTION_REPORTED
+    185                  || (elapsedMs
+    186                      < entry.data.reported.minInterval * MILLISECOND_TICKS_PER_SECOND)
+    187                  || (!emAfPluginReportVolatileData[i].reportableChange
+    188                      && (entry.data.reported.maxInterval == 0
+    189                          || (elapsedMs
+    190                              < (entry.data.reported.maxInterval
+    191                                 * MILLISECOND_TICKS_PER_SECOND))))) {
+    192                continue;
+    193              }
+    194          
+    195              status = emAfReadAttribute(entry.endpoint,
+    196                                         entry.clusterId,
+    197                                         entry.attributeId,
+    198                                         entry.mask,
+    199                                         entry.manufacturerCode,
+    200                                         (uint8_t *)&readData,
+    201                                         READ_DATA_SIZE,
+    202                                         &dataType);
+    203              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    204                emberAfReportingPrintln("ERR: reading cluster 0x%2x attribute 0x%2x: 0x%x",
+    205                                        entry.clusterId,
+    206                                        entry.attributeId,
+    207                                        status);
+    208                continue;
+    209              }
+    210              if (emberAfIsLongStringAttributeType(dataType)) {
+    211                // LONG string types are rarely used and even more rarely (never?)
+    212                // reported; ignore and leave ensuing handling of other types unchanged.
+    213                emberAfReportingPrintln("ERR: reporting of LONG string attribute type not supported: cluster 0x%2x attribute 0x%2x",
+    214                                        entry.clusterId,
+    215                                        entry.attributeId);
+    216                continue;
+    217              }
+    218          
+    219              // find size of current report
+    220              dataSize = emberAfAttributeValueSize(dataType, readData, sizeof(readData));
+    221              if (dataSize == 0) {
+    222                continue; // defensive; read attribute above would have failed
+    223              }
+    224              reportSize = sizeof(entry.attributeId) + sizeof(dataType) + dataSize;
+    225          
+    226              // If we have already started a report for a different attribute or
+    227              // destination, or if the current entry is too big for current report, send it and create a new one.
+    228              if (apsFrame != NULL
+    229                  && (!(entry.endpoint == apsFrame->sourceEndpoint
+    230                        && entry.clusterId == apsFrame->clusterId
+    231                        && emberAfClusterIsClient(&entry) == clientToServer
+    232                        && entry.manufacturerCode == manufacturerCode)
+    233                      || (appResponseLength + reportSize > smallestPayloadMaxLength))) {
+    234                if (appResponseLength + reportSize > smallestPayloadMaxLength) {
+    235                  emberAfReportingPrintln("Reporting Entry Full - creating new report");
+    236                }
+    237                conditionallySendReport(apsFrame->sourceEndpoint, apsFrame->clusterId);
+    238                apsFrame = NULL;
+    239              }
+    240          
+    241              // If we haven't made the message header, make it.
+    242              if (apsFrame == NULL) {
+    243                apsFrame = emberAfGetCommandApsFrame();
+    244                clientToServer = emberAfClusterIsClient(&entry);
+    245                // The manufacturer-specfic version of the fill API only creates a
+    246                // manufacturer-specfic command if the manufacturer code is set.  For
+    247                // non-manufacturer-specfic reports, the manufacturer code is unset, so
+    248                // we can get away with using this API for both cases.
+    249                emberAfFillExternalManufacturerSpecificBuffer((clientToServer
+    250                                                               ? (ZCL_GLOBAL_COMMAND
+    251                                                                  | ZCL_FRAME_CONTROL_CLIENT_TO_SERVER
+    252                                                                  | EMBER_AF_DEFAULT_RESPONSE_POLICY_REQUESTS)
+    253                                                               : (ZCL_GLOBAL_COMMAND
+    254                                                                  | ZCL_FRAME_CONTROL_SERVER_TO_CLIENT
+    255                                                                  | EMBER_AF_DEFAULT_RESPONSE_POLICY_REQUESTS)),
+    256                                                              entry.clusterId,
+    257                                                              entry.manufacturerCode,
+    258                                                              ZCL_REPORT_ATTRIBUTES_COMMAND_ID,
+    259                                                              "");
+    260                apsFrame->sourceEndpoint = entry.endpoint;
+    261                apsFrame->options = EMBER_AF_DEFAULT_APS_OPTIONS;
+    262                manufacturerCode = entry.manufacturerCode;
+    263          
+    264                // EMAPPFWKV2-1327: Reporting plugin does not account for reporting too many attributes
+    265                //                  in the same ZCL:ReportAttributes message
+    266          
+    267                // find smallest maximum payload that the destination can receive for this cluster and source endpoint
+    268                uint8_t index;
+    269                smallestPayloadMaxLength = MAX_INT8U_VALUE;
+    270                for (index = 0; index < EMBER_BINDING_TABLE_SIZE; index++) {
+    271                  status = (EmberAfStatus)emberGetBinding(index, &bindingEntry);
+    272                  if (status == (EmberAfStatus)EMBER_SUCCESS && bindingEntry.local == entry.endpoint && bindingEntry.clusterId == entry.clusterId) {
+   \                     ??emberAfPluginReportingTickEventHandler_1: (+1)
+   \       0x12   0xA90A             ADD      R1,SP,#+40
+   \       0x14   0x4658             MOV      R0,R11
+   \       0x16   0xB2C0             UXTB     R0,R0
+   \       0x18   0x.... 0x....      BL       emberGetBinding
+   \       0x1C   0x2800             CMP      R0,#+0
+   \       0x1E   0xD115             BNE.N    ??emberAfPluginReportingTickEventHandler_2
+   \       0x20   0xF89D 0x0029      LDRB     R0,[SP, #+41]
+   \       0x24   0xF89D 0x1015      LDRB     R1,[SP, #+21]
+   \       0x28   0x4288             CMP      R0,R1
+   \       0x2A   0xD10F             BNE.N    ??emberAfPluginReportingTickEventHandler_2
+   \       0x2C   0xF8BD 0x002A      LDRH     R0,[SP, #+42]
+   \       0x30   0xF8BD 0x1016      LDRH     R1,[SP, #+22]
+   \       0x34   0x4288             CMP      R0,R1
+   \       0x36   0xD109             BNE.N    ??emberAfPluginReportingTickEventHandler_2
+    273                    currentPayloadMaxLength = emberAfMaximumApsPayloadLength(bindingEntry.type, bindingEntry.networkIndex, apsFrame);
+   \       0x38   0x4622             MOV      R2,R4
+   \       0x3A   0xF89D 0x1035      LDRB     R1,[SP, #+53]
+   \       0x3E   0xF89D 0x0028      LDRB     R0,[SP, #+40]
+   \       0x42   0x.... 0x....      BL       emberAfMaximumApsPayloadLength
+    274                    if (currentPayloadMaxLength < smallestPayloadMaxLength) {
+   \       0x46   0x42B8             CMP      R0,R7
+   \       0x48   0xD800             BHI.N    ??emberAfPluginReportingTickEventHandler_2
+   \       0x4A   0x4607             MOV      R7,R0
+    275                      smallestPayloadMaxLength = currentPayloadMaxLength;
+    276                    }
+    277                  }
+    278                }
+   \                     ??emberAfPluginReportingTickEventHandler_2: (+1)
+   \       0x4C   0xF10B 0x0B01      ADD      R11,R11,#+1
+   \                     ??emberAfPluginReportingTickEventHandler_3: (+1)
+   \       0x50   0x4658             MOV      R0,R11
+   \       0x52   0xB2C0             UXTB     R0,R0
+   \       0x54   0x2810             CMP      R0,#+16
+   \       0x56   0xDBDC             BLT.N    ??emberAfPluginReportingTickEventHandler_1
+    279              }
+    280          
+    281              // Payload is [attribute id:2] [type:1] [data:N].
+    282              emberAfPutInt16uInResp(entry.attributeId);
+   \                     ??emberAfPluginReportingTickEventHandler_4: (+1)
+   \       0x58   0xF8BD 0x0018      LDRH     R0,[SP, #+24]
+   \       0x5C   0x.... 0x....      BL       emberAfPutInt16uInResp
+    283              emberAfPutInt8uInResp(dataType);
+   \       0x60   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \       0x64   0x.... 0x....      BL       emberAfPutInt8uInResp
+    284          
+    285          #if (BIGENDIAN_CPU)
+    286              if (isThisDataTypeSentLittleEndianOTA(dataType)) {
+    287                uint8_t i;
+    288                for (i = 0; i < dataSize; i++) {
+    289                  emberAfPutInt8uInResp(readData[dataSize - i - 1]);
+    290                }
+    291              } else {
+    292                emberAfPutBlockInResp(readData, dataSize);
+    293              }
+    294          #else
+    295              emberAfPutBlockInResp(readData, dataSize);
+   \       0x68   0x4650             MOV      R0,R10
+   \       0x6A   0x4601             MOV      R1,R0
+   \       0x6C   0xA80E             ADD      R0,SP,#+56
+   \       0x6E   0x.... 0x....      BL       emberAfPutBlockInResp
+    296          #endif
+    297          
+    298              // Store the last reported time and value so that we can track intervals
+    299              // and changes.  We only track changes for data types that are small enough
+    300              // for us to compare. For CHAR and OCTET strings, we substitute a 32-bit hash.
+    301              emAfPluginReportVolatileData[i].reportableChange = false;
+   \       0x72   0x2000             MOVS     R0,#+0
+   \       0x74   0xF889 0x0010      STRB     R0,[R9, #+16]
+    302              emAfPluginReportVolatileData[i].lastReportTimeMs = halCommonGetInt32uMillisecondTick();
+   \       0x78   0x.... 0x....      BL       halCommonGetInt32uMillisecondTick
+   \       0x7C   0xF8C9 0x0000      STR      R0,[R9, #+0]
+    303              uint32_t stringHash = 0;
+   \       0x80   0x2000             MOVS     R0,#+0
+   \       0x82   0x9000             STR      R0,[SP, #+0]
+    304              uint8_t *copyData = readData;
+   \       0x84   0xAB0E             ADD      R3,SP,#+56
+    305              uint8_t copySize = dataSize;
+   \       0x86   0x4652             MOV      R2,R10
+    306              if (dataType == ZCL_OCTET_STRING_ATTRIBUTE_TYPE || dataType == ZCL_CHAR_STRING_ATTRIBUTE_TYPE) {
+   \       0x88   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \       0x8C   0x2841             CMP      R0,#+65
+   \       0x8E   0xD001             BEQ.N    ??emberAfPluginReportingTickEventHandler_5
+   \       0x90   0x2842             CMP      R0,#+66
+   \       0x92   0xD109             BNE.N    ??emberAfPluginReportingTickEventHandler_6
+    307                // dataSize was set above to count the string's length byte, in addition to string length.
+    308                // Compute hash on string value only.
+    309                stringHash = computeStringHash(readData + 1, dataSize - 1);
+   \                     ??emberAfPluginReportingTickEventHandler_5: (+1)
+   \       0x94   0xF1AA 0x0101      SUB      R1,R10,#+1
+   \       0x98   0xB2C9             UXTB     R1,R1
+   \       0x9A   0xF10D 0x0039      ADD      R0,SP,#+57
+   \       0x9E   0x.... 0x....      BL       computeStringHash
+   \       0xA2   0x9000             STR      R0,[SP, #+0]
+    310                copyData = (uint8_t *)&stringHash;
+   \       0xA4   0x466B             MOV      R3,SP
+    311                copySize = sizeof(stringHash);
+   \       0xA6   0x2204             MOVS     R2,#+4
+    312              }
+    313              if (copySize <= sizeof(emAfPluginReportVolatileData[i].lastReportValue)) {
+   \                     ??emberAfPluginReportingTickEventHandler_6: (+1)
+   \       0xA8   0xB2D2             UXTB     R2,R2
+   \       0xAA   0x2A09             CMP      R2,#+9
+   \       0xAC   0xD208             BCS.N    ??emberAfPluginReportingTickEventHandler_7
+    314                emAfPluginReportVolatileData[i].lastReportValue = 0;
+   \       0xAE   0x2000             MOVS     R0,#+0
+   \       0xB0   0x4601             MOV      R1,R0
+   \       0xB2   0xE9C9 0x0102      STRD     R0,R1,[R9, #+8]
+    315          #if (BIGENDIAN_CPU)
+    316                MEMMOVE(((uint8_t *)&emAfPluginReportVolatileData[i].lastReportValue
+    317                         + sizeof(emAfPluginReportVolatileData[i].lastReportValue)
+    318                         - copySize),
+    319                        copyData,
+    320                        copySize);
+    321          #else
+    322                MEMMOVE(&emAfPluginReportVolatileData[i].lastReportValue, copyData, copySize);
+   \       0xB6   0x4619             MOV      R1,R3
+   \       0xB8   0xF109 0x0008      ADD      R0,R9,#+8
+   \       0xBC   0x.... 0x....      BL       __aeabi_memmove
+    323          #endif
+    324              }
+   \                     ??emberAfPluginReportingTickEventHandler_7: (+1)
+   \       0xC0   0xF108 0x0801      ADD      R8,R8,#+1
+   \       0xC4   0xFA1F 0xF888      UXTH     R8,R8
+   \                     ??emberAfPluginReportingTickEventHandler_0: (+1)
+   \       0xC8   0x.... 0x....      LDR.W    R0,??DataTable17_3
+   \       0xCC   0x8800             LDRH     R0,[R0, #+0]
+   \       0xCE   0x4580             CMP      R8,R0
+   \       0xD0   0xF280 0x8093      BGE.W    ??emberAfPluginReportingTickEventHandler_8
+   \       0xD4   0xA905             ADD      R1,SP,#+20
+   \       0xD6   0x4640             MOV      R0,R8
+   \       0xD8   0x.... 0x....      BL       emAfPluginReportingGetEntry
+   \       0xDC   0x.... 0x....      BL       halCommonGetInt32uMillisecondTick
+   \       0xE0   0x4601             MOV      R1,R0
+   \       0xE2   0x.... 0x....      LDR.W    R0,??DataTable17_2
+   \       0xE6   0xEB08 0x0248      ADD      R2,R8,R8, LSL #+1
+   \       0xEA   0xEB00 0x09C2      ADD      R9,R0,R2, LSL #+3
+   \       0xEE   0xF8D9 0x0000      LDR      R0,[R9, #+0]
+   \       0xF2   0x1A09             SUBS     R1,R1,R0
+   \       0xF4   0xF89D 0x0014      LDRB     R0,[SP, #+20]
+   \       0xF8   0x2800             CMP      R0,#+0
+   \       0xFA   0xD1E1             BNE.N    ??emberAfPluginReportingTickEventHandler_7
+   \       0xFC   0xF8BD 0x0020      LDRH     R0,[SP, #+32]
+   \      0x100   0xEBB1 0x2F80      CMP      R1,R0, LSL #+10
+   \      0x104   0xD3DC             BCC.N    ??emberAfPluginReportingTickEventHandler_7
+   \      0x106   0xF899 0x0010      LDRB     R0,[R9, #+16]
+   \      0x10A   0x2800             CMP      R0,#+0
+   \      0x10C   0xD106             BNE.N    ??emberAfPluginReportingTickEventHandler_9
+   \      0x10E   0xF8BD 0x0022      LDRH     R0,[SP, #+34]
+   \      0x112   0x2800             CMP      R0,#+0
+   \      0x114   0xD0D4             BEQ.N    ??emberAfPluginReportingTickEventHandler_7
+   \      0x116   0xEBB1 0x2F80      CMP      R1,R0, LSL #+10
+   \      0x11A   0xD3D1             BCC.N    ??emberAfPluginReportingTickEventHandler_7
+   \                     ??emberAfPluginReportingTickEventHandler_9: (+1)
+   \      0x11C   0xA804             ADD      R0,SP,#+16
+   \      0x11E   0x9003             STR      R0,[SP, #+12]
+   \      0x120   0x2040             MOVS     R0,#+64
+   \      0x122   0x9002             STR      R0,[SP, #+8]
+   \      0x124   0xA80E             ADD      R0,SP,#+56
+   \      0x126   0x9001             STR      R0,[SP, #+4]
+   \      0x128   0xF8BD 0x001C      LDRH     R0,[SP, #+28]
+   \      0x12C   0x9000             STR      R0,[SP, #+0]
+   \      0x12E   0xF89D 0x301A      LDRB     R3,[SP, #+26]
+   \      0x132   0xF8BD 0x2018      LDRH     R2,[SP, #+24]
+   \      0x136   0xF8BD 0x1016      LDRH     R1,[SP, #+22]
+   \      0x13A   0xF89D 0x0015      LDRB     R0,[SP, #+21]
+   \      0x13E   0x.... 0x....      BL       emAfReadAttribute
+   \      0x142   0x2800             CMP      R0,#+0
+   \      0x144   0xD1BC             BNE.N    ??emberAfPluginReportingTickEventHandler_7
+   \      0x146   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \      0x14A   0x.... 0x....      BL       emberAfIsLongStringAttributeType
+   \      0x14E   0x2800             CMP      R0,#+0
+   \      0x150   0xD1B6             BNE.N    ??emberAfPluginReportingTickEventHandler_7
+   \      0x152   0x2240             MOVS     R2,#+64
+   \      0x154   0xA90E             ADD      R1,SP,#+56
+   \      0x156   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \      0x15A   0x.... 0x....      BL       emberAfAttributeValueSize
+   \      0x15E   0x4682             MOV      R10,R0
+   \      0x160   0xF1BA 0x0F00      CMP      R10,#+0
+   \      0x164   0xD0AC             BEQ.N    ??emberAfPluginReportingTickEventHandler_7
+   \      0x166   0xF10A 0x0203      ADD      R2,R10,#+3
+   \      0x16A   0x2C00             CMP      R4,#+0
+   \      0x16C   0xD022             BEQ.N    ??emberAfPluginReportingTickEventHandler_10
+   \      0x16E   0x8861             LDRH     R1,[R4, #+2]
+   \      0x170   0x7920             LDRB     R0,[R4, #+4]
+   \      0x172   0xF89D 0x3015      LDRB     R3,[SP, #+21]
+   \      0x176   0x4283             CMP      R3,R0
+   \      0x178   0xD119             BNE.N    ??emberAfPluginReportingTickEventHandler_11
+   \      0x17A   0xF8BD 0x3016      LDRH     R3,[SP, #+22]
+   \      0x17E   0x428B             CMP      R3,R1
+   \      0x180   0xD115             BNE.N    ??emberAfPluginReportingTickEventHandler_11
+   \      0x182   0xF89D 0x301A      LDRB     R3,[SP, #+26]
+   \      0x186   0x085B             LSRS     R3,R3,#+1
+   \      0x188   0xF003 0x0301      AND      R3,R3,#0x1
+   \      0x18C   0x46B4             MOV      R12,R6
+   \      0x18E   0x4563             CMP      R3,R12
+   \      0x190   0xD10D             BNE.N    ??emberAfPluginReportingTickEventHandler_11
+   \      0x192   0xF8BD 0x301C      LDRH     R3,[SP, #+28]
+   \      0x196   0x46AC             MOV      R12,R5
+   \      0x198   0x4563             CMP      R3,R12
+   \      0x19A   0xD108             BNE.N    ??emberAfPluginReportingTickEventHandler_11
+   \      0x19C   0x463B             MOV      R3,R7
+   \      0x19E   0x.... 0x....      LDR.W    R12,??DataTable17_4
+   \      0x1A2   0xF8BC 0xC000      LDRH     R12,[R12, #+0]
+   \      0x1A6   0xB2D2             UXTB     R2,R2
+   \      0x1A8   0x4462             ADD      R2,R2,R12
+   \      0x1AA   0x4293             CMP      R3,R2
+   \      0x1AC   0xDA02             BGE.N    ??emberAfPluginReportingTickEventHandler_10
+   \                     ??emberAfPluginReportingTickEventHandler_11: (+1)
+   \      0x1AE   0x.... 0x....      BL       conditionallySendReport
+   \      0x1B2   0x2400             MOVS     R4,#+0
+   \                     ??emberAfPluginReportingTickEventHandler_10: (+1)
+   \      0x1B4   0x2C00             CMP      R4,#+0
+   \      0x1B6   0xF47F 0xAF4F      BNE.W    ??emberAfPluginReportingTickEventHandler_4
+   \      0x1BA   0x.... 0x....      BL       emberAfGetCommandApsFrame
+   \      0x1BE   0x4604             MOV      R4,R0
+   \      0x1C0   0xF89D 0x601A      LDRB     R6,[SP, #+26]
+   \      0x1C4   0x0876             LSRS     R6,R6,#+1
+   \      0x1C6   0xF006 0x0601      AND      R6,R6,#0x1
+   \      0x1CA   0x....             ADR.N    R0,??DataTable6
+   \      0x1CC   0x9000             STR      R0,[SP, #+0]
+   \      0x1CE   0x230A             MOVS     R3,#+10
+   \      0x1D0   0xF8BD 0x201C      LDRH     R2,[SP, #+28]
+   \      0x1D4   0xF8BD 0x1016      LDRH     R1,[SP, #+22]
+   \      0x1D8   0xF086 0x0001      EOR      R0,R6,#0x1
+   \      0x1DC   0x00C0             LSLS     R0,R0,#+3
+   \      0x1DE   0x.... 0x....      BL       emberAfFillExternalManufacturerSpecificBuffer
+   \      0x1E2   0xF89D 0x0015      LDRB     R0,[SP, #+21]
+   \      0x1E6   0x7120             STRB     R0,[R4, #+4]
+   \      0x1E8   0xF44F 0x508A      MOV      R0,#+4416
+   \      0x1EC   0x80E0             STRH     R0,[R4, #+6]
+   \      0x1EE   0xF8BD 0x501C      LDRH     R5,[SP, #+28]
+   \      0x1F2   0x27FF             MOVS     R7,#+255
+   \      0x1F4   0xF04F 0x0B00      MOV      R11,#+0
+   \      0x1F8   0xE72A             B.N      ??emberAfPluginReportingTickEventHandler_3
+    325            }
+    326          
+    327            if (apsFrame != NULL) {
+   \                     ??emberAfPluginReportingTickEventHandler_8: (+1)
+   \      0x1FA   0x2C00             CMP      R4,#+0
+   \      0x1FC   0xD003             BEQ.N    ??emberAfPluginReportingTickEventHandler_12
+    328              conditionallySendReport(apsFrame->sourceEndpoint, apsFrame->clusterId);
+   \      0x1FE   0x8861             LDRH     R1,[R4, #+2]
+   \      0x200   0x7920             LDRB     R0,[R4, #+4]
+   \      0x202   0x.... 0x....      BL       conditionallySendReport
+    329            }
+    330            scheduleTick();
+   \                     ??emberAfPluginReportingTickEventHandler_12: (+1)
+   \      0x206   0x.... 0x....      BL       scheduleTick
+    331          }
+   \      0x20A   0xB01F             ADD      SP,SP,#+124
+   \      0x20C   0xE8BD 0x8FF0      POP      {R4-R11,PC}
+    332          
+
+   \                                 In section .text, align 2, keep-with-next
+    333          static void conditionallySendReport(uint8_t endpoint, EmberAfClusterId clusterId)
+    334          {
+   \                     conditionallySendReport: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x460C             MOV      R4,R1
+    335            EmberStatus status;
+    336            if (emberAfIsDeviceEnabled(endpoint)
+    337                || clusterId == ZCL_IDENTIFY_CLUSTER_ID) {
+   \        0x4   0x.... 0x....      BL       emberAfIsDeviceEnabled
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD101             BNE.N    ??conditionallySendReport_0
+   \        0xC   0x2C03             CMP      R4,#+3
+   \        0xE   0xD109             BNE.N    ??conditionallySendReport_1
+    338              status = emberAfSendCommandUnicastToBindingsWithCallback((EmberAfMessageSentFunction)(&retrySendReport));
+    339          
+    340              // If the callback table is full, attempt to send the message with no
+    341              // callback.  Note that this could lead to a message failing to transmit
+    342              // with no notification to the user for any number of reasons (ex: hitting
+    343              // the message queue limit), but is better than not sending the message at
+    344              // all because the system hits its callback queue limit.
+    345              if (status == EMBER_TABLE_FULL) {
+   \                     ??conditionallySendReport_0: (+1)
+   \       0x10   0x.... 0x....      LDR.W    R0,??DataTable17_5
+   \       0x14   0x.... 0x....      BL       emberAfSendCommandUnicastToBindingsWithCallback
+   \       0x18   0x28B4             CMP      R0,#+180
+   \       0x1A   0xD103             BNE.N    ??conditionallySendReport_1
+    346                emberAfSendCommandUnicastToBindings();
+   \       0x1C   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x20   0x.... 0x....      B.W      emberAfSendCommandUnicastToBindings
+    347              }
+    348          
+    349          #ifdef EMBER_AF_PLUGIN_REPORTING_ENABLE_GROUP_BOUND_REPORTS
+    350              emberAfSendCommandMulticastToBindings();
+    351          #endif // EMBER_AF_PLUGIN_REPORTING_ENABLE_GROUP_BOUND_REPORTS
+    352            }
+    353          }
+   \                     ??conditionallySendReport_1: (+1)
+   \       0x24   0xBD10             POP      {R4,PC}
+    354          
+
+   \                                 In section .text, align 2, keep-with-next
+    355          bool emberAfConfigureReportingCommandCallback(const EmberAfClusterCommand *cmd)
+    356          {
+   \                     emberAfConfigureReportingCommandCallback: (+1)
+   \        0x0   0xE92D 0x4FF0      PUSH     {R4-R11,LR}
+   \        0x4   0xB087             SUB      SP,SP,#+28
+   \        0x6   0x4605             MOV      R5,R0
+    357            EmberStatus sendStatus;
+    358            uint16_t bufIndex = cmd->payloadStartIndex;
+   \        0x8   0x7D2C             LDRB     R4,[R5, #+20]
+    359            uint8_t frameControl, mask;
+    360            bool failures = false;
+   \        0xA   0x2600             MOVS     R6,#+0
+    361          
+    362            emberAfReportingPrint("%p: ", "CFG_RPT");
+    363            emberAfReportingDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(cmd->apsFrame->clusterId, cmd->mfgCode));
+    364            emberAfReportingPrintln("");
+    365            emberAfReportingFlush();
+    366          
+    367            if (cmd->direction == ZCL_DIRECTION_CLIENT_TO_SERVER) {
+   \        0xC   0x7D68             LDRB     R0,[R5, #+21]
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD102             BNE.N    ??emberAfConfigureReportingCommandCallback_0
+    368              frameControl = (ZCL_GLOBAL_COMMAND
+    369                              | ZCL_FRAME_CONTROL_SERVER_TO_CLIENT
+    370                              | EMBER_AF_DEFAULT_RESPONSE_POLICY_REQUESTS);
+   \       0x12   0x2008             MOVS     R0,#+8
+    371              mask = CLUSTER_MASK_SERVER;
+   \       0x14   0x2701             MOVS     R7,#+1
+   \       0x16   0xE001             B.N      ??emberAfConfigureReportingCommandCallback_1
+    372            } else {
+    373              frameControl = (ZCL_GLOBAL_COMMAND
+    374                              | ZCL_FRAME_CONTROL_CLIENT_TO_SERVER
+    375                              | EMBER_AF_DEFAULT_RESPONSE_POLICY_REQUESTS);
+   \                     ??emberAfConfigureReportingCommandCallback_0: (+1)
+   \       0x18   0x4630             MOV      R0,R6
+    376              mask = CLUSTER_MASK_CLIENT;
+   \       0x1A   0x2702             MOVS     R7,#+2
+    377            }
+    378          
+    379            // The manufacturer-specfic version of the fill API only creates a
+    380            // manufacturer-specfic command if the manufacturer code is set.  For non-
+    381            // manufacturer-specfic reports, the manufacturer code is unset, so we can
+    382            // get away with using this API for both cases.
+    383            emberAfFillExternalManufacturerSpecificBuffer(frameControl,
+    384                                                          cmd->apsFrame->clusterId,
+    385                                                          cmd->mfgCode,
+    386                                                          ZCL_CONFIGURE_REPORTING_RESPONSE_COMMAND_ID,
+    387                                                          "");
+   \                     ??emberAfConfigureReportingCommandCallback_1: (+1)
+   \       0x1C   0x....             ADR.N    R1,??DataTable6
+   \       0x1E   0x9100             STR      R1,[SP, #+0]
+   \       0x20   0x2307             MOVS     R3,#+7
+   \       0x22   0x8A2A             LDRH     R2,[R5, #+16]
+   \       0x24   0x6829             LDR      R1,[R5, #+0]
+   \       0x26   0x8849             LDRH     R1,[R1, #+2]
+   \       0x28   0x.... 0x....      BL       emberAfFillExternalManufacturerSpecificBuffer
+   \       0x2C   0xF88D 0x7005      STRB     R7,[SP, #+5]
+    388          
+    389            // Each record in the command has at least a one-byte direction and a two-
+    390            // byte attribute id.  Additional fields are present depending on the value
+    391            // of the direction field.
+    392            while (bufIndex + 3 < cmd->bufLen) {
+   \                     ??emberAfConfigureReportingCommandCallback_2: (+1)
+   \       0x30   0x89AA             LDRH     R2,[R5, #+12]
+   \       0x32   0x4621             MOV      R1,R4
+   \       0x34   0xB289             UXTH     R1,R1
+   \       0x36   0x1CC8             ADDS     R0,R1,#+3
+   \       0x38   0x4613             MOV      R3,R2
+   \       0x3A   0x4298             CMP      R0,R3
+   \       0x3C   0xF280 0x8092      BGE.W    ??emberAfConfigureReportingCommandCallback_3
+    393              EmberAfAttributeId attributeId;
+    394              EmberAfReportingDirection direction;
+    395              EmberAfStatus status;
+    396          
+    397              direction = (EmberAfReportingDirection)emberAfGetInt8u(cmd->buffer,
+    398                                                                     bufIndex,
+    399                                                                     cmd->bufLen);
+   \       0x40   0x68A8             LDR      R0,[R5, #+8]
+   \       0x42   0x5C41             LDRB     R1,[R0, R1]
+   \       0x44   0xF88D 0x1006      STRB     R1,[SP, #+6]
+    400              bufIndex++;
+   \       0x48   0x1C64             ADDS     R4,R4,#+1
+    401              attributeId = (EmberAfAttributeId)emberAfGetInt16u(cmd->buffer,
+    402                                                                 bufIndex,
+    403                                                                 cmd->bufLen);
+   \       0x4A   0x4621             MOV      R1,R4
+   \       0x4C   0xB289             UXTH     R1,R1
+   \       0x4E   0x.... 0x....      BL       emberAfGetInt16u
+   \       0x52   0x4607             MOV      R7,R0
+    404              bufIndex += 2;
+   \       0x54   0x1CA4             ADDS     R4,R4,#+2
+    405          
+    406              emberAfReportingPrintln(" - direction:%x, attr:%2x", direction, attributeId);
+    407          
+    408              switch (direction) {
+   \       0x56   0xF89D 0x0006      LDRB     R0,[SP, #+6]
+   \       0x5A   0x2800             CMP      R0,#+0
+   \       0x5C   0xD002             BEQ.N    ??emberAfConfigureReportingCommandCallback_4
+   \       0x5E   0x2801             CMP      R0,#+1
+   \       0x60   0xD05C             BEQ.N    ??emberAfConfigureReportingCommandCallback_5
+   \       0x62   0xE06B             B.N      ??emberAfConfigureReportingCommandCallback_6
+    409                case EMBER_ZCL_REPORTING_DIRECTION_REPORTED:
+    410                {
+    411                  EmberAfAttributeMetadata* metadata;
+    412                  EmberAfAttributeType dataType;
+    413                  uint16_t minInterval, maxInterval;
+    414                  uint32_t reportableChange = 0;
+   \                     ??emberAfConfigureReportingCommandCallback_4: (+1)
+   \       0x64   0xF04F 0x0800      MOV      R8,#+0
+    415                  EmberAfPluginReportingEntry newEntry;
+    416          
+    417                  dataType = (EmberAfAttributeType)emberAfGetInt8u(cmd->buffer,
+    418                                                                   bufIndex,
+    419                                                                   cmd->bufLen);
+   \       0x68   0x68A8             LDR      R0,[R5, #+8]
+   \       0x6A   0x4621             MOV      R1,R4
+   \       0x6C   0xB289             UXTH     R1,R1
+   \       0x6E   0x5C41             LDRB     R1,[R0, R1]
+   \       0x70   0xF88D 0x1004      STRB     R1,[SP, #+4]
+    420                  bufIndex++;
+   \       0x74   0x1C64             ADDS     R4,R4,#+1
+    421                  minInterval = emberAfGetInt16u(cmd->buffer, bufIndex, cmd->bufLen);
+   \       0x76   0x89AA             LDRH     R2,[R5, #+12]
+   \       0x78   0x4621             MOV      R1,R4
+   \       0x7A   0xB289             UXTH     R1,R1
+   \       0x7C   0x.... 0x....      BL       emberAfGetInt16u
+   \       0x80   0x4681             MOV      R9,R0
+    422                  bufIndex += 2;
+   \       0x82   0x1CA4             ADDS     R4,R4,#+2
+    423                  maxInterval = emberAfGetInt16u(cmd->buffer, bufIndex, cmd->bufLen);
+   \       0x84   0x89AA             LDRH     R2,[R5, #+12]
+   \       0x86   0x4621             MOV      R1,R4
+   \       0x88   0xB289             UXTH     R1,R1
+   \       0x8A   0x68A8             LDR      R0,[R5, #+8]
+   \       0x8C   0x.... 0x....      BL       emberAfGetInt16u
+   \       0x90   0x4682             MOV      R10,R0
+    424                  bufIndex += 2;
+   \       0x92   0x1CA4             ADDS     R4,R4,#+2
+    425          
+    426                  emberAfReportingPrintln("   type:%x, min:%2x, max:%2x",
+    427                                          dataType,
+    428                                          minInterval,
+    429                                          maxInterval);
+    430                  emberAfReportingFlush();
+    431          
+    432                  if (emberAfGetAttributeAnalogOrDiscreteType(dataType)
+    433                      == EMBER_AF_DATA_TYPE_ANALOG) {
+   \       0x94   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0x98   0x.... 0x....      BL       emberAfGetAttributeAnalogOrDiscreteType
+   \       0x9C   0x2800             CMP      R0,#+0
+   \       0x9E   0xD10D             BNE.N    ??emberAfConfigureReportingCommandCallback_7
+    434                    uint8_t dataSize = emberAfGetDataSize(dataType);
+   \       0xA0   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0xA4   0x.... 0x....      BL       emberAfGetDataSize
+   \       0xA8   0x4683             MOV      R11,R0
+    435                    reportableChange = emberAfGetInt(cmd->buffer,
+    436                                                     bufIndex,
+    437                                                     cmd->bufLen,
+    438                                                     dataSize);
+   \       0xAA   0x465B             MOV      R3,R11
+   \       0xAC   0x89AA             LDRH     R2,[R5, #+12]
+   \       0xAE   0x4621             MOV      R1,R4
+   \       0xB0   0xB289             UXTH     R1,R1
+   \       0xB2   0x68A8             LDR      R0,[R5, #+8]
+   \       0xB4   0x.... 0x....      BL       emberAfGetInt
+   \       0xB8   0x4680             MOV      R8,R0
+    439          
+    440                    emberAfReportingPrint("   change:");
+    441                    emberAfReportingPrintBuffer(cmd->buffer + bufIndex, dataSize, false);
+    442                    emberAfReportingPrintln("");
+    443          
+    444                    bufIndex += dataSize;
+   \       0xBA   0x445C             ADD      R4,R11,R4
+    445                  }
+    446          
+    447                  // emberAfPluginReportingConfigureReportedAttribute handles non-
+    448                  // existent attributes, but does not verify the attribute data type, so
+    449                  // we need to check it here.
+    450                  metadata = emberAfLocateAttributeMetadata(cmd->apsFrame->destinationEndpoint,
+    451                                                            cmd->apsFrame->clusterId,
+    452                                                            attributeId,
+    453                                                            mask,
+    454                                                            cmd->mfgCode);
+   \                     ??emberAfConfigureReportingCommandCallback_7: (+1)
+   \       0xBC   0x6828             LDR      R0,[R5, #+0]
+   \       0xBE   0x8A29             LDRH     R1,[R5, #+16]
+   \       0xC0   0x9100             STR      R1,[SP, #+0]
+   \       0xC2   0xF89D 0x3005      LDRB     R3,[SP, #+5]
+   \       0xC6   0x463A             MOV      R2,R7
+   \       0xC8   0x8841             LDRH     R1,[R0, #+2]
+   \       0xCA   0x7940             LDRB     R0,[R0, #+5]
+   \       0xCC   0x.... 0x....      BL       emberAfLocateAttributeMetadata
+    455                  if (metadata != NULL && metadata->attributeType != dataType) {
+   \       0xD0   0x2800             CMP      R0,#+0
+   \       0xD2   0xD007             BEQ.N    ??emberAfConfigureReportingCommandCallback_8
+   \       0xD4   0x7880             LDRB     R0,[R0, #+2]
+   \       0xD6   0xF89D 0x1004      LDRB     R1,[SP, #+4]
+   \       0xDA   0x4288             CMP      R0,R1
+   \       0xDC   0xD002             BEQ.N    ??emberAfConfigureReportingCommandCallback_8
+    456                    status = EMBER_ZCL_STATUS_INVALID_DATA_TYPE;
+   \       0xDE   0xF04F 0x088D      MOV      R8,#+141
+   \       0xE2   0xE02D             B.N      ??emberAfConfigureReportingCommandCallback_9
+    457                  } else {
+    458                    // Add a reporting entry for a reported attribute.  The reports will
+    459                    // be sent from us to the source of the Configure Reporting command.
+    460                    newEntry.endpoint = cmd->apsFrame->destinationEndpoint;
+   \                     ??emberAfConfigureReportingCommandCallback_8: (+1)
+   \       0xE4   0x6828             LDR      R0,[R5, #+0]
+   \       0xE6   0x7940             LDRB     R0,[R0, #+5]
+   \       0xE8   0xF88D 0x0009      STRB     R0,[SP, #+9]
+    461                    newEntry.clusterId = cmd->apsFrame->clusterId;
+   \       0xEC   0x6828             LDR      R0,[R5, #+0]
+   \       0xEE   0x8840             LDRH     R0,[R0, #+2]
+   \       0xF0   0xF8AD 0x000A      STRH     R0,[SP, #+10]
+    462                    newEntry.attributeId = attributeId;
+   \       0xF4   0xF8AD 0x700C      STRH     R7,[SP, #+12]
+    463                    newEntry.mask = mask;
+   \       0xF8   0xF89D 0x0005      LDRB     R0,[SP, #+5]
+   \       0xFC   0xF88D 0x000E      STRB     R0,[SP, #+14]
+    464                    newEntry.manufacturerCode = cmd->mfgCode;
+   \      0x100   0x8A28             LDRH     R0,[R5, #+16]
+   \      0x102   0xF8AD 0x0010      STRH     R0,[SP, #+16]
+    465                    newEntry.data.reported.minInterval = minInterval;
+   \      0x106   0xF8AD 0x9014      STRH     R9,[SP, #+20]
+    466                    newEntry.data.reported.maxInterval = maxInterval;
+   \      0x10A   0xF8AD 0xA016      STRH     R10,[SP, #+22]
+    467                    newEntry.data.reported.reportableChange = reportableChange;
+   \      0x10E   0xF8CD 0x8018      STR      R8,[SP, #+24]
+    468                    status = emberAfPluginReportingConfigureReportedAttribute(&newEntry);
+   \      0x112   0xA802             ADD      R0,SP,#+8
+   \      0x114   0x.... 0x....      BL       emberAfPluginReportingConfigureReportedAttribute
+   \      0x118   0x4680             MOV      R8,R0
+   \      0x11A   0xE011             B.N      ??emberAfConfigureReportingCommandCallback_9
+    469                  }
+    470                  break;
+    471                }
+    472                case EMBER_ZCL_REPORTING_DIRECTION_RECEIVED:
+    473                {
+    474                  uint16_t timeout = emberAfGetInt16u(cmd->buffer, bufIndex, cmd->bufLen);
+   \                     ??emberAfConfigureReportingCommandCallback_5: (+1)
+   \      0x11C   0x89AA             LDRH     R2,[R5, #+12]
+   \      0x11E   0x4621             MOV      R1,R4
+   \      0x120   0xB289             UXTH     R1,R1
+   \      0x122   0x68A8             LDR      R0,[R5, #+8]
+   \      0x124   0x.... 0x....      BL       emberAfGetInt16u
+   \      0x128   0x4603             MOV      R3,R0
+    475                  bufIndex += 2;
+   \      0x12A   0x1CA4             ADDS     R4,R4,#+2
+    476          
+    477                  emberAfReportingPrintln("   timeout:%2x", timeout);
+    478          
+    479                  // Add a reporting entry from a received attribute.  The reports
+    480                  // will be sent to us from the source of the Configure Reporting
+    481                  // command.
+    482                  status = configureReceivedAttribute(cmd,
+    483                                                      attributeId,
+    484                                                      mask,
+    485                                                      timeout);
+   \      0x12C   0xF89D 0x2005      LDRB     R2,[SP, #+5]
+   \      0x130   0x4639             MOV      R1,R7
+   \      0x132   0x4628             MOV      R0,R5
+   \      0x134   0x.... 0x....      BL       configureReceivedAttribute
+   \      0x138   0x4680             MOV      R8,R0
+    486                  break;
+   \      0x13A   0xE001             B.N      ??emberAfConfigureReportingCommandCallback_9
+    487                }
+    488                default:
+    489                  // This will abort the processing (see below).
+    490                  status = EMBER_ZCL_STATUS_INVALID_FIELD;
+   \                     ??emberAfConfigureReportingCommandCallback_6: (+1)
+   \      0x13C   0xF04F 0x0885      MOV      R8,#+133
+    491                  break;
+    492              }
+    493          
+    494              // If a report cannot be configured, the status, direction, and
+    495              // attribute are added to the response.  If the failure was due to an
+    496              // invalid field, we have to abort after this record because we don't
+    497              // know how to interpret the rest of the data in the request.
+    498              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \                     ??emberAfConfigureReportingCommandCallback_9: (+1)
+   \      0x140   0x4640             MOV      R0,R8
+   \      0x142   0x2800             CMP      R0,#+0
+   \      0x144   0xF43F 0xAF74      BEQ.W    ??emberAfConfigureReportingCommandCallback_2
+    499                emberAfPutInt8uInResp(status);
+   \      0x148   0x.... 0x....      BL       emberAfPutInt8uInResp
+    500                emberAfPutInt8uInResp(direction);
+   \      0x14C   0xF89D 0x0006      LDRB     R0,[SP, #+6]
+   \      0x150   0x.... 0x....      BL       emberAfPutInt8uInResp
+    501                emberAfPutInt16uInResp(attributeId);
+   \      0x154   0x4638             MOV      R0,R7
+   \      0x156   0x.... 0x....      BL       emberAfPutInt16uInResp
+    502                failures = true;
+   \      0x15A   0x2601             MOVS     R6,#+1
+    503                if (status == EMBER_ZCL_STATUS_INVALID_FIELD) {
+   \      0x15C   0xF1B8 0x0F85      CMP      R8,#+133
+   \      0x160   0xF47F 0xAF66      BNE.W    ??emberAfConfigureReportingCommandCallback_2
+    504                  break;
+    505                }
+    506              }
+    507            }
+    508          
+    509            // We just respond with SUCCESS if we made it through without failures.
+    510            if (!failures) {
+   \                     ??emberAfConfigureReportingCommandCallback_3: (+1)
+   \      0x164   0x2E00             CMP      R6,#+0
+   \      0x166   0xD102             BNE.N    ??emberAfConfigureReportingCommandCallback_10
+    511              emberAfPutInt8uInResp(EMBER_ZCL_STATUS_SUCCESS);
+   \      0x168   0x2000             MOVS     R0,#+0
+   \      0x16A   0x.... 0x....      BL       emberAfPutInt8uInResp
+    512            }
+    513          
+    514            sendStatus = emberAfSendResponse();
+   \                     ??emberAfConfigureReportingCommandCallback_10: (+1)
+   \      0x16E   0x.... 0x....      BL       emberAfSendResponse
+    515            if (EMBER_SUCCESS != sendStatus) {
+    516              emberAfReportingPrintln("Reporting: failed to send %s response: 0x%x",
+    517                                      "configure_reporting",
+    518                                      sendStatus);
+    519            }
+    520            return true;
+   \      0x172   0x2001             MOVS     R0,#+1
+   \      0x174   0xB007             ADD      SP,SP,#+28
+   \      0x176   0xE8BD 0x8FF0      POP      {R4-R11,PC}
+    521          }
+    522          
+
+   \                                 In section .text, align 2, keep-with-next
+    523          bool emberAfReadReportingConfigurationCommandCallback(const EmberAfClusterCommand *cmd)
+    524          {
+   \                     emberAfReadReportingConfigurationCommandCallback: (+1)
+   \        0x0   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+   \        0x4   0xB086             SUB      SP,SP,#+24
+   \        0x6   0x4605             MOV      R5,R0
+    525            EmberStatus sendStatus;
+    526            uint16_t bufIndex = cmd->payloadStartIndex;
+   \        0x8   0x7D2E             LDRB     R6,[R5, #+20]
+    527            uint8_t frameControl, mask;
+    528          
+    529            emberAfReportingPrint("%p: ", "READ_RPT_CFG");
+    530            emberAfReportingDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(cmd->apsFrame->clusterId, cmd->mfgCode));
+    531            emberAfReportingPrintln("");
+    532            emberAfReportingFlush();
+    533          
+    534            if (cmd->direction == ZCL_DIRECTION_CLIENT_TO_SERVER) {
+   \        0xA   0x7D68             LDRB     R0,[R5, #+21]
+   \        0xC   0x2800             CMP      R0,#+0
+   \        0xE   0xD102             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_0
+    535              frameControl = (ZCL_GLOBAL_COMMAND
+    536                              | ZCL_FRAME_CONTROL_SERVER_TO_CLIENT
+    537                              | EMBER_AF_DEFAULT_RESPONSE_POLICY_REQUESTS);
+   \       0x10   0x2008             MOVS     R0,#+8
+    538              mask = CLUSTER_MASK_SERVER;
+   \       0x12   0x2701             MOVS     R7,#+1
+   \       0x14   0xE001             B.N      ??emberAfReadReportingConfigurationCommandCallb_1
+    539            } else {
+    540              frameControl = (ZCL_GLOBAL_COMMAND
+    541                              | ZCL_FRAME_CONTROL_CLIENT_TO_SERVER
+    542                              | EMBER_AF_DEFAULT_RESPONSE_POLICY_REQUESTS);
+   \                     ??emberAfReadReportingConfigurationCommandCallb_0: (+1)
+   \       0x16   0x2000             MOVS     R0,#+0
+    543              mask = CLUSTER_MASK_CLIENT;
+   \       0x18   0x2702             MOVS     R7,#+2
+    544            }
+    545          
+    546            // The manufacturer-specfic version of the fill API only creates a
+    547            // manufacturer-specfic command if the manufacturer code is set.  For non-
+    548            // manufacturer-specfic reports, the manufacturer code is unset, so we can
+    549            // get away with using this API for both cases.
+    550            emberAfFillExternalManufacturerSpecificBuffer(frameControl,
+    551                                                          cmd->apsFrame->clusterId,
+    552                                                          cmd->mfgCode,
+    553                                                          ZCL_READ_REPORTING_CONFIGURATION_RESPONSE_COMMAND_ID,
+    554                                                          "");
+   \                     ??emberAfReadReportingConfigurationCommandCallb_1: (+1)
+   \       0x1A   0x....             ADR.N    R1,??DataTable10
+   \       0x1C   0x9100             STR      R1,[SP, #+0]
+   \       0x1E   0x2309             MOVS     R3,#+9
+   \       0x20   0x8A2A             LDRH     R2,[R5, #+16]
+   \       0x22   0x6829             LDR      R1,[R5, #+0]
+   \       0x24   0x8849             LDRH     R1,[R1, #+2]
+   \       0x26   0x.... 0x....      BL       emberAfFillExternalManufacturerSpecificBuffer
+   \       0x2A   0xE008             B.N      ??emberAfReadReportingConfigurationCommandCallb_2
+    555          
+    556            // Each record in the command has a one-byte direction and a two-byte
+    557            // attribute id.
+    558            while (bufIndex + 3 <= cmd->bufLen) {
+    559              EmberAfAttributeId attributeId;
+    560              EmberAfAttributeMetadata *metadata = NULL;
+    561              EmberAfPluginReportingEntry entry;
+    562              EmberAfReportingDirection direction;
+    563              uint8_t i;
+    564              bool found = false;
+    565          
+    566              direction = (EmberAfReportingDirection)emberAfGetInt8u(cmd->buffer,
+    567                                                                     bufIndex,
+    568                                                                     cmd->bufLen);
+    569              bufIndex++;
+    570              attributeId = (EmberAfAttributeId)emberAfGetInt16u(cmd->buffer,
+    571                                                                 bufIndex,
+    572                                                                 cmd->bufLen);
+    573              bufIndex += 2;
+    574          
+    575              switch (direction) {
+    576                case EMBER_ZCL_REPORTING_DIRECTION_REPORTED:
+    577                case EMBER_ZCL_REPORTING_DIRECTION_RECEIVED:
+    578                  metadata = emberAfLocateAttributeMetadata(cmd->apsFrame->destinationEndpoint,
+    579                                                            cmd->apsFrame->clusterId,
+    580                                                            attributeId,
+    581                                                            mask,
+    582                                                            cmd->mfgCode);
+    583                  if (metadata == NULL) {
+    584                    emberAfPutInt8uInResp(EMBER_ZCL_STATUS_UNSUPPORTED_ATTRIBUTE);
+   \                     ??emberAfReadReportingConfigurationCommandCallb_3: (+1)
+   \       0x2C   0x2086             MOVS     R0,#+134
+   \       0x2E   0x.... 0x....      BL       emberAfPutInt8uInResp
+    585                    emberAfPutInt8uInResp(direction);
+   \       0x32   0x4640             MOV      R0,R8
+   \       0x34   0x.... 0x....      BL       emberAfPutInt8uInResp
+    586                    emberAfPutInt16uInResp(attributeId);
+   \       0x38   0x4648             MOV      R0,R9
+   \       0x3A   0x.... 0x....      BL       emberAfPutInt16uInResp
+    587                    continue;
+    588                  }
+   \                     ??emberAfReadReportingConfigurationCommandCallb_2: (+1)
+   \       0x3E   0x89AA             LDRH     R2,[R5, #+12]
+   \       0x40   0x4631             MOV      R1,R6
+   \       0x42   0xB289             UXTH     R1,R1
+   \       0x44   0x4610             MOV      R0,R2
+   \       0x46   0x1CCB             ADDS     R3,R1,#+3
+   \       0x48   0x4298             CMP      R0,R3
+   \       0x4A   0xF2C0 0x809C      BLT.W    ??emberAfReadReportingConfigurationCommandCallb_4
+   \       0x4E   0xF04F 0x0A00      MOV      R10,#+0
+   \       0x52   0x68A8             LDR      R0,[R5, #+8]
+   \       0x54   0xF810 0x8001      LDRB     R8,[R0, R1]
+   \       0x58   0x1C76             ADDS     R6,R6,#+1
+   \       0x5A   0x4631             MOV      R1,R6
+   \       0x5C   0xB289             UXTH     R1,R1
+   \       0x5E   0x.... 0x....      BL       emberAfGetInt16u
+   \       0x62   0x4681             MOV      R9,R0
+   \       0x64   0x1CB6             ADDS     R6,R6,#+2
+   \       0x66   0x4640             MOV      R0,R8
+   \       0x68   0x2801             CMP      R0,#+1
+   \       0x6A   0xD80E             BHI.N    ??emberAfReadReportingConfigurationCommandCallb_5
+   \       0x6C   0x6828             LDR      R0,[R5, #+0]
+   \       0x6E   0x8A29             LDRH     R1,[R5, #+16]
+   \       0x70   0x9100             STR      R1,[SP, #+0]
+   \       0x72   0x4639             MOV      R1,R7
+   \       0x74   0x460B             MOV      R3,R1
+   \       0x76   0x4649             MOV      R1,R9
+   \       0x78   0x460A             MOV      R2,R1
+   \       0x7A   0x8841             LDRH     R1,[R0, #+2]
+   \       0x7C   0x7940             LDRB     R0,[R0, #+5]
+   \       0x7E   0x.... 0x....      BL       emberAfLocateAttributeMetadata
+   \       0x82   0x0004             MOVS     R4,R0
+   \       0x84   0xD0D2             BEQ.N    ??emberAfReadReportingConfigurationCommandCallb_3
+    589                  break;
+    590                default:
+    591                  emberAfPutInt8uInResp(EMBER_ZCL_STATUS_INVALID_FIELD);
+    592                  emberAfPutInt8uInResp(direction);
+    593                  emberAfPutInt16uInResp(attributeId);
+    594                  continue;
+    595              }
+    596          
+    597              // 075123r03 seems to suggest that SUCCESS is returned even if reporting
+    598              // isn't configured for the requested attribute.  The individual fields
+    599              // of the response for this attribute get populated with defaults.
+    600              // CCB 1854 removes the ambiguity and requires NOT_FOUND to be returned in
+    601              // the status field and all fields except direction and attribute identifier
+    602              // to be omitted if there is no report configuration found.
+    603              for (i = 0; i < reportTableActiveLength; i++) {
+   \       0x86   0x46D3             MOV      R11,R10
+   \       0x88   0xE00B             B.N      ??emberAfReadReportingConfigurationCommandCallb_6
+   \                     ??emberAfReadReportingConfigurationCommandCallb_5: (+1)
+   \       0x8A   0x2085             MOVS     R0,#+133
+   \       0x8C   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x90   0x4640             MOV      R0,R8
+   \       0x92   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x96   0x4648             MOV      R0,R9
+   \       0x98   0x.... 0x....      BL       emberAfPutInt16uInResp
+   \       0x9C   0xE7CF             B.N      ??emberAfReadReportingConfigurationCommandCallb_2
+   \                     ??emberAfReadReportingConfigurationCommandCallb_7: (+1)
+   \       0x9E   0xF10B 0x0B01      ADD      R11,R11,#+1
+   \                     ??emberAfReadReportingConfigurationCommandCallb_6: (+1)
+   \       0xA2   0x4658             MOV      R0,R11
+   \       0xA4   0xB2C0             UXTB     R0,R0
+   \       0xA6   0x4601             MOV      R1,R0
+   \       0xA8   0x.... 0x....      LDR.W    R2,??DataTable17_3
+   \       0xAC   0x8812             LDRH     R2,[R2, #+0]
+   \       0xAE   0x4291             CMP      R1,R2
+   \       0xB0   0xD22E             BCS.N    ??emberAfReadReportingConfigurationCommandCallb_8
+    604                emAfPluginReportingGetEntry(i, &entry);
+   \       0xB2   0xA901             ADD      R1,SP,#+4
+   \       0xB4   0x.... 0x....      BL       emAfPluginReportingGetEntry
+    605                if (entry.direction == direction
+    606                    && entry.endpoint == cmd->apsFrame->destinationEndpoint
+    607                    && entry.clusterId == cmd->apsFrame->clusterId
+    608                    && entry.attributeId == attributeId
+    609                    && entry.mask == mask
+    610                    && entry.manufacturerCode == cmd->mfgCode
+    611                    && (entry.direction == EMBER_ZCL_REPORTING_DIRECTION_REPORTED
+    612                        || (entry.data.received.source == cmd->source
+    613                            && entry.data.received.endpoint == cmd->apsFrame->sourceEndpoint))) {
+   \       0xB8   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0xBC   0x4540             CMP      R0,R8
+   \       0xBE   0xD1EE             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_7
+   \       0xC0   0x6829             LDR      R1,[R5, #+0]
+   \       0xC2   0xF89D 0x0005      LDRB     R0,[SP, #+5]
+   \       0xC6   0x794A             LDRB     R2,[R1, #+5]
+   \       0xC8   0x4290             CMP      R0,R2
+   \       0xCA   0xD1E8             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_7
+   \       0xCC   0xF8BD 0x0006      LDRH     R0,[SP, #+6]
+   \       0xD0   0x884A             LDRH     R2,[R1, #+2]
+   \       0xD2   0x4290             CMP      R0,R2
+   \       0xD4   0xD1E3             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_7
+   \       0xD6   0xF8BD 0x0008      LDRH     R0,[SP, #+8]
+   \       0xDA   0x4548             CMP      R0,R9
+   \       0xDC   0xD1DF             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_7
+   \       0xDE   0xF89D 0x000A      LDRB     R0,[SP, #+10]
+   \       0xE2   0x42B8             CMP      R0,R7
+   \       0xE4   0xD1DB             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_7
+   \       0xE6   0xF8BD 0x000C      LDRH     R0,[SP, #+12]
+   \       0xEA   0x8A2A             LDRH     R2,[R5, #+16]
+   \       0xEC   0x4290             CMP      R0,R2
+   \       0xEE   0xD1D6             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_7
+   \       0xF0   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0xF4   0x2800             CMP      R0,#+0
+   \       0xF6   0xD009             BEQ.N    ??emberAfReadReportingConfigurationCommandCallb_9
+   \       0xF8   0xF8BD 0x0010      LDRH     R0,[SP, #+16]
+   \       0xFC   0x88EA             LDRH     R2,[R5, #+6]
+   \       0xFE   0x4290             CMP      R0,R2
+   \      0x100   0xD1CD             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_7
+   \      0x102   0xF89D 0x0012      LDRB     R0,[SP, #+18]
+   \      0x106   0x7909             LDRB     R1,[R1, #+4]
+   \      0x108   0x4288             CMP      R0,R1
+   \      0x10A   0xD1C8             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_7
+    614                  found = true;
+   \                     ??emberAfReadReportingConfigurationCommandCallb_9: (+1)
+   \      0x10C   0x2001             MOVS     R0,#+1
+   \      0x10E   0x4682             MOV      R10,R0
+    615                  break;
+    616                }
+    617              }
+    618              // Attribute supported, reportable, no report configuration was found.
+    619              if (found == false) {
+   \                     ??emberAfReadReportingConfigurationCommandCallb_8: (+1)
+   \      0x110   0xF1BA 0x0F00      CMP      R10,#+0
+   \      0x114   0xD109             BNE.N    ??emberAfReadReportingConfigurationCommandCallb_10
+    620                emberAfPutInt8uInResp(EMBER_ZCL_STATUS_NOT_FOUND);
+   \      0x116   0x208B             MOVS     R0,#+139
+   \      0x118   0x.... 0x....      BL       emberAfPutInt8uInResp
+    621                emberAfPutInt8uInResp(direction);
+   \      0x11C   0x4640             MOV      R0,R8
+   \      0x11E   0x.... 0x....      BL       emberAfPutInt8uInResp
+    622                emberAfPutInt16uInResp(attributeId);
+   \      0x122   0x4648             MOV      R0,R9
+   \      0x124   0x.... 0x....      BL       emberAfPutInt16uInResp
+    623                continue;
+   \      0x128   0xE789             B.N      ??emberAfReadReportingConfigurationCommandCallb_2
+    624              }
+    625              // Attribute supported, reportable, report configuration was found.
+    626              emberAfPutInt8uInResp(EMBER_ZCL_STATUS_SUCCESS);
+   \                     ??emberAfReadReportingConfigurationCommandCallb_10: (+1)
+   \      0x12A   0x2000             MOVS     R0,#+0
+   \      0x12C   0x.... 0x....      BL       emberAfPutInt8uInResp
+    627              emberAfPutInt8uInResp(direction);
+   \      0x130   0x4640             MOV      R0,R8
+   \      0x132   0x.... 0x....      BL       emberAfPutInt8uInResp
+    628              emberAfPutInt16uInResp(attributeId);
+   \      0x136   0x4648             MOV      R0,R9
+   \      0x138   0x.... 0x....      BL       emberAfPutInt16uInResp
+    629              switch (direction) {
+   \      0x13C   0xF1B8 0x0F00      CMP      R8,#+0
+   \      0x140   0xD003             BEQ.N    ??emberAfReadReportingConfigurationCommandCallb_11
+   \      0x142   0xF1B8 0x0F01      CMP      R8,#+1
+   \      0x146   0xD019             BEQ.N    ??emberAfReadReportingConfigurationCommandCallb_12
+   \      0x148   0xE779             B.N      ??emberAfReadReportingConfigurationCommandCallb_2
+    630                case EMBER_ZCL_REPORTING_DIRECTION_REPORTED:
+    631                  if (metadata != NULL) {
+   \                     ??emberAfReadReportingConfigurationCommandCallb_11: (+1)
+   \      0x14A   0x2C00             CMP      R4,#+0
+   \      0x14C   0xF43F 0xAF77      BEQ.W    ??emberAfReadReportingConfigurationCommandCallb_2
+    632                    emberAfPutInt8uInResp(metadata->attributeType);
+   \      0x150   0x78A0             LDRB     R0,[R4, #+2]
+   \      0x152   0x.... 0x....      BL       emberAfPutInt8uInResp
+    633                    emberAfPutInt16uInResp(entry.data.reported.minInterval);
+   \      0x156   0xF8BD 0x0010      LDRH     R0,[SP, #+16]
+   \      0x15A   0x.... 0x....      BL       emberAfPutInt16uInResp
+    634                    emberAfPutInt16uInResp(entry.data.reported.maxInterval);
+   \      0x15E   0xF8BD 0x0012      LDRH     R0,[SP, #+18]
+   \      0x162   0x.... 0x....      BL       emberAfPutInt16uInResp
+    635                    if (emberAfGetAttributeAnalogOrDiscreteType(metadata->attributeType)
+    636                        == EMBER_AF_DATA_TYPE_ANALOG) {
+   \      0x166   0x78A0             LDRB     R0,[R4, #+2]
+   \      0x168   0x.... 0x....      BL       emberAfGetAttributeAnalogOrDiscreteType
+   \      0x16C   0x2800             CMP      R0,#+0
+   \      0x16E   0xF47F 0xAF66      BNE.W    ??emberAfReadReportingConfigurationCommandCallb_2
+    637                      putReportableChangeInResp(&entry, metadata->attributeType);
+   \      0x172   0x78A1             LDRB     R1,[R4, #+2]
+   \      0x174   0xA801             ADD      R0,SP,#+4
+   \      0x176   0x.... 0x....      BL       putReportableChangeInResp
+   \      0x17A   0xE760             B.N      ??emberAfReadReportingConfigurationCommandCallb_2
+    638                    }
+    639                  }
+    640                  break;
+    641                case EMBER_ZCL_REPORTING_DIRECTION_RECEIVED:
+    642                  emberAfPutInt16uInResp(entry.data.received.timeout);
+   \                     ??emberAfReadReportingConfigurationCommandCallb_12: (+1)
+   \      0x17C   0xF8BD 0x0014      LDRH     R0,[SP, #+20]
+   \      0x180   0x.... 0x....      BL       emberAfPutInt16uInResp
+    643                  break;
+   \      0x184   0xE75B             B.N      ??emberAfReadReportingConfigurationCommandCallb_2
+    644              }
+    645            }
+    646          
+    647            sendStatus = emberAfSendResponse();
+   \                     ??emberAfReadReportingConfigurationCommandCallb_4: (+1)
+   \      0x186   0x.... 0x....      BL       emberAfSendResponse
+    648            if (EMBER_SUCCESS != sendStatus) {
+    649              emberAfReportingPrintln("Reporting: failed to send %s response: 0x%x",
+    650                                      "read_reporting_configuration",
+    651                                      sendStatus);
+    652            }
+    653            return true;
+   \      0x18A   0x2001             MOVS     R0,#+1
+   \      0x18C   0xB007             ADD      SP,SP,#+28
+   \      0x18E   0xE8BD 0x8FF0      POP      {R4-R11,PC}
+    654          }
+    655          
+
+   \                                 In section .text, align 2, keep-with-next
+    656          EmberStatus emberAfClearReportTableCallback(void)
+    657          {
+   \                     emberAfClearReportTableCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0xE003             B.N      ??emberAfClearReportTableCallback_0
+    658            // this operation is more efficient if we loop over the table backwards
+    659            while (reportTableActiveLength > 0) {
+    660              removeConfiguration(reportTableActiveLength - 1);
+   \                     ??emberAfClearReportTableCallback_1: (+1)
+   \        0x4   0x1E40             SUBS     R0,R0,#+1
+   \        0x6   0xB280             UXTH     R0,R0
+   \        0x8   0x.... 0x....      BL       removeConfiguration
+    661            }
+   \                     ??emberAfClearReportTableCallback_0: (+1)
+   \        0xC   0x.... 0x....      LDR.W    R0,??DataTable17_3
+   \       0x10   0x8800             LDRH     R0,[R0, #+0]
+   \       0x12   0x2800             CMP      R0,#+0
+   \       0x14   0xD1F6             BNE.N    ??emberAfClearReportTableCallback_1
+    662            emberEventControlSetInactive(emberAfPluginReportingTickEventControl);
+   \       0x16   0x2000             MOVS     R0,#+0
+   \       0x18   0x.... 0x....      LDR.W    R1,??DataTable17_6
+   \       0x1C   0x7008             STRB     R0,[R1, #+0]
+    663            return EMBER_SUCCESS;
+   \       0x1E   0xBD02             POP      {R1,PC}
+    664          }
+    665          
+
+   \                                 In section .text, align 2, keep-with-next
+    666          EmberStatus emAfPluginReportingRemoveEntry(uint16_t index)
+    667          {
+   \                     emAfPluginReportingRemoveEntry: (+1)
+   \        0x0   0x4601             MOV      R1,R0
+   \        0x2   0x20B1             MOVS     R0,#+177
+   \        0x4   0x460A             MOV      R2,R1
+   \        0x6   0x.... 0x....      LDR.W    R3,??DataTable17_3
+   \        0xA   0x881B             LDRH     R3,[R3, #+0]
+   \        0xC   0x429A             CMP      R2,R3
+   \        0xE   0xD300             BCC.N    ??emAfPluginReportingRemoveEntry_0
+   \       0x10   0x4770             BX       LR
+   \                     ??emAfPluginReportingRemoveEntry_0: (+1)
+   \       0x12   0xB580             PUSH     {R7,LR}
+    668            EmberStatus status = EMBER_INDEX_OUT_OF_RANGE;
+    669            if (index < reportTableActiveLength) {
+    670              removeConfigurationAndScheduleTick(index);
+   \       0x14   0x4608             MOV      R0,R1
+   \       0x16   0x.... 0x....      BL       removeConfigurationAndScheduleTick
+    671              status = EMBER_SUCCESS;
+   \       0x1A   0x2000             MOVS     R0,#+0
+    672            }
+    673            return status;
+   \       0x1C   0xBD02             POP      {R1,PC}
+    674          }
+    675          
+
+   \                                 In section .text, align 2, keep-with-next
+    676          void emberAfReportingAttributeChangeCallback(uint8_t endpoint,
+    677                                                       EmberAfClusterId clusterId,
+    678                                                       EmberAfAttributeId attributeId,
+    679                                                       uint8_t mask,
+    680                                                       uint16_t manufacturerCode,
+    681                                                       EmberAfAttributeType type,
+    682                                                       uint8_t *data)
+    683          {
+   \                     emberAfReportingAttributeChangeCallback: (+1)
+   \        0x0   0xE92D 0x43F0      PUSH     {R4-R9,LR}
+   \        0x4   0xB087             SUB      SP,SP,#+28
+   \        0x6   0x4606             MOV      R6,R0
+   \        0x8   0x460F             MOV      R7,R1
+   \        0xA   0x4690             MOV      R8,R2
+   \        0xC   0x4699             MOV      R9,R3
+   \        0xE   0x9C0E             LDR      R4,[SP, #+56]
+    684            uint16_t i;
+    685            for (i = 0; i < reportTableActiveLength; i++) {
+   \       0x10   0x2500             MOVS     R5,#+0
+   \       0x12   0xE000             B.N      ??emberAfReportingAttributeChangeCallback_0
+   \                     ??emberAfReportingAttributeChangeCallback_1: (+1)
+   \       0x14   0x1C6D             ADDS     R5,R5,#+1
+   \                     ??emberAfReportingAttributeChangeCallback_0: (+1)
+   \       0x16   0x4628             MOV      R0,R5
+   \       0x18   0x.... 0x....      LDR.W    R1,??DataTable17_3
+   \       0x1C   0x8809             LDRH     R1,[R1, #+0]
+   \       0x1E   0xB280             UXTH     R0,R0
+   \       0x20   0x4288             CMP      R0,R1
+   \       0x22   0xD262             BCS.N    ??emberAfReportingAttributeChangeCallback_2
+    686              EmberAfPluginReportingEntry entry;
+    687              emAfPluginReportingGetEntry(i, &entry);
+   \       0x24   0xA902             ADD      R1,SP,#+8
+   \       0x26   0x4628             MOV      R0,R5
+   \       0x28   0xB280             UXTH     R0,R0
+   \       0x2A   0x.... 0x....      BL       emAfPluginReportingGetEntry
+    688              if (entry.direction == EMBER_ZCL_REPORTING_DIRECTION_REPORTED
+    689                  && entry.endpoint == endpoint
+    690                  && entry.clusterId == clusterId
+    691                  && entry.attributeId == attributeId
+    692                  && entry.mask == mask
+    693                  && entry.manufacturerCode == manufacturerCode) {
+   \       0x2E   0xF89D 0x0008      LDRB     R0,[SP, #+8]
+   \       0x32   0x2800             CMP      R0,#+0
+   \       0x34   0xD1EE             BNE.N    ??emberAfReportingAttributeChangeCallback_1
+   \       0x36   0xF89D 0x0009      LDRB     R0,[SP, #+9]
+   \       0x3A   0x4631             MOV      R1,R6
+   \       0x3C   0x4288             CMP      R0,R1
+   \       0x3E   0xD1E9             BNE.N    ??emberAfReportingAttributeChangeCallback_1
+   \       0x40   0xF8BD 0x000A      LDRH     R0,[SP, #+10]
+   \       0x44   0x4639             MOV      R1,R7
+   \       0x46   0x4288             CMP      R0,R1
+   \       0x48   0xD1E4             BNE.N    ??emberAfReportingAttributeChangeCallback_1
+   \       0x4A   0xF8BD 0x000C      LDRH     R0,[SP, #+12]
+   \       0x4E   0x4641             MOV      R1,R8
+   \       0x50   0x4288             CMP      R0,R1
+   \       0x52   0xD1DF             BNE.N    ??emberAfReportingAttributeChangeCallback_1
+   \       0x54   0xF89D 0x000E      LDRB     R0,[SP, #+14]
+   \       0x58   0x4649             MOV      R1,R9
+   \       0x5A   0x4288             CMP      R0,R1
+   \       0x5C   0xD1DA             BNE.N    ??emberAfReportingAttributeChangeCallback_1
+   \       0x5E   0xF8BD 0x0010      LDRH     R0,[SP, #+16]
+   \       0x62   0x4621             MOV      R1,R4
+   \       0x64   0xB289             UXTH     R1,R1
+   \       0x66   0x4288             CMP      R0,R1
+   \       0x68   0xD1D4             BNE.N    ??emberAfReportingAttributeChangeCallback_1
+   \       0x6A   0x9C10             LDR      R4,[SP, #+64]
+   \       0x6C   0x9F0F             LDR      R7,[SP, #+60]
+    694                // For CHAR and OCTET strings, the string value may be too long to fit into the
+    695                // lastReportValue field (EmberAfDifferenceType), so instead we save the string's
+    696                // hash, and detect changes in string value based on unequal hash.
+    697                uint32_t stringHash = 0;
+   \       0x6E   0x2000             MOVS     R0,#+0
+   \       0x70   0x9001             STR      R0,[SP, #+4]
+    698                uint8_t dataSize  = emberAfGetDataSize(type);
+   \       0x72   0x4638             MOV      R0,R7
+   \       0x74   0xB2C0             UXTB     R0,R0
+   \       0x76   0x.... 0x....      BL       emberAfGetDataSize
+   \       0x7A   0x4601             MOV      R1,R0
+    699                uint8_t *dataRef = data;
+   \       0x7C   0x4620             MOV      R0,R4
+    700                if (type == ZCL_OCTET_STRING_ATTRIBUTE_TYPE || type == ZCL_CHAR_STRING_ATTRIBUTE_TYPE) {
+   \       0x7E   0x463A             MOV      R2,R7
+   \       0x80   0xB2D2             UXTB     R2,R2
+   \       0x82   0x2A41             CMP      R2,#+65
+   \       0x84   0xD003             BEQ.N    ??emberAfReportingAttributeChangeCallback_3
+   \       0x86   0x463A             MOV      R2,R7
+   \       0x88   0xB2D2             UXTB     R2,R2
+   \       0x8A   0x2A42             CMP      R2,#+66
+   \       0x8C   0xD108             BNE.N    ??emberAfReportingAttributeChangeCallback_4
+    701                  stringHash = computeStringHash(data + 1, emberAfStringLength(data));
+   \                     ??emberAfReportingAttributeChangeCallback_3: (+1)
+   \       0x8E   0x.... 0x....      BL       emberAfStringLength
+   \       0x92   0x4601             MOV      R1,R0
+   \       0x94   0x1C60             ADDS     R0,R4,#+1
+   \       0x96   0x.... 0x....      BL       computeStringHash
+   \       0x9A   0x9001             STR      R0,[SP, #+4]
+    702                  dataRef = (uint8_t *)&stringHash;
+   \       0x9C   0xA801             ADD      R0,SP,#+4
+    703                  dataSize = sizeof(stringHash);
+   \       0x9E   0x2104             MOVS     R1,#+4
+    704                }
+    705                // If we are reporting this particular attribute, we only care whether
+    706                // the new value meets the reportable change criteria.  If it does, we
+    707                // mark the entry as ready to report and reschedule the tick.  Whether
+    708                // the tick will be scheduled for immediate or delayed execution depends
+    709                // on the minimum reporting interval.  This is handled in the scheduler.
+    710                EmberAfDifferenceType difference
+    711                  = emberAfGetDifference(dataRef,
+    712                                         emAfPluginReportVolatileData[i].lastReportValue,
+    713                                         dataSize);
+   \                     ??emberAfReportingAttributeChangeCallback_4: (+1)
+   \       0xA0   0x.... 0x....      LDR.W    R2,??DataTable17_2
+   \       0xA4   0xB2AD             UXTH     R5,R5
+   \       0xA6   0xEB05 0x0345      ADD      R3,R5,R5, LSL #+1
+   \       0xAA   0xEB12 0x06C3      ADDS     R6,R2,R3, LSL #+3
+   \       0xAE   0x9100             STR      R1,[SP, #+0]
+   \       0xB0   0xE9D6 0x2302      LDRD     R2,R3,[R6, #+8]
+   \       0xB4   0x.... 0x....      BL       emberAfGetDifference
+   \       0xB8   0x4604             MOV      R4,R0
+   \       0xBA   0x460D             MOV      R5,R1
+    714                uint8_t analogOrDiscrete = emberAfGetAttributeAnalogOrDiscreteType(type);
+   \       0xBC   0x4638             MOV      R0,R7
+   \       0xBE   0xB2C0             UXTB     R0,R0
+   \       0xC0   0x.... 0x....      BL       emberAfGetAttributeAnalogOrDiscreteType
+    715                if ((analogOrDiscrete == EMBER_AF_DATA_TYPE_DISCRETE && difference != 0)
+    716                    || (analogOrDiscrete == EMBER_AF_DATA_TYPE_ANALOG
+    717                        && entry.data.reported.reportableChange <= difference)) {
+   \       0xC4   0x2801             CMP      R0,#+1
+   \       0xC6   0xD103             BNE.N    ??emberAfReportingAttributeChangeCallback_5
+   \       0xC8   0x2D00             CMP      R5,#+0
+   \       0xCA   0xD10A             BNE.N    ??emberAfReportingAttributeChangeCallback_6
+   \       0xCC   0x2C00             CMP      R4,#+0
+   \       0xCE   0xD108             BNE.N    ??emberAfReportingAttributeChangeCallback_6
+   \                     ??emberAfReportingAttributeChangeCallback_5: (+1)
+   \       0xD0   0x2800             CMP      R0,#+0
+   \       0xD2   0xD10A             BNE.N    ??emberAfReportingAttributeChangeCallback_2
+   \       0xD4   0x9806             LDR      R0,[SP, #+24]
+   \       0xD6   0x2100             MOVS     R1,#+0
+   \       0xD8   0x428D             CMP      R5,R1
+   \       0xDA   0xD306             BCC.N    ??emberAfReportingAttributeChangeCallback_2
+   \       0xDC   0xD801             BHI.N    ??emberAfReportingAttributeChangeCallback_6
+   \       0xDE   0x4284             CMP      R4,R0
+   \       0xE0   0xD303             BCC.N    ??emberAfReportingAttributeChangeCallback_2
+    718                  emAfPluginReportVolatileData[i].reportableChange = true;
+   \                     ??emberAfReportingAttributeChangeCallback_6: (+1)
+   \       0xE2   0x2001             MOVS     R0,#+1
+   \       0xE4   0x7430             STRB     R0,[R6, #+16]
+    719                  scheduleTick();
+   \       0xE6   0x.... 0x....      BL       scheduleTick
+    720                }
+    721                break;
+    722              }
+    723            }
+    724          }
+   \                     ??emberAfReportingAttributeChangeCallback_2: (+1)
+   \       0xEA   0xB007             ADD      SP,SP,#+28
+   \       0xEC   0xE8BD 0x83F0      POP      {R4-R9,PC}
+    725          
+
+   \                                 In section .text, align 2, keep-with-next
+    726          bool emAfPluginReportingDoEntriesMatch(const EmberAfPluginReportingEntry* const entry1,
+    727                                                 const EmberAfPluginReportingEntry* const entry2)
+    728          {
+    729            // Verify that the reporting parameters of both entries match.
+    730            // If the entries are for EMBER_ZCL_REPORTING_DIRECTION_REPORTED, the
+    731            // reporting configurations do not need to match.  If the direction is
+    732            // EMBER_ZCL_REPORTING_DIRECTION_RECEIVED, then the source and destination
+    733            // endpoints need to match.
+    734            if ((entry1->endpoint == entry2->endpoint)
+    735                && (entry1->clusterId == entry2->clusterId)
+    736                && (entry1->attributeId == entry2->attributeId)
+    737                && (entry1->mask == entry2->mask)
+    738                && (entry1->manufacturerCode == entry2->manufacturerCode)
+    739                && (entry1->direction == entry2->direction)
+    740                && ((entry1->direction == EMBER_ZCL_REPORTING_DIRECTION_REPORTED)
+    741                    || ((entry1->data.received.source == entry2->data.received.source)
+    742                        && (entry1->data.received.endpoint
+    743                            == entry2->data.received.endpoint)))) {
+   \                     emAfPluginReportingDoEntriesMatch: (+1)
+   \        0x0   0x7842             LDRB     R2,[R0, #+1]
+   \        0x2   0x784B             LDRB     R3,[R1, #+1]
+   \        0x4   0x429A             CMP      R2,R3
+   \        0x6   0xD11F             BNE.N    ??emAfPluginReportingDoEntriesMatch_0
+   \        0x8   0x8842             LDRH     R2,[R0, #+2]
+   \        0xA   0x884B             LDRH     R3,[R1, #+2]
+   \        0xC   0x429A             CMP      R2,R3
+   \        0xE   0xD11B             BNE.N    ??emAfPluginReportingDoEntriesMatch_0
+   \       0x10   0x8882             LDRH     R2,[R0, #+4]
+   \       0x12   0x888B             LDRH     R3,[R1, #+4]
+   \       0x14   0x429A             CMP      R2,R3
+   \       0x16   0xD117             BNE.N    ??emAfPluginReportingDoEntriesMatch_0
+   \       0x18   0x7982             LDRB     R2,[R0, #+6]
+   \       0x1A   0x798B             LDRB     R3,[R1, #+6]
+   \       0x1C   0x429A             CMP      R2,R3
+   \       0x1E   0xD113             BNE.N    ??emAfPluginReportingDoEntriesMatch_0
+   \       0x20   0x8902             LDRH     R2,[R0, #+8]
+   \       0x22   0x890B             LDRH     R3,[R1, #+8]
+   \       0x24   0x429A             CMP      R2,R3
+   \       0x26   0xD10F             BNE.N    ??emAfPluginReportingDoEntriesMatch_0
+   \       0x28   0x7802             LDRB     R2,[R0, #+0]
+   \       0x2A   0x780B             LDRB     R3,[R1, #+0]
+   \       0x2C   0x429A             CMP      R2,R3
+   \       0x2E   0xD10B             BNE.N    ??emAfPluginReportingDoEntriesMatch_0
+   \       0x30   0x2A00             CMP      R2,#+0
+   \       0x32   0xD007             BEQ.N    ??emAfPluginReportingDoEntriesMatch_1
+   \       0x34   0x8982             LDRH     R2,[R0, #+12]
+   \       0x36   0x898B             LDRH     R3,[R1, #+12]
+   \       0x38   0x429A             CMP      R2,R3
+   \       0x3A   0xD105             BNE.N    ??emAfPluginReportingDoEntriesMatch_0
+   \       0x3C   0x7B80             LDRB     R0,[R0, #+14]
+   \       0x3E   0x7B89             LDRB     R1,[R1, #+14]
+   \       0x40   0x4288             CMP      R0,R1
+   \       0x42   0xD101             BNE.N    ??emAfPluginReportingDoEntriesMatch_0
+    744              return true;
+   \                     ??emAfPluginReportingDoEntriesMatch_1: (+1)
+   \       0x44   0x2001             MOVS     R0,#+1
+   \       0x46   0x4770             BX       LR
+    745            }
+    746            return false;
+   \                     ??emAfPluginReportingDoEntriesMatch_0: (+1)
+   \       0x48   0x2000             MOVS     R0,#+0
+   \       0x4A   0x4770             BX       LR
+    747          }
+    748          
+
+   \                                 In section .text, align 2, keep-with-next
+    749          uint16_t emAfPluginReportingAddEntry(EmberAfPluginReportingEntry* newEntry)
+    750          {
+   \                     emAfPluginReportingAddEntry: (+1)
+   \        0x0   0xB530             PUSH     {R4,R5,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+   \        0x4   0x4604             MOV      R4,R0
+    751            uint16_t i;
+    752            EmberAfPluginReportingEntry oldEntry;
+    753          
+    754            // If an entry already exists, or exists but with different parameters,
+    755            // overwrite it with the new entry to prevent pollution of the report table
+    756            for (i = 0; i < reportTableActiveLength; i++) {
+   \        0x6   0x2500             MOVS     R5,#+0
+   \        0x8   0xE000             B.N      ??emAfPluginReportingAddEntry_0
+   \                     ??emAfPluginReportingAddEntry_1: (+1)
+   \        0xA   0x1C6D             ADDS     R5,R5,#+1
+   \                     ??emAfPluginReportingAddEntry_0: (+1)
+   \        0xC   0x4628             MOV      R0,R5
+   \        0xE   0x.... 0x....      LDR.W    R1,??DataTable17_3
+   \       0x12   0x8809             LDRH     R1,[R1, #+0]
+   \       0x14   0xB280             UXTH     R0,R0
+   \       0x16   0x4288             CMP      R0,R1
+   \       0x18   0xD213             BCS.N    ??emAfPluginReportingAddEntry_2
+    757              emAfPluginReportingGetEntry(i, &oldEntry);
+   \       0x1A   0x4669             MOV      R1,SP
+   \       0x1C   0x4628             MOV      R0,R5
+   \       0x1E   0xB280             UXTH     R0,R0
+   \       0x20   0x.... 0x....      BL       emAfPluginReportingGetEntry
+    758              if (emAfPluginReportingDoEntriesMatch(&oldEntry, newEntry)) {
+   \       0x24   0x4621             MOV      R1,R4
+   \       0x26   0x4668             MOV      R0,SP
+   \       0x28   0x.... 0x....      BL       emAfPluginReportingDoEntriesMatch
+   \       0x2C   0x2800             CMP      R0,#+0
+   \       0x2E   0xD0EC             BEQ.N    ??emAfPluginReportingAddEntry_1
+    759                emAfPluginReportingSetEntry(i, newEntry);
+   \       0x30   0x4621             MOV      R1,R4
+   \       0x32   0x4628             MOV      R0,R5
+   \       0x34   0xB280             UXTH     R0,R0
+   \       0x36   0x.... 0x....      BL       emAfPluginReportingSetEntry
+    760                return i;
+   \       0x3A   0x4628             MOV      R0,R5
+   \       0x3C   0xB280             UXTH     R0,R0
+   \                     ??emAfPluginReportingAddEntry_3: (+1)
+   \       0x3E   0xB005             ADD      SP,SP,#+20
+   \       0x40   0xBD30             POP      {R4,R5,PC}
+    761              }
+    762            }
+    763          
+    764            // if no entry is found, add it to an unused index
+    765            return emAfPluginReportingAppendEntry(newEntry);
+   \                     ??emAfPluginReportingAddEntry_2: (+1)
+   \       0x42   0x4620             MOV      R0,R4
+   \       0x44   0x.... 0x....      BL       emAfPluginReportingAppendEntry
+   \       0x48   0xE7F9             B.N      ??emAfPluginReportingAddEntry_3
+    766          }
+    767          
+
+   \                                 In section .text, align 2, keep-with-next
+    768          uint16_t emAfPluginReportingAppendEntry(EmberAfPluginReportingEntry* newEntry)
+    769          {
+   \                     emAfPluginReportingAppendEntry: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4601             MOV      R1,R0
+    770            uint16_t index = NULL_INDEX;
+   \        0x4   0xF64F 0x74FF      MOVW     R4,#+65535
+    771            if (reportTableActiveLength < REPORT_TABLE_SIZE) {
+   \        0x8   0x.... 0x....      LDR.W    R5,??DataTable17_3
+   \        0xC   0x8828             LDRH     R0,[R5, #+0]
+   \        0xE   0x4602             MOV      R2,R0
+   \       0x10   0x2A0A             CMP      R2,#+10
+   \       0x12   0xDA05             BGE.N    ??emAfPluginReportingAppendEntry_0
+    772              index = reportTableActiveLength;
+   \       0x14   0x4604             MOV      R4,R0
+    773              emAfPluginReportingSetEntry(index, newEntry);
+   \       0x16   0x.... 0x....      BL       emAfPluginReportingSetEntry
+    774              reportTableActiveLength++;
+   \       0x1A   0x8828             LDRH     R0,[R5, #+0]
+   \       0x1C   0x1C40             ADDS     R0,R0,#+1
+   \       0x1E   0x8028             STRH     R0,[R5, #+0]
+    775            }
+    776            return index;
+   \                     ??emAfPluginReportingAppendEntry_0: (+1)
+   \       0x20   0x4620             MOV      R0,R4
+   \       0x22   0xBD32             POP      {R1,R4,R5,PC}
+    777          }
+    778          
+
+   \                                 In section .text, align 2, keep-with-next
+    779          static void scheduleTick(void)
+    780          {
+   \                     scheduleTick: (+1)
+   \        0x0   0xE92D 0x41F8      PUSH     {R3-R8,LR}
+   \        0x4   0xB085             SUB      SP,SP,#+20
+    781            uint32_t delayMs = MAX_INT32U_VALUE;
+   \        0x6   0xF04F 0x36FF      MOV      R6,#+4294967295
+   \        0xA   0x4635             MOV      R5,R6
+    782            uint16_t i;
+    783            for (i = 0; i < reportTableActiveLength; i++) {
+   \        0xC   0x2700             MOVS     R7,#+0
+   \        0xE   0xE00B             B.N      ??scheduleTick_0
+    784              EmberAfPluginReportingEntry entry;
+    785              emAfPluginReportingGetEntry(i, &entry);
+    786              if (entry.direction == EMBER_ZCL_REPORTING_DIRECTION_REPORTED) {
+    787                uint32_t minIntervalMs = (entry.data.reported.minInterval
+    788                                          * MILLISECOND_TICKS_PER_SECOND);
+    789                uint32_t maxIntervalMs = (entry.data.reported.maxInterval
+    790                                          * MILLISECOND_TICKS_PER_SECOND);
+    791                uint32_t elapsedMs = elapsedTimeInt32u(emAfPluginReportVolatileData[i].lastReportTimeMs,
+    792                                                       halCommonGetInt32uMillisecondTick());
+    793                uint32_t remainingMs = MAX_INT32U_VALUE;
+    794                if (emAfPluginReportVolatileData[i].reportableChange) {
+    795                  remainingMs = (minIntervalMs < elapsedMs
+    796                                 ? 0
+    797                                 : minIntervalMs - elapsedMs);
+    798                } else if (maxIntervalMs) {
+    799                  remainingMs = (maxIntervalMs < elapsedMs
+    800                                 ? 0
+    801                                 : maxIntervalMs - elapsedMs);
+   \                     ??scheduleTick_1: (+1)
+   \       0x10   0x4622             MOV      R2,R4
+   \       0x12   0x1A12             SUBS     R2,R2,R0
+   \       0x14   0xE004             B.N      ??scheduleTick_2
+   \                     ??scheduleTick_3: (+1)
+   \       0x16   0x2C00             CMP      R4,#+0
+   \       0x18   0xD002             BEQ.N    ??scheduleTick_2
+   \       0x1A   0x4284             CMP      R4,R0
+   \       0x1C   0xD2F8             BCS.N    ??scheduleTick_1
+   \       0x1E   0x2200             MOVS     R2,#+0
+    802                }
+    803                if (remainingMs < delayMs) {
+   \                     ??scheduleTick_2: (+1)
+   \       0x20   0x42AA             CMP      R2,R5
+   \       0x22   0xD800             BHI.N    ??scheduleTick_4
+   \       0x24   0x4615             MOV      R5,R2
+   \                     ??scheduleTick_4: (+1)
+   \       0x26   0x1C7F             ADDS     R7,R7,#+1
+   \                     ??scheduleTick_0: (+1)
+   \       0x28   0x4638             MOV      R0,R7
+   \       0x2A   0x.... 0x....      LDR.W    R1,??DataTable17_3
+   \       0x2E   0x8809             LDRH     R1,[R1, #+0]
+   \       0x30   0xB280             UXTH     R0,R0
+   \       0x32   0x4288             CMP      R0,R1
+   \       0x34   0xD226             BCS.N    ??scheduleTick_5
+   \       0x36   0x4669             MOV      R1,SP
+   \       0x38   0x4638             MOV      R0,R7
+   \       0x3A   0xB280             UXTH     R0,R0
+   \       0x3C   0x.... 0x....      BL       emAfPluginReportingGetEntry
+   \       0x40   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x44   0x2800             CMP      R0,#+0
+   \       0x46   0xD1EE             BNE.N    ??scheduleTick_4
+   \       0x48   0xF8BD 0x800C      LDRH     R8,[SP, #+12]
+   \       0x4C   0xEA4F 0x2888      LSL      R8,R8,#+10
+   \       0x50   0xF8BD 0x400E      LDRH     R4,[SP, #+14]
+   \       0x54   0x02A4             LSLS     R4,R4,#+10
+   \       0x56   0x.... 0x....      BL       halCommonGetInt32uMillisecondTick
+   \       0x5A   0x4639             MOV      R1,R7
+   \       0x5C   0xB289             UXTH     R1,R1
+   \       0x5E   0xEB01 0x0241      ADD      R2,R1,R1, LSL #+1
+   \       0x62   0x00D1             LSLS     R1,R2,#+3
+   \       0x64   0x.... 0x....      LDR.W    R3,??DataTable17_2
+   \       0x68   0x585A             LDR      R2,[R3, R1]
+   \       0x6A   0x1A80             SUBS     R0,R0,R2
+   \       0x6C   0x4632             MOV      R2,R6
+   \       0x6E   0x1859             ADDS     R1,R3,R1
+   \       0x70   0x7C09             LDRB     R1,[R1, #+16]
+   \       0x72   0x2900             CMP      R1,#+0
+   \       0x74   0xD0CF             BEQ.N    ??scheduleTick_3
+   \       0x76   0x4580             CMP      R8,R0
+   \       0x78   0xD201             BCS.N    ??scheduleTick_6
+   \       0x7A   0x2200             MOVS     R2,#+0
+   \       0x7C   0xE7D0             B.N      ??scheduleTick_2
+   \                     ??scheduleTick_6: (+1)
+   \       0x7E   0x4642             MOV      R2,R8
+   \       0x80   0x1A12             SUBS     R2,R2,R0
+   \       0x82   0xE7CD             B.N      ??scheduleTick_2
+    804                  delayMs = remainingMs;
+    805                }
+    806              }
+    807            }
+    808            if (delayMs != MAX_INT32U_VALUE) {
+   \                     ??scheduleTick_5: (+1)
+   \       0x84   0x.... 0x....      LDR.W    R0,??DataTable17_6
+   \       0x88   0xF115 0x0F01      CMN      R5,#+1
+   \       0x8C   0xD003             BEQ.N    ??scheduleTick_7
+    809              emberAfDebugPrintln("sched report event for: 0x%4x", delayMs);
+    810              emberAfEventControlSetDelayMS(&emberAfPluginReportingTickEventControl,
+    811                                            delayMs);
+   \       0x8E   0x4629             MOV      R1,R5
+   \       0x90   0x.... 0x....      BL       emberAfEventControlSetDelayMS
+   \       0x94   0xE001             B.N      ??scheduleTick_8
+    812            } else {
+    813              emberAfDebugPrintln("deactivate report event");
+    814              emberEventControlSetInactive(emberAfPluginReportingTickEventControl);
+   \                     ??scheduleTick_7: (+1)
+   \       0x96   0x2100             MOVS     R1,#+0
+   \       0x98   0x7001             STRB     R1,[R0, #+0]
+    815            }
+    816          }
+   \                     ??scheduleTick_8: (+1)
+   \       0x9A   0xB006             ADD      SP,SP,#+24
+   \       0x9C   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    817          
+
+   \                                 In section .text, align 2, keep-with-next
+    818          static void removeConfiguration(uint16_t index)
+    819          {
+   \                     removeConfiguration: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0xB090             SUB      SP,SP,#+64
+   \        0x4   0x4604             MOV      R4,R0
+    820            if (index < reportTableActiveLength) {
+   \        0x6   0x.... 0x....      LDR.W    R5,??DataTable17_3
+   \        0xA   0x8829             LDRH     R1,[R5, #+0]
+   \        0xC   0x4288             CMP      R0,R1
+   \        0xE   0xD231             BCS.N    ??removeConfiguration_0
+    821              EmberAfPluginReportingEntry entry;
+    822              emAfPluginReportingGetEntry(index, &entry);
+   \       0x10   0x4669             MOV      R1,SP
+   \       0x12   0x.... 0x....      BL       emAfPluginReportingGetEntry
+    823              entry.endpoint = EMBER_AF_PLUGIN_REPORTING_UNUSED_ENDPOINT_ID;
+   \       0x16   0x2000             MOVS     R0,#+0
+   \       0x18   0xF88D 0x0001      STRB     R0,[SP, #+1]
+    824              reportTableActiveLength--;
+   \       0x1C   0x8828             LDRH     R0,[R5, #+0]
+   \       0x1E   0x1E40             SUBS     R0,R0,#+1
+   \       0x20   0x8028             STRH     R0,[R5, #+0]
+    825              if (reportTableActiveLength == index) {
+   \       0x22   0x4601             MOV      R1,R0
+   \       0x24   0x4622             MOV      R2,R4
+   \       0x26   0xB289             UXTH     R1,R1
+   \       0x28   0x4291             CMP      R1,R2
+   \       0x2A   0xD104             BNE.N    ??removeConfiguration_1
+    826                // we are removing the last entry from the list
+    827                emAfPluginReportingSetEntry(index, &entry);
+   \       0x2C   0x4669             MOV      R1,SP
+   \       0x2E   0x4620             MOV      R0,R4
+   \       0x30   0x.... 0x....      BL       emAfPluginReportingSetEntry
+   \       0x34   0xE01B             B.N      ??removeConfiguration_2
+    828              } else {
+    829                // we are removing an entry from the middle of the list
+    830                // must perform a swap in order to maintain list structure
+    831                EmberAfPluginReportingEntry swap;
+    832                EmAfPluginReportVolatileData ramSwap;
+    833                // swap with the last entry
+    834                emAfPluginReportingGetEntry(reportTableActiveLength, &swap);
+   \                     ??removeConfiguration_1: (+1)
+   \       0x36   0xA905             ADD      R1,SP,#+20
+   \       0x38   0xB280             UXTH     R0,R0
+   \       0x3A   0x.... 0x....      BL       emAfPluginReportingGetEntry
+    835                ramSwap = emAfPluginReportVolatileData[reportTableActiveLength];
+   \       0x3E   0x2618             MOVS     R6,#+24
+   \       0x40   0x.... 0x....      LDR.W    R7,??DataTable17_2
+   \       0x44   0xA80A             ADD      R0,SP,#+40
+   \       0x46   0x8829             LDRH     R1,[R5, #+0]
+   \       0x48   0x4371             MULS     R1,R6,R1
+   \       0x4A   0x1879             ADDS     R1,R7,R1
+   \       0x4C   0x4632             MOV      R2,R6
+   \       0x4E   0x.... 0x....      BL       __aeabi_memcpy4
+    836                emAfPluginReportingSetEntry(index, &swap);
+   \       0x52   0xA905             ADD      R1,SP,#+20
+   \       0x54   0x4620             MOV      R0,R4
+   \       0x56   0x.... 0x....      BL       emAfPluginReportingSetEntry
+    837                emAfPluginReportVolatileData[index] = ramSwap;
+   \       0x5A   0x4374             MULS     R4,R6,R4
+   \       0x5C   0x1938             ADDS     R0,R7,R4
+   \       0x5E   0xA90A             ADD      R1,SP,#+40
+   \       0x60   0x4632             MOV      R2,R6
+   \       0x62   0x.... 0x....      BL       __aeabi_memcpy4
+    838                emAfPluginReportingSetEntry(reportTableActiveLength, &entry);
+   \       0x66   0x4669             MOV      R1,SP
+   \       0x68   0x8828             LDRH     R0,[R5, #+0]
+   \       0x6A   0x.... 0x....      BL       emAfPluginReportingSetEntry
+    839                // TODO add a callback that fires when indices change to inform anyone who might be watching a specific index
+    840              }
+    841          
+    842              emberAfPluginReportingConfiguredCallback(&entry);
+   \                     ??removeConfiguration_2: (+1)
+   \       0x6E   0x4668             MOV      R0,SP
+   \       0x70   0x.... 0x....      BL       emberAfPluginReportingConfiguredCallback
+    843            }
+    844          }
+   \                     ??removeConfiguration_0: (+1)
+   \       0x74   0xB011             ADD      SP,SP,#+68
+   \       0x76   0xBDF0             POP      {R4-R7,PC}
+    845          
+
+   \                                 In section .text, align 2, keep-with-next
+    846          static void removeConfigurationAndScheduleTick(uint16_t index)
+    847          {
+   \                     removeConfigurationAndScheduleTick: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    848            removeConfiguration(index);
+   \        0x2   0x.... 0x....      BL       removeConfiguration
+    849            scheduleTick();
+   \        0x6   0xE8BD 0x4001      POP      {R0,LR}
+   \        0xA   0x....             B.N      scheduleTick
+    850          }
+    851          
+
+   \                                 In section .text, align 2, keep-with-next
+    852          EmberAfStatus emberAfPluginReportingConfigureReportedAttribute(const EmberAfPluginReportingEntry* newEntry)
+    853          {
+   \                     emberAfPluginReportingConfigureReportedAttribute: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0xB086             SUB      SP,SP,#+24
+   \        0x6   0x4605             MOV      R5,R0
+    854            EmberAfAttributeMetadata *metadata;
+    855            EmberAfPluginReportingEntry entry;
+    856            EmberAfStatus status;
+    857            uint16_t i, index = reportTableActiveLength;
+   \        0x8   0x....             LDR.N    R6,??DataTable17_3
+   \        0xA   0x8834             LDRH     R4,[R6, #+0]
+    858            bool initialize = true;
+   \        0xC   0x2701             MOVS     R7,#+1
+    859          
+    860            // Verify that we support the attribute and that the data type matches.
+    861            metadata = emberAfLocateAttributeMetadata(newEntry->endpoint,
+    862                                                      newEntry->clusterId,
+    863                                                      newEntry->attributeId,
+    864                                                      newEntry->mask,
+    865                                                      newEntry->manufacturerCode);
+    866            if (metadata == NULL) {
+   \        0xE   0x8928             LDRH     R0,[R5, #+8]
+   \       0x10   0x9000             STR      R0,[SP, #+0]
+   \       0x12   0x79AB             LDRB     R3,[R5, #+6]
+   \       0x14   0x88AA             LDRH     R2,[R5, #+4]
+   \       0x16   0x8869             LDRH     R1,[R5, #+2]
+   \       0x18   0x7868             LDRB     R0,[R5, #+1]
+   \       0x1A   0x.... 0x....      BL       emberAfLocateAttributeMetadata
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD101             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_0
+    867              return EMBER_ZCL_STATUS_UNSUPPORTED_ATTRIBUTE;
+   \       0x22   0x2086             MOVS     R0,#+134
+   \       0x24   0xE09F             B.N      ??emberAfPluginReportingConfigureReportedAttrib_1
+    868            }
+    869          
+    870            // Verify the minimum and maximum intervals make sense.
+    871            if (newEntry->data.reported.maxInterval != 0
+    872                && (newEntry->data.reported.maxInterval
+    873                    < newEntry->data.reported.minInterval)) {
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_0: (+1)
+   \       0x26   0x89E8             LDRH     R0,[R5, #+14]
+   \       0x28   0x2800             CMP      R0,#+0
+   \       0x2A   0xD004             BEQ.N    ??emberAfPluginReportingConfigureReportedAttrib_2
+   \       0x2C   0x89A9             LDRH     R1,[R5, #+12]
+   \       0x2E   0x4288             CMP      R0,R1
+   \       0x30   0xD201             BCS.N    ??emberAfPluginReportingConfigureReportedAttrib_2
+    874              return EMBER_ZCL_STATUS_INVALID_VALUE;
+   \       0x32   0x2087             MOVS     R0,#+135
+   \       0x34   0xE097             B.N      ??emberAfPluginReportingConfigureReportedAttrib_1
+    875            }
+    876          
+    877            // Check the table for an entry that matches this request and also watch for
+    878            // empty slots along the way.  If a report exists, it will be overwritten
+    879            // with the new configuration.  Otherwise, a new entry will be created and
+    880            // initialized.
+    881            for (i = 0; i < reportTableActiveLength; i++) {
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_2: (+1)
+   \       0x36   0xF04F 0x0800      MOV      R8,#+0
+   \       0x3A   0xE001             B.N      ??emberAfPluginReportingConfigureReportedAttrib_3
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_4: (+1)
+   \       0x3C   0xF108 0x0801      ADD      R8,R8,#+1
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_3: (+1)
+   \       0x40   0x4640             MOV      R0,R8
+   \       0x42   0x8831             LDRH     R1,[R6, #+0]
+   \       0x44   0xB280             UXTH     R0,R0
+   \       0x46   0x4288             CMP      R0,R1
+   \       0x48   0xD223             BCS.N    ??emberAfPluginReportingConfigureReportedAttrib_5
+    882              emAfPluginReportingGetEntry(i, &entry);
+   \       0x4A   0xA901             ADD      R1,SP,#+4
+   \       0x4C   0x4640             MOV      R0,R8
+   \       0x4E   0xB280             UXTH     R0,R0
+   \       0x50   0x.... 0x....      BL       emAfPluginReportingGetEntry
+    883              if (entry.direction == EMBER_ZCL_REPORTING_DIRECTION_REPORTED
+    884                  && entry.endpoint == newEntry->endpoint
+    885                  && entry.clusterId == newEntry->clusterId
+    886                  && entry.attributeId == newEntry->attributeId
+    887                  && entry.mask == newEntry->mask
+    888                  && entry.manufacturerCode == newEntry->manufacturerCode) {
+   \       0x54   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0x58   0x2800             CMP      R0,#+0
+   \       0x5A   0xD1EF             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_4
+   \       0x5C   0xF89D 0x0005      LDRB     R0,[SP, #+5]
+   \       0x60   0x7869             LDRB     R1,[R5, #+1]
+   \       0x62   0x4288             CMP      R0,R1
+   \       0x64   0xD1EA             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_4
+   \       0x66   0xF8BD 0x0006      LDRH     R0,[SP, #+6]
+   \       0x6A   0x8869             LDRH     R1,[R5, #+2]
+   \       0x6C   0x4288             CMP      R0,R1
+   \       0x6E   0xD1E5             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_4
+   \       0x70   0xF8BD 0x0008      LDRH     R0,[SP, #+8]
+   \       0x74   0x88A9             LDRH     R1,[R5, #+4]
+   \       0x76   0x4288             CMP      R0,R1
+   \       0x78   0xD1E0             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_4
+   \       0x7A   0xF89D 0x000A      LDRB     R0,[SP, #+10]
+   \       0x7E   0x79A9             LDRB     R1,[R5, #+6]
+   \       0x80   0x4288             CMP      R0,R1
+   \       0x82   0xD1DB             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_4
+   \       0x84   0xF8BD 0x000C      LDRH     R0,[SP, #+12]
+   \       0x88   0x8929             LDRH     R1,[R5, #+8]
+   \       0x8A   0x4288             CMP      R0,R1
+   \       0x8C   0xD1D6             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_4
+    889                initialize = false;
+   \       0x8E   0x2700             MOVS     R7,#+0
+    890                index = i;
+   \       0x90   0x4644             MOV      R4,R8
+    891                break;
+    892              }
+    893            }
+    894          
+    895            // If the maximum reporting interval is 0xFFFF, the device shall not issue
+    896            // reports for the attribute and the configuration information for that
+    897            // attribute need not be maintained.
+    898            if (newEntry->data.reported.maxInterval == 0xFFFF) {
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_5: (+1)
+   \       0x92   0x89E8             LDRH     R0,[R5, #+14]
+   \       0x94   0xF64F 0x71FF      MOVW     R1,#+65535
+   \       0x98   0x4288             CMP      R0,R1
+   \       0x9A   0xD107             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_6
+    899              if (!initialize) {
+   \       0x9C   0x2F00             CMP      R7,#+0
+   \       0x9E   0xD103             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_7
+    900                removeConfigurationAndScheduleTick(index);
+   \       0xA0   0x4620             MOV      R0,R4
+   \       0xA2   0xB280             UXTH     R0,R0
+   \       0xA4   0x.... 0x....      BL       removeConfigurationAndScheduleTick
+    901              }
+    902              return EMBER_ZCL_STATUS_SUCCESS;
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_7: (+1)
+   \       0xA8   0x2000             MOVS     R0,#+0
+   \       0xAA   0xE05C             B.N      ??emberAfPluginReportingConfigureReportedAttrib_1
+    903            }
+    904          
+    905            // ZCL v6 Section 2.5.7.1.6 Maximum Reporting Interval Field
+    906            // If this value is set to 0x0000 and the minimum reporting interval field
+    907            // equals 0xffff, then the device SHALL revert back to its default reporting
+    908            // configuration. The reportable change field, if present, SHALL be set to
+    909            // zero.
+    910            // Verify special condition to reset the reporting configuration to defaults
+    911            // if the minimum == 0xFFFF and maximum == 0x0000
+    912            bool reset = false;
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_6: (+1)
+   \       0xAC   0xF04F 0x0800      MOV      R8,#+0
+    913            if ((newEntry->data.reported.maxInterval == 0x0000)
+    914                && (newEntry->data.reported.minInterval == 0xFFFF)) {
+   \       0xB0   0x2800             CMP      R0,#+0
+   \       0xB2   0xD10E             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_8
+   \       0xB4   0x89A8             LDRH     R0,[R5, #+12]
+   \       0xB6   0x4288             CMP      R0,R1
+   \       0xB8   0xD10B             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_8
+    915              // Get the configuration from the default configuration table for this
+    916              MEMMOVE(&entry, newEntry, sizeof(EmberAfPluginReportingEntry));
+   \       0xBA   0x2214             MOVS     R2,#+20
+   \       0xBC   0x4629             MOV      R1,R5
+   \       0xBE   0xA801             ADD      R0,SP,#+4
+   \       0xC0   0x.... 0x....      BL       __aeabi_memmove4
+    917              if (emberAfPluginReportingGetReportingConfigDefaults(&entry)) {
+   \       0xC4   0xA801             ADD      R0,SP,#+4
+   \       0xC6   0x.... 0x....      BL       emberAfPluginReportingGetReportingConfigDefaults
+   \       0xCA   0x2800             CMP      R0,#+0
+   \       0xCC   0xD001             BEQ.N    ??emberAfPluginReportingConfigureReportedAttrib_8
+    918                // Then it must be initialise with the default config - explicity
+    919                initialize = true;
+   \       0xCE   0x2701             MOVS     R7,#+1
+    920                reset = true;
+   \       0xD0   0x46B8             MOV      R8,R7
+    921              }
+    922            }
+    923          
+    924            if (initialize) {
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_8: (+1)
+   \       0xD2   0x2F00             CMP      R7,#+0
+   \       0xD4   0xD017             BEQ.N    ??emberAfPluginReportingConfigureReportedAttrib_9
+    925              if (index >= REPORT_TABLE_SIZE) {
+   \       0xD6   0x4620             MOV      R0,R4
+   \       0xD8   0xB280             UXTH     R0,R0
+   \       0xDA   0x280A             CMP      R0,#+10
+   \       0xDC   0xDB01             BLT.N    ??emberAfPluginReportingConfigureReportedAttrib_10
+    926                return EMBER_ZCL_STATUS_INSUFFICIENT_SPACE;
+   \       0xDE   0x2089             MOVS     R0,#+137
+   \       0xE0   0xE041             B.N      ??emberAfPluginReportingConfigureReportedAttrib_1
+    927              }
+    928              entry.direction = EMBER_ZCL_REPORTING_DIRECTION_REPORTED;
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_10: (+1)
+   \       0xE2   0x2000             MOVS     R0,#+0
+   \       0xE4   0xF88D 0x0004      STRB     R0,[SP, #+4]
+    929              entry.endpoint = newEntry->endpoint;
+   \       0xE8   0x7868             LDRB     R0,[R5, #+1]
+   \       0xEA   0xF88D 0x0005      STRB     R0,[SP, #+5]
+    930              entry.clusterId = newEntry->clusterId;
+   \       0xEE   0x8868             LDRH     R0,[R5, #+2]
+   \       0xF0   0xF8AD 0x0006      STRH     R0,[SP, #+6]
+    931              entry.attributeId = newEntry->attributeId;
+   \       0xF4   0x88A8             LDRH     R0,[R5, #+4]
+   \       0xF6   0xF8AD 0x0008      STRH     R0,[SP, #+8]
+    932              entry.mask = newEntry->mask;
+   \       0xFA   0x79A8             LDRB     R0,[R5, #+6]
+   \       0xFC   0xF88D 0x000A      STRB     R0,[SP, #+10]
+    933              entry.manufacturerCode = newEntry->manufacturerCode;
+   \      0x100   0x8928             LDRH     R0,[R5, #+8]
+   \      0x102   0xF8AD 0x000C      STRH     R0,[SP, #+12]
+    934            }
+    935          
+    936            // For new or updated entries, set the intervals and reportable change.
+    937            // Updated entries will retain all other settings configured previously.
+    938            if (!reset) {
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_9: (+1)
+   \      0x106   0xF1B8 0x0F00      CMP      R8,#+0
+   \      0x10A   0xD107             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_11
+    939              entry.data.reported.minInterval = newEntry->data.reported.minInterval;
+   \      0x10C   0x89A8             LDRH     R0,[R5, #+12]
+   \      0x10E   0xF8AD 0x0010      STRH     R0,[SP, #+16]
+    940              entry.data.reported.maxInterval = newEntry->data.reported.maxInterval;
+   \      0x112   0x89E8             LDRH     R0,[R5, #+14]
+   \      0x114   0xF8AD 0x0012      STRH     R0,[SP, #+18]
+    941              entry.data.reported.reportableChange = newEntry->data.reported.reportableChange;
+   \      0x118   0x6928             LDR      R0,[R5, #+16]
+   \      0x11A   0x9005             STR      R0,[SP, #+20]
+    942            }
+    943            // Give the application a chance to review the configuration that we have
+    944            // been building up.  If the application rejects it, we just do not save the
+    945            // record.  If we were supposed to add a new configuration, it will not be
+    946            // created.  If we were supposed to update an existing configuration, we will
+    947            // keep the old one and just discard any changes.  So, in either case, life
+    948            // continues unchanged if the application rejects the configuration.
+    949            status = emberAfPluginReportingConfiguredCallback(&entry);
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_11: (+1)
+   \      0x11C   0xA801             ADD      R0,SP,#+4
+   \      0x11E   0x.... 0x....      BL       emberAfPluginReportingConfiguredCallback
+   \      0x122   0x0005             MOVS     R5,R0
+    950            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+   \      0x124   0xD11E             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_12
+    951              if (index == reportTableActiveLength) {
+   \      0x126   0x8830             LDRH     R0,[R6, #+0]
+   \      0x128   0x4621             MOV      R1,R4
+   \      0x12A   0x4602             MOV      R2,R0
+   \      0x12C   0xB289             UXTH     R1,R1
+   \      0x12E   0x4291             CMP      R1,R2
+   \      0x130   0xD101             BNE.N    ??emberAfPluginReportingConfigureReportedAttrib_13
+    952                reportTableActiveLength++;
+   \      0x132   0x1C40             ADDS     R0,R0,#+1
+   \      0x134   0x8030             STRH     R0,[R6, #+0]
+    953              }
+    954              emAfPluginReportVolatileData[index].lastReportTimeMs = halCommonGetInt32uMillisecondTick();
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_13: (+1)
+   \      0x136   0x4620             MOV      R0,R4
+   \      0x138   0xB280             UXTH     R0,R0
+   \      0x13A   0xEB00 0x0140      ADD      R1,R0,R0, LSL #+1
+   \      0x13E   0x00CE             LSLS     R6,R1,#+3
+   \      0x140   0x....             LDR.N    R7,??DataTable17_2
+   \      0x142   0x.... 0x....      BL       halCommonGetInt32uMillisecondTick
+   \      0x146   0x51B8             STR      R0,[R7, R6]
+    955              emAfPluginReportVolatileData[index].lastReportValue = 0;
+   \      0x148   0x2000             MOVS     R0,#+0
+   \      0x14A   0x4601             MOV      R1,R0
+   \      0x14C   0xF107 0x0208      ADD      R2,R7,#+8
+   \      0x150   0x1992             ADDS     R2,R2,R6
+   \      0x152   0xE9C2 0x0100      STRD     R0,R1,[R2, #+0]
+    956          
+    957              emAfPluginReportingSetEntry(index, &entry);
+   \      0x156   0xA901             ADD      R1,SP,#+4
+   \      0x158   0x4620             MOV      R0,R4
+   \      0x15A   0xB280             UXTH     R0,R0
+   \      0x15C   0x.... 0x....      BL       emAfPluginReportingSetEntry
+    958              scheduleTick();
+   \      0x160   0x.... 0x....      BL       scheduleTick
+    959            }
+    960            return status;
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_12: (+1)
+   \      0x164   0x4628             MOV      R0,R5
+   \                     ??emberAfPluginReportingConfigureReportedAttrib_1: (+1)
+   \      0x166   0xB006             ADD      SP,SP,#+24
+   \      0x168   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    961          }
+    962          
+
+   \                                 In section .text, align 2, keep-with-next
+    963          static EmberAfStatus configureReceivedAttribute(const EmberAfClusterCommand *cmd,
+    964                                                          EmberAfAttributeId attributeId,
+    965                                                          uint8_t mask,
+    966                                                          uint16_t timeout)
+    967          {
+   \                     configureReceivedAttribute: (+1)
+   \        0x0   0xE92D 0x4FF0      PUSH     {R4-R11,LR}
+   \        0x4   0xB085             SUB      SP,SP,#+20
+   \        0x6   0x461F             MOV      R7,R3
+    968            EmberAfPluginReportingEntry entry;
+    969            EmberAfStatus status;
+    970            uint16_t i, index = reportTableActiveLength;
+   \        0x8   0x.... 0x....      LDR.W    R8,??DataTable17_3
+   \        0xC   0xF8B8 0x9000      LDRH     R9,[R8, #+0]
+    971            bool initialize = true;
+   \       0x10   0xF04F 0x0A01      MOV      R10,#+1
+    972          
+    973            // Check the table for an entry that matches this request and also watch for
+    974            // empty slots along the way.  If a report exists, it will be overwritten
+    975            // with the new configuration.  Otherwise, a new entry will be created and
+    976            // initialized.
+    977            for (i = 0; i < reportTableActiveLength; i++) {
+   \       0x14   0xF04F 0x0B00      MOV      R11,#+0
+   \       0x18   0x4604             MOV      R4,R0
+   \       0x1A   0x460D             MOV      R5,R1
+   \       0x1C   0x4616             MOV      R6,R2
+   \       0x1E   0xE001             B.N      ??configureReceivedAttribute_0
+   \                     ??configureReceivedAttribute_1: (+1)
+   \       0x20   0xF10B 0x0B01      ADD      R11,R11,#+1
+   \                     ??configureReceivedAttribute_0: (+1)
+   \       0x24   0x4658             MOV      R0,R11
+   \       0x26   0xF8B8 0x1000      LDRH     R1,[R8, #+0]
+   \       0x2A   0xB280             UXTH     R0,R0
+   \       0x2C   0x4288             CMP      R0,R1
+   \       0x2E   0xD22F             BCS.N    ??configureReceivedAttribute_2
+    978              emAfPluginReportingGetEntry(i, &entry);
+   \       0x30   0x4669             MOV      R1,SP
+   \       0x32   0x4658             MOV      R0,R11
+   \       0x34   0xB280             UXTH     R0,R0
+   \       0x36   0x.... 0x....      BL       emAfPluginReportingGetEntry
+    979              if (entry.direction == EMBER_ZCL_REPORTING_DIRECTION_RECEIVED
+    980                  && entry.endpoint == cmd->apsFrame->destinationEndpoint
+    981                  && entry.clusterId == cmd->apsFrame->clusterId
+    982                  && entry.attributeId == attributeId
+    983                  && entry.mask == mask
+    984                  && entry.manufacturerCode == cmd->mfgCode
+    985                  && entry.data.received.source == cmd->source
+    986                  && entry.data.received.endpoint == cmd->apsFrame->sourceEndpoint) {
+   \       0x3A   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x3E   0x2801             CMP      R0,#+1
+   \       0x40   0xD1EE             BNE.N    ??configureReceivedAttribute_1
+   \       0x42   0x6820             LDR      R0,[R4, #+0]
+   \       0x44   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \       0x48   0x7942             LDRB     R2,[R0, #+5]
+   \       0x4A   0x4291             CMP      R1,R2
+   \       0x4C   0xD1E8             BNE.N    ??configureReceivedAttribute_1
+   \       0x4E   0xF8BD 0x1002      LDRH     R1,[SP, #+2]
+   \       0x52   0x8842             LDRH     R2,[R0, #+2]
+   \       0x54   0x4291             CMP      R1,R2
+   \       0x56   0xD1E3             BNE.N    ??configureReceivedAttribute_1
+   \       0x58   0xF8BD 0x1004      LDRH     R1,[SP, #+4]
+   \       0x5C   0x462A             MOV      R2,R5
+   \       0x5E   0x4291             CMP      R1,R2
+   \       0x60   0xD1DE             BNE.N    ??configureReceivedAttribute_1
+   \       0x62   0xF89D 0x1006      LDRB     R1,[SP, #+6]
+   \       0x66   0x4632             MOV      R2,R6
+   \       0x68   0x4291             CMP      R1,R2
+   \       0x6A   0xD1D9             BNE.N    ??configureReceivedAttribute_1
+   \       0x6C   0xF8BD 0x1008      LDRH     R1,[SP, #+8]
+   \       0x70   0x8A22             LDRH     R2,[R4, #+16]
+   \       0x72   0x4291             CMP      R1,R2
+   \       0x74   0xD1D4             BNE.N    ??configureReceivedAttribute_1
+   \       0x76   0xF8BD 0x100C      LDRH     R1,[SP, #+12]
+   \       0x7A   0x88E2             LDRH     R2,[R4, #+6]
+   \       0x7C   0x4291             CMP      R1,R2
+   \       0x7E   0xD1CF             BNE.N    ??configureReceivedAttribute_1
+   \       0x80   0xF89D 0x100E      LDRB     R1,[SP, #+14]
+   \       0x84   0x7900             LDRB     R0,[R0, #+4]
+   \       0x86   0x4281             CMP      R1,R0
+   \       0x88   0xD1CA             BNE.N    ??configureReceivedAttribute_1
+    987                initialize = false;
+   \       0x8A   0xF04F 0x0A00      MOV      R10,#+0
+    988                index = i;
+   \       0x8E   0x46D9             MOV      R9,R11
+    989                break;
+    990              }
+    991            }
+    992          
+    993            if (initialize) {
+   \                     ??configureReceivedAttribute_2: (+1)
+   \       0x90   0xF1BA 0x0F00      CMP      R10,#+0
+   \       0x94   0xD01E             BEQ.N    ??configureReceivedAttribute_3
+    994              if (index >= REPORT_TABLE_SIZE) {
+   \       0x96   0x4648             MOV      R0,R9
+   \       0x98   0xB280             UXTH     R0,R0
+   \       0x9A   0x280A             CMP      R0,#+10
+   \       0x9C   0xDB01             BLT.N    ??configureReceivedAttribute_4
+    995                return EMBER_ZCL_STATUS_INSUFFICIENT_SPACE;
+   \       0x9E   0x2089             MOVS     R0,#+137
+   \       0xA0   0xE02F             B.N      ??configureReceivedAttribute_5
+    996              }
+    997              entry.direction = EMBER_ZCL_REPORTING_DIRECTION_RECEIVED;
+   \                     ??configureReceivedAttribute_4: (+1)
+   \       0xA2   0x2001             MOVS     R0,#+1
+   \       0xA4   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    998              entry.endpoint = cmd->apsFrame->destinationEndpoint;
+   \       0xA8   0x6820             LDR      R0,[R4, #+0]
+   \       0xAA   0x7940             LDRB     R0,[R0, #+5]
+   \       0xAC   0xF88D 0x0001      STRB     R0,[SP, #+1]
+    999              entry.clusterId = cmd->apsFrame->clusterId;
+   \       0xB0   0x6820             LDR      R0,[R4, #+0]
+   \       0xB2   0x8840             LDRH     R0,[R0, #+2]
+   \       0xB4   0xF8AD 0x0002      STRH     R0,[SP, #+2]
+   1000              entry.attributeId = attributeId;
+   \       0xB8   0xF8AD 0x5004      STRH     R5,[SP, #+4]
+   1001              entry.mask = mask;
+   \       0xBC   0xF88D 0x6006      STRB     R6,[SP, #+6]
+   1002              entry.manufacturerCode = cmd->mfgCode;
+   \       0xC0   0x8A20             LDRH     R0,[R4, #+16]
+   \       0xC2   0xF8AD 0x0008      STRH     R0,[SP, #+8]
+   1003              entry.data.received.source = cmd->source;
+   \       0xC6   0x88E0             LDRH     R0,[R4, #+6]
+   \       0xC8   0xF8AD 0x000C      STRH     R0,[SP, #+12]
+   1004              entry.data.received.endpoint = cmd->apsFrame->sourceEndpoint;
+   \       0xCC   0x6820             LDR      R0,[R4, #+0]
+   \       0xCE   0x7900             LDRB     R0,[R0, #+4]
+   \       0xD0   0xF88D 0x000E      STRB     R0,[SP, #+14]
+   1005            }
+   1006          
+   1007            // For new or updated entries, set the timeout.  Updated entries will retain
+   1008            // all other settings configured previously.
+   1009            entry.data.received.timeout = timeout;
+   \                     ??configureReceivedAttribute_3: (+1)
+   \       0xD4   0xF8AD 0x7010      STRH     R7,[SP, #+16]
+   1010          
+   1011            // Give the application a chance to review the configuration that we have
+   1012            // been building up.  If the application rejects it, we just do not save the
+   1013            // record.  If we were supposed to add a new configuration, it will not be
+   1014            // created.  If we were supposed to update an existing configuration, we will
+   1015            // keep the old one and just discard any changes.  So, in either case, life
+   1016            // continues unchanged if the application rejects the configuration.  If the
+   1017            // application accepts the change, the tick does not have to be rescheduled
+   1018            // here because we don't do anything with received reports.
+   1019            status = emberAfPluginReportingConfiguredCallback(&entry);
+   \       0xD8   0x4668             MOV      R0,SP
+   \       0xDA   0x.... 0x....      BL       emberAfPluginReportingConfiguredCallback
+   \       0xDE   0x0004             MOVS     R4,R0
+   1020            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+   \       0xE0   0xD10E             BNE.N    ??configureReceivedAttribute_6
+   1021              if (index == reportTableActiveLength) {
+   \       0xE2   0xF8B8 0x0000      LDRH     R0,[R8, #+0]
+   \       0xE6   0x4649             MOV      R1,R9
+   \       0xE8   0x4602             MOV      R2,R0
+   \       0xEA   0xB289             UXTH     R1,R1
+   \       0xEC   0x4291             CMP      R1,R2
+   \       0xEE   0xD102             BNE.N    ??configureReceivedAttribute_7
+   1022                reportTableActiveLength++;
+   \       0xF0   0x1C40             ADDS     R0,R0,#+1
+   \       0xF2   0xF8A8 0x0000      STRH     R0,[R8, #+0]
+   1023              }
+   1024          
+   1025              emAfPluginReportingSetEntry(index, &entry);
+   \                     ??configureReceivedAttribute_7: (+1)
+   \       0xF6   0x4669             MOV      R1,SP
+   \       0xF8   0x4648             MOV      R0,R9
+   \       0xFA   0xB280             UXTH     R0,R0
+   \       0xFC   0x.... 0x....      BL       emAfPluginReportingSetEntry
+   1026            }
+   1027            return status;
+   \                     ??configureReceivedAttribute_6: (+1)
+   \      0x100   0x4620             MOV      R0,R4
+   \                     ??configureReceivedAttribute_5: (+1)
+   \      0x102   0xB005             ADD      SP,SP,#+20
+   \      0x104   0xE8BD 0x8FF0      POP      {R4-R11,PC}
+   1028          }
+   1029          
+
+   \                                 In section .text, align 2, keep-with-next
+   1030          static void putReportableChangeInResp(const EmberAfPluginReportingEntry *entry,
+   1031                                                EmberAfAttributeType dataType)
+   1032          {
+   \                     putReportableChangeInResp: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+   1033            uint8_t bytes = emberAfGetDataSize(dataType);
+   \        0x6   0x4628             MOV      R0,R5
+   \        0x8   0x.... 0x....      BL       emberAfGetDataSize
+   \        0xC   0x4606             MOV      R6,R0
+   1034            if (entry == NULL) { // default, 0xFF...UL or 0x80...L
+   \        0xE   0x2C00             CMP      R4,#+0
+   \       0x10   0xD003             BEQ.N    ??putReportableChangeInResp_0
+   1035              for (; bytes > 0; bytes--) {
+   1036                uint8_t b = 0xFF;
+   1037                if (emberAfIsTypeSigned(dataType)) {
+   1038                  b = (bytes == 1 ? 0x80 : 0x00);
+   1039                }
+   1040                emberAfPutInt8uInResp(b);
+   1041              }
+   1042            } else { // reportable change value
+   1043              uint32_t value = entry->data.reported.reportableChange;
+   \       0x12   0x6924             LDR      R4,[R4, #+16]
+   \       0x14   0xE01B             B.N      ??putReportableChangeInResp_1
+   \                     ??putReportableChangeInResp_2: (+1)
+   \       0x16   0x2400             MOVS     R4,#+0
+   \       0x18   0xE00E             B.N      ??putReportableChangeInResp_3
+   \                     ??putReportableChangeInResp_0: (+1)
+   \       0x1A   0x4630             MOV      R0,R6
+   \       0x1C   0xB2C0             UXTB     R0,R0
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD019             BEQ.N    ??putReportableChangeInResp_4
+   \       0x22   0x24FF             MOVS     R4,#+255
+   \       0x24   0x4628             MOV      R0,R5
+   \       0x26   0x.... 0x....      BL       emberAfIsTypeSigned
+   \       0x2A   0x2800             CMP      R0,#+0
+   \       0x2C   0xD004             BEQ.N    ??putReportableChangeInResp_3
+   \       0x2E   0x4630             MOV      R0,R6
+   \       0x30   0xB2C0             UXTB     R0,R0
+   \       0x32   0x2801             CMP      R0,#+1
+   \       0x34   0xD1EF             BNE.N    ??putReportableChangeInResp_2
+   \       0x36   0x2480             MOVS     R4,#+128
+   \                     ??putReportableChangeInResp_3: (+1)
+   \       0x38   0x4620             MOV      R0,R4
+   \       0x3A   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x3E   0x1E76             SUBS     R6,R6,#+1
+   \       0x40   0xE7EB             B.N      ??putReportableChangeInResp_0
+   1044              for (; bytes > 0; bytes--) {
+   1045                uint8_t b = BYTE_0(value);
+   1046                emberAfPutInt8uInResp(b);
+   \                     ??putReportableChangeInResp_5: (+1)
+   \       0x42   0x4620             MOV      R0,R4
+   \       0x44   0xB2C0             UXTB     R0,R0
+   \       0x46   0x.... 0x....      BL       emberAfPutInt8uInResp
+   1047                value >>= 8;
+   \       0x4A   0x0A24             LSRS     R4,R4,#+8
+   1048              }
+   \       0x4C   0x1E76             SUBS     R6,R6,#+1
+   \                     ??putReportableChangeInResp_1: (+1)
+   \       0x4E   0x4630             MOV      R0,R6
+   \       0x50   0xB2C0             UXTB     R0,R0
+   \       0x52   0x2800             CMP      R0,#+0
+   \       0x54   0xD1F5             BNE.N    ??putReportableChangeInResp_5
+   1049            }
+   1050          }
+   \                     ??putReportableChangeInResp_4: (+1)
+   \       0x56   0xBD70             POP      {R4-R6,PC}
+   1051          
+   1052          // Conditionally add reporting entry.
+
+   \                                 In section .text, align 2, keep-with-next
+   1053          static bool reportEntryDoesNotExist(const EmberAfPluginReportingEntry* newEntry)
+   1054          {
+   \                     reportEntryDoesNotExist: (+1)
+   \        0x0   0xB530             PUSH     {R4,R5,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+   \        0x4   0x4604             MOV      R4,R0
+   1055            uint16_t i;
+   1056            EmberAfPluginReportingEntry entry;
+   1057          
+   1058            for (i = 0; i < reportTableActiveLength; i++) {
+   \        0x6   0x2500             MOVS     R5,#+0
+   \        0x8   0xE000             B.N      ??reportEntryDoesNotExist_0
+   \                     ??reportEntryDoesNotExist_1: (+1)
+   \        0xA   0x1C6D             ADDS     R5,R5,#+1
+   \                     ??reportEntryDoesNotExist_0: (+1)
+   \        0xC   0x4628             MOV      R0,R5
+   \        0xE   0x....             LDR.N    R1,??DataTable17_3
+   \       0x10   0x8809             LDRH     R1,[R1, #+0]
+   \       0x12   0xB280             UXTH     R0,R0
+   \       0x14   0x4288             CMP      R0,R1
+   \       0x16   0xD20D             BCS.N    ??reportEntryDoesNotExist_2
+   1059              emAfPluginReportingGetEntry(i, &entry);
+   \       0x18   0x4669             MOV      R1,SP
+   \       0x1A   0x4628             MOV      R0,R5
+   \       0x1C   0xB280             UXTH     R0,R0
+   \       0x1E   0x.... 0x....      BL       emAfPluginReportingGetEntry
+   1060              if (emAfPluginReportingDoEntriesMatch(&entry, newEntry)) {
+   \       0x22   0x4621             MOV      R1,R4
+   \       0x24   0x4668             MOV      R0,SP
+   \       0x26   0x.... 0x....      BL       emAfPluginReportingDoEntriesMatch
+   \       0x2A   0x2800             CMP      R0,#+0
+   \       0x2C   0xD0ED             BEQ.N    ??reportEntryDoesNotExist_1
+   1061                return false;
+   \       0x2E   0x2000             MOVS     R0,#+0
+   \                     ??reportEntryDoesNotExist_3: (+1)
+   \       0x30   0xB005             ADD      SP,SP,#+20
+   \       0x32   0xBD30             POP      {R4,R5,PC}
+   1062              }
+   1063            }
+   1064          
+   1065            return true;
+   \                     ??reportEntryDoesNotExist_2: (+1)
+   \       0x34   0x2001             MOVS     R0,#+1
+   \       0x36   0xE7FB             B.N      ??reportEntryDoesNotExist_3
+   1066          }
+   1067          
+
+   \                                 In section .text, align 2, keep-with-next
+   1068          uint16_t emAfPluginReportingConditionallyAddReportingEntry(EmberAfPluginReportingEntry* newEntry)
+   1069          {
+   \                     emAfPluginReportingConditionallyAddReportingEntry: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   1070            if (reportEntryDoesNotExist(newEntry)) {
+   \        0x4   0x.... 0x....      BL       reportEntryDoesNotExist
+   \        0x8   0x2800             CMP      R0,#+0
+   \        0xA   0xD003             BEQ.N    ??emAfPluginReportingConditionallyAddReportingE_0
+   1071              return emAfPluginReportingAppendEntry(newEntry);
+   \        0xC   0x4620             MOV      R0,R4
+   \        0xE   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x12   0x....             B.N      emAfPluginReportingAppendEntry
+   1072            }
+   1073            return 0;
+   \                     ??emAfPluginReportingConditionallyAddReportingE_0: (+1)
+   \       0x14   0x2000             MOVS     R0,#+0
+   \       0x16   0xBD10             POP      {R4,PC}
+   1074          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable6:
+   \        0x0   0x00 0x00          DC8      "",0x0,0x0,0x0 
+   \              0x00 0x00
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10:
+   \        0x0   0x00 0x00          DC8      "",0x0,0x0,0x0 
+   \              0x00 0x00
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17:
+   \        0x0   0x811C'9DC5        DC32     0x811c9dc5
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_1:
+   \        0x0   0x0100'0193        DC32     0x1000193
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_2:
+   \        0x0   0x....'....        DC32     emAfPluginReportVolatileData
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_3:
+   \        0x0   0x....'....        DC32     reportTableActiveLength
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_4:
+   \        0x0   0x....'....        DC32     appResponseLength
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_5:
+   \        0x0   0x....'....        DC32     retrySendReport
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable17_6:
+   \        0x0   0x....'....        DC32     emberAfPluginReportingTickEventControl
+
+   \                                 In section .rodata, align 1
+   \        0x0   0x00               DC8 ""
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       4   computeStringHash
+       8   conditionallySendReport
+         8   -> emberAfIsDeviceEnabled
+         0   -> emberAfSendCommandUnicastToBindings
+         8   -> emberAfSendCommandUnicastToBindingsWithCallback
+      56   configureReceivedAttribute
+        56   -> emAfPluginReportingGetEntry
+        56   -> emAfPluginReportingSetEntry
+        56   -> emberAfPluginReportingConfiguredCallback
+      32   emAfPluginReportingAddEntry
+        32   -> emAfPluginReportingAppendEntry
+        32   -> emAfPluginReportingDoEntriesMatch
+        32   -> emAfPluginReportingGetEntry
+        32   -> emAfPluginReportingSetEntry
+      16   emAfPluginReportingAppendEntry
+        16   -> emAfPluginReportingSetEntry
+       8   emAfPluginReportingConditionallyAddReportingEntry
+         0   -> emAfPluginReportingAppendEntry
+         8   -> reportEntryDoesNotExist
+       0   emAfPluginReportingDoEntriesMatch
+       0   emAfPluginReportingGetEntry
+         0   -> halInternalGetTokenData
+       0   emAfPluginReportingNumEntries
+       8   emAfPluginReportingRemoveEntry
+         8   -> removeConfigurationAndScheduleTick
+       0   emAfPluginReportingSetEntry
+         0   -> halInternalSetTokenData
+       8   emberAfClearReportTableCallback
+         8   -> removeConfiguration
+      64   emberAfConfigureReportingCommandCallback
+        64   -> configureReceivedAttribute
+        64   -> emberAfFillExternalManufacturerSpecificBuffer
+        64   -> emberAfGetAttributeAnalogOrDiscreteType
+        64   -> emberAfGetDataSize
+        64   -> emberAfGetInt
+        64   -> emberAfGetInt16u
+        64   -> emberAfLocateAttributeMetadata
+        64   -> emberAfPluginReportingConfigureReportedAttribute
+        64   -> emberAfPutInt16uInResp
+        64   -> emberAfPutInt8uInResp
+        64   -> emberAfSendResponse
+      48   emberAfPluginReportingConfigureReportedAttribute
+        48   -> __aeabi_memmove4
+        48   -> emAfPluginReportingGetEntry
+        48   -> emAfPluginReportingSetEntry
+        48   -> emberAfLocateAttributeMetadata
+        48   -> emberAfPluginReportingConfiguredCallback
+        48   -> emberAfPluginReportingGetReportingConfigDefaults
+        48   -> halCommonGetInt32uMillisecondTick
+        48   -> removeConfigurationAndScheduleTick
+        48   -> scheduleTick
+      32   emberAfPluginReportingInitCallback
+        32   -> emAfPluginReportingGetEntry
+        32   -> scheduleTick
+       8   emberAfPluginReportingStackStatusCallback
+         8   -> emberAfPluginReportingLoadReportingConfigDefaults
+         0   -> scheduleTick
+     160   emberAfPluginReportingTickEventHandler
+       160   -> __aeabi_memmove
+       160   -> computeStringHash
+       160   -> conditionallySendReport
+       160   -> emAfPluginReportingGetEntry
+       160   -> emAfReadAttribute
+       160   -> emberAfAttributeValueSize
+       160   -> emberAfFillExternalManufacturerSpecificBuffer
+       160   -> emberAfGetCommandApsFrame
+       160   -> emberAfIsLongStringAttributeType
+       160   -> emberAfMaximumApsPayloadLength
+       160   -> emberAfPutBlockInResp
+       160   -> emberAfPutInt16uInResp
+       160   -> emberAfPutInt8uInResp
+       160   -> emberGetBinding
+       160   -> halCommonGetInt32uMillisecondTick
+       160   -> scheduleTick
+      64   emberAfReadReportingConfigurationCommandCallback
+        64   -> emAfPluginReportingGetEntry
+        64   -> emberAfFillExternalManufacturerSpecificBuffer
+        64   -> emberAfGetAttributeAnalogOrDiscreteType
+        64   -> emberAfGetInt16u
+        64   -> emberAfLocateAttributeMetadata
+        64   -> emberAfPutInt16uInResp
+        64   -> emberAfPutInt8uInResp
+        64   -> emberAfSendResponse
+        64   -> putReportableChangeInResp
+      56   emberAfReportingAttributeChangeCallback
+        56   -> computeStringHash
+        56   -> emAfPluginReportingGetEntry
+        56   -> emberAfGetAttributeAnalogOrDiscreteType
+        56   -> emberAfGetDataSize
+        56   -> emberAfGetDifference
+        56   -> emberAfStringLength
+        56   -> scheduleTick
+      16   putReportableChangeInResp
+        16   -> emberAfGetDataSize
+        16   -> emberAfIsTypeSigned
+        16   -> emberAfPutInt8uInResp
+      88   removeConfiguration
+        88   -> __aeabi_memcpy4
+        88   -> emAfPluginReportingGetEntry
+        88   -> emAfPluginReportingSetEntry
+        88   -> emberAfPluginReportingConfiguredCallback
+       8   removeConfigurationAndScheduleTick
+         8   -> removeConfiguration
+         0   -> scheduleTick
+      32   reportEntryDoesNotExist
+        32   -> emAfPluginReportingDoEntriesMatch
+        32   -> emAfPluginReportingGetEntry
+      16   retrySendReport
+        16   -> emberAfSendUnicast
+      48   scheduleTick
+        48   -> emAfPluginReportingGetEntry
+        48   -> emberAfEventControlSetDelayMS
+        48   -> halCommonGetInt32uMillisecondTick
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable10
+       4  ??DataTable17
+       4  ??DataTable17_1
+       4  ??DataTable17_2
+       4  ??DataTable17_3
+       4  ??DataTable17_4
+       4  ??DataTable17_5
+       4  ??DataTable17_6
+       4  ??DataTable6
+       1  ?_0
+      36  computeStringHash
+      38  conditionallySendReport
+     264  configureReceivedAttribute
+     240  emAfPluginReportVolatileData
+      74  emAfPluginReportingAddEntry
+      36  emAfPluginReportingAppendEntry
+      24  emAfPluginReportingConditionallyAddReportingEntry
+      76  emAfPluginReportingDoEntriesMatch
+      22  emAfPluginReportingGetEntry
+       8  emAfPluginReportingNumEntries
+      30  emAfPluginReportingRemoveEntry
+      20  emAfPluginReportingSetEntry
+      32  emberAfClearReportTableCallback
+     378  emberAfConfigureReportingCommandCallback
+     364  emberAfPluginReportingConfigureReportedAttribute
+      80  emberAfPluginReportingInitCallback
+      18  emberAfPluginReportingStackStatusCallback
+       8  emberAfPluginReportingTickEventControl
+     528  emberAfPluginReportingTickEventHandler
+     402  emberAfReadReportingConfigurationCommandCallback
+     240  emberAfReportingAttributeChangeCallback
+      88  putReportableChangeInResp
+     120  removeConfiguration
+      12  removeConfigurationAndScheduleTick
+      56  reportEntryDoesNotExist
+       2  reportTableActiveLength
+      20  retrySendReport
+     160  scheduleTick
+
+ 
+   250 bytes in section .bss
+     1 byte  in section .rodata
+ 3'162 bytes in section .text
+ 
+ 3'162 bytes of CODE  memory
+     1 byte  of CONST memory
+   250 bytes of DATA  memory
+
+Errors: none
+Warnings: none

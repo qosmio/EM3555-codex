@@ -1,0 +1,280 @@
+###############################################################################
+#                                                                             #
+#     IAR Assembler V9.70.2.500/W64 for ARM 04/Apr/2026  22:55:55             #
+#     Copyright 1999-2025 IAR Systems AB.                                     #
+#                                                                             #
+#           Source file   =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\faults.s79#
+#           List file     =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\faults.lst#
+#           Object file   =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\faults.o#
+#           Command line  =  -f                                               #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\faults.o.rsp #
+#                            (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\faults.s79 #
+#                            -OZ:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir #
+#                            -s+ -M<> -w+ -r -DCORTEXM3                       #
+#                            -DCORTEXM3_EMBER_MICRO -DCORTEXM3_EM3555         #
+#                            -DPHY_EM3XX -DHAL_MICRO                          #
+#                            -DBOARD_HEADER="platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h" #
+#                            -DPLATFORM_HEADER="hal/micro/cortexm3/compiler/iar.h" #
+#                            -DAPPLICATION_TOKEN_HEADER="config/app-tokens.h" #
+#                            -DGENERATED_TOKEN_HEADER="autogen/em3555-rgbw_tokens.h" #
+#                            -DATTRIBUTE_STORAGE_CONFIGURATION="autogen/em3555-rgbw_endpoint_config.h" #
+#                            -DZA_GENERATED_HEADER="autogen/em3555-rgbw.h"    #
+#                            -DCONFIGURATION_HEADER="app/framework/util/config.h" #
+#                            -D__SOURCEFILE__="faults.s79"                    #
+#                            -LZ:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir #
+#                            -t2 --cpu Cortex-M3 --fpu None                   #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\) #
+#                            -y                                               #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\faults.o.iar_deps #
+#                            --dynamic_output                                 #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\faults.o.iar_dynout #
+#                                                                             #
+###############################################################################
+
+    1                           //--------------------------------------------
+                                ----------------------------------
+    2                           // @file hal/micro/cortexm3/faults.s79
+    3                           // @brief PRIV
+    4                           // 
+    5                           //
+    6                           // Copyright 2009 by Ember Corporation. All
+                                 rights reserved.                *80*
+    7                           //--------------------------------------------
+                                ----------------------------------
+    8                           
+    9                           #include "compiler/asm.h"
+   10                           
+   11                                   __IMPORT__ halInternalCrashHandler
+   12                                   __IMPORT__ halInternalSysReset
+   13                           
+   14                           // define the values the link register can
+                                 have on entering an exception
+   15                           __EQU__(EXC_RETURN_HANDLER_MSP, 0xFFFFFFF1)
+   16                           __EQU__(EXC_RETURN_THREAD_MSP,  0xFFFFFFF9)
+   17                           __EQU__(EXC_RETURN_THREAD_PSP,  0xFFFFFFFD)
+   18                           
+   19                           // define stack bytes needed by halCrashHandle
+                                r()
+   20                           __EQU__(CRASH_STACK_SIZE, 64)
+   21                           
+   22                           //--------------------------------------------
+                                ----------------------------------
+   23                           //
+   24                           // Various types of crashes generate NMIs,
+                                 hard, bus, memory, usage and debug 
+   25                           // monitor faults that vector to the routines
+                                 defined here. 
+   26                           //
+   27                           // Although all of these could vector directly
+                                 to the common fault handler,
+   28                           // each is given its own entry point to allow
+                                 setting a breakpoint for a 
+   29                           // particular type of crash.
+   30                           //
+   31                           //--------------------------------------------
+                                ----------------------------------
+   32                           
+   33                           
+   34                           #ifndef EMBER_INTERRUPT_TEST
+   35                                   __CODE__
+   36                                   __THUMB__
+   37                                   __EXPORT__ halNmiIsr
+   38                           halNmiIsr:
+   39    00000000 ........              b.w fault
+   40                           #endif
+   41                           
+   42                           
+   43                           #ifndef EMBER_ACCESS_TEST
+   44                                   __CODE__
+   45                                   __THUMB__
+   46                                   __EXPORT__ halHardFaultIsr
+   47                           halHardFaultIsr:
+   48    00000000 ........              b.w fault
+   49                           
+   50                                   __CODE__
+   51                                   __THUMB__
+   52                                   __EXPORT__ halBusFaultIsr
+   53                           halBusFaultIsr:
+   54    00000000 ........              b.w fault
+   55                           
+   56                           // The Simple MPU integration test takes over
+                                 this function, so rename the
+   57                           // default handler in that case
+   58                           #if defined(REGRESSION_TEST) && defined(INCLUD
+                                E_MPU_TEST)
+   59                             #define halMemoryFaultIsr mpu_fault_handler_
+                                default
+   60                           #endif
+   61                                   __CODE__
+   62                                   __THUMB__
+   63                                   __EXPORT__ halMemoryFaultIsr
+   64                           halMemoryFaultIsr:
+   65    00000000 ........              b.w fault
+   66                           
+   67                                   __CODE__
+   68                                   __THUMB__
+   69                                   __EXPORT__ halUsageFaultIsr
+   70                           halUsageFaultIsr:
+   71    00000000 ........              b.w fault
+   72                           #endif
+   73                           
+   74                                   __CODE__
+   75                                   __THUMB__
+   76                                   __EXPORT__ halDebugMonitorIsr
+   77                           halDebugMonitorIsr:
+   78    00000000 ........              b.w fault
+   79                           
+   80                                   __CODE__
+   81                                   __THUMB__
+   82                                   __EXPORT__ uninitializedIsr
+   83                           uninitializedIsr:
+   84    00000000 ........              b.w fault
+   85                           
+   86                           
+   87                           //--------------------------------------------
+                                ----------------------------------
+   88                           // Common fault handler prolog processing
+   89                           //
+   90                           //   determines which of the three possible
+                                 EXC_RETURN values is in lr,
+   91                           //   then uses lr to save processor registers
+                                 r0-r12 to the crash info area
+   92                           //
+   93                           //   restores lr's value, and then saves lr,
+                                 msp and psp to the crash info area
+   94                           //
+   95                           //   checks the stack pointer to see if it is
+                                 valid and won't overwrite the crash
+   96                           //   info area - if needed, resets the stack
+                                 pointer to the top of the stack
+   97                           //   
+   98                           //   calls halInternalCrashHandler() to
+                                 continue saving crash data. This 
+   99                           //   C function can finish crash processing
+                                 without risking further faults.
+  100                           //   It returns the fault reason, and this is
+                                 passed to halInternalSysReset() 
+  101                           //   that forces a processor reset.
+  102                           //
+  103                           //--------------------------------------------
+                                ----------------------------------
+  104                                   __CODE__
+  105                                   __THUMB__
+  106                                   __EXPORT__ fault
+  107                           fault:
+  108    00000000 72B6                  cpsid   i               // in case the
+                                                                 fault priority
+                                                                 is low
+  109    00000002 1EF0080F              tst     lr, #8          // test
+                                                      EXC_RETURN for handler vs
+                                                      thread mode
+  110    00000006 08D0                  beq.n   fault_handler_msp
+  111    00000008 1EF0040F              tst     lr, #4          // thread mode:
+                                                      test for msp versus
+                                                      psp
+  112    0000000C 0BD0                  beq.n   fault_thread_msp
+  113                           
+  114                           fault_thread_psp:
+  115    0000000E DFF848E0              ldr     lr, =__BEGIN_RESETINFO__(4)
+  116    00000012 AEE8FF1F              stmia.w lr!, {r0-r12}
+  117    00000016 1148                  ldr     r0, =EXC_RETURN_THREAD_PSP
+  118    00000018 0AE0                  b.n     fault_continue
+  119                           
+  120                           fault_handler_msp:
+  121    0000001A DFF83CE0              ldr     lr, =__BEGIN_RESETINFO__(4)
+  122    0000001E AEE8FF1F              stmia.w lr!, {r0-r12}
+  123    00000022 0F48                  ldr     r0, =EXC_RETURN_HANDLER_MSP
+  124    00000024 04E0                  b.n     fault_continue
+  125                           
+  126                           fault_thread_msp:
+  127    00000026 DFF830E0              ldr     lr, =__BEGIN_RESETINFO__(4)
+  128    0000002A AEE8FF1F              stmia.w lr!, {r0-r12}
+  129    0000002E 0D48                  ldr     r0, =EXC_RETURN_THREAD_MSP
+  130                           //        b.n     fault_continue
+  131                           
+  132                           fault_continue:
+  133    00000030 6946                  mov     r1, sp
+  134    00000032 EFF30982              mrs     r2, PSP
+  135    00000036 8EE80700              stm     lr, {r0-r2}     // save lr, msp
+                                                      and psp
+  136    0000003A 8646                  mov     lr, r0          // restore
+                                                      lr
+  137                           
+  138                           fault_check_sp:
+  139                                   //  make sure that the current stack
+                                 pointer is within the minimum region
+  140                                   //  that must be occupied by the stack
+                                 and that there is some headroom
+  141                                   //  for the crash handler's stack.
+  142    0000003C 0A48                  ldr     r0, =__BEGIN_STACK__(CRASH_STAC
+                                                     K_SIZE)
+  143    0000003E 0B4C                  ldr     r4, =__END_STACK__(0)
+  144    00000040 8545                  cmp     sp, r0
+  145    00000042 01D3                  blo.n   fault_fix_sp
+  146                                   // compare to make sure SP otherwise
+                                 looks valid
+  147    00000044 A545                  cmp     sp, r4
+  148    00000046 01D3                  blo.n   fault_sp_okay
+  149                           fault_fix_sp:
+  150    00000048 84F30888              msr     msp, r4
+  151                           fault_sp_okay:
+  152    0000004C ........              bl.w    halInternalCrashHandler //
+                                                  saves rest of data, returns
+                                                  reason
+  153    00000050 84F30888              msr     msp, r4                 // set
+                                                       sp to top of stack
+                                                       segment
+  154    00000054 ........              bl.w    halInternalSysReset     // call
+                                                  with reset reason in R0    
+                                                  
+  155                           
+  155.1                                  TABLE.32
+  155.2  00000058 ........              Reference on line 115,121,127
+  155.3                                  TABLE.32
+  155.4  0000005C FDFFFFFF              Reference on line 117
+  155.5                                  TABLE.32
+  155.6  00000060 F1FFFFFF              Reference on line 123
+  155.7                                  TABLE.32
+  155.8  00000064 F9FFFFFF              Reference on line 129
+  155.9                                  TABLE.32
+  155.10 00000068 ........              Reference on line 142
+  155.11                                 TABLE.32
+  155.12 0000006C ........              Reference on line 143
+  156                                   __END__
+##############################
+#           CRC:0            #
+#        Errors:   0         #
+#        Warnings: 0         #
+#         Bytes: 140         #
+##############################
+
+
+
+

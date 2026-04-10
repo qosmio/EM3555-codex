@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_common">
+  <assets path="/common/accepted_filters.yml" diskSizeKB="1.736" downloadSizeKB="1.736">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1686271881893"/>
+  </assets>
+  <assets version="4.0.0" path="/common/urls.properties" diskSizeKB="2.594" downloadSizeKB="2.594">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1646948391249"/>
+  </assets>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Universal Bee Overview.pdf" diskSizeKB="3020.344" downloadSizeKB="3020.344">
+    <property key="timeStamp" value="1486814933599"/>
+  </assets>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Sleepy Bee Overview.pdf" diskSizeKB="3185.984" downloadSizeKB="3185.984">
+    <property key="timeStamp" value="1486814933575"/>
+  </assets>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Family Overview.pdf" diskSizeKB="2552.337" downloadSizeKB="2552.337">
+    <property key="timeStamp" value="1486814933539"/>
+  </assets>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Selector Guide.pdf" diskSizeKB="1030.273" downloadSizeKB="1030.273">
+    <property key="timeStamp" value="1486814933546"/>
+  </assets>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Laser Bee Overview.pdf" diskSizeKB="4402.989" downloadSizeKB="4402.989">
+    <property key="timeStamp" value="1486814933588"/>
+  </assets>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Busy Bee Overview.pdf" diskSizeKB="5431.11" downloadSizeKB="5431.11">
+    <property key="timeStamp" value="1486814933561"/>
+  </assets>
+  <assets path="/common/presentations2/Tools/Thunderboard Sense.pdf" diskSizeKB="16136.11" downloadSizeKB="16136.11">
+    <property key="timeStamp" value="1491583287405"/>
+  </assets>
+  <assets path="/common/presentations2/Tools/Simplicty Studio 4.pdf" diskSizeKB="4155.566" downloadSizeKB="4155.566">
+    <property key="timeStamp" value="1486814933738"/>
+  </assets>
+  <assets path="/common/presentations2/Tools/Thunderboard React.pdf" diskSizeKB="4748.275" downloadSizeKB="4748.275">
+    <property key="timeStamp" value="1486814933725"/>
+  </assets>
+  <assets path="/common/presentations2/Timing/Timing Products.pdf" diskSizeKB="7908.055" downloadSizeKB="7908.055">
+    <property key="timeStamp" value="1489171224062"/>
+  </assets>
+  <assets path="/common/presentations2/Wireless/Wireless Gecko Dual Band and Sub-GHz Customer-Friendly.pptx" diskSizeKB="21080.738" downloadSizeKB="21080.738">
+    <property key="timeStamp" value="1486814933475"/>
+  </assets>
+  <assets path="/common/presentations2/Sensors and Xpress/HRM and Wearable Sensors.pdf" diskSizeKB="2577.296" downloadSizeKB="2577.296">
+    <property key="timeStamp" value="1486814933494"/>
+  </assets>
+  <assets path="/common/presentations2/Sensors and Xpress/TouchXpress.pdf" diskSizeKB="1050.85" downloadSizeKB="1050.85">
+    <property key="timeStamp" value="1486814933504"/>
+  </assets>
+  <assets path="/common/presentations2/Sensors and Xpress/USBXpress.pdf" diskSizeKB="1549.066" downloadSizeKB="1549.066">
+    <property key="timeStamp" value="1486814933484"/>
+  </assets>
+  <assets path="/common/presentations2/Sensors and Xpress/CP21xx USB Interfaces.pdf" diskSizeKB="1305.106" downloadSizeKB="1305.106">
+    <property key="timeStamp" value="1486814933511"/>
+  </assets>
+  <assets path="/common/presentations2/Sensors and Xpress/Si11xx Optical Sensors for UV ALS Proximity.pdf" diskSizeKB="2931.346" downloadSizeKB="2931.346">
+    <property key="timeStamp" value="1486814933530"/>
+  </assets>
+  <assets path="/common/presentations2/Sensors and Xpress/Si70xx RHT Sensors.pdf" diskSizeKB="2136.967" downloadSizeKB="2136.967">
+    <property key="timeStamp" value="1486814933520"/>
+  </assets>
+  <assets path="/common/presentations2/32-bit MCU/MCU Solutions for IoT.pptx" diskSizeKB="39948.769" downloadSizeKB="39948.769">
+    <property key="timeStamp" value="1486814933678"/>
+  </assets>
+  <assets path="/common/presentations2/32-bit MCU/EFM32 Microcontroller Brochure.pdf" diskSizeKB="1955.328" downloadSizeKB="1955.328">
+    <property key="timeStamp" value="1486814933607"/>
+  </assets>
+  <assets path="/common/Master_Software_License_Agreement.zip" diskSizeKB="51.755" downloadSizeKB="14.76" directory="true" label="Master Software License Agreement">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1772555424804"/>
+  </assets>
+  <assets path="/common/Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.zip" diskSizeKB="39.257" downloadSizeKB="12.273" directory="true" label="Simplicity Studio Terms of Use and Privacy Statement">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1756395193581"/>
+  </assets>
+  <assets path="/common/BT_Mesh_Android-iOS_License_Agreement.zip" diskSizeKB="26.686" downloadSizeKB="7.19" directory="true" label="Bluetooth Mesh for Android/iOS License Agreement">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1740679206792"/>
+  </assets>
+  <assets path="/common/Silicon_Labs_VCP_Driver_End_User_License_Agreement.zip" diskSizeKB="22.826" downloadSizeKB="7.845" directory="true" label="Silicon Labs VCP Driver End User License Agreement">
+    <property key="forceUpdate" value="false"/>
+    <property key="timeStamp" value="1740679206795"/>
+  </assets>
+  <assets path="/common/certificates.zip" diskSizeKB="6.366" downloadSizeKB="2.092" directory="true">
+    <property key="timeStamp" value="1740679206799"/>
+  </assets>
+  <assets path="/common/presentations/Automotive Products.pdf" diskSizeKB="2636.806" downloadSizeKB="2636.806">
+    <property key="timeStamp" value="1468886344663"/>
+  </assets>
+  <assets path="/common/presentations/EFM32 Pearl and Jade Presentation.pdf" diskSizeKB="2714.848" downloadSizeKB="2714.848">
+    <property key="timeStamp" value="1468886344602"/>
+  </assets>
+  <assets path="/common/presentations/MCU Products.pdf" diskSizeKB="5590.144" downloadSizeKB="5590.144">
+    <property key="timeStamp" value="1468886344644"/>
+  </assets>
+  <assets path="/common/presentations/Using Simplicity Studio with Wireless Products.pdf" diskSizeKB="1640.856" downloadSizeKB="1640.856">
+    <property key="timeStamp" value="1468886344572"/>
+  </assets>
+  <assets path="/common/presentations/EFM32 Microcontroller Software Presentation.pdf" diskSizeKB="2200.454" downloadSizeKB="2200.454">
+    <property key="timeStamp" value="1468886344648"/>
+  </assets>
+  <assets path="/common/presentations/TouchXpress.pdf" diskSizeKB="1394.825" downloadSizeKB="1394.825">
+    <property key="timeStamp" value="1468886344665"/>
+  </assets>
+  <assets path="/common/presentations/EFM32 Microcontroller Brochure.pdf" diskSizeKB="1883.705" downloadSizeKB="1883.705">
+    <property key="timeStamp" value="1468886344592"/>
+  </assets>
+  <assets path="/common/presentations/Home Products.pdf" diskSizeKB="2175.821" downloadSizeKB="2175.821">
+    <property key="timeStamp" value="1468886344685"/>
+  </assets>
+  <assets path="/common/presentations/Wireless Products.pdf" diskSizeKB="4578.086" downloadSizeKB="4578.086">
+    <property key="timeStamp" value="1468886344598"/>
+  </assets>
+  <assets version="1.1" path="/common/presentations/EFM32/EFM32-Cortex-M3-RM.pdf" diskSizeKB="2078.258" downloadSizeKB="2078.258" label="EFM32 Cortex-M3 Reference Manual">
+    <property key="timeStamp" value="1468886344682"/>
+  </assets>
+  <assets path="/common/presentations/EFM32 Microcontroller Products.pdf" diskSizeKB="6486.225" downloadSizeKB="6486.225">
+    <property key="timeStamp" value="1468886344582"/>
+  </assets>
+  <assets path="/common/presentations/Timing Products.pdf" diskSizeKB="4332.474" downloadSizeKB="4332.474">
+    <property key="timeStamp" value="1468886344588"/>
+  </assets>
+  <assets path="/common/presentations/CP21xx USB Bridge Interface Products.pdf" diskSizeKB="1537.35" downloadSizeKB="1537.35">
+    <property key="timeStamp" value="1468886344636"/>
+  </assets>
+  <assets path="/common/presentations/EFM32 Microcontroller Brochure Chinese.pdf" diskSizeKB="4517.659" downloadSizeKB="4517.659">
+    <property key="timeStamp" value="1468886344658"/>
+  </assets>
+  <assets path="/common/presentations/CP21xx USB Bridge Interface Brochure.pdf" diskSizeKB="261.135" downloadSizeKB="261.135">
+    <property key="timeStamp" value="1468886344673"/>
+  </assets>
+  <assets path="/common/presentations/Company Presentation.pdf" diskSizeKB="23567.193" downloadSizeKB="23567.193">
+    <property key="timeStamp" value="1468886344630"/>
+  </assets>
+  <assets path="/common/presentations/EFM8 Microcontroller Products.pdf" diskSizeKB="2326.08" downloadSizeKB="2326.08">
+    <property key="timeStamp" value="1468886344676"/>
+  </assets>
+  <assets path="/common/presentations/C8051 Microcontroller Products.pdf" diskSizeKB="2012.706" downloadSizeKB="2012.706">
+    <property key="timeStamp" value="1468886344634"/>
+  </assets>
+  <assets path="/common/presentations/Power and Sensor Products.pdf" diskSizeKB="4529.34" downloadSizeKB="4529.34">
+    <property key="timeStamp" value="1468886344671"/>
+  </assets>
+  <assets path="/common/presentations/EFM8 Customer Brochure.pdf" diskSizeKB="3657.503" downloadSizeKB="3657.503">
+    <property key="timeStamp" value="1468886344652"/>
+  </assets>
+  <assets version="4.0.0" path="/common/salesforce.properties" diskSizeKB="2.125" downloadSizeKB="2.125">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1687972911357"/>
+  </assets>
+  <assets path="/common/z_wave_development_kit_license_agreement.zip" diskSizeKB="16.139" downloadSizeKB="4.924" directory="true" label="Z-Wave Development Kit License Agreement">
+    <property key="forceUpdate" value="false"/>
+    <property key="timeStamp" value="1740679207589"/>
+  </assets>
+  <assets path="/common/Micrium_45-Day_Evaluation_License.zip" diskSizeKB="12.208" downloadSizeKB="3.651" directory="true" label="45 Day Micrium Evaluation License">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1740679207598"/>
+  </assets>
+  <assets path="/common/Chromium_License.zip" diskSizeKB="6.254" downloadSizeKB="1.17" directory="true" label="Chromium Redistribution License">
+    <property key="forceUpdate" value="false"/>
+    <property key="timeStamp" value="1740679207601"/>
+  </assets>
+  <assets path="/common/SYSTEMVIEW_END_USER_LICENSE_AGREEMENT.zip" diskSizeKB="19.189" downloadSizeKB="5.666" directory="true" label="SEGGER SytemView End User License Agreement">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1740679207604"/>
+  </assets>
+  <assets path="/common/photos/BRD4201A_Kit_Front.png" diskSizeKB="4709.329" downloadSizeKB="4709.329">
+    <property key="timeStamp" value="1556316769180"/>
+  </assets>
+  <assets path="/common/photos/BRD4159A_Front.png" diskSizeKB="1514.404" downloadSizeKB="1514.404">
+    <property key="timeStamp" value="1556316834453"/>
+  </assets>
+  <assets path="/common/photos/BRD4305C_Kit_Front.png" diskSizeKB="4711.476" downloadSizeKB="4711.476">
+    <property key="timeStamp" value="1556316788218"/>
+  </assets>
+  <assets path="/common/photos/10-pin-MSOP.png" diskSizeKB="63.731" downloadSizeKB="63.731">
+    <property key="timeStamp" value="1553278203340"/>
+  </assets>
+  <assets path="/common/photos/36-pin-WLCSP.png" diskSizeKB="286.758" downloadSizeKB="286.758">
+    <property key="timeStamp" value="1553278203685"/>
+  </assets>
+  <assets path="/common/photos/10-pin-TDFN-2x5pins.png" diskSizeKB="77.343" downloadSizeKB="77.343">
+    <property key="timeStamp" value="1553278204718"/>
+  </assets>
+  <assets path="/common/photos/BRD4306B_Front.png" diskSizeKB="3838.347" downloadSizeKB="3838.347">
+    <property key="timeStamp" value="1556316804731"/>
+  </assets>
+  <assets path="/common/photos/24-pin-SSOP.png" diskSizeKB="41.499" downloadSizeKB="41.499">
+    <property key="timeStamp" value="1553278204406"/>
+  </assets>
+  <assets path="/common/photos/BRD4175A_Front.png" diskSizeKB="1682.899" downloadSizeKB="1682.899">
+    <property key="timeStamp" value="1556316768339"/>
+  </assets>
+  <assets path="/common/photos/60-pin-QFN.png" diskSizeKB="259.66" downloadSizeKB="259.66">
+    <property key="timeStamp" value="1553278204566"/>
+  </assets>
+  <assets path="/common/photos/BRD4163A_Kit_Front.png" diskSizeKB="4890.97" downloadSizeKB="4890.97">
+    <property key="timeStamp" value="1556316810121"/>
+  </assets>
+  <assets path="/common/photos/BRD2204A_Front.png" diskSizeKB="2995.455" downloadSizeKB="2995.455">
+    <property key="timeStamp" value="1556316782259"/>
+  </assets>
+  <assets path="/common/photos/BRD4258A_Front.png" diskSizeKB="1688.015" downloadSizeKB="1688.015">
+    <property key="timeStamp" value="1556316788060"/>
+  </assets>
+  <assets path="/common/photos/16-pin-TSSOP.png" diskSizeKB="42.329" downloadSizeKB="42.329">
+    <property key="timeStamp" value="1553278203443"/>
+  </assets>
+  <assets path="/common/photos/8-pinLGA.png" diskSizeKB="256.831" downloadSizeKB="256.831">
+    <property key="timeStamp" value="1553278203909"/>
+  </assets>
+  <assets path="/common/photos/BRD4103A_Front.png" diskSizeKB="1900.227" downloadSizeKB="1900.227">
+    <property key="timeStamp" value="1556316823818"/>
+  </assets>
+  <assets path="/common/photos/ZGM130S_no_label.png" diskSizeKB="1626.892" downloadSizeKB="1626.892">
+    <property key="timeStamp" value="1579883143364"/>
+  </assets>
+  <assets path="/common/photos/BRD4174A_Front__with_WSTK.png" diskSizeKB="4730.268" downloadSizeKB="4730.268">
+    <property key="timeStamp" value="1563567792339"/>
+  </assets>
+  <assets path="/common/photos/44-pin-TQFP-flat.png" diskSizeKB="1123.493" downloadSizeKB="1123.493">
+    <property key="timeStamp" value="1553278203887"/>
+  </assets>
+  <assets path="/common/photos/BRD4257B_Kit_Front.png" diskSizeKB="4854.29" downloadSizeKB="4854.29">
+    <property key="timeStamp" value="1556316810532"/>
+  </assets>
+  <assets path="/common/photos/4-pin-QFN-hole.png" diskSizeKB="262.846" downloadSizeKB="262.846">
+    <property key="timeStamp" value="1553278203934"/>
+  </assets>
+  <assets path="/common/photos/BRD4503A_Kit_Front.png" diskSizeKB="4990.843" downloadSizeKB="4990.843">
+    <property key="timeStamp" value="1556316827245"/>
+  </assets>
+  <assets path="/common/photos/BRD4169A_Kit_Front.png" diskSizeKB="4856.6" downloadSizeKB="4856.6">
+    <property key="timeStamp" value="1556316818750"/>
+  </assets>
+  <assets path="/common/photos/42-pin-QFN-wide.png" diskSizeKB="416.299" downloadSizeKB="416.299">
+    <property key="timeStamp" value="1553278204655"/>
+  </assets>
+  <assets path="/common/photos/BRD4169B_Kit_Front.png" diskSizeKB="4856.31" downloadSizeKB="4856.31">
+    <property key="timeStamp" value="1556316824599"/>
+  </assets>
+  <assets path="/common/photos/BRD4162A_Kit_Front.png" diskSizeKB="4838.431" downloadSizeKB="4838.431">
+    <property key="timeStamp" value="1556316784061"/>
+  </assets>
+  <assets path="/common/photos/36-pin-QFN-corners.png" diskSizeKB="261.328" downloadSizeKB="261.328">
+    <property key="timeStamp" value="1553278203392"/>
+  </assets>
+  <assets path="/common/photos/BRD2102A_Front.png" diskSizeKB="2506.34" downloadSizeKB="2506.34">
+    <property key="timeStamp" value="1556316836323"/>
+  </assets>
+  <assets path="/common/photos/10-pin-DFN.png" diskSizeKB="257.062" downloadSizeKB="257.062">
+    <property key="timeStamp" value="1553278204774"/>
+  </assets>
+  <assets path="/common/photos/28-pin-TSSOP.png" diskSizeKB="1315.49" downloadSizeKB="1315.49">
+    <property key="timeStamp" value="1553278204554"/>
+  </assets>
+  <assets path="/common/photos/BRD4505A_Kit_Front.png" diskSizeKB="4943.597" downloadSizeKB="4943.597">
+    <property key="timeStamp" value="1556316792615"/>
+  </assets>
+  <assets path="/common/photos/32-pin-LQFP.png" diskSizeKB="1817.877" downloadSizeKB="1817.877">
+    <property key="timeStamp" value="1553278204394"/>
+  </assets>
+  <assets path="/common/photos/BRD4174B_Front.png" diskSizeKB="1827.589" downloadSizeKB="1827.589">
+    <property key="timeStamp" value="1556316768286"/>
+  </assets>
+  <assets path="/common/photos/54-pin-QFN.png" diskSizeKB="258.903" downloadSizeKB="258.903">
+    <property key="timeStamp" value="1553278203820"/>
+  </assets>
+  <assets path="/common/photos/BRD8027A_Front.png" diskSizeKB="3305.902" downloadSizeKB="3305.902">
+    <property key="timeStamp" value="1556316836708"/>
+  </assets>
+  <assets path="/common/photos/BRD4251D_Kit_Front.png" diskSizeKB="749.882" downloadSizeKB="749.882">
+    <property key="timeStamp" value="1556316806488"/>
+  </assets>
+  <assets path="/common/photos/BRD4544A_Kit_Front.png" diskSizeKB="744.118" downloadSizeKB="744.118">
+    <property key="timeStamp" value="1556316807009"/>
+  </assets>
+  <assets path="/common/photos/Universal-Generic-2017.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1553278204761"/>
+  </assets>
+  <assets path="/common/photos/6-pin-QFN-hole.png" diskSizeKB="262.418" downloadSizeKB="262.418">
+    <property key="timeStamp" value="1553278203605"/>
+  </assets>
+  <assets path="/common/photos/8-pin-DFN-bottompins.png" diskSizeKB="258.377" downloadSizeKB="258.377">
+    <property key="timeStamp" value="1553278203367"/>
+  </assets>
+  <assets path="/common/photos/20-pin-QFN.png" diskSizeKB="259.417" downloadSizeKB="259.417">
+    <property key="timeStamp" value="1553278204194"/>
+  </assets>
+  <assets path="/common/photos/BRD4306D_Front.png" diskSizeKB="3426.718" downloadSizeKB="3426.718">
+    <property key="timeStamp" value="1556316784020"/>
+  </assets>
+  <assets path="/common/photos/BRD4546A_Front.png" diskSizeKB="1818.407" downloadSizeKB="1818.407">
+    <property key="timeStamp" value="1556316810560"/>
+  </assets>
+  <assets path="/common/photos/BRD4251B_Kit_Front.png" diskSizeKB="749.512" downloadSizeKB="749.512">
+    <property key="timeStamp" value="1556316823793"/>
+  </assets>
+  <assets path="/common/photos/BRD4505A_Front.png" diskSizeKB="1823.971" downloadSizeKB="1823.971">
+    <property key="timeStamp" value="1556316837458"/>
+  </assets>
+  <assets path="/common/photos/BRD4306A_Front.png" diskSizeKB="3838.219" downloadSizeKB="3838.219">
+    <property key="timeStamp" value="1556316777761"/>
+  </assets>
+  <assets path="/common/photos/BRD4305E_Kit_Front.png" diskSizeKB="4712.954" downloadSizeKB="4712.954">
+    <property key="timeStamp" value="1556316807896"/>
+  </assets>
+  <assets path="/common/photos/BRD4251B_Front.png" diskSizeKB="1779.577" downloadSizeKB="1779.577">
+    <property key="timeStamp" value="1556316807858"/>
+  </assets>
+  <assets path="/common/photos/BRD4306C_Front.png" diskSizeKB="3427.11" downloadSizeKB="3427.11">
+    <property key="timeStamp" value="1556316834044"/>
+  </assets>
+  <assets path="/common/photos/32-pin-QFN-angle.png" diskSizeKB="567.495" downloadSizeKB="567.495">
+    <property key="timeStamp" value="1553278204528"/>
+  </assets>
+  <assets path="/common/photos/BRD4321A_Kit_with_EXP_Front.png" diskSizeKB="5685.808" downloadSizeKB="5685.808">
+    <property key="timeStamp" value="1556316766990"/>
+  </assets>
+  <assets path="/common/photos/BRD4259A_Front.png" diskSizeKB="1682.143" downloadSizeKB="1682.143">
+    <property key="timeStamp" value="1556316795353"/>
+  </assets>
+  <assets path="/common/photos/BRD4169B_Front.png" diskSizeKB="1847.801" downloadSizeKB="1847.801">
+    <property key="timeStamp" value="1556316818707"/>
+  </assets>
+  <assets path="/common/photos/BRD4303A_Front.png" diskSizeKB="1668.56" downloadSizeKB="1668.56">
+    <property key="timeStamp" value="1556316769212"/>
+  </assets>
+  <assets path="/common/photos/BRD4200A_Kit_with_EXP_Front.png" diskSizeKB="5572.407" downloadSizeKB="5572.407">
+    <property key="timeStamp" value="1556316785671"/>
+  </assets>
+  <assets path="/common/photos/BRD4304A_Kit_Front.png" diskSizeKB="4717.987" downloadSizeKB="4717.987">
+    <property key="timeStamp" value="1556316767041"/>
+  </assets>
+  <assets path="/common/photos/24-pin-SOIC.png" diskSizeKB="29.18" downloadSizeKB="29.18">
+    <property key="timeStamp" value="1553278204204"/>
+  </assets>
+  <assets path="/common/photos/BRD4165B_Front.png" diskSizeKB="1740.521" downloadSizeKB="1740.521">
+    <property key="timeStamp" value="1556316767549"/>
+  </assets>
+  <assets path="/common/photos/BRD4300B_Front.png" diskSizeKB="1471.237" downloadSizeKB="1471.237">
+    <property key="timeStamp" value="1556316834071"/>
+  </assets>
+  <assets path="/common/photos/8-pin-WBSOIC.png" diskSizeKB="62.85" downloadSizeKB="62.85">
+    <property key="timeStamp" value="1553278203773"/>
+  </assets>
+  <assets path="/common/photos/BRD4257A_Front.png" diskSizeKB="1845.639" downloadSizeKB="1845.639">
+    <property key="timeStamp" value="1556316807419"/>
+  </assets>
+  <assets path="/common/photos/44-pin-QFN.png" diskSizeKB="260.262" downloadSizeKB="260.262">
+    <property key="timeStamp" value="1553278204668"/>
+  </assets>
+  <assets path="/common/photos/6-pin-SO.png" diskSizeKB="72.79" downloadSizeKB="72.79">
+    <property key="timeStamp" value="1553278204300"/>
+  </assets>
+  <assets path="/common/photos/BRD4257A_Kit_Front.png" diskSizeKB="4854.011" downloadSizeKB="4854.011">
+    <property key="timeStamp" value="1556316766947"/>
+  </assets>
+  <assets path="/common/photos/20-pin-SOIC.png" diskSizeKB="1172.007" downloadSizeKB="1172.007">
+    <property key="timeStamp" value="1553278203922"/>
+  </assets>
+  <assets path="/common/photos/BRD8006A_Front.png" diskSizeKB="2478.604" downloadSizeKB="2478.604">
+    <property key="timeStamp" value="1556316770556"/>
+  </assets>
+  <assets path="/common/photos/BRD4259A_Kit_Front.png" diskSizeKB="4796.628" downloadSizeKB="4796.628">
+    <property key="timeStamp" value="1556316788788"/>
+  </assets>
+  <assets path="/common/photos/BRD4504B_Kit_Front.png" diskSizeKB="4992.451" downloadSizeKB="4992.451">
+    <property key="timeStamp" value="1556316785603"/>
+  </assets>
+  <assets path="/common/photos/36-pin-SSOP.png" diskSizeKB="716.708" downloadSizeKB="716.708">
+    <property key="timeStamp" value="1553278204418"/>
+  </assets>
+  <assets path="/common/photos/BRD4546A_Kit_Front.png" diskSizeKB="744.208" downloadSizeKB="744.208">
+    <property key="timeStamp" value="1556316827682"/>
+  </assets>
+  <assets path="/common/photos/16-pin-QFN.png" diskSizeKB="78.05" downloadSizeKB="78.05">
+    <property key="timeStamp" value="1553278203492"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn6.png" diskSizeKB="254.419" downloadSizeKB="254.419">
+    <property key="timeStamp" value="1576515950580"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/wb-soic16.png" diskSizeKB="138.356" downloadSizeKB="138.356">
+    <property key="timeStamp" value="1576515950218"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn44.png" diskSizeKB="260.262" downloadSizeKB="260.262">
+    <property key="timeStamp" value="1576515950485"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/sot23-5.png" diskSizeKB="65.82" downloadSizeKB="65.82">
+    <property key="timeStamp" value="1576515950282"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/csp36.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1576515949866"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/soic8.png" diskSizeKB="64.067" downloadSizeKB="64.067">
+    <property key="timeStamp" value="1576515950091"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qsop24.png" diskSizeKB="29.237" downloadSizeKB="29.237">
+    <property key="timeStamp" value="1576515949957"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn32.png" diskSizeKB="258.504" downloadSizeKB="258.504">
+    <property key="timeStamp" value="1576515949909"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn64.png" diskSizeKB="259.816" downloadSizeKB="259.816">
+    <property key="timeStamp" value="1576515950975"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn10.png" diskSizeKB="256.566" downloadSizeKB="256.566">
+    <property key="timeStamp" value="1576515950268"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn56.png" diskSizeKB="258.753" downloadSizeKB="258.753">
+    <property key="timeStamp" value="1576515950529"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tdfn8.png" diskSizeKB="252.941" downloadSizeKB="252.941">
+    <property key="timeStamp" value="1576515950245"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/bga80.png" diskSizeKB="284.121" downloadSizeKB="284.121">
+    <property key="timeStamp" value="1576515950168"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/csp16.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1576515950178"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn40.png" diskSizeKB="259.719" downloadSizeKB="259.719">
+    <property key="timeStamp" value="1576515950507"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn24.png" diskSizeKB="262.837" downloadSizeKB="262.837">
+    <property key="timeStamp" value="1576515950207"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga92.png" diskSizeKB="263.912" downloadSizeKB="263.912">
+    <property key="timeStamp" value="1576515950541"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn76.png" diskSizeKB="480.758" downloadSizeKB="480.758">
+    <property key="timeStamp" value="1576515950681"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn72.png" diskSizeKB="260.086" downloadSizeKB="260.086">
+    <property key="timeStamp" value="1576515950775"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn11.png" diskSizeKB="257.071" downloadSizeKB="257.071">
+    <property key="timeStamp" value="1576515949931"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga50.png" diskSizeKB="260.006" downloadSizeKB="260.006">
+    <property key="timeStamp" value="1576515950704"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tqfp48.png" diskSizeKB="724.027" downloadSizeKB="724.027">
+    <property key="timeStamp" value="1576515950948"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/msop10.png" diskSizeKB="63.731" downloadSizeKB="63.731">
+    <property key="timeStamp" value="1576515950303"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qsop20.png" diskSizeKB="1172.295" downloadSizeKB="1172.295">
+    <property key="timeStamp" value="1576515950231"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tdfn10.png" diskSizeKB="68.008" downloadSizeKB="68.008">
+    <property key="timeStamp" value="1576515950762"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn36.png" diskSizeKB="289.491" downloadSizeKB="289.491">
+    <property key="timeStamp" value="1576515950993"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfp100.png" diskSizeKB="1384.884" downloadSizeKB="1384.884">
+    <property key="timeStamp" value="1576515950119"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lqfp32.png" diskSizeKB="1817.877" downloadSizeKB="1817.877">
+    <property key="timeStamp" value="1576515950382"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tssop20.png" diskSizeKB="1171.269" downloadSizeKB="1171.269">
+    <property key="timeStamp" value="1576515950656"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/gw-dip8.png" diskSizeKB="64.067" downloadSizeKB="64.067">
+    <property key="timeStamp" value="1576515950034"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn14.png" diskSizeKB="77.943" downloadSizeKB="77.943">
+    <property key="timeStamp" value="1576515950429"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/wb-soic20.png" diskSizeKB="1172.007" downloadSizeKB="1172.007">
+    <property key="timeStamp" value="1576515950554"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/wb-soic24.png" diskSizeKB="29.18" downloadSizeKB="29.18">
+    <property key="timeStamp" value="1576515951003"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga-module.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1576515950728"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/ssop24.png" diskSizeKB="41.499" downloadSizeKB="41.499">
+    <property key="timeStamp" value="1576515950402"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn66.png" diskSizeKB="259.816" downloadSizeKB="259.816">
+    <property key="timeStamp" value="1576515950146"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/bga120.png" diskSizeKB="284.121" downloadSizeKB="284.121">
+    <property key="timeStamp" value="1576515949830"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/soic16.png" diskSizeKB="117.025" downloadSizeKB="117.025">
+    <property key="timeStamp" value="1576515950345"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/dfn6.png" diskSizeKB="253.636" downloadSizeKB="253.636">
+    <property key="timeStamp" value="1576515950366"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/pbga63.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1576515950442"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga14.png" diskSizeKB="77.943" downloadSizeKB="77.943">
+    <property key="timeStamp" value="1576515949999"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn16.png" diskSizeKB="78.05" downloadSizeKB="78.05">
+    <property key="timeStamp" value="1576515950799"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tssop24.png" diskSizeKB="378.935" downloadSizeKB="378.935">
+    <property key="timeStamp" value="1576515950130"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfp80.png" diskSizeKB="1418.027" downloadSizeKB="1418.027">
+    <property key="timeStamp" value="1576515950829"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga72.png" diskSizeKB="420.715" downloadSizeKB="420.715">
+    <property key="timeStamp" value="1576515951015"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn17.png" diskSizeKB="78.05" downloadSizeKB="78.05">
+    <property key="timeStamp" value="1576515950811"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn28.png" diskSizeKB="262.443" downloadSizeKB="262.443">
+    <property key="timeStamp" value="1576515950474"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/wb-soic6.png" diskSizeKB="66.215" downloadSizeKB="66.215">
+    <property key="timeStamp" value="1576515949856"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tssop56.png" diskSizeKB="1107.781" downloadSizeKB="1107.781">
+    <property key="timeStamp" value="1576515950104"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn84.png" diskSizeKB="417.939" downloadSizeKB="417.939">
+    <property key="timeStamp" value="1576515949804"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga56.png" diskSizeKB="258.753" downloadSizeKB="258.753">
+    <property key="timeStamp" value="1576515950884"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn38.png" diskSizeKB="301.206" downloadSizeKB="301.206">
+    <property key="timeStamp" value="1576515950081"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn68.png" diskSizeKB="259.816" downloadSizeKB="259.816">
+    <property key="timeStamp" value="1750807662061"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/bga125.png" diskSizeKB="284.121" downloadSizeKB="284.121">
+    <property key="timeStamp" value="1576515950293"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/bga112.png" diskSizeKB="284.121" downloadSizeKB="284.121">
+    <property key="timeStamp" value="1576515950841"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/sot23-3.png" diskSizeKB="64.181" downloadSizeKB="64.181">
+    <property key="timeStamp" value="1576515950716"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn48.png" diskSizeKB="260.006" downloadSizeKB="260.006">
+    <property key="timeStamp" value="1576515949899"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga8.png" diskSizeKB="256.421" downloadSizeKB="256.421">
+    <property key="timeStamp" value="1576515950920"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfp64.png" diskSizeKB="912.058" downloadSizeKB="912.058">
+    <property key="timeStamp" value="1576515949878"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn65.png" diskSizeKB="259.816" downloadSizeKB="259.816">
+    <property key="timeStamp" value="1576515950256"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/clear-qfn.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1576515950615"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/pbga99.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1576515950667"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn20.png" diskSizeKB="259.417" downloadSizeKB="259.417">
+    <property key="timeStamp" value="1576515950056"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfp32.png" diskSizeKB="1817.877" downloadSizeKB="1817.877">
+    <property key="timeStamp" value="1576515950320"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/dfn10.png" diskSizeKB="257.062" downloadSizeKB="257.062">
+    <property key="timeStamp" value="1576515950070"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga47.png" diskSizeKB="260.006" downloadSizeKB="260.006">
+    <property key="timeStamp" value="1576515949846"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tqfp64.png" diskSizeKB="912.058" downloadSizeKB="912.058">
+    <property key="timeStamp" value="1576515950860"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/nb-soic8.png" diskSizeKB="64.067" downloadSizeKB="64.067">
+    <property key="timeStamp" value="1576515950392"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tqfp100.png" diskSizeKB="1384.884" downloadSizeKB="1384.884">
+    <property key="timeStamp" value="1576515950419"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/sensor-chip-cover.png" diskSizeKB="2087.418" downloadSizeKB="2087.418">
+    <property key="timeStamp" value="1576515951032"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/to-92.png" diskSizeKB="209.148" downloadSizeKB="209.148">
+    <property key="timeStamp" value="1576515950495"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/generic-package-type.png" diskSizeKB="99.32" downloadSizeKB="99.32">
+    <property key="timeStamp" value="1576515950023"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga60.png" diskSizeKB="259.66" downloadSizeKB="259.66">
+    <property key="timeStamp" value="1576515950594"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tqfp80.png" diskSizeKB="1418.027" downloadSizeKB="1418.027">
+    <property key="timeStamp" value="1576515950463"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qsop16.png" diskSizeKB="27.501" downloadSizeKB="27.501">
+    <property key="timeStamp" value="1576515950156"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/bga48.png" diskSizeKB="284.121" downloadSizeKB="284.121">
+    <property key="timeStamp" value="1576515950013"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/lga42.png" diskSizeKB="261.175" downloadSizeKB="261.175">
+    <property key="timeStamp" value="1576515950692"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/bga152.png" diskSizeKB="284.121" downloadSizeKB="284.121">
+    <property key="timeStamp" value="1576515950518"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tdfn6.png" diskSizeKB="254.419" downloadSizeKB="254.419">
+    <property key="timeStamp" value="1576515950746"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/wb-so6.png" diskSizeKB="72.79" downloadSizeKB="72.79">
+    <property key="timeStamp" value="1576515950872"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/dfn8.png" diskSizeKB="252.941" downloadSizeKB="252.941">
+    <property key="timeStamp" value="1576515949968"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/bga192.png" diskSizeKB="284.121" downloadSizeKB="284.121">
+    <property key="timeStamp" value="1576515949819"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn88.png" diskSizeKB="430.908" downloadSizeKB="430.908">
+    <property key="timeStamp" value="1576515950627"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfn.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1576515950356"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/nb-soic16.png" diskSizeKB="117.025" downloadSizeKB="117.025">
+    <property key="timeStamp" value="1576515949889"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/tssop16.png" diskSizeKB="42.329" downloadSizeKB="42.329">
+    <property key="timeStamp" value="1576515950787"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/qfp48.png" diskSizeKB="724.027" downloadSizeKB="724.027">
+    <property key="timeStamp" value="1576515950640"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/wlcsp43.png" diskSizeKB="260.262" downloadSizeKB="260.262">
+    <property key="timeStamp" value="1576515950333"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/elqfp32.png" diskSizeKB="1817.877" downloadSizeKB="1817.877">
+    <property key="timeStamp" value="1576515950963"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/dip20.png" diskSizeKB="1171.269" downloadSizeKB="1171.269">
+    <property key="timeStamp" value="1576515949985"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/soic14.png" diskSizeKB="100.867" downloadSizeKB="100.867">
+    <property key="timeStamp" value="1576515949944"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/wb-soic14.png" diskSizeKB="133.373" downloadSizeKB="133.373">
+    <property key="timeStamp" value="1576515950045"/>
+  </assets>
+  <assets path="/common/photos/chip-packages/csp81.png" diskSizeKB="97.137" downloadSizeKB="97.137">
+    <property key="timeStamp" value="1576515950188"/>
+  </assets>
+  <assets path="/common/photos/BRD4167_Front.png" diskSizeKB="1845.823" downloadSizeKB="1845.823">
+    <property key="timeStamp" value="1556316771607"/>
+  </assets>
+  <assets path="/common/photos/BRD4255A_Front.png" diskSizeKB="1845.817" downloadSizeKB="1845.817">
+    <property key="timeStamp" value="1556316818910"/>
+  </assets>
+  <assets path="/common/photos/BRD4175A_Front__with_WSTK.png" diskSizeKB="4728.022" downloadSizeKB="4728.022">
+    <property key="timeStamp" value="1563567717203"/>
+  </assets>
+  <assets path="/common/photos/BRD4172B_Front.png" diskSizeKB="1827.545" downloadSizeKB="1827.545">
+    <property key="timeStamp" value="1556316823694"/>
+  </assets>
+  <assets path="/common/photos/BRD4258B_Front.png" diskSizeKB="1824.872" downloadSizeKB="1824.872">
+    <property key="timeStamp" value="1556316785627"/>
+  </assets>
+  <assets path="/common/photos/boardIllustration.png" diskSizeKB="246.388" downloadSizeKB="246.388">
+    <property key="timeStamp" value="1584937736393"/>
+  </assets>
+  <assets path="/common/photos/80-pin-QFP.png" diskSizeKB="261.217" downloadSizeKB="261.217">
+    <property key="timeStamp" value="1553278203564"/>
+  </assets>
+  <assets path="/common/photos/BRD4250B_Front.png" diskSizeKB="1780.038" downloadSizeKB="1780.038">
+    <property key="timeStamp" value="1556316814388"/>
+  </assets>
+  <assets path="/common/photos/BRD4100A_Kit_Front.jpg" diskSizeKB="401.101" downloadSizeKB="401.101">
+    <property key="timeStamp" value="1563567589120"/>
+  </assets>
+  <assets path="/common/photos/BRD4545A_Front.png" diskSizeKB="1818.58" downloadSizeKB="1818.58">
+    <property key="timeStamp" value="1556316817716"/>
+  </assets>
+  <assets path="/common/photos/BRD4305A_Front.png" diskSizeKB="2031.052" downloadSizeKB="2031.052">
+    <property key="timeStamp" value="1556316837434"/>
+  </assets>
+  <assets path="/common/photos/BRD4305A_Kit_Front.png" diskSizeKB="4711.559" downloadSizeKB="4711.559">
+    <property key="timeStamp" value="1556316815344"/>
+  </assets>
+  <assets path="/common/photos/EFR32ZG14.png" diskSizeKB="1316.842" downloadSizeKB="1316.842">
+    <property key="timeStamp" value="1579883139660"/>
+  </assets>
+  <assets path="/common/photos/6-lead-xo-chip-SL.png" diskSizeKB="1933.089" downloadSizeKB="1933.089">
+    <property key="timeStamp" value="1553278204612"/>
+  </assets>
+  <assets path="/common/photos/BRD4162A_Front.png" diskSizeKB="1903.812" downloadSizeKB="1903.812">
+    <property key="timeStamp" value="1556316834614"/>
+  </assets>
+  <assets path="/common/photos/36-pin-QFN-8x10.png" diskSizeKB="296.746" downloadSizeKB="296.746">
+    <property key="timeStamp" value="1553278204593"/>
+  </assets>
+  <assets path="/common/photos/BRD4504A_Kit_Front.png" diskSizeKB="4992.017" downloadSizeKB="4992.017">
+    <property key="timeStamp" value="1556316832143"/>
+  </assets>
+  <assets path="/common/photos/BRD4155A_Kit_Front.png" diskSizeKB="4934.967" downloadSizeKB="4934.967">
+    <property key="timeStamp" value="1556316825001"/>
+  </assets>
+  <assets path="/common/photos/28-pin-QFN-corners.png" diskSizeKB="262.546" downloadSizeKB="262.546">
+    <property key="timeStamp" value="1553278204010"/>
+  </assets>
+  <assets path="/common/photos/10-pin-DFN-hole.png" diskSizeKB="260.968" downloadSizeKB="260.968">
+    <property key="timeStamp" value="1553278204693"/>
+  </assets>
+  <assets path="/common/photos/29-pin-QFN.png" diskSizeKB="324.185" downloadSizeKB="324.185">
+    <property key="timeStamp" value="1553278203455"/>
+  </assets>
+  <assets path="/common/photos/BRD4166A_Thunderboard_Sense_2_Front.png" diskSizeKB="1961.036" downloadSizeKB="1961.036">
+    <property key="timeStamp" value="1556316787945"/>
+  </assets>
+  <assets path="/common/photos/BRD4161A_Kit_Front.png" diskSizeKB="4838.6" downloadSizeKB="4838.6">
+    <property key="timeStamp" value="1556316830082"/>
+  </assets>
+  <assets path="/common/photos/BRD4302A_Front.png" diskSizeKB="1701.64" downloadSizeKB="1701.64">
+    <property key="timeStamp" value="1556316772417"/>
+  </assets>
+  <assets path="/common/photos/10-pin-QFN-bottompins.png" diskSizeKB="256.566" downloadSizeKB="256.566">
+    <property key="timeStamp" value="1553278203975"/>
+  </assets>
+  <assets path="/common/photos/BRD4150A_Front.png" diskSizeKB="1782.249" downloadSizeKB="1782.249">
+    <property key="timeStamp" value="1556316767092"/>
+  </assets>
+  <assets path="/common/photos/6-pin-DFN-hole.png" diskSizeKB="259.942" downloadSizeKB="259.942">
+    <property key="timeStamp" value="1553278203648"/>
+  </assets>
+  <assets path="/common/photos/BRD4503A_Front.png" diskSizeKB="1908.466" downloadSizeKB="1908.466">
+    <property key="timeStamp" value="1556316837105"/>
+  </assets>
+  <assets path="/common/photos/BRD4504A_Front.png" diskSizeKB="1910.119" downloadSizeKB="1910.119">
+    <property key="timeStamp" value="1556316779232"/>
+  </assets>
+  <assets path="/common/photos/BRD4505B_Kit_Front.png" diskSizeKB="4944.17" downloadSizeKB="4944.17">
+    <property key="timeStamp" value="1556316832216"/>
+  </assets>
+  <assets path="/common/photos/BRD4301A_Kit_Front.png" diskSizeKB="4819.61" downloadSizeKB="4819.61">
+    <property key="timeStamp" value="1556316804804"/>
+  </assets>
+  <assets path="/common/photos/6-lead-xo-chip.png" diskSizeKB="1813.731" downloadSizeKB="1813.731">
+    <property key="timeStamp" value="1553278204478"/>
+  </assets>
+  <assets path="/common/photos/10-pin-QFN-1x4pins.png" diskSizeKB="256.786" downloadSizeKB="256.786">
+    <property key="timeStamp" value="1553278203505"/>
+  </assets>
+  <assets path="/common/photos/36-pin-QFN-7x12.png" diskSizeKB="345.589" downloadSizeKB="345.589">
+    <property key="timeStamp" value="1553278203845"/>
+  </assets>
+  <assets path="/common/photos/BRD4542B_Front.png" diskSizeKB="1818.567" downloadSizeKB="1818.567">
+    <property key="timeStamp" value="1556316783939"/>
+  </assets>
+  <assets path="/common/photos/BRD4172A_Front__with_WSTK.png" diskSizeKB="4730.065" downloadSizeKB="4730.065">
+    <property key="timeStamp" value="1563567841288"/>
+  </assets>
+  <assets path="/common/photos/64-pin-TSSOP.png" diskSizeKB="1357.358" downloadSizeKB="1357.358">
+    <property key="timeStamp" value="1553278203661"/>
+  </assets>
+  <assets path="/common/photos/BRD4170A_Front.png" diskSizeKB="2136.372" downloadSizeKB="2136.372">
+    <property key="timeStamp" value="1556316767524"/>
+  </assets>
+  <assets path="/common/photos/BRD4161A_Front.png" diskSizeKB="1903.895" downloadSizeKB="1903.895">
+    <property key="timeStamp" value="1556316788627"/>
+  </assets>
+  <assets path="/common/photos/BRD4503B_Front.png" diskSizeKB="1908.432" downloadSizeKB="1908.432">
+    <property key="timeStamp" value="1556316807829"/>
+  </assets>
+  <assets path="/common/photos/64-pin-TQFP-Flat.png" diskSizeKB="1307.783" downloadSizeKB="1307.783">
+    <property key="timeStamp" value="1553278204457"/>
+  </assets>
+  <assets path="/common/photos/BRD8021A_XBee_Front.png" diskSizeKB="4568.2" downloadSizeKB="4568.2">
+    <property key="timeStamp" value="1556316786510"/>
+  </assets>
+  <assets path="/common/photos/BRD4202A_Kit_with_EXP_Front.png" diskSizeKB="5635.081" downloadSizeKB="5635.081">
+    <property key="timeStamp" value="1556316788104"/>
+  </assets>
+  <assets path="/common/photos/100-pin-BGA.png" diskSizeKB="263.997" downloadSizeKB="263.997">
+    <property key="timeStamp" value="1553278203588"/>
+  </assets>
+  <assets path="/common/photos/BRD4158A_Kit_Front.png" diskSizeKB="1296.986" downloadSizeKB="1296.986">
+    <property key="timeStamp" value="1556316832176"/>
+  </assets>
+  <assets path="/common/photos/BRD4257B_Front.png" diskSizeKB="1845.977" downloadSizeKB="1845.977">
+    <property key="timeStamp" value="1556316817567"/>
+  </assets>
+  <assets path="/common/photos/BRD4201A_Front.png" diskSizeKB="1737.245" downloadSizeKB="1737.245">
+    <property key="timeStamp" value="1556316837483"/>
+  </assets>
+  <assets path="/common/photos/BRD4542B_Kit_Front.png" diskSizeKB="744.048" downloadSizeKB="744.048">
+    <property key="timeStamp" value="1556316779298"/>
+  </assets>
+  <assets path="/common/photos/BRD4250A_Front.png" diskSizeKB="1780.377" downloadSizeKB="1780.377">
+    <property key="timeStamp" value="1556316792576"/>
+  </assets>
+  <assets path="/common/photos/BRD4164A_Kit_Front.png" diskSizeKB="4895.926" downloadSizeKB="4895.926">
+    <property key="timeStamp" value="1556316777826"/>
+  </assets>
+  <assets path="/common/photos/BRD4502D_Kit_Front.png" diskSizeKB="4937.547" downloadSizeKB="4937.547">
+    <property key="timeStamp" value="1556316823731"/>
+  </assets>
+  <assets path="/common/photos/BRD4256A_Front_WSTK.png" diskSizeKB="1306.152" downloadSizeKB="1306.152">
+    <property key="timeStamp" value="1563567667121"/>
+  </assets>
+  <assets path="/common/photos/BRD4251D_Front.png" diskSizeKB="1780.401" downloadSizeKB="1780.401">
+    <property key="timeStamp" value="1556316767804"/>
+  </assets>
+  <assets path="/common/photos/BRD4258A_Kit_Front.png" diskSizeKB="4798.107" downloadSizeKB="4798.107">
+    <property key="timeStamp" value="1556316810085"/>
+  </assets>
+  <assets path="/common/photos/78-pin-QFN-27x12.png" diskSizeKB="480.758" downloadSizeKB="480.758">
+    <property key="timeStamp" value="1553278203961"/>
+  </assets>
+  <assets path="/common/photos/48-pin-TSSOP.png" diskSizeKB="905.182" downloadSizeKB="905.182">
+    <property key="timeStamp" value="1553278204681"/>
+  </assets>
+  <assets path="/common/photos/24-pin-QSOP-new-logo.png" diskSizeKB="29.175" downloadSizeKB="29.175">
+    <property key="timeStamp" value="1553278204361"/>
+  </assets>
+  <assets path="/common/photos/BRD4543B_Front.png" diskSizeKB="1818.606" downloadSizeKB="1818.606">
+    <property key="timeStamp" value="1556316825052"/>
+  </assets>
+  <assets path="/common/photos/BRD4202A_Kit_Front.png" diskSizeKB="4766.707" downloadSizeKB="4766.707">
+    <property key="timeStamp" value="1556316788171"/>
+  </assets>
+  <assets path="/common/photos/20-pin-QSOP.png" diskSizeKB="1172.295" downloadSizeKB="1172.295">
+    <property key="timeStamp" value="1553278204023"/>
+  </assets>
+  <assets path="/common/photos/68-pin-QFN.png" diskSizeKB="260.452" downloadSizeKB="260.452">
+    <property key="timeStamp" value="1553278204786"/>
+  </assets>
+  <assets path="/common/photos/BRD4164A_Front.png" diskSizeKB="2025.076" downloadSizeKB="2025.076">
+    <property key="timeStamp" value="1556316769143"/>
+  </assets>
+  <assets path="/common/photos/36-pin-QFN-beveled.png" diskSizeKB="280.758" downloadSizeKB="280.758">
+    <property key="timeStamp" value="1553278204350"/>
+  </assets>
+  <assets path="/common/photos/BRD2207A_Front.png" diskSizeKB="2457.309" downloadSizeKB="2457.309">
+    <property key="timeStamp" value="1556316772366"/>
+  </assets>
+  <assets path="/common/photos/BRD4101B_Kit_Front.png" diskSizeKB="4799.018" downloadSizeKB="4799.018">
+    <property key="timeStamp" value="1556316771752"/>
+  </assets>
+  <assets path="/common/photos/XBee_Front.png" diskSizeKB="1115.723" downloadSizeKB="1115.723">
+    <property key="timeStamp" value="1556316767066"/>
+  </assets>
+  <assets path="/common/photos/BRD4503B_Kit_Front.png" diskSizeKB="4991.394" downloadSizeKB="4991.394">
+    <property key="timeStamp" value="1556316823301"/>
+  </assets>
+  <assets path="/common/photos/12-pin-QFN.png" diskSizeKB="260.717" downloadSizeKB="260.717">
+    <property key="timeStamp" value="1553278204821"/>
+  </assets>
+  <assets path="/common/photos/32-pin-QFN.png" diskSizeKB="258.504" downloadSizeKB="258.504">
+    <property key="timeStamp" value="1553278204375"/>
+  </assets>
+  <assets path="/common/photos/8-pin-QFN-bottompins.png" diskSizeKB="256.421" downloadSizeKB="256.421">
+    <property key="timeStamp" value="1553278204142"/>
+  </assets>
+  <assets path="/common/photos/48-pin-TQFP.png" diskSizeKB="724.027" downloadSizeKB="724.027">
+    <property key="timeStamp" value="1553278203529"/>
+  </assets>
+  <assets path="/common/photos/BRD4159A_Kit_Front.png" diskSizeKB="1255.579" downloadSizeKB="1255.579">
+    <property key="timeStamp" value="1556316803092"/>
+  </assets>
+  <assets path="/common/photos/48-pin-QFN.png" diskSizeKB="260.006" downloadSizeKB="260.006">
+    <property key="timeStamp" value="1553278204706"/>
+  </assets>
+  <assets path="/common/photos/BRD4172A_Front.png" diskSizeKB="1690.594" downloadSizeKB="1690.594">
+    <property key="timeStamp" value="1556316812531"/>
+  </assets>
+  <assets path="/common/photos/BRD4255A_Front_WSTK.png" diskSizeKB="1306.557" downloadSizeKB="1306.557">
+    <property key="timeStamp" value="1563567853895"/>
+  </assets>
+  <assets path="/common/photos/42-pin-QFN.png" diskSizeKB="261.175" downloadSizeKB="261.175">
+    <property key="timeStamp" value="1553278203723"/>
+  </assets>
+  <assets path="/common/photos/BRD4165B_Kit_Front.png" diskSizeKB="4867.179" downloadSizeKB="4867.179">
+    <property key="timeStamp" value="1556316834655"/>
+  </assets>
+  <assets path="/common/photos/8-pin-MSOP.png" diskSizeKB="64.208" downloadSizeKB="64.208">
+    <property key="timeStamp" value="1553278204225"/>
+  </assets>
+  <assets path="/common/photos/56-pin-QFN.png" diskSizeKB="258.753" downloadSizeKB="258.753">
+    <property key="timeStamp" value="1553278203622"/>
+  </assets>
+  <assets path="/common/photos/10-pin-QFN-hole.png" diskSizeKB="260.976" downloadSizeKB="260.976">
+    <property key="timeStamp" value="1553278203862"/>
+  </assets>
+  <assets path="/common/photos/56-pin-TSSOP.png" diskSizeKB="1107.781" downloadSizeKB="1107.781">
+    <property key="timeStamp" value="1553278204641"/>
+  </assets>
+  <assets path="/common/photos/10-pin-TDFN.png" diskSizeKB="68.008" downloadSizeKB="68.008">
+    <property key="timeStamp" value="1553278204443"/>
+  </assets>
+  <assets path="/common/photos/BRD4306D_Kit_Front.png" diskSizeKB="4718.793" downloadSizeKB="4718.793">
+    <property key="timeStamp" value="1556316814361"/>
+  </assets>
+  <assets path="/common/photos/100-pin-TQFP-flat.png" diskSizeKB="1510.244" downloadSizeKB="1510.244">
+    <property key="timeStamp" value="1553278203786"/>
+  </assets>
+  <assets path="/common/photos/38-pin-TSSOP.png" diskSizeKB="734.468" downloadSizeKB="734.468">
+    <property key="timeStamp" value="1553278203419"/>
+  </assets>
+  <assets path="/common/photos/32-pin-QFN-wide.png" diskSizeKB="300.231" downloadSizeKB="300.231">
+    <property key="timeStamp" value="1553278204215"/>
+  </assets>
+  <assets path="/common/photos/BRD4105A_Kit_Front.png" diskSizeKB="4735.693" downloadSizeKB="4735.693">
+    <property key="timeStamp" value="1556316836294"/>
+  </assets>
+  <assets path="/common/photos/85-pin-LGA.png" diskSizeKB="415.21" downloadSizeKB="415.21">
+    <property key="timeStamp" value="1553278204082"/>
+  </assets>
+  <assets path="/common/photos/BRD4200A_Front.png" diskSizeKB="1727.301" downloadSizeKB="1727.301">
+    <property key="timeStamp" value="1556316807035"/>
+  </assets>
+  <assets path="/common/photos/BRD4169A_Front.png" diskSizeKB="1848.122" downloadSizeKB="1848.122">
+    <property key="timeStamp" value="1556316785699"/>
+  </assets>
+  <assets path="/common/photos/6-pin-SOIC.png" diskSizeKB="66.215" downloadSizeKB="66.215">
+    <property key="timeStamp" value="1553278204797"/>
+  </assets>
+  <assets path="/common/photos/36-pin-BGA.png" diskSizeKB="285.39" downloadSizeKB="285.39">
+    <property key="timeStamp" value="1553278204492"/>
+  </assets>
+  <assets path="/common/photos/BRD4502A_Front.png" diskSizeKB="1806.858" downloadSizeKB="1806.858">
+    <property key="timeStamp" value="1556316792492"/>
+  </assets>
+  <assets path="/common/photos/BRD4258B_Kit_Front.png" diskSizeKB="4867.995" downloadSizeKB="4867.995">
+    <property key="timeStamp" value="1556316823858"/>
+  </assets>
+  <assets path="/common/photos/BRD8026A_Front.png" diskSizeKB="1945.085" downloadSizeKB="1945.085">
+    <property key="timeStamp" value="1556316780063"/>
+  </assets>
+  <assets path="/common/photos/BRD4152A_Kit_Front.png" diskSizeKB="750.858" downloadSizeKB="750.858">
+    <property key="timeStamp" value="1556316777783"/>
+  </assets>
+  <assets path="/common/photos/80-pin-TQFP.png" diskSizeKB="1418.027" downloadSizeKB="1418.027">
+    <property key="timeStamp" value="1553278204325"/>
+  </assets>
+  <assets path="/common/photos/BRD4505B_Front.png" diskSizeKB="1823.813" downloadSizeKB="1823.813">
+    <property key="timeStamp" value="1556316837382"/>
+  </assets>
+  <assets path="/common/photos/BRD4504B_Front.png" diskSizeKB="1909.941" downloadSizeKB="1909.941">
+    <property key="timeStamp" value="1556316792520"/>
+  </assets>
+  <assets path="/common/photos/BRD4320A_Kit_Front.png" diskSizeKB="2880.948" downloadSizeKB="2880.948">
+    <property key="timeStamp" value="1556316799256"/>
+  </assets>
+  <assets path="/common/photos/BRD4250B_Kit_Front.png" diskSizeKB="749.596" downloadSizeKB="749.596">
+    <property key="timeStamp" value="1556316772389"/>
+  </assets>
+  <assets path="/common/photos/BRD4158A_Front.png" diskSizeKB="1847.947" downloadSizeKB="1847.947">
+    <property key="timeStamp" value="1556316779669"/>
+  </assets>
+  <assets path="/common/photos/28-pin-QFN-corners-6x8.png" diskSizeKB="296.474" downloadSizeKB="296.474">
+    <property key="timeStamp" value="1553278203292"/>
+  </assets>
+  <assets path="/common/photos/40-pin-QFN.png" diskSizeKB="259.719" downloadSizeKB="259.719">
+    <property key="timeStamp" value="1553278203874"/>
+  </assets>
+  <assets path="/common/photos/20-pin-QFN-4x6pins.png" diskSizeKB="261.77" downloadSizeKB="261.77">
+    <property key="timeStamp" value="1553278203761"/>
+  </assets>
+  <assets path="/common/photos/BRD4200A_Kit_Front.png" diskSizeKB="4704.446" downloadSizeKB="4704.446">
+    <property key="timeStamp" value="1556316783982"/>
+  </assets>
+  <assets path="/common/photos/BRD4254A_Front.png" diskSizeKB="2022.582" downloadSizeKB="2022.582">
+    <property key="timeStamp" value="1556316782196"/>
+  </assets>
+  <assets path="/common/photos/BRD4251A_Kit_Front.png" diskSizeKB="749.986" downloadSizeKB="749.986">
+    <property key="timeStamp" value="1556316811751"/>
+  </assets>
+  <assets path="/common/photos/BRD4167_Front_WSTK.png" diskSizeKB="1307.883" downloadSizeKB="1307.883">
+    <property key="timeStamp" value="1563567782532"/>
+  </assets>
+  <assets path="/common/photos/14-pin-WBSOIC.png" diskSizeKB="133.373" downloadSizeKB="133.373">
+    <property key="timeStamp" value="1553278204289"/>
+  </assets>
+  <assets path="/common/photos/BRD4256A_Front.png" diskSizeKB="1843.656" downloadSizeKB="1843.656">
+    <property key="timeStamp" value="1556316805311"/>
+  </assets>
+  <assets path="/common/photos/BRD4306C_Kit_Front.png" diskSizeKB="4719.057" downloadSizeKB="4719.057">
+    <property key="timeStamp" value="1556316792654"/>
+  </assets>
+  <assets path="/common/photos/BRD4305D_Kit_Front.png" diskSizeKB="4713.263" downloadSizeKB="4713.263">
+    <property key="timeStamp" value="1556316823770"/>
+  </assets>
+  <assets path="/common/photos/BRD4174B_Front__with_WSTK.png" diskSizeKB="4744.428" downloadSizeKB="4744.428">
+    <property key="timeStamp" value="1563567654794"/>
+  </assets>
+  <assets path="/common/photos/BRD4502B_Kit_Front.png" diskSizeKB="4937.042" downloadSizeKB="4937.042">
+    <property key="timeStamp" value="1556316768379"/>
+  </assets>
+  <assets path="/common/photos/BRD4168A_Front.png" diskSizeKB="1633.632" downloadSizeKB="1633.632">
+    <property key="timeStamp" value="1556316825025"/>
+  </assets>
+  <assets path="/common/photos/12-pin-SOIC.png" diskSizeKB="115.384" downloadSizeKB="115.384">
+    <property key="timeStamp" value="1553278204580"/>
+  </assets>
+  <assets path="/common/photos/38-pin-QFN-7x12.png" diskSizeKB="301.206" downloadSizeKB="301.206">
+    <property key="timeStamp" value="1553278203380"/>
+  </assets>
+  <assets path="/common/photos/20-pin-QFN-corners.png" diskSizeKB="367.779" downloadSizeKB="367.779">
+    <property key="timeStamp" value="1553278204070"/>
+  </assets>
+  <assets path="/common/photos/14-pin-SOIC.png" diskSizeKB="100.867" downloadSizeKB="100.867">
+    <property key="timeStamp" value="1553278203467"/>
+  </assets>
+  <assets path="/common/photos/BRD4104A_Front.png" diskSizeKB="1568.059" downloadSizeKB="1568.059">
+    <property key="timeStamp" value="1556316781806"/>
+  </assets>
+  <assets path="/common/photos/30-pin-QFN-6x9.png" diskSizeKB="224.865" downloadSizeKB="224.865">
+    <property key="timeStamp" value="1553278203832"/>
+  </assets>
+  <assets path="/common/photos/10-pin-QFN-sidepins.png" diskSizeKB="257.734" downloadSizeKB="257.734">
+    <property key="timeStamp" value="1553278203315"/>
+  </assets>
+  <assets path="/common/photos/6-pin-DFN.png" diskSizeKB="253.636" downloadSizeKB="253.636">
+    <property key="timeStamp" value="1553278204153"/>
+  </assets>
+  <assets path="/common/photos/BRD4306B_Kit_Front.png" diskSizeKB="4785.315" downloadSizeKB="4785.315">
+    <property key="timeStamp" value="1556316806433"/>
+  </assets>
+  <assets path="/common/photos/BRD4502B_Front.png" diskSizeKB="1806.17" downloadSizeKB="1806.17">
+    <property key="timeStamp" value="1556316786471"/>
+  </assets>
+  <assets path="/common/photos/BRD4305D_Front.png" diskSizeKB="2031.008" downloadSizeKB="2031.008">
+    <property key="timeStamp" value="1556316791828"/>
+  </assets>
+  <assets path="/common/photos/8-pin-TSSOP.png" diskSizeKB="63.952" downloadSizeKB="63.952">
+    <property key="timeStamp" value="1553278203352"/>
+  </assets>
+  <assets path="/common/photos/BRD4150B_Kit_Front.png" diskSizeKB="751.233" downloadSizeKB="751.233">
+    <property key="timeStamp" value="1556316786193"/>
+  </assets>
+  <assets path="/common/photos/BRD4155A_Front.png" diskSizeKB="1871.042" downloadSizeKB="1871.042">
+    <property key="timeStamp" value="1556316792548"/>
+  </assets>
+  <assets path="/common/photos/BRD4001A_Front.png" diskSizeKB="4972.25" downloadSizeKB="4972.25">
+    <property key="timeStamp" value="1556316827727"/>
+  </assets>
+  <assets path="/common/photos/BGM2501A_Front.png" diskSizeKB="2732.405" downloadSizeKB="2732.405">
+    <property key="timeStamp" value="1556316782228"/>
+  </assets>
+  <assets path="/common/photos/24-pin-QFN-flipped.png" diskSizeKB="80.702" downloadSizeKB="80.702">
+    <property key="timeStamp" value="1553278204116"/>
+  </assets>
+  <assets path="/common/photos/24-pin-TSSOP.png" diskSizeKB="378.935" downloadSizeKB="378.935">
+    <property key="timeStamp" value="1553278204261"/>
+  </assets>
+  <assets path="/common/photos/BRD4300A_Front.png" diskSizeKB="1470.924" downloadSizeKB="1470.924">
+    <property key="timeStamp" value="1556316784435"/>
+  </assets>
+  <assets path="/common/photos/BRD8026A_with_WSTK_Front.png" diskSizeKB="5692.432" downloadSizeKB="5692.432">
+    <property key="timeStamp" value="1556316788035"/>
+  </assets>
+  <assets path="/common/photos/72-pin-QFN.png" diskSizeKB="260.086" downloadSizeKB="260.086">
+    <property key="timeStamp" value="1553278204835"/>
+  </assets>
+  <assets path="/common/photos/24-pin-QFN.png" diskSizeKB="262.837" downloadSizeKB="262.837">
+    <property key="timeStamp" value="1553278204750"/>
+  </assets>
+  <assets path="/common/photos/BRD4321A_kit_front.png" diskSizeKB="4840.983" downloadSizeKB="4840.983">
+    <property key="timeStamp" value="1573254904922"/>
+  </assets>
+  <assets path="/common/photos/BRD4150B_Front.png" diskSizeKB="1782.807" downloadSizeKB="1782.807">
+    <property key="timeStamp" value="1556316811350"/>
+  </assets>
+  <assets path="/common/photos/BRD4502D_Front.png" diskSizeKB="1806.195" downloadSizeKB="1806.195">
+    <property key="timeStamp" value="1556316786133"/>
+  </assets>
+  <assets path="/common/photos/BRD4154A_Kit_Front.png" diskSizeKB="4862.231" downloadSizeKB="4862.231">
+    <property key="timeStamp" value="1556316767778"/>
+  </assets>
+  <assets path="/common/photos/84-pin-QFN.png" diskSizeKB="417.939" downloadSizeKB="417.939">
+    <property key="timeStamp" value="1553278204095"/>
+  </assets>
+  <assets path="/common/photos/8-pin-SOIC.png" diskSizeKB="64.067" downloadSizeKB="64.067">
+    <property key="timeStamp" value="1553278204336"/>
+  </assets>
+  <assets path="/common/photos/100-pin-TQFP.png" diskSizeKB="1384.884" downloadSizeKB="1384.884">
+    <property key="timeStamp" value="1553278203635"/>
+  </assets>
+  <assets path="/common/photos/BRD4300A_Kit_Front.png" diskSizeKB="4800.956" downloadSizeKB="4800.956">
+    <property key="timeStamp" value="1556316777867"/>
+  </assets>
+  <assets path="/common/photos/14-pin-TSSOP.png" diskSizeKB="986.482" downloadSizeKB="986.482">
+    <property key="timeStamp" value="1553278203799"/>
+  </assets>
+  <assets path="/common/photos/sensor-chip-cover.png" diskSizeKB="2087.418" downloadSizeKB="2087.418">
+    <property key="timeStamp" value="1553278204857"/>
+  </assets>
+  <assets path="/common/photos/16-pin-QFN-corners.png" diskSizeKB="79.685" downloadSizeKB="79.685">
+    <property key="timeStamp" value="1553278204628"/>
+  </assets>
+  <assets path="/common/photos/to-92.png" diskSizeKB="209.162" downloadSizeKB="209.162">
+    <property key="timeStamp" value="1553278204249"/>
+  </assets>
+  <assets path="/common/photos/28-pin-QFN.png" diskSizeKB="262.443" downloadSizeKB="262.443">
+    <property key="timeStamp" value="1553278204278"/>
+  </assets>
+  <assets path="/common/photos/BRD4304A_Front.png" diskSizeKB="3426.099" downloadSizeKB="3426.099">
+    <property key="timeStamp" value="1556316804766"/>
+  </assets>
+  <assets path="/common/photos/20-pin-TSSOP.png" diskSizeKB="1171.269" downloadSizeKB="1171.269">
+    <property key="timeStamp" value="1553278203748"/>
+  </assets>
+  <assets path="/common/photos/64-pin-TQFP.png" diskSizeKB="912.058" downloadSizeKB="912.058">
+    <property key="timeStamp" value="1553278203517"/>
+  </assets>
+  <assets path="/common/photos/8-pin-QFN-sidepins.png" diskSizeKB="256.286" downloadSizeKB="256.286">
+    <property key="timeStamp" value="1553278204540"/>
+  </assets>
+  <assets path="/common/photos/BRD4101B_Front.png" diskSizeKB="1538.395" downloadSizeKB="1538.395">
+    <property key="timeStamp" value="1556316805858"/>
+  </assets>
+  <assets path="/common/photos/32-pin-QFN-2x1ratio.png" diskSizeKB="477.89" downloadSizeKB="477.89">
+    <property key="timeStamp" value="1553278203697"/>
+  </assets>
+  <assets path="/common/photos/BRD4502A_Kit_Front.png" diskSizeKB="4937.575" downloadSizeKB="4937.575">
+    <property key="timeStamp" value="1556316786447"/>
+  </assets>
+  <assets path="/common/photos/BRD4251A_Front.png" diskSizeKB="1780.391" downloadSizeKB="1780.391">
+    <property key="timeStamp" value="1556316792680"/>
+  </assets>
+  <assets path="/common/photos/BRD4254A_Kit_Front.png" diskSizeKB="4893.848" downloadSizeKB="4893.848">
+    <property key="timeStamp" value="1556316812152"/>
+  </assets>
+  <assets path="/common/photos/88-pin-QFN.png" diskSizeKB="430.908" downloadSizeKB="430.908">
+    <property key="timeStamp" value="1553278203577"/>
+  </assets>
+  <assets path="/common/photos/BRD4104A_Kit_Front.png" diskSizeKB="1255.648" downloadSizeKB="1255.648">
+    <property key="timeStamp" value="1556316809442"/>
+  </assets>
+  <assets path="/common/photos/11-pin-QFN.png" diskSizeKB="257.071" downloadSizeKB="257.071">
+    <property key="timeStamp" value="1553278204516"/>
+  </assets>
+  <assets path="/common/photos/Thunderboard_BRD5002A_Front.png" diskSizeKB="2237.739" downloadSizeKB="2237.739">
+    <property key="timeStamp" value="1556316768315"/>
+  </assets>
+  <assets path="/common/photos/8-pin-QFN-1x3pins.png" diskSizeKB="256.496" downloadSizeKB="256.496">
+    <property key="timeStamp" value="1553278204128"/>
+  </assets>
+  <assets path="/common/photos/BRD4305E_Front.png" diskSizeKB="2030.717" downloadSizeKB="2030.717">
+    <property key="timeStamp" value="1556316778857"/>
+  </assets>
+  <assets path="/common/photos/16-pin-WBSOIC.png" diskSizeKB="138.356" downloadSizeKB="138.356">
+    <property key="timeStamp" value="1553278203735"/>
+  </assets>
+  <assets path="/common/photos/BRD4502C_Front.png" diskSizeKB="1806.808" downloadSizeKB="1806.808">
+    <property key="timeStamp" value="1556316809927"/>
+  </assets>
+  <assets path="/common/photos/48-pin-LQFP.png" diskSizeKB="1621.589" downloadSizeKB="1621.589">
+    <property key="timeStamp" value="1553278204041"/>
+  </assets>
+  <assets path="/common/photos/8-pin-DFN-sidepins.png" diskSizeKB="255.9" downloadSizeKB="255.9">
+    <property key="timeStamp" value="1553278203946"/>
+  </assets>
+  <assets path="/common/photos/8-pin-TDFN.png" diskSizeKB="252.941" downloadSizeKB="252.941">
+    <property key="timeStamp" value="1553278204312"/>
+  </assets>
+  <assets path="/common/photos/BRD4150C_Kit_Front.png" diskSizeKB="4919.533" downloadSizeKB="4919.533">
+    <property key="timeStamp" value="1556316786171"/>
+  </assets>
+  <assets path="/common/photos/BRD4301A_Front.png" diskSizeKB="1435.225" downloadSizeKB="1435.225">
+    <property key="timeStamp" value="1556316837077"/>
+  </assets>
+  <assets path="/common/photos/64-pin-QFN.png" diskSizeKB="259.816" downloadSizeKB="259.816">
+    <property key="timeStamp" value="1553278203405"/>
+  </assets>
+  <assets path="/common/photos/BRD8021A_Front.png" diskSizeKB="4071.641" downloadSizeKB="4071.641">
+    <property key="timeStamp" value="1556316807801"/>
+  </assets>
+  <assets path="/common/photos/BRD4103A_Kit_Front.png" diskSizeKB="4835.544" downloadSizeKB="4835.544">
+    <property key="timeStamp" value="1556316799638"/>
+  </assets>
+  <assets path="/common/photos/BRD4305C_Front.png" diskSizeKB="2030.858" downloadSizeKB="2030.858">
+    <property key="timeStamp" value="1556316817593"/>
+  </assets>
+  <assets path="/common/photos/8-pin-DIP.png" diskSizeKB="63.905" downloadSizeKB="63.905">
+    <property key="timeStamp" value="1553278203708"/>
+  </assets>
+  <assets path="/common/photos/BRD4154A_Front.png" diskSizeKB="1688.859" downloadSizeKB="1688.859">
+    <property key="timeStamp" value="1556316815370"/>
+  </assets>
+  <assets path="/common/photos/20-pin-MLP.png" diskSizeKB="259.487" downloadSizeKB="259.487">
+    <property key="timeStamp" value="1553278204181"/>
+  </assets>
+  <assets path="/common/photos/4-lead-xo-chip.png" diskSizeKB="1839.753" downloadSizeKB="1839.753">
+    <property key="timeStamp" value="1553278203550"/>
+  </assets>
+  <assets path="/common/photos/48-pin-TQFP-flat.png" diskSizeKB="1308.449" downloadSizeKB="1308.449">
+    <property key="timeStamp" value="1553278204056"/>
+  </assets>
+  <assets path="/common/photos/16-pin-BGA.png" diskSizeKB="40.388" downloadSizeKB="40.388">
+    <property key="timeStamp" value="1553278204808"/>
+  </assets>
+  <assets path="/common/photos/64-pin-WLCSP.png" diskSizeKB="284.028" downloadSizeKB="284.028">
+    <property key="timeStamp" value="1553278204168"/>
+  </assets>
+  <assets path="/common/photos/BRD4150C_Front.png" diskSizeKB="1834.22" downloadSizeKB="1834.22">
+    <property key="timeStamp" value="1556316804697"/>
+  </assets>
+  <assets path="/common/photos/BRD4253A_Kit_Front.png" diskSizeKB="4893.526" downloadSizeKB="4893.526">
+    <property key="timeStamp" value="1556316787987"/>
+  </assets>
+  <assets path="/common/photos/BRD4173A_Front__with_WSTK.png" diskSizeKB="4727.903" downloadSizeKB="4727.903">
+    <property key="timeStamp" value="1563567745120"/>
+  </assets>
+  <assets path="/common/photos/BRD4173A_Front.png" diskSizeKB="1682.818" downloadSizeKB="1682.818">
+    <property key="timeStamp" value="1556316778244"/>
+  </assets>
+  <assets path="/common/photos/BRD4250A_Kit_Front.png" diskSizeKB="749.878" downloadSizeKB="749.878">
+    <property key="timeStamp" value="1556316769632"/>
+  </assets>
+  <assets path="/common/photos/BRD4545A_Kit_Front.png" diskSizeKB="744.174" downloadSizeKB="744.174">
+    <property key="timeStamp" value="1556316767114"/>
+  </assets>
+  <assets path="/common/photos/44-pin-TQFP.png" diskSizeKB="827.737" downloadSizeKB="827.737">
+    <property key="timeStamp" value="1553278203431"/>
+  </assets>
+  <assets path="/common/photos/BRD4170A_Kit_Front.png" diskSizeKB="4907.087" downloadSizeKB="4907.087">
+    <property key="timeStamp" value="1556316779273"/>
+  </assets>
+  <assets path="/common/photos/24-pin-QFN-hole.png" diskSizeKB="267.386" downloadSizeKB="267.386">
+    <property key="timeStamp" value="1553278203673"/>
+  </assets>
+  <assets path="/common/photos/4-pin-DFN.png" diskSizeKB="255.157" downloadSizeKB="255.157">
+    <property key="timeStamp" value="1553278204106"/>
+  </assets>
+  <assets path="/common/photos/BRD4253A_Front.png" diskSizeKB="2022.179" downloadSizeKB="2022.179">
+    <property key="timeStamp" value="1556316806514"/>
+  </assets>
+  <assets path="/common/photos/BRD4152A_Front.png" diskSizeKB="1781.678" downloadSizeKB="1781.678">
+    <property key="timeStamp" value="1556316778824"/>
+  </assets>
+  <assets path="/common/photos/6-pin-TDFN.png" diskSizeKB="254.419" downloadSizeKB="254.419">
+    <property key="timeStamp" value="1553278204238"/>
+  </assets>
+  <assets path="/common/photos/BRD4163A_Front.png" diskSizeKB="2010.551" downloadSizeKB="2010.551">
+    <property key="timeStamp" value="1556316830043"/>
+  </assets>
+  <assets path="/common/photos/BRD4543B_Kit_Front.png" diskSizeKB="744.159" downloadSizeKB="744.159">
+    <property key="timeStamp" value="1556316825077"/>
+  </assets>
+  <assets path="/common/photos/100-pin-TQFP-angle.png" diskSizeKB="889.955" downloadSizeKB="889.955">
+    <property key="timeStamp" value="1553278204732"/>
+  </assets>
+  <assets path="/common/photos/BRD4150A_Kit_Front.png" diskSizeKB="750.941" downloadSizeKB="750.941">
+    <property key="timeStamp" value="1556316840699"/>
+  </assets>
+  <assets path="/common/photos/BRD4544A_Front.png" diskSizeKB="1818.577" downloadSizeKB="1818.577">
+    <property key="timeStamp" value="1556316806462"/>
+  </assets>
+  <assets path="/common/photos/BRD4303A_Kit_Front.png" diskSizeKB="4668.547" downloadSizeKB="4668.547">
+    <property key="timeStamp" value="1556316785736"/>
+  </assets>
+  <assets path="/common/photos/24-pin-QSOP.png" diskSizeKB="29.237" downloadSizeKB="29.237">
+    <property key="timeStamp" value="1553278203997"/>
+  </assets>
+  <assets path="/common/photos/BRD4105A_Front.png" diskSizeKB="1510.561" downloadSizeKB="1510.561">
+    <property key="timeStamp" value="1556316823663"/>
+  </assets>
+  <assets path="/common/photos/64-pin-BGA.png" diskSizeKB="284.121" downloadSizeKB="284.121">
+    <property key="timeStamp" value="1553278203481"/>
+  </assets>
+  <assets path="/common/photos/16-pin-SOIC.png" diskSizeKB="117.025" downloadSizeKB="117.025">
+    <property key="timeStamp" value="1553278204504"/>
+  </assets>
+  <assets path="/common/photos/BRD4202A_Front.png" diskSizeKB="1827.675" downloadSizeKB="1827.675">
+    <property key="timeStamp" value="1556316769242"/>
+  </assets>
+  <assets path="/common/photos/88-pin-QFN-square.png" diskSizeKB="263.912" downloadSizeKB="263.912">
+    <property key="timeStamp" value="1553278203987"/>
+  </assets>
+  <assets path="/common/photos/36-pin-QFN.png" diskSizeKB="289.491" downloadSizeKB="289.491">
+    <property key="timeStamp" value="1553278203329"/>
+  </assets>
+  <assets path="/common/photos/16-pin-QSOP.png" diskSizeKB="27.501" downloadSizeKB="27.501">
+    <property key="timeStamp" value="1553278204431"/>
+  </assets>
+  <assets path="/common/photos/BRD4502C_Kit_Front.png" diskSizeKB="4938.011" downloadSizeKB="4938.011">
+    <property key="timeStamp" value="1556316784851"/>
+  </assets>
+  <assets path="/common/photos/BRD4172B_Front__with_WSTK.png" diskSizeKB="4744.252" downloadSizeKB="4744.252">
+    <property key="timeStamp" value="1563567379094"/>
+  </assets>
+  <assets path="/common/photos/BRD4174A_Front.png" diskSizeKB="1690.66" downloadSizeKB="1690.66">
+    <property key="timeStamp" value="1556316837408"/>
+  </assets>
+  <assets path="/common/photos/BRD4302A_Kit_Front.png" diskSizeKB="2669.937" downloadSizeKB="2669.937">
+    <property key="timeStamp" value="1556316788133"/>
+  </assets>
+  <assets path="/common/photos/BRD4300B_Kit_Front.png" diskSizeKB="4802.719" downloadSizeKB="4802.719">
+    <property key="timeStamp" value="1556316766568"/>
+  </assets>
+  <assets path="/common/accepted_filters.json" diskSizeKB="1.798" downloadSizeKB="1.798">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1668793481605"/>
+  </assets>
+  <assets path="/common/license_txt.zip" diskSizeKB="96.591" downloadSizeKB="31.698" directory="true" label="License Text files">
+    <property key="forceUpdate" value="false"/>
+    <property key="timeStamp" value="1772555435085"/>
+  </assets>
+  <assets version="0.3" path="/common/appnotes/AN0823.zip" diskSizeKB="1189.246" downloadSizeKB="1066.892" directory="true" label="AN0823: Simplicity Configurator User's Guide">
+    <property key="timeStamp" value="1740679213409"/>
+  </assets>
+  <assets version="0.5" path="/common/appnotes/AN0822/AN0822.pdf" diskSizeKB="2970.344" downloadSizeKB="2970.344" label="AN0822: Simplicity Studioâ¢ User's Guide">
+    <property key="timeStamp" value="1530558628748"/>
+  </assets>
+</assets>

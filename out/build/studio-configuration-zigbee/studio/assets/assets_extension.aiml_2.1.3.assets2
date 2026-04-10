@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.aiml_2.1.3">
+  <assets path="/extension.aiml_2.1.3/demos/brd2605a/ml_voice_control_light_si91x.s37" diskSizeKB="2379.84" downloadSizeKB="2379.84"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2605a/ml_blink_si91x.s37" diskSizeKB="402.292" downloadSizeKB="402.292"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2605a/ml_model_profiler_si91x.s37" diskSizeKB="667.582" downloadSizeKB="667.582"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2605a/ml_audio_classifier_si91x.s37" diskSizeKB="2379.45" downloadSizeKB="2379.45"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2608a/ml_voice_control_light.s37" diskSizeKB="655.06" downloadSizeKB="655.06"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2608a/ml_image_classifier.s37" diskSizeKB="606.244" downloadSizeKB="606.244"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2608a/ml_magic_wand.s37" diskSizeKB="361.712" downloadSizeKB="361.712"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2608a/ml_audio_classifier.s37" diskSizeKB="661.14" downloadSizeKB="661.14"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2608a/ml_blink.s37" diskSizeKB="218.468" downloadSizeKB="218.468"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2608a/ml_model_profiler.s37" diskSizeKB="470.204" downloadSizeKB="470.204"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2608a/ml_zigbee_z3_switch_with_voice.s37" diskSizeKB="1181.124" downloadSizeKB="1181.124"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2601b/ml_voice_control_light.s37" diskSizeKB="651.756" downloadSizeKB="651.756"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2601b/ml_image_classifier.s37" diskSizeKB="601.884" downloadSizeKB="601.884"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2601b/ml_magic_wand.s37" diskSizeKB="357.62" downloadSizeKB="357.62"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2601b/ml_audio_classifier.s37" diskSizeKB="657.916" downloadSizeKB="657.916"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2601b/ml_blink.s37" diskSizeKB="214.956" downloadSizeKB="214.956"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2601b/ml_model_profiler.s37" diskSizeKB="468.836" downloadSizeKB="468.836"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2601b/ml_zigbee_z3_switch_with_voice.s37" diskSizeKB="1174.844" downloadSizeKB="1174.844"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2705a/ml_blink.s37" diskSizeKB="211.38" downloadSizeKB="211.38"/>
+  <assets path="/extension.aiml_2.1.3/demos/brd2705a/ml_model_profiler.s37" diskSizeKB="464.988" downloadSizeKB="464.988"/>
+</assets>

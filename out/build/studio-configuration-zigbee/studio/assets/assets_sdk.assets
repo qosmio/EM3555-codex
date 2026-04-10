@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_sdk">
+  <assets path="/sdk/repos.sdk.extensions" diskSizeKB="19.038" downloadSizeKB="19.038"/>
+  <assets path="/sdk/demo-sdk.zip" diskSizeKB="53655.877" downloadSizeKB="46445.413" directory="true"/>
+  <assets path="/sdk/repos.sdk" diskSizeKB="83.133" downloadSizeKB="83.133"/>
+</assets>

@@ -1,0 +1,1945 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:52
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\config\ember-configuration.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ember-configuration.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\config\ember-configuration.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"ember-configuration.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\config\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ember-configuration.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ember-configuration.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\ember-configuration.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ember-configuration.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\config\ember-configuration.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief User-configurable stack memory allocation and convenience stubs
+      4           * for little-used callbacks.
+      5           *
+      6           *
+      7           * \b Note: Application developers should \b not modify any portion
+      8           * of this file. Doing so may lead to mysterious bugs. Allocations should be
+      9           * adjusted only with macros in a custom CONFIGURATION_HEADER.
+     10           *******************************************************************************
+     11           * # License
+     12           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+     13           *******************************************************************************
+     14           *
+     15           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     16           * software is governed by the terms of Silicon Labs Master Software License
+     17           * Agreement (MSLA) available at
+     18           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     19           * software is distributed to you in Source Code format and is governed by the
+     20           * sections of the MSLA applicable to Source Code.
+     21           *
+     22           ******************************************************************************/
+     23          
+     24          #include PLATFORM_HEADER
+     25          #include "stack/include/ember.h"
+     26          #include "stack/include/error.h"
+     27          #include "stack/include/ember-static-struct.h" // Required typedefs
+     28          #include "hal/micro/micro.h"
+     29          #include "stack/include/message.h" // Required for packetHandlers
+     30          #include "mac-child.h" // unified-mac
+     31          
+     32          // *****************************************
+     33          // Memory Allocations & declarations
+     34          // *****************************************
+     35          
+     36          extern uint8_t emAvailableMemory[];
+     37          #if defined(CORTEXM3)
+     38            #define align(value) (((value) + 3) & ~0x03)
+     39          #else
+     40            #define align(value) (value)
+     41          #endif
+     42          
+     43          //------------------------------------------------------------------------------
+     44          // API Version
+     45          
+
+   \                                 In section .rodata, align 1
+     46          const uint8_t emApiVersion
+   \                     emApiVersion:
+   \        0x0   0x20               DC8 32
+     47            = (EMBER_API_MAJOR_VERSION << 4) + EMBER_API_MINOR_VERSION;
+     48          
+     49          //------------------------------------------------------------------------------
+     50          // Multi PAN globals
+     51          
+     52          #define NUM_MULTI_PAN_FORKS    (EMBER_AF_ZC_AND_ZR_DEVICE_COUNT == 0 \
+     53                                          ? 1                                  \
+     54                                          : EMBER_AF_ZC_AND_ZR_DEVICE_COUNT)
+
+   \                                 In section .data, align 1
+     55          uint8_t emNumMultiPanForks = NUM_MULTI_PAN_FORKS;
+   \                     emNumMultiPanForks:
+   \        0x0   0x01               DC8 1
+     56          
+
+   \                                 In section .bss, align 1
+     57          uint8_t blackListedIdByteArray[NUM_MULTI_PAN_FORKS] = { 0 };
+   \                     blackListedIdByteArray:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 2
+     58          EmberMessageBuffer blacklistedIdsArray[NUM_MULTI_PAN_FORKS] = { EMBER_NULL_MESSAGE_BUFFER };
+   \                     blacklistedIdsArray:
+   \        0x0                      DS8 2
+
+   \                                 In section .bss, align 1
+     59          uint8_t panConflictMeters[NUM_MULTI_PAN_FORKS];
+   \                     panConflictMeters:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 2
+     60          uint16_t trustCenterPolicies[NUM_MULTI_PAN_FORKS];
+   \                     trustCenterPolicies:
+   \        0x0                      DS8 2
+     61          
+     62          //------------------------------------------------------------------------------
+     63          // Multi PAN events
+     64          
+     65          // In multi-PAN, we fork events that are required for both ZC and ZR networks.
+     66          // Each index of the event array maps 1-to-1 to the network index.
+     67          // For multi-network and single network, we only allocate 1 copy
+     68          // of the event (i.e. an array of element size 1). App Builder always defines
+     69          // EMBER_AF_ZC_AND_ZR_DEVICE_COUNT to the correct value.
+     70          
+     71          // The following are not resizable, and we especially don't want their addresses
+     72          // to change, so we don't allocate them from emAvailableMemory
+     73          
+     74          #define NUM_MULTI_PAN_FORKED_EVENTS 10
+
+   \                                 In section .data, align 1
+     75          uint8_t emNumMultiPanForkedEvents = NUM_MULTI_PAN_FORKED_EVENTS;
+   \                     emNumMultiPanForkedEvents:
+   \        0x0   0x0A               DC8 10
+     76          
+
+   \                                 In section .bss, align 4
+     77          EmberEventData emMultiPanEventData[(NUM_MULTI_PAN_FORKED_EVENTS * NUM_MULTI_PAN_FORKS) + 1];
+   \                     emMultiPanEventData:
+   \        0x0                      DS8 88
+
+   \                                 In section .bss, align 4
+     78          EmberEventControl emBeaconEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emBeaconEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     79          EmberEventControl emPermitJoiningEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emPermitJoiningEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     80          EmberEventControl emNetworkManagementEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emNetworkManagementEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     81          EmberEventControl emNeighborExchangeEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emNeighborExchangeEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     82          EmberEventControl emRequestKeyEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emRequestKeyEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     83          EmberEventControl emSendParentAnnounceEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emSendParentAnnounceEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     84          EmberEventControl emTransientLinkKeyEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emTransientLinkKeyEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     85          EmberEventControl emGpTxEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emGpTxEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     86          EmberEventControl emSourceRouteUpdateEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emSourceRouteUpdateEventControls:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     87          EmberEventControl emAllowTcRejoinsUsingWellKnownKeyEventControls[NUM_MULTI_PAN_FORKS];
+   \                     emAllowTcRejoinsUsingWellKnownKeyEventControls:
+   \        0x0                      DS8 8
+     88          
+     89          //------------------------------------------------------------------------------
+     90          // Packet Buffers
+     91          
+
+   \                                 In section .data, align 1
+     92          uint8_t emPacketBufferCount = EMBER_PACKET_BUFFER_COUNT;
+   \                     emPacketBufferCount:
+   \        0x0   0x4B               DC8 75
+     93          
+     94          // The actual memory for buffers.
+
+   \                                 In section .data, align 4
+     95          uint16_t *heapMemory = (uint16_t *)&emAvailableMemory[0];
+   \                     heapMemory:
+   \        0x0   0x....'....        DC32 emAvailableMemory
+     96          //uint8_t *emPacketBufferData = &emAvailableMemory[0];
+     97          
+     98          #define END_emPacketBufferQueueLinks \
+     99            (align(EMBER_PACKET_BUFFER_COUNT * 32))
+
+   \                                 In section .data, align 4
+    100          uint32_t heapMemorySize = END_emPacketBufferQueueLinks;
+   \                     heapMemorySize:
+   \        0x0   0x0000'0960        DC32 2'400
+    101          
+    102          //------------------------------------------------------------------------------
+    103          // MAC Layer
+    104          
+
+   \                                 In section .rodata, align 2
+    105          const EmberMacFilterMatchData zigbeeMacFilterList[] = {
+   \                     zigbeeMacFilterList:
+   \        0x0   0x8000             DC16 32'768
+    106          #ifdef EMBER_AF_PLUGIN_GP_LIBRARY
+    107            (EMBER_MAC_FILTER_MATCH_ON_PAN_DEST_BROADCAST
+    108             | EMBER_MAC_FILTER_MATCH_ON_PAN_SOURCE_NONE
+    109             | EMBER_MAC_FILTER_MATCH_ON_DEST_BROADCAST_SHORT
+    110             | EMBER_MAC_FILTER_MATCH_ON_SOURCE_NONE),
+    111            (EMBER_MAC_FILTER_MATCH_ON_PAN_DEST_BROADCAST
+    112             | EMBER_MAC_FILTER_MATCH_ON_PAN_SOURCE_LOCAL
+    113             | EMBER_MAC_FILTER_MATCH_ON_DEST_BROADCAST_SHORT
+    114             | EMBER_MAC_FILTER_MATCH_ON_SOURCE_LONG),
+    115          #endif // EMBER_AF_PLUGIN_GP_LIBRARY
+    116          #ifdef EMBER_AF_PLUGIN_ZLL_LIBRARY
+    117            // ZLL Scan requests
+    118            (EMBER_MAC_FILTER_MATCH_ON_PAN_DEST_BROADCAST
+    119             | EMBER_MAC_FILTER_MATCH_ON_PAN_SOURCE_NON_LOCAL
+    120             | EMBER_MAC_FILTER_MATCH_ON_DEST_BROADCAST_SHORT
+    121             | EMBER_MAC_FILTER_MATCH_ON_SOURCE_LONG),
+    122            (EMBER_MAC_FILTER_MATCH_ON_PAN_DEST_BROADCAST
+    123             | EMBER_MAC_FILTER_MATCH_ON_PAN_SOURCE_LOCAL
+    124             | EMBER_MAC_FILTER_MATCH_ON_DEST_BROADCAST_SHORT
+    125             | EMBER_MAC_FILTER_MATCH_ON_SOURCE_LONG),
+    126          
+    127            // All other incoming inter-pan ZLL messages
+    128            (EMBER_MAC_FILTER_MATCH_ON_PAN_DEST_BROADCAST
+    129             | EMBER_MAC_FILTER_MATCH_ON_PAN_SOURCE_NON_LOCAL
+    130             | EMBER_MAC_FILTER_MATCH_ON_DEST_UNICAST_LONG
+    131             | EMBER_MAC_FILTER_MATCH_ON_SOURCE_LONG),
+    132            (EMBER_MAC_FILTER_MATCH_ON_PAN_DEST_BROADCAST
+    133             | EMBER_MAC_FILTER_MATCH_ON_PAN_SOURCE_LOCAL
+    134             | EMBER_MAC_FILTER_MATCH_ON_DEST_UNICAST_LONG
+    135             | EMBER_MAC_FILTER_MATCH_ON_SOURCE_LONG),
+    136          #endif // EMBER_AF_PLUGIN_ZLL_LIBRARY
+    137            EMBER_MAC_FILTER_MATCH_END
+    138          };
+    139          
+    140          // Pass a pointer to child table in memory to the unified mac layer.
+
+   \                                 In section .data, align 4
+    141          sl_mac_child_entry_t *emChildTableData = (sl_mac_child_entry_t *) &emAvailableMemory[END_emPacketBufferQueueLinks];
+   \                     emChildTableData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0x960
+
+   \                                 In section .data, align 1
+    142          uint8_t emberChildTableSize = EMBER_CHILD_TABLE_SIZE;
+   \                     emberChildTableSize:
+   \        0x0   0x04               DC8 4
+    143          #define END_emChildTableData                 \
+    144            (END_emPacketBufferQueueLinks              \
+    145             + align(EMBER_CHILD_TABLE_SIZE            \
+    146                     * EMBER_AF_ZC_AND_ZR_DEVICE_COUNT \
+    147                     * sizeof(sl_mac_child_entry_t)))
+    148          
+    149          //------------------------------------------------------------------------------
+    150          // NWK Layer
+    151          
+    152          #ifdef EMBER_DISABLE_RELAY
+    153          uint8_t emAllowRelay = false;
+    154          #else
+
+   \                                 In section .data, align 1
+    155          uint8_t emAllowRelay = true;
+   \                     emAllowRelay:
+   \        0x0   0x01               DC8 1
+    156          #endif
+    157          
+
+   \                                 In section .data, align 4
+    158          uint16_t *emChildStatusData = (uint16_t *) &emAvailableMemory[END_emChildTableData];
+   \                     emChildStatusData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0x9c0
+    159          #define END_emChildStatusData                \
+    160            (END_emChildTableData                      \
+    161             + align(EMBER_CHILD_TABLE_SIZE            \
+    162                     * EMBER_AF_ZC_AND_ZR_DEVICE_COUNT \
+    163                     * sizeof(uint16_t)))
+    164          
+
+   \                                 In section .data, align 4
+    165          uint32_t *emChildTimersData = (uint32_t *) &emAvailableMemory[END_emChildStatusData];
+   \                     emChildTimersData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0x9c8
+    166          #define END_emChildTimersData                \
+    167            (END_emChildStatusData                     \
+    168             + align(EMBER_CHILD_TABLE_SIZE            \
+    169                     * EMBER_AF_ZC_AND_ZR_DEVICE_COUNT \
+    170                     * sizeof(uint32_t)))
+    171          
+
+   \                                 In section .data, align 4
+    172          int8_t *emChildPower = (int8_t *) &emAvailableMemory[END_emChildTimersData];
+   \                     emChildPower:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0x9d8
+    173          #define END_emChildPower \
+    174            (END_emChildTimersData + align(EMBER_CHILD_TABLE_SIZE * sizeof(int8_t)))
+    175          
+    176          // emChildLqi >> 8 keeps the average Lqi values mapped from 0-255 to 1-255 after initialization
+    177          // LQI data (0-255) is stored in a 16 bit variable so we end up with greater
+    178          // precision after the weighted averaging operation
+
+   \                                 In section .data, align 4
+    179          uint16_t *emChildLqiData = (uint16_t *) &emAvailableMemory[END_emChildPower];
+   \                     emChildLqiData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0x9dc
+    180          #define END_emChildLqiData                   \
+    181            (END_emChildPower                          \
+    182             + align(EMBER_CHILD_TABLE_SIZE            \
+    183                     * EMBER_AF_ZC_AND_ZR_DEVICE_COUNT \
+    184                     * sizeof(uint16_t)))
+    185          
+
+   \                                 In section .data, align 4
+    186          EmRouteTableEntry *emRouteData = (EmRouteTableEntry *) &emAvailableMemory[END_emChildLqiData];
+   \                     emRouteData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0x9e4
+
+   \                                 In section .data, align 1
+    187          uint8_t emRouteTableSize = EMBER_ROUTE_TABLE_SIZE;
+   \                     emRouteTableSize:
+   \        0x0   0x10               DC8 16
+    188          #define END_emRouteData \
+    189            (END_emChildLqiData + align(EMBER_ROUTE_TABLE_SIZE * sizeof(EmRouteTableEntry)))
+    190          
+    191          // Duplicate the table for multi PAN mode depending on how many ZC and ZR devices are present.
+
+   \                                 In section .data, align 4
+    192          uint8_t *emRouteRecordTableData = (uint8_t *) &emAvailableMemory[END_emRouteData];
+   \                     emRouteRecordTableData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xa64
+    193          #define END_emRouteRecordTableData                                                      \
+    194            (END_emRouteData + align(((EMBER_CHILD_TABLE_SIZE + 7) >> 3) * EMBER_ROUTE_TABLE_SIZE \
+    195                                     * EMBER_AF_ZC_AND_ZR_DEVICE_COUNT))
+    196          
+
+   \                                 In section .data, align 4
+    197          EmDiscoveryTableEntry *emDiscoveryTable = (EmDiscoveryTableEntry *) &emAvailableMemory[END_emRouteRecordTableData];
+   \                     emDiscoveryTable:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xa74
+
+   \                                 In section .data, align 1
+    198          uint8_t emDiscoveryTableSize = EMBER_DISCOVERY_TABLE_SIZE;
+   \                     emDiscoveryTableSize:
+   \        0x0   0x08               DC8 8
+    199          #define END_emDiscoveryTable \
+    200            (END_emRouteRecordTableData + align(EMBER_DISCOVERY_TABLE_SIZE * sizeof(EmDiscoveryTableEntry)))
+    201          
+
+   \                                 In section .data, align 4
+    202          EmberMulticastTableEntry *emberMulticastTable = (EmberMulticastTableEntry *) &emAvailableMemory[END_emDiscoveryTable];
+   \                     emberMulticastTable:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xac4
+
+   \                                 In section .data, align 1
+    203          uint8_t emberMulticastTableSize = EMBER_MULTICAST_TABLE_SIZE;
+   \                     emberMulticastTableSize:
+   \        0x0   0x08               DC8 8
+    204          #define END_emberMulticastTable \
+    205            (END_emDiscoveryTable + align(EMBER_MULTICAST_TABLE_SIZE * sizeof(EmberMulticastTableEntry)))
+    206          
+    207          // Broadcast table exists in all device types so we allocate memory to it even if no ZC and ZR device present.
+    208          // Duplicate the table if more than one ZC and ZR devices present.
+
+   \                                 In section .data, align 4
+    209          EmBroadcastTableEntry *emBroadcastTableData = (EmBroadcastTableEntry *) &emAvailableMemory[END_emberMulticastTable];
+   \                     emBroadcastTableData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xae4
+    210          #define END_emberBroadcastTable \
+    211            (END_emberMulticastTable + align(EMBER_BROADCAST_TABLE_SIZE * sizeof(EmBroadcastTableEntry) * NUM_MULTI_PAN_FORKS))
+
+   \                                 In section .data, align 1
+    212          uint8_t emBroadcastTableSize = EMBER_BROADCAST_TABLE_SIZE;
+   \                     emBroadcastTableSize:
+   \        0x0   0x0F               DC8 15
+    213          
+    214          //------------------------------------------------------------------------------
+    215          // Network descriptor (multi-network support)
+    216          
+    217          #if !defined(EMBER_MULTI_NETWORK_STRIPPED)
+
+   \                                 In section .data, align 4
+    218          EmberNetworkInfo* emNetworkDescriptor = (EmberNetworkInfo *) &emAvailableMemory[END_emberBroadcastTable];
+   \                     emNetworkDescriptor:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xb5c
+
+   \                                 In section .data, align 1
+    219          uint8_t emSupportedNetworks = EMBER_SUPPORTED_NETWORKS;
+   \                     emSupportedNetworks:
+   \        0x0   0x01               DC8 1
+    220          #define END_emNetworkDescriptor \
+    221            (END_emberBroadcastTable + align((EMBER_SUPPORTED_NETWORKS) *sizeof(EmberNetworkInfo)))
+    222          
+    223          // PAN info exists in all device types so we allocate memory to it even if no ZC and ZR device present.
+    224          // Duplicate it if more than one ZC and ZR devices present.
+
+   \                                 In section .data, align 4
+    225          EmPanInfo * emPanInfoData = (EmPanInfo *) &emAvailableMemory[END_emNetworkDescriptor];
+   \                     emPanInfoData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xb94
+    226          #define END_emPanInfoData \
+    227            (END_emNetworkDescriptor + align(sizeof(EmPanInfo) * NUM_MULTI_PAN_FORKS))
+    228          #else
+    229          uint8_t emSupportedNetworks = 1;
+    230          #define END_emPanInfoData END_emberBroadcastTable
+    231          #endif // !defined(EMBER_MULTI_NETWORK_STRIPPED)
+    232          
+    233          //------------------------------------------------------------------------------
+    234          // Neighbor Table
+    235          // Neighbor and frame counter table exist on end device as well but it contains only one entry.
+    236          // Duplicate neighbor and frame counter tables per ZC and ZR device.
+    237          // If there is no ZC and ZR device present, then allocate one entry for each end device.
+
+   \                                 In section .data, align 4
+    238          EmNeighborTableEntry *emNeighborData = (EmNeighborTableEntry *) &emAvailableMemory[END_emPanInfoData];
+   \                     emNeighborData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xbc0
+
+   \                                 In section .data, align 1
+    239          uint8_t emRouterNeighborTableSize = EMBER_NEIGHBOR_TABLE_SIZE;
+   \                     emRouterNeighborTableSize:
+   \        0x0   0x10               DC8 16
+    240          #define END_emNeighborData                                                                  \
+    241            (END_emPanInfoData + align(((EMBER_NEIGHBOR_TABLE_SIZE * EMBER_AF_ZC_AND_ZR_DEVICE_COUNT) \
+    242                                        + EMBER_SUPPORTED_NETWORKS) * sizeof(EmNeighborTableEntry)))
+    243          
+
+   \                                 In section .data, align 4
+    244          uint32_t *emFrameCountersTable = (uint32_t *) &emAvailableMemory[END_emNeighborData];
+   \                     emFrameCountersTable:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xcb0
+    245          #define END_emFrameCountersTable                                                                                      \
+    246            (END_emNeighborData + align(((EMBER_NEIGHBOR_TABLE_SIZE + EMBER_CHILD_TABLE_SIZE) * EMBER_AF_ZC_AND_ZR_DEVICE_COUNT \
+    247                                         + EMBER_SUPPORTED_NETWORKS) * sizeof(uint32_t)))
+    248          
+    249          //------------------------------------------------------------------------------
+    250          // NWK Retry Queue
+    251          
+
+   \                                 In section .data, align 4
+    252          EmRetryQueueEntry *emRetryQueue = (EmRetryQueueEntry *) &emAvailableMemory[END_emFrameCountersTable];
+   \                     emRetryQueue:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xd04
+
+   \                                 In section .data, align 1
+    253          uint8_t emRetryQueueSize = EMBER_RETRY_QUEUE_SIZE;
+   \                     emRetryQueueSize:
+   \        0x0   0x10               DC8 16
+    254          #define END_emRetryQueue \
+    255            (END_emFrameCountersTable + align(EMBER_RETRY_QUEUE_SIZE * sizeof(EmRetryQueueEntry)))
+    256          
+    257          // NWK Store And Forward Queue
+    258          
+
+   \                                 In section .data, align 4
+    259          EmStoreAndForwardQueueEntry *emStoreAndForwardQueue = (EmStoreAndForwardQueueEntry *) &emAvailableMemory[END_emRetryQueue];
+   \                     emStoreAndForwardQueue:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xd84
+
+   \                                 In section .data, align 1
+    260          uint8_t emStoreAndForwardQueueSize = EMBER_STORE_AND_FORWARD_QUEUE_SIZE;
+   \                     emStoreAndForwardQueueSize:
+   \        0x0   0x05               DC8 5
+    261          #define END_emStoreAndForwardQueue \
+    262            (END_emRetryQueue + align(EMBER_STORE_AND_FORWARD_QUEUE_SIZE * sizeof(EmStoreAndForwardQueueEntry)))
+    263          
+    264          //------------------------------------------------------------------------------
+    265          // Green Power stack tables
+
+   \                                 In section .bss, align 1
+    266          uint8_t emGpIncomingFCTokenTableSize = EMBER_GP_INCOMING_FC_TOKEN_TABLE_SIZE;
+   \                     emGpIncomingFCTokenTableSize:
+   \        0x0                      DS8 1
+
+   \                                 In section .data, align 1
+    267          uint8_t emGpIncomingFCTokenTimeout = EMBER_GP_INCOMING_FC_TOKEN_TIMEOUT;
+   \                     emGpIncomingFCTokenTimeout:
+   \        0x0   0x07               DC8 7
+    268          
+
+   \                                 In section .data, align 4
+    269          EmberGpProxyTableEntry *emGpProxyTable = (EmberGpProxyTableEntry *) &emAvailableMemory[END_emStoreAndForwardQueue];
+   \                     emGpProxyTable:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xdac
+
+   \                                 In section .data, align 1
+    270          uint8_t emGpProxyTableSize = EMBER_GP_PROXY_TABLE_SIZE;
+   \                     emGpProxyTableSize:
+   \        0x0   0x05               DC8 5
+    271          #define END_emGpProxyTable \
+    272            (END_emStoreAndForwardQueue + align(EMBER_GP_PROXY_TABLE_SIZE * sizeof(EmberGpProxyTableEntry)))
+    273          
+
+   \                                 In section .bss, align 1
+    274          uint8_t emGpIncomingFCInSinkTokenTableSize = EMBER_GP_INCOMING_FC_IN_SINK_TOKEN_TABLE_SIZE;
+   \                     emGpIncomingFCInSinkTokenTableSize:
+   \        0x0                      DS8 1
+
+   \                                 In section .data, align 1
+    275          uint8_t emGpIncomingFCInSinkTokenTimeout = EMBER_GP_INCOMING_FC_IN_SINK_TOKEN_TIMEOUT;
+   \                     emGpIncomingFCInSinkTokenTimeout:
+   \        0x0   0x07               DC8 7
+    276          
+
+   \                                 In section .data, align 4
+    277          EmberGpSinkTableEntry *emGpSinkTable = (EmberGpSinkTableEntry *) &emAvailableMemory[END_emGpProxyTable];
+   \                     emGpSinkTable:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xf14
+
+   \                                 In section .bss, align 1
+    278          uint8_t emGpSinkTableSize = EMBER_GP_SINK_TABLE_SIZE;
+   \                     emGpSinkTableSize:
+   \        0x0                      DS8 1
+    279          #define END_emGpSinkTable \
+    280            (END_emGpProxyTable + align(EMBER_GP_SINK_TABLE_SIZE * sizeof(EmberGpSinkTableEntry)))
+    281          
+    282          //------------------------------------------------------------------------------
+    283          // Source routing
+    284          
+    285          #ifdef EMBER_AF_PLUGIN_SOURCE_ROUTE_LIBRARY
+    286          
+    287          // Source Route info
+    288          uint8_t sourceRouteTableEntryCount[NUM_MULTI_PAN_FORKS];
+    289          uint8_t sourceRouteTableNewestIndex[NUM_MULTI_PAN_FORKS];
+    290          uint16_t sourceRouteUpdateConcentratorType[NUM_MULTI_PAN_FORKS];
+    291          uint16_t sourceRouteUpdateMinQS[NUM_MULTI_PAN_FORKS];
+    292          uint16_t sourceRouteUpdateMaxQS[NUM_MULTI_PAN_FORKS];
+    293          uint8_t sourceRouteUpdateRouteErrorThreshold[NUM_MULTI_PAN_FORKS];
+    294          uint8_t sourceRouteUpdateDeliveryFailureThreshold[NUM_MULTI_PAN_FORKS];
+    295          uint8_t sourceRouteUpdateMaxHops[NUM_MULTI_PAN_FORKS];
+    296          uint8_t sourceRouteUpdateRouteErrorCount[NUM_MULTI_PAN_FORKS];
+    297          uint8_t sourceRouteUpdateDeliveryFailureCount[NUM_MULTI_PAN_FORKS];
+    298          EmberNodeId sourceRouteUpdateNodeIdWithBrokenRoute[NUM_MULTI_PAN_FORKS];
+    299          bool sourceRouteUpdateSendAddressDiscoveryNextEvent[NUM_MULTI_PAN_FORKS];
+    300          bool sourceRouteUpdateActiveEvent[NUM_MULTI_PAN_FORKS];
+    301          
+    302          SourceRouteTableEntry *emSourceRouteTableData = (SourceRouteTableEntry *) &emAvailableMemory[END_emGpSinkTable];
+    303          uint8_t emSourceRouteTableSize = EMBER_SOURCE_ROUTE_TABLE_SIZE;
+    304          #define END_emSourceRouteTable \
+    305            (END_emGpSinkTable + align(EMBER_SOURCE_ROUTE_TABLE_SIZE * sizeof(SourceRouteTableEntry) * NUM_MULTI_PAN_FORKS))
+    306          
+    307          #else
+
+   \                                 In section .bss, align 4
+    308          SourceRouteTableEntry *emSourceRouteTableData = NULL;
+   \                     emSourceRouteTableData:
+   \        0x0                      DS8 4
+
+   \                                 In section .bss, align 1
+    309          uint8_t emSourceRouteTableSize = 0;
+   \                     emSourceRouteTableSize:
+   \        0x0                      DS8 1
+    310          #define END_emSourceRouteTable END_emGpSinkTable
+    311          #endif // EMBER_AF_PLUGIN_SOURCE_ROUTE_LIBRARY
+    312          
+    313          //------------------------------------------------------------------------------
+    314          // Binding Table
+    315          
+
+   \                                 In section .data, align 4
+    316          uint16_t *emBindingRemoteNode = (uint16_t *) &emAvailableMemory[END_emSourceRouteTable];
+   \                     emBindingRemoteNode:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xf14
+
+   \                                 In section .data, align 1
+    317          uint8_t emberBindingTableSize = EMBER_BINDING_TABLE_SIZE;
+   \                     emberBindingTableSize:
+   \        0x0   0x10               DC8 16
+    318          #define END_emBindingRemoteNode \
+    319            (END_emSourceRouteTable + align(EMBER_BINDING_TABLE_SIZE * sizeof(uint16_t)))
+    320          
+
+   \                                 In section .data, align 4
+    321          uint8_t *emBindingFlags = &emAvailableMemory[END_emBindingRemoteNode];
+   \                     emBindingFlags:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xf34
+    322          #define END_emBindingFlags \
+    323            (END_emBindingRemoteNode + align(EMBER_BINDING_TABLE_SIZE))
+    324          
+    325          //------------------------------------------------------------------------------
+    326          //End Device Timeouts
+    327          
+
+   \                                 In section .data, align 4
+    328          uint8_t *emEndDeviceTimeoutData = &emAvailableMemory[END_emBindingFlags];
+   \                     emEndDeviceTimeoutData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xf44
+    329          #define END_emEndDeviceTimeoutData           \
+    330            (END_emBindingFlags                        \
+    331             + align(EMBER_CHILD_TABLE_SIZE            \
+    332                     * EMBER_AF_ZC_AND_ZR_DEVICE_COUNT \
+    333                     * sizeof(uint8_t)))
+    334          
+    335          //------------------------------------------------------------------------------
+    336          
+    337          // APS Layer
+    338          
+
+   \                                 In section .data, align 1
+    339          uint8_t emAddressTableSize = EMBER_ADDRESS_TABLE_SIZE;
+   \                     emAddressTableSize:
+   \        0x0   0x0A               DC8 10
+
+   \                                 In section .data, align 4
+    340          EmAddressTableEntry *emAddressTable = (EmAddressTableEntry *) &emAvailableMemory[END_emEndDeviceTimeoutData];
+   \                     emAddressTable:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xf48
+    341          #define END_emAddressTable \
+    342            (END_emEndDeviceTimeoutData + align(EMBER_ADDRESS_TABLE_SIZE * sizeof(EmAddressTableEntry)))
+    343          
+
+   \                                 In section .data, align 1
+    344          uint8_t emMaxApsUnicastMessages = EMBER_APS_UNICAST_MESSAGE_COUNT;
+   \                     emMaxApsUnicastMessages:
+   \        0x0   0x0A               DC8 10
+
+   \                                 In section .data, align 4
+    345          EmApsUnicastMessageData *emApsUnicastMessageData = (EmApsUnicastMessageData *) &emAvailableMemory[END_emAddressTable];
+   \                     emApsUnicastMessageData:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0xfc0
+    346          #define END_emApsUnicastMessageData \
+    347            (END_emAddressTable + align(EMBER_APS_UNICAST_MESSAGE_COUNT * sizeof(EmApsUnicastMessageData)))
+    348          
+
+   \                                 In section .data, align 2
+    349          uint16_t emberApsAckTimeoutMs =
+   \                     emberApsAckTimeoutMs:
+   \        0x0   0x0640             DC16 1'600
+    350            ((EMBER_APSC_MAX_ACK_WAIT_HOPS_MULTIPLIER_MS
+    351              * EMBER_MAX_HOPS)
+    352             + EMBER_APSC_MAX_ACK_WAIT_TERMINAL_SECURITY_MS);
+    353          
+
+   \                                 In section .bss, align 1
+    354          uint8_t emFragmentDelayMs = EMBER_FRAGMENT_DELAY_MS;
+   \                     emFragmentDelayMs:
+   \        0x0                      DS8 1
+
+   \                                 In section .data, align 1
+    355          uint8_t emberFragmentWindowSize = EMBER_FRAGMENT_WINDOW_SIZE;
+   \                     emberFragmentWindowSize:
+   \        0x0   0x01               DC8 1
+    356          
+
+   \                                 In section .bss, align 1
+    357          uint8_t emberKeyTableSize = EMBER_KEY_TABLE_SIZE;
+   \                     emberKeyTableSize:
+   \        0x0                      DS8 1
+
+   \                                 In section .data, align 4
+    358          uint32_t* emIncomingApsFrameCounters = (uint32_t*)&emAvailableMemory[END_emApsUnicastMessageData];
+   \                     emIncomingApsFrameCounters:
+   \        0x0   0x....'....        DC32 emAvailableMemory + 0x1010
+    359          #define END_emIncomingApsFrameCounters \
+    360            (END_emApsUnicastMessageData + align(EMBER_KEY_TABLE_SIZE * sizeof(uint32_t)))
+    361          
+
+   \                                 In section .bss, align 1
+    362          EmberTcLinkKeyRequestPolicy emberTrustCenterLinkKeyRequestPolicies[NUM_MULTI_PAN_FORKS];
+   \                     emberTrustCenterLinkKeyRequestPolicies:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+    363          EmberAppLinkKeyRequestPolicy emberAppLinkKeyRequestPolicies[NUM_MULTI_PAN_FORKS];
+   \                     emberAppLinkKeyRequestPolicies:
+   \        0x0                      DS8 1
+    364          
+
+   \                                 In section .bss, align 1
+    365          uint8_t emCertificateTableSize = EMBER_CERTIFICATE_TABLE_SIZE;
+   \                     emCertificateTableSize:
+   \        0x0                      DS8 1
+    366          
+
+   \                                 In section .bss, align 1
+    367          uint8_t emAppZdoConfigurationFlags =
+   \                     emAppZdoConfigurationFlags:
+   \        0x0                      DS8 1
+    368            0
+    369          
+    370          // Define this in order to receive supported ZDO request messages via
+    371          // the incomingMessageHandler callback.  A supported ZDO request is one that
+    372          // is handled by the EmberZNet stack.  The stack will continue to handle the
+    373          // request and send the appropriate ZDO response even if this configuration
+    374          // option is enabled.
+    375          #ifdef EMBER_APPLICATION_RECEIVES_SUPPORTED_ZDO_REQUESTS
+    376            | EMBER_APP_RECEIVES_SUPPORTED_ZDO_REQUESTS
+    377          #endif
+    378          
+    379          // Define this in order to receive unsupported ZDO request messages via
+    380          // the incomingMessageHandler callback.  An unsupported ZDO request is one that
+    381          // is not handled by the EmberZNet stack, other than to send a 'not supported'
+    382          // ZDO response.  If this configuration option is enabled, the stack will no
+    383          // longer send any ZDO response, and it is the application's responsibility
+    384          // to do so.  To see if a response is required, the application must check
+    385          // the APS options bitfield within the emberIncomingMessageHandler callback to see
+    386          // if the EMBER_APS_OPTION_ZDO_RESPONSE_REQUIRED flag is set.
+    387          #ifdef EMBER_APPLICATION_HANDLES_UNSUPPORTED_ZDO_REQUESTS
+    388            | EMBER_APP_HANDLES_UNSUPPORTED_ZDO_REQUESTS
+    389          #endif
+    390          
+    391          // Define this in order to receive the following ZDO request
+    392          // messages via the emberIncomingMessageHandler callback: SIMPLE_DESCRIPTOR_REQUEST,
+    393          // MATCH_DESCRIPTORS_REQUEST, and ACTIVE_ENDPOINTS_REQUEST.  If this
+    394          // configuration option is enabled, the stack will no longer send any ZDO
+    395          // response, and it is the application's responsibility to do so.
+    396          // To see if a response is required, the application must check
+    397          // the APS options bitfield within the emberIncomingMessageHandler callback to see
+    398          // if the EMBER_APS_OPTION_ZDO_RESPONSE_REQUIRED flag is set.
+    399          #ifdef EMBER_APPLICATION_HANDLES_ENDPOINT_ZDO_REQUESTS
+    400            | EMBER_APP_HANDLES_ZDO_ENDPOINT_REQUESTS
+    401          #endif
+    402          
+    403          // Define this in order to receive the following ZDO request
+    404          // messages via the emberIncomingMessageHandler callback: BINDING_TABLE_REQUEST,
+    405          // BIND_REQUEST, and UNBIND_REQUEST.  If this
+    406          // configuration option is enabled, the stack will no longer send any ZDO
+    407          // response, and it is the application's responsibility to do so.
+    408          // To see if a response is required, the application must check
+    409          // the APS options bitfield within the emberIncomingMessageHandler callback
+    410          // to see if the EMBER_APS_OPTION_ZDO_RESPONSE_REQUIRED flag is set.
+    411          #ifdef EMBER_APPLICATION_HANDLES_BINDING_ZDO_REQUESTS
+    412            | EMBER_APP_HANDLES_ZDO_BINDING_REQUESTS
+    413          #endif
+    414          ;
+    415          
+
+   \                                 In section .data, align 2
+    416          uint16_t emberTransientKeyTimeoutS = EMBER_TRANSIENT_KEY_TIMEOUT_S;
+   \                     emberTransientKeyTimeoutS:
+   \        0x0   0x012C             DC16 300
+    417          
+    418          // This configuration is for non trust center node to assume a
+    419          // concentrator type of the trust center it join to, until it receive
+    420          // many-to-one route request from the trust center. For the trust center
+    421          // node, concentrator type is configured from the concentrator plugin.
+    422          // The stack by default assumes trust center be a low RAM concentrator.
+    423          // By setting to a low RAM concentrator, other devices send route record
+    424          // to the trust center even without receiving many-to-one route request.
+
+   \                                 In section .data, align 1
+    425          EmberAssumeTrustCenterConcentratorType emberAssumedTrustCenterConcentratorType =
+   \                     emberAssumedTrustCenterConcentratorType:
+   \        0x0   0x01               DC8 1
+    426            EMBER_ASSUME_TRUST_CENTER_IS_LOW_RAM_CONCENTRATOR;
+    427          //------------------------------------------------------------------------------
+    428          // Memory Allocation
+    429          #ifndef RESERVED_AVAILABLE_MEMORY
+    430            #define RESERVED_AVAILABLE_MEMORY 0
+    431          #endif
+    432          #define END_stackMemory  END_emIncomingApsFrameCounters + RESERVED_AVAILABLE_MEMORY
+    433          
+    434          // On the XAP2B platform, emAvailableMemory is allocated automatically to fill
+    435          // the available space. On other platforms, we must allocate it here.
+    436          #if defined (CORTEXM3)
+
+   \                                 In section EMHEAP, align 4, root
+    437          VAR_AT_SEGMENT(NO_STRIPPING uint8_t emAvailableMemory[END_stackMemory], __EMHEAP__);
+   \                     emAvailableMemory:
+   \        0x0                      DS8 4'112
+    438          #elif defined(EMBER_TEST)
+    439          #ifndef SIMULATED_EXTRA_MEMORY
+    440          #define SIMULATED_EXTRA_MEMORY 0
+    441          #endif
+    442          uint8_t emAvailableMemory[END_stackMemory + SIMULATED_EXTRA_MEMORY];
+    443          const uint16_t emAvailableMemorySize = END_stackMemory + SIMULATED_EXTRA_MEMORY;
+    444          #else
+    445            #error "Unknown platform."
+    446          #endif
+    447          
+
+   \                                 In section .text, align 2, keep-with-next
+    448          void emCheckAvailableMemory(void)
+    449          {
+    450          }
+   \                     emCheckAvailableMemory: (+1)
+   \        0x0   0x4770             BX       LR
+    451          
+    452          // *****************************************
+    453          // Non-dynamically configurable structures
+    454          // *****************************************
+
+   \                                 In section .rodata, align 1
+    455          const uint8_t emTaskCount = EMBER_TASK_COUNT;
+   \                     emTaskCount:
+   \        0x0   0x05               DC8 5
+
+   \                                 In section .bss, align 4
+    456          EmberTaskControl emTasks[EMBER_TASK_COUNT];
+   \                     emTasks:
+   \        0x0                      DS8 60
+    457          
+    458          // *****************************************
+    459          // Stack Profile Parameters
+    460          // *****************************************
+    461          
+
+   \                                 In section .rodata, align 4
+    462          const uint8_t emberStackProfileId[8] = { 0, };
+   \                     emberStackProfileId:
+   \        0x0   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00
+    463          
+
+   \                                 In section .data, align 1
+    464          uint8_t emDefaultStackProfile = EMBER_STACK_PROFILE;
+   \                     emDefaultStackProfile:
+   \        0x0   0x02               DC8 2
+
+   \                                 In section .data, align 1
+    465          uint8_t emDefaultSecurityLevel = EMBER_SECURITY_LEVEL;
+   \                     emDefaultSecurityLevel:
+   \        0x0   0x05               DC8 5
+
+   \                                 In section .data, align 1
+    466          uint8_t emMaxEndDeviceChildren = EMBER_MAX_END_DEVICE_CHILDREN;
+   \                     emMaxEndDeviceChildren:
+   \        0x0   0x04               DC8 4
+
+   \                                 In section .data, align 1
+    467          uint8_t emMaxHops = EMBER_MAX_HOPS;
+   \                     emMaxHops:
+   \        0x0   0x1E               DC8 30
+
+   \                                 In section .data, align 2
+    468          uint16_t emberMacIndirectTimeout = EMBER_INDIRECT_TRANSMISSION_TIMEOUT;
+   \                     emberMacIndirectTimeout:
+   \        0x0   0x1E00             DC16 7'680
+
+   \                                 In section .data, align 1
+    469          uint8_t emberEndDevicekeepAliveSupportMode = EMBER_END_DEVICE_KEEP_ALIVE_SUPPORT_MODE;
+   \                     emberEndDevicekeepAliveSupportMode:
+   \        0x0   0x03               DC8 3
+
+   \                                 In section .data, align 1
+    470          uint8_t emberEndDevicePollTimeout = EMBER_END_DEVICE_POLL_TIMEOUT;
+   \                     emberEndDevicePollTimeout:
+   \        0x0   0x08               DC8 8
+    471          STATIC_ASSERT(EMBER_END_DEVICE_POLL_TIMEOUT <= MINUTES_16384, "End device timeout out of range");
+
+   \                                 In section .data, align 2
+    472          uint16_t emberLinkPowerDeltaInterval = EMBER_LINK_POWER_DELTA_INTERVAL;
+   \                     emberLinkPowerDeltaInterval:
+   \        0x0   0x012C             DC16 300
+
+   \                                 In section .data, align 1
+    473          uint8_t emEndDeviceBindTimeout = EMBER_END_DEVICE_BIND_TIMEOUT;
+   \                     emEndDeviceBindTimeout:
+   \        0x0   0x3C               DC8 60
+
+   \                                 In section .bss, align 1
+    474          uint8_t emRequestKeyTimeout = EMBER_REQUEST_KEY_TIMEOUT;
+   \                     emRequestKeyTimeout:
+   \        0x0                      DS8 1
+
+   \                                 In section .data, align 1
+    475          uint8_t emPanIdConflictReportThreshold = EMBER_PAN_ID_CONFLICT_REPORT_THRESHOLD;
+   \                     emPanIdConflictReportThreshold:
+   \        0x0   0x02               DC8 2
+
+   \                                 In section .data, align 1
+    476          uint8_t emZcAndZrCount = EMBER_AF_ZC_AND_ZR_DEVICE_COUNT;
+   \                     emZcAndZrCount:
+   \        0x0   0x01               DC8 1
+
+   \                                 In section .data, align 1
+    477          uint8_t emZigbeeMaxNetworkRetries = EMBER_ZIGBEE_NUM_NETWORK_RETRIES_DEFAULT;
+   \                     emZigbeeMaxNetworkRetries:
+   \        0x0   0x0F               DC8 15
+    478          
+    479          #ifndef EMBER_NO_STACK
+
+   \                                 In section .data, align 1
+    480          uint8_t emEndDeviceConfiguration = EMBER_END_DEVICE_CONFIG_PERSIST_DATA_ON_PARENT;
+   \                     emEndDeviceConfiguration:
+   \        0x0   0x01               DC8 1
+    481          #endif
+    482          
+    483          // Normally multicasts do NOT go to the sleepy address (0xFFFF), they go to
+    484          // RxOnWhenIdle=true (0xFFFD).  This can be changed, but doing so is not
+    485          // ZigBee Pro Compliant and is possibly NOT interoperable.
+
+   \                                 In section .bss, align 1
+    486          bool emSendMulticastsToSleepyAddress = EMBER_SEND_MULTICASTS_TO_SLEEPY_ADDRESS;
+   \                     emSendMulticastsToSleepyAddress:
+   \        0x0                      DS8 1
+    487          
+    488          // *****************************************
+    489          // ZigBee Light Link
+    490          // *****************************************
+    491          
+
+   \                                 In section .bss, align 1
+    492          EmberZllPolicy emZllPolicy = EMBER_ZLL_POLICY_DISABLED;
+   \                     emZllPolicy:
+   \        0x0                      DS8 1
+    493          
+    494          // The number of groups required by the ZLL application.
+
+   \                                 In section .data, align 1
+    495          uint8_t emZllGroupAddressesNeeded = EMBER_ZLL_GROUP_ADDRESSES;
+   \                     emZllGroupAddressesNeeded:
+   \        0x0   0x01               DC8 1
+
+   \                                 In section .data, align 1
+    496          int8_t emZllRssiThreshold = EMBER_ZLL_RSSI_THRESHOLD;
+   \                     emZllRssiThreshold:
+   \        0x0   0x80               DC8 -128
+    497          #ifdef EMBER_ZLL_APPLY_THRESHOLD_TO_ALL_INTERPANS
+    498          bool emZllApplyThresholdToAllInterpans = true;
+    499          #else
+
+   \                                 In section .bss, align 1
+    500          bool emZllApplyThresholdToAllInterpans = false;
+   \                     emZllApplyThresholdToAllInterpans:
+   \        0x0                      DS8 1
+    501          #endif
+    502          
+    503          // *****************************************
+    504          // Convenience Stubs
+    505          // *****************************************
+    506          
+    507          // This macro is #define'd at the top of NCP framework applications.
+    508          // Since appbuilder generates stubs to callbacks, these convinience stubs
+    509          // are not needed for framework apps.
+    510          #ifndef __NCP_CONFIG__
+    511          
+    512          #ifndef EMBER_APPLICATION_HAS_TRUST_CENTER_JOIN_HANDLER
+    513          EmberJoinDecision emberDefaultTrustCenterDecision = EMBER_USE_PRECONFIGURED_KEY;
+    514          
+    515          EmberJoinDecision emberTrustCenterJoinHandler(EmberNodeId newNodeId,
+    516                                                        EmberEUI64 newNodeEui64,
+    517                                                        EmberDeviceUpdate status,
+    518                                                        EmberNodeId parentOfNewNode)
+    519          {
+    520            //emzigbee-241-4
+    521          #if defined(EMBER_AF_PLUGIN_CONCENTRATOR)
+    522            if (emberDefaultTrustCenterDecision != EMBER_DENY_JOIN
+    523                && parentOfNewNode != emberGetNodeId()) {
+    524              // stodo: not sure about the condition above,
+    525              // because we should get here only if the new child is not our
+    526              // direct child and it is multiple hops away?
+    527              bool deviceLeft = (status == EMBER_DEVICE_LEFT);
+    528              emChangeSourceRouteEntry(newNodeId, parentOfNewNode, false, deviceLeft);
+    529            }
+    530          #endif
+    531          
+    532            if (status == EMBER_STANDARD_SECURITY_SECURED_REJOIN
+    533                || status == EMBER_DEVICE_LEFT) {
+    534              return EMBER_NO_ACTION;
+    535            }
+    536          
+    537            return emberDefaultTrustCenterDecision;
+    538          }
+    539          #endif
+    540          
+    541          #ifndef EMBER_APPLICATION_HAS_SWITCH_KEY_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    542          void emberSwitchNetworkKeyHandler(uint8_t sequenceNumber)
+    543          {
+    544          }
+   \                     emberSwitchNetworkKeyHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    545          #endif
+    546          
+    547          #ifndef EMBER_APPLICATION_HAS_ZIGBEE_KEY_ESTABLISHMENT_HANDLER
+    548          void emberZigbeeKeyEstablishmentHandler(EmberEUI64 partner, EmberKeyStatus status)
+    549          {
+    550          }
+    551          #endif
+    552          
+    553          #ifndef EMBER_APPLICATION_HAS_CHILD_JOIN_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    554          void emberChildJoinHandler(uint8_t index, bool joining)
+    555          {
+    556          }
+   \                     emberChildJoinHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    557          #endif
+    558          
+    559          #ifndef EMBER_APPLICATION_HAS_POLL_COMPLETE_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    560          void emberPollCompleteHandler(EmberStatus status)
+    561          {
+    562          }
+   \                     emberPollCompleteHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    563          #endif
+    564          
+    565          #ifndef EMBER_APPLICATION_HAS_BOOTLOAD_HANDLERS
+
+   \                                 In section .text, align 2, keep-with-next
+    566          void emberIncomingBootloadMessageHandler(EmberEUI64 longId,
+    567                                                   EmberMessageBuffer message)
+    568          {
+    569          }
+   \                     emberIncomingBootloadMessageHandler: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+    570          void emberBootloadTransmitCompleteHandler(EmberMessageBuffer message,
+    571                                                    EmberStatus status)
+    572          {
+    573          }
+   \                     emberBootloadTransmitCompleteHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    574          #endif
+    575          
+    576          #ifndef EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER
+    577          void emberMacFilterMatchMessageHandler(const EmberMacFilterMatchStruct* macFilterMatchStruct)
+    578          {
+    579            emberMacPassthroughMessageHandler(macFilterMatchStruct->legacyPassthroughType,
+    580                                              macFilterMatchStruct->message);
+    581          }
+    582          #endif
+    583          
+    584          #ifndef EMBER_APPLICATION_HAS_MAC_PASSTHROUGH_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    585          void emberMacPassthroughMessageHandler(EmberMacPassthroughType messageType,
+    586                                                 EmberMessageBuffer message)
+    587          {
+    588          }
+   \                     emberMacPassthroughMessageHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    589          #endif
+    590          #ifndef EMBER_APPLICATION_HAS_RAW_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    591          void emberRawTransmitCompleteHandler(EmberMessageBuffer message,
+    592                                               EmberStatus status)
+    593          {
+    594          }
+   \                     emberRawTransmitCompleteHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    595          #endif
+    596          
+    597          #ifndef EMBER_APPLICATION_HAS_INCOMING_MFG_TEST_MESSAGE_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    598          void emberIncomingMfgTestMessageHandler(uint8_t messageType,
+    599                                                  uint8_t dataLength,
+    600                                                  uint8_t *data)
+    601          {
+    602          }
+   \                     emberIncomingMfgTestMessageHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    603          #endif
+    604          
+    605          #ifndef EMBER_APPLICATION_HAS_ENERGY_SCAN_RESULT_HANDLER
+    606          void emberEnergyScanResultHandler(uint8_t channel, int8_t maxRssiValue)
+    607          {
+    608          }
+    609          #endif
+    610          
+    611          #ifndef EMBER_APPLICATION_HAS_DEBUG_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    612          void emberDebugHandler(EmberMessageBuffer message)
+    613          {
+    614          }
+   \                     emberDebugHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    615          #endif
+    616          
+    617          #ifndef EMBER_APPLICATION_HAS_POLL_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    618          void emberPollHandler(EmberNodeId childId, bool transmitExpected)
+    619          {
+    620          }
+   \                     emberPollHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    621          #endif
+    622          
+    623          #ifndef EMBER_APPLICATION_HAS_REMOTE_BINDING_HANDLER
+    624          EmberStatus emberRemoteSetBindingHandler(EmberBindingTableEntry *entry)
+    625          {
+    626            // Don't let anyone mess with our bindings.
+    627            return EMBER_INVALID_BINDING_INDEX;
+    628          }
+    629          EmberStatus emberRemoteDeleteBindingHandler(uint8_t index)
+    630          {
+    631            // Don't let anyone mess with our bindings.
+    632            return EMBER_INVALID_BINDING_INDEX;
+    633          }
+    634          #endif
+    635          
+    636          #ifndef EMBER_APPLICATION_HAS_INCOMING_MANY_TO_ONE_ROUTE_REQUEST_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    637          void emberIncomingManyToOneRouteRequestHandler(EmberNodeId source,
+    638                                                         EmberEUI64 longId,
+    639                                                         uint8_t cost)
+    640          {
+    641          }
+   \                     emberIncomingManyToOneRouteRequestHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    642          #endif
+    643          
+    644          #ifndef EMBER_APPLICATION_HAS_INCOMING_ROUTE_ERROR_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    645          void emberIncomingRouteErrorHandler(EmberStatus status,
+    646                                              EmberNodeId target)
+    647          {
+    648          }
+   \                     emberIncomingRouteErrorHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    649          #endif
+    650          
+    651          #ifndef EMBER_APPLICATION_HAS_INCOMING_NETWORK_STATUS_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    652          void emberIncomingNetworkStatusHandler(uint8_t errorCode,
+    653                                                 EmberNodeId target)
+    654          {
+    655          }
+   \                     emberIncomingNetworkStatusHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    656          #endif
+    657          
+    658          #ifndef EMBER_APPLICATION_HAS_SOURCE_ROUTING //DEPRECATED
+    659          //Deprecated
+
+   \                                 In section .text, align 2, keep-with-next
+    660          void emberIncomingRouteRecordHandler(EmberNodeId source,
+    661                                               EmberEUI64 sourceEui,
+    662                                               uint8_t relayCount,
+    663                                               EmberMessageBuffer header,
+    664                                               uint8_t relayListIndex)
+    665          {
+    666          }
+   \                     emberIncomingRouteRecordHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    667          //Deprecated
+
+   \                                 In section .text, align 2, keep-with-next
+    668          uint8_t emberAppendSourceRouteHandler(EmberNodeId destination,
+    669                                                EmberMessageBuffer header)
+    670          {
+    671            return 0;
+   \                     emberAppendSourceRouteHandler: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    672          }
+    673          #endif
+    674          
+    675          #ifndef EMBER_APPLICATION_HAS_OVERRIDE_SOURCE_ROUTING
+
+   \                                 In section .text, align 2, keep-with-next
+    676          void emberOverrideIncomingRouteRecordHandler(EmberNodeId source,
+    677                                                       EmberEUI64 sourceEui,
+    678                                                       uint8_t relayCount,
+    679                                                       EmberMessageBuffer header,
+    680                                                       uint8_t relayListIndex,
+    681                                                       bool* consumed)
+    682          {
+   \                     emberOverrideIncomingRouteRecordHandler: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+    683            emberIncomingRouteRecordHandler(source,
+    684                                            sourceEui,
+    685                                            relayCount,
+    686                                            header,
+    687                                            relayListIndex);
+   \        0x2   0xF89D 0x4010      LDRB     R4,[SP, #+16]
+   \        0x6   0x9400             STR      R4,[SP, #+0]
+   \        0x8   0x.... 0x....      BL       emberIncomingRouteRecordHandler
+    688          }
+   \        0xC   0xBD13             POP      {R0,R1,R4,PC}
+    689          
+
+   \                                 In section .text, align 2, keep-with-next
+    690          uint8_t emberOverrideAppendSourceRouteHandler(EmberNodeId destination,
+    691                                                        EmberMessageBuffer* header,
+    692                                                        bool* consumed)
+    693          {
+    694            return 0;
+   \                     emberOverrideAppendSourceRouteHandler: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    695          }
+    696          
+
+   \                                 In section .text, align 2, keep-with-next
+    697          void emberOverrideFurthurIndexForSourceRouteAddEntryHandler(EmberNodeId id, uint8_t* furtherIndex)
+    698          {
+    699          }
+   \                     emberOverrideFurthurIndexForSourceRouteAddEntryHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    700          #endif
+    701          
+    702          #ifndef EMBER_APPLICATION_HAS_GET_ENDPOINT
+    703          uint8_t emberGetEndpoint(uint8_t index)
+    704          {
+    705            return emberEndpoints[index].endpoint;
+    706          }
+    707          
+    708          bool emberGetEndpointDescription(uint8_t endpoint,
+    709                                           EmberEndpointDescription *result)
+    710          {
+    711            uint8_t i;
+    712            EmberEndpoint *endpoints = emberEndpoints;
+    713            for (i = 0; i < emberEndpointCount; i++, endpoints++) {
+    714              if (endpoints->endpoint == endpoint) {
+    715                EmberEndpointDescription const * d = endpoints->description;
+    716                result->profileId                   = d->profileId;
+    717                result->deviceId                    = d->deviceId;
+    718                result->deviceVersion               = d->deviceVersion;
+    719                result->inputClusterCount           = d->inputClusterCount;
+    720                result->outputClusterCount          = d->outputClusterCount;
+    721                return true;
+    722              }
+    723            }
+    724            return false;
+    725          }
+    726          
+    727          uint16_t emberGetEndpointCluster(uint8_t endpoint,
+    728                                           EmberClusterListId listId,
+    729                                           uint8_t listIndex)
+    730          {
+    731            uint8_t i;
+    732            EmberEndpoint *endpoints = emberEndpoints;
+    733            for (i = 0; i < emberEndpointCount; i++, endpoints++) {
+    734              if (endpoints->endpoint == endpoint) {
+    735                switch (listId) {
+    736                  case EMBER_INPUT_CLUSTER_LIST:
+    737                    return endpoints->inputClusterList[listIndex];
+    738                  case EMBER_OUTPUT_CLUSTER_LIST:
+    739                    return endpoints->outputClusterList[listIndex];
+    740                  default: {
+    741                  }
+    742                }
+    743              }
+    744            }
+    745            return 0;
+    746          }
+    747          
+    748          #endif // defined EMBER_APPLICATION_HAS_GET_ENDPOINT
+    749          
+    750          // Inform the application that an orphan notification has been received.
+    751          // This is generally not useful for applications. It could be useful in
+    752          // testing and is included for this purpose.
+    753          #ifndef EMBER_APPLICATION_HAS_ORPHAN_NOTIFICATION_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    754          void emberOrphanNotificationHandler(EmberEUI64 longId)
+    755          {
+    756            return;
+   \                     emberOrphanNotificationHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    757          }
+    758          #endif
+    759          
+    760          #ifndef EMBER_APPLICATION_HAS_PAN_ID_CONFLICT_HANDLER
+    761          // This handler is called by the
+    762          //  stack to report the number of conflict reports exceeds
+    763          //  EMBER_PAN_ID_CONFLICT_REPORT_THRESHOLD within a period of 1 minute )
+
+   \                                 In section .text, align 2, keep-with-next
+    764          EmberStatus emberPanIdConflictHandler(int8_t conflictCount)
+    765          {
+    766            return EMBER_SUCCESS;
+   \                     emberPanIdConflictHandler: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    767          }
+    768          #endif
+    769          
+    770          #ifndef EMBER_APPLICATION_HAS_COUNTER_HANDLER
+    771          
+
+   \                                 In section .text, align 2, keep-with-next
+    772          void emberCounterHandler(EmberCounterType type, EmberCounterInfo info)
+    773          {
+    774          }
+   \                     emberCounterHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    775          #endif
+    776          
+    777          #ifndef EMBER_APPLICATION_HAS_COUNTER_ROLLOVER_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    778          void emberCounterRolloverHandler(EmberCounterType type)
+    779          {
+    780          }
+   \                     emberCounterRolloverHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    781          #endif
+    782          
+    783          #ifndef EMBER_APPLICATION_HAS_STACK_TOKEN_CHANGED_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    784          void emberStackTokenChangedHandler(uint16_t tokenAddress)
+    785          {
+    786          }
+   \                     emberStackTokenChangedHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    787          #endif
+    788          
+    789          #ifndef EMBER_APPLICATION_HAS_ID_CONFLICT_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    790          void emberIdConflictHandler(EmberNodeId conflictingId)
+    791          {
+    792          }
+   \                     emberIdConflictHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    793          #endif
+    794          
+    795          #ifndef EMBER_APPLICATION_HAS_MAC_PASSTHROUGH_FILTER_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    796          bool emberMacPassthroughFilterHandler(uint8_t *macHeader)
+    797          {
+    798            return false;
+   \                     emberMacPassthroughFilterHandler: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    799          }
+    800          #endif
+    801          
+    802          #ifndef EMBER_APPLICATION_HAS_ZLL_ADDRESS_ASSIGNMENT_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    803          void emberZllAddressAssignmentHandler(const EmberZllAddressAssignment* addressInfo)
+    804          {
+    805          }
+   \                     emberZllAddressAssignmentHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    806          #endif
+    807          
+    808          #ifndef EMBER_APPLICATION_HAS_ZLL_NETWORK_FOUND_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    809          void emberZllNetworkFoundHandler(const EmberZllNetwork* networkInfo,
+    810                                           const EmberZllDeviceInfoRecord* deviceInfo)
+    811          {
+    812          }
+   \                     emberZllNetworkFoundHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    813          #endif
+    814          
+    815          #ifndef EMBER_APPLICATION_HAS_ZLL_SCAN_COMPLETE_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    816          void emberZllScanCompleteHandler(EmberStatus status)
+    817          {
+    818          }
+   \                     emberZllScanCompleteHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    819          #endif
+    820          
+    821          #ifndef EMBER_APPLICATION_HAS_ZLL_TOUCH_LINK_TARGET_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    822          void emberZllTouchLinkTargetHandler(const EmberZllNetwork* networkInfo)
+    823          {
+    824          }
+   \                     emberZllTouchLinkTargetHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    825          #endif
+    826          
+    827          #ifndef EMBER_APPLICATION_HAS_CALCULATE_SMACS_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    828          void emberCalculateSmacsHandler(EmberStatus status,
+    829                                          EmberSmacData* initiatorSmac,
+    830                                          EmberSmacData* responderSmac)
+    831          {
+    832          }
+   \                     emberCalculateSmacsHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    833          #endif
+    834          
+    835          #ifndef EMBER_APPLICATION_HAS_GENERATE_CBKE_KEYS_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    836          void emberGenerateCbkeKeysHandler(EmberStatus status,
+    837                                            EmberPublicKeyData *ephemeralPublicKey)
+    838          {
+    839          }
+   \                     emberGenerateCbkeKeysHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    840          #endif
+    841          
+    842          #ifndef EMBER_APPLICATION_HAS_CALCULATE_SMACS_HANDLER_283K1
+
+   \                                 In section .text, align 2, keep-with-next
+    843          void emberCalculateSmacsHandler283k1(EmberStatus status,
+    844                                               EmberSmacData *initiatorSmac,
+    845                                               EmberSmacData *responderSmac)
+    846          {
+    847          }
+   \                     emberCalculateSmacsHandler283k1: (+1)
+   \        0x0   0x4770             BX       LR
+    848          #endif
+    849          
+    850          #ifndef EMBER_APPLICATION_HAS_GENERATE_CBKE_KEYS_HANDLER_283K1
+
+   \                                 In section .text, align 2, keep-with-next
+    851          void emberGenerateCbkeKeysHandler283k1(EmberStatus status,
+    852                                                 EmberPublicKey283k1Data *ephemeralPublicKey)
+    853          {
+    854          }
+   \                     emberGenerateCbkeKeysHandler283k1: (+1)
+   \        0x0   0x4770             BX       LR
+    855          #endif
+    856          
+    857          #ifndef EMBER_APPLICATION_HAS_DSA_SIGN_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    858          void emberDsaSignHandler(EmberStatus status,
+    859                                   EmberMessageBuffer signedMessage)
+    860          {
+    861          }
+   \                     emberDsaSignHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    862          #endif
+    863          
+    864          #ifndef EMBER_APPLICATION_HAS_DSA_VERIFY_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    865          void emberDsaVerifyHandler(EmberStatus status)
+    866          {
+    867          }
+   \                     emberDsaVerifyHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    868          #endif
+    869          
+    870          #ifndef EMBER_APPLICATION_HAS_RTOS_IDLE_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    871          bool emberRtosIdleHandler(uint32_t *idleTimeMs)
+    872          {
+    873            return false;
+   \                     emberRtosIdleHandler: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    874          }
+    875          #endif
+    876          
+    877          #ifndef EMBER_APPLICATION_HAS_RTOS_STACK_WAKEUP_ISR_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    878          void emberRtosStackWakeupIsrHandler(void)
+    879          {
+    880          }
+   \                     emberRtosStackWakeupIsrHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    881          #endif
+    882          
+    883          #ifndef EMBER_APPLICATION_HAS_DUTY_CYCLE_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    884          void emberDutyCycleHandler(uint8_t channelPage,
+    885                                     uint8_t channel,
+    886                                     EmberDutyCycleState state)
+    887          {
+    888          }
+   \                     emberDutyCycleHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    889          #endif
+    890          #ifndef EMBER_APPLICATION_HAS_AF_COUNTER_HANDLER
+
+   \                                 In section .text, align 2, keep-with-next
+    891          void emberAfCounterHandler(EmberCounterType type, EmberCounterInfo info)
+    892          {
+    893          }
+   \                     emberAfCounterHandler: (+1)
+   \        0x0   0x4770             BX       LR
+    894          #endif
+    895          
+    896          #ifndef EMBER_APPLICATION_HAS_BUFFER_MARKER
+    897          void emberMarkApplicationBuffers()
+    898          {
+    899          }
+    900          #endif
+    901          
+    902          #ifndef EMBER_AF_PLUGIN_PACKET_HANDOFF
+    903            #if defined(EMBER_CALLBACK_INCOMING_PACKET_FILTER) \
+    904            || defined(EMBER_CALLBACK_OUTGOING_PACKET_FILTER)
+    905              #error "Use of the Packet Filter Callbacks requires the Packet Handoff Plugin"
+    906            #endif
+
+   \                                 In section .text, align 2, keep-with-next
+    907          EmberPacketAction emberPacketHandoffIncoming(EmberZigbeePacketType packetType,
+    908                                                       EmberMessageBuffer packetBuffer,
+    909                                                       uint8_t index,
+    910                                                       void *data)
+    911          {
+    912            return EMBER_ACCEPT_PACKET;
+   \                     emberPacketHandoffIncoming: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+    913          }
+    914          
+
+   \                                 In section .text, align 2, keep-with-next
+    915          EmberPacketAction emberPacketHandoffOutgoing(EmberZigbeePacketType packetType,
+    916                                                       EmberMessageBuffer packetBuffer,
+    917                                                       uint8_t index,
+    918                                                       void *data)
+    919          {
+    920            return EMBER_ACCEPT_PACKET;
+   \                     emberPacketHandoffOutgoing: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+    921          }
+    922          #endif
+    923          #endif /* __NCP_CONFIG__ */
+    924          
+    925          // Stubs that apply to both SoC and NCP
+    926          
+    927          // Temporary change: add stubs to compile NCP images and other apps that don't
+    928          // know about the Zigbee Event Logger plugin
+    929          #ifndef EMBER_AF_PLUGIN_ZIGBEE_EVENT_LOGGER
+    930           #include "app/framework/plugin/zigbee-event-logger-stub/zigbee-event-logger-stub-gen.c"
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddBootEvent(uint32_t, uint16_t)
+   \                     emberAfPluginZigBeeEventLoggerAddBootEvent: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddJoinNetwork(uint16_t, uint8_t, uint8_t, uint8_t *)
+   \                     emberAfPluginZigBeeEventLoggerAddJoinNetwork: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddTrustCenterRejoin(uint32_t, uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddTrustCenterRejoin: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddSecureRejoin(uint32_t, uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddSecureRejoin: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddLeaveWithoutRejoin(uint16_t, uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddLeaveWithoutRejoin: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddLeaveWithRejoin(uint16_t, uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddLeaveWithRejoin: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddTrustCenterLinkKeyChange(void)
+   \                     emberAfPluginZigBeeEventLoggerAddTrustCenterLinkKeyChange: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddNetworkKeySequenceChange(uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddNetworkKeySequenceChange: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddReset(uint8_t, uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddReset: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddChannelChange(uint8_t, uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddChannelChange: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddParentChange(uint16_t, uint8_t *)
+   \                     emberAfPluginZigBeeEventLoggerAddParentChange: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddDutyCycleChange(uint8_t, uint16_t, uint16_t, uint16_t)
+   \                     emberAfPluginZigBeeEventLoggerAddDutyCycleChange: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddChildAdded(uint16_t, uint8_t *)
+   \                     emberAfPluginZigBeeEventLoggerAddChildAdded: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddChildRemoved(uint16_t, uint8_t *)
+   \                     emberAfPluginZigBeeEventLoggerAddChildRemoved: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddChildTimedOut(uint16_t, uint8_t *)
+   \                     emberAfPluginZigBeeEventLoggerAddChildTimedOut: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddStackStatus(uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddStackStatus: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddTimeSync(uint32_t, uint32_t)
+   \                     emberAfPluginZigBeeEventLoggerAddTimeSync: (+1)
+   \        0x0   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __softfp void emberAfPluginZigBeeEventLoggerAddTrustCenterJoinDecision(uint16_t, uint8_t)
+   \                     emberAfPluginZigBeeEventLoggerAddTrustCenterJoinDecision: (+1)
+   \        0x0   0x4770             BX       LR
+    931          #endif // !EMBER_AF_PLUGIN_ZIGBEE_EVENT_LOGGER
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   emCheckAvailableMemory
+       0   emberAfCounterHandler
+       0   emberAfPluginZigBeeEventLoggerAddBootEvent
+       0   emberAfPluginZigBeeEventLoggerAddChannelChange
+       0   emberAfPluginZigBeeEventLoggerAddChildAdded
+       0   emberAfPluginZigBeeEventLoggerAddChildRemoved
+       0   emberAfPluginZigBeeEventLoggerAddChildTimedOut
+       0   emberAfPluginZigBeeEventLoggerAddDutyCycleChange
+       0   emberAfPluginZigBeeEventLoggerAddJoinNetwork
+       0   emberAfPluginZigBeeEventLoggerAddLeaveWithRejoin
+       0   emberAfPluginZigBeeEventLoggerAddLeaveWithoutRejoin
+       0   emberAfPluginZigBeeEventLoggerAddNetworkKeySequenceChange
+       0   emberAfPluginZigBeeEventLoggerAddParentChange
+       0   emberAfPluginZigBeeEventLoggerAddReset
+       0   emberAfPluginZigBeeEventLoggerAddSecureRejoin
+       0   emberAfPluginZigBeeEventLoggerAddStackStatus
+       0   emberAfPluginZigBeeEventLoggerAddTimeSync
+       0   emberAfPluginZigBeeEventLoggerAddTrustCenterJoinDecision
+       0   emberAfPluginZigBeeEventLoggerAddTrustCenterLinkKeyChange
+       0   emberAfPluginZigBeeEventLoggerAddTrustCenterRejoin
+       0   emberAppendSourceRouteHandler
+       0   emberBootloadTransmitCompleteHandler
+       0   emberCalculateSmacsHandler
+       0   emberCalculateSmacsHandler283k1
+       0   emberChildJoinHandler
+       0   emberCounterHandler
+       0   emberCounterRolloverHandler
+       0   emberDebugHandler
+       0   emberDsaSignHandler
+       0   emberDsaVerifyHandler
+       0   emberDutyCycleHandler
+       0   emberGenerateCbkeKeysHandler
+       0   emberGenerateCbkeKeysHandler283k1
+       0   emberIdConflictHandler
+       0   emberIncomingBootloadMessageHandler
+       0   emberIncomingManyToOneRouteRequestHandler
+       0   emberIncomingMfgTestMessageHandler
+       0   emberIncomingNetworkStatusHandler
+       0   emberIncomingRouteErrorHandler
+       0   emberIncomingRouteRecordHandler
+       0   emberMacPassthroughFilterHandler
+       0   emberMacPassthroughMessageHandler
+       0   emberOrphanNotificationHandler
+       0   emberOverrideAppendSourceRouteHandler
+       0   emberOverrideFurthurIndexForSourceRouteAddEntryHandler
+      16   emberOverrideIncomingRouteRecordHandler
+        16   -> emberIncomingRouteRecordHandler
+       0   emberPacketHandoffIncoming
+       0   emberPacketHandoffOutgoing
+       0   emberPanIdConflictHandler
+       0   emberPollCompleteHandler
+       0   emberPollHandler
+       0   emberRawTransmitCompleteHandler
+       0   emberRtosIdleHandler
+       0   emberRtosStackWakeupIsrHandler
+       0   emberStackTokenChangedHandler
+       0   emberSwitchNetworkKeyHandler
+       0   emberZllAddressAssignmentHandler
+       0   emberZllNetworkFoundHandler
+       0   emberZllScanCompleteHandler
+       0   emberZllTouchLinkTargetHandler
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       1  blackListedIdByteArray
+       2  blacklistedIdsArray
+       4  emAddressTable
+       1  emAddressTableSize
+       1  emAllowRelay
+       8  emAllowTcRejoinsUsingWellKnownKeyEventControls
+       1  emApiVersion
+       1  emAppZdoConfigurationFlags
+       4  emApsUnicastMessageData
+   4'112  emAvailableMemory
+       8  emBeaconEventControls
+       4  emBindingFlags
+       4  emBindingRemoteNode
+       4  emBroadcastTableData
+       1  emBroadcastTableSize
+       1  emCertificateTableSize
+       2  emCheckAvailableMemory
+       4  emChildLqiData
+       4  emChildPower
+       4  emChildStatusData
+       4  emChildTableData
+       4  emChildTimersData
+       1  emDefaultSecurityLevel
+       1  emDefaultStackProfile
+       4  emDiscoveryTable
+       1  emDiscoveryTableSize
+       1  emEndDeviceBindTimeout
+       1  emEndDeviceConfiguration
+       4  emEndDeviceTimeoutData
+       1  emFragmentDelayMs
+       4  emFrameCountersTable
+       1  emGpIncomingFCInSinkTokenTableSize
+       1  emGpIncomingFCInSinkTokenTimeout
+       1  emGpIncomingFCTokenTableSize
+       1  emGpIncomingFCTokenTimeout
+       4  emGpProxyTable
+       1  emGpProxyTableSize
+       4  emGpSinkTable
+       1  emGpSinkTableSize
+       8  emGpTxEventControls
+       4  emIncomingApsFrameCounters
+       1  emMaxApsUnicastMessages
+       1  emMaxEndDeviceChildren
+       1  emMaxHops
+      88  emMultiPanEventData
+       4  emNeighborData
+       8  emNeighborExchangeEventControls
+       4  emNetworkDescriptor
+       8  emNetworkManagementEventControls
+       1  emNumMultiPanForkedEvents
+       1  emNumMultiPanForks
+       1  emPacketBufferCount
+       1  emPanIdConflictReportThreshold
+       4  emPanInfoData
+       8  emPermitJoiningEventControls
+       8  emRequestKeyEventControls
+       1  emRequestKeyTimeout
+       4  emRetryQueue
+       1  emRetryQueueSize
+       4  emRouteData
+       4  emRouteRecordTableData
+       1  emRouteTableSize
+       1  emRouterNeighborTableSize
+       1  emSendMulticastsToSleepyAddress
+       8  emSendParentAnnounceEventControls
+       4  emSourceRouteTableData
+       1  emSourceRouteTableSize
+       8  emSourceRouteUpdateEventControls
+       4  emStoreAndForwardQueue
+       1  emStoreAndForwardQueueSize
+       1  emSupportedNetworks
+       1  emTaskCount
+      60  emTasks
+       8  emTransientLinkKeyEventControls
+       1  emZcAndZrCount
+       1  emZigbeeMaxNetworkRetries
+       1  emZllApplyThresholdToAllInterpans
+       1  emZllGroupAddressesNeeded
+       1  emZllPolicy
+       1  emZllRssiThreshold
+       2  emberAfCounterHandler
+       2  emberAfPluginZigBeeEventLoggerAddBootEvent
+       2  emberAfPluginZigBeeEventLoggerAddChannelChange
+       2  emberAfPluginZigBeeEventLoggerAddChildAdded
+       2  emberAfPluginZigBeeEventLoggerAddChildRemoved
+       2  emberAfPluginZigBeeEventLoggerAddChildTimedOut
+       2  emberAfPluginZigBeeEventLoggerAddDutyCycleChange
+       2  emberAfPluginZigBeeEventLoggerAddJoinNetwork
+       2  emberAfPluginZigBeeEventLoggerAddLeaveWithRejoin
+       2  emberAfPluginZigBeeEventLoggerAddLeaveWithoutRejoin
+       2  emberAfPluginZigBeeEventLoggerAddNetworkKeySequenceChange
+       2  emberAfPluginZigBeeEventLoggerAddParentChange
+       2  emberAfPluginZigBeeEventLoggerAddReset
+       2  emberAfPluginZigBeeEventLoggerAddSecureRejoin
+       2  emberAfPluginZigBeeEventLoggerAddStackStatus
+       2  emberAfPluginZigBeeEventLoggerAddTimeSync
+       2  emberAfPluginZigBeeEventLoggerAddTrustCenterJoinDecision
+       2  emberAfPluginZigBeeEventLoggerAddTrustCenterLinkKeyChange
+       2  emberAfPluginZigBeeEventLoggerAddTrustCenterRejoin
+       1  emberAppLinkKeyRequestPolicies
+       4  emberAppendSourceRouteHandler
+       2  emberApsAckTimeoutMs
+       1  emberAssumedTrustCenterConcentratorType
+       1  emberBindingTableSize
+       2  emberBootloadTransmitCompleteHandler
+       2  emberCalculateSmacsHandler
+       2  emberCalculateSmacsHandler283k1
+       2  emberChildJoinHandler
+       1  emberChildTableSize
+       2  emberCounterHandler
+       2  emberCounterRolloverHandler
+       2  emberDebugHandler
+       2  emberDsaSignHandler
+       2  emberDsaVerifyHandler
+       2  emberDutyCycleHandler
+       1  emberEndDevicePollTimeout
+       1  emberEndDevicekeepAliveSupportMode
+       1  emberFragmentWindowSize
+       2  emberGenerateCbkeKeysHandler
+       2  emberGenerateCbkeKeysHandler283k1
+       2  emberIdConflictHandler
+       2  emberIncomingBootloadMessageHandler
+       2  emberIncomingManyToOneRouteRequestHandler
+       2  emberIncomingMfgTestMessageHandler
+       2  emberIncomingNetworkStatusHandler
+       2  emberIncomingRouteErrorHandler
+       2  emberIncomingRouteRecordHandler
+       1  emberKeyTableSize
+       2  emberLinkPowerDeltaInterval
+       2  emberMacIndirectTimeout
+       4  emberMacPassthroughFilterHandler
+       2  emberMacPassthroughMessageHandler
+       4  emberMulticastTable
+       1  emberMulticastTableSize
+       2  emberOrphanNotificationHandler
+       4  emberOverrideAppendSourceRouteHandler
+       2  emberOverrideFurthurIndexForSourceRouteAddEntryHandler
+      14  emberOverrideIncomingRouteRecordHandler
+       4  emberPacketHandoffIncoming
+       4  emberPacketHandoffOutgoing
+       4  emberPanIdConflictHandler
+       2  emberPollCompleteHandler
+       2  emberPollHandler
+       2  emberRawTransmitCompleteHandler
+       4  emberRtosIdleHandler
+       2  emberRtosStackWakeupIsrHandler
+       8  emberStackProfileId
+       2  emberStackTokenChangedHandler
+       2  emberSwitchNetworkKeyHandler
+       2  emberTransientKeyTimeoutS
+       1  emberTrustCenterLinkKeyRequestPolicies
+       2  emberZllAddressAssignmentHandler
+       2  emberZllNetworkFoundHandler
+       2  emberZllScanCompleteHandler
+       2  emberZllTouchLinkTargetHandler
+       4  heapMemory
+       4  heapMemorySize
+       1  panConflictMeters
+       2  trustCenterPolicies
+       2  zigbeeMacFilterList
+
+ 
+   252 bytes in section .bss
+   146 bytes in section .data
+    12 bytes in section .rodata
+   146 bytes in section .text
+ 4'112 bytes in section EMHEAP
+ 
+   146 bytes of CODE  memory
+    12 bytes of CONST memory
+ 4'510 bytes of DATA  memory
+
+Errors: none
+Warnings: none

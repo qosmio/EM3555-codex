@@ -1,0 +1,1709 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:31
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\color_math.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\color_math.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\src\color_math.c -D
+#        CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2 -D
+#        PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"color_math.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\color_math.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\color_math.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir\color_math.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\color_math.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\src\color_math.c
+      1          #include "color_math.h"
+      2          
+      3          #include <stddef.h>
+      4          
+      5          #include "config/firmware_config.h"
+      6          
+
+   \                                 In section .text, align 2, keep-with-next
+      7          static uint16_t max4_u16(uint16_t a, uint16_t b, uint16_t c, uint16_t d)
+      8          {
+      9            uint16_t maxValue = (a > b ? a : b);
+   \                     max4_u16: (+1)
+   \        0x0   0x4288             CMP      R0,R1
+   \        0x2   0xD200             BCS.N    ??max4_u16_0
+   \        0x4   0x4608             MOV      R0,R1
+     10            maxValue = (maxValue > c ? maxValue : c);
+   \                     ??max4_u16_0: (+1)
+   \        0x6   0x4290             CMP      R0,R2
+   \        0x8   0xD200             BCS.N    ??max4_u16_1
+   \        0xA   0x4610             MOV      R0,R2
+     11            return (maxValue > d ? maxValue : d);
+   \                     ??max4_u16_1: (+1)
+   \        0xC   0x4298             CMP      R0,R3
+   \        0xE   0xD200             BCS.N    ??max4_u16_2
+   \       0x10   0x4618             MOV      R0,R3
+   \                     ??max4_u16_2: (+1)
+   \       0x12   0x4770             BX       LR
+     12          }
+     13          
+
+   \                                 In section .text, align 2, keep-with-next
+     14          static uint16_t max3_u16(uint16_t a, uint16_t b, uint16_t c)
+     15          {
+     16            uint16_t maxValue = (a > b ? a : b);
+   \                     max3_u16: (+1)
+   \        0x0   0x4288             CMP      R0,R1
+   \        0x2   0xD200             BCS.N    ??max3_u16_0
+   \        0x4   0x4608             MOV      R0,R1
+     17            return (maxValue > c ? maxValue : c);
+   \                     ??max3_u16_0: (+1)
+   \        0x6   0x4290             CMP      R0,R2
+   \        0x8   0xD200             BCS.N    ??max3_u16_1
+   \        0xA   0x4610             MOV      R0,R2
+   \                     ??max3_u16_1: (+1)
+   \        0xC   0x4770             BX       LR
+     18          }
+     19          
+
+   \                                 In section .text, align 2, keep-with-next
+     20          static uint16_t min3_u16(uint16_t a, uint16_t b, uint16_t c)
+     21          {
+     22            uint16_t minValue = (a < b ? a : b);
+   \                     min3_u16: (+1)
+   \        0x0   0x4288             CMP      R0,R1
+   \        0x2   0xD900             BLS.N    ??min3_u16_0
+   \        0x4   0x4608             MOV      R0,R1
+     23            return (minValue < c ? minValue : c);
+   \                     ??min3_u16_0: (+1)
+   \        0x6   0x4290             CMP      R0,R2
+   \        0x8   0xD900             BLS.N    ??min3_u16_1
+   \        0xA   0x4610             MOV      R0,R2
+   \                     ??min3_u16_1: (+1)
+   \        0xC   0x4770             BX       LR
+     24          }
+     25          
+
+   \                                 In section .text, align 2, keep-with-next
+     26          static bool rgb_channels_are_neutralish(const Em3555RgbwChannels *channels)
+     27          {
+   \                     rgb_channels_are_neutralish: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     28            uint16_t maxRgb;
+     29            uint16_t minRgb;
+     30            uint16_t spread;
+     31            uint16_t allowedSpread;
+     32          
+     33            if (channels == NULL) {
+   \        0x4   0xD101             BNE.N    ??rgb_channels_are_neutralish_0
+     34              return false;
+   \        0x6   0x2000             MOVS     R0,#+0
+   \        0x8   0xBD32             POP      {R1,R4,R5,PC}
+     35            }
+     36          
+     37            maxRgb = max3_u16(channels->red, channels->green, channels->blue);
+   \                     ??rgb_channels_are_neutralish_0: (+1)
+   \        0xA   0x88A2             LDRH     R2,[R4, #+4]
+   \        0xC   0x8861             LDRH     R1,[R4, #+2]
+   \        0xE   0x8820             LDRH     R0,[R4, #+0]
+   \       0x10   0x.... 0x....      BL       max3_u16
+   \       0x14   0x0005             MOVS     R5,R0
+     38            if (maxRgb == 0U) {
+   \       0x16   0xD101             BNE.N    ??rgb_channels_are_neutralish_1
+     39              return true;
+   \       0x18   0x2001             MOVS     R0,#+1
+   \       0x1A   0xBD32             POP      {R1,R4,R5,PC}
+     40            }
+     41          
+     42            minRgb = min3_u16(channels->red, channels->green, channels->blue);
+     43            spread = (uint16_t)(maxRgb - minRgb);
+     44            allowedSpread = (uint16_t)(maxRgb / EM3555_RGB_WHITE_ASSIST_THRESHOLD_DIVISOR);
+     45          
+     46            return (spread <= allowedSpread);
+   \                     ??rgb_channels_are_neutralish_1: (+1)
+   \       0x1C   0x88A2             LDRH     R2,[R4, #+4]
+   \       0x1E   0x8861             LDRH     R1,[R4, #+2]
+   \       0x20   0x8820             LDRH     R0,[R4, #+0]
+   \       0x22   0x.... 0x....      BL       min3_u16
+   \       0x26   0x1A28             SUBS     R0,R5,R0
+   \       0x28   0xB280             UXTH     R0,R0
+   \       0x2A   0x08AD             LSRS     R5,R5,#+2
+   \       0x2C   0x4285             CMP      R5,R0
+   \       0x2E   0xDB01             BLT.N    ??rgb_channels_are_neutralish_2
+   \       0x30   0x2001             MOVS     R0,#+1
+   \       0x32   0xBD32             POP      {R1,R4,R5,PC}
+   \                     ??rgb_channels_are_neutralish_2: (+1)
+   \       0x34   0x2000             MOVS     R0,#+0
+   \       0x36   0xBD32             POP      {R1,R4,R5,PC}
+     47          }
+     48          
+
+   \                                 In section .text, align 2, keep-with-next
+     49          static uint8_t wrap_hue_u8(int32_t value)
+     50          {
+     51            int32_t wrapped = value % 255;
+   \                     wrap_hue_u8: (+1)
+   \        0x0   0x21FF             MOVS     R1,#+255
+   \        0x2   0xFB90 0xF1F1      SDIV     R1,R0,R1
+   \        0x6   0xEBC1 0x2101      RSB      R1,R1,R1, LSL #+8
+   \        0xA   0x1A40             SUBS     R0,R0,R1
+     52          
+     53            if (wrapped < 0) {
+   \        0xC   0xD500             BPL.N    ??wrap_hue_u8_0
+     54              wrapped += 255;
+   \        0xE   0x30FF             ADDS     R0,R0,#+255
+     55            }
+     56          
+     57            return (uint8_t)wrapped;
+   \                     ??wrap_hue_u8_0: (+1)
+   \       0x10   0xB2C0             UXTB     R0,R0
+   \       0x12   0x4770             BX       LR
+     58          }
+     59          
+
+   \                                 In section .text, align 2, keep-with-next
+     60          static uint32_t clamp_positive_i64_to_u32(int64_t value)
+     61          {
+     62            if (value <= 0) {
+   \                     clamp_positive_i64_to_u32: (+1)
+   \        0x0   0x2201             MOVS     R2,#+1
+   \        0x2   0x2300             MOVS     R3,#+0
+   \        0x4   0x4299             CMP      R1,R3
+   \        0x6   0xDC03             BGT.N    ??clamp_positive_i64_to_u32_0
+   \        0x8   0xDB01             BLT.N    ??clamp_positive_i64_to_u32_1
+   \        0xA   0x4290             CMP      R0,R2
+   \        0xC   0xD200             BCS.N    ??clamp_positive_i64_to_u32_0
+     63              return 0UL;
+   \                     ??clamp_positive_i64_to_u32_1: (+1)
+   \        0xE   0x4618             MOV      R0,R3
+     64            }
+     65          
+     66            return (uint32_t)value;
+   \                     ??clamp_positive_i64_to_u32_0: (+1)
+   \       0x10   0x4770             BX       LR
+     67          }
+     68          
+
+   \                                 In section .text, align 2, keep-with-next
+     69          static uint16_t normalize_channel_u32_to_target(uint32_t value,
+     70                                                          uint32_t maxValue,
+     71                                                          uint16_t targetMax)
+     72          {
+   \                     normalize_channel_u32_to_target: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x000C             MOVS     R4,R1
+     73            if (maxValue == 0UL || targetMax == 0U) {
+   \        0x4   0xD001             BEQ.N    ??normalize_channel_u32_to_target_0
+   \        0x6   0x0011             MOVS     R1,R2
+   \        0x8   0xD101             BNE.N    ??normalize_channel_u32_to_target_1
+     74              return 0U;
+   \                     ??normalize_channel_u32_to_target_0: (+1)
+   \        0xA   0x2000             MOVS     R0,#+0
+   \        0xC   0xBD10             POP      {R4,PC}
+     75            }
+     76          
+     77            return (uint16_t)(((uint64_t)value * (uint64_t)targetMax) / (uint64_t)maxValue);
+   \                     ??normalize_channel_u32_to_target_1: (+1)
+   \        0xE   0xFBA2 0x0100      UMULL    R0,R1,R2,R0
+   \       0x12   0x4622             MOV      R2,R4
+   \       0x14   0x2300             MOVS     R3,#+0
+   \       0x16   0x.... 0x....      BL       __aeabi_uldivmod
+   \       0x1A   0xB280             UXTH     R0,R0
+   \       0x1C   0xBD10             POP      {R4,PC}
+     78          }
+     79          
+
+   \                                 In section .text, align 2, keep-with-next
+     80          static uint8_t scale_zcl_u8_to_255(uint8_t value8)
+     81          {
+     82            if (value8 == 0U) {
+   \                     scale_zcl_u8_to_255: (+1)
+   \        0x0   0x0001             MOVS     R1,R0
+   \        0x2   0xD101             BNE.N    ??scale_zcl_u8_to_255_0
+     83              return 0U;
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x4770             BX       LR
+     84            }
+     85          
+     86            if (value8 >= 254U) {
+   \                     ??scale_zcl_u8_to_255_0: (+1)
+   \        0x8   0x28FE             CMP      R0,#+254
+   \        0xA   0xD301             BCC.N    ??scale_zcl_u8_to_255_1
+     87              return 255U;
+   \        0xC   0x20FF             MOVS     R0,#+255
+   \        0xE   0x4770             BX       LR
+     88            }
+     89          
+     90            return (uint8_t)((((uint16_t)value8 * 255U) + 127U) / 254U);
+   \                     ??scale_zcl_u8_to_255_1: (+1)
+   \       0x10   0xEBC0 0x2000      RSB      R0,R0,R0, LSL #+8
+   \       0x14   0x307F             ADDS     R0,R0,#+127
+   \       0x16   0x21FE             MOVS     R1,#+254
+   \       0x18   0xFBB0 0xF0F1      UDIV     R0,R0,R1
+   \       0x1C   0xB2C0             UXTB     R0,R0
+   \       0x1E   0x4770             BX       LR
+     91          }
+     92          
+
+   \                                 In section .text, align 2, keep-with-next
+     93          static uint16_t expand_u8_to_16(uint8_t value8)
+     94          {
+     95            return (uint16_t)(((uint16_t)value8 << 8) | value8);
+   \                     expand_u8_to_16: (+1)
+   \        0x0   0xEA40 0x2000      ORR      R0,R0,R0, LSL #+8
+   \        0x4   0x4770             BX       LR
+     96          }
+     97          
+
+   \                                 In section .text, align 2, keep-with-next
+     98          static uint16_t scale_zcl_level_to_16(uint8_t level)
+     99          {
+   \                     scale_zcl_level_to_16: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    100            return expand_u8_to_16(scale_zcl_u8_to_255(level));
+   \        0x2   0x.... 0x....      BL       scale_zcl_u8_to_255
+   \        0x6   0xE8BD 0x4002      POP      {R1,LR}
+   \        0xA   0x....             B.N      expand_u8_to_16
+    101          }
+    102          
+
+   \                                 In section .text, align 2, keep-with-next
+    103          static uint16_t clamp_u16_u32(uint32_t value)
+    104          {
+    105            if (value > 65535UL) {
+   \                     clamp_u16_u32: (+1)
+   \        0x0   0xF5B0 0x3F80      CMP      R0,#+65536
+   \        0x4   0xD302             BCC.N    ??clamp_u16_u32_0
+    106              return 65535U;
+   \        0x6   0xF64F 0x70FF      MOVW     R0,#+65535
+   \        0xA   0x4770             BX       LR
+    107            }
+    108          
+    109            return (uint16_t)value;
+   \                     ??clamp_u16_u32_0: (+1)
+   \        0xC   0xB280             UXTH     R0,R0
+   \        0xE   0x4770             BX       LR
+    110          }
+    111          
+
+   \                                 In section .text, align 2, keep-with-next
+    112          static void zero_channels(Em3555RgbwChannels *channels)
+    113          {
+    114            channels->red = 0U;
+   \                     zero_channels: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x8001             STRH     R1,[R0, #+0]
+    115            channels->green = 0U;
+   \        0x4   0x8041             STRH     R1,[R0, #+2]
+    116            channels->blue = 0U;
+   \        0x6   0x8081             STRH     R1,[R0, #+4]
+    117            channels->white = 0U;
+   \        0x8   0x80C1             STRH     R1,[R0, #+6]
+    118          }
+   \        0xA   0x4770             BX       LR
+    119          
+
+   \                                 In section .text, align 2, keep-with-next
+    120          static void compose_visible_rgb(const Em3555RgbwChannels *channels,
+    121                                          uint16_t *red,
+    122                                          uint16_t *green,
+    123                                          uint16_t *blue)
+    124          {
+   \                     compose_visible_rgb: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0x460C             MOV      R4,R1
+   \        0x6   0x4615             MOV      R5,R2
+   \        0x8   0x461E             MOV      R6,R3
+    125            uint32_t visibleRed;
+    126            uint32_t visibleGreen;
+    127            uint32_t visibleBlue;
+    128          
+    129            if (channels == NULL || red == NULL || green == NULL || blue == NULL) {
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD019             BEQ.N    ??compose_visible_rgb_0
+   \        0xE   0x2C00             CMP      R4,#+0
+   \       0x10   0xD017             BEQ.N    ??compose_visible_rgb_0
+   \       0x12   0x2D00             CMP      R5,#+0
+   \       0x14   0xD015             BEQ.N    ??compose_visible_rgb_0
+   \       0x16   0x2E00             CMP      R6,#+0
+   \       0x18   0xD013             BEQ.N    ??compose_visible_rgb_0
+    130              return;
+    131            }
+    132          
+    133            visibleRed = (uint32_t)channels->red + (uint32_t)channels->white;
+    134            visibleGreen = (uint32_t)channels->green + (uint32_t)channels->white;
+   \       0x1A   0x88C1             LDRH     R1,[R0, #+6]
+   \       0x1C   0x8847             LDRH     R7,[R0, #+2]
+   \       0x1E   0x19CF             ADDS     R7,R1,R7
+    135            visibleBlue = (uint32_t)channels->blue + (uint32_t)channels->white;
+   \       0x20   0xF8B0 0x8004      LDRH     R8,[R0, #+4]
+   \       0x24   0x4488             ADD      R8,R1,R8
+    136          
+    137            *red = clamp_u16_u32(visibleRed);
+   \       0x26   0x8800             LDRH     R0,[R0, #+0]
+   \       0x28   0x1809             ADDS     R1,R1,R0
+   \       0x2A   0x4608             MOV      R0,R1
+   \       0x2C   0x.... 0x....      BL       clamp_u16_u32
+   \       0x30   0x8020             STRH     R0,[R4, #+0]
+    138            *green = clamp_u16_u32(visibleGreen);
+   \       0x32   0x4638             MOV      R0,R7
+   \       0x34   0x.... 0x....      BL       clamp_u16_u32
+   \       0x38   0x8028             STRH     R0,[R5, #+0]
+    139            *blue = clamp_u16_u32(visibleBlue);
+   \       0x3A   0x4640             MOV      R0,R8
+   \       0x3C   0x.... 0x....      BL       clamp_u16_u32
+   \       0x40   0x8030             STRH     R0,[R6, #+0]
+    140          }
+   \                     ??compose_visible_rgb_0: (+1)
+   \       0x42   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    141          
+
+   \                                 In section .text, align 2, keep-with-next
+    142          static void normalize_channels(Em3555RgbwChannels *channels, uint32_t maxValue)
+    143          {
+    144            if (maxValue == 0UL || maxValue <= 65535UL) {
+   \                     normalize_channels: (+1)
+   \        0x0   0x2900             CMP      R1,#+0
+   \        0x2   0xD01B             BEQ.N    ??normalize_channels_0
+   \        0x4   0xF64F 0x72FF      MOVW     R2,#+65535
+   \        0x8   0x4291             CMP      R1,R2
+   \        0xA   0xD917             BLS.N    ??normalize_channels_0
+    145              return;
+    146            }
+    147          
+    148            channels->red = (uint16_t)(((uint32_t)channels->red * 65535UL) / maxValue);
+   \        0xC   0x8802             LDRH     R2,[R0, #+0]
+   \        0xE   0xEBC2 0x4202      RSB      R2,R2,R2, LSL #+16
+   \       0x12   0xFBB2 0xF2F1      UDIV     R2,R2,R1
+   \       0x16   0x8002             STRH     R2,[R0, #+0]
+    149            channels->green = (uint16_t)(((uint32_t)channels->green * 65535UL) / maxValue);
+   \       0x18   0x8842             LDRH     R2,[R0, #+2]
+   \       0x1A   0xEBC2 0x4202      RSB      R2,R2,R2, LSL #+16
+   \       0x1E   0xFBB2 0xF2F1      UDIV     R2,R2,R1
+   \       0x22   0x8042             STRH     R2,[R0, #+2]
+    150            channels->blue = (uint16_t)(((uint32_t)channels->blue * 65535UL) / maxValue);
+   \       0x24   0x8882             LDRH     R2,[R0, #+4]
+   \       0x26   0xEBC2 0x4202      RSB      R2,R2,R2, LSL #+16
+   \       0x2A   0xFBB2 0xF2F1      UDIV     R2,R2,R1
+   \       0x2E   0x8082             STRH     R2,[R0, #+4]
+    151            channels->white = (uint16_t)(((uint32_t)channels->white * 65535UL) / maxValue);
+   \       0x30   0x88C2             LDRH     R2,[R0, #+6]
+   \       0x32   0xEBC2 0x4202      RSB      R2,R2,R2, LSL #+16
+   \       0x36   0xFBB2 0xF1F1      UDIV     R1,R2,R1
+   \       0x3A   0x80C1             STRH     R1,[R0, #+6]
+    152          }
+   \                     ??normalize_channels_0: (+1)
+   \       0x3C   0x4770             BX       LR
+    153          
+
+   \                                 In section .text, align 2, keep-with-next
+    154          static void maximize_vivid_rgb(Em3555RgbwChannels *channels, uint8_t level)
+    155          {
+   \                     maximize_vivid_rgb: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+    156            uint16_t maxRgb;
+    157            uint16_t minRgb;
+    158            uint16_t clipThreshold;
+    159          
+    160            if (channels == NULL || rgb_channels_are_neutralish(channels)) {
+   \        0x6   0x2C00             CMP      R4,#+0
+   \        0x8   0xD03B             BEQ.N    ??maximize_vivid_rgb_0
+   \        0xA   0x.... 0x....      BL       rgb_channels_are_neutralish
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD137             BNE.N    ??maximize_vivid_rgb_0
+    161              return;
+    162            }
+    163          
+    164            maxRgb = max3_u16(channels->red, channels->green, channels->blue);
+   \       0x12   0x88A2             LDRH     R2,[R4, #+4]
+   \       0x14   0x8861             LDRH     R1,[R4, #+2]
+   \       0x16   0x8820             LDRH     R0,[R4, #+0]
+   \       0x18   0x.... 0x....      BL       max3_u16
+    165            if (maxRgb == 0U) {
+   \       0x1C   0x2800             CMP      R0,#+0
+   \       0x1E   0xD030             BEQ.N    ??maximize_vivid_rgb_0
+    166              return;
+    167            }
+    168          
+    169            minRgb = min3_u16(channels->red, channels->green, channels->blue);
+   \       0x20   0x88A2             LDRH     R2,[R4, #+4]
+   \       0x22   0x8861             LDRH     R1,[R4, #+2]
+   \       0x24   0x8820             LDRH     R0,[R4, #+0]
+   \       0x26   0x.... 0x....      BL       min3_u16
+    170            if (minRgb != 0U) {
+   \       0x2A   0x2800             CMP      R0,#+0
+   \       0x2C   0xD008             BEQ.N    ??maximize_vivid_rgb_1
+    171              channels->red = (uint16_t)(channels->red - minRgb);
+   \       0x2E   0x8821             LDRH     R1,[R4, #+0]
+   \       0x30   0x1A09             SUBS     R1,R1,R0
+   \       0x32   0x8021             STRH     R1,[R4, #+0]
+    172              channels->green = (uint16_t)(channels->green - minRgb);
+   \       0x34   0x8861             LDRH     R1,[R4, #+2]
+   \       0x36   0x1A09             SUBS     R1,R1,R0
+   \       0x38   0x8061             STRH     R1,[R4, #+2]
+    173              channels->blue = (uint16_t)(channels->blue - minRgb);
+   \       0x3A   0x88A1             LDRH     R1,[R4, #+4]
+   \       0x3C   0x1A08             SUBS     R0,R1,R0
+   \       0x3E   0x80A0             STRH     R0,[R4, #+4]
+    174            }
+    175          
+    176            maxRgb = max3_u16(channels->red, channels->green, channels->blue);
+   \                     ??maximize_vivid_rgb_1: (+1)
+   \       0x40   0x88A2             LDRH     R2,[R4, #+4]
+   \       0x42   0x8861             LDRH     R1,[R4, #+2]
+   \       0x44   0x8820             LDRH     R0,[R4, #+0]
+   \       0x46   0x.... 0x....      BL       max3_u16
+    177            if (maxRgb == 0U) {
+   \       0x4A   0x2800             CMP      R0,#+0
+   \       0x4C   0xD019             BEQ.N    ??maximize_vivid_rgb_0
+    178              return;
+    179            }
+    180          
+    181            clipThreshold = (uint16_t)(maxRgb / EM3555_XY_VIVID_CLIP_DIVISOR);
+   \       0x4E   0x2118             MOVS     R1,#+24
+   \       0x50   0xFBB0 0xF0F1      UDIV     R0,R0,R1
+   \       0x54   0xB280             UXTH     R0,R0
+    182            if (clipThreshold != 0U) {
+   \       0x56   0x2800             CMP      R0,#+0
+   \       0x58   0xD00E             BEQ.N    ??maximize_vivid_rgb_2
+    183              if (channels->red <= clipThreshold) {
+   \       0x5A   0x8821             LDRH     R1,[R4, #+0]
+   \       0x5C   0x4288             CMP      R0,R1
+   \       0x5E   0xDB01             BLT.N    ??maximize_vivid_rgb_3
+    184                channels->red = 0U;
+   \       0x60   0x2100             MOVS     R1,#+0
+   \       0x62   0x8021             STRH     R1,[R4, #+0]
+    185              }
+    186              if (channels->green <= clipThreshold) {
+   \                     ??maximize_vivid_rgb_3: (+1)
+   \       0x64   0x8861             LDRH     R1,[R4, #+2]
+   \       0x66   0x4288             CMP      R0,R1
+   \       0x68   0xDB01             BLT.N    ??maximize_vivid_rgb_4
+    187                channels->green = 0U;
+   \       0x6A   0x2100             MOVS     R1,#+0
+   \       0x6C   0x8061             STRH     R1,[R4, #+2]
+    188              }
+    189              if (channels->blue <= clipThreshold) {
+   \                     ??maximize_vivid_rgb_4: (+1)
+   \       0x6E   0x88A1             LDRH     R1,[R4, #+4]
+   \       0x70   0x4288             CMP      R0,R1
+   \       0x72   0xDB01             BLT.N    ??maximize_vivid_rgb_2
+    190                channels->blue = 0U;
+   \       0x74   0x2000             MOVS     R0,#+0
+   \       0x76   0x80A0             STRH     R0,[R4, #+4]
+    191              }
+    192            }
+    193          
+    194            em3555ColorMathNormalizeToLevel(channels, level);
+   \                     ??maximize_vivid_rgb_2: (+1)
+   \       0x78   0x4629             MOV      R1,R5
+   \       0x7A   0x4620             MOV      R0,R4
+   \       0x7C   0xE8BD 0x4034      POP      {R2,R4,R5,LR}
+   \       0x80   0x....             B.N      em3555ColorMathNormalizeToLevel
+   \                     ??maximize_vivid_rgb_0: (+1)
+   \       0x82   0xBD31             POP      {R0,R4,R5,PC}
+    195          }
+    196          
+
+   \                                 In section .text, align 2, keep-with-next
+    197          void em3555ColorMathNormalizeToLevel(Em3555RgbwChannels *channels, uint8_t level)
+    198          {
+   \                     em3555ColorMathNormalizeToLevel: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+    199            uint16_t targetLevel16;
+    200            uint32_t maxValue;
+    201          
+    202            if (channels == NULL || level == 0U) {
+   \        0x4   0xD027             BEQ.N    ??em3555ColorMathNormalizeToLevel_0
+   \        0x6   0x0008             MOVS     R0,R1
+   \        0x8   0xD025             BEQ.N    ??em3555ColorMathNormalizeToLevel_0
+    203              return;
+    204            }
+    205          
+    206            targetLevel16 = scale_zcl_level_to_16(level);
+   \        0xA   0x.... 0x....      BL       scale_zcl_level_to_16
+   \        0xE   0x4606             MOV      R6,R0
+    207            maxValue = max4_u16(channels->red,
+    208                                channels->green,
+    209                                channels->blue,
+    210                                channels->white);
+   \       0x10   0x88E3             LDRH     R3,[R4, #+6]
+   \       0x12   0x88A2             LDRH     R2,[R4, #+4]
+   \       0x14   0x8861             LDRH     R1,[R4, #+2]
+   \       0x16   0x8820             LDRH     R0,[R4, #+0]
+   \       0x18   0x.... 0x....      BL       max4_u16
+   \       0x1C   0x0005             MOVS     R5,R0
+    211            if (maxValue == 0UL || maxValue == (uint32_t)targetLevel16) {
+   \       0x1E   0xD01A             BEQ.N    ??em3555ColorMathNormalizeToLevel_0
+   \       0x20   0x4630             MOV      R0,R6
+   \       0x22   0x4285             CMP      R5,R0
+   \       0x24   0xD017             BEQ.N    ??em3555ColorMathNormalizeToLevel_0
+    212              return;
+    213            }
+    214          
+    215            channels->red = normalize_channel_u32_to_target(channels->red, maxValue, targetLevel16);
+   \       0x26   0x4632             MOV      R2,R6
+   \       0x28   0x4629             MOV      R1,R5
+   \       0x2A   0x8820             LDRH     R0,[R4, #+0]
+   \       0x2C   0x.... 0x....      BL       normalize_channel_u32_to_target
+   \       0x30   0x8020             STRH     R0,[R4, #+0]
+    216            channels->green = normalize_channel_u32_to_target(channels->green, maxValue, targetLevel16);
+   \       0x32   0x4632             MOV      R2,R6
+   \       0x34   0x4629             MOV      R1,R5
+   \       0x36   0x8860             LDRH     R0,[R4, #+2]
+   \       0x38   0x.... 0x....      BL       normalize_channel_u32_to_target
+   \       0x3C   0x8060             STRH     R0,[R4, #+2]
+    217            channels->blue = normalize_channel_u32_to_target(channels->blue, maxValue, targetLevel16);
+   \       0x3E   0x4632             MOV      R2,R6
+   \       0x40   0x4629             MOV      R1,R5
+   \       0x42   0x88A0             LDRH     R0,[R4, #+4]
+   \       0x44   0x.... 0x....      BL       normalize_channel_u32_to_target
+   \       0x48   0x80A0             STRH     R0,[R4, #+4]
+    218            channels->white = normalize_channel_u32_to_target(channels->white, maxValue, targetLevel16);
+   \       0x4A   0x4632             MOV      R2,R6
+   \       0x4C   0x4629             MOV      R1,R5
+   \       0x4E   0x88E0             LDRH     R0,[R4, #+6]
+   \       0x50   0x.... 0x....      BL       normalize_channel_u32_to_target
+   \       0x54   0x80E0             STRH     R0,[R4, #+6]
+    219          }
+   \                     ??em3555ColorMathNormalizeToLevel_0: (+1)
+   \       0x56   0xBD70             POP      {R4-R6,PC}
+    220          
+
+   \                                 In section .text, align 2, keep-with-next
+    221          void em3555ColorMathApplyWhiteAssist(Em3555RgbwChannels *channels)
+    222          {
+   \                     em3555ColorMathApplyWhiteAssist: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+    223            uint16_t maxRgb;
+    224            uint16_t minRgb;
+    225            uint16_t spread;
+    226            uint16_t allowedSpread;
+    227            uint32_t boostedWhite;
+    228          
+    229            if (channels == NULL) {
+   \        0x4   0xD01B             BEQ.N    ??em3555ColorMathApplyWhiteAssist_0
+    230              return;
+    231            }
+    232          
+    233            maxRgb = max3_u16(channels->red, channels->green, channels->blue);
+   \        0x6   0x88A2             LDRH     R2,[R4, #+4]
+   \        0x8   0x8861             LDRH     R1,[R4, #+2]
+   \        0xA   0x8820             LDRH     R0,[R4, #+0]
+   \        0xC   0x.... 0x....      BL       max3_u16
+   \       0x10   0x0005             MOVS     R5,R0
+    234            if (maxRgb == 0U) {
+   \       0x12   0xD014             BEQ.N    ??em3555ColorMathApplyWhiteAssist_0
+    235              return;
+    236            }
+    237          
+    238            minRgb = min3_u16(channels->red, channels->green, channels->blue);
+   \       0x14   0x88A2             LDRH     R2,[R4, #+4]
+   \       0x16   0x8861             LDRH     R1,[R4, #+2]
+   \       0x18   0x8820             LDRH     R0,[R4, #+0]
+   \       0x1A   0x.... 0x....      BL       min3_u16
+    239            spread = (uint16_t)(maxRgb - minRgb);
+    240            allowedSpread = (uint16_t)(maxRgb / EM3555_RGB_WHITE_ASSIST_THRESHOLD_DIVISOR);
+    241          
+    242            if (spread > allowedSpread) {
+   \       0x1E   0x4629             MOV      R1,R5
+   \       0x20   0x0889             LSRS     R1,R1,#+2
+   \       0x22   0x1A2D             SUBS     R5,R5,R0
+   \       0x24   0xB2AD             UXTH     R5,R5
+   \       0x26   0x42A9             CMP      R1,R5
+   \       0x28   0xDB09             BLT.N    ??em3555ColorMathApplyWhiteAssist_0
+    243              return;
+    244            }
+    245          
+    246            boostedWhite = ((uint32_t)minRgb * EM3555_RGB_WHITE_ASSIST_GAIN_NUMERATOR)
+    247                           / EM3555_RGB_WHITE_ASSIST_GAIN_DENOMINATOR;
+   \       0x2A   0x0040             LSLS     R0,R0,#+1
+    248            if (boostedWhite > 65535UL) {
+   \       0x2C   0xF5B0 0x3F80      CMP      R0,#+65536
+   \       0x30   0xD301             BCC.N    ??em3555ColorMathApplyWhiteAssist_1
+    249              boostedWhite = 65535UL;
+   \       0x32   0xF64F 0x70FF      MOVW     R0,#+65535
+    250            }
+    251          
+    252            if (boostedWhite > channels->white) {
+   \                     ??em3555ColorMathApplyWhiteAssist_1: (+1)
+   \       0x36   0x88E1             LDRH     R1,[R4, #+6]
+   \       0x38   0x4281             CMP      R1,R0
+   \       0x3A   0xD200             BCS.N    ??em3555ColorMathApplyWhiteAssist_0
+    253              channels->white = (uint16_t)boostedWhite;
+   \       0x3C   0x80E0             STRH     R0,[R4, #+6]
+    254            }
+    255          }
+   \                     ??em3555ColorMathApplyWhiteAssist_0: (+1)
+   \       0x3E   0xBD31             POP      {R0,R4,R5,PC}
+    256          
+
+   \                                 In section .text, align 4, keep-with-next
+    257          void em3555ColorMathHsToRgbw(uint8_t hue,
+    258                                       uint8_t saturation,
+    259                                       uint8_t level,
+    260                                       Em3555RgbwChannels *out)
+    261          {
+   \                     em3555ColorMathHsToRgbw: (+1)
+   \        0x0   0xE92D 0x43F8      PUSH     {R3-R9,LR}
+   \        0x4   0x4607             MOV      R7,R0
+   \        0x6   0x4688             MOV      R8,R1
+   \        0x8   0x4615             MOV      R5,R2
+   \        0xA   0x461C             MOV      R4,R3
+    262            uint8_t level8;
+    263            uint8_t saturation8;
+    264            uint8_t wheelRed;
+    265            uint8_t wheelGreen;
+    266            uint8_t wheelBlue;
+    267            uint8_t red8;
+    268            uint8_t green8;
+    269            uint8_t blue8;
+    270            uint8_t base8;
+    271            uint16_t hueWheel;
+    272            uint16_t segment;
+    273            uint16_t offset;
+    274          
+    275            zero_channels(out);
+   \        0xC   0x4620             MOV      R0,R4
+   \        0xE   0x.... 0x....      BL       zero_channels
+    276          
+    277            if (level == 0U) {
+   \       0x12   0x0028             MOVS     R0,R5
+   \       0x14   0xD072             BEQ.N    ??em3555ColorMathHsToRgbw_1
+    278              return;
+    279            }
+    280          
+    281            level8 = scale_zcl_u8_to_255(level);
+   \       0x16   0x.... 0x....      BL       scale_zcl_u8_to_255
+   \       0x1A   0x4605             MOV      R5,R0
+    282            saturation8 = scale_zcl_u8_to_255(saturation);
+   \       0x1C   0x4640             MOV      R0,R8
+   \       0x1E   0x.... 0x....      BL       scale_zcl_u8_to_255
+   \       0x22   0x4606             MOV      R6,R0
+    283          
+    284            if (saturation == 0U) {
+   \       0x24   0xF1B8 0x0F00      CMP      R8,#+0
+   \       0x28   0xD104             BNE.N    ??em3555ColorMathHsToRgbw_2
+    285              out->white = expand_u8_to_16(level8);
+   \       0x2A   0x4628             MOV      R0,R5
+   \       0x2C   0x.... 0x....      BL       expand_u8_to_16
+   \       0x30   0x80E0             STRH     R0,[R4, #+6]
+    286              return;
+   \       0x32   0xE063             B.N      ??em3555ColorMathHsToRgbw_1
+    287            }
+    288          
+    289            /*
+    290             * ZCL hue uses 0..254 with primaries at 0, 85, and 170. The classic hue/43
+    291             * sector math is a coarse approximation that misses those exact boundaries,
+    292             * so hue=85 and hue=170 do not land on pure green/blue. Use a direct
+    293             * 6-step wheel derived from the raw ZCL hue value so the primary boundaries
+    294             * remain exact.
+    295             */
+    296            hueWheel = (uint16_t)hue * 6U;
+   \                     ??em3555ColorMathHsToRgbw_2: (+1)
+   \       0x34   0xEB07 0x0047      ADD      R0,R7,R7, LSL #+1
+   \       0x38   0x0047             LSLS     R7,R0,#+1
+    297            segment = (uint16_t)(hueWheel / 255U);
+    298            offset = (uint16_t)(hueWheel % 255U);
+   \       0x3A   0x20FF             MOVS     R0,#+255
+   \       0x3C   0xFBB7 0xF1F0      UDIV     R1,R7,R0
+   \       0x40   0xEBC1 0x2001      RSB      R0,R1,R1, LSL #+8
+   \       0x44   0x1A3F             SUBS     R7,R7,R0
+    299          
+    300            switch (segment) {
+   \       0x46   0xB289             UXTH     R1,R1
+   \       0x48   0x2904             CMP      R1,#+4
+   \       0x4A   0xD81E             BHI.N    ??em3555ColorMathHsToRgbw_3
+   \       0x4C   0xE8DF 0xF001      TBB      [PC, R1]
+   \                     ??em3555ColorMathHsToRgbw_0:
+   \       0x50   0x03 0x07          DC8      0x3,0x7,0xE,0x12
+   \              0x0E 0x12
+   \       0x54   0x18 0x00          DC8      0x18,0x0
+    301              case 0U:
+    302                wheelRed = 255U;
+   \                     ??em3555ColorMathHsToRgbw_4: (+1)
+   \       0x56   0x20FF             MOVS     R0,#+255
+    303                wheelGreen = (uint8_t)offset;
+   \       0x58   0x46B9             MOV      R9,R7
+    304                wheelBlue = 0U;
+   \       0x5A   0x2700             MOVS     R7,#+0
+    305                break;
+   \       0x5C   0xE01A             B.N      ??em3555ColorMathHsToRgbw_5
+    306              case 1U:
+    307                wheelRed = (uint8_t)(255U - offset);
+   \                     ??em3555ColorMathHsToRgbw_6: (+1)
+   \       0x5E   0xF1C7 0x07FF      RSB      R7,R7,#+255
+   \       0x62   0x4638             MOV      R0,R7
+    308                wheelGreen = 255U;
+   \       0x64   0xF04F 0x09FF      MOV      R9,#+255
+    309                wheelBlue = 0U;
+   \       0x68   0x2700             MOVS     R7,#+0
+    310                break;
+   \       0x6A   0xE013             B.N      ??em3555ColorMathHsToRgbw_5
+    311              case 2U:
+    312                wheelRed = 0U;
+   \                     ??em3555ColorMathHsToRgbw_7: (+1)
+   \       0x6C   0x2000             MOVS     R0,#+0
+    313                wheelGreen = 255U;
+   \       0x6E   0xF04F 0x09FF      MOV      R9,#+255
+    314                wheelBlue = (uint8_t)offset;
+    315                break;
+   \       0x72   0xE00F             B.N      ??em3555ColorMathHsToRgbw_5
+    316              case 3U:
+    317                wheelRed = 0U;
+   \                     ??em3555ColorMathHsToRgbw_8: (+1)
+   \       0x74   0x2000             MOVS     R0,#+0
+    318                wheelGreen = (uint8_t)(255U - offset);
+   \       0x76   0xF1C7 0x07FF      RSB      R7,R7,#+255
+   \       0x7A   0x46B9             MOV      R9,R7
+    319                wheelBlue = 255U;
+   \       0x7C   0x27FF             MOVS     R7,#+255
+    320                break;
+   \       0x7E   0xE009             B.N      ??em3555ColorMathHsToRgbw_5
+    321              case 4U:
+    322                wheelRed = (uint8_t)offset;
+   \                     ??em3555ColorMathHsToRgbw_9: (+1)
+   \       0x80   0x4638             MOV      R0,R7
+    323                wheelGreen = 0U;
+   \       0x82   0xF04F 0x0900      MOV      R9,#+0
+    324                wheelBlue = 255U;
+   \       0x86   0x27FF             MOVS     R7,#+255
+    325                break;
+   \       0x88   0xE004             B.N      ??em3555ColorMathHsToRgbw_5
+    326              default:
+    327                wheelRed = 255U;
+   \                     ??em3555ColorMathHsToRgbw_3: (+1)
+   \       0x8A   0x20FF             MOVS     R0,#+255
+    328                wheelGreen = 0U;
+   \       0x8C   0xF04F 0x0900      MOV      R9,#+0
+    329                wheelBlue = (uint8_t)(255U - offset);
+   \       0x90   0xF1C7 0x07FF      RSB      R7,R7,#+255
+    330                break;
+    331            }
+    332          
+    333            base8 = (uint8_t)(255U - saturation8);
+   \                     ??em3555ColorMathHsToRgbw_5: (+1)
+   \       0x94   0xF1C6 0x08FF      RSB      R8,R6,#+255
+   \       0x98   0xFA5F 0xF888      UXTB     R8,R8
+    334            red8 = (uint8_t)(((uint16_t)level8 * (uint16_t)(base8 + (((uint16_t)saturation8 * wheelRed) / 255U))) / 255U);
+    335            green8 = (uint8_t)(((uint16_t)level8 * (uint16_t)(base8 + (((uint16_t)saturation8 * wheelGreen) / 255U))) / 255U);
+    336            blue8 = (uint8_t)(((uint16_t)level8 * (uint16_t)(base8 + (((uint16_t)saturation8 * wheelBlue) / 255U))) / 255U);
+    337          
+    338            out->red = expand_u8_to_16(red8);
+   \       0x9C   0xB2C0             UXTB     R0,R0
+   \       0x9E   0x4370             MULS     R0,R0,R6
+   \       0xA0   0x21FF             MOVS     R1,#+255
+   \       0xA2   0xFBB0 0xF0F1      UDIV     R0,R0,R1
+   \       0xA6   0x4440             ADD      R0,R0,R8
+   \       0xA8   0xB280             UXTH     R0,R0
+   \       0xAA   0x4368             MULS     R0,R0,R5
+   \       0xAC   0xFBB0 0xF0F1      UDIV     R0,R0,R1
+   \       0xB0   0xB2C0             UXTB     R0,R0
+   \       0xB2   0x.... 0x....      BL       expand_u8_to_16
+   \       0xB6   0x8020             STRH     R0,[R4, #+0]
+    339            out->green = expand_u8_to_16(green8);
+   \       0xB8   0xFA5F 0xF989      UXTB     R9,R9
+   \       0xBC   0xFB09 0xF906      MUL      R9,R9,R6
+   \       0xC0   0x20FF             MOVS     R0,#+255
+   \       0xC2   0xFBB9 0xF0F0      UDIV     R0,R9,R0
+   \       0xC6   0x4440             ADD      R0,R0,R8
+   \       0xC8   0xB280             UXTH     R0,R0
+   \       0xCA   0x4368             MULS     R0,R0,R5
+   \       0xCC   0x21FF             MOVS     R1,#+255
+   \       0xCE   0xFBB0 0xF0F1      UDIV     R0,R0,R1
+   \       0xD2   0xB2C0             UXTB     R0,R0
+   \       0xD4   0x.... 0x....      BL       expand_u8_to_16
+   \       0xD8   0x8060             STRH     R0,[R4, #+2]
+    340            out->blue = expand_u8_to_16(blue8);
+   \       0xDA   0xB2FF             UXTB     R7,R7
+   \       0xDC   0x437E             MULS     R6,R7,R6
+   \       0xDE   0x20FF             MOVS     R0,#+255
+   \       0xE0   0xFBB6 0xF0F0      UDIV     R0,R6,R0
+   \       0xE4   0x4480             ADD      R8,R0,R8
+   \       0xE6   0xFA1F 0xF888      UXTH     R8,R8
+   \       0xEA   0xFB08 0xF505      MUL      R5,R8,R5
+   \       0xEE   0x20FF             MOVS     R0,#+255
+   \       0xF0   0xFBB5 0xF0F0      UDIV     R0,R5,R0
+   \       0xF4   0xB2C0             UXTB     R0,R0
+   \       0xF6   0x.... 0x....      BL       expand_u8_to_16
+   \       0xFA   0x80A0             STRH     R0,[R4, #+4]
+    341          }
+   \                     ??em3555ColorMathHsToRgbw_1: (+1)
+   \       0xFC   0xE8BD 0x83F1      POP      {R0,R4-R9,PC}
+    342          
+
+   \                                 In section .text, align 2, keep-with-next
+    343          void em3555ColorMathXyToRgbw(uint16_t currentX,
+    344                                       uint16_t currentY,
+    345                                       uint8_t level,
+    346                                       Em3555RgbwChannels *out)
+    347          {
+   \                     em3555ColorMathXyToRgbw: (+1)
+   \        0x0   0xE92D 0x47FC      PUSH     {R2-R10,LR}
+   \        0x4   0xB084             SUB      SP,SP,#+16
+   \        0x6   0x4606             MOV      R6,R0
+   \        0x8   0x460D             MOV      R5,R1
+   \        0xA   0x461C             MOV      R4,R3
+    348            uint32_t x;
+    349            uint32_t y;
+    350            uint32_t z;
+    351            uint32_t luminance;
+    352            uint32_t X;
+    353            uint32_t Y;
+    354            uint32_t Z;
+    355            int64_t red;
+    356            int64_t green;
+    357            int64_t blue;
+    358            uint32_t rawRed;
+    359            uint32_t rawGreen;
+    360            uint32_t rawBlue;
+    361            uint32_t maxValue;
+    362            uint16_t targetLevel16;
+    363            Em3555RgbwChannels roughChannels;
+    364            uint8_t derivedHue;
+    365            uint8_t derivedSaturation;
+    366          
+    367            zero_channels(out);
+   \        0xC   0x4620             MOV      R0,R4
+   \        0xE   0x.... 0x....      BL       zero_channels
+    368          
+    369            if (level == 0U || currentY == 0U) {
+   \       0x12   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \       0x16   0x2800             CMP      R0,#+0
+   \       0x18   0xF000 0x80BA      BEQ.W    ??em3555ColorMathXyToRgbw_0
+   \       0x1C   0x0028             MOVS     R0,R5
+   \       0x1E   0xF000 0x80B7      BEQ.W    ??em3555ColorMathXyToRgbw_0
+    370              return;
+    371            }
+    372          
+    373            x = currentX;
+    374            y = currentY;
+    375            z = (x + y >= 65535UL ? 0UL : (65535UL - x - y));
+   \       0x22   0xF64F 0x77FF      MOVW     R7,#+65535
+   \       0x26   0x19A8             ADDS     R0,R5,R6
+   \       0x28   0x42B8             CMP      R0,R7
+   \       0x2A   0xD301             BCC.N    ??em3555ColorMathXyToRgbw_1
+   \       0x2C   0x2700             MOVS     R7,#+0
+   \       0x2E   0xE001             B.N      ??em3555ColorMathXyToRgbw_2
+   \                     ??em3555ColorMathXyToRgbw_1: (+1)
+   \       0x30   0x1BBF             SUBS     R7,R7,R6
+   \       0x32   0x1B7F             SUBS     R7,R7,R5
+    376            targetLevel16 = scale_zcl_level_to_16(level);
+   \                     ??em3555ColorMathXyToRgbw_2: (+1)
+   \       0x34   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \       0x38   0x.... 0x....      BL       scale_zcl_level_to_16
+   \       0x3C   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+    377            luminance = targetLevel16;
+   \       0x40   0x9001             STR      R0,[SP, #+4]
+    378          
+    379            X = (uint32_t)((x * luminance) / y);
+   \       0x42   0x4346             MULS     R6,R0,R6
+   \       0x44   0xFBB6 0xF6F5      UDIV     R6,R6,R5
+    380            Y = luminance;
+    381            Z = (uint32_t)((z * luminance) / y);
+   \       0x48   0x4347             MULS     R7,R0,R7
+   \       0x4A   0xFBB7 0xFAF5      UDIV     R10,R7,R5
+    382          
+    383            red = ((int64_t)32406 * X) - ((int64_t)15372 * Y) - ((int64_t)4986 * Z);
+    384            green = -((int64_t)9689 * X) + ((int64_t)18758 * Y) + ((int64_t)415 * Z);
+    385            blue = ((int64_t)557 * X) - ((int64_t)2040 * Y) + ((int64_t)10570 * Z);
+    386          
+    387            rawRed = clamp_positive_i64_to_u32(red / 10000LL);
+   \       0x4E   0xF647 0x6596      MOVW     R5,#+32406
+   \       0x52   0x....             LDR.N    R2,??DataTable2
+   \       0x54   0xF04F 0x33FF      MOV      R3,#+4294967295
+   \       0x58   0xFBA2 0x8900      UMULL    R8,R9,R2,R0
+   \       0x5C   0xFB03 0x9900      MLA      R9,R3,R0,R9
+   \       0x60   0xFBE5 0x8906      UMLAL    R8,R9,R5,R6
+   \       0x64   0x....             LDR.N    R0,??DataTable2_1
+   \       0x66   0x4619             MOV      R1,R3
+   \       0x68   0xFBA0 0x230A      UMULL    R2,R3,R0,R10
+   \       0x6C   0xFB01 0x330A      MLA      R3,R1,R10,R3
+   \       0x70   0xEB18 0x0002      ADDS     R0,R8,R2
+   \       0x74   0xEB49 0x0103      ADC      R1,R9,R3
+   \       0x78   0xF242 0x7210      MOVW     R2,#+10000
+   \       0x7C   0x2300             MOVS     R3,#+0
+   \       0x7E   0x.... 0x....      BL       __aeabi_ldivmod
+   \       0x82   0x.... 0x....      BL       clamp_positive_i64_to_u32
+   \       0x86   0x4605             MOV      R5,R0
+    388            rawGreen = clamp_positive_i64_to_u32(green / 10000LL);
+   \       0x88   0x....             LDR.N    R2,??DataTable2_2
+   \       0x8A   0xF04F 0x33FF      MOV      R3,#+4294967295
+   \       0x8E   0xFBA2 0x0106      UMULL    R0,R1,R2,R6
+   \       0x92   0xFB03 0x1106      MLA      R1,R3,R6,R1
+   \       0x96   0x9A01             LDR      R2,[SP, #+4]
+   \       0x98   0xF644 0x1346      MOVW     R3,#+18758
+   \       0x9C   0xFBE3 0x0102      UMLAL    R0,R1,R3,R2
+   \       0xA0   0xF240 0x129F      MOVW     R2,#+415
+   \       0xA4   0xFBE2 0x010A      UMLAL    R0,R1,R2,R10
+   \       0xA8   0xF242 0x7210      MOVW     R2,#+10000
+   \       0xAC   0x2300             MOVS     R3,#+0
+   \       0xAE   0x.... 0x....      BL       __aeabi_ldivmod
+   \       0xB2   0x.... 0x....      BL       clamp_positive_i64_to_u32
+   \       0xB6   0x4607             MOV      R7,R0
+    389            rawBlue = clamp_positive_i64_to_u32(blue / 10000LL);
+   \       0xB8   0xF240 0x2C2D      MOVW     R12,#+557
+   \       0xBC   0xF8DD 0x8004      LDR      R8,[SP, #+4]
+   \       0xC0   0x....             LDR.N    R2,??DataTable2_3
+   \       0xC2   0xF04F 0x33FF      MOV      R3,#+4294967295
+   \       0xC6   0xFBA2 0x0108      UMULL    R0,R1,R2,R8
+   \       0xCA   0xFB03 0x1108      MLA      R1,R3,R8,R1
+   \       0xCE   0xFBEC 0x0106      UMLAL    R0,R1,R12,R6
+   \       0xD2   0xF642 0x124A      MOVW     R2,#+10570
+   \       0xD6   0xFBE2 0x010A      UMLAL    R0,R1,R2,R10
+   \       0xDA   0xF242 0x7210      MOVW     R2,#+10000
+   \       0xDE   0x2300             MOVS     R3,#+0
+   \       0xE0   0x.... 0x....      BL       __aeabi_ldivmod
+   \       0xE4   0x.... 0x....      BL       clamp_positive_i64_to_u32
+   \       0xE8   0x4606             MOV      R6,R0
+    390          
+    391            maxValue = rawRed;
+    392            if (rawGreen > maxValue) {
+   \       0xEA   0x4638             MOV      R0,R7
+   \       0xEC   0x42AF             CMP      R7,R5
+   \       0xEE   0xD200             BCS.N    ??em3555ColorMathXyToRgbw_3
+   \       0xF0   0x4628             MOV      R0,R5
+    393              maxValue = rawGreen;
+    394            }
+    395            if (rawBlue > maxValue) {
+   \                     ??em3555ColorMathXyToRgbw_3: (+1)
+   \       0xF2   0x46B0             MOV      R8,R6
+   \       0xF4   0x4286             CMP      R6,R0
+   \       0xF6   0xD200             BCS.N    ??em3555ColorMathXyToRgbw_4
+   \       0xF8   0x4680             MOV      R8,R0
+    396              maxValue = rawBlue;
+    397            }
+    398          
+    399            if (maxValue > (uint32_t)targetLevel16) {
+   \                     ??em3555ColorMathXyToRgbw_4: (+1)
+   \       0xFA   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0xFE   0x4540             CMP      R0,R8
+   \      0x100   0xD214             BCS.N    ??em3555ColorMathXyToRgbw_5
+    400              /*
+    401               * XY -> RGB can legitimately overshoot 16-bit for saturated primaries.
+    402               * Normalize back to the requested level, not full-scale 65535. Some
+    403               * primaries still land below 65535 while exceeding the requested level,
+    404               * which makes brightness appear to wrap or plateau if we skip this clamp.
+    405               */
+    406              out->red = normalize_channel_u32_to_target(rawRed, maxValue, targetLevel16);
+   \      0x102   0x4602             MOV      R2,R0
+   \      0x104   0x4641             MOV      R1,R8
+   \      0x106   0x4628             MOV      R0,R5
+   \      0x108   0x.... 0x....      BL       normalize_channel_u32_to_target
+   \      0x10C   0x8020             STRH     R0,[R4, #+0]
+    407              out->green = normalize_channel_u32_to_target(rawGreen, maxValue, targetLevel16);
+   \      0x10E   0xF8BD 0x2000      LDRH     R2,[SP, #+0]
+   \      0x112   0x4641             MOV      R1,R8
+   \      0x114   0x4638             MOV      R0,R7
+   \      0x116   0x.... 0x....      BL       normalize_channel_u32_to_target
+   \      0x11A   0x8060             STRH     R0,[R4, #+2]
+    408              out->blue = normalize_channel_u32_to_target(rawBlue, maxValue, targetLevel16);
+   \      0x11C   0xF8BD 0x2000      LDRH     R2,[SP, #+0]
+   \      0x120   0x4641             MOV      R1,R8
+   \      0x122   0x4630             MOV      R0,R6
+   \      0x124   0x.... 0x....      BL       normalize_channel_u32_to_target
+   \      0x128   0x80A0             STRH     R0,[R4, #+4]
+   \      0x12A   0xE002             B.N      ??em3555ColorMathXyToRgbw_6
+    409            } else {
+    410              out->red = (uint16_t)rawRed;
+   \                     ??em3555ColorMathXyToRgbw_5: (+1)
+   \      0x12C   0x8025             STRH     R5,[R4, #+0]
+    411              out->green = (uint16_t)rawGreen;
+   \      0x12E   0x8067             STRH     R7,[R4, #+2]
+    412              out->blue = (uint16_t)rawBlue;
+   \      0x130   0x80A6             STRH     R6,[R4, #+4]
+    413            }
+    414            em3555ColorMathNormalizeToLevel(out, level);
+   \                     ??em3555ColorMathXyToRgbw_6: (+1)
+   \      0x132   0xF89D 0x1010      LDRB     R1,[SP, #+16]
+   \      0x136   0x4620             MOV      R0,R4
+   \      0x138   0x.... 0x....      BL       em3555ColorMathNormalizeToLevel
+    415            maximize_vivid_rgb(out, level);
+   \      0x13C   0xF89D 0x1010      LDRB     R1,[SP, #+16]
+   \      0x140   0x4620             MOV      R0,R4
+   \      0x142   0x.... 0x....      BL       maximize_vivid_rgb
+    416          
+    417            roughChannels = *out;
+   \      0x146   0xA802             ADD      R0,SP,#+8
+   \      0x148   0x4621             MOV      R1,R4
+   \      0x14A   0x2208             MOVS     R2,#+8
+   \      0x14C   0x.... 0x....      BL       __aeabi_memcpy
+    418            /*
+    419             * Z2M RGB payloads usually arrive here as MoveToColor/XY. The strict CIE
+    420             * matrix is fine for calibrated bulbs, but on this strip controller it makes
+    421             * vivid colors look visibly weaker than both stock firmware and the boot
+    422             * self-test. For strongly saturated, non-neutral XY colors, use XY only to
+    423             * infer hue and then drive the strip through the native HS mixer at a fully
+    424             * saturated strip-style output.
+    425             */
+    426            if (em3555ColorMathRgbwToHs(&roughChannels, &derivedHue, &derivedSaturation)
+    427                && derivedSaturation >= EM3555_XY_VIVID_SATURATION_THRESHOLD
+    428                && !rgb_channels_are_neutralish(&roughChannels)) {
+   \      0x150   0xF10D 0x0202      ADD      R2,SP,#+2
+   \      0x154   0xF10D 0x0103      ADD      R1,SP,#+3
+   \      0x158   0xA802             ADD      R0,SP,#+8
+   \      0x15A   0x.... 0x....      BL       em3555ColorMathRgbwToHs
+   \      0x15E   0x2800             CMP      R0,#+0
+   \      0x160   0xD011             BEQ.N    ??em3555ColorMathXyToRgbw_7
+   \      0x162   0xF89D 0x0002      LDRB     R0,[SP, #+2]
+   \      0x166   0x2810             CMP      R0,#+16
+   \      0x168   0xD30D             BCC.N    ??em3555ColorMathXyToRgbw_7
+   \      0x16A   0xA802             ADD      R0,SP,#+8
+   \      0x16C   0x.... 0x....      BL       rgb_channels_are_neutralish
+   \      0x170   0x2800             CMP      R0,#+0
+   \      0x172   0xD108             BNE.N    ??em3555ColorMathXyToRgbw_7
+    429              em3555ColorMathHsToRgbw(derivedHue, EM3555_XY_VIVID_TARGET_SATURATION, level, out);
+   \      0x174   0x4623             MOV      R3,R4
+   \      0x176   0xF89D 0x2010      LDRB     R2,[SP, #+16]
+   \      0x17A   0x21FE             MOVS     R1,#+254
+   \      0x17C   0xF89D 0x0003      LDRB     R0,[SP, #+3]
+   \      0x180   0x.... 0x....      BL       em3555ColorMathHsToRgbw
+    430              return;
+   \      0x184   0xE004             B.N      ??em3555ColorMathXyToRgbw_0
+    431            }
+    432          
+    433            *out = roughChannels;
+   \                     ??em3555ColorMathXyToRgbw_7: (+1)
+   \      0x186   0x4620             MOV      R0,R4
+   \      0x188   0xA902             ADD      R1,SP,#+8
+   \      0x18A   0x2208             MOVS     R2,#+8
+   \      0x18C   0x.... 0x....      BL       __aeabi_memcpy
+    434          }
+   \                     ??em3555ColorMathXyToRgbw_0: (+1)
+   \      0x190   0xB006             ADD      SP,SP,#+24
+   \      0x192   0xE8BD 0x87F0      POP      {R4-R10,PC}
+    435          
+
+   \                                 In section .text, align 2, keep-with-next
+    436          void em3555ColorMathCtToRgbw(uint16_t colorTemperatureMireds,
+    437                                       uint8_t level,
+    438                                       Em3555RgbwChannels *out)
+    439          {
+   \                     em3555ColorMathCtToRgbw: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4605             MOV      R5,R0
+   \        0x4   0x460E             MOV      R6,R1
+   \        0x6   0x4614             MOV      R4,R2
+    440            uint32_t bounded;
+    441            uint32_t warmRatio;
+    442            uint32_t coolRatio;
+    443            uint32_t level16;
+    444            uint32_t whiteBase;
+    445            uint32_t accent;
+    446          
+    447            zero_channels(out);
+   \        0x8   0x4620             MOV      R0,R4
+   \        0xA   0x.... 0x....      BL       zero_channels
+    448          
+    449            if (level == 0U) {
+   \        0xE   0x0030             MOVS     R0,R6
+   \       0x10   0xD037             BEQ.N    ??em3555ColorMathCtToRgbw_0
+    450              return;
+    451            }
+    452          
+    453            if (colorTemperatureMireds < EM3555_COLOR_TEMP_MIN_MIREDS) {
+   \       0x12   0x2D7D             CMP      R5,#+125
+   \       0x14   0xD201             BCS.N    ??em3555ColorMathCtToRgbw_1
+    454              bounded = EM3555_COLOR_TEMP_MIN_MIREDS;
+   \       0x16   0x257D             MOVS     R5,#+125
+   \       0x18   0xE004             B.N      ??em3555ColorMathCtToRgbw_2
+    455            } else if (colorTemperatureMireds > EM3555_COLOR_TEMP_MAX_MIREDS) {
+   \                     ??em3555ColorMathCtToRgbw_1: (+1)
+   \       0x1A   0xF240 0x209A      MOVW     R0,#+666
+   \       0x1E   0x4285             CMP      R5,R0
+   \       0x20   0xD900             BLS.N    ??em3555ColorMathCtToRgbw_2
+    456              bounded = EM3555_COLOR_TEMP_MAX_MIREDS;
+   \       0x22   0x4605             MOV      R5,R0
+    457            } else {
+    458              bounded = colorTemperatureMireds;
+    459            }
+    460          
+    461            warmRatio = ((bounded - EM3555_COLOR_TEMP_MIN_MIREDS) * 65535UL)
+    462                        / (EM3555_COLOR_TEMP_MAX_MIREDS - EM3555_COLOR_TEMP_MIN_MIREDS);
+   \                     ??em3555ColorMathCtToRgbw_2: (+1)
+   \       0x24   0x3D7D             SUBS     R5,R5,#+125
+   \       0x26   0xEBC5 0x4505      RSB      R5,R5,R5, LSL #+16
+   \       0x2A   0xF240 0x201D      MOVW     R0,#+541
+   \       0x2E   0xFBB5 0xF5F0      UDIV     R5,R5,R0
+    463            coolRatio = 65535UL - warmRatio;
+    464          
+    465            level16 = scale_zcl_level_to_16(level);
+   \       0x32   0x4630             MOV      R0,R6
+   \       0x34   0x.... 0x....      BL       scale_zcl_level_to_16
+    466            /*
+    467             * Keep the dedicated white channel at the requested level and layer tint on
+    468             * top. The previous 75/25 split made CT mode visibly dimmer than both stock
+    469             * firmware and the boot self-test even at full brightness.
+    470             */
+    471            whiteBase = level16;
+    472            accent = (level16 / 2UL);
+   \       0x38   0x4601             MOV      R1,R0
+   \       0x3A   0x0849             LSRS     R1,R1,#+1
+    473          
+    474            out->white = (uint16_t)whiteBase;
+   \       0x3C   0x80E0             STRH     R0,[R4, #+6]
+    475            out->red = (uint16_t)((accent * (warmRatio + 8192UL)) / 65535UL);
+   \       0x3E   0xF505 0x5000      ADD      R0,R5,#+8192
+   \       0x42   0x4348             MULS     R0,R0,R1
+   \       0x44   0xF64F 0x72FF      MOVW     R2,#+65535
+   \       0x48   0xFBB0 0xF0F2      UDIV     R0,R0,R2
+   \       0x4C   0x8020             STRH     R0,[R4, #+0]
+    476            out->green = (uint16_t)((accent * ((32768UL + (warmRatio / 2UL)))) / 65535UL);
+   \       0x4E   0x4628             MOV      R0,R5
+   \       0x50   0x0840             LSRS     R0,R0,#+1
+   \       0x52   0xF500 0x4000      ADD      R0,R0,#+32768
+   \       0x56   0x4348             MULS     R0,R0,R1
+   \       0x58   0xFBB0 0xF0F2      UDIV     R0,R0,R2
+   \       0x5C   0x8060             STRH     R0,[R4, #+2]
+    477            out->blue = (uint16_t)((accent * (coolRatio + 8192UL)) / 65535UL);
+   \       0x5E   0x....             LDR.N    R0,??DataTable2_4
+   \       0x60   0x1B45             SUBS     R5,R0,R5
+   \       0x62   0x434D             MULS     R5,R5,R1
+   \       0x64   0x4610             MOV      R0,R2
+   \       0x66   0xFBB5 0xF0F0      UDIV     R0,R5,R0
+   \       0x6A   0x80A0             STRH     R0,[R4, #+4]
+    478          
+    479            normalize_channels(out, max4_u16(out->red, out->green, out->blue, out->white));
+   \       0x6C   0x88E3             LDRH     R3,[R4, #+6]
+   \       0x6E   0x88A2             LDRH     R2,[R4, #+4]
+   \       0x70   0x8861             LDRH     R1,[R4, #+2]
+   \       0x72   0x8820             LDRH     R0,[R4, #+0]
+   \       0x74   0x.... 0x....      BL       max4_u16
+   \       0x78   0x4601             MOV      R1,R0
+   \       0x7A   0x4620             MOV      R0,R4
+   \       0x7C   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \       0x80   0x....             B.N      normalize_channels
+   \                     ??em3555ColorMathCtToRgbw_0: (+1)
+   \       0x82   0xBD70             POP      {R4-R6,PC}
+    480          }
+    481          
+
+   \                                 In section .text, align 2, keep-with-next
+    482          uint16_t em3555ColorMathScaleToPwm(uint16_t value16, uint16_t pwmTop)
+    483          {
+    484            return (uint16_t)(((uint32_t)value16 * pwmTop) / 65535UL);
+   \                     em3555ColorMathScaleToPwm: (+1)
+   \        0x0   0x4348             MULS     R0,R1,R0
+   \        0x2   0xF64F 0x71FF      MOVW     R1,#+65535
+   \        0x6   0xFBB0 0xF0F1      UDIV     R0,R0,R1
+   \        0xA   0xB280             UXTH     R0,R0
+   \        0xC   0x4770             BX       LR
+    485          }
+    486          
+
+   \                                 In section .text, align 2, keep-with-next
+    487          bool em3555ColorMathRgbwToHs(const Em3555RgbwChannels *channels,
+    488                                       uint8_t *outHue,
+    489                                       uint8_t *outSaturation)
+    490          {
+   \                     em3555ColorMathRgbwToHs: (+1)
+   \        0x0   0xB57C             PUSH     {R2-R6,LR}
+   \        0x2   0x460C             MOV      R4,R1
+   \        0x4   0x4615             MOV      R5,R2
+    491            uint16_t red;
+    492            uint16_t green;
+    493            uint16_t blue;
+    494            uint16_t maxValue;
+    495            uint16_t minValue;
+    496            uint16_t delta;
+    497            int32_t hue;
+    498          
+    499            if (channels == NULL || outHue == NULL || outSaturation == NULL) {
+   \        0x6   0x2800             CMP      R0,#+0
+   \        0x8   0xD01E             BEQ.N    ??em3555ColorMathRgbwToHs_0
+   \        0xA   0x2C00             CMP      R4,#+0
+   \        0xC   0xD01C             BEQ.N    ??em3555ColorMathRgbwToHs_0
+   \        0xE   0x2D00             CMP      R5,#+0
+   \       0x10   0xD01A             BEQ.N    ??em3555ColorMathRgbwToHs_0
+    500              return false;
+    501            }
+    502          
+    503            compose_visible_rgb(channels, &red, &green, &blue);
+   \       0x12   0x466B             MOV      R3,SP
+   \       0x14   0xF10D 0x0202      ADD      R2,SP,#+2
+   \       0x18   0xA901             ADD      R1,SP,#+4
+   \       0x1A   0x.... 0x....      BL       compose_visible_rgb
+    504            maxValue = max3_u16(red, green, blue);
+   \       0x1E   0xF8BD 0x2000      LDRH     R2,[SP, #+0]
+   \       0x22   0xF8BD 0x1002      LDRH     R1,[SP, #+2]
+   \       0x26   0xF8BD 0x0004      LDRH     R0,[SP, #+4]
+   \       0x2A   0x.... 0x....      BL       max3_u16
+   \       0x2E   0x4606             MOV      R6,R0
+    505            minValue = min3_u16(red, green, blue);
+    506            delta = (uint16_t)(maxValue - minValue);
+   \       0x30   0xF8BD 0x2000      LDRH     R2,[SP, #+0]
+   \       0x34   0xF8BD 0x1002      LDRH     R1,[SP, #+2]
+   \       0x38   0xF8BD 0x0004      LDRH     R0,[SP, #+4]
+   \       0x3C   0x.... 0x....      BL       min3_u16
+   \       0x40   0x1A30             SUBS     R0,R6,R0
+   \       0x42   0xB280             UXTH     R0,R0
+    507          
+    508            if (maxValue == 0U) {
+   \       0x44   0x2E00             CMP      R6,#+0
+   \       0x46   0xD101             BNE.N    ??em3555ColorMathRgbwToHs_1
+    509              return false;
+   \                     ??em3555ColorMathRgbwToHs_0: (+1)
+   \       0x48   0x2000             MOVS     R0,#+0
+   \       0x4A   0xBD76             POP      {R1,R2,R4-R6,PC}
+    510            }
+    511          
+    512            if (delta == 0U) {
+   \                     ??em3555ColorMathRgbwToHs_1: (+1)
+   \       0x4C   0x2800             CMP      R0,#+0
+   \       0x4E   0xD104             BNE.N    ??em3555ColorMathRgbwToHs_2
+    513              *outHue = 0U;
+   \       0x50   0x2000             MOVS     R0,#+0
+   \       0x52   0x7020             STRB     R0,[R4, #+0]
+    514              *outSaturation = 0U;
+   \       0x54   0x7028             STRB     R0,[R5, #+0]
+    515              return true;
+   \       0x56   0x2001             MOVS     R0,#+1
+   \       0x58   0xBD76             POP      {R1,R2,R4-R6,PC}
+    516            }
+    517          
+    518            *outSaturation = (uint8_t)((((uint32_t)delta * 254UL) + (maxValue / 2U)) / maxValue);
+   \                     ??em3555ColorMathRgbwToHs_2: (+1)
+   \       0x5A   0xEBC0 0x11C0      RSB      R1,R0,R0, LSL #+7
+   \       0x5E   0x4632             MOV      R2,R6
+   \       0x60   0x0852             LSRS     R2,R2,#+1
+   \       0x62   0xEB02 0x0241      ADD      R2,R2,R1, LSL #+1
+   \       0x66   0xFBB2 0xF1F6      UDIV     R1,R2,R6
+   \       0x6A   0x7029             STRB     R1,[R5, #+0]
+    519          
+    520            if (maxValue == red) {
+   \       0x6C   0xF8BD 0x2002      LDRH     R2,[SP, #+2]
+   \       0x70   0xF8BD 0x1004      LDRH     R1,[SP, #+4]
+   \       0x74   0x232B             MOVS     R3,#+43
+   \       0x76   0x428E             CMP      R6,R1
+   \       0x78   0xD106             BNE.N    ??em3555ColorMathRgbwToHs_3
+    521              hue = ((int32_t)43 * ((int32_t)green - (int32_t)blue)) / (int32_t)delta;
+   \       0x7A   0xF8BD 0x1000      LDRH     R1,[SP, #+0]
+   \       0x7E   0x1A52             SUBS     R2,R2,R1
+   \       0x80   0x435A             MULS     R2,R3,R2
+   \       0x82   0xFB92 0xF0F0      SDIV     R0,R2,R0
+   \       0x86   0xE00E             B.N      ??em3555ColorMathRgbwToHs_4
+    522            } else if (maxValue == green) {
+   \                     ??em3555ColorMathRgbwToHs_3: (+1)
+   \       0x88   0x4296             CMP      R6,R2
+   \       0x8A   0xD107             BNE.N    ??em3555ColorMathRgbwToHs_5
+    523              hue = 85 + (((int32_t)43 * ((int32_t)blue - (int32_t)red)) / (int32_t)delta);
+   \       0x8C   0xF8BD 0x2000      LDRH     R2,[SP, #+0]
+   \       0x90   0x1A51             SUBS     R1,R2,R1
+   \       0x92   0x4359             MULS     R1,R3,R1
+   \       0x94   0xFB91 0xF0F0      SDIV     R0,R1,R0
+   \       0x98   0x3055             ADDS     R0,R0,#+85
+   \       0x9A   0xE004             B.N      ??em3555ColorMathRgbwToHs_4
+    524            } else {
+    525              hue = 170 + (((int32_t)43 * ((int32_t)red - (int32_t)green)) / (int32_t)delta);
+   \                     ??em3555ColorMathRgbwToHs_5: (+1)
+   \       0x9C   0x1A8A             SUBS     R2,R1,R2
+   \       0x9E   0x435A             MULS     R2,R3,R2
+   \       0xA0   0xFB92 0xF0F0      SDIV     R0,R2,R0
+   \       0xA4   0x30AA             ADDS     R0,R0,#+170
+    526            }
+    527          
+    528            *outHue = wrap_hue_u8(hue);
+   \                     ??em3555ColorMathRgbwToHs_4: (+1)
+   \       0xA6   0x.... 0x....      BL       wrap_hue_u8
+   \       0xAA   0x7020             STRB     R0,[R4, #+0]
+    529            return true;
+   \       0xAC   0x2001             MOVS     R0,#+1
+   \       0xAE   0xBD76             POP      {R1,R2,R4-R6,PC}
+    530          }
+    531          
+
+   \                                 In section .text, align 2, keep-with-next
+    532          bool em3555ColorMathRgbwToXy(const Em3555RgbwChannels *channels,
+    533                                       uint16_t *outX,
+    534                                       uint16_t *outY)
+    535          {
+   \                     em3555ColorMathRgbwToXy: (+1)
+   \        0x0   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+   \        0x4   0xB088             SUB      SP,SP,#+32
+    536            uint16_t red;
+    537            uint16_t green;
+    538            uint16_t blue;
+    539            uint64_t X;
+    540            uint64_t Y;
+    541            uint64_t Z;
+    542            uint64_t sum;
+    543            uint64_t x;
+    544            uint64_t y;
+    545            uint64_t total;
+    546          
+    547            if (channels == NULL || outX == NULL || outY == NULL) {
+   \        0x6   0x2800             CMP      R0,#+0
+   \        0x8   0xD05D             BEQ.N    ??em3555ColorMathRgbwToXy_0
+   \        0xA   0x9105             STR      R1,[SP, #+20]
+   \        0xC   0x2900             CMP      R1,#+0
+   \        0xE   0xD05A             BEQ.N    ??em3555ColorMathRgbwToXy_0
+   \       0x10   0x9204             STR      R2,[SP, #+16]
+   \       0x12   0x4611             MOV      R1,R2
+   \       0x14   0x2900             CMP      R1,#+0
+   \       0x16   0xD056             BEQ.N    ??em3555ColorMathRgbwToXy_0
+    548              return false;
+    549            }
+    550          
+    551            compose_visible_rgb(channels, &red, &green, &blue);
+   \       0x18   0xAB02             ADD      R3,SP,#+8
+   \       0x1A   0xF10D 0x020A      ADD      R2,SP,#+10
+   \       0x1E   0xA903             ADD      R1,SP,#+12
+   \       0x20   0x.... 0x....      BL       compose_visible_rgb
+    552            if (red == 0U && green == 0U && blue == 0U) {
+   \       0x24   0xF8BD 0x100C      LDRH     R1,[SP, #+12]
+   \       0x28   0xF8BD 0x000A      LDRH     R0,[SP, #+10]
+   \       0x2C   0x4301             ORRS     R1,R0,R1
+   \       0x2E   0xF8BD 0x0008      LDRH     R0,[SP, #+8]
+   \       0x32   0x4301             ORRS     R1,R0,R1
+   \       0x34   0xD047             BEQ.N    ??em3555ColorMathRgbwToXy_0
+    553              return false;
+    554            }
+    555          
+    556            X = ((uint64_t)4124 * red) + ((uint64_t)3576 * green) + ((uint64_t)1805 * blue);
+   \       0x36   0x4602             MOV      R2,R0
+   \       0x38   0xF8BD 0x400A      LDRH     R4,[SP, #+10]
+   \       0x3C   0xF8BD 0x600C      LDRH     R6,[SP, #+12]
+   \       0x40   0xF241 0x081C      MOVW     R8,#+4124
+   \       0x44   0xFBA8 0x0106      UMULL    R0,R1,R8,R6
+   \       0x48   0xF640 0x58F8      MOVW     R8,#+3576
+   \       0x4C   0xFBA8 0xAB04      UMULL    R10,R11,R8,R4
+   \       0x50   0x4450             ADD      R0,R0,R10
+   \       0x52   0xF240 0x780D      MOVW     R8,#+1805
+   \       0x56   0xFBA8 0xAB02      UMULL    R10,R11,R8,R2
+   \       0x5A   0x4450             ADD      R0,R0,R10
+    557            Y = ((uint64_t)2126 * red) + ((uint64_t)7152 * green) + ((uint64_t)722 * blue);
+   \       0x5C   0xF640 0x0A4E      MOVW     R10,#+2126
+   \       0x60   0xFBAA 0x8906      UMULL    R8,R9,R10,R6
+   \       0x64   0xE9CD 0x8900      STRD     R8,R9,[SP, #+0]
+   \       0x68   0xF641 0x38F0      MOVW     R8,#+7152
+   \       0x6C   0xFBA8 0xAB04      UMULL    R10,R11,R8,R4
+   \       0x70   0xE9DD 0x8900      LDRD     R8,R9,[SP, #+0]
+   \       0x74   0x44D0             ADD      R8,R8,R10
+   \       0x76   0xE9CD 0x8900      STRD     R8,R9,[SP, #+0]
+   \       0x7A   0xF240 0x28D2      MOVW     R8,#+722
+   \       0x7E   0xFBA8 0xAB02      UMULL    R10,R11,R8,R2
+   \       0x82   0xE9DD 0x8900      LDRD     R8,R9,[SP, #+0]
+   \       0x86   0x44D0             ADD      R8,R8,R10
+   \       0x88   0xE9CD 0x8906      STRD     R8,R9,[SP, #+24]
+    558            Z = ((uint64_t)193 * red) + ((uint64_t)1192 * green) + ((uint64_t)9505 * blue);
+    559            sum = X + Y + Z;
+   \       0x8C   0x4480             ADD      R8,R0,R8
+   \       0x8E   0xE9CD 0x8900      STRD     R8,R9,[SP, #+0]
+   \       0x92   0xF04F 0x08C1      MOV      R8,#+193
+   \       0x96   0xFBA8 0xAB06      UMULL    R10,R11,R8,R6
+   \       0x9A   0xE9DD 0x6700      LDRD     R6,R7,[SP, #+0]
+   \       0x9E   0x4456             ADD      R6,R6,R10
+   \       0xA0   0xF44F 0x6895      MOV      R8,#+1192
+   \       0xA4   0xFBA8 0xAB04      UMULL    R10,R11,R8,R4
+   \       0xA8   0xEB16 0x040A      ADDS     R4,R6,R10
+   \       0xAC   0xEB47 0x050B      ADC      R5,R7,R11
+   \       0xB0   0xF242 0x5621      MOVW     R6,#+9505
+   \       0xB4   0xFBA6 0x8902      UMULL    R8,R9,R6,R2
+   \       0xB8   0xEB14 0x0408      ADDS     R4,R4,R8
+   \       0xBC   0xEB55 0x0509      ADCS     R5,R5,R9
+    560            if (sum == 0ULL) {
+   \       0xC0   0xD103             BNE.N    ??em3555ColorMathRgbwToXy_1
+   \       0xC2   0x2C00             CMP      R4,#+0
+   \       0xC4   0xD101             BNE.N    ??em3555ColorMathRgbwToXy_1
+    561              return false;
+   \                     ??em3555ColorMathRgbwToXy_0: (+1)
+   \       0xC6   0x2000             MOVS     R0,#+0
+   \       0xC8   0xE05E             B.N      ??em3555ColorMathRgbwToXy_2
+    562            }
+    563          
+    564            x = ((X * 65535ULL) + (sum / 2ULL)) / sum;
+   \                     ??em3555ColorMathRgbwToXy_1: (+1)
+   \       0xCA   0x46A2             MOV      R10,R4
+   \       0xCC   0xEA5F 0x0B5B      LSRS     R11,R11,#+1
+   \       0xD0   0xEA4F 0x0A3A      RRX      R10,R10
+   \       0xD4   0xF64F 0x76FF      MOVW     R6,#+65535
+   \       0xD8   0xFBA6 0x2300      UMULL    R2,R3,R6,R0
+   \       0xDC   0xEB12 0x000A      ADDS     R0,R2,R10
+   \       0xE0   0xEB43 0x010B      ADC      R1,R3,R11
+   \       0xE4   0x4622             MOV      R2,R4
+   \       0xE6   0x462B             MOV      R3,R5
+   \       0xE8   0x.... 0x....      BL       __aeabi_uldivmod
+   \       0xEC   0x4680             MOV      R8,R0
+   \       0xEE   0x4689             MOV      R9,R1
+    565            y = ((Y * 65535ULL) + (sum / 2ULL)) / sum;
+   \       0xF0   0xE9DD 0x0106      LDRD     R0,R1,[SP, #+24]
+   \       0xF4   0xFBA6 0x2300      UMULL    R2,R3,R6,R0
+   \       0xF8   0xFB06 0x3301      MLA      R3,R6,R1,R3
+   \       0xFC   0xEB12 0x000A      ADDS     R0,R2,R10
+   \      0x100   0xEB43 0x010B      ADC      R1,R3,R11
+   \      0x104   0x4622             MOV      R2,R4
+   \      0x106   0x462B             MOV      R3,R5
+   \      0x108   0x.... 0x....      BL       __aeabi_uldivmod
+   \      0x10C   0x4604             MOV      R4,R0
+   \      0x10E   0x460D             MOV      R5,R1
+    566            total = x + y;
+   \      0x110   0xEB18 0x0A04      ADDS     R10,R8,R4
+   \      0x114   0xEB49 0x0B05      ADC      R11,R9,R5
+    567            if (total > 65535ULL && total != 0ULL) {
+   \      0x118   0xF1BB 0x0F00      CMP      R11,#+0
+   \      0x11C   0xD329             BCC.N    ??em3555ColorMathRgbwToXy_3
+   \      0x11E   0xD802             BHI.N    ??em3555ColorMathRgbwToXy_4
+   \      0x120   0xF5BA 0x3F80      CMP      R10,#+65536
+   \      0x124   0xD325             BCC.N    ??em3555ColorMathRgbwToXy_3
+   \                     ??em3555ColorMathRgbwToXy_4: (+1)
+   \      0x126   0xF1BB 0x0F00      CMP      R11,#+0
+   \      0x12A   0xD102             BNE.N    ??em3555ColorMathRgbwToXy_5
+   \      0x12C   0xF1BA 0x0F00      CMP      R10,#+0
+   \      0x130   0xD01F             BEQ.N    ??em3555ColorMathRgbwToXy_3
+    568              x = ((x * 65535ULL) + (total / 2ULL)) / total;
+   \                     ??em3555ColorMathRgbwToXy_5: (+1)
+   \      0x132   0xFBA6 0x2308      UMULL    R2,R3,R6,R8
+   \      0x136   0xFB06 0x3309      MLA      R3,R6,R9,R3
+   \      0x13A   0x4650             MOV      R0,R10
+   \      0x13C   0x4659             MOV      R1,R11
+   \      0x13E   0x0849             LSRS     R1,R1,#+1
+   \      0x140   0xEA4F 0x0030      RRX      R0,R0
+   \      0x144   0x1810             ADDS     R0,R2,R0
+   \      0x146   0x4159             ADCS     R1,R3,R1
+   \      0x148   0x4652             MOV      R2,R10
+   \      0x14A   0x465B             MOV      R3,R11
+   \      0x14C   0x.... 0x....      BL       __aeabi_uldivmod
+   \      0x150   0x4680             MOV      R8,R0
+    569              y = ((y * 65535ULL) + (total / 2ULL)) / total;
+   \      0x152   0xFBA6 0x2304      UMULL    R2,R3,R6,R4
+   \      0x156   0xFB06 0x3305      MLA      R3,R6,R5,R3
+   \      0x15A   0x4650             MOV      R0,R10
+   \      0x15C   0x4659             MOV      R1,R11
+   \      0x15E   0x0849             LSRS     R1,R1,#+1
+   \      0x160   0xEA4F 0x0030      RRX      R0,R0
+   \      0x164   0x1810             ADDS     R0,R2,R0
+   \      0x166   0x4159             ADCS     R1,R3,R1
+   \      0x168   0x4652             MOV      R2,R10
+   \      0x16A   0x465B             MOV      R3,R11
+   \      0x16C   0x.... 0x....      BL       __aeabi_uldivmod
+   \      0x170   0x4604             MOV      R4,R0
+    570            }
+    571          
+    572            *outX = clamp_u16_u32((uint32_t)x);
+   \                     ??em3555ColorMathRgbwToXy_3: (+1)
+   \      0x172   0x4640             MOV      R0,R8
+   \      0x174   0x.... 0x....      BL       clamp_u16_u32
+   \      0x178   0x9905             LDR      R1,[SP, #+20]
+   \      0x17A   0x8008             STRH     R0,[R1, #+0]
+    573            *outY = clamp_u16_u32((uint32_t)y);
+   \      0x17C   0x4620             MOV      R0,R4
+   \      0x17E   0x.... 0x....      BL       clamp_u16_u32
+   \      0x182   0x9904             LDR      R1,[SP, #+16]
+   \      0x184   0x8008             STRH     R0,[R1, #+0]
+    574            return true;
+   \      0x186   0x2001             MOVS     R0,#+1
+   \                     ??em3555ColorMathRgbwToXy_2: (+1)
+   \      0x188   0xB009             ADD      SP,SP,#+36
+   \      0x18A   0xE8BD 0x8FF0      POP      {R4-R11,PC}
+    575          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0xFFFF'C3F4        DC32     0xffffc3f4
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \        0x0   0xFFFF'EC86        DC32     0xffffec86
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \        0x0   0xFFFF'DA27        DC32     0xffffda27
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_3:
+   \        0x0   0xFFFF'F808        DC32     0xfffff808
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_4:
+   \        0x0   0x0001'1FFF        DC32     0x11fff
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   clamp_positive_i64_to_u32
+       0   clamp_u16_u32
+      24   compose_visible_rgb
+        24   -> clamp_u16_u32
+      16   em3555ColorMathApplyWhiteAssist
+        16   -> max3_u16
+        16   -> min3_u16
+      16   em3555ColorMathCtToRgbw
+        16   -> max4_u16
+         0   -> normalize_channels
+        16   -> scale_zcl_level_to_16
+        16   -> zero_channels
+      32   em3555ColorMathHsToRgbw
+        32   -> expand_u8_to_16
+        32   -> scale_zcl_u8_to_255
+        32   -> zero_channels
+      16   em3555ColorMathNormalizeToLevel
+        16   -> max4_u16
+        16   -> normalize_channel_u32_to_target
+        16   -> scale_zcl_level_to_16
+      24   em3555ColorMathRgbwToHs
+        24   -> compose_visible_rgb
+        24   -> max3_u16
+        24   -> min3_u16
+        24   -> wrap_hue_u8
+      72   em3555ColorMathRgbwToXy
+        72   -> clamp_u16_u32
+        72   -> compose_visible_rgb
+        72 __aeabi_uldivmod
+       0   em3555ColorMathScaleToPwm
+      56   em3555ColorMathXyToRgbw
+        56   -> __aeabi_memcpy
+        56   -> clamp_positive_i64_to_u32
+        56   -> em3555ColorMathHsToRgbw
+        56   -> em3555ColorMathNormalizeToLevel
+        56   -> em3555ColorMathRgbwToHs
+        56   -> maximize_vivid_rgb
+        56   -> normalize_channel_u32_to_target
+        56   -> rgb_channels_are_neutralish
+        56   -> scale_zcl_level_to_16
+        56   -> zero_channels
+        56 __aeabi_ldivmod
+       0   expand_u8_to_16
+       0   max3_u16
+       0   max4_u16
+      16   maximize_vivid_rgb
+         0   -> em3555ColorMathNormalizeToLevel
+        16   -> max3_u16
+        16   -> min3_u16
+        16   -> rgb_channels_are_neutralish
+       0   min3_u16
+       8   normalize_channel_u32_to_target
+         8 __aeabi_uldivmod
+       0   normalize_channels
+      16   rgb_channels_are_neutralish
+        16   -> max3_u16
+        16   -> min3_u16
+       8   scale_zcl_level_to_16
+         0   -> expand_u8_to_16
+         8   -> scale_zcl_u8_to_255
+       0   scale_zcl_u8_to_255
+       0   wrap_hue_u8
+       0   zero_channels
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+      18  clamp_positive_i64_to_u32
+      16  clamp_u16_u32
+      70  compose_visible_rgb
+      64  em3555ColorMathApplyWhiteAssist
+     132  em3555ColorMathCtToRgbw
+     256  em3555ColorMathHsToRgbw
+      88  em3555ColorMathNormalizeToLevel
+     176  em3555ColorMathRgbwToHs
+     398  em3555ColorMathRgbwToXy
+      14  em3555ColorMathScaleToPwm
+     406  em3555ColorMathXyToRgbw
+       6  expand_u8_to_16
+      14  max3_u16
+      20  max4_u16
+     132  maximize_vivid_rgb
+      14  min3_u16
+      30  normalize_channel_u32_to_target
+      62  normalize_channels
+      56  rgb_channels_are_neutralish
+      12  scale_zcl_level_to_16
+      32  scale_zcl_u8_to_255
+      20  wrap_hue_u8
+      12  zero_channels
+
+ 
+ 2'068 bytes in section .text
+ 
+ 2'068 bytes of CODE memory
+
+Errors: none
+Warnings: none

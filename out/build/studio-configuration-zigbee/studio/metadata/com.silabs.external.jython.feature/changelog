@@ -1,0 +1,12 @@
+2.7.5
+	Java 21 update build for Studio SV5.10.
+2.7.4
+	Java 17 update build for Studio SV5.7.
+2.7.3
+	Correct version for proper update flow
+2.7.2
+	Add packages for new radio configuration features
+2.7.1
+	Adding API to facilitate some customization for post-build step integration
+2.7.0
+	Initial release which contains jython version 2.7.0

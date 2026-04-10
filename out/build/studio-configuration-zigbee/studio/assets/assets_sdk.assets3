@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_sdk">
+  <assets path="/sdk/repos.sdk.extensions" diskSizeKB="19.038" downloadSizeKB="19.038">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1774562557130"/>
+  </assets>
+  <assets path="/sdk/demo-sdk.zip" diskSizeKB="53655.877" downloadSizeKB="46445.413" directory="true">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1759165752286"/>
+  </assets>
+  <assets path="/sdk/repos.sdk" diskSizeKB="83.133" downloadSizeKB="83.133">
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1771869687518"/>
+  </assets>
+</assets>

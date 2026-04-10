@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.external.jaxb.feature" 
+  label="Bundled Jaxb Support" 
+  description="Simplicity Studio Bundled JAXB Support" 
+  changelog="changelog" 
+  version="1.0.2"/>

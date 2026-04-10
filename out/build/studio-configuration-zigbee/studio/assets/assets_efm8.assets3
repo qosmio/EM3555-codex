@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_efm8">
+  <assets path="/efm8/SuperBeeDemo/SuperTux.zip" diskSizeKB="109244.281" downloadSizeKB="78243.003" directory="true">
+    <property key="timeStamp" value="1611786174391"/>
+  </assets>
+  <assets version="0.1" path="/efm8/appnote/AN0885/AN0885.pdf" diskSizeKB="187.659" downloadSizeKB="187.659" label="AN0885: EFM8UB Low Energy USB Overview">
+    <property key="timeStamp" value="1468886345941"/>
+  </assets>
+  <assets version="0.1" path="/efm8/appnote/AN1074.zip" diskSizeKB="1460.644" downloadSizeKB="1297.786" directory="true" label="AN1074: EFM8 Family IEC60730 Library">
+    <property key="timeStamp" value="1611786094265"/>
+  </assets>
+  <assets version="0.2" path="/efm8/appnote/AN1074/an1074-efm8-family-iec60730-library.pdf" diskSizeKB="1456.441" downloadSizeKB="1456.441" label="AN1074: EFM8 Family IEC60730 Library">
+    <property key="timeStamp" value="1513805613281"/>
+  </assets>
+  <assets version="0.1" path="/efm8/appnote/AN929/AN929.pdf" diskSizeKB="831.313" downloadSizeKB="831.313" label="AN929: Accurate Temperature Sensing with the EFM8 Laser Bee MCU Family">
+    <property key="timeStamp" value="1468886345931"/>
+  </assets>
+  <assets path="/efm8/appnote/AN945.zip" diskSizeKB="10656.52" downloadSizeKB="10550.662" directory="true">
+    <property key="timeStamp" value="1611786095082"/>
+  </assets>
+  <assets path="/efm8/appnote/AN954.zip" diskSizeKB="6236.342" downloadSizeKB="5969.993" directory="true">
+    <property key="timeStamp" value="1611786094611"/>
+  </assets>
+  <assets path="/efm8/configurator/bb1/EFM8BB1_A.zip" diskSizeKB="5949.671" downloadSizeKB="1125.578" directory="true">
+    <property key="timeStamp" value="1611786122386"/>
+  </assets>
+  <assets path="/efm8/configurator/bb2/EFM8BB2_B.zip" diskSizeKB="6226.834" downloadSizeKB="1159.259" directory="true">
+    <property key="timeStamp" value="1611786129931"/>
+  </assets>
+  <assets path="/efm8/configurator/bb2/EFM8BB2_C.zip" diskSizeKB="6300.399" downloadSizeKB="1173.363" directory="true">
+    <property key="timeStamp" value="1611786126034"/>
+  </assets>
+  <assets path="/efm8/configurator/bb3/EFM8BB3_A.zip" diskSizeKB="7878.796" downloadSizeKB="1392.183" directory="true">
+    <property key="timeStamp" value="1611786136694"/>
+  </assets>
+  <assets path="/efm8/configurator/bb3/EFM8BB3_B.zip" diskSizeKB="8818.313" downloadSizeKB="1527.619" directory="true">
+    <property key="timeStamp" value="1611786140337"/>
+  </assets>
+  <assets path="/efm8/configurator/bb3/EFM8BB3_C.zip" diskSizeKB="5577.162" downloadSizeKB="913.82" directory="true">
+    <property key="timeStamp" value="1611786145011"/>
+  </assets>
+  <assets path="/efm8/configurator/bb3/EFM8BB3_D.zip" diskSizeKB="5581.894" downloadSizeKB="914.082" directory="true">
+    <property key="timeStamp" value="1617823921638"/>
+  </assets>
+  <assets path="/efm8/configurator/bb50/EFM8BB50_A.zip" diskSizeKB="3755.88" downloadSizeKB="646.075" directory="true">
+    <property key="timeStamp" value="1700089977114"/>
+  </assets>
+  <assets path="/efm8/configurator/bb51/EFM8BB51_C.zip" diskSizeKB="3693.879" downloadSizeKB="630.62" directory="true">
+    <property key="timeStamp" value="1717687033665"/>
+  </assets>
+  <assets path="/efm8/configurator/bb52/EFM8BB52_C.zip" diskSizeKB="4368.702" downloadSizeKB="727.543" directory="true">
+    <property key="timeStamp" value="1662653056795"/>
+  </assets>
+  <assets path="/efm8/configurator/lb1/EFM8LB1_A.zip" diskSizeKB="7900.922" downloadSizeKB="1393.253" directory="true">
+    <property key="timeStamp" value="1611786114925"/>
+  </assets>
+  <assets path="/efm8/configurator/lb1/EFM8LB1_B.zip" diskSizeKB="9084.386" downloadSizeKB="1563.895" directory="true">
+    <property key="timeStamp" value="1611786118885"/>
+  </assets>
+  <assets path="/efm8/configurator/lb1/EFM8LB1_C.zip" diskSizeKB="5844.652" downloadSizeKB="950.377" directory="true">
+    <property key="timeStamp" value="1611786111098"/>
+  </assets>
+  <assets path="/efm8/configurator/sb1/EFM8SB1_A.zip" diskSizeKB="6159.312" downloadSizeKB="1156.901" directory="true">
+    <property key="timeStamp" value="1611786098784"/>
+  </assets>
+  <assets path="/efm8/configurator/sb2/EFM8SB2_A.zip" diskSizeKB="6237.054" downloadSizeKB="1156.143" directory="true">
+    <property key="timeStamp" value="1611786161844"/>
+  </assets>
+  <assets path="/efm8/configurator/sb2/EFM8SB2_B.zip" diskSizeKB="2876.57" downloadSizeKB="514.156" directory="true">
+    <property key="timeStamp" value="1671068916674"/>
+  </assets>
+  <assets path="/efm8/configurator/ub1/EFM8UB1_B.zip" diskSizeKB="6515.928" downloadSizeKB="1181.323" directory="true">
+    <property key="timeStamp" value="1611786108745"/>
+  </assets>
+  <assets path="/efm8/configurator/ub1/EFM8UB1_C.zip" diskSizeKB="6552.966" downloadSizeKB="1188.419" directory="true">
+    <property key="timeStamp" value="1611786105450"/>
+  </assets>
+  <assets path="/efm8/configurator/ub2/EFM8UB2_A.zip" diskSizeKB="6532.733" downloadSizeKB="1194.152" directory="true">
+    <property key="timeStamp" value="1611786149848"/>
+  </assets>
+  <assets path="/efm8/configurator/ub2/EFM8UB2_B.zip" diskSizeKB="3336.548" downloadSizeKB="589.011" directory="true">
+    <property key="timeStamp" value="1611786151454"/>
+  </assets>
+  <assets path="/efm8/configurator/ub3/EFM8UB3_A.zip" diskSizeKB="6881.948" downloadSizeKB="1231.304" directory="true">
+    <property key="timeStamp" value="1611786102167"/>
+  </assets>
+  <assets path="/efm8/configurator/ub4/EFM8UB4_A.zip" diskSizeKB="7185.756" downloadSizeKB="1268.501" directory="true">
+    <property key="timeStamp" value="1611786157829"/>
+  </assets>
+  <assets version="1.6" path="/efm8/datasheet/EFM8BB1_datasheet.pdf" diskSizeKB="1107.009" downloadSizeKB="1107.009" category="Data Sheets" label="EFM8BB1 Data Sheet">
+    <property key="timeStamp" value="1497053425507"/>
+  </assets>
+  <assets version="1.4" path="/efm8/datasheet/EFM8BB2_datasheet.pdf" diskSizeKB="1156.181" downloadSizeKB="1156.181" category="Data Sheets" label="EFM8BB2 Data Sheet">
+    <property key="timeStamp" value="1497053427323"/>
+  </assets>
+  <assets version="1.2" path="/efm8/datasheet/EFM8BB3_datasheet.pdf" diskSizeKB="1126.456" downloadSizeKB="1126.456" category="Data Sheets" label="EFM8BB3 Data Sheet">
+    <property key="timeStamp" value="1502382105675"/>
+  </assets>
+  <assets version="1.2" path="/efm8/datasheet/EFM8LB1_datasheet.pdf" diskSizeKB="1175.392" downloadSizeKB="1175.392" category="Data Sheets" label="EFM8LB1 Data Sheet">
+    <property key="timeStamp" value="1519418651344"/>
+  </assets>
+  <assets version="1.4" path="/efm8/datasheet/EFM8SB1_datasheet.pdf" diskSizeKB="1236.897" downloadSizeKB="1236.897" category="Data Sheets" label="EFM8SB1 Data Sheet">
+    <property key="timeStamp" value="1497053425510"/>
+  </assets>
+  <assets version="1.2" path="/efm8/datasheet/EFM8SB2_datasheet.pdf" diskSizeKB="1015.183" downloadSizeKB="1015.183" category="Data Sheets" label="EFM8SB2 Data Sheet: EFM8 Sleepy Bee Family">
+    <property key="timeStamp" value="1545069257407"/>
+  </assets>
+  <assets version="1.3" path="/efm8/datasheet/EFM8UB1_datasheet.pdf" diskSizeKB="1187.467" downloadSizeKB="1187.467" category="Data Sheets" label="EFM8UB1 Data Sheet">
+    <property key="timeStamp" value="1520631002455"/>
+  </assets>
+  <assets version="1.3" path="/efm8/datasheet/EFM8UB2_datasheet.pdf" diskSizeKB="1035.019" downloadSizeKB="1035.019" category="Data Sheets" label="EFM8UB2 Data Sheet: EFM8 Universal Bee Family">
+    <property key="timeStamp" value="1477932223341"/>
+  </assets>
+  <assets version="1.1" path="/efm8/datasheet/EFM8UB3_datasheet.pdf" diskSizeKB="820.585" downloadSizeKB="820.585" category="Data Sheets" label="EFM8UB3 Data Sheet">
+    <property key="timeStamp" value="1545069251834"/>
+  </assets>
+  <assets path="/efm8/datasheet/EFM8UB4_datasheet.pdf" diskSizeKB="83.077" downloadSizeKB="83.077">
+    <property key="timeStamp" value="1474005780971"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F2A-A-QFN20_debug.json" diskSizeKB="337.681" downloadSizeKB="337.681">
+    <property key="timeStamp" value="1570034642299"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F2G-A-QFN20_debug.json" diskSizeKB="337.681" downloadSizeKB="337.681">
+    <property key="timeStamp" value="1570034642269"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F2I-A-QFN20_debug.json" diskSizeKB="337.681" downloadSizeKB="337.681">
+    <property key="timeStamp" value="1570034642486"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F4A-A-QFN20_debug.json" diskSizeKB="338.009" downloadSizeKB="338.009">
+    <property key="timeStamp" value="1570034642597"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F4G-A-QFN20_debug.json" diskSizeKB="338.009" downloadSizeKB="338.009">
+    <property key="timeStamp" value="1570034642326"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F4I-A-QFN20_debug.json" diskSizeKB="338.009" downloadSizeKB="338.009">
+    <property key="timeStamp" value="1570034642409"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8A-A-QFN20_debug.json" diskSizeKB="338.01" downloadSizeKB="338.01">
+    <property key="timeStamp" value="1570034642438"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8G-A-QFN20_debug.json" diskSizeKB="338.01" downloadSizeKB="338.01">
+    <property key="timeStamp" value="1570034642623"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8G-A-QSOP24_debug.json" diskSizeKB="338.495" downloadSizeKB="338.495">
+    <property key="timeStamp" value="1570034642543"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8G-A-SOIC16_debug.json" diskSizeKB="336.555" downloadSizeKB="336.555">
+    <property key="timeStamp" value="1570034642353"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8I-A-QFN20_debug.json" diskSizeKB="338.01" downloadSizeKB="338.01">
+    <property key="timeStamp" value="1570034642381"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8I-A-QSOP24_debug.json" diskSizeKB="338.495" downloadSizeKB="338.495">
+    <property key="timeStamp" value="1570034642569"/>
+  </assets>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8I-A-SOIC16_debug.json" diskSizeKB="336.555" downloadSizeKB="336.555">
+    <property key="timeStamp" value="1570034642517"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB21F16G-B-QFN20_debug.json" diskSizeKB="500.049" downloadSizeKB="500.049">
+    <property key="timeStamp" value="1491864491120"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB21F16G-B-QSOP24_debug.json" diskSizeKB="502.488" downloadSizeKB="502.488">
+    <property key="timeStamp" value="1491864491114"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB21F16I-B-QFN20_debug.json" diskSizeKB="500.049" downloadSizeKB="500.049">
+    <property key="timeStamp" value="1491864491112"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB21F16I-B-QSOP24_debug.json" diskSizeKB="502.488" downloadSizeKB="502.488">
+    <property key="timeStamp" value="1491864491117"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB22F16G-B-QFN28_debug.json" diskSizeKB="502.488" downloadSizeKB="502.488">
+    <property key="timeStamp" value="1491864491118"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB22F16I-B-QFN28_debug.json" diskSizeKB="502.488" downloadSizeKB="502.488">
+    <property key="timeStamp" value="1491864491115"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16A-C-QFN20_debug.json" diskSizeKB="500.076" downloadSizeKB="500.076">
+    <property key="timeStamp" value="1569430503911"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16G-C-QFN20_debug.json" diskSizeKB="500.076" downloadSizeKB="500.076">
+    <property key="timeStamp" value="1569430504067"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16G-C-QSOP24_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515">
+    <property key="timeStamp" value="1569430503870"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16I-C-QFN20_debug.json" diskSizeKB="500.076" downloadSizeKB="500.076">
+    <property key="timeStamp" value="1569430504034"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16I-C-QSOP24_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515">
+    <property key="timeStamp" value="1569430504102"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB22F16A-C-QFN28_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515">
+    <property key="timeStamp" value="1569430504001"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB22F16G-C-QFN28_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515">
+    <property key="timeStamp" value="1569430503969"/>
+  </assets>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB22F16I-C-QFN28_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515">
+    <property key="timeStamp" value="1569430503836"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F16G-A-QFN24_debug.json" diskSizeKB="674.613" downloadSizeKB="674.613">
+    <property key="timeStamp" value="1569430515450"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F16G-A-QFN32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167">
+    <property key="timeStamp" value="1569430515540"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F16G-A-QFP32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167">
+    <property key="timeStamp" value="1569430515168"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F16G-A-QSOP24_debug.json" diskSizeKB="675.098" downloadSizeKB="675.098">
+    <property key="timeStamp" value="1569430515480"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32G-A-QFN24_debug.json" diskSizeKB="674.613" downloadSizeKB="674.613">
+    <property key="timeStamp" value="1569430515292"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32G-A-QFN32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167">
+    <property key="timeStamp" value="1569430515228"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32G-A-QFP32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167">
+    <property key="timeStamp" value="1569430515136"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32G-A-QSOP24_debug.json" diskSizeKB="675.098" downloadSizeKB="675.098">
+    <property key="timeStamp" value="1569430515259"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32I-A-QFN24_debug.json" diskSizeKB="674.613" downloadSizeKB="674.613">
+    <property key="timeStamp" value="1569430515636"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32I-A-QFN32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167">
+    <property key="timeStamp" value="1569430515385"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32I-A-QFP32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167">
+    <property key="timeStamp" value="1569430515197"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32I-A-QSOP24_debug.json" diskSizeKB="675.098" downloadSizeKB="675.098">
+    <property key="timeStamp" value="1569430515069"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64G-A-QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844">
+    <property key="timeStamp" value="1569430515668"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64G-A-QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430515324"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64G-A-QFP32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430515509"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64G-A-QSOP24_debug.json" diskSizeKB="689.329" downloadSizeKB="689.329">
+    <property key="timeStamp" value="1569430515417"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64I-A-QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844">
+    <property key="timeStamp" value="1569430515103"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64I-A-QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430515352"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64I-A-QFP32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430515572"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64I-A-QSOP24_debug.json" diskSizeKB="689.329" downloadSizeKB="689.329">
+    <property key="timeStamp" value="1569430515604"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16A-B-4QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07">
+    <property key="timeStamp" value="1569430514972"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16A-B-5QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430505394"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16A-B-QFN24_debug.json" diskSizeKB="676.181" downloadSizeKB="676.181">
+    <property key="timeStamp" value="1468886344756"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16A-B-QFN32_debug.json" diskSizeKB="679.669" downloadSizeKB="679.669">
+    <property key="timeStamp" value="1468886344647"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16G-B-QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07">
+    <property key="timeStamp" value="1569430512848"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16G-B-QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430509759"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16G-B-QFP32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430512940"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16G-B-QSOP24_debug.json" diskSizeKB="689.555" downloadSizeKB="689.555">
+    <property key="timeStamp" value="1569430509899"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-4QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07">
+    <property key="timeStamp" value="1569430505612"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-5QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430512910"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-QFN24_debug.json" diskSizeKB="674.84" downloadSizeKB="674.84">
+    <property key="timeStamp" value="1569430509816"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-QFN32_debug.json" diskSizeKB="678.394" downloadSizeKB="678.394">
+    <property key="timeStamp" value="1569430505485"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-QFP32_debug.json" diskSizeKB="678.394" downloadSizeKB="678.394">
+    <property key="timeStamp" value="1569430514917"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-QSOP24_debug.json" diskSizeKB="675.325" downloadSizeKB="675.325">
+    <property key="timeStamp" value="1569430514800"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32A-B-4QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07">
+    <property key="timeStamp" value="1569430514771"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32A-B-5QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430507248"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32A-B-QFN24_debug.json" diskSizeKB="676.181" downloadSizeKB="676.181">
+    <property key="timeStamp" value="1468886344737"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32A-B-QFN32_debug.json" diskSizeKB="679.669" downloadSizeKB="679.669">
+    <property key="timeStamp" value="1468886344759"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32G-B-QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07">
+    <property key="timeStamp" value="1569430514866"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32G-B-QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430505518"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32G-B-QFP32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430505783"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32G-B-QSOP24_debug.json" diskSizeKB="689.555" downloadSizeKB="689.555">
+    <property key="timeStamp" value="1569430505748"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-4QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07">
+    <property key="timeStamp" value="1569430507215"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-5QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430505548"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07">
+    <property key="timeStamp" value="1569430509847"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430507321"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-QFP32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624">
+    <property key="timeStamp" value="1569430505429"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-QSOP24_debug.json" diskSizeKB="689.555" downloadSizeKB="689.555">
+    <property key="timeStamp" value="1569430507285"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64A-B-4QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844">
+    <property key="timeStamp" value="1569430514830"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64A-B-5QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430505645"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64A-B-QFN24_debug.json" diskSizeKB="676.182" downloadSizeKB="676.182">
+    <property key="timeStamp" value="1468886344663"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64A-B-QFN32_debug.json" diskSizeKB="679.67" downloadSizeKB="679.67">
+    <property key="timeStamp" value="1468886344682"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64G-B-QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844">
+    <property key="timeStamp" value="1569430509947"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64G-B-QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430505578"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64G-B-QFP32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430515017"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64G-B-QSOP24_debug.json" diskSizeKB="689.329" downloadSizeKB="689.329">
+    <property key="timeStamp" value="1569430512878"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-4QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844">
+    <property key="timeStamp" value="1569430507355"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-5QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430505715"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844">
+    <property key="timeStamp" value="1569430509789"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430505680"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-QFP32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398">
+    <property key="timeStamp" value="1569430514738"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-QSOP24_debug.json" diskSizeKB="689.329" downloadSizeKB="689.329">
+    <property key="timeStamp" value="1569430509726"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16A-C-4QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355">
+    <property key="timeStamp" value="1569430505119"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16A-C-5QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430505356"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16G-C-QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355">
+    <property key="timeStamp" value="1569430504809"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16G-C-QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430504658"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16G-C-QFP32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430504385"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16G-C-QSOP24_debug.json" diskSizeKB="687.84" downloadSizeKB="687.84">
+    <property key="timeStamp" value="1569430504172"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-4QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355">
+    <property key="timeStamp" value="1569430504540"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-5QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430504417"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-QFN24_debug.json" diskSizeKB="673.125" downloadSizeKB="673.125">
+    <property key="timeStamp" value="1569430504298"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-QFN32_debug.json" diskSizeKB="676.679" downloadSizeKB="676.679">
+    <property key="timeStamp" value="1569430505195"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-QFP32_debug.json" diskSizeKB="676.679" downloadSizeKB="676.679">
+    <property key="timeStamp" value="1569430504916"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-QSOP24_debug.json" diskSizeKB="673.61" downloadSizeKB="673.61">
+    <property key="timeStamp" value="1569430504860"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32A-C-4QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355">
+    <property key="timeStamp" value="1569430504269"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32A-C-5QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430504598"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32G-C-QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355">
+    <property key="timeStamp" value="1569430504141"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32G-C-QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430504238"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32G-C-QFP32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430505085"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32G-C-QSOP24_debug.json" diskSizeKB="687.84" downloadSizeKB="687.84">
+    <property key="timeStamp" value="1569430504747"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-4QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355">
+    <property key="timeStamp" value="1569430504717"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-5QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430504690"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355">
+    <property key="timeStamp" value="1569430504447"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430504355"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-QFP32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909">
+    <property key="timeStamp" value="1569430505012"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-QSOP24_debug.json" diskSizeKB="687.84" downloadSizeKB="687.84">
+    <property key="timeStamp" value="1569430505230"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64A-C-4QFN24_debug.json" diskSizeKB="687.356" downloadSizeKB="687.356">
+    <property key="timeStamp" value="1569430504479"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64A-C-5QFN32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91">
+    <property key="timeStamp" value="1569430504630"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64G-C-QFN24_debug.json" diskSizeKB="687.356" downloadSizeKB="687.356">
+    <property key="timeStamp" value="1569430505265"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64G-C-QFN32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91">
+    <property key="timeStamp" value="1569430504569"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64G-C-QFP32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91">
+    <property key="timeStamp" value="1569430505161"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64G-C-QSOP24_debug.json" diskSizeKB="687.841" downloadSizeKB="687.841">
+    <property key="timeStamp" value="1569430504776"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-4QFN24_debug.json" diskSizeKB="687.356" downloadSizeKB="687.356">
+    <property key="timeStamp" value="1569430505319"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-5QFN32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91">
+    <property key="timeStamp" value="1569430505050"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-QFN24_debug.json" diskSizeKB="687.356" downloadSizeKB="687.356">
+    <property key="timeStamp" value="1569430504962"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-QFN32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91">
+    <property key="timeStamp" value="1569430504202"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-QFP32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91">
+    <property key="timeStamp" value="1569430504507"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-QSOP24_debug.json" diskSizeKB="687.841" downloadSizeKB="687.841">
+    <property key="timeStamp" value="1569430504326"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16A-D-4QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423">
+    <property key="timeStamp" value="1607548365252"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16A-D-5QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548365038"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16G-D-QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423">
+    <property key="timeStamp" value="1607548365191"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16G-D-QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548364824"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16G-D-QFP32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548364836"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16G-D-QSOP24_debug.json" diskSizeKB="687.908" downloadSizeKB="687.908">
+    <property key="timeStamp" value="1607548365126"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-4QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423">
+    <property key="timeStamp" value="1607548365115"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-5QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548365053"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423">
+    <property key="timeStamp" value="1607548365226"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548364895"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-QFP32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548364962"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-QSOP24_debug.json" diskSizeKB="687.908" downloadSizeKB="687.908">
+    <property key="timeStamp" value="1607548365078"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32A-D-4QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423">
+    <property key="timeStamp" value="1607548365181"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32A-D-5QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548365063"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32G-D-QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423">
+    <property key="timeStamp" value="1607548364908"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32G-D-QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548364999"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32G-D-QFP32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548365014"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32G-D-QSOP24_debug.json" diskSizeKB="687.908" downloadSizeKB="687.908">
+    <property key="timeStamp" value="1607548365202"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-4QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423">
+    <property key="timeStamp" value="1607548364918"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-5QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548365159"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423">
+    <property key="timeStamp" value="1607548365266"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548364810"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-QFP32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977">
+    <property key="timeStamp" value="1607548365026"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-QSOP24_debug.json" diskSizeKB="687.908" downloadSizeKB="687.908">
+    <property key="timeStamp" value="1607548364850"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64A-D-4QFN24_debug.json" diskSizeKB="687.424" downloadSizeKB="687.424">
+    <property key="timeStamp" value="1607548365170"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64A-D-5QFN32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978">
+    <property key="timeStamp" value="1607548365147"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64G-D-QFN24_debug.json" diskSizeKB="687.424" downloadSizeKB="687.424">
+    <property key="timeStamp" value="1607548365301"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64G-D-QFN32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978">
+    <property key="timeStamp" value="1607548364951"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64G-D-QFP32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978">
+    <property key="timeStamp" value="1607548365214"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64G-D-QSOP24_debug.json" diskSizeKB="687.909" downloadSizeKB="687.909">
+    <property key="timeStamp" value="1607548365137"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-4QFN24_debug.json" diskSizeKB="687.424" downloadSizeKB="687.424">
+    <property key="timeStamp" value="1607548364877"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-5QFN32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978">
+    <property key="timeStamp" value="1607548365238"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-QFN24_debug.json" diskSizeKB="687.424" downloadSizeKB="687.424">
+    <property key="timeStamp" value="1607548364981"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-QFN32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978">
+    <property key="timeStamp" value="1607548364940"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-QFP32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978">
+    <property key="timeStamp" value="1607548365289"/>
+  </assets>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-QSOP24_debug.json" diskSizeKB="687.909" downloadSizeKB="687.909">
+    <property key="timeStamp" value="1607548364929"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16G-A-QFN12_debug.json" diskSizeKB="489.576" downloadSizeKB="489.576">
+    <property key="timeStamp" value="1678480590151"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16G-A-QFN16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316">
+    <property key="timeStamp" value="1678480590168"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16G-A-SOIC16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316">
+    <property key="timeStamp" value="1678480590186"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16I-A-QFN12_debug.json" diskSizeKB="489.576" downloadSizeKB="489.576">
+    <property key="timeStamp" value="1678480590203"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16I-A-QFN16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316">
+    <property key="timeStamp" value="1678480590220"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16I-A-SOIC16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316">
+    <property key="timeStamp" value="1678480590238"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4G-A-QFN12_debug.json" diskSizeKB="489.576" downloadSizeKB="489.576">
+    <property key="timeStamp" value="1678480590255"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4G-A-QFN16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316">
+    <property key="timeStamp" value="1678480590272"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4G-A-SOIC16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316">
+    <property key="timeStamp" value="1678480590300"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4I-A-QFN12_debug.json" diskSizeKB="489.576" downloadSizeKB="489.576">
+    <property key="timeStamp" value="1678480590317"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4I-A-QFN16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316">
+    <property key="timeStamp" value="1678480590333"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4I-A-SOIC16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316">
+    <property key="timeStamp" value="1678480590354"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8G-A-QFN12_debug.json" diskSizeKB="489.577" downloadSizeKB="489.577">
+    <property key="timeStamp" value="1678480590372"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8G-A-QFN16_debug.json" diskSizeKB="491.317" downloadSizeKB="491.317">
+    <property key="timeStamp" value="1678480590389"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8G-A-SOIC16_debug.json" diskSizeKB="491.317" downloadSizeKB="491.317">
+    <property key="timeStamp" value="1678480590406"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8I-A-QFN12_debug.json" diskSizeKB="489.577" downloadSizeKB="489.577">
+    <property key="timeStamp" value="1678480590426"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8I-A-QFN16_debug.json" diskSizeKB="491.317" downloadSizeKB="491.317">
+    <property key="timeStamp" value="1678480590474"/>
+  </assets>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8I-A-SOIC16_debug.json" diskSizeKB="491.317" downloadSizeKB="491.317">
+    <property key="timeStamp" value="1678480590491"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F16G-A-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244465"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F16G-A-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244532"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F16I-A-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244555"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F16I-A-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244571"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F8G-A-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244591"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F8G-A-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244610"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F8I-A-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244639"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F8I-A-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244664"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F16G-B-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244692"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F16G-B-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244719"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F16I-B-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244746"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F16I-B-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244774"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F8G-B-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244806"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F8G-B-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244833"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F8I-B-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244862"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F8I-B-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487">
+    <property key="timeStamp" value="1623961244895"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F16G-C-QFN20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413">
+    <property key="timeStamp" value="1662653164719"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F16G-C-TSSOP20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413">
+    <property key="timeStamp" value="1662653164744"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F16I-C-QFN20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413">
+    <property key="timeStamp" value="1662653164771"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F16I-C-TSSOP20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413">
+    <property key="timeStamp" value="1662653164798"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F8G-C-QFN20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413">
+    <property key="timeStamp" value="1662653164817"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F8G-C-TSSOP20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413">
+    <property key="timeStamp" value="1662653164835"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F8I-C-QFN20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413">
+    <property key="timeStamp" value="1662653164861"/>
+  </assets>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F8I-C-TSSOP20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413">
+    <property key="timeStamp" value="1662653164884"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16G-A-QFN20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892">
+    <property key="timeStamp" value="1623961245045"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16G-A-QFN32_debug.json" diskSizeKB="683.857" downloadSizeKB="683.857">
+    <property key="timeStamp" value="1623961245067"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16G-A-TSSOP20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892">
+    <property key="timeStamp" value="1623961245095"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16G-A-TSSOP28_debug.json" diskSizeKB="682.065" downloadSizeKB="682.065">
+    <property key="timeStamp" value="1623961245116"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16I-A-QFN20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892">
+    <property key="timeStamp" value="1623961245149"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16I-A-QFN32_debug.json" diskSizeKB="683.857" downloadSizeKB="683.857">
+    <property key="timeStamp" value="1623961245185"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16I-A-TSSOP20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892">
+    <property key="timeStamp" value="1623961245205"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16I-A-TSSOP28_debug.json" diskSizeKB="682.065" downloadSizeKB="682.065">
+    <property key="timeStamp" value="1623961245227"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32G-A-QFN20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892">
+    <property key="timeStamp" value="1623961245246"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32G-A-QFN32_debug.json" diskSizeKB="683.857" downloadSizeKB="683.857">
+    <property key="timeStamp" value="1623961245270"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32G-A-TSSOP20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892">
+    <property key="timeStamp" value="1623961245292"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32G-A-TSSOP28_debug.json" diskSizeKB="682.065" downloadSizeKB="682.065">
+    <property key="timeStamp" value="1623961245310"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32I-A-QFN20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892">
+    <property key="timeStamp" value="1623961245327"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32I-A-QFN32_debug.json" diskSizeKB="683.857" downloadSizeKB="683.857">
+    <property key="timeStamp" value="1623961245346"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32I-A-TSSOP20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892">
+    <property key="timeStamp" value="1623961245364"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32I-A-TSSOP28_debug.json" diskSizeKB="682.065" downloadSizeKB="682.065">
+    <property key="timeStamp" value="1623961245382"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16G-B-QFN20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683">
+    <property key="timeStamp" value="1623961245402"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16G-B-QFN32_debug.json" diskSizeKB="687.648" downloadSizeKB="687.648">
+    <property key="timeStamp" value="1623961245418"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16G-B-TSSOP20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683">
+    <property key="timeStamp" value="1623961245434"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16G-B-TSSOP28_debug.json" diskSizeKB="685.856" downloadSizeKB="685.856">
+    <property key="timeStamp" value="1623961245452"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16I-B-QFN20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683">
+    <property key="timeStamp" value="1623961245471"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16I-B-QFN32_debug.json" diskSizeKB="687.648" downloadSizeKB="687.648">
+    <property key="timeStamp" value="1623961245486"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16I-B-TSSOP20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683">
+    <property key="timeStamp" value="1623961245501"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16I-B-TSSOP28_debug.json" diskSizeKB="685.856" downloadSizeKB="685.856">
+    <property key="timeStamp" value="1623961245520"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32G-B-QFN20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683">
+    <property key="timeStamp" value="1623961245561"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32G-B-QFN32_debug.json" diskSizeKB="687.648" downloadSizeKB="687.648">
+    <property key="timeStamp" value="1623961245579"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32G-B-TSSOP20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683">
+    <property key="timeStamp" value="1623961245598"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32G-B-TSSOP28_debug.json" diskSizeKB="685.856" downloadSizeKB="685.856">
+    <property key="timeStamp" value="1623961245617"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32I-B-QFN20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683">
+    <property key="timeStamp" value="1623961245645"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32I-B-QFN32_debug.json" diskSizeKB="687.648" downloadSizeKB="687.648">
+    <property key="timeStamp" value="1623961245671"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32I-B-TSSOP20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683">
+    <property key="timeStamp" value="1623961245693"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32I-B-TSSOP28_debug.json" diskSizeKB="685.856" downloadSizeKB="685.856">
+    <property key="timeStamp" value="1623961245715"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16G-C-QFN20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745">
+    <property key="timeStamp" value="1662653165647"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16G-C-QFN32_debug.json" diskSizeKB="689.141" downloadSizeKB="689.141">
+    <property key="timeStamp" value="1662653165673"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16G-C-TSSOP20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745">
+    <property key="timeStamp" value="1662653165698"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16G-C-TSSOP28_debug.json" diskSizeKB="687.353" downloadSizeKB="687.353">
+    <property key="timeStamp" value="1662653165723"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16I-C-QFN20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745">
+    <property key="timeStamp" value="1662653165742"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16I-C-QFN32_debug.json" diskSizeKB="689.141" downloadSizeKB="689.141">
+    <property key="timeStamp" value="1662653165767"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16I-C-TSSOP20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745">
+    <property key="timeStamp" value="1662653165786"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16I-C-TSSOP28_debug.json" diskSizeKB="687.353" downloadSizeKB="687.353">
+    <property key="timeStamp" value="1662653165813"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32G-C-QFN20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745">
+    <property key="timeStamp" value="1662653165832"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32G-C-QFN32_debug.json" diskSizeKB="689.141" downloadSizeKB="689.141">
+    <property key="timeStamp" value="1662653165851"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32G-C-TSSOP20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745">
+    <property key="timeStamp" value="1662653165869"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32G-C-TSSOP28_debug.json" diskSizeKB="687.353" downloadSizeKB="687.353">
+    <property key="timeStamp" value="1662653165889"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32I-C-QFN20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745">
+    <property key="timeStamp" value="1662653165913"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32I-C-QFN32_debug.json" diskSizeKB="689.141" downloadSizeKB="689.141">
+    <property key="timeStamp" value="1662653165931"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32I-C-TSSOP20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745">
+    <property key="timeStamp" value="1662653165950"/>
+  </assets>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32I-C-TSSOP28_debug.json" diskSizeKB="687.353" downloadSizeKB="687.353">
+    <property key="timeStamp" value="1662653165976"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16E-A-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430473788"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16E-A-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430473879"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16E-A-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430478418"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16E-A-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656">
+    <property key="timeStamp" value="1569430472674"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16ES0-B-QFN24_debug.json" diskSizeKB="680.071" downloadSizeKB="680.071">
+    <property key="timeStamp" value="1468886344917"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16ES0-B-QFN32_debug.json" diskSizeKB="676.583" downloadSizeKB="676.583">
+    <property key="timeStamp" value="1468886344939"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16E-A-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430473905"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16E-A-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430477463"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16E-A-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430473756"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16E-A-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656">
+    <property key="timeStamp" value="1569430484601"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16ES0-B-QFN24_debug.json" diskSizeKB="680.071" downloadSizeKB="680.071">
+    <property key="timeStamp" value="1468886344946"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16ES0-B-QFN32_debug.json" diskSizeKB="676.583" downloadSizeKB="676.583">
+    <property key="timeStamp" value="1468886344996"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32E-A-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430478446"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32E-A-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430482951"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32E-A-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430473819"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32E-A-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656">
+    <property key="timeStamp" value="1569430472706"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32ES0-B-QFN24_debug.json" diskSizeKB="680.071" downloadSizeKB="680.071">
+    <property key="timeStamp" value="1468886344929"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32ES0-B-QFN32_debug.json" diskSizeKB="676.583" downloadSizeKB="676.583">
+    <property key="timeStamp" value="1468886344976"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32E-A-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430481725"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32E-A-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430482918"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32E-A-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430473848"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32E-A-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656">
+    <property key="timeStamp" value="1569430484568"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32ES0-B-QFN24_debug.json" diskSizeKB="680.071" downloadSizeKB="680.071">
+    <property key="timeStamp" value="1468886344925"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32ES0-B-QFN32_debug.json" diskSizeKB="676.583" downloadSizeKB="676.583">
+    <property key="timeStamp" value="1468886344895"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64E-A-QFN24_debug.json" diskSizeKB="689.172" downloadSizeKB="689.172">
+    <property key="timeStamp" value="1569430480287"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64E-A-QFN32_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726">
+    <property key="timeStamp" value="1569430484644"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64E-A-QFP32_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726">
+    <property key="timeStamp" value="1569430484700"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64E-A-QSOP24_debug.json" diskSizeKB="689.657" downloadSizeKB="689.657">
+    <property key="timeStamp" value="1569430487715"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64ES0-B-QFN24_debug.json" diskSizeKB="680.072" downloadSizeKB="680.072">
+    <property key="timeStamp" value="1468886344885"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64ES0-B-QFN32_debug.json" diskSizeKB="676.584" downloadSizeKB="676.584">
+    <property key="timeStamp" value="1468886344915"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16E-B-QFN24_debug.json" diskSizeKB="649.704" downloadSizeKB="649.704">
+    <property key="timeStamp" value="1569430488103"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16E-B-QFN32_debug.json" diskSizeKB="653.258" downloadSizeKB="653.258">
+    <property key="timeStamp" value="1569430487903"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16E-B-QFP32_debug.json" diskSizeKB="653.258" downloadSizeKB="653.258">
+    <property key="timeStamp" value="1569430487811"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16E-B-QSOP24_debug.json" diskSizeKB="650.189" downloadSizeKB="650.189">
+    <property key="timeStamp" value="1569430488839"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16ES0-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430488299"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16ES0-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430488687"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16ES1-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430488201"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16ES1-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430488330"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16E-B-QFN24_debug.json" diskSizeKB="674.941" downloadSizeKB="674.941">
+    <property key="timeStamp" value="1569430488934"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16E-B-QFN32_debug.json" diskSizeKB="678.495" downloadSizeKB="678.495">
+    <property key="timeStamp" value="1569430488007"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16E-B-QFP32_debug.json" diskSizeKB="678.495" downloadSizeKB="678.495">
+    <property key="timeStamp" value="1569430488716"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16E-B-QSOP24_debug.json" diskSizeKB="675.426" downloadSizeKB="675.426">
+    <property key="timeStamp" value="1569430487937"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16ES0-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430488808"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16ES0-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430488234"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16ES1-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430487871"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16ES1-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430489053"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32E-B-QFN24_debug.json" diskSizeKB="674.941" downloadSizeKB="674.941">
+    <property key="timeStamp" value="1569430488746"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32E-B-QFN32_debug.json" diskSizeKB="678.495" downloadSizeKB="678.495">
+    <property key="timeStamp" value="1569430488041"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32E-B-QFP32_debug.json" diskSizeKB="678.495" downloadSizeKB="678.495">
+    <property key="timeStamp" value="1569430488168"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32E-B-QSOP24_debug.json" diskSizeKB="675.426" downloadSizeKB="675.426">
+    <property key="timeStamp" value="1569430488994"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32ES0-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430487783"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32ES0-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430488902"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32ES1-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430489023"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32ES1-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430488563"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32E-B-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430487751"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32E-B-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430488137"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32E-B-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430488594"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32E-B-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656">
+    <property key="timeStamp" value="1569430488532"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32ES0-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430488362"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32ES0-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430488656"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32ES1-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725">
+    <property key="timeStamp" value="1569430488072"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32ES1-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171">
+    <property key="timeStamp" value="1569430487967"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64E-B-QFN24_debug.json" diskSizeKB="689.172" downloadSizeKB="689.172">
+    <property key="timeStamp" value="1569430488446"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64E-B-QFN32_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726">
+    <property key="timeStamp" value="1569430488409"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64E-B-QFP32_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726">
+    <property key="timeStamp" value="1569430487842"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64E-B-QSOP24_debug.json" diskSizeKB="689.657" downloadSizeKB="689.657">
+    <property key="timeStamp" value="1569430488777"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64ES0-B-QFN24_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726">
+    <property key="timeStamp" value="1569430488626"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64ES0-B-QFN32_debug.json" diskSizeKB="689.172" downloadSizeKB="689.172">
+    <property key="timeStamp" value="1569430488964"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64ES1-B-QFN24_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726">
+    <property key="timeStamp" value="1569430488871"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64ES1-B-QFN32_debug.json" diskSizeKB="689.172" downloadSizeKB="689.172">
+    <property key="timeStamp" value="1569430488264"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16E-C-QFN24_debug.json" diskSizeKB="649.05" downloadSizeKB="649.05">
+    <property key="timeStamp" value="1569430489207"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16E-C-QFN32_debug.json" diskSizeKB="652.604" downloadSizeKB="652.604">
+    <property key="timeStamp" value="1569430489550"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16E-C-QFP32_debug.json" diskSizeKB="652.604" downloadSizeKB="652.604">
+    <property key="timeStamp" value="1569430489489"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16E-C-QSOP24_debug.json" diskSizeKB="649.535" downloadSizeKB="649.535">
+    <property key="timeStamp" value="1569430489771"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16ES0-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430489461"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16ES0-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430489178"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16ES1-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430490136"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16ES1-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430490199"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16E-C-QFN24_debug.json" diskSizeKB="674.287" downloadSizeKB="674.287">
+    <property key="timeStamp" value="1569430489647"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16E-C-QFN32_debug.json" diskSizeKB="677.841" downloadSizeKB="677.841">
+    <property key="timeStamp" value="1569430490169"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16E-C-QFP32_debug.json" diskSizeKB="677.841" downloadSizeKB="677.841">
+    <property key="timeStamp" value="1569430489584"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16E-C-QSOP24_debug.json" diskSizeKB="674.772" downloadSizeKB="674.772">
+    <property key="timeStamp" value="1569430489119"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16ES0-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430490264"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16ES0-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430489805"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16ES1-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430489738"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16ES1-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430489926"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32E-C-QFN24_debug.json" diskSizeKB="674.287" downloadSizeKB="674.287">
+    <property key="timeStamp" value="1569430489709"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32E-C-QFN32_debug.json" diskSizeKB="677.841" downloadSizeKB="677.841">
+    <property key="timeStamp" value="1569430489617"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32E-C-QFP32_debug.json" diskSizeKB="677.841" downloadSizeKB="677.841">
+    <property key="timeStamp" value="1569430489985"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32E-C-QSOP24_debug.json" diskSizeKB="674.772" downloadSizeKB="674.772">
+    <property key="timeStamp" value="1569430490297"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32ES0-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430489338"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32ES0-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430490105"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32ES1-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430489402"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32ES1-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430489306"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32E-C-QFN24_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430489836"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32E-C-QFN32_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430489275"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32E-C-QFP32_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430489896"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32E-C-QSOP24_debug.json" diskSizeKB="689.002" downloadSizeKB="689.002">
+    <property key="timeStamp" value="1569430489432"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32ES0-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430489520"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32ES0-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430490072"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32ES1-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071">
+    <property key="timeStamp" value="1569430489084"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32ES1-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517">
+    <property key="timeStamp" value="1569430490231"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64E-C-QFN24_debug.json" diskSizeKB="688.518" downloadSizeKB="688.518">
+    <property key="timeStamp" value="1569430489678"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64E-C-QFN32_debug.json" diskSizeKB="692.072" downloadSizeKB="692.072">
+    <property key="timeStamp" value="1569430489237"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64E-C-QFP32_debug.json" diskSizeKB="692.072" downloadSizeKB="692.072">
+    <property key="timeStamp" value="1569430490042"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64E-C-QSOP24_debug.json" diskSizeKB="689.003" downloadSizeKB="689.003">
+    <property key="timeStamp" value="1569430490013"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64ES0-C-QFN24_debug.json" diskSizeKB="692.072" downloadSizeKB="692.072">
+    <property key="timeStamp" value="1569430489955"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64ES0-C-QFN32_debug.json" diskSizeKB="688.518" downloadSizeKB="688.518">
+    <property key="timeStamp" value="1569430489369"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64ES1-C-QFN24_debug.json" diskSizeKB="692.072" downloadSizeKB="692.072">
+    <property key="timeStamp" value="1569430489865"/>
+  </assets>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64ES1-C-QFN32_debug.json" diskSizeKB="688.518" downloadSizeKB="688.518">
+    <property key="timeStamp" value="1569430489148"/>
+  </assets>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F2G-A-QFN20_debug.json" diskSizeKB="406.48" downloadSizeKB="406.48">
+    <property key="timeStamp" value="1487102271577"/>
+  </assets>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F4G-A-QFN20_debug.json" diskSizeKB="406.808" downloadSizeKB="406.808">
+    <property key="timeStamp" value="1487102271573"/>
+  </assets>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8A-A-QFN20_debug.json" diskSizeKB="406.809" downloadSizeKB="406.809">
+    <property key="timeStamp" value="1487102271578"/>
+  </assets>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8A-A-QFN24_debug.json" diskSizeKB="407.133" downloadSizeKB="407.133">
+    <property key="timeStamp" value="1487102271575"/>
+  </assets>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8G-A-CSP16_debug.json" diskSizeKB="406.652" downloadSizeKB="406.652">
+    <property key="timeStamp" value="1487102271582"/>
+  </assets>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8G-A-QFN20_debug.json" diskSizeKB="406.809" downloadSizeKB="406.809">
+    <property key="timeStamp" value="1487102271585"/>
+  </assets>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8G-A-QFN24_debug.json" diskSizeKB="407.133" downloadSizeKB="407.133">
+    <property key="timeStamp" value="1487102271583"/>
+  </assets>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8G-A-QSOP24_debug.json" diskSizeKB="407.133" downloadSizeKB="407.133">
+    <property key="timeStamp" value="1487102271580"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F16G-A-QFN24_debug.json" diskSizeKB="447.935" downloadSizeKB="447.935">
+    <property key="timeStamp" value="1487102271622"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F32G-A-QFN24_debug.json" diskSizeKB="447.935" downloadSizeKB="447.935">
+    <property key="timeStamp" value="1487102271619"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F32G-A-QFN32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629">
+    <property key="timeStamp" value="1487102271621"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F32G-A-QFP32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629">
+    <property key="timeStamp" value="1487102271624"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F64G-A-QFN24_debug.json" diskSizeKB="447.935" downloadSizeKB="447.935">
+    <property key="timeStamp" value="1487102271615"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F64G-A-QFN32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629">
+    <property key="timeStamp" value="1487102271613"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F64G-A-QFP32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629">
+    <property key="timeStamp" value="1487102271617"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F16G-B-QFN24_debug.json" diskSizeKB="457.667" downloadSizeKB="457.667">
+    <property key="timeStamp" value="1671068974988"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F32G-B-QFN24_debug.json" diskSizeKB="457.667" downloadSizeKB="457.667">
+    <property key="timeStamp" value="1671068975007"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F32G-B-QFN32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629">
+    <property key="timeStamp" value="1671068975030"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F32G-B-QFP32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629">
+    <property key="timeStamp" value="1671068975048"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F64G-B-QFN24_debug.json" diskSizeKB="457.667" downloadSizeKB="457.667">
+    <property key="timeStamp" value="1671068975065"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F64G-B-QFN32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629">
+    <property key="timeStamp" value="1671068975084"/>
+  </assets>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F64G-B-QFP32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629">
+    <property key="timeStamp" value="1671068975107"/>
+  </assets>
+  <assets path="/efm8/debug/si3470a/Si3470A_A01/SI3470A-A01-IMR_debug.json" diskSizeKB="483.164" downloadSizeKB="483.164">
+    <property key="timeStamp" value="1576518228329"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_B/EFM8UB10F16G-B-QFN20_debug.json" diskSizeKB="603.282" downloadSizeKB="603.282">
+    <property key="timeStamp" value="1487102250299"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_B/EFM8UB10F16G-B-QFN28_debug.json" diskSizeKB="607.667" downloadSizeKB="607.667">
+    <property key="timeStamp" value="1487102250297"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_B/EFM8UB10F8G-B-QFN20_debug.json" diskSizeKB="603.268" downloadSizeKB="603.268">
+    <property key="timeStamp" value="1487102250290"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_B/EFM8UB11F16G-B-QSOP24_debug.json" diskSizeKB="605.222" downloadSizeKB="605.222">
+    <property key="timeStamp" value="1487102250293"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB10F16G-C-QFN20_debug.json" diskSizeKB="603.309" downloadSizeKB="603.309">
+    <property key="timeStamp" value="1569430468344"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB10F16G-C-QFN28_debug.json" diskSizeKB="607.694" downloadSizeKB="607.694">
+    <property key="timeStamp" value="1569430468247"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB10F8G-C-QFN20_debug.json" diskSizeKB="603.295" downloadSizeKB="603.295">
+    <property key="timeStamp" value="1569430468212"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB11F16G-C-QFN24_debug.json" diskSizeKB="604.762" downloadSizeKB="604.762">
+    <property key="timeStamp" value="1569430468281"/>
+  </assets>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB11F16G-C-QSOP24_debug.json" diskSizeKB="605.249" downloadSizeKB="605.249">
+    <property key="timeStamp" value="1569430468312"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F32G-A-QFN32_debug.json" diskSizeKB="492.231" downloadSizeKB="492.231">
+    <property key="timeStamp" value="1495052655740"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F32G-A-QFP32_debug.json" diskSizeKB="492.231" downloadSizeKB="492.231">
+    <property key="timeStamp" value="1495052655910"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F32G-A-QFP48_debug.json" diskSizeKB="523.909" downloadSizeKB="523.909">
+    <property key="timeStamp" value="1495052656079"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F64G-A-QFN32_debug.json" diskSizeKB="492.232" downloadSizeKB="492.232">
+    <property key="timeStamp" value="1495052655825"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F64G-A-QFP32_debug.json" diskSizeKB="492.232" downloadSizeKB="492.232">
+    <property key="timeStamp" value="1495052656160"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F64G-A-QFP48_debug.json" diskSizeKB="523.91" downloadSizeKB="523.91">
+    <property key="timeStamp" value="1495052655995"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F32G-B-QFN32_debug.json" diskSizeKB="520.064" downloadSizeKB="520.064">
+    <property key="timeStamp" value="1569430515734"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F32G-B-QFP32_debug.json" diskSizeKB="520.064" downloadSizeKB="520.064">
+    <property key="timeStamp" value="1569430515764"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F32G-B-QFP48_debug.json" diskSizeKB="523.91" downloadSizeKB="523.91">
+    <property key="timeStamp" value="1569430515793"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F64G-B-QFN32_debug.json" diskSizeKB="520.065" downloadSizeKB="520.065">
+    <property key="timeStamp" value="1569430515706"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F64G-B-QFP32_debug.json" diskSizeKB="520.065" downloadSizeKB="520.065">
+    <property key="timeStamp" value="1569430515847"/>
+  </assets>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F64G-B-QFP48_debug.json" diskSizeKB="523.911" downloadSizeKB="523.911">
+    <property key="timeStamp" value="1569430515820"/>
+  </assets>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB30F16G-C-QFN28_debug.json" diskSizeKB="596.375" downloadSizeKB="596.375">
+    <property key="timeStamp" value="1468886345022"/>
+  </assets>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB30F40G-A-QFN20_debug.json" diskSizeKB="649.796" downloadSizeKB="649.796">
+    <property key="timeStamp" value="1569430465138"/>
+  </assets>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB31F16G-C-QFN28_debug.json" diskSizeKB="596.375" downloadSizeKB="596.375">
+    <property key="timeStamp" value="1468886345020"/>
+  </assets>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB31F40G-A-QFN24_debug.json" diskSizeKB="651.892" downloadSizeKB="651.892">
+    <property key="timeStamp" value="1569430465287"/>
+  </assets>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB31F40G-A-QSOP24_debug.json" diskSizeKB="651.892" downloadSizeKB="651.892">
+    <property key="timeStamp" value="1569430468176"/>
+  </assets>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB40F40G-A-QFN20_debug.json" diskSizeKB="784.308" downloadSizeKB="784.308">
+    <property key="timeStamp" value="1468886344550"/>
+  </assets>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB41F40G-A-QFN20_debug.json" diskSizeKB="783.79" downloadSizeKB="783.79">
+    <property key="timeStamp" value="1468886344552"/>
+  </assets>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB42F40G-A-QFN24_debug.json" diskSizeKB="786.919" downloadSizeKB="786.919">
+    <property key="timeStamp" value="1468886344547"/>
+  </assets>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB42F40G-A-QFN32_debug.json" diskSizeKB="788.378" downloadSizeKB="788.378">
+    <property key="timeStamp" value="1468886344545"/>
+  </assets>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB42F40G-A-QSOP24_debug.json" diskSizeKB="786.919" downloadSizeKB="786.919">
+    <property key="timeStamp" value="1468886344555"/>
+  </assets>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB44F40G-A-QFN32_debug.json" diskSizeKB="788.378" downloadSizeKB="788.378">
+    <property key="timeStamp" value="1468886344541"/>
+  </assets>
+  <assets version="0.4" path="/efm8/errata/EFM8BB1_Errata.pdf" diskSizeKB="588.51" downloadSizeKB="588.51" category="Errata" label="EFM8BB1 Rev A Errata">
+    <property key="timeStamp" value="1545070040733"/>
+  </assets>
+  <assets version="0.5" path="/efm8/errata/EFM8BB2_Errata.pdf" diskSizeKB="593.14" downloadSizeKB="593.14" category="Errata" label="EFM8BB2 Rev C Errata">
+    <property key="timeStamp" value="1476232670609"/>
+  </assets>
+  <assets version="0.6" path="/efm8/errata/EFM8BB3_Errata.pdf" diskSizeKB="678.189" downloadSizeKB="678.189" category="Errata" label="EFM8BB3 Errata">
+    <property key="timeStamp" value="1537045821280"/>
+  </assets>
+  <assets version="0.8" path="/efm8/errata/EFM8LB1_Errata.pdf" diskSizeKB="685.462" downloadSizeKB="685.462" category="Errata" label="EFM8LB1 Errata">
+    <property key="timeStamp" value="1537045819871"/>
+  </assets>
+  <assets version="0.3" path="/efm8/errata/EFM8SB1_Errata.pdf" diskSizeKB="236.378" downloadSizeKB="236.378" category="Errata" label="EFM8SB1 Rev A  Errata">
+    <property key="timeStamp" value="1474564442161"/>
+  </assets>
+  <assets version="0.5" path="/efm8/errata/EFM8SB2_Errata.pdf" diskSizeKB="590.832" downloadSizeKB="590.832" category="Errata" label="EFM8SB2 Rev A Errata">
+    <property key="timeStamp" value="1477932218531"/>
+  </assets>
+  <assets version="0.5" path="/efm8/errata/EFM8UB1_Errata.pdf" diskSizeKB="599.314" downloadSizeKB="599.314" category="Errata" label="EFM8UB1 Rev C Errata">
+    <property key="timeStamp" value="1476232670465"/>
+  </assets>
+  <assets version="0.4" path="/efm8/errata/EFM8UB2_Errata.pdf" diskSizeKB="577.129" downloadSizeKB="577.129" category="Errata" label="EFM8UB2 Rev A Errata">
+    <property key="timeStamp" value="1477932217239"/>
+  </assets>
+  <assets version="0.2" path="/efm8/reference/EFM8BB1_ReferenceManual.pdf" diskSizeKB="2224.297" downloadSizeKB="2224.297" category="Reference Manuals" label="EFM8BB1 Reference Manual">
+    <property key="timeStamp" value="1468886355501"/>
+  </assets>
+  <assets version="0.2" path="/efm8/reference/EFM8BB2_ReferenceManual.pdf" diskSizeKB="2789.772" downloadSizeKB="2789.772" category="Reference Manuals" label="EFM8BB2 Reference Manual">
+    <property key="timeStamp" value="1468886355535"/>
+  </assets>
+  <assets version="0.3" path="/efm8/reference/EFM8BB3_ReferenceManual.pdf" diskSizeKB="2834.55" downloadSizeKB="2834.55" category="Reference Manuals" label="EFMBB3 Reference Manual">
+    <property key="timeStamp" value="1495052900529"/>
+  </assets>
+  <assets version="0.3" path="/efm8/reference/EFM8LB1_ReferenceManual.pdf" diskSizeKB="2846.041" downloadSizeKB="2846.041" category="Reference Manuals" label="EFM8LB1 Reference Manual">
+    <property key="timeStamp" value="1545070044891"/>
+  </assets>
+  <assets version="0.1" path="/efm8/reference/EFM8SB1_ReferenceManual.pdf" diskSizeKB="1660.698" downloadSizeKB="1660.698" category="Reference Manuals" label="EFM8SB1 Reference Manual">
+    <property key="timeStamp" value="1477932236293"/>
+  </assets>
+  <assets version="0.1" path="/efm8/reference/EFM8SB2_ReferenceManual.pdf" diskSizeKB="1721.23" downloadSizeKB="1721.23" category="Reference Manuals" label="EFM8SB2 Reference Manual">
+    <property key="timeStamp" value="1477932236288"/>
+  </assets>
+  <assets version="0.2" path="/efm8/reference/EFM8UB1_ReferenceManual.pdf" diskSizeKB="3021.478" downloadSizeKB="3021.478" category="Reference Manuals" label="EFM8UB1 Reference Manual">
+    <property key="timeStamp" value="1545070054174"/>
+  </assets>
+  <assets version="0.2" path="/efm8/reference/EFM8UB2_ReferenceManual.pdf" diskSizeKB="2601.443" downloadSizeKB="2601.443" category="Reference Manuals" label="EFM8UB2 Reference Manual">
+    <property key="timeStamp" value="1545070044951"/>
+  </assets>
+  <assets version="0.1" path="/efm8/reference/EFM8UB3_ReferenceManual.pdf" diskSizeKB="2560.522" downloadSizeKB="2560.522" category="Reference Manuals" label="EFM8UB3 Reference Manual">
+    <property key="timeStamp" value="1512504865528"/>
+  </assets>
+  <assets version="0.1" path="/efm8/reference/EFM8UB4_ReferenceManual.pdf" diskSizeKB="83.077" downloadSizeKB="83.077" category="Reference Manuals" label="EFM8UB4 Reference Manual">
+    <property key="timeStamp" value="1474005789492"/>
+  </assets>
+  <assets path="/efm8/reference/efm8-libraries.html" diskSizeKB="0.132" downloadSizeKB="0.132" category="Reference Manuals" label="Silicon Labs EFM8 Libraries">
+    <property key="timeStamp" value="1545070048669"/>
+  </assets>
+</assets>

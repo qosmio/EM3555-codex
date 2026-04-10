@@ -1,0 +1,750 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:23
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\zigbee-framework\zigbee-device-library.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\zigbee-device-library.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\zigbee-framework\zigbee-device-library.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"zigbee-device-library.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\zigbee-framework\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\zigbee-device-library.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\zigbee-device-library.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\zigbee-device-library.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\zigbee-device-library.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\zigbee-framework\zigbee-device-library.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief ZigBee Device Object (ZDO) functions not provided by the stack.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include PLATFORM_HEADER
+     19          #include "stack/include/ember.h"
+     20          #include "hal/hal.h"
+     21          #include "zigbee-device-common.h"
+     22          #include "zigbee-device-library.h"
+     23          
+     24          static EmberStatus sendZigDevRequestBuffer(EmberNodeId destination,
+     25                                                     uint16_t clusterId,
+     26                                                     EmberApsOption options,
+     27                                                     EmberMessageBuffer request);
+     28          
+
+   \                                 In section .text, align 2, keep-with-next
+     29          EmberStatus emberMatchDescriptorsRequest(EmberNodeId target,
+     30                                                   uint16_t profile,
+     31                                                   EmberMessageBuffer inClusters,
+     32                                                   EmberMessageBuffer outClusters,
+     33                                                   EmberApsOption options)
+     34          {
+   \                     emberMatchDescriptorsRequest: (+1)
+   \        0x0   0xE92D 0x4FFE      PUSH     {R1-R11,LR}
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x4689             MOV      R9,R1
+   \        0x8   0x4615             MOV      R5,R2
+   \        0xA   0x461E             MOV      R6,R3
+     35            uint8_t inCount = (inClusters == EMBER_NULL_MESSAGE_BUFFER
+     36                               ? 0
+     37                               : emberMessageBufferLength(inClusters)
+     38                               / 2); // Clusters are 2 bytes long
+   \        0xC   0x0028             MOVS     R0,R5
+   \        0xE   0xD101             BNE.N    ??emberMatchDescriptorsRequest_0
+   \       0x10   0x2700             MOVS     R7,#+0
+   \       0x12   0xE004             B.N      ??emberMatchDescriptorsRequest_1
+   \                     ??emberMatchDescriptorsRequest_0: (+1)
+   \       0x14   0x.... 0x....      BL       emGetBufferLength
+   \       0x18   0x4607             MOV      R7,R0
+   \       0x1A   0x087F             LSRS     R7,R7,#+1
+   \       0x1C   0xB2FF             UXTB     R7,R7
+     39            uint8_t outCount = (outClusters == EMBER_NULL_MESSAGE_BUFFER
+     40                                ? 0
+     41                                : emberMessageBufferLength(outClusters)
+     42                                / 2); // Clusters are 2 bytes long
+   \                     ??emberMatchDescriptorsRequest_1: (+1)
+   \       0x1E   0x0030             MOVS     R0,R6
+   \       0x20   0xD102             BNE.N    ??emberMatchDescriptorsRequest_2
+   \       0x22   0xF04F 0x0800      MOV      R8,#+0
+   \       0x26   0xE006             B.N      ??emberMatchDescriptorsRequest_3
+   \                     ??emberMatchDescriptorsRequest_2: (+1)
+   \       0x28   0x.... 0x....      BL       emGetBufferLength
+   \       0x2C   0x4680             MOV      R8,R0
+   \       0x2E   0xEA4F 0x0858      LSR      R8,R8,#+1
+   \       0x32   0xFA5F 0xF888      UXTB     R8,R8
+     43            EmberMessageBuffer request;
+     44            uint8_t offset = ZDO_MESSAGE_OVERHEAD + 5;
+     45            uint8_t contents[ZDO_MESSAGE_OVERHEAD + 5];  // Add 2 bytes for NWK Address
+     46                                                         // Add 2 bytes for Profile Id
+     47                                                         // Add 1 byte for in Cluster Count
+     48          
+     49            EmberStatus result;
+     50            uint8_t i;
+     51          
+     52            contents[0] = emberNextZigDevRequestSequence();
+   \                     ??emberMatchDescriptorsRequest_3: (+1)
+   \       0x36   0x.... 0x....      BL       emberNextZigDevRequestSequence
+   \       0x3A   0xF88D 0x0004      STRB     R0,[SP, #+4]
+     53            contents[1] = LOW_BYTE(target);
+   \       0x3E   0x4620             MOV      R0,R4
+   \       0x40   0xF88D 0x0005      STRB     R0,[SP, #+5]
+     54            contents[2] = HIGH_BYTE(target);
+   \       0x44   0x0A00             LSRS     R0,R0,#+8
+   \       0x46   0xF88D 0x0006      STRB     R0,[SP, #+6]
+     55            contents[3] = LOW_BYTE(profile);
+   \       0x4A   0x4648             MOV      R0,R9
+   \       0x4C   0xF88D 0x0007      STRB     R0,[SP, #+7]
+     56            contents[4] = HIGH_BYTE(profile);
+   \       0x50   0xEA4F 0x2919      LSR      R9,R9,#+8
+   \       0x54   0xF88D 0x9008      STRB     R9,[SP, #+8]
+     57            contents[5] = inCount;
+   \       0x58   0x4638             MOV      R0,R7
+   \       0x5A   0xF88D 0x0009      STRB     R0,[SP, #+9]
+     58          
+     59            request = emberFillLinkedBuffers(contents, offset);
+   \       0x5E   0x2200             MOVS     R2,#+0
+   \       0x60   0x2106             MOVS     R1,#+6
+   \       0x62   0xA801             ADD      R0,SP,#+4
+   \       0x64   0x.... 0x....      BL       emReallyFillBuffer
+   \       0x68   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+     60            if (request == EMBER_NULL_MESSAGE_BUFFER) {
+   \       0x6C   0x2800             CMP      R0,#+0
+   \       0x6E   0xD009             BEQ.N    ??emberMatchDescriptorsRequest_4
+     61              return EMBER_NO_BUFFERS;
+     62            }
+     63          
+     64            if (emberSetLinkedBuffersLength(request,
+     65                                            offset
+     66                                            + (inCount * 2) // Times 2 for 2 byte Clusters
+     67                                            + 1             // Out Cluster Count
+     68                                            + (outCount * 2)) // Times 2 for 2 byte Clusters
+     69                != EMBER_SUCCESS) {
+   \       0x70   0xEB08 0x0107      ADD      R1,R8,R7
+   \       0x74   0x0049             LSLS     R1,R1,#+1
+   \       0x76   0x1DC9             ADDS     R1,R1,#+7
+   \       0x78   0xB2C9             UXTB     R1,R1
+   \       0x7A   0x4668             MOV      R0,SP
+   \       0x7C   0x.... 0x....      BL       emberReallySetLinkedBuffersLength
+   \       0x80   0x2800             CMP      R0,#+0
+   \       0x82   0xD001             BEQ.N    ??emberMatchDescriptorsRequest_5
+     70              return EMBER_NO_BUFFERS;
+   \                     ??emberMatchDescriptorsRequest_4: (+1)
+   \       0x84   0x2018             MOVS     R0,#+24
+   \       0x86   0xE068             B.N      ??emberMatchDescriptorsRequest_6
+     71            }
+     72            for (i = 0; i < inCount; i++) {
+   \                     ??emberMatchDescriptorsRequest_5: (+1)
+   \       0x88   0xF04F 0x0900      MOV      R9,#+0
+   \       0x8C   0xE025             B.N      ??emberMatchDescriptorsRequest_7
+     73              emberSetLinkedBuffersByte(request,
+     74                                        (i * 2) + offset,
+     75                                        emberGetLinkedBuffersByte(inClusters, (i * 2)));
+   \                     ??emberMatchDescriptorsRequest_8: (+1)
+   \       0x8E   0xEA4F 0x0A49      LSL      R10,R9,#+1
+   \       0x92   0x4651             MOV      R1,R10
+   \       0x94   0xB2C9             UXTB     R1,R1
+   \       0x96   0x4628             MOV      R0,R5
+   \       0x98   0x.... 0x....      BL       emberGetLinkedBuffersByte
+   \       0x9C   0xEA4F 0x0B49      LSL      R11,R9,#+1
+   \       0xA0   0x4602             MOV      R2,R0
+   \       0xA2   0xF10B 0x0006      ADD      R0,R11,#+6
+   \       0xA6   0x4601             MOV      R1,R0
+   \       0xA8   0xB2C9             UXTB     R1,R1
+   \       0xAA   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0xAE   0x.... 0x....      BL       emberSetLinkedBuffersByte
+     76              emberSetLinkedBuffersByte(request,
+     77                                        (i * 2) + offset + 1,
+     78                                        emberGetLinkedBuffersByte(inClusters,
+     79                                                                  (i * 2) + 1));
+   \       0xB2   0xF10B 0x0B01      ADD      R11,R11,#+1
+   \       0xB6   0x4659             MOV      R1,R11
+   \       0xB8   0xB2C9             UXTB     R1,R1
+   \       0xBA   0x4628             MOV      R0,R5
+   \       0xBC   0x.... 0x....      BL       emberGetLinkedBuffersByte
+   \       0xC0   0x4602             MOV      R2,R0
+   \       0xC2   0xF10A 0x0A07      ADD      R10,R10,#+7
+   \       0xC6   0x4651             MOV      R1,R10
+   \       0xC8   0xB2C9             UXTB     R1,R1
+   \       0xCA   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0xCE   0x.... 0x....      BL       emberSetLinkedBuffersByte
+     80            }
+   \       0xD2   0xF109 0x0901      ADD      R9,R9,#+1
+   \       0xD6   0xFA5F 0xF989      UXTB     R9,R9
+   \                     ??emberMatchDescriptorsRequest_7: (+1)
+   \       0xDA   0x45B9             CMP      R9,R7
+   \       0xDC   0xDBD7             BLT.N    ??emberMatchDescriptorsRequest_8
+     81            offset += (inCount * 2);
+   \       0xDE   0x007F             LSLS     R7,R7,#+1
+   \       0xE0   0x1DBF             ADDS     R7,R7,#+6
+     82            emberSetLinkedBuffersByte(request, offset, outCount);
+   \       0xE2   0x4640             MOV      R0,R8
+   \       0xE4   0x4602             MOV      R2,R0
+   \       0xE6   0x4638             MOV      R0,R7
+   \       0xE8   0x4601             MOV      R1,R0
+   \       0xEA   0xB2C9             UXTB     R1,R1
+   \       0xEC   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0xF0   0x.... 0x....      BL       emberSetLinkedBuffersByte
+     83            offset++;
+   \       0xF4   0x1C7F             ADDS     R7,R7,#+1
+   \       0xF6   0xB2FF             UXTB     R7,R7
+     84            for (i = 0; i < outCount; i++) {
+   \       0xF8   0x2500             MOVS     R5,#+0
+   \       0xFA   0xE024             B.N      ??emberMatchDescriptorsRequest_9
+     85              emberSetLinkedBuffersByte(request,
+     86                                        (i * 2) + offset,
+     87                                        emberGetLinkedBuffersByte(outClusters, (i * 2)));
+   \                     ??emberMatchDescriptorsRequest_10: (+1)
+   \       0xFC   0xEA4F 0x0945      LSL      R9,R5,#+1
+   \      0x100   0x4649             MOV      R1,R9
+   \      0x102   0xB2C9             UXTB     R1,R1
+   \      0x104   0x4630             MOV      R0,R6
+   \      0x106   0x.... 0x....      BL       emberGetLinkedBuffersByte
+   \      0x10A   0xEA4F 0x0A45      LSL      R10,R5,#+1
+   \      0x10E   0x4602             MOV      R2,R0
+   \      0x110   0xEB07 0x000A      ADD      R0,R7,R10
+   \      0x114   0x4601             MOV      R1,R0
+   \      0x116   0xB2C9             UXTB     R1,R1
+   \      0x118   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \      0x11C   0x.... 0x....      BL       emberSetLinkedBuffersByte
+     88              emberSetLinkedBuffersByte(request,
+     89                                        (i * 2) + offset + 1,
+     90                                        emberGetLinkedBuffersByte(outClusters,
+     91                                                                  (i * 2) + 1));
+   \      0x120   0xF10A 0x0A01      ADD      R10,R10,#+1
+   \      0x124   0x4651             MOV      R1,R10
+   \      0x126   0xB2C9             UXTB     R1,R1
+   \      0x128   0x4630             MOV      R0,R6
+   \      0x12A   0x.... 0x....      BL       emberGetLinkedBuffersByte
+   \      0x12E   0x4602             MOV      R2,R0
+   \      0x130   0x44B9             ADD      R9,R7,R9
+   \      0x132   0xF109 0x0901      ADD      R9,R9,#+1
+   \      0x136   0x4649             MOV      R1,R9
+   \      0x138   0xB2C9             UXTB     R1,R1
+   \      0x13A   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \      0x13E   0x.... 0x....      BL       emberSetLinkedBuffersByte
+     92            }
+   \      0x142   0x1C6D             ADDS     R5,R5,#+1
+   \      0x144   0xB2ED             UXTB     R5,R5
+   \                     ??emberMatchDescriptorsRequest_9: (+1)
+   \      0x146   0x4545             CMP      R5,R8
+   \      0x148   0xDBD8             BLT.N    ??emberMatchDescriptorsRequest_10
+   \      0x14A   0x9A0C             LDR      R2,[SP, #+48]
+     93          
+     94            result = sendZigDevRequestBuffer(target,
+     95                                             MATCH_DESCRIPTORS_REQUEST,
+     96                                             options,
+     97                                             request);
+     98            emberReleaseMessageBuffer(request);
+     99            return result;
+   \      0x14C   0xF8BD 0x3000      LDRH     R3,[SP, #+0]
+   \      0x150   0xB292             UXTH     R2,R2
+   \      0x152   0x2106             MOVS     R1,#+6
+   \      0x154   0x4620             MOV      R0,R4
+   \      0x156   0x.... 0x....      BL       sendZigDevRequestBuffer
+   \                     ??emberMatchDescriptorsRequest_6: (+1)
+   \      0x15A   0xE8BD 0x8FFE      POP      {R1-R11,PC}
+    100          }
+    101          
+
+   \                                 In section .text, align 2, keep-with-next
+    102          EmberStatus emberEndDeviceBindRequest(uint8_t endpoint,
+    103                                                EmberApsOption options)
+    104          {
+   \                     emberEndDeviceBindRequest: (+1)
+   \        0x0   0xB5F0             PUSH     {R4-R7,LR}
+   \        0x2   0xB087             SUB      SP,SP,#+28
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+    105            EmberMessageBuffer request;
+    106            EmberStatus result;
+    107            uint8_t contents[ZDO_MESSAGE_OVERHEAD + 14];
+    108            EmberEndpointDescription descriptor;
+    109            uint8_t i;
+    110          
+    111            if (!emberGetEndpointDescription(endpoint, &descriptor)) {
+   \        0x8   0xA901             ADD      R1,SP,#+4
+   \        0xA   0x.... 0x....      BL       emberGetEndpointDescription
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD101             BNE.N    ??emberEndDeviceBindRequest_0
+    112              return EMBER_INVALID_ENDPOINT;
+   \       0x12   0x20A3             MOVS     R0,#+163
+   \       0x14   0xE07E             B.N      ??emberEndDeviceBindRequest_1
+    113            }
+    114          
+    115            contents[0]  = emberNextZigDevRequestSequence();
+   \                     ??emberEndDeviceBindRequest_0: (+1)
+   \       0x16   0x.... 0x....      BL       emberNextZigDevRequestSequence
+   \       0x1A   0xF88D 0x000C      STRB     R0,[SP, #+12]
+    116            contents[1]  = LOW_BYTE(emberGetNodeId());
+   \       0x1E   0x.... 0x....      BL       emberGetNodeId
+   \       0x22   0xF88D 0x000D      STRB     R0,[SP, #+13]
+    117            contents[2]  = HIGH_BYTE(emberGetNodeId());
+   \       0x26   0x.... 0x....      BL       emberGetNodeId
+   \       0x2A   0x0A00             LSRS     R0,R0,#+8
+   \       0x2C   0xF88D 0x000E      STRB     R0,[SP, #+14]
+    118            MEMMOVE(contents + 3, emberGetEui64(), 8);
+   \       0x30   0x2208             MOVS     R2,#+8
+   \       0x32   0x....             LDR.N    R1,??DataTable2
+   \       0x34   0xF10D 0x000F      ADD      R0,SP,#+15
+   \       0x38   0x.... 0x....      BL       __aeabi_memmove
+    119            contents[11] = endpoint;
+   \       0x3C   0xF88D 0x4017      STRB     R4,[SP, #+23]
+    120            contents[12] = LOW_BYTE(descriptor.profileId);
+   \       0x40   0xF8BD 0x0004      LDRH     R0,[SP, #+4]
+   \       0x44   0xF88D 0x0018      STRB     R0,[SP, #+24]
+    121            contents[13] = HIGH_BYTE(descriptor.profileId);
+   \       0x48   0x0A00             LSRS     R0,R0,#+8
+   \       0x4A   0xF88D 0x0019      STRB     R0,[SP, #+25]
+    122            contents[14] = descriptor.inputClusterCount;
+   \       0x4E   0xF89D 0x0009      LDRB     R0,[SP, #+9]
+   \       0x52   0xF88D 0x001A      STRB     R0,[SP, #+26]
+    123          
+    124            request = emberFillLinkedBuffers(contents, sizeof(contents));
+   \       0x56   0x2200             MOVS     R2,#+0
+   \       0x58   0x210F             MOVS     R1,#+15
+   \       0x5A   0xA803             ADD      R0,SP,#+12
+   \       0x5C   0x.... 0x....      BL       emReallyFillBuffer
+   \       0x60   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+    125            if (request == EMBER_NULL_MESSAGE_BUFFER) {
+   \       0x64   0x2800             CMP      R0,#+0
+   \       0x66   0xD101             BNE.N    ??emberEndDeviceBindRequest_2
+    126              return EMBER_NO_BUFFERS;
+   \       0x68   0x2018             MOVS     R0,#+24
+   \       0x6A   0xE053             B.N      ??emberEndDeviceBindRequest_1
+    127            }
+    128            for (i = 0; i < descriptor.inputClusterCount; i++) {
+   \                     ??emberEndDeviceBindRequest_2: (+1)
+   \       0x6C   0x2600             MOVS     R6,#+0
+   \       0x6E   0xE01A             B.N      ??emberEndDeviceBindRequest_3
+    129              uint16_t clusterId = emberGetEndpointCluster(endpoint,
+    130                                                           EMBER_INPUT_CLUSTER_LIST,
+    131                                                           i);
+   \                     ??emberEndDeviceBindRequest_4: (+1)
+   \       0x70   0x4632             MOV      R2,R6
+   \       0x72   0xB2D2             UXTB     R2,R2
+   \       0x74   0x2100             MOVS     R1,#+0
+   \       0x76   0x4620             MOV      R0,R4
+   \       0x78   0x.... 0x....      BL       emberGetEndpointCluster
+   \       0x7C   0x4607             MOV      R7,R0
+    132              uint8_t temp = LOW_BYTE(clusterId);
+   \       0x7E   0xF88D 0x0002      STRB     R0,[SP, #+2]
+    133              emberAppendToLinkedBuffers(request,
+    134                                         &temp,
+    135                                         1);
+   \       0x82   0x2301             MOVS     R3,#+1
+   \       0x84   0x461A             MOV      R2,R3
+   \       0x86   0xF10D 0x0102      ADD      R1,SP,#+2
+   \       0x8A   0x4668             MOV      R0,SP
+   \       0x8C   0x.... 0x....      BL       emberReallyAppendToLinkedBuffers
+    136              temp = HIGH_BYTE(clusterId);
+   \       0x90   0x123F             ASRS     R7,R7,#+8
+   \       0x92   0xF88D 0x7002      STRB     R7,[SP, #+2]
+    137              emberAppendToLinkedBuffers(request,
+    138                                         &temp,
+    139                                         1);
+   \       0x96   0x2301             MOVS     R3,#+1
+   \       0x98   0x461A             MOV      R2,R3
+   \       0x9A   0xF10D 0x0102      ADD      R1,SP,#+2
+   \       0x9E   0x4668             MOV      R0,SP
+   \       0xA0   0x.... 0x....      BL       emberReallyAppendToLinkedBuffers
+    140            }
+   \       0xA4   0x1C76             ADDS     R6,R6,#+1
+   \                     ??emberEndDeviceBindRequest_3: (+1)
+   \       0xA6   0x4630             MOV      R0,R6
+   \       0xA8   0xF89D 0x1009      LDRB     R1,[SP, #+9]
+   \       0xAC   0xB2C0             UXTB     R0,R0
+   \       0xAE   0x4288             CMP      R0,R1
+   \       0xB0   0xD3DE             BCC.N    ??emberEndDeviceBindRequest_4
+    141            emberAppendToLinkedBuffers(request,
+    142                                       &descriptor.outputClusterCount,
+    143                                       1);
+   \       0xB2   0x2301             MOVS     R3,#+1
+   \       0xB4   0x461A             MOV      R2,R3
+   \       0xB6   0xF10D 0x010A      ADD      R1,SP,#+10
+   \       0xBA   0x4668             MOV      R0,SP
+   \       0xBC   0x.... 0x....      BL       emberReallyAppendToLinkedBuffers
+    144            for (i = 0; i < descriptor.outputClusterCount; i++) {
+   \       0xC0   0x2600             MOVS     R6,#+0
+   \       0xC2   0xE01A             B.N      ??emberEndDeviceBindRequest_5
+    145              uint16_t clusterId = emberGetEndpointCluster(endpoint,
+    146                                                           EMBER_OUTPUT_CLUSTER_LIST,
+    147                                                           i);
+   \                     ??emberEndDeviceBindRequest_6: (+1)
+   \       0xC4   0x4632             MOV      R2,R6
+   \       0xC6   0xB2D2             UXTB     R2,R2
+   \       0xC8   0x2101             MOVS     R1,#+1
+   \       0xCA   0x4620             MOV      R0,R4
+   \       0xCC   0x.... 0x....      BL       emberGetEndpointCluster
+   \       0xD0   0x4607             MOV      R7,R0
+    148              uint8_t temp = LOW_BYTE(clusterId);
+   \       0xD2   0xF88D 0x0002      STRB     R0,[SP, #+2]
+    149              emberAppendToLinkedBuffers(request,
+    150                                         &temp,
+    151                                         1);
+   \       0xD6   0x2301             MOVS     R3,#+1
+   \       0xD8   0x461A             MOV      R2,R3
+   \       0xDA   0xF10D 0x0102      ADD      R1,SP,#+2
+   \       0xDE   0x4668             MOV      R0,SP
+   \       0xE0   0x.... 0x....      BL       emberReallyAppendToLinkedBuffers
+    152              temp = HIGH_BYTE(clusterId);
+   \       0xE4   0x123F             ASRS     R7,R7,#+8
+   \       0xE6   0xF88D 0x7002      STRB     R7,[SP, #+2]
+    153              emberAppendToLinkedBuffers(request,
+    154                                         &temp,
+    155                                         1);
+   \       0xEA   0x2301             MOVS     R3,#+1
+   \       0xEC   0x461A             MOV      R2,R3
+   \       0xEE   0xF10D 0x0102      ADD      R1,SP,#+2
+   \       0xF2   0x4668             MOV      R0,SP
+   \       0xF4   0x.... 0x....      BL       emberReallyAppendToLinkedBuffers
+    156            }
+   \       0xF8   0x1C76             ADDS     R6,R6,#+1
+   \                     ??emberEndDeviceBindRequest_5: (+1)
+   \       0xFA   0x4630             MOV      R0,R6
+   \       0xFC   0xF89D 0x100A      LDRB     R1,[SP, #+10]
+   \      0x100   0xB2C0             UXTB     R0,R0
+   \      0x102   0x4288             CMP      R0,R1
+   \      0x104   0xD3DE             BCC.N    ??emberEndDeviceBindRequest_6
+    157            result = sendZigDevRequestBuffer(EMBER_ZIGBEE_COORDINATOR_ADDRESS,
+    158                                             END_DEVICE_BIND_REQUEST,
+    159                                             options,
+    160                                             request);
+    161          
+    162            if (request != EMBER_NULL_MESSAGE_BUFFER) {
+    163              emberReleaseMessageBuffer(request);
+    164            }
+    165            return result;
+   \      0x106   0xF8BD 0x3000      LDRH     R3,[SP, #+0]
+   \      0x10A   0x462A             MOV      R2,R5
+   \      0x10C   0x2120             MOVS     R1,#+32
+   \      0x10E   0x2000             MOVS     R0,#+0
+   \      0x110   0x.... 0x....      BL       sendZigDevRequestBuffer
+   \                     ??emberEndDeviceBindRequest_1: (+1)
+   \      0x114   0xB007             ADD      SP,SP,#+28
+   \      0x116   0xBDF0             POP      {R4-R7,PC}
+    166          }
+    167          
+
+   \                                 In section .text, align 2, keep-with-next
+    168          EmberStatus emberSendZigDevRequest(EmberNodeId destination,
+    169                                             uint16_t clusterId,
+    170                                             EmberApsOption options,
+    171                                             uint8_t *contents,
+    172                                             uint8_t length)
+    173          {
+   \                     emberSendZigDevRequest: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0x4605             MOV      R5,R0
+   \        0x6   0x460E             MOV      R6,R1
+   \        0x8   0x4617             MOV      R7,R2
+   \        0xA   0x4698             MOV      R8,R3
+   \        0xC   0x9C06             LDR      R4,[SP, #+24]
+    174            EmberMessageBuffer message;
+    175            EmberStatus result;
+    176          
+    177            contents[0] = emberNextZigDevRequestSequence();
+   \        0xE   0x.... 0x....      BL       emberNextZigDevRequestSequence
+   \       0x12   0xF888 0x0000      STRB     R0,[R8, #+0]
+    178          
+    179            message = emberFillLinkedBuffers(contents, length);
+   \       0x16   0x2200             MOVS     R2,#+0
+   \       0x18   0xB2E4             UXTB     R4,R4
+   \       0x1A   0x4621             MOV      R1,R4
+   \       0x1C   0x4640             MOV      R0,R8
+   \       0x1E   0x.... 0x....      BL       emReallyFillBuffer
+   \       0x22   0x0003             MOVS     R3,R0
+    180          
+    181            if (message == EMBER_NULL_MESSAGE_BUFFER) {
+   \       0x24   0xD101             BNE.N    ??emberSendZigDevRequest_0
+    182              return EMBER_NO_BUFFERS;
+   \       0x26   0x2018             MOVS     R0,#+24
+   \       0x28   0xE005             B.N      ??emberSendZigDevRequest_1
+    183            } else {
+    184              result = sendZigDevRequestBuffer(destination,
+    185                                               clusterId,
+    186                                               options,
+    187                                               message);
+    188              emberReleaseMessageBuffer(message);
+    189              return result;
+   \                     ??emberSendZigDevRequest_0: (+1)
+   \       0x2A   0x463A             MOV      R2,R7
+   \       0x2C   0x4631             MOV      R1,R6
+   \       0x2E   0x4628             MOV      R0,R5
+   \       0x30   0xE8BD 0x41F0      POP      {R4-R8,LR}
+   \       0x34   0x....             B.N      sendZigDevRequestBuffer
+    190            }
+   \                     ??emberSendZigDevRequest_1: (+1)
+   \       0x36   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    191          }
+    192          
+
+   \                                 In section .text, align 2, keep-with-next
+    193          static EmberStatus sendZigDevRequestBuffer(EmberNodeId destination,
+    194                                                     uint16_t clusterId,
+    195                                                     EmberApsOption options,
+    196                                                     EmberMessageBuffer request)
+    197          {
+   \                     sendZigDevRequestBuffer: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+    198            EmberApsFrame apsFrame;
+    199          
+    200            apsFrame.sourceEndpoint = EMBER_ZDO_ENDPOINT;
+   \        0x2   0x2400             MOVS     R4,#+0
+   \        0x4   0xF8AD 0x4004      STRH     R4,[SP, #+4]
+    201            apsFrame.destinationEndpoint = EMBER_ZDO_ENDPOINT;
+    202            apsFrame.clusterId = clusterId;
+   \        0x8   0xF8AD 0x1002      STRH     R1,[SP, #+2]
+    203            apsFrame.profileId = EMBER_ZDO_PROFILE_ID;
+   \        0xC   0x4621             MOV      R1,R4
+   \        0xE   0xF8AD 0x1000      STRH     R1,[SP, #+0]
+    204            apsFrame.options = options;
+   \       0x12   0xF8AD 0x2006      STRH     R2,[SP, #+6]
+    205          
+    206            if (destination == EMBER_BROADCAST_ADDRESS
+    207                || destination == EMBER_RX_ON_WHEN_IDLE_BROADCAST_ADDRESS
+    208                || destination == EMBER_SLEEPY_BROADCAST_ADDRESS) {
+   \       0x16   0x4601             MOV      R1,R0
+   \       0x18   0xF64F 0x72FC      MOVW     R2,#+65532
+   \       0x1C   0x4291             CMP      R1,R2
+   \       0x1E   0xD007             BEQ.N    ??sendZigDevRequestBuffer_0
+   \       0x20   0xF64F 0x72FD      MOVW     R2,#+65533
+   \       0x24   0x4291             CMP      R1,R2
+   \       0x26   0xD003             BEQ.N    ??sendZigDevRequestBuffer_0
+   \       0x28   0xF64F 0x72FF      MOVW     R2,#+65535
+   \       0x2C   0x4291             CMP      R1,R2
+   \       0x2E   0xD105             BNE.N    ??sendZigDevRequestBuffer_1
+    209              return emberSendBroadcast(destination,
+    210                                        &apsFrame,
+    211                                        emberGetZigDevRequestRadius(),
+    212                                        request);
+   \                     ??sendZigDevRequestBuffer_0: (+1)
+   \       0x30   0x....             LDR.N    R1,??DataTable2_1
+   \       0x32   0x780A             LDRB     R2,[R1, #+0]
+   \       0x34   0x4669             MOV      R1,SP
+   \       0x36   0x.... 0x....      BL       emberSendBroadcast
+   \       0x3A   0xE003             B.N      ??sendZigDevRequestBuffer_2
+    213            } else {
+    214              return emberSendUnicast(EMBER_OUTGOING_DIRECT,
+    215                                      destination,
+    216                                      &apsFrame,
+    217                                      request);
+   \                     ??sendZigDevRequestBuffer_1: (+1)
+   \       0x3C   0x466A             MOV      R2,SP
+   \       0x3E   0x4620             MOV      R0,R4
+   \       0x40   0x.... 0x....      BL       emberSendUnicast
+   \                     ??sendZigDevRequestBuffer_2: (+1)
+   \       0x44   0xB004             ADD      SP,SP,#+16
+   \       0x46   0xBD10             POP      {R4,PC}
+    218            }
+    219          }
+    220          
+
+   \                                 In section .text, align 2, keep-with-next
+    221          EmberNodeId emberDecodeAddressResponse(EmberMessageBuffer response,
+    222                                                 EmberEUI64 eui64Return)
+    223          {
+   \                     emberDecodeAddressResponse: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+   \        0x4   0x4605             MOV      R5,R0
+   \        0x6   0x460C             MOV      R4,R1
+   \        0x8   0x2200             MOVS     R2,#+0
+   \        0xA   0x210B             MOVS     R1,#+11
+   \        0xC   0xA801             ADD      R0,SP,#+4
+   \        0xE   0x.... 0x....      BL       __aeabi_memset4
+    224            uint8_t contents[11] = { 0 };
+    225            if (emberMessageBufferLength(response) < ZDO_MESSAGE_OVERHEAD + 11) {
+   \       0x12   0x4628             MOV      R0,R5
+   \       0x14   0x.... 0x....      BL       emGetBufferLength
+   \       0x18   0x280C             CMP      R0,#+12
+   \       0x1A   0xDA02             BGE.N    ??emberDecodeAddressResponse_0
+    226              return EMBER_NULL_NODE_ID;
+   \       0x1C   0xF64F 0x70FF      MOVW     R0,#+65535
+   \       0x20   0xE01A             B.N      ??emberDecodeAddressResponse_1
+    227            }
+    228            emberCopyFromLinkedBuffers(response, ZDO_MESSAGE_OVERHEAD, contents, 11);
+   \                     ??emberDecodeAddressResponse_0: (+1)
+   \       0x22   0x2000             MOVS     R0,#+0
+   \       0x24   0x9000             STR      R0,[SP, #+0]
+   \       0x26   0x230B             MOVS     R3,#+11
+   \       0x28   0x2201             MOVS     R2,#+1
+   \       0x2A   0x4629             MOV      R1,R5
+   \       0x2C   0xA801             ADD      R0,SP,#+4
+   \       0x2E   0x.... 0x....      BL       emReallyCopyToLinkedBuffers
+    229            if (contents[0] == EMBER_ZDP_SUCCESS) {
+   \       0x32   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0x36   0x2800             CMP      R0,#+0
+   \       0x38   0xD10C             BNE.N    ??emberDecodeAddressResponse_2
+    230              MEMMOVE(eui64Return, contents + 1, EUI64_SIZE);
+   \       0x3A   0x2208             MOVS     R2,#+8
+   \       0x3C   0xF10D 0x0105      ADD      R1,SP,#+5
+   \       0x40   0x4620             MOV      R0,R4
+   \       0x42   0x.... 0x....      BL       __aeabi_memmove
+    231              return HIGH_LOW_TO_INT(contents[10], contents[9]);
+   \       0x46   0xF89D 0x100E      LDRB     R1,[SP, #+14]
+   \       0x4A   0xF89D 0x000D      LDRB     R0,[SP, #+13]
+   \       0x4E   0xEB00 0x2001      ADD      R0,R0,R1, LSL #+8
+   \       0x52   0xE001             B.N      ??emberDecodeAddressResponse_1
+    232            } else {
+    233              return EMBER_NULL_NODE_ID;
+   \                     ??emberDecodeAddressResponse_2: (+1)
+   \       0x54   0xF64F 0x70FF      MOVW     R0,#+65535
+   \                     ??emberDecodeAddressResponse_1: (+1)
+   \       0x58   0xB005             ADD      SP,SP,#+20
+   \       0x5A   0xBD30             POP      {R4,R5,PC}
+    234            }
+    235          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0x....'....        DC32     emLocalEui64
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \        0x0   0x....'....        DC32     zigDevRequestRadius
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      32   emberDecodeAddressResponse
+        32   -> __aeabi_memmove
+        32   -> __aeabi_memset4
+        32   -> emGetBufferLength
+        32   -> emReallyCopyToLinkedBuffers
+      48   emberEndDeviceBindRequest
+        48   -> __aeabi_memmove
+        48   -> emReallyFillBuffer
+        48   -> emberGetEndpointCluster
+        48   -> emberGetEndpointDescription
+        48   -> emberGetNodeId
+        48   -> emberNextZigDevRequestSequence
+        48   -> emberReallyAppendToLinkedBuffers
+        48   -> sendZigDevRequestBuffer
+      48   emberMatchDescriptorsRequest
+        48   -> emGetBufferLength
+        48   -> emReallyFillBuffer
+        48   -> emberGetLinkedBuffersByte
+        48   -> emberNextZigDevRequestSequence
+        48   -> emberReallySetLinkedBuffersLength
+        48   -> emberSetLinkedBuffersByte
+        48   -> sendZigDevRequestBuffer
+      24   emberSendZigDevRequest
+        24   -> emReallyFillBuffer
+        24   -> emberNextZigDevRequestSequence
+         0   -> sendZigDevRequestBuffer
+      24   sendZigDevRequestBuffer
+        24   -> emberSendBroadcast
+        24   -> emberSendUnicast
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+      92  emberDecodeAddressResponse
+     280  emberEndDeviceBindRequest
+     350  emberMatchDescriptorsRequest
+      58  emberSendZigDevRequest
+      72  sendZigDevRequestBuffer
+
+ 
+ 860 bytes in section .text
+ 
+ 860 bytes of CODE memory
+
+Errors: none
+Warnings: none

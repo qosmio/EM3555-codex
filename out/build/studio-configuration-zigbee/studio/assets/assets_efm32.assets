@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_efm32">
+  <assets path="/efm32/configurator/efm32wg.zip" diskSizeKB="20009.57" downloadSizeKB="1446.959" directory="true"/>
+  <assets path="/efm32/configurator/efm32zg.zip" diskSizeKB="3517.515" downloadSizeKB="402.67" directory="true"/>
+  <assets path="/efm32/configurator/efm32lg.zip" diskSizeKB="20008.71" downloadSizeKB="1444.502" directory="true"/>
+  <assets path="/efm32/configurator/efm32jg13b.zip" diskSizeKB="5483.254" downloadSizeKB="506.297" directory="true"/>
+  <assets path="/efm32/configurator/efm32jg12b.zip" diskSizeKB="5211.854" downloadSizeKB="500.543" directory="true"/>
+  <assets path="/efm32/configurator/efm32gg.zip" diskSizeKB="13570.49" downloadSizeKB="1050.495" directory="true"/>
+  <assets path="/efm32/configurator/efm32g.zip" diskSizeKB="7504.562" downloadSizeKB="669.016" directory="true"/>
+  <assets path="/efm32/configurator/efm32tg.zip" diskSizeKB="7504.035" downloadSizeKB="680.952" directory="true"/>
+  <assets path="/efm32/configurator/efm32pg12b.zip" diskSizeKB="5211.854" downloadSizeKB="500.48" directory="true"/>
+  <assets path="/efm32/configurator/efm32hg.zip" diskSizeKB="4266.765" downloadSizeKB="434.642" directory="true"/>
+  <assets path="/efm32/configurator/efm32pg13b.zip" diskSizeKB="5483.254" downloadSizeKB="506.223" directory="true"/>
+  <assets path="/efm32/configurator/efm32pg1b.zip" diskSizeKB="6356.995" downloadSizeKB="510.561" directory="true"/>
+  <assets path="/efm32/configurator/efm32jg1b.zip" diskSizeKB="5749.822" downloadSizeKB="479.677" directory="true"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg842_errata_history.pdf" diskSizeKB="253.04" downloadSizeKB="253.04"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg380_errata.pdf" diskSizeKB="252.355" downloadSizeKB="252.355"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg308_errata.pdf" diskSizeKB="250.061" downloadSizeKB="250.061"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg230_errata_history.pdf" diskSizeKB="320.024" downloadSizeKB="320.024"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg840_errata.pdf" diskSizeKB="242.428" downloadSizeKB="242.428"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg390_errata_history.pdf" diskSizeKB="349.057" downloadSizeKB="349.057"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg230_errata.pdf" diskSizeKB="351.907" downloadSizeKB="351.907"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg110_errata.pdf" diskSizeKB="250.051" downloadSizeKB="250.051"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg321_errata.pdf" diskSizeKB="251.438" downloadSizeKB="251.438"/>
+  <assets version="2.0" path="/efm32/errata/efm32g232_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.6" path="/efm32/errata/efm32pg1_errata.pdf" diskSizeKB="775.121" downloadSizeKB="775.121"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg822_errata.pdf" diskSizeKB="352.777" downloadSizeKB="352.777"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg900_errata_history.pdf" diskSizeKB="262.532" downloadSizeKB="262.532"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg995_errata_history.pdf" diskSizeKB="349.058" downloadSizeKB="349.058"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg395_errata_history.pdf" diskSizeKB="349.052" downloadSizeKB="349.052"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg308_errata_history.pdf" diskSizeKB="265.501" downloadSizeKB="265.501"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg309_errata_history.pdf" diskSizeKB="266.594" downloadSizeKB="266.594"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg842_errata.pdf" diskSizeKB="351.897" downloadSizeKB="351.897"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg330_errata_history.pdf" diskSizeKB="342.334" downloadSizeKB="342.334"/>
+  <assets version="2.0" path="/efm32/errata/efm32g880_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg842_errata_history.pdf" diskSizeKB="323.565" downloadSizeKB="323.565"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg232_errata_history.pdf" diskSizeKB="253.044" downloadSizeKB="253.044"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg880_errata.pdf" diskSizeKB="256.953" downloadSizeKB="256.953"/>
+  <assets version="2.0" path="/efm32/errata/efm32g200_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg280_errata.pdf" diskSizeKB="268.867" downloadSizeKB="268.867"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg360_errata.pdf" diskSizeKB="249.559" downloadSizeKB="249.559"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg295_errata.pdf" diskSizeKB="268.866" downloadSizeKB="268.866"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg900_errata.pdf" diskSizeKB="255.04" downloadSizeKB="255.04"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg840_errata_history.pdf" diskSizeKB="320.029" downloadSizeKB="320.029"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg990_errata_history.pdf" diskSizeKB="349.054" downloadSizeKB="349.054"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg940_errata_history.pdf" diskSizeKB="339.396" downloadSizeKB="339.396"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg395_errata_history.pdf" diskSizeKB="264.075" downloadSizeKB="264.075"/>
+  <assets version="2.0" path="/efm32/errata/efm32g210_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg230_errata_history.pdf" diskSizeKB="253.048" downloadSizeKB="253.048"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg895_errata.pdf" diskSizeKB="242.422" downloadSizeKB="242.422"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg842_errata.pdf" diskSizeKB="262.234" downloadSizeKB="262.234"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg232_errata.pdf" diskSizeKB="242.425" downloadSizeKB="242.425"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg880_errata_history.pdf" diskSizeKB="325.373" downloadSizeKB="325.373"/>
+  <assets path="/efm32/errata/efm32pg1_errata_history.pdf" diskSizeKB="283.315" downloadSizeKB="283.315"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg108_errata.pdf" diskSizeKB="242.004" downloadSizeKB="242.004"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg942_errata.pdf" diskSizeKB="252.353" downloadSizeKB="252.353"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg395_errata.pdf" diskSizeKB="272.176" downloadSizeKB="272.176"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg980_errata.pdf" diskSizeKB="272.188" downloadSizeKB="272.188"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg360_errata_history.pdf" diskSizeKB="262.621" downloadSizeKB="262.621"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg230_errata.pdf" diskSizeKB="268.373" downloadSizeKB="268.373"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg330_errata_history.pdf" diskSizeKB="264.08" downloadSizeKB="264.08"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg880_errata.pdf" diskSizeKB="262.235" downloadSizeKB="262.235"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg890_errata_history.pdf" diskSizeKB="253.049" downloadSizeKB="253.049"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg900_errata.pdf" diskSizeKB="249.468" downloadSizeKB="249.468"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg890_errata_history.pdf" diskSizeKB="329.457" downloadSizeKB="329.457"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg110_errata_history.pdf" diskSizeKB="264.949" downloadSizeKB="264.949"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg995_errata_history.pdf" diskSizeKB="344.19" downloadSizeKB="344.19"/>
+  <assets version="0.4" path="/efm32/errata/efm32gg11_errata.pdf" diskSizeKB="771.052" downloadSizeKB="771.052"/>
+  <assets version="1.00" path="/efm32/errata/efm32g800_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg890_errata.pdf" diskSizeKB="262.24" downloadSizeKB="262.24"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg895_errata_history.pdf" diskSizeKB="253.046" downloadSizeKB="253.046"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg332_errata.pdf" diskSizeKB="252.358" downloadSizeKB="252.358"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg940_errata.pdf" diskSizeKB="252.355" downloadSizeKB="252.355"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg225_errata.pdf" diskSizeKB="345.99" downloadSizeKB="345.99"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg360_errata.pdf" diskSizeKB="249.558" downloadSizeKB="249.558"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg280_errata.pdf" diskSizeKB="242.423" downloadSizeKB="242.423"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg232_errata_history.pdf" diskSizeKB="320.017" downloadSizeKB="320.017"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg990_errata.pdf" diskSizeKB="252.35" downloadSizeKB="252.35"/>
+  <assets version="0.2" path="/efm32/errata/efm32tg11_errata.pdf" diskSizeKB="683.751" downloadSizeKB="683.751"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg890_errata.pdf" diskSizeKB="242.425" downloadSizeKB="242.425"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg108_errata.pdf" diskSizeKB="349.492" downloadSizeKB="349.492"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg990_errata_history.pdf" diskSizeKB="264.076" downloadSizeKB="264.076"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg395_errata.pdf" diskSizeKB="252.349" downloadSizeKB="252.349"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg290_errata.pdf" diskSizeKB="262.236" downloadSizeKB="262.236"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg940_errata.pdf" diskSizeKB="276.423" downloadSizeKB="276.423"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg332_errata_history.pdf" diskSizeKB="342.337" downloadSizeKB="342.337"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg895_errata_history.pdf" diskSizeKB="325.375" downloadSizeKB="325.375"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg321_errata_history.pdf" diskSizeKB="267.273" downloadSizeKB="267.273"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg880_errata.pdf" diskSizeKB="242.426" downloadSizeKB="242.426"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg942_errata.pdf" diskSizeKB="272.18" downloadSizeKB="272.18"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg990_errata_history.pdf" diskSizeKB="344.186" downloadSizeKB="344.186"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg880_errata_history.pdf" diskSizeKB="253.043" downloadSizeKB="253.043"/>
+  <assets version="0.30" path="/efm32/errata/efm32zg108_errata.pdf" diskSizeKB="240.392" downloadSizeKB="240.392"/>
+  <assets version="2.0" path="/efm32/errata/efm32g842_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg232_errata.pdf" diskSizeKB="262.23" downloadSizeKB="262.23"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg290_errata.pdf" diskSizeKB="242.427" downloadSizeKB="242.427"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg995_errata.pdf" diskSizeKB="277.565" downloadSizeKB="277.565"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg825_errata.pdf" diskSizeKB="346.001" downloadSizeKB="346.001"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg295_errata_history.pdf" diskSizeKB="325.371" downloadSizeKB="325.371"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg980_errata_history.pdf" diskSizeKB="330.579" downloadSizeKB="330.579"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg840_errata_history.pdf" diskSizeKB="253.049" downloadSizeKB="253.049"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg110_errata.pdf" diskSizeKB="242.71" downloadSizeKB="242.71"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg330_errata_history.pdf" diskSizeKB="339.388" downloadSizeKB="339.388"/>
+  <assets version="2.0" path="/efm32/errata/efm32g290_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg232_errata.pdf" diskSizeKB="351.892" downloadSizeKB="351.892"/>
+  <assets version="0.30" path="/efm32/errata/efm32zg110_errata_history.pdf" diskSizeKB="252.309" downloadSizeKB="252.309"/>
+  <assets version="0.30" path="/efm32/errata/efm32zg222_errata.pdf" diskSizeKB="241.053" downloadSizeKB="241.053"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg980_errata.pdf" diskSizeKB="277.566" downloadSizeKB="277.566"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg210_errata.pdf" diskSizeKB="356.994" downloadSizeKB="356.994"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg980_errata_history.pdf" diskSizeKB="264.085" downloadSizeKB="264.085"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg290_errata.pdf" diskSizeKB="256.956" downloadSizeKB="256.956"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg895_errata.pdf" diskSizeKB="262.235" downloadSizeKB="262.235"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg990_errata.pdf" diskSizeKB="272.181" downloadSizeKB="272.181"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg280_errata.pdf" diskSizeKB="262.232" downloadSizeKB="262.232"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg380_errata_history.pdf" diskSizeKB="264.08" downloadSizeKB="264.08"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg380_errata_history.pdf" diskSizeKB="349.058" downloadSizeKB="349.058"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg295_errata.pdf" diskSizeKB="262.232" downloadSizeKB="262.232"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg330_errata.pdf" diskSizeKB="276.424" downloadSizeKB="276.424"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg332_errata_history.pdf" diskSizeKB="339.393" downloadSizeKB="339.393"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg840_errata.pdf" diskSizeKB="262.234" downloadSizeKB="262.234"/>
+  <assets version="1.20" path="/efm32/errata/efm32lg-errata.pdf" diskSizeKB="682.242" downloadSizeKB="682.242"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg390_errata.pdf" diskSizeKB="252.353" downloadSizeKB="252.353"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg995_errata_history.pdf" diskSizeKB="264.083" downloadSizeKB="264.083"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg380_errata_history.pdf" diskSizeKB="344.176" downloadSizeKB="344.176"/>
+  <assets version="2.0" path="/efm32/errata/efm32g280_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg332_errata_history.pdf" diskSizeKB="264.076" downloadSizeKB="264.076"/>
+  <assets version="0.4" path="/efm32/errata/efm32pg12_errata.pdf" diskSizeKB="651.249" downloadSizeKB="651.249"/>
+  <assets version="0.30" path="/efm32/errata/efm32zg210_errata.pdf" diskSizeKB="241.051" downloadSizeKB="241.051"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg322_errata.pdf" diskSizeKB="251.441" downloadSizeKB="251.441"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg309_errata.pdf" diskSizeKB="251.444" downloadSizeKB="251.444"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg842_errata.pdf" diskSizeKB="242.42" downloadSizeKB="242.42"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg390_errata.pdf" diskSizeKB="277.563" downloadSizeKB="277.563"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg290_errata_history.pdf" diskSizeKB="325.376" downloadSizeKB="325.376"/>
+  <assets version="1.6" path="/efm32/errata/efm32jg1_errata.pdf" diskSizeKB="775.163" downloadSizeKB="775.163"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg280_errata_history.pdf" diskSizeKB="253.046" downloadSizeKB="253.046"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg230_errata.pdf" diskSizeKB="262.241" downloadSizeKB="262.241"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg840_errata.pdf" diskSizeKB="256.456" downloadSizeKB="256.456"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg230_errata.pdf" diskSizeKB="242.429" downloadSizeKB="242.429"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg232_errata_history.pdf" diskSizeKB="323.571" downloadSizeKB="323.571"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg380_errata.pdf" diskSizeKB="265.683" downloadSizeKB="265.683"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg840_errata.pdf" diskSizeKB="248.708" downloadSizeKB="248.708"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg332_errata.pdf" diskSizeKB="276.429" downloadSizeKB="276.429"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg942_errata.pdf" diskSizeKB="264.55" downloadSizeKB="264.55"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg880_errata_history.pdf" diskSizeKB="316.105" downloadSizeKB="316.105"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg330_errata.pdf" diskSizeKB="272.178" downloadSizeKB="272.178"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg330_errata.pdf" diskSizeKB="252.349" downloadSizeKB="252.349"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg390_errata.pdf" diskSizeKB="272.184" downloadSizeKB="272.184"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg995_errata.pdf" diskSizeKB="252.354" downloadSizeKB="252.354"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg295_errata_history.pdf" diskSizeKB="264.045" downloadSizeKB="264.045"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg350_errata.pdf" diskSizeKB="251.442" downloadSizeKB="251.442"/>
+  <assets path="/efm32/errata/efm32g222_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg390_errata_history.pdf" diskSizeKB="344.193" downloadSizeKB="344.193"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg940_errata_history.pdf" diskSizeKB="264.085" downloadSizeKB="264.085"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg322_errata_history.pdf" diskSizeKB="267.278" downloadSizeKB="267.278"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg940_errata.pdf" diskSizeKB="272.187" downloadSizeKB="272.187"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg995_errata.pdf" diskSizeKB="272.186" downloadSizeKB="272.186"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg395_errata.pdf" diskSizeKB="277.559" downloadSizeKB="277.559"/>
+  <assets version="0.30" path="/efm32/errata/efm32zg108_errata_history.pdf" diskSizeKB="243.569" downloadSizeKB="243.569"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg942_errata_history.pdf" diskSizeKB="339.392" downloadSizeKB="339.392"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg295_errata_history.pdf" diskSizeKB="329.441" downloadSizeKB="329.441"/>
+  <assets version="2.0" path="/efm32/errata/efm32g840_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg210_errata_history.pdf" diskSizeKB="264.941" downloadSizeKB="264.941"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg380_errata.pdf" diskSizeKB="272.178" downloadSizeKB="272.178"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg990_errata.pdf" diskSizeKB="277.562" downloadSizeKB="277.562"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg310_errata.pdf" diskSizeKB="251.439" downloadSizeKB="251.439"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg842_errata_history.pdf" diskSizeKB="306.826" downloadSizeKB="306.826"/>
+  <assets path="/efm32/errata/efm32jg1_errata_history.pdf" diskSizeKB="283.472" downloadSizeKB="283.472"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg360_errata_history.pdf" diskSizeKB="262.62" downloadSizeKB="262.62"/>
+  <assets version="1.0" path="/efm32/errata/efm32tg222_errata.pdf" diskSizeKB="351.9" downloadSizeKB="351.9"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg210_errata.pdf" diskSizeKB="242.709" downloadSizeKB="242.709"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg290_errata_history.pdf" diskSizeKB="329.447" downloadSizeKB="329.447"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg980_errata_history.pdf" diskSizeKB="349.063" downloadSizeKB="349.063"/>
+  <assets version="0.4" path="/efm32/errata/efm32pg12-errata.pdf" diskSizeKB="651.249" downloadSizeKB="651.249"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg222_errata_history.pdf" diskSizeKB="265.822" downloadSizeKB="265.822"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg280_errata_history.pdf" diskSizeKB="325.366" downloadSizeKB="325.366"/>
+  <assets version="0.30" path="/efm32/errata/efm32zg210_errata_history.pdf" diskSizeKB="252.306" downloadSizeKB="252.306"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg895_errata_history.pdf" diskSizeKB="329.449" downloadSizeKB="329.449"/>
+  <assets version="2.0" path="/efm32/errata/efm32g230_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg942_errata_history.pdf" diskSizeKB="264.078" downloadSizeKB="264.078"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg940_errata_history.pdf" diskSizeKB="328.832" downloadSizeKB="328.832"/>
+  <assets version="0.4" path="/efm32/errata/efm32jg12_errata.pdf" diskSizeKB="651.256" downloadSizeKB="651.256"/>
+  <assets version="2.0" path="/efm32/errata/efm32g890_errata.pdf" diskSizeKB="757.025" downloadSizeKB="757.025"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg980_errata.pdf" diskSizeKB="252.358" downloadSizeKB="252.358"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg390_errata_history.pdf" diskSizeKB="264.081" downloadSizeKB="264.081"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg890_errata_history.pdf" diskSizeKB="325.385" downloadSizeKB="325.385"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg900_errata_history.pdf" diskSizeKB="262.53" downloadSizeKB="262.53"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg222_errata.pdf" diskSizeKB="242.716" downloadSizeKB="242.716"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg332_errata.pdf" diskSizeKB="272.183" downloadSizeKB="272.183"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg942_errata_history.pdf" diskSizeKB="342.341" downloadSizeKB="342.341"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg108_errata_history.pdf" diskSizeKB="256.138" downloadSizeKB="256.138"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg295_errata.pdf" diskSizeKB="252.315" downloadSizeKB="252.315"/>
+  <assets version="0.30" path="/efm32/errata/efm32zg110_errata.pdf" diskSizeKB="241.053" downloadSizeKB="241.053"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg310_errata_history.pdf" diskSizeKB="266.596" downloadSizeKB="266.596"/>
+  <assets version="0.4" path="/efm32/errata/efm32jg12-errata.pdf" diskSizeKB="651.256" downloadSizeKB="651.256"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg895_errata.pdf" diskSizeKB="268.866" downloadSizeKB="268.866"/>
+  <assets version="1.10" path="/efm32/errata/efm32hg350_errata_history.pdf" diskSizeKB="266.599" downloadSizeKB="266.599"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg890_errata.pdf" diskSizeKB="268.871" downloadSizeKB="268.871"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg280_errata_history.pdf" diskSizeKB="329.442" downloadSizeKB="329.442"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg900_errata_history.pdf" diskSizeKB="283.08" downloadSizeKB="283.08"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg900_errata.pdf" diskSizeKB="249.47" downloadSizeKB="249.47"/>
+  <assets version="0.30" path="/efm32/errata/efm32zg222_errata_history.pdf" diskSizeKB="252.31" downloadSizeKB="252.31"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg232_errata.pdf" diskSizeKB="268.366" downloadSizeKB="268.366"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg395_errata_history.pdf" diskSizeKB="344.187" downloadSizeKB="344.187"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg230_errata_history.pdf" diskSizeKB="323.578" downloadSizeKB="323.578"/>
+  <assets version="1.20" path="/efm32/errata/efm32gg842_errata.pdf" diskSizeKB="268.367" downloadSizeKB="268.367"/>
+  <assets version="1.10" path="/efm32/errata/efm32lg840_errata_history.pdf" diskSizeKB="323.57" downloadSizeKB="323.57"/>
+  <assets version="1.10" path="/efm32/errata/efm32wg290_errata_history.pdf" diskSizeKB="253.045" downloadSizeKB="253.045"/>
+  <assets version="1.09" path="/efm32/appnote/an0018_efm32_supply_voltage_monitoring.zip" diskSizeKB="2934.669" downloadSizeKB="1249.215" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0918_efm32_migration_guide.zip" diskSizeKB="1297.208" downloadSizeKB="1110.216" directory="true"/>
+  <assets version="1.05" path="/efm32/appnote/an0060_efm32_aes_bootloader.zip" diskSizeKB="2587.552" downloadSizeKB="1072.133" directory="true"/>
+  <assets version="1.02" path="/efm32/appnote/an0040_efm32_capacitive_sense_hw_design.zip" diskSizeKB="3248.925" downloadSizeKB="3047.366" directory="true"/>
+  <assets version="1.07" path="/efm32/appnote/an0030_efm32_fat_on_sd_card.zip" diskSizeKB="609.942" downloadSizeKB="295.66" directory="true"/>
+  <assets version="1.08" path="/efm32/appnote/an0026_efm32_letimer.zip" diskSizeKB="2230.35" downloadSizeKB="1009.429" directory="true"/>
+  <assets version="1.04" path="/efm32/appnote/an0039_efm32_interrupt_handling.zip" diskSizeKB="1953.68" downloadSizeKB="625.171" directory="true"/>
+  <assets version="1.48" path="/efm32/appnote/an0002_efm32_hardware_design_considerations.zip" diskSizeKB="16725.165" downloadSizeKB="15994.39" directory="true"/>
+  <assets version="1.08" path="/efm32/appnote/an0034_efm32_ebi.zip" diskSizeKB="701.514" downloadSizeKB="294.549" directory="true"/>
+  <assets version="0.00" path="/efm32/appnote/an0955_efm32_mbedtls_crypto_demo.zip" diskSizeKB="1414.565" downloadSizeKB="743.381" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0065_efm32_usb_device.zip" diskSizeKB="32050.694" downloadSizeKB="11066.884" directory="true"/>
+  <assets version="0.00" path="/efm32/appnote/an1029_efm32_ldma.zip" diskSizeKB="1210.306" downloadSizeKB="722.464" directory="true"/>
+  <assets version="1.07" path="/efm32/appnote/an0047_efm32_graphical_display.zip" diskSizeKB="1466.683" downloadSizeKB="665.488" directory="true"/>
+  <assets version="1.04" path="/efm32/appnote/an0048_efm32_energy_friendly_display.zip" diskSizeKB="4772.651" downloadSizeKB="2755.452" directory="true"/>
+  <assets version="1.01" path="/efm32/appnote/an0801_efm32_usb_host.zip" diskSizeKB="834.475" downloadSizeKB="484.351" directory="true"/>
+  <assets version="1.08" path="/efm32/appnote/an0017_efm32_leuart.zip" diskSizeKB="987.928" downloadSizeKB="394.871" directory="true"/>
+  <assets version="1.05" path="/efm32/appnote/an0055_efm32_speex_codec.zip" diskSizeKB="4849.746" downloadSizeKB="2158.561" directory="true"/>
+  <assets version="1.11" path="/efm32/appnote/an0021_efm32_adc.zip" diskSizeKB="1215.491" downloadSizeKB="500.665" directory="true"/>
+  <assets version="1.01" path="/efm32/appnote/an0046_efm32_usb_hardware_design_guidelines.zip" diskSizeKB="1133.883" downloadSizeKB="986.06" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0045_efm32_uart_rs-232.zip" diskSizeKB="421.019" downloadSizeKB="227.612" directory="true"/>
+  <assets version="0.00" path="/efm32/appnote/an0948_efm32_power_configurations_and_dcdc.zip" diskSizeKB="817.179" downloadSizeKB="545.014" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0027_efm32_energy_optimization.zip" diskSizeKB="2504.216" downloadSizeKB="2011.429" directory="true"/>
+  <assets version="1.01" path="/efm32/appnote/an0031_efm32_kit_prototyping_library.zip" diskSizeKB="811.737" downloadSizeKB="581.329" directory="true"/>
+  <assets version="0.00" path="/efm32/appnote/an0816_efm32_bldc.zip" diskSizeKB="29030.2" downloadSizeKB="10829.665" directory="true"/>
+  <assets version="1.08" path="/efm32/appnote/an0025_efm32_prs.zip" diskSizeKB="1202.768" downloadSizeKB="588.146" directory="true"/>
+  <assets version="1.02" path="/efm32/appnote/an0806_efm32_fortuna_prng.zip" diskSizeKB="785.596" downloadSizeKB="299.212" directory="true"/>
+  <assets version="2.05" path="/efm32/appnote/an0006_efm32_tickless_calendar.zip" diskSizeKB="983.94" downloadSizeKB="326.895" directory="true"/>
+  <assets version="2.10" path="/efm32/appnote/an0028_efm32_lesense_capacitive_sense.zip" diskSizeKB="1014.091" downloadSizeKB="690.34" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0043_efm32_debug_trace_capabilities.zip" diskSizeKB="1687.729" downloadSizeKB="1164.883" directory="true"/>
+  <assets version="1.10" path="/efm32/appnote/an0014_efm32_timer.zip" diskSizeKB="5656.168" downloadSizeKB="1173.542" directory="true"/>
+  <assets version="1.02" path="/efm32/appnote/an0062_efm32_programming_guide.zip" diskSizeKB="1129.658" downloadSizeKB="571.748" directory="true"/>
+  <assets version="1.01" path="/efm32/appnote/an0063_efm32_epd.zip" diskSizeKB="3703.338" downloadSizeKB="2938.386" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0053_efm32_ir_sensor_lesense.zip" diskSizeKB="771.894" downloadSizeKB="386.252" directory="true"/>
+  <assets version="1.08" path="/efm32/appnote/an0020_efm32_analog_comparator.zip" diskSizeKB="1280.558" downloadSizeKB="353.399" directory="true"/>
+  <assets version="1.04" path="/efm32/appnote/an0057_efm32_segment_lcd.zip" diskSizeKB="2743.134" downloadSizeKB="1877.688" directory="true"/>
+  <assets version="1.06" path="/efm32/appnote/an0011_efm32_i2c.zip" diskSizeKB="560.468" downloadSizeKB="246.202" directory="true"/>
+  <assets version="2.01" path="/efm32/appnote/an0012_efm32_gpio.zip" diskSizeKB="5782.169" downloadSizeKB="1181.01" directory="true"/>
+  <assets version="1.10" path="/efm32/appnote/an0022_efm32_dac.zip" diskSizeKB="2335.176" downloadSizeKB="593.463" directory="true"/>
+  <assets version="1.22" path="/efm32/appnote/an0009_efm32_getting_started.zip" diskSizeKB="8154.876" downloadSizeKB="3131.623" directory="true"/>
+  <assets version="2.05" path="/efm32/appnote/an0013_efm32_dma.zip" diskSizeKB="1659.061" downloadSizeKB="454.289" directory="true"/>
+  <assets version="1.06" path="/efm32/appnote/an0029_efm32_lesense_lc_sense.zip" diskSizeKB="1318.239" downloadSizeKB="500.654" directory="true"/>
+  <assets version="1.13" path="/efm32/appnote/an0008_efm32_usart-spi.zip" diskSizeKB="429.388" downloadSizeKB="225.211" directory="true"/>
+  <assets version="1.48" path="/efm32/appnote/an0015_efm32_watchdog.zip" diskSizeKB="2391.093" downloadSizeKB="1207.889" directory="true"/>
+  <assets version="1.10" path="/efm32/appnote/an0004_efm32_cmu.zip" diskSizeKB="2321.5" downloadSizeKB="1341.956" directory="true"/>
+  <assets version="0.00" path="/efm32/appnote/an1011_efm32_standalone_programmer.zip" diskSizeKB="4214.502" downloadSizeKB="1118.097" directory="true"/>
+  <assets version="1.00" path="/efm32/appnote/an0064_efm32_idac.zip" diskSizeKB="858.294" downloadSizeKB="304.956" directory="true"/>
+  <assets version="1.00" path="/efm32/appnote/an0861_efm32_lufa_usb_cdc.zip" diskSizeKB="38139.129" downloadSizeKB="12268.683" directory="true"/>
+  <assets version="1.09" path="/efm32/appnote/an0005_efm32_rtc.zip" diskSizeKB="1596.92" downloadSizeKB="652.228" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0059_efm32_uart_flow_control.zip" diskSizeKB="3483.932" downloadSizeKB="1257.35" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0052_efm32_usb_msd_host_bootloader.zip" diskSizeKB="1913.347" downloadSizeKB="1338.876" directory="true"/>
+  <assets version="1.07" path="/efm32/appnote/an0024_efm32_pcnt.zip" diskSizeKB="1063.258" downloadSizeKB="339.801" directory="true"/>
+  <assets version="1.22" path="/efm32/appnote/an0042_efm32_usb_uart_bootloader.zip" diskSizeKB="4473.157" downloadSizeKB="1666.617" directory="true"/>
+  <assets version="1.74" path="/efm32/appnote/an0003_efm32_uart_bootloader.zip" diskSizeKB="3340.595" downloadSizeKB="1529.324" directory="true"/>
+  <assets version="1.11" path="/efm32/appnote/an0033_efm32_aes_cipher_modes.zip" diskSizeKB="1741.006" downloadSizeKB="710.217" directory="true"/>
+  <assets version="1.10" path="/efm32/appnote/an0007_efm32_energymodes.zip" diskSizeKB="2563.86" downloadSizeKB="1572.819" directory="true"/>
+  <assets version="1.30" path="/efm32/appnote/an0016_efm32_oscillator_design_considerations.zip" diskSizeKB="1389.689" downloadSizeKB="1180.454" directory="true"/>
+  <assets version="1.08" path="/efm32/appnote/an0032_efm32_ethernet.zip" diskSizeKB="3780.831" downloadSizeKB="2073.948" directory="true"/>
+  <assets version="1.00" path="/efm32/appnote/an0820_efm32_smart_card.zip" diskSizeKB="10310.139" downloadSizeKB="8822.432" directory="true"/>
+  <assets version="1.04" path="/efm32/appnote/an0054_efm32_phone_audio_jack_interface.zip" diskSizeKB="1411.763" downloadSizeKB="1115.225" directory="true"/>
+  <assets version="1.06" path="/efm32/appnote/an0036_efm32_lesense_resistive_sense.zip" diskSizeKB="878.182" downloadSizeKB="349.576" directory="true"/>
+  <assets version="1.09" path="/efm32/appnote/an0019_efm32_eeprom_emulation.zip" diskSizeKB="1229.734" downloadSizeKB="356.956" directory="true"/>
+  <assets version="1.02" path="/efm32/appnote/an0061_efm32_energy_harvesting.zip" diskSizeKB="1143.035" downloadSizeKB="774.059" directory="true"/>
+  <assets version="0.00" path="/efm32/appnote/an1112_efm32_helix_mp3_decoder.zip" diskSizeKB="83135.929" downloadSizeKB="29530.928" directory="true"/>
+  <assets version="1.13" path="/efm32/appnote/an0023_efm32_eclipse_toolchain.zip" diskSizeKB="15030.35" downloadSizeKB="14662.663" directory="true"/>
+  <assets version="1.26" path="/efm32/appnote/an0041_efm32_backup_power_domain.zip" diskSizeKB="2332.468" downloadSizeKB="1935.596" directory="true"/>
+  <assets version="1.06" path="/efm32/appnote/an0038_efm32_operational_amplifiers.zip" diskSizeKB="8708.353" downloadSizeKB="6783.188" directory="true"/>
+  <assets version="1.03" path="/efm32/appnote/an0051_efm32_dsp.zip" diskSizeKB="1532.383" downloadSizeKB="455.11" directory="true"/>
+  <assets version="" path="/efm32/sensor_puck/sensor_puck_bom.pdf" diskSizeKB="119.653" downloadSizeKB="119.653"/>
+  <assets version="" path="/efm32/sensor_puck/sensor_puck_schematic.pdf" diskSizeKB="34.949" downloadSizeKB="34.949"/>
+  <assets path="/efm32/sensor_puck/sensor-puck.png" diskSizeKB="338.177" downloadSizeKB="338.177"/>
+  <assets path="/efm32/sensor_puck/sensor_puck_ug_rev1.0.pdf" diskSizeKB="904.596" downloadSizeKB="904.596"/>
+  <assets path="/efm32/sensor_puck/sensor_puck_assembly_drawing.pdf" diskSizeKB="435.355" downloadSizeKB="435.355"/>
+  <assets path="/efm32/debug/jg/EFM32JG12B500F1024IM48_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F256GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG13BxxxF256_core.json" diskSizeKB="1.176" downloadSizeKB="1.176"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B100.json" diskSizeKB="2212.266" downloadSizeKB="2212.266"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B100F256GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B100F64GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F128GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG12B500F1024IL125_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F256GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F128GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG12B500F1024GM48_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F64GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B200.json" diskSizeKB="2212.266" downloadSizeKB="2212.266"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B200F64GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG1B100F128GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/jg/EFM32JG12B500F1024GL125_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/jg/EFM32JG13BxxxF512_core.json" diskSizeKB="1.179" downloadSizeKB="1.179"/>
+  <assets path="/efm32/debug/jg/EFM32JG13.json" diskSizeKB="3247.042" downloadSizeKB="3247.042"/>
+  <assets path="/efm32/debug/jg/EFM32JG12B500.json" diskSizeKB="3604.255" downloadSizeKB="3604.255"/>
+  <assets path="/efm32/debug/common/CM4.json" diskSizeKB="129.678" downloadSizeKB="129.678"/>
+  <assets path="/efm32/debug/common/CM0P.json" diskSizeKB="89.985" downloadSizeKB="89.985"/>
+  <assets path="/efm32/debug/common/CM33.json" diskSizeKB="211.818" downloadSizeKB="211.818"/>
+  <assets path="/efm32/debug/common/CM3.json" diskSizeKB="128.528" downloadSizeKB="128.528"/>
+  <assets path="/efm32/debug/tg/EFM32TG842F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG232F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG842F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG110F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG210F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG230.json" diskSizeKB="1344.982" downloadSizeKB="1344.982"/>
+  <assets path="/efm32/debug/tg/EFM32TG840.json" diskSizeKB="1373.089" downloadSizeKB="1373.089"/>
+  <assets path="/efm32/debug/tg/EFM32TG110.json" diskSizeKB="1344.982" downloadSizeKB="1344.982"/>
+  <assets path="/efm32/debug/tg/EFM32TG840F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG822F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG230F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG110F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG222F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG840F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG840F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG230F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG825F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG108F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG825F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG210F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG225.json" diskSizeKB="1344.982" downloadSizeKB="1344.982"/>
+  <assets path="/efm32/debug/tg/EFM32TG225F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG842.json" diskSizeKB="1373.089" downloadSizeKB="1373.089"/>
+  <assets path="/efm32/debug/tg/EFM32TG825.json" diskSizeKB="1373.089" downloadSizeKB="1373.089"/>
+  <assets path="/efm32/debug/tg/EFM32TG210F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG108F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG110F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG11B120.json" diskSizeKB="3225.734" downloadSizeKB="3225.734"/>
+  <assets path="/efm32/debug/tg/EFM32TG11B340.json" diskSizeKB="3261.621" downloadSizeKB="3261.621"/>
+  <assets path="/efm32/debug/tg/EFM32TG11B520.json" diskSizeKB="3261.621" downloadSizeKB="3261.621"/>
+  <assets path="/efm32/debug/tg/EFM32TG222.json" diskSizeKB="1344.982" downloadSizeKB="1344.982"/>
+  <assets path="/efm32/debug/tg/EFM32TG108F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG225F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG11B140.json" diskSizeKB="3225.734" downloadSizeKB="3225.734"/>
+  <assets path="/efm32/debug/tg/EFM32TG842F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG232F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG232.json" diskSizeKB="1344.982" downloadSizeKB="1344.982"/>
+  <assets path="/efm32/debug/tg/EFM32TG230F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG210.json" diskSizeKB="1344.982" downloadSizeKB="1344.982"/>
+  <assets path="/efm32/debug/tg/EFM32TG108.json" diskSizeKB="1175.943" downloadSizeKB="1175.943"/>
+  <assets path="/efm32/debug/tg/EFM32TG11B320.json" diskSizeKB="3261.621" downloadSizeKB="3261.621"/>
+  <assets path="/efm32/debug/tg/EFM32TG232F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG822.json" diskSizeKB="1373.089" downloadSizeKB="1373.089"/>
+  <assets path="/efm32/debug/tg/EFM32TG110F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG108F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG825F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG225F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG222F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG11B540.json" diskSizeKB="3261.621" downloadSizeKB="3261.621"/>
+  <assets path="/efm32/debug/tg/EFM32TG222F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/tg/EFM32TG822F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/tg/EFM32TG822F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/pg/efm32pg28b310f1024im68.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EEFM32PG23Bxx0FxxxIM4x.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EFM32PG12B500F1024GL125_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/pg/efm32pg22c200f64im32.json" diskSizeKB="2.673" downloadSizeKB="2.673"/>
+  <assets path="/efm32/debug/pg/efm32pg23b210f256im48.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg23b210f64im48.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg26b301f2048il136.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/efm32pg26b301f2048im68.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/efm32pg22c200f256im32.json" diskSizeKB="2.673" downloadSizeKB="2.673"/>
+  <assets path="/efm32/debug/pg/efm32pg23b200f64im40.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg26b301f1024im68.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/EFM32PG12B500F1024IL125_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/pg/EFM32PG1B200F256GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/pg/efm32pg26b501f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/efm32pg22_core.json" diskSizeKB="3409.481" downloadSizeKB="3409.481"/>
+  <assets path="/efm32/debug/pg/efm32pg22c200f128im32.json" diskSizeKB="2.673" downloadSizeKB="2.673"/>
+  <assets path="/efm32/debug/pg/efm32pg22c200f128im40.json" diskSizeKB="2.673" downloadSizeKB="2.673"/>
+  <assets path="/efm32/debug/pg/EFM32PG12B500F1024GM48_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/pg/EFM32PG1B100F128GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/pg/EFM32PG13.json" diskSizeKB="3254.449" downloadSizeKB="3254.449"/>
+  <assets path="/efm32/debug/pg/efm32pg26b501f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/EFM32PG1B200F128GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/pg/EFM32PG12B500F1024IM48_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/pg/efm32pg26b101f512im68.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/efm32pg26b301f1024il136.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/efm32pg22c200f256im40.json" diskSizeKB="2.673" downloadSizeKB="2.673"/>
+  <assets path="/efm32/debug/pg/efm32pg23b200f512im40.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EFM32PG1B200.json" diskSizeKB="2219.673" downloadSizeKB="2219.673"/>
+  <assets path="/efm32/debug/pg/efm32pg23b310f64im48.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EFM32PG23Bxx0FxxxIM4x.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg23b200f256im40.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EFM32PG12B500.json" diskSizeKB="3611.662" downloadSizeKB="3611.662"/>
+  <assets path="/efm32/debug/pg/EFM32PG13BxxxF512_core.json" diskSizeKB="1.176" downloadSizeKB="1.176"/>
+  <assets path="/efm32/debug/pg/efm32pg26_core.json" diskSizeKB="7022.168" downloadSizeKB="7022.168"/>
+  <assets path="/efm32/debug/pg/efm32pg26b101f512il136.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/efm32pg23b210f512im48.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EFM32PG23Bxx0F64IM4x.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EFM32PG13BxxxF256_core.json" diskSizeKB="1.176" downloadSizeKB="1.176"/>
+  <assets path="/efm32/debug/pg/efm32pg23b310f256im48.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg22c200f512im40.json" diskSizeKB="2.673" downloadSizeKB="2.673"/>
+  <assets path="/efm32/debug/pg/efm32pg26b501f3200il136.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/EFM32PG23_core.json" diskSizeKB="5353.063" downloadSizeKB="5353.063"/>
+  <assets path="/efm32/debug/pg/efm32pg22c200f64im40.json" diskSizeKB="2.673" downloadSizeKB="2.673"/>
+  <assets path="/efm32/debug/pg/efm32pg23b210f128im48.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg26b500f3200il136.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/efm32pg26b500f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/efm32pg28_core.json" diskSizeKB="5989.316" downloadSizeKB="5989.316"/>
+  <assets path="/efm32/debug/pg/efm32pg23b200f128im40.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg23b310f128im48.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg28b200f512im68.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg26b500f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3"/>
+  <assets path="/efm32/debug/pg/EFM32PG1B200F128GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/pg/efm32pg28b300f512im68.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/efm32pg22c200f512im32.json" diskSizeKB="2.673" downloadSizeKB="2.673"/>
+  <assets path="/efm32/debug/pg/efm32pg23b310f512im48.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EFM32PG1B100.json" diskSizeKB="2219.673" downloadSizeKB="2219.673"/>
+  <assets path="/efm32/debug/pg/efm32pg28b210f1024im68.json" diskSizeKB="0.315" downloadSizeKB="0.315"/>
+  <assets path="/efm32/debug/pg/EFM32PG1B100F256GM32_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/pg/EFM32PG1B200F256GM48_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG310F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG322.json" diskSizeKB="1237.511" downloadSizeKB="1237.511"/>
+  <assets path="/efm32/debug/hg/EFM32HG309F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG310F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG308F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG222.json" diskSizeKB="1100.439" downloadSizeKB="1100.439"/>
+  <assets path="/efm32/debug/hg/EFM32HG321F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG350F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG210F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG110F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG322F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG308.json" diskSizeKB="1182.39" downloadSizeKB="1182.39"/>
+  <assets path="/efm32/debug/hg/EFM32HG108F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG108F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG310.json" diskSizeKB="1237.511" downloadSizeKB="1237.511"/>
+  <assets path="/efm32/debug/hg/EFM32HG210.json" diskSizeKB="1100.439" downloadSizeKB="1100.439"/>
+  <assets path="/efm32/debug/hg/EFM32HG222F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG308F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG321.json" diskSizeKB="1227.338" downloadSizeKB="1227.338"/>
+  <assets path="/efm32/debug/hg/EFM32HG309F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG108.json" diskSizeKB="1045.318" downloadSizeKB="1045.318"/>
+  <assets path="/efm32/debug/hg/EFM32HG110F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG322F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG321F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/hg/EFM32HG110.json" diskSizeKB="1100.439" downloadSizeKB="1100.439"/>
+  <assets path="/efm32/debug/hg/EFM32HG222F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG309.json" diskSizeKB="1237.511" downloadSizeKB="1237.511"/>
+  <assets path="/efm32/debug/hg/EFM32HG350.json" diskSizeKB="1237.511" downloadSizeKB="1237.511"/>
+  <assets path="/efm32/debug/hg/EFM32HG210F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/hg/EFM32HG350F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G210F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G880F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G880.json" diskSizeKB="1326.268" downloadSizeKB="1326.268"/>
+  <assets path="/efm32/debug/g/EFM32G230.json" diskSizeKB="1231.885" downloadSizeKB="1231.885"/>
+  <assets path="/efm32/debug/g/EFM32G842.json" diskSizeKB="1259.383" downloadSizeKB="1259.383"/>
+  <assets path="/efm32/debug/g/EFM32G230F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G232F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G890F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G222F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G290F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G880F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G800.json" diskSizeKB="1326.268" downloadSizeKB="1326.268"/>
+  <assets path="/efm32/debug/g/EFM32G200.json" diskSizeKB="1023.942" downloadSizeKB="1023.942"/>
+  <assets path="/efm32/debug/g/EFM32G842F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G232F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G800F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G290F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G840.json" diskSizeKB="1259.383" downloadSizeKB="1259.383"/>
+  <assets path="/efm32/debug/g/EFM32G842F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G222.json" diskSizeKB="1126.599" downloadSizeKB="1126.599"/>
+  <assets path="/efm32/debug/g/EFM32G842F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G200F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G840F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G800F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G200F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G232.json" diskSizeKB="1231.885" downloadSizeKB="1231.885"/>
+  <assets path="/efm32/debug/g/EFM32G800F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G890.json" diskSizeKB="1326.268" downloadSizeKB="1326.268"/>
+  <assets path="/efm32/debug/g/EFM32G200F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G280F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G290F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G210.json" diskSizeKB="1037.046" downloadSizeKB="1037.046"/>
+  <assets path="/efm32/debug/g/EFM32G280.json" diskSizeKB="1298.77" downloadSizeKB="1298.77"/>
+  <assets path="/efm32/debug/g/EFM32G290.json" diskSizeKB="1298.77" downloadSizeKB="1298.77"/>
+  <assets path="/efm32/debug/g/EFM32G280F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G890F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G840F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G232F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G222F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G230F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G280F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G880F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G890F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/g/EFM32G230F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G222F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/g/EFM32G840F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B510.json" diskSizeKB="5759.011" downloadSizeKB="5759.011"/>
+  <assets path="/efm32/debug/gg/EFM32GG295F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B520.json" diskSizeKB="5759.011" downloadSizeKB="5759.011"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B530.json" diskSizeKB="4471.826" downloadSizeKB="4471.826"/>
+  <assets path="/efm32/debug/gg/EFM32GG230.json" diskSizeKB="1968.105" downloadSizeKB="1968.105"/>
+  <assets path="/efm32/debug/gg/EFM32GG842F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG890F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG880.json" diskSizeKB="2215.859" downloadSizeKB="2215.859"/>
+  <assets path="/efm32/debug/gg/EFM32GG290F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG280.json" diskSizeKB="2181.023" downloadSizeKB="2181.023"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B830.json" diskSizeKB="5172.465" downloadSizeKB="5172.465"/>
+  <assets path="/efm32/debug/gg/EFM32GG330F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B320.json" diskSizeKB="5759.011" downloadSizeKB="5759.011"/>
+  <assets path="/efm32/debug/gg/EFM32GG942.json" diskSizeKB="2381.622" downloadSizeKB="2381.622"/>
+  <assets path="/efm32/debug/gg/EFM32GG395F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG280F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG842F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG995F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG332F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG842.json" diskSizeKB="2002.941" downloadSizeKB="2002.941"/>
+  <assets path="/efm32/debug/gg/EFM32GG940.json" diskSizeKB="2381.622" downloadSizeKB="2381.622"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B590.json" diskSizeKB="5759.011" downloadSizeKB="5759.011"/>
+  <assets path="/efm32/debug/gg/EFM32GG380F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B110.json" diskSizeKB="4532.377" downloadSizeKB="4532.377"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B110.json" diskSizeKB="5846.647" downloadSizeKB="5846.647"/>
+  <assets path="/efm32/debug/gg/EFM32GG380.json" diskSizeKB="2559.704" downloadSizeKB="2559.704"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B510.json" diskSizeKB="4471.827" downloadSizeKB="4471.827"/>
+  <assets path="/efm32/debug/gg/EFM32GG380F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG290.json" diskSizeKB="2181.023" downloadSizeKB="2181.023"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B820.json" diskSizeKB="6581.411" downloadSizeKB="6581.411"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B310.json" diskSizeKB="5759.011" downloadSizeKB="5759.011"/>
+  <assets path="/efm32/debug/gg/EFM32GG890F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B430.json" diskSizeKB="5172.465" downloadSizeKB="5172.465"/>
+  <assets path="/efm32/debug/gg/EFM32GG942F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B410.json" diskSizeKB="5172.466" downloadSizeKB="5172.466"/>
+  <assets path="/efm32/debug/gg/EFM32GG990F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG332F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG390F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG990.json" diskSizeKB="2594.54" downloadSizeKB="2594.54"/>
+  <assets path="/efm32/debug/gg/EFM32GG280F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG840F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG395.json" diskSizeKB="2559.704" downloadSizeKB="2559.704"/>
+  <assets path="/efm32/debug/gg/EFM32GG230F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B390.json" diskSizeKB="4535.059" downloadSizeKB="4535.059"/>
+  <assets path="/efm32/debug/gg/EFM32GG995.json" diskSizeKB="2594.54" downloadSizeKB="2594.54"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B130.json" diskSizeKB="4532.376" downloadSizeKB="4532.376"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B120.json" diskSizeKB="5846.647" downloadSizeKB="5846.647"/>
+  <assets path="/efm32/debug/gg/EFM32GG895F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG895.json" diskSizeKB="2215.859" downloadSizeKB="2215.859"/>
+  <assets path="/efm32/debug/gg/EFM32GG980F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B810.json" diskSizeKB="5172.466" downloadSizeKB="5172.466"/>
+  <assets path="/efm32/debug/gg/EFM32GG330F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG990F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG980.json" diskSizeKB="2594.54" downloadSizeKB="2594.54"/>
+  <assets path="/efm32/debug/gg/EFM32GG880F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG395F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG890.json" diskSizeKB="2215.859" downloadSizeKB="2215.859"/>
+  <assets path="/efm32/debug/gg/EFM32GG230F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG295F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG232F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B310.json" diskSizeKB="4568.265" downloadSizeKB="4568.265"/>
+  <assets path="/efm32/debug/gg/EFM32GG895F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B390.json" diskSizeKB="5759.011" downloadSizeKB="5759.011"/>
+  <assets path="/efm32/debug/gg/EFM32GG900.json" diskSizeKB="2594.54" downloadSizeKB="2594.54"/>
+  <assets path="/efm32/debug/gg/EFM32GG232F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG880F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG390.json" diskSizeKB="2559.704" downloadSizeKB="2559.704"/>
+  <assets path="/efm32/debug/gg/EFM32GG332.json" diskSizeKB="2346.786" downloadSizeKB="2346.786"/>
+  <assets path="/efm32/debug/gg/EFM32GG330.json" diskSizeKB="2346.786" downloadSizeKB="2346.786"/>
+  <assets path="/efm32/debug/gg/EFM32GG12B330.json" diskSizeKB="4568.264" downloadSizeKB="4568.264"/>
+  <assets path="/efm32/debug/gg/EFM32GG900F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG290F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG980F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG942F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG390F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG995F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG295.json" diskSizeKB="2181.023" downloadSizeKB="2181.023"/>
+  <assets path="/efm32/debug/gg/EFM32GG232.json" diskSizeKB="1968.105" downloadSizeKB="1968.105"/>
+  <assets path="/efm32/debug/gg/EFM32GG940F1024_core.json" diskSizeKB="1.249" downloadSizeKB="1.249"/>
+  <assets path="/efm32/debug/gg/EFM32GG900F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B840.json" diskSizeKB="6581.411" downloadSizeKB="6581.411"/>
+  <assets path="/efm32/debug/gg/EFM32GG11B420.json" diskSizeKB="6581.411" downloadSizeKB="6581.411"/>
+  <assets path="/efm32/debug/gg/EFM32GG940F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/gg/EFM32GG840.json" diskSizeKB="2002.941" downloadSizeKB="2002.941"/>
+  <assets path="/efm32/debug/gg/EFM32GG840F512_core.json" diskSizeKB="1.248" downloadSizeKB="1.248"/>
+  <assets path="/efm32/debug/lg/EFM32LG842F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG842F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG395F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG360.json" diskSizeKB="2487.449" downloadSizeKB="2487.449"/>
+  <assets path="/efm32/debug/lg/EFM32LG995F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG380F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG980F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG390F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG942.json" diskSizeKB="2380.51" downloadSizeKB="2380.51"/>
+  <assets path="/efm32/debug/lg/EFM32LG842F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG280F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG232.json" diskSizeKB="1966.993" downloadSizeKB="1966.993"/>
+  <assets path="/efm32/debug/lg/EFM32LG390.json" diskSizeKB="2559.612" downloadSizeKB="2559.612"/>
+  <assets path="/efm32/debug/lg/EFM32LG900.json" diskSizeKB="2594.448" downloadSizeKB="2594.448"/>
+  <assets path="/efm32/debug/lg/EFM32LG280.json" diskSizeKB="2180.931" downloadSizeKB="2180.931"/>
+  <assets path="/efm32/debug/lg/EFM32LG295F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG890.json" diskSizeKB="2215.767" downloadSizeKB="2215.767"/>
+  <assets path="/efm32/debug/lg/EFM32LG332F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG942F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG290F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG380F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG895.json" diskSizeKB="2215.767" downloadSizeKB="2215.767"/>
+  <assets path="/efm32/debug/lg/EFM32LG230F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG230F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG942F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG940F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG895F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG995.json" diskSizeKB="2594.448" downloadSizeKB="2594.448"/>
+  <assets path="/efm32/debug/lg/EFM32LG390F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG295.json" diskSizeKB="2180.931" downloadSizeKB="2180.931"/>
+  <assets path="/efm32/debug/lg/EFM32LG840F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG280F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG330.json" diskSizeKB="2345.674" downloadSizeKB="2345.674"/>
+  <assets path="/efm32/debug/lg/EFM32LG895F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG995F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG942F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG232F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG990F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG290F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG890F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG360F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG395F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG232F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG880.json" diskSizeKB="2215.767" downloadSizeKB="2215.767"/>
+  <assets path="/efm32/debug/lg/EFM32LG900F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG360F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG390F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG230F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG232F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG290F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG332F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG880F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG890F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG980F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG940.json" diskSizeKB="2380.51" downloadSizeKB="2380.51"/>
+  <assets path="/efm32/debug/lg/EFM32LG900F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG332.json" diskSizeKB="2345.674" downloadSizeKB="2345.674"/>
+  <assets path="/efm32/debug/lg/EFM32LG842.json" diskSizeKB="2001.829" downloadSizeKB="2001.829"/>
+  <assets path="/efm32/debug/lg/EFM32LG990.json" diskSizeKB="2594.448" downloadSizeKB="2594.448"/>
+  <assets path="/efm32/debug/lg/EFM32LG995F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG380.json" diskSizeKB="2559.612" downloadSizeKB="2559.612"/>
+  <assets path="/efm32/debug/lg/EFM32LG230.json" diskSizeKB="1966.993" downloadSizeKB="1966.993"/>
+  <assets path="/efm32/debug/lg/EFM32LG330F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG840F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG360F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG332F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG990F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG280F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG290.json" diskSizeKB="2180.931" downloadSizeKB="2180.931"/>
+  <assets path="/efm32/debug/lg/EFM32LG330F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG940F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG395F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG895F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG980.json" diskSizeKB="2594.448" downloadSizeKB="2594.448"/>
+  <assets path="/efm32/debug/lg/EFM32LG395.json" diskSizeKB="2559.612" downloadSizeKB="2559.612"/>
+  <assets path="/efm32/debug/lg/EFM32LG900F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG880F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG295F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG980F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG330F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG840.json" diskSizeKB="2001.829" downloadSizeKB="2001.829"/>
+  <assets path="/efm32/debug/lg/EFM32LG380F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG880F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG840F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG295F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG940F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG990F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/lg/EFM32LG890F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG840F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG295.json" diskSizeKB="2188.338" downloadSizeKB="2188.338"/>
+  <assets path="/efm32/debug/wg/EFM32WG360.json" diskSizeKB="2487.449" downloadSizeKB="2487.449"/>
+  <assets path="/efm32/debug/wg/EFM32WG380F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG290.json" diskSizeKB="2188.338" downloadSizeKB="2188.338"/>
+  <assets path="/efm32/debug/wg/EFM32WG895F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG840.json" diskSizeKB="2009.236" downloadSizeKB="2009.236"/>
+  <assets path="/efm32/debug/wg/EFM32WG360F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG980F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG842.json" diskSizeKB="2009.236" downloadSizeKB="2009.236"/>
+  <assets path="/efm32/debug/wg/EFM32WG842F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG900.json" diskSizeKB="2601.855" downloadSizeKB="2601.855"/>
+  <assets path="/efm32/debug/wg/EFM32WG390.json" diskSizeKB="2567.019" downloadSizeKB="2567.019"/>
+  <assets path="/efm32/debug/wg/EFM32WG390F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG395F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG940F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG380F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG330.json" diskSizeKB="2353.081" downloadSizeKB="2353.081"/>
+  <assets path="/efm32/debug/wg/EFM32WG880.json" diskSizeKB="2223.174" downloadSizeKB="2223.174"/>
+  <assets path="/efm32/debug/wg/EFM32WG395.json" diskSizeKB="2567.019" downloadSizeKB="2567.019"/>
+  <assets path="/efm32/debug/wg/EFM32WG990.json" diskSizeKB="2601.855" downloadSizeKB="2601.855"/>
+  <assets path="/efm32/debug/wg/EFM32WG995.json" diskSizeKB="2601.855" downloadSizeKB="2601.855"/>
+  <assets path="/efm32/debug/wg/EFM32WG332F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG890F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG290F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG840F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG280F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG842F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG380.json" diskSizeKB="2567.019" downloadSizeKB="2567.019"/>
+  <assets path="/efm32/debug/wg/EFM32WG900F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG980F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG940F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG980.json" diskSizeKB="2601.855" downloadSizeKB="2601.855"/>
+  <assets path="/efm32/debug/wg/EFM32WG990F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG942F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG990F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG380F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG942F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG980F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG330F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG900F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG280F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG330F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG332F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG280F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG332.json" diskSizeKB="2353.081" downloadSizeKB="2353.081"/>
+  <assets path="/efm32/debug/wg/EFM32WG390F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG230F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG895F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG390F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG895F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG232F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG995F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG842F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG232F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG940F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG360F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG280.json" diskSizeKB="2188.338" downloadSizeKB="2188.338"/>
+  <assets path="/efm32/debug/wg/EFM32WG230.json" diskSizeKB="1974.4" downloadSizeKB="1974.4"/>
+  <assets path="/efm32/debug/wg/EFM32WG995F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG900F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG230F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG880F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG332F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG232.json" diskSizeKB="1974.4" downloadSizeKB="1974.4"/>
+  <assets path="/efm32/debug/wg/EFM32WG295F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG990F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG880F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG360F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG230F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG290F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG395F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG290F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG295F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG995F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG880F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG942.json" diskSizeKB="2387.917" downloadSizeKB="2387.917"/>
+  <assets path="/efm32/debug/wg/EFM32WG840F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG890.json" diskSizeKB="2223.174" downloadSizeKB="2223.174"/>
+  <assets path="/efm32/debug/wg/EFM32WG890F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG330F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG895.json" diskSizeKB="2223.174" downloadSizeKB="2223.174"/>
+  <assets path="/efm32/debug/wg/EFM32WG232F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG395F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG295F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG940.json" diskSizeKB="2387.917" downloadSizeKB="2387.917"/>
+  <assets path="/efm32/debug/wg/EFM32WG942F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/wg/EFM32WG890F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/efm32/debug/zg/EFM32ZG110F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/zg/EFM32ZG210F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/zg/EFM32ZG110F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/zg/EFM32ZG110F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/zg/EFM32ZG222.json" diskSizeKB="877.992" downloadSizeKB="877.992"/>
+  <assets path="/efm32/debug/zg/EFM32ZG108F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/zg/EFM32ZG210F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/zg/EFM32ZG222F8_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/zg/EFM32ZG210F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/zg/EFM32ZG222F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/zg/EFM32ZG210.json" diskSizeKB="877.992" downloadSizeKB="877.992"/>
+  <assets path="/efm32/debug/zg/EFM32ZG210F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/zg/EFM32ZG108F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/zg/EFM32ZG108.json" diskSizeKB="824.845" downloadSizeKB="824.845"/>
+  <assets path="/efm32/debug/zg/EFM32ZG222F4_core.json" diskSizeKB="1.244" downloadSizeKB="1.244"/>
+  <assets path="/efm32/debug/zg/EFM32ZG108F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/zg/EFM32ZG222F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/zg/EFM32ZG110F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/zg/EFM32ZG108F16_core.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/efm32/debug/zg/EFM32ZG110.json" diskSizeKB="877.992" downloadSizeKB="877.992"/>
+  <assets version="0.6" path="/efm32/reference/efm32jg1_reference_manual.pdf" diskSizeKB="6756.24" downloadSizeKB="6756.24"/>
+  <assets version="0.5" path="/efm32/reference/efm32gg11_reference_manual.pdf" diskSizeKB="14876.108" downloadSizeKB="14876.108"/>
+  <assets version="0.5" path="/efm32/reference/efm32tg11_reference_manual.pdf" diskSizeKB="9862.623" downloadSizeKB="9862.623"/>
+  <assets version="0.9" path="/efm32/reference/efm32hg_reference_manual.pdf" diskSizeKB="9321.316" downloadSizeKB="9321.316"/>
+  <assets version="0.5" path="/efm32/reference/efm32pg12_reference_manual.pdf" diskSizeKB="9249.96" downloadSizeKB="9249.96"/>
+  <assets version="1.31" path="/efm32/reference/efm32g_reference_manual.pdf" diskSizeKB="7460.154" downloadSizeKB="7460.154"/>
+  <assets version="1.2" path="/efm32/reference/efm32lg_reference_manual.pdf" diskSizeKB="13301.708" downloadSizeKB="13301.708"/>
+  <assets version="0.5" path="/efm32/reference/efm32jg12_reference_manual.pdf" diskSizeKB="9250.037" downloadSizeKB="9250.037"/>
+  <assets version="0.6" path="/efm32/reference/efm32pg1_reference_manual.pdf" diskSizeKB="6755.276" downloadSizeKB="6755.276"/>
+  <assets version="1.1" path="/efm32/reference/efm32wg_reference_manual.pdf" diskSizeKB="9856.939" downloadSizeKB="9856.939"/>
+  <assets version="1.10" path="/efm32/reference/efm32zg_reference_manual.pdf" diskSizeKB="6220.264" downloadSizeKB="6220.264"/>
+  <assets version="1.20" path="/efm32/reference/efm32gg_reference_manual.pdf" diskSizeKB="13853.095" downloadSizeKB="13853.095"/>
+  <assets version="1.20" path="/efm32/reference/efm32tg_reference_manual.pdf" diskSizeKB="8967.888" downloadSizeKB="8967.888"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg890_datasheet.pdf" diskSizeKB="2256.609" downloadSizeKB="2256.609"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg895_datasheet.pdf" diskSizeKB="1808.815" downloadSizeKB="1808.815"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg321_datasheet.pdf" diskSizeKB="2188.358" downloadSizeKB="2188.358"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg350_datasheet.pdf" diskSizeKB="2134.092" downloadSizeKB="2134.092"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg822_datasheet.pdf" diskSizeKB="2229.729" downloadSizeKB="2229.729"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g222_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg395_datasheet.pdf" diskSizeKB="2176.928" downloadSizeKB="2176.928"/>
+  <assets version="1.10" path="/efm32/datasheet/efm32zg210_datasheet.pdf" diskSizeKB="1880.944" downloadSizeKB="1880.944"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg332_datasheet.pdf" diskSizeKB="2095.369" downloadSizeKB="2095.369"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg380_datasheet.pdf" diskSizeKB="2213.42" downloadSizeKB="2213.42"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g890_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg940_datasheet.pdf" diskSizeKB="2105.398" downloadSizeKB="2105.398"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg880_datasheet.pdf" diskSizeKB="2246.102" downloadSizeKB="2246.102"/>
+  <assets version="0.5" path="/efm32/datasheet/efm32tg11_datasheet.pdf" diskSizeKB="2664.273" downloadSizeKB="2664.273"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg390_datasheet.pdf" diskSizeKB="2222.362" downloadSizeKB="2222.362"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg395_datasheet.pdf" diskSizeKB="2175.029" downloadSizeKB="2175.029"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g840_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg890_datasheet.pdf" diskSizeKB="1804.124" downloadSizeKB="1804.124"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg210_datasheet.pdf" diskSizeKB="2177.231" downloadSizeKB="2177.231"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g280_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg825_datasheet.pdf" diskSizeKB="2226.138" downloadSizeKB="2226.138"/>
+  <assets version="1.0" path="/efm32/datasheet/efm32gg11_datasheet.pdf" diskSizeKB="3911.798" downloadSizeKB="3911.798"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg380_datasheet.pdf" diskSizeKB="2211.513" downloadSizeKB="2211.513"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg230_datasheet.pdf" diskSizeKB="2284.755" downloadSizeKB="2284.755"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg222_datasheet.pdf" diskSizeKB="2180.593" downloadSizeKB="2180.593"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg232_datasheet.pdf" diskSizeKB="2085.272" downloadSizeKB="2085.272"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg308_datasheet.pdf" diskSizeKB="1701.456" downloadSizeKB="1701.456"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg232_datasheet.pdf" diskSizeKB="2282.725" downloadSizeKB="2282.725"/>
+  <assets version="1.10" path="/efm32/datasheet/efm32zg110_datasheet.pdf" diskSizeKB="1895.373" downloadSizeKB="1895.373"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg110_datasheet.pdf" diskSizeKB="2214.335" downloadSizeKB="2214.335"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg840_datasheet.pdf" diskSizeKB="2103.084" downloadSizeKB="2103.084"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g232_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg232_datasheet.pdf" diskSizeKB="2083.408" downloadSizeKB="2083.408"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg895_datasheet.pdf" diskSizeKB="2209.779" downloadSizeKB="2209.779"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg980_datasheet.pdf" diskSizeKB="2253.362" downloadSizeKB="2253.362"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg290_datasheet.pdf" diskSizeKB="1754.012" downloadSizeKB="1754.012"/>
+  <assets version="1.10" path="/efm32/datasheet/efm32zg222_datasheet.pdf" diskSizeKB="1878.588" downloadSizeKB="1878.588"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg942_datasheet.pdf" diskSizeKB="2126.466" downloadSizeKB="2126.466"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32lg360_datasheet.pdf" diskSizeKB="1804.117" downloadSizeKB="1804.117"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg210_datasheet.pdf" diskSizeKB="2209.099" downloadSizeKB="2209.099"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg380_datasheet.pdf" diskSizeKB="1771.993" downloadSizeKB="1771.993"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg330_datasheet.pdf" diskSizeKB="2086.054" downloadSizeKB="2086.054"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g880_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg232_datasheet.pdf" diskSizeKB="1586.866" downloadSizeKB="1586.866"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg990_datasheet.pdf" diskSizeKB="2263.932" downloadSizeKB="2263.932"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg280_datasheet.pdf" diskSizeKB="2207.27" downloadSizeKB="2207.27"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg309_datasheet.pdf" diskSizeKB="2180.642" downloadSizeKB="2180.642"/>
+  <assets version="1.1" path="/efm32/datasheet/efm32pg1_datasheet.pdf" diskSizeKB="1859.999" downloadSizeKB="1859.999"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg230_datasheet.pdf" diskSizeKB="2072.101" downloadSizeKB="2072.101"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg222_datasheet.pdf" diskSizeKB="2195.167" downloadSizeKB="2195.167"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg330_datasheet.pdf" diskSizeKB="1610.066" downloadSizeKB="1610.066"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg310_datasheet.pdf" diskSizeKB="2186.179" downloadSizeKB="2186.179"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg940_datasheet.pdf" diskSizeKB="1638.557" downloadSizeKB="1638.557"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32wg360_datasheet.pdf" diskSizeKB="1804.403" downloadSizeKB="1804.403"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg295_datasheet.pdf" diskSizeKB="1740.66" downloadSizeKB="1740.66"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg280_datasheet.pdf" diskSizeKB="1756.4" downloadSizeKB="1756.4"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg842_datasheet.pdf" diskSizeKB="2311.299" downloadSizeKB="2311.299"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg110_datasheet.pdf" diskSizeKB="2168.824" downloadSizeKB="2168.824"/>
+  <assets version="1.20" path="/efm32/datasheet/efm32wg900_datasheet.pdf" diskSizeKB="482.511" downloadSizeKB="482.511"/>
+  <assets version="1.1" path="/efm32/datasheet/efm32pg12_datasheet.pdf" diskSizeKB="2230.337" downloadSizeKB="2230.337"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg395_datasheet.pdf" diskSizeKB="1775.143" downloadSizeKB="1775.143"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg990_datasheet.pdf" diskSizeKB="1815.734" downloadSizeKB="1815.734"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg995_datasheet.pdf" diskSizeKB="1827.027" downloadSizeKB="1827.027"/>
+  <assets version="1.10" path="/efm32/datasheet/efm32zg108_datasheet.pdf" diskSizeKB="1417.328" downloadSizeKB="1417.328"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g210_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg390_datasheet.pdf" diskSizeKB="1769.023" downloadSizeKB="1769.023"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg230_datasheet.pdf" diskSizeKB="2073.916" downloadSizeKB="2073.916"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg332_datasheet.pdf" diskSizeKB="1608.597" downloadSizeKB="1608.597"/>
+  <assets version="1.1" path="/efm32/datasheet/efm32jg12-datasheet.pdf" diskSizeKB="2229.813" downloadSizeKB="2229.813"/>
+  <assets version="1.1" path="/efm32/datasheet/efm32pg12-datasheet.pdf" diskSizeKB="2230.337" downloadSizeKB="2230.337"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g290_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.1" path="/efm32/datasheet/efm32jg12_datasheet.pdf" diskSizeKB="2229.813" downloadSizeKB="2229.813"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg842_datasheet.pdf" diskSizeKB="1624.86" downloadSizeKB="1624.86"/>
+  <assets version="2.10" path="/efm32/datasheet/efm32lg-datasheet.pdf" diskSizeKB="5841.344" downloadSizeKB="5841.344"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg108_datasheet.pdf" diskSizeKB="1675.757" downloadSizeKB="1675.757"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg840_datasheet.pdf" diskSizeKB="2101.403" downloadSizeKB="2101.403"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg230_datasheet.pdf" diskSizeKB="1592.641" downloadSizeKB="1592.641"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg225_datasheet.pdf" diskSizeKB="2198.235" downloadSizeKB="2198.235"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g800_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.20" path="/efm32/datasheet/efm32lg900_datasheet.pdf" diskSizeKB="5806.861" downloadSizeKB="5806.861"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg890_datasheet.pdf" diskSizeKB="2254.995" downloadSizeKB="2254.995"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg295_datasheet.pdf" diskSizeKB="2170.734" downloadSizeKB="2170.734"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg942_datasheet.pdf" diskSizeKB="2124.303" downloadSizeKB="2124.303"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg980_datasheet.pdf" diskSizeKB="1821.791" downloadSizeKB="1821.791"/>
+  <assets version="1.00" path="/efm32/datasheet/efm32hg322_datasheet.pdf" diskSizeKB="2191.285" downloadSizeKB="2191.285"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g842_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg290_datasheet.pdf" diskSizeKB="2213.963" downloadSizeKB="2213.963"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g230_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.1" path="/efm32/datasheet/efm32jg1_datasheet.pdf" diskSizeKB="1799.763" downloadSizeKB="1799.763"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg995_datasheet.pdf" diskSizeKB="2218.54" downloadSizeKB="2218.54"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg332_datasheet.pdf" diskSizeKB="2097.232" downloadSizeKB="2097.232"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg942_datasheet.pdf" diskSizeKB="1635.859" downloadSizeKB="1635.859"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg280_datasheet.pdf" diskSizeKB="2205.707" downloadSizeKB="2205.707"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg842_datasheet.pdf" diskSizeKB="2119.072" downloadSizeKB="2119.072"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg108_datasheet.pdf" diskSizeKB="1365.161" downloadSizeKB="1365.161"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg995_datasheet.pdf" diskSizeKB="2217.251" downloadSizeKB="2217.251"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg980_datasheet.pdf" diskSizeKB="2252.037" downloadSizeKB="2252.037"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg390_datasheet.pdf" diskSizeKB="2223.82" downloadSizeKB="2223.82"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg900_datasheet.pdf" diskSizeKB="490.417" downloadSizeKB="490.417"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg330_datasheet.pdf" diskSizeKB="2084.113" downloadSizeKB="2084.113"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg880_datasheet.pdf" diskSizeKB="1805.317" downloadSizeKB="1805.317"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg990_datasheet.pdf" diskSizeKB="2262.631" downloadSizeKB="2262.631"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg940_datasheet.pdf" diskSizeKB="2107.594" downloadSizeKB="2107.594"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg842_datasheet.pdf" diskSizeKB="2120.69" downloadSizeKB="2120.69"/>
+  <assets version="1.30" path="/efm32/datasheet/efm32lg295_datasheet.pdf" diskSizeKB="2169.168" downloadSizeKB="2169.168"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32tg840_datasheet.pdf" diskSizeKB="2311.055" downloadSizeKB="2311.055"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32gg840_datasheet.pdf" diskSizeKB="1627.855" downloadSizeKB="1627.855"/>
+  <assets version="1.90" path="/efm32/datasheet/efm32g200_datasheet.pdf" diskSizeKB="3307.977" downloadSizeKB="3307.977"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg290_datasheet.pdf" diskSizeKB="2215.542" downloadSizeKB="2215.542"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg895_datasheet.pdf" diskSizeKB="2211.378" downloadSizeKB="2211.378"/>
+  <assets version="1.40" path="/efm32/datasheet/efm32wg880_datasheet.pdf" diskSizeKB="2247.717" downloadSizeKB="2247.717"/>
+</assets>

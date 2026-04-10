@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.amazon_sidewalk_2.8.1">
+  <assets path="/extension.amazon_sidewalk_2.8.1/sidewalk_sample_app/amazon_sidewalk_soc_oob_brd4187c_ble.s37" diskSizeKB="1337.842" downloadSizeKB="1337.842"/>
+  <assets path="/extension.amazon_sidewalk_2.8.1/sidewalk_sample_app/amazon_sidewalk_soc_oob_brd2705a_fsk.s37" diskSizeKB="1326.186" downloadSizeKB="1326.186"/>
+  <assets path="/extension.amazon_sidewalk_2.8.1/sidewalk_sample_app/amazon_sidewalk_soc_oob_brd4181c_ble.s37" diskSizeKB="1234.818" downloadSizeKB="1234.818"/>
+  <assets path="/extension.amazon_sidewalk_2.8.1/sidewalk_sample_app/amazon_sidewalk_soc_oob_brd4332a_fsk.s37" diskSizeKB="1191.83" downloadSizeKB="1191.83"/>
+</assets>

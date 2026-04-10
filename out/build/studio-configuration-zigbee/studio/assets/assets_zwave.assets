@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_zwave">
+  <assets version="A01" path="/zwave/boards/BRD4200/BRD4200A-A01-bom.xlsx" diskSizeKB="12.335" downloadSizeKB="12.335"/>
+  <assets version="A01" path="/zwave/boards/BRD4200/BRD4200A-A01-schematic.pdf" diskSizeKB="177.172" downloadSizeKB="177.172"/>
+  <assets version="A03" path="/zwave/boards/BRD4200/BRD4200A-A03-bom.xlsx" diskSizeKB="12.274" downloadSizeKB="12.274"/>
+  <assets path="/zwave/boards/BRD4200/BRD4200A-A03-schematic-dsn.zip" diskSizeKB="264.357" downloadSizeKB="264.357"/>
+  <assets version="A03" path="/zwave/boards/BRD4200/BRD4200A-A03-schematic.pdf" diskSizeKB="177.08" downloadSizeKB="177.08"/>
+  <assets version="A04" path="/zwave/boards/BRD4200/BRD4200A-A04-bom.xlsx" diskSizeKB="12.254" downloadSizeKB="12.254"/>
+  <assets version="A04" path="/zwave/boards/BRD4200/BRD4200A-A04-schematic.pdf" diskSizeKB="506.835" downloadSizeKB="506.835"/>
+  <assets path="/zwave/boards/BRD4200/BRD4200A.DSN" diskSizeKB="398.336" downloadSizeKB="398.336"/>
+  <assets path="/zwave/boards/BRD4200/PCB4200-A00-assy-draw.pdf" diskSizeKB="52.323" downloadSizeKB="52.323"/>
+  <assets version="A01" path="/zwave/boards/BRD4200/PCB4200-A01-assy-draw.pdf" diskSizeKB="53.39" downloadSizeKB="53.39"/>
+  <assets version="A00" path="/zwave/boards/BRD4200/PCB4200A-A00-altium-design.zip" diskSizeKB="1835.131" downloadSizeKB="1835.131"/>
+  <assets version="A00" path="/zwave/boards/BRD4200/PCB4200A-A00-gerbers.zip" diskSizeKB="315.278" downloadSizeKB="315.278"/>
+  <assets version="A01" path="/zwave/boards/BRD4200/PCB4200A-A01-altium-design.zip" diskSizeKB="2057.958" downloadSizeKB="2057.958"/>
+  <assets version="A01" path="/zwave/boards/BRD4200/PCB4200A-A01-gerbers.zip" diskSizeKB="310.934" downloadSizeKB="310.934"/>
+  <assets path="/zwave/boards/BRD4200/ZGM130S_no_label.png" diskSizeKB="1626.892" downloadSizeKB="1626.892"/>
+  <assets version="1.0" path="/zwave/boards/BRD4200/ug373-brd4200a-user-guide.pdf" diskSizeKB="1428.155" downloadSizeKB="1428.155"/>
+  <assets version="A06" path="/zwave/boards/BRD4201/BRD4201A-A06-bom.xlsx" diskSizeKB="12.618" downloadSizeKB="12.618"/>
+  <assets path="/zwave/boards/BRD4201/BRD4201A-A06-schematic-dsn.zip" diskSizeKB="259.724" downloadSizeKB="259.724"/>
+  <assets version="A06" path="/zwave/boards/BRD4201/BRD4201A-A06-schematic.pdf" diskSizeKB="168.657" downloadSizeKB="168.657"/>
+  <assets path="/zwave/boards/BRD4201/BRD4201A.DSN" diskSizeKB="585.216" downloadSizeKB="585.216"/>
+  <assets version="A01" path="/zwave/boards/BRD4201/BRD4201B-A01-bom.xlsx" diskSizeKB="12.645" downloadSizeKB="12.645"/>
+  <assets path="/zwave/boards/BRD4201/BRD4201B-A01-schematic-dsn.zip" diskSizeKB="163.611" downloadSizeKB="163.611"/>
+  <assets version="A01" path="/zwave/boards/BRD4201/BRD4201B-A01-schematic.pdf" diskSizeKB="183.31" downloadSizeKB="183.31"/>
+  <assets path="/zwave/boards/BRD4201/BRD4201B.DSN" diskSizeKB="374.784" downloadSizeKB="374.784"/>
+  <assets version="A00" path="/zwave/boards/BRD4201/BRD4201C-A00-bom.xlsx" diskSizeKB="12.642" downloadSizeKB="12.642"/>
+  <assets version="A00" path="/zwave/boards/BRD4201/BRD4201C-A00-schematic.pdf" diskSizeKB="183.914" downloadSizeKB="183.914"/>
+  <assets path="/zwave/boards/BRD4201/BRD4201C.DSN" diskSizeKB="374.784" downloadSizeKB="374.784"/>
+  <assets version="A00" path="/zwave/boards/BRD4201/BRD4201D-A00-bom.xlsx" diskSizeKB="12.642" downloadSizeKB="12.642"/>
+  <assets version="A00" path="/zwave/boards/BRD4201/BRD4201D-A00-schematic.pdf" diskSizeKB="183.792" downloadSizeKB="183.792"/>
+  <assets path="/zwave/boards/BRD4201/BRD4201D.DSN" diskSizeKB="374.784" downloadSizeKB="374.784"/>
+  <assets path="/zwave/boards/BRD4201/EFR32ZG14.png" diskSizeKB="1316.842" downloadSizeKB="1316.842"/>
+  <assets path="/zwave/boards/BRD4201/PCB4201-A02-assy-draw.pdf" diskSizeKB="51.366" downloadSizeKB="51.366"/>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201A-A02-altium-design.zip" diskSizeKB="1689.655" downloadSizeKB="1689.655"/>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201A-A02-gerbers.zip" diskSizeKB="270.856" downloadSizeKB="270.856"/>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201C-A02-altium-design.zip" diskSizeKB="2249.368" downloadSizeKB="2249.368"/>
+  <assets path="/zwave/boards/BRD4201/PCB4201C-A02-assy-draw.pdf" diskSizeKB="52.541" downloadSizeKB="52.541"/>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201C-A02-gerbers.zip" diskSizeKB="265.059" downloadSizeKB="265.059"/>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201D-A02-altium-design.zip" diskSizeKB="2249.055" downloadSizeKB="2249.055"/>
+  <assets path="/zwave/boards/BRD4201/PCB4201D-A02-assy-draw.pdf" diskSizeKB="52.541" downloadSizeKB="52.541"/>
+  <assets version="A02" path="/zwave/boards/BRD4201/PCB4201D-A02-gerbers.zip" diskSizeKB="266.223" downloadSizeKB="266.223"/>
+  <assets version="1.0" path="/zwave/boards/BRD4201/ug374-brd4201a-user-guide.pdf" diskSizeKB="1327.801" downloadSizeKB="1327.801"/>
+  <assets version="A00" path="/zwave/boards/BRD4202/BRD4202A-A00-bom.xlsx" diskSizeKB="11.713" downloadSizeKB="11.713"/>
+  <assets path="/zwave/boards/BRD4202/BRD4202A-A00-schematic-dsn.zip" diskSizeKB="268.109" downloadSizeKB="268.109"/>
+  <assets version="A00" path="/zwave/boards/BRD4202/BRD4202A-A00-schematic.pdf" diskSizeKB="166.339" downloadSizeKB="166.339"/>
+  <assets version="A01" path="/zwave/boards/BRD4202/BRD4202A-A01-bom.xlsx" diskSizeKB="11.739" downloadSizeKB="11.739"/>
+  <assets version="A01" path="/zwave/boards/BRD4202/BRD4202A-A01-schematic.pdf" diskSizeKB="438.864" downloadSizeKB="438.864"/>
+  <assets version="A00" path="/zwave/boards/BRD4202/BRD4202A.DSN" diskSizeKB="384.0" downloadSizeKB="384.0"/>
+  <assets version="A00" path="/zwave/boards/BRD4202/PCB4202-A00-assy-draw.pdf" diskSizeKB="444.02" downloadSizeKB="444.02"/>
+  <assets version="A00" path="/zwave/boards/BRD4202/PCB4202A-A00-altium-design.zip" diskSizeKB="2563.233" downloadSizeKB="2563.233"/>
+  <assets version="A00" path="/zwave/boards/BRD4202/PCB4202A-A00-gerbers.zip" diskSizeKB="159.66" downloadSizeKB="159.66"/>
+  <assets version="1.0" path="/zwave/boards/BRD4202/ug381-brd4202a-user-guide.pdf" diskSizeKB="1390.912" downloadSizeKB="1390.912"/>
+  <assets version="A00" path="/zwave/boards/BRD4203/BRD4203A-A00-bom.xlsx" diskSizeKB="13.373" downloadSizeKB="13.373"/>
+  <assets path="/zwave/boards/BRD4203/BRD4203A-A00-schematic-dsn.zip" diskSizeKB="167.428" downloadSizeKB="167.428"/>
+  <assets version="A00" path="/zwave/boards/BRD4203/BRD4203A-A00-schematic.pdf" diskSizeKB="524.788" downloadSizeKB="524.788"/>
+  <assets path="/zwave/boards/BRD4203/BRD4203A.DSN" diskSizeKB="389.632" downloadSizeKB="389.632"/>
+  <assets path="/zwave/boards/BRD4203/PCB4203-A00-assy-draw.pdf" diskSizeKB="276.726" downloadSizeKB="276.726"/>
+  <assets version="A00" path="/zwave/boards/BRD4203/PCB4203A-A00-altium-design.zip" diskSizeKB="1936.244" downloadSizeKB="1936.244"/>
+  <assets version="A00" path="/zwave/boards/BRD4203/PCB4203A-A00-gerbers.zip" diskSizeKB="343.474" downloadSizeKB="343.474"/>
+  <assets path="/zwave/boards/BRD8010/BRD8010A-A02-bom.xlsx" diskSizeKB="11.517" downloadSizeKB="11.517"/>
+  <assets path="/zwave/boards/BRD8010/BRD8010A-A02-schematic.pdf" diskSizeKB="104.037" downloadSizeKB="104.037"/>
+  <assets path="/zwave/boards/BRD8010/PCB8010-A02-assy-draw.pdf" diskSizeKB="21.15" downloadSizeKB="21.15"/>
+  <assets path="/zwave/boards/BRD8010/PCB8010A-A02-gerbers.zip" diskSizeKB="6356.887" downloadSizeKB="6356.887"/>
+  <assets path="/zwave/boards/BRD8029/BRD8029A-A00-bom.xlsx" diskSizeKB="11.408" downloadSizeKB="11.408"/>
+  <assets path="/zwave/boards/BRD8029/BRD8029A-A00-schematic.pdf" diskSizeKB="122.845" downloadSizeKB="122.845"/>
+  <assets path="/zwave/boards/BRD8029/PCB8029-A00-assy-draw.pdf" diskSizeKB="250.513" downloadSizeKB="250.513"/>
+  <assets path="/zwave/boards/BRD8029/PCB8029A-A00-altium-design.zip" diskSizeKB="787.337" downloadSizeKB="787.337"/>
+  <assets path="/zwave/boards/BRD8029/PCB8029A-A00-gerbers.zip" diskSizeKB="68.366" downloadSizeKB="68.366"/>
+  <assets version="1.0" path="/zwave/datasheet/zgm130s-datasheet.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377"/>
+  <assets version="0.1" path="/zwave/errata/zgm130s-errata.pdf" diskSizeKB="276.3" downloadSizeKB="276.3"/>
+</assets>

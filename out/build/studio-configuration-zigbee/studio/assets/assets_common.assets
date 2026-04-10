@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_common">
+  <assets path="/common/accepted_filters.yml" diskSizeKB="1.736" downloadSizeKB="1.736"/>
+  <assets version="4.0.0" path="/common/urls.properties" diskSizeKB="2.594" downloadSizeKB="2.594"/>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Universal Bee Overview.pdf" diskSizeKB="3020.344" downloadSizeKB="3020.344"/>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Sleepy Bee Overview.pdf" diskSizeKB="3185.984" downloadSizeKB="3185.984"/>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Family Overview.pdf" diskSizeKB="2552.337" downloadSizeKB="2552.337"/>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Selector Guide.pdf" diskSizeKB="1030.273" downloadSizeKB="1030.273"/>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Laser Bee Overview.pdf" diskSizeKB="4402.989" downloadSizeKB="4402.989"/>
+  <assets path="/common/presentations2/8-bit MCU/EFM8 Busy Bee Overview.pdf" diskSizeKB="5431.11" downloadSizeKB="5431.11"/>
+  <assets path="/common/presentations2/Tools/Thunderboard Sense.pdf" diskSizeKB="16136.11" downloadSizeKB="16136.11"/>
+  <assets path="/common/presentations2/Tools/Simplicty Studio 4.pdf" diskSizeKB="4155.566" downloadSizeKB="4155.566"/>
+  <assets path="/common/presentations2/Tools/Thunderboard React.pdf" diskSizeKB="4748.275" downloadSizeKB="4748.275"/>
+  <assets path="/common/presentations2/Timing/Timing Products.pdf" diskSizeKB="7908.055" downloadSizeKB="7908.055"/>
+  <assets path="/common/presentations2/Wireless/Wireless Gecko Dual Band and Sub-GHz Customer-Friendly.pptx" diskSizeKB="21080.738" downloadSizeKB="21080.738"/>
+  <assets path="/common/presentations2/Sensors and Xpress/HRM and Wearable Sensors.pdf" diskSizeKB="2577.296" downloadSizeKB="2577.296"/>
+  <assets path="/common/presentations2/Sensors and Xpress/TouchXpress.pdf" diskSizeKB="1050.85" downloadSizeKB="1050.85"/>
+  <assets path="/common/presentations2/Sensors and Xpress/USBXpress.pdf" diskSizeKB="1549.066" downloadSizeKB="1549.066"/>
+  <assets path="/common/presentations2/Sensors and Xpress/CP21xx USB Interfaces.pdf" diskSizeKB="1305.106" downloadSizeKB="1305.106"/>
+  <assets path="/common/presentations2/Sensors and Xpress/Si11xx Optical Sensors for UV ALS Proximity.pdf" diskSizeKB="2931.346" downloadSizeKB="2931.346"/>
+  <assets path="/common/presentations2/Sensors and Xpress/Si70xx RHT Sensors.pdf" diskSizeKB="2136.967" downloadSizeKB="2136.967"/>
+  <assets path="/common/presentations2/32-bit MCU/MCU Solutions for IoT.pptx" diskSizeKB="39948.769" downloadSizeKB="39948.769"/>
+  <assets path="/common/presentations2/32-bit MCU/EFM32 Microcontroller Brochure.pdf" diskSizeKB="1955.328" downloadSizeKB="1955.328"/>
+  <assets path="/common/Master_Software_License_Agreement.zip" diskSizeKB="51.755" downloadSizeKB="14.76" directory="true"/>
+  <assets path="/common/Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.zip" diskSizeKB="39.257" downloadSizeKB="12.273" directory="true"/>
+  <assets path="/common/BT_Mesh_Android-iOS_License_Agreement.zip" diskSizeKB="26.686" downloadSizeKB="7.19" directory="true"/>
+  <assets path="/common/Silicon_Labs_VCP_Driver_End_User_License_Agreement.zip" diskSizeKB="22.826" downloadSizeKB="7.845" directory="true"/>
+  <assets path="/common/certificates.zip" diskSizeKB="6.366" downloadSizeKB="2.092" directory="true"/>
+  <assets path="/common/presentations/Automotive Products.pdf" diskSizeKB="2636.806" downloadSizeKB="2636.806"/>
+  <assets path="/common/presentations/EFM32 Pearl and Jade Presentation.pdf" diskSizeKB="2714.848" downloadSizeKB="2714.848"/>
+  <assets path="/common/presentations/MCU Products.pdf" diskSizeKB="5590.144" downloadSizeKB="5590.144"/>
+  <assets path="/common/presentations/Using Simplicity Studio with Wireless Products.pdf" diskSizeKB="1640.856" downloadSizeKB="1640.856"/>
+  <assets path="/common/presentations/EFM32 Microcontroller Software Presentation.pdf" diskSizeKB="2200.454" downloadSizeKB="2200.454"/>
+  <assets path="/common/presentations/TouchXpress.pdf" diskSizeKB="1394.825" downloadSizeKB="1394.825"/>
+  <assets path="/common/presentations/EFM32 Microcontroller Brochure.pdf" diskSizeKB="1883.705" downloadSizeKB="1883.705"/>
+  <assets path="/common/presentations/Home Products.pdf" diskSizeKB="2175.821" downloadSizeKB="2175.821"/>
+  <assets path="/common/presentations/Wireless Products.pdf" diskSizeKB="4578.086" downloadSizeKB="4578.086"/>
+  <assets version="1.1" path="/common/presentations/EFM32/EFM32-Cortex-M3-RM.pdf" diskSizeKB="2078.258" downloadSizeKB="2078.258"/>
+  <assets path="/common/presentations/EFM32 Microcontroller Products.pdf" diskSizeKB="6486.225" downloadSizeKB="6486.225"/>
+  <assets path="/common/presentations/Timing Products.pdf" diskSizeKB="4332.474" downloadSizeKB="4332.474"/>
+  <assets path="/common/presentations/CP21xx USB Bridge Interface Products.pdf" diskSizeKB="1537.35" downloadSizeKB="1537.35"/>
+  <assets path="/common/presentations/EFM32 Microcontroller Brochure Chinese.pdf" diskSizeKB="4517.659" downloadSizeKB="4517.659"/>
+  <assets path="/common/presentations/CP21xx USB Bridge Interface Brochure.pdf" diskSizeKB="261.135" downloadSizeKB="261.135"/>
+  <assets path="/common/presentations/Company Presentation.pdf" diskSizeKB="23567.193" downloadSizeKB="23567.193"/>
+  <assets path="/common/presentations/EFM8 Microcontroller Products.pdf" diskSizeKB="2326.08" downloadSizeKB="2326.08"/>
+  <assets path="/common/presentations/C8051 Microcontroller Products.pdf" diskSizeKB="2012.706" downloadSizeKB="2012.706"/>
+  <assets path="/common/presentations/Power and Sensor Products.pdf" diskSizeKB="4529.34" downloadSizeKB="4529.34"/>
+  <assets path="/common/presentations/EFM8 Customer Brochure.pdf" diskSizeKB="3657.503" downloadSizeKB="3657.503"/>
+  <assets version="4.0.0" path="/common/salesforce.properties" diskSizeKB="2.125" downloadSizeKB="2.125"/>
+  <assets path="/common/z_wave_development_kit_license_agreement.zip" diskSizeKB="16.139" downloadSizeKB="4.924" directory="true"/>
+  <assets path="/common/Micrium_45-Day_Evaluation_License.zip" diskSizeKB="12.208" downloadSizeKB="3.651" directory="true"/>
+  <assets path="/common/Chromium_License.zip" diskSizeKB="6.254" downloadSizeKB="1.17" directory="true"/>
+  <assets path="/common/SYSTEMVIEW_END_USER_LICENSE_AGREEMENT.zip" diskSizeKB="19.189" downloadSizeKB="5.666" directory="true"/>
+  <assets path="/common/photos/BRD4201A_Kit_Front.png" diskSizeKB="4709.329" downloadSizeKB="4709.329"/>
+  <assets path="/common/photos/BRD4159A_Front.png" diskSizeKB="1514.404" downloadSizeKB="1514.404"/>
+  <assets path="/common/photos/BRD4305C_Kit_Front.png" diskSizeKB="4711.476" downloadSizeKB="4711.476"/>
+  <assets path="/common/photos/10-pin-MSOP.png" diskSizeKB="63.731" downloadSizeKB="63.731"/>
+  <assets path="/common/photos/36-pin-WLCSP.png" diskSizeKB="286.758" downloadSizeKB="286.758"/>
+  <assets path="/common/photos/10-pin-TDFN-2x5pins.png" diskSizeKB="77.343" downloadSizeKB="77.343"/>
+  <assets path="/common/photos/BRD4306B_Front.png" diskSizeKB="3838.347" downloadSizeKB="3838.347"/>
+  <assets path="/common/photos/24-pin-SSOP.png" diskSizeKB="41.499" downloadSizeKB="41.499"/>
+  <assets path="/common/photos/BRD4175A_Front.png" diskSizeKB="1682.899" downloadSizeKB="1682.899"/>
+  <assets path="/common/photos/60-pin-QFN.png" diskSizeKB="259.66" downloadSizeKB="259.66"/>
+  <assets path="/common/photos/BRD4163A_Kit_Front.png" diskSizeKB="4890.97" downloadSizeKB="4890.97"/>
+  <assets path="/common/photos/BRD2204A_Front.png" diskSizeKB="2995.455" downloadSizeKB="2995.455"/>
+  <assets path="/common/photos/BRD4258A_Front.png" diskSizeKB="1688.015" downloadSizeKB="1688.015"/>
+  <assets path="/common/photos/16-pin-TSSOP.png" diskSizeKB="42.329" downloadSizeKB="42.329"/>
+  <assets path="/common/photos/8-pinLGA.png" diskSizeKB="256.831" downloadSizeKB="256.831"/>
+  <assets path="/common/photos/BRD4103A_Front.png" diskSizeKB="1900.227" downloadSizeKB="1900.227"/>
+  <assets path="/common/photos/ZGM130S_no_label.png" diskSizeKB="1626.892" downloadSizeKB="1626.892"/>
+  <assets path="/common/photos/BRD4174A_Front__with_WSTK.png" diskSizeKB="4730.268" downloadSizeKB="4730.268"/>
+  <assets path="/common/photos/44-pin-TQFP-flat.png" diskSizeKB="1123.493" downloadSizeKB="1123.493"/>
+  <assets path="/common/photos/BRD4257B_Kit_Front.png" diskSizeKB="4854.29" downloadSizeKB="4854.29"/>
+  <assets path="/common/photos/4-pin-QFN-hole.png" diskSizeKB="262.846" downloadSizeKB="262.846"/>
+  <assets path="/common/photos/BRD4503A_Kit_Front.png" diskSizeKB="4990.843" downloadSizeKB="4990.843"/>
+  <assets path="/common/photos/BRD4169A_Kit_Front.png" diskSizeKB="4856.6" downloadSizeKB="4856.6"/>
+  <assets path="/common/photos/42-pin-QFN-wide.png" diskSizeKB="416.299" downloadSizeKB="416.299"/>
+  <assets path="/common/photos/BRD4169B_Kit_Front.png" diskSizeKB="4856.31" downloadSizeKB="4856.31"/>
+  <assets path="/common/photos/BRD4162A_Kit_Front.png" diskSizeKB="4838.431" downloadSizeKB="4838.431"/>
+  <assets path="/common/photos/36-pin-QFN-corners.png" diskSizeKB="261.328" downloadSizeKB="261.328"/>
+  <assets path="/common/photos/BRD2102A_Front.png" diskSizeKB="2506.34" downloadSizeKB="2506.34"/>
+  <assets path="/common/photos/10-pin-DFN.png" diskSizeKB="257.062" downloadSizeKB="257.062"/>
+  <assets path="/common/photos/28-pin-TSSOP.png" diskSizeKB="1315.49" downloadSizeKB="1315.49"/>
+  <assets path="/common/photos/BRD4505A_Kit_Front.png" diskSizeKB="4943.597" downloadSizeKB="4943.597"/>
+  <assets path="/common/photos/32-pin-LQFP.png" diskSizeKB="1817.877" downloadSizeKB="1817.877"/>
+  <assets path="/common/photos/BRD4174B_Front.png" diskSizeKB="1827.589" downloadSizeKB="1827.589"/>
+  <assets path="/common/photos/54-pin-QFN.png" diskSizeKB="258.903" downloadSizeKB="258.903"/>
+  <assets path="/common/photos/BRD8027A_Front.png" diskSizeKB="3305.902" downloadSizeKB="3305.902"/>
+  <assets path="/common/photos/BRD4251D_Kit_Front.png" diskSizeKB="749.882" downloadSizeKB="749.882"/>
+  <assets path="/common/photos/BRD4544A_Kit_Front.png" diskSizeKB="744.118" downloadSizeKB="744.118"/>
+  <assets path="/common/photos/Universal-Generic-2017.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/6-pin-QFN-hole.png" diskSizeKB="262.418" downloadSizeKB="262.418"/>
+  <assets path="/common/photos/8-pin-DFN-bottompins.png" diskSizeKB="258.377" downloadSizeKB="258.377"/>
+  <assets path="/common/photos/20-pin-QFN.png" diskSizeKB="259.417" downloadSizeKB="259.417"/>
+  <assets path="/common/photos/BRD4306D_Front.png" diskSizeKB="3426.718" downloadSizeKB="3426.718"/>
+  <assets path="/common/photos/BRD4546A_Front.png" diskSizeKB="1818.407" downloadSizeKB="1818.407"/>
+  <assets path="/common/photos/BRD4251B_Kit_Front.png" diskSizeKB="749.512" downloadSizeKB="749.512"/>
+  <assets path="/common/photos/BRD4505A_Front.png" diskSizeKB="1823.971" downloadSizeKB="1823.971"/>
+  <assets path="/common/photos/BRD4306A_Front.png" diskSizeKB="3838.219" downloadSizeKB="3838.219"/>
+  <assets path="/common/photos/BRD4305E_Kit_Front.png" diskSizeKB="4712.954" downloadSizeKB="4712.954"/>
+  <assets path="/common/photos/BRD4251B_Front.png" diskSizeKB="1779.577" downloadSizeKB="1779.577"/>
+  <assets path="/common/photos/BRD4306C_Front.png" diskSizeKB="3427.11" downloadSizeKB="3427.11"/>
+  <assets path="/common/photos/32-pin-QFN-angle.png" diskSizeKB="567.495" downloadSizeKB="567.495"/>
+  <assets path="/common/photos/BRD4321A_Kit_with_EXP_Front.png" diskSizeKB="5685.808" downloadSizeKB="5685.808"/>
+  <assets path="/common/photos/BRD4259A_Front.png" diskSizeKB="1682.143" downloadSizeKB="1682.143"/>
+  <assets path="/common/photos/BRD4169B_Front.png" diskSizeKB="1847.801" downloadSizeKB="1847.801"/>
+  <assets path="/common/photos/BRD4303A_Front.png" diskSizeKB="1668.56" downloadSizeKB="1668.56"/>
+  <assets path="/common/photos/BRD4200A_Kit_with_EXP_Front.png" diskSizeKB="5572.407" downloadSizeKB="5572.407"/>
+  <assets path="/common/photos/BRD4304A_Kit_Front.png" diskSizeKB="4717.987" downloadSizeKB="4717.987"/>
+  <assets path="/common/photos/24-pin-SOIC.png" diskSizeKB="29.18" downloadSizeKB="29.18"/>
+  <assets path="/common/photos/BRD4165B_Front.png" diskSizeKB="1740.521" downloadSizeKB="1740.521"/>
+  <assets path="/common/photos/BRD4300B_Front.png" diskSizeKB="1471.237" downloadSizeKB="1471.237"/>
+  <assets path="/common/photos/8-pin-WBSOIC.png" diskSizeKB="62.85" downloadSizeKB="62.85"/>
+  <assets path="/common/photos/BRD4257A_Front.png" diskSizeKB="1845.639" downloadSizeKB="1845.639"/>
+  <assets path="/common/photos/44-pin-QFN.png" diskSizeKB="260.262" downloadSizeKB="260.262"/>
+  <assets path="/common/photos/6-pin-SO.png" diskSizeKB="72.79" downloadSizeKB="72.79"/>
+  <assets path="/common/photos/BRD4257A_Kit_Front.png" diskSizeKB="4854.011" downloadSizeKB="4854.011"/>
+  <assets path="/common/photos/20-pin-SOIC.png" diskSizeKB="1172.007" downloadSizeKB="1172.007"/>
+  <assets path="/common/photos/BRD8006A_Front.png" diskSizeKB="2478.604" downloadSizeKB="2478.604"/>
+  <assets path="/common/photos/BRD4259A_Kit_Front.png" diskSizeKB="4796.628" downloadSizeKB="4796.628"/>
+  <assets path="/common/photos/BRD4504B_Kit_Front.png" diskSizeKB="4992.451" downloadSizeKB="4992.451"/>
+  <assets path="/common/photos/36-pin-SSOP.png" diskSizeKB="716.708" downloadSizeKB="716.708"/>
+  <assets path="/common/photos/BRD4546A_Kit_Front.png" diskSizeKB="744.208" downloadSizeKB="744.208"/>
+  <assets path="/common/photos/16-pin-QFN.png" diskSizeKB="78.05" downloadSizeKB="78.05"/>
+  <assets path="/common/photos/chip-packages/qfn6.png" diskSizeKB="254.419" downloadSizeKB="254.419"/>
+  <assets path="/common/photos/chip-packages/wb-soic16.png" diskSizeKB="138.356" downloadSizeKB="138.356"/>
+  <assets path="/common/photos/chip-packages/qfn44.png" diskSizeKB="260.262" downloadSizeKB="260.262"/>
+  <assets path="/common/photos/chip-packages/sot23-5.png" diskSizeKB="65.82" downloadSizeKB="65.82"/>
+  <assets path="/common/photos/chip-packages/csp36.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/chip-packages/soic8.png" diskSizeKB="64.067" downloadSizeKB="64.067"/>
+  <assets path="/common/photos/chip-packages/qsop24.png" diskSizeKB="29.237" downloadSizeKB="29.237"/>
+  <assets path="/common/photos/chip-packages/qfn32.png" diskSizeKB="258.504" downloadSizeKB="258.504"/>
+  <assets path="/common/photos/chip-packages/qfn64.png" diskSizeKB="259.816" downloadSizeKB="259.816"/>
+  <assets path="/common/photos/chip-packages/qfn10.png" diskSizeKB="256.566" downloadSizeKB="256.566"/>
+  <assets path="/common/photos/chip-packages/qfn56.png" diskSizeKB="258.753" downloadSizeKB="258.753"/>
+  <assets path="/common/photos/chip-packages/tdfn8.png" diskSizeKB="252.941" downloadSizeKB="252.941"/>
+  <assets path="/common/photos/chip-packages/bga80.png" diskSizeKB="284.121" downloadSizeKB="284.121"/>
+  <assets path="/common/photos/chip-packages/csp16.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/chip-packages/qfn40.png" diskSizeKB="259.719" downloadSizeKB="259.719"/>
+  <assets path="/common/photos/chip-packages/qfn24.png" diskSizeKB="262.837" downloadSizeKB="262.837"/>
+  <assets path="/common/photos/chip-packages/lga92.png" diskSizeKB="263.912" downloadSizeKB="263.912"/>
+  <assets path="/common/photos/chip-packages/qfn76.png" diskSizeKB="480.758" downloadSizeKB="480.758"/>
+  <assets path="/common/photos/chip-packages/qfn72.png" diskSizeKB="260.086" downloadSizeKB="260.086"/>
+  <assets path="/common/photos/chip-packages/qfn11.png" diskSizeKB="257.071" downloadSizeKB="257.071"/>
+  <assets path="/common/photos/chip-packages/lga50.png" diskSizeKB="260.006" downloadSizeKB="260.006"/>
+  <assets path="/common/photos/chip-packages/tqfp48.png" diskSizeKB="724.027" downloadSizeKB="724.027"/>
+  <assets path="/common/photos/chip-packages/msop10.png" diskSizeKB="63.731" downloadSizeKB="63.731"/>
+  <assets path="/common/photos/chip-packages/qsop20.png" diskSizeKB="1172.295" downloadSizeKB="1172.295"/>
+  <assets path="/common/photos/chip-packages/tdfn10.png" diskSizeKB="68.008" downloadSizeKB="68.008"/>
+  <assets path="/common/photos/chip-packages/qfn36.png" diskSizeKB="289.491" downloadSizeKB="289.491"/>
+  <assets path="/common/photos/chip-packages/qfp100.png" diskSizeKB="1384.884" downloadSizeKB="1384.884"/>
+  <assets path="/common/photos/chip-packages/lqfp32.png" diskSizeKB="1817.877" downloadSizeKB="1817.877"/>
+  <assets path="/common/photos/chip-packages/tssop20.png" diskSizeKB="1171.269" downloadSizeKB="1171.269"/>
+  <assets path="/common/photos/chip-packages/gw-dip8.png" diskSizeKB="64.067" downloadSizeKB="64.067"/>
+  <assets path="/common/photos/chip-packages/qfn14.png" diskSizeKB="77.943" downloadSizeKB="77.943"/>
+  <assets path="/common/photos/chip-packages/wb-soic20.png" diskSizeKB="1172.007" downloadSizeKB="1172.007"/>
+  <assets path="/common/photos/chip-packages/wb-soic24.png" diskSizeKB="29.18" downloadSizeKB="29.18"/>
+  <assets path="/common/photos/chip-packages/lga-module.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/chip-packages/ssop24.png" diskSizeKB="41.499" downloadSizeKB="41.499"/>
+  <assets path="/common/photos/chip-packages/qfn66.png" diskSizeKB="259.816" downloadSizeKB="259.816"/>
+  <assets path="/common/photos/chip-packages/bga120.png" diskSizeKB="284.121" downloadSizeKB="284.121"/>
+  <assets path="/common/photos/chip-packages/soic16.png" diskSizeKB="117.025" downloadSizeKB="117.025"/>
+  <assets path="/common/photos/chip-packages/dfn6.png" diskSizeKB="253.636" downloadSizeKB="253.636"/>
+  <assets path="/common/photos/chip-packages/pbga63.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/chip-packages/lga14.png" diskSizeKB="77.943" downloadSizeKB="77.943"/>
+  <assets path="/common/photos/chip-packages/qfn16.png" diskSizeKB="78.05" downloadSizeKB="78.05"/>
+  <assets path="/common/photos/chip-packages/tssop24.png" diskSizeKB="378.935" downloadSizeKB="378.935"/>
+  <assets path="/common/photos/chip-packages/qfp80.png" diskSizeKB="1418.027" downloadSizeKB="1418.027"/>
+  <assets path="/common/photos/chip-packages/lga72.png" diskSizeKB="420.715" downloadSizeKB="420.715"/>
+  <assets path="/common/photos/chip-packages/qfn17.png" diskSizeKB="78.05" downloadSizeKB="78.05"/>
+  <assets path="/common/photos/chip-packages/qfn28.png" diskSizeKB="262.443" downloadSizeKB="262.443"/>
+  <assets path="/common/photos/chip-packages/wb-soic6.png" diskSizeKB="66.215" downloadSizeKB="66.215"/>
+  <assets path="/common/photos/chip-packages/tssop56.png" diskSizeKB="1107.781" downloadSizeKB="1107.781"/>
+  <assets path="/common/photos/chip-packages/qfn84.png" diskSizeKB="417.939" downloadSizeKB="417.939"/>
+  <assets path="/common/photos/chip-packages/lga56.png" diskSizeKB="258.753" downloadSizeKB="258.753"/>
+  <assets path="/common/photos/chip-packages/qfn38.png" diskSizeKB="301.206" downloadSizeKB="301.206"/>
+  <assets path="/common/photos/chip-packages/qfn68.png" diskSizeKB="259.816" downloadSizeKB="259.816"/>
+  <assets path="/common/photos/chip-packages/bga125.png" diskSizeKB="284.121" downloadSizeKB="284.121"/>
+  <assets path="/common/photos/chip-packages/bga112.png" diskSizeKB="284.121" downloadSizeKB="284.121"/>
+  <assets path="/common/photos/chip-packages/sot23-3.png" diskSizeKB="64.181" downloadSizeKB="64.181"/>
+  <assets path="/common/photos/chip-packages/qfn48.png" diskSizeKB="260.006" downloadSizeKB="260.006"/>
+  <assets path="/common/photos/chip-packages/lga8.png" diskSizeKB="256.421" downloadSizeKB="256.421"/>
+  <assets path="/common/photos/chip-packages/qfp64.png" diskSizeKB="912.058" downloadSizeKB="912.058"/>
+  <assets path="/common/photos/chip-packages/qfn65.png" diskSizeKB="259.816" downloadSizeKB="259.816"/>
+  <assets path="/common/photos/chip-packages/clear-qfn.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/chip-packages/pbga99.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/chip-packages/qfn20.png" diskSizeKB="259.417" downloadSizeKB="259.417"/>
+  <assets path="/common/photos/chip-packages/qfp32.png" diskSizeKB="1817.877" downloadSizeKB="1817.877"/>
+  <assets path="/common/photos/chip-packages/dfn10.png" diskSizeKB="257.062" downloadSizeKB="257.062"/>
+  <assets path="/common/photos/chip-packages/lga47.png" diskSizeKB="260.006" downloadSizeKB="260.006"/>
+  <assets path="/common/photos/chip-packages/tqfp64.png" diskSizeKB="912.058" downloadSizeKB="912.058"/>
+  <assets path="/common/photos/chip-packages/nb-soic8.png" diskSizeKB="64.067" downloadSizeKB="64.067"/>
+  <assets path="/common/photos/chip-packages/tqfp100.png" diskSizeKB="1384.884" downloadSizeKB="1384.884"/>
+  <assets path="/common/photos/chip-packages/sensor-chip-cover.png" diskSizeKB="2087.418" downloadSizeKB="2087.418"/>
+  <assets path="/common/photos/chip-packages/to-92.png" diskSizeKB="209.148" downloadSizeKB="209.148"/>
+  <assets path="/common/photos/chip-packages/generic-package-type.png" diskSizeKB="99.32" downloadSizeKB="99.32"/>
+  <assets path="/common/photos/chip-packages/lga60.png" diskSizeKB="259.66" downloadSizeKB="259.66"/>
+  <assets path="/common/photos/chip-packages/tqfp80.png" diskSizeKB="1418.027" downloadSizeKB="1418.027"/>
+  <assets path="/common/photos/chip-packages/qsop16.png" diskSizeKB="27.501" downloadSizeKB="27.501"/>
+  <assets path="/common/photos/chip-packages/bga48.png" diskSizeKB="284.121" downloadSizeKB="284.121"/>
+  <assets path="/common/photos/chip-packages/lga42.png" diskSizeKB="261.175" downloadSizeKB="261.175"/>
+  <assets path="/common/photos/chip-packages/bga152.png" diskSizeKB="284.121" downloadSizeKB="284.121"/>
+  <assets path="/common/photos/chip-packages/tdfn6.png" diskSizeKB="254.419" downloadSizeKB="254.419"/>
+  <assets path="/common/photos/chip-packages/wb-so6.png" diskSizeKB="72.79" downloadSizeKB="72.79"/>
+  <assets path="/common/photos/chip-packages/dfn8.png" diskSizeKB="252.941" downloadSizeKB="252.941"/>
+  <assets path="/common/photos/chip-packages/bga192.png" diskSizeKB="284.121" downloadSizeKB="284.121"/>
+  <assets path="/common/photos/chip-packages/qfn88.png" diskSizeKB="430.908" downloadSizeKB="430.908"/>
+  <assets path="/common/photos/chip-packages/qfn.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/chip-packages/nb-soic16.png" diskSizeKB="117.025" downloadSizeKB="117.025"/>
+  <assets path="/common/photos/chip-packages/tssop16.png" diskSizeKB="42.329" downloadSizeKB="42.329"/>
+  <assets path="/common/photos/chip-packages/qfp48.png" diskSizeKB="724.027" downloadSizeKB="724.027"/>
+  <assets path="/common/photos/chip-packages/wlcsp43.png" diskSizeKB="260.262" downloadSizeKB="260.262"/>
+  <assets path="/common/photos/chip-packages/elqfp32.png" diskSizeKB="1817.877" downloadSizeKB="1817.877"/>
+  <assets path="/common/photos/chip-packages/dip20.png" diskSizeKB="1171.269" downloadSizeKB="1171.269"/>
+  <assets path="/common/photos/chip-packages/soic14.png" diskSizeKB="100.867" downloadSizeKB="100.867"/>
+  <assets path="/common/photos/chip-packages/wb-soic14.png" diskSizeKB="133.373" downloadSizeKB="133.373"/>
+  <assets path="/common/photos/chip-packages/csp81.png" diskSizeKB="97.137" downloadSizeKB="97.137"/>
+  <assets path="/common/photos/BRD4167_Front.png" diskSizeKB="1845.823" downloadSizeKB="1845.823"/>
+  <assets path="/common/photos/BRD4255A_Front.png" diskSizeKB="1845.817" downloadSizeKB="1845.817"/>
+  <assets path="/common/photos/BRD4175A_Front__with_WSTK.png" diskSizeKB="4728.022" downloadSizeKB="4728.022"/>
+  <assets path="/common/photos/BRD4172B_Front.png" diskSizeKB="1827.545" downloadSizeKB="1827.545"/>
+  <assets path="/common/photos/BRD4258B_Front.png" diskSizeKB="1824.872" downloadSizeKB="1824.872"/>
+  <assets path="/common/photos/boardIllustration.png" diskSizeKB="246.388" downloadSizeKB="246.388"/>
+  <assets path="/common/photos/80-pin-QFP.png" diskSizeKB="261.217" downloadSizeKB="261.217"/>
+  <assets path="/common/photos/BRD4250B_Front.png" diskSizeKB="1780.038" downloadSizeKB="1780.038"/>
+  <assets path="/common/photos/BRD4100A_Kit_Front.jpg" diskSizeKB="401.101" downloadSizeKB="401.101"/>
+  <assets path="/common/photos/BRD4545A_Front.png" diskSizeKB="1818.58" downloadSizeKB="1818.58"/>
+  <assets path="/common/photos/BRD4305A_Front.png" diskSizeKB="2031.052" downloadSizeKB="2031.052"/>
+  <assets path="/common/photos/BRD4305A_Kit_Front.png" diskSizeKB="4711.559" downloadSizeKB="4711.559"/>
+  <assets path="/common/photos/EFR32ZG14.png" diskSizeKB="1316.842" downloadSizeKB="1316.842"/>
+  <assets path="/common/photos/6-lead-xo-chip-SL.png" diskSizeKB="1933.089" downloadSizeKB="1933.089"/>
+  <assets path="/common/photos/BRD4162A_Front.png" diskSizeKB="1903.812" downloadSizeKB="1903.812"/>
+  <assets path="/common/photos/36-pin-QFN-8x10.png" diskSizeKB="296.746" downloadSizeKB="296.746"/>
+  <assets path="/common/photos/BRD4504A_Kit_Front.png" diskSizeKB="4992.017" downloadSizeKB="4992.017"/>
+  <assets path="/common/photos/BRD4155A_Kit_Front.png" diskSizeKB="4934.967" downloadSizeKB="4934.967"/>
+  <assets path="/common/photos/28-pin-QFN-corners.png" diskSizeKB="262.546" downloadSizeKB="262.546"/>
+  <assets path="/common/photos/10-pin-DFN-hole.png" diskSizeKB="260.968" downloadSizeKB="260.968"/>
+  <assets path="/common/photos/29-pin-QFN.png" diskSizeKB="324.185" downloadSizeKB="324.185"/>
+  <assets path="/common/photos/BRD4166A_Thunderboard_Sense_2_Front.png" diskSizeKB="1961.036" downloadSizeKB="1961.036"/>
+  <assets path="/common/photos/BRD4161A_Kit_Front.png" diskSizeKB="4838.6" downloadSizeKB="4838.6"/>
+  <assets path="/common/photos/BRD4302A_Front.png" diskSizeKB="1701.64" downloadSizeKB="1701.64"/>
+  <assets path="/common/photos/10-pin-QFN-bottompins.png" diskSizeKB="256.566" downloadSizeKB="256.566"/>
+  <assets path="/common/photos/BRD4150A_Front.png" diskSizeKB="1782.249" downloadSizeKB="1782.249"/>
+  <assets path="/common/photos/6-pin-DFN-hole.png" diskSizeKB="259.942" downloadSizeKB="259.942"/>
+  <assets path="/common/photos/BRD4503A_Front.png" diskSizeKB="1908.466" downloadSizeKB="1908.466"/>
+  <assets path="/common/photos/BRD4504A_Front.png" diskSizeKB="1910.119" downloadSizeKB="1910.119"/>
+  <assets path="/common/photos/BRD4505B_Kit_Front.png" diskSizeKB="4944.17" downloadSizeKB="4944.17"/>
+  <assets path="/common/photos/BRD4301A_Kit_Front.png" diskSizeKB="4819.61" downloadSizeKB="4819.61"/>
+  <assets path="/common/photos/6-lead-xo-chip.png" diskSizeKB="1813.731" downloadSizeKB="1813.731"/>
+  <assets path="/common/photos/10-pin-QFN-1x4pins.png" diskSizeKB="256.786" downloadSizeKB="256.786"/>
+  <assets path="/common/photos/36-pin-QFN-7x12.png" diskSizeKB="345.589" downloadSizeKB="345.589"/>
+  <assets path="/common/photos/BRD4542B_Front.png" diskSizeKB="1818.567" downloadSizeKB="1818.567"/>
+  <assets path="/common/photos/BRD4172A_Front__with_WSTK.png" diskSizeKB="4730.065" downloadSizeKB="4730.065"/>
+  <assets path="/common/photos/64-pin-TSSOP.png" diskSizeKB="1357.358" downloadSizeKB="1357.358"/>
+  <assets path="/common/photos/BRD4170A_Front.png" diskSizeKB="2136.372" downloadSizeKB="2136.372"/>
+  <assets path="/common/photos/BRD4161A_Front.png" diskSizeKB="1903.895" downloadSizeKB="1903.895"/>
+  <assets path="/common/photos/BRD4503B_Front.png" diskSizeKB="1908.432" downloadSizeKB="1908.432"/>
+  <assets path="/common/photos/64-pin-TQFP-Flat.png" diskSizeKB="1307.783" downloadSizeKB="1307.783"/>
+  <assets path="/common/photos/BRD8021A_XBee_Front.png" diskSizeKB="4568.2" downloadSizeKB="4568.2"/>
+  <assets path="/common/photos/BRD4202A_Kit_with_EXP_Front.png" diskSizeKB="5635.081" downloadSizeKB="5635.081"/>
+  <assets path="/common/photos/100-pin-BGA.png" diskSizeKB="263.997" downloadSizeKB="263.997"/>
+  <assets path="/common/photos/BRD4158A_Kit_Front.png" diskSizeKB="1296.986" downloadSizeKB="1296.986"/>
+  <assets path="/common/photos/BRD4257B_Front.png" diskSizeKB="1845.977" downloadSizeKB="1845.977"/>
+  <assets path="/common/photos/BRD4201A_Front.png" diskSizeKB="1737.245" downloadSizeKB="1737.245"/>
+  <assets path="/common/photos/BRD4542B_Kit_Front.png" diskSizeKB="744.048" downloadSizeKB="744.048"/>
+  <assets path="/common/photos/BRD4250A_Front.png" diskSizeKB="1780.377" downloadSizeKB="1780.377"/>
+  <assets path="/common/photos/BRD4164A_Kit_Front.png" diskSizeKB="4895.926" downloadSizeKB="4895.926"/>
+  <assets path="/common/photos/BRD4502D_Kit_Front.png" diskSizeKB="4937.547" downloadSizeKB="4937.547"/>
+  <assets path="/common/photos/BRD4256A_Front_WSTK.png" diskSizeKB="1306.152" downloadSizeKB="1306.152"/>
+  <assets path="/common/photos/BRD4251D_Front.png" diskSizeKB="1780.401" downloadSizeKB="1780.401"/>
+  <assets path="/common/photos/BRD4258A_Kit_Front.png" diskSizeKB="4798.107" downloadSizeKB="4798.107"/>
+  <assets path="/common/photos/78-pin-QFN-27x12.png" diskSizeKB="480.758" downloadSizeKB="480.758"/>
+  <assets path="/common/photos/48-pin-TSSOP.png" diskSizeKB="905.182" downloadSizeKB="905.182"/>
+  <assets path="/common/photos/24-pin-QSOP-new-logo.png" diskSizeKB="29.175" downloadSizeKB="29.175"/>
+  <assets path="/common/photos/BRD4543B_Front.png" diskSizeKB="1818.606" downloadSizeKB="1818.606"/>
+  <assets path="/common/photos/BRD4202A_Kit_Front.png" diskSizeKB="4766.707" downloadSizeKB="4766.707"/>
+  <assets path="/common/photos/20-pin-QSOP.png" diskSizeKB="1172.295" downloadSizeKB="1172.295"/>
+  <assets path="/common/photos/68-pin-QFN.png" diskSizeKB="260.452" downloadSizeKB="260.452"/>
+  <assets path="/common/photos/BRD4164A_Front.png" diskSizeKB="2025.076" downloadSizeKB="2025.076"/>
+  <assets path="/common/photos/36-pin-QFN-beveled.png" diskSizeKB="280.758" downloadSizeKB="280.758"/>
+  <assets path="/common/photos/BRD2207A_Front.png" diskSizeKB="2457.309" downloadSizeKB="2457.309"/>
+  <assets path="/common/photos/BRD4101B_Kit_Front.png" diskSizeKB="4799.018" downloadSizeKB="4799.018"/>
+  <assets path="/common/photos/XBee_Front.png" diskSizeKB="1115.723" downloadSizeKB="1115.723"/>
+  <assets path="/common/photos/BRD4503B_Kit_Front.png" diskSizeKB="4991.394" downloadSizeKB="4991.394"/>
+  <assets path="/common/photos/12-pin-QFN.png" diskSizeKB="260.717" downloadSizeKB="260.717"/>
+  <assets path="/common/photos/32-pin-QFN.png" diskSizeKB="258.504" downloadSizeKB="258.504"/>
+  <assets path="/common/photos/8-pin-QFN-bottompins.png" diskSizeKB="256.421" downloadSizeKB="256.421"/>
+  <assets path="/common/photos/48-pin-TQFP.png" diskSizeKB="724.027" downloadSizeKB="724.027"/>
+  <assets path="/common/photos/BRD4159A_Kit_Front.png" diskSizeKB="1255.579" downloadSizeKB="1255.579"/>
+  <assets path="/common/photos/48-pin-QFN.png" diskSizeKB="260.006" downloadSizeKB="260.006"/>
+  <assets path="/common/photos/BRD4172A_Front.png" diskSizeKB="1690.594" downloadSizeKB="1690.594"/>
+  <assets path="/common/photos/BRD4255A_Front_WSTK.png" diskSizeKB="1306.557" downloadSizeKB="1306.557"/>
+  <assets path="/common/photos/42-pin-QFN.png" diskSizeKB="261.175" downloadSizeKB="261.175"/>
+  <assets path="/common/photos/BRD4165B_Kit_Front.png" diskSizeKB="4867.179" downloadSizeKB="4867.179"/>
+  <assets path="/common/photos/8-pin-MSOP.png" diskSizeKB="64.208" downloadSizeKB="64.208"/>
+  <assets path="/common/photos/56-pin-QFN.png" diskSizeKB="258.753" downloadSizeKB="258.753"/>
+  <assets path="/common/photos/10-pin-QFN-hole.png" diskSizeKB="260.976" downloadSizeKB="260.976"/>
+  <assets path="/common/photos/56-pin-TSSOP.png" diskSizeKB="1107.781" downloadSizeKB="1107.781"/>
+  <assets path="/common/photos/10-pin-TDFN.png" diskSizeKB="68.008" downloadSizeKB="68.008"/>
+  <assets path="/common/photos/BRD4306D_Kit_Front.png" diskSizeKB="4718.793" downloadSizeKB="4718.793"/>
+  <assets path="/common/photos/100-pin-TQFP-flat.png" diskSizeKB="1510.244" downloadSizeKB="1510.244"/>
+  <assets path="/common/photos/38-pin-TSSOP.png" diskSizeKB="734.468" downloadSizeKB="734.468"/>
+  <assets path="/common/photos/32-pin-QFN-wide.png" diskSizeKB="300.231" downloadSizeKB="300.231"/>
+  <assets path="/common/photos/BRD4105A_Kit_Front.png" diskSizeKB="4735.693" downloadSizeKB="4735.693"/>
+  <assets path="/common/photos/85-pin-LGA.png" diskSizeKB="415.21" downloadSizeKB="415.21"/>
+  <assets path="/common/photos/BRD4200A_Front.png" diskSizeKB="1727.301" downloadSizeKB="1727.301"/>
+  <assets path="/common/photos/BRD4169A_Front.png" diskSizeKB="1848.122" downloadSizeKB="1848.122"/>
+  <assets path="/common/photos/6-pin-SOIC.png" diskSizeKB="66.215" downloadSizeKB="66.215"/>
+  <assets path="/common/photos/36-pin-BGA.png" diskSizeKB="285.39" downloadSizeKB="285.39"/>
+  <assets path="/common/photos/BRD4502A_Front.png" diskSizeKB="1806.858" downloadSizeKB="1806.858"/>
+  <assets path="/common/photos/BRD4258B_Kit_Front.png" diskSizeKB="4867.995" downloadSizeKB="4867.995"/>
+  <assets path="/common/photos/BRD8026A_Front.png" diskSizeKB="1945.085" downloadSizeKB="1945.085"/>
+  <assets path="/common/photos/BRD4152A_Kit_Front.png" diskSizeKB="750.858" downloadSizeKB="750.858"/>
+  <assets path="/common/photos/80-pin-TQFP.png" diskSizeKB="1418.027" downloadSizeKB="1418.027"/>
+  <assets path="/common/photos/BRD4505B_Front.png" diskSizeKB="1823.813" downloadSizeKB="1823.813"/>
+  <assets path="/common/photos/BRD4504B_Front.png" diskSizeKB="1909.941" downloadSizeKB="1909.941"/>
+  <assets path="/common/photos/BRD4320A_Kit_Front.png" diskSizeKB="2880.948" downloadSizeKB="2880.948"/>
+  <assets path="/common/photos/BRD4250B_Kit_Front.png" diskSizeKB="749.596" downloadSizeKB="749.596"/>
+  <assets path="/common/photos/BRD4158A_Front.png" diskSizeKB="1847.947" downloadSizeKB="1847.947"/>
+  <assets path="/common/photos/28-pin-QFN-corners-6x8.png" diskSizeKB="296.474" downloadSizeKB="296.474"/>
+  <assets path="/common/photos/40-pin-QFN.png" diskSizeKB="259.719" downloadSizeKB="259.719"/>
+  <assets path="/common/photos/20-pin-QFN-4x6pins.png" diskSizeKB="261.77" downloadSizeKB="261.77"/>
+  <assets path="/common/photos/BRD4200A_Kit_Front.png" diskSizeKB="4704.446" downloadSizeKB="4704.446"/>
+  <assets path="/common/photos/BRD4254A_Front.png" diskSizeKB="2022.582" downloadSizeKB="2022.582"/>
+  <assets path="/common/photos/BRD4251A_Kit_Front.png" diskSizeKB="749.986" downloadSizeKB="749.986"/>
+  <assets path="/common/photos/BRD4167_Front_WSTK.png" diskSizeKB="1307.883" downloadSizeKB="1307.883"/>
+  <assets path="/common/photos/14-pin-WBSOIC.png" diskSizeKB="133.373" downloadSizeKB="133.373"/>
+  <assets path="/common/photos/BRD4256A_Front.png" diskSizeKB="1843.656" downloadSizeKB="1843.656"/>
+  <assets path="/common/photos/BRD4306C_Kit_Front.png" diskSizeKB="4719.057" downloadSizeKB="4719.057"/>
+  <assets path="/common/photos/BRD4305D_Kit_Front.png" diskSizeKB="4713.263" downloadSizeKB="4713.263"/>
+  <assets path="/common/photos/BRD4174B_Front__with_WSTK.png" diskSizeKB="4744.428" downloadSizeKB="4744.428"/>
+  <assets path="/common/photos/BRD4502B_Kit_Front.png" diskSizeKB="4937.042" downloadSizeKB="4937.042"/>
+  <assets path="/common/photos/BRD4168A_Front.png" diskSizeKB="1633.632" downloadSizeKB="1633.632"/>
+  <assets path="/common/photos/12-pin-SOIC.png" diskSizeKB="115.384" downloadSizeKB="115.384"/>
+  <assets path="/common/photos/38-pin-QFN-7x12.png" diskSizeKB="301.206" downloadSizeKB="301.206"/>
+  <assets path="/common/photos/20-pin-QFN-corners.png" diskSizeKB="367.779" downloadSizeKB="367.779"/>
+  <assets path="/common/photos/14-pin-SOIC.png" diskSizeKB="100.867" downloadSizeKB="100.867"/>
+  <assets path="/common/photos/BRD4104A_Front.png" diskSizeKB="1568.059" downloadSizeKB="1568.059"/>
+  <assets path="/common/photos/30-pin-QFN-6x9.png" diskSizeKB="224.865" downloadSizeKB="224.865"/>
+  <assets path="/common/photos/10-pin-QFN-sidepins.png" diskSizeKB="257.734" downloadSizeKB="257.734"/>
+  <assets path="/common/photos/6-pin-DFN.png" diskSizeKB="253.636" downloadSizeKB="253.636"/>
+  <assets path="/common/photos/BRD4306B_Kit_Front.png" diskSizeKB="4785.315" downloadSizeKB="4785.315"/>
+  <assets path="/common/photos/BRD4502B_Front.png" diskSizeKB="1806.17" downloadSizeKB="1806.17"/>
+  <assets path="/common/photos/BRD4305D_Front.png" diskSizeKB="2031.008" downloadSizeKB="2031.008"/>
+  <assets path="/common/photos/8-pin-TSSOP.png" diskSizeKB="63.952" downloadSizeKB="63.952"/>
+  <assets path="/common/photos/BRD4150B_Kit_Front.png" diskSizeKB="751.233" downloadSizeKB="751.233"/>
+  <assets path="/common/photos/BRD4155A_Front.png" diskSizeKB="1871.042" downloadSizeKB="1871.042"/>
+  <assets path="/common/photos/BRD4001A_Front.png" diskSizeKB="4972.25" downloadSizeKB="4972.25"/>
+  <assets path="/common/photos/BGM2501A_Front.png" diskSizeKB="2732.405" downloadSizeKB="2732.405"/>
+  <assets path="/common/photos/24-pin-QFN-flipped.png" diskSizeKB="80.702" downloadSizeKB="80.702"/>
+  <assets path="/common/photos/24-pin-TSSOP.png" diskSizeKB="378.935" downloadSizeKB="378.935"/>
+  <assets path="/common/photos/BRD4300A_Front.png" diskSizeKB="1470.924" downloadSizeKB="1470.924"/>
+  <assets path="/common/photos/BRD8026A_with_WSTK_Front.png" diskSizeKB="5692.432" downloadSizeKB="5692.432"/>
+  <assets path="/common/photos/72-pin-QFN.png" diskSizeKB="260.086" downloadSizeKB="260.086"/>
+  <assets path="/common/photos/24-pin-QFN.png" diskSizeKB="262.837" downloadSizeKB="262.837"/>
+  <assets path="/common/photos/BRD4321A_kit_front.png" diskSizeKB="4840.983" downloadSizeKB="4840.983"/>
+  <assets path="/common/photos/BRD4150B_Front.png" diskSizeKB="1782.807" downloadSizeKB="1782.807"/>
+  <assets path="/common/photos/BRD4502D_Front.png" diskSizeKB="1806.195" downloadSizeKB="1806.195"/>
+  <assets path="/common/photos/BRD4154A_Kit_Front.png" diskSizeKB="4862.231" downloadSizeKB="4862.231"/>
+  <assets path="/common/photos/84-pin-QFN.png" diskSizeKB="417.939" downloadSizeKB="417.939"/>
+  <assets path="/common/photos/8-pin-SOIC.png" diskSizeKB="64.067" downloadSizeKB="64.067"/>
+  <assets path="/common/photos/100-pin-TQFP.png" diskSizeKB="1384.884" downloadSizeKB="1384.884"/>
+  <assets path="/common/photos/BRD4300A_Kit_Front.png" diskSizeKB="4800.956" downloadSizeKB="4800.956"/>
+  <assets path="/common/photos/14-pin-TSSOP.png" diskSizeKB="986.482" downloadSizeKB="986.482"/>
+  <assets path="/common/photos/sensor-chip-cover.png" diskSizeKB="2087.418" downloadSizeKB="2087.418"/>
+  <assets path="/common/photos/16-pin-QFN-corners.png" diskSizeKB="79.685" downloadSizeKB="79.685"/>
+  <assets path="/common/photos/to-92.png" diskSizeKB="209.162" downloadSizeKB="209.162"/>
+  <assets path="/common/photos/28-pin-QFN.png" diskSizeKB="262.443" downloadSizeKB="262.443"/>
+  <assets path="/common/photos/BRD4304A_Front.png" diskSizeKB="3426.099" downloadSizeKB="3426.099"/>
+  <assets path="/common/photos/20-pin-TSSOP.png" diskSizeKB="1171.269" downloadSizeKB="1171.269"/>
+  <assets path="/common/photos/64-pin-TQFP.png" diskSizeKB="912.058" downloadSizeKB="912.058"/>
+  <assets path="/common/photos/8-pin-QFN-sidepins.png" diskSizeKB="256.286" downloadSizeKB="256.286"/>
+  <assets path="/common/photos/BRD4101B_Front.png" diskSizeKB="1538.395" downloadSizeKB="1538.395"/>
+  <assets path="/common/photos/32-pin-QFN-2x1ratio.png" diskSizeKB="477.89" downloadSizeKB="477.89"/>
+  <assets path="/common/photos/BRD4502A_Kit_Front.png" diskSizeKB="4937.575" downloadSizeKB="4937.575"/>
+  <assets path="/common/photos/BRD4251A_Front.png" diskSizeKB="1780.391" downloadSizeKB="1780.391"/>
+  <assets path="/common/photos/BRD4254A_Kit_Front.png" diskSizeKB="4893.848" downloadSizeKB="4893.848"/>
+  <assets path="/common/photos/88-pin-QFN.png" diskSizeKB="430.908" downloadSizeKB="430.908"/>
+  <assets path="/common/photos/BRD4104A_Kit_Front.png" diskSizeKB="1255.648" downloadSizeKB="1255.648"/>
+  <assets path="/common/photos/11-pin-QFN.png" diskSizeKB="257.071" downloadSizeKB="257.071"/>
+  <assets path="/common/photos/Thunderboard_BRD5002A_Front.png" diskSizeKB="2237.739" downloadSizeKB="2237.739"/>
+  <assets path="/common/photos/8-pin-QFN-1x3pins.png" diskSizeKB="256.496" downloadSizeKB="256.496"/>
+  <assets path="/common/photos/BRD4305E_Front.png" diskSizeKB="2030.717" downloadSizeKB="2030.717"/>
+  <assets path="/common/photos/16-pin-WBSOIC.png" diskSizeKB="138.356" downloadSizeKB="138.356"/>
+  <assets path="/common/photos/BRD4502C_Front.png" diskSizeKB="1806.808" downloadSizeKB="1806.808"/>
+  <assets path="/common/photos/48-pin-LQFP.png" diskSizeKB="1621.589" downloadSizeKB="1621.589"/>
+  <assets path="/common/photos/8-pin-DFN-sidepins.png" diskSizeKB="255.9" downloadSizeKB="255.9"/>
+  <assets path="/common/photos/8-pin-TDFN.png" diskSizeKB="252.941" downloadSizeKB="252.941"/>
+  <assets path="/common/photos/BRD4150C_Kit_Front.png" diskSizeKB="4919.533" downloadSizeKB="4919.533"/>
+  <assets path="/common/photos/BRD4301A_Front.png" diskSizeKB="1435.225" downloadSizeKB="1435.225"/>
+  <assets path="/common/photos/64-pin-QFN.png" diskSizeKB="259.816" downloadSizeKB="259.816"/>
+  <assets path="/common/photos/BRD8021A_Front.png" diskSizeKB="4071.641" downloadSizeKB="4071.641"/>
+  <assets path="/common/photos/BRD4103A_Kit_Front.png" diskSizeKB="4835.544" downloadSizeKB="4835.544"/>
+  <assets path="/common/photos/BRD4305C_Front.png" diskSizeKB="2030.858" downloadSizeKB="2030.858"/>
+  <assets path="/common/photos/8-pin-DIP.png" diskSizeKB="63.905" downloadSizeKB="63.905"/>
+  <assets path="/common/photos/BRD4154A_Front.png" diskSizeKB="1688.859" downloadSizeKB="1688.859"/>
+  <assets path="/common/photos/20-pin-MLP.png" diskSizeKB="259.487" downloadSizeKB="259.487"/>
+  <assets path="/common/photos/4-lead-xo-chip.png" diskSizeKB="1839.753" downloadSizeKB="1839.753"/>
+  <assets path="/common/photos/48-pin-TQFP-flat.png" diskSizeKB="1308.449" downloadSizeKB="1308.449"/>
+  <assets path="/common/photos/16-pin-BGA.png" diskSizeKB="40.388" downloadSizeKB="40.388"/>
+  <assets path="/common/photos/64-pin-WLCSP.png" diskSizeKB="284.028" downloadSizeKB="284.028"/>
+  <assets path="/common/photos/BRD4150C_Front.png" diskSizeKB="1834.22" downloadSizeKB="1834.22"/>
+  <assets path="/common/photos/BRD4253A_Kit_Front.png" diskSizeKB="4893.526" downloadSizeKB="4893.526"/>
+  <assets path="/common/photos/BRD4173A_Front__with_WSTK.png" diskSizeKB="4727.903" downloadSizeKB="4727.903"/>
+  <assets path="/common/photos/BRD4173A_Front.png" diskSizeKB="1682.818" downloadSizeKB="1682.818"/>
+  <assets path="/common/photos/BRD4250A_Kit_Front.png" diskSizeKB="749.878" downloadSizeKB="749.878"/>
+  <assets path="/common/photos/BRD4545A_Kit_Front.png" diskSizeKB="744.174" downloadSizeKB="744.174"/>
+  <assets path="/common/photos/44-pin-TQFP.png" diskSizeKB="827.737" downloadSizeKB="827.737"/>
+  <assets path="/common/photos/BRD4170A_Kit_Front.png" diskSizeKB="4907.087" downloadSizeKB="4907.087"/>
+  <assets path="/common/photos/24-pin-QFN-hole.png" diskSizeKB="267.386" downloadSizeKB="267.386"/>
+  <assets path="/common/photos/4-pin-DFN.png" diskSizeKB="255.157" downloadSizeKB="255.157"/>
+  <assets path="/common/photos/BRD4253A_Front.png" diskSizeKB="2022.179" downloadSizeKB="2022.179"/>
+  <assets path="/common/photos/BRD4152A_Front.png" diskSizeKB="1781.678" downloadSizeKB="1781.678"/>
+  <assets path="/common/photos/6-pin-TDFN.png" diskSizeKB="254.419" downloadSizeKB="254.419"/>
+  <assets path="/common/photos/BRD4163A_Front.png" diskSizeKB="2010.551" downloadSizeKB="2010.551"/>
+  <assets path="/common/photos/BRD4543B_Kit_Front.png" diskSizeKB="744.159" downloadSizeKB="744.159"/>
+  <assets path="/common/photos/100-pin-TQFP-angle.png" diskSizeKB="889.955" downloadSizeKB="889.955"/>
+  <assets path="/common/photos/BRD4150A_Kit_Front.png" diskSizeKB="750.941" downloadSizeKB="750.941"/>
+  <assets path="/common/photos/BRD4544A_Front.png" diskSizeKB="1818.577" downloadSizeKB="1818.577"/>
+  <assets path="/common/photos/BRD4303A_Kit_Front.png" diskSizeKB="4668.547" downloadSizeKB="4668.547"/>
+  <assets path="/common/photos/24-pin-QSOP.png" diskSizeKB="29.237" downloadSizeKB="29.237"/>
+  <assets path="/common/photos/BRD4105A_Front.png" diskSizeKB="1510.561" downloadSizeKB="1510.561"/>
+  <assets path="/common/photos/64-pin-BGA.png" diskSizeKB="284.121" downloadSizeKB="284.121"/>
+  <assets path="/common/photos/16-pin-SOIC.png" diskSizeKB="117.025" downloadSizeKB="117.025"/>
+  <assets path="/common/photos/BRD4202A_Front.png" diskSizeKB="1827.675" downloadSizeKB="1827.675"/>
+  <assets path="/common/photos/88-pin-QFN-square.png" diskSizeKB="263.912" downloadSizeKB="263.912"/>
+  <assets path="/common/photos/36-pin-QFN.png" diskSizeKB="289.491" downloadSizeKB="289.491"/>
+  <assets path="/common/photos/16-pin-QSOP.png" diskSizeKB="27.501" downloadSizeKB="27.501"/>
+  <assets path="/common/photos/BRD4502C_Kit_Front.png" diskSizeKB="4938.011" downloadSizeKB="4938.011"/>
+  <assets path="/common/photos/BRD4172B_Front__with_WSTK.png" diskSizeKB="4744.252" downloadSizeKB="4744.252"/>
+  <assets path="/common/photos/BRD4174A_Front.png" diskSizeKB="1690.66" downloadSizeKB="1690.66"/>
+  <assets path="/common/photos/BRD4302A_Kit_Front.png" diskSizeKB="2669.937" downloadSizeKB="2669.937"/>
+  <assets path="/common/photos/BRD4300B_Kit_Front.png" diskSizeKB="4802.719" downloadSizeKB="4802.719"/>
+  <assets path="/common/accepted_filters.json" diskSizeKB="1.798" downloadSizeKB="1.798"/>
+  <assets path="/common/license_txt.zip" diskSizeKB="96.591" downloadSizeKB="31.698" directory="true"/>
+  <assets version="0.3" path="/common/appnotes/AN0823.zip" diskSizeKB="1189.246" downloadSizeKB="1066.892" directory="true"/>
+  <assets version="0.5" path="/common/appnotes/AN0822/AN0822.pdf" diskSizeKB="2970.344" downloadSizeKB="2970.344"/>
+</assets>

@@ -1,0 +1,154 @@
+###############################################################################
+#                                                                             #
+#     IAR Assembler V9.70.2.500/W64 for ARM 04/Apr/2026  22:55:57             #
+#     Copyright 1999-2025 IAR Systems AB.                                     #
+#                                                                             #
+#           Source file   =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\isr-stubs.s79#
+#           List file     =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\isr-stubs.lst#
+#           Object file   =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\isr-stubs.o#
+#           Command line  =  -f                                               #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\isr-stubs.o.rsp #
+#                            (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\isr-stubs.s79 #
+#                            -OZ:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir #
+#                            -s+ -M<> -w+ -r -DCORTEXM3                       #
+#                            -DCORTEXM3_EMBER_MICRO -DCORTEXM3_EM3555         #
+#                            -DPHY_EM3XX -DHAL_MICRO                          #
+#                            -DBOARD_HEADER="platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h" #
+#                            -DPLATFORM_HEADER="hal/micro/cortexm3/compiler/iar.h" #
+#                            -DAPPLICATION_TOKEN_HEADER="config/app-tokens.h" #
+#                            -DGENERATED_TOKEN_HEADER="autogen/em3555-rgbw_tokens.h" #
+#                            -DATTRIBUTE_STORAGE_CONFIGURATION="autogen/em3555-rgbw_endpoint_config.h" #
+#                            -DZA_GENERATED_HEADER="autogen/em3555-rgbw.h"    #
+#                            -DCONFIGURATION_HEADER="app/framework/util/config.h" #
+#                            -D__SOURCEFILE__="isr-stubs.s79"                 #
+#                            -LZ:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir #
+#                            -t2 --cpu Cortex-M3 --fpu None                   #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\) #
+#                            -y                                               #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\isr-stubs.o.iar_deps #
+#                            --dynamic_output                                 #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\isr-stubs.o.iar_dynout #
+#                                                                             #
+###############################################################################
+
+    1                           //--------------------------------------------
+                                ----------------------------------
+    2                           // @file hal/micro/cortexm3/isr-stubs.s79
+    3                           // @brief Stubs for all exception handlers
+                                 (ISRs)
+    4                           // 
+    5                           // NOTE: You should NOT have to change this
+                                 file to instatiate your own ISR!
+    6                           //
+    7                           // By providing a *weak* function here, every
+                                 vector in the interrupt table is
+    8                           // guaranteed to be defined.  These functions
+                                 will be overridden during link
+    9                           // time whenever the same function (symbol)
+                                 name is used normally in another
+   10                           // source file.
+   11                           //
+   12                           // RESULT:  Simply define whichever ISRs you
+                                 need in your application and this
+   13                           // file will fill in the gaps during
+                                 linking.
+   14                           //
+   15                           // Copyright 2007 by Ember Corporation. All
+                                 rights reserved.                *80*
+   16                           //--------------------------------------------
+                                ----------------------------------
+   17                           
+   18                           //Normally the default NVIC_CONFIG file would
+                                 be defined in the PLATFORM_HEADER
+   19                           //but this assembly file does not include the
+                                 PLATFORM_HEADER (it can't
+   20                           //because this is assembly, and the header is
+                                 for c).
+   21                           #ifndef NVIC_CONFIG
+   22                             #define NVIC_CONFIG "hal/micro/cortexm3/nvic
+                                -config.h"
+   23                           #endif
+   24                           #include "compiler/asm.h"
+   25                           
+   26                           // NOTE: Any use of white space in this file
+                                 is ignored by the preprocessor.
+   27                           //       Since assembly files have white space
+                                 requirements, the white space
+   28                           //       needed is implemented in the
+                                 nvic-config.h file itself.
+   29                           
+   30                           #define EXCEPTION(vectorNumber, functionName,
+                                 deviceIrqn, deviceIrqHandler, priorityLevel,
+                                 subpriority) \
+   32                           #define PERM_EXCEPTION(vectorNumber,
+                                 functionName, deviceIrqn, deviceIrqHandler)
+   33                           #include NVIC_CONFIG
+   34                           #undef  PERM_EXCEPTION
+   35                           #undef  EXCEPTION
+   36                           
+   37                           
+   38                           
+   39                           #define SEGMENT() \
+   41                           #define SEGMENT2() \
+   43                           #define EXCEPTION(vectorNumber, functionName,
+                                 deviceIrqn, deviceIrqHandler, priorityLevel,
+                                 subpriority) \
+   45                           #define PERM_EXCEPTION(vectorNumber,
+                                 functionName, deviceIrqn, deviceIrqHandler)
+   46                           #include NVIC_CONFIG
+   47                           #undef  PERM_EXCEPTION
+   48                           #undef  EXCEPTION
+   49                           
+   50                           
+   51                           // Every function defined above will reference
+                                 the following code
+   52                           // Since each function is still defined
+                                 PUBWEAK with its own segment, the
+   53                           // linker will still do it's job and stub out
+                                 only the functions that need it.
+   54                           // By having all the stubs reference the same
+                                 code, we save 96 bytes!
+   55                                   __CODE__
+   56                                   __THUMB__
+   57                                   __IMPORT__ uninitializedIsr
+   58    00000000 ........              B   uninitializedIsr
+   59                           
+   60                           
+   61                                   __END__
+##############################
+#           CRC:0            #
+#        Errors:   0         #
+#        Warnings: 0         #
+#          Bytes: 4          #
+##############################
+
+
+
+

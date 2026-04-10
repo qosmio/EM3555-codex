@@ -1,0 +1,1759 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:36
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\token.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\token.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\token.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"token.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\token.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\token.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\token.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\token.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\token.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Token implementation for the Cortex-M3/EM3XX chip.
+      4           * See token.h for details.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          #include PLATFORM_HEADER
+     19          
+     20          #include "stack/include/ember.h"
+     21          #include "stack/include/error.h"
+     22          #include "hal/hal.h"
+     23          #include "serial/serial.h"
+     24          #include "hal/plugin/sim-eeprom/sim-eeprom.h"
+     25          
+     26          #ifndef SER232
+     27            #define SER232 0
+     28          #endif
+     29          
+     30          //prints debug data from the token access functions
+     31          #define TOKENDBG(x)
+     32          //#define TOKENDBG(x) x
+     33          
+
+   \                                 In section .bss, align 1
+     34          bool tokensActive = false;
+   \                     tokensActive:
+   \        0x0                      DS8 1
+     35          
+     36          
+     37          
+     38          
+     39          
+     40          
+     41          
+     42          
+     43          
+     44          
+
+   \                                 In section .text, align 2, keep-with-next
+     45          EmberStatus halStackInitTokens(void)
+     46          {
+   \                     halStackInitTokens: (+1)
+   \        0x0   0xB57C             PUSH     {R2-R6,LR}
+     47            #if !defined(BOOTLOADER) && !defined(EMBER_TEST)
+     48            tokTypeMfgFibVersion tokMfg;
+     49            EmberStatus status = EMBER_ERR_FATAL;
+   \        0x2   0x2401             MOVS     R4,#+1
+     50            tokTypeStackNvdataVersion tokStack;
+     51            bool mfgTokenVersionValid = false;
+   \        0x4   0x2500             MOVS     R5,#+0
+     52            tokTypeMfgFibVersion validMfgTokens[] = VALID_MFG_TOKEN_VERSIONS;
+   \        0x6   0xA801             ADD      R0,SP,#+4
+   \        0x8   0x.... 0x....      LDR.W    R1,??DataTable5
+   \        0xC   0x680A             LDR      R2,[R1, #+0]
+   \        0xE   0x6002             STR      R2,[R0, #+0]
+     53            #endif
+     54            tokensActive = true;
+   \       0x10   0x.... 0x....      LDR.W    R6,??DataTable5_1
+   \       0x14   0x4620             MOV      R0,R4
+   \       0x16   0x7030             STRB     R0,[R6, #+0]
+     55          
+     56          
+     57          
+     58          
+     59          
+     60          
+     61          
+     62          
+     63          
+     64          
+     65          
+     66          
+     67          
+     68          
+     69          
+     70          
+     71          
+     72          
+     73          
+     74          
+     75          
+     76          
+     77          
+     78          
+     79          
+     80          
+     81          
+     82            if (halInternalSimEeInit() != EMBER_SUCCESS) {
+   \       0x18   0x4628             MOV      R0,R5
+   \       0x1A   0x.... 0x....      BL       halInternalSimEeStartup
+   \       0x1E   0x2800             CMP      R0,#+0
+   \       0x20   0xD008             BEQ.N    ??halStackInitTokens_0
+     83              TOKENDBG(emberSerialPrintf(SER232, "halInternalSimEeInit Attempt 1 fail\r\n"); )
+     84              if (halInternalSimEeInit() != EMBER_SUCCESS) {
+   \       0x22   0x4628             MOV      R0,R5
+   \       0x24   0x.... 0x....      BL       halInternalSimEeStartup
+   \       0x28   0x2800             CMP      R0,#+0
+   \       0x2A   0xD003             BEQ.N    ??halStackInitTokens_0
+     85                TOKENDBG(emberSerialPrintf(SER232, "halInternalSimEeInit Attempt 2 fail\r\n"); )
+     86                tokensActive = false;
+   \       0x2C   0x4628             MOV      R0,R5
+   \       0x2E   0x7030             STRB     R0,[R6, #+0]
+     87                return EMBER_SIM_EEPROM_INIT_2_FAILED;
+   \       0x30   0x2049             MOVS     R0,#+73
+   \       0x32   0xBD76             POP      {R1,R2,R4-R6,PC}
+     88              }
+     89            }
+     90          
+     91            TOKENDBG(emberSerialPrintf(SER232, "halInternalSimEeInit Successful\r\n"); )
+     92          
+     93            // TODO: remove emulator reference.
+     94            #if !defined(BOOTLOADER) && !defined(EMBER_TEST) && !defined(EMBER_EMU_TEST)
+     95            halCommonGetToken(&tokMfg, TOKEN_MFG_FIB_VERSION);
+   \                     ??halStackInitTokens_0: (+1)
+   \       0x34   0x2302             MOVS     R3,#+2
+   \       0x36   0x227F             MOVS     R2,#+127
+   \       0x38   0x.... 0x....      LDR.W    R0,??DataTable5_2
+   \       0x3C   0x8801             LDRH     R1,[R0, #+0]
+   \       0x3E   0xF10D 0x0002      ADD      R0,SP,#+2
+   \       0x42   0x.... 0x....      BL       halInternalGetTokenData
+     96            halCommonGetToken(&tokStack, TOKEN_STACK_NVDATA_VERSION);
+   \       0x46   0x2302             MOVS     R3,#+2
+   \       0x48   0x227F             MOVS     R2,#+127
+   \       0x4A   0x4629             MOV      R1,R5
+   \       0x4C   0x4668             MOV      R0,SP
+   \       0x4E   0x.... 0x....      BL       halInternalGetTokenData
+     97          
+     98            // See if this manufacturing token version matches any known valid version
+     99            {
+    100              uint32_t i;
+    101              for (i = 0; i < (sizeof(validMfgTokens) / sizeof(*validMfgTokens)); i++) {
+   \       0x52   0x4628             MOV      R0,R5
+   \       0x54   0xE008             B.N      ??halStackInitTokens_1
+    102                if (validMfgTokens[i] == tokMfg) {
+   \                     ??halStackInitTokens_2: (+1)
+   \       0x56   0xA901             ADD      R1,SP,#+4
+   \       0x58   0xF831 0x1010      LDRH     R1,[R1, R0, LSL #+1]
+   \       0x5C   0xF8BD 0x2002      LDRH     R2,[SP, #+2]
+   \       0x60   0x4291             CMP      R1,R2
+   \       0x62   0xD100             BNE.N    ??halStackInitTokens_3
+    103                  mfgTokenVersionValid = true;
+   \       0x64   0x4625             MOV      R5,R4
+    104                }
+    105              }
+   \                     ??halStackInitTokens_3: (+1)
+   \       0x66   0x1C40             ADDS     R0,R0,#+1
+   \                     ??halStackInitTokens_1: (+1)
+   \       0x68   0x2801             CMP      R0,#+1
+   \       0x6A   0xD9F4             BLS.N    ??halStackInitTokens_2
+    106            }
+    107          
+    108            if (!mfgTokenVersionValid || CURRENT_STACK_TOKEN_VERSION != tokStack) {
+   \       0x6C   0x0028             MOVS     R0,R5
+   \       0x6E   0xD004             BEQ.N    ??halStackInitTokens_4
+   \       0x70   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0x74   0xF5B0 0x7F7F      CMP      R0,#+1020
+   \       0x78   0xD016             BEQ.N    ??halStackInitTokens_5
+    109              if (!mfgTokenVersionValid && (CURRENT_STACK_TOKEN_VERSION != tokStack)) {
+   \                     ??halStackInitTokens_4: (+1)
+   \       0x7A   0x0028             MOVS     R0,R5
+   \       0x7C   0xD106             BNE.N    ??halStackInitTokens_6
+   \       0x7E   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0x82   0xF5B0 0x7F7F      CMP      R0,#+1020
+   \       0x86   0xD001             BEQ.N    ??halStackInitTokens_6
+    110                status = EMBER_EEPROM_MFG_STACK_VERSION_MISMATCH;
+   \       0x88   0x2404             MOVS     R4,#+4
+   \       0x8A   0xE009             B.N      ??halStackInitTokens_7
+    111              } else if (!mfgTokenVersionValid) {
+   \                     ??halStackInitTokens_6: (+1)
+   \       0x8C   0x2D00             CMP      R5,#+0
+   \       0x8E   0xD101             BNE.N    ??halStackInitTokens_8
+    112                status = EMBER_EEPROM_MFG_VERSION_MISMATCH;
+   \       0x90   0x2406             MOVS     R4,#+6
+   \       0x92   0xE005             B.N      ??halStackInitTokens_7
+    113              } else if (CURRENT_STACK_TOKEN_VERSION != tokStack) {
+   \                     ??halStackInitTokens_8: (+1)
+   \       0x94   0xF8BD 0x0000      LDRH     R0,[SP, #+0]
+   \       0x98   0xF5B0 0x7F7F      CMP      R0,#+1020
+   \       0x9C   0xD000             BEQ.N    ??halStackInitTokens_7
+    114                status = EMBER_EEPROM_STACK_VERSION_MISMATCH;
+   \       0x9E   0x2407             MOVS     R4,#+7
+    115              } else {
+    116                // MISRA requires ..else if.. to have terminating else.
+    117              }
+    118                #if defined(DEBUG)
+    119              if (!mfgTokenVersionValid) {
+    120                //Even is we're a debug image, a bad manufacturing token version
+    121                //is a fatal error, so return the error status.
+    122                tokensActive = false;
+    123                return status;
+    124              }
+    125              if (CURRENT_STACK_TOKEN_VERSION != tokStack) {
+    126                //Debug images with a bad stack token version should attempt to
+    127                //fix the SimEE before continuing on.
+    128                TOKENDBG(emberSerialPrintf(SER232, "Stack Version mismatch, reloading\r\n"); )
+    129                halInternalSimEeRepair(true);
+    130                if (halInternalSimEeInit() != EMBER_SUCCESS) {
+    131                  TOKENDBG(emberSerialPrintf(SER232, "halInternalSimEeInit Attempt 3 fail\r\n"); )
+    132                  tokensActive = false;
+    133                  return EMBER_SIM_EEPROM_INIT_3_FAILED;
+    134                }
+    135              }
+    136                #else //  node release image
+    137              TOKENDBG(emberSerialPrintf(SER232, "EEPROM_x_VERSION_MISMATCH (%d)\r\n", status); )
+    138              tokensActive = false;
+   \                     ??halStackInitTokens_7: (+1)
+   \       0xA0   0x2000             MOVS     R0,#+0
+   \       0xA2   0x7030             STRB     R0,[R6, #+0]
+    139                  #if defined(PLATFORMTEST) || defined(LEVEL_ONE_TEST)
+    140              tokensActive = true;        //Keep tokens active for test code.
+    141                  #endif //defined(PLATFORMTEST)
+    142              return status;
+   \       0xA4   0x4620             MOV      R0,R4
+   \       0xA6   0xBD76             POP      {R1,R2,R4-R6,PC}
+    143                #endif
+    144            }
+    145            #endif //!defined(BOOTLOADER) && !defined(EMBER_TEST) && !defined(EMBER_EMU_TEST)
+    146          
+    147            TOKENDBG(emberSerialPrintf(SER232, "TOKENS ACTIVE\r\n"); )
+    148            return EMBER_SUCCESS;
+   \                     ??halStackInitTokens_5: (+1)
+   \       0xA8   0x2000             MOVS     R0,#+0
+   \       0xAA   0xBD76             POP      {R1,R2,R4-R6,PC}
+    149          }
+    150          
+
+   \                                 In section .text, align 2, keep-with-next
+    151          void halInternalGetTokenData(void *data, uint16_t token, uint8_t index, uint8_t len)
+    152          {
+   \                     halInternalGetTokenData: (+1)
+   \        0x0   0xB418             PUSH     {R3,R4}
+    153            if (token < 256) {
+   \        0x2   0x460C             MOV      R4,R1
+   \        0x4   0xF5B4 0x7F80      CMP      R4,#+256
+   \        0x8   0xDA09             BGE.N    ??halInternalGetTokenData_0
+    154              //the token ID is within the SimEEPROM's range, route to the SimEEPROM
+    155              if (tokensActive) {
+   \        0xA   0x.... 0x....      LDR.W    R4,??DataTable5_1
+   \        0xE   0x7824             LDRB     R4,[R4, #+0]
+   \       0x10   0x2C00             CMP      R4,#+0
+   \       0x12   0xD008             BEQ.N    ??halInternalGetTokenData_1
+    156                halInternalSimEeGetData(data, token, index, len);
+   \       0x14   0xB2C9             UXTB     R1,R1
+   \       0x16   0xB001             ADD      SP,SP,#+4
+   \       0x18   0xBC10             POP      {R4}
+   \       0x1A   0x.... 0x....      B.W      halInternalSimEeGetData
+    157              } else {
+    158                TOKENDBG(emberSerialPrintf(SER232, "getIdxToken supressed.\r\n"); )
+    159              }
+    160            } else {
+    161              #ifdef EMBER_TEST
+    162              assert(false);
+    163              #else //EMBER_TEST
+    164              halInternalGetMfgTokenData(data, token, index, len);
+   \                     ??halInternalGetTokenData_0: (+1)
+   \       0x1E   0xB001             ADD      SP,SP,#+4
+   \       0x20   0xBC10             POP      {R4}
+   \       0x22   0x.... 0x....      B.W      halInternalGetMfgTokenData
+    165              #endif //EMBER_TEST
+    166            }
+    167          }
+   \                     ??halInternalGetTokenData_1: (+1)
+   \       0x26   0xBC11             POP      {R0,R4}
+   \       0x28   0x4770             BX       LR
+    168          
+
+   \                                 In section .text, align 2, keep-with-next
+    169          void halInternalGetIdxTokenPtrOrData(void *ptr, uint16_t ID, uint8_t index, uint8_t len)
+    170          {
+   \                     halInternalGetIdxTokenPtrOrData: (+1)
+   \        0x0   0xB418             PUSH     {R3,R4}
+    171            if (ID < 256) {
+   \        0x2   0x460C             MOV      R4,R1
+   \        0x4   0xF5B4 0x7F80      CMP      R4,#+256
+   \        0x8   0xDA09             BGE.N    ??halInternalGetIdxTokenPtrOrData_0
+    172              //the ID is within the SimEEPROM's range, route to the SimEEPROM
+    173              if (tokensActive) {
+   \        0xA   0x.... 0x....      LDR.W    R4,??DataTable5_1
+   \        0xE   0x7824             LDRB     R4,[R4, #+0]
+   \       0x10   0x2C00             CMP      R4,#+0
+   \       0x12   0xD00E             BEQ.N    ??halInternalGetIdxTokenPtrOrData_1
+    174                halInternalSimEeGetPtr(ptr, ID, index, len);
+   \       0x14   0xB2C9             UXTB     R1,R1
+   \       0x16   0xB001             ADD      SP,SP,#+4
+   \       0x18   0xBC10             POP      {R4}
+   \       0x1A   0x.... 0x....      B.W      halInternalSimEeGetPtr
+    175              } else {
+    176                TOKENDBG(emberSerialPrintf(SER232, "getIdxToken supressed.\r\n"); )
+    177              }
+    178            } else {
+    179              #ifdef EMBER_TEST
+    180              assert(false);
+    181              #else //EMBER_TEST
+    182              uint32_t *ptrOut = (uint32_t *)ptr;
+    183              uint32_t realAddress;
+    184          
+    185              //0x7F is a non-indexed token.  Remap to 0 for the address calculation
+    186              index = (index == 0x7F) ? 0 : index;
+   \                     ??halInternalGetIdxTokenPtrOrData_0: (+1)
+   \       0x1E   0x4614             MOV      R4,R2
+   \       0x20   0x2C7F             CMP      R4,#+127
+   \       0x22   0xD100             BNE.N    ??halInternalGetIdxTokenPtrOrData_2
+   \       0x24   0x2200             MOVS     R2,#+0
+    187          
+    188              realAddress = (FIB_BOTTOM | ID) + (len * index);
+    189          
+    190              *ptrOut = realAddress;
+   \                     ??halInternalGetIdxTokenPtrOrData_2: (+1)
+   \       0x26   0x.... 0x....      LDR.W    R4,??DataTable5_3
+   \       0x2A   0x4321             ORRS     R1,R4,R1
+   \       0x2C   0xFB02 0x1103      MLA      R1,R2,R3,R1
+   \       0x30   0x6001             STR      R1,[R0, #+0]
+    191              #endif //EMBER_TEST
+    192            }
+    193          }
+   \                     ??halInternalGetIdxTokenPtrOrData_1: (+1)
+   \       0x32   0xBC11             POP      {R0,R4}
+   \       0x34   0x4770             BX       LR
+    194          
+
+   \                                 In section .bss, align 1
+    195          bool simEeSetDataActiveSemaphore = false;
+   \                     simEeSetDataActiveSemaphore:
+   \        0x0                      DS8 1
+
+   \                                 In section .text, align 2, keep-with-next
+    196          void halInternalSetTokenData(uint16_t token, uint8_t index, void *data, uint8_t len)
+    197          {
+   \                     halInternalSetTokenData: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+   \        0x8   0x4616             MOV      R6,R2
+   \        0xA   0x461F             MOV      R7,R3
+    198            if (token < 256) {
+   \        0xC   0xF5B0 0x7F80      CMP      R0,#+256
+   \       0x10   0xDA1D             BGE.N    ??halInternalSetTokenData_0
+    199              //the token ID is within the SimEEPROM's range, route to the SimEEPROM
+    200              if (tokensActive) {
+   \       0x12   0x.... 0x....      LDR.W    R0,??DataTable5_1
+   \       0x16   0x7800             LDRB     R0,[R0, #+0]
+   \       0x18   0x2800             CMP      R0,#+0
+   \       0x1A   0xD01F             BEQ.N    ??halInternalSetTokenData_1
+    201                //You cannot interrupt SetData with another SetData!
+    202                assert(!simEeSetDataActiveSemaphore);
+   \       0x1C   0x.... 0x....      LDR.W    R8,??DataTable5_4
+   \       0x20   0xF898 0x0000      LDRB     R0,[R8, #+0]
+   \       0x24   0x2800             CMP      R0,#+0
+   \       0x26   0xD004             BEQ.N    ??halInternalSetTokenData_2
+   \       0x28   0x21CA             MOVS     R1,#+202
+   \       0x2A   0x.... 0x....      LDR.W    R0,??DataTable5_5
+   \       0x2E   0x.... 0x....      BL       halInternalAssertFailed
+    203                simEeSetDataActiveSemaphore = true;
+   \                     ??halInternalSetTokenData_2: (+1)
+   \       0x32   0x2001             MOVS     R0,#+1
+   \       0x34   0xF888 0x0000      STRB     R0,[R8, #+0]
+    204                halInternalSimEeSetData(token, data, index, len);
+   \       0x38   0x463B             MOV      R3,R7
+   \       0x3A   0x462A             MOV      R2,R5
+   \       0x3C   0x4631             MOV      R1,R6
+   \       0x3E   0x4620             MOV      R0,R4
+   \       0x40   0xB2C0             UXTB     R0,R0
+   \       0x42   0x.... 0x....      BL       halInternalSimEeSetData
+    205                simEeSetDataActiveSemaphore = false;
+   \       0x46   0x2000             MOVS     R0,#+0
+   \       0x48   0xF888 0x0000      STRB     R0,[R8, #+0]
+   \       0x4C   0xE006             B.N      ??halInternalSetTokenData_1
+    206              } else {
+    207                TOKENDBG(emberSerialPrintf(SER232, "setIdxToken supressed.\r\n"); )
+    208              }
+    209            } else {
+    210              //The Information Blocks can only be written by an external tool!
+    211              //Something is making a set token call on a manufacturing token, and that
+    212              //is not allowed!
+    213              assert(0);
+   \                     ??halInternalSetTokenData_0: (+1)
+   \       0x4E   0x21D5             MOVS     R1,#+213
+   \       0x50   0x.... 0x....      LDR.W    R0,??DataTable5_5
+   \       0x54   0xE8BD 0x41F0      POP      {R4-R8,LR}
+   \       0x58   0x.... 0x....      B.W      halInternalAssertFailed
+    214            }
+    215          }
+   \                     ??halInternalSetTokenData_1: (+1)
+   \       0x5C   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    216          
+
+   \                                 In section .text, align 2, keep-with-next
+    217          void halInternalIncrementCounterToken(uint8_t token)
+    218          {
+    219            if (tokensActive) {
+   \                     halInternalIncrementCounterToken: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R1,??DataTable5_1
+   \        0x4   0x7809             LDRB     R1,[R1, #+0]
+   \        0x6   0x2900             CMP      R1,#+0
+   \        0x8   0xD001             BEQ.N    ??halInternalIncrementCounterToken_0
+    220              halInternalSimEeIncrementCounter(token);
+   \        0xA   0x.... 0x....      B.W      halInternalSimEeIncrementCounter
+    221            } else {
+    222              TOKENDBG(emberSerialPrintf(SER232, "IncrementCounter supressed.\r\n"); )
+    223            }
+    224          }
+   \                     ??halInternalIncrementCounterToken_0: (+1)
+   \        0xE   0x4770             BX       LR
+    225          
+    226          #ifndef EMBER_TEST
+    227          
+    228          // The following interfaces are admittedly code space hogs but serve
+    229          // as glue interfaces to link creator codes to tokens for test code.
+    230          
+
+   \                                 In section .text, align 2, keep-with-next
+    231          uint16_t getTokenAddress(uint16_t creator)
+    232          {
+    233            uint16_t tokenAddress;
+    234          
+    235            #define DEFINETOKENS
+    236            switch (creator) {
+   \                     getTokenAddress: (+1)
+   \        0x0   0xF248 0x7123      MOVW     R1,#+34595
+   \        0x4   0x1A40             SUBS     R0,R0,R1
+   \        0x6   0xF000 0x81C7      BEQ.W    ??getTokenAddress_0
+   \        0xA   0x1E40             SUBS     R0,R0,#+1
+   \        0xC   0xF000 0x81C6      BEQ.W    ??getTokenAddress_1
+   \       0x10   0x1E40             SUBS     R0,R0,#+1
+   \       0x12   0xF000 0x81BF      BEQ.W    ??getTokenAddress_2
+   \       0x16   0xF642 0x312E      MOVW     R1,#+11054
+   \       0x1A   0x1A40             SUBS     R0,R0,R1
+   \       0x1C   0xF000 0x8155      BEQ.W    ??getTokenAddress_3
+   \       0x20   0x1E40             SUBS     R0,R0,#+1
+   \       0x22   0xF000 0x814C      BEQ.W    ??getTokenAddress_4
+   \       0x26   0xF44F 0x7178      MOV      R1,#+992
+   \       0x2A   0x1A40             SUBS     R0,R0,R1
+   \       0x2C   0xF000 0x8165      BEQ.W    ??getTokenAddress_5
+   \       0x30   0xF640 0x310F      MOVW     R1,#+2831
+   \       0x34   0x1A40             SUBS     R0,R0,R1
+   \       0x36   0xF000 0x8139      BEQ.W    ??getTokenAddress_6
+   \       0x3A   0xF44F 0x7184      MOV      R1,#+264
+   \       0x3E   0x1A40             SUBS     R0,R0,R1
+   \       0x40   0xF000 0x812E      BEQ.W    ??getTokenAddress_7
+   \       0x44   0x1EC0             SUBS     R0,R0,#+3
+   \       0x46   0xF000 0x8122      BEQ.W    ??getTokenAddress_8
+   \       0x4A   0x38F4             SUBS     R0,R0,#+244
+   \       0x4C   0xF000 0x8131      BEQ.W    ??getTokenAddress_9
+   \       0x50   0x1E40             SUBS     R0,R0,#+1
+   \       0x52   0xF000 0x8140      BEQ.W    ??getTokenAddress_10
+   \       0x56   0x1E40             SUBS     R0,R0,#+1
+   \       0x58   0xF000 0x80E0      BEQ.W    ??getTokenAddress_11
+   \       0x5C   0x1E40             SUBS     R0,R0,#+1
+   \       0x5E   0xF000 0x8143      BEQ.W    ??getTokenAddress_12
+   \       0x62   0x3811             SUBS     R0,R0,#+17
+   \       0x64   0xF000 0x810A      BEQ.W    ??getTokenAddress_13
+   \       0x68   0xF44F 0x71FF      MOV      R1,#+510
+   \       0x6C   0x1A40             SUBS     R0,R0,R1
+   \       0x6E   0xF000 0x8138      BEQ.W    ??getTokenAddress_14
+   \       0x72   0xF240 0x31EF      MOVW     R1,#+1007
+   \       0x76   0x1A40             SUBS     R0,R0,R1
+   \       0x78   0xF000 0x811E      BEQ.W    ??getTokenAddress_15
+   \       0x7C   0x1E40             SUBS     R0,R0,#+1
+   \       0x7E   0xF000 0x8109      BEQ.W    ??getTokenAddress_16
+   \       0x82   0xF240 0x1107      MOVW     R1,#+263
+   \       0x86   0x1A40             SUBS     R0,R0,R1
+   \       0x88   0xF000 0x8134      BEQ.W    ??getTokenAddress_17
+   \       0x8C   0xF44F 0x7142      MOV      R1,#+776
+   \       0x90   0x1A40             SUBS     R0,R0,R1
+   \       0x92   0xF000 0x8108      BEQ.W    ??getTokenAddress_18
+   \       0x96   0xF44F 0x713C      MOV      R1,#+752
+   \       0x9A   0x1A40             SUBS     R0,R0,R1
+   \       0x9C   0xF000 0x80FD      BEQ.W    ??getTokenAddress_19
+   \       0xA0   0xF240 0x2102      MOVW     R1,#+514
+   \       0xA4   0x1A40             SUBS     R0,R0,R1
+   \       0xA6   0xF000 0x8147      BEQ.W    ??getTokenAddress_20
+   \       0xAA   0x38FD             SUBS     R0,R0,#+253
+   \       0xAC   0xF000 0x8116      BEQ.W    ??getTokenAddress_21
+   \       0xB0   0x1E40             SUBS     R0,R0,#+1
+   \       0xB2   0xF000 0x810D      BEQ.W    ??getTokenAddress_22
+   \       0xB6   0x1EC0             SUBS     R0,R0,#+3
+   \       0xB8   0xF000 0x8104      BEQ.W    ??getTokenAddress_23
+   \       0xBC   0xF240 0x510E      MOVW     R1,#+1294
+   \       0xC0   0x1A40             SUBS     R0,R0,R1
+   \       0xC2   0xF000 0x8114      BEQ.W    ??getTokenAddress_24
+   \       0xC6   0xF640 0x01CF      MOVW     R1,#+2255
+   \       0xCA   0x1A40             SUBS     R0,R0,R1
+   \       0xCC   0xF000 0x811A      BEQ.W    ??getTokenAddress_25
+   \       0xD0   0x1E40             SUBS     R0,R0,#+1
+   \       0xD2   0xF000 0x8125      BEQ.W    ??getTokenAddress_26
+   \       0xD6   0x1E40             SUBS     R0,R0,#+1
+   \       0xD8   0xF000 0x8124      BEQ.W    ??getTokenAddress_27
+   \       0xDC   0x1E40             SUBS     R0,R0,#+1
+   \       0xDE   0xF000 0x8123      BEQ.W    ??getTokenAddress_28
+   \       0xE2   0x1E40             SUBS     R0,R0,#+1
+   \       0xE4   0xF000 0x8122      BEQ.W    ??getTokenAddress_29
+   \       0xE8   0x1E40             SUBS     R0,R0,#+1
+   \       0xEA   0xF000 0x8121      BEQ.W    ??getTokenAddress_30
+   \       0xEE   0x1E40             SUBS     R0,R0,#+1
+   \       0xF0   0xF000 0x8120      BEQ.W    ??getTokenAddress_31
+   \       0xF4   0x3839             SUBS     R0,R0,#+57
+   \       0xF6   0xF000 0x810D      BEQ.W    ??getTokenAddress_32
+   \       0xFA   0x38AE             SUBS     R0,R0,#+174
+   \       0xFC   0xF000 0x811E      BEQ.W    ??getTokenAddress_33
+   \      0x100   0x1E40             SUBS     R0,R0,#+1
+   \      0x102   0xF000 0x811D      BEQ.W    ??getTokenAddress_34
+   \      0x106   0x1E40             SUBS     R0,R0,#+1
+   \      0x108   0xF000 0x811C      BEQ.W    ??getTokenAddress_35
+   \      0x10C   0x1E40             SUBS     R0,R0,#+1
+   \      0x10E   0xF000 0x811B      BEQ.W    ??getTokenAddress_36
+   \      0x112   0x1E40             SUBS     R0,R0,#+1
+   \      0x114   0xF000 0x811A      BEQ.W    ??getTokenAddress_37
+   \      0x118   0x1E40             SUBS     R0,R0,#+1
+   \      0x11A   0xF000 0x8119      BEQ.W    ??getTokenAddress_38
+   \      0x11E   0x380B             SUBS     R0,R0,#+11
+   \      0x120   0xF000 0x8118      BEQ.W    ??getTokenAddress_39
+   \      0x124   0x1E40             SUBS     R0,R0,#+1
+   \      0x126   0xF000 0x8117      BEQ.W    ??getTokenAddress_40
+   \      0x12A   0x3837             SUBS     R0,R0,#+55
+   \      0x12C   0xF000 0x8124      BEQ.W    ??getTokenAddress_41
+   \      0x130   0x1E40             SUBS     R0,R0,#+1
+   \      0x132   0xF000 0x8123      BEQ.W    ??getTokenAddress_42
+   \      0x136   0x1E40             SUBS     R0,R0,#+1
+   \      0x138   0xF000 0x8124      BEQ.W    ??getTokenAddress_43
+   \      0x13C   0x1E40             SUBS     R0,R0,#+1
+   \      0x13E   0xF000 0x811F      BEQ.W    ??getTokenAddress_44
+   \      0x142   0x1E40             SUBS     R0,R0,#+1
+   \      0x144   0xF000 0x8120      BEQ.W    ??getTokenAddress_45
+   \      0x148   0x1FC0             SUBS     R0,R0,#+7
+   \      0x14A   0xF000 0x80DF      BEQ.W    ??getTokenAddress_46
+   \      0x14E   0x3811             SUBS     R0,R0,#+17
+   \      0x150   0xF000 0x8104      BEQ.W    ??getTokenAddress_47
+   \      0x154   0x38D1             SUBS     R0,R0,#+209
+   \      0x156   0xF000 0x8094      BEQ.W    ??getTokenAddress_48
+   \      0x15A   0x382A             SUBS     R0,R0,#+42
+   \      0x15C   0xF000 0x808B      BEQ.W    ??getTokenAddress_49
+   \      0x160   0x38E7             SUBS     R0,R0,#+231
+   \      0x162   0xF000 0x80FF      BEQ.W    ??getTokenAddress_50
+   \      0x166   0x381F             SUBS     R0,R0,#+31
+   \      0x168   0xF000 0x80CE      BEQ.W    ??getTokenAddress_51
+   \      0x16C   0x388B             SUBS     R0,R0,#+139
+   \      0x16E   0xF000 0x80FB      BEQ.W    ??getTokenAddress_52
+   \      0x172   0x1E40             SUBS     R0,R0,#+1
+   \      0x174   0xF000 0x80FC      BEQ.W    ??getTokenAddress_53
+   \      0x178   0x1E40             SUBS     R0,R0,#+1
+   \      0x17A   0xF000 0x80FB      BEQ.W    ??getTokenAddress_54
+   \      0x17E   0x1E40             SUBS     R0,R0,#+1
+   \      0x180   0xF000 0x80F4      BEQ.W    ??getTokenAddress_55
+   \      0x184   0x3842             SUBS     R0,R0,#+66
+   \      0x186   0xD052             BEQ.N    ??getTokenAddress_56
+   \      0x188   0x380B             SUBS     R0,R0,#+11
+   \      0x18A   0xF000 0x80FF      BEQ.W    ??getTokenAddress_57
+   \      0x18E   0x1E40             SUBS     R0,R0,#+1
+   \      0x190   0xF000 0x80FE      BEQ.W    ??getTokenAddress_58
+   \      0x194   0x3812             SUBS     R0,R0,#+18
+   \      0x196   0xF000 0x80BB      BEQ.W    ??getTokenAddress_59
+   \      0x19A   0xF44F 0x7180      MOV      R1,#+256
+   \      0x19E   0x1A40             SUBS     R0,R0,R1
+   \      0x1A0   0xD063             BEQ.N    ??getTokenAddress_60
+   \      0x1A2   0x380C             SUBS     R0,R0,#+12
+   \      0x1A4   0xD064             BEQ.N    ??getTokenAddress_61
+   \      0x1A6   0xF240 0x510A      MOVW     R1,#+1290
+   \      0x1AA   0x1A40             SUBS     R0,R0,R1
+   \      0x1AC   0xF000 0x80B4      BEQ.W    ??getTokenAddress_62
+   \      0x1B0   0x38D7             SUBS     R0,R0,#+215
+   \      0x1B2   0xF000 0x80F5      BEQ.W    ??getTokenAddress_63
+   \      0x1B6   0x1E40             SUBS     R0,R0,#+1
+   \      0x1B8   0xF000 0x80F4      BEQ.W    ??getTokenAddress_64
+   \      0x1BC   0x1E40             SUBS     R0,R0,#+1
+   \      0x1BE   0xF000 0x80F3      BEQ.W    ??getTokenAddress_65
+   \      0x1C2   0xF240 0x1121      MOVW     R1,#+289
+   \      0x1C6   0x1A40             SUBS     R0,R0,R1
+   \      0x1C8   0xD05E             BEQ.N    ??getTokenAddress_66
+   \      0x1CA   0x38F1             SUBS     R0,R0,#+241
+   \      0x1CC   0xF000 0x80A6      BEQ.W    ??getTokenAddress_67
+   \      0x1D0   0xF44F 0x7100      MOV      R1,#+512
+   \      0x1D4   0x1A40             SUBS     R0,R0,R1
+   \      0x1D6   0xD024             BEQ.N    ??getTokenAddress_68
+   \      0x1D8   0xF44F 0x7104      MOV      R1,#+528
+   \      0x1DC   0x1A40             SUBS     R0,R0,R1
+   \      0x1DE   0xD032             BEQ.N    ??getTokenAddress_69
+   \      0x1E0   0x1E80             SUBS     R0,R0,#+2
+   \      0x1E2   0xD033             BEQ.N    ??getTokenAddress_70
+   \      0x1E4   0xF44F 0x71E6      MOV      R1,#+460
+   \      0x1E8   0x1A40             SUBS     R0,R0,R1
+   \      0x1EA   0xD026             BEQ.N    ??getTokenAddress_71
+   \      0x1EC   0x3820             SUBS     R0,R0,#+32
+   \      0x1EE   0xD027             BEQ.N    ??getTokenAddress_72
+   \      0x1F0   0x1E40             SUBS     R0,R0,#+1
+   \      0x1F2   0xD031             BEQ.N    ??getTokenAddress_73
+   \      0x1F4   0x1E40             SUBS     R0,R0,#+1
+   \      0x1F6   0xD017             BEQ.N    ??getTokenAddress_74
+   \      0x1F8   0x380A             SUBS     R0,R0,#+10
+   \      0x1FA   0xD01B             BEQ.N    ??getTokenAddress_75
+   \      0x1FC   0x1F80             SUBS     R0,R0,#+6
+   \      0x1FE   0xD02E             BEQ.N    ??getTokenAddress_76
+   \      0x200   0xF240 0x2102      MOVW     R1,#+514
+   \      0x204   0x1A40             SUBS     R0,R0,R1
+   \      0x206   0xD024             BEQ.N    ??getTokenAddress_77
+   \      0x208   0xF640 0x018B      MOVW     R1,#+2187
+   \      0x20C   0x1A40             SUBS     R0,R0,R1
+   \      0x20E   0xD077             BEQ.N    ??getTokenAddress_78
+   \      0x210   0x3808             SUBS     R0,R0,#+8
+   \      0x212   0xD027             BEQ.N    ??getTokenAddress_79
+   \      0x214   0x1F00             SUBS     R0,R0,#+4
+   \      0x216   0xF000 0x80A3      BEQ.W    ??getTokenAddress_80
+   \      0x21A   0xE0C7             B.N      ??getTokenAddress_81
+    237              #define TOKEN_MFG TOKEN_DEF
+    238              #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+    239            case creator:                                                          \
+    240              tokenAddress = TOKEN_##name;                                         \
+    241              break;
+    242              // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    243              //cstat !MISRAC2012-Dir-4.10
+    244              #include "hal/micro/cortexm3/token-manufacturing.h"
+   \                     ??getTokenAddress_11: (+1)
+   \      0x21C   0x....             LDR.N    R0,??DataTable5_6
+   \      0x21E   0x8800             LDRH     R0,[R0, #+0]
+   \      0x220   0x4770             BX       LR
+   \                     ??getTokenAddress_68: (+1)
+   \      0x222   0x....             LDR.N    R0,??DataTable5_7
+   \      0x224   0x8800             LDRH     R0,[R0, #+0]
+   \      0x226   0x4770             BX       LR
+   \                     ??getTokenAddress_74: (+1)
+   \      0x228   0x....             LDR.N    R0,??DataTable5_8
+   \      0x22A   0x8800             LDRH     R0,[R0, #+0]
+   \      0x22C   0x4770             BX       LR
+   \                     ??getTokenAddress_56: (+1)
+   \      0x22E   0x....             LDR.N    R0,??DataTable5_9
+   \      0x230   0x8800             LDRH     R0,[R0, #+0]
+   \      0x232   0x4770             BX       LR
+   \                     ??getTokenAddress_75: (+1)
+   \      0x234   0x....             LDR.N    R0,??DataTable5_10
+   \      0x236   0x8800             LDRH     R0,[R0, #+0]
+   \      0x238   0x4770             BX       LR
+   \                     ??getTokenAddress_71: (+1)
+   \      0x23A   0x....             LDR.N    R0,??DataTable5_11
+   \      0x23C   0x8800             LDRH     R0,[R0, #+0]
+   \      0x23E   0x4770             BX       LR
+   \                     ??getTokenAddress_72: (+1)
+   \      0x240   0x....             LDR.N    R0,??DataTable5_12
+   \      0x242   0x8800             LDRH     R0,[R0, #+0]
+   \      0x244   0x4770             BX       LR
+   \                     ??getTokenAddress_69: (+1)
+   \      0x246   0x....             LDR.N    R0,??DataTable5_13
+   \      0x248   0x8800             LDRH     R0,[R0, #+0]
+   \      0x24A   0x4770             BX       LR
+   \                     ??getTokenAddress_70: (+1)
+   \      0x24C   0x....             LDR.N    R0,??DataTable5_14
+   \      0x24E   0x8800             LDRH     R0,[R0, #+0]
+   \      0x250   0x4770             BX       LR
+   \                     ??getTokenAddress_77: (+1)
+   \      0x252   0x....             LDR.N    R0,??DataTable5_15
+   \      0x254   0x8800             LDRH     R0,[R0, #+0]
+   \      0x256   0x4770             BX       LR
+   \                     ??getTokenAddress_73: (+1)
+   \      0x258   0x....             LDR.N    R0,??DataTable5_16
+   \      0x25A   0x8800             LDRH     R0,[R0, #+0]
+   \      0x25C   0x4770             BX       LR
+   \                     ??getTokenAddress_76: (+1)
+   \      0x25E   0x....             LDR.N    R0,??DataTable5_17
+   \      0x260   0x8800             LDRH     R0,[R0, #+0]
+   \      0x262   0x4770             BX       LR
+   \                     ??getTokenAddress_79: (+1)
+   \      0x264   0x....             LDR.N    R0,??DataTable5_2
+   \      0x266   0x8800             LDRH     R0,[R0, #+0]
+   \      0x268   0x4770             BX       LR
+   \                     ??getTokenAddress_60: (+1)
+   \      0x26A   0x....             LDR.N    R0,??DataTable5_18
+   \      0x26C   0x8800             LDRH     R0,[R0, #+0]
+   \      0x26E   0x4770             BX       LR
+   \                     ??getTokenAddress_61: (+1)
+   \      0x270   0x....             LDR.N    R0,??DataTable5_19
+   \      0x272   0x8800             LDRH     R0,[R0, #+0]
+   \      0x274   0x4770             BX       LR
+   \                     ??getTokenAddress_49: (+1)
+   \      0x276   0x....             LDR.N    R0,??DataTable5_20
+   \      0x278   0x8800             LDRH     R0,[R0, #+0]
+   \      0x27A   0x4770             BX       LR
+   \                     ??getTokenAddress_13: (+1)
+   \      0x27C   0x....             LDR.N    R0,??DataTable5_21
+   \      0x27E   0x8800             LDRH     R0,[R0, #+0]
+   \      0x280   0x4770             BX       LR
+   \                     ??getTokenAddress_48: (+1)
+   \      0x282   0x....             LDR.N    R0,??DataTable5_22
+   \      0x284   0x8800             LDRH     R0,[R0, #+0]
+   \      0x286   0x4770             BX       LR
+   \                     ??getTokenAddress_66: (+1)
+   \      0x288   0x....             LDR.N    R0,??DataTable5_23
+   \      0x28A   0x8800             LDRH     R0,[R0, #+0]
+   \      0x28C   0x4770             BX       LR
+   \                     ??getTokenAddress_8: (+1)
+   \      0x28E   0x....             LDR.N    R0,??DataTable5_24
+   \      0x290   0x8800             LDRH     R0,[R0, #+0]
+   \      0x292   0x4770             BX       LR
+   \                     ??getTokenAddress_16: (+1)
+   \      0x294   0x....             LDR.N    R0,??DataTable5_25
+   \      0x296   0x8800             LDRH     R0,[R0, #+0]
+   \      0x298   0x4770             BX       LR
+   \                     ??getTokenAddress_19: (+1)
+   \      0x29A   0x....             LDR.N    R0,??DataTable5_26
+   \      0x29C   0x8800             LDRH     R0,[R0, #+0]
+   \      0x29E   0x4770             BX       LR
+   \                     ??getTokenAddress_7: (+1)
+   \      0x2A0   0x....             LDR.N    R0,??DataTable5_27
+   \      0x2A2   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2A4   0x4770             BX       LR
+   \                     ??getTokenAddress_18: (+1)
+   \      0x2A6   0x....             LDR.N    R0,??DataTable5_28
+   \      0x2A8   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2AA   0x4770             BX       LR
+   \                     ??getTokenAddress_6: (+1)
+   \      0x2AC   0x....             LDR.N    R0,??DataTable5_29
+   \      0x2AE   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2B0   0x4770             BX       LR
+   \                     ??getTokenAddress_9: (+1)
+   \      0x2B2   0x....             LDR.N    R0,??DataTable5_30
+   \      0x2B4   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2B6   0x4770             BX       LR
+   \                     ??getTokenAddress_15: (+1)
+   \      0x2B8   0x....             LDR.N    R0,??DataTable5_31
+   \      0x2BA   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2BC   0x4770             BX       LR
+   \                     ??getTokenAddress_4: (+1)
+   \      0x2BE   0x....             LDR.N    R0,??DataTable5_32
+   \      0x2C0   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2C2   0x4770             BX       LR
+   \                     ??getTokenAddress_23: (+1)
+   \      0x2C4   0x....             LDR.N    R0,??DataTable5_33
+   \      0x2C6   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2C8   0x4770             BX       LR
+   \                     ??getTokenAddress_3: (+1)
+   \      0x2CA   0x....             LDR.N    R0,??DataTable5_34
+   \      0x2CC   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2CE   0x4770             BX       LR
+   \                     ??getTokenAddress_22: (+1)
+   \      0x2D0   0x....             LDR.N    R0,??DataTable5_35
+   \      0x2D2   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2D4   0x4770             BX       LR
+   \                     ??getTokenAddress_10: (+1)
+   \      0x2D6   0x....             LDR.N    R0,??DataTable5_36
+   \      0x2D8   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2DA   0x4770             BX       LR
+   \                     ??getTokenAddress_21: (+1)
+   \      0x2DC   0x....             LDR.N    R0,??DataTable5_37
+   \      0x2DE   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2E0   0x4770             BX       LR
+   \                     ??getTokenAddress_14: (+1)
+   \      0x2E2   0x....             LDR.N    R0,??DataTable5_38
+   \      0x2E4   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2E6   0x4770             BX       LR
+   \                     ??getTokenAddress_12: (+1)
+   \      0x2E8   0x....             LDR.N    R0,??DataTable5_39
+   \      0x2EA   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2EC   0x4770             BX       LR
+   \                     ??getTokenAddress_24: (+1)
+   \      0x2EE   0x....             LDR.N    R0,??DataTable5_40
+   \      0x2F0   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2F2   0x4770             BX       LR
+   \                     ??getTokenAddress_17: (+1)
+   \      0x2F4   0x....             LDR.N    R0,??DataTable5_41
+   \      0x2F6   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2F8   0x4770             BX       LR
+   \                     ??getTokenAddress_5: (+1)
+   \      0x2FA   0x....             LDR.N    R0,??DataTable5_42
+   \      0x2FC   0x8800             LDRH     R0,[R0, #+0]
+   \      0x2FE   0x4770             BX       LR
+    245              // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    246              //cstat !MISRAC2012-Dir-4.10
+    247              #include "stack/config/token-stack.h"
+   \                     ??getTokenAddress_78: (+1)
+   \      0x300   0x2000             MOVS     R0,#+0
+   \      0x302   0x4770             BX       LR
+   \                     ??getTokenAddress_25: (+1)
+   \      0x304   0x2001             MOVS     R0,#+1
+   \      0x306   0x4770             BX       LR
+   \                     ??getTokenAddress_51: (+1)
+   \      0x308   0x2002             MOVS     R0,#+2
+   \      0x30A   0x4770             BX       LR
+   \                     ??getTokenAddress_46: (+1)
+   \      0x30C   0x2003             MOVS     R0,#+3
+   \      0x30E   0x4770             BX       LR
+   \                     ??getTokenAddress_59: (+1)
+   \      0x310   0x2004             MOVS     R0,#+4
+   \      0x312   0x4770             BX       LR
+   \                     ??getTokenAddress_32: (+1)
+   \      0x314   0x2005             MOVS     R0,#+5
+   \      0x316   0x4770             BX       LR
+   \                     ??getTokenAddress_62: (+1)
+   \      0x318   0x2006             MOVS     R0,#+6
+   \      0x31A   0x4770             BX       LR
+   \                     ??getTokenAddress_67: (+1)
+   \      0x31C   0x2007             MOVS     R0,#+7
+   \      0x31E   0x4770             BX       LR
+   \                     ??getTokenAddress_26: (+1)
+   \      0x320   0x2008             MOVS     R0,#+8
+   \      0x322   0x4770             BX       LR
+   \                     ??getTokenAddress_27: (+1)
+   \      0x324   0x2009             MOVS     R0,#+9
+   \      0x326   0x4770             BX       LR
+   \                     ??getTokenAddress_28: (+1)
+   \      0x328   0x200A             MOVS     R0,#+10
+   \      0x32A   0x4770             BX       LR
+   \                     ??getTokenAddress_29: (+1)
+   \      0x32C   0x200B             MOVS     R0,#+11
+   \      0x32E   0x4770             BX       LR
+   \                     ??getTokenAddress_30: (+1)
+   \      0x330   0x200C             MOVS     R0,#+12
+   \      0x332   0x4770             BX       LR
+   \                     ??getTokenAddress_31: (+1)
+   \      0x334   0x200D             MOVS     R0,#+13
+   \      0x336   0x4770             BX       LR
+   \                     ??getTokenAddress_20: (+1)
+   \      0x338   0x200E             MOVS     R0,#+14
+   \      0x33A   0x4770             BX       LR
+   \                     ??getTokenAddress_33: (+1)
+   \      0x33C   0x200F             MOVS     R0,#+15
+   \      0x33E   0x4770             BX       LR
+   \                     ??getTokenAddress_34: (+1)
+   \      0x340   0x2010             MOVS     R0,#+16
+   \      0x342   0x4770             BX       LR
+   \                     ??getTokenAddress_35: (+1)
+   \      0x344   0x2011             MOVS     R0,#+17
+   \      0x346   0x4770             BX       LR
+   \                     ??getTokenAddress_36: (+1)
+   \      0x348   0x2012             MOVS     R0,#+18
+   \      0x34A   0x4770             BX       LR
+   \                     ??getTokenAddress_37: (+1)
+   \      0x34C   0x2013             MOVS     R0,#+19
+   \      0x34E   0x4770             BX       LR
+   \                     ??getTokenAddress_38: (+1)
+   \      0x350   0x2014             MOVS     R0,#+20
+   \      0x352   0x4770             BX       LR
+   \                     ??getTokenAddress_39: (+1)
+   \      0x354   0x2015             MOVS     R0,#+21
+   \      0x356   0x4770             BX       LR
+   \                     ??getTokenAddress_40: (+1)
+   \      0x358   0x2016             MOVS     R0,#+22
+   \      0x35A   0x4770             BX       LR
+   \                     ??getTokenAddress_47: (+1)
+   \      0x35C   0x2017             MOVS     R0,#+23
+   \      0x35E   0x4770             BX       LR
+   \                     ??getTokenAddress_80: (+1)
+   \      0x360   0x2018             MOVS     R0,#+24
+   \      0x362   0x4770             BX       LR
+   \                     ??getTokenAddress_50: (+1)
+   \      0x364   0x2019             MOVS     R0,#+25
+   \      0x366   0x4770             BX       LR
+   \                     ??getTokenAddress_52: (+1)
+   \      0x368   0x201A             MOVS     R0,#+26
+   \      0x36A   0x4770             BX       LR
+   \                     ??getTokenAddress_55: (+1)
+   \      0x36C   0x201B             MOVS     R0,#+27
+   \      0x36E   0x4770             BX       LR
+   \                     ??getTokenAddress_53: (+1)
+   \      0x370   0x201C             MOVS     R0,#+28
+   \      0x372   0x4770             BX       LR
+   \                     ??getTokenAddress_54: (+1)
+   \      0x374   0x201D             MOVS     R0,#+29
+   \      0x376   0x4770             BX       LR
+   \                     ??getTokenAddress_41: (+1)
+   \      0x378   0x201E             MOVS     R0,#+30
+   \      0x37A   0x4770             BX       LR
+   \                     ??getTokenAddress_42: (+1)
+   \      0x37C   0x201F             MOVS     R0,#+31
+   \      0x37E   0x4770             BX       LR
+   \                     ??getTokenAddress_44: (+1)
+   \      0x380   0x2020             MOVS     R0,#+32
+   \      0x382   0x4770             BX       LR
+   \                     ??getTokenAddress_43: (+1)
+   \      0x384   0x2021             MOVS     R0,#+33
+   \      0x386   0x4770             BX       LR
+   \                     ??getTokenAddress_45: (+1)
+   \      0x388   0x2022             MOVS     R0,#+34
+   \      0x38A   0x4770             BX       LR
+   \                     ??getTokenAddress_57: (+1)
+   \      0x38C   0x2023             MOVS     R0,#+35
+   \      0x38E   0x4770             BX       LR
+   \                     ??getTokenAddress_58: (+1)
+   \      0x390   0x2024             MOVS     R0,#+36
+   \      0x392   0x4770             BX       LR
+   \                     ??getTokenAddress_2: (+1)
+   \      0x394   0x2025             MOVS     R0,#+37
+   \      0x396   0x4770             BX       LR
+   \                     ??getTokenAddress_0: (+1)
+   \      0x398   0x2026             MOVS     R0,#+38
+   \      0x39A   0x4770             BX       LR
+   \                     ??getTokenAddress_1: (+1)
+   \      0x39C   0x2027             MOVS     R0,#+39
+   \      0x39E   0x4770             BX       LR
+   \                     ??getTokenAddress_63: (+1)
+   \      0x3A0   0x2028             MOVS     R0,#+40
+   \      0x3A2   0x4770             BX       LR
+   \                     ??getTokenAddress_64: (+1)
+   \      0x3A4   0x2029             MOVS     R0,#+41
+   \      0x3A6   0x4770             BX       LR
+   \                     ??getTokenAddress_65: (+1)
+   \      0x3A8   0x202A             MOVS     R0,#+42
+   \      0x3AA   0x4770             BX       LR
+    248              #undef TOKEN_MFG
+    249              #undef TOKEN_DEF
+    250              default:
+    251                tokenAddress = INVALID_EE_ADDRESS;
+   \                     ??getTokenAddress_81: (+1)
+   \      0x3AC   0xF64F 0x70FF      MOVW     R0,#+65535
+    252                break;
+    253            }
+    254            #undef DEFINETOKENS
+    255            return tokenAddress;
+   \      0x3B0   0x4770             BX       LR
+    256          }
+    257          
+
+   \                                 In section .text, align 2, keep-with-next
+    258          uint8_t getTokenSize(uint16_t creator)
+    259          {
+    260            uint8_t tokenSize;
+    261          
+    262            #define DEFINETOKENS
+    263            switch (creator) {
+   \                     getTokenSize: (+1)
+   \        0x0   0xF248 0x7123      MOVW     R1,#+34595
+   \        0x4   0x1A40             SUBS     R0,R0,R1
+   \        0x6   0xF000 0x810E      BEQ.W    ??getTokenSize_0
+   \        0xA   0x1E40             SUBS     R0,R0,#+1
+   \        0xC   0xF000 0x810D      BEQ.W    ??getTokenSize_1
+   \       0x10   0x1E40             SUBS     R0,R0,#+1
+   \       0x12   0xF000 0x8106      BEQ.W    ??getTokenSize_2
+   \       0x16   0xF642 0x312E      MOVW     R1,#+11054
+   \       0x1A   0x1A40             SUBS     R0,R0,R1
+   \       0x1C   0x2801             CMP      R0,#+1
+   \       0x1E   0xF240 0x80EC      BLS.W    ??getTokenSize_3
+   \       0x22   0xF240 0x31E1      MOVW     R1,#+993
+   \       0x26   0x1A40             SUBS     R0,R0,R1
+   \       0x28   0xF000 0x8103      BEQ.W    ??getTokenSize_4
+   \       0x2C   0xF640 0x310F      MOVW     R1,#+2831
+   \       0x30   0x1A40             SUBS     R0,R0,R1
+   \       0x32   0xF000 0x80E2      BEQ.W    ??getTokenSize_3
+   \       0x36   0xF44F 0x7184      MOV      R1,#+264
+   \       0x3A   0x1A40             SUBS     R0,R0,R1
+   \       0x3C   0xF000 0x80E5      BEQ.W    ??getTokenSize_5
+   \       0x40   0x1EC0             SUBS     R0,R0,#+3
+   \       0x42   0xF000 0x80E2      BEQ.W    ??getTokenSize_5
+   \       0x46   0x38F4             SUBS     R0,R0,#+244
+   \       0x48   0xF000 0x80DD      BEQ.W    ??getTokenSize_6
+   \       0x4C   0x1E40             SUBS     R0,R0,#+1
+   \       0x4E   0xF000 0x80D4      BEQ.W    ??getTokenSize_3
+   \       0x52   0x1E40             SUBS     R0,R0,#+1
+   \       0x54   0xF000 0x80C9      BEQ.W    ??getTokenSize_7
+   \       0x58   0x1E40             SUBS     R0,R0,#+1
+   \       0x5A   0xF000 0x80C2      BEQ.W    ??getTokenSize_8
+   \       0x5E   0x3811             SUBS     R0,R0,#+17
+   \       0x60   0xF000 0x80CB      BEQ.W    ??getTokenSize_3
+   \       0x64   0xF44F 0x71FF      MOV      R1,#+510
+   \       0x68   0x1A40             SUBS     R0,R0,R1
+   \       0x6A   0xF000 0x80B8      BEQ.W    ??getTokenSize_9
+   \       0x6E   0xF240 0x31EF      MOVW     R1,#+1007
+   \       0x72   0x1A40             SUBS     R0,R0,R1
+   \       0x74   0xF000 0x80D5      BEQ.W    ??getTokenSize_2
+   \       0x78   0x1E40             SUBS     R0,R0,#+1
+   \       0x7A   0xF000 0x80BE      BEQ.W    ??getTokenSize_3
+   \       0x7E   0xF240 0x1107      MOVW     R1,#+263
+   \       0x82   0x1A40             SUBS     R0,R0,R1
+   \       0x84   0xF000 0x80AF      BEQ.W    ??getTokenSize_10
+   \       0x88   0xF44F 0x7142      MOV      R1,#+776
+   \       0x8C   0x1A40             SUBS     R0,R0,R1
+   \       0x8E   0xF000 0x80D0      BEQ.W    ??getTokenSize_4
+   \       0x92   0xF44F 0x713C      MOV      R1,#+752
+   \       0x96   0x1A40             SUBS     R0,R0,R1
+   \       0x98   0xF000 0x80AF      BEQ.W    ??getTokenSize_3
+   \       0x9C   0xF240 0x2102      MOVW     R1,#+514
+   \       0xA0   0x1A40             SUBS     R0,R0,R1
+   \       0xA2   0xF000 0x80BA      BEQ.W    ??getTokenSize_11
+   \       0xA6   0x38FD             SUBS     R0,R0,#+253
+   \       0xA8   0xF000 0x80AF      BEQ.W    ??getTokenSize_5
+   \       0xAC   0x1E40             SUBS     R0,R0,#+1
+   \       0xAE   0xF000 0x80A4      BEQ.W    ??getTokenSize_3
+   \       0xB2   0x1EC0             SUBS     R0,R0,#+3
+   \       0xB4   0xF000 0x80A1      BEQ.W    ??getTokenSize_3
+   \       0xB8   0xF240 0x510E      MOVW     R1,#+1294
+   \       0xBC   0x1A40             SUBS     R0,R0,R1
+   \       0xBE   0xF000 0x809C      BEQ.W    ??getTokenSize_3
+   \       0xC2   0xF640 0x01CF      MOVW     R1,#+2255
+   \       0xC6   0x1A40             SUBS     R0,R0,R1
+   \       0xC8   0xF000 0x80A7      BEQ.W    ??getTokenSize_11
+   \       0xCC   0x1E40             SUBS     R0,R0,#+1
+   \       0xCE   0xF000 0x8090      BEQ.W    ??getTokenSize_12
+   \       0xD2   0x1E40             SUBS     R0,R0,#+1
+   \       0xD4   0xF000 0x80AD      BEQ.W    ??getTokenSize_4
+   \       0xD8   0x1E40             SUBS     R0,R0,#+1
+   \       0xDA   0xF000 0x808C      BEQ.W    ??getTokenSize_13
+   \       0xDE   0x1E40             SUBS     R0,R0,#+1
+   \       0xE0   0xF000 0x808B      BEQ.W    ??getTokenSize_3
+   \       0xE4   0x1E40             SUBS     R0,R0,#+1
+   \       0xE6   0xF000 0x8080      BEQ.W    ??getTokenSize_7
+   \       0xEA   0x1E40             SUBS     R0,R0,#+1
+   \       0xEC   0xF000 0x809B      BEQ.W    ??getTokenSize_0
+   \       0xF0   0x3839             SUBS     R0,R0,#+57
+   \       0xF2   0xF000 0x8082      BEQ.W    ??getTokenSize_3
+   \       0xF6   0x38AE             SUBS     R0,R0,#+174
+   \       0xF8   0xD079             BEQ.N    ??getTokenSize_14
+   \       0xFA   0x1E40             SUBS     R0,R0,#+1
+   \       0xFC   0xF000 0x8085      BEQ.W    ??getTokenSize_5
+   \      0x100   0x1E40             SUBS     R0,R0,#+1
+   \      0x102   0xD074             BEQ.N    ??getTokenSize_14
+   \      0x104   0x1E40             SUBS     R0,R0,#+1
+   \      0x106   0xD074             BEQ.N    ??getTokenSize_12
+   \      0x108   0x1E40             SUBS     R0,R0,#+1
+   \      0x10A   0xF000 0x8092      BEQ.W    ??getTokenSize_4
+   \      0x10E   0x1E40             SUBS     R0,R0,#+1
+   \      0x110   0xD071             BEQ.N    ??getTokenSize_13
+   \      0x112   0x380B             SUBS     R0,R0,#+11
+   \      0x114   0xF000 0x8081      BEQ.W    ??getTokenSize_11
+   \      0x118   0x1E40             SUBS     R0,R0,#+1
+   \      0x11A   0xD06E             BEQ.N    ??getTokenSize_3
+   \      0x11C   0x3837             SUBS     R0,R0,#+55
+   \      0x11E   0xD078             BEQ.N    ??getTokenSize_15
+   \      0x120   0x1E40             SUBS     R0,R0,#+1
+   \      0x122   0xD078             BEQ.N    ??getTokenSize_16
+   \      0x124   0x1E40             SUBS     R0,R0,#+1
+   \      0x126   0xF000 0x8086      BEQ.W    ??getTokenSize_17
+   \      0x12A   0x1E40             SUBS     R0,R0,#+1
+   \      0x12C   0x2801             CMP      R0,#+1
+   \      0x12E   0xD974             BLS.N    ??getTokenSize_11
+   \      0x130   0x3808             SUBS     R0,R0,#+8
+   \      0x132   0xD072             BEQ.N    ??getTokenSize_11
+   \      0x134   0x3811             SUBS     R0,R0,#+17
+   \      0x136   0xD062             BEQ.N    ??getTokenSize_18
+   \      0x138   0x38D1             SUBS     R0,R0,#+209
+   \      0x13A   0xD07A             BEQ.N    ??getTokenSize_4
+   \      0x13C   0x382A             SUBS     R0,R0,#+42
+   \      0x13E   0xD064             BEQ.N    ??getTokenSize_5
+   \      0x140   0x38E7             SUBS     R0,R0,#+231
+   \      0x142   0xD05E             BEQ.N    ??getTokenSize_19
+   \      0x144   0x381F             SUBS     R0,R0,#+31
+   \      0x146   0xD052             BEQ.N    ??getTokenSize_14
+   \      0x148   0x388B             SUBS     R0,R0,#+139
+   \      0x14A   0xD05C             BEQ.N    ??getTokenSize_6
+   \      0x14C   0x1E40             SUBS     R0,R0,#+1
+   \      0x14E   0xD05C             BEQ.N    ??getTokenSize_5
+   \      0x150   0x1E40             SUBS     R0,R0,#+1
+   \      0x152   0xD05C             BEQ.N    ??getTokenSize_20
+   \      0x154   0x1E40             SUBS     R0,R0,#+1
+   \      0x156   0xD066             BEQ.N    ??getTokenSize_0
+   \      0x158   0x3842             SUBS     R0,R0,#+66
+   \      0x15A   0xD06A             BEQ.N    ??getTokenSize_4
+   \      0x15C   0x380B             SUBS     R0,R0,#+11
+   \      0x15E   0xD05E             BEQ.N    ??getTokenSize_21
+   \      0x160   0x1E40             SUBS     R0,R0,#+1
+   \      0x162   0xD060             BEQ.N    ??getTokenSize_0
+   \      0x164   0x3812             SUBS     R0,R0,#+18
+   \      0x166   0xD058             BEQ.N    ??getTokenSize_11
+   \      0x168   0xF44F 0x7180      MOV      R1,#+256
+   \      0x16C   0x1A40             SUBS     R0,R0,R1
+   \      0x16E   0xD044             BEQ.N    ??getTokenSize_3
+   \      0x170   0x380C             SUBS     R0,R0,#+12
+   \      0x172   0xD05E             BEQ.N    ??getTokenSize_4
+   \      0x174   0xF240 0x510A      MOVW     R1,#+1290
+   \      0x178   0x1A40             SUBS     R0,R0,R1
+   \      0x17A   0xD038             BEQ.N    ??getTokenSize_14
+   \      0x17C   0x38D7             SUBS     R0,R0,#+215
+   \      0x17E   0xD056             BEQ.N    ??getTokenSize_22
+   \      0x180   0x1E40             SUBS     R0,R0,#+1
+   \      0x182   0xD056             BEQ.N    ??getTokenSize_4
+   \      0x184   0x1E40             SUBS     R0,R0,#+1
+   \      0x186   0xD056             BEQ.N    ??getTokenSize_17
+   \      0x188   0xF240 0x1121      MOVW     R1,#+289
+   \      0x18C   0x1A40             SUBS     R0,R0,R1
+   \      0x18E   0xD03C             BEQ.N    ??getTokenSize_5
+   \      0x190   0x38F1             SUBS     R0,R0,#+241
+   \      0x192   0xD03A             BEQ.N    ??getTokenSize_5
+   \      0x194   0xF44F 0x7100      MOV      R1,#+512
+   \      0x198   0x1A40             SUBS     R0,R0,R1
+   \      0x19A   0xD020             BEQ.N    ??getTokenSize_9
+   \      0x19C   0xF44F 0x7104      MOV      R1,#+528
+   \      0x1A0   0x1A40             SUBS     R0,R0,R1
+   \      0x1A2   0xD02A             BEQ.N    ??getTokenSize_3
+   \      0x1A4   0x1E80             SUBS     R0,R0,#+2
+   \      0x1A6   0xD028             BEQ.N    ??getTokenSize_3
+   \      0x1A8   0xF44F 0x71E6      MOV      R1,#+460
+   \      0x1AC   0x1A40             SUBS     R0,R0,R1
+   \      0x1AE   0xD038             BEQ.N    ??getTokenSize_2
+   \      0x1B0   0x3820             SUBS     R0,R0,#+32
+   \      0x1B2   0xD020             BEQ.N    ??getTokenSize_13
+   \      0x1B4   0x1E40             SUBS     R0,R0,#+1
+   \      0x1B6   0xD020             BEQ.N    ??getTokenSize_3
+   \      0x1B8   0x1E40             SUBS     R0,R0,#+1
+   \      0x1BA   0xD010             BEQ.N    ??getTokenSize_9
+   \      0x1BC   0x380A             SUBS     R0,R0,#+10
+   \      0x1BE   0xD030             BEQ.N    ??getTokenSize_2
+   \      0x1C0   0x1F80             SUBS     R0,R0,#+6
+   \      0x1C2   0xD01A             BEQ.N    ??getTokenSize_3
+   \      0x1C4   0xF240 0x2102      MOVW     R1,#+514
+   \      0x1C8   0x1A40             SUBS     R0,R0,R1
+   \      0x1CA   0xD016             BEQ.N    ??getTokenSize_3
+   \      0x1CC   0xF640 0x018B      MOVW     R1,#+2187
+   \      0x1D0   0x1A40             SUBS     R0,R0,R1
+   \      0x1D2   0xD012             BEQ.N    ??getTokenSize_3
+   \      0x1D4   0x3808             SUBS     R0,R0,#+8
+   \      0x1D6   0xD010             BEQ.N    ??getTokenSize_3
+   \      0x1D8   0x1F00             SUBS     R0,R0,#+4
+   \      0x1DA   0xD020             BEQ.N    ??getTokenSize_21
+   \      0x1DC   0xE02D             B.N      ??getTokenSize_23
+    264              #define TOKEN_MFG TOKEN_DEF
+    265              #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+    266            case creator:                                                          \
+    267              tokenSize = sizeof(type);                                            \
+    268              break;
+    269              // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    270              //cstat !MISRAC2012-Dir-4.10
+    271              #include "hal/micro/cortexm3/token-manufacturing.h"
+   \                     ??getTokenSize_9: (+1)
+   \      0x1DE   0x2006             MOVS     R0,#+6
+   \      0x1E0   0x4770             BX       LR
+   \                     ??getTokenSize_8: (+1)
+   \      0x1E2   0x2094             MOVS     R0,#+148
+   \      0x1E4   0x4770             BX       LR
+   \                     ??getTokenSize_10: (+1)
+   \      0x1E6   0x2022             MOVS     R0,#+34
+   \      0x1E8   0x4770             BX       LR
+    272              // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    273              //cstat !MISRAC2012-Dir-4.10
+    274              #include "stack/config/token-stack.h"
+   \                     ??getTokenSize_7: (+1)
+   \      0x1EA   0x2018             MOVS     R0,#+24
+   \      0x1EC   0x4770             BX       LR
+   \                     ??getTokenSize_14: (+1)
+   \      0x1EE   0x2011             MOVS     R0,#+17
+   \      0x1F0   0x4770             BX       LR
+   \                     ??getTokenSize_12: (+1)
+   \      0x1F2   0x201A             MOVS     R0,#+26
+   \      0x1F4   0x4770             BX       LR
+   \                     ??getTokenSize_13: (+1)
+   \      0x1F6   0x200A             MOVS     R0,#+10
+   \      0x1F8   0x4770             BX       LR
+   \                     ??getTokenSize_3: (+1)
+   \      0x1FA   0x2002             MOVS     R0,#+2
+   \      0x1FC   0x4770             BX       LR
+   \                     ??getTokenSize_18: (+1)
+   \      0x1FE   0x200D             MOVS     R0,#+13
+   \      0x200   0x4770             BX       LR
+   \                     ??getTokenSize_19: (+1)
+   \      0x202   0x2019             MOVS     R0,#+25
+   \      0x204   0x4770             BX       LR
+   \                     ??getTokenSize_6: (+1)
+   \      0x206   0x205C             MOVS     R0,#+92
+   \      0x208   0x4770             BX       LR
+   \                     ??getTokenSize_5: (+1)
+   \      0x20A   0x2010             MOVS     R0,#+16
+   \      0x20C   0x4770             BX       LR
+   \                     ??getTokenSize_20: (+1)
+   \      0x20E   0x2028             MOVS     R0,#+40
+   \      0x210   0x4770             BX       LR
+   \                     ??getTokenSize_15: (+1)
+   \      0x212   0x2012             MOVS     R0,#+18
+   \      0x214   0x4770             BX       LR
+   \                     ??getTokenSize_16: (+1)
+   \      0x216   0x2034             MOVS     R0,#+52
+   \      0x218   0x4770             BX       LR
+   \                     ??getTokenSize_11: (+1)
+   \      0x21A   0x2004             MOVS     R0,#+4
+   \      0x21C   0x4770             BX       LR
+   \                     ??getTokenSize_21: (+1)
+   \      0x21E   0x200B             MOVS     R0,#+11
+   \      0x220   0x4770             BX       LR
+   \                     ??getTokenSize_2: (+1)
+   \      0x222   0x2014             MOVS     R0,#+20
+   \      0x224   0x4770             BX       LR
+   \                     ??getTokenSize_0: (+1)
+   \      0x226   0x2001             MOVS     R0,#+1
+   \      0x228   0x4770             BX       LR
+   \                     ??getTokenSize_1: (+1)
+   \      0x22A   0x2026             MOVS     R0,#+38
+   \      0x22C   0x4770             BX       LR
+   \                     ??getTokenSize_22: (+1)
+   \      0x22E   0x2020             MOVS     R0,#+32
+   \      0x230   0x4770             BX       LR
+   \                     ??getTokenSize_4: (+1)
+   \      0x232   0x2008             MOVS     R0,#+8
+   \      0x234   0x4770             BX       LR
+   \                     ??getTokenSize_17: (+1)
+   \      0x236   0x2030             MOVS     R0,#+48
+   \      0x238   0x4770             BX       LR
+    275              #undef TOKEN_MFG
+    276              #undef TOKEN_DEF
+    277              default:
+    278                tokenSize = 0U;
+   \                     ??getTokenSize_23: (+1)
+   \      0x23A   0x2000             MOVS     R0,#+0
+    279                break;
+    280            }
+    281            #undef DEFINETOKENS
+    282            return tokenSize;
+   \      0x23C   0x4770             BX       LR
+    283          }
+    284          
+
+   \                                 In section .text, align 2, keep-with-next
+    285          uint8_t getTokenArraySize(uint16_t creator)
+    286          {
+    287            uint8_t tokenArraySize;
+    288          
+    289            #define DEFINETOKENS
+    290            switch (creator) {
+   \                     getTokenArraySize: (+1)
+   \        0x0   0xF248 0x7123      MOVW     R1,#+34595
+   \        0x4   0x1A40             SUBS     R0,R0,R1
+   \        0x6   0xF000 0x80A9      BEQ.W    ??getTokenArraySize_0
+   \        0xA   0x1E40             SUBS     R0,R0,#+1
+   \        0xC   0xF000 0x80A4      BEQ.W    ??getTokenArraySize_1
+   \       0x10   0x1E40             SUBS     R0,R0,#+1
+   \       0x12   0xF000 0x809F      BEQ.W    ??getTokenArraySize_2
+   \       0x16   0xF642 0x312E      MOVW     R1,#+11054
+   \       0x1A   0x1A40             SUBS     R0,R0,R1
+   \       0x1C   0x2801             CMP      R0,#+1
+   \       0x1E   0xF240 0x809D      BLS.W    ??getTokenArraySize_0
+   \       0x22   0xF240 0x31E1      MOVW     R1,#+993
+   \       0x26   0x1A40             SUBS     R0,R0,R1
+   \       0x28   0xF000 0x8098      BEQ.W    ??getTokenArraySize_0
+   \       0x2C   0xF640 0x310F      MOVW     R1,#+2831
+   \       0x30   0x1A40             SUBS     R0,R0,R1
+   \       0x32   0xF000 0x8089      BEQ.W    ??getTokenArraySize_3
+   \       0x36   0xF44F 0x7184      MOV      R1,#+264
+   \       0x3A   0x1A40             SUBS     R0,R0,R1
+   \       0x3C   0xF000 0x808E      BEQ.W    ??getTokenArraySize_0
+   \       0x40   0x1EC0             SUBS     R0,R0,#+3
+   \       0x42   0xF000 0x808B      BEQ.W    ??getTokenArraySize_0
+   \       0x46   0x38F4             SUBS     R0,R0,#+244
+   \       0x48   0x2803             CMP      R0,#+3
+   \       0x4A   0xF240 0x8087      BLS.W    ??getTokenArraySize_0
+   \       0x4E   0x3814             SUBS     R0,R0,#+20
+   \       0x50   0xF000 0x8084      BEQ.W    ??getTokenArraySize_0
+   \       0x54   0xF44F 0x71FF      MOV      R1,#+510
+   \       0x58   0x1A40             SUBS     R0,R0,R1
+   \       0x5A   0xF000 0x807F      BEQ.W    ??getTokenArraySize_0
+   \       0x5E   0xF240 0x31EF      MOVW     R1,#+1007
+   \       0x62   0x1A40             SUBS     R0,R0,R1
+   \       0x64   0x2801             CMP      R0,#+1
+   \       0x66   0xD979             BLS.N    ??getTokenArraySize_0
+   \       0x68   0xF44F 0x7184      MOV      R1,#+264
+   \       0x6C   0x1A40             SUBS     R0,R0,R1
+   \       0x6E   0xD075             BEQ.N    ??getTokenArraySize_0
+   \       0x70   0xF44F 0x7142      MOV      R1,#+776
+   \       0x74   0x1A40             SUBS     R0,R0,R1
+   \       0x76   0xD071             BEQ.N    ??getTokenArraySize_0
+   \       0x78   0xF44F 0x713C      MOV      R1,#+752
+   \       0x7C   0x1A40             SUBS     R0,R0,R1
+   \       0x7E   0xD06D             BEQ.N    ??getTokenArraySize_0
+   \       0x80   0xF240 0x2102      MOVW     R1,#+514
+   \       0x84   0x1A40             SUBS     R0,R0,R1
+   \       0x86   0xD067             BEQ.N    ??getTokenArraySize_1
+   \       0x88   0x38FD             SUBS     R0,R0,#+253
+   \       0x8A   0x2801             CMP      R0,#+1
+   \       0x8C   0xD966             BLS.N    ??getTokenArraySize_0
+   \       0x8E   0x1F00             SUBS     R0,R0,#+4
+   \       0x90   0xD064             BEQ.N    ??getTokenArraySize_0
+   \       0x92   0xF240 0x510E      MOVW     R1,#+1294
+   \       0x96   0x1A40             SUBS     R0,R0,R1
+   \       0x98   0xD060             BEQ.N    ??getTokenArraySize_0
+   \       0x9A   0xF640 0x01CF      MOVW     R1,#+2255
+   \       0x9E   0x1A40             SUBS     R0,R0,R1
+   \       0xA0   0x2806             CMP      R0,#+6
+   \       0xA2   0xD95B             BLS.N    ??getTokenArraySize_0
+   \       0xA4   0x383F             SUBS     R0,R0,#+63
+   \       0xA6   0xD059             BEQ.N    ??getTokenArraySize_0
+   \       0xA8   0x38BE             SUBS     R0,R0,#+190
+   \       0xAA   0xD057             BEQ.N    ??getTokenArraySize_0
+   \       0xAC   0x3838             SUBS     R0,R0,#+56
+   \       0xAE   0xD055             BEQ.N    ??getTokenArraySize_0
+   \       0xB0   0x1E40             SUBS     R0,R0,#+1
+   \       0xB2   0xD04D             BEQ.N    ??getTokenArraySize_4
+   \       0xB4   0x380A             SUBS     R0,R0,#+10
+   \       0xB6   0xD051             BEQ.N    ??getTokenArraySize_0
+   \       0xB8   0x3811             SUBS     R0,R0,#+17
+   \       0xBA   0xD04D             BEQ.N    ??getTokenArraySize_1
+   \       0xBC   0x38D1             SUBS     R0,R0,#+209
+   \       0xBE   0xD04D             BEQ.N    ??getTokenArraySize_0
+   \       0xC0   0x382A             SUBS     R0,R0,#+42
+   \       0xC2   0xD04B             BEQ.N    ??getTokenArraySize_0
+   \       0xC4   0xF44F 0x7183      MOV      R1,#+262
+   \       0xC8   0x1A40             SUBS     R0,R0,R1
+   \       0xCA   0xD047             BEQ.N    ??getTokenArraySize_0
+   \       0xCC   0x388C             SUBS     R0,R0,#+140
+   \       0xCE   0x2801             CMP      R0,#+1
+   \       0xD0   0xD944             BLS.N    ??getTokenArraySize_0
+   \       0xD2   0x1E80             SUBS     R0,R0,#+2
+   \       0xD4   0xD03A             BEQ.N    ??getTokenArraySize_5
+   \       0xD6   0x3842             SUBS     R0,R0,#+66
+   \       0xD8   0xD040             BEQ.N    ??getTokenArraySize_0
+   \       0xDA   0x381E             SUBS     R0,R0,#+30
+   \       0xDC   0xD03E             BEQ.N    ??getTokenArraySize_0
+   \       0xDE   0xF44F 0x7180      MOV      R1,#+256
+   \       0xE2   0x1A40             SUBS     R0,R0,R1
+   \       0xE4   0xD03A             BEQ.N    ??getTokenArraySize_0
+   \       0xE6   0x380C             SUBS     R0,R0,#+12
+   \       0xE8   0xD038             BEQ.N    ??getTokenArraySize_0
+   \       0xEA   0xF240 0x510A      MOVW     R1,#+1290
+   \       0xEE   0x1A40             SUBS     R0,R0,R1
+   \       0xF0   0xD034             BEQ.N    ??getTokenArraySize_0
+   \       0xF2   0x38D7             SUBS     R0,R0,#+215
+   \       0xF4   0x2802             CMP      R0,#+2
+   \       0xF6   0xD931             BLS.N    ??getTokenArraySize_0
+   \       0xF8   0xF240 0x1123      MOVW     R1,#+291
+   \       0xFC   0x1A40             SUBS     R0,R0,R1
+   \       0xFE   0xD02D             BEQ.N    ??getTokenArraySize_0
+   \      0x100   0x38F1             SUBS     R0,R0,#+241
+   \      0x102   0xD02B             BEQ.N    ??getTokenArraySize_0
+   \      0x104   0xF44F 0x7100      MOV      R1,#+512
+   \      0x108   0x1A40             SUBS     R0,R0,R1
+   \      0x10A   0xD027             BEQ.N    ??getTokenArraySize_0
+   \      0x10C   0xF44F 0x7104      MOV      R1,#+528
+   \      0x110   0x1A40             SUBS     R0,R0,R1
+   \      0x112   0xD023             BEQ.N    ??getTokenArraySize_0
+   \      0x114   0x1E80             SUBS     R0,R0,#+2
+   \      0x116   0xD021             BEQ.N    ??getTokenArraySize_0
+   \      0x118   0xF44F 0x71E6      MOV      R1,#+460
+   \      0x11C   0x1A40             SUBS     R0,R0,R1
+   \      0x11E   0xD01D             BEQ.N    ??getTokenArraySize_0
+   \      0x120   0x3820             SUBS     R0,R0,#+32
+   \      0x122   0x2802             CMP      R0,#+2
+   \      0x124   0xD91A             BLS.N    ??getTokenArraySize_0
+   \      0x126   0x380C             SUBS     R0,R0,#+12
+   \      0x128   0xD018             BEQ.N    ??getTokenArraySize_0
+   \      0x12A   0x1F80             SUBS     R0,R0,#+6
+   \      0x12C   0xD016             BEQ.N    ??getTokenArraySize_0
+   \      0x12E   0xF240 0x2102      MOVW     R1,#+514
+   \      0x132   0x1A40             SUBS     R0,R0,R1
+   \      0x134   0xD012             BEQ.N    ??getTokenArraySize_0
+   \      0x136   0xF640 0x018B      MOVW     R1,#+2187
+   \      0x13A   0x1A40             SUBS     R0,R0,R1
+   \      0x13C   0xD00E             BEQ.N    ??getTokenArraySize_0
+   \      0x13E   0x3808             SUBS     R0,R0,#+8
+   \      0x140   0xD00C             BEQ.N    ??getTokenArraySize_0
+   \      0x142   0x1F00             SUBS     R0,R0,#+4
+   \      0x144   0xD002             BEQ.N    ??getTokenArraySize_5
+   \      0x146   0xE00B             B.N      ??getTokenArraySize_6
+    291              #define TOKEN_MFG TOKEN_DEF
+    292              #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+    293            case creator:                                                          \
+    294              tokenArraySize = (uint8_t)arraysize;                                 \
+    295              break;
+    296              // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    297              //cstat !MISRAC2012-Dir-4.10
+    298              #include "hal/micro/cortexm3/token-manufacturing.h"
+   \                     ??getTokenArraySize_3: (+1)
+   \      0x148   0x2014             MOVS     R0,#+20
+   \      0x14A   0x4770             BX       LR
+    299              // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    300              //cstat !MISRAC2012-Dir-4.10
+    301              #include "stack/config/token-stack.h"
+   \                     ??getTokenArraySize_5: (+1)
+   \      0x14C   0x2004             MOVS     R0,#+4
+   \      0x14E   0x4770             BX       LR
+   \                     ??getTokenArraySize_4: (+1)
+   \      0x150   0x2005             MOVS     R0,#+5
+   \      0x152   0x4770             BX       LR
+   \                     ??getTokenArraySize_2: (+1)
+   \      0x154   0x200A             MOVS     R0,#+10
+   \      0x156   0x4770             BX       LR
+   \                     ??getTokenArraySize_1: (+1)
+   \      0x158   0x2010             MOVS     R0,#+16
+   \      0x15A   0x4770             BX       LR
+   \                     ??getTokenArraySize_0: (+1)
+   \      0x15C   0x2001             MOVS     R0,#+1
+   \      0x15E   0x4770             BX       LR
+    302              #undef TOKEN_MFG
+    303              #undef TOKEN_DEF
+    304              default:
+    305                tokenArraySize = 0U;
+   \                     ??getTokenArraySize_6: (+1)
+   \      0x160   0x2000             MOVS     R0,#+0
+    306                break;
+    307            }
+    308            #undef DEFINETOKENS
+    309            return tokenArraySize;
+   \      0x162   0x4770             BX       LR
+    310          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_1:
+   \        0x0   0x....'....        DC32     tokensActive
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_2:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_FIB_VERSION
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_3:
+   \        0x0   0x0808'0000        DC32     0x8080000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_4:
+   \        0x0   0x....'....        DC32     simEeSetDataActiveSemaphore
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_5:
+   \        0x0   0x....'....        DC32     ?_1
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_6:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_CHIP_DATA
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_7:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_PART_DATA
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_8:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_TESTER_DATA
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_9:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_EMBER_EUI_64
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_10:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_ANALOG_TRIM_NORMAL
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_11:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_ANALOG_TRIM_BOOST
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_12:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_ANALOG_TRIM_BOTH
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_13:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_REG_TRIM
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_14:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_1V8_REG_VOLTAGE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_15:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_VREF_VOLTAGE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_16:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_TEMP_CAL
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_17:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_TEST_TEMP
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_18:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_FIB_CHECKSUM
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_19:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_FIB_OBS
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_20:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_CIB_OBS
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_21:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_CUSTOM_VERSION
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_22:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_CUSTOM_EUI_64
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_23:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_STRING
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_24:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_BOARD_NAME
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_25:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_MANUF_ID
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_26:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_PHY_CONFIG
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_27:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_BOOTLOAD_AES_KEY
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_28:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_EZSP_STORAGE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_29:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_ASH_CONFIG
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_30:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_CBKE_DATA
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_31:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_INSTALLATION_CODE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_32:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_OSC24M_BIAS_TRIM
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_33:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_SYNTH_FREQ_OFFSET
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_34:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_OSC24M_SETTLE_DELAY
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_35:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_SECURITY_CONFIG
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_36:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_CCA_THRESHOLD
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_37:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_SECURE_BOOTLOADER_KEY
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_38:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_ETHERNET_ADDRESS
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_39:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_CBKE_283K1_DATA
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_40:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_XO_TUNE
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_41:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_THREAD_JOIN_KEY
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_42:
+   \        0x0   0x....'....        DC32     TOKEN_MFG_EUI_64
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x01FE 0x02FD      DC16 510, 765
+
+   \                                 In section .rodata, align 4
+   \                     ?_1:
+   \        0x0   0x74 0x6F          DC8 "token.c"
+   \              0x6B 0x65    
+   \              0x6E 0x2E    
+   \              0x63 0x00
+    311          
+    312          #endif //EMBER_TEST
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   getTokenAddress
+       0   getTokenArraySize
+       0   getTokenSize
+       8   halInternalGetIdxTokenPtrOrData
+         0   -> halInternalSimEeGetPtr
+       8   halInternalGetTokenData
+         0   -> halInternalGetMfgTokenData
+         0   -> halInternalSimEeGetData
+       0   halInternalIncrementCounterToken
+         0   -> halInternalSimEeIncrementCounter
+      24   halInternalSetTokenData
+         0   -> halInternalAssertFailed
+        24   -> halInternalAssertFailed
+        24   -> halInternalSimEeSetData
+      24   halStackInitTokens
+        24   -> halInternalGetTokenData
+        24   -> halInternalSimEeStartup
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable5
+       4  ??DataTable5_1
+       4  ??DataTable5_10
+       4  ??DataTable5_11
+       4  ??DataTable5_12
+       4  ??DataTable5_13
+       4  ??DataTable5_14
+       4  ??DataTable5_15
+       4  ??DataTable5_16
+       4  ??DataTable5_17
+       4  ??DataTable5_18
+       4  ??DataTable5_19
+       4  ??DataTable5_2
+       4  ??DataTable5_20
+       4  ??DataTable5_21
+       4  ??DataTable5_22
+       4  ??DataTable5_23
+       4  ??DataTable5_24
+       4  ??DataTable5_25
+       4  ??DataTable5_26
+       4  ??DataTable5_27
+       4  ??DataTable5_28
+       4  ??DataTable5_29
+       4  ??DataTable5_3
+       4  ??DataTable5_30
+       4  ??DataTable5_31
+       4  ??DataTable5_32
+       4  ??DataTable5_33
+       4  ??DataTable5_34
+       4  ??DataTable5_35
+       4  ??DataTable5_36
+       4  ??DataTable5_37
+       4  ??DataTable5_38
+       4  ??DataTable5_39
+       4  ??DataTable5_4
+       4  ??DataTable5_40
+       4  ??DataTable5_41
+       4  ??DataTable5_42
+       4  ??DataTable5_5
+       4  ??DataTable5_6
+       4  ??DataTable5_7
+       4  ??DataTable5_8
+       4  ??DataTable5_9
+       4  ?_0
+       8  ?_1
+     946  getTokenAddress
+     356  getTokenArraySize
+     574  getTokenSize
+      54  halInternalGetIdxTokenPtrOrData
+      42  halInternalGetTokenData
+      16  halInternalIncrementCounterToken
+      96  halInternalSetTokenData
+     172  halStackInitTokens
+       1  simEeSetDataActiveSemaphore
+       1  tokensActive
+
+ 
+     2 bytes in section .bss
+    12 bytes in section .rodata
+ 2'428 bytes in section .text
+ 
+ 2'428 bytes of CODE  memory
+    12 bytes of CONST memory
+     2 bytes of DATA  memory
+
+Errors: none
+Warnings: none

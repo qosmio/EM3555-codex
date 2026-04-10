@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_efm8">
+  <assets path="/efm8/SuperBeeDemo/SuperTux.zip" diskSizeKB="109244.281" downloadSizeKB="78243.003" directory="true"/>
+  <assets version="0.1" path="/efm8/appnote/AN0885/AN0885.pdf" diskSizeKB="187.659" downloadSizeKB="187.659"/>
+  <assets version="0.1" path="/efm8/appnote/AN1074.zip" diskSizeKB="1460.644" downloadSizeKB="1297.786" directory="true"/>
+  <assets version="0.2" path="/efm8/appnote/AN1074/an1074-efm8-family-iec60730-library.pdf" diskSizeKB="1456.441" downloadSizeKB="1456.441"/>
+  <assets version="0.1" path="/efm8/appnote/AN929/AN929.pdf" diskSizeKB="831.313" downloadSizeKB="831.313"/>
+  <assets path="/efm8/appnote/AN945.zip" diskSizeKB="10656.52" downloadSizeKB="10550.662" directory="true"/>
+  <assets path="/efm8/appnote/AN954.zip" diskSizeKB="6236.342" downloadSizeKB="5969.993" directory="true"/>
+  <assets path="/efm8/configurator/bb1/EFM8BB1_A.zip" diskSizeKB="5949.671" downloadSizeKB="1125.578" directory="true"/>
+  <assets path="/efm8/configurator/bb2/EFM8BB2_B.zip" diskSizeKB="6226.834" downloadSizeKB="1159.259" directory="true"/>
+  <assets path="/efm8/configurator/bb2/EFM8BB2_C.zip" diskSizeKB="6300.399" downloadSizeKB="1173.363" directory="true"/>
+  <assets path="/efm8/configurator/bb3/EFM8BB3_A.zip" diskSizeKB="7878.796" downloadSizeKB="1392.183" directory="true"/>
+  <assets path="/efm8/configurator/bb3/EFM8BB3_B.zip" diskSizeKB="8818.313" downloadSizeKB="1527.619" directory="true"/>
+  <assets path="/efm8/configurator/bb3/EFM8BB3_C.zip" diskSizeKB="5577.162" downloadSizeKB="913.82" directory="true"/>
+  <assets path="/efm8/configurator/bb3/EFM8BB3_D.zip" diskSizeKB="5581.894" downloadSizeKB="914.082" directory="true"/>
+  <assets path="/efm8/configurator/bb50/EFM8BB50_A.zip" diskSizeKB="3755.88" downloadSizeKB="646.075" directory="true"/>
+  <assets path="/efm8/configurator/bb51/EFM8BB51_C.zip" diskSizeKB="3693.879" downloadSizeKB="630.62" directory="true"/>
+  <assets path="/efm8/configurator/bb52/EFM8BB52_C.zip" diskSizeKB="4368.702" downloadSizeKB="727.543" directory="true"/>
+  <assets path="/efm8/configurator/lb1/EFM8LB1_A.zip" diskSizeKB="7900.922" downloadSizeKB="1393.253" directory="true"/>
+  <assets path="/efm8/configurator/lb1/EFM8LB1_B.zip" diskSizeKB="9084.386" downloadSizeKB="1563.895" directory="true"/>
+  <assets path="/efm8/configurator/lb1/EFM8LB1_C.zip" diskSizeKB="5844.652" downloadSizeKB="950.377" directory="true"/>
+  <assets path="/efm8/configurator/sb1/EFM8SB1_A.zip" diskSizeKB="6159.312" downloadSizeKB="1156.901" directory="true"/>
+  <assets path="/efm8/configurator/sb2/EFM8SB2_A.zip" diskSizeKB="6237.054" downloadSizeKB="1156.143" directory="true"/>
+  <assets path="/efm8/configurator/sb2/EFM8SB2_B.zip" diskSizeKB="2876.57" downloadSizeKB="514.156" directory="true"/>
+  <assets path="/efm8/configurator/ub1/EFM8UB1_B.zip" diskSizeKB="6515.928" downloadSizeKB="1181.323" directory="true"/>
+  <assets path="/efm8/configurator/ub1/EFM8UB1_C.zip" diskSizeKB="6552.966" downloadSizeKB="1188.419" directory="true"/>
+  <assets path="/efm8/configurator/ub2/EFM8UB2_A.zip" diskSizeKB="6532.733" downloadSizeKB="1194.152" directory="true"/>
+  <assets path="/efm8/configurator/ub2/EFM8UB2_B.zip" diskSizeKB="3336.548" downloadSizeKB="589.011" directory="true"/>
+  <assets path="/efm8/configurator/ub3/EFM8UB3_A.zip" diskSizeKB="6881.948" downloadSizeKB="1231.304" directory="true"/>
+  <assets path="/efm8/configurator/ub4/EFM8UB4_A.zip" diskSizeKB="7185.756" downloadSizeKB="1268.501" directory="true"/>
+  <assets version="1.6" path="/efm8/datasheet/EFM8BB1_datasheet.pdf" diskSizeKB="1107.009" downloadSizeKB="1107.009"/>
+  <assets version="1.4" path="/efm8/datasheet/EFM8BB2_datasheet.pdf" diskSizeKB="1156.181" downloadSizeKB="1156.181"/>
+  <assets version="1.2" path="/efm8/datasheet/EFM8BB3_datasheet.pdf" diskSizeKB="1126.456" downloadSizeKB="1126.456"/>
+  <assets version="1.2" path="/efm8/datasheet/EFM8LB1_datasheet.pdf" diskSizeKB="1175.392" downloadSizeKB="1175.392"/>
+  <assets version="1.4" path="/efm8/datasheet/EFM8SB1_datasheet.pdf" diskSizeKB="1236.897" downloadSizeKB="1236.897"/>
+  <assets version="1.2" path="/efm8/datasheet/EFM8SB2_datasheet.pdf" diskSizeKB="1015.183" downloadSizeKB="1015.183"/>
+  <assets version="1.3" path="/efm8/datasheet/EFM8UB1_datasheet.pdf" diskSizeKB="1187.467" downloadSizeKB="1187.467"/>
+  <assets version="1.3" path="/efm8/datasheet/EFM8UB2_datasheet.pdf" diskSizeKB="1035.019" downloadSizeKB="1035.019"/>
+  <assets version="1.1" path="/efm8/datasheet/EFM8UB3_datasheet.pdf" diskSizeKB="820.585" downloadSizeKB="820.585"/>
+  <assets path="/efm8/datasheet/EFM8UB4_datasheet.pdf" diskSizeKB="83.077" downloadSizeKB="83.077"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F2A-A-QFN20_debug.json" diskSizeKB="337.681" downloadSizeKB="337.681"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F2G-A-QFN20_debug.json" diskSizeKB="337.681" downloadSizeKB="337.681"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F2I-A-QFN20_debug.json" diskSizeKB="337.681" downloadSizeKB="337.681"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F4A-A-QFN20_debug.json" diskSizeKB="338.009" downloadSizeKB="338.009"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F4G-A-QFN20_debug.json" diskSizeKB="338.009" downloadSizeKB="338.009"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F4I-A-QFN20_debug.json" diskSizeKB="338.009" downloadSizeKB="338.009"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8A-A-QFN20_debug.json" diskSizeKB="338.01" downloadSizeKB="338.01"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8G-A-QFN20_debug.json" diskSizeKB="338.01" downloadSizeKB="338.01"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8G-A-QSOP24_debug.json" diskSizeKB="338.495" downloadSizeKB="338.495"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8G-A-SOIC16_debug.json" diskSizeKB="336.555" downloadSizeKB="336.555"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8I-A-QFN20_debug.json" diskSizeKB="338.01" downloadSizeKB="338.01"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8I-A-QSOP24_debug.json" diskSizeKB="338.495" downloadSizeKB="338.495"/>
+  <assets path="/efm8/debug/bb1/EFM8BB1_A/EFM8BB10F8I-A-SOIC16_debug.json" diskSizeKB="336.555" downloadSizeKB="336.555"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB21F16G-B-QFN20_debug.json" diskSizeKB="500.049" downloadSizeKB="500.049"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB21F16G-B-QSOP24_debug.json" diskSizeKB="502.488" downloadSizeKB="502.488"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB21F16I-B-QFN20_debug.json" diskSizeKB="500.049" downloadSizeKB="500.049"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB21F16I-B-QSOP24_debug.json" diskSizeKB="502.488" downloadSizeKB="502.488"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB22F16G-B-QFN28_debug.json" diskSizeKB="502.488" downloadSizeKB="502.488"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_B/EFM8BB22F16I-B-QFN28_debug.json" diskSizeKB="502.488" downloadSizeKB="502.488"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16A-C-QFN20_debug.json" diskSizeKB="500.076" downloadSizeKB="500.076"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16G-C-QFN20_debug.json" diskSizeKB="500.076" downloadSizeKB="500.076"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16G-C-QSOP24_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16I-C-QFN20_debug.json" diskSizeKB="500.076" downloadSizeKB="500.076"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB21F16I-C-QSOP24_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB22F16A-C-QFN28_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB22F16G-C-QFN28_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515"/>
+  <assets path="/efm8/debug/bb2/EFM8BB2_C/EFM8BB22F16I-C-QFN28_debug.json" diskSizeKB="502.515" downloadSizeKB="502.515"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F16G-A-QFN24_debug.json" diskSizeKB="674.613" downloadSizeKB="674.613"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F16G-A-QFN32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F16G-A-QFP32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F16G-A-QSOP24_debug.json" diskSizeKB="675.098" downloadSizeKB="675.098"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32G-A-QFN24_debug.json" diskSizeKB="674.613" downloadSizeKB="674.613"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32G-A-QFN32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32G-A-QFP32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32G-A-QSOP24_debug.json" diskSizeKB="675.098" downloadSizeKB="675.098"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32I-A-QFN24_debug.json" diskSizeKB="674.613" downloadSizeKB="674.613"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32I-A-QFN32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32I-A-QFP32_debug.json" diskSizeKB="678.167" downloadSizeKB="678.167"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F32I-A-QSOP24_debug.json" diskSizeKB="675.098" downloadSizeKB="675.098"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64G-A-QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64G-A-QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64G-A-QFP32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64G-A-QSOP24_debug.json" diskSizeKB="689.329" downloadSizeKB="689.329"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64I-A-QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64I-A-QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64I-A-QFP32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_A/EFM8BB31F64I-A-QSOP24_debug.json" diskSizeKB="689.329" downloadSizeKB="689.329"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16A-B-4QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16A-B-5QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16A-B-QFN24_debug.json" diskSizeKB="676.181" downloadSizeKB="676.181"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16A-B-QFN32_debug.json" diskSizeKB="679.669" downloadSizeKB="679.669"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16G-B-QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16G-B-QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16G-B-QFP32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16G-B-QSOP24_debug.json" diskSizeKB="689.555" downloadSizeKB="689.555"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-4QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-5QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-QFN24_debug.json" diskSizeKB="674.84" downloadSizeKB="674.84"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-QFN32_debug.json" diskSizeKB="678.394" downloadSizeKB="678.394"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-QFP32_debug.json" diskSizeKB="678.394" downloadSizeKB="678.394"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F16I-B-QSOP24_debug.json" diskSizeKB="675.325" downloadSizeKB="675.325"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32A-B-4QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32A-B-5QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32A-B-QFN24_debug.json" diskSizeKB="676.181" downloadSizeKB="676.181"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32A-B-QFN32_debug.json" diskSizeKB="679.669" downloadSizeKB="679.669"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32G-B-QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32G-B-QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32G-B-QFP32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32G-B-QSOP24_debug.json" diskSizeKB="689.555" downloadSizeKB="689.555"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-4QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-5QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-QFN24_debug.json" diskSizeKB="689.07" downloadSizeKB="689.07"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-QFN32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-QFP32_debug.json" diskSizeKB="692.624" downloadSizeKB="692.624"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F32I-B-QSOP24_debug.json" diskSizeKB="689.555" downloadSizeKB="689.555"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64A-B-4QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64A-B-5QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64A-B-QFN24_debug.json" diskSizeKB="676.182" downloadSizeKB="676.182"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64A-B-QFN32_debug.json" diskSizeKB="679.67" downloadSizeKB="679.67"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64G-B-QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64G-B-QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64G-B-QFP32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64G-B-QSOP24_debug.json" diskSizeKB="689.329" downloadSizeKB="689.329"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-4QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-5QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-QFN24_debug.json" diskSizeKB="688.844" downloadSizeKB="688.844"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-QFN32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-QFP32_debug.json" diskSizeKB="692.398" downloadSizeKB="692.398"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_B/EFM8BB31F64I-B-QSOP24_debug.json" diskSizeKB="689.329" downloadSizeKB="689.329"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16A-C-4QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16A-C-5QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16G-C-QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16G-C-QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16G-C-QFP32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16G-C-QSOP24_debug.json" diskSizeKB="687.84" downloadSizeKB="687.84"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-4QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-5QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-QFN24_debug.json" diskSizeKB="673.125" downloadSizeKB="673.125"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-QFN32_debug.json" diskSizeKB="676.679" downloadSizeKB="676.679"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-QFP32_debug.json" diskSizeKB="676.679" downloadSizeKB="676.679"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F16I-C-QSOP24_debug.json" diskSizeKB="673.61" downloadSizeKB="673.61"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32A-C-4QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32A-C-5QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32G-C-QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32G-C-QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32G-C-QFP32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32G-C-QSOP24_debug.json" diskSizeKB="687.84" downloadSizeKB="687.84"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-4QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-5QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-QFN24_debug.json" diskSizeKB="687.355" downloadSizeKB="687.355"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-QFN32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-QFP32_debug.json" diskSizeKB="690.909" downloadSizeKB="690.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F32I-C-QSOP24_debug.json" diskSizeKB="687.84" downloadSizeKB="687.84"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64A-C-4QFN24_debug.json" diskSizeKB="687.356" downloadSizeKB="687.356"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64A-C-5QFN32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64G-C-QFN24_debug.json" diskSizeKB="687.356" downloadSizeKB="687.356"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64G-C-QFN32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64G-C-QFP32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64G-C-QSOP24_debug.json" diskSizeKB="687.841" downloadSizeKB="687.841"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-4QFN24_debug.json" diskSizeKB="687.356" downloadSizeKB="687.356"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-5QFN32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-QFN24_debug.json" diskSizeKB="687.356" downloadSizeKB="687.356"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-QFN32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-QFP32_debug.json" diskSizeKB="690.91" downloadSizeKB="690.91"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_C/EFM8BB31F64I-C-QSOP24_debug.json" diskSizeKB="687.841" downloadSizeKB="687.841"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16A-D-4QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16A-D-5QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16G-D-QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16G-D-QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16G-D-QFP32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16G-D-QSOP24_debug.json" diskSizeKB="687.908" downloadSizeKB="687.908"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-4QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-5QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-QFP32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F16I-D-QSOP24_debug.json" diskSizeKB="687.908" downloadSizeKB="687.908"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32A-D-4QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32A-D-5QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32G-D-QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32G-D-QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32G-D-QFP32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32G-D-QSOP24_debug.json" diskSizeKB="687.908" downloadSizeKB="687.908"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-4QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-5QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-QFN24_debug.json" diskSizeKB="687.423" downloadSizeKB="687.423"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-QFN32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-QFP32_debug.json" diskSizeKB="690.977" downloadSizeKB="690.977"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F32I-D-QSOP24_debug.json" diskSizeKB="687.908" downloadSizeKB="687.908"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64A-D-4QFN24_debug.json" diskSizeKB="687.424" downloadSizeKB="687.424"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64A-D-5QFN32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64G-D-QFN24_debug.json" diskSizeKB="687.424" downloadSizeKB="687.424"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64G-D-QFN32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64G-D-QFP32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64G-D-QSOP24_debug.json" diskSizeKB="687.909" downloadSizeKB="687.909"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-4QFN24_debug.json" diskSizeKB="687.424" downloadSizeKB="687.424"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-5QFN32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-QFN24_debug.json" diskSizeKB="687.424" downloadSizeKB="687.424"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-QFN32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-QFP32_debug.json" diskSizeKB="690.978" downloadSizeKB="690.978"/>
+  <assets path="/efm8/debug/bb3/EFM8BB3_D/EFM8BB31F64I-D-QSOP24_debug.json" diskSizeKB="687.909" downloadSizeKB="687.909"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16G-A-QFN12_debug.json" diskSizeKB="489.576" downloadSizeKB="489.576"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16G-A-QFN16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16G-A-SOIC16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16I-A-QFN12_debug.json" diskSizeKB="489.576" downloadSizeKB="489.576"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16I-A-QFN16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F16I-A-SOIC16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4G-A-QFN12_debug.json" diskSizeKB="489.576" downloadSizeKB="489.576"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4G-A-QFN16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4G-A-SOIC16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4I-A-QFN12_debug.json" diskSizeKB="489.576" downloadSizeKB="489.576"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4I-A-QFN16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F4I-A-SOIC16_debug.json" diskSizeKB="491.316" downloadSizeKB="491.316"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8G-A-QFN12_debug.json" diskSizeKB="489.577" downloadSizeKB="489.577"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8G-A-QFN16_debug.json" diskSizeKB="491.317" downloadSizeKB="491.317"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8G-A-SOIC16_debug.json" diskSizeKB="491.317" downloadSizeKB="491.317"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8I-A-QFN12_debug.json" diskSizeKB="489.577" downloadSizeKB="489.577"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8I-A-QFN16_debug.json" diskSizeKB="491.317" downloadSizeKB="491.317"/>
+  <assets path="/efm8/debug/bb50/EFM8BB50_A/EFM8BB50F8I-A-SOIC16_debug.json" diskSizeKB="491.317" downloadSizeKB="491.317"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F16G-A-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F16G-A-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F16I-A-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F16I-A-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F8G-A-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F8G-A-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F8I-A-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_A/EFM8BB51F8I-A-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F16G-B-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F16G-B-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F16I-B-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F16I-B-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F8G-B-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F8G-B-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F8I-B-QFN20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_B/EFM8BB51F8I-B-TSSOP20_debug.json" diskSizeKB="628.487" downloadSizeKB="628.487"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F16G-C-QFN20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F16G-C-TSSOP20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F16I-C-QFN20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F16I-C-TSSOP20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F8G-C-QFN20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F8G-C-TSSOP20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F8I-C-QFN20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413"/>
+  <assets path="/efm8/debug/bb51/EFM8BB51_C/EFM8BB51F8I-C-TSSOP20_debug.json" diskSizeKB="590.413" downloadSizeKB="590.413"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16G-A-QFN20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16G-A-QFN32_debug.json" diskSizeKB="683.857" downloadSizeKB="683.857"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16G-A-TSSOP20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16G-A-TSSOP28_debug.json" diskSizeKB="682.065" downloadSizeKB="682.065"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16I-A-QFN20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16I-A-QFN32_debug.json" diskSizeKB="683.857" downloadSizeKB="683.857"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16I-A-TSSOP20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F16I-A-TSSOP28_debug.json" diskSizeKB="682.065" downloadSizeKB="682.065"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32G-A-QFN20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32G-A-QFN32_debug.json" diskSizeKB="683.857" downloadSizeKB="683.857"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32G-A-TSSOP20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32G-A-TSSOP28_debug.json" diskSizeKB="682.065" downloadSizeKB="682.065"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32I-A-QFN20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32I-A-QFN32_debug.json" diskSizeKB="683.857" downloadSizeKB="683.857"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32I-A-TSSOP20_debug.json" diskSizeKB="682.892" downloadSizeKB="682.892"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_A/EFM8BB52F32I-A-TSSOP28_debug.json" diskSizeKB="682.065" downloadSizeKB="682.065"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16G-B-QFN20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16G-B-QFN32_debug.json" diskSizeKB="687.648" downloadSizeKB="687.648"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16G-B-TSSOP20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16G-B-TSSOP28_debug.json" diskSizeKB="685.856" downloadSizeKB="685.856"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16I-B-QFN20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16I-B-QFN32_debug.json" diskSizeKB="687.648" downloadSizeKB="687.648"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16I-B-TSSOP20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F16I-B-TSSOP28_debug.json" diskSizeKB="685.856" downloadSizeKB="685.856"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32G-B-QFN20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32G-B-QFN32_debug.json" diskSizeKB="687.648" downloadSizeKB="687.648"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32G-B-TSSOP20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32G-B-TSSOP28_debug.json" diskSizeKB="685.856" downloadSizeKB="685.856"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32I-B-QFN20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32I-B-QFN32_debug.json" diskSizeKB="687.648" downloadSizeKB="687.648"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32I-B-TSSOP20_debug.json" diskSizeKB="686.683" downloadSizeKB="686.683"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_B/EFM8BB52F32I-B-TSSOP28_debug.json" diskSizeKB="685.856" downloadSizeKB="685.856"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16G-C-QFN20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16G-C-QFN32_debug.json" diskSizeKB="689.141" downloadSizeKB="689.141"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16G-C-TSSOP20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16G-C-TSSOP28_debug.json" diskSizeKB="687.353" downloadSizeKB="687.353"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16I-C-QFN20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16I-C-QFN32_debug.json" diskSizeKB="689.141" downloadSizeKB="689.141"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16I-C-TSSOP20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F16I-C-TSSOP28_debug.json" diskSizeKB="687.353" downloadSizeKB="687.353"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32G-C-QFN20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32G-C-QFN32_debug.json" diskSizeKB="689.141" downloadSizeKB="689.141"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32G-C-TSSOP20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32G-C-TSSOP28_debug.json" diskSizeKB="687.353" downloadSizeKB="687.353"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32I-C-QFN20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32I-C-QFN32_debug.json" diskSizeKB="689.141" downloadSizeKB="689.141"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32I-C-TSSOP20_debug.json" diskSizeKB="686.745" downloadSizeKB="686.745"/>
+  <assets path="/efm8/debug/bb52/EFM8BB52_C/EFM8BB52F32I-C-TSSOP28_debug.json" diskSizeKB="687.353" downloadSizeKB="687.353"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16E-A-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16E-A-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16E-A-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16E-A-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16ES0-B-QFN24_debug.json" diskSizeKB="680.071" downloadSizeKB="680.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB10F16ES0-B-QFN32_debug.json" diskSizeKB="676.583" downloadSizeKB="676.583"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16E-A-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16E-A-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16E-A-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16E-A-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16ES0-B-QFN24_debug.json" diskSizeKB="680.071" downloadSizeKB="680.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F16ES0-B-QFN32_debug.json" diskSizeKB="676.583" downloadSizeKB="676.583"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32E-A-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32E-A-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32E-A-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32E-A-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32ES0-B-QFN24_debug.json" diskSizeKB="680.071" downloadSizeKB="680.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB11F32ES0-B-QFN32_debug.json" diskSizeKB="676.583" downloadSizeKB="676.583"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32E-A-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32E-A-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32E-A-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32E-A-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32ES0-B-QFN24_debug.json" diskSizeKB="680.071" downloadSizeKB="680.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F32ES0-B-QFN32_debug.json" diskSizeKB="676.583" downloadSizeKB="676.583"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64E-A-QFN24_debug.json" diskSizeKB="689.172" downloadSizeKB="689.172"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64E-A-QFN32_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64E-A-QFP32_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64E-A-QSOP24_debug.json" diskSizeKB="689.657" downloadSizeKB="689.657"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64ES0-B-QFN24_debug.json" diskSizeKB="680.072" downloadSizeKB="680.072"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_A/EFM8LB12F64ES0-B-QFN32_debug.json" diskSizeKB="676.584" downloadSizeKB="676.584"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16E-B-QFN24_debug.json" diskSizeKB="649.704" downloadSizeKB="649.704"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16E-B-QFN32_debug.json" diskSizeKB="653.258" downloadSizeKB="653.258"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16E-B-QFP32_debug.json" diskSizeKB="653.258" downloadSizeKB="653.258"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16E-B-QSOP24_debug.json" diskSizeKB="650.189" downloadSizeKB="650.189"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16ES0-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16ES0-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16ES1-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB10F16ES1-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16E-B-QFN24_debug.json" diskSizeKB="674.941" downloadSizeKB="674.941"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16E-B-QFN32_debug.json" diskSizeKB="678.495" downloadSizeKB="678.495"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16E-B-QFP32_debug.json" diskSizeKB="678.495" downloadSizeKB="678.495"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16E-B-QSOP24_debug.json" diskSizeKB="675.426" downloadSizeKB="675.426"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16ES0-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16ES0-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16ES1-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F16ES1-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32E-B-QFN24_debug.json" diskSizeKB="674.941" downloadSizeKB="674.941"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32E-B-QFN32_debug.json" diskSizeKB="678.495" downloadSizeKB="678.495"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32E-B-QFP32_debug.json" diskSizeKB="678.495" downloadSizeKB="678.495"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32E-B-QSOP24_debug.json" diskSizeKB="675.426" downloadSizeKB="675.426"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32ES0-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32ES0-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32ES1-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB11F32ES1-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32E-B-QFN24_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32E-B-QFN32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32E-B-QFP32_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32E-B-QSOP24_debug.json" diskSizeKB="689.656" downloadSizeKB="689.656"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32ES0-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32ES0-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32ES1-B-QFN24_debug.json" diskSizeKB="692.725" downloadSizeKB="692.725"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F32ES1-B-QFN32_debug.json" diskSizeKB="689.171" downloadSizeKB="689.171"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64E-B-QFN24_debug.json" diskSizeKB="689.172" downloadSizeKB="689.172"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64E-B-QFN32_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64E-B-QFP32_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64E-B-QSOP24_debug.json" diskSizeKB="689.657" downloadSizeKB="689.657"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64ES0-B-QFN24_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64ES0-B-QFN32_debug.json" diskSizeKB="689.172" downloadSizeKB="689.172"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64ES1-B-QFN24_debug.json" diskSizeKB="692.726" downloadSizeKB="692.726"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_B/EFM8LB12F64ES1-B-QFN32_debug.json" diskSizeKB="689.172" downloadSizeKB="689.172"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16E-C-QFN24_debug.json" diskSizeKB="649.05" downloadSizeKB="649.05"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16E-C-QFN32_debug.json" diskSizeKB="652.604" downloadSizeKB="652.604"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16E-C-QFP32_debug.json" diskSizeKB="652.604" downloadSizeKB="652.604"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16E-C-QSOP24_debug.json" diskSizeKB="649.535" downloadSizeKB="649.535"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16ES0-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16ES0-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16ES1-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB10F16ES1-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16E-C-QFN24_debug.json" diskSizeKB="674.287" downloadSizeKB="674.287"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16E-C-QFN32_debug.json" diskSizeKB="677.841" downloadSizeKB="677.841"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16E-C-QFP32_debug.json" diskSizeKB="677.841" downloadSizeKB="677.841"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16E-C-QSOP24_debug.json" diskSizeKB="674.772" downloadSizeKB="674.772"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16ES0-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16ES0-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16ES1-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F16ES1-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32E-C-QFN24_debug.json" diskSizeKB="674.287" downloadSizeKB="674.287"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32E-C-QFN32_debug.json" diskSizeKB="677.841" downloadSizeKB="677.841"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32E-C-QFP32_debug.json" diskSizeKB="677.841" downloadSizeKB="677.841"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32E-C-QSOP24_debug.json" diskSizeKB="674.772" downloadSizeKB="674.772"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32ES0-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32ES0-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32ES1-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB11F32ES1-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32E-C-QFN24_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32E-C-QFN32_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32E-C-QFP32_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32E-C-QSOP24_debug.json" diskSizeKB="689.002" downloadSizeKB="689.002"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32ES0-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32ES0-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32ES1-C-QFN24_debug.json" diskSizeKB="692.071" downloadSizeKB="692.071"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F32ES1-C-QFN32_debug.json" diskSizeKB="688.517" downloadSizeKB="688.517"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64E-C-QFN24_debug.json" diskSizeKB="688.518" downloadSizeKB="688.518"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64E-C-QFN32_debug.json" diskSizeKB="692.072" downloadSizeKB="692.072"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64E-C-QFP32_debug.json" diskSizeKB="692.072" downloadSizeKB="692.072"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64E-C-QSOP24_debug.json" diskSizeKB="689.003" downloadSizeKB="689.003"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64ES0-C-QFN24_debug.json" diskSizeKB="692.072" downloadSizeKB="692.072"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64ES0-C-QFN32_debug.json" diskSizeKB="688.518" downloadSizeKB="688.518"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64ES1-C-QFN24_debug.json" diskSizeKB="692.072" downloadSizeKB="692.072"/>
+  <assets path="/efm8/debug/lb1/EFM8LB1_C/EFM8LB12F64ES1-C-QFN32_debug.json" diskSizeKB="688.518" downloadSizeKB="688.518"/>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F2G-A-QFN20_debug.json" diskSizeKB="406.48" downloadSizeKB="406.48"/>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F4G-A-QFN20_debug.json" diskSizeKB="406.808" downloadSizeKB="406.808"/>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8A-A-QFN20_debug.json" diskSizeKB="406.809" downloadSizeKB="406.809"/>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8A-A-QFN24_debug.json" diskSizeKB="407.133" downloadSizeKB="407.133"/>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8G-A-CSP16_debug.json" diskSizeKB="406.652" downloadSizeKB="406.652"/>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8G-A-QFN20_debug.json" diskSizeKB="406.809" downloadSizeKB="406.809"/>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8G-A-QFN24_debug.json" diskSizeKB="407.133" downloadSizeKB="407.133"/>
+  <assets path="/efm8/debug/sb1/EFM8SB1_A/EFM8SB10F8G-A-QSOP24_debug.json" diskSizeKB="407.133" downloadSizeKB="407.133"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F16G-A-QFN24_debug.json" diskSizeKB="447.935" downloadSizeKB="447.935"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F32G-A-QFN24_debug.json" diskSizeKB="447.935" downloadSizeKB="447.935"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F32G-A-QFN32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F32G-A-QFP32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F64G-A-QFN24_debug.json" diskSizeKB="447.935" downloadSizeKB="447.935"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F64G-A-QFN32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_A/EFM8SB20F64G-A-QFP32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F16G-B-QFN24_debug.json" diskSizeKB="457.667" downloadSizeKB="457.667"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F32G-B-QFN24_debug.json" diskSizeKB="457.667" downloadSizeKB="457.667"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F32G-B-QFN32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F32G-B-QFP32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F64G-B-QFN24_debug.json" diskSizeKB="457.667" downloadSizeKB="457.667"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F64G-B-QFN32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629"/>
+  <assets path="/efm8/debug/sb2/EFM8SB2_B/EFM8SB20F64G-B-QFP32_debug.json" diskSizeKB="461.629" downloadSizeKB="461.629"/>
+  <assets path="/efm8/debug/si3470a/Si3470A_A01/SI3470A-A01-IMR_debug.json" diskSizeKB="483.164" downloadSizeKB="483.164"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_B/EFM8UB10F16G-B-QFN20_debug.json" diskSizeKB="603.282" downloadSizeKB="603.282"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_B/EFM8UB10F16G-B-QFN28_debug.json" diskSizeKB="607.667" downloadSizeKB="607.667"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_B/EFM8UB10F8G-B-QFN20_debug.json" diskSizeKB="603.268" downloadSizeKB="603.268"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_B/EFM8UB11F16G-B-QSOP24_debug.json" diskSizeKB="605.222" downloadSizeKB="605.222"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB10F16G-C-QFN20_debug.json" diskSizeKB="603.309" downloadSizeKB="603.309"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB10F16G-C-QFN28_debug.json" diskSizeKB="607.694" downloadSizeKB="607.694"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB10F8G-C-QFN20_debug.json" diskSizeKB="603.295" downloadSizeKB="603.295"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB11F16G-C-QFN24_debug.json" diskSizeKB="604.762" downloadSizeKB="604.762"/>
+  <assets path="/efm8/debug/ub1/EFM8UB1_C/EFM8UB11F16G-C-QSOP24_debug.json" diskSizeKB="605.249" downloadSizeKB="605.249"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F32G-A-QFN32_debug.json" diskSizeKB="492.231" downloadSizeKB="492.231"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F32G-A-QFP32_debug.json" diskSizeKB="492.231" downloadSizeKB="492.231"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F32G-A-QFP48_debug.json" diskSizeKB="523.909" downloadSizeKB="523.909"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F64G-A-QFN32_debug.json" diskSizeKB="492.232" downloadSizeKB="492.232"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F64G-A-QFP32_debug.json" diskSizeKB="492.232" downloadSizeKB="492.232"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_A/EFM8UB20F64G-A-QFP48_debug.json" diskSizeKB="523.91" downloadSizeKB="523.91"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F32G-B-QFN32_debug.json" diskSizeKB="520.064" downloadSizeKB="520.064"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F32G-B-QFP32_debug.json" diskSizeKB="520.064" downloadSizeKB="520.064"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F32G-B-QFP48_debug.json" diskSizeKB="523.91" downloadSizeKB="523.91"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F64G-B-QFN32_debug.json" diskSizeKB="520.065" downloadSizeKB="520.065"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F64G-B-QFP32_debug.json" diskSizeKB="520.065" downloadSizeKB="520.065"/>
+  <assets path="/efm8/debug/ub2/EFM8UB2_B/EFM8UB20F64G-B-QFP48_debug.json" diskSizeKB="523.911" downloadSizeKB="523.911"/>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB30F16G-C-QFN28_debug.json" diskSizeKB="596.375" downloadSizeKB="596.375"/>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB30F40G-A-QFN20_debug.json" diskSizeKB="649.796" downloadSizeKB="649.796"/>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB31F16G-C-QFN28_debug.json" diskSizeKB="596.375" downloadSizeKB="596.375"/>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB31F40G-A-QFN24_debug.json" diskSizeKB="651.892" downloadSizeKB="651.892"/>
+  <assets path="/efm8/debug/ub3/EFM8UB3_A/EFM8UB31F40G-A-QSOP24_debug.json" diskSizeKB="651.892" downloadSizeKB="651.892"/>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB40F40G-A-QFN20_debug.json" diskSizeKB="784.308" downloadSizeKB="784.308"/>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB41F40G-A-QFN20_debug.json" diskSizeKB="783.79" downloadSizeKB="783.79"/>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB42F40G-A-QFN24_debug.json" diskSizeKB="786.919" downloadSizeKB="786.919"/>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB42F40G-A-QFN32_debug.json" diskSizeKB="788.378" downloadSizeKB="788.378"/>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB42F40G-A-QSOP24_debug.json" diskSizeKB="786.919" downloadSizeKB="786.919"/>
+  <assets path="/efm8/debug/ub4/EFM8UB4_A/EFM8UB44F40G-A-QFN32_debug.json" diskSizeKB="788.378" downloadSizeKB="788.378"/>
+  <assets version="0.4" path="/efm8/errata/EFM8BB1_Errata.pdf" diskSizeKB="588.51" downloadSizeKB="588.51"/>
+  <assets version="0.5" path="/efm8/errata/EFM8BB2_Errata.pdf" diskSizeKB="593.14" downloadSizeKB="593.14"/>
+  <assets version="0.6" path="/efm8/errata/EFM8BB3_Errata.pdf" diskSizeKB="678.189" downloadSizeKB="678.189"/>
+  <assets version="0.8" path="/efm8/errata/EFM8LB1_Errata.pdf" diskSizeKB="685.462" downloadSizeKB="685.462"/>
+  <assets version="0.3" path="/efm8/errata/EFM8SB1_Errata.pdf" diskSizeKB="236.378" downloadSizeKB="236.378"/>
+  <assets version="0.5" path="/efm8/errata/EFM8SB2_Errata.pdf" diskSizeKB="590.832" downloadSizeKB="590.832"/>
+  <assets version="0.5" path="/efm8/errata/EFM8UB1_Errata.pdf" diskSizeKB="599.314" downloadSizeKB="599.314"/>
+  <assets version="0.4" path="/efm8/errata/EFM8UB2_Errata.pdf" diskSizeKB="577.129" downloadSizeKB="577.129"/>
+  <assets version="0.2" path="/efm8/reference/EFM8BB1_ReferenceManual.pdf" diskSizeKB="2224.297" downloadSizeKB="2224.297"/>
+  <assets version="0.2" path="/efm8/reference/EFM8BB2_ReferenceManual.pdf" diskSizeKB="2789.772" downloadSizeKB="2789.772"/>
+  <assets version="0.3" path="/efm8/reference/EFM8BB3_ReferenceManual.pdf" diskSizeKB="2834.55" downloadSizeKB="2834.55"/>
+  <assets version="0.3" path="/efm8/reference/EFM8LB1_ReferenceManual.pdf" diskSizeKB="2846.041" downloadSizeKB="2846.041"/>
+  <assets version="0.1" path="/efm8/reference/EFM8SB1_ReferenceManual.pdf" diskSizeKB="1660.698" downloadSizeKB="1660.698"/>
+  <assets version="0.1" path="/efm8/reference/EFM8SB2_ReferenceManual.pdf" diskSizeKB="1721.23" downloadSizeKB="1721.23"/>
+  <assets version="0.2" path="/efm8/reference/EFM8UB1_ReferenceManual.pdf" diskSizeKB="3021.478" downloadSizeKB="3021.478"/>
+  <assets version="0.2" path="/efm8/reference/EFM8UB2_ReferenceManual.pdf" diskSizeKB="2601.443" downloadSizeKB="2601.443"/>
+  <assets version="0.1" path="/efm8/reference/EFM8UB3_ReferenceManual.pdf" diskSizeKB="2560.522" downloadSizeKB="2560.522"/>
+  <assets version="0.1" path="/efm8/reference/EFM8UB4_ReferenceManual.pdf" diskSizeKB="83.077" downloadSizeKB="83.077"/>
+  <assets path="/efm8/reference/efm8-libraries.html" diskSizeKB="0.132" downloadSizeKB="0.132"/>
+</assets>

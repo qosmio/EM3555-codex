@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_metadata_ffd_ga">
+  <assets path="/metadata/ga/ffd.zip" diskSizeKB="40.343" downloadSizeKB="12.279" directory="true">
+    <property key="autoDownload" value="true"/>
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1702423524495"/>
+  </assets>
+</assets>

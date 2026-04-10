@@ -1,0 +1,468 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:23
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\zigbee-framework\zigbee-device-common.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\zigbee-device-common.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\zigbee-framework\zigbee-device-common.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"zigbee-device-common.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\zigbee-framework\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\zigbee-device-common.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\zigbee-device-common.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\zigbee-device-common.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\zigbee-device-common.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\zigbee-framework\zigbee-device-common.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief ZigBee Device Object (ZDO) functions available on all platforms.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include PLATFORM_HEADER
+     19          #include "stack/include/ember-types.h"
+     20          #include "stack/include/error.h"
+     21          #include "hal/hal.h"
+     22          #include "zigbee-device-common.h"
+     23          
+
+   \                                 In section .bss, align 1
+     24          static uint8_t zigDevRequestSequence = 0;
+   \                     zigDevRequestSequence:
+   \        0x0                      DS8 1
+
+   \                                 In section .data, align 1
+     25          uint8_t zigDevRequestRadius = 255;
+   \                     zigDevRequestRadius:
+   \        0x0   0xFF               DC8 255
+     26          
+     27          // Application generated ZDO messages use sequence numbers 0-127, and the stack
+     28          // uses sequence numbers 128-255.  This simplifies life by eliminating the need
+     29          // for coordination between the two entities, and allows both to send ZDO
+     30          // messages with non-conflicting sequence numbers.
+     31          #define APPLICATION_ZDO_SEQUENCE_MASK (0x7F)
+     32          
+
+   \                                 In section .text, align 2, keep-with-next
+     33          uint8_t emberGetLastAppZigDevRequestSequence(void)
+     34          {
+     35            return (zigDevRequestSequence & APPLICATION_ZDO_SEQUENCE_MASK);
+   \                     emberGetLastAppZigDevRequestSequence: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable1
+   \        0x2   0x7800             LDRB     R0,[R0, #+0]
+   \        0x4   0xF000 0x007F      AND      R0,R0,#0x7F
+   \        0x8   0x4770             BX       LR
+     36          }
+     37          
+
+   \                                 In section .text, align 2, keep-with-next
+     38          uint8_t emberNextZigDevRequestSequence(void)
+     39          {
+     40            return ((++zigDevRequestSequence) & APPLICATION_ZDO_SEQUENCE_MASK);
+   \                     emberNextZigDevRequestSequence: (+1)
+   \        0x0   0x....             LDR.N    R1,??DataTable1
+   \        0x2   0x7808             LDRB     R0,[R1, #+0]
+   \        0x4   0x1C40             ADDS     R0,R0,#+1
+   \        0x6   0x7008             STRB     R0,[R1, #+0]
+   \        0x8   0xF000 0x007F      AND      R0,R0,#0x7F
+   \        0xC   0x4770             BX       LR
+     41          }
+     42          
+
+   \                                 In section .text, align 2, keep-with-next
+     43          EmberStatus emberSendZigDevRequestTarget(EmberNodeId target,
+     44                                                   uint16_t clusterId,
+     45                                                   EmberApsOption options)
+     46          {
+   \                     emberSendZigDevRequestTarget: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+     47            uint8_t contents[ZDO_MESSAGE_OVERHEAD + 2];
+     48            uint8_t *payload = contents + ZDO_MESSAGE_OVERHEAD;
+     49            payload[0] = LOW_BYTE(target);
+   \        0x2   0x4603             MOV      R3,R0
+   \        0x4   0xF88D 0x3005      STRB     R3,[SP, #+5]
+     50            payload[1] = HIGH_BYTE(target);
+   \        0x8   0x0A1B             LSRS     R3,R3,#+8
+   \        0xA   0xF88D 0x3006      STRB     R3,[SP, #+6]
+     51            return emberSendZigDevRequest(target,
+     52                                          clusterId,
+     53                                          options,
+     54                                          contents,
+     55                                          sizeof(contents));
+   \        0xE   0x2303             MOVS     R3,#+3
+   \       0x10   0x9300             STR      R3,[SP, #+0]
+   \       0x12   0xAB01             ADD      R3,SP,#+4
+   \       0x14   0x.... 0x....      BL       emberSendZigDevRequest
+   \       0x18   0xBD0E             POP      {R1-R3,PC}
+     56          }
+     57          
+
+   \                                 In section .text, align 2, keep-with-next
+     58          EmberStatus emberSimpleDescriptorRequest(EmberNodeId target,
+     59                                                   uint8_t targetEndpoint,
+     60                                                   EmberApsOption options)
+     61          {
+   \                     emberSimpleDescriptorRequest: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+     62            uint8_t contents[ZDO_MESSAGE_OVERHEAD + 3];
+     63            uint8_t *payload = contents + ZDO_MESSAGE_OVERHEAD;
+     64            payload[0] = LOW_BYTE(target);
+   \        0x2   0x4603             MOV      R3,R0
+   \        0x4   0xF88D 0x3005      STRB     R3,[SP, #+5]
+     65            payload[1] = HIGH_BYTE(target);
+   \        0x8   0x0A1B             LSRS     R3,R3,#+8
+   \        0xA   0xF88D 0x3006      STRB     R3,[SP, #+6]
+     66            payload[2] = targetEndpoint;
+   \        0xE   0xF88D 0x1007      STRB     R1,[SP, #+7]
+     67            return emberSendZigDevRequest(target,
+     68                                          SIMPLE_DESCRIPTOR_REQUEST,
+     69                                          options,
+     70                                          contents,
+     71                                          sizeof(contents));
+   \       0x12   0x2104             MOVS     R1,#+4
+   \       0x14   0x9100             STR      R1,[SP, #+0]
+   \       0x16   0xAB01             ADD      R3,SP,#+4
+   \       0x18   0x.... 0x....      BL       emberSendZigDevRequest
+   \       0x1C   0xBD0E             POP      {R1-R3,PC}
+     72          }
+     73          
+
+   \                                 In section .text, align 2, keep-with-next
+     74          EmberStatus emberSendZigDevBindRequest(EmberNodeId target,
+     75                                                 uint16_t bindClusterId,
+     76                                                 EmberEUI64 source,
+     77                                                 uint8_t sourceEndpoint,
+     78                                                 uint16_t clusterId,
+     79                                                 uint8_t type,
+     80                                                 EmberEUI64 destination,
+     81                                                 EmberMulticastId groupAddress,
+     82                                                 uint8_t destinationEndpoint,
+     83                                                 EmberApsOption options)
+     84          {
+   \                     emberSendZigDevBindRequest: (+1)
+   \        0x0   0xE92D 0x41F8      PUSH     {R3-R8,LR}
+   \        0x4   0xB087             SUB      SP,SP,#+28
+   \        0x6   0x4606             MOV      R6,R0
+   \        0x8   0x460F             MOV      R7,R1
+   \        0xA   0x4611             MOV      R1,R2
+   \        0xC   0x4698             MOV      R8,R3
+   \        0xE   0x9C0E             LDR      R4,[SP, #+56]
+   \       0x10   0x9D0F             LDR      R5,[SP, #+60]
+     85            uint8_t contents[ZDO_MESSAGE_OVERHEAD + 21];
+     86            uint8_t *payload = contents + ZDO_MESSAGE_OVERHEAD;
+     87            uint8_t length;
+     88            MEMMOVE(payload, source, 8);
+   \       0x12   0x2208             MOVS     R2,#+8
+   \       0x14   0xF10D 0x0005      ADD      R0,SP,#+5
+   \       0x18   0x.... 0x....      BL       __aeabi_memmove
+     89            payload[8] = sourceEndpoint;
+   \       0x1C   0xF88D 0x800D      STRB     R8,[SP, #+13]
+     90            payload[9] = LOW_BYTE(clusterId);
+   \       0x20   0x4620             MOV      R0,R4
+   \       0x22   0xF88D 0x000E      STRB     R0,[SP, #+14]
+     91            payload[10] = HIGH_BYTE(clusterId);
+   \       0x26   0xB2A4             UXTH     R4,R4
+   \       0x28   0x0A24             LSRS     R4,R4,#+8
+   \       0x2A   0xF88D 0x400F      STRB     R4,[SP, #+15]
+     92            payload[11] = type;
+   \       0x2E   0xF88D 0x5010      STRB     R5,[SP, #+16]
+     93            switch (type) {
+   \       0x32   0xB2ED             UXTB     R5,R5
+   \       0x34   0x2D01             CMP      R5,#+1
+   \       0x36   0xD016             BEQ.N    ??emberSendZigDevBindRequest_0
+   \       0x38   0x2D03             CMP      R5,#+3
+   \       0x3A   0xD11E             BNE.N    ??emberSendZigDevBindRequest_1
+   \       0x3C   0x9C12             LDR      R4,[SP, #+72]
+     94              case UNICAST_BINDING:
+     95                MEMMOVE(payload + 12, destination, 8);
+   \       0x3E   0x2208             MOVS     R2,#+8
+   \       0x40   0x9910             LDR      R1,[SP, #+64]
+   \       0x42   0xF10D 0x0011      ADD      R0,SP,#+17
+   \       0x46   0x.... 0x....      BL       __aeabi_memmove
+     96                payload[20] = destinationEndpoint;
+   \       0x4A   0xF88D 0x4019      STRB     R4,[SP, #+25]
+     97                length = ZDO_MESSAGE_OVERHEAD + 21;
+   \       0x4E   0x2016             MOVS     R0,#+22
+     98                break;
+   \                     ??emberSendZigDevBindRequest_2: (+1)
+   \       0x50   0x9A13             LDR      R2,[SP, #+76]
+     99              case MULTICAST_BINDING:
+    100                payload[12] = LOW_BYTE(groupAddress);
+    101                payload[13] = HIGH_BYTE(groupAddress);
+    102                length = ZDO_MESSAGE_OVERHEAD + 14;
+    103                break;
+    104              default:
+    105                return EMBER_ERR_FATAL;
+    106            }
+    107            return emberSendZigDevRequest(target,
+    108                                          bindClusterId,
+    109                                          options,
+    110                                          contents,
+    111                                          length);
+   \       0x52   0x9000             STR      R0,[SP, #+0]
+   \       0x54   0xAB01             ADD      R3,SP,#+4
+   \       0x56   0xB292             UXTH     R2,R2
+   \       0x58   0x4639             MOV      R1,R7
+   \       0x5A   0x4630             MOV      R0,R6
+   \       0x5C   0x.... 0x....      BL       emberSendZigDevRequest
+   \                     ??emberSendZigDevBindRequest_3: (+1)
+   \       0x60   0xB008             ADD      SP,SP,#+32
+   \       0x62   0xE8BD 0x81F0      POP      {R4-R8,PC}
+   \                     ??emberSendZigDevBindRequest_0: (+1)
+   \       0x66   0x9811             LDR      R0,[SP, #+68]
+   \       0x68   0x4601             MOV      R1,R0
+   \       0x6A   0xF88D 0x1011      STRB     R1,[SP, #+17]
+   \       0x6E   0xB280             UXTH     R0,R0
+   \       0x70   0x0A00             LSRS     R0,R0,#+8
+   \       0x72   0xF88D 0x0012      STRB     R0,[SP, #+18]
+   \       0x76   0x200F             MOVS     R0,#+15
+   \       0x78   0xE7EA             B.N      ??emberSendZigDevBindRequest_2
+   \                     ??emberSendZigDevBindRequest_1: (+1)
+   \       0x7A   0x2001             MOVS     R0,#+1
+   \       0x7C   0xE7F0             B.N      ??emberSendZigDevBindRequest_3
+    112          }
+    113          
+    114          #define emberLqiTableRequest(target, startIndex, options) \
+    115            (emberTableRequest(LQI_TABLE_REQUEST, (target), (startIndex), (options)))
+    116          #define emberRoutingTableRequest(target, startIndex, options) \
+    117            (emberTableRequest(ROUTING_TABLE_REQUEST, (target), (startIndex), (options)))
+    118          #define emberBindingTableRequest(target, startIndex, options) \
+    119            (emberTableRequest(BINDING_TABLE_REQUEST, (target), (startIndex), (options)))
+    120          
+
+   \                                 In section .text, align 2, keep-with-next
+    121          EmberStatus emberTableRequest(uint16_t clusterId,
+    122                                        EmberNodeId target,
+    123                                        uint8_t startIndex,
+    124                                        EmberApsOption options)
+    125          {
+   \                     emberTableRequest: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x460C             MOV      R4,R1
+   \        0x4   0x4619             MOV      R1,R3
+    126            uint8_t contents[ZDO_MESSAGE_OVERHEAD + 1];
+    127            contents[ZDO_MESSAGE_OVERHEAD] = startIndex;
+   \        0x6   0xF88D 0x2005      STRB     R2,[SP, #+5]
+    128            return emberSendZigDevRequest(target,
+    129                                          clusterId,
+    130                                          options,
+    131                                          contents,
+    132                                          sizeof(contents));
+   \        0xA   0x2202             MOVS     R2,#+2
+   \        0xC   0x9200             STR      R2,[SP, #+0]
+   \        0xE   0xAB01             ADD      R3,SP,#+4
+   \       0x10   0x460A             MOV      R2,R1
+   \       0x12   0x4601             MOV      R1,R0
+   \       0x14   0x4620             MOV      R0,R4
+   \       0x16   0x.... 0x....      BL       emberSendZigDevRequest
+   \       0x1A   0xBD16             POP      {R1,R2,R4,PC}
+    133          }
+    134          
+
+   \                                 In section .text, align 2, keep-with-next
+    135          EmberStatus emberLeaveRequest(EmberNodeId target,
+    136                                        EmberEUI64 deviceAddress,
+    137                                        uint8_t leaveRequestFlags,
+    138                                        EmberApsOption options)
+    139          {
+   \                     emberLeaveRequest: (+1)
+   \        0x0   0xB57F             PUSH     {R0-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x4615             MOV      R5,R2
+   \        0x6   0x461E             MOV      R6,R3
+    140            uint8_t contents[ZDO_MESSAGE_OVERHEAD + 9];
+    141            MEMMOVE(contents + ZDO_MESSAGE_OVERHEAD, deviceAddress, 8);
+   \        0x8   0x2208             MOVS     R2,#+8
+   \        0xA   0xF10D 0x0005      ADD      R0,SP,#+5
+   \        0xE   0x.... 0x....      BL       __aeabi_memmove
+    142            contents[ZDO_MESSAGE_OVERHEAD + 8] = leaveRequestFlags;
+   \       0x12   0xF88D 0x500D      STRB     R5,[SP, #+13]
+    143            return emberSendZigDevRequest(target,
+    144                                          LEAVE_REQUEST,
+    145                                          options,
+    146                                          contents,
+    147                                          sizeof(contents));
+   \       0x16   0x200A             MOVS     R0,#+10
+   \       0x18   0x9000             STR      R0,[SP, #+0]
+   \       0x1A   0xAB01             ADD      R3,SP,#+4
+   \       0x1C   0x4632             MOV      R2,R6
+   \       0x1E   0x2134             MOVS     R1,#+52
+   \       0x20   0x4620             MOV      R0,R4
+   \       0x22   0x.... 0x....      BL       emberSendZigDevRequest
+   \       0x26   0xB004             ADD      SP,SP,#+16
+   \       0x28   0xBD70             POP      {R4-R6,PC}
+    148          }
+    149          
+
+   \                                 In section .text, align 2, keep-with-next
+    150          EmberStatus emberPermitJoiningRequest(EmberNodeId target,
+    151                                                uint8_t duration,
+    152                                                uint8_t authentication,
+    153                                                EmberApsOption options)
+    154          {
+   \                     emberPermitJoiningRequest: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x461C             MOV      R4,R3
+    155            uint8_t contents[ZDO_MESSAGE_OVERHEAD + 2];
+    156            contents[ZDO_MESSAGE_OVERHEAD] = duration;
+   \        0x4   0xF88D 0x1005      STRB     R1,[SP, #+5]
+    157            contents[ZDO_MESSAGE_OVERHEAD + 1] = authentication;
+   \        0x8   0xF88D 0x2006      STRB     R2,[SP, #+6]
+    158            return emberSendZigDevRequest(target,
+    159                                          PERMIT_JOINING_REQUEST,
+    160                                          options,
+    161                                          contents,
+    162                                          sizeof(contents));
+   \        0xC   0x2103             MOVS     R1,#+3
+   \        0xE   0x9100             STR      R1,[SP, #+0]
+   \       0x10   0xAB01             ADD      R3,SP,#+4
+   \       0x12   0x4622             MOV      R2,R4
+   \       0x14   0x2136             MOVS     R1,#+54
+   \       0x16   0x.... 0x....      BL       emberSendZigDevRequest
+   \       0x1A   0xBD16             POP      {R1,R2,R4,PC}
+    163          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0x....'....        DC32     zigDevRequestSequence
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   emberGetLastAppZigDevRequestSequence
+      32   emberLeaveRequest
+        32   -> __aeabi_memmove
+        32   -> emberSendZigDevRequest
+       0   emberNextZigDevRequestSequence
+      16   emberPermitJoiningRequest
+        16   -> emberSendZigDevRequest
+      56   emberSendZigDevBindRequest
+        56   -> __aeabi_memmove
+        56   -> emberSendZigDevRequest
+      16   emberSendZigDevRequestTarget
+        16   -> emberSendZigDevRequest
+      16   emberSimpleDescriptorRequest
+        16   -> emberSendZigDevRequest
+      16   emberTableRequest
+        16   -> emberSendZigDevRequest
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+      10  emberGetLastAppZigDevRequestSequence
+      42  emberLeaveRequest
+      14  emberNextZigDevRequestSequence
+      28  emberPermitJoiningRequest
+     126  emberSendZigDevBindRequest
+      26  emberSendZigDevRequestTarget
+      30  emberSimpleDescriptorRequest
+      28  emberTableRequest
+       1  zigDevRequestRadius
+       1  zigDevRequestSequence
+
+ 
+   1 byte  in section .bss
+   1 byte  in section .data
+ 308 bytes in section .text
+ 
+ 308 bytes of CODE memory
+   2 bytes of DATA memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,2407 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         31/Mar/2026  08:25:49
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\color-control\color-control.c
+#    Command line      =
+#        -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\color-control.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\color-control\color-control.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D PHY_EM3XX -D
+#        HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        "__SOURCEFILE__=\"color-control.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\color-control\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -Om --use_c++_inline -e) --diagnostics_format=sarif_stdout
+#        --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\color-control.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\color-control.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\color-control.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\color-control.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\color-control\color-control.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Routines for the Color Control plugin.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include "app/framework/include/af.h"
+
+  #define ZCL_FRAME_CONTROL_FRAME_TYPE_MASK     (BIT(0) | BIT(1))
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1887  Warning[Pa181]: 
+          incompatible redefinition of macro
+          "ZCL_FRAME_CONTROL_FRAME_TYPE_MASK" (defined at line 7 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_CLUSTER_SPECIFIC_COMMAND          BIT(0)
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1888  Warning[Pa181]: 
+          incompatible redefinition of macro "ZCL_CLUSTER_SPECIFIC_COMMAND"
+          (defined at line 5 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_GLOBAL_COMMAND                    (ZCL_PROFILE_WIDE_COMMAND)
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1890  Warning[Pa181]: 
+          incompatible redefinition of macro "ZCL_GLOBAL_COMMAND" (defined at
+          line 4 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_MANUFACTURER_SPECIFIC_MASK        BIT(2)
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1892  Warning[Pa181]: 
+          incompatible redefinition of macro "ZCL_MANUFACTURER_SPECIFIC_MASK"
+          (defined at line 8 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_FRAME_CONTROL_DIRECTION_MASK      BIT(3)
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1894  Warning[Pa181]: 
+          incompatible redefinition of macro "ZCL_FRAME_CONTROL_DIRECTION_MASK"
+          (defined at line 9 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_FRAME_CONTROL_SERVER_TO_CLIENT    BIT(3)
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1895  Warning[Pa181]: 
+          incompatible redefinition of macro
+          "ZCL_FRAME_CONTROL_SERVER_TO_CLIENT" (defined at line 12 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_FRAME_CONTROL_CLIENT_TO_SERVER    0
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1896  Warning[Pa181]: 
+          incompatible redefinition of macro
+          "ZCL_FRAME_CONTROL_CLIENT_TO_SERVER" (defined at line 11 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_DISABLE_DEFAULT_RESPONSE_MASK     BIT(4)
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1898  Warning[Pa181]: 
+          incompatible redefinition of macro
+          "ZCL_DISABLE_DEFAULT_RESPONSE_MASK" (defined at line 10 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_DIRECTION_CLIENT_TO_SERVER 0
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1901  Warning[Pa181]: 
+          incompatible redefinition of macro "ZCL_DIRECTION_CLIENT_TO_SERVER"
+          (defined at line 14 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+
+  #define ZCL_DIRECTION_SERVER_TO_CLIENT 1
+          ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\include\af.h",1902  Warning[Pa181]: 
+          incompatible redefinition of macro "ZCL_DIRECTION_SERVER_TO_CLIENT"
+          (defined at line 15 of
+          "Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\comman
+          d-id.h")
+     19          #include "app/framework/util/attribute-storage.h"
+     20          
+     21          typedef struct {
+     22            bool active;
+     23            uint8_t commandId;
+     24            bool hueMoveDirection; // true for up
+     25            bool satMoveDirection; // true for up
+     26            bool acceleratedHue; // Used for HueAndSat; true if Hue move > Sat move
+     27            uint8_t acceleratedMoveRate;
+     28            uint8_t hueMoveToLevel;
+     29            uint8_t saturationMoveToLevel;
+     30            uint32_t eventDuration; // All time fields in milliseconds
+     31            uint32_t elapsedTime;
+     32            uint32_t transitionTime;
+     33          } ColorControlState;
+     34          
+
+   \                                 In section .bss, align 4
+     35          static ColorControlState stateTable[EMBER_AF_COLOR_CONTROL_CLUSTER_SERVER_ENDPOINT_COUNT];
+   \                     stateTable:
+   \        0x0                      DS8 20
+     36          
+     37          static ColorControlState *getColorControlState(uint8_t endpoint);
+     38          
+     39          #ifdef ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+     40          static void colorControlClearRemainingTime(uint8_t endpoint);
+     41          #endif // ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+     42          
+     43          static void colorControlSetHue(uint8_t endpoint, uint8_t hue);
+     44          static void colorControlSetSaturation(uint8_t endpoint, uint8_t saturation);
+     45          static void colorControlSetColorModeToZero(void);
+     46          static EmberAfStatus colorControlReadCurrentHue(uint8_t endpoint, uint8_t* hue);
+     47          static EmberAfStatus colorControlReadCurrentSaturation(uint8_t endpoint,
+     48                                                                 uint8_t* saturation);
+     49          static bool colorControlHueAndSaturationHandler(uint8_t endpoint);
+     50          
+
+   \                                 In section .text, align 2, keep-with-next
+     51          static ColorControlState *getColorControlState(uint8_t endpoint)
+     52          {
+   \                     getColorControlState: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     53            uint8_t index = emberAfFindClusterServerEndpointIndex(endpoint, ZCL_COLOR_CONTROL_CLUSTER_ID);
+   \        0x2   0xF44F 0x7140      MOV      R1,#+768
+   \        0x6   0x.... 0x....      BL       emberAfFindClusterServerEndpointIndex
+     54            return (index == 0xFF ? NULL : &stateTable[index]);
+   \        0xA   0x28FF             CMP      R0,#+255
+   \        0xC   0xD101             BNE.N    ??getColorControlState_0
+   \        0xE   0x2000             MOVS     R0,#+0
+   \       0x10   0xBD02             POP      {R1,PC}
+   \                     ??getColorControlState_0: (+1)
+   \       0x12   0x.... 0x....      LDR.W    R1,??DataTable7
+   \       0x16   0xEB00 0x0280      ADD      R2,R0,R0, LSL #+2
+   \       0x1A   0xEB11 0x0082      ADDS     R0,R1,R2, LSL #+2
+   \       0x1E   0xBD02             POP      {R1,PC}
+     55          }
+     56          
+
+   \                                 In section .text, align 2, keep-with-next
+     57          void emberAfColorControlClusterServerInitCallback(uint8_t endpoint)
+     58          {
+   \                     emberAfColorControlClusterServerInitCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     59            ColorControlState *state = getColorControlState(endpoint);
+   \        0x2   0x.... 0x....      BL       getColorControlState
+     60            if (state == NULL) {
+   \        0x6   0x2800             CMP      R0,#+0
+   \        0x8   0xD001             BEQ.N    ??emberAfColorControlClusterServerInitCallback_0
+     61              return;
+     62            }
+     63          
+     64            state->active = false;
+   \        0xA   0x2100             MOVS     R1,#+0
+   \        0xC   0x7001             STRB     R1,[R0, #+0]
+     65          #ifdef ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+     66            colorControlClearRemainingTime(endpoint);
+     67          #endif // ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+     68          }
+   \                     ??emberAfColorControlClusterServerInitCallback_0: (+1)
+   \        0xE   0xBD01             POP      {R0,PC}
+     69          
+
+   \                                 In section .text, align 4, keep-with-next
+     70          void emberAfColorControlClusterServerTickCallback(uint8_t endpoint)
+     71          {
+   \                     emberAfColorControlClusterServerTickCallback: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4607             MOV      R7,R0
+     72            ColorControlState *state = getColorControlState(endpoint);
+   \        0x4   0x.... 0x....      BL       getColorControlState
+   \        0x8   0x0006             MOVS     R6,R0
+     73            EmberAfStatus status;
+     74            uint8_t hue, sat;
+     75            bool hueUp = state->hueMoveDirection;
+   \        0xA   0x78B4             LDRB     R4,[R6, #+2]
+     76            bool satUp = state->satMoveDirection;
+   \        0xC   0x78F5             LDRB     R5,[R6, #+3]
+     77          
+     78            if (state == NULL) {
+   \        0xE   0xF000 0x807C      BEQ.W    ??emberAfColorControlClusterServerTickCallback_1
+     79              return;
+     80            }
+     81          
+     82            status = colorControlReadCurrentHue(endpoint, &hue);
+     83            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x12   0xF10D 0x0101      ADD      R1,SP,#+1
+   \       0x16   0x4638             MOV      R0,R7
+   \       0x18   0x.... 0x....      BL       colorControlReadCurrentHue
+   \       0x1C   0x2800             CMP      R0,#+0
+   \       0x1E   0xD174             BNE.N    ??emberAfColorControlClusterServerTickCallback_1
+     84              emberAfColorControlClusterPrintln("ERR: could not read current hue %x",
+     85                                                status);
+     86              return;
+     87            }
+     88            status = colorControlReadCurrentSaturation(endpoint, &sat);
+     89            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x20   0x4669             MOV      R1,SP
+   \       0x22   0x4638             MOV      R0,R7
+   \       0x24   0x.... 0x....      BL       colorControlReadCurrentSaturation
+   \       0x28   0x2800             CMP      R0,#+0
+   \       0x2A   0xD16E             BNE.N    ??emberAfColorControlClusterServerTickCallback_1
+     90              emberAfColorControlClusterPrintln("ERR: could not read current saturation %x",
+     91                                                status);
+     92              return;
+     93            }
+     94          
+     95            switch (state->commandId) {
+   \       0x2C   0x7870             LDRB     R0,[R6, #+1]
+   \       0x2E   0x2806             CMP      R0,#+6
+   \       0x30   0xD86B             BHI.N    ??emberAfColorControlClusterServerTickCallback_1
+   \       0x32   0xE8DF 0xF000      TBB      [PC, R0]
+   \                     ??emberAfColorControlClusterServerTickCallback_0:
+   \       0x36   0x0C 0x0C          DC8      0xC,0xC,0xC,0x36
+   \              0x0C 0x36
+   \       0x3A   0x36 0x36          DC8      0x36,0x36,0x4,0x0
+   \              0x04 0x00
+     96              case ZCL_MOVE_TO_HUE_AND_SATURATION_COMMAND_ID:
+     97                state->active = colorControlHueAndSaturationHandler(endpoint);
+   \                     ??emberAfColorControlClusterServerTickCallback_2: (+1)
+   \       0x3E   0x4638             MOV      R0,R7
+   \       0x40   0x.... 0x....      BL       colorControlHueAndSaturationHandler
+   \       0x44   0x7030             STRB     R0,[R6, #+0]
+     98                break;
+     99              case ZCL_STEP_HUE_COMMAND_ID:
+    100              case ZCL_MOVE_TO_HUE_COMMAND_ID:
+    101              case ZCL_MOVE_HUE_COMMAND_ID:
+    102                hue = hueUp ? hue + 1 : hue - 1;
+    103                if (hue == 0xFF) {
+    104                  hue = hueUp ? 0x00 : 0xFE;
+    105                }
+    106                colorControlSetHue(endpoint, hue);
+    107                if (state->commandId != ZCL_MOVE_HUE_COMMAND_ID) {
+    108                  state->active = (hue != state->hueMoveToLevel);
+    109                }
+    110                break;
+    111              case ZCL_STEP_SATURATION_COMMAND_ID:
+    112              case ZCL_MOVE_TO_SATURATION_COMMAND_ID:
+    113              case ZCL_MOVE_SATURATION_COMMAND_ID:
+    114                sat = satUp ? sat + 1 : sat - 1;
+    115                if (sat == 0xFF) {
+    116                  sat = satUp ? 0xFE : 0x00;
+    117                }
+    118                colorControlSetSaturation(endpoint, sat);
+    119                if (state->commandId != ZCL_MOVE_SATURATION_COMMAND_ID) {
+    120                  state->active = (sat != state->saturationMoveToLevel
+    121                                   || sat == 0x00
+    122                                   || sat == 0xFE);
+    123                }
+    124                break;
+    125              default:
+    126                emberAfColorControlClusterPrintln("ERR: unknown color control command.");
+    127                return;
+    128            }
+    129          
+    130          #ifdef ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+    131            {
+    132              uint16_t remainingTime;
+    133          
+    134              state->elapsedTime = (state->active
+    135                                    ? state->elapsedTime + state->eventDuration
+    136                                    : state->transitionTime);
+    137          
+    138              // If we're done, we should clear the remaining time
+    139              if (state->elapsedTime == state->transitionTime) {
+    140                colorControlClearRemainingTime(endpoint);
+    141                return;
+    142              }
+    143          
+    144              // The remainingTime attribute expects values in tenths of seconds;
+    145              // we maintain in milliseconds
+    146              remainingTime = state->elapsedTime / 100;
+    147              status = emberAfWriteServerAttribute(endpoint,
+    148                                                   ZCL_COLOR_CONTROL_CLUSTER_ID,
+    149                                                   ZCL_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE_ID,
+    150                                                   (uint8_t *)&remainingTime,
+    151                                                   ZCL_INT16U_ATTRIBUTE_TYPE);
+    152              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    153                emberAfColorControlClusterPrintln("ERR: writing remaining time %x", status);
+    154                return;
+    155              }
+    156            }
+    157          #endif // ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+    158          
+    159            if (!state->active) {
+   \                     ??emberAfColorControlClusterServerTickCallback_3: (+1)
+   \       0x46   0x7830             LDRB     R0,[R6, #+0]
+   \       0x48   0x2800             CMP      R0,#+0
+   \       0x4A   0xD158             BNE.N    ??emberAfColorControlClusterServerTickCallback_4
+    160              return;
+   \       0x4C   0xBDF1             POP      {R0,R4-R7,PC}
+    161            }
+   \                     ??emberAfColorControlClusterServerTickCallback_5: (+1)
+   \       0x4E   0x2C00             CMP      R4,#+0
+   \       0x50   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x54   0xD003             BEQ.N    ??emberAfColorControlClusterServerTickCallback_6
+   \       0x56   0x1C40             ADDS     R0,R0,#+1
+   \       0x58   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \       0x5C   0xE002             B.N      ??emberAfColorControlClusterServerTickCallback_7
+   \                     ??emberAfColorControlClusterServerTickCallback_6: (+1)
+   \       0x5E   0x1E40             SUBS     R0,R0,#+1
+   \       0x60   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \                     ??emberAfColorControlClusterServerTickCallback_7: (+1)
+   \       0x64   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x68   0x28FF             CMP      R0,#+255
+   \       0x6A   0xD108             BNE.N    ??emberAfColorControlClusterServerTickCallback_8
+   \       0x6C   0x2C00             CMP      R4,#+0
+   \       0x6E   0xD003             BEQ.N    ??emberAfColorControlClusterServerTickCallback_9
+   \       0x70   0x2000             MOVS     R0,#+0
+   \       0x72   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \       0x76   0xE002             B.N      ??emberAfColorControlClusterServerTickCallback_8
+   \                     ??emberAfColorControlClusterServerTickCallback_9: (+1)
+   \       0x78   0x20FE             MOVS     R0,#+254
+   \       0x7A   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \                     ??emberAfColorControlClusterServerTickCallback_8: (+1)
+   \       0x7E   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \       0x82   0x4638             MOV      R0,R7
+   \       0x84   0x.... 0x....      BL       colorControlSetHue
+   \       0x88   0x7870             LDRB     R0,[R6, #+1]
+   \       0x8A   0x2801             CMP      R0,#+1
+   \       0x8C   0xD0DB             BEQ.N    ??emberAfColorControlClusterServerTickCallback_3
+   \       0x8E   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x92   0x79B1             LDRB     R1,[R6, #+6]
+   \       0x94   0x4288             CMP      R0,R1
+   \       0x96   0xD001             BEQ.N    ??emberAfColorControlClusterServerTickCallback_10
+   \       0x98   0x2001             MOVS     R0,#+1
+   \       0x9A   0xE000             B.N      ??emberAfColorControlClusterServerTickCallback_11
+   \                     ??emberAfColorControlClusterServerTickCallback_10: (+1)
+   \       0x9C   0x2000             MOVS     R0,#+0
+   \                     ??emberAfColorControlClusterServerTickCallback_11: (+1)
+   \       0x9E   0x7030             STRB     R0,[R6, #+0]
+   \       0xA0   0xE7D1             B.N      ??emberAfColorControlClusterServerTickCallback_3
+   \                     ??emberAfColorControlClusterServerTickCallback_12: (+1)
+   \       0xA2   0x2D00             CMP      R5,#+0
+   \       0xA4   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0xA8   0xD003             BEQ.N    ??emberAfColorControlClusterServerTickCallback_13
+   \       0xAA   0x1C40             ADDS     R0,R0,#+1
+   \       0xAC   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \       0xB0   0xE002             B.N      ??emberAfColorControlClusterServerTickCallback_14
+   \                     ??emberAfColorControlClusterServerTickCallback_13: (+1)
+   \       0xB2   0x1E40             SUBS     R0,R0,#+1
+   \       0xB4   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \                     ??emberAfColorControlClusterServerTickCallback_14: (+1)
+   \       0xB8   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0xBC   0x28FF             CMP      R0,#+255
+   \       0xBE   0xD108             BNE.N    ??emberAfColorControlClusterServerTickCallback_15
+   \       0xC0   0x2D00             CMP      R5,#+0
+   \       0xC2   0xD003             BEQ.N    ??emberAfColorControlClusterServerTickCallback_16
+   \       0xC4   0x20FE             MOVS     R0,#+254
+   \       0xC6   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \       0xCA   0xE002             B.N      ??emberAfColorControlClusterServerTickCallback_15
+   \                     ??emberAfColorControlClusterServerTickCallback_16: (+1)
+   \       0xCC   0x2000             MOVS     R0,#+0
+   \       0xCE   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \                     ??emberAfColorControlClusterServerTickCallback_15: (+1)
+   \       0xD2   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \       0xD6   0x4638             MOV      R0,R7
+   \       0xD8   0x.... 0x....      BL       colorControlSetSaturation
+   \       0xDC   0x7870             LDRB     R0,[R6, #+1]
+   \       0xDE   0x2804             CMP      R0,#+4
+   \       0xE0   0xD0B1             BEQ.N    ??emberAfColorControlClusterServerTickCallback_3
+   \       0xE2   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0xE6   0x79F1             LDRB     R1,[R6, #+7]
+   \       0xE8   0x4288             CMP      R0,R1
+   \       0xEA   0xD103             BNE.N    ??emberAfColorControlClusterServerTickCallback_17
+   \       0xEC   0x2800             CMP      R0,#+0
+   \       0xEE   0xD001             BEQ.N    ??emberAfColorControlClusterServerTickCallback_17
+   \       0xF0   0x28FE             CMP      R0,#+254
+   \       0xF2   0xD101             BNE.N    ??emberAfColorControlClusterServerTickCallback_18
+   \                     ??emberAfColorControlClusterServerTickCallback_17: (+1)
+   \       0xF4   0x2001             MOVS     R0,#+1
+   \       0xF6   0xE000             B.N      ??emberAfColorControlClusterServerTickCallback_19
+   \                     ??emberAfColorControlClusterServerTickCallback_18: (+1)
+   \       0xF8   0x2000             MOVS     R0,#+0
+   \                     ??emberAfColorControlClusterServerTickCallback_19: (+1)
+   \       0xFA   0x7030             STRB     R0,[R6, #+0]
+   \       0xFC   0xE7A3             B.N      ??emberAfColorControlClusterServerTickCallback_3
+    162          
+    163            //schedule the next tick
+    164            emberAfScheduleServerTick(endpoint,
+    165                                      ZCL_COLOR_CONTROL_CLUSTER_ID,
+    166                                      state->eventDuration);
+   \                     ??emberAfColorControlClusterServerTickCallback_4: (+1)
+   \       0xFE   0x68B2             LDR      R2,[R6, #+8]
+   \      0x100   0xF44F 0x7140      MOV      R1,#+768
+   \      0x104   0x4638             MOV      R0,R7
+   \      0x106   0x.... 0x....      BL       emberAfScheduleServerTick
+    167          }
+   \                     ??emberAfColorControlClusterServerTickCallback_1: (+1)
+   \      0x10A   0xBDF1             POP      {R0,R4-R7,PC}
+    168          
+    169          // Clear remaining time
+    170          #ifdef ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+    171          static void colorControlClearRemainingTime(uint8_t endpoint)
+    172          {
+    173            uint16_t data = 0xFFFF;
+    174            EmberAfStatus status = emberAfWriteServerAttribute(endpoint,
+    175                                                               ZCL_COLOR_CONTROL_CLUSTER_ID,
+    176                                                               ZCL_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE_ID,
+    177                                                               (uint8_t *)&data,
+    178                                                               ZCL_INT16U_ATTRIBUTE_TYPE);
+    179            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    180              emberAfColorControlClusterPrintln("ERR: writing remaining time %x", status);
+    181              return;
+    182            }
+    183          }
+    184          #endif // ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+    185          
+    186          // Sets the hue attribute
+
+   \                                 In section .text, align 2, keep-with-next
+    187          static void colorControlSetHue(uint8_t endpoint, uint8_t hue)
+    188          {
+   \                     colorControlSetHue: (+1)
+   \        0x0   0xB503             PUSH     {R0,R1,LR}
+   \        0x2   0xB081             SUB      SP,SP,#+4
+    189            EmberAfStatus status = emberAfWriteServerAttribute(endpoint,
+    190                                                               ZCL_COLOR_CONTROL_CLUSTER_ID,
+    191                                                               ZCL_COLOR_CONTROL_CURRENT_HUE_ATTRIBUTE_ID,
+    192                                                               (uint8_t *)&hue,
+    193                                                               ZCL_INT8U_ATTRIBUTE_TYPE);
+    194            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \        0x4   0x2120             MOVS     R1,#+32
+   \        0x6   0x9100             STR      R1,[SP, #+0]
+   \        0x8   0xAB02             ADD      R3,SP,#+8
+   \        0xA   0x2200             MOVS     R2,#+0
+   \        0xC   0xF44F 0x7140      MOV      R1,#+768
+   \       0x10   0x.... 0x....      BL       emberAfWriteServerAttribute
+    195              emberAfColorControlClusterPrintln("ERR: writing current hue %x", status); emberAfColorControlClusterFlush();
+    196              return;
+    197            }
+    198            emberAfDebugPrintln("hue=%x", hue);
+    199          }
+   \       0x14   0xBD07             POP      {R0-R2,PC}
+    200          
+    201          // Sets the saturation attribute
+
+   \                                 In section .text, align 2, keep-with-next
+    202          static void colorControlSetSaturation(uint8_t endpoint, uint8_t saturation)
+    203          {
+   \                     colorControlSetSaturation: (+1)
+   \        0x0   0xB503             PUSH     {R0,R1,LR}
+   \        0x2   0xB081             SUB      SP,SP,#+4
+    204            EmberAfStatus status = emberAfWriteServerAttribute(endpoint,
+    205                                                               ZCL_COLOR_CONTROL_CLUSTER_ID,
+    206                                                               ZCL_COLOR_CONTROL_CURRENT_SATURATION_ATTRIBUTE_ID,
+    207                                                               (uint8_t *)&saturation,
+    208                                                               ZCL_INT8U_ATTRIBUTE_TYPE);
+    209            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \        0x4   0x2120             MOVS     R1,#+32
+   \        0x6   0x9100             STR      R1,[SP, #+0]
+   \        0x8   0xAB02             ADD      R3,SP,#+8
+   \        0xA   0x2201             MOVS     R2,#+1
+   \        0xC   0xF44F 0x7140      MOV      R1,#+768
+   \       0x10   0x.... 0x....      BL       emberAfWriteServerAttribute
+    210              emberAfColorControlClusterPrintln("ERR: writing current saturation %x",
+    211                                                status);
+    212              return;
+    213            }
+    214            emberAfDebugPrintln("saturation=%x", saturation);
+    215          }
+   \       0x14   0xBD07             POP      {R0-R2,PC}
+    216          
+
+   \                                 In section .text, align 2, keep-with-next
+    217          static void colorControlSetColorModeToZero(void)
+    218          {
+    219          #ifdef ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_COLOR_MODE_ATTRIBUTE
+    220            // Set the optional Color Mode attribute to zero as per the spec.  If an
+    221            // error occurs, log it, but ignore it.
+    222            uint8_t colorMode = 0;
+    223            EmberAfStatus status = emberAfWriteServerAttribute(emberAfCurrentEndpoint(),
+    224                                                               ZCL_COLOR_CONTROL_CLUSTER_ID,
+    225                                                               ZCL_COLOR_CONTROL_COLOR_MODE_ATTRIBUTE_ID,
+    226                                                               &colorMode,
+    227                                                               ZCL_ENUM8_ATTRIBUTE_TYPE);
+    228            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    229              emberAfColorControlClusterPrintln("ERR: writing color mode%x", status);
+    230            }
+    231            emberAfDebugPrintln("colorMode=%x", colorMode); emberAfColorControlClusterFlush();
+    232          #else
+    233            emberAfDebugPrintln("no color mode attribute"); emberAfColorControlClusterFlush();
+    234          #endif //ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_COLOR_MODE_ATTRIBUTE
+    235          }
+   \                     colorControlSetColorModeToZero: (+1)
+   \        0x0   0x4770             BX       LR
+    236          
+    237          // returns a ZCL status, EMBER_ZCL_STATUS_SUCCESS when it works. Sets newHue to the
+    238          // current Hue attribute value
+
+   \                                 In section .text, align 2, keep-with-next
+    239          static EmberAfStatus colorControlReadCurrentHue(uint8_t endpoint, uint8_t* hue)
+    240          {
+   \                     colorControlReadCurrentHue: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x460B             MOV      R3,R1
+    241            EmberAfStatus status = emberAfReadServerAttribute(endpoint,
+    242                                                              ZCL_COLOR_CONTROL_CLUSTER_ID,
+    243                                                              ZCL_COLOR_CONTROL_CURRENT_HUE_ATTRIBUTE_ID,
+    244                                                              hue,
+    245                                                              sizeof(uint8_t));
+    246            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    247              emberAfColorControlClusterPrintln("ERR: reading current hue %x", status);
+    248            }
+    249            return status;
+   \        0x4   0x2101             MOVS     R1,#+1
+   \        0x6   0x9100             STR      R1,[SP, #+0]
+   \        0x8   0x2200             MOVS     R2,#+0
+   \        0xA   0xF44F 0x7140      MOV      R1,#+768
+   \        0xE   0x.... 0x....      BL       emberAfReadServerAttribute
+   \       0x12   0xBD02             POP      {R1,PC}
+    250          }
+    251          
+    252          // returns a ZCL status, EMBER_ZCL_STATUS_SUCCESS when it works. Sets newHue to the
+    253          // current Hue attribute value
+
+   \                                 In section .text, align 2, keep-with-next
+    254          static EmberAfStatus colorControlReadCurrentSaturation(uint8_t endpoint,
+    255                                                                 uint8_t* saturation)
+    256          {
+   \                     colorControlReadCurrentSaturation: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x460B             MOV      R3,R1
+    257            EmberAfStatus status = emberAfReadServerAttribute(endpoint,
+    258                                                              ZCL_COLOR_CONTROL_CLUSTER_ID,
+    259                                                              ZCL_COLOR_CONTROL_CURRENT_SATURATION_ATTRIBUTE_ID,
+    260                                                              saturation,
+    261                                                              sizeof(uint8_t));
+    262            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    263              emberAfColorControlClusterPrintln("ERR: reading current saturation %x",
+    264                                                status);
+    265            }
+    266            return status;
+   \        0x4   0x2101             MOVS     R1,#+1
+   \        0x6   0x9100             STR      R1,[SP, #+0]
+   \        0x8   0x460A             MOV      R2,R1
+   \        0xA   0xF44F 0x7140      MOV      R1,#+768
+   \        0xE   0x.... 0x....      BL       emberAfReadServerAttribute
+   \       0x12   0xBD02             POP      {R1,PC}
+    267          }
+    268          
+    269          /****************** COMMAND HANDLERS **********************/
+    270          
+    271          // Move hue to a given hue, taking transitionTime until completed.
+
+   \                                 In section .text, align 4, keep-with-next
+    272          bool emberAfColorControlClusterMoveToHueCallback(uint8_t hue,
+    273                                                           uint8_t direction,
+    274                                                           uint16_t transitionTime,
+    275                                                           uint8_t optionsMask,
+    276                                                           uint8_t optionsOverride)
+    277          {
+   \                     emberAfColorControlClusterMoveToHueCallback: (+1)
+   \        0x0   0xE92D 0x47FC      PUSH     {R2-R10,LR}
+   \        0x4   0x4680             MOV      R8,R0
+   \        0x6   0x4689             MOV      R9,R1
+   \        0x8   0x4692             MOV      R10,R2
+    278            ColorControlState *state = getColorControlState(emberAfCurrentEndpoint());
+   \        0xA   0x.... 0x....      LDR.W    R5,??DataTable7_1
+   \        0xE   0x6828             LDR      R0,[R5, #+0]
+   \       0x10   0x6800             LDR      R0,[R0, #+0]
+   \       0x12   0x7940             LDRB     R0,[R0, #+5]
+   \       0x14   0x.... 0x....      BL       getColorControlState
+   \       0x18   0x0004             MOVS     R4,R0
+    279            EmberAfStatus status;
+    280            uint8_t currentHue, currentSaturation;
+    281          
+    282            emberAfColorControlClusterPrintln("ColorControl: MoveToHue (%x, %x, %2x)",
+    283                                              hue,
+    284                                              direction,
+    285                                              transitionTime);
+    286          
+    287            if (state == NULL) {
+   \       0x1A   0xD101             BNE.N    ??emberAfColorControlClusterMoveToHueCallback_1
+    288              status = EMBER_ZCL_STATUS_FAILURE;
+   \       0x1C   0x2601             MOVS     R6,#+1
+    289              goto send_default_response;
+   \       0x1E   0xE068             B.N      ??emberAfColorControlClusterMoveToHueCallback_2
+    290            }
+    291          
+    292            // If the color specified is not achievable by the hardware, then the
+    293            // color shall not be set and a ZCL default response command shall be
+    294            // generated with status code equal to INVALID_VALUE.
+    295            status = colorControlReadCurrentSaturation(emberAfCurrentEndpoint(),
+    296                                                       &currentSaturation);
+   \                     ??emberAfColorControlClusterMoveToHueCallback_1: (+1)
+   \       0x20   0xF10D 0x0101      ADD      R1,SP,#+1
+   \       0x24   0x6828             LDR      R0,[R5, #+0]
+   \       0x26   0x6800             LDR      R0,[R0, #+0]
+   \       0x28   0x7940             LDRB     R0,[R0, #+5]
+   \       0x2A   0x.... 0x....      BL       colorControlReadCurrentSaturation
+   \       0x2E   0x0006             MOVS     R6,R0
+    297            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x30   0xD15F             BNE.N    ??emberAfColorControlClusterMoveToHueCallback_2
+    298              goto send_default_response;
+    299            }
+    300            if (!emberAfPluginColorControlIsColorSupportedCallback(hue, currentSaturation)) {
+                        ^
+Warning[Pe223]: function "emberAfPluginColorControlIsColorSupportedCallback"
+          declared implicitly
+   \       0x32   0x4647             MOV      R7,R8
+   \       0x34   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \       0x38   0x4638             MOV      R0,R7
+   \       0x3A   0x.... 0x....      BL       emberAfPluginColorControlIsColorSupportedCallback
+   \       0x3E   0x2800             CMP      R0,#+0
+   \       0x40   0xD101             BNE.N    ??emberAfColorControlClusterMoveToHueCallback_3
+    301              status = EMBER_ZCL_STATUS_INVALID_VALUE;
+   \       0x42   0x2687             MOVS     R6,#+135
+    302              goto send_default_response;
+   \       0x44   0xE055             B.N      ??emberAfColorControlClusterMoveToHueCallback_2
+    303            }
+    304          
+    305            status = colorControlReadCurrentHue(emberAfCurrentEndpoint(), &currentHue);
+   \                     ??emberAfColorControlClusterMoveToHueCallback_3: (+1)
+   \       0x46   0x4669             MOV      R1,SP
+   \       0x48   0x6828             LDR      R0,[R5, #+0]
+   \       0x4A   0x6800             LDR      R0,[R0, #+0]
+   \       0x4C   0x7940             LDRB     R0,[R0, #+5]
+   \       0x4E   0x.... 0x....      BL       colorControlReadCurrentHue
+   \       0x52   0x0006             MOVS     R6,R0
+    306            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x54   0xD14D             BNE.N    ??emberAfColorControlClusterMoveToHueCallback_2
+    307              goto send_default_response;
+    308            }
+    309          
+    310            // Nothing to do, prevents divide-by-zero
+    311            if ( hue == currentHue ) {
+   \       0x56   0x4640             MOV      R0,R8
+   \       0x58   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \       0x5C   0x4288             CMP      R0,R1
+   \       0x5E   0xD048             BEQ.N    ??emberAfColorControlClusterMoveToHueCallback_2
+    312              status = EMBER_ZCL_STATUS_SUCCESS;
+    313              goto send_default_response;
+    314            }
+    315          
+    316            // As hue is effectively measured on a circle, the new hue may be moved to in
+    317            // either direction.  The direction of hue change is given by the Direction
+    318            // field. If Directionis "Shortest distance," the direction is taken that
+    319            // involves the shortest path round the circle.  This case corresponds to
+    320            // expected normal usage.  If Direction is "Longest distance," the direction
+    321            // is taken that involves the longest path round the circle.  This case can be
+    322            // used for "rainbow effects."  In both cases, if both distances are the same,
+    323            // the Up direction shall be taken.
+    324            switch (direction) {
+   \       0x60   0xF1B9 0x0F03      CMP      R9,#+3
+   \       0x64   0xD830             BHI.N    ??emberAfColorControlClusterMoveToHueCallback_4
+   \       0x66   0xE8DF 0xF009      TBB      [PC, R9]
+   \                     ??emberAfColorControlClusterMoveToHueCallback_0:
+   \       0x6A   0x02 0x1E          DC8      0x2,0x1E,0x29,0x2C
+   \              0x29 0x2C
+    325              case EMBER_ZCL_HUE_DIRECTION_SHORTEST_DISTANCE:
+    326                state->hueMoveDirection = ((uint8_t) (hue - currentHue) <= 127 ? true : false);
+   \                     ??emberAfColorControlClusterMoveToHueCallback_5: (+1)
+   \       0x6E   0x4608             MOV      R0,R1
+   \       0x70   0xEBA8 0x0000      SUB      R0,R8,R0
+   \       0x74   0xB2C0             UXTB     R0,R0
+   \       0x76   0x287F             CMP      R0,#+127
+   \       0x78   0xDC01             BGT.N    ??emberAfColorControlClusterMoveToHueCallback_6
+   \       0x7A   0x2001             MOVS     R0,#+1
+   \       0x7C   0xE000             B.N      ??emberAfColorControlClusterMoveToHueCallback_7
+   \                     ??emberAfColorControlClusterMoveToHueCallback_6: (+1)
+   \       0x7E   0x2000             MOVS     R0,#+0
+   \                     ??emberAfColorControlClusterMoveToHueCallback_7: (+1)
+   \       0x80   0x70A0             STRB     R0,[R4, #+2]
+    327                break;
+    328              case EMBER_ZCL_HUE_DIRECTION_LONGEST_DISTANCE:
+    329                state->hueMoveDirection = ((uint8_t) (hue - currentHue) >= 127 ? true : false);
+    330                break;
+    331              case EMBER_ZCL_HUE_DIRECTION_UP:
+    332                state->hueMoveDirection = true;
+    333                break;
+    334              case EMBER_ZCL_HUE_DIRECTION_DOWN:
+    335                state->hueMoveDirection = false;
+    336                break;
+    337              default:
+    338                status = EMBER_ZCL_STATUS_INVALID_FIELD;
+    339                goto send_default_response;
+    340            }
+    341          
+    342            state->commandId = ZCL_MOVE_TO_HUE_COMMAND_ID;
+   \                     ??emberAfColorControlClusterMoveToHueCallback_8: (+1)
+   \       0x82   0x2000             MOVS     R0,#+0
+   \       0x84   0x7060             STRB     R0,[R4, #+1]
+    343            state->elapsedTime = 0;
+   \       0x86   0x60E0             STR      R0,[R4, #+12]
+    344            state->hueMoveToLevel = hue;
+   \       0x88   0xF884 0x8006      STRB     R8,[R4, #+6]
+    345            state->transitionTime = transitionTime * MILLISECOND_TICKS_PER_SECOND / 10;
+   \       0x8C   0xEA4F 0x2A8A      LSL      R10,R10,#+10
+   \       0x90   0x200A             MOVS     R0,#+10
+   \       0x92   0xFBBA 0xF1F0      UDIV     R1,R10,R0
+   \       0x96   0x6121             STR      R1,[R4, #+16]
+    346            state->eventDuration = state->transitionTime / ((state->hueMoveDirection)
+    347                                                            ? (hue - currentHue)
+    348                                                            : (currentHue - hue));
+   \       0x98   0xF89D 0x2000      LDRB     R2,[SP, #+0]
+   \       0x9C   0x78A0             LDRB     R0,[R4, #+2]
+   \       0x9E   0x2800             CMP      R0,#+0
+   \       0xA0   0xD014             BEQ.N    ??emberAfColorControlClusterMoveToHueCallback_9
+   \       0xA2   0x1ABF             SUBS     R7,R7,R2
+   \       0xA4   0xE013             B.N      ??emberAfColorControlClusterMoveToHueCallback_10
+   \                     ??emberAfColorControlClusterMoveToHueCallback_11: (+1)
+   \       0xA6   0x4608             MOV      R0,R1
+   \       0xA8   0xEBA8 0x0000      SUB      R0,R8,R0
+   \       0xAC   0xB2C0             UXTB     R0,R0
+   \       0xAE   0x287F             CMP      R0,#+127
+   \       0xB0   0xDB01             BLT.N    ??emberAfColorControlClusterMoveToHueCallback_12
+   \       0xB2   0x2001             MOVS     R0,#+1
+   \       0xB4   0xE000             B.N      ??emberAfColorControlClusterMoveToHueCallback_13
+   \                     ??emberAfColorControlClusterMoveToHueCallback_12: (+1)
+   \       0xB6   0x2000             MOVS     R0,#+0
+   \                     ??emberAfColorControlClusterMoveToHueCallback_13: (+1)
+   \       0xB8   0x70A0             STRB     R0,[R4, #+2]
+   \       0xBA   0xE7E2             B.N      ??emberAfColorControlClusterMoveToHueCallback_8
+   \                     ??emberAfColorControlClusterMoveToHueCallback_14: (+1)
+   \       0xBC   0x2001             MOVS     R0,#+1
+   \       0xBE   0x70A0             STRB     R0,[R4, #+2]
+   \       0xC0   0xE7DF             B.N      ??emberAfColorControlClusterMoveToHueCallback_8
+   \                     ??emberAfColorControlClusterMoveToHueCallback_15: (+1)
+   \       0xC2   0x2000             MOVS     R0,#+0
+   \       0xC4   0x70A0             STRB     R0,[R4, #+2]
+   \       0xC6   0xE7DC             B.N      ??emberAfColorControlClusterMoveToHueCallback_8
+   \                     ??emberAfColorControlClusterMoveToHueCallback_4: (+1)
+   \       0xC8   0x2685             MOVS     R6,#+133
+   \       0xCA   0xE012             B.N      ??emberAfColorControlClusterMoveToHueCallback_2
+   \                     ??emberAfColorControlClusterMoveToHueCallback_9: (+1)
+   \       0xCC   0x1BD7             SUBS     R7,R2,R7
+   \                     ??emberAfColorControlClusterMoveToHueCallback_10: (+1)
+   \       0xCE   0xFBB1 0xF0F7      UDIV     R0,R1,R7
+   \       0xD2   0x60A0             STR      R0,[R4, #+8]
+    349            // Set the Color Mode attribute to zero as per the spec, ignoring any errors.
+    350            colorControlSetColorModeToZero();
+   \       0xD4   0x.... 0x....      BL       colorControlSetColorModeToZero
+    351          
+    352            // Schedule the next tick
+    353            if (emberAfScheduleServerTick(emberAfCurrentEndpoint(),
+    354                                          ZCL_COLOR_CONTROL_CLUSTER_ID,
+    355                                          state->eventDuration)
+    356                != EMBER_SUCCESS) {
+   \       0xD8   0x68A2             LDR      R2,[R4, #+8]
+   \       0xDA   0xF44F 0x7140      MOV      R1,#+768
+   \       0xDE   0x6828             LDR      R0,[R5, #+0]
+   \       0xE0   0x6800             LDR      R0,[R0, #+0]
+   \       0xE2   0x7940             LDRB     R0,[R0, #+5]
+   \       0xE4   0x.... 0x....      BL       emberAfScheduleServerTick
+   \       0xE8   0x2800             CMP      R0,#+0
+   \       0xEA   0xD000             BEQ.N    ??emberAfColorControlClusterMoveToHueCallback_16
+    357              status = EMBER_ZCL_STATUS_SOFTWARE_FAILURE;
+   \       0xEC   0x26C1             MOVS     R6,#+193
+    358            } else {
+    359              status = EMBER_ZCL_STATUS_SUCCESS;
+    360            }
+    361          
+    362            state->active = true;
+   \                     ??emberAfColorControlClusterMoveToHueCallback_16: (+1)
+   \       0xEE   0x2001             MOVS     R0,#+1
+   \       0xF0   0x7020             STRB     R0,[R4, #+0]
+    363            goto send_default_response;
+    364          
+    365            send_default_response:
+    366            emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfColorControlClusterMoveToHueCallback_2: (+1)
+   \       0xF2   0x4630             MOV      R0,R6
+   \       0xF4   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    367            return true;
+   \       0xF8   0x2001             MOVS     R0,#+1
+   \       0xFA   0xE8BD 0x87F6      POP      {R1,R2,R4-R10,PC}
+    368          }
+    369          
+    370          // Move hue continuously at the given rate. If mode is stop, then stop.
+
+   \                                 In section .text, align 2, keep-with-next
+    371          bool emberAfColorControlClusterMoveHueCallback(uint8_t moveMode,
+    372                                                         uint8_t rate,
+    373                                                         uint8_t optionsMask,
+    374                                                         uint8_t optionsOverride)
+    375          {
+   \                     emberAfColorControlClusterMoveHueCallback: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4607             MOV      R7,R0
+   \        0x4   0x460D             MOV      R5,R1
+    376            ColorControlState *state = getColorControlState(emberAfCurrentEndpoint());
+   \        0x6   0x.... 0x....      LDR.W    R6,??DataTable7_1
+   \        0xA   0x6830             LDR      R0,[R6, #+0]
+   \        0xC   0x6800             LDR      R0,[R0, #+0]
+   \        0xE   0x7940             LDRB     R0,[R0, #+5]
+   \       0x10   0x.... 0x....      BL       getColorControlState
+   \       0x14   0x0004             MOVS     R4,R0
+    377            EmberAfStatus status;
+    378          
+    379            emberAfColorControlClusterPrintln("ColorControl: MoveHue (%x, %x)",
+    380                                              moveMode,
+    381                                              rate);
+    382          
+    383            if (state == NULL) {
+   \       0x16   0xD101             BNE.N    ??emberAfColorControlClusterMoveHueCallback_0
+    384              status = EMBER_ZCL_STATUS_FAILURE;
+   \       0x18   0x2001             MOVS     R0,#+1
+    385              goto send_default_response;
+   \       0x1A   0xE034             B.N      ??emberAfColorControlClusterMoveHueCallback_1
+    386            }
+    387          
+    388            // If the rate is set to 0, then the command shall have no effect
+    389            // and a ZCL default response command shall be generated with status
+    390            // code equal to INVALID_VALUE.
+    391          
+    392            if (rate == 0) {
+   \                     ??emberAfColorControlClusterMoveHueCallback_0: (+1)
+   \       0x1C   0x0028             MOVS     R0,R5
+   \       0x1E   0xD02F             BEQ.N    ??emberAfColorControlClusterMoveHueCallback_2
+    393              status = EMBER_ZCL_STATUS_INVALID_FIELD;
+    394              goto send_default_response;
+    395            }
+    396          
+    397            state->active = true;
+   \       0x20   0x2001             MOVS     R0,#+1
+   \       0x22   0x7020             STRB     R0,[R4, #+0]
+    398          
+    399            switch (moveMode) {
+   \       0x24   0x2F00             CMP      R7,#+0
+   \       0x26   0xD004             BEQ.N    ??emberAfColorControlClusterMoveHueCallback_3
+   \       0x28   0x2F01             CMP      R7,#+1
+   \       0x2A   0xD00D             BEQ.N    ??emberAfColorControlClusterMoveHueCallback_4
+   \       0x2C   0x2F03             CMP      R7,#+3
+   \       0x2E   0xD024             BEQ.N    ??emberAfColorControlClusterMoveHueCallback_5
+   \       0x30   0xE026             B.N      ??emberAfColorControlClusterMoveHueCallback_2
+    400              case EMBER_ZCL_HUE_MOVE_MODE_STOP:
+    401                state->active = false;
+   \                     ??emberAfColorControlClusterMoveHueCallback_3: (+1)
+   \       0x32   0x2000             MOVS     R0,#+0
+   \       0x34   0x7020             STRB     R0,[R4, #+0]
+    402                emberAfDeactivateServerTick(emberAfCurrentEndpoint(),
+    403                                            ZCL_COLOR_CONTROL_CLUSTER_ID);
+   \       0x36   0xF44F 0x7140      MOV      R1,#+768
+   \       0x3A   0x6830             LDR      R0,[R6, #+0]
+   \       0x3C   0x6800             LDR      R0,[R0, #+0]
+   \       0x3E   0x7940             LDRB     R0,[R0, #+5]
+   \       0x40   0x.... 0x....      BL       emberAfDeactivateServerTick
+    404          #ifdef ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+    405                colorControlClearRemainingTime(emberAfCurrentEndpoint());
+    406          #endif // ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+    407                status = EMBER_ZCL_STATUS_SUCCESS;
+   \       0x44   0x2000             MOVS     R0,#+0
+    408                goto send_default_response;
+   \       0x46   0xE01E             B.N      ??emberAfColorControlClusterMoveHueCallback_1
+    409              case EMBER_ZCL_HUE_MOVE_MODE_UP:
+    410                state->hueMoveDirection = true;
+   \                     ??emberAfColorControlClusterMoveHueCallback_4: (+1)
+   \       0x48   0x70A0             STRB     R0,[R4, #+2]
+    411                break;
+    412              case EMBER_ZCL_HUE_MOVE_MODE_DOWN:
+    413                state->hueMoveDirection = false;
+    414                break;
+    415              default:
+    416                status = EMBER_ZCL_STATUS_INVALID_FIELD;
+    417                goto send_default_response;
+    418            }
+    419          
+    420            state->commandId = ZCL_MOVE_HUE_COMMAND_ID;
+   \                     ??emberAfColorControlClusterMoveHueCallback_6: (+1)
+   \       0x4A   0x2001             MOVS     R0,#+1
+   \       0x4C   0x7060             STRB     R0,[R4, #+1]
+    421            if (state->active) {
+   \       0x4E   0x7820             LDRB     R0,[R4, #+0]
+   \       0x50   0x2800             CMP      R0,#+0
+   \       0x52   0xD004             BEQ.N    ??emberAfColorControlClusterMoveHueCallback_7
+    422              state->eventDuration = MILLISECOND_TICKS_PER_SECOND / rate;
+   \       0x54   0xF44F 0x6080      MOV      R0,#+1024
+   \       0x58   0xFBB0 0xF0F5      UDIV     R0,R0,R5
+   \       0x5C   0x60A0             STR      R0,[R4, #+8]
+    423            }
+    424          
+    425            // Set the Color Mode attribute to zero as per the spec, ignoring any errors.
+    426            colorControlSetColorModeToZero();
+   \                     ??emberAfColorControlClusterMoveHueCallback_7: (+1)
+   \       0x5E   0x.... 0x....      BL       colorControlSetColorModeToZero
+    427          
+    428            //schedule the next tick
+    429            if (emberAfScheduleServerTick(emberAfCurrentEndpoint(),
+    430                                          ZCL_COLOR_CONTROL_CLUSTER_ID,
+    431                                          state->eventDuration)
+    432                != EMBER_SUCCESS) {
+   \       0x62   0x68A2             LDR      R2,[R4, #+8]
+   \       0x64   0xF44F 0x7140      MOV      R1,#+768
+   \       0x68   0x6830             LDR      R0,[R6, #+0]
+   \       0x6A   0x6800             LDR      R0,[R0, #+0]
+   \       0x6C   0x7940             LDRB     R0,[R0, #+5]
+   \       0x6E   0x.... 0x....      BL       emberAfScheduleServerTick
+   \       0x72   0x2800             CMP      R0,#+0
+   \       0x74   0xD006             BEQ.N    ??emberAfColorControlClusterMoveHueCallback_8
+    433              status = EMBER_ZCL_STATUS_SOFTWARE_FAILURE;
+   \       0x76   0x20C1             MOVS     R0,#+193
+   \       0x78   0xE005             B.N      ??emberAfColorControlClusterMoveHueCallback_1
+    434            } else {
+   \                     ??emberAfColorControlClusterMoveHueCallback_5: (+1)
+   \       0x7A   0x2000             MOVS     R0,#+0
+   \       0x7C   0x70A0             STRB     R0,[R4, #+2]
+   \       0x7E   0xE7E4             B.N      ??emberAfColorControlClusterMoveHueCallback_6
+   \                     ??emberAfColorControlClusterMoveHueCallback_2: (+1)
+   \       0x80   0x2085             MOVS     R0,#+133
+   \       0x82   0xE000             B.N      ??emberAfColorControlClusterMoveHueCallback_1
+    435              status = EMBER_ZCL_STATUS_SUCCESS;
+   \                     ??emberAfColorControlClusterMoveHueCallback_8: (+1)
+   \       0x84   0x2000             MOVS     R0,#+0
+    436            }
+    437          
+    438            goto send_default_response;
+    439          
+    440            send_default_response:
+    441            emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfColorControlClusterMoveHueCallback_1: (+1)
+   \       0x86   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    442          
+    443            return true;
+   \       0x8A   0x2001             MOVS     R0,#+1
+   \       0x8C   0xBDF2             POP      {R1,R4-R7,PC}
+    444          }
+    445          
+    446          // Step hue by one step, taking time as specified.
+
+   \                                 In section .text, align 2, keep-with-next
+    447          bool emberAfColorControlClusterStepHueCallback(uint8_t stepMode,
+    448                                                         uint8_t stepSize,
+    449                                                         uint8_t transitionTime,
+    450                                                         uint8_t optionsMask,
+    451                                                         uint8_t optionsOverride)
+    452          {
+   \                     emberAfColorControlClusterStepHueCallback: (+1)
+   \        0x0   0xE92D 0x43F8      PUSH     {R3-R9,LR}
+   \        0x4   0x4605             MOV      R5,R0
+   \        0x6   0x460E             MOV      R6,R1
+   \        0x8   0x4617             MOV      R7,R2
+    453            ColorControlState *state = getColorControlState(emberAfCurrentEndpoint());
+   \        0xA   0x.... 0x....      LDR.W    R8,??DataTable7_1
+   \        0xE   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x12   0x6800             LDR      R0,[R0, #+0]
+   \       0x14   0x7940             LDRB     R0,[R0, #+5]
+   \       0x16   0x.... 0x....      BL       getColorControlState
+   \       0x1A   0x0004             MOVS     R4,R0
+    454            EmberAfStatus status;
+    455            uint8_t currentHue, currentSaturation;
+    456          
+    457            emberAfColorControlClusterPrintln("ColorControl: StepHue (%x, %x, %x)",
+    458                                              stepMode,
+    459                                              stepSize,
+    460                                              transitionTime);
+    461          
+    462            if (state == NULL) {
+   \       0x1C   0xD102             BNE.N    ??emberAfColorControlClusterStepHueCallback_0
+    463              status = EMBER_ZCL_STATUS_FAILURE;
+   \       0x1E   0xF04F 0x0901      MOV      R9,#+1
+    464              goto send_default_response;
+   \       0x22   0xE063             B.N      ??emberAfColorControlClusterStepHueCallback_1
+    465            }
+    466          
+    467            status = colorControlReadCurrentHue(emberAfCurrentEndpoint(), &currentHue);
+   \                     ??emberAfColorControlClusterStepHueCallback_0: (+1)
+   \       0x24   0x4669             MOV      R1,SP
+   \       0x26   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x2A   0x6800             LDR      R0,[R0, #+0]
+   \       0x2C   0x7940             LDRB     R0,[R0, #+5]
+   \       0x2E   0x.... 0x....      BL       colorControlReadCurrentHue
+   \       0x32   0x4681             MOV      R9,R0
+    468            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x34   0x2800             CMP      R0,#+0
+   \       0x36   0xD159             BNE.N    ??emberAfColorControlClusterStepHueCallback_1
+    469              goto send_default_response;
+    470            }
+    471          
+    472            // Add or subtract the step size to/from the current hue to get the final hue.
+    473            // However, the range for hues is 0x00 to 0xFE, so if we land on 0xFF or if we
+    474            // roll past it, we have to add or subtract one to the final hue, effectively
+    475            // skipping over the invalid 0xFF.
+    476            switch (stepMode) {
+   \       0x38   0x2D01             CMP      R5,#+1
+   \       0x3A   0xD002             BEQ.N    ??emberAfColorControlClusterStepHueCallback_2
+   \       0x3C   0x2D03             CMP      R5,#+3
+   \       0x3E   0xD025             BEQ.N    ??emberAfColorControlClusterStepHueCallback_3
+   \       0x40   0xE033             B.N      ??emberAfColorControlClusterStepHueCallback_4
+    477              case EMBER_ZCL_HUE_STEP_MODE_UP:
+    478                state->hueMoveToLevel = currentHue + stepSize;
+   \                     ??emberAfColorControlClusterStepHueCallback_2: (+1)
+   \       0x42   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x46   0x1830             ADDS     R0,R6,R0
+   \       0x48   0x71A0             STRB     R0,[R4, #+6]
+    479                if (stepSize == 0xFF - currentHue) {
+   \       0x4A   0x4631             MOV      R1,R6
+   \       0x4C   0x39FF             SUBS     R1,R1,#+255
+   \       0x4E   0xF89D 0x2000      LDRB     R2,[SP, #+0]
+   \       0x52   0x42D1             CMN      R1,R2
+   \       0x54   0xD101             BNE.N    ??emberAfColorControlClusterStepHueCallback_5
+    480                  state->hueMoveToLevel++;
+   \       0x56   0x1C40             ADDS     R0,R0,#+1
+   \       0x58   0x71A0             STRB     R0,[R4, #+6]
+    481                }
+    482                state->hueMoveDirection = true;
+   \                     ??emberAfColorControlClusterStepHueCallback_5: (+1)
+   \       0x5A   0x2001             MOVS     R0,#+1
+   \       0x5C   0x70A0             STRB     R0,[R4, #+2]
+    483                break;
+    484              case EMBER_ZCL_HUE_STEP_MODE_DOWN:
+    485                state->hueMoveToLevel = currentHue - stepSize;
+    486                if (stepSize == currentHue - 1) {
+    487                  state->hueMoveToLevel--;
+    488                }
+    489                state->hueMoveDirection = false;
+    490                break;
+    491              default:
+    492                status = EMBER_ZCL_STATUS_INVALID_FIELD;
+    493                goto send_default_response;
+    494            }
+    495          
+    496            // If the color specified is not achievable by the hardware, then the
+    497            // color shall not be set and a ZCL default response command shall be
+    498            // generated with status code equal to INVALID_VALUE.
+    499            status = colorControlReadCurrentSaturation(emberAfCurrentEndpoint(),
+    500                                                       &currentSaturation);
+   \                     ??emberAfColorControlClusterStepHueCallback_6: (+1)
+   \       0x5E   0xF10D 0x0101      ADD      R1,SP,#+1
+   \       0x62   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x66   0x6800             LDR      R0,[R0, #+0]
+   \       0x68   0x7940             LDRB     R0,[R0, #+5]
+   \       0x6A   0x.... 0x....      BL       colorControlReadCurrentSaturation
+   \       0x6E   0x4681             MOV      R9,R0
+    501            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x70   0x2800             CMP      R0,#+0
+   \       0x72   0xD13B             BNE.N    ??emberAfColorControlClusterStepHueCallback_1
+    502              goto send_default_response;
+    503            }
+    504          
+    505            if (!emberAfPluginColorControlIsColorSupportedCallback(state->hueMoveToLevel,
+                        ^
+Warning[Pe223]: function "emberAfPluginColorControlIsColorSupportedCallback"
+          declared implicitly
+    506                                                                   currentSaturation)
+    507                || stepSize == 0 ) {
+   \       0x74   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \       0x78   0x79A0             LDRB     R0,[R4, #+6]
+   \       0x7A   0x.... 0x....      BL       emberAfPluginColorControlIsColorSupportedCallback
+   \       0x7E   0x2800             CMP      R0,#+0
+   \       0x80   0xD001             BEQ.N    ??emberAfColorControlClusterStepHueCallback_7
+   \       0x82   0x0030             MOVS     R0,R6
+   \       0x84   0xD114             BNE.N    ??emberAfColorControlClusterStepHueCallback_8
+    508              status = EMBER_ZCL_STATUS_INVALID_VALUE;
+   \                     ??emberAfColorControlClusterStepHueCallback_7: (+1)
+   \       0x86   0xF04F 0x0987      MOV      R9,#+135
+    509              goto send_default_response;
+   \       0x8A   0xE02F             B.N      ??emberAfColorControlClusterStepHueCallback_1
+    510            }
+   \                     ??emberAfColorControlClusterStepHueCallback_3: (+1)
+   \       0x8C   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x90   0x1B80             SUBS     R0,R0,R6
+   \       0x92   0x71A0             STRB     R0,[R4, #+6]
+   \       0x94   0x4631             MOV      R1,R6
+   \       0x96   0x1C49             ADDS     R1,R1,#+1
+   \       0x98   0xF89D 0x2000      LDRB     R2,[SP, #+0]
+   \       0x9C   0x4291             CMP      R1,R2
+   \       0x9E   0xD101             BNE.N    ??emberAfColorControlClusterStepHueCallback_9
+   \       0xA0   0x1E40             SUBS     R0,R0,#+1
+   \       0xA2   0x71A0             STRB     R0,[R4, #+6]
+   \                     ??emberAfColorControlClusterStepHueCallback_9: (+1)
+   \       0xA4   0x2000             MOVS     R0,#+0
+   \       0xA6   0x70A0             STRB     R0,[R4, #+2]
+   \       0xA8   0xE7D9             B.N      ??emberAfColorControlClusterStepHueCallback_6
+   \                     ??emberAfColorControlClusterStepHueCallback_4: (+1)
+   \       0xAA   0xF04F 0x0985      MOV      R9,#+133
+   \       0xAE   0xE01D             B.N      ??emberAfColorControlClusterStepHueCallback_1
+    511          
+    512            state->commandId = ZCL_STEP_HUE_COMMAND_ID;
+   \                     ??emberAfColorControlClusterStepHueCallback_8: (+1)
+   \       0xB0   0x2002             MOVS     R0,#+2
+   \       0xB2   0x7060             STRB     R0,[R4, #+1]
+    513            state->transitionTime = transitionTime * MILLISECOND_TICKS_PER_SECOND / 10;
+   \       0xB4   0x02BF             LSLS     R7,R7,#+10
+   \       0xB6   0x200A             MOVS     R0,#+10
+   \       0xB8   0xFBB7 0xF0F0      UDIV     R0,R7,R0
+   \       0xBC   0x6120             STR      R0,[R4, #+16]
+    514            state->elapsedTime = 0;
+   \       0xBE   0x2000             MOVS     R0,#+0
+   \       0xC0   0x60E0             STR      R0,[R4, #+12]
+    515            state->eventDuration = state->transitionTime / stepSize;
+   \       0xC2   0x6920             LDR      R0,[R4, #+16]
+   \       0xC4   0xFBB0 0xF0F6      UDIV     R0,R0,R6
+   \       0xC8   0x60A0             STR      R0,[R4, #+8]
+    516          
+    517            state->active = true;
+   \       0xCA   0x2001             MOVS     R0,#+1
+   \       0xCC   0x7020             STRB     R0,[R4, #+0]
+    518          
+    519            // Set the Color Mode attribute to zero as per the spec, ignoring any errors.
+    520            colorControlSetColorModeToZero();
+   \       0xCE   0x.... 0x....      BL       colorControlSetColorModeToZero
+    521          
+    522            //schedule the next tick
+    523            if (emberAfScheduleServerTick(emberAfCurrentEndpoint(),
+    524                                          ZCL_COLOR_CONTROL_CLUSTER_ID,
+    525                                          state->eventDuration)
+    526                != EMBER_SUCCESS) {
+   \       0xD2   0x68A2             LDR      R2,[R4, #+8]
+   \       0xD4   0xF44F 0x7140      MOV      R1,#+768
+   \       0xD8   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0xDC   0x6800             LDR      R0,[R0, #+0]
+   \       0xDE   0x7940             LDRB     R0,[R0, #+5]
+   \       0xE0   0x.... 0x....      BL       emberAfScheduleServerTick
+   \       0xE4   0x2800             CMP      R0,#+0
+   \       0xE6   0xD001             BEQ.N    ??emberAfColorControlClusterStepHueCallback_1
+    527              status = EMBER_ZCL_STATUS_SOFTWARE_FAILURE;
+   \       0xE8   0xF04F 0x09C1      MOV      R9,#+193
+    528            } else {
+    529              status = EMBER_ZCL_STATUS_SUCCESS;
+    530            }
+    531          
+    532            goto send_default_response;
+    533          
+    534            send_default_response:
+    535            emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfColorControlClusterStepHueCallback_1: (+1)
+   \       0xEC   0x4648             MOV      R0,R9
+   \       0xEE   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    536          
+    537            return true;
+   \       0xF2   0x2001             MOVS     R0,#+1
+   \       0xF4   0xE8BD 0x83F2      POP      {R1,R4-R9,PC}
+    538          }
+    539          
+    540          // Move saturation to a given saturation, taking transitionTime until completed.
+
+   \                                 In section .text, align 2, keep-with-next
+    541          bool emberAfColorControlClusterMoveToSaturationCallback(uint8_t saturation,
+    542                                                                  uint16_t transitionTime,
+    543                                                                  uint8_t optionsMask,
+    544                                                                  uint8_t optionsOverride)
+    545          {
+   \                     emberAfColorControlClusterMoveToSaturationCallback: (+1)
+   \        0x0   0xE92D 0x41FC      PUSH     {R2-R8,LR}
+   \        0x4   0x4680             MOV      R8,R0
+    546            ColorControlState *state = getColorControlState(emberAfCurrentEndpoint());
+   \        0x6   0x.... 0x....      LDR.W    R5,??DataTable7_1
+   \        0xA   0x6828             LDR      R0,[R5, #+0]
+   \        0xC   0x6800             LDR      R0,[R0, #+0]
+   \        0xE   0x7940             LDRB     R0,[R0, #+5]
+   \       0x10   0x.... 0x....      BL       getColorControlState
+   \       0x14   0x0004             MOVS     R4,R0
+    547            EmberAfStatus status;
+    548            uint8_t currentHue, currentSaturation;
+    549          
+    550            emberAfColorControlClusterPrintln("ColorControl: MoveToSaturation (%x, %2x)",
+    551                                              saturation,
+    552                                              transitionTime);
+    553          
+    554            if (state == NULL) {
+   \       0x16   0xD101             BNE.N    ??emberAfColorControlClusterMoveToSaturationCal_0
+    555              status = EMBER_ZCL_STATUS_FAILURE;
+   \       0x18   0x2601             MOVS     R6,#+1
+    556              goto send_default_response;
+   \       0x1A   0xE042             B.N      ??emberAfColorControlClusterMoveToSaturationCal_1
+    557            }
+    558          
+    559            // If the color specified is not achievable by the hardware, then the
+    560            // color shall not be set and a ZCL default response command shall be
+    561            // generated with status code equal to INVALID_VALUE.
+    562            status = colorControlReadCurrentHue(emberAfCurrentEndpoint(),
+    563                                                &currentHue);
+   \                     ??emberAfColorControlClusterMoveToSaturationCal_0: (+1)
+   \       0x1C   0xF10D 0x0101      ADD      R1,SP,#+1
+   \       0x20   0x6828             LDR      R0,[R5, #+0]
+   \       0x22   0x6800             LDR      R0,[R0, #+0]
+   \       0x24   0x7940             LDRB     R0,[R0, #+5]
+   \       0x26   0x.... 0x....      BL       colorControlReadCurrentHue
+   \       0x2A   0x0006             MOVS     R6,R0
+    564            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x2C   0xD139             BNE.N    ??emberAfColorControlClusterMoveToSaturationCal_1
+    565              goto send_default_response;
+    566            }
+    567            if (!emberAfPluginColorControlIsColorSupportedCallback(currentHue, saturation)) {
+                        ^
+Warning[Pe223]: function "emberAfPluginColorControlIsColorSupportedCallback"
+          declared implicitly
+   \       0x2E   0x4647             MOV      R7,R8
+   \       0x30   0x4639             MOV      R1,R7
+   \       0x32   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x36   0x.... 0x....      BL       emberAfPluginColorControlIsColorSupportedCallback
+   \       0x3A   0x2800             CMP      R0,#+0
+   \       0x3C   0xD101             BNE.N    ??emberAfColorControlClusterMoveToSaturationCal_2
+    568              status = EMBER_ZCL_STATUS_INVALID_VALUE;
+   \       0x3E   0x2687             MOVS     R6,#+135
+    569              goto send_default_response;
+   \       0x40   0xE02F             B.N      ??emberAfColorControlClusterMoveToSaturationCal_1
+    570            }
+    571          
+    572            status = colorControlReadCurrentSaturation(emberAfCurrentEndpoint(),
+    573                                                       &currentSaturation);
+   \                     ??emberAfColorControlClusterMoveToSaturationCal_2: (+1)
+   \       0x42   0x4669             MOV      R1,SP
+   \       0x44   0x6828             LDR      R0,[R5, #+0]
+   \       0x46   0x6800             LDR      R0,[R0, #+0]
+   \       0x48   0x7940             LDRB     R0,[R0, #+5]
+   \       0x4A   0x.... 0x....      BL       colorControlReadCurrentSaturation
+   \       0x4E   0x0006             MOVS     R6,R0
+    574            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x50   0xD127             BNE.N    ??emberAfColorControlClusterMoveToSaturationCal_1
+    575              goto send_default_response;
+    576            }
+    577          
+    578            // Nothing to do, prevent divide-by-zero
+    579            if ( saturation == currentSaturation ) {
+   \       0x52   0x4640             MOV      R0,R8
+   \       0x54   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \       0x58   0x4288             CMP      R0,R1
+   \       0x5A   0xD022             BEQ.N    ??emberAfColorControlClusterMoveToSaturationCal_1
+    580              status = EMBER_ZCL_STATUS_SUCCESS;
+    581              goto send_default_response;
+    582            }
+    583          
+    584            state->commandId = ZCL_MOVE_TO_SATURATION_COMMAND_ID;
+   \       0x5C   0x2003             MOVS     R0,#+3
+   \       0x5E   0x7060             STRB     R0,[R4, #+1]
+    585            state->elapsedTime = 0;
+   \       0x60   0x2000             MOVS     R0,#+0
+   \       0x62   0x60E0             STR      R0,[R4, #+12]
+    586            state->saturationMoveToLevel = saturation;
+   \       0x64   0xF884 0x8007      STRB     R8,[R4, #+7]
+    587            state->satMoveDirection =
+    588              (saturation > currentSaturation ? true : false);
+   \       0x68   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \       0x6C   0x4541             CMP      R1,R8
+   \       0x6E   0x4180             SBCS     R0,R0,R0
+   \       0x70   0x0FC0             LSRS     R0,R0,#+31
+   \       0x72   0x70E0             STRB     R0,[R4, #+3]
+    589            state->eventDuration = state->transitionTime / ((state->satMoveDirection)
+    590                                                            ? (saturation - currentSaturation)
+    591                                                            : (currentSaturation - saturation));
+   \       0x74   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \       0x78   0xD001             BEQ.N    ??emberAfColorControlClusterMoveToSaturationCal_3
+   \       0x7A   0x1A7F             SUBS     R7,R7,R1
+   \       0x7C   0xE000             B.N      ??emberAfColorControlClusterMoveToSaturationCal_4
+   \                     ??emberAfColorControlClusterMoveToSaturationCal_3: (+1)
+   \       0x7E   0x1BCF             SUBS     R7,R1,R7
+   \                     ??emberAfColorControlClusterMoveToSaturationCal_4: (+1)
+   \       0x80   0x6920             LDR      R0,[R4, #+16]
+   \       0x82   0xFBB0 0xF0F7      UDIV     R0,R0,R7
+   \       0x86   0x60A0             STR      R0,[R4, #+8]
+    592          
+    593            // Set the Color Mode attribute to zero as per the spec, ignoring any errors.
+    594            colorControlSetColorModeToZero();
+   \       0x88   0x.... 0x....      BL       colorControlSetColorModeToZero
+    595          
+    596            //schedule the next tick
+    597            if (emberAfScheduleServerTick(emberAfCurrentEndpoint(),
+    598                                          ZCL_COLOR_CONTROL_CLUSTER_ID,
+    599                                          state->eventDuration)
+    600                != EMBER_SUCCESS) {
+   \       0x8C   0x68A2             LDR      R2,[R4, #+8]
+   \       0x8E   0xF44F 0x7140      MOV      R1,#+768
+   \       0x92   0x6828             LDR      R0,[R5, #+0]
+   \       0x94   0x6800             LDR      R0,[R0, #+0]
+   \       0x96   0x7940             LDRB     R0,[R0, #+5]
+   \       0x98   0x.... 0x....      BL       emberAfScheduleServerTick
+   \       0x9C   0x2800             CMP      R0,#+0
+   \       0x9E   0xD000             BEQ.N    ??emberAfColorControlClusterMoveToSaturationCal_1
+    601              status = EMBER_ZCL_STATUS_SOFTWARE_FAILURE;
+   \       0xA0   0x26C1             MOVS     R6,#+193
+    602            } else {
+    603              status = EMBER_ZCL_STATUS_SUCCESS;
+    604            }
+    605          
+    606            goto send_default_response;
+    607          
+    608            send_default_response:
+    609            emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfColorControlClusterMoveToSaturationCal_1: (+1)
+   \       0xA2   0x4630             MOV      R0,R6
+   \       0xA4   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    610          
+    611            return true;
+   \       0xA8   0x2001             MOVS     R0,#+1
+   \       0xAA   0xE8BD 0x81F6      POP      {R1,R2,R4-R8,PC}
+    612          }
+    613          
+    614          // Move sat continuously at the given rate. If mode is stop, then stop.
+
+   \                                 In section .text, align 2, keep-with-next
+    615          bool emberAfColorControlClusterMoveSaturationCallback(uint8_t moveMode,
+    616                                                                uint8_t rate,
+    617                                                                uint8_t optionsMask,
+    618                                                                uint8_t optionsOverride)
+    619          {
+   \                     emberAfColorControlClusterMoveSaturationCallback: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+   \        0x2   0x4607             MOV      R7,R0
+   \        0x4   0x460D             MOV      R5,R1
+    620            ColorControlState *state = getColorControlState(emberAfCurrentEndpoint());
+   \        0x6   0x....             LDR.N    R6,??DataTable7_1
+   \        0x8   0x6830             LDR      R0,[R6, #+0]
+   \        0xA   0x6800             LDR      R0,[R0, #+0]
+   \        0xC   0x7940             LDRB     R0,[R0, #+5]
+   \        0xE   0x.... 0x....      BL       getColorControlState
+   \       0x12   0x0004             MOVS     R4,R0
+    621            EmberAfStatus status;
+    622          
+    623            emberAfColorControlClusterPrintln("ColorControl: MoveSaturation (%x, %x)",
+    624                                              moveMode,
+    625                                              rate);
+    626          
+    627            if (state == NULL) {
+   \       0x14   0xD101             BNE.N    ??emberAfColorControlClusterMoveSaturationCallb_0
+    628              status = EMBER_ZCL_STATUS_FAILURE;
+   \       0x16   0x2001             MOVS     R0,#+1
+    629              goto send_default_response;
+   \       0x18   0xE034             B.N      ??emberAfColorControlClusterMoveSaturationCallb_1
+    630            }
+    631          
+    632            // If the rate is set to 0, then the command shall have no effect
+    633            // and a ZCL default response command shall be generated with status
+    634            // code equal to INVALID_VALUE.
+    635          
+    636            if (rate == 0) {
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_0: (+1)
+   \       0x1A   0x0028             MOVS     R0,R5
+   \       0x1C   0xD02F             BEQ.N    ??emberAfColorControlClusterMoveSaturationCallb_2
+    637              status = EMBER_ZCL_STATUS_INVALID_FIELD;
+    638              goto send_default_response;
+    639            }
+    640          
+    641            state->active = true;
+   \       0x1E   0x2001             MOVS     R0,#+1
+   \       0x20   0x7020             STRB     R0,[R4, #+0]
+    642          
+    643            switch (moveMode) {
+   \       0x22   0x2F00             CMP      R7,#+0
+   \       0x24   0xD004             BEQ.N    ??emberAfColorControlClusterMoveSaturationCallb_3
+   \       0x26   0x2F01             CMP      R7,#+1
+   \       0x28   0xD00D             BEQ.N    ??emberAfColorControlClusterMoveSaturationCallb_4
+   \       0x2A   0x2F03             CMP      R7,#+3
+   \       0x2C   0xD024             BEQ.N    ??emberAfColorControlClusterMoveSaturationCallb_5
+   \       0x2E   0xE026             B.N      ??emberAfColorControlClusterMoveSaturationCallb_2
+    644              case EMBER_ZCL_SATURATION_MOVE_MODE_STOP:
+    645                state->active = false;
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_3: (+1)
+   \       0x30   0x2000             MOVS     R0,#+0
+   \       0x32   0x7020             STRB     R0,[R4, #+0]
+    646                emberAfDeactivateServerTick(emberAfCurrentEndpoint(),
+    647                                            ZCL_COLOR_CONTROL_CLUSTER_ID);
+   \       0x34   0xF44F 0x7140      MOV      R1,#+768
+   \       0x38   0x6830             LDR      R0,[R6, #+0]
+   \       0x3A   0x6800             LDR      R0,[R0, #+0]
+   \       0x3C   0x7940             LDRB     R0,[R0, #+5]
+   \       0x3E   0x.... 0x....      BL       emberAfDeactivateServerTick
+    648          #ifdef ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+    649                colorControlClearRemainingTime(emberAfCurrentEndpoint());
+    650          #endif // ZCL_USING_COLOR_CONTROL_CLUSTER_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE
+    651                status = EMBER_ZCL_STATUS_SUCCESS;
+   \       0x42   0x2000             MOVS     R0,#+0
+    652                goto send_default_response;
+   \       0x44   0xE01E             B.N      ??emberAfColorControlClusterMoveSaturationCallb_1
+    653              case EMBER_ZCL_SATURATION_MOVE_MODE_UP:
+    654                state->satMoveDirection = true;
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_4: (+1)
+   \       0x46   0x70E0             STRB     R0,[R4, #+3]
+    655                break;
+    656              case EMBER_ZCL_SATURATION_MOVE_MODE_DOWN:
+    657                state->satMoveDirection = false;
+    658                break;
+    659              default:
+    660                status = EMBER_ZCL_STATUS_INVALID_FIELD;
+    661                goto send_default_response;
+    662            }
+    663          
+    664            state->commandId = ZCL_MOVE_SATURATION_COMMAND_ID;
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_6: (+1)
+   \       0x48   0x2004             MOVS     R0,#+4
+   \       0x4A   0x7060             STRB     R0,[R4, #+1]
+    665            if (state->active) {
+   \       0x4C   0x7820             LDRB     R0,[R4, #+0]
+   \       0x4E   0x2800             CMP      R0,#+0
+   \       0x50   0xD004             BEQ.N    ??emberAfColorControlClusterMoveSaturationCallb_7
+    666              state->eventDuration = MILLISECOND_TICKS_PER_SECOND / rate;
+   \       0x52   0xF44F 0x6080      MOV      R0,#+1024
+   \       0x56   0xFBB0 0xF0F5      UDIV     R0,R0,R5
+   \       0x5A   0x60A0             STR      R0,[R4, #+8]
+    667            }
+    668          
+    669            // Set the Color Mode attribute to zero as per the spec, ignoring any errors.
+    670            colorControlSetColorModeToZero();
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_7: (+1)
+   \       0x5C   0x.... 0x....      BL       colorControlSetColorModeToZero
+    671          
+    672            //schedule the next tick
+    673            if (emberAfScheduleServerTick(emberAfCurrentEndpoint(),
+    674                                          ZCL_COLOR_CONTROL_CLUSTER_ID,
+    675                                          state->eventDuration)
+    676                != EMBER_SUCCESS) {
+   \       0x60   0x68A2             LDR      R2,[R4, #+8]
+   \       0x62   0xF44F 0x7140      MOV      R1,#+768
+   \       0x66   0x6830             LDR      R0,[R6, #+0]
+   \       0x68   0x6800             LDR      R0,[R0, #+0]
+   \       0x6A   0x7940             LDRB     R0,[R0, #+5]
+   \       0x6C   0x.... 0x....      BL       emberAfScheduleServerTick
+   \       0x70   0x2800             CMP      R0,#+0
+   \       0x72   0xD006             BEQ.N    ??emberAfColorControlClusterMoveSaturationCallb_8
+    677              status = EMBER_ZCL_STATUS_SOFTWARE_FAILURE;
+   \       0x74   0x20C1             MOVS     R0,#+193
+   \       0x76   0xE005             B.N      ??emberAfColorControlClusterMoveSaturationCallb_1
+    678            } else {
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_5: (+1)
+   \       0x78   0x2000             MOVS     R0,#+0
+   \       0x7A   0x70E0             STRB     R0,[R4, #+3]
+   \       0x7C   0xE7E4             B.N      ??emberAfColorControlClusterMoveSaturationCallb_6
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_2: (+1)
+   \       0x7E   0x2085             MOVS     R0,#+133
+   \       0x80   0xE000             B.N      ??emberAfColorControlClusterMoveSaturationCallb_1
+    679              status = EMBER_ZCL_STATUS_SUCCESS;
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_8: (+1)
+   \       0x82   0x2000             MOVS     R0,#+0
+    680            }
+    681            goto send_default_response;
+    682          
+    683            send_default_response:
+    684            emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfColorControlClusterMoveSaturationCallb_1: (+1)
+   \       0x84   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    685          
+    686            return true;
+   \       0x88   0x2001             MOVS     R0,#+1
+   \       0x8A   0xBDF2             POP      {R1,R4-R7,PC}
+    687          }
+    688          
+    689          // Step sat by one step, taking time as specified.
+
+   \                                 In section .text, align 2, keep-with-next
+    690          bool emberAfColorControlClusterStepSaturationCallback(uint8_t stepMode,
+    691                                                                uint8_t stepSize,
+    692                                                                uint8_t transitionTime,
+    693                                                                uint8_t optionsMask,
+    694                                                                uint8_t optionsOverride)
+    695          {
+   \                     emberAfColorControlClusterStepSaturationCallback: (+1)
+   \        0x0   0xE92D 0x43F8      PUSH     {R3-R9,LR}
+   \        0x4   0x4605             MOV      R5,R0
+   \        0x6   0x460E             MOV      R6,R1
+   \        0x8   0x4617             MOV      R7,R2
+    696            ColorControlState *state = getColorControlState(emberAfCurrentEndpoint());
+   \        0xA   0x.... 0x....      LDR.W    R8,??DataTable7_1
+   \        0xE   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x12   0x6800             LDR      R0,[R0, #+0]
+   \       0x14   0x7940             LDRB     R0,[R0, #+5]
+   \       0x16   0x.... 0x....      BL       getColorControlState
+   \       0x1A   0x0004             MOVS     R4,R0
+    697            EmberAfStatus status;
+    698            uint8_t currentHue, currentSaturation;
+    699          
+    700            emberAfColorControlClusterPrintln("ColorControl: StepSaturation (%x, %x, %x)",
+    701                                              stepMode,
+    702                                              stepSize,
+    703                                              transitionTime);
+    704          
+    705            if (state == NULL) {
+   \       0x1C   0xD102             BNE.N    ??emberAfColorControlClusterStepSaturationCallb_0
+    706              status = EMBER_ZCL_STATUS_FAILURE;
+   \       0x1E   0xF04F 0x0901      MOV      R9,#+1
+    707              goto send_default_response;
+   \       0x22   0xE061             B.N      ??emberAfColorControlClusterStepSaturationCallb_1
+    708            }
+    709          
+    710            status = colorControlReadCurrentSaturation(emberAfCurrentEndpoint(),
+    711                                                       &currentSaturation);
+   \                     ??emberAfColorControlClusterStepSaturationCallb_0: (+1)
+   \       0x24   0x4669             MOV      R1,SP
+   \       0x26   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x2A   0x6800             LDR      R0,[R0, #+0]
+   \       0x2C   0x7940             LDRB     R0,[R0, #+5]
+   \       0x2E   0x.... 0x....      BL       colorControlReadCurrentSaturation
+   \       0x32   0x4681             MOV      R9,R0
+    712            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x34   0x2800             CMP      R0,#+0
+   \       0x36   0xD157             BNE.N    ??emberAfColorControlClusterStepSaturationCallb_1
+    713              goto send_default_response;
+    714            }
+    715          
+    716            // Add or subtract the step size to/from the current saturation to get the
+    717            // final saturation.  However, the range for saturations is 0x00 to 0xFE, so
+    718            // don't increment or decrement past those bounds.
+    719            switch (stepMode) {
+   \       0x38   0x2D01             CMP      R5,#+1
+   \       0x3A   0xD002             BEQ.N    ??emberAfColorControlClusterStepSaturationCallb_2
+   \       0x3C   0x2D03             CMP      R5,#+3
+   \       0x3E   0xD026             BEQ.N    ??emberAfColorControlClusterStepSaturationCallb_3
+   \       0x40   0xE031             B.N      ??emberAfColorControlClusterStepSaturationCallb_4
+    720              case EMBER_ZCL_SATURATION_STEP_MODE_UP:
+    721                state->saturationMoveToLevel = (stepSize > 0xFE - currentSaturation
+    722                                                ? 0xFE
+    723                                                : currentSaturation + stepSize);
+   \                     ??emberAfColorControlClusterStepSaturationCallb_2: (+1)
+   \       0x42   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x46   0xF1C0 0x00FE      RSB      R0,R0,#+254
+   \       0x4A   0x4631             MOV      R1,R6
+   \       0x4C   0x4288             CMP      R0,R1
+   \       0x4E   0xDA01             BGE.N    ??emberAfColorControlClusterStepSaturationCallb_5
+   \       0x50   0x20FE             MOVS     R0,#+254
+   \       0x52   0xE002             B.N      ??emberAfColorControlClusterStepSaturationCallb_6
+   \                     ??emberAfColorControlClusterStepSaturationCallb_5: (+1)
+   \       0x54   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x58   0x1830             ADDS     R0,R6,R0
+   \                     ??emberAfColorControlClusterStepSaturationCallb_6: (+1)
+   \       0x5A   0x71E0             STRB     R0,[R4, #+7]
+    724                state->satMoveDirection = true;
+   \       0x5C   0x2001             MOVS     R0,#+1
+   \       0x5E   0x70E0             STRB     R0,[R4, #+3]
+    725                break;
+    726              case EMBER_ZCL_SATURATION_STEP_MODE_DOWN:
+    727                state->saturationMoveToLevel = (stepSize > currentSaturation
+    728                                                ? 0x00
+    729                                                : currentSaturation - stepSize);
+    730                state->satMoveDirection = false;
+    731                break;
+    732              default:
+    733                status = EMBER_ZCL_STATUS_INVALID_FIELD;
+    734                goto send_default_response;
+    735            }
+    736          
+    737            // If the color specified is not achievable by the hardware, then the
+    738            // color shall not be set and a ZCL default response command shall be
+    739            // generated with status code equal to INVALID_VALUE.
+    740            status = colorControlReadCurrentHue(emberAfCurrentEndpoint(),
+    741                                                &currentHue);
+   \                     ??emberAfColorControlClusterStepSaturationCallb_7: (+1)
+   \       0x60   0xF10D 0x0101      ADD      R1,SP,#+1
+   \       0x64   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x68   0x6800             LDR      R0,[R0, #+0]
+   \       0x6A   0x7940             LDRB     R0,[R0, #+5]
+   \       0x6C   0x.... 0x....      BL       colorControlReadCurrentHue
+   \       0x70   0x4681             MOV      R9,R0
+    742            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x72   0x2800             CMP      R0,#+0
+   \       0x74   0xD138             BNE.N    ??emberAfColorControlClusterStepSaturationCallb_1
+    743              goto send_default_response;
+    744            }
+    745          
+    746            if (!emberAfPluginColorControlIsColorSupportedCallback(currentHue,
+                        ^
+Warning[Pe223]: function "emberAfPluginColorControlIsColorSupportedCallback"
+          declared implicitly
+    747                                                                   state->saturationMoveToLevel)
+    748                || stepSize == 0 ) {
+   \       0x76   0x79E1             LDRB     R1,[R4, #+7]
+   \       0x78   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x7C   0x.... 0x....      BL       emberAfPluginColorControlIsColorSupportedCallback
+   \       0x80   0x2800             CMP      R0,#+0
+   \       0x82   0xD001             BEQ.N    ??emberAfColorControlClusterStepSaturationCallb_8
+   \       0x84   0x0030             MOVS     R0,R6
+   \       0x86   0xD111             BNE.N    ??emberAfColorControlClusterStepSaturationCallb_9
+    749              status = EMBER_ZCL_STATUS_INVALID_VALUE;
+   \                     ??emberAfColorControlClusterStepSaturationCallb_8: (+1)
+   \       0x88   0xF04F 0x0987      MOV      R9,#+135
+    750              goto send_default_response;
+   \       0x8C   0xE02C             B.N      ??emberAfColorControlClusterStepSaturationCallb_1
+    751            }
+   \                     ??emberAfColorControlClusterStepSaturationCallb_3: (+1)
+   \       0x8E   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x92   0x4631             MOV      R1,R6
+   \       0x94   0x4288             CMP      R0,R1
+   \       0x96   0xD201             BCS.N    ??emberAfColorControlClusterStepSaturationCallb_10
+   \       0x98   0x2000             MOVS     R0,#+0
+   \       0x9A   0xE000             B.N      ??emberAfColorControlClusterStepSaturationCallb_11
+   \                     ??emberAfColorControlClusterStepSaturationCallb_10: (+1)
+   \       0x9C   0x1B80             SUBS     R0,R0,R6
+   \                     ??emberAfColorControlClusterStepSaturationCallb_11: (+1)
+   \       0x9E   0x71E0             STRB     R0,[R4, #+7]
+   \       0xA0   0x2000             MOVS     R0,#+0
+   \       0xA2   0x70E0             STRB     R0,[R4, #+3]
+   \       0xA4   0xE7DC             B.N      ??emberAfColorControlClusterStepSaturationCallb_7
+   \                     ??emberAfColorControlClusterStepSaturationCallb_4: (+1)
+   \       0xA6   0xF04F 0x0985      MOV      R9,#+133
+   \       0xAA   0xE01D             B.N      ??emberAfColorControlClusterStepSaturationCallb_1
+    752          
+    753            state->commandId = ZCL_STEP_SATURATION_COMMAND_ID;
+   \                     ??emberAfColorControlClusterStepSaturationCallb_9: (+1)
+   \       0xAC   0x2005             MOVS     R0,#+5
+   \       0xAE   0x7060             STRB     R0,[R4, #+1]
+    754            state->transitionTime = transitionTime * MILLISECOND_TICKS_PER_SECOND / 10;
+   \       0xB0   0x02BF             LSLS     R7,R7,#+10
+   \       0xB2   0x200A             MOVS     R0,#+10
+   \       0xB4   0xFBB7 0xF0F0      UDIV     R0,R7,R0
+   \       0xB8   0x6120             STR      R0,[R4, #+16]
+    755            state->elapsedTime = 0;
+   \       0xBA   0x2000             MOVS     R0,#+0
+   \       0xBC   0x60E0             STR      R0,[R4, #+12]
+    756            state->eventDuration = state->transitionTime / stepSize;
+   \       0xBE   0x6920             LDR      R0,[R4, #+16]
+   \       0xC0   0xFBB0 0xF0F6      UDIV     R0,R0,R6
+   \       0xC4   0x60A0             STR      R0,[R4, #+8]
+    757          
+    758            state->active = true;
+   \       0xC6   0x2001             MOVS     R0,#+1
+   \       0xC8   0x7020             STRB     R0,[R4, #+0]
+    759          
+    760            // Set the Color Mode attribute to zero as per the spec, ignoring any errors.
+    761            colorControlSetColorModeToZero();
+   \       0xCA   0x.... 0x....      BL       colorControlSetColorModeToZero
+    762          
+    763            //schedule the next tick
+    764            if (emberAfScheduleServerTick(emberAfCurrentEndpoint(),
+    765                                          ZCL_COLOR_CONTROL_CLUSTER_ID,
+    766                                          state->eventDuration)
+    767                != EMBER_SUCCESS) {
+   \       0xCE   0x68A2             LDR      R2,[R4, #+8]
+   \       0xD0   0xF44F 0x7140      MOV      R1,#+768
+   \       0xD4   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0xD8   0x6800             LDR      R0,[R0, #+0]
+   \       0xDA   0x7940             LDRB     R0,[R0, #+5]
+   \       0xDC   0x.... 0x....      BL       emberAfScheduleServerTick
+   \       0xE0   0x2800             CMP      R0,#+0
+   \       0xE2   0xD001             BEQ.N    ??emberAfColorControlClusterStepSaturationCallb_1
+    768              status = EMBER_ZCL_STATUS_SOFTWARE_FAILURE;
+   \       0xE4   0xF04F 0x09C1      MOV      R9,#+193
+    769            } else {
+    770              status = EMBER_ZCL_STATUS_SUCCESS;
+    771            }
+    772          
+    773            goto send_default_response;
+    774          
+    775            send_default_response:
+    776            emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfColorControlClusterStepSaturationCallb_1: (+1)
+   \       0xE8   0x4648             MOV      R0,R9
+   \       0xEA   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    777          
+    778            return true;
+   \       0xEE   0x2001             MOVS     R0,#+1
+   \       0xF0   0xE8BD 0x83F2      POP      {R1,R4-R9,PC}
+    779          }
+    780          
+    781          // Move hue and saturation to a given values, taking time as specified.
+
+   \                                 In section .text, align 2, keep-with-next
+    782          bool emberAfColorControlClusterMoveToHueAndSaturationCallback(uint8_t hue,
+    783                                                                        uint8_t saturation,
+    784                                                                        uint16_t transitionTime,
+    785                                                                        uint8_t optionsMask,
+    786                                                                        uint8_t optionsOverride)
+    787          {
+   \                     emberAfColorControlClusterMoveToHueAndSaturationCallback: (+1)
+   \        0x0   0xE92D 0x4FFE      PUSH     {R1-R11,LR}
+   \        0x4   0x4606             MOV      R6,R0
+   \        0x6   0x460F             MOV      R7,R1
+   \        0x8   0x4615             MOV      R5,R2
+    788            ColorControlState *state = getColorControlState(emberAfCurrentEndpoint());
+   \        0xA   0x.... 0x....      LDR.W    R8,??DataTable7_1
+   \        0xE   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x12   0x6800             LDR      R0,[R0, #+0]
+   \       0x14   0x7940             LDRB     R0,[R0, #+5]
+   \       0x16   0x.... 0x....      BL       getColorControlState
+   \       0x1A   0x0004             MOVS     R4,R0
+    789            EmberAfStatus status;
+    790            uint8_t currentSaturation, currentHue, hueDiff, satDiff;
+    791          
+    792            emberAfColorControlClusterPrintln("ColorControl: MoveToHueAndSaturation (%x, %x, %2x)",
+    793                                              hue,
+    794                                              saturation,
+    795                                              transitionTime);
+    796          
+    797            if (state == NULL) {
+   \       0x1C   0xD102             BNE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_0
+    798              status = EMBER_ZCL_STATUS_FAILURE;
+   \       0x1E   0xF04F 0x0901      MOV      R9,#+1
+    799              goto send_default_response;
+   \       0x22   0xE08A             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_1
+    800            }
+    801          
+    802            // If the color specified is not achievable by the hardware, then the
+    803            // color shall not be set and a ZCL default response command shall be
+    804            // generated with status code equal to INVALID_VALUE.
+    805            if (!emberAfPluginColorControlIsColorSupportedCallback(hue, saturation)) {
+                        ^
+Warning[Pe223]: function "emberAfPluginColorControlIsColorSupportedCallback"
+          declared implicitly
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_0: (+1)
+   \       0x24   0x46B3             MOV      R11,R6
+   \       0x26   0x46BA             MOV      R10,R7
+   \       0x28   0x4651             MOV      R1,R10
+   \       0x2A   0x4658             MOV      R0,R11
+   \       0x2C   0x.... 0x....      BL       emberAfPluginColorControlIsColorSupportedCallback
+   \       0x30   0x2800             CMP      R0,#+0
+   \       0x32   0xD102             BNE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_2
+    806              status = EMBER_ZCL_STATUS_INVALID_VALUE;
+   \       0x34   0xF04F 0x0987      MOV      R9,#+135
+    807              goto send_default_response;
+   \       0x38   0xE07F             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_1
+    808            }
+    809          
+    810            status = colorControlReadCurrentSaturation(emberAfCurrentEndpoint(),
+    811                                                       &currentSaturation);
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_2: (+1)
+   \       0x3A   0xF10D 0x0105      ADD      R1,SP,#+5
+   \       0x3E   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x42   0x6800             LDR      R0,[R0, #+0]
+   \       0x44   0x7940             LDRB     R0,[R0, #+5]
+   \       0x46   0x.... 0x....      BL       colorControlReadCurrentSaturation
+   \       0x4A   0x4681             MOV      R9,R0
+    812            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x4C   0x2800             CMP      R0,#+0
+   \       0x4E   0xD174             BNE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_1
+    813              goto send_default_response;
+    814            }
+    815          
+    816            status = colorControlReadCurrentHue(emberAfCurrentEndpoint(), &currentHue);
+   \       0x50   0xA901             ADD      R1,SP,#+4
+   \       0x52   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \       0x56   0x6800             LDR      R0,[R0, #+0]
+   \       0x58   0x7940             LDRB     R0,[R0, #+5]
+   \       0x5A   0x.... 0x....      BL       colorControlReadCurrentHue
+   \       0x5E   0x4681             MOV      R9,R0
+    817            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x60   0x2800             CMP      R0,#+0
+   \       0x62   0xD16A             BNE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_1
+    818              goto send_default_response;
+    819            }
+    820          
+    821            state->commandId = ZCL_MOVE_TO_HUE_AND_SATURATION_COMMAND_ID;
+   \       0x64   0x2006             MOVS     R0,#+6
+   \       0x66   0x7060             STRB     R0,[R4, #+1]
+    822            state->hueMoveToLevel = hue;
+   \       0x68   0x71A6             STRB     R6,[R4, #+6]
+    823            state->hueMoveDirection = (hue - currentHue <= 127 ? true : false);
+   \       0x6A   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0x6E   0xEBAB 0x0B00      SUB      R11,R11,R0
+   \       0x72   0xF1BB 0x0F80      CMP      R11,#+128
+   \       0x76   0xDA01             BGE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_3
+   \       0x78   0x2001             MOVS     R0,#+1
+   \       0x7A   0xE000             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_4
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_3: (+1)
+   \       0x7C   0x2000             MOVS     R0,#+0
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_4: (+1)
+   \       0x7E   0x70A0             STRB     R0,[R4, #+2]
+    824            hueDiff = (state->hueMoveDirection ? hue - currentHue : currentHue - hue);
+   \       0x80   0x2800             CMP      R0,#+0
+   \       0x82   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0x86   0xD002             BEQ.N    ??emberAfColorControlClusterMoveToHueAndSaturat_5
+   \       0x88   0x1A30             SUBS     R0,R6,R0
+   \       0x8A   0xB2C0             UXTB     R0,R0
+   \       0x8C   0xE001             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_6
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_5: (+1)
+   \       0x8E   0x1B80             SUBS     R0,R0,R6
+   \       0x90   0xB2C0             UXTB     R0,R0
+    825          
+    826            state->saturationMoveToLevel = saturation;
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_6: (+1)
+   \       0x92   0x71E7             STRB     R7,[R4, #+7]
+    827            state->satMoveDirection = (saturation - currentSaturation <= 127 ? true : false);
+   \       0x94   0xF89D 0x1005      LDRB     R1,[SP, #+5]
+   \       0x98   0xEBAA 0x0A01      SUB      R10,R10,R1
+   \       0x9C   0xF1BA 0x0F80      CMP      R10,#+128
+   \       0xA0   0xDA01             BGE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_7
+   \       0xA2   0x2101             MOVS     R1,#+1
+   \       0xA4   0xE000             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_8
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_7: (+1)
+   \       0xA6   0x2100             MOVS     R1,#+0
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_8: (+1)
+   \       0xA8   0x70E1             STRB     R1,[R4, #+3]
+    828            satDiff = (state->satMoveDirection
+    829                       ? saturation - currentSaturation
+    830                       : currentSaturation - saturation);
+   \       0xAA   0x2900             CMP      R1,#+0
+   \       0xAC   0xF89D 0x1005      LDRB     R1,[SP, #+5]
+   \       0xB0   0xD002             BEQ.N    ??emberAfColorControlClusterMoveToHueAndSaturat_9
+   \       0xB2   0x1A79             SUBS     R1,R7,R1
+   \       0xB4   0xB2C9             UXTB     R1,R1
+   \       0xB6   0xE001             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_10
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_9: (+1)
+   \       0xB8   0x1BC9             SUBS     R1,R1,R7
+   \       0xBA   0xB2C9             UXTB     R1,R1
+    831          
+    832            if (hueDiff == 0) {
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_10: (+1)
+   \       0xBC   0x2800             CMP      R0,#+0
+   \       0xBE   0xD106             BNE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_11
+    833              return emberAfColorControlClusterMoveToSaturationCallback(saturation,
+    834                                                                        transitionTime,
+    835                                                                        0x00,  // optionsMask
+    836                                                                        0x00); // optionsOverride
+   \       0xC0   0x2300             MOVS     R3,#+0
+   \       0xC2   0x461A             MOV      R2,R3
+   \       0xC4   0x4629             MOV      R1,R5
+   \       0xC6   0x4638             MOV      R0,R7
+   \       0xC8   0x.... 0x....      BL       emberAfColorControlClusterMoveToSaturationCallback
+   \       0xCC   0xE039             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_12
+    837            } else if (satDiff == 0) {
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_11: (+1)
+   \       0xCE   0x2900             CMP      R1,#+0
+   \       0xD0   0xD108             BNE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_13
+    838              return emberAfColorControlClusterMoveToHueCallback(hue,
+    839                                                                 EMBER_ZCL_HUE_DIRECTION_SHORTEST_DISTANCE,
+    840                                                                 transitionTime,
+    841                                                                 0x00,  // optionsMask
+    842                                                                 0x00); // optionsOverride
+   \       0xD2   0x2000             MOVS     R0,#+0
+   \       0xD4   0x9000             STR      R0,[SP, #+0]
+   \       0xD6   0x4603             MOV      R3,R0
+   \       0xD8   0x462A             MOV      R2,R5
+   \       0xDA   0x4601             MOV      R1,R0
+   \       0xDC   0x4630             MOV      R0,R6
+   \       0xDE   0x.... 0x....      BL       emberAfColorControlClusterMoveToHueCallback
+   \       0xE2   0xE02E             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_12
+    843            }
+    844          
+    845            state->elapsedTime = 0;
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_13: (+1)
+   \       0xE4   0x2200             MOVS     R2,#+0
+   \       0xE6   0x60E2             STR      R2,[R4, #+12]
+    846            state->acceleratedHue = hueDiff > satDiff;
+   \       0xE8   0x4281             CMP      R1,R0
+   \       0xEA   0xDA00             BGE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_14
+   \       0xEC   0x2201             MOVS     R2,#+1
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_14: (+1)
+   \       0xEE   0x7122             STRB     R2,[R4, #+4]
+    847            state->acceleratedMoveRate = (state->acceleratedHue
+    848                                          ? hueDiff / satDiff
+    849                                          : satDiff / hueDiff);
+   \       0xF0   0x2A00             CMP      R2,#+0
+   \       0xF2   0xD002             BEQ.N    ??emberAfColorControlClusterMoveToHueAndSaturat_15
+   \       0xF4   0xFB90 0xF2F1      SDIV     R2,R0,R1
+   \       0xF8   0xE001             B.N      ??emberAfColorControlClusterMoveToHueAndSaturat_16
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_15: (+1)
+   \       0xFA   0xFB91 0xF2F0      SDIV     R2,R1,R0
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_16: (+1)
+   \       0xFE   0x7162             STRB     R2,[R4, #+5]
+    850          
+    851            state->transitionTime = transitionTime * MILLISECOND_TICKS_PER_SECOND / 10;
+   \      0x100   0x02AD             LSLS     R5,R5,#+10
+   \      0x102   0x220A             MOVS     R2,#+10
+   \      0x104   0xFBB5 0xF3F2      UDIV     R3,R5,R2
+   \      0x108   0x6123             STR      R3,[R4, #+16]
+    852            state->eventDuration = state->transitionTime / ((state->acceleratedHue)
+    853                                                            ? hueDiff
+    854                                                            : satDiff);
+   \      0x10A   0x7922             LDRB     R2,[R4, #+4]
+   \      0x10C   0x2A00             CMP      R2,#+0
+   \      0x10E   0xD100             BNE.N    ??emberAfColorControlClusterMoveToHueAndSaturat_17
+   \      0x110   0x4608             MOV      R0,R1
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_17: (+1)
+   \      0x112   0xFBB3 0xF0F0      UDIV     R0,R3,R0
+   \      0x116   0x60A0             STR      R0,[R4, #+8]
+    855          
+    856            // Set the Color Mode attribute to zero as per the spec, ignoring any errors.
+    857            colorControlSetColorModeToZero();
+   \      0x118   0x.... 0x....      BL       colorControlSetColorModeToZero
+    858          
+    859            state->active = true;
+   \      0x11C   0x2001             MOVS     R0,#+1
+   \      0x11E   0x7020             STRB     R0,[R4, #+0]
+    860          
+    861            //schedule the next tick
+    862            if (emberAfScheduleServerTick(emberAfCurrentEndpoint(),
+    863                                          ZCL_COLOR_CONTROL_CLUSTER_ID,
+    864                                          state->eventDuration)
+    865                != EMBER_SUCCESS) {
+   \      0x120   0x68A2             LDR      R2,[R4, #+8]
+   \      0x122   0xF44F 0x7140      MOV      R1,#+768
+   \      0x126   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \      0x12A   0x6800             LDR      R0,[R0, #+0]
+   \      0x12C   0x7940             LDRB     R0,[R0, #+5]
+   \      0x12E   0x.... 0x....      BL       emberAfScheduleServerTick
+   \      0x132   0x2800             CMP      R0,#+0
+   \      0x134   0xD001             BEQ.N    ??emberAfColorControlClusterMoveToHueAndSaturat_1
+    866              status = EMBER_ZCL_STATUS_SOFTWARE_FAILURE;
+   \      0x136   0xF04F 0x09C1      MOV      R9,#+193
+    867            } else {
+    868              status = EMBER_ZCL_STATUS_SUCCESS;
+    869            }
+    870          
+    871            goto send_default_response;
+    872          
+    873            send_default_response:
+    874            emberAfSendImmediateDefaultResponse(status);
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_1: (+1)
+   \      0x13A   0x4648             MOV      R0,R9
+   \      0x13C   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    875          
+    876            return true;
+   \      0x140   0x2001             MOVS     R0,#+1
+   \                     ??emberAfColorControlClusterMoveToHueAndSaturat_12: (+1)
+   \      0x142   0xE8BD 0x8FFE      POP      {R1-R11,PC}
+    877          }
+    878          
+
+   \                                 In section .text, align 2, keep-with-next
+    879          static bool colorControlHueAndSaturationHandler(uint8_t endpoint)
+    880          {
+   \                     colorControlHueAndSaturationHandler: (+1)
+   \        0x0   0xE92D 0x41FC      PUSH     {R2-R8,LR}
+   \        0x4   0x4607             MOV      R7,R0
+    881            EmberAfStatus status;
+    882            ColorControlState *state = getColorControlState(endpoint);
+   \        0x6   0x.... 0x....      BL       getColorControlState
+   \        0xA   0x4606             MOV      R6,R0
+    883            uint8_t hue, sat, hueDiff, satDiff;
+    884            bool hueUp = state->hueMoveDirection;
+   \        0xC   0x78B4             LDRB     R4,[R6, #+2]
+    885            bool satUp = state->satMoveDirection;
+   \        0xE   0x78F5             LDRB     R5,[R6, #+3]
+    886            bool proceed = true;
+   \       0x10   0xF04F 0x0801      MOV      R8,#+1
+    887          
+    888            if (state == NULL) {
+   \       0x14   0x2E00             CMP      R6,#+0
+   \       0x16   0xD071             BEQ.N    ??colorControlHueAndSaturationHandler_0
+    889              return false;
+    890            }
+    891          
+    892            status = colorControlReadCurrentHue(endpoint, &hue);
+    893            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x18   0xF10D 0x0101      ADD      R1,SP,#+1
+   \       0x1C   0x4638             MOV      R0,R7
+   \       0x1E   0x.... 0x....      BL       colorControlReadCurrentHue
+   \       0x22   0x2800             CMP      R0,#+0
+   \       0x24   0xD16A             BNE.N    ??colorControlHueAndSaturationHandler_0
+    894              emberAfColorControlClusterPrintln("ERR: could not read current hue %x",
+    895                                                status);
+    896              return false;
+    897            }
+    898            status = colorControlReadCurrentSaturation(endpoint, &sat);
+    899            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x26   0x4669             MOV      R1,SP
+   \       0x28   0x4638             MOV      R0,R7
+   \       0x2A   0x.... 0x....      BL       colorControlReadCurrentSaturation
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD164             BNE.N    ??colorControlHueAndSaturationHandler_0
+    900              emberAfColorControlClusterPrintln("ERR: could not read current saturation %x",
+    901                                                status);
+    902              return false;
+    903            }
+    904          
+    905            // Calculate the hue and saturation differentials
+    906            hueDiff = (hue > state->hueMoveToLevel)
+    907                      ? (0xFF - (hue - state->hueMoveToLevel))
+    908                      : (state->hueMoveToLevel - hue);
+   \       0x32   0x79B1             LDRB     R1,[R6, #+6]
+   \       0x34   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0x38   0x4281             CMP      R1,R0
+   \       0x3A   0xD204             BCS.N    ??colorControlHueAndSaturationHandler_1
+   \       0x3C   0xF1C0 0x00FF      RSB      R0,R0,#+255
+   \       0x40   0x1809             ADDS     R1,R1,R0
+   \       0x42   0xB2C9             UXTB     R1,R1
+   \       0x44   0xE001             B.N      ??colorControlHueAndSaturationHandler_2
+   \                     ??colorControlHueAndSaturationHandler_1: (+1)
+   \       0x46   0x1A09             SUBS     R1,R1,R0
+   \       0x48   0xB2C9             UXTB     R1,R1
+    909            satDiff = (sat > state->saturationMoveToLevel)
+    910                      ? (0xFF - (sat - state->saturationMoveToLevel))
+    911                      : (state->saturationMoveToLevel - sat);
+   \                     ??colorControlHueAndSaturationHandler_2: (+1)
+   \       0x4A   0x79F2             LDRB     R2,[R6, #+7]
+   \       0x4C   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \       0x50   0x4282             CMP      R2,R0
+   \       0x52   0xD204             BCS.N    ??colorControlHueAndSaturationHandler_3
+   \       0x54   0xF1C0 0x00FF      RSB      R0,R0,#+255
+   \       0x58   0x1812             ADDS     R2,R2,R0
+   \       0x5A   0xB2D2             UXTB     R2,R2
+   \       0x5C   0xE001             B.N      ??colorControlHueAndSaturationHandler_4
+   \                     ??colorControlHueAndSaturationHandler_3: (+1)
+   \       0x5E   0x1A12             SUBS     R2,R2,R0
+   \       0x60   0xB2D2             UXTB     R2,R2
+    912          
+    913            // See where we are relative to our expected correction threshold
+    914            if (state->acceleratedHue) {
+   \                     ??colorControlHueAndSaturationHandler_4: (+1)
+   \       0x62   0x7930             LDRB     R0,[R6, #+4]
+   \       0x64   0x2800             CMP      R0,#+0
+   \       0x66   0xD047             BEQ.N    ??colorControlHueAndSaturationHandler_5
+    915              if ( satDiff == 0 ) {
+   \       0x68   0x2A00             CMP      R2,#+0
+   \       0x6A   0xD047             BEQ.N    ??colorControlHueAndSaturationHandler_0
+    916                return false;
+    917              }
+    918              hueDiff = hueDiff / satDiff;
+    919              if (hueDiff > state->acceleratedMoveRate) {
+   \       0x6C   0x7973             LDRB     R3,[R6, #+5]
+   \       0x6E   0x4618             MOV      R0,R3
+   \       0x70   0xFB91 0xF1F2      SDIV     R1,R1,R2
+   \       0x74   0xB2C9             UXTB     R1,R1
+   \       0x76   0x428B             CMP      R3,R1
+   \       0x78   0xD201             BCS.N    ??colorControlHueAndSaturationHandler_6
+    920                hueDiff = state->acceleratedMoveRate - 1;
+   \       0x7A   0x1E40             SUBS     R0,R0,#+1
+   \       0x7C   0xE000             B.N      ??colorControlHueAndSaturationHandler_7
+    921              } else {
+    922                hueDiff = state->acceleratedMoveRate + 1;
+   \                     ??colorControlHueAndSaturationHandler_6: (+1)
+   \       0x7E   0x1C40             ADDS     R0,R0,#+1
+    923              }
+    924          
+    925              sat = satUp ? sat + 1 : sat - 1;
+   \                     ??colorControlHueAndSaturationHandler_7: (+1)
+   \       0x80   0x2D00             CMP      R5,#+0
+   \       0x82   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \       0x86   0xD003             BEQ.N    ??colorControlHueAndSaturationHandler_8
+   \       0x88   0x1C49             ADDS     R1,R1,#+1
+   \       0x8A   0xF88D 0x1000      STRB     R1,[SP, #+0]
+   \       0x8E   0xE002             B.N      ??colorControlHueAndSaturationHandler_9
+   \                     ??colorControlHueAndSaturationHandler_8: (+1)
+   \       0x90   0x1E49             SUBS     R1,R1,#+1
+   \       0x92   0xF88D 0x1000      STRB     R1,[SP, #+0]
+    926              if (sat == 0xFF) {
+   \                     ??colorControlHueAndSaturationHandler_9: (+1)
+   \       0x96   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \       0x9A   0x29FF             CMP      R1,#+255
+   \       0x9C   0xD108             BNE.N    ??colorControlHueAndSaturationHandler_10
+    927                sat = satUp ? 0x00 : 0xFE;
+   \       0x9E   0x2D00             CMP      R5,#+0
+   \       0xA0   0xD003             BEQ.N    ??colorControlHueAndSaturationHandler_11
+   \       0xA2   0x2100             MOVS     R1,#+0
+   \       0xA4   0xF88D 0x1000      STRB     R1,[SP, #+0]
+   \       0xA8   0xE002             B.N      ??colorControlHueAndSaturationHandler_10
+   \                     ??colorControlHueAndSaturationHandler_11: (+1)
+   \       0xAA   0x21FE             MOVS     R1,#+254
+   \       0xAC   0xF88D 0x1000      STRB     R1,[SP, #+0]
+    928              }
+    929              // Are we finished?
+    930              if (sat == state->saturationMoveToLevel) {
+   \                     ??colorControlHueAndSaturationHandler_10: (+1)
+   \       0xB0   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \       0xB4   0x79F2             LDRB     R2,[R6, #+7]
+   \       0xB6   0x4291             CMP      R1,R2
+   \       0xB8   0xD105             BNE.N    ??colorControlHueAndSaturationHandler_12
+    931                hue = state->hueMoveToLevel;
+   \       0xBA   0x79B0             LDRB     R0,[R6, #+6]
+   \       0xBC   0xF88D 0x0001      STRB     R0,[SP, #+1]
+    932                proceed = false;
+   \       0xC0   0xF04F 0x0800      MOV      R8,#+0
+    933                goto set_values;
+   \       0xC4   0xE061             B.N      ??colorControlHueAndSaturationHandler_13
+    934              }
+    935              hue = hueUp ? hue + hueDiff : hue - hueDiff;
+   \                     ??colorControlHueAndSaturationHandler_12: (+1)
+   \       0xC6   0x2C00             CMP      R4,#+0
+   \       0xC8   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \       0xCC   0xD003             BEQ.N    ??colorControlHueAndSaturationHandler_14
+   \       0xCE   0x1840             ADDS     R0,R0,R1
+   \       0xD0   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \       0xD4   0xE002             B.N      ??colorControlHueAndSaturationHandler_15
+   \                     ??colorControlHueAndSaturationHandler_14: (+1)
+   \       0xD6   0x1A08             SUBS     R0,R1,R0
+   \       0xD8   0xF88D 0x0001      STRB     R0,[SP, #+1]
+    936              if (hue == 0xFF) {
+   \                     ??colorControlHueAndSaturationHandler_15: (+1)
+   \       0xDC   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \       0xE0   0x28FF             CMP      R0,#+255
+   \       0xE2   0xD152             BNE.N    ??colorControlHueAndSaturationHandler_13
+    937                hue = hueUp ? 0x00 : 0xFE;
+   \       0xE4   0x2C00             CMP      R4,#+0
+   \       0xE6   0xD003             BEQ.N    ??colorControlHueAndSaturationHandler_16
+   \       0xE8   0x2000             MOVS     R0,#+0
+   \       0xEA   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \       0xEE   0xE04C             B.N      ??colorControlHueAndSaturationHandler_13
+   \                     ??colorControlHueAndSaturationHandler_16: (+1)
+   \       0xF0   0x20FE             MOVS     R0,#+254
+   \       0xF2   0xF88D 0x0001      STRB     R0,[SP, #+1]
+   \       0xF6   0xE048             B.N      ??colorControlHueAndSaturationHandler_13
+    938              }
+    939            } else {
+    940              if ( hueDiff == 0 ) {
+   \                     ??colorControlHueAndSaturationHandler_5: (+1)
+   \       0xF8   0x2900             CMP      R1,#+0
+   \       0xFA   0xD101             BNE.N    ??colorControlHueAndSaturationHandler_17
+    941                return false;
+   \                     ??colorControlHueAndSaturationHandler_0: (+1)
+   \       0xFC   0x2000             MOVS     R0,#+0
+   \       0xFE   0xE04F             B.N      ??colorControlHueAndSaturationHandler_18
+    942              }
+    943              satDiff = satDiff / hueDiff;
+    944              if (satDiff > state->acceleratedMoveRate) {
+   \                     ??colorControlHueAndSaturationHandler_17: (+1)
+   \      0x100   0x7973             LDRB     R3,[R6, #+5]
+   \      0x102   0x4618             MOV      R0,R3
+   \      0x104   0xFB92 0xF1F1      SDIV     R1,R2,R1
+   \      0x108   0xB2C9             UXTB     R1,R1
+   \      0x10A   0x428B             CMP      R3,R1
+   \      0x10C   0xD201             BCS.N    ??colorControlHueAndSaturationHandler_19
+    945                satDiff = state->acceleratedMoveRate - 1;
+   \      0x10E   0x1E40             SUBS     R0,R0,#+1
+   \      0x110   0xE000             B.N      ??colorControlHueAndSaturationHandler_20
+    946              } else {
+    947                satDiff = state->acceleratedMoveRate + 1;
+   \                     ??colorControlHueAndSaturationHandler_19: (+1)
+   \      0x112   0x1C40             ADDS     R0,R0,#+1
+    948              }
+    949          
+    950              hue = hueUp ? hue + 1 : hue - 1;
+   \                     ??colorControlHueAndSaturationHandler_20: (+1)
+   \      0x114   0x2C00             CMP      R4,#+0
+   \      0x116   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \      0x11A   0xD003             BEQ.N    ??colorControlHueAndSaturationHandler_21
+   \      0x11C   0x1C49             ADDS     R1,R1,#+1
+   \      0x11E   0xF88D 0x1001      STRB     R1,[SP, #+1]
+   \      0x122   0xE002             B.N      ??colorControlHueAndSaturationHandler_22
+   \                     ??colorControlHueAndSaturationHandler_21: (+1)
+   \      0x124   0x1E49             SUBS     R1,R1,#+1
+   \      0x126   0xF88D 0x1001      STRB     R1,[SP, #+1]
+    951              if (hue == 0xFF) {
+   \                     ??colorControlHueAndSaturationHandler_22: (+1)
+   \      0x12A   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \      0x12E   0x29FF             CMP      R1,#+255
+   \      0x130   0xD108             BNE.N    ??colorControlHueAndSaturationHandler_23
+    952                hue = hueUp ? 0x00 : 0xFE;
+   \      0x132   0x2C00             CMP      R4,#+0
+   \      0x134   0xD003             BEQ.N    ??colorControlHueAndSaturationHandler_24
+   \      0x136   0x2100             MOVS     R1,#+0
+   \      0x138   0xF88D 0x1001      STRB     R1,[SP, #+1]
+   \      0x13C   0xE002             B.N      ??colorControlHueAndSaturationHandler_23
+   \                     ??colorControlHueAndSaturationHandler_24: (+1)
+   \      0x13E   0x21FE             MOVS     R1,#+254
+   \      0x140   0xF88D 0x1001      STRB     R1,[SP, #+1]
+    953              }
+    954              // Are we finished?
+    955              if (hue == state->hueMoveToLevel) {
+   \                     ??colorControlHueAndSaturationHandler_23: (+1)
+   \      0x144   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \      0x148   0x79B2             LDRB     R2,[R6, #+6]
+   \      0x14A   0x4291             CMP      R1,R2
+   \      0x14C   0xD105             BNE.N    ??colorControlHueAndSaturationHandler_25
+    956                sat = state->saturationMoveToLevel;
+   \      0x14E   0x79F0             LDRB     R0,[R6, #+7]
+   \      0x150   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    957                proceed = false;
+   \      0x154   0xF04F 0x0800      MOV      R8,#+0
+    958                goto set_values;
+   \      0x158   0xE017             B.N      ??colorControlHueAndSaturationHandler_13
+    959              }
+    960              sat = satUp ? sat + satDiff : sat - satDiff;
+   \                     ??colorControlHueAndSaturationHandler_25: (+1)
+   \      0x15A   0x2D00             CMP      R5,#+0
+   \      0x15C   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \      0x160   0xD003             BEQ.N    ??colorControlHueAndSaturationHandler_26
+   \      0x162   0x1840             ADDS     R0,R0,R1
+   \      0x164   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \      0x168   0xE002             B.N      ??colorControlHueAndSaturationHandler_27
+   \                     ??colorControlHueAndSaturationHandler_26: (+1)
+   \      0x16A   0x1A08             SUBS     R0,R1,R0
+   \      0x16C   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    961              if (sat == 0xFF) {
+   \                     ??colorControlHueAndSaturationHandler_27: (+1)
+   \      0x170   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \      0x174   0x28FF             CMP      R0,#+255
+   \      0x176   0xD108             BNE.N    ??colorControlHueAndSaturationHandler_13
+    962                sat = satUp ? 0x00 : 0xFE;
+   \      0x178   0x2D00             CMP      R5,#+0
+   \      0x17A   0xD003             BEQ.N    ??colorControlHueAndSaturationHandler_28
+   \      0x17C   0x2000             MOVS     R0,#+0
+   \      0x17E   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \      0x182   0xE002             B.N      ??colorControlHueAndSaturationHandler_13
+   \                     ??colorControlHueAndSaturationHandler_28: (+1)
+   \      0x184   0x20FE             MOVS     R0,#+254
+   \      0x186   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    963              }
+    964            }
+    965          
+    966            set_values:
+    967            colorControlSetHue(endpoint, hue);
+   \                     ??colorControlHueAndSaturationHandler_13: (+1)
+   \      0x18A   0xF89D 0x1001      LDRB     R1,[SP, #+1]
+   \      0x18E   0x4638             MOV      R0,R7
+   \      0x190   0x.... 0x....      BL       colorControlSetHue
+    968            colorControlSetSaturation(endpoint, sat);
+   \      0x194   0xF89D 0x1000      LDRB     R1,[SP, #+0]
+   \      0x198   0x4638             MOV      R0,R7
+   \      0x19A   0x.... 0x....      BL       colorControlSetSaturation
+    969            return proceed;
+   \      0x19E   0x4640             MOV      R0,R8
+   \                     ??colorControlHueAndSaturationHandler_18: (+1)
+   \      0x1A0   0xE8BD 0x81F6      POP      {R1,R2,R4-R8,PC}
+    970          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7:
+   \        0x0   0x....'....        DC32     stateTable
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_1:
+   \        0x0   0x....'....        DC32     emAfCurrentCommand
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      32   colorControlHueAndSaturationHandler
+        32   -> colorControlReadCurrentHue
+        32   -> colorControlReadCurrentSaturation
+        32   -> colorControlSetHue
+        32   -> colorControlSetSaturation
+        32   -> getColorControlState
+       8   colorControlReadCurrentHue
+         8   -> emberAfReadServerAttribute
+       8   colorControlReadCurrentSaturation
+         8   -> emberAfReadServerAttribute
+       0   colorControlSetColorModeToZero
+      16   colorControlSetHue
+        16   -> emberAfWriteServerAttribute
+      16   colorControlSetSaturation
+        16   -> emberAfWriteServerAttribute
+      24   emberAfColorControlClusterMoveHueCallback
+        24   -> colorControlSetColorModeToZero
+        24   -> emberAfDeactivateServerTick
+        24   -> emberAfScheduleServerTick
+        24   -> emberAfSendImmediateDefaultResponse
+        24   -> getColorControlState
+      24   emberAfColorControlClusterMoveSaturationCallback
+        24   -> colorControlSetColorModeToZero
+        24   -> emberAfDeactivateServerTick
+        24   -> emberAfScheduleServerTick
+        24   -> emberAfSendImmediateDefaultResponse
+        24   -> getColorControlState
+      48   emberAfColorControlClusterMoveToHueAndSaturationCallback
+        48   -> colorControlReadCurrentHue
+        48   -> colorControlReadCurrentSaturation
+        48   -> colorControlSetColorModeToZero
+        48   -> emberAfColorControlClusterMoveToHueCallback
+        48   -> emberAfColorControlClusterMoveToSaturationCallback
+        48   -> emberAfPluginColorControlIsColorSupportedCallback
+        48   -> emberAfScheduleServerTick
+        48   -> emberAfSendImmediateDefaultResponse
+        48   -> getColorControlState
+      40   emberAfColorControlClusterMoveToHueCallback
+        40   -> colorControlReadCurrentHue
+        40   -> colorControlReadCurrentSaturation
+        40   -> colorControlSetColorModeToZero
+        40   -> emberAfPluginColorControlIsColorSupportedCallback
+        40   -> emberAfScheduleServerTick
+        40   -> emberAfSendImmediateDefaultResponse
+        40   -> getColorControlState
+      32   emberAfColorControlClusterMoveToSaturationCallback
+        32   -> colorControlReadCurrentHue
+        32   -> colorControlReadCurrentSaturation
+        32   -> colorControlSetColorModeToZero
+        32   -> emberAfPluginColorControlIsColorSupportedCallback
+        32   -> emberAfScheduleServerTick
+        32   -> emberAfSendImmediateDefaultResponse
+        32   -> getColorControlState
+       8   emberAfColorControlClusterServerInitCallback
+         8   -> getColorControlState
+      24   emberAfColorControlClusterServerTickCallback
+        24   -> colorControlHueAndSaturationHandler
+        24   -> colorControlReadCurrentHue
+        24   -> colorControlReadCurrentSaturation
+        24   -> colorControlSetHue
+        24   -> colorControlSetSaturation
+        24   -> emberAfScheduleServerTick
+        24   -> getColorControlState
+      32   emberAfColorControlClusterStepHueCallback
+        32   -> colorControlReadCurrentHue
+        32   -> colorControlReadCurrentSaturation
+        32   -> colorControlSetColorModeToZero
+        32   -> emberAfPluginColorControlIsColorSupportedCallback
+        32   -> emberAfScheduleServerTick
+        32   -> emberAfSendImmediateDefaultResponse
+        32   -> getColorControlState
+      32   emberAfColorControlClusterStepSaturationCallback
+        32   -> colorControlReadCurrentHue
+        32   -> colorControlReadCurrentSaturation
+        32   -> colorControlSetColorModeToZero
+        32   -> emberAfPluginColorControlIsColorSupportedCallback
+        32   -> emberAfScheduleServerTick
+        32   -> emberAfSendImmediateDefaultResponse
+        32   -> getColorControlState
+       8   getColorControlState
+         8   -> emberAfFindClusterServerEndpointIndex
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable7
+       4  ??DataTable7_1
+     420  colorControlHueAndSaturationHandler
+      20  colorControlReadCurrentHue
+      20  colorControlReadCurrentSaturation
+       2  colorControlSetColorModeToZero
+      22  colorControlSetHue
+      22  colorControlSetSaturation
+     142  emberAfColorControlClusterMoveHueCallback
+     140  emberAfColorControlClusterMoveSaturationCallback
+     326  emberAfColorControlClusterMoveToHueAndSaturationCallback
+     254  emberAfColorControlClusterMoveToHueCallback
+     174  emberAfColorControlClusterMoveToSaturationCallback
+      16  emberAfColorControlClusterServerInitCallback
+     268  emberAfColorControlClusterServerTickCallback
+     248  emberAfColorControlClusterStepHueCallback
+     244  emberAfColorControlClusterStepSaturationCallback
+      32  getColorControlState
+      20  stateTable
+
+ 
+    20 bytes in section .bss
+ 2'358 bytes in section .text
+ 
+ 2'358 bytes of CODE memory
+    20 bytes of DATA memory
+
+Errors: none
+Warnings: 15

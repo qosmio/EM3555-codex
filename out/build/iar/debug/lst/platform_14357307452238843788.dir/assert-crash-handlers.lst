@@ -1,0 +1,750 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:24
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\assert-crash-handlers.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\assert-crash-handlers.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\assert-crash-handlers.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"assert-crash-handlers.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\assert-crash-handlers.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\assert-crash-handlers.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\assert-crash-handlers.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\assert-crash-handlers.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\assert-crash-handlers.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief EM3XX-specific Assert and Crash HAL functions
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "stack/include/ember.h"
+     19          #include "hal/hal.h"
+     20          #include "serial/serial.h"
+     21          #include "diagnostic.h"
+     22          #include "hal/micro/cortexm3/mpu.h"
+     23          
+     24          #ifdef RTOS
+     25            #include "rtos/rtos.h"
+     26            #define freeRTOS 1
+     27          #else  // RTOS
+     28            #define freeRTOS 0
+     29          // extern uint32_t* xTaskGetCurrentTaskStackTop(void);
+     30          // extern uint32_t* xTaskGetCurrentTaskStackBottom(void);
+     31          #endif // RTOS
+     32          
+     33          //------------------------------------------------------------------------------
+     34          // Preprocessor definitions
+     35          
+     36          // Reserved instruction executed after a failed assert to cause a usage fault
+     37          #define ASSERT_USAGE_OPCODE 0xDE42U
+     38          
+     39          //------------------------------------------------------------------------------
+     40          // Forward Declarations
+     41          
+     42          //------------------------------------------------------------------------------
+     43          // Functions
+     44          
+     45          // Cause a usage fault by executing a special UNDEFINED instruction.
+     46          // The high byte (0xDE) is reserved to be undefined - the low byte (0x42)
+     47          // is arbitrary and distiguishes a failed assert from other usage faults.
+     48          // the fault handler with then decode this, grab the filename and linenumber
+     49          // parameters from R0 and R1 and save the information for display after
+     50          // a reset
+     51          #if defined (__ICCARM__)
+     52          #pragma diag_suppress=Og014
+
+   \                                 In section .text, align 4, keep-with-next
+     53          static void halInternalAssertFault(PGM_P filename, int linenumber)
+     54          {
+     55            asm ("DC16 0DE42h");
+   \                     halInternalAssertFault: (+1)
+   \        0x0   0xDE42             DC16 0DE42h
+     56          }
+   \        0x2   0x4770             BX       LR
+     57          #pragma diag_default=Og014
+     58          #elif defined (__GNUC__)
+     59          __attribute__((noinline))
+     60          static void halInternalAssertFault(PGM_P filename, int linenumber)
+     61          {
+     62            asm (".short 0xDE42\n" : : "r" (filename), "r" (linenumber));
+     63          }
+     64          #endif
+     65          
+
+   \                                 In section .text, align 2, keep-with-next
+     66          void halInternalAssertFailed(PGM_P filename, int linenumber)
+     67          {
+   \                     halInternalAssertFailed: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+     68            halResetWatchdog();              // In case we're close to running out.
+   \        0x6   0x.... 0x....      BL       halInternalResetWatchDog
+     69            INTERRUPTS_OFF();
+   \        0xA   0x.... 0x....      BL       _disableBasePri
+     70          
+     71            #if DEBUG_LEVEL >= BASIC_DEBUG
+     72            emberDebugAssert(filename, linenumber);
+   \        0xE   0x4629             MOV      R1,R5
+   \       0x10   0x4620             MOV      R0,R4
+   \       0x12   0x.... 0x....      BL       emberDebugAssert
+     73            #endif
+     74          
+     75            #if !defined(EMBER_ASSERT_OUTPUT_DISABLED)
+     76            (void) emberSerialGuaranteedPrintf(EMBER_ASSERT_SERIAL_PORT,
+     77                                               "\r\n[ASSERT:%p:%d]\r\n",
+     78                                               filename,
+     79                                               linenumber);
+   \       0x16   0x462B             MOV      R3,R5
+   \       0x18   0x4622             MOV      R2,R4
+   \       0x1A   0x....             LDR.N    R1,??DataTable3
+   \       0x1C   0x2001             MOVS     R0,#+1
+   \       0x1E   0x.... 0x....      BL       emberSerialGuaranteedPrintf
+     80            #endif
+     81          
+     82            #if defined (__ICCARM__) || defined (__GNUC__)
+     83            // We can use the special fault mechanism to preserve more assert
+     84            // information for display after a crash
+     85            halInternalAssertFault(filename, linenumber);
+   \       0x22   0x4629             MOV      R1,R5
+   \       0x24   0x4620             MOV      R0,R4
+   \       0x26   0xE8BD 0x4034      POP      {R2,R4,R5,LR}
+   \       0x2A   0x....             B.N      halInternalAssertFault
+     86            #else
+     87            // Other toolchains don't handle the inline assembly correctly, so
+     88            // we just call the internal reset
+     89            halResetInfo.crash.data.assertInfo.file = filename;
+     90            halResetInfo.crash.data.assertInfo.line = linenumber;
+     91            halInternalSysReset(RESET_CRASH_ASSERT);
+     92            #endif
+     93          }
+     94          
+     95          // Returns the bytes used in the main stack area.
+
+   \                                 In section .text, align 2, keep-with-next
+     96          static uint32_t halInternalGetMainStackBytesUsed(uint32_t *p)
+     97          {
+   \                     halInternalGetMainStackBytesUsed: (+1)
+   \        0x0   0x4601             MOV      R1,R0
+   \        0x2   0xE000             B.N      ??halInternalGetMainStackBytesUsed_0
+     98            for (; p < (uint32_t *)_CSTACK_SEGMENT_END; p++) {
+   \                     ??halInternalGetMainStackBytesUsed_1: (+1)
+   \        0x4   0x1D09             ADDS     R1,R1,#+4
+   \                     ??halInternalGetMainStackBytesUsed_0: (+1)
+   \        0x6   0x4608             MOV      R0,R1
+   \        0x8   0x....             LDR.N    R2,??DataTable3_1
+   \        0xA   0x4290             CMP      R0,R2
+   \        0xC   0xD203             BCS.N    ??halInternalGetMainStackBytesUsed_2
+     99              if (*p != STACK_FILL_VALUE) {
+   \        0xE   0x680A             LDR      R2,[R1, #+0]
+   \       0x10   0xF1B2 0x3FCD      CMP      R2,#+3452816845
+   \       0x14   0xD0F6             BEQ.N    ??halInternalGetMainStackBytesUsed_1
+    100                break;
+    101              }
+    102            }
+    103            return (uint32_t)((uint8_t *)_CSTACK_SEGMENT_END - (uint8_t *)p);
+   \                     ??halInternalGetMainStackBytesUsed_2: (+1)
+   \       0x16   0x....             LDR.N    R1,??DataTable3_2
+   \       0x18   0x1A08             SUBS     R0,R1,R0
+   \       0x1A   0x4770             BX       LR
+    104          }
+    105          
+    106          // After the low-level fault handler (in faults.s79) has saved the processor
+    107          // registers (R0-R12, LR and both MSP an PSP), it calls halInternalCrashHandler
+    108          // to finish saving additional crash data. This function returns the reason for
+    109          // the crash to the low-level fault handler that then calls
+    110          // halInternalSystsemReset() to reset the processor.
+    111          //
+    112          // NOTE:
+    113          // This function should not use more than 16 words on the stack to avoid
+    114          // overwriting halResetInfo at the bottom of the stack segment.
+    115          // The 16 words include this function's return address, plus any stack
+    116          // used by functions called by this one. The stack size allowed is defined
+    117          // by the symbol CRASH_STACK_SIZE in faults.s79.
+    118          // As compiled by IAR V6.21.1, it now uses 8 words (1 for its return address,
+    119          // 6 for registers pushed onto the stack and 1 for the return address of
+    120          // halInternalGetMainStackBytesUsed().
+    121          //
+
+   \                                 In section .text, align 2, keep-with-next
+    122          uint16_t halInternalCrashHandler(void)
+    123          {
+   \                     halInternalCrashHandler: (+1)
+   \        0x0   0xB5F8             PUSH     {R3-R7,LR}
+    124            uint32_t activeException;
+    125            uint16_t reason = (uint16_t)RESET_FAULT_UNKNOWN;
+   \        0x2   0xF44F 0x6420      MOV      R4,#+2560
+    126            HalCrashInfoType *c = &halResetInfo.crash;
+    127            uint8_t i, j;
+    128            uint32_t *sp, *s, *sEnd, *stackBottom, *stackTop;
+    129            uint32_t data;
+    130          
+    131            c->icsr.word = SCB->ICSR;
+   \        0x6   0x....             LDR.N    R5,??DataTable3_3
+   \        0x8   0x....             LDR.N    R0,??DataTable3_4
+   \        0xA   0x6801             LDR      R1,[R0, #+0]
+   \        0xC   0x65A9             STR      R1,[R5, #+88]
+    132            c->shcsr.word = SCB->SHCSR;
+   \        0xE   0x6A01             LDR      R1,[R0, #+32]
+   \       0x10   0x65E9             STR      R1,[R5, #+92]
+    133            //Read Active Interrupt register directly.  NVIC_GetActive() returns the
+    134            //state of a single IRQ and this debugging code wants to see all activity.
+    135            c->intActive.word = NVIC->IABR[0];
+   \       0x12   0x....             LDR.N    R1,??DataTable3_5
+   \       0x14   0x6809             LDR      R1,[R1, #+0]
+   \       0x16   0x6629             STR      R1,[R5, #+96]
+    136            c->cfsr.word = SCB->CFSR;
+   \       0x18   0x6A41             LDR      R1,[R0, #+36]
+   \       0x1A   0x6669             STR      R1,[R5, #+100]
+    137            c->hfsr.word = SCB->HFSR;
+   \       0x1C   0x6A81             LDR      R1,[R0, #+40]
+   \       0x1E   0x66A9             STR      R1,[R5, #+104]
+    138            c->dfsr.word = SCB->DFSR;
+   \       0x20   0x6AC1             LDR      R1,[R0, #+44]
+   \       0x22   0x66E9             STR      R1,[R5, #+108]
+    139            c->faultAddress = SCB->MMFAR;
+   \       0x24   0x6B01             LDR      R1,[R0, #+48]
+   \       0x26   0x6729             STR      R1,[R5, #+112]
+    140            c->afsr.word = SCB->AFSR;
+   \       0x28   0x6B80             LDR      R0,[R0, #+56]
+   \       0x2A   0x6768             STR      R0,[R5, #+116]
+    141          
+    142            // Examine B2 of the saved LR to know the stack in use when the fault occurred
+    143            sp = (uint32_t *)(((c->LR & 4U) != 0U) ? c->processSP : c->mainSP);
+   \       0x2C   0xF895 0x0038      LDRB     R0,[R5, #+56]
+   \       0x30   0x0740             LSLS     R0,R0,#+29
+   \       0x32   0xD501             BPL.N    ??halInternalCrashHandler_0
+   \       0x34   0x6C2E             LDR      R6,[R5, #+64]
+   \       0x36   0xE000             B.N      ??halInternalCrashHandler_1
+   \                     ??halInternalCrashHandler_0: (+1)
+   \       0x38   0x6BEE             LDR      R6,[R5, #+60]
+    144            sEnd = sp; // Keep a copy around for walking the stack later
+   \                     ??halInternalCrashHandler_1: (+1)
+   \       0x3A   0x4637             MOV      R7,R6
+    145          
+    146            // Get the bottom of the stack since we allow stack resizing
+    147            c->mainStackBottom = (uint32_t)halInternalGetCStackBottom();
+   \       0x3C   0x.... 0x....      BL       halInternalGetCStackBottom
+   \       0x40   0x6568             STR      R0,[R5, #+84]
+    148          
+    149            // If we're running FreeRTOS and this is a process stack then add
+    150            // extra diagnostic information
+    151            if ((freeRTOS != 0) && ((c->LR & 4U) != 0U)) {
+    152              // FreeRTOS doesn't provide the diagnostic functions we need
+    153              // so for now just lie to get some diagnostics
+    154              // stackBottom = (uint32_t*)xTaskGetCurrentTaskStackBottom();
+    155              // stackTop = (uint32_t*)xTaskGetCurrentTaskStackTop();
+    156              stackBottom = sp;
+    157              stackTop = sp + 8;
+    158              c->processSPUsed = stackTop - sp;
+    159            } else {
+    160              stackBottom = (uint32_t*)c->mainStackBottom;
+    161              stackTop = (uint32_t*)_CSTACK_SEGMENT_END;
+    162              c->processSPUsed = 0;   // process stack not in use
+   \       0x42   0x2100             MOVS     R1,#+0
+   \       0x44   0x6529             STR      R1,[R5, #+80]
+    163            }
+    164          
+    165            // If the stack pointer is valid, read and save the stacked PC and xPSR
+    166            if ((sp >= stackBottom)
+    167                && (sp <= (stackTop - 8))) {
+   \       0x46   0x4631             MOV      R1,R6
+   \       0x48   0x4281             CMP      R1,R0
+   \       0x4A   0xD321             BCC.N    ??halInternalCrashHandler_2
+   \       0x4C   0x....             LDR.N    R2,??DataTable3_6
+   \       0x4E   0x428A             CMP      R2,R1
+   \       0x50   0xD31E             BCC.N    ??halInternalCrashHandler_2
+    168              sp += 6; // Skip over R0,R1,R2,R3,R12,LR
+    169              c->PC = *sp++;
+   \       0x52   0x69B0             LDR      R0,[R6, #+24]
+   \       0x54   0x6468             STR      R0,[R5, #+68]
+    170              c->xPSR.word = *sp++;
+   \       0x56   0x69F0             LDR      R0,[R6, #+28]
+   \       0x58   0x64A8             STR      R0,[R5, #+72]
+    171          
+    172              // See if fault was due to a failed assert. This is indicated by
+    173              // a usage fault caused by executing a reserved instruction.
+    174              if ( c->icsr.bits.VECTACTIVE == USAGE_FAULT_VECTOR_INDEX
+    175                   && ((uint16_t *)c->PC >= (uint16_t *)_TEXT_SEGMENT_BEGIN)
+    176                   && ((uint16_t *)c->PC < (uint16_t *)_TEXT_SEGMENT_END)
+    177                   && *(uint16_t *)(c->PC) == ASSERT_USAGE_OPCODE ) {
+   \       0x5A   0x6DA8             LDR      R0,[R5, #+88]
+   \       0x5C   0xF3C0 0x0008      UBFX     R0,R0,#+0,#+9
+   \       0x60   0x2806             CMP      R0,#+6
+   \       0x62   0xD119             BNE.N    ??halInternalCrashHandler_3
+   \       0x64   0x6C68             LDR      R0,[R5, #+68]
+   \       0x66   0x4601             MOV      R1,R0
+   \       0x68   0x....             LDR.N    R2,??DataTable3_7
+   \       0x6A   0x4291             CMP      R1,R2
+   \       0x6C   0xD314             BCC.N    ??halInternalCrashHandler_3
+   \       0x6E   0x....             LDR.N    R2,??DataTable3_8
+   \       0x70   0x4291             CMP      R1,R2
+   \       0x72   0xD211             BCS.N    ??halInternalCrashHandler_3
+   \       0x74   0x8800             LDRH     R0,[R0, #+0]
+   \       0x76   0xF64D 0x6142      MOVW     R1,#+56898
+   \       0x7A   0x4288             CMP      R0,R1
+   \       0x7C   0xD10C             BNE.N    ??halInternalCrashHandler_3
+    178                // Copy halInternalAssertFailed() arguments into data member specific
+    179                // to asserts.
+    180                c->data.assertInfo.file = (const char *)c->R0;
+   \       0x7E   0xF105 0x008C      ADD      R0,R5,#+140
+   \       0x82   0x6869             LDR      R1,[R5, #+4]
+   \       0x84   0x6041             STR      R1,[R0, #+4]
+    181                c->data.assertInfo.line = c->R1;
+   \       0x86   0x68A9             LDR      R1,[R5, #+8]
+   \       0x88   0x6081             STR      R1,[R0, #+8]
+    182          #ifdef PUSH_REGS_BEFORE_ASSERT
+    183                // Just before calling halInternalAssertFailed(), R0, R1, R2 and LR were
+    184                // pushed onto the stack - copy these values into the crash data struct.
+    185                c->R0 = *sp++;
+    186                c->R1 = *sp++;
+    187                c->R2 = *sp++;
+    188                c->LR = *sp++;
+    189          #endif
+    190                reason = (uint16_t)RESET_CRASH_ASSERT;
+   \       0x8A   0xF240 0x7401      MOVW     R4,#+1793
+   \       0x8E   0xE003             B.N      ??halInternalCrashHandler_3
+    191              }
+    192              // If a bad stack pointer, PC and xPSR to 0 to indicate they are not known.
+    193            } else {
+    194              c->PC = 0;
+   \                     ??halInternalCrashHandler_2: (+1)
+   \       0x90   0x2100             MOVS     R1,#+0
+   \       0x92   0x6469             STR      R1,[R5, #+68]
+    195              c->xPSR.word = 0;
+   \       0x94   0x64A9             STR      R1,[R5, #+72]
+    196              sEnd = stackBottom;
+   \       0x96   0x4607             MOV      R7,R0
+    197            }
+    198          
+    199            // Fault handler has already started filling in halResetInfo{}
+    200            // prior to calling this routine, so want to make sure _not_
+    201            // to include halResetInfo in the stack assessment when crashing
+    202            // to avoid a self-fulfilling prophesy of a full stack!  BugzId:13403
+    203            uint32_t safeStackBottom = c->mainStackBottom;
+   \                     ??halInternalCrashHandler_3: (+1)
+   \       0x98   0x6D68             LDR      R0,[R5, #+84]
+    204            if (safeStackBottom < (uint32_t)(uint16_t *)_RESETINFO_SEGMENT_END) {
+   \       0x9A   0x....             LDR.N    R1,??DataTable3_9
+   \       0x9C   0x4288             CMP      R0,R1
+   \       0x9E   0xD200             BCS.N    ??halInternalCrashHandler_4
+    205              safeStackBottom = (uint32_t)(uint16_t *)_RESETINFO_SEGMENT_END;
+   \       0xA0   0x4608             MOV      R0,R1
+    206            }
+    207            c->mainSPUsed = halInternalGetMainStackBytesUsed((uint32_t*)safeStackBottom);
+   \                     ??halInternalCrashHandler_4: (+1)
+   \       0xA2   0x.... 0x....      BL       halInternalGetMainStackBytesUsed
+   \       0xA6   0x64E8             STR      R0,[R5, #+76]
+    208          
+    209            for (i = 0; i < NUM_RETURNS; i++) {
+   \       0xA8   0x2000             MOVS     R0,#+0
+   \       0xAA   0xF105 0x0278      ADD      R2,R5,#+120
+   \       0xAE   0xE005             B.N      ??halInternalCrashHandler_5
+    210              c->returns[i] = 0;
+   \                     ??halInternalCrashHandler_6: (+1)
+   \       0xB0   0x2100             MOVS     R1,#+0
+   \       0xB2   0x4603             MOV      R3,R0
+   \       0xB4   0xB2DB             UXTB     R3,R3
+   \       0xB6   0xF842 0x1023      STR      R1,[R2, R3, LSL #+2]
+    211            }
+   \       0xBA   0x1C40             ADDS     R0,R0,#+1
+   \                     ??halInternalCrashHandler_5: (+1)
+   \       0xBC   0x4601             MOV      R1,R0
+   \       0xBE   0xB2C9             UXTB     R1,R1
+   \       0xC0   0x2906             CMP      R1,#+6
+   \       0xC2   0xD3F5             BCC.N    ??halInternalCrashHandler_6
+    212          
+    213            // Search the stack downward for probable return addresses. A probable
+    214            // return address is a value in the CODE segment that also has bit 0 set
+    215            // (since we're in Thumb mode).
+    216            i = 0U;
+   \       0xC4   0x2000             MOVS     R0,#+0
+    217            s = stackTop;
+   \       0xC6   0x....             LDR.N    R1,??DataTable3_1
+   \       0xC8   0xE018             B.N      ??halInternalCrashHandler_7
+    218            while (s > sEnd) {
+    219              data = *(--s);
+    220              if (((uint16_t *)data >= (uint16_t *)_TEXT_SEGMENT_BEGIN)
+    221                  && ((uint16_t *)data < (uint16_t *)_TEXT_SEGMENT_END)
+    222                  && ((data & 1U) != 0U)) {
+    223                // Only record the first occurrence of a return - other copies could
+    224                // have been in registers that then were pushed.
+    225                for (j = 0; j < NUM_RETURNS; j++) {
+    226                  if (c->returns[j] == data) {
+    227                    break;
+    228                  }
+    229                }
+    230                if (j != NUM_RETURNS) {
+    231                  continue;
+    232                }
+    233                // Save the return in the returns array managed as a circular buffer.
+    234                // This keeps only the last NUM_RETURNS in the event that there are more.
+    235                i = (i != 0U) ? i - 1U : NUM_RETURNS - 1U;
+   \                     ??halInternalCrashHandler_8: (+1)
+   \       0xCA   0x2005             MOVS     R0,#+5
+   \       0xCC   0xE010             B.N      ??halInternalCrashHandler_9
+   \                     ??halInternalCrashHandler_10: (+1)
+   \       0xCE   0x1C5B             ADDS     R3,R3,#+1
+   \       0xD0   0xB2DB             UXTB     R3,R3
+   \                     ??halInternalCrashHandler_11: (+1)
+   \       0xD2   0x2B06             CMP      R3,#+6
+   \       0xD4   0xD205             BCS.N    ??halInternalCrashHandler_12
+   \       0xD6   0xF105 0x0678      ADD      R6,R5,#+120
+   \       0xDA   0xF856 0x6023      LDR      R6,[R6, R3, LSL #+2]
+   \       0xDE   0x4296             CMP      R6,R2
+   \       0xE0   0xD1F5             BNE.N    ??halInternalCrashHandler_10
+   \                     ??halInternalCrashHandler_12: (+1)
+   \       0xE2   0x2B06             CMP      R3,#+6
+   \       0xE4   0xD10A             BNE.N    ??halInternalCrashHandler_7
+   \       0xE6   0x4603             MOV      R3,R0
+   \       0xE8   0xB2DB             UXTB     R3,R3
+   \       0xEA   0x2B00             CMP      R3,#+0
+   \       0xEC   0xD0ED             BEQ.N    ??halInternalCrashHandler_8
+   \       0xEE   0x1E40             SUBS     R0,R0,#+1
+    236                c->returns[i] = data;
+   \                     ??halInternalCrashHandler_9: (+1)
+   \       0xF0   0xF105 0x0378      ADD      R3,R5,#+120
+   \       0xF4   0x4606             MOV      R6,R0
+   \       0xF6   0xB2F6             UXTB     R6,R6
+   \       0xF8   0xF843 0x2026      STR      R2,[R3, R6, LSL #+2]
+   \                     ??halInternalCrashHandler_7: (+1)
+   \       0xFC   0x428F             CMP      R7,R1
+   \       0xFE   0xD216             BCS.N    ??halInternalCrashHandler_13
+   \      0x100   0xF851 0x2D04      LDR      R2,[R1, #-4]!
+   \      0x104   0x4613             MOV      R3,R2
+   \      0x106   0x....             LDR.N    R6,??DataTable3_7
+   \      0x108   0x42B3             CMP      R3,R6
+   \      0x10A   0xD3F7             BCC.N    ??halInternalCrashHandler_7
+   \      0x10C   0x....             LDR.N    R6,??DataTable3_8
+   \      0x10E   0x42B3             CMP      R3,R6
+   \      0x110   0xD2F4             BCS.N    ??halInternalCrashHandler_7
+   \      0x112   0x07D3             LSLS     R3,R2,#+31
+   \      0x114   0xD5F2             BPL.N    ??halInternalCrashHandler_7
+   \      0x116   0x2300             MOVS     R3,#+0
+   \      0x118   0xE7DB             B.N      ??halInternalCrashHandler_11
+    237              }
+    238            }
+    239            // Shuffle the returns array so returns[0] has last probable return found.
+    240            // If there were fewer than NUM_RETURNS, unused entries will contain zero.
+    241            while ((i--) != 0U) {
+    242              data = c->returns[0];
+    243              for (j = 0; j < NUM_RETURNS - 1U; j++ ) {
+    244                c->returns[j] = c->returns[j + 1U];
+   \                     ??halInternalCrashHandler_14: (+1)
+   \      0x11A   0xEB05 0x0382      ADD      R3,R5,R2, LSL #+2
+   \      0x11E   0x6FDB             LDR      R3,[R3, #+124]
+   \      0x120   0xF846 0x3022      STR      R3,[R6, R2, LSL #+2]
+    245              }
+   \      0x124   0x1C52             ADDS     R2,R2,#+1
+   \                     ??halInternalCrashHandler_15: (+1)
+   \      0x126   0x2A04             CMP      R2,#+4
+   \      0x128   0xD9F7             BLS.N    ??halInternalCrashHandler_14
+    246              c->returns[NUM_RETURNS - 1U] = data;
+   \      0x12A   0xF8C5 0x108C      STR      R1,[R5, #+140]
+   \                     ??halInternalCrashHandler_13: (+1)
+   \      0x12E   0x4601             MOV      R1,R0
+   \      0x130   0x1E48             SUBS     R0,R1,#+1
+   \      0x132   0xB2C9             UXTB     R1,R1
+   \      0x134   0x2900             CMP      R1,#+0
+   \      0x136   0xD004             BEQ.N    ??halInternalCrashHandler_16
+   \      0x138   0x6FA9             LDR      R1,[R5, #+120]
+   \      0x13A   0x2200             MOVS     R2,#+0
+   \      0x13C   0xF105 0x0678      ADD      R6,R5,#+120
+   \      0x140   0xE7F1             B.N      ??halInternalCrashHandler_15
+    247            }
+    248          
+    249            // Read the highest priority active exception to get reason for fault
+    250            activeException = c->icsr.bits.VECTACTIVE;
+   \                     ??halInternalCrashHandler_16: (+1)
+   \      0x142   0x6DA8             LDR      R0,[R5, #+88]
+   \      0x144   0xF3C0 0x0008      UBFX     R0,R0,#+0,#+9
+    251            switch (activeException) {
+   \      0x148   0x4601             MOV      R1,R0
+   \      0x14A   0x2902             CMP      R1,#+2
+   \      0x14C   0xD00A             BEQ.N    ??halInternalCrashHandler_17
+   \      0x14E   0x2903             CMP      R1,#+3
+   \      0x150   0xD015             BEQ.N    ??halInternalCrashHandler_18
+   \      0x152   0x2904             CMP      R1,#+4
+   \      0x154   0xD016             BEQ.N    ??halInternalCrashHandler_19
+   \      0x156   0x2905             CMP      R1,#+5
+   \      0x158   0xD017             BEQ.N    ??halInternalCrashHandler_20
+   \      0x15A   0x2906             CMP      R1,#+6
+   \      0x15C   0xD018             BEQ.N    ??halInternalCrashHandler_21
+   \      0x15E   0x290C             CMP      R1,#+12
+   \      0x160   0xD01D             BEQ.N    ??halInternalCrashHandler_22
+   \      0x162   0xE01F             B.N      ??halInternalCrashHandler_23
+    252              case NMI_VECTOR_INDEX:
+    253                if ((EVENT_NMI->FLAG & EVENT_NMI_FLAG_CLK24M) != 0U) {
+   \                     ??halInternalCrashHandler_17: (+1)
+   \      0x164   0x....             LDR.N    R0,??DataTable3_10
+   \      0x166   0x6801             LDR      R1,[R0, #+0]
+   \      0x168   0x0789             LSLS     R1,R1,#+30
+   \      0x16A   0xD502             BPL.N    ??halInternalCrashHandler_24
+    254                  reason = (uint16_t)RESET_FATAL_CRYSTAL;
+   \      0x16C   0xF640 0x1402      MOVW     R4,#+2306
+   \      0x170   0xE01E             B.N      ??halInternalCrashHandler_25
+    255                } else if ((EVENT_NMI->FLAG & EVENT_NMI_FLAG_WDOG) != 0U) {
+   \                     ??halInternalCrashHandler_24: (+1)
+   \      0x172   0x6800             LDR      R0,[R0, #+0]
+   \      0x174   0x07C0             LSLS     R0,R0,#+31
+   \      0x176   0xD51B             BPL.N    ??halInternalCrashHandler_25
+    256                  reason = (uint16_t)RESET_WATCHDOG_CAUGHT;
+   \      0x178   0xF240 0x5402      MOVW     R4,#+1282
+   \      0x17C   0xE018             B.N      ??halInternalCrashHandler_25
+    257                } else {
+    258                  // MISRA requires ..else if.. to have terminating else.
+    259                }
+    260                break;
+    261              case HARD_FAULT_VECTOR_INDEX:
+    262                reason = (uint16_t)RESET_FAULT_HARD;
+   \                     ??halInternalCrashHandler_18: (+1)
+   \      0x17E   0xF640 0x2401      MOVW     R4,#+2561
+    263                break;
+   \      0x182   0xE015             B.N      ??halInternalCrashHandler_25
+    264              case MEMORY_FAULT_VECTOR_INDEX:
+    265                reason = (uint16_t)RESET_FAULT_MEM;
+   \                     ??halInternalCrashHandler_19: (+1)
+   \      0x184   0xF640 0x2402      MOVW     R4,#+2562
+    266                break;
+   \      0x188   0xE012             B.N      ??halInternalCrashHandler_25
+    267              case BUS_FAULT_VECTOR_INDEX:
+    268                reason = (uint16_t)RESET_FAULT_BUS;
+   \                     ??halInternalCrashHandler_20: (+1)
+   \      0x18A   0xF640 0x2403      MOVW     R4,#+2563
+    269                break;
+   \      0x18E   0xE00F             B.N      ??halInternalCrashHandler_25
+    270              case USAGE_FAULT_VECTOR_INDEX:
+    271                // make sure we didn't already identify the usage fault as an assert
+    272                if (reason == (uint16_t)RESET_FAULT_UNKNOWN) {
+   \                     ??halInternalCrashHandler_21: (+1)
+   \      0x190   0x4620             MOV      R0,R4
+   \      0x192   0xF5B0 0x6F20      CMP      R0,#+2560
+   \      0x196   0xD10B             BNE.N    ??halInternalCrashHandler_25
+    273                  reason = (uint16_t)RESET_FAULT_USAGE;
+   \      0x198   0xF640 0x2404      MOVW     R4,#+2564
+   \      0x19C   0xE008             B.N      ??halInternalCrashHandler_25
+    274                }
+    275                break;
+    276              case DEBUG_MONITOR_VECTOR_INDEX:
+    277                reason = (uint16_t)RESET_FAULT_DBGMON;
+   \                     ??halInternalCrashHandler_22: (+1)
+   \      0x19E   0xF640 0x2405      MOVW     R4,#+2565
+    278                break;
+   \      0x1A2   0xE005             B.N      ??halInternalCrashHandler_25
+    279              default:
+    280                if ((activeException != 0U) && (activeException < VECTOR_TABLE_LENGTH)) {
+   \                     ??halInternalCrashHandler_23: (+1)
+   \      0x1A4   0x2800             CMP      R0,#+0
+   \      0x1A6   0xD003             BEQ.N    ??halInternalCrashHandler_25
+   \      0x1A8   0x2824             CMP      R0,#+36
+   \      0x1AA   0xD201             BCS.N    ??halInternalCrashHandler_25
+    281                  reason = (uint16_t)RESET_FAULT_BADVECTOR;
+   \      0x1AC   0xF640 0x2407      MOVW     R4,#+2567
+    282                }
+    283                break;
+    284            }
+    285            return reason;
+   \                     ??halInternalCrashHandler_25: (+1)
+   \      0x1B0   0x4620             MOV      R0,R4
+   \      0x1B2   0xBDF2             POP      {R1,R4-R7,PC}
+    286          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_1:
+   \        0x0   0x....'....        DC32     SFE(CSTACK)
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_2:
+   \        0x0   0x....'....        DC32     SFE(CSTACK)
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_3:
+   \        0x0   0x....'....        DC32     halResetInfo
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_4:
+   \        0x0   0xE000'ED04        DC32     0xe000ed04
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_5:
+   \        0x0   0xE000'E300        DC32     0xe000e300
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_6:
+   \        0x0   0x....'....        DC32     SFE(CSTACK)-32
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_7:
+   \        0x0   0x....'....        DC32     SFB(`.text`)
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_8:
+   \        0x0   0x....'....        DC32     SFE(`.text`)
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_9:
+   \        0x0   0x....'....        DC32     SFE(RESETINFO)
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_10:
+   \        0x0   0x4000'A01C        DC32     0x4000a01c
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x0D 0x0A          DC8 "\015\012[ASSERT:%p:%d]\015\012"
+   \              0x5B 0x41    
+   \              0x53 0x53    
+   \              0x45 0x52    
+   \              0x54 0x3A    
+   \              0x25 0x70    
+   \              0x3A 0x25    
+   \              0x64 0x5D    
+   \              0x0D 0x0A    
+   \              0x00
+   \       0x13                      DS8 1
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   halInternalAssertFailed
+        16   -> _disableBasePri
+        16   -> emberDebugAssert
+        16   -> emberSerialGuaranteedPrintf
+         0   -> halInternalAssertFault
+        16   -> halInternalResetWatchDog
+       0   halInternalAssertFault
+      24   halInternalCrashHandler
+        24   -> halInternalGetCStackBottom
+        24   -> halInternalGetMainStackBytesUsed
+       0   halInternalGetMainStackBytesUsed
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_10
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+       4  ??DataTable3_5
+       4  ??DataTable3_6
+       4  ??DataTable3_7
+       4  ??DataTable3_8
+       4  ??DataTable3_9
+      20  ?_0
+      44  halInternalAssertFailed
+       4  halInternalAssertFault
+     436  halInternalCrashHandler
+      28  halInternalGetMainStackBytesUsed
+
+ 
+  20 bytes in section .rodata
+ 556 bytes in section .text
+ 
+ 556 bytes of CODE  memory
+  20 bytes of CONST memory
+
+Errors: none
+Warnings: none

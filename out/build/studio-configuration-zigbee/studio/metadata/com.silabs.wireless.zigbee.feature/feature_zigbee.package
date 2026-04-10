@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.wireless.zigbee.feature" 
+  label="Network Analyzer Zigbee Decoding Components" 
+  description="Zigbee support for Network Analyzer Decoding" 
+  version="8.17.0"/>

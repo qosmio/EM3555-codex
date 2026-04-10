@@ -1,0 +1,2197 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         06/Apr/2026  14:23:03
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\sleep.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\sleep.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\sleep.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"sleep.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\sleep.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\sleep.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\sleep.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\sleep.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\sleep.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief EM3XX micro specific sleep functions.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "hal/micro/micro-common.h"
+     19          #include "hal/micro/micro.h"
+
+   \                                 In section .text, align 2, keep-with-next
+   \   static __softfp void __NVIC_SetPendingIRQ(IRQn_Type)
+   \                     __NVIC_SetPendingIRQ: (+1)
+   \        0x0   0x0001             MOVS     R1,R0
+   \        0x2   0xD408             BMI.N    ??__NVIC_SetPendingIRQ_0
+   \        0x4   0x2201             MOVS     R2,#+1
+   \        0x6   0xF000 0x011F      AND      R1,R0,#0x1F
+   \        0xA   0x408A             LSLS     R2,R2,R1
+   \        0xC   0x.... 0x....      LDR.W    R1,??DataTable3
+   \       0x10   0x0940             LSRS     R0,R0,#+5
+   \       0x12   0xF841 0x2020      STR      R2,[R1, R0, LSL #+2]
+   \                     ??__NVIC_SetPendingIRQ_0: (+1)
+   \       0x16   0x4770             BX       LR
+     20          #include "hal/micro/cortexm3/micro-common.h"
+     21          #include "hal/micro/cortexm3/memmap.h"
+     22          #include "hal/micro/cortexm3/mfg-token.h"
+     23          #ifdef MINIMAL_HAL
+     24            #define BYPASS_MPU(blah) blah
+     25            #define EMBER_WAKE_PORT_A 0
+     26            #define EMBER_WAKE_PORT_B 0
+     27            #define EMBER_WAKE_PORT_C 0
+     28          #else
+     29            #include BOARD_HEADER
+     30            #include "hal/micro/cortexm3/mpu.h"
+     31            #include "hal/micro/cortexm3/wake-gpio.h"
+     32          #endif //defined(MINIMAL_HAL)
+     33          #include "hal/micro/cortexm3/diagnostic.h"
+     34          
+     35          //These two macros were inspired by CMSIS/Include/core_cm3.h NVIC routines.
+     36          #define NVIC_GET_ENABLED_IRQ(IRQn) \
+     37            ((NVIC->ISER[(uint32_t)(IRQn) >> 5] & (1 << ((uint32_t)(IRQn) & 0x1F))) ? 1 : 0)
+     38          
+     39          #define NVIC_GET_PENDING_IRQ(IRQn) \
+     40            ((NVIC->ISPR[(uint32_t)(IRQn) >> 5] & (1 << ((uint32_t)(IRQn) & 0x1F))) ? 1 : 0)
+     41          
+     42          
+     43          
+     44          
+     45          
+     46          
+     47          
+     48          
+     49          
+     50          
+     51          
+     52          
+     53          
+     54          
+     55          
+     56          
+     57          
+     58          
+     59          
+     60          
+     61          
+     62          
+     63          
+     64          
+     65          
+     66          
+     67          
+     68          
+     69          
+     70          
+     71          
+     72          
+     73          
+     74          
+     75          
+     76          
+     77          
+     78          
+     79          
+     80          
+     81          
+     82          
+     83          
+     84          
+     85          
+     86          
+     87          
+     88          
+     89          
+     90          
+     91          
+     92          
+     93          
+     94          
+     95          
+     96          
+     97          
+     98          
+     99          
+    100          
+    101          
+    102          
+    103          
+    104          
+    105          
+    106          
+    107          
+    108          
+    109          
+    110          
+    111          
+    112          
+    113          
+    114          
+    115          
+    116          
+    117          
+    118          
+    119          
+    120          
+    121          
+    122          
+
+   \                                 In section .bss, align 4
+    123          static WakeEvents halInternalWakeEvent = { .eventflags = 0 };
+   \                     halInternalWakeEvent:
+   \        0x0                      DS8 4
+    124          
+
+   \                                 In section .text, align 2, keep-with-next
+    125          WakeEvents halGetWakeInfo(void)
+    126          {
+    127            return halInternalWakeEvent;
+   \                     halGetWakeInfo: (+1)
+   \        0x0   0x.... 0x....      LDR.W    R0,??DataTable3_1
+   \        0x4   0x6800             LDR      R0,[R0, #+0]
+   \        0x6   0x4770             BX       LR
+    128          }
+    129          
+    130          #ifndef CORTEXM3_EM35X_GEN4 // HW bug fixed in GEN4
+    131          //forceSleepTmrCnt is a flag indicating that the system timer module
+    132          //should force a fake value for SLEEPTMR_CNT whenever the timer is
+    133          //accessed.  For FogBugz 11909/11920 workaround.
+    134          bool forceSleepTmrCnt = false;
+    135          //wakeupSleepTmrCnt is a capturing of the SLEEPTMR_CNT immediately upon
+    136          //waking up from deep sleep.  This value is used to know when the counter
+    137          //has ticked forward.  For FogBugz 11909/11920 workaround.
+    138          uint32_t wakeupSleepTmrCnt = 0;
+    139          #endif//CORTEXM3_EM35X_GEN4 // HW bug fixed in GEN4
+    140          
+
+   \                                 In section .text, align 4, keep-with-next
+    141          static void halInternalSleepHelper(SleepModes sleepMode, bool preserveIntState)
+    142          {
+   \                     halInternalSleepHelper: (+1)
+   \        0x0   0xE92D 0x4FF0      PUSH     {R4-R11,LR}
+   \        0x4   0xB091             SUB      SP,SP,#+68
+   \        0x6   0x4604             MOV      R4,R0
+   \        0x8   0x468A             MOV      R10,R1
+    143            //Timer restoring always takes place during the wakeup sequence.  We save
+    144            //the state here in case SLEEPMODE_NOTIMER is invoked, which would disable
+    145            //the clocks.
+    146            uint32_t SLEEPTMR_CLKEN_SAVED = CMHV->SLEEPTMRCLKEN;
+   \        0xA   0x.... 0x....      LDR.W    R5,??DataTable3_2
+   \        0xE   0x6868             LDR      R0,[R5, #+4]
+   \       0x10   0x9010             STR      R0,[SP, #+64]
+    147            uint32_t basepri;
+    148          
+    149            //SLEEPMODE_POWERDOWN and SLEEPMODE_POWERSAVE are deprecated.  Remap them
+    150            //to their appropriate, new mode name.
+    151            if (sleepMode == SLEEPMODE_POWERDOWN) {
+   \       0x12   0x4620             MOV      R0,R4
+   \       0x14   0x2807             CMP      R0,#+7
+   \       0x16   0xD101             BNE.N    ??halInternalSleepHelper_1
+    152              sleepMode = SLEEPMODE_MAINTAINTIMER;
+   \       0x18   0x2403             MOVS     R4,#+3
+   \       0x1A   0xE006             B.N      ??halInternalSleepHelper_2
+    153            } else if (sleepMode == SLEEPMODE_POWERSAVE) {
+   \                     ??halInternalSleepHelper_1: (+1)
+   \       0x1C   0x2808             CMP      R0,#+8
+   \       0x1E   0xD101             BNE.N    ??halInternalSleepHelper_3
+    154              sleepMode = SLEEPMODE_WAKETIMER;
+   \       0x20   0x2402             MOVS     R4,#+2
+   \       0x22   0xE002             B.N      ??halInternalSleepHelper_2
+    155            } else if (sleepMode == SLEEPMODE_HIBERNATE) {
+   \                     ??halInternalSleepHelper_3: (+1)
+   \       0x24   0x2805             CMP      R0,#+5
+   \       0x26   0xD100             BNE.N    ??halInternalSleepHelper_2
+    156              sleepMode = SLEEPMODE_NOTIMER;
+   \       0x28   0x2404             MOVS     R4,#+4
+    157            } else {
+    158              // MISRA requires ..else if.. to have terminating else.
+    159            }
+    160          
+    161            halSleepCallback(true, sleepMode);
+   \                     ??halInternalSleepHelper_2: (+1)
+   \       0x2A   0x4621             MOV      R1,R4
+   \       0x2C   0x2001             MOVS     R0,#+1
+   \       0x2E   0x.... 0x....      BL       halSleepCallback
+    162          
+    163            //This code assumes all wake source registers are properly configured.
+    164            //As such, it should be called from halSleep() which configues the
+    165            //wake sources.
+    166          
+    167            //The parameter gpioWakeSel is a bitfield composite of the GPIO wake
+    168            //sources derived from the 3-6 ports, indicating which of the 24-48 GPIO
+    169            //are configured as a wake source.
+    170            WakeMask gpioWakeSel  = (GPIO->WAKE[0] << 0);
+   \       0x32   0x.... 0x....      LDR.W    R6,??DataTable3_3
+   \       0x36   0x6837             LDR      R7,[R6, #+0]
+    171            gpioWakeSel |= (GPIO->WAKE[1] << 8);
+   \       0x38   0x6870             LDR      R0,[R6, #+4]
+   \       0x3A   0xEA47 0x2700      ORR      R7,R7,R0, LSL #+8
+    172            gpioWakeSel |= (GPIO->WAKE[2] << 16);
+   \       0x3E   0x68B0             LDR      R0,[R6, #+8]
+   \       0x40   0xEA47 0x4700      ORR      R7,R7,R0, LSL #+16
+    173          #ifdef EMBER_WAKE_PORT_D
+    174            gpioWakeSel |= (GPIO->WAKE[3] << 24);
+    175          #endif
+    176          #ifdef EMBER_WAKE_PORT_E
+    177            gpioWakeSel |= ((uint64_t)GPIO->WAKE[4] << 32);
+    178          #endif
+    179          #ifdef EMBER_WAKE_PORT_F
+    180            gpioWakeSel |= ((uint64_t)GPIO->WAKE[5] << 40);
+    181          #endif
+    182          
+    183            //PB2 is also CMHV_WAKESEL_SC1.  Set this wake source if PB2's GPIO wake is set.
+    184            if ((GPIO->WAKE[1] & GPIO_WAKE_Px2) != 0U) {
+   \       0x44   0x6870             LDR      R0,[R6, #+4]
+   \       0x46   0x0740             LSLS     R0,R0,#+29
+   \       0x48   0xD503             BPL.N    ??halInternalSleepHelper_4
+    185              CMHV->WAKESEL |= CMHV_WAKESEL_SC1;
+   \       0x4A   0x69E8             LDR      R0,[R5, #+28]
+   \       0x4C   0xF040 0x0002      ORR      R0,R0,#0x2
+   \       0x50   0x61E8             STR      R0,[R5, #+28]
+    186            }
+    187          
+    188            //PA2 is also CMHV_WAKESEL_SC2.  Set this wake source if PA2's GPIO wake is set.
+    189            if ((GPIO->WAKE[0] & GPIO_WAKE_Px2) != 0U) {
+   \                     ??halInternalSleepHelper_4: (+1)
+   \       0x52   0x6830             LDR      R0,[R6, #+0]
+   \       0x54   0x0740             LSLS     R0,R0,#+29
+   \       0x56   0xD503             BPL.N    ??halInternalSleepHelper_5
+    190              CMHV->WAKESEL |= CMHV_WAKESEL_SC2;
+   \       0x58   0x69E8             LDR      R0,[R5, #+28]
+   \       0x5A   0xF040 0x0004      ORR      R0,R0,#0x4
+   \       0x5E   0x61E8             STR      R0,[R5, #+28]
+    191            }
+    192          
+    193            //The CMHV_WAKESEL_IRQD source can come from any pin based on IRQD's sel register.
+    194            if ((gpioWakeSel & BIT(GPIO->IRQDSEL)) != 0U) {
+   \                     ??halInternalSleepHelper_5: (+1)
+   \       0x60   0x69F0             LDR      R0,[R6, #+28]
+   \       0x62   0x4639             MOV      R1,R7
+   \       0x64   0x40C1             LSRS     R1,R1,R0
+   \       0x66   0x07C8             LSLS     R0,R1,#+31
+   \       0x68   0xD503             BPL.N    ??halInternalSleepHelper_6
+    195              CMHV->WAKESEL |= CMHV_WAKESEL_IRQD;
+   \       0x6A   0x69E8             LDR      R0,[R5, #+28]
+   \       0x6C   0xF040 0x0008      ORR      R0,R0,#0x8
+   \       0x70   0x61E8             STR      R0,[R5, #+28]
+    196            }
+    197          
+    198            halInternalWakeEvent.eventflags = 0; //clear old wake events
+   \                     ??halInternalSleepHelper_6: (+1)
+   \       0x72   0x.... 0x....      LDR.W    R8,??DataTable3_1
+   \       0x76   0x2000             MOVS     R0,#+0
+   \       0x78   0xF8C8 0x0000      STR      R0,[R8, #+0]
+    199          
+    200            switch (sleepMode) {
+   \       0x7C   0x.... 0x....      LDR.W    R9,??DataTable3_4
+   \       0x80   0x4620             MOV      R0,R4
+   \       0x82   0x1E40             SUBS     R0,R0,#+1
+   \       0x84   0x2803             CMP      R0,#+3
+   \       0x86   0xF200 0x829A      BHI.W    ??halInternalSleepHelper_7
+   \       0x8A   0xE8DF 0xF010      TBH      [PC, R0, LSL #+1]
+   \                     ??halInternalSleepHelper_0:
+   \       0x8E   0x0261 0x0007      DC16     0x261,0x7,0x1F,0x4
+   \               0x001F 0x000
+   \              4
+    201              case SLEEPMODE_NOTIMER:
+    202                //The sleep timer clock sources (both RC and XTAL) are turned off.
+    203                //Wakeup is possible from only GPIO.  System time is lost.
+    204                //NOTE: Timer restoring always takes place during the wakeup sequence.
+    205                CMHV->SLEEPTMRCLKEN = 0;
+   \                     ??halInternalSleepHelper_8: (+1)
+   \       0x96   0x2000             MOVS     R0,#+0
+   \       0x98   0x6068             STR      R0,[R5, #+4]
+    206                goto deepSleepCore;
+   \       0x9A   0xE017             B.N      ??halInternalSleepHelper_9
+    207          
+    208              case SLEEPMODE_WAKETIMER:
+    209                //The sleep timer clock sources remain running.  The RC is always
+    210                //running and the 32kHz XTAL depends on the board header.  Wakeup
+    211                //is possible from both GPIO and the sleep timer.  System time
+    212                //is maintained.  The sleep timer is assumed to be configured
+    213                //properly for wake events.
+    214                //NOTE: This mode assumes the caller has configured the *entire*
+    215                //      sleep timer properly.
+    216          
+    217                if ((EVENT_SLEEPTMR->CFG & EVENT_SLEEPTMR_CFG_WRAP) != 0U) {
+   \                     ??halInternalSleepHelper_10: (+1)
+   \       0x9C   0xF8D9 0x0040      LDR      R0,[R9, #+64]
+   \       0xA0   0x07C0             LSLS     R0,R0,#+31
+   \       0xA2   0xD503             BPL.N    ??halInternalSleepHelper_11
+    218                  CMHV->WAKESEL |= CMHV_WAKESEL_SLEEPTMRWRAP;
+   \       0xA4   0x69E8             LDR      R0,[R5, #+28]
+   \       0xA6   0xF040 0x0040      ORR      R0,R0,#0x40
+   \       0xAA   0x61E8             STR      R0,[R5, #+28]
+    219                }
+    220                if ((EVENT_SLEEPTMR->CFG & EVENT_SLEEPTMR_CFG_CMPB) != 0U) {
+   \                     ??halInternalSleepHelper_11: (+1)
+   \       0xAC   0xF8D9 0x0040      LDR      R0,[R9, #+64]
+   \       0xB0   0x0740             LSLS     R0,R0,#+29
+   \       0xB2   0xD503             BPL.N    ??halInternalSleepHelper_12
+    221                  CMHV->WAKESEL |= CMHV_WAKESEL_SLEEPTMRCMPB;
+   \       0xB4   0x69E8             LDR      R0,[R5, #+28]
+   \       0xB6   0xF040 0x0020      ORR      R0,R0,#0x20
+   \       0xBA   0x61E8             STR      R0,[R5, #+28]
+    222                }
+    223                if ((EVENT_SLEEPTMR->CFG & EVENT_SLEEPTMR_CFG_CMPA) != 0U) {
+   \                     ??halInternalSleepHelper_12: (+1)
+   \       0xBC   0xF8D9 0x0040      LDR      R0,[R9, #+64]
+   \       0xC0   0x0780             LSLS     R0,R0,#+30
+   \       0xC2   0xD503             BPL.N    ??halInternalSleepHelper_9
+    224                  CMHV->WAKESEL |= CMHV_WAKESEL_SLEEPTMRCMPA;
+   \       0xC4   0x69E8             LDR      R0,[R5, #+28]
+   \       0xC6   0xF040 0x0010      ORR      R0,R0,#0x10
+   \       0xCA   0x61E8             STR      R0,[R5, #+28]
+    225                }
+    226              //fall into SLEEPMODE_MAINTAINTIMER's sleep code:
+    227          
+    228              case SLEEPMODE_MAINTAINTIMER:
+    229                //The sleep timer clock sources remain running.  The RC is always
+    230                //running and the 32kHz XTAL depends on the board header.  Wakeup
+    231                //is possible from only GPIO.  System time is maintained.
+    232                //NOTE: System time is maintained without any sleep timer interrupts
+    233                //      because the hardware sleep timer counter is large enough
+    234                //      to hold the entire count value and not need a RAM counter.
+    235          
+    236                ////////////////////////////////////////////////////////////////////////////
+    237                // Core deep sleep code
+    238                ////////////////////////////////////////////////////////////////////////////
+    239                deepSleepCore:
+    240                // Set basePri to the level we want it to be upon return
+    241                basepri = (preserveIntState ? _readBasePri() : 0);
+   \                     ??halInternalSleepHelper_9: (+1)
+   \       0xCC   0xF1BA 0x0F00      CMP      R10,#+0
+   \       0xD0   0xD003             BEQ.N    ??halInternalSleepHelper_13
+   \       0xD2   0x.... 0x....      BL       _readBasePri
+   \       0xD6   0x9002             STR      R0,[SP, #+8]
+   \       0xD8   0xE001             B.N      ??halInternalSleepHelper_14
+   \                     ??halInternalSleepHelper_13: (+1)
+   \       0xDA   0x2000             MOVS     R0,#+0
+   \       0xDC   0x9002             STR      R0,[SP, #+8]
+    242                // Interrupts *must* be/stay disabled for DEEP SLEEP operation
+    243                // INTERRUPTS_OFF will use BASEPRI to disable all interrupts except
+    244                // fault handlers.
+    245                INTERRUPTS_OFF();
+   \                     ??halInternalSleepHelper_14: (+1)
+   \       0xDE   0x.... 0x....      BL       _disableBasePri
+    246                // This is the point of no return.  From here on out, only the interrupt
+    247                // sources available in CMHV->WAKESEL will be captured and propagated across
+    248                // deep sleep.
+    249                //stick all our saved info onto stack since it's only temporary
+    250                {
+    251                  bool restoreWatchdog = halInternalWatchDogEnabled();
+   \       0xE2   0x.... 0x....      BL       halInternalWatchDogEnabled
+   \       0xE6   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    252                  bool skipSleep = false;
+   \       0xEA   0xF04F 0x0A00      MOV      R10,#+0
+    253          
+    254                  #if defined(CORTEXM3_EM35X_GEN4)
+    255                  // On the 358x we must configure the CMLV->RAMRETAIN register to set which
+    256                  // blocks of RAM are maintained across deepsleep. This register is
+    257                  // reset during deepsleep so we must do this every time.
+    258                  uint32_t ramRetainValue = (1 << ((RAM_SIZE_B - _UNRETAINED_RAM_SEGMENT_SIZE)
+    259                                                   / RAM_RETAIN_BLOCK_SIZE)) - 1;
+   \       0xEE   0x2101             MOVS     R1,#+1
+   \       0xF0   0x.... 0x....      LDR.W    R0,??DataTable3_5
+   \       0xF4   0xF5C0 0x4000      RSB      R0,R0,#+32768
+   \       0xF8   0x0B00             LSRS     R0,R0,#+12
+   \       0xFA   0xFA01 0xF000      LSL      R0,R1,R0
+   \       0xFE   0x1E40             SUBS     R0,R0,#+1
+    260                  CMLV->RAMRETAIN = ramRetainValue;
+   \      0x100   0x.... 0x....      LDR.W    R11,??DataTable3_6
+   \      0x104   0xF8CB 0x0038      STR      R0,[R11, #+56]
+    261          
+    262                    #ifndef RETAIN_BITS
+    263                  // All CORTEXM3_EM35X_GEN4 devices have the same RETAIN_BITS size.
+    264                  // In CMSIS Device definitions, CMLV->RAMRETAIN exists but
+    265                  // RETAIN_BITS was not generated for the CMLV group.
+    266                      #define RETAIN_BITS (16)
+    267                    #endif
+    268                  // If we're retaining less than half the RAM then try to save power
+    269                  if ((ramRetainValue >> (RETAIN_BITS / 2)) == 0) {
+   \      0x108   0x0A00             LSRS     R0,R0,#+8
+   \      0x10A   0xD108             BNE.N    ??halInternalSleepHelper_15
+    270                    // This only works on the newest dies so check for that here
+    271                    uint8_t *ptr = (uint8_t*)(FIB_BOTTOM | MFG_PART_DATA_LOCATION);
+    272                    if (ptr[2] >= 0x01) {
+   \      0x10C   0x.... 0x....      LDR.W    R0,??DataTable3_7
+   \      0x110   0x7800             LDRB     R0,[R0, #+0]
+   \      0x112   0x2800             CMP      R0,#+0
+   \      0x114   0xD003             BEQ.N    ??halInternalSleepHelper_15
+    273                      CMHV->RAMTEST |= CMHV_RAMTEST_REGB;   // Disable the unused RAM regulator
+   \      0x116   0x6C68             LDR      R0,[R5, #+68]
+   \      0x118   0xF040 0x0020      ORR      R0,R0,#0x20
+   \      0x11C   0x6468             STR      R0,[R5, #+68]
+    274                    }
+    275                  }
+    276                  #endif
+    277          
+    278                  // Only three register blocks keep power across deep sleep:
+    279                  //  CM_HV, GPIO, SLOW_TIMERS
+    280                  //
+    281                  // All other register blocks lose their state across deep sleep:
+    282                  //  BASEBAND, MAC, SECURITY, SERIAL, TMR1, TMR2, EVENT, CM_LV, RAM_CTRL,
+    283                  //  AUX_ADC, CAL_ADC, FLASH_CONTROL, ITM, DWT, FPB, NVIC, TPIU
+    284                  //
+    285                  // The sleep code will only save and restore registers where it is
+    286                  // meaningful and necessary to do so.  In most cases, there must still
+    287                  // be a powerup function to restore proper state.
+    288                  //
+    289                  // NOTE: halPowerUp() and halPowerDown() will always be called before
+    290                  // and after this function.  halPowerDown and halPowerUp should leave
+    291                  // the modules in a safe state and then restart the modules.
+    292                  // (For example, shutting down and restarting Timer1)
+    293                  //
+    294                  //----BASEBAND
+    295                  //        reinitialized by emberStackPowerUp()
+    296                  //----MAC
+    297                  //        reinitialized by emberStackPowerUp()
+    298                  //----SECURITY
+    299                  //        reinitialized by emberStackPowerUp()
+    300                  //----SERIAL
+    301                  //        reinitialized by halPowerUp() or similar
+    302                  //----TMR1
+    303                  //        reinitialized by halPowerUp() or similar
+    304                  //----TMR2
+    305                  //        reinitialized by halPowerUp() or similar
+    306                  //----EVENT
+    307                  //SRC or FLAG interrupts are not saved or restored
+    308                  //MISS interrupts are not saved or restored
+    309                  //MAC_RX_INT_MASK - reinitialized by emberStackPowerUp()
+    310                  //MAC_TX_INT_MASK - reinitialized by emberStackPowerUp()
+    311                  //MAC_TIMER_INT_MASK - reinitialized by emberStackPowerUp()
+    312                  //BB_INT_MASK - reinitialized by emberStackPowerUp()
+    313                  //SEC_INT_MASK - reinitialized by emberStackPowerUp()
+    314                  uint32_t INT_SLEEPTMRCFG_SAVED = EVENT_SLEEPTMR->CFG;
+   \                     ??halInternalSleepHelper_15: (+1)
+   \      0x11E   0xF8D9 0x0040      LDR      R0,[R9, #+64]
+   \      0x122   0x900F             STR      R0,[SP, #+60]
+    315                  uint32_t INT_MGMTCFG_SAVED = EVENT_MGMT->CFG;
+   \      0x124   0xF8D9 0x0044      LDR      R0,[R9, #+68]
+   \      0x128   0x900E             STR      R0,[SP, #+56]
+    316                  //INT_TIM1CFG - reinitialized by halPowerUp() or similar
+    317                  //INT_TIM2CFG - reinitialized by halPowerUp() or similar
+    318                  //INT_SC1CFG - reinitialized by halPowerUp() or similar
+    319                  //INT_SC2CFG - reinitialized by halPowerUp() or similar
+    320                  //INT_ADCCFG - reinitialized by halPowerUp() or similar
+    321                  uint32_t GPIO_INTCFGA_SAVED = EVENT_GPIO->CFGA;
+   \      0x12A   0x.... 0x....      LDR.W    R0,??DataTable3_8
+   \      0x12E   0x6CC0             LDR      R0,[R0, #+76]
+   \      0x130   0x900D             STR      R0,[SP, #+52]
+    322                  uint32_t GPIO_INTCFGB_SAVED = EVENT_GPIO->CFGB;
+   \      0x132   0x.... 0x....      LDR.W    R0,??DataTable3_8
+   \      0x136   0x6D00             LDR      R0,[R0, #+80]
+   \      0x138   0x900C             STR      R0,[SP, #+48]
+    323                  uint32_t GPIO_INTCFGC_SAVED = EVENT_GPIO->CFGC;
+   \      0x13A   0x.... 0x....      LDR.W    R0,??DataTable3_8
+   \      0x13E   0x6D40             LDR      R0,[R0, #+84]
+   \      0x140   0x900B             STR      R0,[SP, #+44]
+    324                  uint32_t GPIO_INTCFGD_SAVED = EVENT_GPIO->CFGD;
+   \      0x142   0x.... 0x....      LDR.W    R0,??DataTable3_8
+   \      0x146   0x6D80             LDR      R0,[R0, #+88]
+   \      0x148   0x900A             STR      R0,[SP, #+40]
+    325                  //SC1_INTMODE - reinitialized by halPowerUp() or similar
+    326                  //SC2_INTMODE - reinitialized by halPowerUp() or similar
+    327                  //----CM_LV
+    328                  uint32_t OSC24M_BIASTRIM_SAVED = CMLV->OSC24MBIASTRIM;
+   \      0x14A   0xF8DB 0x0000      LDR      R0,[R11, #+0]
+   \      0x14E   0x9009             STR      R0,[SP, #+36]
+    329                  uint32_t OSCHF_TUNE_SAVED = CMLV->OSCHFTUNE;
+   \      0x150   0xF8DB 0x0004      LDR      R0,[R11, #+4]
+   \      0x154   0x9008             STR      R0,[SP, #+32]
+    330                  uint32_t DITHER_DIS_SAVED = CMLV->DITHERDIS;
+   \      0x156   0xF8DB 0x0014      LDR      R0,[R11, #+20]
+   \      0x15A   0x9007             STR      R0,[SP, #+28]
+    331                  //CMLV->OSC24MCTRL - reinitialized by halPowerUp() or similar
+    332                  //CPU_CLKSEL  - reinitialized by halPowerUp() or similar
+    333                  //TMR1_CLK_SEL - reinitialized by halPowerUp() or similar
+    334                  //TMR2_CLK_SEL - reinitialized by halPowerUp() or similar
+    335                  uint32_t PCTRACE_SEL_SAVED = CMLV->PCTRACESEL;
+   \      0x15C   0xF8DB 0x0024      LDR      R0,[R11, #+36]
+   \      0x160   0x9006             STR      R0,[SP, #+24]
+    336                  #ifdef _CMLV_PERIPHERALDISABLE_RESETVALUE
+    337                  //Not every chip has CMLV->PERIPHERALDISABLE
+    338                  uint32_t PERIPHERAL_DISABLE_SAVED = CMLV->PERIPHERALDISABLE;
+   \      0x162   0xF8DB 0x0034      LDR      R0,[R11, #+52]
+   \      0x166   0x9005             STR      R0,[SP, #+20]
+    339                  #endif
+    340                  //----RAM_CTRL
+    341                  #if !defined(CORTEXM3_EM35X_GEN4)
+    342                  uint32_t MEM_PROT_0_SAVED = RAMCTRL->MEMPROT0;
+    343                  uint32_t MEM_PROT_1_SAVED = RAMCTRL->MEMPROT1;
+    344                  uint32_t MEM_PROT_2_SAVED = RAMCTRL->MEMPROT2;
+    345                  uint32_t MEM_PROT_3_SAVED = RAMCTRL->MEMPROT3;
+    346                  uint32_t MEM_PROT_4_SAVED = RAMCTRL->MEMPROT4;
+    347                  uint32_t MEM_PROT_5_SAVED = RAMCTRL->MEMPROT5;
+    348                  uint32_t MEM_PROT_6_SAVED = RAMCTRL->MEMPROT6;
+    349                  uint32_t MEM_PROT_7_SAVED = RAMCTRL->MEMPROT7;
+    350                  uint32_t MEM_PROT_EN_SAVED = RAMCTRL->MEMPROTEN;
+    351                  #endif //!defined(CORTEXM3_EM35X_GEN4)
+    352                  //----AUX_ADC
+    353                  //        reinitialized by halPowerUp() or similar
+    354                  //----CAL_ADC
+    355                  //        reinitialized by emberStackPowerUp()
+    356                  //----FLASH_CONTROL
+    357                  //        configured on the fly by the flash library
+    358                  //----ITM
+    359                  //        reinitialized by halPowerUp() or similar
+    360                  //----DWT
+    361                  //        not used by software on chip
+    362                  //----FPB
+    363                  //        not used by software on chip
+    364                  //----NVIC
+    365                  //ST_CSR - fixed, restored by cstartup when exiting deep sleep
+    366                  //ST_RVR - fixed, restored by cstartup when exiting deep sleep
+    367                  uint32_t NVIC_ISER_SAVED = NVIC->ISER[0]; //mask against wake sources
+   \      0x168   0x.... 0x....      LDR.W    R0,??DataTable3_9
+   \      0x16C   0x6800             LDR      R0,[R0, #+0]
+    368                  //INT_PENDSET - used below when overlapping interrupts and wake sources
+    369                  //NVIC_IPR_3to0 - fixed, restored by cstartup when exiting deep sleep
+    370                  //NVIC_IPR_7to4 - fixed, restored by cstartup when exiting deep sleep
+    371                  //NVIC_IPR_11to8 - fixed, restored by cstartup when exiting deep sleep
+    372                  //NVIC_IPR_15to12 - fixed, restored by cstartup when exiting deep sleep
+    373                  //NVIC_IPR_19to16 - fixed, restored by cstartup when exiting deep sleep
+    374                  uint32_t SCB_VTOR_SAVED = SCB->VTOR;
+   \      0x16E   0x.... 0x....      LDR.W    R2,??DataTable3_10
+   \      0x172   0x6812             LDR      R2,[R2, #+0]
+   \      0x174   0x9203             STR      R2,[SP, #+12]
+    375                  //SCS_CCR - fixed, restored by cstartup when exiting deep sleep
+    376                  //SCS_SHPR_7to4 - fixed, restored by cstartup when exiting deep sleep
+    377                  //SCS_SHPR_11to8 - fixed, restored by cstartup when exiting deep sleep
+    378                  //SCS_SHPR_15to12 - fixed, restored by cstartup when exiting deep sleep
+    379                  //SCS_SHCSR - fixed, restored by cstartup when exiting deep sleep
+    380                  //----TPIU
+    381                  //        reinitialized by halPowerUp() or similar
+    382          
+    383                  //emDebugPowerDown() should have shutdown the DWT/ITM/TPIU already.
+    384          
+    385                  //freeze input to the GPIO from LV (alternate output functions freeze)
+    386                  CMHV->EVENTCTRL = CMHV_EVENTCTRL_LVFREEZE;
+   \      0x176   0x2202             MOVS     R2,#+2
+   \      0x178   0x602A             STR      R2,[R5, #+0]
+    387                  //record GPIO state for wake monitoring purposes
+    388                  //By having a snapshot of GPIO state, we can figure out after waking
+    389                  //up exactly which GPIO could have woken us up.
+    390                  //Reading the three IN registers is done separately to avoid warnings
+    391                  //about undefined order of volatile access.
+    392                  WakeEvents GPIO_IN_SAVED;
+    393                  GPIO_IN_SAVED.events.portA = GPIO->P[0].IN;
+   \      0x17A   0x.... 0x....      LDR.W    R2,??DataTable3_11
+   \      0x17E   0x6812             LDR      R2,[R2, #+0]
+   \      0x180   0xF88D 0x2004      STRB     R2,[SP, #+4]
+    394                  GPIO_IN_SAVED.events.portB = GPIO->P[1].IN;
+   \      0x184   0x.... 0x....      LDR.W    R2,??DataTable3_12
+   \      0x188   0x6812             LDR      R2,[R2, #+0]
+   \      0x18A   0xF88D 0x2005      STRB     R2,[SP, #+5]
+    395                  GPIO_IN_SAVED.events.portC = GPIO->P[2].IN;
+   \      0x18E   0x.... 0x....      LDR.W    R2,??DataTable3_13
+   \      0x192   0x6812             LDR      R2,[R2, #+0]
+   \      0x194   0xF88D 0x2006      STRB     R2,[SP, #+6]
+    396                #ifdef EMBER_MICRO_PORT_D_GPIO
+    397                  GPIO_IN_SAVED.events.portD = GPIO->P[3].IN;
+    398                #endif
+    399                #ifdef EMBER_MICRO_PORT_E_GPIO
+    400                  GPIO_IN_SAVED.events.portE = GPIO->P[4].IN;
+    401                #endif
+    402                #ifdef EMBER_MICRO_PORT_F_GPIO
+    403                  GPIO_IN_SAVED.events.portF = GPIO->P[5].IN;
+    404                #endif
+    405                  //reset the power up events by writing 1 to all bits.
+    406                  CMHV->PWRUPEVENT = 0xFFFFFFFFU;
+   \      0x198   0xF04F 0x32FF      MOV      R2,#+4294967295
+   \      0x19C   0x626A             STR      R2,[R5, #+36]
+    407          
+    408          
+    409          
+    410                  //By clearing the events, the wake up event capturing is activated.
+    411                  //At this point we can safely check our interrupt flags since event
+    412                  //capturing is now overlapped.  Up to now, interrupts indicate
+    413                  //activity, after this point, powerup events indicate activity.
+    414                  //If any of the interrupt flags are set, that means we saw a wake event
+    415                  //sometime while entering sleep, so we need to skip over sleeping
+    416                  //
+    417                  //--possible interrupt sources for waking:
+    418                  //  IRQA, IRQB, IRQC, IRQD
+    419                  //  SleepTMR CMPA, CMPB, Wrap
+    420                  //  WAKE_CORE (DebugIsr)
+    421                  //
+    422                  #if defined(EMBER_MICRO_PORT_B_GPIO)
+    423                    #if EMBER_MICRO_PORT_B_GPIO & PB0
+    424                  //check for IRQA interrupt and if IRQA (PB0) is wake source
+    425                  if ( NVIC_GET_PENDING_IRQ(IRQA_IRQn)
+    426                       && (GPIO->WAKE[1] & GPIO_WAKE_Px0)
+    427                       && (CMHV->WAKESEL & CMHV_WAKESEL_GPIO)) {
+   \      0x19E   0x.... 0x....      LDR.W    R3,??DataTable3
+   \      0x1A2   0x681A             LDR      R2,[R3, #+0]
+   \      0x1A4   0x04D2             LSLS     R2,R2,#+19
+   \      0x1A6   0xD50C             BPL.N    ??halInternalSleepHelper_16
+   \      0x1A8   0x6872             LDR      R2,[R6, #+4]
+   \      0x1AA   0x07D2             LSLS     R2,R2,#+31
+   \      0x1AC   0xD509             BPL.N    ??halInternalSleepHelper_16
+   \      0x1AE   0x69EA             LDR      R2,[R5, #+28]
+   \      0x1B0   0x07D2             LSLS     R2,R2,#+31
+   \      0x1B2   0xD506             BPL.N    ??halInternalSleepHelper_16
+    428                    skipSleep = true;
+   \      0x1B4   0x468A             MOV      R10,R1
+    429                    //log IRQA as a wake event
+    430                    halInternalWakeEvent.eventflags |= BIT(PORTB_PIN(0));
+   \      0x1B6   0xF8D8 0x2000      LDR      R2,[R8, #+0]
+   \      0x1BA   0xF442 0x7280      ORR      R2,R2,#0x100
+   \      0x1BE   0xF8C8 0x2000      STR      R2,[R8, #+0]
+    431          
+    432          
+    433          
+    434                  }
+    435                    #endif
+    436                    #if EMBER_MICRO_PORT_B_GPIO & PB6
+    437                  //check for IRQB interrupt and if IRQB (PB6) is wake source
+    438                  if ( NVIC_GET_PENDING_IRQ(IRQB_IRQn)
+    439                       && (GPIO->WAKE[1] & PB6)
+    440                       && (CMHV->WAKESEL & CMHV_WAKESEL_GPIO)) {
+    441                    skipSleep = true;
+    442                    //log IRQB as a wake event
+    443                    halInternalWakeEvent.eventflags |= BIT(PORTB_PIN(6));
+    444          
+    445          
+    446          
+    447                  }
+    448                    #endif
+    449                  #endif
+    450                  //check for IRQC interrupt and if IRQC (GPIO->IRQCSEL) is wake source
+    451                  if ( NVIC_GET_PENDING_IRQ(IRQC_IRQn)
+    452                       && (gpioWakeSel & BIT(GPIO->IRQCSEL))
+    453                       && (CMHV->WAKESEL & CMHV_WAKESEL_GPIO)) {
+   \                     ??halInternalSleepHelper_16: (+1)
+   \      0x1C2   0x681A             LDR      R2,[R3, #+0]
+   \      0x1C4   0x0452             LSLS     R2,R2,#+17
+   \      0x1C6   0xD514             BPL.N    ??halInternalSleepHelper_17
+   \      0x1C8   0x69B2             LDR      R2,[R6, #+24]
+   \      0x1CA   0x46BC             MOV      R12,R7
+   \      0x1CC   0xFA2C 0xFC02      LSR      R12,R12,R2
+   \      0x1D0   0xEA5F 0x72CC      LSLS     R2,R12,#+31
+   \      0x1D4   0xD50D             BPL.N    ??halInternalSleepHelper_17
+   \      0x1D6   0x69EA             LDR      R2,[R5, #+28]
+   \      0x1D8   0x07D2             LSLS     R2,R2,#+31
+   \      0x1DA   0xD50A             BPL.N    ??halInternalSleepHelper_17
+    454                    skipSleep = true;
+   \      0x1DC   0x468A             MOV      R10,R1
+    455                    //log IRQC as a wake event
+    456                    halInternalWakeEvent.eventflags |= BIT(GPIO->IRQCSEL);
+   \      0x1DE   0xF8D8 0x2000      LDR      R2,[R8, #+0]
+   \      0x1E2   0xF8D6 0xC018      LDR      R12,[R6, #+24]
+   \      0x1E6   0xFA01 0xFC0C      LSL      R12,R1,R12
+   \      0x1EA   0xEA4C 0x0202      ORR      R2,R12,R2
+   \      0x1EE   0xF8C8 0x2000      STR      R2,[R8, #+0]
+    457          
+    458          
+    459          
+    460                  }
+    461                  //check for IRQD interrupt and if IRQD (GPIO->IRQDSEL) is wake source
+    462                  if ( NVIC_GET_PENDING_IRQ(IRQD_IRQn)
+    463                       && (gpioWakeSel & BIT(GPIO->IRQDSEL))
+    464                       && ((CMHV->WAKESEL & CMHV_WAKESEL_GPIO)
+    465                           || (CMHV->WAKESEL & CMHV_WAKESEL_IRQD))) {
+   \                     ??halInternalSleepHelper_17: (+1)
+   \      0x1F2   0x681A             LDR      R2,[R3, #+0]
+   \      0x1F4   0x0412             LSLS     R2,R2,#+16
+   \      0x1F6   0xD515             BPL.N    ??halInternalSleepHelper_18
+   \      0x1F8   0x69F2             LDR      R2,[R6, #+28]
+   \      0x1FA   0x46BC             MOV      R12,R7
+   \      0x1FC   0xFA2C 0xFC02      LSR      R12,R12,R2
+   \      0x200   0xEA5F 0x72CC      LSLS     R2,R12,#+31
+   \      0x204   0xD50E             BPL.N    ??halInternalSleepHelper_18
+   \      0x206   0x69EA             LDR      R2,[R5, #+28]
+   \      0x208   0x07D2             LSLS     R2,R2,#+31
+   \      0x20A   0xD402             BMI.N    ??halInternalSleepHelper_19
+   \      0x20C   0x69EA             LDR      R2,[R5, #+28]
+   \      0x20E   0x0712             LSLS     R2,R2,#+28
+   \      0x210   0xD508             BPL.N    ??halInternalSleepHelper_18
+    466                    skipSleep = true;
+   \                     ??halInternalSleepHelper_19: (+1)
+   \      0x212   0x468A             MOV      R10,R1
+    467                    //log IRQD as a wake event
+    468                    halInternalWakeEvent.eventflags |= BIT(GPIO->IRQDSEL);
+   \      0x214   0xF8D8 0xC000      LDR      R12,[R8, #+0]
+   \      0x218   0x69F2             LDR      R2,[R6, #+28]
+   \      0x21A   0x4091             LSLS     R1,R1,R2
+   \      0x21C   0xEA41 0x010C      ORR      R1,R1,R12
+   \      0x220   0xF8C8 0x1000      STR      R1,[R8, #+0]
+    469          
+    470          
+    471          
+    472                  }
+    473                  //check for SleepTMR CMPA interrupt and if SleepTMR CMPA is wake source
+    474                  if ((EVENT_SLEEPTMR->FLAG & EVENT_SLEEPTMR_FLAG_CMPA) && (CMHV->WAKESEL & CMHV_WAKESEL_SLEEPTMRCMPA)) {
+   \                     ??halInternalSleepHelper_18: (+1)
+   \      0x224   0xF8D9 0x1000      LDR      R1,[R9, #+0]
+   \      0x228   0x0789             LSLS     R1,R1,#+30
+   \      0x22A   0xD50A             BPL.N    ??halInternalSleepHelper_20
+   \      0x22C   0x69E9             LDR      R1,[R5, #+28]
+   \      0x22E   0x06C9             LSLS     R1,R1,#+27
+   \      0x230   0xD507             BPL.N    ??halInternalSleepHelper_20
+    475                    skipSleep = true;
+   \      0x232   0xF04F 0x0A01      MOV      R10,#+1
+    476                    //log SleepTMR CMPA as a wake event
+    477                    halInternalWakeEvent.events.internal.bits.TIMER_WAKE_COMPA = true;
+   \      0x236   0xF898 0x1003      LDRB     R1,[R8, #+3]
+   \      0x23A   0xF041 0x0101      ORR      R1,R1,#0x1
+   \      0x23E   0xF888 0x1003      STRB     R1,[R8, #+3]
+    478          
+    479          
+    480          
+    481                  }
+    482                  //check for SleepTMR CMPB interrupt and if SleepTMR CMPB is wake source
+    483                  if ((EVENT_SLEEPTMR->FLAG & EVENT_SLEEPTMR_FLAG_CMPB) && (CMHV->WAKESEL & CMHV_WAKESEL_SLEEPTMRCMPB)) {
+   \                     ??halInternalSleepHelper_20: (+1)
+   \      0x242   0xF8D9 0x1000      LDR      R1,[R9, #+0]
+   \      0x246   0x0749             LSLS     R1,R1,#+29
+   \      0x248   0xD50A             BPL.N    ??halInternalSleepHelper_21
+   \      0x24A   0x69E9             LDR      R1,[R5, #+28]
+   \      0x24C   0x0689             LSLS     R1,R1,#+26
+   \      0x24E   0xD507             BPL.N    ??halInternalSleepHelper_21
+    484                    skipSleep = true;
+   \      0x250   0xF04F 0x0A01      MOV      R10,#+1
+    485                    //log SleepTMR CMPB as a wake event
+    486                    halInternalWakeEvent.events.internal.bits.TIMER_WAKE_COMPB = true;
+   \      0x254   0xF898 0x1003      LDRB     R1,[R8, #+3]
+   \      0x258   0xF041 0x0102      ORR      R1,R1,#0x2
+   \      0x25C   0xF888 0x1003      STRB     R1,[R8, #+3]
+    487          
+    488          
+    489          
+    490                  }
+    491                  //check for SleepTMR WRAP interrupt and if SleepTMR WRAP is wake source
+    492                  if ((EVENT_SLEEPTMR->FLAG & EVENT_SLEEPTMR_FLAG_WRAP) && (CMHV->WAKESEL & CMHV_WAKESEL_SLEEPTMRWRAP)) {
+   \                     ??halInternalSleepHelper_21: (+1)
+   \      0x260   0xF8D9 0x1000      LDR      R1,[R9, #+0]
+   \      0x264   0x07C9             LSLS     R1,R1,#+31
+   \      0x266   0xD50A             BPL.N    ??halInternalSleepHelper_22
+   \      0x268   0x69E9             LDR      R1,[R5, #+28]
+   \      0x26A   0x0649             LSLS     R1,R1,#+25
+   \      0x26C   0xD507             BPL.N    ??halInternalSleepHelper_22
+    493                    skipSleep = true;
+   \      0x26E   0xF04F 0x0A01      MOV      R10,#+1
+    494                    //log SleepTMR WRAP as a wake event
+    495                    halInternalWakeEvent.events.internal.bits.TIMER_WAKE_WRAP = true;
+   \      0x272   0xF898 0x1003      LDRB     R1,[R8, #+3]
+   \      0x276   0xF041 0x0104      ORR      R1,R1,#0x4
+   \      0x27A   0xF888 0x1003      STRB     R1,[R8, #+3]
+    496          
+    497          
+    498          
+    499                  }
+    500                  //check for Debug interrupt and if WAKE_CORE is wake source
+    501                  if (NVIC_GET_PENDING_IRQ(DEBUG_IRQn)
+    502                      && (CMHV->WAKESEL & CMHV_WAKESEL_CORE)) {
+   \                     ??halInternalSleepHelper_22: (+1)
+   \      0x27E   0x6819             LDR      R1,[R3, #+0]
+   \      0x280   0x03C9             LSLS     R1,R1,#+15
+   \      0x282   0xD50A             BPL.N    ??halInternalSleepHelper_23
+   \      0x284   0x69E9             LDR      R1,[R5, #+28]
+   \      0x286   0x0609             LSLS     R1,R1,#+24
+   \      0x288   0xD507             BPL.N    ??halInternalSleepHelper_23
+    503                    skipSleep = true;
+   \      0x28A   0xF04F 0x0A01      MOV      R10,#+1
+    504                    //log WAKE_CORE as a wake event
+    505                    halInternalWakeEvent.events.internal.bits.WAKE_CORE_B = true;
+   \      0x28E   0xF898 0x1003      LDRB     R1,[R8, #+3]
+   \      0x292   0xF041 0x0108      ORR      R1,R1,#0x8
+   \      0x296   0xF888 0x1003      STRB     R1,[R8, #+3]
+    506          
+    507          
+    508          
+    509                  }
+    510          
+    511                  //only propagate across deep sleep the interrupts that are both
+    512                  //enabled and possible wake sources
+    513                  {
+    514                    uint32_t wakeSourceInterruptMask = 0;
+   \                     ??halInternalSleepHelper_23: (+1)
+   \      0x29A   0x2100             MOVS     R1,#+0
+    515          
+    516                    if ((GPIO->WAKE[1] & GPIO_WAKE_Px0 /*PB0*/) != 0U) {
+   \      0x29C   0x6872             LDR      R2,[R6, #+4]
+   \      0x29E   0x07D2             LSLS     R2,R2,#+31
+   \      0x2A0   0xD501             BPL.N    ??halInternalSleepHelper_24
+    517                      wakeSourceInterruptMask |= (1 << IRQA_IRQn);
+   \      0x2A2   0xF44F 0x5180      MOV      R1,#+4096
+    518          
+    519          
+    520          
+    521                    }
+    522                    if ((GPIO->WAKE[1] & GPIO_WAKE_Px6 /*PB6*/) != 0U) {
+   \                     ??halInternalSleepHelper_24: (+1)
+   \      0x2A6   0x6872             LDR      R2,[R6, #+4]
+   \      0x2A8   0x0652             LSLS     R2,R2,#+25
+   \      0x2AA   0xD501             BPL.N    ??halInternalSleepHelper_25
+    523                      wakeSourceInterruptMask |= (1 << IRQB_IRQn);
+   \      0x2AC   0xF441 0x5100      ORR      R1,R1,#0x2000
+    524          
+    525          
+    526          
+    527                    }
+    528                    if ((gpioWakeSel & BIT(GPIO->IRQCSEL)) != 0U) {
+   \                     ??halInternalSleepHelper_25: (+1)
+   \      0x2B0   0x69B2             LDR      R2,[R6, #+24]
+   \      0x2B2   0x463B             MOV      R3,R7
+   \      0x2B4   0x40D3             LSRS     R3,R3,R2
+   \      0x2B6   0x07DA             LSLS     R2,R3,#+31
+   \      0x2B8   0xD501             BPL.N    ??halInternalSleepHelper_26
+    529                      wakeSourceInterruptMask |= (1 << IRQC_IRQn);
+   \      0x2BA   0xF441 0x4180      ORR      R1,R1,#0x4000
+    530          
+    531          
+    532          
+    533                    }
+    534                    if ((gpioWakeSel & BIT(GPIO->IRQDSEL)) != 0U) {
+   \                     ??halInternalSleepHelper_26: (+1)
+   \      0x2BE   0x69F2             LDR      R2,[R6, #+28]
+   \      0x2C0   0x463B             MOV      R3,R7
+   \      0x2C2   0x40D3             LSRS     R3,R3,R2
+   \      0x2C4   0x07DA             LSLS     R2,R3,#+31
+   \      0x2C6   0xD501             BPL.N    ??halInternalSleepHelper_27
+    535                      wakeSourceInterruptMask |= (1 << IRQD_IRQn);
+   \      0x2C8   0xF441 0x4100      ORR      R1,R1,#0x8000
+    536          
+    537          
+    538          
+    539                    }
+    540                    if ((CMHV->WAKESEL & CMHV_WAKESEL_SLEEPTMRCMPA)
+    541                        || (CMHV->WAKESEL & CMHV_WAKESEL_SLEEPTMRCMPB)
+    542                        || (CMHV->WAKESEL & CMHV_WAKESEL_SLEEPTMRWRAP)) {
+   \                     ??halInternalSleepHelper_27: (+1)
+   \      0x2CC   0x69EA             LDR      R2,[R5, #+28]
+   \      0x2CE   0x06D2             LSLS     R2,R2,#+27
+   \      0x2D0   0xD405             BMI.N    ??halInternalSleepHelper_28
+   \      0x2D2   0x69EA             LDR      R2,[R5, #+28]
+   \      0x2D4   0x0692             LSLS     R2,R2,#+26
+   \      0x2D6   0xD402             BMI.N    ??halInternalSleepHelper_28
+   \      0x2D8   0x69EA             LDR      R2,[R5, #+28]
+   \      0x2DA   0x0652             LSLS     R2,R2,#+25
+   \      0x2DC   0xD501             BPL.N    ??halInternalSleepHelper_29
+    543                      wakeSourceInterruptMask |= (1 << SLEEPTMR_IRQn);
+   \                     ??halInternalSleepHelper_28: (+1)
+   \      0x2DE   0xF041 0x0110      ORR      R1,R1,#0x10
+    544          
+    545          
+    546          
+    547                    }
+    548                    if ((CMHV->WAKESEL & CMHV_WAKESEL_CORE) != 0U) {
+   \                     ??halInternalSleepHelper_29: (+1)
+   \      0x2E2   0x69EA             LDR      R2,[R5, #+28]
+   \      0x2E4   0x0612             LSLS     R2,R2,#+24
+   \      0x2E6   0xD501             BPL.N    ??halInternalSleepHelper_30
+    549                      wakeSourceInterruptMask |= (1 << DEBUG_IRQn);
+   \      0x2E8   0xF441 0x3180      ORR      R1,R1,#0x10000
+    550          
+    551          
+    552          
+    553                    }
+    554          
+    555                    NVIC_ISER_SAVED &= wakeSourceInterruptMask;
+   \                     ??halInternalSleepHelper_30: (+1)
+   \      0x2EC   0x4008             ANDS     R0,R1,R0
+   \      0x2EE   0x9004             STR      R0,[SP, #+16]
+    556                  }
+    557          
+    558          
+    559          
+    560          
+    561          
+    562          
+    563          
+    564          
+    565          
+    566          
+    567          
+    568          
+    569          
+    570          
+    571          
+    572          
+    573          
+    574                  //disable watchdog while sleeping (since we can't reset it asleep)
+    575                  halInternalDisableWatchDog(MICRO_DISABLE_WATCH_DOG_KEY);
+   \      0x2F0   0x20A5             MOVS     R0,#+165
+   \      0x2F2   0x.... 0x....      BL       halInternalDisableWatchDog
+    576          
+    577                  //The chip is not allowed to enter a deep sleep mode (which could
+    578                  //cause a core reset cycle) while CSYSPWRUPREQ is set.  CSYSPWRUPREQ
+    579                  //indicates that the debugger is trying to access sections of the
+    580                  //chip that would get reset during deep sleep.  Therefore, a reset
+    581                  //cycle could very easily cause the debugger to error and we don't
+    582                  //want that.  While the power management state machine will stall
+    583                  //if CSYSPWRUPREQ is set (to avoid the situation just described),
+    584                  //in this stalled state the chip will not be responsive to wake
+    585                  //events.  To be sensitive to wake events, we must handle them in
+    586                  //software instead.  To accomplish this, we request that the
+    587                  //CSYSPWRUPACK be inhibited (which will indicate the debugger is not
+    588                  //connected).  But, we cannot induce deep sleep until CSYSPWRUPREQ/ACK
+    589                  //go low and these are under the debuggers control, so we must stall
+    590                  //and wait here.  If there is a wake event during this time, break
+    591                  //out and wake like normal.  If the ACK eventually clears,
+    592                  //we can proceed into deep sleep.  The CMHV->CSYSPWRUPACKINHIBIT
+    593                  //functionality will hold off the debugger (by holding off the ACK)
+    594                  //until we are safely past and out of deep sleep.  The power management
+    595                  //state machine then becomes responsible for clearing
+    596                  //CMHV->CSYSPWRUPACKINHIBIT and responding to a CSYSPWRUPREQ with a
+    597                  //CSYSPWRUPACK at the right/safe time.
+    598                  CMHV->CSYSPWRUPACKINHIBIT = _CMHV_CSYSPWRUPACKINHIBIT_CSYSPWRUPACKINHIBIT_MASK;
+   \      0x2F6   0x2001             MOVS     R0,#+1
+   \      0x2F8   0x63E8             STR      R0,[R5, #+60]
+    599                  {
+    600                    //Use a local copy of CMHV->WAKESEL to avoid warnings from the compiler
+    601                    //about order of volatile accesses
+    602                    uint32_t wakeSel = CMHV->WAKESEL;
+   \      0x2FA   0x69E9             LDR      R1,[R5, #+28]
+    603                    //stall until a wake event or CSYSPWRUPREQ/ACK clears
+    604                    while ((CMHV->CSYSPWRUPACKSTATUS) && (!(CMHV->PWRUPEVENT & wakeSel))) {
+   \                     ??halInternalSleepHelper_31: (+1)
+   \      0x2FC   0x6BA8             LDR      R0,[R5, #+56]
+   \      0x2FE   0x2800             CMP      R0,#+0
+   \      0x300   0xD002             BEQ.N    ??halInternalSleepHelper_32
+   \      0x302   0x6A68             LDR      R0,[R5, #+36]
+   \      0x304   0x4208             TST      R0,R1
+   \      0x306   0xD0F9             BEQ.N    ??halInternalSleepHelper_31
+    605                    }
+    606                    //if there was a wake event, allow CSYSPWRUPACK and skip sleep
+    607                    if ((CMHV->PWRUPEVENT & wakeSel) != 0U) {
+   \                     ??halInternalSleepHelper_32: (+1)
+   \      0x308   0x6A68             LDR      R0,[R5, #+36]
+   \      0x30A   0x4208             TST      R0,R1
+   \      0x30C   0xD003             BEQ.N    ??halInternalSleepHelper_33
+    608                      CMHV->CSYSPWRUPACKINHIBIT = _CMHV_CSYSPWRUPACKINHIBIT_RESETVALUE;
+   \      0x30E   0x2000             MOVS     R0,#+0
+   \      0x310   0x63E8             STR      R0,[R5, #+60]
+    609                      skipSleep = true;
+   \      0x312   0xF04F 0x0A01      MOV      R10,#+1
+    610                    }
+    611                  }
+    612          
+    613          
+    614          
+    615          
+    616                  if (!skipSleep) {
+   \                     ??halInternalSleepHelper_33: (+1)
+   \      0x316   0x4650             MOV      R0,R10
+   \      0x318   0x2800             CMP      R0,#+0
+   \      0x31A   0xD128             BNE.N    ??halInternalSleepHelper_34
+    617          
+    618          
+    619          
+    620                    //FogBugz 7283 states that we must switch to the OSCHF when entering
+    621                    //deep sleep since using the 24MHz XTAL could result in RAM
+    622                    //corruption.  This switch must occur at least 2*24MHz cycles before
+    623                    //sleeping.
+    624                    //
+    625                    //FogBugz 8858 states that we cannot go into deep-sleep when the
+    626                    //chip is clocked with the 24MHz XTAL with a duty cycle as low as
+    627                    //70/30 since this causes power_down generation timing to fail.
+    628                    //
+    629                    //Hekla-S-003_Digital_specification.doc#21 states:  "Note that
+    630                    //in Lipari there was a requirement to set the clock into OSCHF
+    631                    //mode prior to entering deep sleep. This was a limitation brought
+    632                    //about from an early version of the RAM IP used in Lipari and does
+    633                    //not apply to Hekla so that requirement is removed."  But since
+    634                    //continuing to switch the clock does not dramatically affect
+    635                    //behavior and we prefer to keep our code as common as we can
+    636                    //between 3xx chips, we still switch the clock for 358x/359.
+    637                    CMLV->OSC24MCTRL &= ~CMLV_OSC24MCTRL_SEL;
+   \      0x31C   0xF8DB 0x0018      LDR      R0,[R11, #+24]
+   \      0x320   0x0840             LSRS     R0,R0,#+1
+   \      0x322   0x0040             LSLS     R0,R0,#+1
+   \      0x324   0xF8CB 0x0018      STR      R0,[R11, #+24]
+    638                    //If DS12 needs to be forced regardless of state, clear
+    639                    //REGEN_DSLEEP here.  This is hugely dangerous and
+    640                    //should only be done in very controlled chip tests.
+    641                    SCB->SCR |= SCB_SCR_SLEEPDEEP_Msk;      //enable deep sleep
+   \      0x328   0x....             LDR.N    R0,??DataTable3_10
+   \      0x32A   0x6880             LDR      R0,[R0, #+8]
+   \      0x32C   0xF040 0x0004      ORR      R0,R0,#0x4
+   \      0x330   0x....             LDR.N    R1,??DataTable3_10
+   \      0x332   0x6088             STR      R0,[R1, #+8]
+    642          
+    643          #ifdef BOOTLOADER_OPEN
+    644                    void bootloaderInternalSaveContextAndDeepSleep(void);
+    645          
+    646                    // We don't have interrupts in the bootloader, so we can't just use
+    647                    // SCS_ICSR to trigger a PendSV. So we manually call a function that
+    648                    // pushes all registers on the stack and enters deep sleep via a WFI
+    649                    // instruction.
+    650                    //
+    651          
+    652                    // NOTE: Only set the reset reason in the bootloader. See bugzid 14827
+    653                    // for more information.
+    654                    // Also note that we leave the resetReason intact after waking up and restoring
+    655                    // since resetReason is used in cstartup-iar.c during startup.
+    656                    halResetInfo.crash.resetReason    = RESET_BOOTLOADER_DEEPSLEEP;
+    657                    halResetInfo.crash.resetSignature = RESET_VALID_SIGNATURE;
+    658          
+    659                    bootloaderInternalSaveContextAndDeepSleep();
+    660                    //I AM ASLEEP.  WHEN EXECUTION RESUMES, CSTARTUP WILL RESTORE TO HERE
+    661          
+    662                    extern bool sleepTimerInterruptOccurred;
+    663          
+    664                    // In normal non-bootloader sleep situations here's what would happen
+    665                    // after we wakeup from deep sleep:
+    666                    //
+    667                    // 1. The EVENT_SLEEPTMR->CFG register is restored (search for
+    668                    //    EVENT_SLEEPTMR->CFG below). We know that this will have the
+    669                    //    INT_SLEEPTMRCMPA bit set, because that's what we use for sleep.
+    670                    // 2. This "if(sleep int triggered)?" test is true:
+    671                    //      if( (EVENT_SLEEPTMR->CFG&INT_SLEEPTMRCMPA) &&
+    672                    //          (halInternalWakeEvent&BIT(CMPA_INTERNAL_WAKE_EVENT_BIT)) )
+    673                    //    And because it's true, the code below forces the sleep interrupt
+    674                    //    like this:
+    675                    //      EVENT_SLEEPTMR->FORCE = EVENT_SLEEPTMR_FORCE_CMPA;
+    676                    // 3. The halSleepTimerIsr would clear EVENT_SLEEPTMR->CFG and then set
+    677                    //    sleepTimerInterruptOccurred to true.
+    678                    //
+    679                    // But we're in the bootloader deep sleep case, so we don't have that
+    680                    // ISR (or any interrupts, actually!).
+    681                    //
+    682                    // So we'll handle it ourselves here by:
+    683                    // 1. Setting sleepTimerInterruptOccurred to true.
+    684                    // 2. Clearing the INT_SLEEPTMRCFG_SAVED variable so when it's
+    685                    //    restored to EVENT_SLEEPTMR->CFG the "if(sleep int triggered)?"
+    686                    //    will be false, and the deep sleep interrupt won't be forced.
+    687                    sleepTimerInterruptOccurred = true;
+    688          
+    689                    INT_SLEEPTMRCFG_SAVED = 0;
+    690          
+    691                    // Invalidate the reset reason.
+    692                    // Bugzid-14827: Only do this when in a bootloader because otherwise
+    693                    // we will overwrite heap data like packetbuffers.
+    694                    halResetInfo.crash.resetSignature = RESET_INVALID_SIGNATURE;
+    695          #elif defined(MINIMAL_HAL)
+    696                    //Call the context save restore function to trigger a context save.
+    697                    halInternalContextSaveRestore(true);
+    698                    //I AM ASLEEP.  WHEN EXECUTION RESUMES, CSTARTUP WILL RESTORE TO HERE
+    699          #else
+    700          #ifndef MINIMAL_HAL
+    701                    // NOTE: Only bootloader sets the reset reason to allow deep sleep
+    702                    // wakeup to know upon wake to stay in bootloader.  App does not
+    703                    // set this, because this RAM is used for heap data (bugzid 14827),
+    704                    // however app makes sure wakeup won't be fooled by happenstance
+    705                    // if the heap actually contains the bootloader's pattern.
+    706                    if ( halResetInfo.crash.resetReason == RESET_BOOTLOADER_DEEPSLEEP
+    707                         && halResetInfo.crash.resetSignature == RESET_VALID_SIGNATURE ) {
+   \      0x334   0x....             LDR.N    R0,??DataTable3_14
+   \      0x336   0x8800             LDRH     R0,[R0, #+0]
+   \      0x338   0xF240 0x2107      MOVW     R1,#+519
+   \      0x33C   0x4288             CMP      R0,R1
+   \      0x33E   0xD10B             BNE.N    ??halInternalSleepHelper_35
+   \      0x340   0x....             LDR.N    R0,??DataTable3_14
+   \      0x342   0x8840             LDRH     R0,[R0, #+2]
+   \      0x344   0xF24F 0x010F      MOVW     R1,#+61455
+   \      0x348   0x4288             CMP      R0,R1
+   \      0x34A   0xD105             BNE.N    ??halInternalSleepHelper_35
+    708                      // temporarily corrupt resetSignature so wakeup returns here
+    709                      // to app rather than thinking it's the bootloader that slept
+    710                      halResetInfo.crash.resetSignature = RESET_INVALID_SIGNATURE;
+   \      0x34C   0xF24C 0x303C      MOVW     R0,#+49980
+   \      0x350   0x....             LDR.N    R1,??DataTable3_14
+   \      0x352   0x8048             STRH     R0,[R1, #+2]
+    711                      // Hack repurpose skipSleep local as signal to post-wakeup code
+    712                      skipSleep = true; // Signal to wakeup code below to restore
+   \      0x354   0xF04F 0x0A01      MOV      R10,#+1
+    713                    }
+    714          #endif//MINIMAL_HAL
+    715          
+    716                    //Call the context save restore function to trigger a context save.
+    717                    halInternalContextSaveRestore(true);
+   \                     ??halInternalSleepHelper_35: (+1)
+   \      0x358   0x2001             MOVS     R0,#+1
+   \      0x35A   0x.... 0x....      BL       halInternalContextSaveRestore
+    718                    //I AM ASLEEP.  WHEN EXECUTION RESUMES, CSTARTUP WILL RESTORE TO HERE
+    719          
+    720          #ifndef MINIMAL_HAL
+    721                    // If signalled above that we had to corrupt heap temporarily
+    722                    // during sleep, restore it now upon wakeup!
+    723                    if (skipSleep) {
+   \      0x35E   0xF1BA 0x0F00      CMP      R10,#+0
+   \      0x362   0xD00C             BEQ.N    ??halInternalSleepHelper_36
+    724                      halResetInfo.crash.resetSignature = RESET_VALID_SIGNATURE;
+   \      0x364   0xF24F 0x000F      MOVW     R0,#+61455
+   \      0x368   0x....             LDR.N    R1,??DataTable3_14
+   \      0x36A   0x8048             STRH     R0,[R1, #+2]
+    725                      skipSleep = false; // Done with repurposed local, restore it too
+   \      0x36C   0xE007             B.N      ??halInternalSleepHelper_36
+    726                    }
+    727          #endif//MINIMAL_HAL
+    728          #endif // BOOTLOADER_OPEN
+    729          
+    730                   #ifndef CORTEXM3_EM35X_GEN4 // HW bug fixed in GEN4
+    731                    //Save the value of the SLEEPTMR_CNT register immediately after
+    732                    //waking up from a real sleep.  For FogBugz 11909/11920 workaround.
+    733                    wakeupSleepTmrCnt = SLEEPTMR->CNTH << 16;
+    734                    wakeupSleepTmrCnt |= SLEEPTMR->CNTL;
+    735                   #endif//CORTEXM3_EM35X_GEN4 // HW bug fixed in GEN4
+    736                  } else {
+    737                    //Record the fact that we skipped sleep
+    738                    halInternalWakeEvent.events.internal.bits.SleepSkipped = true;
+   \                     ??halInternalSleepHelper_34: (+1)
+   \      0x36E   0xF898 0x0003      LDRB     R0,[R8, #+3]
+   \      0x372   0xF040 0x0040      ORR      R0,R0,#0x40
+   \      0x376   0xF888 0x0003      STRB     R0,[R8, #+3]
+    739                    //If this was a true deep sleep, we would have executed cstartup and
+    740                    //PRIMASK would be set right now.  If we skipped sleep, PRIMASK is not
+    741                    //set so we explicitely set it to guarantee the powerup sequence
+    742                    //works cleanly and consistently with respect to interrupt
+    743                    //dispatching and enabling.
+    744                    _setPriMask();
+   \      0x37A   0x.... 0x....      BL       _setPriMask
+    745                  }
+    746          
+    747          
+    748          
+    749          
+    750          
+    751          
+    752          
+    753          
+    754                  #ifdef _CMLV_PERIPHERALDISABLE_RESETVALUE
+    755                  //Re-disabling peripherals immediately after sleep helps save
+    756                  //a little more power.
+    757                  CMLV->PERIPHERALDISABLE = PERIPHERAL_DISABLE_SAVED;
+   \                     ??halInternalSleepHelper_36: (+1)
+   \      0x37E   0x9805             LDR      R0,[SP, #+20]
+   \      0x380   0xF8CB 0x0034      STR      R0,[R11, #+52]
+    758                  #endif
+    759          
+    760                  //Clear the interrupt flags for all wake sources.  This
+    761                  //is necessary because if we don't execute an actual deep sleep cycle
+    762                  //the interrupt flags will never be cleared.  By clearing the flags,
+    763                  //we always mimick a real deep sleep as closely as possible and
+    764                  //guard against any accidental interrupt triggering coming out
+    765                  //of deep sleep.  (The interrupt dispatch code coming out of sleep
+    766                  //is responsible for translating wake events into interrupt events,
+    767                  //and if we don't clear interrupt flags here it's possible for an
+    768                  //interrupt to trigger even if it wasn't the true wake event.)
+    769                  EVENT_SLEEPTMR->FLAG = (EVENT_SLEEPTMR_FLAG_CMPA
+    770                                          | EVENT_SLEEPTMR_FLAG_CMPB
+    771                                          | EVENT_SLEEPTMR_FLAG_WRAP);
+   \      0x384   0x2007             MOVS     R0,#+7
+   \      0x386   0xF8C9 0x0000      STR      R0,[R9, #+0]
+    772                  EVENT_GPIO->FLAG = (EVENT_GPIO_FLAG_IRQA
+    773                                      | EVENT_GPIO_FLAG_IRQB
+    774                                      | EVENT_GPIO_FLAG_IRQC
+    775                                      | EVENT_GPIO_FLAG_IRQD);
+   \      0x38A   0x.... 0x....      LDR.W    R10,??DataTable3_8
+   \      0x38E   0x200F             MOVS     R0,#+15
+   \      0x390   0xF8CA 0x0000      STR      R0,[R10, #+0]
+    776          
+    777                  //immediately restore the registers we saved before sleeping
+    778                  //so IRQ and SleepTMR capture can be reenabled as quickly as possible
+    779                  //this is safe because our global interrupts are still disabled
+    780                  //other registers will be restored later
+    781          
+    782                  #if (!(defined(MINIMAL_HAL) || defined(BOOTLOADER_OPEN)))
+    783                  //The minimal HAL (and therefore the SuperPHY release) doesn't
+    784                  //use the MPU, and neither does app-bootloader-open.
+    785                  halInternalEnableMPU();
+   \      0x394   0x.... 0x....      BL       halInternalEnableMPU
+    786                  #endif //MINIMAL_HAL
+    787          
+    788                  CMHV->SLEEPTMRCLKEN = SLEEPTMR_CLKEN_SAVED;
+   \      0x398   0x9810             LDR      R0,[SP, #+64]
+   \      0x39A   0x6068             STR      R0,[R5, #+4]
+    789                  EVENT_SLEEPTMR->CFG = INT_SLEEPTMRCFG_SAVED;
+   \      0x39C   0x980F             LDR      R0,[SP, #+60]
+   \      0x39E   0xF8C9 0x0040      STR      R0,[R9, #+64]
+    790                  EVENT_MGMT->CFG = INT_MGMTCFG_SAVED;
+   \      0x3A2   0x980E             LDR      R0,[SP, #+56]
+   \      0x3A4   0xF8C9 0x0044      STR      R0,[R9, #+68]
+    791                  EVENT_GPIO->CFGA = GPIO_INTCFGA_SAVED;
+   \      0x3A8   0x980D             LDR      R0,[SP, #+52]
+   \      0x3AA   0xF8CA 0x004C      STR      R0,[R10, #+76]
+    792                  EVENT_GPIO->CFGB = GPIO_INTCFGB_SAVED;
+   \      0x3AE   0x980C             LDR      R0,[SP, #+48]
+   \      0x3B0   0xF8CA 0x0050      STR      R0,[R10, #+80]
+    793                  EVENT_GPIO->CFGC = GPIO_INTCFGC_SAVED;
+   \      0x3B4   0x980B             LDR      R0,[SP, #+44]
+   \      0x3B6   0xF8CA 0x0054      STR      R0,[R10, #+84]
+    794                  EVENT_GPIO->CFGD = GPIO_INTCFGD_SAVED;
+   \      0x3BA   0x980A             LDR      R0,[SP, #+40]
+   \      0x3BC   0xF8CA 0x0058      STR      R0,[R10, #+88]
+    795                  CMLV->OSC24MBIASTRIM = OSC24M_BIASTRIM_SAVED;
+   \      0x3C0   0x9809             LDR      R0,[SP, #+36]
+   \      0x3C2   0xF8CB 0x0000      STR      R0,[R11, #+0]
+    796                  CMLV->OSCHFTUNE = OSCHF_TUNE_SAVED;
+   \      0x3C6   0x9808             LDR      R0,[SP, #+32]
+   \      0x3C8   0xF8CB 0x0004      STR      R0,[R11, #+4]
+    797                  CMLV->DITHERDIS = DITHER_DIS_SAVED;
+   \      0x3CC   0x9807             LDR      R0,[SP, #+28]
+   \      0x3CE   0xF8CB 0x0014      STR      R0,[R11, #+20]
+    798                  CMLV->PCTRACESEL = PCTRACE_SEL_SAVED;
+   \      0x3D2   0x9806             LDR      R0,[SP, #+24]
+   \      0x3D4   0xF8CB 0x0024      STR      R0,[R11, #+36]
+    799                  #if !defined(CORTEXM3_EM35X_GEN4)
+    800                  RAMCTRL->MEMPROT0 = MEM_PROT_0_SAVED;
+    801                  RAMCTRL->MEMPROT1 = MEM_PROT_1_SAVED;
+    802                  RAMCTRL->MEMPROT2 = MEM_PROT_2_SAVED;
+    803                  RAMCTRL->MEMPROT3 = MEM_PROT_3_SAVED;
+    804                  RAMCTRL->MEMPROT4 = MEM_PROT_4_SAVED;
+    805                  RAMCTRL->MEMPROT5 = MEM_PROT_5_SAVED;
+    806                  RAMCTRL->MEMPROT6 = MEM_PROT_6_SAVED;
+    807                  RAMCTRL->MEMPROT7 = MEM_PROT_7_SAVED;
+    808                  RAMCTRL->MEMPROTEN = MEM_PROT_EN_SAVED;
+    809                  #endif //!defined(CORTEXM3_EM35X_GEN4)
+    810                  NVIC->ISER[0] = NVIC_ISER_SAVED;
+   \      0x3D8   0x.... 0x....      LDR.W    R11,??DataTable3_9
+   \      0x3DC   0x9804             LDR      R0,[SP, #+16]
+   \      0x3DE   0xF8CB 0x0000      STR      R0,[R11, #+0]
+    811                  SCB->VTOR = SCB_VTOR_SAVED;
+   \      0x3E2   0x9803             LDR      R0,[SP, #+12]
+   \      0x3E4   0x....             LDR.N    R1,??DataTable3_10
+   \      0x3E6   0x6008             STR      R0,[R1, #+0]
+    812          
+    813                  //WAKE_CORE/INT_DEBUG and INT_IRQx is cleared by INT_PENDCLR below
+    814                  NVIC->ICPR[0] = 0xFFFFFFFFU;
+   \      0x3E8   0xF04F 0x30FF      MOV      R0,#+4294967295
+   \      0x3EC   0x....             LDR.N    R1,??DataTable3_15
+   \      0x3EE   0x6008             STR      R0,[R1, #+0]
+    815          
+    816                  //Now that we're awake, normal interrupts are operational again
+    817                  //Take a snapshot of the new GPIO state and the EVENT register to
+    818                  //record our wake event
+    819                  halInternalWakeEvent.events.portA = GPIO->P[0].IN;
+   \      0x3F0   0x....             LDR.N    R0,??DataTable3_11
+   \      0x3F2   0x6800             LDR      R0,[R0, #+0]
+   \      0x3F4   0xF888 0x0000      STRB     R0,[R8, #+0]
+    820                  halInternalWakeEvent.events.portB = GPIO->P[1].IN;
+   \      0x3F8   0x....             LDR.N    R0,??DataTable3_12
+   \      0x3FA   0x6800             LDR      R0,[R0, #+0]
+   \      0x3FC   0xF888 0x0001      STRB     R0,[R8, #+1]
+    821                  halInternalWakeEvent.events.portC = GPIO->P[2].IN;
+   \      0x400   0x....             LDR.N    R0,??DataTable3_13
+   \      0x402   0x6800             LDR      R0,[R0, #+0]
+   \      0x404   0xF888 0x0002      STRB     R0,[R8, #+2]
+    822                #ifdef EMBER_MICRO_PORT_D_GPIO
+    823                  halInternalWakeEvent.events.portD = GPIO->P[3].IN;
+    824                #endif
+    825                #ifdef EMBER_MICRO_PORT_E_GPIO
+    826                  halInternalWakeEvent.events.portE = GPIO->P[4].IN;
+    827                #endif
+    828                #ifdef EMBER_MICRO_PORT_F_GPIO
+    829                  halInternalWakeEvent.events.portF = GPIO->P[5].IN;
+    830                #endif
+    831                  //Only operate on power up events that are also wake events.  Power
+    832                  //up events will always trigger like an interrupt flag, so we have
+    833                  //to check them against events that are enabled for waking. (This is
+    834                  //a two step process because we're accessing two volatile values.)
+    835                  uint64_t powerUpEvents = CMHV->PWRUPEVENT;
+   \      0x408   0x6A6A             LDR      R2,[R5, #+36]
+    836                  powerUpEvents &= CMHV->WAKESEL;
+   \      0x40A   0x69E8             LDR      R0,[R5, #+28]
+   \      0x40C   0x4010             ANDS     R0,R2,R0
+    837          
+    838                  halInternalWakeEvent.eventflags ^= GPIO_IN_SAVED.eventflags;
+    839                  halInternalWakeEvent.eventflags &= gpioWakeSel;
+    840                  //CMHV_PWRUPEVENT_SC1 is PB2 which is bit 10
+    841                  halInternalWakeEvent.eventflags |= ((powerUpEvents & CMHV_PWRUPEVENT_SC1) ? 1 : 0) << ((1 * 8) + 2);
+    842                  //CMHV_PWRUPEVENT_SC2 is PA2 which is bit 2
+    843                  halInternalWakeEvent.eventflags |= ((powerUpEvents & CMHV_PWRUPEVENT_SC2) ? 1 : 0) << ((0 * 8) + 2);
+    844                  //CMHV_PWRUPEVENT_IRQD is chosen by GPIO->IRQDSEL
+    845                  halInternalWakeEvent.eventflags |= ((powerUpEvents & CMHV_PWRUPEVENT_IRQD) ? 1 : 0) << (GPIO->IRQDSEL);
+   \      0x40E   0xF8D8 0x3000      LDR      R3,[R8, #+0]
+   \      0x412   0x9A01             LDR      R2,[SP, #+4]
+   \      0x414   0x4053             EORS     R3,R2,R3
+   \      0x416   0x401F             ANDS     R7,R7,R3
+   \      0x418   0x4602             MOV      R2,R0
+   \      0x41A   0xB2D2             UXTB     R2,R2
+   \      0x41C   0x0852             LSRS     R2,R2,#+1
+   \      0x41E   0xF002 0x0201      AND      R2,R2,#0x1
+   \      0x422   0xEA47 0x2782      ORR      R7,R7,R2, LSL #+10
+   \      0x426   0x4602             MOV      R2,R0
+   \      0x428   0xB2D2             UXTB     R2,R2
+   \      0x42A   0x0892             LSRS     R2,R2,#+2
+   \      0x42C   0xF002 0x0201      AND      R2,R2,#0x1
+   \      0x430   0xEA47 0x0782      ORR      R7,R7,R2, LSL #+2
+   \      0x434   0x4603             MOV      R3,R0
+   \      0x436   0xB2DB             UXTB     R3,R3
+   \      0x438   0x08DB             LSRS     R3,R3,#+3
+   \      0x43A   0xF003 0x0301      AND      R3,R3,#0x1
+   \      0x43E   0x69F2             LDR      R2,[R6, #+28]
+   \      0x440   0x4093             LSLS     R3,R3,R2
+   \      0x442   0x431F             ORRS     R7,R3,R7
+   \      0x444   0xF8C8 0x7000      STR      R7,[R8, #+0]
+    846                  halInternalWakeEvent.eventflags |= ((powerUpEvents
+    847                                                       & (CMHV_PWRUPEVENT_CSYSPWRUPREQ
+    848                                                          | CMHV_PWRUPEVENT_CDBGPWRUPREQ
+    849                                                          | CMHV_PWRUPEVENT_WAKECORE
+    850                                                          | CMHV_PWRUPEVENT_SLEEPTMRWRAP
+    851                                                          | CMHV_PWRUPEVENT_SLEEPTMRCOMPB
+    852                                                          | CMHV_PWRUPEVENT_SLEEPTMRCOMPA))
+    853                                                      << INTERNAL_WAKE_EVENT_BIT_SHIFT);
+   \      0x448   0xF8D8 0x2000      LDR      R2,[R8, #+0]
+   \      0x44C   0x0500             LSLS     R0,R0,#+20
+   \      0x44E   0xF000 0x507C      AND      R0,R0,#0x3F000000
+   \      0x452   0x4302             ORRS     R2,R0,R2
+   \      0x454   0xF8C8 0x2000      STR      R2,[R8, #+0]
+    854                  //at this point wake events are fully captured and interrupts have
+    855                  //taken over handling all new events
+    856          
+    857          
+    858          
+    859          
+    860          
+    861          
+    862                  //Bring limited interrupts back online.  INTERRUPTS_OFF will use
+    863                  //BASEPRI to disable all interrupts except fault handlers.
+    864                  //PRIMASK is still set though (global interrupt disable) so we need
+    865                  //to clear that next.
+    866                  INTERRUPTS_OFF();
+   \      0x458   0x.... 0x....      BL       _disableBasePri
+    867          
+    868          
+    869          
+    870          
+    871          
+    872                  //Now that BASEPRI has taken control of interrupt enable/disable,
+    873                  //we can clear PRIMASK to reenable global interrupt operation.
+    874                  _clearPriMask();
+   \      0x45C   0x.... 0x....      BL       _clearPriMask
+    875          
+    876          
+    877          
+    878          
+    879          
+    880                  //wake events are saved and interrupts are back on track,
+    881                  //disable gpio freeze
+    882                  CMHV->EVENTCTRL = _CMHV_EVENTCTRL_RESETVALUE;
+   \      0x460   0x2000             MOVS     R0,#+0
+   \      0x462   0x6028             STR      R0,[R5, #+0]
+    883          
+    884                  //restart watchdog if it was running when we entered sleep
+    885                  //do this before dispatching interrupts while we still have tight
+    886                  //control of code execution
+    887                  if (restoreWatchdog) {
+   \      0x464   0xF89D 0x0000      LDRB     R0,[SP, #+0]
+   \      0x468   0x2800             CMP      R0,#+0
+   \      0x46A   0xD001             BEQ.N    ??halInternalSleepHelper_37
+    888                    halInternalEnableWatchDog();
+   \      0x46C   0x.... 0x....      BL       halInternalEnableWatchDog
+    889                  }
+    890          
+    891          
+    892          
+    893          
+    894          
+    895                  //Pend any interrupts associated with deep sleep wake sources.  The
+    896                  //restoration of INT_CFGSET above and the changing of BASEPRI below
+    897                  //is responsible for proper dispatching of interrupts at the end of
+    898                  //halSleep.
+    899                  //
+    900                  //
+    901                  //The WAKE_CORE wake source triggers a Debug Interrupt.  If INT_DEBUG
+    902                  //interrupt is enabled and WAKE_CORE is a wake event, then pend the
+    903                  //Debug interrupt (using the wake_core bit).
+    904                  if ( NVIC_GET_ENABLED_IRQ(DEBUG_IRQn)
+    905                       && (halInternalWakeEvent.events.internal.bits.WAKE_CORE_B)) {
+   \                     ??halInternalSleepHelper_37: (+1)
+   \      0x470   0xF8DB 0x0000      LDR      R0,[R11, #+0]
+   \      0x474   0x03C0             LSLS     R0,R0,#+15
+   \      0x476   0xD507             BPL.N    ??halInternalSleepHelper_38
+   \      0x478   0xF898 0x0003      LDRB     R0,[R8, #+3]
+   \      0x47C   0xF3C0 0x00C0      UBFX     R0,R0,#+3,#+1
+   \      0x480   0x2800             CMP      R0,#+0
+   \      0x482   0xD001             BEQ.N    ??halInternalSleepHelper_38
+    906                    CMHV->WAKECORE = CMHV_WAKECORE_WAKECOREFIELD;
+   \      0x484   0x2020             MOVS     R0,#+32
+   \      0x486   0x6228             STR      R0,[R5, #+32]
+    907          
+    908          
+    909          
+    910                  }
+    911                  //
+    912                  //
+    913                  //The SleepTMR CMPA is linked to a real ISR.  If the SleepTMR CMPA
+    914                  //interrupt is enabled and CMPA is a wake event, then pend the CMPA
+    915                  //interrupt (force the second level interrupt).
+    916                  if ((EVENT_SLEEPTMR->CFG & EVENT_SLEEPTMR_CFG_CMPA)
+    917                      && (halInternalWakeEvent.events.internal.bits.TIMER_WAKE_COMPA)) {
+   \                     ??halInternalSleepHelper_38: (+1)
+   \      0x488   0xF8D9 0x0040      LDR      R0,[R9, #+64]
+   \      0x48C   0x0780             LSLS     R0,R0,#+30
+   \      0x48E   0xD506             BPL.N    ??halInternalSleepHelper_39
+   \      0x490   0xF898 0x0003      LDRB     R0,[R8, #+3]
+   \      0x494   0x07C0             LSLS     R0,R0,#+31
+   \      0x496   0xD502             BPL.N    ??halInternalSleepHelper_39
+    918                    EVENT_SLEEPTMR->FORCE = EVENT_SLEEPTMR_FORCE_CMPA;
+   \      0x498   0x2002             MOVS     R0,#+2
+   \      0x49A   0xF8C9 0x000C      STR      R0,[R9, #+12]
+    919          
+    920          
+    921          
+    922                  }
+    923                  //
+    924                  //The SleepTMR CMPB is linked to a real ISR.  If the SleepTMR CMPB
+    925                  //interrupt is enabled and CMPB is a wake event, then pend the CMPB
+    926                  //interrupt (force the second level interrupt).
+    927                  if ((EVENT_SLEEPTMR->CFG & EVENT_SLEEPTMR_CFG_CMPB)
+    928                      && (halInternalWakeEvent.events.internal.bits.TIMER_WAKE_COMPB)) {
+   \                     ??halInternalSleepHelper_39: (+1)
+   \      0x49E   0xF8D9 0x0040      LDR      R0,[R9, #+64]
+   \      0x4A2   0x0740             LSLS     R0,R0,#+29
+   \      0x4A4   0xD508             BPL.N    ??halInternalSleepHelper_40
+   \      0x4A6   0xF898 0x0003      LDRB     R0,[R8, #+3]
+   \      0x4AA   0xF3C0 0x0040      UBFX     R0,R0,#+1,#+1
+   \      0x4AE   0x2800             CMP      R0,#+0
+   \      0x4B0   0xD002             BEQ.N    ??halInternalSleepHelper_40
+    929                    EVENT_SLEEPTMR->FORCE = EVENT_SLEEPTMR_FORCE_CMPB;
+   \      0x4B2   0x2004             MOVS     R0,#+4
+   \      0x4B4   0xF8C9 0x000C      STR      R0,[R9, #+12]
+    930          
+    931          
+    932          
+    933                  }
+    934                  //
+    935                  //The SleepTMR WRAP is linked to a real ISR.  If the SleepTMR WRAP
+    936                  //interrupt is enabled and WRAP is a wake event, then pend the WRAP
+    937                  //interrupt (force the second level interrupt).
+    938                  if ((EVENT_SLEEPTMR->CFG & EVENT_SLEEPTMR_CFG_WRAP)
+    939                      && (halInternalWakeEvent.events.internal.bits.TIMER_WAKE_WRAP)) {
+   \                     ??halInternalSleepHelper_40: (+1)
+   \      0x4B8   0xF8D9 0x0040      LDR      R0,[R9, #+64]
+   \      0x4BC   0x07C0             LSLS     R0,R0,#+31
+   \      0x4BE   0xD508             BPL.N    ??halInternalSleepHelper_41
+   \      0x4C0   0xF898 0x0003      LDRB     R0,[R8, #+3]
+   \      0x4C4   0xF3C0 0x0080      UBFX     R0,R0,#+2,#+1
+   \      0x4C8   0x2800             CMP      R0,#+0
+   \      0x4CA   0xD002             BEQ.N    ??halInternalSleepHelper_41
+    940                    EVENT_SLEEPTMR->FORCE = EVENT_SLEEPTMR_FORCE_WRAP;
+   \      0x4CC   0x2001             MOVS     R0,#+1
+   \      0x4CE   0xF8C9 0x000C      STR      R0,[R9, #+12]
+    941          
+    942          
+    943          
+    944                  }
+    945                  //
+    946                  //
+    947                  //The four IRQs are linked to a real ISR.  If any of the four IRQs
+    948                  //triggered, then pend their ISR
+    949                  //
+    950                  //If the IRQA interrupt mode is enabled and IRQA (PB0) is wake
+    951                  //event, then pend the interrupt.
+    952                  if (((EVENT_GPIO->CFGA & _EVENT_GPIO_CFGA_MOD_MASK) != 0)
+    953                      && (halInternalWakeEvent.eventflags & BIT(PORTB_PIN(0)))) {
+   \                     ??halInternalSleepHelper_41: (+1)
+   \      0x4D2   0xF8DA 0x004C      LDR      R0,[R10, #+76]
+   \      0x4D6   0xF010 0x0FE0      TST      R0,#0xE0
+   \      0x4DA   0xD006             BEQ.N    ??halInternalSleepHelper_42
+   \      0x4DC   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \      0x4E0   0x05C0             LSLS     R0,R0,#+23
+   \      0x4E2   0xD502             BPL.N    ??halInternalSleepHelper_42
+    954                    NVIC_SetPendingIRQ(IRQA_IRQn);
+   \      0x4E4   0x200C             MOVS     R0,#+12
+   \      0x4E6   0x.... 0x....      BL       __NVIC_SetPendingIRQ
+    955          
+    956          
+    957          
+    958                  }
+    959                  //If the IRQB interrupt mode is enabled and IRQB (PB6) is wake
+    960                  //event, then pend the interrupt.
+    961                  if (((EVENT_GPIO->CFGB & _EVENT_GPIO_CFGB_MOD_MASK) != 0)
+    962                      && (halInternalWakeEvent.eventflags & BIT(PORTB_PIN(6)))) {
+   \                     ??halInternalSleepHelper_42: (+1)
+   \      0x4EA   0xF8DA 0x0050      LDR      R0,[R10, #+80]
+   \      0x4EE   0xF010 0x0FE0      TST      R0,#0xE0
+   \      0x4F2   0xD006             BEQ.N    ??halInternalSleepHelper_43
+   \      0x4F4   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \      0x4F8   0x0440             LSLS     R0,R0,#+17
+   \      0x4FA   0xD502             BPL.N    ??halInternalSleepHelper_43
+    963                    NVIC_SetPendingIRQ(IRQB_IRQn);
+   \      0x4FC   0x200D             MOVS     R0,#+13
+   \      0x4FE   0x.... 0x....      BL       __NVIC_SetPendingIRQ
+    964          
+    965          
+    966          
+    967                  }
+    968                  //If the IRQC interrupt mode is enabled and IRQC (GPIO->IRQCSEL) is wake
+    969                  //event, then pend the interrupt.
+    970                  if (((EVENT_GPIO->CFGC & _EVENT_GPIO_CFGC_MOD_MASK) != 0)
+    971                      && (halInternalWakeEvent.eventflags & BIT(GPIO->IRQCSEL))) {
+   \                     ??halInternalSleepHelper_43: (+1)
+   \      0x502   0xF8DA 0x0054      LDR      R0,[R10, #+84]
+   \      0x506   0xF010 0x0FE0      TST      R0,#0xE0
+   \      0x50A   0xD008             BEQ.N    ??halInternalSleepHelper_44
+   \      0x50C   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \      0x510   0x69B1             LDR      R1,[R6, #+24]
+   \      0x512   0x40C8             LSRS     R0,R0,R1
+   \      0x514   0x07C0             LSLS     R0,R0,#+31
+   \      0x516   0xD502             BPL.N    ??halInternalSleepHelper_44
+    972                    NVIC_SetPendingIRQ(IRQC_IRQn);
+   \      0x518   0x200E             MOVS     R0,#+14
+   \      0x51A   0x.... 0x....      BL       __NVIC_SetPendingIRQ
+    973          
+    974          
+    975          
+    976                  }
+    977                  //If the IRQD interrupt mode is enabled and IRQD (GPIO->IRQDSEL) is wake
+    978                  //event, then pend the interrupt.
+    979                  if (((EVENT_GPIO->CFGD & _EVENT_GPIO_CFGD_MOD_MASK) != 0)
+    980                      && (halInternalWakeEvent.eventflags & BIT(GPIO->IRQDSEL))) {
+   \                     ??halInternalSleepHelper_44: (+1)
+   \      0x51E   0xF8DA 0x0058      LDR      R0,[R10, #+88]
+   \      0x522   0xF010 0x0FE0      TST      R0,#0xE0
+   \      0x526   0xD008             BEQ.N    ??halInternalSleepHelper_45
+   \      0x528   0xF8D8 0x0000      LDR      R0,[R8, #+0]
+   \      0x52C   0x69F1             LDR      R1,[R6, #+28]
+   \      0x52E   0x40C8             LSRS     R0,R0,R1
+   \      0x530   0x07C0             LSLS     R0,R0,#+31
+   \      0x532   0xD502             BPL.N    ??halInternalSleepHelper_45
+    981                    NVIC_SetPendingIRQ(IRQD_IRQn);
+   \      0x534   0x200F             MOVS     R0,#+15
+   \      0x536   0x.... 0x....      BL       __NVIC_SetPendingIRQ
+    982          
+    983          
+    984          
+    985                  }
+    986          
+    987                 #ifndef CORTEXM3_EM35X_GEN4 // HW bug fixed in GEN4
+    988                  //Due to FogBugz 11909/11920, SLEEPTMR_CNT may not have updated yet so
+    989                  //we must ensure that the CNT register updates before returning.  It's
+    990                  //only necessary to wait for the CNT to update when we've gone to
+    991                  //sleep, the SLEEPTMR is enabled, and the sleep mode used a timer.
+    992                  //This code could delay for up to 1ms, but will return as soon as it
+    993                  //can.  In the situation where the chip slept for a known amount of
+    994                  //time, this code will not delay and instead the system timer will
+    995                  //report a fake, but accurate time.
+    996                  if ((!skipSleep)
+    997                      && (SLEEPTMR->CFG & SLEEPTMR_CFG_ENABLE)
+    998                      && (CMHV->SLEEPTMRCLKEN & CMHV_SLEEPTMRCLKEN_CLK10KEN)
+    999                      && (sleepMode != SLEEPMODE_NOTIMER)) {
+   1000                    uint32_t currSleepTmrCnt;
+   1001          
+   1002                    #ifdef BUG11909_WORKAROUND_C
+   1003                    //THIS WORKAROUND IS NOT PROVEN 100% RELIABLE.  THIS SHOULD NOT BE
+   1004                    //USED UNTIL IT IS PROVEN PERFECTLY RELIABLE.
+   1005                    //This workaround attempts to force the SLEEPTMR_CNT to tick sooner
+   1006                    //than normal.  It does so by toggling between the clock sources
+   1007                    //to get the CNT to increment.  There is a chance the SLEEPTMR_CNT
+   1008                    //could become random doing this!
+   1009                    {
+   1010                      currSleepTmrCnt = SLEEPTMR->CNTH << 16;
+   1011                      currSleepTmrCnt |= SLEEPTMR->CNTL;
+   1012                      if (currSleepTmrCnt == wakeupSleepTmrCnt) {
+   1013                        uint32_t GPIO_PCOUT_SAVED = GPIO->P[2].OUT;
+   1014                        uint32_t GPIO_PCCFGH_SAVED = GPIO->P[2].CFGH;
+   1015                        uint32_t SLEEPTMR_CFG_SAVED = SLEEPTMR->CFG;
+   1016                        //It is not necessary to do anything with CMHV->SLEEPTMRCLKEN.
+   1017                        GPIO_PCSET = PC7;
+   1018                        SET_REG_FIELD(GPIO_PCCFGH, PC7_CFG, GPIOCFG_OUT);
+   1019                        do {
+   1020                          //Toggling between RC/XTAL will produce a clock edge
+   1021                          //into the timer and cause CNT to increment.
+   1022                          SLEEPTMR->CFG ^= SLEEPTMR_CLKSEL;
+   1023                          currSleepTmrCnt = SLEEPTMR->CNTH << 16;
+   1024                          currSleepTmrCnt |= SLEEPTMR->CNTL;
+   1025                        } while (currSleepTmrCnt == wakeupSleepTmrCnt);
+   1026                        GPIO->P[2].OUT = GPIO_PCOUT_SAVED;
+   1027                        GPIO->P[2].CFGH = GPIO_PCCFGH_SAVED;
+   1028                        SLEEPTMR->CFG = SLEEPTMR_CFG_SAVED;
+   1029                        forceSleepTmrCnt = false;
+   1030                      }
+   1031                    }
+   1032                    #endif //BUG11909_WORKAROUND_C
+   1033          
+   1034                    //Knowing that halSleepTimerIsr is about to be taken (when
+   1035                    //interrupts get enabled) tells us that the chip woke up due
+   1036                    //to the timer and therefore sleepTmrArtificalCnt is valid
+   1037                    //and needs to be forced.  This allows us to bypass delaying
+   1038                    //for SLEEPTMR_CNT to tick forward.  For FogBugz 11909/11920
+   1039                    //workaround.
+   1040                    if ( NVIC_GET_ENABLED_IRQ(SLEEPTMR_IRQn)
+   1041                         && NVIC_GET_PENDING_IRQ(SLEEPTMR_IRQn)) {
+   1042                      //sleepTmrArtificalCnt was set before sleeping
+   1043                      //by halSleepForQuarterSeconds
+   1044                      forceSleepTmrCnt = true;
+   1045                    } else {
+   1046                      uint32_t ticks = MAC_TIMER_TICKS(1000); // 1 millisecond
+   1047                      uint32_t beginTime;
+   1048                      forceSleepTmrCnt = false;
+   1049                      //It is possible to be in a situation where the SLEEPTMR is no
+   1050                      //longer ticking (32k XTAL issues).  To guard against getting
+   1051                      //stuck in this loop, use the MAC Timer to timeout after 1ms (since
+   1052                      //that is the maximum time this loop would normally delay for).
+   1053                      MAC->TIMERCTRL |= MAC_TIMERCTRL_TIMEREN;
+   1054                      beginTime = MAC->TIMER;
+   1055                      do {
+   1056                        currSleepTmrCnt = SLEEPTMR->CNTH << 16;
+   1057                        currSleepTmrCnt |= SLEEPTMR->CNTL;
+   1058                      } while ((currSleepTmrCnt == wakeupSleepTmrCnt)
+   1059                               && (((MAC->TIMER - beginTime) & _MAC_TIMER_MASK) < ticks));
+   1060                    }
+   1061                  }
+   1062                 #endif//CORTEXM3_EM35X_GEN4 // HW bug fixed in GEN4
+   1063                }
+   1064          
+   1065          
+   1066          
+   1067          
+   1068          
+   1069          
+   1070                //Mark the wake events valid just before exiting
+   1071                halInternalWakeEvent.events.internal.bits.WakeInfoValid = true;
+   \                     ??halInternalSleepHelper_45: (+1)
+   \      0x53A   0xF898 0x0003      LDRB     R0,[R8, #+3]
+   \      0x53E   0xF040 0x0080      ORR      R0,R0,#0x80
+   \      0x542   0xF888 0x0003      STRB     R0,[R8, #+3]
+   1072          
+   1073                //We are now reconfigured, appropriate ISRs are pended, and ready to go,
+   1074                //so restore basepri, potentially enabling interrupts!
+   1075                SET_BASE_PRIORITY_LEVEL(basepri);
+   \      0x546   0x9802             LDR      R0,[SP, #+8]
+   \      0x548   0xB2C0             UXTB     R0,R0
+   \      0x54A   0x.... 0x....      BL       _writeBasePri
+   1076          
+   1077          
+   1078          
+   1079          
+   1080          
+   1081                break; //and deep sleeping is done!
+   \      0x54E   0xE03B             B.N      ??halInternalSleepHelper_46
+   1082          
+   1083              case SLEEPMODE_IDLE:
+   1084                //Only the CPU is idled.  The rest of the chip continues runing
+   1085                //normally.  The chip will wake from any interrupt.
+   1086              {
+   1087                bool restoreWatchdog = halInternalWatchDogEnabled();
+   \                     ??halInternalSleepHelper_47: (+1)
+   \      0x550   0x.... 0x....      BL       halInternalWatchDogEnabled
+   \      0x554   0x4605             MOV      R5,R0
+   1088                //disable watchdog while sleeping (since we can't reset it asleep)
+   1089                halInternalDisableWatchDog(MICRO_DISABLE_WATCH_DOG_KEY);
+   \      0x556   0x20A5             MOVS     R0,#+165
+   \      0x558   0x.... 0x....      BL       halInternalDisableWatchDog
+   1090                //Normal ATOMIC/INTERRUPTS_OFF/INTERRUPTS_ON uses the BASEPRI mask
+   1091                //to juggle priority levels so that the fault handlers can always
+   1092                //be serviced.  But, the WFI instruction is only capable of
+   1093                //working with the PRIMASK bit.  Therefore, we have to switch from
+   1094                //using BASEPRI to PRIMASK to keep interrupts disabled so that the
+   1095                //WFI can return on an interrupt
+   1096                //Globally disable interrupts with PRIMASK
+   1097                _setPriMask();
+   \      0x55C   0x.... 0x....      BL       _setPriMask
+   1098                // Set basePri to the level we want it to be upon return
+   1099                basepri = (preserveIntState ? _readBasePri() : 0);
+   \      0x560   0xF1BA 0x0F00      CMP      R10,#+0
+   \      0x564   0xD003             BEQ.N    ??halInternalSleepHelper_48
+   \      0x566   0x.... 0x....      BL       _readBasePri
+   \      0x56A   0x4606             MOV      R6,R0
+   \      0x56C   0xE000             B.N      ??halInternalSleepHelper_49
+   \                     ??halInternalSleepHelper_48: (+1)
+   \      0x56E   0x2600             MOVS     R6,#+0
+   1100                //Bring the BASEPRI up to 0 to allow interrupts (but still disabled
+   1101                //with PRIMASK)
+   1102                INTERRUPTS_ON();
+   \                     ??halInternalSleepHelper_49: (+1)
+   \      0x570   0x.... 0x....      BL       _enableBasePri
+   1103                //an internal function call is made here instead of injecting the
+   1104                //"WFI" assembly instruction because injecting assembly code will
+   1105                //cause the compiler's optimizer to reduce efficiency.
+   1106                  #ifdef FLASH_ACCESS_FLASH_LP
+   1107                BYPASS_MPU(
+   1108                  uint32_t FLASH_ACCESS_SAVED = FLASH_ACCESS;
+   1109                  FLASH_ACCESS &= ~FLASH_ACCESS_FLASH_LP;
+   1110                  halInternalIdleSleep();
+   1111                  FLASH_ACCESS = FLASH_ACCESS_SAVED;
+   1112                  )
+   \      0x574   0x....             LDR.N    R7,??DataTable3_16
+   \      0x576   0xF8D7 0x8000      LDR      R8,[R7, #+0]
+   \      0x57A   0x6838             LDR      R0,[R7, #+0]
+   \      0x57C   0x0840             LSRS     R0,R0,#+1
+   \      0x57E   0x0040             LSLS     R0,R0,#+1
+   \      0x580   0x6038             STR      R0,[R7, #+0]
+   \      0x582   0x.... 0x....      BL       _executeBarrierInstructions
+   \      0x586   0x.... 0x....      LDR.W    R9,??DataTable3_17
+   \      0x58A   0xF8D9 0xA000      LDR      R10,[R9, #+0]
+   \      0x58E   0xF8D9 0x0000      LDR      R0,[R9, #+0]
+   \      0x592   0xF020 0x0040      BIC      R0,R0,#0x40
+   \      0x596   0xF8C9 0x0000      STR      R0,[R9, #+0]
+   \      0x59A   0x.... 0x....      BL       halInternalIdleSleep
+   \      0x59E   0xF8C9 0xA000      STR      R10,[R9, #+0]
+   \      0x5A2   0xF8C7 0x8000      STR      R8,[R7, #+0]
+   \      0x5A6   0x.... 0x....      BL       _executeBarrierInstructions
+   1113                  #else //FLASH_ACCESS_FLASH_LP
+   1114                halInternalIdleSleep();
+   1115                  #endif //FLASH_ACCESS_FLASH_LP
+   1116                //restart watchdog if it was running when we entered sleep
+   1117                if (restoreWatchdog) {
+   \      0x5AA   0x2D00             CMP      R5,#+0
+   \      0x5AC   0xD001             BEQ.N    ??halInternalSleepHelper_50
+   1118                  halInternalEnableWatchDog();
+   \      0x5AE   0x.... 0x....      BL       halInternalEnableWatchDog
+   1119                }
+   1120                //Restore basepri, potentially leaving interrupts enabled!
+   1121                SET_BASE_PRIORITY_LEVEL(basepri);
+   \                     ??halInternalSleepHelper_50: (+1)
+   \      0x5B2   0x4630             MOV      R0,R6
+   \      0x5B4   0x.... 0x....      BL       _writeBasePri
+   1122                //The WFI instruction does not actually clear the PRIMASK bit, it
+   1123                //only allows the PRIMASK bit to be bypassed.  Therefore, we must
+   1124                //manually clear PRIMASK to reenable all interrupts.
+   1125                _clearPriMask();
+   \      0x5B8   0x.... 0x....      BL       _clearPriMask
+   1126              }
+   1127              break;
+   \      0x5BC   0xE004             B.N      ??halInternalSleepHelper_46
+   1128          
+   1129              default:
+   1130                //Oops!  Invalid sleepMode parameter.
+   1131                assert(0);
+   \                     ??halInternalSleepHelper_7: (+1)
+   \      0x5BE   0xF240 0x416B      MOVW     R1,#+1131
+   \      0x5C2   0x....             LDR.N    R0,??DataTable3_18
+   \      0x5C4   0x.... 0x....      BL       halInternalAssertFailed
+   1132            }
+   1133          
+   1134            halSleepCallback(false, sleepMode);
+   \                     ??halInternalSleepHelper_46: (+1)
+   \      0x5C8   0x4621             MOV      R1,R4
+   \      0x5CA   0x2000             MOVS     R0,#+0
+   \      0x5CC   0xB011             ADD      SP,SP,#+68
+   \      0x5CE   0xE8BD 0x4FF0      POP      {R4-R11,LR}
+   \      0x5D2   0x.... 0x....      B.W      halSleepCallback
+   1135          }
+   1136          
+
+   \                                 In section .text, align 2, keep-with-next
+   1137          void halInternalSleep(SleepModes sleepMode)
+   1138          {
+   1139            halInternalSleepHelper(sleepMode, false);
+   \                     halInternalSleep: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x....             B.N      halInternalSleepHelper
+   1140          }
+   1141          
+
+   \                                 In section .text, align 2, keep-with-next
+   1142          static void halSleepWithOptionsHelper(SleepModes sleepMode, WakeMask wakeMask)
+   1143          {
+   1144            //configure all GPIO wake sources when given a valid wakeMask
+   1145            if (wakeMask != WAKE_MASK_INVALID) {
+   \                     halSleepWithOptionsHelper: (+1)
+   \        0x0   0x....             LDR.N    R2,??DataTable3_3
+   \        0x2   0xF111 0x0F01      CMN      R1,#+1
+   \        0x6   0xD00A             BEQ.N    ??halSleepWithOptionsHelper_0
+   1146              GPIO->WAKE[0] = (wakeMask >> 0) & EMBER_MICRO_PORT_A_GPIO;
+   \        0x8   0xF001 0x00BF      AND      R0,R1,#0xBF
+   \        0xC   0x6010             STR      R0,[R2, #+0]
+   1147              GPIO->WAKE[1] = (wakeMask >> 8) & EMBER_MICRO_PORT_B_GPIO;
+   \        0xE   0x4608             MOV      R0,R1
+   \       0x10   0x0A00             LSRS     R0,R0,#+8
+   \       0x12   0xF000 0x009F      AND      R0,R0,#0x9F
+   \       0x16   0x6050             STR      R0,[R2, #+4]
+   1148              GPIO->WAKE[2] = (wakeMask >> 16) & EMBER_MICRO_PORT_C_GPIO;
+   \       0x18   0xF3C1 0x4007      UBFX     R0,R1,#+16,#+8
+   \       0x1C   0x6090             STR      R0,[R2, #+8]
+   1149          
+   1150              #ifdef EMBER_MICRO_PORT_D_GPIO
+   1151              GPIO->WAKE[3] = (wakeMask >> 24) & EMBER_MICRO_PORT_D_GPIO;
+   1152              #endif
+   1153              #ifdef EMBER_MICRO_PORT_E_GPIO
+   1154              GPIO->WAKE[4] = (wakeMask >> 32) & EMBER_MICRO_PORT_E_GPIO;
+   1155              #endif
+   1156              #ifdef EMBER_MICRO_PORT_F_GPIO
+   1157              GPIO->WAKE[5] = (wakeMask >> 40) & EMBER_MICRO_PORT_F_GPIO;
+   1158              #endif
+   1159            }
+   1160          
+   1161            //use the defines found in the board file to choose our wakeup source(s)
+   1162            CMHV->WAKESEL = 0;  //start with no wake sources
+   \                     ??halSleepWithOptionsHelper_0: (+1)
+   \       0x1E   0x....             LDR.N    R1,??DataTable3_19
+   \       0x20   0x2000             MOVS     R0,#+0
+   \       0x22   0x6008             STR      R0,[R1, #+0]
+   1163          
+   1164            //if any of the GPIO wakeup monitor bits are set, enable the top level
+   1165            //GPIO wakeup monitor
+   1166            if ((GPIO->WAKE[0])
+   1167                || (GPIO->WAKE[1])
+   1168                || (GPIO->WAKE[2])
+   1169                #ifdef EMBER_MICRO_PORT_D_GPIO
+   1170                || (GPIO->WAKE[3])
+   1171                #endif
+   1172                #ifdef EMBER_MICRO_PORT_E_GPIO
+   1173                || (GPIO->WAKE[4])
+   1174                #endif
+   1175                #ifdef EMBER_MICRO_PORT_F_GPIO
+   1176                || (GPIO->WAKE[5])
+   1177                #endif
+   1178                ) {
+   \       0x24   0x6810             LDR      R0,[R2, #+0]
+   \       0x26   0x2800             CMP      R0,#+0
+   \       0x28   0xD105             BNE.N    ??halSleepWithOptionsHelper_1
+   \       0x2A   0x6850             LDR      R0,[R2, #+4]
+   \       0x2C   0x2800             CMP      R0,#+0
+   \       0x2E   0xD102             BNE.N    ??halSleepWithOptionsHelper_1
+   \       0x30   0x6890             LDR      R0,[R2, #+8]
+   \       0x32   0x2800             CMP      R0,#+0
+   \       0x34   0xD003             BEQ.N    ??halSleepWithOptionsHelper_2
+   1179              CMHV->WAKESEL |= CMHV_WAKESEL_GPIO;
+   \                     ??halSleepWithOptionsHelper_1: (+1)
+   \       0x36   0x6808             LDR      R0,[R1, #+0]
+   \       0x38   0xF040 0x0001      ORR      R0,R0,#0x1
+   \       0x3C   0x6008             STR      R0,[R1, #+0]
+   1180            }
+   1181          
+   1182            //NOTE: The use of WAKE_CDBGPWRUPREQ should not be necessary since asserting
+   1183            //CDBGPWRUPREQ will bring the chip to DS0 where the debug components are
+   1184            //maintained but it's not necessary to completely wake to the running state.
+   1185          
+   1186            //always wakeup when the debugger attempts to access the chip
+   1187            CMHV->WAKESEL |= CMHV_WAKESEL_CSYSPWRUPREQ;
+   \                     ??halSleepWithOptionsHelper_2: (+1)
+   \       0x3E   0x6808             LDR      R0,[R1, #+0]
+   \       0x40   0xF440 0x7000      ORR      R0,R0,#0x200
+   \       0x44   0x6008             STR      R0,[R1, #+0]
+   1188          
+   1189            //always wakeup when the debug channel attempts to access the chip
+   1190            CMHV->WAKESEL |= CMHV_WAKESEL_CORE;
+   \       0x46   0x6808             LDR      R0,[R1, #+0]
+   \       0x48   0xF040 0x0080      ORR      R0,R0,#0x80
+   \       0x4C   0x6008             STR      R0,[R1, #+0]
+   1191            //the timer wakeup sources are enabled below in POWERSAVE, if needed
+   1192          }
+   \       0x4E   0x4770             BX       LR
+   1193          
+
+   \                                 In section .text, align 2, keep-with-next
+   1194          void halSleepWithOptions(SleepModes sleepMode, WakeMask wakeMask)
+   1195          {
+   \                     halSleepWithOptions: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   1196            halSleepWithOptionsHelper(sleepMode, wakeMask);
+   \        0x4   0x.... 0x....      BL       halSleepWithOptionsHelper
+   1197          
+   1198            //wake sources are configured so do the actual sleeping
+   1199            halInternalSleep(sleepMode);
+   \        0x8   0x4620             MOV      R0,R4
+   \        0xA   0xE8BD 0x4010      POP      {R4,LR}
+   \        0xE   0x....             B.N      halInternalSleep
+   1200          }
+   1201          
+   1202          //configure all GPIO wake sources
+   1203          static const WakeMask gpioWakeBitMask  = (EMBER_WAKE_PORT_A << 0)
+   1204                                                   | (EMBER_WAKE_PORT_B << 8)
+   1205                                                   | (EMBER_WAKE_PORT_C << 16)
+   1206                                                 #ifdef EMBER_WAKE_PORT_D
+   1207                                                   | (EMBER_WAKE_PORT_D << 24)
+   1208                                                 #endif
+   1209                                                 #ifdef EMBER_WAKE_PORT_E
+   1210                                                   | ((uint64_t) EMBER_WAKE_PORT_E << 32)
+   1211                                                 #endif
+   1212                                                 #ifdef EMBER_WAKE_PORT_F
+   1213                                                   | ((uint64_t) EMBER_WAKE_PORT_F << 40)
+   1214                                                 #endif
+   1215          ;
+   1216          
+
+   \                                 In section .text, align 2, keep-with-next
+   1217          void halSleep(SleepModes sleepMode)
+   1218          {
+   1219            halSleepWithOptions(sleepMode, gpioWakeBitMask);
+   \                     halSleep: (+1)
+   \        0x0   0xF44F 0x0180      MOV      R1,#+4194304
+   \        0x4   0x....             B.N      halSleepWithOptions
+   1220          }
+   1221          
+
+   \                                 In section .text, align 2, keep-with-next
+   1222          void halSleepWithOptionsPreserveInts(SleepModes sleepMode, WakeMask wakeMask)
+   1223          {
+   \                     halSleepWithOptionsPreserveInts: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   1224            halSleepWithOptionsHelper(sleepMode, wakeMask);
+   \        0x4   0x.... 0x....      BL       halSleepWithOptionsHelper
+   1225          
+   1226            //wake sources are configured so do the actual sleeping
+   1227            halInternalSleepHelper(sleepMode, true);
+   \        0x8   0x2101             MOVS     R1,#+1
+   \        0xA   0x4620             MOV      R0,R4
+   \        0xC   0xE8BD 0x4010      POP      {R4,LR}
+   \       0x10   0x....             B.N      halInternalSleepHelper
+   1228          }
+   1229          
+
+   \                                 In section .text, align 2, keep-with-next
+   1230          void halSleepPreserveInts(SleepModes sleepMode)
+   1231          {
+   1232            halSleepWithOptionsPreserveInts(sleepMode, gpioWakeBitMask);
+   \                     halSleepPreserveInts: (+1)
+   \        0x0   0xF44F 0x0180      MOV      R1,#+4194304
+   \        0x4   0x....             B.N      halSleepWithOptionsPreserveInts
+   1233          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0xE000'E200        DC32     0xe000e200
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_1:
+   \        0x0   0x....'....        DC32     halInternalWakeEvent
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_2:
+   \        0x0   0x4000'0004        DC32     0x40000004
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_3:
+   \        0x0   0x4000'BC08        DC32     0x4000bc08
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_4:
+   \        0x0   0x4000'A014        DC32     0x4000a014
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_5:
+   \        0x0   0x....'....        DC32     SIZEOF(UNRETAINED_RAM)
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_6:
+   \        0x0   0x4000'4004        DC32     0x40004004
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_7:
+   \        0x0   0x0808'0798        DC32     0x8080798
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_8:
+   \        0x0   0x4000'A814        DC32     0x4000a814
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_9:
+   \        0x0   0xE000'E100        DC32     0xe000e100
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_10:
+   \        0x0   0xE000'ED08        DC32     0xe000ed08
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_11:
+   \        0x0   0x4000'B008        DC32     0x4000b008
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_12:
+   \        0x0   0x4000'B208        DC32     0x4000b208
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_13:
+   \        0x0   0x4000'B408        DC32     0x4000b408
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_14:
+   \        0x0   0x....'....        DC32     halResetInfo
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_15:
+   \        0x0   0xE000'E280        DC32     0xe000e280
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_16:
+   \        0x0   0xE000'ED94        DC32     0xe000ed94
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_17:
+   \        0x0   0x4000'8000        DC32     0x40008000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_18:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_19:
+   \        0x0   0x4000'0020        DC32     0x40000020
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x73 0x6C          DC8 "sleep.c"
+   \              0x65 0x65    
+   \              0x70 0x2E    
+   \              0x63 0x00
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   __NVIC_SetPendingIRQ
+       0   halGetWakeInfo
+       0   halInternalSleep
+         0   -> halInternalSleepHelper
+     104   halInternalSleepHelper
+       104   -> __NVIC_SetPendingIRQ
+       104   -> _clearPriMask
+       104   -> _disableBasePri
+       104   -> _enableBasePri
+       104   -> _executeBarrierInstructions
+       104   -> _readBasePri
+       104   -> _setPriMask
+       104   -> _writeBasePri
+       104   -> halInternalAssertFailed
+       104   -> halInternalContextSaveRestore
+       104   -> halInternalDisableWatchDog
+       104   -> halInternalEnableMPU
+       104   -> halInternalEnableWatchDog
+       104   -> halInternalIdleSleep
+       104   -> halInternalWatchDogEnabled
+         0   -> halSleepCallback
+       104   -> halSleepCallback
+       0   halSleep
+         0   -> halSleepWithOptions
+       0   halSleepPreserveInts
+         0   -> halSleepWithOptionsPreserveInts
+       8   halSleepWithOptions
+         0   -> halInternalSleep
+         8   -> halSleepWithOptionsHelper
+       0   halSleepWithOptionsHelper
+       8   halSleepWithOptionsPreserveInts
+         0   -> halInternalSleepHelper
+         8   -> halSleepWithOptionsHelper
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_10
+       4  ??DataTable3_11
+       4  ??DataTable3_12
+       4  ??DataTable3_13
+       4  ??DataTable3_14
+       4  ??DataTable3_15
+       4  ??DataTable3_16
+       4  ??DataTable3_17
+       4  ??DataTable3_18
+       4  ??DataTable3_19
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+       4  ??DataTable3_4
+       4  ??DataTable3_5
+       4  ??DataTable3_6
+       4  ??DataTable3_7
+       4  ??DataTable3_8
+       4  ??DataTable3_9
+       8  ?_0
+      24  __NVIC_SetPendingIRQ
+       8  halGetWakeInfo
+       4  halInternalSleep
+   1'494  halInternalSleepHelper
+       4  halInternalWakeEvent
+       6  halSleep
+       6  halSleepPreserveInts
+      16  halSleepWithOptions
+      80  halSleepWithOptionsHelper
+      18  halSleepWithOptionsPreserveInts
+
+ 
+     4 bytes in section .bss
+     8 bytes in section .rodata
+ 1'736 bytes in section .text
+ 
+ 1'736 bytes of CODE  memory
+     8 bytes of CONST memory
+     4 bytes of DATA  memory
+
+Errors: none
+Warnings: none

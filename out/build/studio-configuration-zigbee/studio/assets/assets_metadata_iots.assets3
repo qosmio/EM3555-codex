@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_metadata_iots">
+  <assets path="/metadata/iots.zip" diskSizeKB="14.654" downloadSizeKB="2.286" directory="true">
+    <property key="autoDownload" value="true"/>
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1702423595134"/>
+  </assets>
+</assets>

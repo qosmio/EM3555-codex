@@ -1,0 +1,274 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:24
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\bootloader-interface.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\bootloader-interface.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\bootloader-interface.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"bootloader-interface.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\bootloader-interface.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\bootloader-interface.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\bootloader-interface.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\bootloader-interface.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\bootloader-interface.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief EM3XX common bootloader HAL functions
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "stack/include/ember-types.h"
+     19          #include "hal/micro/bootloader-interface.h"
+     20          #include "hal/micro/cortexm3/memmap.h"
+     21          #include "hal/micro/cortexm3/common/bootloader-common.h"
+     22          
+     23          //////////////////////
+     24          // Generic bootloader functionality
+     25          ///////////
+     26          
+     27          /** @description Returns the bootloader type the application was
+     28           *  built for.
+     29           *
+     30           * @return BL_TYPE_NULL, BL_TYPE_STANDALONE or BL_TYPE_APPLICATION
+     31           */
+
+   \                                 In section .text, align 2, keep-with-next
+     32          BlBaseType halBootloaderGetType(void)
+     33          {
+     34            // Important distinction:
+     35            //   this returns what bootloader the app was built for
+     36            #ifdef NULL_BTL
+     37            BLDEBUG_PRINT("built for NULL bootloader\r\n");
+     38            return BL_TYPE_NULL;
+     39            #elif defined APP_BTL
+     40            // Deprecated
+     41            BLDEBUG_PRINT("built for APP bootloader\r\n");
+     42            return BL_TYPE_APPLICATION;
+     43            #elif defined SERIAL_UART_BTL
+     44            // Deprecated
+     45            BLDEBUG_PRINT("built for SERIAL UART standalone bootloader\r\n");
+     46            return BL_TYPE_STANDALONE;
+     47            #elif defined SERIAL_USB_BTL
+     48            // Deprecated
+     49            BLDEBUG_PRINT("built for SERIAL USB standalone bootloader\r\n");
+     50            return BL_TYPE_STANDALONE;
+     51            #elif defined SERIAL_OTA_BTL
+     52            // Deprecated
+     53            BLDEBUG_PRINT("built for SERIAL OTA standalone bootloader\r\n");
+     54            return BL_TYPE_STANDALONE;
+     55            #else
+     56            BLDEBUG_PRINT("built for generic bootloader\r\n");
+     57            return BL_TYPE_BOOTLOADER;
+   \                     halBootloaderGetType: (+1)
+   \        0x0   0x2003             MOVS     R0,#+3
+   \        0x2   0x4770             BX       LR
+     58            #endif
+     59          }
+     60          
+     61          // Returns the extended type of
+
+   \                                 In section .text, align 2, keep-with-next
+     62          BlExtendedType halBootloaderGetInstalledType(void)
+     63          {
+     64            // Important distinction:
+     65            //   this returns what bootloader is actually present on the chip
+     66            return halBootloaderAddressTable.bootloaderType;
+   \                     halBootloaderGetInstalledType: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable3
+   \        0x2   0x8B00             LDRH     R0,[R0, #+24]
+   \        0x4   0x4770             BX       LR
+     67          }
+     68          
+
+   \                                 In section .text, align 2, keep-with-next
+     69          uint16_t halGetBootloaderVersion(void)
+     70          {
+     71            return halBootloaderAddressTable.bootloaderVersion;
+   \                     halGetBootloaderVersion: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable3
+   \        0x2   0x8B40             LDRH     R0,[R0, #+26]
+   \        0x4   0x4770             BX       LR
+     72          }
+     73          
+
+   \                                 In section .text, align 2, keep-with-next
+     74          void halGetExtendedBootloaderVersion(uint32_t* getEmberVersion, uint32_t* customerVersion)
+     75          {
+   \                     halGetExtendedBootloaderVersion: (+1)
+   \        0x0   0xB4F0             PUSH     {R4-R7}
+     76            uint32_t ember, customer = 0xFFFFFFFFU;
+   \        0x2   0xF04F 0x32FF      MOV      R2,#+4294967295
+     77          
+     78            // check BAT version to figure out how to create the emberVersion
+     79            if (halBootloaderAddressTable.baseTable.version >= 0x0109) {
+   \        0x6   0x....             LDR.N    R3,??DataTable3
+   \        0x8   0x8B5C             LDRH     R4,[R3, #+26]
+   \        0xA   0x4625             MOV      R5,R4
+   \        0xC   0x042D             LSLS     R5,R5,#+16
+   \        0xE   0x8A5E             LDRH     R6,[R3, #+18]
+   \       0x10   0xF240 0x1709      MOVW     R7,#+265
+   \       0x14   0x42BE             CMP      R6,R7
+   \       0x16   0xDB05             BLT.N    ??halGetExtendedBootloaderVersion_0
+     80              // Newer BATs have a bootloaderVersion and bootloaderBuild that need to be combined
+     81              ember = ((uint32_t)halBootloaderAddressTable.bootloaderVersion) << 16 | halBootloaderAddressTable.bootloaderBuild;
+   \       0x18   0xF103 0x024C      ADD      R2,R3,#+76
+   \       0x1C   0x8814             LDRH     R4,[R2, #+0]
+   \       0x1E   0x432C             ORRS     R4,R4,R5
+     82              customer = halBootloaderAddressTable.customerBootloaderVersion;
+   \       0x20   0x6852             LDR      R2,[R2, #+4]
+   \       0x22   0xE004             B.N      ??halGetExtendedBootloaderVersion_1
+     83            } else {
+     84              // Older BATs had these fields grouped together. Reformat them to be in the new format
+     85              ember  = (((uint32_t)halBootloaderAddressTable.bootloaderVersion) << 16) & 0xFF000000U;
+     86              ember |= halBootloaderAddressTable.bootloaderVersion & 0x000000FF;
+   \                     ??halGetExtendedBootloaderVersion_0: (+1)
+   \       0x24   0xF005 0x457F      AND      R5,R5,#0xFF000000
+   \       0x28   0xF004 0x04FF      AND      R4,R4,#0xFF
+   \       0x2C   0x432C             ORRS     R4,R4,R5
+     87            }
+     88          
+     89            // If the pointers aren't NULL copy the results over
+     90            if (getEmberVersion != NULL) {
+   \                     ??halGetExtendedBootloaderVersion_1: (+1)
+   \       0x2E   0x2800             CMP      R0,#+0
+   \       0x30   0xD000             BEQ.N    ??halGetExtendedBootloaderVersion_2
+     91              *getEmberVersion = ember;
+   \       0x32   0x6004             STR      R4,[R0, #+0]
+     92            }
+     93            if (customerVersion != NULL) {
+   \                     ??halGetExtendedBootloaderVersion_2: (+1)
+   \       0x34   0x2900             CMP      R1,#+0
+   \       0x36   0xD000             BEQ.N    ??halGetExtendedBootloaderVersion_3
+     94              *customerVersion = customer;
+   \       0x38   0x600A             STR      R2,[R1, #+0]
+     95            }
+     96          }
+   \                     ??halGetExtendedBootloaderVersion_3: (+1)
+   \       0x3A   0xBCF0             POP      {R4-R7}
+   \       0x3C   0x4770             BX       LR
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0x....'....        DC32     halBootloaderAddressTable
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   halBootloaderGetInstalledType
+       0   halBootloaderGetType
+       0   halGetBootloaderVersion
+      16   halGetExtendedBootloaderVersion
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       6  halBootloaderGetInstalledType
+       4  halBootloaderGetType
+       6  halGetBootloaderVersion
+      62  halGetExtendedBootloaderVersion
+
+ 
+ 82 bytes in section .text
+ 
+ 82 bytes of CODE memory
+
+Errors: none
+Warnings: none

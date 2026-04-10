@@ -1,0 +1,45 @@
+8.9
+   Update to Chromium 137.0.7151.120
+7.41.2
+   Update to Chromium 128.0.6613.85
+   Added support for MacOS Sequoia
+7.37.2
+   Update to Chromium 121.0.6167.184
+7.36.0
+   Updated Chromium engine 118
+7.29.0
+   Fix for DnD on macOS
+7.28.1
+   Added support for MacOS Ventura
+7.25.0
+   JxBrowser update
+7.24.4
+   Update to Chromium engine 100
+7.22.0
+   Fix for DnD support for Mac
+   Update to Chromium engine 96
+7.19.0
+   Update to Chromium engine 92
+   DnD support for Mac
+7.15.0
+   Update to Chromium engine 90
+7.14.0
+   Update to Chromium engine 89
+7.12.0
+   Bug fixes
+7.11.0
+   Bug fixes
+7.9.0
+   Fix for Chromium going away on computer sleep
+7.8.1
+   Change to about:blank feature in debug mode
+   Fix for HTML tooltip support
+7.8.0
+   Updated jxBrowser component to 7.8 release
+   Tooltips not displayed in the off-screen rendering mode on all platforms and in the hardware accelerated rendering mode on macOS for Swing, JavaFX, and SWT.
+7.7.0
+   Updated jxBrowser component to 7.7 release (swt support complete)
+7.0.0
+   Updated jxBrowser component to 7.0 release
+6.22.1
+	Initial release

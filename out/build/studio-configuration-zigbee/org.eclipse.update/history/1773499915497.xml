@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1773499915496" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="com.silabs.ss.support.mcu.part.feature" version="4.3.10.202505160052-591" url="features/com.silabs.ss.support.mcu.part.feature_4.3.10.202505160052-591/">
+		</feature>
+		<feature id="com.silabs.ss.tool.launcher.feature" version="5.7.5.202602280548-1212" url="features/com.silabs.ss.tool.launcher.feature_5.7.5.202602280548-1212/">
+		</feature>
+		<feature id="com.silabs.external.antlr.feature" version="4.6.0.202311132224-787" url="features/com.silabs.external.antlr.feature_4.6.0.202311132224-787/">
+		</feature>
+		<feature id="com.silabs.external.jaxb.feature" version="1.0.2.202306131449-8" url="features/com.silabs.external.jaxb.feature_1.0.2.202306131449-8/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient5.feature" version="1.1.702.v20240808-1900" url="features/org.eclipse.ecf.filetransfer.httpclient5.feature_1.1.702.v20240808-1900/">
+		</feature>
+		<feature id="com.silabs.external.salesforce.feature" version="4.8.0.202306131455-17" url="features/com.silabs.external.salesforce.feature_4.8.0.202306131455-17/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.39.0.v20241018-1213" url="features/org.eclipse.emf.ecore_2.39.0.v20241018-1213/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.1900.v20240812-1535" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1900.v20240812-1535/">
+		</feature>
+		<feature id="com.silabs.external.jython.feature" version="2.7.5.202506060625-31" url="features/com.silabs.external.jython.feature_2.7.5.202506060625-31/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.402.v20240812-1535" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.402.v20240812-1535/">
+		</feature>
+		<feature id="com.silabs.external.opentelemetry.api.feature" version="1.22.1.202403181948-7" url="features/com.silabs.external.opentelemetry.api.feature_1.22.1.202403181948-7/">
+		</feature>
+		<feature id="com.silabs.ss.platform.feature" version="5.4.1.202601281926-1865" url="features/com.silabs.ss.platform.feature_5.4.1.202601281926-1865/">
+		</feature>
+		<feature id="com.silabs.external.aws.feature" version="1.11.54.202306131439-10" url="features/com.silabs.external.aws.feature_1.11.54.202306131439-10/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.33.0.v20240911-1027" url="features/org.eclipse.emf.common_2.33.0.v20240911-1027/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.6.2.v20240812-1535" url="features/org.eclipse.ecf.core.feature_1.6.2.v20240812-1535/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.7.400.v20241019-1812" url="features/org.eclipse.equinox.p2.core.feature_1.7.400.v20241019-1812/">
+		</feature>
+		<feature id="com.silabs.external.networknt.jsonschemavalidator.feature" version="1.1.0.202505161722-11" url="features/com.silabs.external.networknt.jsonschemavalidator.feature_1.1.0.202505161722-11/">
+		</feature>
+		<feature id="com.silabs.ss.support.hwtools.feature" version="4.3.9.202602210638-624" url="features/com.silabs.ss.support.hwtools.feature_4.3.9.202602210638-624/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.600.v20240812-1535" url="features/org.eclipse.ecf.core.ssl.feature_1.1.600.v20240812-1535/">
+		</feature>
+		<feature id="com.silabs.external.silabs_pti.feature" version="1.11.2.202311132224-787" url="features/com.silabs.external.silabs_pti.feature_1.11.2.202311132224-787/">
+		</feature>
+		<feature id="com.silabs.ss.support.wifi.feature" version="1.2.1.202505121349-333" url="features/com.silabs.ss.support.wifi.feature_1.2.1.202505121349-333/">
+		</feature>
+		<feature id="com.silabs.ss.tool.installer.feature" version="5.5.0.202511181911-461" url="features/com.silabs.ss.tool.installer.feature_5.5.0.202511181911-461/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.2600.v20241019-1812" url="features/org.eclipse.equinox.p2.extras.feature_1.4.2600.v20241019-1812/">
+		</feature>
+		<feature id="com.silabs.external.bouncycastle.feature" version="1.66.0.202311132224-787" url="features/com.silabs.external.bouncycastle.feature_1.66.0.202311132224-787/">
+		</feature>
+		<feature id="com.silabs.external.java21.macosx.aarch64.feature" version="21.0.5" url="features/com.silabs.external.java21.macosx.aarch64.feature_21.0.5/">
+		</feature>
+		<feature id="com.silabs.external.jxbrowser.feature" version="8.9.0.202602280540-64" url="features/com.silabs.external.jxbrowser.feature_8.9.0.202602280540-64/">
+		</feature>
+		<feature id="com.silabs.external.apache_mina.feature" version="2.1.3.202311132224-787" url="features/com.silabs.external.apache_mina.feature_2.1.3.202311132224-787/">
+		</feature>
+		<feature id="com.silabs.ss.support.browser.html.feature" version="5.1.6.202602280544-114" url="features/com.silabs.ss.support.browser.html.feature_5.1.6.202602280544-114/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.34.0.v20241113-2009" url="features/org.eclipse.e4.rcp_4.34.0.v20241113-2009/">
+		</feature>
+		<feature id="com.silabs.external.java21.feature" version="21.0.5.202505161604-25" url="features/com.silabs.external.java21.feature_21.0.5.202505161604-25/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclientjava.feature" version="2.0.200.v20240808-1900" url="features/org.eclipse.ecf.filetransfer.httpclientjava.feature_2.0.200.v20240808-1900/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.2600.v20241019-1812" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.2600.v20241019-1812/">
+		</feature>
+		<feature id="com.silabs.external.slf4j.feature" version="1.7.26.202311132224-787" url="features/com.silabs.external.slf4j.feature_1.7.26.202311132224-787/">
+		</feature>
+		<feature id="com.silabs.external.json.feature" version="3.5.0.202602241441-193" url="features/com.silabs.external.json.feature_3.5.0.202602241441-193/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.34.0.v20241120-1800" url="features/org.eclipse.rcp_4.34.0.v20241120-1800/">
+		</feature>
+		<feature id="org.eclipse.help" version="2.3.2000.v20241120-1800" url="features/org.eclipse.help_2.3.2000.v20241120-1800/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+	</site>
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="com.silabs.apack.usb.feature" version="5.1.4.202404171326-6" url="features/com.silabs.apack.usb.feature_5.1.4.202404171326-6/">
+		</feature>
+		<feature id="com.silabs.apack.commander.feature" version="4.0.81.202602241818-101" url="features/com.silabs.apack.commander.feature_4.0.81.202602241818-101/">
+		</feature>
+		<feature id="com.silabs.installer.jlink.feature" version="4.0.15.202506061214-400" url="features/com.silabs.installer.jlink.feature_4.0.15.202506061214-400/">
+		</feature>
+	</site>
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="com.silabs.apack.python.feature" version="4.1.8.202508261605-52" url="features/com.silabs.apack.python.feature_4.1.8.202508261605-52/">
+		</feature>
+		<feature id="com.silabs.sdk.gecko_platform.v3.2.feature.metadata.resource" version="3.2.9.202310242107-252" url="features/com.silabs.sdk.gecko_platform.v3.2.feature.metadata.resource_3.2.9.202310242107-252/">
+		</feature>
+		<feature id="com.silabs.sdk.gecko_platform.v3.2.feature" version="3.2.9.202310242107-252" url="features/com.silabs.sdk.gecko_platform.v3.2.feature_3.2.9.202310242107-252/">
+		</feature>
+		<feature id="com.silabs.external.pymath.feature" version="1.0.2.202411270544-11" url="features/com.silabs.external.pymath.feature_1.0.2.202411270544-11/">
+		</feature>
+	</site>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.installer.jlink.feature" 
+		label="Segger J-Link Driver installer" 
+		 description="Contains Segger J-Link Drivers for Windows" 
+		 changelog="changelog" 
+		 types="apack,autoInstall"
+		 partCompatibility="mcu.arm.e.*32.* mcu.8051.efm8.* mcu.arm.wfm.*"
+		 version="4.0.15"/>
+		 

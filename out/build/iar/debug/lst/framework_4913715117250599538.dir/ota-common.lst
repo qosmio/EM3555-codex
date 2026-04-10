@@ -1,0 +1,328 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:05
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\ota-common\ota-common.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ota-common.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\ota-common\ota-common.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"ota-common.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\ota-common\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ota-common.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ota-common.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\ota-common.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\ota-common.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\ota-common\ota-common.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Zigbee Over-the-air bootload cluster for upgrading firmware and
+      4           * downloading specific file.  These routines are command to the client
+      5           * and server.
+      6           *******************************************************************************
+      7           * # License
+      8           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      9           *******************************************************************************
+     10           *
+     11           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     12           * software is governed by the terms of Silicon Labs Master Software License
+     13           * Agreement (MSLA) available at
+     14           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     15           * software is distributed to you in Source Code format and is governed by the
+     16           * sections of the MSLA applicable to Source Code.
+     17           *
+     18           ******************************************************************************/
+     19          
+     20          // this file contains all the common includes for clusters in the util
+     21          #include "app/framework/util/common.h"
+     22          #include "app/framework/util/attribute-storage.h"
+     23          #include "enums.h"
+     24          
+     25          // clusters specific header
+     26          #include "ota.h"
+     27          
+     28          #include "app/framework/plugin/ota-storage-common/ota-storage.h"
+     29          
+     30          // This relates all OTA command IDs in app/framework/gen/command-id.h
+     31          // to minimum message lengths (does not include EMBER_AF_ZCL_OVERHEAD)
+
+   \                                 In section .rodata, align 4
+     32          const uint8_t emAfOtaMinMessageLengths[] = {
+   \                     emAfOtaMinMessageLengths:
+   \        0x0   0x02 0x08          DC8 2, 8, 1, 13, 13, 1, 1, 1, 5, 18, 11
+   \              0x01 0x0D    
+   \              0x0D 0x01    
+   \              0x01 0x01    
+   \              0x05 0x12    
+   \              0x0B
+   \        0xB                      DS8 1
+     33            2,      // Image Notify
+     34            8,      // Query Next Image Request
+     35            1,      // Query Next Image Response
+     36            13,     // Image Block Request
+     37            13,     // Image Page Request
+     38            1,      // Image Block Response (abort is shortest)
+     39            1,      // Upgrade End Request
+     40            1,      // Upgrade End Response
+     41            5,      // Run Upgrade Request
+     42            18,     // Query Specific File Request
+     43            11,     // Query Specific File Response
+     44          };
+     45          
+
+   \                                 In section .text, align 2, keep-with-next
+     46          EmberAfOtaImageId emAfOtaCreateEmberAfOtaImageIdStruct(uint16_t manufacturerId,
+     47                                                                 uint16_t imageType,
+     48                                                                 uint32_t fileVersion)
+     49          {
+   \                     emAfOtaCreateEmberAfOtaImageIdStruct: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     50            EmberAfOtaImageId id;
+     51            id.manufacturerId = manufacturerId;
+   \        0x4   0xF8AD 0x1000      STRH     R1,[SP, #+0]
+     52            id.imageTypeId = imageType;
+   \        0x8   0xF8AD 0x2002      STRH     R2,[SP, #+2]
+     53            id.firmwareVersion = fileVersion;
+   \        0xC   0x9301             STR      R3,[SP, #+4]
+     54            MEMSET(id.deviceSpecificFileEui64, 0, EUI64_SIZE);
+   \        0xE   0x2200             MOVS     R2,#+0
+   \       0x10   0x2108             MOVS     R1,#+8
+   \       0x12   0xA802             ADD      R0,SP,#+8
+   \       0x14   0x.... 0x....      BL       __aeabi_memset4
+     55            return id;
+   \       0x18   0x4620             MOV      R0,R4
+   \       0x1A   0x4669             MOV      R1,SP
+   \       0x1C   0x2210             MOVS     R2,#+16
+   \       0x1E   0x.... 0x....      BL       __aeabi_memcpy4
+   \       0x22   0xBD1F             POP      {R0-R4,PC}
+     56          }
+     57          
+     58          // This assumes the message has already been validated for its length
+
+   \                                 In section .text, align 2, keep-with-next
+     59          uint8_t emAfOtaParseImageIdFromMessage(EmberAfOtaImageId* returnId,
+     60                                                 const uint8_t* buffer,
+     61                                                 uint8_t length)
+     62          {
+   \                     emAfOtaParseImageIdFromMessage: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x460D             MOV      R5,R1
+   \        0x6   0x4616             MOV      R6,R2
+     63            returnId->manufacturerId  = emberAfGetInt16u(buffer, 0, length);
+   \        0x8   0x2100             MOVS     R1,#+0
+   \        0xA   0x4628             MOV      R0,R5
+   \        0xC   0x.... 0x....      BL       emberAfGetInt16u
+   \       0x10   0x8020             STRH     R0,[R4, #+0]
+     64            returnId->imageTypeId     = emberAfGetInt16u(buffer, 2, length);
+   \       0x12   0x4632             MOV      R2,R6
+   \       0x14   0x2102             MOVS     R1,#+2
+   \       0x16   0x4628             MOV      R0,R5
+   \       0x18   0x.... 0x....      BL       emberAfGetInt16u
+   \       0x1C   0x8060             STRH     R0,[R4, #+2]
+     65            returnId->firmwareVersion = emberAfGetInt32u(buffer, 4, length);
+   \       0x1E   0x4632             MOV      R2,R6
+   \       0x20   0x2104             MOVS     R1,#+4
+   \       0x22   0x4628             MOV      R0,R5
+   \       0x24   0x.... 0x....      BL       emberAfGetInt32u
+   \       0x28   0x6060             STR      R0,[R4, #+4]
+     66            MEMSET(returnId->deviceSpecificFileEui64, 0, EUI64_SIZE);
+   \       0x2A   0x2200             MOVS     R2,#+0
+   \       0x2C   0x2108             MOVS     R1,#+8
+   \       0x2E   0xF104 0x0008      ADD      R0,R4,#+8
+   \       0x32   0x.... 0x....      BL       __aeabi_memset4
+     67            return 8;
+   \       0x36   0x2008             MOVS     R0,#+8
+   \       0x38   0xBD70             POP      {R4-R6,PC}
+     68          }
+     69          
+     70          #if defined(EMBER_AF_PRINT_CORE)
+     71          
+     72          // 32-bit math may be expensive and is only needed for printing
+     73          // purposes.  So this functionality should be conditionally compiled in.
+     74          
+     75          // The 'currentOffset' and 'endOffset' parameters are relative to the static
+     76          // variable 'startingOffset'.  It is expected the 'startingOffset' is set by a
+     77          // previous call that did nothing but pass in the 'offsetStart' value
+     78          // (other parameters are ignored in that case).
+     79          static uint8_t printPercentage(const char * prefixString,
+     80                                         uint8_t updateFrequency,
+     81                                         uint32_t offsetStart,
+     82                                         uint32_t currentOffset,
+     83                                         uint32_t endOffset)
+     84          {
+     85            static uint8_t percentageComplete = 0;
+     86            static uint8_t oldPercentageComplete = 255; // invalid value
+     87            static uint32_t startingOffset = 0;
+     88            static uint32_t imageSize = 0;
+     89          
+     90            if (offsetStart > 0 || endOffset > 0) {
+     91              oldPercentageComplete = 255;
+     92              startingOffset = offsetStart;
+     93              imageSize = endOffset - startingOffset;
+     94              return 0;
+     95            }
+     96            // The rest of this code should NOT use 'offsetStart', but 'startingOffset'.
+     97          
+     98            currentOffset -= startingOffset;
+     99          
+    100            percentageComplete = emAfCalculatePercentage(currentOffset, imageSize);
+    101          
+    102            if (oldPercentageComplete == 255
+    103                || (percentageComplete >= updateFrequency
+    104                    && (percentageComplete
+    105                        >= (oldPercentageComplete + updateFrequency)))) {
+    106              emberAfCorePrintln("%p: %d%% complete", prefixString, percentageComplete);
+    107              oldPercentageComplete = percentageComplete;
+    108            }
+    109            return percentageComplete;
+    110          }
+    111          
+    112          void emAfPrintPercentageSetStartAndEnd(uint32_t startingOffset, uint32_t endOffset)
+    113          {
+    114            printPercentage(NULL,           // prefix string (ignored)
+    115                            0,              // update frequency (ignored)
+    116                            startingOffset,
+    117                            0,              // current offset (ignored)
+    118                            endOffset);
+    119          }
+    120          
+    121          uint8_t emAfPrintPercentageUpdate(const char * prefixString,
+    122                                            uint8_t updateFrequency,
+    123                                            uint32_t currentOffset)
+    124          {
+    125            return printPercentage(prefixString,
+    126                                   updateFrequency,
+    127                                   0,               // offset start (ignored)
+    128                                   currentOffset,
+    129                                   0);              // offset end (ignored)
+    130          }
+    131          
+    132          uint8_t emAfCalculatePercentage(uint32_t currentOffset, uint32_t imageSize)
+    133          {
+    134            uint8_t percentage = 0;
+    135            if (imageSize == 0) {
+    136              return 0;
+    137            }
+    138          
+    139            if (currentOffset >= imageSize) {
+    140              percentage = 100;
+    141            } else {
+    142              percentage = (currentOffset * 100) / imageSize;
+    143            }
+    144            return percentage;
+    145          }
+    146          
+    147          #endif // defined EMBER_AF_CORE_PRINT_ENABLED
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   emAfOtaCreateEmberAfOtaImageIdStruct
+        24   -> __aeabi_memcpy4
+        24   -> __aeabi_memset4
+      16   emAfOtaParseImageIdFromMessage
+        16   -> __aeabi_memset4
+        16   -> emberAfGetInt16u
+        16   -> emberAfGetInt32u
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      36  emAfOtaCreateEmberAfOtaImageIdStruct
+      12  emAfOtaMinMessageLengths
+      58  emAfOtaParseImageIdFromMessage
+
+ 
+ 12 bytes in section .rodata
+ 94 bytes in section .text
+ 
+ 94 bytes of CODE  memory
+ 12 bytes of CONST memory
+
+Errors: none
+Warnings: none

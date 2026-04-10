@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.matter_2.5.1">
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-onoff-plug-example.rps" diskSizeKB="666.316" downloadSizeKB="666.316">
+    <property key="timeStamp" value="1739459694665"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-light-switch-example.rps" diskSizeKB="663.176" downloadSizeKB="663.176">
+    <property key="timeStamp" value="1739459694669"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-thermostat-example.rps" diskSizeKB="645.188" downloadSizeKB="645.188">
+    <property key="timeStamp" value="1739459694671"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-dishwasher-example.rps" diskSizeKB="630.212" downloadSizeKB="630.212">
+    <property key="timeStamp" value="1739459694674"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-multi-sensor-example.rps" diskSizeKB="624.236" downloadSizeKB="624.236">
+    <property key="timeStamp" value="1739459694677"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-lighting-example.rps" diskSizeKB="674.228" downloadSizeKB="674.228">
+    <property key="timeStamp" value="1739459694680"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-window-example.rps" diskSizeKB="650.72" downloadSizeKB="650.72">
+    <property key="timeStamp" value="1739459694682"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-refrigerator-example.rps" diskSizeKB="628.68" downloadSizeKB="628.68">
+    <property key="timeStamp" value="1739459694685"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-lock-example.rps" diskSizeKB="698.072" downloadSizeKB="698.072">
+    <property key="timeStamp" value="1739459694689"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-fan-control-example.rps" diskSizeKB="627.272" downloadSizeKB="627.272">
+    <property key="timeStamp" value="1739459694692"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2708A/WiFi/SiWx917-air-quality-sensor-example.rps" diskSizeKB="624.844" downloadSizeKB="624.844">
+    <property key="timeStamp" value="1739459694694"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/window-app-thread.s37" diskSizeKB="2644.692" downloadSizeKB="2644.692">
+    <property key="timeStamp" value="1739459694699"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2780.828" downloadSizeKB="2780.828">
+    <property key="timeStamp" value="1739459694704"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2645.336" downloadSizeKB="2645.336">
+    <property key="timeStamp" value="1739459694709"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/lock-app-thread.s37" diskSizeKB="2786.184" downloadSizeKB="2786.184">
+    <property key="timeStamp" value="1739459694714"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/thermostat-thread.s37" diskSizeKB="2841.812" downloadSizeKB="2841.812">
+    <property key="timeStamp" value="1739459694719"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2756.072" downloadSizeKB="2756.072">
+    <property key="timeStamp" value="1739459694723"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2905.18" downloadSizeKB="2905.18">
+    <property key="timeStamp" value="1739459694727"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2785.592" downloadSizeKB="2785.592">
+    <property key="timeStamp" value="1739459694731"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/performance-test-app-thread.s37" diskSizeKB="2631.832" downloadSizeKB="2631.832">
+    <property key="timeStamp" value="1739459694735"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/lighting-app-thread.s37" diskSizeKB="2916.96" downloadSizeKB="2916.96">
+    <property key="timeStamp" value="1739459694740"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2709A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2792.676" downloadSizeKB="2792.676">
+    <property key="timeStamp" value="1739459694746"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/window-app-thread.s37" diskSizeKB="2700.506" downloadSizeKB="2700.506">
+    <property key="timeStamp" value="1739459694751"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2841.394" downloadSizeKB="2841.394">
+    <property key="timeStamp" value="1739459694757"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2704.158" downloadSizeKB="2704.158">
+    <property key="timeStamp" value="1739459694760"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/lock-app-thread.s37" diskSizeKB="2837.086" downloadSizeKB="2837.086">
+    <property key="timeStamp" value="1739459694765"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/thermostat-thread.s37" diskSizeKB="2909.914" downloadSizeKB="2909.914">
+    <property key="timeStamp" value="1739459694772"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2806.686" downloadSizeKB="2806.686">
+    <property key="timeStamp" value="1739459694780"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2955.874" downloadSizeKB="2955.874">
+    <property key="timeStamp" value="1739459694785"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2836.11" downloadSizeKB="2836.11">
+    <property key="timeStamp" value="1739459694789"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/lighting-app-thread.s37" diskSizeKB="2967.67" downloadSizeKB="2967.67">
+    <property key="timeStamp" value="1739459694793"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4121A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2843.482" downloadSizeKB="2843.482">
+    <property key="timeStamp" value="1739459694797"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/window-app-thread.s37" diskSizeKB="2699.802" downloadSizeKB="2699.802">
+    <property key="timeStamp" value="1739459694801"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2840.69" downloadSizeKB="2840.69">
+    <property key="timeStamp" value="1739459694805"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2703.158" downloadSizeKB="2703.158">
+    <property key="timeStamp" value="1739459694809"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/lock-app-thread.s37" diskSizeKB="2836.27" downloadSizeKB="2836.27">
+    <property key="timeStamp" value="1739459694814"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/thermostat-thread.s37" diskSizeKB="2908.898" downloadSizeKB="2908.898">
+    <property key="timeStamp" value="1739459694819"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/light-switch-app-thread.s37" diskSizeKB="2805.886" downloadSizeKB="2805.886">
+    <property key="timeStamp" value="1739459694823"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2955.074" downloadSizeKB="2955.074">
+    <property key="timeStamp" value="1739459694826"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2835.406" downloadSizeKB="2835.406">
+    <property key="timeStamp" value="1739459694830"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/lighting-app-thread.s37" diskSizeKB="2966.966" downloadSizeKB="2966.966">
+    <property key="timeStamp" value="1739459694835"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2842.762" downloadSizeKB="2842.762">
+    <property key="timeStamp" value="1739459694838"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/WiFi/thermostat-wf200.s37" diskSizeKB="3147.458" downloadSizeKB="3147.458">
+    <property key="timeStamp" value="1739459694848"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/WiFi/lock-app-rs911x.s37" diskSizeKB="2117.734" downloadSizeKB="2117.734">
+    <property key="timeStamp" value="1739459694852"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/WiFi/thermostat-917-ncp.s37" diskSizeKB="1975.924" downloadSizeKB="1975.924">
+    <property key="timeStamp" value="1739459694857"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/WiFi/window-app-917-ncp.s37" diskSizeKB="1965.628" downloadSizeKB="1965.628">
+    <property key="timeStamp" value="1739459694860"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/WiFi/lock-app-wf200.s37" diskSizeKB="3157.566" downloadSizeKB="3157.566">
+    <property key="timeStamp" value="1739459694865"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/WiFi/thermostat-rs911x.s37" diskSizeKB="1991.138" downloadSizeKB="1991.138">
+    <property key="timeStamp" value="1739459694868"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4186C/WiFi/lock-app-917-ncp.s37" diskSizeKB="2107.568" downloadSizeKB="2107.568">
+    <property key="timeStamp" value="1739459694874"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/window-app-thread.s37" diskSizeKB="2696.468" downloadSizeKB="2696.468">
+    <property key="timeStamp" value="1739459694878"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2837.34" downloadSizeKB="2837.34">
+    <property key="timeStamp" value="1739459694885"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2700.104" downloadSizeKB="2700.104">
+    <property key="timeStamp" value="1739459694889"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/lock-app-thread.s37" diskSizeKB="2833.032" downloadSizeKB="2833.032">
+    <property key="timeStamp" value="1739459694896"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/thermostat-thread.s37" diskSizeKB="2905.86" downloadSizeKB="2905.86">
+    <property key="timeStamp" value="1739459694901"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/light-switch-app-thread.s37" diskSizeKB="2802.632" downloadSizeKB="2802.632">
+    <property key="timeStamp" value="1739459694911"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2951.836" downloadSizeKB="2951.836">
+    <property key="timeStamp" value="1739459694917"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2832.08" downloadSizeKB="2832.08">
+    <property key="timeStamp" value="1739459694922"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/performance-test-app-thread.s37" diskSizeKB="2678.392" downloadSizeKB="2678.392">
+    <property key="timeStamp" value="1739459694926"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/lighting-app-thread.s37" diskSizeKB="2963.616" downloadSizeKB="2963.616">
+    <property key="timeStamp" value="1739459694931"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A_A05/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2839.428" downloadSizeKB="2839.428">
+    <property key="timeStamp" value="1739459694935"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/window-app-thread.s37" diskSizeKB="2695.468" downloadSizeKB="2695.468">
+    <property key="timeStamp" value="1739459694940"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2836.34" downloadSizeKB="2836.34">
+    <property key="timeStamp" value="1739459694958"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2699.12" downloadSizeKB="2699.12">
+    <property key="timeStamp" value="1739459694966"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/lock-app-thread.s37" diskSizeKB="2832.032" downloadSizeKB="2832.032">
+    <property key="timeStamp" value="1739459694971"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/thermostat-thread.s37" diskSizeKB="2904.86" downloadSizeKB="2904.86">
+    <property key="timeStamp" value="1739459694976"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/light-switch-app-thread.s37" diskSizeKB="2801.648" downloadSizeKB="2801.648">
+    <property key="timeStamp" value="1739459694980"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2950.836" downloadSizeKB="2950.836">
+    <property key="timeStamp" value="1739459694984"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2831.08" downloadSizeKB="2831.08">
+    <property key="timeStamp" value="1739459694988"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/performance-test-app-thread.s37" diskSizeKB="2677.392" downloadSizeKB="2677.392">
+    <property key="timeStamp" value="1739459694992"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/lighting-app-thread.s37" diskSizeKB="2962.632" downloadSizeKB="2962.632">
+    <property key="timeStamp" value="1739459694996"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A_A05/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2838.428" downloadSizeKB="2838.428">
+    <property key="timeStamp" value="1739459695000"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD1019A/OpenThread/zigbee-matter-light-sequential.s37" diskSizeKB="3963.276" downloadSizeKB="3963.276">
+    <property key="timeStamp" value="1739459695005"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD1019A/OpenThread/lighting-app-thread.s37" diskSizeKB="3066.762" downloadSizeKB="3066.762">
+    <property key="timeStamp" value="1739459695010"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD1019A/OpenThread/zigbee-matter-light-concurrent.s37" diskSizeKB="3963.372" downloadSizeKB="3963.372">
+    <property key="timeStamp" value="1739459695014"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/window-app-thread.s37" diskSizeKB="2699.882" downloadSizeKB="2699.882">
+    <property key="timeStamp" value="1739459695018"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2839.986" downloadSizeKB="2839.986">
+    <property key="timeStamp" value="1739459695022"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2702.838" downloadSizeKB="2702.838">
+    <property key="timeStamp" value="1739459695025"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/lock-app-thread.s37" diskSizeKB="2835.966" downloadSizeKB="2835.966">
+    <property key="timeStamp" value="1739459695029"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/thermostat-thread.s37" diskSizeKB="2908.21" downloadSizeKB="2908.21">
+    <property key="timeStamp" value="1739459695033"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2805.278" downloadSizeKB="2805.278">
+    <property key="timeStamp" value="1739459695037"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2954.578" downloadSizeKB="2954.578">
+    <property key="timeStamp" value="1739459695040"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2834.606" downloadSizeKB="2834.606">
+    <property key="timeStamp" value="1739459695044"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/lighting-app-thread.s37" diskSizeKB="2966.358" downloadSizeKB="2966.358">
+    <property key="timeStamp" value="1739459695048"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4317A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2842.65" downloadSizeKB="2842.65">
+    <property key="timeStamp" value="1739459695052"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/window-app-thread.s37" diskSizeKB="2642.876" downloadSizeKB="2642.876">
+    <property key="timeStamp" value="1739459695055"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2778.132" downloadSizeKB="2778.132">
+    <property key="timeStamp" value="1739459695059"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2643.136" downloadSizeKB="2643.136">
+    <property key="timeStamp" value="1739459695063"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/lock-app-thread.s37" diskSizeKB="2783.968" downloadSizeKB="2783.968">
+    <property key="timeStamp" value="1739459695066"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2753.68" downloadSizeKB="2753.68">
+    <property key="timeStamp" value="1739459695070"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2902.772" downloadSizeKB="2902.772">
+    <property key="timeStamp" value="1739459695073"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2783.008" downloadSizeKB="2783.008">
+    <property key="timeStamp" value="1739459695077"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/lighting-app-thread.s37" diskSizeKB="2914.568" downloadSizeKB="2914.568">
+    <property key="timeStamp" value="1739459695081"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4319A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2790.652" downloadSizeKB="2790.652">
+    <property key="timeStamp" value="1739459695084"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-onoff-plug-example.rps" diskSizeKB="689.436" downloadSizeKB="689.436">
+    <property key="timeStamp" value="1739459695086"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-light-switch-example.rps" diskSizeKB="686.208" downloadSizeKB="686.208">
+    <property key="timeStamp" value="1739459695088"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-thermostat-example.rps" diskSizeKB="672.316" downloadSizeKB="672.316">
+    <property key="timeStamp" value="1739459695090"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-dishwasher-example.rps" diskSizeKB="653.388" downloadSizeKB="653.388">
+    <property key="timeStamp" value="1739459695091"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-multi-sensor-example.rps" diskSizeKB="648.364" downloadSizeKB="648.364">
+    <property key="timeStamp" value="1739459695093"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-lighting-example.rps" diskSizeKB="697.356" downloadSizeKB="697.356">
+    <property key="timeStamp" value="1739459695094"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-window-example.rps" diskSizeKB="674.304" downloadSizeKB="674.304">
+    <property key="timeStamp" value="1739459695096"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-refrigerator-example.rps" diskSizeKB="651.76" downloadSizeKB="651.76">
+    <property key="timeStamp" value="1739459695097"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-lock-example.rps" diskSizeKB="720.0" downloadSizeKB="720.0">
+    <property key="timeStamp" value="1739459695099"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-fan-control-example.rps" diskSizeKB="651.24" downloadSizeKB="651.24">
+    <property key="timeStamp" value="1739459695100"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4338A/WiFi/SiWx917-air-quality-sensor-example.rps" diskSizeKB="651.26" downloadSizeKB="651.26">
+    <property key="timeStamp" value="1739459695102"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/window-app-thread.s37" diskSizeKB="2700.394" downloadSizeKB="2700.394">
+    <property key="timeStamp" value="1739459695105"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2841.266" downloadSizeKB="2841.266">
+    <property key="timeStamp" value="1739459695109"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2704.046" downloadSizeKB="2704.046">
+    <property key="timeStamp" value="1739459695112"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/lock-app-thread.s37" diskSizeKB="2836.958" downloadSizeKB="2836.958">
+    <property key="timeStamp" value="1739459695115"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/thermostat-thread.s37" diskSizeKB="2909.786" downloadSizeKB="2909.786">
+    <property key="timeStamp" value="1739459695119"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2806.574" downloadSizeKB="2806.574">
+    <property key="timeStamp" value="1739459695123"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2955.762" downloadSizeKB="2955.762">
+    <property key="timeStamp" value="1739459695126"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2835.998" downloadSizeKB="2835.998">
+    <property key="timeStamp" value="1739459695130"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/lighting-app-thread.s37" diskSizeKB="2967.558" downloadSizeKB="2967.558">
+    <property key="timeStamp" value="1739459695133"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2843.354" downloadSizeKB="2843.354">
+    <property key="timeStamp" value="1739459695138"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4117A/OpenThread/zigbee-matter-light-concurrent.s37" diskSizeKB="3871.736" downloadSizeKB="3871.736">
+    <property key="timeStamp" value="1739459695142"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/window-app-thread.s37" diskSizeKB="2642.396" downloadSizeKB="2642.396">
+    <property key="timeStamp" value="1739459695146"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2777.652" downloadSizeKB="2777.652">
+    <property key="timeStamp" value="1739459695149"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2642.56" downloadSizeKB="2642.56">
+    <property key="timeStamp" value="1739459695152"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/lock-app-thread.s37" diskSizeKB="2783.488" downloadSizeKB="2783.488">
+    <property key="timeStamp" value="1739459695156"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2753.104" downloadSizeKB="2753.104">
+    <property key="timeStamp" value="1739459695159"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2902.196" downloadSizeKB="2902.196">
+    <property key="timeStamp" value="1739459695163"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2782.432" downloadSizeKB="2782.432">
+    <property key="timeStamp" value="1739459695166"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/lighting-app-thread.s37" diskSizeKB="2913.992" downloadSizeKB="2913.992">
+    <property key="timeStamp" value="1739459695170"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4337A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2790.172" downloadSizeKB="2790.172">
+    <property key="timeStamp" value="1739459695173"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-onoff-plug-example.rps" diskSizeKB="690.008" downloadSizeKB="690.008">
+    <property key="timeStamp" value="1739459695176"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-light-switch-example.rps" diskSizeKB="686.788" downloadSizeKB="686.788">
+    <property key="timeStamp" value="1739459695178"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-thermostat-example.rps" diskSizeKB="672.872" downloadSizeKB="672.872">
+    <property key="timeStamp" value="1739459695180"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-dishwasher-example.rps" diskSizeKB="653.944" downloadSizeKB="653.944">
+    <property key="timeStamp" value="1739459695182"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-multi-sensor-example.rps" diskSizeKB="648.928" downloadSizeKB="648.928">
+    <property key="timeStamp" value="1739459695183"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-lighting-example.rps" diskSizeKB="697.928" downloadSizeKB="697.928">
+    <property key="timeStamp" value="1739459695185"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-window-example.rps" diskSizeKB="676.316" downloadSizeKB="676.316">
+    <property key="timeStamp" value="1739459695187"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-refrigerator-example.rps" diskSizeKB="652.316" downloadSizeKB="652.316">
+    <property key="timeStamp" value="1739459695189"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-lock-example.rps" diskSizeKB="722.004" downloadSizeKB="722.004">
+    <property key="timeStamp" value="1739459695190"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-fan-control-example.rps" diskSizeKB="651.796" downloadSizeKB="651.796">
+    <property key="timeStamp" value="1739459695192"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4342A/WiFi/SiWx917-air-quality-sensor-example.rps" diskSizeKB="651.832" downloadSizeKB="651.832">
+    <property key="timeStamp" value="1739459695194"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/window-app-thread.s37" diskSizeKB="2644.748" downloadSizeKB="2644.748">
+    <property key="timeStamp" value="1739459695197"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2780.772" downloadSizeKB="2780.772">
+    <property key="timeStamp" value="1739459695201"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2645.392" downloadSizeKB="2645.392">
+    <property key="timeStamp" value="1739459695204"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/lock-app-thread.s37" diskSizeKB="2786.224" downloadSizeKB="2786.224">
+    <property key="timeStamp" value="1739459695208"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2756.128" downloadSizeKB="2756.128">
+    <property key="timeStamp" value="1739459695211"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2905.124" downloadSizeKB="2905.124">
+    <property key="timeStamp" value="1739459695215"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2785.648" downloadSizeKB="2785.648">
+    <property key="timeStamp" value="1739459695218"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/lighting-app-thread.s37" diskSizeKB="2917.016" downloadSizeKB="2917.016">
+    <property key="timeStamp" value="1739459695222"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2703A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2792.716" downloadSizeKB="2792.716">
+    <property key="timeStamp" value="1739459695225"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/window-app-thread.s37" diskSizeKB="2700.33" downloadSizeKB="2700.33">
+    <property key="timeStamp" value="1739459695229"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2841.218" downloadSizeKB="2841.218">
+    <property key="timeStamp" value="1739459695232"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2703.782" downloadSizeKB="2703.782">
+    <property key="timeStamp" value="1739459695235"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/zigbee-matter-light-sequential.s37" diskSizeKB="3871.968" downloadSizeKB="3871.968">
+    <property key="timeStamp" value="1739459695240"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/lock-app-thread.s37" diskSizeKB="2836.798" downloadSizeKB="2836.798">
+    <property key="timeStamp" value="1739459695243"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/thermostat-thread.s37" diskSizeKB="2909.522" downloadSizeKB="2909.522">
+    <property key="timeStamp" value="1739459695247"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/light-switch-app-thread.s37" diskSizeKB="2806.414" downloadSizeKB="2806.414">
+    <property key="timeStamp" value="1739459695250"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2955.698" downloadSizeKB="2955.698">
+    <property key="timeStamp" value="1739459695254"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2835.934" downloadSizeKB="2835.934">
+    <property key="timeStamp" value="1739459695257"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/performance-test-app-thread.s37" diskSizeKB="2682.254" downloadSizeKB="2682.254">
+    <property key="timeStamp" value="1739459695262"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/lighting-app-thread.s37" diskSizeKB="2967.494" downloadSizeKB="2967.494">
+    <property key="timeStamp" value="1739459695266"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2843.29" downloadSizeKB="2843.29">
+    <property key="timeStamp" value="1739459695275"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/OpenThread/zigbee-matter-light-concurrent.s37" diskSizeKB="3871.68" downloadSizeKB="3871.68">
+    <property key="timeStamp" value="1739459695282"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/WiFi/thermostat-wf200.s37" diskSizeKB="3147.986" downloadSizeKB="3147.986">
+    <property key="timeStamp" value="1739459695286"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/WiFi/lock-app-rs911x.s37" diskSizeKB="2118.214" downloadSizeKB="2118.214">
+    <property key="timeStamp" value="1739459695289"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/WiFi/thermostat-917-ncp.s37" diskSizeKB="1976.404" downloadSizeKB="1976.404">
+    <property key="timeStamp" value="1739459695297"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/WiFi/window-app-917-ncp.s37" diskSizeKB="1966.108" downloadSizeKB="1966.108">
+    <property key="timeStamp" value="1739459695300"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/WiFi/lock-app-wf200.s37" diskSizeKB="3158.19" downloadSizeKB="3158.19">
+    <property key="timeStamp" value="1739459695304"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/WiFi/thermostat-rs911x.s37" diskSizeKB="1991.618" downloadSizeKB="1991.618">
+    <property key="timeStamp" value="1739459695307"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4187C/WiFi/lock-app-917-ncp.s37" diskSizeKB="2108.048" downloadSizeKB="2108.048">
+    <property key="timeStamp" value="1739459695310"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/window-app-thread.s37" diskSizeKB="2696.468" downloadSizeKB="2696.468">
+    <property key="timeStamp" value="1739459695313"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2837.34" downloadSizeKB="2837.34">
+    <property key="timeStamp" value="1739459695317"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2700.104" downloadSizeKB="2700.104">
+    <property key="timeStamp" value="1739459695321"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/lock-app-thread.s37" diskSizeKB="2833.032" downloadSizeKB="2833.032">
+    <property key="timeStamp" value="1739459695325"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/thermostat-thread.s37" diskSizeKB="2905.86" downloadSizeKB="2905.86">
+    <property key="timeStamp" value="1739459695328"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2802.632" downloadSizeKB="2802.632">
+    <property key="timeStamp" value="1739459695332"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2951.836" downloadSizeKB="2951.836">
+    <property key="timeStamp" value="1739459695336"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2832.08" downloadSizeKB="2832.08">
+    <property key="timeStamp" value="1739459695340"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/performance-test-app-thread.s37" diskSizeKB="2678.392" downloadSizeKB="2678.392">
+    <property key="timeStamp" value="1739459695343"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/lighting-app-thread.s37" diskSizeKB="2963.616" downloadSizeKB="2963.616">
+    <property key="timeStamp" value="1739459695347"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4351A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2839.428" downloadSizeKB="2839.428">
+    <property key="timeStamp" value="1739459695350"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-onoff-plug-example.rps" diskSizeKB="666.316" downloadSizeKB="666.316">
+    <property key="timeStamp" value="1739459695352"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-light-switch-example.rps" diskSizeKB="663.176" downloadSizeKB="663.176">
+    <property key="timeStamp" value="1739459695353"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-thermostat-example.rps" diskSizeKB="645.188" downloadSizeKB="645.188">
+    <property key="timeStamp" value="1739459695355"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-dishwasher-example.rps" diskSizeKB="630.212" downloadSizeKB="630.212">
+    <property key="timeStamp" value="1739459695356"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-multi-sensor-example.rps" diskSizeKB="624.236" downloadSizeKB="624.236">
+    <property key="timeStamp" value="1739459695358"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-lighting-example.rps" diskSizeKB="674.228" downloadSizeKB="674.228">
+    <property key="timeStamp" value="1739459695359"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-window-example.rps" diskSizeKB="650.72" downloadSizeKB="650.72">
+    <property key="timeStamp" value="1739459695365"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-refrigerator-example.rps" diskSizeKB="628.68" downloadSizeKB="628.68">
+    <property key="timeStamp" value="1739459695367"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-lock-example.rps" diskSizeKB="698.072" downloadSizeKB="698.072">
+    <property key="timeStamp" value="1739459695369"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-fan-control-example.rps" diskSizeKB="627.272" downloadSizeKB="627.272">
+    <property key="timeStamp" value="1739459695371"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2911A/WiFi/SiWx917-air-quality-sensor-example.rps" diskSizeKB="624.844" downloadSizeKB="624.844">
+    <property key="timeStamp" value="1739459695372"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/siwx917-rcp-files/chip-all-clusters-app" diskSizeKB="73031.48" downloadSizeKB="73031.48">
+    <property key="timeStamp" value="1739459695439"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/siwx917-rcp-files/wfx-sdio-overlay.dts" diskSizeKB="3.875" downloadSizeKB="3.875">
+    <property key="timeStamp" value="1739459695441"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/window-app-thread.s37" diskSizeKB="2695.468" downloadSizeKB="2695.468">
+    <property key="timeStamp" value="1739459695445"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2836.34" downloadSizeKB="2836.34">
+    <property key="timeStamp" value="1739459695448"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2699.12" downloadSizeKB="2699.12">
+    <property key="timeStamp" value="1739459695452"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/lock-app-thread.s37" diskSizeKB="2832.032" downloadSizeKB="2832.032">
+    <property key="timeStamp" value="1739459695455"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/thermostat-thread.s37" diskSizeKB="2904.86" downloadSizeKB="2904.86">
+    <property key="timeStamp" value="1739459695459"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2801.648" downloadSizeKB="2801.648">
+    <property key="timeStamp" value="1739459695467"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2950.836" downloadSizeKB="2950.836">
+    <property key="timeStamp" value="1739459695471"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2831.08" downloadSizeKB="2831.08">
+    <property key="timeStamp" value="1739459695474"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/performance-test-app-thread.s37" diskSizeKB="2677.392" downloadSizeKB="2677.392">
+    <property key="timeStamp" value="1739459695477"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/lighting-app-thread.s37" diskSizeKB="2962.632" downloadSizeKB="2962.632">
+    <property key="timeStamp" value="1739459695481"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4350A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2838.428" downloadSizeKB="2838.428">
+    <property key="timeStamp" value="1739459695484"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/window-app-thread.s37" diskSizeKB="2697.772" downloadSizeKB="2697.772">
+    <property key="timeStamp" value="1739459695489"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2838.644" downloadSizeKB="2838.644">
+    <property key="timeStamp" value="1739459695492"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2701.424" downloadSizeKB="2701.424">
+    <property key="timeStamp" value="1739459695496"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/zigbee-matter-light-sequential.s37" diskSizeKB="3869.562" downloadSizeKB="3869.562">
+    <property key="timeStamp" value="1739459695501"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/lock-app-thread.s37" diskSizeKB="2834.336" downloadSizeKB="2834.336">
+    <property key="timeStamp" value="1739459695505"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/thermostat-thread.s37" diskSizeKB="2907.164" downloadSizeKB="2907.164">
+    <property key="timeStamp" value="1739459695508"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2803.952" downloadSizeKB="2803.952">
+    <property key="timeStamp" value="1739459695511"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2953.14" downloadSizeKB="2953.14">
+    <property key="timeStamp" value="1739459695517"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2833.376" downloadSizeKB="2833.376">
+    <property key="timeStamp" value="1739459695528"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/lighting-app-thread.s37" diskSizeKB="2964.936" downloadSizeKB="2964.936">
+    <property key="timeStamp" value="1739459695532"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2840.732" downloadSizeKB="2840.732">
+    <property key="timeStamp" value="1739459695542"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4116A/OpenThread/zigbee-matter-light-concurrent.s37" diskSizeKB="3869.178" downloadSizeKB="3869.178">
+    <property key="timeStamp" value="1739459695546"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/window-app-thread.s37" diskSizeKB="2648.634" downloadSizeKB="2648.634">
+    <property key="timeStamp" value="1739459695555"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2783.906" downloadSizeKB="2783.906">
+    <property key="timeStamp" value="1739459695562"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2652.862" downloadSizeKB="2652.862">
+    <property key="timeStamp" value="1739459695568"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/lock-app-thread.s37" diskSizeKB="2789.742" downloadSizeKB="2789.742">
+    <property key="timeStamp" value="1739459695572"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/thermostat-thread.s37" diskSizeKB="2850.09" downloadSizeKB="2850.09">
+    <property key="timeStamp" value="1739459695576"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2759.342" downloadSizeKB="2759.342">
+    <property key="timeStamp" value="1739459695580"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2908.546" downloadSizeKB="2908.546">
+    <property key="timeStamp" value="1739459695583"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2788.766" downloadSizeKB="2788.766">
+    <property key="timeStamp" value="1739459695587"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/lighting-app-thread.s37" diskSizeKB="2920.326" downloadSizeKB="2920.326">
+    <property key="timeStamp" value="1739459695591"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4318A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2796.426" downloadSizeKB="2796.426">
+    <property key="timeStamp" value="1739459695595"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/window-app-thread.s37" diskSizeKB="2700.01" downloadSizeKB="2700.01">
+    <property key="timeStamp" value="1739459695598"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2840.882" downloadSizeKB="2840.882">
+    <property key="timeStamp" value="1739459695602"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2703.758" downloadSizeKB="2703.758">
+    <property key="timeStamp" value="1739459695606"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/zigbee-matter-light-sequential.s37" diskSizeKB="3871.8" downloadSizeKB="3871.8">
+    <property key="timeStamp" value="1739459695611"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/lock-app-thread.s37" diskSizeKB="2836.574" downloadSizeKB="2836.574">
+    <property key="timeStamp" value="1739459695614"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/thermostat-thread.s37" diskSizeKB="2909.402" downloadSizeKB="2909.402">
+    <property key="timeStamp" value="1739459695618"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2806.19" downloadSizeKB="2806.19">
+    <property key="timeStamp" value="1739459695621"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2955.378" downloadSizeKB="2955.378">
+    <property key="timeStamp" value="1739459695625"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2835.614" downloadSizeKB="2835.614">
+    <property key="timeStamp" value="1739459695628"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/lighting-app-thread.s37" diskSizeKB="2967.174" downloadSizeKB="2967.174">
+    <property key="timeStamp" value="1739459695632"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4118A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2843.066" downloadSizeKB="2843.066">
+    <property key="timeStamp" value="1739459695636"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/window-app-thread.s37" diskSizeKB="2698.794" downloadSizeKB="2698.794">
+    <property key="timeStamp" value="1739459695639"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2838.914" downloadSizeKB="2838.914">
+    <property key="timeStamp" value="1739459695643"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2701.862" downloadSizeKB="2701.862">
+    <property key="timeStamp" value="1739459695646"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/lock-app-thread.s37" diskSizeKB="2834.974" downloadSizeKB="2834.974">
+    <property key="timeStamp" value="1739459695650"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/thermostat-thread.s37" diskSizeKB="2907.218" downloadSizeKB="2907.218">
+    <property key="timeStamp" value="1739459695653"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2804.302" downloadSizeKB="2804.302">
+    <property key="timeStamp" value="1739459695657"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2953.586" downloadSizeKB="2953.586">
+    <property key="timeStamp" value="1739459695660"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2833.63" downloadSizeKB="2833.63">
+    <property key="timeStamp" value="1739459695665"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/lighting-app-thread.s37" diskSizeKB="2965.382" downloadSizeKB="2965.382">
+    <property key="timeStamp" value="1739459695673"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4316A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2841.658" downloadSizeKB="2841.658">
+    <property key="timeStamp" value="1739459695677"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/window-app-thread.s37" diskSizeKB="2650.826" downloadSizeKB="2650.826">
+    <property key="timeStamp" value="1739459695681"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2786.962" downloadSizeKB="2786.962">
+    <property key="timeStamp" value="1739459695684"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2656.118" downloadSizeKB="2656.118">
+    <property key="timeStamp" value="1739459695687"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/lock-app-thread.s37" diskSizeKB="2792.414" downloadSizeKB="2792.414">
+    <property key="timeStamp" value="1739459695691"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/thermostat-thread.s37" diskSizeKB="2853.746" downloadSizeKB="2853.746">
+    <property key="timeStamp" value="1739459695694"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/light-switch-app-thread.s37" diskSizeKB="2762.222" downloadSizeKB="2762.222">
+    <property key="timeStamp" value="1739459695698"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2911.314" downloadSizeKB="2911.314">
+    <property key="timeStamp" value="1739459695701"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2791.742" downloadSizeKB="2791.742">
+    <property key="timeStamp" value="1739459695705"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/lighting-app-thread.s37" diskSizeKB="2923.11" downloadSizeKB="2923.11">
+    <property key="timeStamp" value="1739459695708"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2608A/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2798.81" downloadSizeKB="2798.81">
+    <property key="timeStamp" value="1739459695712"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/window-app-thread.s37" diskSizeKB="2650.45" downloadSizeKB="2650.45">
+    <property key="timeStamp" value="1739459695715"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2786.474" downloadSizeKB="2786.474">
+    <property key="timeStamp" value="1739459695719"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/multi-sensor-app-thread.s37" diskSizeKB="2655.35" downloadSizeKB="2655.35">
+    <property key="timeStamp" value="1739459695722"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/lock-app-thread.s37" diskSizeKB="2791.942" downloadSizeKB="2791.942">
+    <property key="timeStamp" value="1739459695726"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/light-switch-app-thread.s37" diskSizeKB="2761.83" downloadSizeKB="2761.83">
+    <property key="timeStamp" value="1739459695729"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/onoff-plug-app-thread.s37" diskSizeKB="2910.922" downloadSizeKB="2910.922">
+    <property key="timeStamp" value="1739459695733"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/refrigerator-app-thread.s37" diskSizeKB="2791.35" downloadSizeKB="2791.35">
+    <property key="timeStamp" value="1739459695736"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/lighting-app-thread.s37" diskSizeKB="2922.718" downloadSizeKB="2922.718">
+    <property key="timeStamp" value="1739459695740"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2601B/OpenThread/dishwasher-app-thread.s37" diskSizeKB="2798.434" downloadSizeKB="2798.434">
+    <property key="timeStamp" value="1739459695743"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-onoff-plug-example.rps" diskSizeKB="669.572" downloadSizeKB="669.572">
+    <property key="timeStamp" value="1739459695745"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-light-switch-example.rps" diskSizeKB="666.352" downloadSizeKB="666.352">
+    <property key="timeStamp" value="1739459695746"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-thermostat-example.rps" diskSizeKB="648.396" downloadSizeKB="648.396">
+    <property key="timeStamp" value="1739459695748"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-dishwasher-example.rps" diskSizeKB="633.5" downloadSizeKB="633.5">
+    <property key="timeStamp" value="1739459695749"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-multi-sensor-example.rps" diskSizeKB="627.476" downloadSizeKB="627.476">
+    <property key="timeStamp" value="1739459695751"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-lighting-example.rps" diskSizeKB="677.484" downloadSizeKB="677.484">
+    <property key="timeStamp" value="1739459695752"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-window-example.rps" diskSizeKB="652.064" downloadSizeKB="652.064">
+    <property key="timeStamp" value="1739459695754"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-refrigerator-example.rps" diskSizeKB="631.888" downloadSizeKB="631.888">
+    <property key="timeStamp" value="1739459695755"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-lock-example.rps" diskSizeKB="699.4" downloadSizeKB="699.4">
+    <property key="timeStamp" value="1739459695757"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-fan-control-example.rps" diskSizeKB="630.544" downloadSizeKB="630.544">
+    <property key="timeStamp" value="1739459695758"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2605A/WiFi/SiWx917-air-quality-sensor-example.rps" diskSizeKB="628.036" downloadSizeKB="628.036">
+    <property key="timeStamp" value="1739459695760"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-onoff-plug-example.rps" diskSizeKB="688.58" downloadSizeKB="688.58">
+    <property key="timeStamp" value="1739459695761"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-light-switch-example.rps" diskSizeKB="685.352" downloadSizeKB="685.352">
+    <property key="timeStamp" value="1739459695763"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-thermostat-example.rps" diskSizeKB="671.46" downloadSizeKB="671.46">
+    <property key="timeStamp" value="1739459695764"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-dishwasher-example.rps" diskSizeKB="652.532" downloadSizeKB="652.532">
+    <property key="timeStamp" value="1739459695766"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-multi-sensor-example.rps" diskSizeKB="647.508" downloadSizeKB="647.508">
+    <property key="timeStamp" value="1739459695768"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-lighting-example.rps" diskSizeKB="696.5" downloadSizeKB="696.5">
+    <property key="timeStamp" value="1739459695774"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-window-example.rps" diskSizeKB="673.432" downloadSizeKB="673.432">
+    <property key="timeStamp" value="1739459695776"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-refrigerator-example.rps" diskSizeKB="650.904" downloadSizeKB="650.904">
+    <property key="timeStamp" value="1739459695778"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-lock-example.rps" diskSizeKB="719.128" downloadSizeKB="719.128">
+    <property key="timeStamp" value="1739459695779"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-fan-control-example.rps" diskSizeKB="650.384" downloadSizeKB="650.384">
+    <property key="timeStamp" value="1739459695781"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD4343A/WiFi/SiWx917-air-quality-sensor-example.rps" diskSizeKB="650.404" downloadSizeKB="650.404">
+    <property key="timeStamp" value="1739459695782"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2704A/OpenThread/air-quality-sensor-app-thread.s37" diskSizeKB="2777.972" downloadSizeKB="2777.972">
+    <property key="timeStamp" value="1739459695786"/>
+  </assets>
+  <assets path="/extension.matter_2.5.1/demos/BRD2704A/OpenThread/lighting-app-thread.s37" diskSizeKB="2914.296" downloadSizeKB="2914.296">
+    <property key="timeStamp" value="1739459695789"/>
+  </assets>
+</assets>

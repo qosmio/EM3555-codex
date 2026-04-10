@@ -1,0 +1,800 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:39
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\callback-stub.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\callback-stub.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\callback-stub.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"callback-stub.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\autogen_4020999569460366166.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\callback-stub.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\callback-stub.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\autogen_4020999569460366166.dir\callback-stub.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\autogen_4020999569460366166.dir\callback-stub.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\autogen\callback-stub.c
+      1          #include "app/framework/include/af.h"
+      2          
+      3          #include "callback.h"
+      4          #include "config/firmware_config.h"
+      5          
+
+   \                                 In section .bss, align 4
+      6          static EmberAfApplicationTask s_currentAppTasks[EMBER_SUPPORTED_NETWORKS] = { 0 };
+   \                     s_currentAppTasks:
+   \        0x0                      DS8 4
+      7          
+
+   \                                 In section .text, align 2, keep-with-next
+      8          bool emberAfMainStartCallback(int *returnCode, int argc, char **argv)
+      9          {
+     10            (void)returnCode;
+     11            (void)argc;
+     12            (void)argv;
+     13            return false;
+   \                     emberAfMainStartCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     14          }
+     15          
+
+   \                                 In section .text, align 2, keep-with-next
+     16          void emberAfCameBackFromEM4Callback(void)
+     17          {
+     18          }
+   \                     emberAfCameBackFromEM4Callback: (+1)
+   \        0x0   0x4770             BX       LR
+     19          
+
+   \                                 In section .text, align 2, keep-with-next
+     20          bool emberAfGetEndpointByIndexCallback(uint8_t index, uint8_t *endpoint)
+     21          {
+     22            (void)index;
+     23            (void)endpoint;
+     24            return false;
+   \                     emberAfGetEndpointByIndexCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     25          }
+     26          
+
+   \                                 In section .text, align 2, keep-with-next
+     27          bool emberAfGetEndpointDescriptionCallback(uint8_t endpoint, EmberEndpointDescription *result)
+     28          {
+     29            (void)endpoint;
+     30            (void)result;
+     31            return false;
+   \                     emberAfGetEndpointDescriptionCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     32          }
+     33          
+
+   \                                 In section .text, align 2, keep-with-next
+     34          bool emberAfGetEndpointInfoCallback(uint8_t endpoint,
+     35                                              uint8_t *networkIndex,
+     36                                              EmberAfEndpointInfoStruct *endpointInfo)
+     37          {
+     38            (void)endpoint;
+     39            (void)networkIndex;
+     40            (void)endpointInfo;
+     41            return false;
+   \                     emberAfGetEndpointInfoCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     42          }
+     43          
+
+   \                                 In section .text, align 2, keep-with-next
+     44          EmberStatus emberAfRemoteSetBindingPermissionCallback(EmberBindingTableEntry *entry)
+     45          {
+     46            (void)entry;
+     47            return EMBER_SUCCESS;
+   \                     emberAfRemoteSetBindingPermissionCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     48          }
+     49          
+
+   \                                 In section .text, align 2, keep-with-next
+     50          EmberStatus emberAfRemoteDeleteBindingPermissionCallback(uint8_t index)
+     51          {
+     52            (void)index;
+     53            return EMBER_SUCCESS;
+   \                     emberAfRemoteDeleteBindingPermissionCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     54          }
+     55          
+
+   \                                 In section .text, align 2, keep-with-next
+     56          void emberAfSecurityInitCallback(EmberInitialSecurityState *state,
+     57                                           EmberExtendedSecurityBitmask *extended,
+     58                                           bool trustCenter)
+     59          {
+     60            (void)state;
+     61            (void)extended;
+     62            (void)trustCenter;
+     63          }
+   \                     emberAfSecurityInitCallback: (+1)
+   \        0x0   0x4770             BX       LR
+     64          
+
+   \                                 In section .text, align 2, keep-with-next
+     65          EmberStatus emberAfRegistrationStartCallback(void)
+     66          {
+     67            return EMBER_SUCCESS;
+   \                     emberAfRegistrationStartCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     68          }
+     69          
+
+   \                                 In section .text, align 2, keep-with-next
+     70          void emberAfRegistrationAbortCallback(void)
+     71          {
+     72          }
+   \                     emberAfRegistrationAbortCallback: (+1)
+   \        0x0   0x4770             BX       LR
+     73          
+
+   \                                 In section .text, align 2, keep-with-next
+     74          void emberAfScanErrorCallback(EmberStatus status)
+     75          {
+     76            (void)status;
+     77          }
+   \                     emberAfScanErrorCallback: (+1)
+   \        0x0   0x4770             BX       LR
+     78          
+
+   \                                 In section .text, align 2, keep-with-next
+     79          void emberAfHalButtonIsrCallback(uint8_t button, uint8_t state)
+     80          {
+     81            (void)button;
+     82            (void)state;
+     83          }
+   \                     emberAfHalButtonIsrCallback: (+1)
+   \        0x0   0x4770             BX       LR
+     84          
+     85          #if !EM3555_APP_OVERRIDES_PRE_MESSAGE_RECEIVED
+     86          bool emberAfPreMessageReceivedCallback(EmberAfIncomingMessage *incomingMessage)
+     87          {
+     88            (void)incomingMessage;
+     89            return false;
+     90          }
+     91          #endif
+     92          
+
+   \                                 In section .text, align 2, keep-with-next
+     93          void emberAfClusterInitCallback(uint8_t endpoint, EmberAfClusterId clusterId)
+     94          {
+     95            (void)endpoint;
+     96            (void)clusterId;
+     97          }
+   \                     emberAfClusterInitCallback: (+1)
+   \        0x0   0x4770             BX       LR
+     98          
+
+   \                                 In section .text, align 2, keep-with-next
+     99          EmberAfStatus emberAfPreAttributeChangeCallback(uint8_t endpoint,
+    100                                                          EmberAfClusterId clusterId,
+    101                                                          EmberAfAttributeId attributeId,
+    102                                                          uint8_t mask,
+    103                                                          uint16_t manufacturerCode,
+    104                                                          EmberAfAttributeType type,
+    105                                                          uint8_t size,
+    106                                                          uint8_t *value)
+    107          {
+    108            (void)endpoint;
+    109            (void)clusterId;
+    110            (void)attributeId;
+    111            (void)mask;
+    112            (void)manufacturerCode;
+    113            (void)type;
+    114            (void)size;
+    115            (void)value;
+    116            return EMBER_ZCL_STATUS_SUCCESS;
+   \                     emberAfPreAttributeChangeCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    117          }
+    118          
+
+   \                                 In section .text, align 2, keep-with-next
+    119          EmberAfAttributeWritePermission emberAfAllowNetworkWriteAttributeCallback(uint8_t endpoint,
+    120                                                                                    EmberAfClusterId clusterId,
+    121                                                                                    EmberAfAttributeId attributeId,
+    122                                                                                    uint8_t mask,
+    123                                                                                    uint16_t manufacturerCode,
+    124                                                                                    uint8_t *value,
+    125                                                                                    uint8_t type)
+    126          {
+    127            (void)endpoint;
+    128            (void)clusterId;
+    129            (void)attributeId;
+    130            (void)mask;
+    131            (void)manufacturerCode;
+    132            (void)value;
+    133            (void)type;
+    134            return EMBER_ZCL_ATTRIBUTE_WRITE_PERMISSION_ALLOW_WRITE_NORMAL;
+   \                     emberAfAllowNetworkWriteAttributeCallback: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+    135          }
+    136          
+
+   \                                 In section .text, align 2, keep-with-next
+    137          bool emberAfAttributeWriteAccessCallback(uint8_t endpoint,
+    138                                                   EmberAfClusterId clusterId,
+    139                                                   uint16_t manufacturerCode,
+    140                                                   EmberAfAttributeId attributeId)
+    141          {
+    142            (void)endpoint;
+    143            (void)clusterId;
+    144            (void)manufacturerCode;
+    145            (void)attributeId;
+    146            return true;
+   \                     emberAfAttributeWriteAccessCallback: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+    147          }
+    148          
+
+   \                                 In section .text, align 2, keep-with-next
+    149          bool emberAfAttributeReadAccessCallback(uint8_t endpoint,
+    150                                                  EmberAfClusterId clusterId,
+    151                                                  uint16_t manufacturerCode,
+    152                                                  EmberAfAttributeId attributeId)
+    153          {
+    154            (void)endpoint;
+    155            (void)clusterId;
+    156            (void)manufacturerCode;
+    157            (void)attributeId;
+    158            return true;
+   \                     emberAfAttributeReadAccessCallback: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+    159          }
+    160          
+    161          #if !EM3555_APP_OVERRIDES_EXTERNAL_ATTRIBUTES
+    162          EmberAfStatus emberAfExternalAttributeWriteCallback(uint8_t endpoint,
+    163                                                              EmberAfClusterId clusterId,
+    164                                                              EmberAfAttributeMetadata *attributeMetadata,
+    165                                                              uint16_t manufacturerCode,
+    166                                                              uint8_t *buffer)
+    167          {
+    168            (void)endpoint;
+    169            (void)clusterId;
+    170            (void)attributeMetadata;
+    171            (void)manufacturerCode;
+    172            (void)buffer;
+    173            return EMBER_ZCL_STATUS_FAILURE;
+    174          }
+    175          
+    176          EmberAfStatus emberAfExternalAttributeReadCallback(uint8_t endpoint,
+    177                                                             EmberAfClusterId clusterId,
+    178                                                             EmberAfAttributeMetadata *attributeMetadata,
+    179                                                             uint16_t manufacturerCode,
+    180                                                             uint8_t *buffer,
+    181                                                             uint16_t maxReadLength)
+    182          {
+    183            (void)endpoint;
+    184            (void)clusterId;
+    185            (void)attributeMetadata;
+    186            (void)manufacturerCode;
+    187            (void)buffer;
+    188            (void)maxReadLength;
+    189            return EMBER_ZCL_STATUS_FAILURE;
+    190          }
+    191          #endif
+    192          
+
+   \                                 In section .text, align 2, keep-with-next
+    193          bool emberAfPreMessageSendCallback(EmberAfMessageStruct *messageStruct,
+    194                                             EmberStatus *status)
+    195          {
+    196            (void)messageStruct;
+    197            (void)status;
+    198            return false;
+   \                     emberAfPreMessageSendCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    199          }
+    200          
+    201          #if !EM3555_APP_OVERRIDES_MESSAGE_SENT
+    202          bool emberAfMessageSentCallback(EmberOutgoingMessageType type,
+    203                                          uint16_t indexOrDestination,
+    204                                          EmberApsFrame *apsFrame,
+    205                                          uint16_t msgLen,
+    206                                          uint8_t *message,
+    207                                          EmberStatus status)
+    208          {
+    209            (void)type;
+    210            (void)indexOrDestination;
+    211            (void)apsFrame;
+    212            (void)msgLen;
+    213            (void)message;
+    214            (void)status;
+    215            return false;
+    216          }
+    217          #endif
+    218          
+
+   \                                 In section .text, align 2, keep-with-next
+    219          void emberAfAddToCurrentAppTasksCallback(EmberAfApplicationTask tasks)
+    220          {
+   \                     emberAfAddToCurrentAppTasksCallback: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    221            s_currentAppTasks[emberGetCurrentNetwork()] |= tasks;
+   \        0x4   0x.... 0x....      BL       emberGetCurrentNetwork
+   \        0x8   0x....             LDR.N    R1,??DataTable3
+   \        0xA   0xF851 0x2020      LDR      R2,[R1, R0, LSL #+2]
+   \        0xE   0x4314             ORRS     R4,R4,R2
+   \       0x10   0xF841 0x4020      STR      R4,[R1, R0, LSL #+2]
+    222          }
+   \       0x14   0xBD10             POP      {R4,PC}
+    223          
+
+   \                                 In section .text, align 2, keep-with-next
+    224          void emberAfRemoveFromCurrentAppTasksCallback(EmberAfApplicationTask tasks)
+    225          {
+   \                     emberAfRemoveFromCurrentAppTasksCallback: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    226            s_currentAppTasks[emberGetCurrentNetwork()] &= (EmberAfApplicationTask)(~tasks);
+   \        0x4   0x.... 0x....      BL       emberGetCurrentNetwork
+   \        0x8   0x....             LDR.N    R1,??DataTable3
+   \        0xA   0xF851 0x2020      LDR      R2,[R1, R0, LSL #+2]
+   \        0xE   0xEA22 0x0404      BIC      R4,R2,R4
+   \       0x12   0xF841 0x4020      STR      R4,[R1, R0, LSL #+2]
+    227          }
+   \       0x16   0xBD10             POP      {R4,PC}
+    228          
+
+   \                                 In section .text, align 2, keep-with-next
+    229          EmberAfApplicationTask emberAfGetCurrentAppTasksCallback(void)
+    230          {
+   \                     emberAfGetCurrentAppTasksCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    231            return s_currentAppTasks[emberGetCurrentNetwork()];
+   \        0x2   0x.... 0x....      BL       emberGetCurrentNetwork
+   \        0x6   0x....             LDR.N    R1,??DataTable3
+   \        0x8   0xF851 0x0020      LDR      R0,[R1, R0, LSL #+2]
+   \        0xC   0xBD02             POP      {R1,PC}
+    232          }
+    233          
+
+   \                                 In section .text, align 2, keep-with-next
+    234          bool emberAfPreZDOMessageReceivedCallback(EmberNodeId emberNodeId,
+    235                                                    EmberApsFrame *apsFrame,
+    236                                                    uint8_t *message,
+    237                                                    uint16_t length)
+    238          {
+    239            (void)emberNodeId;
+    240            (void)apsFrame;
+    241            (void)message;
+    242            (void)length;
+    243            return false;
+   \                     emberAfPreZDOMessageReceivedCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    244          }
+    245          
+
+   \                                 In section .text, align 2, keep-with-next
+    246          void emberAfZigbeeKeyEstablishmentCallback(EmberEUI64 partner,
+    247                                                     EmberKeyStatus status)
+    248          {
+    249            (void)partner;
+    250            (void)status;
+    251          }
+   \                     emberAfZigbeeKeyEstablishmentCallback: (+1)
+   \        0x0   0x4770             BX       LR
+    252          
+
+   \                                 In section .text, align 2, keep-with-next
+    253          void emberAfSetTimeCallback(uint32_t utcTime)
+    254          {
+    255            (void)utcTime;
+    256          }
+   \                     emberAfSetTimeCallback: (+1)
+   \        0x0   0x4770             BX       LR
+    257          
+
+   \                                 In section .text, align 2, keep-with-next
+    258          void emberAfTrustCenterKeepaliveAbortCallback(void)
+    259          {
+    260          }
+   \                     emberAfTrustCenterKeepaliveAbortCallback: (+1)
+   \        0x0   0x4770             BX       LR
+    261          
+
+   \                                 In section .text, align 2, keep-with-next
+    262          EmberZdoStatus emberAfPartnerLinkKeyExchangeRequestCallback(EmberEUI64 partner)
+    263          {
+    264            (void)partner;
+    265            return EMBER_ZDP_NOT_AUTHORIZED;
+   \                     emberAfPartnerLinkKeyExchangeRequestCallback: (+1)
+   \        0x0   0x208D             MOVS     R0,#+141
+   \        0x2   0x4770             BX       LR
+    266          }
+    267          
+
+   \                                 In section .text, align 2, keep-with-next
+    268          void emberAfPartnerLinkKeyExchangeResponseCallback(EmberNodeId sender,
+    269                                                             EmberZdoStatus status)
+    270          {
+    271            (void)sender;
+    272            (void)status;
+    273          }
+   \                     emberAfPartnerLinkKeyExchangeResponseCallback: (+1)
+   \        0x0   0x4770             BX       LR
+    274          
+
+   \                                 In section .text, align 2, keep-with-next
+    275          bool emberAfClusterSecurityCustomCallback(EmberAfProfileId profileId,
+    276                                                    EmberAfClusterId clusterId,
+    277                                                    bool incoming,
+    278                                                    uint8_t commandId)
+    279          {
+    280            (void)profileId;
+    281            (void)clusterId;
+    282            (void)incoming;
+    283            (void)commandId;
+    284            return false;
+   \                     emberAfClusterSecurityCustomCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    285          }
+    286          
+
+   \                                 In section .text, align 2, keep-with-next
+    287          uint8_t emberAfGetSourceRouteOverheadCallback(EmberNodeId destination)
+    288          {
+    289            (void)destination;
+    290            return 0U;
+   \                     emberAfGetSourceRouteOverheadCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    291          }
+    292          
+
+   \                                 In section .text, align 2, keep-with-next
+    293          void emberAfPluginGroupsServerGetGroupNameCallback(uint8_t endpoint,
+    294                                                             uint16_t groupId,
+    295                                                             uint8_t *groupName)
+    296          {
+    297            (void)endpoint;
+    298            (void)groupId;
+    299            if (groupName != NULL) {
+   \                     emberAfPluginGroupsServerGetGroupNameCallback: (+1)
+   \        0x0   0x2A00             CMP      R2,#+0
+   \        0x2   0xD001             BEQ.N    ??emberAfPluginGroupsServerGetGroupNameCallback_0
+    300              groupName[0] = 0U;
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x7010             STRB     R0,[R2, #+0]
+    301            }
+    302          }
+   \                     ??emberAfPluginGroupsServerGetGroupNameCallback_0: (+1)
+   \        0x8   0x4770             BX       LR
+    303          
+
+   \                                 In section .text, align 2, keep-with-next
+    304          void emberAfPluginGroupsServerSetGroupNameCallback(uint8_t endpoint,
+    305                                                             uint16_t groupId,
+    306                                                             uint8_t *groupName)
+    307          {
+    308            (void)endpoint;
+    309            (void)groupId;
+    310            (void)groupName;
+    311          }
+   \                     emberAfPluginGroupsServerSetGroupNameCallback: (+1)
+   \        0x0   0x4770             BX       LR
+    312          
+
+   \                                 In section .text, align 2, keep-with-next
+    313          bool emberAfPluginGroupsServerGroupNamesSupportedCallback(uint8_t endpoint)
+    314          {
+    315            (void)endpoint;
+    316            return false;
+   \                     emberAfPluginGroupsServerGroupNamesSupportedCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    317          }
+    318          
+
+   \                                 In section .text, align 2, keep-with-next
+    319          bool emberAfPluginNetworkSteeringGetDistributedKeyCallback(EmberKeyData *key)
+    320          {
+    321            (void)key;
+    322            return false;
+   \                     emberAfPluginNetworkSteeringGetDistributedKeyCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    323          }
+    324          
+
+   \                                 In section .text, align 2, keep-with-next
+    325          EmberNodeType emberAfPluginNetworkSteeringGetNodeTypeCallback(EmberAfPluginNetworkSteeringJoiningState state)
+    326          {
+    327            (void)state;
+    328            return EMBER_ROUTER;
+   \                     emberAfPluginNetworkSteeringGetNodeTypeCallback: (+1)
+   \        0x0   0x2002             MOVS     R0,#+2
+   \        0x2   0x4770             BX       LR
+    329          }
+    330          
+
+   \                                 In section .text, align 2, keep-with-next
+    331          int8_t emberAfPluginNetworkSteeringGetPowerForRadioChannelCallback(uint8_t channel)
+    332          {
+    333            (void)channel;
+    334            return 3;
+   \                     emberAfPluginNetworkSteeringGetPowerForRadioChannelCallback: (+1)
+   \        0x0   0x2003             MOVS     R0,#+3
+   \        0x2   0x4770             BX       LR
+    335          }
+    336          
+
+   \                                 In section .text, align 2, keep-with-next
+    337          void emberAfTrustCenterJoinCallback(EmberNodeId newNodeId,
+    338                                              EmberEUI64 newNodeEui64,
+    339                                              EmberNodeId parentOfNewNode,
+    340                                              EmberDeviceUpdate status,
+    341                                              EmberJoinDecision decision)
+    342          {
+    343            (void)newNodeId;
+    344            (void)newNodeEui64;
+    345            (void)parentOfNewNode;
+    346            (void)status;
+    347            (void)decision;
+    348          }
+   \                     emberAfTrustCenterJoinCallback: (+1)
+   \        0x0   0x4770             BX       LR
+    349          
+
+   \                                 In section .text, align 2, keep-with-next
+    350          bool emberAfPluginInterpanPreMessageReceivedCallback(const EmberAfInterpanHeader *header,
+    351                                                               uint8_t msgLen,
+    352                                                               uint8_t *message)
+    353          {
+    354            (void)header;
+    355            (void)msgLen;
+    356            (void)message;
+    357            return false;
+   \                     emberAfPluginInterpanPreMessageReceivedCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    358          }
+    359          
+
+   \                                 In section .text, align 2, keep-with-next
+    360          EmberAfStatus emberAfPluginReportingConfiguredCallback(const EmberAfPluginReportingEntry *entry)
+    361          {
+    362            (void)entry;
+    363            return EMBER_ZCL_STATUS_SUCCESS;
+   \                     emberAfPluginReportingConfiguredCallback: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+    364          }
+    365          
+
+   \                                 In section .text, align 2, keep-with-next
+    366          bool emberAfPluginReportingGetDefaultReportingConfigCallback(EmberAfPluginReportingEntry *entry)
+    367          {
+    368            if (entry == NULL) {
+   \                     emberAfPluginReportingGetDefaultReportingConfigCallback: (+1)
+   \        0x0   0x2800             CMP      R0,#+0
+   \        0x2   0xD101             BNE.N    ??emberAfPluginReportingGetDefaultReportingConf_0
+    369              return false;
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x4770             BX       LR
+    370            }
+    371          
+    372            entry->data.reported.minInterval = 1U;
+   \                     ??emberAfPluginReportingGetDefaultReportingConf_0: (+1)
+   \        0x8   0x2101             MOVS     R1,#+1
+   \        0xA   0x8181             STRH     R1,[R0, #+12]
+    373            entry->data.reported.maxInterval = 0xFFFEU;
+   \        0xC   0xF64F 0x71FE      MOVW     R1,#+65534
+   \       0x10   0x81C1             STRH     R1,[R0, #+14]
+    374            entry->data.reported.reportableChange = 1UL;
+   \       0x12   0x2101             MOVS     R1,#+1
+   \       0x14   0x6101             STR      R1,[R0, #+16]
+    375            entry->direction = EMBER_ZCL_REPORTING_DIRECTION_REPORTED;
+   \       0x16   0x2100             MOVS     R1,#+0
+   \       0x18   0x7001             STRB     R1,[R0, #+0]
+    376            return true;
+   \       0x1A   0x2001             MOVS     R0,#+1
+   \       0x1C   0x4770             BX       LR
+    377          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0x....'....        DC32     s_currentAppTasks
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   emberAfAddToCurrentAppTasksCallback
+         8   -> emberGetCurrentNetwork
+       0   emberAfAllowNetworkWriteAttributeCallback
+       0   emberAfAttributeReadAccessCallback
+       0   emberAfAttributeWriteAccessCallback
+       0   emberAfCameBackFromEM4Callback
+       0   emberAfClusterInitCallback
+       0   emberAfClusterSecurityCustomCallback
+       8   emberAfGetCurrentAppTasksCallback
+         8   -> emberGetCurrentNetwork
+       0   emberAfGetEndpointByIndexCallback
+       0   emberAfGetEndpointDescriptionCallback
+       0   emberAfGetEndpointInfoCallback
+       0   emberAfGetSourceRouteOverheadCallback
+       0   emberAfHalButtonIsrCallback
+       0   emberAfMainStartCallback
+       0   emberAfPartnerLinkKeyExchangeRequestCallback
+       0   emberAfPartnerLinkKeyExchangeResponseCallback
+       0   emberAfPluginGroupsServerGetGroupNameCallback
+       0   emberAfPluginGroupsServerGroupNamesSupportedCallback
+       0   emberAfPluginGroupsServerSetGroupNameCallback
+       0   emberAfPluginInterpanPreMessageReceivedCallback
+       0   emberAfPluginNetworkSteeringGetDistributedKeyCallback
+       0   emberAfPluginNetworkSteeringGetNodeTypeCallback
+       0   emberAfPluginNetworkSteeringGetPowerForRadioChannelCallback
+       0   emberAfPluginReportingConfiguredCallback
+       0   emberAfPluginReportingGetDefaultReportingConfigCallback
+       0   emberAfPreAttributeChangeCallback
+       0   emberAfPreMessageSendCallback
+       0   emberAfPreZDOMessageReceivedCallback
+       0   emberAfRegistrationAbortCallback
+       0   emberAfRegistrationStartCallback
+       0   emberAfRemoteDeleteBindingPermissionCallback
+       0   emberAfRemoteSetBindingPermissionCallback
+       8   emberAfRemoveFromCurrentAppTasksCallback
+         8   -> emberGetCurrentNetwork
+       0   emberAfScanErrorCallback
+       0   emberAfSecurityInitCallback
+       0   emberAfSetTimeCallback
+       0   emberAfTrustCenterJoinCallback
+       0   emberAfTrustCenterKeepaliveAbortCallback
+       0   emberAfZigbeeKeyEstablishmentCallback
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+      22  emberAfAddToCurrentAppTasksCallback
+       4  emberAfAllowNetworkWriteAttributeCallback
+       4  emberAfAttributeReadAccessCallback
+       4  emberAfAttributeWriteAccessCallback
+       2  emberAfCameBackFromEM4Callback
+       2  emberAfClusterInitCallback
+       4  emberAfClusterSecurityCustomCallback
+      14  emberAfGetCurrentAppTasksCallback
+       4  emberAfGetEndpointByIndexCallback
+       4  emberAfGetEndpointDescriptionCallback
+       4  emberAfGetEndpointInfoCallback
+       4  emberAfGetSourceRouteOverheadCallback
+       2  emberAfHalButtonIsrCallback
+       4  emberAfMainStartCallback
+       4  emberAfPartnerLinkKeyExchangeRequestCallback
+       2  emberAfPartnerLinkKeyExchangeResponseCallback
+      10  emberAfPluginGroupsServerGetGroupNameCallback
+       4  emberAfPluginGroupsServerGroupNamesSupportedCallback
+       2  emberAfPluginGroupsServerSetGroupNameCallback
+       4  emberAfPluginInterpanPreMessageReceivedCallback
+       4  emberAfPluginNetworkSteeringGetDistributedKeyCallback
+       4  emberAfPluginNetworkSteeringGetNodeTypeCallback
+       4  emberAfPluginNetworkSteeringGetPowerForRadioChannelCallback
+       4  emberAfPluginReportingConfiguredCallback
+      30  emberAfPluginReportingGetDefaultReportingConfigCallback
+       4  emberAfPreAttributeChangeCallback
+       4  emberAfPreMessageSendCallback
+       4  emberAfPreZDOMessageReceivedCallback
+       2  emberAfRegistrationAbortCallback
+       4  emberAfRegistrationStartCallback
+       4  emberAfRemoteDeleteBindingPermissionCallback
+       4  emberAfRemoteSetBindingPermissionCallback
+      24  emberAfRemoveFromCurrentAppTasksCallback
+       2  emberAfScanErrorCallback
+       2  emberAfSecurityInitCallback
+       2  emberAfSetTimeCallback
+       2  emberAfTrustCenterJoinCallback
+       2  emberAfTrustCenterKeepaliveAbortCallback
+       2  emberAfZigbeeKeyEstablishmentCallback
+       4  s_currentAppTasks
+
+ 
+   4 bytes in section .bss
+ 216 bytes in section .text
+ 
+ 216 bytes of CODE memory
+   4 bytes of DATA memory
+
+Errors: none
+Warnings: none

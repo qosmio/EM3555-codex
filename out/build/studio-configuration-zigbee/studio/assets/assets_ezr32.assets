@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_ezr32">
+  <assets path="/ezr32/configurator/ezr32hg.zip" diskSizeKB="5168.524" downloadSizeKB="502.425" directory="true"/>
+  <assets path="/ezr32/configurator/ezr32lg.zip" diskSizeKB="10189.068" downloadSizeKB="868.118" directory="true"/>
+  <assets path="/ezr32/configurator/ezr32wg.zip" diskSizeKB="10190.449" downloadSizeKB="869.785" directory="true"/>
+  <assets version="1.0" path="/ezr32/datasheet/EZR32HG220_datasheet.pdf" diskSizeKB="1638.987" downloadSizeKB="1638.987"/>
+  <assets version="1.0" path="/ezr32/datasheet/EZR32HG320_datasheet.pdf" diskSizeKB="1636.357" downloadSizeKB="1636.357"/>
+  <assets version="1.1" path="/ezr32/datasheet/EZR32LG230_datasheet.pdf" diskSizeKB="1808.829" downloadSizeKB="1808.829"/>
+  <assets version="1.1" path="/ezr32/datasheet/EZR32LG330_datasheet.pdf" diskSizeKB="1810.954" downloadSizeKB="1810.954"/>
+  <assets version="1.1" path="/ezr32/datasheet/EZR32WG230_datasheet.pdf" diskSizeKB="1896.186" downloadSizeKB="1896.186"/>
+  <assets version="1.1" path="/ezr32/datasheet/EZR32WG330_datasheet.pdf" diskSizeKB="1813.635" downloadSizeKB="1813.635"/>
+  <assets path="/ezr32/debug/json/EZR32HG220.json" diskSizeKB="1082.082" downloadSizeKB="1082.082"/>
+  <assets path="/ezr32/debug/json/EZR32HG220F32.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/ezr32/debug/json/EZR32HG220F64.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32HG320.json" diskSizeKB="1219.69" downloadSizeKB="1219.69"/>
+  <assets path="/ezr32/debug/json/EZR32HG320F32.json" diskSizeKB="1.245" downloadSizeKB="1.245"/>
+  <assets path="/ezr32/debug/json/EZR32HG320F64.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32LG230.json" diskSizeKB="2097.61" downloadSizeKB="2097.61"/>
+  <assets path="/ezr32/debug/json/EZR32LG230F128.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32LG230F256.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32LG230F64.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32LG330.json" diskSizeKB="2476.291" downloadSizeKB="2476.291"/>
+  <assets path="/ezr32/debug/json/EZR32LG330F128.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32LG330F256.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32LG330F64.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32WG230.json" diskSizeKB="2105.017" downloadSizeKB="2105.017"/>
+  <assets path="/ezr32/debug/json/EZR32WG230F128.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32WG230F256.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32WG230F64.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32WG330.json" diskSizeKB="2483.698" downloadSizeKB="2483.698"/>
+  <assets path="/ezr32/debug/json/EZR32WG330F128.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32WG330F256.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets path="/ezr32/debug/json/EZR32WG330F64.json" diskSizeKB="1.246" downloadSizeKB="1.246"/>
+  <assets version="1.1" path="/ezr32/errata/ezr32hg220_errata.pdf" diskSizeKB="180.835" downloadSizeKB="180.835"/>
+  <assets version="1.1" path="/ezr32/errata/ezr32hg220_errata_history.pdf" diskSizeKB="198.561" downloadSizeKB="198.561"/>
+  <assets path="/ezr32/errata/ezr32hg320_errata.pdf" diskSizeKB="249.06" downloadSizeKB="249.06"/>
+  <assets version="1.1" path="/ezr32/errata/ezr32hg320_errata_history.pdf" diskSizeKB="199.573" downloadSizeKB="199.573"/>
+  <assets version="0.3" path="/ezr32/reference/EZR32HG_Reference_Manual.pdf" diskSizeKB="5984.788" downloadSizeKB="5984.788"/>
+  <assets version="0.90" path="/ezr32/reference/EZR32LG_Reference_Manual.pdf" diskSizeKB="8141.879" downloadSizeKB="8141.879"/>
+  <assets version="0.50" path="/ezr32/reference/EZR32WG_Reference_Manual.pdf" diskSizeKB="8184.12" downloadSizeKB="8184.12"/>
+</assets>

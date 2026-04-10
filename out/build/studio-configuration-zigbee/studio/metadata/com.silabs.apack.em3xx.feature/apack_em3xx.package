@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.apack.em3xx.feature" 
+		label="Em3xx Adapter Pack" 
+		 description="Provides all device functionality for Em3xx devices" 
+		 changelog="changelog" 
+		 types="apack"
+		 partCompatibility="mcu.arm.ember"
+		 version="5.0.6"/>

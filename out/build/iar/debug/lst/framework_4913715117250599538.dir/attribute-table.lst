@@ -1,0 +1,1844 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:47
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\attribute-table.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\attribute-table.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\attribute-table.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"attribute-table.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\attribute-table.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\attribute-table.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\attribute-table.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\attribute-table.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\util\attribute-table.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief This file contains the code to manipulate the Smart Energy attribute
+      4           * table.  This handles external calls to read/write the table, as
+      5           * well as internal ones.
+      6           *******************************************************************************
+      7           * # License
+      8           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      9           *******************************************************************************
+     10           *
+     11           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     12           * software is governed by the terms of Silicon Labs Master Software License
+     13           * Agreement (MSLA) available at
+     14           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     15           * software is distributed to you in Source Code format and is governed by the
+     16           * sections of the MSLA applicable to Source Code.
+     17           *
+     18           ******************************************************************************/
+     19          
+     20          // this file contains all the common includes for clusters in the zcl-util
+     21          #include "common.h"
+     22          
+     23          #include "attribute-storage.h"
+     24          
+     25          // for pulling in defines dealing with EITHER server or client
+     26          #include "af-main.h"
+     27          
+     28          #include "enums.h"
+     29          
+     30          //------------------------------------------------------------------------------
+     31          
+     32          //------------------------------------------------------------------------------
+     33          // External Declarations
+     34          
+     35          //------------------------------------------------------------------------------
+     36          // Forward Declarations
+     37          
+     38          //------------------------------------------------------------------------------
+     39          // Globals
+     40          
+
+   \                                 In section .text, align 2, keep-with-next
+     41          EmberAfStatus emberAfWriteAttributeExternal(uint8_t endpoint,
+     42                                                      EmberAfClusterId cluster,
+     43                                                      EmberAfAttributeId attributeID,
+     44                                                      uint8_t mask,
+     45                                                      uint16_t manufacturerCode,
+     46                                                      uint8_t* dataPtr,
+     47                                                      EmberAfAttributeType dataType)
+     48          {
+   \                     emberAfWriteAttributeExternal: (+1)
+   \        0x0   0xE92D 0x47F8      PUSH     {R3-R10,LR}
+   \        0x4   0xB085             SUB      SP,SP,#+20
+   \        0x6   0x4606             MOV      R6,R0
+   \        0x8   0x460F             MOV      R7,R1
+   \        0xA   0x4690             MOV      R8,R2
+   \        0xC   0x4699             MOV      R9,R3
+   \        0xE   0x9C0E             LDR      R4,[SP, #+56]
+   \       0x10   0xF8DD 0xA03C      LDR      R10,[SP, #+60]
+   \       0x14   0x9D10             LDR      R5,[SP, #+64]
+     49            EmberAfAttributeWritePermission extWritePermission
+     50              = emberAfAllowNetworkWriteAttributeCallback(endpoint,
+     51                                                          cluster,
+     52                                                          attributeID,
+     53                                                          mask,
+     54                                                          manufacturerCode,
+     55                                                          dataPtr,
+     56                                                          dataType);
+   \       0x16   0x4628             MOV      R0,R5
+   \       0x18   0xB2C0             UXTB     R0,R0
+   \       0x1A   0x9002             STR      R0,[SP, #+8]
+   \       0x1C   0xF8CD 0xA004      STR      R10,[SP, #+4]
+   \       0x20   0x4620             MOV      R0,R4
+   \       0x22   0xB280             UXTH     R0,R0
+   \       0x24   0x9000             STR      R0,[SP, #+0]
+   \       0x26   0x4630             MOV      R0,R6
+   \       0x28   0x.... 0x....      BL       emberAfAllowNetworkWriteAttributeCallback
+     57            switch (extWritePermission) {
+   \       0x2C   0x0001             MOVS     R1,R0
+   \       0x2E   0xD003             BEQ.N    ??emberAfWriteAttributeExternal_0
+   \       0x30   0x2902             CMP      R1,#+2
+   \       0x32   0xD003             BEQ.N    ??emberAfWriteAttributeExternal_1
+   \       0x34   0xD302             BCC.N    ??emberAfWriteAttributeExternal_1
+   \       0x36   0xE014             B.N      ??emberAfWriteAttributeExternal_2
+     58              case EMBER_ZCL_ATTRIBUTE_WRITE_PERMISSION_DENY_WRITE:
+     59                return EMBER_ZCL_STATUS_FAILURE;
+   \                     ??emberAfWriteAttributeExternal_0: (+1)
+   \       0x38   0x2001             MOVS     R0,#+1
+   \       0x3A   0xE012             B.N      ??emberAfWriteAttributeExternal_2
+     60              case EMBER_ZCL_ATTRIBUTE_WRITE_PERMISSION_ALLOW_WRITE_NORMAL:
+     61              case EMBER_ZCL_ATTRIBUTE_WRITE_PERMISSION_ALLOW_WRITE_OF_READ_ONLY:
+     62                return emAfWriteAttribute(endpoint,
+     63                                          cluster,
+     64                                          attributeID,
+     65                                          mask,
+     66                                          manufacturerCode,
+     67                                          dataPtr,
+     68                                          dataType,
+     69                                          (extWritePermission
+     70                                           == EMBER_ZCL_ATTRIBUTE_WRITE_PERMISSION_ALLOW_WRITE_OF_READ_ONLY),
+     71                                          false);
+   \                     ??emberAfWriteAttributeExternal_1: (+1)
+   \       0x3C   0xD101             BNE.N    ??emberAfWriteAttributeExternal_3
+   \       0x3E   0x2001             MOVS     R0,#+1
+   \       0x40   0xE000             B.N      ??emberAfWriteAttributeExternal_4
+   \                     ??emberAfWriteAttributeExternal_3: (+1)
+   \       0x42   0x2000             MOVS     R0,#+0
+   \                     ??emberAfWriteAttributeExternal_4: (+1)
+   \       0x44   0x2100             MOVS     R1,#+0
+   \       0x46   0x9104             STR      R1,[SP, #+16]
+   \       0x48   0x9003             STR      R0,[SP, #+12]
+   \       0x4A   0xB2ED             UXTB     R5,R5
+   \       0x4C   0x9502             STR      R5,[SP, #+8]
+   \       0x4E   0xF8CD 0xA004      STR      R10,[SP, #+4]
+   \       0x52   0xB2A4             UXTH     R4,R4
+   \       0x54   0x9400             STR      R4,[SP, #+0]
+   \       0x56   0x464B             MOV      R3,R9
+   \       0x58   0x4642             MOV      R2,R8
+   \       0x5A   0x4639             MOV      R1,R7
+   \       0x5C   0x4630             MOV      R0,R6
+   \       0x5E   0x.... 0x....      BL       emAfWriteAttribute
+     72              default:
+     73                return (EmberAfStatus)extWritePermission;
+   \                     ??emberAfWriteAttributeExternal_2: (+1)
+   \       0x62   0xB006             ADD      SP,SP,#+24
+   \       0x64   0xE8BD 0x87F0      POP      {R4-R10,PC}
+     74            }
+     75          }
+     76          
+     77          //@deprecated use emberAfWriteServerAttribute or emberAfWriteClientAttribute
+
+   \                                 In section .text, align 2, keep-with-next
+     78          EmberAfStatus emberAfWriteAttribute(uint8_t endpoint,
+     79                                              EmberAfClusterId cluster,
+     80                                              EmberAfAttributeId attributeID,
+     81                                              uint8_t mask,
+     82                                              uint8_t* dataPtr,
+     83                                              EmberAfAttributeType dataType)
+     84          {
+   \                     emberAfWriteAttribute: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+     85            return emAfWriteAttribute(endpoint,
+     86                                      cluster,
+     87                                      attributeID,
+     88                                      mask,
+     89                                      EMBER_AF_NULL_MANUFACTURER_CODE,
+     90                                      dataPtr,
+     91                                      dataType,
+     92                                      true,   // override read-only?
+     93                                      false); // just test?
+   \        0x4   0x2400             MOVS     R4,#+0
+   \        0x6   0x9404             STR      R4,[SP, #+16]
+   \        0x8   0x2401             MOVS     R4,#+1
+   \        0xA   0x9403             STR      R4,[SP, #+12]
+   \        0xC   0xF89D 0x4024      LDRB     R4,[SP, #+36]
+   \       0x10   0x9402             STR      R4,[SP, #+8]
+   \       0x12   0x9C08             LDR      R4,[SP, #+32]
+   \       0x14   0x9401             STR      R4,[SP, #+4]
+   \       0x16   0x2400             MOVS     R4,#+0
+   \       0x18   0x9400             STR      R4,[SP, #+0]
+   \       0x1A   0x.... 0x....      BL       emAfWriteAttribute
+   \       0x1E   0xB006             ADD      SP,SP,#+24
+   \       0x20   0xBD10             POP      {R4,PC}
+     94          }
+     95          
+
+   \                                 In section .text, align 2, keep-with-next
+     96          EmberAfStatus emberAfWriteClientAttribute(uint8_t endpoint,
+     97                                                    EmberAfClusterId cluster,
+     98                                                    EmberAfAttributeId attributeID,
+     99                                                    uint8_t* dataPtr,
+    100                                                    EmberAfAttributeType dataType)
+    101          {
+   \                     emberAfWriteClientAttribute: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+    102            return emAfWriteAttribute(endpoint,
+    103                                      cluster,
+    104                                      attributeID,
+    105                                      CLUSTER_MASK_CLIENT,
+    106                                      EMBER_AF_NULL_MANUFACTURER_CODE,
+    107                                      dataPtr,
+    108                                      dataType,
+    109                                      true,   // override read-only?
+    110                                      false); // just test?
+   \        0x4   0x2400             MOVS     R4,#+0
+   \        0x6   0x9404             STR      R4,[SP, #+16]
+   \        0x8   0x2401             MOVS     R4,#+1
+   \        0xA   0x9403             STR      R4,[SP, #+12]
+   \        0xC   0xF89D 0x4020      LDRB     R4,[SP, #+32]
+   \       0x10   0x9402             STR      R4,[SP, #+8]
+   \       0x12   0x9301             STR      R3,[SP, #+4]
+   \       0x14   0x2300             MOVS     R3,#+0
+   \       0x16   0x9300             STR      R3,[SP, #+0]
+   \       0x18   0x2302             MOVS     R3,#+2
+   \       0x1A   0x.... 0x....      BL       emAfWriteAttribute
+   \       0x1E   0xB006             ADD      SP,SP,#+24
+   \       0x20   0xBD10             POP      {R4,PC}
+    111          }
+    112          
+
+   \                                 In section .text, align 2, keep-with-next
+    113          EmberAfStatus emberAfWriteServerAttribute(uint8_t endpoint,
+    114                                                    EmberAfClusterId cluster,
+    115                                                    EmberAfAttributeId attributeID,
+    116                                                    uint8_t* dataPtr,
+    117                                                    EmberAfAttributeType dataType)
+    118          {
+   \                     emberAfWriteServerAttribute: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+    119            return emAfWriteAttribute(endpoint,
+    120                                      cluster,
+    121                                      attributeID,
+    122                                      CLUSTER_MASK_SERVER,
+    123                                      EMBER_AF_NULL_MANUFACTURER_CODE,
+    124                                      dataPtr,
+    125                                      dataType,
+    126                                      true,   // override read-only?
+    127                                      false); // just test?
+   \        0x4   0x2400             MOVS     R4,#+0
+   \        0x6   0x9404             STR      R4,[SP, #+16]
+   \        0x8   0x2401             MOVS     R4,#+1
+   \        0xA   0x9403             STR      R4,[SP, #+12]
+   \        0xC   0xF89D 0x4020      LDRB     R4,[SP, #+32]
+   \       0x10   0x9402             STR      R4,[SP, #+8]
+   \       0x12   0x9301             STR      R3,[SP, #+4]
+   \       0x14   0x2300             MOVS     R3,#+0
+   \       0x16   0x9300             STR      R3,[SP, #+0]
+   \       0x18   0x2301             MOVS     R3,#+1
+   \       0x1A   0x.... 0x....      BL       emAfWriteAttribute
+   \       0x1E   0xB006             ADD      SP,SP,#+24
+   \       0x20   0xBD10             POP      {R4,PC}
+    128          }
+    129          
+
+   \                                 In section .text, align 2, keep-with-next
+    130          EmberAfStatus emberAfWriteManufacturerSpecificClientAttribute(uint8_t endpoint,
+    131                                                                        EmberAfClusterId cluster,
+    132                                                                        EmberAfAttributeId attributeID,
+    133                                                                        uint16_t manufacturerCode,
+    134                                                                        uint8_t* dataPtr,
+    135                                                                        EmberAfAttributeType dataType)
+    136          {
+   \                     emberAfWriteManufacturerSpecificClientAttribute: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+    137            return emAfWriteAttribute(endpoint,
+    138                                      cluster,
+    139                                      attributeID,
+    140                                      CLUSTER_MASK_CLIENT,
+    141                                      manufacturerCode,
+    142                                      dataPtr,
+    143                                      dataType,
+    144                                      true,   // override read-only?
+    145                                      false); // just test?
+   \        0x4   0x2400             MOVS     R4,#+0
+   \        0x6   0x9404             STR      R4,[SP, #+16]
+   \        0x8   0x2401             MOVS     R4,#+1
+   \        0xA   0x9403             STR      R4,[SP, #+12]
+   \        0xC   0xF89D 0x4024      LDRB     R4,[SP, #+36]
+   \       0x10   0x9402             STR      R4,[SP, #+8]
+   \       0x12   0x9C08             LDR      R4,[SP, #+32]
+   \       0x14   0x9401             STR      R4,[SP, #+4]
+   \       0x16   0x9300             STR      R3,[SP, #+0]
+   \       0x18   0x2302             MOVS     R3,#+2
+   \       0x1A   0x.... 0x....      BL       emAfWriteAttribute
+   \       0x1E   0xB006             ADD      SP,SP,#+24
+   \       0x20   0xBD10             POP      {R4,PC}
+    146          }
+    147          
+
+   \                                 In section .text, align 2, keep-with-next
+    148          EmberAfStatus emberAfWriteManufacturerSpecificServerAttribute(uint8_t endpoint,
+    149                                                                        EmberAfClusterId cluster,
+    150                                                                        EmberAfAttributeId attributeID,
+    151                                                                        uint16_t manufacturerCode,
+    152                                                                        uint8_t* dataPtr,
+    153                                                                        EmberAfAttributeType dataType)
+    154          {
+   \                     emberAfWriteManufacturerSpecificServerAttribute: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+    155            return emAfWriteAttribute(endpoint,
+    156                                      cluster,
+    157                                      attributeID,
+    158                                      CLUSTER_MASK_SERVER,
+    159                                      manufacturerCode,
+    160                                      dataPtr,
+    161                                      dataType,
+    162                                      true,   // override read-only?
+    163                                      false); // just test?
+   \        0x4   0x2400             MOVS     R4,#+0
+   \        0x6   0x9404             STR      R4,[SP, #+16]
+   \        0x8   0x2401             MOVS     R4,#+1
+   \        0xA   0x9403             STR      R4,[SP, #+12]
+   \        0xC   0xF89D 0x4024      LDRB     R4,[SP, #+36]
+   \       0x10   0x9402             STR      R4,[SP, #+8]
+   \       0x12   0x9C08             LDR      R4,[SP, #+32]
+   \       0x14   0x9401             STR      R4,[SP, #+4]
+   \       0x16   0x9300             STR      R3,[SP, #+0]
+   \       0x18   0x2301             MOVS     R3,#+1
+   \       0x1A   0x.... 0x....      BL       emAfWriteAttribute
+   \       0x1E   0xB006             ADD      SP,SP,#+24
+   \       0x20   0xBD10             POP      {R4,PC}
+    164          }
+    165          
+
+   \                                 In section .text, align 2, keep-with-next
+    166          EmberAfStatus emberAfVerifyAttributeWrite(uint8_t endpoint,
+    167                                                    EmberAfClusterId cluster,
+    168                                                    EmberAfAttributeId attributeID,
+    169                                                    uint8_t mask,
+    170                                                    uint16_t manufacturerCode,
+    171                                                    uint8_t* dataPtr,
+    172                                                    EmberAfAttributeType dataType)
+    173          {
+   \                     emberAfVerifyAttributeWrite: (+1)
+   \        0x0   0xB518             PUSH     {R3,R4,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+    174            return emAfWriteAttribute(endpoint,
+    175                                      cluster,
+    176                                      attributeID,
+    177                                      mask,
+    178                                      manufacturerCode,
+    179                                      dataPtr,
+    180                                      dataType,
+    181                                      false, // override read-only?
+    182                                      true); // just test?
+   \        0x4   0x2401             MOVS     R4,#+1
+   \        0x6   0x9404             STR      R4,[SP, #+16]
+   \        0x8   0x2400             MOVS     R4,#+0
+   \        0xA   0x9403             STR      R4,[SP, #+12]
+   \        0xC   0xF89D 0x4028      LDRB     R4,[SP, #+40]
+   \       0x10   0x9402             STR      R4,[SP, #+8]
+   \       0x12   0x9C09             LDR      R4,[SP, #+36]
+   \       0x14   0x9401             STR      R4,[SP, #+4]
+   \       0x16   0xF8BD 0x4020      LDRH     R4,[SP, #+32]
+   \       0x1A   0x9400             STR      R4,[SP, #+0]
+   \       0x1C   0x.... 0x....      BL       emAfWriteAttribute
+   \       0x20   0xB006             ADD      SP,SP,#+24
+   \       0x22   0xBD10             POP      {R4,PC}
+    183          }
+    184          
+
+   \                                 In section .text, align 2, keep-with-next
+    185          EmberAfStatus emberAfReadAttribute(uint8_t endpoint,
+    186                                             EmberAfClusterId cluster,
+    187                                             EmberAfAttributeId attributeID,
+    188                                             uint8_t mask,
+    189                                             uint8_t *dataPtr,
+    190                                             uint8_t readLength,
+    191                                             EmberAfAttributeType *dataType)
+    192          {
+   \                     emberAfReadAttribute: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+   \        0x4   0x9C09             LDR      R4,[SP, #+36]
+    193            return emAfReadAttribute(endpoint,
+    194                                     cluster,
+    195                                     attributeID,
+    196                                     mask,
+    197                                     EMBER_AF_NULL_MANUFACTURER_CODE,
+    198                                     dataPtr,
+    199                                     readLength,
+    200                                     dataType);
+   \        0x6   0x9D0A             LDR      R5,[SP, #+40]
+   \        0x8   0x9503             STR      R5,[SP, #+12]
+   \        0xA   0xB2E4             UXTB     R4,R4
+   \        0xC   0x9402             STR      R4,[SP, #+8]
+   \        0xE   0x9C08             LDR      R4,[SP, #+32]
+   \       0x10   0x9401             STR      R4,[SP, #+4]
+   \       0x12   0x2400             MOVS     R4,#+0
+   \       0x14   0x9400             STR      R4,[SP, #+0]
+   \       0x16   0x.... 0x....      BL       emAfReadAttribute
+   \       0x1A   0xB005             ADD      SP,SP,#+20
+   \       0x1C   0xBD30             POP      {R4,R5,PC}
+    201          }
+    202          
+
+   \                                 In section .text, align 2, keep-with-next
+    203          EmberAfStatus emberAfReadServerAttribute(uint8_t endpoint,
+    204                                                   EmberAfClusterId cluster,
+    205                                                   EmberAfAttributeId attributeID,
+    206                                                   uint8_t* dataPtr,
+    207                                                   uint8_t readLength)
+    208          {
+   \                     emberAfReadServerAttribute: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+   \        0x4   0x9C08             LDR      R4,[SP, #+32]
+    209            return emAfReadAttribute(endpoint,
+    210                                     cluster,
+    211                                     attributeID,
+    212                                     CLUSTER_MASK_SERVER,
+    213                                     EMBER_AF_NULL_MANUFACTURER_CODE,
+    214                                     dataPtr,
+    215                                     readLength,
+    216                                     NULL);
+   \        0x6   0x2500             MOVS     R5,#+0
+   \        0x8   0x9503             STR      R5,[SP, #+12]
+   \        0xA   0xB2E4             UXTB     R4,R4
+   \        0xC   0x9402             STR      R4,[SP, #+8]
+   \        0xE   0x9301             STR      R3,[SP, #+4]
+   \       0x10   0x462B             MOV      R3,R5
+   \       0x12   0x9300             STR      R3,[SP, #+0]
+   \       0x14   0x2301             MOVS     R3,#+1
+   \       0x16   0x.... 0x....      BL       emAfReadAttribute
+   \       0x1A   0xB005             ADD      SP,SP,#+20
+   \       0x1C   0xBD30             POP      {R4,R5,PC}
+    217          }
+    218          
+
+   \                                 In section .text, align 2, keep-with-next
+    219          EmberAfStatus emberAfReadClientAttribute(uint8_t endpoint,
+    220                                                   EmberAfClusterId cluster,
+    221                                                   EmberAfAttributeId attributeID,
+    222                                                   uint8_t* dataPtr,
+    223                                                   uint8_t readLength)
+    224          {
+   \                     emberAfReadClientAttribute: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+   \        0x4   0x9C08             LDR      R4,[SP, #+32]
+    225            return emAfReadAttribute(endpoint,
+    226                                     cluster,
+    227                                     attributeID,
+    228                                     CLUSTER_MASK_CLIENT,
+    229                                     EMBER_AF_NULL_MANUFACTURER_CODE,
+    230                                     dataPtr,
+    231                                     readLength,
+    232                                     NULL);
+   \        0x6   0x2500             MOVS     R5,#+0
+   \        0x8   0x9503             STR      R5,[SP, #+12]
+   \        0xA   0xB2E4             UXTB     R4,R4
+   \        0xC   0x9402             STR      R4,[SP, #+8]
+   \        0xE   0x9301             STR      R3,[SP, #+4]
+   \       0x10   0x462B             MOV      R3,R5
+   \       0x12   0x9300             STR      R3,[SP, #+0]
+   \       0x14   0x2302             MOVS     R3,#+2
+   \       0x16   0x.... 0x....      BL       emAfReadAttribute
+   \       0x1A   0xB005             ADD      SP,SP,#+20
+   \       0x1C   0xBD30             POP      {R4,R5,PC}
+    233          }
+    234          
+
+   \                                 In section .text, align 2, keep-with-next
+    235          EmberAfStatus emberAfReadManufacturerSpecificServerAttribute(uint8_t endpoint,
+    236                                                                       EmberAfClusterId cluster,
+    237                                                                       EmberAfAttributeId attributeID,
+    238                                                                       uint16_t manufacturerCode,
+    239                                                                       uint8_t* dataPtr,
+    240                                                                       uint8_t readLength)
+    241          {
+   \                     emberAfReadManufacturerSpecificServerAttribute: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+   \        0x4   0x9C09             LDR      R4,[SP, #+36]
+    242            return emAfReadAttribute(endpoint,
+    243                                     cluster,
+    244                                     attributeID,
+    245                                     CLUSTER_MASK_SERVER,
+    246                                     manufacturerCode,
+    247                                     dataPtr,
+    248                                     readLength,
+    249                                     NULL);
+   \        0x6   0x2500             MOVS     R5,#+0
+   \        0x8   0x9503             STR      R5,[SP, #+12]
+   \        0xA   0xB2E4             UXTB     R4,R4
+   \        0xC   0x9402             STR      R4,[SP, #+8]
+   \        0xE   0x9C08             LDR      R4,[SP, #+32]
+   \       0x10   0x9401             STR      R4,[SP, #+4]
+   \       0x12   0x9300             STR      R3,[SP, #+0]
+   \       0x14   0x2301             MOVS     R3,#+1
+   \       0x16   0x.... 0x....      BL       emAfReadAttribute
+   \       0x1A   0xB005             ADD      SP,SP,#+20
+   \       0x1C   0xBD30             POP      {R4,R5,PC}
+    250          }
+    251          
+
+   \                                 In section .text, align 2, keep-with-next
+    252          EmberAfStatus emberAfReadManufacturerSpecificClientAttribute(uint8_t endpoint,
+    253                                                                       EmberAfClusterId cluster,
+    254                                                                       EmberAfAttributeId attributeID,
+    255                                                                       uint16_t manufacturerCode,
+    256                                                                       uint8_t* dataPtr,
+    257                                                                       uint8_t readLength)
+    258          {
+   \                     emberAfReadManufacturerSpecificClientAttribute: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB084             SUB      SP,SP,#+16
+   \        0x4   0x9C09             LDR      R4,[SP, #+36]
+    259            return emAfReadAttribute(endpoint,
+    260                                     cluster,
+    261                                     attributeID,
+    262                                     CLUSTER_MASK_CLIENT,
+    263                                     manufacturerCode,
+    264                                     dataPtr,
+    265                                     readLength,
+    266                                     NULL);
+   \        0x6   0x2500             MOVS     R5,#+0
+   \        0x8   0x9503             STR      R5,[SP, #+12]
+   \        0xA   0xB2E4             UXTB     R4,R4
+   \        0xC   0x9402             STR      R4,[SP, #+8]
+   \        0xE   0x9C08             LDR      R4,[SP, #+32]
+   \       0x10   0x9401             STR      R4,[SP, #+4]
+   \       0x12   0x9300             STR      R3,[SP, #+0]
+   \       0x14   0x2302             MOVS     R3,#+2
+   \       0x16   0x.... 0x....      BL       emAfReadAttribute
+   \       0x1A   0xB005             ADD      SP,SP,#+20
+   \       0x1C   0xBD30             POP      {R4,R5,PC}
+    267          }
+    268          
+
+   \                                 In section .text, align 2, keep-with-next
+    269          bool emberAfReadSequentialAttributesAddToResponse(uint8_t endpoint,
+    270                                                            EmberAfClusterId clusterId,
+    271                                                            EmberAfAttributeId startAttributeId,
+    272                                                            uint8_t mask,
+    273                                                            uint16_t manufacturerCode,
+    274                                                            uint8_t maxAttributeIds,
+    275                                                            bool includeAccessControl)
+    276          {
+   \                     emberAfReadSequentialAttributesAddToResponse: (+1)
+   \        0x0   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+   \        0x4   0xB084             SUB      SP,SP,#+16
+   \        0x6   0x4681             MOV      R9,R0
+   \        0x8   0x468A             MOV      R10,R1
+   \        0xA   0x4616             MOV      R6,R2
+   \        0xC   0x469B             MOV      R11,R3
+   \        0xE   0x9D0E             LDR      R5,[SP, #+56]
+    277            uint16_t i;
+    278            uint16_t discovered = 0;
+   \       0x10   0x2700             MOVS     R7,#+0
+    279            uint16_t skipped = 0;
+   \       0x12   0x46B8             MOV      R8,R7
+    280            uint16_t total = 0;
+   \       0x14   0x4638             MOV      R0,R7
+   \       0x16   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+    281          
+    282            EmberAfCluster *cluster = emberAfFindClusterWithMfgCode(endpoint,
+    283                                                                    clusterId,
+    284                                                                    mask,
+    285                                                                    manufacturerCode);
+   \       0x1A   0x462B             MOV      R3,R5
+   \       0x1C   0xB29B             UXTH     R3,R3
+   \       0x1E   0x465A             MOV      R2,R11
+   \       0x20   0x4648             MOV      R0,R9
+   \       0x22   0x.... 0x....      BL       emberAfFindClusterWithMfgCode
+   \       0x26   0x0004             MOVS     R4,R0
+    286          
+    287            EmberAfAttributeSearchRecord record;
+    288            record.endpoint = endpoint;
+   \       0x28   0xF88D 0x9004      STRB     R9,[SP, #+4]
+    289            record.clusterId = clusterId;
+   \       0x2C   0xF8AD 0xA006      STRH     R10,[SP, #+6]
+    290            record.clusterMask = mask;
+   \       0x30   0xF88D 0xB008      STRB     R11,[SP, #+8]
+    291            record.attributeId = startAttributeId;
+   \       0x34   0xF8AD 0x600A      STRH     R6,[SP, #+10]
+    292            record.manufacturerCode = manufacturerCode;
+   \       0x38   0xF8AD 0x500C      STRH     R5,[SP, #+12]
+    293          
+    294            // If we don't have the cluster or it doesn't match the search, we're done.
+    295            if (cluster == NULL || !emAfMatchCluster(cluster, &record)) {
+   \       0x3C   0xD004             BEQ.N    ??emberAfReadSequentialAttributesAddToResponse_0
+   \       0x3E   0xA901             ADD      R1,SP,#+4
+   \       0x40   0x.... 0x....      BL       emAfMatchCluster
+   \       0x44   0x2800             CMP      R0,#+0
+   \       0x46   0xD101             BNE.N    ??emberAfReadSequentialAttributesAddToResponse_1
+    296              return true;
+   \                     ??emberAfReadSequentialAttributesAddToResponse_0: (+1)
+   \       0x48   0x2001             MOVS     R0,#+1
+   \       0x4A   0xE056             B.N      ??emberAfReadSequentialAttributesAddToResponse_2
+    297            }
+    298          
+    299            for (i = 0; i < cluster->attributeCount; i++) {
+   \                     ??emberAfReadSequentialAttributesAddToResponse_1: (+1)
+   \       0x4C   0x46BA             MOV      R10,R7
+   \       0x4E   0x980F             LDR      R0,[SP, #+60]
+   \       0x50   0x9910             LDR      R1,[SP, #+64]
+   \       0x52   0xF8AD 0x6002      STRH     R6,[SP, #+2]
+   \       0x56   0x4605             MOV      R5,R0
+   \       0x58   0x460E             MOV      R6,R1
+   \       0x5A   0xF8BD 0x9000      LDRH     R9,[SP, #+0]
+   \       0x5E   0xE01D             B.N      ??emberAfReadSequentialAttributesAddToResponse_3
+    300              EmberAfAttributeMetadata *metadata = &cluster->attributes[i];
+    301          
+    302              // If the cluster is not manufacturer-specific, an attribute is considered
+    303              // only if its manufacturer code matches that of the command (which may be
+    304              // unset).
+    305              if (!emberAfClusterIsManufacturerSpecific(cluster)) {
+    306                record.attributeId = metadata->attributeId;
+    307                if (!emAfMatchAttribute(cluster, metadata, &record)) {
+    308                  continue;
+    309                }
+    310              }
+    311          
+    312              if (metadata->attributeId < startAttributeId) {
+    313                skipped++;
+    314              } else if (discovered < maxAttributeIds) {
+    315                emberAfPutInt16uInResp(metadata->attributeId);
+    316                emberAfPutInt8uInResp(metadata->attributeType);
+    317                if (includeAccessControl) {
+    318                  // bit 0 : Readable <-- All our attributes are readable
+    319                  // bit 1 : Writable <-- The only thing we track in the attribute metadata mask
+    320                  // bit 2 : Reportable <-- All our attributes are reportable
+    321                  emberAfPutInt8uInResp((metadata->mask & ATTRIBUTE_MASK_WRITABLE)
+    322                                        ? 0x07
+    323                                        : 0x05);
+   \                     ??emberAfReadSequentialAttributesAddToResponse_4: (+1)
+   \       0x60   0x2005             MOVS     R0,#+5
+   \       0x62   0xE014             B.N      ??emberAfReadSequentialAttributesAddToResponse_5
+   \                     ??emberAfReadSequentialAttributesAddToResponse_6: (+1)
+   \       0x64   0x4639             MOV      R1,R7
+   \       0x66   0x462A             MOV      R2,R5
+   \       0x68   0xB2D2             UXTB     R2,R2
+   \       0x6A   0xB289             UXTH     R1,R1
+   \       0x6C   0x4291             CMP      R1,R2
+   \       0x6E   0xD211             BCS.N    ??emberAfReadSequentialAttributesAddToResponse_7
+   \       0x70   0x.... 0x....      BL       emberAfPutInt16uInResp
+   \       0x74   0xF89B 0x0002      LDRB     R0,[R11, #+2]
+   \       0x78   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x7C   0x4630             MOV      R0,R6
+   \       0x7E   0xB2C0             UXTB     R0,R0
+   \       0x80   0x2800             CMP      R0,#+0
+   \       0x82   0xD006             BEQ.N    ??emberAfReadSequentialAttributesAddToResponse_8
+   \       0x84   0xF89B 0x0004      LDRB     R0,[R11, #+4]
+   \       0x88   0x07C0             LSLS     R0,R0,#+31
+   \       0x8A   0xD5E9             BPL.N    ??emberAfReadSequentialAttributesAddToResponse_4
+   \       0x8C   0x2007             MOVS     R0,#+7
+   \                     ??emberAfReadSequentialAttributesAddToResponse_5: (+1)
+   \       0x8E   0x.... 0x....      BL       emberAfPutInt8uInResp
+    324                }
+    325                discovered++;
+   \                     ??emberAfReadSequentialAttributesAddToResponse_8: (+1)
+   \       0x92   0x1C7F             ADDS     R7,R7,#+1
+    326              } else {
+    327                // MISRA requires ..else if.. to have terminating else.
+    328              }
+    329              total++;
+   \                     ??emberAfReadSequentialAttributesAddToResponse_7: (+1)
+   \       0x94   0xF109 0x0901      ADD      R9,R9,#+1
+   \                     ??emberAfReadSequentialAttributesAddToResponse_9: (+1)
+   \       0x98   0xF10A 0x0A01      ADD      R10,R10,#+1
+   \                     ??emberAfReadSequentialAttributesAddToResponse_3: (+1)
+   \       0x9C   0x4650             MOV      R0,R10
+   \       0x9E   0x8921             LDRH     R1,[R4, #+8]
+   \       0xA0   0xB280             UXTH     R0,R0
+   \       0xA2   0x4288             CMP      R0,R1
+   \       0xA4   0xD21E             BCS.N    ??emberAfReadSequentialAttributesAddToResponse_10
+   \       0xA6   0x6860             LDR      R0,[R4, #+4]
+   \       0xA8   0x4651             MOV      R1,R10
+   \       0xAA   0xB289             UXTH     R1,R1
+   \       0xAC   0xEB01 0x0241      ADD      R2,R1,R1, LSL #+1
+   \       0xB0   0xEB00 0x0B82      ADD      R11,R0,R2, LSL #+2
+   \       0xB4   0x8820             LDRH     R0,[R4, #+0]
+   \       0xB6   0xF5B0 0x4F7C      CMP      R0,#+64512
+   \       0xBA   0xDA0A             BGE.N    ??emberAfReadSequentialAttributesAddToResponse_11
+   \       0xBC   0xF8BB 0x0000      LDRH     R0,[R11, #+0]
+   \       0xC0   0xF8AD 0x000A      STRH     R0,[SP, #+10]
+   \       0xC4   0xAA01             ADD      R2,SP,#+4
+   \       0xC6   0x4659             MOV      R1,R11
+   \       0xC8   0x4620             MOV      R0,R4
+   \       0xCA   0x.... 0x....      BL       emAfMatchAttribute
+   \       0xCE   0x2800             CMP      R0,#+0
+   \       0xD0   0xD0E2             BEQ.N    ??emberAfReadSequentialAttributesAddToResponse_9
+   \                     ??emberAfReadSequentialAttributesAddToResponse_11: (+1)
+   \       0xD2   0xF8BB 0x0000      LDRH     R0,[R11, #+0]
+   \       0xD6   0xF8BD 0x1002      LDRH     R1,[SP, #+2]
+   \       0xDA   0x4288             CMP      R0,R1
+   \       0xDC   0xD2C2             BCS.N    ??emberAfReadSequentialAttributesAddToResponse_6
+   \       0xDE   0xF108 0x0801      ADD      R8,R8,#+1
+   \       0xE2   0xE7D7             B.N      ??emberAfReadSequentialAttributesAddToResponse_7
+    330            }
+    331          
+    332            // We are finished if there are no more attributes to find, which means the
+    333            // number of attributes discovered plus the number skipped equals the total
+    334            // attributes in the cluster.  For manufacturer-specific clusters, the total
+    335            // includes all attributes in the cluster.  For standard ZCL clusters, if the
+    336            // the manufacturer code is set, the total is the number of attributes that
+    337            // match the manufacturer code.  Otherwise, the total is the number of
+    338            // standard ZCL attributes in the cluster.
+    339            return (discovered + skipped == total);
+   \                     ??emberAfReadSequentialAttributesAddToResponse_10: (+1)
+   \       0xE4   0xB2BF             UXTH     R7,R7
+   \       0xE6   0xFA1F 0xF888      UXTH     R8,R8
+   \       0xEA   0x4447             ADD      R7,R8,R7
+   \       0xEC   0xFA1F 0xF989      UXTH     R9,R9
+   \       0xF0   0x454F             CMP      R7,R9
+   \       0xF2   0xD101             BNE.N    ??emberAfReadSequentialAttributesAddToResponse_12
+   \       0xF4   0x2001             MOVS     R0,#+1
+   \       0xF6   0xE000             B.N      ??emberAfReadSequentialAttributesAddToResponse_2
+   \                     ??emberAfReadSequentialAttributesAddToResponse_12: (+1)
+   \       0xF8   0x2000             MOVS     R0,#+0
+   \                     ??emberAfReadSequentialAttributesAddToResponse_2: (+1)
+   \       0xFA   0xB005             ADD      SP,SP,#+20
+   \       0xFC   0xE8BD 0x8FF0      POP      {R4-R11,PC}
+    340          }
+    341          
+
+   \                                 In section .text, align 2, keep-with-next
+    342          static void emberAfAttributeDecodeAndPrintCluster(EmberAfClusterId cluster, uint16_t mfgCode)
+    343          {
+    344          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_ATTRIBUTES)
+    345            uint16_t index = emberAfFindClusterNameIndexWithMfgCode(cluster, mfgCode);
+    346            if (index != 0xFFFF) {
+    347              emberAfAttributesPrintln("(%p)", zclClusterNames[index].name);
+    348            }
+    349            emberAfAttributesFlush();
+    350          #endif //defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_ATTRIBUTES)
+    351          }
+   \                     emberAfAttributeDecodeAndPrintCluster: (+1)
+   \        0x0   0x4770             BX       LR
+    352          
+
+   \                                 In section .text, align 2, keep-with-next
+    353          void emberAfPrintAttributeTable(void)
+    354          {
+   \                     emberAfPrintAttributeTable: (+1)
+   \        0x0   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+   \        0x4   0xB094             SUB      SP,SP,#+80
+    355            uint8_t data[ATTRIBUTE_LARGEST];
+    356            uint8_t endpointIndex, clusterIndex;
+    357            uint16_t attributeIndex;
+    358            EmberAfStatus status;
+    359            uint16_t mfgCode;
+    360            for (endpointIndex = 0;
+   \        0x6   0x2400             MOVS     R4,#+0
+   \        0x8   0x....             LDR.N    R7,??DataTable2
+   \        0xA   0xE000             B.N      ??emberAfPrintAttributeTable_0
+    361                 endpointIndex < emberAfEndpointCount();
+    362                 endpointIndex++) {
+   \                     ??emberAfPrintAttributeTable_1: (+1)
+   \        0xC   0x1C64             ADDS     R4,R4,#+1
+   \                     ??emberAfPrintAttributeTable_0: (+1)
+   \        0xE   0x.... 0x....      BL       emberAfEndpointCount
+   \       0x12   0x4621             MOV      R1,R4
+   \       0x14   0xB2C9             UXTB     R1,R1
+   \       0x16   0x4281             CMP      R1,R0
+   \       0x18   0xD25E             BCS.N    ??emberAfPrintAttributeTable_2
+    363              EmberAfDefinedEndpoint *ep = &(emAfEndpoints[endpointIndex]);
+    364              emberAfAttributesPrintln("ENDPOINT %x", ep->endpoint);
+    365              emberAfAttributesPrintln("clus / side / attr / mfg  /type(len)/ rw / storage / data (raw)");
+    366              emberAfAttributesFlush();
+    367              for (clusterIndex = 0;
+   \       0x1A   0x2500             MOVS     R5,#+0
+   \       0x1C   0xE000             B.N      ??emberAfPrintAttributeTable_3
+    368                   clusterIndex < ep->endpointType->clusterCount;
+    369                   clusterIndex++) {
+   \                     ??emberAfPrintAttributeTable_4: (+1)
+   \       0x1E   0x1C6D             ADDS     R5,R5,#+1
+   \                     ??emberAfPrintAttributeTable_3: (+1)
+   \       0x20   0x4626             MOV      R6,R4
+   \       0x22   0xB2F6             UXTB     R6,R6
+   \       0x24   0x0136             LSLS     R6,R6,#+4
+   \       0x26   0xF107 0x0008      ADD      R0,R7,#+8
+   \       0x2A   0x5980             LDR      R0,[R0, R6]
+   \       0x2C   0x4629             MOV      R1,R5
+   \       0x2E   0x7902             LDRB     R2,[R0, #+4]
+   \       0x30   0xB2C9             UXTB     R1,R1
+   \       0x32   0x4291             CMP      R1,R2
+   \       0x34   0xD2EA             BCS.N    ??emberAfPrintAttributeTable_1
+    370                EmberAfCluster *cluster = &(ep->endpointType->cluster[clusterIndex]);
+   \       0x36   0x6800             LDR      R0,[R0, #+0]
+   \       0x38   0x4629             MOV      R1,R5
+   \       0x3A   0xB2C9             UXTB     R1,R1
+   \       0x3C   0xEB01 0x0281      ADD      R2,R1,R1, LSL #+2
+   \       0x40   0xEB00 0x0882      ADD      R8,R0,R2, LSL #+2
+    371          
+    372                for (attributeIndex = 0;
+   \       0x44   0xF04F 0x0900      MOV      R9,#+0
+   \       0x48   0xE02B             B.N      ??emberAfPrintAttributeTable_5
+    373                     attributeIndex < cluster->attributeCount;
+    374                     attributeIndex++) {
+    375                  EmberAfAttributeMetadata *metaData = &(cluster->attributes[attributeIndex]);
+    376          
+    377                  // Depending on user config, this loop can take a very long time to
+    378                  // run and watchdog reset will  kick in. As a workaround, we'll
+    379                  // manually reset the watchdog.
+    380                  halResetWatchdog();
+    381          
+    382                  emberAfAttributesPrint("%2x / %p / %2x / ",
+    383                                         cluster->clusterId,
+    384                                         (emberAfAttributeIsClient(metaData) ? "clnt" : "srvr"),
+    385                                         metaData->attributeId);
+    386                  mfgCode = emAfGetManufacturerCodeForAttribute(cluster, metaData);
+    387                  if (mfgCode == EMBER_AF_NULL_MANUFACTURER_CODE) {
+    388                    emberAfAttributesPrint("----");
+    389                  } else {
+    390                    emberAfAttributesPrint("%2x", mfgCode);
+    391                  }
+    392                  emberAfAttributesPrint(" / %x (%x) / %p / %p / ",
+    393                                         metaData->attributeType,
+    394                                         emberAfAttributeSize(metaData),
+    395                                         (emberAfAttributeIsReadOnly(metaData) ? "RO" : "RW"),
+    396                                         (emberAfAttributeIsTokenized(metaData)
+    397                                          ? " token "
+    398                                          : (emberAfAttributeIsExternal(metaData)
+    399                                             ? "extern "
+    400                                             : "  RAM  ")));
+    401                  emberAfAttributesFlush();
+    402                  status = emAfReadAttribute(ep->endpoint,
+    403                                             cluster->clusterId,
+    404                                             metaData->attributeId,
+    405                                             (emberAfAttributeIsClient(metaData)
+    406                                              ? CLUSTER_MASK_CLIENT
+    407                                              : CLUSTER_MASK_SERVER),
+    408                                             mfgCode,
+    409                                             data,
+    410                                             ATTRIBUTE_LARGEST,
+    411                                             NULL);
+    412                  if (status == EMBER_ZCL_STATUS_UNSUPPORTED_ATTRIBUTE) {
+    413                    emberAfAttributesPrintln("Unsupported");
+    414                  } else {
+    415                    uint16_t length;
+    416                    if (emberAfIsStringAttributeType(metaData->attributeType)) {
+    417                      length = emberAfStringLength(data) + 1;
+    418                    } else if (emberAfIsLongStringAttributeType(metaData->attributeType)) {
+   \                     ??emberAfPrintAttributeTable_6: (+1)
+   \       0x4A   0xF89A 0x0002      LDRB     R0,[R10, #+2]
+   \       0x4E   0x.... 0x....      BL       emberAfIsLongStringAttributeType
+   \       0x52   0x2800             CMP      R0,#+0
+   \       0x54   0xD01E             BEQ.N    ??emberAfPrintAttributeTable_7
+    419                      length = emberAfLongStringLength(data) + 2;
+   \       0x56   0xA804             ADD      R0,SP,#+16
+   \       0x58   0x.... 0x....      BL       emberAfLongStringLength
+   \       0x5C   0xE01A             B.N      ??emberAfPrintAttributeTable_7
+    420                    } else {
+   \                     ??emberAfPrintAttributeTable_8: (+1)
+   \       0x5E   0x2301             MOVS     R3,#+1
+   \                     ??emberAfPrintAttributeTable_9: (+1)
+   \       0x60   0x2000             MOVS     R0,#+0
+   \       0x62   0x9003             STR      R0,[SP, #+12]
+   \       0x64   0x2040             MOVS     R0,#+64
+   \       0x66   0x9002             STR      R0,[SP, #+8]
+   \       0x68   0xA804             ADD      R0,SP,#+16
+   \       0x6A   0x9001             STR      R0,[SP, #+4]
+   \       0x6C   0x4658             MOV      R0,R11
+   \       0x6E   0x9000             STR      R0,[SP, #+0]
+   \       0x70   0xF8BA 0x2000      LDRH     R2,[R10, #+0]
+   \       0x74   0xF8B8 0x1000      LDRH     R1,[R8, #+0]
+   \       0x78   0x5DB8             LDRB     R0,[R7, R6]
+   \       0x7A   0x.... 0x....      BL       emAfReadAttribute
+   \       0x7E   0x2886             CMP      R0,#+134
+   \       0x80   0xD00D             BEQ.N    ??emberAfPrintAttributeTable_10
+   \       0x82   0xF89A 0x0002      LDRB     R0,[R10, #+2]
+   \       0x86   0x.... 0x....      BL       emberAfIsStringAttributeType
+   \       0x8A   0x2800             CMP      R0,#+0
+   \       0x8C   0xD0DD             BEQ.N    ??emberAfPrintAttributeTable_6
+   \       0x8E   0xA804             ADD      R0,SP,#+16
+   \       0x90   0x.... 0x....      BL       emberAfStringLength
+    421                      length = emberAfAttributeSize(metaData);
+    422                    }
+    423                    UNUSED_VAR(length);
+    424                    emberAfAttributesPrintBuffer(data, length, true);
+    425                    emberAfAttributesFlush();
+    426                    emberAfAttributeDecodeAndPrintCluster(cluster->clusterId, mfgCode);
+   \                     ??emberAfPrintAttributeTable_7: (+1)
+   \       0x94   0x4659             MOV      R1,R11
+   \       0x96   0xF8B8 0x0000      LDRH     R0,[R8, #+0]
+   \       0x9A   0x.... 0x....      BL       emberAfAttributeDecodeAndPrintCluster
+    427                  }
+   \                     ??emberAfPrintAttributeTable_10: (+1)
+   \       0x9E   0xF109 0x0901      ADD      R9,R9,#+1
+   \                     ??emberAfPrintAttributeTable_5: (+1)
+   \       0xA2   0x4648             MOV      R0,R9
+   \       0xA4   0xF8B8 0x1008      LDRH     R1,[R8, #+8]
+   \       0xA8   0xB280             UXTH     R0,R0
+   \       0xAA   0x4288             CMP      R0,R1
+   \       0xAC   0xD2B7             BCS.N    ??emberAfPrintAttributeTable_4
+   \       0xAE   0xF8D8 0x0004      LDR      R0,[R8, #+4]
+   \       0xB2   0x4649             MOV      R1,R9
+   \       0xB4   0xB289             UXTH     R1,R1
+   \       0xB6   0xEB01 0x0241      ADD      R2,R1,R1, LSL #+1
+   \       0xBA   0xEB00 0x0A82      ADD      R10,R0,R2, LSL #+2
+   \       0xBE   0x.... 0x....      BL       halInternalResetWatchDog
+   \       0xC2   0x4651             MOV      R1,R10
+   \       0xC4   0x4640             MOV      R0,R8
+   \       0xC6   0x.... 0x....      BL       emAfGetManufacturerCodeForAttribute
+   \       0xCA   0x4683             MOV      R11,R0
+   \       0xCC   0xF89A 0x0004      LDRB     R0,[R10, #+4]
+   \       0xD0   0x06C0             LSLS     R0,R0,#+27
+   \       0xD2   0xD5C4             BPL.N    ??emberAfPrintAttributeTable_8
+   \       0xD4   0x2302             MOVS     R3,#+2
+   \       0xD6   0xE7C3             B.N      ??emberAfPrintAttributeTable_9
+    428                }
+    429              }
+    430              emberAfAttributesFlush();
+    431            }
+    432          }
+   \                     ??emberAfPrintAttributeTable_2: (+1)
+   \       0xD8   0xB015             ADD      SP,SP,#+84
+   \       0xDA   0xE8BD 0x8FF0      POP      {R4-R11,PC}
+    433          
+    434          // given a clusterId and an attribute to read, this crafts the response
+    435          // and places it in the response buffer. Response is one of two items:
+    436          // 1) unsupported: [attrId:2] [status:1]
+    437          // 2) supported:   [attrId:2] [status:1] [type:1] [data:n]
+    438          //
+
+   \                                 In section .text, align 2, keep-with-next
+    439          void emberAfRetrieveAttributeAndCraftResponse(uint8_t endpoint,
+    440                                                        EmberAfClusterId clusterId,
+    441                                                        EmberAfAttributeId attrId,
+    442                                                        uint8_t mask,
+    443                                                        uint16_t manufacturerCode,
+    444                                                        uint16_t readLength)
+    445          {
+   \                     emberAfRetrieveAttributeAndCraftResponse: (+1)
+   \        0x0   0xB578             PUSH     {R3-R6,LR}
+   \        0x2   0xB095             SUB      SP,SP,#+84
+   \        0x4   0x4616             MOV      R6,R2
+   \        0x6   0x9D1B             LDR      R5,[SP, #+108]
+    446            EmberAfStatus status;
+    447            uint8_t data[ATTRIBUTE_LARGEST];
+    448            uint8_t dataType;
+    449            uint16_t dataLen;
+    450          
+    451            // account for at least one byte of data
+    452            if (readLength < 5) {
+   \        0x8   0xB2AD             UXTH     R5,R5
+   \        0xA   0x2D05             CMP      R5,#+5
+   \        0xC   0xDB31             BLT.N    ??emberAfRetrieveAttributeAndCraftResponse_0
+    453              return;
+    454            }
+    455          
+    456            emberAfAttributesPrintln("OTA READ: ep:%x cid:%2x attid:%2x msk:%x mfcode:%2x",
+    457                                     endpoint,
+    458                                     clusterId, attrId, mask, manufacturerCode);
+    459          
+    460            // lookup the attribute in our table
+    461            status = emAfReadAttribute(endpoint,
+    462                                       clusterId,
+    463                                       attrId,
+    464                                       mask,
+    465                                       manufacturerCode,
+    466                                       data,
+    467                                       ATTRIBUTE_LARGEST,
+    468                                       &dataType);
+   \        0xE   0xAA04             ADD      R2,SP,#+16
+   \       0x10   0x9203             STR      R2,[SP, #+12]
+   \       0x12   0x2240             MOVS     R2,#+64
+   \       0x14   0x9202             STR      R2,[SP, #+8]
+   \       0x16   0xAA05             ADD      R2,SP,#+20
+   \       0x18   0x9201             STR      R2,[SP, #+4]
+   \       0x1A   0xF8BD 0x2068      LDRH     R2,[SP, #+104]
+   \       0x1E   0x9200             STR      R2,[SP, #+0]
+   \       0x20   0x4632             MOV      R2,R6
+   \       0x22   0x.... 0x....      BL       emAfReadAttribute
+   \       0x26   0x0004             MOVS     R4,R0
+    469            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x28   0xD125             BNE.N    ??emberAfRetrieveAttributeAndCraftResponse_1
+    470              dataLen = emberAfAttributeValueSize(dataType, data, sizeof(data));
+   \       0x2A   0x2240             MOVS     R2,#+64
+   \       0x2C   0xA905             ADD      R1,SP,#+20
+   \       0x2E   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \       0x32   0x.... 0x....      BL       emberAfAttributeValueSize
+   \       0x36   0x0004             MOVS     R4,R0
+    471              if (dataLen == 0 || (readLength - 4) < dataLen) {
+   \       0x38   0xD01B             BEQ.N    ??emberAfRetrieveAttributeAndCraftResponse_0
+   \       0x3A   0x1F2D             SUBS     R5,R5,#+4
+   \       0x3C   0x42A5             CMP      R5,R4
+   \       0x3E   0xDB18             BLT.N    ??emberAfRetrieveAttributeAndCraftResponse_0
+    472                // Size retrieval failed or not enough space for attribute.
+    473                return;
+    474              }
+    475            } else {
+    476              emberAfPutInt16uInResp(attrId);
+    477              emberAfPutInt8uInResp(status);
+    478              emberAfAttributesPrintln("READ: clus %2x, attr %2x failed %x",
+    479                                       clusterId,
+    480                                       attrId,
+    481                                       status);
+    482              emberAfAttributesFlush();
+    483              return;
+    484            }
+    485          
+    486            // put attribute in least sig byte first
+    487            emberAfPutInt16uInResp(attrId);
+   \       0x40   0x4630             MOV      R0,R6
+   \       0x42   0x.... 0x....      BL       emberAfPutInt16uInResp
+    488          
+    489            // attribute is found, so copy in the status and the data type
+    490            emberAfPutInt8uInResp(EMBER_ZCL_STATUS_SUCCESS);
+   \       0x46   0x2000             MOVS     R0,#+0
+   \       0x48   0x.... 0x....      BL       emberAfPutInt8uInResp
+    491            emberAfPutInt8uInResp(dataType);
+   \       0x4C   0xF89D 0x0010      LDRB     R0,[SP, #+16]
+   \       0x50   0x.... 0x....      BL       emberAfPutInt8uInResp
+    492          
+    493            if (dataLen < (EMBER_AF_RESPONSE_BUFFER_LEN - appResponseLength)) {
+   \       0x54   0x....             LDR.N    R5,??DataTable2_1
+   \       0x56   0x882E             LDRH     R6,[R5, #+0]
+   \       0x58   0x4630             MOV      R0,R6
+   \       0x5A   0xF1C0 0x0152      RSB      R1,R0,#+82
+   \       0x5E   0x428C             CMP      R4,R1
+   \       0x60   0xDA07             BGE.N    ??emberAfRetrieveAttributeAndCraftResponse_0
+    494          #if (BIGENDIAN_CPU)
+    495              // strings go over the air as length byte and then in human
+    496              // readable format. These should not be flipped. Other attributes
+    497              // need to be flipped so they go little endian OTA
+    498              if (isThisDataTypeSentLittleEndianOTA(dataType)) {
+    499                uint8_t i;
+    500                for (i = 0; i < dataLen; i++) {
+    501                  appResponseData[appResponseLength + i] = data[dataLen - i - 1];
+    502                }
+    503              } else {
+    504                MEMMOVE(&(appResponseData[appResponseLength]), data, dataLen);
+    505              }
+    506          #else //(BIGENDIAN_CPU)
+    507              MEMMOVE(&(appResponseData[appResponseLength]), data, dataLen);
+   \       0x62   0x4622             MOV      R2,R4
+   \       0x64   0xA905             ADD      R1,SP,#+20
+   \       0x66   0x....             LDR.N    R3,??DataTable2_2
+   \       0x68   0x1818             ADDS     R0,R3,R0
+   \       0x6A   0x.... 0x....      BL       __aeabi_memmove
+    508          #endif //(BIGENDIAN_CPU)
+    509              appResponseLength += dataLen;
+   \       0x6E   0x19A4             ADDS     R4,R4,R6
+   \       0x70   0x802C             STRH     R4,[R5, #+0]
+    510            }
+    511          
+    512            emberAfAttributesPrintln("READ: clus %2x, attr %2x, dataLen: %x, OK",
+    513                                     clusterId,
+    514                                     attrId,
+    515                                     dataLen);
+    516            emberAfAttributesFlush();
+    517          }
+   \                     ??emberAfRetrieveAttributeAndCraftResponse_0: (+1)
+   \       0x72   0xB016             ADD      SP,SP,#+88
+   \       0x74   0xBD70             POP      {R4-R6,PC}
+   \                     ??emberAfRetrieveAttributeAndCraftResponse_1: (+1)
+   \       0x76   0x4630             MOV      R0,R6
+   \       0x78   0x.... 0x....      BL       emberAfPutInt16uInResp
+   \       0x7C   0x4620             MOV      R0,R4
+   \       0x7E   0x.... 0x....      BL       emberAfPutInt8uInResp
+   \       0x82   0xE7F6             B.N      ??emberAfRetrieveAttributeAndCraftResponse_0
+    518          
+    519          // This function appends the attribute report fields for the given endpoint,
+    520          // cluster, and attribute to the buffer starting at the index.  If there is
+    521          // insufficient space in the buffer or an error occurs, buffer and bufIndex will
+    522          // remain unchanged.  Otherwise, bufIndex will be incremented appropriately and
+    523          // the fields will be written to the buffer.
+
+   \                                 In section .text, align 2, keep-with-next
+    524          EmberAfStatus emberAfAppendAttributeReportFields(uint8_t endpoint,
+    525                                                           EmberAfClusterId clusterId,
+    526                                                           EmberAfAttributeId attributeId,
+    527                                                           uint8_t mask,
+    528                                                           uint8_t *buffer,
+    529                                                           uint8_t bufLen,
+    530                                                           uint8_t *bufIndex)
+    531          {
+   \                     emberAfAppendAttributeReportFields: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0xB094             SUB      SP,SP,#+80
+   \        0x6   0x4616             MOV      R6,R2
+   \        0x8   0x9D1B             LDR      R5,[SP, #+108]
+    532            EmberAfStatus status;
+    533            EmberAfAttributeType type;
+    534            uint16_t size;
+    535            uint16_t bufLen16 = (uint16_t) bufLen;
+   \        0xA   0xB2ED             UXTB     R5,R5
+    536            uint8_t data[ATTRIBUTE_LARGEST];
+    537          
+    538            status = emberAfReadAttribute(endpoint,
+    539                                          clusterId,
+    540                                          attributeId,
+    541                                          mask,
+    542                                          data,
+    543                                          sizeof(data),
+    544                                          &type);
+   \        0xC   0xAA03             ADD      R2,SP,#+12
+   \        0xE   0x9202             STR      R2,[SP, #+8]
+   \       0x10   0x2240             MOVS     R2,#+64
+   \       0x12   0x9201             STR      R2,[SP, #+4]
+   \       0x14   0xAA04             ADD      R2,SP,#+16
+   \       0x16   0x9200             STR      R2,[SP, #+0]
+   \       0x18   0x4632             MOV      R2,R6
+   \       0x1A   0x.... 0x....      BL       emberAfReadAttribute
+   \       0x1E   0x4680             MOV      R8,R0
+    545            if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x20   0x2800             CMP      R0,#+0
+   \       0x22   0xD12C             BNE.N    ??emberAfAppendAttributeReportFields_0
+   \       0x24   0x9F1C             LDR      R7,[SP, #+112]
+    546              goto kickout;
+    547            }
+    548          
+    549            size = emberAfAttributeValueSize(type, data, sizeof(data));
+   \       0x26   0x2240             MOVS     R2,#+64
+   \       0x28   0xA904             ADD      R1,SP,#+16
+   \       0x2A   0xF89D 0x000C      LDRB     R0,[SP, #+12]
+   \       0x2E   0x.... 0x....      BL       emberAfAttributeValueSize
+   \       0x32   0x4604             MOV      R4,R0
+    550            if (bufLen16 - *bufIndex < 3 || size == 0 || size > bufLen16 - (*bufIndex + 3)) {
+   \       0x34   0x7839             LDRB     R1,[R7, #+0]
+   \       0x36   0x460A             MOV      R2,R1
+   \       0x38   0x1AAD             SUBS     R5,R5,R2
+   \       0x3A   0x2D03             CMP      R5,#+3
+   \       0x3C   0xDB04             BLT.N    ??emberAfAppendAttributeReportFields_1
+   \       0x3E   0x2C00             CMP      R4,#+0
+   \       0x40   0xD002             BEQ.N    ??emberAfAppendAttributeReportFields_1
+   \       0x42   0x1EED             SUBS     R5,R5,#+3
+   \       0x44   0x42A5             CMP      R5,R4
+   \       0x46   0xDA02             BGE.N    ??emberAfAppendAttributeReportFields_2
+    551              status = EMBER_ZCL_STATUS_INSUFFICIENT_SPACE;
+   \                     ??emberAfAppendAttributeReportFields_1: (+1)
+   \       0x48   0xF04F 0x0889      MOV      R8,#+137
+    552              goto kickout;
+   \       0x4C   0xE017             B.N      ??emberAfAppendAttributeReportFields_0
+    553            }
+   \                     ??emberAfAppendAttributeReportFields_2: (+1)
+   \       0x4E   0x981A             LDR      R0,[SP, #+104]
+    554          
+    555            buffer[(*bufIndex)++] = LOW_BYTE(attributeId);
+   \       0x50   0x1C49             ADDS     R1,R1,#+1
+   \       0x52   0x7039             STRB     R1,[R7, #+0]
+   \       0x54   0x5486             STRB     R6,[R0, R2]
+    556            buffer[(*bufIndex)++] = HIGH_BYTE(attributeId);
+   \       0x56   0x7839             LDRB     R1,[R7, #+0]
+   \       0x58   0x1C4A             ADDS     R2,R1,#+1
+   \       0x5A   0x703A             STRB     R2,[R7, #+0]
+   \       0x5C   0x0A36             LSRS     R6,R6,#+8
+   \       0x5E   0x5446             STRB     R6,[R0, R1]
+    557            buffer[(*bufIndex)++] = type;
+   \       0x60   0x7839             LDRB     R1,[R7, #+0]
+   \       0x62   0x1C4A             ADDS     R2,R1,#+1
+   \       0x64   0x703A             STRB     R2,[R7, #+0]
+   \       0x66   0xF89D 0x200C      LDRB     R2,[SP, #+12]
+   \       0x6A   0x5442             STRB     R2,[R0, R1]
+    558          #if (BIGENDIAN_CPU)
+    559            if (isThisDataTypeSentLittleEndianOTA(type)) {
+    560              emberReverseMemCopy(buffer + *bufIndex, data, size);
+    561            } else {
+    562              MEMMOVE(buffer + *bufIndex, data, size);
+    563            }
+    564          #else
+    565            MEMMOVE(buffer + *bufIndex, data, size);
+   \       0x6C   0x4622             MOV      R2,R4
+   \       0x6E   0xA904             ADD      R1,SP,#+16
+   \       0x70   0x783B             LDRB     R3,[R7, #+0]
+   \       0x72   0x18C0             ADDS     R0,R0,R3
+   \       0x74   0x.... 0x....      BL       __aeabi_memmove
+    566          #endif
+    567            *bufIndex += size;
+   \       0x78   0x7838             LDRB     R0,[R7, #+0]
+   \       0x7A   0x1824             ADDS     R4,R4,R0
+   \       0x7C   0x703C             STRB     R4,[R7, #+0]
+    568          
+    569            kickout:
+    570            emberAfAttributesPrintln("REPORT: clus 0x%2x, attr 0x%2x: 0x%x",
+    571                                     clusterId,
+    572                                     attributeId,
+    573                                     status);
+    574            emberAfAttributesFlush();
+    575          
+    576            return status;
+   \                     ??emberAfAppendAttributeReportFields_0: (+1)
+   \       0x7E   0x4640             MOV      R0,R8
+   \       0x80   0xB014             ADD      SP,SP,#+80
+   \       0x82   0xE8BD 0x81F0      POP      {R4-R8,PC}
+    577          }
+    578          
+    579          //------------------------------------------------------------------------------
+    580          // Internal Functions
+    581          
+    582          // writes an attribute (identified by clusterID and attrID to the given value.
+    583          // this returns:
+    584          // - EMBER_ZCL_STATUS_UNSUPPORTED_ATTRIBUTE: if attribute isnt supported by the device (the
+    585          //           device is not found in the attribute table)
+    586          // - EMBER_ZCL_STATUS_INVALID_DATA_TYPE: if the data type passed in doesnt match the type
+    587          //           stored in the attribute table
+    588          // - EMBER_ZCL_STATUS_READ_ONLY: if the attribute isnt writable
+    589          // - EMBER_ZCL_STATUS_INVALID_VALUE: if the value is set out of the allowable range for
+    590          //           the attribute
+    591          // - EMBER_ZCL_STATUS_SUCCESS: if the attribute was found and successfully written
+    592          //
+    593          // if true is passed in for overrideReadOnlyAndDataType then the data type is
+    594          // not checked and the read-only flag is ignored. This mode is meant for
+    595          // testing or setting the initial value of the attribute on the device.
+    596          //
+    597          // if true is passed for justTest, then the type is not written but all
+    598          // checks are done to see if the type could be written
+    599          // reads the attribute specified, returns false if the attribute is not in
+    600          // the table or the data is too large, returns true and writes to dataPtr
+    601          // if the attribute is supported and the readLength specified is less than
+    602          // the length of the data.
+
+   \                                 In section .text, align 2, keep-with-next
+    603          EmberAfStatus emAfWriteAttribute(uint8_t endpoint,
+    604                                           EmberAfClusterId cluster,
+    605                                           EmberAfAttributeId attributeID,
+    606                                           uint8_t mask,
+    607                                           uint16_t manufacturerCode,
+    608                                           uint8_t *data,
+    609                                           EmberAfAttributeType dataType,
+    610                                           bool overrideReadOnlyAndDataType,
+    611                                           bool justTest)
+    612          {
+   \                     emAfWriteAttribute: (+1)
+   \        0x0   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+   \        0x4   0xB088             SUB      SP,SP,#+32
+   \        0x6   0x4606             MOV      R6,R0
+   \        0x8   0x460F             MOV      R7,R1
+   \        0xA   0x4690             MOV      R8,R2
+   \        0xC   0x4699             MOV      R9,R3
+   \        0xE   0x9D12             LDR      R5,[SP, #+72]
+    613            EmberAfAttributeMetadata *metadata = NULL;
+   \       0x10   0x2000             MOVS     R0,#+0
+   \       0x12   0x9004             STR      R0,[SP, #+16]
+    614            EmberAfAttributeSearchRecord record;
+    615            record.endpoint = endpoint;
+   \       0x14   0xF88D 0x6014      STRB     R6,[SP, #+20]
+    616            record.clusterId = cluster;
+   \       0x18   0xF8AD 0x7016      STRH     R7,[SP, #+22]
+    617            record.clusterMask = mask;
+   \       0x1C   0xF88D 0x9018      STRB     R9,[SP, #+24]
+    618            record.attributeId = attributeID;
+   \       0x20   0xF8AD 0x801A      STRH     R8,[SP, #+26]
+    619            record.manufacturerCode = manufacturerCode;
+   \       0x24   0xF8AD 0x501C      STRH     R5,[SP, #+28]
+    620            emAfReadOrWriteAttribute(&record,
+    621                                     &metadata,
+    622                                     NULL,   // buffer
+    623                                     0,      // buffer size
+    624                                     false); // write?
+   \       0x28   0x9000             STR      R0,[SP, #+0]
+   \       0x2A   0x4603             MOV      R3,R0
+   \       0x2C   0x4602             MOV      R2,R0
+   \       0x2E   0xA904             ADD      R1,SP,#+16
+   \       0x30   0xA805             ADD      R0,SP,#+20
+   \       0x32   0x.... 0x....      BL       emAfReadOrWriteAttribute
+    625          
+    626            // if we dont support that attribute
+    627            if (metadata == NULL) {
+   \       0x36   0x9804             LDR      R0,[SP, #+16]
+   \       0x38   0x2800             CMP      R0,#+0
+   \       0x3A   0xD101             BNE.N    ??emAfWriteAttribute_0
+    628              emberAfAttributesPrintln("%pep %x clus %2x attr %2x not supported",
+    629                                       "WRITE ERR: ",
+    630                                       endpoint,
+    631                                       cluster,
+    632                                       attributeID);
+    633              emberAfAttributesFlush();
+    634              return EMBER_ZCL_STATUS_UNSUPPORTED_ATTRIBUTE;
+   \       0x3C   0x2086             MOVS     R0,#+134
+   \       0x3E   0xE0BA             B.N      ??emAfWriteAttribute_1
+    635            }
+   \                     ??emAfWriteAttribute_0: (+1)
+   \       0x40   0x9815             LDR      R0,[SP, #+84]
+    636          
+    637            // if the data type specified by the caller is incorrect
+    638            if (!(overrideReadOnlyAndDataType)) {
+   \       0x42   0xB2C0             UXTB     R0,R0
+   \       0x44   0x2800             CMP      R0,#+0
+   \       0x46   0xD10D             BNE.N    ??emAfWriteAttribute_2
+    639              if (dataType != metadata->attributeType) {
+   \       0x48   0xF89D 0x0050      LDRB     R0,[SP, #+80]
+   \       0x4C   0x9904             LDR      R1,[SP, #+16]
+   \       0x4E   0x7889             LDRB     R1,[R1, #+2]
+   \       0x50   0x4288             CMP      R0,R1
+   \       0x52   0xD001             BEQ.N    ??emAfWriteAttribute_3
+    640                emberAfAttributesPrintln("%pinvalid data type", "WRITE ERR: ");
+    641                emberAfAttributesFlush();
+    642                return EMBER_ZCL_STATUS_INVALID_DATA_TYPE;
+   \       0x54   0x208D             MOVS     R0,#+141
+   \       0x56   0xE0AE             B.N      ??emAfWriteAttribute_1
+    643              }
+    644          
+    645              if (emberAfAttributeIsReadOnly(metadata)) {
+   \                     ??emAfWriteAttribute_3: (+1)
+   \       0x58   0x9804             LDR      R0,[SP, #+16]
+   \       0x5A   0x7900             LDRB     R0,[R0, #+4]
+   \       0x5C   0x07C0             LSLS     R0,R0,#+31
+   \       0x5E   0xD401             BMI.N    ??emAfWriteAttribute_2
+    646                emberAfAttributesPrintln("%pattr not writable", "WRITE ERR: ");
+    647                emberAfAttributesFlush();
+    648                return EMBER_ZCL_STATUS_READ_ONLY;
+   \       0x60   0x2088             MOVS     R0,#+136
+   \       0x62   0xE0A8             B.N      ??emAfWriteAttribute_1
+    649              }
+    650            }
+   \                     ??emAfWriteAttribute_2: (+1)
+   \       0x64   0xF8DD 0xA04C      LDR      R10,[SP, #+76]
+    651          
+    652            // if the value the attribute is being set to is out of range
+    653            // return EMBER_ZCL_STATUS_INVALID_VALUE
+    654            if ((metadata->mask & ATTRIBUTE_MASK_MIN_MAX) != 0U) {
+   \       0x68   0x9804             LDR      R0,[SP, #+16]
+   \       0x6A   0x7900             LDRB     R0,[R0, #+4]
+   \       0x6C   0x0680             LSLS     R0,R0,#+26
+   \       0x6E   0xD526             BPL.N    ??emAfWriteAttribute_4
+    655              EmberAfDefaultAttributeValue minv = metadata->defaultValue.ptrToMinMaxValue->minValue;
+   \       0x70   0x9804             LDR      R0,[SP, #+16]
+   \       0x72   0x6880             LDR      R0,[R0, #+8]
+   \       0x74   0x6840             LDR      R0,[R0, #+4]
+   \       0x76   0x9002             STR      R0,[SP, #+8]
+    656              EmberAfDefaultAttributeValue maxv = metadata->defaultValue.ptrToMinMaxValue->maxValue;
+   \       0x78   0x9804             LDR      R0,[SP, #+16]
+   \       0x7A   0x6880             LDR      R0,[R0, #+8]
+   \       0x7C   0x6880             LDR      R0,[R0, #+8]
+   \       0x7E   0x9001             STR      R0,[SP, #+4]
+    657              bool isAttributeSigned = emberAfIsTypeSigned(metadata->attributeType);
+   \       0x80   0x9804             LDR      R0,[SP, #+16]
+   \       0x82   0x7880             LDRB     R0,[R0, #+2]
+   \       0x84   0x.... 0x....      BL       emberAfIsTypeSigned
+   \       0x88   0x4683             MOV      R11,R0
+    658              uint8_t dataLen = emberAfAttributeSize(metadata);
+   \       0x8A   0x9804             LDR      R0,[SP, #+16]
+   \       0x8C   0x78C0             LDRB     R0,[R0, #+3]
+   \       0x8E   0xF88D 0x0000      STRB     R0,[SP, #+0]
+    659              if (dataLen <= 2) {
+   \       0x92   0x2802             CMP      R0,#+2
+   \       0x94   0x465B             MOV      R3,R11
+   \       0x96   0x4602             MOV      R2,R0
+   \       0x98   0x4651             MOV      R1,R10
+   \       0x9A   0xDC1F             BGT.N    ??emAfWriteAttribute_5
+    660                int8_t minR, maxR;
+    661                uint8_t* minI = (uint8_t*)&(minv.defaultValue);
+    662                uint8_t* maxI = (uint8_t*)&(maxv.defaultValue);
+    663                //On big endian cpu with length 1 only the second byte counts
+    664                #if (BIGENDIAN_CPU)
+    665                if (dataLen == 1) {
+    666                  minI++;
+    667                  maxI++;
+    668                }
+    669                #endif //BIGENDIAN_CPU
+    670                minR = emberAfCompareValues(minI, data, dataLen, isAttributeSigned);
+   \       0x9C   0xA802             ADD      R0,SP,#+8
+   \       0x9E   0x.... 0x....      BL       emberAfCompareValues
+   \       0xA2   0x4604             MOV      R4,R0
+    671                maxR = emberAfCompareValues(maxI, data, dataLen, isAttributeSigned);
+   \       0xA4   0x465B             MOV      R3,R11
+   \       0xA6   0xF89D 0x2000      LDRB     R2,[SP, #+0]
+   \       0xAA   0x4651             MOV      R1,R10
+   \       0xAC   0xA801             ADD      R0,SP,#+4
+   \       0xAE   0x.... 0x....      BL       emberAfCompareValues
+    672                if ((minR == 1) || (maxR == -1)) {
+   \       0xB2   0x2C01             CMP      R4,#+1
+   \       0xB4   0xD021             BEQ.N    ??emAfWriteAttribute_6
+   \       0xB6   0xF04F 0x31FF      MOV      R1,#+4294967295
+   \       0xBA   0x4288             CMP      R0,R1
+   \       0xBC   0xD01D             BEQ.N    ??emAfWriteAttribute_6
+   \                     ??emAfWriteAttribute_4: (+1)
+   \       0xBE   0x9816             LDR      R0,[SP, #+88]
+    673                  return EMBER_ZCL_STATUS_INVALID_VALUE;
+    674                }
+    675              } else {
+    676                if ((emberAfCompareValues(minv.ptrToDefaultValue, data, dataLen, isAttributeSigned) == 1)
+    677                    || (emberAfCompareValues(maxv.ptrToDefaultValue, data, dataLen, isAttributeSigned) == -1)) {
+    678                  return EMBER_ZCL_STATUS_INVALID_VALUE;
+    679                }
+    680              }
+    681            }
+    682          
+    683            // write the data unless this is only a test
+    684            if (!justTest) {
+   \       0xC0   0xB2C0             UXTB     R0,R0
+   \       0xC2   0x2800             CMP      R0,#+0
+   \       0xC4   0xD176             BNE.N    ??emAfWriteAttribute_7
+    685              // Do not know the size of data buffer so use the max 0xFFFF as a bound.
+    686              uint16_t dataSize = emberAfAttributeValueSize(metadata->attributeType,
+    687                                                            data,
+    688                                                            0xFFFF);
+   \       0xC6   0xF64F 0x72FF      MOVW     R2,#+65535
+   \       0xCA   0x4651             MOV      R1,R10
+   \       0xCC   0x9804             LDR      R0,[SP, #+16]
+   \       0xCE   0x7880             LDRB     R0,[R0, #+2]
+   \       0xD0   0x.... 0x....      BL       emberAfAttributeValueSize
+   \       0xD4   0x0004             MOVS     R4,R0
+    689              if (dataSize == 0) {
+   \       0xD6   0xD112             BNE.N    ??emAfWriteAttribute_8
+    690                return EMBER_ZCL_STATUS_FAILURE;
+   \       0xD8   0x2001             MOVS     R0,#+1
+   \       0xDA   0xE06C             B.N      ??emAfWriteAttribute_1
+    691              }
+   \                     ??emAfWriteAttribute_5: (+1)
+   \       0xDC   0x9802             LDR      R0,[SP, #+8]
+   \       0xDE   0x.... 0x....      BL       emberAfCompareValues
+   \       0xE2   0x2801             CMP      R0,#+1
+   \       0xE4   0xD009             BEQ.N    ??emAfWriteAttribute_6
+   \       0xE6   0x465B             MOV      R3,R11
+   \       0xE8   0xF89D 0x2000      LDRB     R2,[SP, #+0]
+   \       0xEC   0x4651             MOV      R1,R10
+   \       0xEE   0x9801             LDR      R0,[SP, #+4]
+   \       0xF0   0x.... 0x....      BL       emberAfCompareValues
+   \       0xF4   0xF110 0x0F01      CMN      R0,#+1
+   \       0xF8   0xD1E1             BNE.N    ??emAfWriteAttribute_4
+   \                     ??emAfWriteAttribute_6: (+1)
+   \       0xFA   0x2087             MOVS     R0,#+135
+   \       0xFC   0xE05B             B.N      ??emAfWriteAttribute_1
+    692              // Pre write attribute callback for all attribute changes,
+    693              // regardless of cluster.
+    694              EmberAfStatus status
+    695                = emberAfPreAttributeChangeCallback(endpoint,
+    696                                                    cluster,
+    697                                                    attributeID,
+    698                                                    mask,
+    699                                                    manufacturerCode,
+    700                                                    dataType,
+    701                                                    dataSize,
+    702                                                    data);
+   \                     ??emAfWriteAttribute_8: (+1)
+   \       0xFE   0xF8CD 0xA00C      STR      R10,[SP, #+12]
+   \      0x102   0xB2C0             UXTB     R0,R0
+   \      0x104   0x9002             STR      R0,[SP, #+8]
+   \      0x106   0xF89D 0x0050      LDRB     R0,[SP, #+80]
+   \      0x10A   0x9001             STR      R0,[SP, #+4]
+   \      0x10C   0x4628             MOV      R0,R5
+   \      0x10E   0xB280             UXTH     R0,R0
+   \      0x110   0x9000             STR      R0,[SP, #+0]
+   \      0x112   0x464B             MOV      R3,R9
+   \      0x114   0x4642             MOV      R2,R8
+   \      0x116   0x4639             MOV      R1,R7
+   \      0x118   0x4630             MOV      R0,R6
+   \      0x11A   0x.... 0x....      BL       emberAfPreAttributeChangeCallback
+    703              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \      0x11E   0x0001             MOVS     R1,R0
+   \      0x120   0xD149             BNE.N    ??emAfWriteAttribute_1
+    704                return status;
+    705              }
+    706          
+    707              // Pre-write attribute callback specific
+    708              // to the cluster that the attribute lives in.
+    709              status = emAfClusterPreAttributeChangedCallback(endpoint,
+    710                                                              cluster,
+    711                                                              attributeID,
+    712                                                              mask,
+    713                                                              manufacturerCode,
+    714                                                              dataType,
+    715                                                              dataSize,
+    716                                                              data);
+   \      0x122   0xF8CD 0xA00C      STR      R10,[SP, #+12]
+   \      0x126   0x4620             MOV      R0,R4
+   \      0x128   0xB2C0             UXTB     R0,R0
+   \      0x12A   0x9002             STR      R0,[SP, #+8]
+   \      0x12C   0xF89D 0x0050      LDRB     R0,[SP, #+80]
+   \      0x130   0x9001             STR      R0,[SP, #+4]
+   \      0x132   0x4628             MOV      R0,R5
+   \      0x134   0xB280             UXTH     R0,R0
+   \      0x136   0x9000             STR      R0,[SP, #+0]
+   \      0x138   0x464B             MOV      R3,R9
+   \      0x13A   0x4642             MOV      R2,R8
+   \      0x13C   0x4639             MOV      R1,R7
+   \      0x13E   0x4630             MOV      R0,R6
+   \      0x140   0x.... 0x....      BL       emAfClusterPreAttributeChangedCallback
+    717              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \      0x144   0x0001             MOVS     R1,R0
+   \      0x146   0xD136             BNE.N    ??emAfWriteAttribute_1
+    718                return status;
+    719              }
+    720          
+    721              // write the attribute
+    722              status = emAfReadOrWriteAttribute(&record,
+    723                                                NULL,    // metadata
+    724                                                data,
+    725                                                0,       // buffer size - unused
+    726                                                true);   // write?
+   \      0x148   0x2001             MOVS     R0,#+1
+   \      0x14A   0x9000             STR      R0,[SP, #+0]
+   \      0x14C   0x2300             MOVS     R3,#+0
+   \      0x14E   0x4652             MOV      R2,R10
+   \      0x150   0x4619             MOV      R1,R3
+   \      0x152   0xA805             ADD      R0,SP,#+20
+   \      0x154   0x.... 0x....      BL       emAfReadOrWriteAttribute
+    727          
+    728              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+   \      0x158   0x0001             MOVS     R1,R0
+   \      0x15A   0xD12C             BNE.N    ??emAfWriteAttribute_1
+    729                return status;
+    730              }
+    731          
+    732              // Save the attribute to token if needed
+    733              // Function itself will weed out tokens that are not tokenized.
+    734              emAfSaveAttributeToToken(data, endpoint, cluster, metadata);
+   \      0x15C   0x9B04             LDR      R3,[SP, #+16]
+   \      0x15E   0x463A             MOV      R2,R7
+   \      0x160   0x4631             MOV      R1,R6
+   \      0x162   0x4650             MOV      R0,R10
+   \      0x164   0x.... 0x....      BL       emAfSaveAttributeToToken
+    735          
+    736              emberAfReportingAttributeChangeCallback(endpoint,
+    737                                                      cluster,
+    738                                                      attributeID,
+    739                                                      mask,
+    740                                                      manufacturerCode,
+    741                                                      dataType,
+    742                                                      data);
+   \      0x168   0xF8CD 0xA008      STR      R10,[SP, #+8]
+   \      0x16C   0xF89D 0x0050      LDRB     R0,[SP, #+80]
+   \      0x170   0x9001             STR      R0,[SP, #+4]
+   \      0x172   0x4628             MOV      R0,R5
+   \      0x174   0xB280             UXTH     R0,R0
+   \      0x176   0x9000             STR      R0,[SP, #+0]
+   \      0x178   0x464B             MOV      R3,R9
+   \      0x17A   0x4642             MOV      R2,R8
+   \      0x17C   0x4639             MOV      R1,R7
+   \      0x17E   0x4630             MOV      R0,R6
+   \      0x180   0x.... 0x....      BL       emberAfReportingAttributeChangeCallback
+    743          
+    744              // Post write attribute callback for all attributes changes, regardless
+    745              // of cluster.
+    746              emberAfPostAttributeChangeCallback(endpoint,
+    747                                                 cluster,
+    748                                                 attributeID,
+    749                                                 mask,
+    750                                                 manufacturerCode,
+    751                                                 dataType,
+    752                                                 dataSize,
+    753                                                 data);
+   \      0x184   0xF8CD 0xA00C      STR      R10,[SP, #+12]
+   \      0x188   0xB2E4             UXTB     R4,R4
+   \      0x18A   0x9402             STR      R4,[SP, #+8]
+   \      0x18C   0xF89D 0x0050      LDRB     R0,[SP, #+80]
+   \      0x190   0x9001             STR      R0,[SP, #+4]
+   \      0x192   0x4628             MOV      R0,R5
+   \      0x194   0xB280             UXTH     R0,R0
+   \      0x196   0x9000             STR      R0,[SP, #+0]
+   \      0x198   0x464B             MOV      R3,R9
+   \      0x19A   0x4642             MOV      R2,R8
+   \      0x19C   0x4639             MOV      R1,R7
+   \      0x19E   0x4630             MOV      R0,R6
+   \      0x1A0   0x.... 0x....      BL       emberAfPostAttributeChangeCallback
+    754          
+    755              // Post-write attribute callback specific
+    756              // to the cluster that the attribute lives in.
+    757              emAfClusterAttributeChangedCallback(endpoint,
+    758                                                  cluster,
+    759                                                  attributeID,
+    760                                                  mask,
+    761                                                  manufacturerCode);
+   \      0x1A4   0xB2AD             UXTH     R5,R5
+   \      0x1A6   0x9500             STR      R5,[SP, #+0]
+   \      0x1A8   0x464B             MOV      R3,R9
+   \      0x1AA   0x4642             MOV      R2,R8
+   \      0x1AC   0x4639             MOV      R1,R7
+   \      0x1AE   0x4630             MOV      R0,R6
+   \      0x1B0   0x.... 0x....      BL       emAfClusterAttributeChangedCallback
+    762            } else {
+    763              // bug: 11618, we are not handling properly external attributes
+    764              // in this case... We need to do something. We don't really
+    765              // know if it will succeed.
+    766              emberAfAttributesPrintln("WRITE: no write, just a test");
+    767              emberAfAttributesFlush();
+    768            }
+    769          
+    770            return EMBER_ZCL_STATUS_SUCCESS;
+   \                     ??emAfWriteAttribute_7: (+1)
+   \      0x1B4   0x2000             MOVS     R0,#+0
+   \                     ??emAfWriteAttribute_1: (+1)
+   \      0x1B6   0xB009             ADD      SP,SP,#+36
+   \      0x1B8   0xE8BD 0x8FF0      POP      {R4-R11,PC}
+    771          }
+    772          
+    773          // If dataPtr is NULL, no data is copied to the caller.
+    774          // readLength should be 0 in that case.
+    775          
+
+   \                                 In section .text, align 2, keep-with-next
+    776          EmberAfStatus emAfReadAttribute(uint8_t endpoint,
+    777                                          EmberAfClusterId cluster,
+    778                                          EmberAfAttributeId attributeID,
+    779                                          uint8_t mask,
+    780                                          uint16_t manufacturerCode,
+    781                                          uint8_t *dataPtr,
+    782                                          uint16_t readLength,
+    783                                          EmberAfAttributeType *dataType)
+    784          {
+   \                     emAfReadAttribute: (+1)
+   \        0x0   0xB5F0             PUSH     {R4-R7,LR}
+   \        0x2   0xB085             SUB      SP,SP,#+20
+   \        0x4   0x9E0A             LDR      R6,[SP, #+40]
+   \        0x6   0x9D0B             LDR      R5,[SP, #+44]
+   \        0x8   0x9C0C             LDR      R4,[SP, #+48]
+    785            EmberAfAttributeMetadata *metadata = NULL;
+   \        0xA   0x2700             MOVS     R7,#+0
+   \        0xC   0x9701             STR      R7,[SP, #+4]
+    786            EmberAfAttributeSearchRecord record;
+    787            EmberAfStatus status;
+    788            record.endpoint = endpoint;
+   \        0xE   0xF88D 0x0008      STRB     R0,[SP, #+8]
+    789            record.clusterId = cluster;
+   \       0x12   0xF8AD 0x100A      STRH     R1,[SP, #+10]
+    790            record.clusterMask = mask;
+   \       0x16   0xF88D 0x300C      STRB     R3,[SP, #+12]
+    791            record.attributeId = attributeID;
+   \       0x1A   0xF8AD 0x200E      STRH     R2,[SP, #+14]
+    792            record.manufacturerCode = manufacturerCode;
+   \       0x1E   0xF8AD 0x6010      STRH     R6,[SP, #+16]
+    793            status = emAfReadOrWriteAttribute(&record,
+    794                                              &metadata,
+    795                                              dataPtr,
+    796                                              readLength,
+    797                                              false); // write?
+   \       0x22   0x4638             MOV      R0,R7
+   \       0x24   0x9000             STR      R0,[SP, #+0]
+   \       0x26   0x4623             MOV      R3,R4
+   \       0x28   0xB29B             UXTH     R3,R3
+   \       0x2A   0x462A             MOV      R2,R5
+   \       0x2C   0xA901             ADD      R1,SP,#+4
+   \       0x2E   0xA802             ADD      R0,SP,#+8
+   \       0x30   0x.... 0x....      BL       emAfReadOrWriteAttribute
+    798          
+    799            if (status == EMBER_ZCL_STATUS_SUCCESS) {
+   \       0x34   0x0001             MOVS     R1,R0
+   \       0x36   0xD105             BNE.N    ??emAfReadAttribute_0
+   \       0x38   0x990D             LDR      R1,[SP, #+52]
+    800              // It worked!  If the user asked for the type, set it before returning.
+    801              if (dataType != NULL) {
+   \       0x3A   0x2900             CMP      R1,#+0
+   \       0x3C   0xD002             BEQ.N    ??emAfReadAttribute_0
+    802                (*dataType) = metadata->attributeType;
+   \       0x3E   0x9A01             LDR      R2,[SP, #+4]
+   \       0x40   0x7892             LDRB     R2,[R2, #+2]
+   \       0x42   0x700A             STRB     R2,[R1, #+0]
+    803              }
+    804            } else { // failed, print debug info
+    805              if (status == EMBER_ZCL_STATUS_INSUFFICIENT_SPACE) {
+    806                emberAfAttributesPrintln("READ: attribute size too large for caller");
+    807                emberAfAttributesFlush();
+    808              }
+    809            }
+    810          
+    811            return status;
+   \                     ??emAfReadAttribute_0: (+1)
+   \       0x44   0xB005             ADD      SP,SP,#+20
+   \       0x46   0xBDF0             POP      {R4-R7,PC}
+    812          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0x....'....        DC32     emAfEndpoints
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \        0x0   0x....'....        DC32     appResponseLength
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \        0x0   0x....'....        DC32     appResponseData
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      40   emAfReadAttribute
+        40   -> emAfReadOrWriteAttribute
+      72   emAfWriteAttribute
+        72   -> emAfClusterAttributeChangedCallback
+        72   -> emAfClusterPreAttributeChangedCallback
+        72   -> emAfReadOrWriteAttribute
+        72   -> emAfSaveAttributeToToken
+        72   -> emberAfAttributeValueSize
+        72   -> emberAfCompareValues
+        72   -> emberAfIsTypeSigned
+        72   -> emberAfPostAttributeChangeCallback
+        72   -> emberAfPreAttributeChangeCallback
+        72   -> emberAfReportingAttributeChangeCallback
+     104   emberAfAppendAttributeReportFields
+       104   -> __aeabi_memmove
+       104   -> emberAfAttributeValueSize
+       104   -> emberAfReadAttribute
+       0   emberAfAttributeDecodeAndPrintCluster
+     120   emberAfPrintAttributeTable
+       120   -> emAfGetManufacturerCodeForAttribute
+       120   -> emAfReadAttribute
+       120   -> emberAfAttributeDecodeAndPrintCluster
+       120   -> emberAfEndpointCount
+       120   -> emberAfIsLongStringAttributeType
+       120   -> emberAfIsStringAttributeType
+       120   -> emberAfLongStringLength
+       120   -> emberAfStringLength
+       120   -> halInternalResetWatchDog
+      32   emberAfReadAttribute
+        32   -> emAfReadAttribute
+      32   emberAfReadClientAttribute
+        32   -> emAfReadAttribute
+      32   emberAfReadManufacturerSpecificClientAttribute
+        32   -> emAfReadAttribute
+      32   emberAfReadManufacturerSpecificServerAttribute
+        32   -> emAfReadAttribute
+      56   emberAfReadSequentialAttributesAddToResponse
+        56   -> emAfMatchAttribute
+        56   -> emAfMatchCluster
+        56   -> emberAfFindClusterWithMfgCode
+        56   -> emberAfPutInt16uInResp
+        56   -> emberAfPutInt8uInResp
+      32   emberAfReadServerAttribute
+        32   -> emAfReadAttribute
+     104   emberAfRetrieveAttributeAndCraftResponse
+       104   -> __aeabi_memmove
+       104   -> emAfReadAttribute
+       104   -> emberAfAttributeValueSize
+       104   -> emberAfPutInt16uInResp
+       104   -> emberAfPutInt8uInResp
+      32   emberAfVerifyAttributeWrite
+        32   -> emAfWriteAttribute
+      32   emberAfWriteAttribute
+        32   -> emAfWriteAttribute
+      56   emberAfWriteAttributeExternal
+        56   -> emAfWriteAttribute
+        56   -> emberAfAllowNetworkWriteAttributeCallback
+      32   emberAfWriteClientAttribute
+        32   -> emAfWriteAttribute
+      32   emberAfWriteManufacturerSpecificClientAttribute
+        32   -> emAfWriteAttribute
+      32   emberAfWriteManufacturerSpecificServerAttribute
+        32   -> emAfWriteAttribute
+      32   emberAfWriteServerAttribute
+        32   -> emAfWriteAttribute
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+      72  emAfReadAttribute
+     444  emAfWriteAttribute
+     134  emberAfAppendAttributeReportFields
+       2  emberAfAttributeDecodeAndPrintCluster
+     222  emberAfPrintAttributeTable
+      30  emberAfReadAttribute
+      30  emberAfReadClientAttribute
+      30  emberAfReadManufacturerSpecificClientAttribute
+      30  emberAfReadManufacturerSpecificServerAttribute
+     256  emberAfReadSequentialAttributesAddToResponse
+      30  emberAfReadServerAttribute
+     132  emberAfRetrieveAttributeAndCraftResponse
+      36  emberAfVerifyAttributeWrite
+      34  emberAfWriteAttribute
+     104  emberAfWriteAttributeExternal
+      34  emberAfWriteClientAttribute
+      34  emberAfWriteManufacturerSpecificClientAttribute
+      34  emberAfWriteManufacturerSpecificServerAttribute
+      34  emberAfWriteServerAttribute
+
+ 
+ 1'734 bytes in section .text
+ 
+ 1'734 bytes of CODE memory
+
+Errors: none
+Warnings: none

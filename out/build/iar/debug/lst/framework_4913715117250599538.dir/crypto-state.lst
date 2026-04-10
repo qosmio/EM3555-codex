@@ -1,0 +1,216 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:53
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\security\crypto-state.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\crypto-state.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\security\crypto-state.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"crypto-state.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\security\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\crypto-state.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\crypto-state.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\crypto-state.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\crypto-state.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\security\crypto-state.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief This file records the state of crypto operations so that the application
+      4           * can defer processing until after crypto operations have completed.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          #include "app/framework/util/common.h"
+     20          #include "crypto-state.h"
+     21          
+     22          //------------------------------------------------------------------------------
+     23          
+
+   \                                 In section .bss, align 1
+     24          static EmAfCryptoStatus cryptoStatus = EM_AF_NO_CRYPTO_OPERATION;
+   \                     cryptoStatus:
+   \        0x0                      DS8 1
+     25          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_SECURITY)
+     26          static const char * cryptoStatusText[] = EM_AF_CRYPTO_STATUS_TEXT;
+     27          #endif //defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_SECURITY)
+     28          
+     29          // If we are on a host micro, there is the possibility that a crypto
+     30          // operation ends on the NCP and we fail to hear about it, in this case
+     31          // we need a timeout to safeguard against this flag getting locked
+     32          #if defined(EZSP_HOST)
+     33          EmberEventControl emAfCryptoOperationTimeoutEventControl;
+     34          void emAfCryptoOperationTimeoutEvent(void)
+     35          {
+     36            if (cryptoStatus == EM_AF_CRYPTO_OPERATION_IN_PROGRESS) {
+     37              emAfSetCryptoStatus(EM_AF_NO_CRYPTO_OPERATION);
+     38            }
+     39          }
+     40          EmberEventData emAfCryptoEvents[] = {
+     41            { &emAfCryptoOperationTimeoutEventControl, emAfCryptoOperationTimeoutEvent },
+     42            { NULL, NULL }
+     43          };
+     44          #endif //EZSP_HOST
+     45          
+     46          //------------------------------------------------------------------------------
+     47          
+
+   \                                 In section .text, align 2, keep-with-next
+     48          EmAfCryptoStatus emAfGetCryptoStatus(void)
+     49          {
+     50          #if defined(EZSP_HOST)
+     51            // Everytime someone asks for the crypto state, we check our
+     52            // crypto timeout
+     53            emberRunEvents(emAfCryptoEvents);
+     54          #endif //EZSP_HOST
+     55          
+     56            return cryptoStatus;
+   \                     emAfGetCryptoStatus: (+1)
+   \        0x0   0x....             LDR.N    R0,??DataTable1
+   \        0x2   0x7800             LDRB     R0,[R0, #+0]
+   \        0x4   0x4770             BX       LR
+     57          }
+     58          
+
+   \                                 In section .text, align 2, keep-with-next
+     59          void emAfSetCryptoStatus(EmAfCryptoStatus newStatus)
+     60          {
+     61            cryptoStatus = newStatus;
+   \                     emAfSetCryptoStatus: (+1)
+   \        0x0   0x....             LDR.N    R1,??DataTable1
+   \        0x2   0x7008             STRB     R0,[R1, #+0]
+     62            emberAfSecurityPrintln("Crypto state: %p", cryptoStatusText[cryptoStatus]);
+     63          
+     64          #if defined(EZSP_HOST)
+     65            // If crypto is starting, we set the timeout, otherwise we cancel it.
+     66            if (cryptoStatus == EM_AF_CRYPTO_OPERATION_IN_PROGRESS) {
+     67              emberEventControlSetDelayMS(emAfCryptoOperationTimeoutEventControl,
+     68                                          CRYPTO_OPERATION_TIMEOUT_MS);
+     69            } else {
+     70              emberEventControlSetInactive(emAfCryptoOperationTimeoutEventControl);
+     71            }
+     72          #endif //EZSP_HOST
+     73          }
+   \        0x4   0x4770             BX       LR
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0x....'....        DC32     cryptoStatus
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   emAfGetCryptoStatus
+       0   emAfSetCryptoStatus
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       1  cryptoStatus
+       6  emAfGetCryptoStatus
+       6  emAfSetCryptoStatus
+
+ 
+  1 byte  in section .bss
+ 16 bytes in section .text
+ 
+ 16 bytes of CODE memory
+  1 byte  of DATA memory
+
+Errors: none
+Warnings: none

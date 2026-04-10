@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.aiml_2.2.1">
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4343b/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.802" downloadSizeKB="667.802">
+    <property key="timeStamp" value="1774550120967"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4339b/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.514" downloadSizeKB="667.514">
+    <property key="timeStamp" value="1774550120970"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2605a/aiml_soc_blink_siwg917_baremetal.s37" diskSizeKB="402.304" downloadSizeKB="402.304">
+    <property key="timeStamp" value="1774550120973"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2605a/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.706" downloadSizeKB="667.706">
+    <property key="timeStamp" value="1774550120976"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2605a/aiml_soc_voice_control_light_siwg917_baremetal.s37" diskSizeKB="2380.268" downloadSizeKB="2380.268">
+    <property key="timeStamp" value="1774550120991"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2605a/aiml_soc_magic_wand_siwg917_baremetal.s37" diskSizeKB="571.026" downloadSizeKB="571.026">
+    <property key="timeStamp" value="1774550120995"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2605a/aiml_soc_audio_classifier_siwg917_baremetal.s37" diskSizeKB="2380.022" downloadSizeKB="2380.022">
+    <property key="timeStamp" value="1774550120999"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4186c/aiml_soc_model_profiler_efr32_baremetal.s37" diskSizeKB="470.564" downloadSizeKB="470.564">
+    <property key="timeStamp" value="1774550121006"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4186c/aiml_soc_blink_efr32_baremetal.s37" diskSizeKB="223.82" downloadSizeKB="223.82">
+    <property key="timeStamp" value="1774550121009"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4342a/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.706" downloadSizeKB="667.706">
+    <property key="timeStamp" value="1774550121016"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4187c/aiml_soc_model_profiler_efr32_baremetal.s37" diskSizeKB="470.852" downloadSizeKB="470.852">
+    <property key="timeStamp" value="1774550121018"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4187c/aiml_soc_blink_efr32_baremetal.s37" diskSizeKB="224.204" downloadSizeKB="224.204">
+    <property key="timeStamp" value="1774550121021"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_data_capture_efr32_baremetal.s37" diskSizeKB="137.86" downloadSizeKB="137.86">
+    <property key="timeStamp" value="1774550121023"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_model_profiler_efr32_baremetal.s37" diskSizeKB="471.564" downloadSizeKB="471.564">
+    <property key="timeStamp" value="1774550121027"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_anomaly_detection_efr32_baremetal.s37" diskSizeKB="477.204" downloadSizeKB="477.204">
+    <property key="timeStamp" value="1774550121029"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_zigbee_soc_z3_switch_with_voice_efr32_baremetal.s37" diskSizeKB="1123.652" downloadSizeKB="1123.652">
+    <property key="timeStamp" value="1774550121042"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_image_classifier_efr32_baremetal.s37" diskSizeKB="625.228" downloadSizeKB="625.228">
+    <property key="timeStamp" value="1774550121044"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_magic_wand_efr32_baremetal.s37" diskSizeKB="380.62" downloadSizeKB="380.62">
+    <property key="timeStamp" value="1774550121046"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_blink_efr32_baremetal.s37" diskSizeKB="228.132" downloadSizeKB="228.132">
+    <property key="timeStamp" value="1774550121048"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_profiler_firmware_efr32_baremetal.s37" diskSizeKB="986.772" downloadSizeKB="986.772">
+    <property key="timeStamp" value="1774550121050"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_voice_control_light_efr32_micriumos.s37" diskSizeKB="664.748" downloadSizeKB="664.748">
+    <property key="timeStamp" value="1774550121052"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2608a/aiml_soc_audio_classifier_efr32_micriumos.s37" diskSizeKB="670.828" downloadSizeKB="670.828">
+    <property key="timeStamp" value="1774550121054"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4340b/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.706" downloadSizeKB="667.706">
+    <property key="timeStamp" value="1774550121056"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_data_capture_efr32_baremetal.s37" diskSizeKB="133.468" downloadSizeKB="133.468">
+    <property key="timeStamp" value="1774550121058"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_model_profiler_efr32_baremetal.s37" diskSizeKB="470.244" downloadSizeKB="470.244">
+    <property key="timeStamp" value="1774550121059"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_anomaly_detection_efr32_baremetal.s37" diskSizeKB="471.42" downloadSizeKB="471.42">
+    <property key="timeStamp" value="1774550121061"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_zigbee_soc_z3_switch_with_voice_efr32_baremetal.s37" diskSizeKB="1105.9" downloadSizeKB="1105.9">
+    <property key="timeStamp" value="1774550121063"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_image_classifier_efr32_baremetal.s37" diskSizeKB="618.532" downloadSizeKB="618.532">
+    <property key="timeStamp" value="1774550121065"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_magic_wand_efr32_baremetal.s37" diskSizeKB="374.836" downloadSizeKB="374.836">
+    <property key="timeStamp" value="1774550121068"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_blink_efr32_baremetal.s37" diskSizeKB="223.772" downloadSizeKB="223.772">
+    <property key="timeStamp" value="1774550121069"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_profiler_firmware_efr32_baremetal.s37" diskSizeKB="985.452" downloadSizeKB="985.452">
+    <property key="timeStamp" value="1774550121071"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_voice_control_light_efr32_micriumos.s37" diskSizeKB="661.076" downloadSizeKB="661.076">
+    <property key="timeStamp" value="1774550121073"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd2601b/aiml_soc_audio_classifier_efr32_micriumos.s37" diskSizeKB="667.252" downloadSizeKB="667.252">
+    <property key="timeStamp" value="1774550121076"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4343q/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.802" downloadSizeKB="667.802">
+    <property key="timeStamp" value="1774550121078"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4338a/aiml_soc_blink_siwg917_baremetal.s37" diskSizeKB="403.304" downloadSizeKB="403.304">
+    <property key="timeStamp" value="1774550121085"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4338a/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.706" downloadSizeKB="667.706">
+    <property key="timeStamp" value="1774550121087"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4338a/aiml_soc_voice_control_light_siwg917_baremetal.s37" diskSizeKB="2377.428" downloadSizeKB="2377.428">
+    <property key="timeStamp" value="1774550121092"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4338a/aiml_soc_audio_classifier_siwg917_baremetal.s37" diskSizeKB="2377.374" downloadSizeKB="2377.374">
+    <property key="timeStamp" value="1774550121096"/>
+  </assets>
+  <assets path="/extension.aiml_2.2.1/aiml_app/brd4343a/aiml_soc_model_profiler_siwg917_baremetal.s37" diskSizeKB="667.802" downloadSizeKB="667.802">
+    <property key="timeStamp" value="1774550121098"/>
+  </assets>
+</assets>

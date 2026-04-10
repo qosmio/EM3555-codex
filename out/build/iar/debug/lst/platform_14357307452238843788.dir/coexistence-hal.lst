@@ -1,0 +1,556 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:28
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\hal\em3xx\coexistence-hal.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coexistence-hal.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\hal\em3xx\coexistence-hal.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"coexistence-hal.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\hal\em3xx\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coexistence-hal.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coexistence-hal.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\coexistence-hal.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\coexistence-hal.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\radio\rail_lib\plugin\coexistence\hal\em3xx\coexistence-hal.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Radio coexistence EM3XX utilities
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2020 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include "coexistence-hal.h"
+     19          
+     20          #ifndef COEX_HAL_DISABLED
+     21          #if COEX_HAL_SMALL_RHO
+     22          #ifdef  WAKE_ON_DFL_RHO_VAR // Only define this if needed per board header
+     23          uint8_t WAKE_ON_DFL_RHO_VAR = WAKE_ON_DFL_RHO;
+     24          #endif//WAKE_ON_DFL_RHO_VAR
+     25          
+     26          extern void emRadioHoldOffIsr(boolean active);
+     27          
+     28          #define RHO_ENABLED_MASK  0x01u // RHO is enabled
+     29          #define RHO_RADIO_ON_MASK 0x02u // Radio is on (not sleeping)
+     30          static uint8_t rhoState;
+     31          
+     32          void COEX_HAL_Init(void)
+     33          {
+     34            //stub
+     35          }
+     36          
+     37          boolean halGetRadioHoldOff(void)
+     38          {
+     39            return (!!(rhoState & RHO_ENABLED_MASK));
+     40          }
+     41          
+     42          // Return active state of Radio HoldOff GPIO pin
+     43          static boolean halInternalRhoPinIsActive(void)
+     44          {
+     45            return (!!(RHO_IN & BIT(RHO_GPIO & 7)) == !!RHO_ASSERTED);
+     46          }
+     47          
+     48          void RHO_ISR(void)
+     49          {
+     50            if (rhoState & RHO_ENABLED_MASK) {
+     51              // Ack interrupt before reading GPIO to avoid potential of missing int
+     52              INT_MISS = RHO_MISS_BIT;
+     53              INT_GPIOFLAG = RHO_FLAG_BIT; // acknowledge the interrupt
+     54              // Notify Radio land of state change
+     55              emRadioHoldOffIsr(halInternalRhoPinIsActive());
+     56            } else {
+     57             #ifdef  RHO_ISR_FOR_DFL
+     58              // Defer to default GPIO config's ISR
+     59              extern void RHO_ISR_FOR_DFL(void);
+     60              RHO_ISR_FOR_DFL(); // This ISR is expected to acknowledge the interrupt
+     61             #else//!RHO_ISR_FOR_DFL
+     62              INT_GPIOFLAG = RHO_FLAG_BIT; // acknowledge the interrupt
+     63             #endif//RHO_ISR_FOR_DFL
+     64            }
+     65          }
+     66          
+     67          EmberStatus halSetRadioHoldOff(boolean enabled)
+     68          {
+     69            // If enabling afresh or disabling after having been enabled
+     70            // restart from a fresh state just in case.
+     71            // Otherwise don't touch a setup that might already have been
+     72            // put into place by the default 'DFL' use (e.g. a button).
+     73            // When disabling after having been enabled, it is up to the
+     74            // board header caller to reinit the default 'DFL' use if needed.
+     75            if (enabled || (rhoState & RHO_ENABLED_MASK)) {
+     76              RHO_INTCFG = 0;              //disable RHO triggering
+     77              INT_CFGCLR = RHO_INT_EN_BIT; //clear RHO top level int enable
+     78              INT_GPIOFLAG = RHO_FLAG_BIT; //clear stale RHO interrupt
+     79              INT_MISS = RHO_MISS_BIT;     //clear stale missed RHO interrupt
+     80            }
+     81          
+     82            rhoState = (rhoState & (uint8_t) ~RHO_ENABLED_MASK) | (enabled ? RHO_ENABLED_MASK : 0);
+     83          
+     84            // Reconfigure GPIOs for desired state
+     85            ADJUST_GPIO_CONFIG_DFL_RHO(enabled);
+     86          
+     87            if (enabled) {
+     88              // Only update radio if it's on, otherwise defer to when it gets turned on
+     89              if (rhoState & RHO_RADIO_ON_MASK) {
+     90                emRadioHoldOffIsr(halInternalRhoPinIsActive()); //Notify Radio land of current state
+     91                INT_CFGSET = RHO_INT_EN_BIT; //set top level interrupt enable
+     92                // Interrupt on now, ISR will maintain proper state
+     93              }
+     94            } else {
+     95              emRadioHoldOffIsr(FALSE); //Notify Radio land of configured state
+     96              // Leave interrupt state untouched (probably turned off above)
+     97            }
+     98          
+     99            return EMBER_SUCCESS;
+    100          }
+    101          
+    102          void halStackRadioHoldOffPowerDown(void)
+    103          {
+    104            rhoState &= ~RHO_RADIO_ON_MASK;
+    105            if (rhoState & RHO_ENABLED_MASK) {
+    106              // When sleeping radio, no need to monitor RHO anymore
+    107              INT_CFGCLR = RHO_INT_EN_BIT; //clear RHO top level int enable
+    108            }
+    109          }
+    110          
+    111          void halStackRadioHoldOffPowerUp(void)
+    112          {
+    113            rhoState |= RHO_RADIO_ON_MASK;
+    114            if (rhoState & RHO_ENABLED_MASK) {
+    115              // When waking radio, set up initial state and resume monitoring
+    116              INT_CFGCLR = RHO_INT_EN_BIT; //ensure RHO interrupt is off
+    117              RHO_ISR(); // Manually call ISR to assess current state
+    118              INT_CFGSET = RHO_INT_EN_BIT; //enable RHO interrupt
+    119            }
+    120          }
+    121          
+    122          void COEX_HAL_CallAtomic(COEX_AtomicCallback_t cb, void *arg)
+    123          {
+    124            ATOMIC((*cb)(arg); )
+    125          }
+    126          
+    127          #else //!COEX_HAL_SMALL_RHO
+    128          
+    129          #ifdef PTA_GNT_GPIO
+    130          static void coexGntSel(void)
+    131          {
+    132            PTA_GNT_SEL();
+    133          }
+    134          static COEX_HAL_GpioConfig_t ptaGntCfg = {
+    135            .gpio = PTA_GNT_GPIO,           // PORTx_PIN(y) (x=A/B/C, y=0-7)
+    136            .mode = PTA_GNT_GPIOCFG,         // GPIOCFG_IN_PUD[ASSERTED] or GPIOCFG_IN
+    137            .polarity = PTA_GNT_ASSERTED,   // 0 if negated logic; 1 if positive logic
+    138            .flagBit = PTA_GNT_FLAG_BIT,    // INT_IRQnFLAG (n=A/B/C/D)
+    139            .intMissBit = PTA_GNT_MISS_BIT, // INT_MISSIRQn (n=A/B/C/D)
+    140            .intCfg = &(PTA_GNT_INTCFG),    // GPIO_INTCFGn (n=A/B/C/D)
+    141            .intEnBit = PTA_GNT_INT_EN_BIT, // INT_IRQn     (n=A/B/C/D)
+    142            .intSel = &coexGntSel           // do { GPIO_IRQnSEL = PTA_GNT_GPIO; } while (0)
+    143          };
+    144          static void (*gntCallback)(void) = NULL;
+    145          bool COEX_HAL_ConfigGrant(COEX_HAL_GpioConfig_t *gpioConfig)
+    146          {
+    147            bool status = false;
+    148          
+    149            gpioConfig->isr = &PTA_GNT_ISR;
+    150            status = COEX_ConfigGrant(gpioConfig);
+    151            if (status) {
+    152              gntCallback = gpioConfig->config.cb;
+    153            }
+    154            return status;
+    155          }
+    156          void PTA_GNT_ISR(void)
+    157          {
+    158            gntCallback();
+    159          }
+    160          #else //!PTA_GNT_GPIO
+    161          bool COEX_HAL_ConfigGrant(COEX_HAL_GpioConfig_t *gpioConfig)
+    162          {
+    163            (void)gpioConfig;
+    164            return false;
+    165          }
+    166          #endif //PTA_GNT_GPIO
+    167          
+    168          #ifdef PTA_REQ_GPIO
+    169          static void coexReqSel(void)
+    170          {
+    171            PTA_REQ_SEL();
+    172          }
+    173          static COEX_HAL_GpioConfig_t ptaReqCfg = {
+    174            .gpio = PTA_REQ_GPIO,           // PORTx_PIN(y) (x=A/B/C, y=0-7)
+    175            .mode = PTA_REQ_GPIOCFG,         // GPIOCFG_IN_PUD[ASSERTED] or GPIOCFG_IN
+    176            .polarity = PTA_REQ_ASSERTED,   // 0 if negated logic; 1 if positive logic
+    177            .flagBit = PTA_REQ_FLAG_BIT,    // INT_IRQnFLAG (n=A/B/C/D)
+    178            .intMissBit = PTA_REQ_MISS_BIT, // INT_MISSIRQn (n=A/B/C/D)
+    179            .intCfg = &(PTA_REQ_INTCFG),    // GPIO_INTCFGn (n=A/B/C/D)
+    180            .intEnBit = PTA_REQ_INT_EN_BIT, // INT_IRQn     (n=A/B/C/D)
+    181            .intSel = &coexReqSel           // do { GPIO_IRQnSEL = PTA_GNT_GPIO; } while (0)
+    182          };
+    183          static void (*reqCallback)(void) = NULL;
+    184          void PTA_REQ_ISR(void)
+    185          {
+    186            reqCallback();
+    187          }
+    188          bool COEX_HAL_ConfigRequest(COEX_HAL_GpioConfig_t *gpioConfig)
+    189          {
+    190            bool status = false;
+    191          
+    192            gpioConfig->isr = &PTA_REQ_ISR;
+    193            status = COEX_ConfigRequest(gpioConfig);
+    194            if (status) {
+    195              reqCallback = gpioConfig->config.cb;
+    196            }
+    197            return status;
+    198          }
+    199          static void setGpio(COEX_GpioHandle_t gpioHandle, bool enabled)
+    200          {
+    201            if (gpioHandle != NULL) {
+    202              COEX_HAL_GpioConfig_t *gpio = (COEX_HAL_GpioConfig_t*)gpioHandle;
+    203          
+    204              if (enabled == gpio->polarity) {
+    205                halGpioSet(gpio->gpio);
+    206              } else {
+    207                halGpioClear(gpio->gpio);
+    208              }
+    209            }
+    210          }
+    211          static bool isGpioOutSet(COEX_GpioHandle_t gpioHandle, bool defaultValue)
+    212          {
+    213            if (gpioHandle != NULL) {
+    214              COEX_HAL_GpioConfig_t *gpio = (COEX_HAL_GpioConfig_t*)gpioHandle;
+    215              return !!halGpioReadOutput(gpio->gpio) == !!gpio->polarity;
+    216            }
+    217            return defaultValue;
+    218          }
+    219          #else //!PTA_REQ_GPIO
+    220          static void setGpio(COEX_GpioHandle_t gpioHandle, bool enabled)
+    221          {
+    222            (void)gpioHandle;
+    223            (void)enabled;
+    224          }
+    225          static bool isGpioOutSet(COEX_GpioHandle_t gpioHandle, bool defaultValue)
+    226          {
+    227            (void)gpioHandle;
+    228            return defaultValue;
+    229          }
+    230          bool COEX_HAL_ConfigRequest(COEX_HAL_GpioConfig_t *gpioConfig)
+    231          {
+    232            (void)gpioConfig;
+    233            return false;
+    234          }
+    235          #endif //PTA_REQ_GPIO
+    236          
+    237          #ifdef PTA_PRI_GPIO
+    238          static COEX_HAL_GpioConfig_t ptaPriCfg = {
+    239            .gpio = PTA_PRI_GPIO,           // PORTx_PIN(y) (x=A/B/C, y=0-7)
+    240            .mode = PTA_PRI_GPIOCFG,         // GPIOCFG_IN_PUD[ASSERTED] or GPIOCFG_IN
+    241            .polarity = PTA_PRI_ASSERTED,   // 0 if negated logic; 1 if positive logic
+    242          };
+    243          #endif //PTA_PRI_GPIO
+    244          
+    245          #ifdef RHO_GPIO
+    246          static void (*rhoCallback)(void) = NULL;
+    247          static void rhoSel(void)
+    248          {
+    249            RHO_SEL();
+    250          }
+    251          static COEX_HAL_GpioConfig_t rhoCfg = {
+    252            .gpio = RHO_GPIO,               // PORTx_PIN(y) (x=A/B/C, y=0-7)
+    253            .mode = GPIO_P_CFGz_Pxy_IN_PUD, // GPIO_P_CFGz_Pxy_IN_PUD[ASSERTED] or GPIO_P_CFGz_Pxy_IN
+    254            .polarity = RHO_ASSERTED,       // 0 if negated logic; 1 if positive logic
+    255            .flagBit = RHO_FLAG_BIT,        // INT_IRQnFLAG (n=A/B/C/D)
+    256            .intMissBit = RHO_MISS_BIT,     // INT_MISSIRQn (n=A/B/C/D)
+    257            .intCfg = &(RHO_INTCFG),        // GPIO_INTCFGn (n=A/B/C/D)
+    258            .intEnBit = RHO_INT_EN_BIT,     // INT_IRQn     (n=A/B/C/D)
+    259            .intSel = &rhoSel               // do { GPIO_IRQnSEL = PTA_GNT_GPIO; } while (0)
+    260          };
+    261          // RHO_ISR definition might interfere with other definitions.
+    262          void RHO_ISR(void)
+    263          {
+    264            rhoCallback();
+    265          }
+    266          bool COEX_HAL_ConfigRadioHoldOff(COEX_HAL_GpioConfig_t *gpioConfig)
+    267          {
+    268            bool status = false;
+    269          
+    270            gpioConfig->isr = &RHO_ISR;
+    271            status = COEX_ConfigRadioHoldOff(gpioConfig);
+    272            if (status) {
+    273              rhoCallback = gpioConfig->config.cb;
+    274            }
+    275            return status;
+    276          }
+    277          #else //!RHO_ISR
+    278          bool COEX_HAL_ConfigRadioHoldOff(COEX_HAL_GpioConfig_t *gpioConfig)
+    279          {
+    280            (void)gpioConfig;
+    281            return false;
+    282          }
+    283          #endif //RHO_ISR
+    284          
+    285          static void setGpioFlag(COEX_GpioHandle_t gpioHandle, bool enabled)
+    286          {
+    287            if (gpioHandle != NULL) {
+    288              COEX_HAL_GpioConfig_t *gpio = (COEX_HAL_GpioConfig_t*)gpioHandle;
+    289          
+    290              if (enabled) {
+    291                NVIC_SetPendingIRQ((IRQn_Type)gpio->intEnBit);
+    292              } else {
+    293                EVENT_MISS->MISS = gpio->intMissBit;
+    294                EVENT_GPIO->FLAG = gpio->flagBit;
+    295              }
+    296            }
+    297          }
+    298          
+    299          static void setInterruptConfig(COEX_GpioHandle_t gpioHandle)
+    300          {
+    301            if (gpioHandle != NULL) {
+    302              COEX_HAL_GpioConfig_t *gpio = (COEX_HAL_GpioConfig_t*)gpioHandle;
+    303              COEX_GpioConfig_t *coexGpio = &(gpio->config);
+    304              uint32_t interruptEdges = EVENT_GPIO_CFGA_FILT_DEFAULT; /* default = no filter  */
+    305              bool intAsserted = (coexGpio->options & COEX_GPIO_OPTION_INT_ASSERTED) != 0U;
+    306              bool intDeasserted = (coexGpio->options & COEX_GPIO_OPTION_INT_DEASSERTED) != 0U;
+    307          
+    308              if (gpio->polarity ? intAsserted : intDeasserted) {
+    309                interruptEdges |= EVENT_GPIO_CFGx_MOD_RISING_EDGE;
+    310              }
+    311              if (gpio->polarity ? intDeasserted : intAsserted) {
+    312                interruptEdges |= EVENT_GPIO_CFGx_MOD_FALLING_EDGE;
+    313              }
+    314              gpio->interruptEdges |= interruptEdges;
+    315            }
+    316          }
+    317          
+    318          static void enableGpioInt(COEX_GpioHandle_t gpioHandle,
+    319                                    bool enabled,
+    320                                    bool *wasAsserted)
+    321          {
+    322            if (gpioHandle != NULL) {
+    323              COEX_HAL_GpioConfig_t *gpio = (COEX_HAL_GpioConfig_t*)gpioHandle;
+    324          
+    325              // Disable triggering and clear any stale events
+    326              *(gpio->intCfg) = 0;                  //disable triggering
+    327              NVIC_DisableIRQ((IRQn_Type)gpio->intEnBit);      //clear top level int enable
+    328              NVIC_ClearPendingIRQ((IRQn_Type)gpio->intEnBit); //clear any pended event
+    329              setGpioFlag(gpio, false);
+    330              if (enabled && gpio->isr != NULL) {
+    331                if (wasAsserted != NULL) {
+    332                  *wasAsserted = false;
+    333                }
+    334                *(gpio->intCfg) = gpio->interruptEdges;
+    335                gpio->intSel(); //point IRQ to the desired pin
+    336                NVIC_EnableIRQ((IRQn_Type)gpio->intEnBit);  //set top level interrupt enable
+    337              }
+    338            }
+    339          }
+    340          
+    341          static void configGpio(COEX_GpioHandle_t gpioHandle, COEX_GpioConfig_t *coexGpio)
+    342          {
+    343            if (gpioHandle != NULL) {
+    344              COEX_HAL_GpioConfig_t *gpio = (COEX_HAL_GpioConfig_t*)gpioHandle;
+    345              bool defaultAsserted = (coexGpio->options & COEX_GPIO_OPTION_DEFAULT_ASSERTED) != 0U;
+    346              gpio->config = *coexGpio;
+    347          
+    348              // Only configure GPIO if it was not set up prior
+    349              if ((coexGpio->options & COEX_GPIO_OPTION_SHARED) != 0U) {
+    350                gpio->mode = GPIO_P_CFGz_Pxy_OUT_OD;
+    351              } else if ((coexGpio->options & COEX_GPIO_OPTION_OUTPUT) != 0U) {
+    352                gpio->mode = GPIO_P_CFGz_Pxy_OUT;
+    353              } else {
+    354                gpio->mode = GPIO_P_CFGz_Pxy_IN_PUD;
+    355              }
+    356              halGpioSetConfig(gpio->gpio, (HalGpioCfg_t)gpio->mode);
+    357              setGpio(gpio, defaultAsserted);
+    358              setInterruptConfig(gpio);
+    359            }
+    360          }
+    361          
+    362          static bool isGpioInSet(COEX_GpioHandle_t gpioHandle, bool defaultValue)
+    363          {
+    364            if (gpioHandle != NULL) {
+    365              COEX_HAL_GpioConfig_t *gpio = (COEX_HAL_GpioConfig_t*)gpioHandle;
+    366              return !!halGpioRead(gpio->gpio) == !!gpio->polarity;
+    367            }
+    368            return defaultValue;
+    369          }
+    370          
+    371          static const COEX_HalCallbacks_t coexHalCallbacks = {
+    372            .setGpio = &setGpio,
+    373            .setGpioFlag = &setGpioFlag,
+    374            .enableGpioInt = &enableGpioInt,
+    375            .configGpio = &configGpio,
+    376            .isGpioOutSet = &isGpioOutSet,
+    377            .isGpioInSet = &isGpioInSet
+    378          };
+    379          
+    380          void COEX_HAL_CallAtomic(COEX_AtomicCallback_t cb, void *arg)
+    381          {
+    382            ATOMIC((*cb)(arg); )
+    383          }
+    384          
+    385          bool COEX_HAL_ConfigPriority(COEX_HAL_GpioConfig_t *gpioConfig)
+    386          {
+    387            return COEX_ConfigPriority(gpioConfig);
+    388          }
+    389          
+    390          bool COEX_HAL_ConfigPwmRequest(COEX_HAL_GpioConfig_t *gpioConfig)
+    391          {
+    392            (void)gpioConfig;
+    393            return false;
+    394          }
+    395          
+    396          uint8_t COEX_HAL_GetDpPulseWidth(void)
+    397          {
+    398            return 0;
+    399          }
+    400          
+    401          bool COEX_HAL_SetDpPulseWidth(uint8_t pulseWidthUs)
+    402          {
+    403            return false;
+    404          }
+    405          
+    406          void COEX_HAL_Init(void)
+    407          {
+    408            COEX_SetHalCallbacks(&coexHalCallbacks);
+    409            COEX_Options_t options = COEX_OPTION_NONE;
+    410          
+    411            #ifdef SL_RAIL_UTIL_COEX_PWM_REQ_PORT
+    412            COEX_HAL_ConfigPwmRequest(&ptaPwmReqCfg);
+    413            #endif //SL_RAIL_UTIL_COEX_PWM_REQ_PORT
+    414            #ifdef RHO_GPIO
+    415            options |= COEX_OPTION_RHO_ENABLED;
+    416            #endif //RHO_GPIO
+    417            #ifdef ENABLE_PTA
+    418            options |= COEX_OPTION_COEX_ENABLED;
+    419            #endif //ENABLE_PTA
+    420            #ifdef PTA_REQ_MAX_BACKOFF_MASK
+    421            options |= (COEX_OPTION_MAX_REQ_BACKOFF_MASK
+    422                        & PTA_REQ_MAX_BACKOFF_MASK);
+    423            #endif //PTA_REQ_MAX_BACKOFF_MASK
+    424            #if PTA_REQ_GPIOCFG == GPIOCFG_OUT_OD
+    425            options |= COEX_OPTION_REQ_SHARED;
+    426            #endif //PTA_REQ_GPIOCFG == GPIOCFG_OUT_OD
+    427            #if PTA_PRI_GPIOCFG == GPIOCFG_OUT_OD
+    428            options |= COEX_OPTION_PRI_SHARED;
+    429            #endif //PTA_PRI_GPIOCFG == GPIOCFG_OUT_OD
+    430            #ifdef ENABLE_PTA_OPT_ABORT_TX
+    431            options |= COEX_OPTION_TX_ABORT;
+    432            #endif //ENABLE_PTA_OPT_ABORT_TX
+    433            COEX_SetOptions(options);
+    434          
+    435            #ifdef PTA_REQ_GPIO
+    436            COEX_HAL_ConfigRequest(&ptaReqCfg);
+    437            #endif //PTA_REQ_GPIO
+    438            #ifdef PTA_PRI_GPIO
+    439            COEX_HAL_ConfigPriority(&ptaPriCfg);
+    440            #endif //PTA_PRI_GPIO
+    441            #ifdef PTA_PWM_REQ_GPIO
+    442            COEX_HAL_ConfigPwmRequest(&ptaPwmReqCfg);
+    443            #endif //PTA_PWM_REQ_GPIO
+    444            #ifdef PTA_GNT_GPIO
+    445            COEX_HAL_ConfigGrant(&ptaGntCfg);
+    446            #endif //PTA_GNT_GPIO
+    447            #ifdef RHO_GPIO
+    448            COEX_HAL_ConfigRadioHoldOff(&rhoCfg);
+    449            #endif //RHO_GPIO
+    450          }
+    451          #endif //COEX_HAL_SMALL_RHO
+    452          #endif //COEX_HAL_DISABLED
+
+
+ 
+ 
+ 0 bytes of memory
+
+Errors: none
+Warnings: none

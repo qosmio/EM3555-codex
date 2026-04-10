@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_emxxx">
+  <assets path="/emxxx/debug/EM317.json" diskSizeKB="144.523" downloadSizeKB="144.523">
+    <property key="timeStamp" value="1468886356331"/>
+  </assets>
+  <assets path="/emxxx/debug/EM317_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356329"/>
+  </assets>
+  <assets path="/emxxx/debug/EM351.json" diskSizeKB="144.523" downloadSizeKB="144.523">
+    <property key="timeStamp" value="1468886356298"/>
+  </assets>
+  <assets path="/emxxx/debug/EM351_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356348"/>
+  </assets>
+  <assets path="/emxxx/debug/EM357.json" diskSizeKB="144.523" downloadSizeKB="144.523">
+    <property key="timeStamp" value="1468886356316"/>
+  </assets>
+  <assets path="/emxxx/debug/EM357P2P.json" diskSizeKB="144.523" downloadSizeKB="144.523">
+    <property key="timeStamp" value="1468886356324"/>
+  </assets>
+  <assets path="/emxxx/debug/EM357P2P_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356308"/>
+  </assets>
+  <assets path="/emxxx/debug/EM357_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356350"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3581.json" diskSizeKB="149.258" downloadSizeKB="149.258">
+    <property key="timeStamp" value="1468886356326"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3581_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356297"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3582.json" diskSizeKB="190.797" downloadSizeKB="190.797">
+    <property key="timeStamp" value="1468886356345"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3582_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356344"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3585.json" diskSizeKB="149.258" downloadSizeKB="149.258">
+    <property key="timeStamp" value="1468886356343"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3585_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356327"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3586.json" diskSizeKB="190.797" downloadSizeKB="190.797">
+    <property key="timeStamp" value="1468886356294"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3586_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356347"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3587.json" diskSizeKB="149.258" downloadSizeKB="149.258">
+    <property key="timeStamp" value="1468886356296"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3587_core.json" diskSizeKB="1.182" downloadSizeKB="1.182">
+    <property key="timeStamp" value="1468886356346"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3588.json" diskSizeKB="190.797" downloadSizeKB="190.797">
+    <property key="timeStamp" value="1468886356299"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3588_core.json" diskSizeKB="1.182" downloadSizeKB="1.182">
+    <property key="timeStamp" value="1468886356317"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3591.json" diskSizeKB="211.894" downloadSizeKB="211.894">
+    <property key="timeStamp" value="1468886356311"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3591_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356315"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3592.json" diskSizeKB="253.433" downloadSizeKB="253.433">
+    <property key="timeStamp" value="1468886356313"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3592_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356310"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3595.json" diskSizeKB="211.894" downloadSizeKB="211.894">
+    <property key="timeStamp" value="1468886356314"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3595_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356333"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3596.json" diskSizeKB="253.433" downloadSizeKB="253.433">
+    <property key="timeStamp" value="1468886356351"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3596_core.json" diskSizeKB="1.181" downloadSizeKB="1.181">
+    <property key="timeStamp" value="1468886356309"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3597.json" diskSizeKB="211.894" downloadSizeKB="211.894">
+    <property key="timeStamp" value="1468886356328"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3597_core.json" diskSizeKB="1.182" downloadSizeKB="1.182">
+    <property key="timeStamp" value="1468886356349"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3598.json" diskSizeKB="253.433" downloadSizeKB="253.433">
+    <property key="timeStamp" value="1468886356333"/>
+  </assets>
+  <assets path="/emxxx/debug/EM3598_core.json" diskSizeKB="1.182" downloadSizeKB="1.182">
+    <property key="timeStamp" value="1468886356330"/>
+  </assets>
+</assets>

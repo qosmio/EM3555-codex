@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.external.jython.feature" 
+  label="Bundled Jython Support" 
+  description="Simplicity Studio Bundled Jython Support" 
+  changelog="changelog" 
+  version="2.7.5"/>

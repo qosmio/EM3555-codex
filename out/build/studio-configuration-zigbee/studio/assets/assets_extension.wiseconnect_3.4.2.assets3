@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_extension.wiseconnect_3.4.2">
+  <assets path="/extension.wiseconnect_3.4.2/connectivity_firmware.zip" diskSizeKB="2952.194" downloadSizeKB="1688.833" directory="true">
+    <property key="timeStamp" value="1744416916422"/>
+  </assets>
+  <assets path="/extension.wiseconnect_3.4.2/demos/brd2605a/out_of_box_demo.rps" diskSizeKB="130.248" downloadSizeKB="130.248">
+    <property key="timeStamp" value="1744416916425"/>
+  </assets>
+  <assets path="/extension.wiseconnect_3.4.2/demos/brd2605a/siwx917_dev_kit.rps" diskSizeKB="138.14" downloadSizeKB="138.14">
+    <property key="timeStamp" value="1744416916426"/>
+  </assets>
+  <assets path="/extension.wiseconnect_3.4.2/demos/brd2708a/out_of_box_demo.rps" diskSizeKB="130.2" downloadSizeKB="130.2">
+    <property key="timeStamp" value="1744416916428"/>
+  </assets>
+  <assets path="/extension.wiseconnect_3.4.2/demos/brd4342a/out_of_box_demo.rps" diskSizeKB="131.12" downloadSizeKB="131.12">
+    <property key="timeStamp" value="1744416916429"/>
+  </assets>
+  <assets path="/extension.wiseconnect_3.4.2/demos/brd4338a/wireless_test_soc.rps" diskSizeKB="158.58" downloadSizeKB="158.58">
+    <property key="timeStamp" value="1744416916431"/>
+  </assets>
+  <assets path="/extension.wiseconnect_3.4.2/demos/brd4338a/out_of_box_demo.rps" diskSizeKB="131.12" downloadSizeKB="131.12">
+    <property key="timeStamp" value="1744416916432"/>
+  </assets>
+  <assets path="/extension.wiseconnect_3.4.2/demos/brd4338a/wifi_commander_soc.rps" diskSizeKB="93.488" downloadSizeKB="93.488">
+    <property key="timeStamp" value="1744416916433"/>
+  </assets>
+  <assets path="/extension.wiseconnect_3.4.2/demos/brd4343a/out_of_box_demo.rps" diskSizeKB="130.2" downloadSizeKB="130.2">
+    <property key="timeStamp" value="1744416916434"/>
+  </assets>
+</assets>

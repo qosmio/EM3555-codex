@@ -1,0 +1,375 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:16
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\security\security-address-cache.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\security-address-cache.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\security\security-address-cache.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"security-address-cache.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\security\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\security-address-cache.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\security-address-cache.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\security-address-cache.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\security-address-cache.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\util\security\security-address-cache.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief This is the code used by nodes to manage
+      4           * the address table cache.  Devices may need this address
+      5           *  table cache in order to properly decrypt APS Encrypted messages sent
+      6           *  by other devices (i.e. APS_UPDATE_DEVICE).  The source address
+      7           *  of the sending device may not be present in the APS Auxiliary Header
+      8           *  and therefore the stack will have to look it up.  The stack automatically
+      9           *  consults the address table when it is trying to determine the IEEE
+     10           *  address from a node ID, so this code utilizes a small portion of the
+     11           *  address table to cache the data it needs.
+     12           *******************************************************************************
+     13           * # License
+     14           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+     15           *******************************************************************************
+     16           *
+     17           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     18           * software is governed by the terms of Silicon Labs Master Software License
+     19           * Agreement (MSLA) available at
+     20           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     21           * software is distributed to you in Source Code format and is governed by the
+     22           * sections of the MSLA applicable to Source Code.
+     23           *
+     24           ******************************************************************************/
+     25          
+     26          //------------------------------------------------------------------------------
+     27          // INCLUDES
+     28          
+     29          #include PLATFORM_HEADER //compiler/micro specifics, types
+     30          
+     31          #ifdef EZSP_HOST
+     32          // Includes needed for ember related functions for the EZSP host
+     33            #include "stack/include/error.h"
+     34            #include "stack/include/ember-types.h"
+     35            #include "app/util/ezsp/ezsp-protocol.h"
+     36            #include "app/util/ezsp/ezsp.h"
+     37            #include "app/util/ezsp/ezsp-utils.h"
+     38            #include "app/util/ezsp/serial-interface.h"
+     39          #else
+     40          // Includes needed for ember related functions for the EM250
+     41            #include "stack/include/ember.h"
+     42          #endif // EZSP_HOST
+     43          #include "stack/include/error.h"
+     44          #include "hal/hal.h"
+     45          #include "plugin/serial/serial.h"
+     46          #include "app/util/security/security.h"
+     47          
+     48          //------------------------------------------------------------------------------
+     49          
+
+   \                                 In section .bss, align 1
+     50          uint8_t addressCacheSize = 0;
+   \                     addressCacheSize:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     51          static uint8_t addressCacheStartIndex;
+   \                     addressCacheStartIndex:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     52          static uint8_t nextIndex;                 // relative to addressCacheStartIndex
+   \                     nextIndex:
+   \        0x0                      DS8 1
+     53          
+     54          //------------------------------------------------------------------------------
+     55          
+
+   \                                 In section .text, align 2, keep-with-next
+     56          void securityAddressCacheInit(uint8_t securityAddressCacheStartIndex,
+     57                                        uint8_t securityAddressCacheSize)
+     58          {
+     59            addressCacheStartIndex = securityAddressCacheStartIndex;
+   \                     securityAddressCacheInit: (+1)
+   \        0x0   0x....             LDR.N    R2,??DataTable1
+   \        0x2   0x7010             STRB     R0,[R2, #+0]
+     60            addressCacheSize = securityAddressCacheSize;
+   \        0x4   0x....             LDR.N    R0,??DataTable1_1
+   \        0x6   0x7001             STRB     R1,[R0, #+0]
+     61            nextIndex = 0;
+   \        0x8   0x2000             MOVS     R0,#+0
+   \        0xA   0x....             LDR.N    R1,??DataTable1_2
+   \        0xC   0x7008             STRB     R0,[R1, #+0]
+     62          }
+   \        0xE   0x4770             BX       LR
+     63          
+     64          //------------------------------------------------------------------------------
+     65          // The Trust Center Address cache keeps track of EUI64s for the purpose of
+     66          // sending APS Encrypted commands.  During joining the Trust Center
+     67          // will send an APS Encrypted command to the parent of the device and needs to
+     68          // know their long address for creating the Nonce used in encryption.
+     69          
+     70          // We simply loop through our cache and overwrite the last one received.
+     71          
+
+   \                                 In section .text, align 2, keep-with-next
+     72          void securityAddToAddressCache(EmberNodeId nodeId, EmberEUI64 nodeEui64)
+     73          {
+   \                     securityAddToAddressCache: (+1)
+   \        0x0   0xE92D 0x41FC      PUSH     {R2-R8,LR}
+   \        0x4   0x4604             MOV      R4,R0
+   \        0x6   0x460D             MOV      R5,R1
+     74            uint8_t index = nextIndex;
+   \        0x8   0x....             LDR.N    R0,??DataTable1_2
+   \        0xA   0x7806             LDRB     R6,[R0, #+0]
+     75            uint8_t i;
+     76          
+     77            if (addressCacheSize == 0) {
+   \        0xC   0x....             LDR.N    R7,??DataTable1_1
+   \        0xE   0x7838             LDRB     R0,[R7, #+0]
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD03F             BEQ.N    ??securityAddToAddressCache_0
+     78              return;
+     79            }
+     80          
+     81            if (nodeId >= EMBER_BROADCAST_ADDRESS) {
+   \       0x14   0x4620             MOV      R0,R4
+   \       0x16   0xF64F 0x71FC      MOVW     R1,#+65532
+   \       0x1A   0x4288             CMP      R0,R1
+   \       0x1C   0xDB03             BLT.N    ??securityAddToAddressCache_1
+     82              assert(0);
+   \       0x1E   0x2152             MOVS     R1,#+82
+   \       0x20   0x....             LDR.N    R0,??DataTable1_3
+   \       0x22   0x.... 0x....      BL       halInternalAssertFailed
+     83            }
+     84          
+     85            // Search through our cache for an existing IEEE with the same info.
+     86            // If it exists update that.
+     87            for (i = 0; i < addressCacheSize; i++) {
+   \                     ??securityAddToAddressCache_1: (+1)
+   \       0x26   0xF04F 0x0800      MOV      R8,#+0
+   \       0x2A   0xE001             B.N      ??securityAddToAddressCache_2
+   \                     ??securityAddToAddressCache_3: (+1)
+   \       0x2C   0xF108 0x0801      ADD      R8,R8,#+1
+   \                     ??securityAddToAddressCache_2: (+1)
+   \       0x30   0x4640             MOV      R0,R8
+   \       0x32   0x7839             LDRB     R1,[R7, #+0]
+   \       0x34   0xB2C0             UXTB     R0,R0
+   \       0x36   0x4288             CMP      R0,R1
+   \       0x38   0xD20E             BCS.N    ??securityAddToAddressCache_4
+     88              EmberEUI64 eui64;
+     89              emberGetAddressTableRemoteEui64(addressCacheStartIndex + i, eui64);
+   \       0x3A   0x4669             MOV      R1,SP
+   \       0x3C   0x....             LDR.N    R0,??DataTable1
+   \       0x3E   0x7800             LDRB     R0,[R0, #+0]
+   \       0x40   0x4440             ADD      R0,R8,R0
+   \       0x42   0xB2C0             UXTB     R0,R0
+   \       0x44   0x.... 0x....      BL       emberGetAddressTableRemoteEui64
+     90              if (MEMCOMPARE(eui64, nodeEui64, EUI64_SIZE) == 0) {
+   \       0x48   0x2208             MOVS     R2,#+8
+   \       0x4A   0x4629             MOV      R1,R5
+   \       0x4C   0x4668             MOV      R0,SP
+   \       0x4E   0x.... 0x....      BL       memcmp
+   \       0x52   0x2800             CMP      R0,#+0
+   \       0x54   0xD1EA             BNE.N    ??securityAddToAddressCache_3
+     91                index = i;
+   \       0x56   0x4646             MOV      R6,R8
+     92                break;
+     93              }
+     94            }
+     95          
+     96            if (index == nextIndex) {
+   \                     ??securityAddToAddressCache_4: (+1)
+   \       0x58   0x....             LDR.N    R0,??DataTable1_2
+   \       0x5A   0x7801             LDRB     R1,[R0, #+0]
+   \       0x5C   0x4632             MOV      R2,R6
+   \       0x5E   0x460B             MOV      R3,R1
+   \       0x60   0xB2D2             UXTB     R2,R2
+   \       0x62   0x429A             CMP      R2,R3
+   \       0x64   0xD107             BNE.N    ??securityAddToAddressCache_5
+     97              nextIndex += 1;
+   \       0x66   0x1C49             ADDS     R1,R1,#+1
+   \       0x68   0x7001             STRB     R1,[R0, #+0]
+     98              if (nextIndex == addressCacheSize) {
+   \       0x6A   0x783A             LDRB     R2,[R7, #+0]
+   \       0x6C   0xB2C9             UXTB     R1,R1
+   \       0x6E   0x4291             CMP      R1,R2
+   \       0x70   0xD101             BNE.N    ??securityAddToAddressCache_5
+     99                nextIndex = 0;
+   \       0x72   0x2100             MOVS     R1,#+0
+   \       0x74   0x7001             STRB     R1,[R0, #+0]
+    100              }
+    101            }
+    102          
+    103            index += addressCacheStartIndex;
+   \                     ??securityAddToAddressCache_5: (+1)
+   \       0x76   0x....             LDR.N    R0,??DataTable1
+   \       0x78   0x7800             LDRB     R0,[R0, #+0]
+   \       0x7A   0x1986             ADDS     R6,R0,R6
+    104            if (emberSetAddressTableRemoteEui64(index, nodeEui64)
+    105                == EMBER_SUCCESS) {
+   \       0x7C   0x4629             MOV      R1,R5
+   \       0x7E   0x4630             MOV      R0,R6
+   \       0x80   0xB2C0             UXTB     R0,R0
+   \       0x82   0x.... 0x....      BL       emberSetAddressTableRemoteEui64
+   \       0x86   0x2800             CMP      R0,#+0
+   \       0x88   0xD104             BNE.N    ??securityAddToAddressCache_0
+    106              emberSetAddressTableRemoteNodeId(index, nodeId);
+   \       0x8A   0x4621             MOV      R1,R4
+   \       0x8C   0x4630             MOV      R0,R6
+   \       0x8E   0xB2C0             UXTB     R0,R0
+   \       0x90   0x.... 0x....      BL       emberSetAddressTableRemoteNodeId
+    107            }
+    108          }
+   \                     ??securityAddToAddressCache_0: (+1)
+   \       0x94   0xE8BD 0x81F3      POP      {R0,R1,R4-R8,PC}
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0x....'....        DC32     addressCacheStartIndex
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \        0x0   0x....'....        DC32     addressCacheSize
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_2:
+   \        0x0   0x....'....        DC32     nextIndex
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_3:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x73 0x65          DC8 "security-address-cache.c"
+   \              0x63 0x75    
+   \              0x72 0x69    
+   \              0x74 0x79    
+   \              0x2D 0x61    
+   \              0x64 0x64    
+   \              0x72 0x65    
+   \              0x73 0x73    
+   \              0x2D 0x63    
+   \              0x61 0x63    
+   \              0x68 0x65    
+   \              0x2E 0x63    
+   \              0x00
+   \       0x19                      DS8 3
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      32   securityAddToAddressCache
+        32   -> emberGetAddressTableRemoteEui64
+        32   -> emberSetAddressTableRemoteEui64
+        32   -> emberSetAddressTableRemoteNodeId
+        32   -> halInternalAssertFailed
+        32   -> memcmp
+       0   securityAddressCacheInit
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+       4  ??DataTable1_2
+       4  ??DataTable1_3
+      28  ?_0
+       1  addressCacheSize
+       1  addressCacheStartIndex
+       1  nextIndex
+     152  securityAddToAddressCache
+      16  securityAddressCacheInit
+
+ 
+   3 bytes in section .bss
+  28 bytes in section .rodata
+ 184 bytes in section .text
+ 
+ 184 bytes of CODE  memory
+  28 bytes of CONST memory
+   3 bytes of DATA  memory
+
+Errors: none
+Warnings: none

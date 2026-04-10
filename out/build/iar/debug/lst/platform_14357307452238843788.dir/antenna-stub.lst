@@ -1,0 +1,278 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:23
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\antenna-stub\antenna-stub.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\antenna-stub.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\antenna-stub\antenna-stub.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"antenna-stub.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\antenna-stub\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\antenna-stub.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\antenna-stub.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\antenna-stub.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\antenna-stub.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\antenna-stub\antenna-stub.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief stub implementation of antenna control HAL
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "stack/include/ember-types.h"
+     19          #include "hal/hal.h" // includes antenna.h
+     20          
+     21          #ifdef EMBER_STACK_CONNECT
+     22          #include "stack/include/error.h"
+     23          #endif
+     24          
+     25          // Stubs in case someone insists on referencing them
+     26          
+     27          #if     (PHY_RAIL || PHY_DUALRAIL)
+     28          
+     29          // RAIL Antenna Configuration
+     30          
+     31          #include "rail.h"
+     32          
+     33          EmberStatus halInitAntenna(void)
+     34          {
+     35           #ifdef  _SILICON_LABS_32B_SERIES_2
+     36            // On EFR32XG2 tell RAIL to configure the RfPath
+     37            RAIL_AntennaConfig_t antennaConfig = { false, }; // Zero out structure
+     38            antennaConfig.defaultPath = BSP_ANTDIV_SEL_LOC;
+     39            if (RAIL_ConfigAntenna(RAIL_EFR32_HANDLE, &antennaConfig)
+     40                != RAIL_STATUS_NO_ERROR) {
+     41              return EMBER_ERR_FATAL;
+     42            }
+     43           #endif//_SILICON_LABS_32B_SERIES_2
+     44            return EMBER_SUCCESS;
+     45          }
+     46          
+     47          #else//!(PHY_RAIL || PHY_DUALRAIL)
+     48          
+     49          // Non-RAIL HAL-Config Antenna Configuration
+     50          
+
+   \                                 In section .text, align 2, keep-with-next
+     51          EmberStatus halInitAntenna(void)
+     52          {
+     53            return EMBER_SUCCESS;
+   \                     halInitAntenna: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     54          }
+     55          
+     56          #endif//(PHY_RAIL || PHY_DUALRAIL)
+     57          
+
+   \                                 In section .text, align 2, keep-with-next
+     58          HalAntennaMode halGetAntennaRxMode(void)
+     59          {
+     60            return HAL_ANTENNA_MODE_DISABLED;
+   \                     halGetAntennaRxMode: (+1)
+   \        0x0   0x2000             MOVS     R0,#+0
+   \        0x2   0x4770             BX       LR
+     61          }
+     62          
+
+   \                                 In section .text, align 2, keep-with-next
+     63          EmberStatus halSetAntennaRxMode(HalAntennaMode mode)
+     64          {
+     65            return ((mode == HAL_ANTENNA_MODE_DISABLED) ? EMBER_SUCCESS : EMBER_BAD_ARGUMENT);
+   \                     halSetAntennaRxMode: (+1)
+   \        0x0   0x2800             CMP      R0,#+0
+   \        0x2   0xD101             BNE.N    ??halSetAntennaRxMode_0
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x4770             BX       LR
+   \                     ??halSetAntennaRxMode_0: (+1)
+   \        0x8   0x2002             MOVS     R0,#+2
+   \        0xA   0x4770             BX       LR
+     66          }
+     67          
+
+   \                                 In section .text, align 2, keep-with-next
+     68          HalAntennaSelection halGetAntennaSelected(void)
+     69          {
+     70            return HAL_ANTENNA_SELECT_ANTENNA1;
+   \                     halGetAntennaSelected: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+     71          }
+     72          
+
+   \                                 In section .text, align 2, keep-with-next
+     73          HalAntennaMode halGetAntennaMode(void)
+     74          {
+     75            return HAL_ANTENNA_MODE_ENABLE1;
+   \                     halGetAntennaMode: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+     76          }
+     77          
+
+   \                                 In section .text, align 2, keep-with-next
+     78          EmberStatus halSetAntennaMode(HalAntennaMode mode)
+     79          {
+     80            return ((mode == HAL_ANTENNA_MODE_ENABLE1) ? EMBER_SUCCESS : EMBER_BAD_ARGUMENT);
+   \                     halSetAntennaMode: (+1)
+   \        0x0   0x2801             CMP      R0,#+1
+   \        0x2   0xD101             BNE.N    ??halSetAntennaMode_0
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x4770             BX       LR
+   \                     ??halSetAntennaMode_0: (+1)
+   \        0x8   0x2002             MOVS     R0,#+2
+   \        0xA   0x4770             BX       LR
+     81          }
+     82          
+
+   \                                 In section .text, align 2, keep-with-next
+     83          EmberStatus halToggleAntenna(void)
+     84          {
+     85            return EMBER_ERR_FATAL;
+   \                     halToggleAntenna: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+     86          }
+     87          
+
+   \                                 In section .text, align 2, keep-with-next
+     88          EmberStatus halSetAntenna(HalAntennaSelection txAntenna)
+     89          {
+     90            return ((txAntenna == HAL_ANTENNA_SELECT_ANTENNA1)
+     91                    ? EMBER_SUCCESS : EMBER_ERR_FATAL);
+   \                     halSetAntenna: (+1)
+   \        0x0   0x2801             CMP      R0,#+1
+   \        0x2   0xD101             BNE.N    ??halSetAntenna_0
+   \        0x4   0x2000             MOVS     R0,#+0
+   \        0x6   0x4770             BX       LR
+   \                     ??halSetAntenna_0: (+1)
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0x4770             BX       LR
+     92          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   halGetAntennaMode
+       0   halGetAntennaRxMode
+       0   halGetAntennaSelected
+       0   halInitAntenna
+       0   halSetAntenna
+       0   halSetAntennaMode
+       0   halSetAntennaRxMode
+       0   halToggleAntenna
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  halGetAntennaMode
+       4  halGetAntennaRxMode
+       4  halGetAntennaSelected
+       4  halInitAntenna
+      12  halSetAntenna
+      12  halSetAntennaMode
+      12  halSetAntennaRxMode
+       4  halToggleAntenna
+
+ 
+ 56 bytes in section .text
+ 
+ 56 bytes of CODE memory
+
+Errors: none
+Warnings: none

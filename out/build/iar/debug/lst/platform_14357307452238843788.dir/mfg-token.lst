@@ -1,0 +1,655 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         04/Apr/2026  22:55:51
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\mfg-token.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mfg-token.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\mfg-token.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"mfg-token.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mfg-token.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mfg-token.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\mfg-token.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\mfg-token.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\cortexm3\mfg-token.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Cortex-M3 Manufacturing-Token system
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "include/error.h"
+     19          #include "hal/micro/cortexm3/flash.h"
+     20          #include "mfg-token.h"
+     21          
+     22          
+     23          
+     24          
+     25          #define DEFINETOKENS
+     26          #define TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize, ...) \
+     27            const uint16_t TOKEN_##name = TOKEN_##name##_ADDRESS;
+     28          // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+     29          //cstat !MISRAC2012-Dir-4.10
+     30            #include "hal/micro/cortexm3/token-manufacturing.h"
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_CHIP_DATA
+   \                     TOKEN_MFG_CHIP_DATA:
+   \        0x0   0x077E             DC16 1'918
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_PART_DATA
+   \                     TOKEN_MFG_PART_DATA:
+   \        0x0   0x0796             DC16 1'942
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_TESTER_DATA
+   \                     TOKEN_MFG_TESTER_DATA:
+   \        0x0   0x079C             DC16 1'948
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_EMBER_EUI_64
+   \                     TOKEN_MFG_EMBER_EUI_64:
+   \        0x0   0x07A2             DC16 1'954
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_ANALOG_TRIM_NORMAL
+   \                     TOKEN_MFG_ANALOG_TRIM_NORMAL:
+   \        0x0   0x07AA             DC16 1'962
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_ANALOG_TRIM_BOOST
+   \                     TOKEN_MFG_ANALOG_TRIM_BOOST:
+   \        0x0   0x07BE             DC16 1'982
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_ANALOG_TRIM_BOTH
+   \                     TOKEN_MFG_ANALOG_TRIM_BOTH:
+   \        0x0   0x07D2             DC16 2'002
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_REG_TRIM
+   \                     TOKEN_MFG_REG_TRIM:
+   \        0x0   0x07DC             DC16 2'012
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_1V8_REG_VOLTAGE
+   \                     TOKEN_MFG_1V8_REG_VOLTAGE:
+   \        0x0   0x07DE             DC16 2'014
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_VREF_VOLTAGE
+   \                     TOKEN_MFG_VREF_VOLTAGE:
+   \        0x0   0x07E0             DC16 2'016
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_TEMP_CAL
+   \                     TOKEN_MFG_TEMP_CAL:
+   \        0x0   0x07E2             DC16 2'018
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_TEST_TEMP
+   \                     TOKEN_MFG_TEST_TEMP:
+   \        0x0   0x07E4             DC16 2'020
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_FIB_VERSION
+   \                     TOKEN_MFG_FIB_VERSION:
+   \        0x0   0x07F4             DC16 2'036
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_FIB_CHECKSUM
+   \                     TOKEN_MFG_FIB_CHECKSUM:
+   \        0x0   0x07F6             DC16 2'038
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_FIB_OBS
+   \                     TOKEN_MFG_FIB_OBS:
+   \        0x0   0x07F8             DC16 2'040
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_CIB_OBS
+   \                     TOKEN_MFG_CIB_OBS:
+   \        0x0   0x0800             DC16 2'048
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_CUSTOM_VERSION
+   \                     TOKEN_MFG_CUSTOM_VERSION:
+   \        0x0   0x0810             DC16 2'064
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_CUSTOM_EUI_64
+   \                     TOKEN_MFG_CUSTOM_EUI_64:
+   \        0x0   0x0812             DC16 2'066
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_STRING
+   \                     TOKEN_MFG_STRING:
+   \        0x0   0x081A             DC16 2'074
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_BOARD_NAME
+   \                     TOKEN_MFG_BOARD_NAME:
+   \        0x0   0x082A             DC16 2'090
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_MANUF_ID
+   \                     TOKEN_MFG_MANUF_ID:
+   \        0x0   0x083A             DC16 2'106
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_PHY_CONFIG
+   \                     TOKEN_MFG_PHY_CONFIG:
+   \        0x0   0x083C             DC16 2'108
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_BOOTLOAD_AES_KEY
+   \                     TOKEN_MFG_BOOTLOAD_AES_KEY:
+   \        0x0   0x083E             DC16 2'110
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_EZSP_STORAGE
+   \                     TOKEN_MFG_EZSP_STORAGE:
+   \        0x0   0x084E             DC16 2'126
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_ASH_CONFIG
+   \                     TOKEN_MFG_ASH_CONFIG:
+   \        0x0   0x0856             DC16 2'134
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_CBKE_DATA
+   \                     TOKEN_MFG_CBKE_DATA:
+   \        0x0   0x087E             DC16 2'174
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_INSTALLATION_CODE
+   \                     TOKEN_MFG_INSTALLATION_CODE:
+   \        0x0   0x08DA             DC16 2'266
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_OSC24M_BIAS_TRIM
+   \                     TOKEN_MFG_OSC24M_BIAS_TRIM:
+   \        0x0   0x08EE             DC16 2'286
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_SYNTH_FREQ_OFFSET
+   \                     TOKEN_MFG_SYNTH_FREQ_OFFSET:
+   \        0x0   0x08F0             DC16 2'288
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_OSC24M_SETTLE_DELAY
+   \                     TOKEN_MFG_OSC24M_SETTLE_DELAY:
+   \        0x0   0x08F2             DC16 2'290
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_SECURITY_CONFIG
+   \                     TOKEN_MFG_SECURITY_CONFIG:
+   \        0x0   0x08F4             DC16 2'292
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_CCA_THRESHOLD
+   \                     TOKEN_MFG_CCA_THRESHOLD:
+   \        0x0   0x08F6             DC16 2'294
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_SECURE_BOOTLOADER_KEY
+   \                     TOKEN_MFG_SECURE_BOOTLOADER_KEY:
+   \        0x0   0x08F8             DC16 2'296
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_ETHERNET_ADDRESS
+   \                     TOKEN_MFG_ETHERNET_ADDRESS:
+   \        0x0   0x0908             DC16 2'312
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_CBKE_283K1_DATA
+   \                     TOKEN_MFG_CBKE_283K1_DATA:
+   \        0x0   0x090E             DC16 2'318
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_XO_TUNE
+   \                     TOKEN_MFG_XO_TUNE:
+   \        0x0   0x09A2             DC16 2'466
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_THREAD_JOIN_KEY
+   \                     TOKEN_MFG_THREAD_JOIN_KEY:
+   \        0x0   0x09A4             DC16 2'468
+
+   \                                 In section .rodata, align 2
+   \   __absolute uint16_t const TOKEN_MFG_EUI_64
+   \                     TOKEN_MFG_EUI_64:
+   \        0x0   0xB634             DC16 46'644
+     31          #undef TOKEN_DEF
+     32          #undef TOKEN_MFG
+     33          #undef DEFINETOKENS
+     34          
+     35          
+     36          
+     37          
+     38          
+     39          
+     40          
+     41          
+
+   \                                 In section .rodata, align 4
+     42          static const uint8_t nullEui[] = { 0xFFU, 0xFFU, 0xFFU, 0xFFU, 0xFFU, 0xFFU, 0xFFU, 0xFFU };
+   \                     nullEui:
+   \        0x0   0xFF 0xFF          DC8 255, 255, 255, 255, 255, 255, 255, 255
+   \              0xFF 0xFF    
+   \              0xFF 0xFF    
+   \              0xFF 0xFF
+     43          
+
+   \                                 In section .text, align 2, keep-with-next
+     44          static void getMfgTokenData(void *data,
+     45                                      uint16_t token,
+     46                                      uint8_t index,
+     47                                      uint8_t len)
+     48          {
+   \                     getMfgTokenData: (+1)
+   \        0x0   0xB430             PUSH     {R4,R5}
+   \        0x2   0x4615             MOV      R5,R2
+     49            uint8_t *ram = (uint8_t*)data;
+     50          
+     51            //0x7F is a non-indexed token.  Remap to 0 for the address calculation
+     52            index = (index == 0x7FU) ? 0U : index;
+   \        0x4   0x2A7F             CMP      R2,#+127
+   \        0x6   0xD100             BNE.N    ??getMfgTokenData_0
+   \        0x8   0x2500             MOVS     R5,#+0
+     53          
+     54            //read from the Information Blocks.  The token ID is only the
+     55            //bottom 16bits of the token's actual address.  Since the info blocks
+     56            //exist in the range FIB_BOTTOM-DATA_BIG_INFO_END, we need
+     57            //to OR the ID with FIB_BOTTOM to get the real address.
+     58            uint32_t realAddress = (FIB_BOTTOM | token) + (len * index);
+     59            uint8_t *flash = (uint8_t *)realAddress;
+     60          
+     61          
+     62          
+     63          
+     64          
+     65          
+     66          
+     67          
+     68          
+     69          
+     70          
+     71          
+     72          
+     73          
+     74          
+     75          
+     76          
+     77          
+     78          
+     79          
+     80          
+     81          
+     82            MEMCOPY(ram, flash, len);
+   \                     ??getMfgTokenData_0: (+1)
+   \        0xA   0x461A             MOV      R2,R3
+   \        0xC   0x....             LDR.N    R4,??DataTable2
+   \        0xE   0x4321             ORRS     R1,R4,R1
+   \       0x10   0xFB05 0x1103      MLA      R1,R5,R3,R1
+   \       0x14   0xBC30             POP      {R4,R5}
+   \       0x16   0x.... 0x....      B.W      __aeabi_memcpy
+     83          }
+     84          
+
+   \                                 In section .text, align 2, keep-with-next
+     85          void halInternalGetMfgTokenData(void *data,
+     86                                          uint16_t token,
+     87                                          uint8_t index,
+     88                                          uint8_t len)
+     89          {
+   \                     halInternalGetMfgTokenData: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x4604             MOV      R4,R0
+   \        0x4   0x4615             MOV      R5,R2
+   \        0x6   0x001E             MOVS     R6,R3
+     90            if (len == 0U) {
+   \        0x8   0xD01E             BEQ.N    ??halInternalGetMfgTokenData_0
+     91              return; // Nothing to do...
+     92            }
+     93            if (token == MFG_EUI_64_LOCATION) {
+   \        0xA   0x4608             MOV      R0,R1
+   \        0xC   0xF24B 0x6234      MOVW     R2,#+46644
+   \       0x10   0x4290             CMP      R0,R2
+   \       0x12   0xD113             BNE.N    ??halInternalGetMfgTokenData_1
+     94              //There are two EUI64's stored in the Info Blocks, Ember and Custom.
+     95              //0x0A00 is the address used by the generic EUI64 token, and it is
+     96              //token.c's responbility to pick the returned EUI64 from either Ember
+     97              //or Custom.  Return the Custom EUI64 if it is not all FF's, otherwise
+     98              //return the Ember EUI64.
+     99              if (len > sizeof(nullEui)) {
+   \       0x14   0x4630             MOV      R0,R6
+   \       0x16   0x2809             CMP      R0,#+9
+   \       0x18   0xD300             BCC.N    ??halInternalGetMfgTokenData_2
+    100                len = sizeof(nullEui);
+   \       0x1A   0x2608             MOVS     R6,#+8
+    101              }
+    102              getMfgTokenData(data, MFG_CUSTOM_EUI_64_LOCATION, 0x7FU, len);
+   \                     ??halInternalGetMfgTokenData_2: (+1)
+   \       0x1C   0x4633             MOV      R3,R6
+   \       0x1E   0x227F             MOVS     R2,#+127
+   \       0x20   0xF640 0x0112      MOVW     R1,#+2066
+   \       0x24   0x4620             MOV      R0,R4
+   \       0x26   0x.... 0x....      BL       getMfgTokenData
+    103              if (MEMCOMPARE(data, nullEui, len) != 0) {
+   \       0x2A   0x4632             MOV      R2,R6
+   \       0x2C   0x....             LDR.N    R1,??DataTable2_1
+   \       0x2E   0x4620             MOV      R0,R4
+   \       0x30   0x.... 0x....      BL       memcmp
+   \       0x34   0x2800             CMP      R0,#+0
+   \       0x36   0xD107             BNE.N    ??halInternalGetMfgTokenData_0
+    104                return; // Return CUSTOM EUI
+    105              }
+    106              token = MFG_EMBER_EUI_64_LOCATION;
+   \       0x38   0xF240 0x71A2      MOVW     R1,#+1954
+    107            }
+    108            getMfgTokenData(data, token, index, len);
+   \                     ??halInternalGetMfgTokenData_1: (+1)
+   \       0x3C   0x4633             MOV      R3,R6
+   \       0x3E   0x462A             MOV      R2,R5
+   \       0x40   0x4620             MOV      R0,R4
+   \       0x42   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \       0x46   0x....             B.N      getMfgTokenData
+   \                     ??halInternalGetMfgTokenData_0: (+1)
+   \       0x48   0xBD70             POP      {R4-R6,PC}
+    109          }
+    110          
+
+   \                                 In section .text, align 2, keep-with-next
+    111          void halInternalSetMfgTokenData(uint16_t token, void *data, uint8_t len)
+    112          {
+   \                     halInternalSetMfgTokenData: (+1)
+   \        0x0   0xE92D 0x43F8      PUSH     {R3-R9,LR}
+   \        0x4   0x460C             MOV      R4,R1
+   \        0x6   0x4615             MOV      R5,R2
+    113            EmberStatus flashStatus;
+    114            uint32_t realAddress = (FIB_BOTTOM | token);
+   \        0x8   0x4601             MOV      R1,R0
+   \        0xA   0x....             LDR.N    R6,??DataTable2
+   \        0xC   0x430E             ORRS     R6,R6,R1
+    115            uint8_t * flash = (uint8_t *)realAddress;
+   \        0xE   0x4637             MOV      R7,R6
+    116            uint32_t i;
+    117          
+    118            //The flash library (and hardware) requires the address and length to both
+    119            //be multiples of 16bits.  Since this API is only valid for writing to
+    120            //the CIB, verify that the token+len falls within the CIB.
+    121            assert((token & 1) != 1);
+   \       0x10   0x.... 0x....      LDR.W    R8,??DataTable2_2
+   \       0x14   0x07C0             LSLS     R0,R0,#+31
+   \       0x16   0xD503             BPL.N    ??halInternalSetMfgTokenData_0
+   \       0x18   0x2179             MOVS     R1,#+121
+   \       0x1A   0x4640             MOV      R0,R8
+   \       0x1C   0x.... 0x....      BL       halInternalAssertFailed
+    122            assert((len & 1) != 1);
+   \                     ??halInternalSetMfgTokenData_0: (+1)
+   \       0x20   0x07E8             LSLS     R0,R5,#+31
+   \       0x22   0xD503             BPL.N    ??halInternalSetMfgTokenData_1
+   \       0x24   0x217A             MOVS     R1,#+122
+   \       0x26   0x4640             MOV      R0,R8
+   \       0x28   0x.... 0x....      BL       halInternalAssertFailed
+    123            assert((realAddress >= CIB_BOTTOM) && ((realAddress + len - 1) <= CIB_TOP));
+   \                     ??halInternalSetMfgTokenData_1: (+1)
+   \       0x2C   0x....             LDR.N    R0,??DataTable2_3
+   \       0x2E   0x4286             CMP      R6,R0
+   \       0x30   0xD305             BCC.N    ??halInternalSetMfgTokenData_2
+   \       0x32   0x4628             MOV      R0,R5
+   \       0x34   0x1980             ADDS     R0,R0,R6
+   \       0x36   0x1E40             SUBS     R0,R0,#+1
+   \       0x38   0x....             LDR.N    R1,??DataTable2_4
+   \       0x3A   0x4288             CMP      R0,R1
+   \       0x3C   0xD303             BCC.N    ??halInternalSetMfgTokenData_3
+   \                     ??halInternalSetMfgTokenData_2: (+1)
+   \       0x3E   0x217B             MOVS     R1,#+123
+   \       0x40   0x4640             MOV      R0,R8
+   \       0x42   0x.... 0x....      BL       halInternalAssertFailed
+    124          
+    125            //CIB manufacturing tokens can only be written by on-chip code if the token
+    126            //is currently unprogrammed.  Verify the entire token is unwritten.  The
+    127            //flash library performs a similar check, but verifying here ensures that
+    128            //the entire token is unprogrammed and will prevent partial writes.
+    129            for (i = 0; i < len; i++) {
+   \                     ??halInternalSetMfgTokenData_3: (+1)
+   \       0x46   0xF04F 0x0900      MOV      R9,#+0
+   \       0x4A   0xE009             B.N      ??halInternalSetMfgTokenData_4
+    130              assert(flash[i] == 0xFF);
+   \                     ??halInternalSetMfgTokenData_5: (+1)
+   \       0x4C   0xF817 0x0009      LDRB     R0,[R7, R9]
+   \       0x50   0x28FF             CMP      R0,#+255
+   \       0x52   0xD003             BEQ.N    ??halInternalSetMfgTokenData_6
+   \       0x54   0x2182             MOVS     R1,#+130
+   \       0x56   0x4640             MOV      R0,R8
+   \       0x58   0x.... 0x....      BL       halInternalAssertFailed
+    131            }
+   \                     ??halInternalSetMfgTokenData_6: (+1)
+   \       0x5C   0xF109 0x0901      ADD      R9,R9,#+1
+   \                     ??halInternalSetMfgTokenData_4: (+1)
+   \       0x60   0x4628             MOV      R0,R5
+   \       0x62   0x4581             CMP      R9,R0
+   \       0x64   0xD3F2             BCC.N    ??halInternalSetMfgTokenData_5
+    132          
+    133            //Remember, the flash library operates in 16bit quantities, but the
+    134            //token system operates in 8bit quantities.  Hence the divide by 2.
+    135            flashStatus = halInternalFlashWrite(realAddress, data, (len / 2));
+    136            assert(flashStatus == EMBER_SUCCESS);
+   \       0x66   0x086D             LSRS     R5,R5,#+1
+   \       0x68   0x462A             MOV      R2,R5
+   \       0x6A   0x4621             MOV      R1,R4
+   \       0x6C   0x4630             MOV      R0,R6
+   \       0x6E   0x.... 0x....      BL       halInternalFlashWrite
+   \       0x72   0x2800             CMP      R0,#+0
+   \       0x74   0xD005             BEQ.N    ??halInternalSetMfgTokenData_7
+   \       0x76   0x2188             MOVS     R1,#+136
+   \       0x78   0x4640             MOV      R0,R8
+   \       0x7A   0xE8BD 0x43F4      POP      {R2,R4-R9,LR}
+   \       0x7E   0x.... 0x....      B.W      halInternalAssertFailed
+    137          }
+   \                     ??halInternalSetMfgTokenData_7: (+1)
+   \       0x82   0xE8BD 0x83F1      POP      {R0,R4-R9,PC}
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0x0808'0000        DC32     0x8080000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \        0x0   0x....'....        DC32     nullEui
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_3:
+   \        0x0   0x0808'0800        DC32     0x8080800
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_4:
+   \        0x0   0x0808'1000        DC32     0x8081000
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x6D 0x66          DC8 "mfg-token.c"
+   \              0x67 0x2D    
+   \              0x74 0x6F    
+   \              0x6B 0x65    
+   \              0x6E 0x2E    
+   \              0x63 0x00
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   getMfgTokenData
+         0   -> __aeabi_memcpy
+      16   halInternalGetMfgTokenData
+         0   -> getMfgTokenData
+        16   -> getMfgTokenData
+        16   -> memcmp
+      32   halInternalSetMfgTokenData
+         0   -> halInternalAssertFailed
+        32   -> halInternalAssertFailed
+        32   -> halInternalFlashWrite
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+      12  ?_0
+       2  TOKEN_MFG_1V8_REG_VOLTAGE
+       2  TOKEN_MFG_ANALOG_TRIM_BOOST
+       2  TOKEN_MFG_ANALOG_TRIM_BOTH
+       2  TOKEN_MFG_ANALOG_TRIM_NORMAL
+       2  TOKEN_MFG_ASH_CONFIG
+       2  TOKEN_MFG_BOARD_NAME
+       2  TOKEN_MFG_BOOTLOAD_AES_KEY
+       2  TOKEN_MFG_CBKE_283K1_DATA
+       2  TOKEN_MFG_CBKE_DATA
+       2  TOKEN_MFG_CCA_THRESHOLD
+       2  TOKEN_MFG_CHIP_DATA
+       2  TOKEN_MFG_CIB_OBS
+       2  TOKEN_MFG_CUSTOM_EUI_64
+       2  TOKEN_MFG_CUSTOM_VERSION
+       2  TOKEN_MFG_EMBER_EUI_64
+       2  TOKEN_MFG_ETHERNET_ADDRESS
+       2  TOKEN_MFG_EUI_64
+       2  TOKEN_MFG_EZSP_STORAGE
+       2  TOKEN_MFG_FIB_CHECKSUM
+       2  TOKEN_MFG_FIB_OBS
+       2  TOKEN_MFG_FIB_VERSION
+       2  TOKEN_MFG_INSTALLATION_CODE
+       2  TOKEN_MFG_MANUF_ID
+       2  TOKEN_MFG_OSC24M_BIAS_TRIM
+       2  TOKEN_MFG_OSC24M_SETTLE_DELAY
+       2  TOKEN_MFG_PART_DATA
+       2  TOKEN_MFG_PHY_CONFIG
+       2  TOKEN_MFG_REG_TRIM
+       2  TOKEN_MFG_SECURE_BOOTLOADER_KEY
+       2  TOKEN_MFG_SECURITY_CONFIG
+       2  TOKEN_MFG_STRING
+       2  TOKEN_MFG_SYNTH_FREQ_OFFSET
+       2  TOKEN_MFG_TEMP_CAL
+       2  TOKEN_MFG_TESTER_DATA
+       2  TOKEN_MFG_TEST_TEMP
+       2  TOKEN_MFG_THREAD_JOIN_KEY
+       2  TOKEN_MFG_VREF_VOLTAGE
+       2  TOKEN_MFG_XO_TUNE
+      26  getMfgTokenData
+      74  halInternalGetMfgTokenData
+     134  halInternalSetMfgTokenData
+       8  nullEui
+
+ 
+  96 bytes in section .rodata
+ 254 bytes in section .text
+ 
+ 254 bytes of CODE  memory
+  96 bytes of CONST memory
+
+Errors: none
+Warnings: none

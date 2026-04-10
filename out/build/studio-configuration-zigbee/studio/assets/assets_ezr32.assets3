@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_ezr32">
+  <assets path="/ezr32/configurator/ezr32hg.zip" diskSizeKB="5168.524" downloadSizeKB="502.425" directory="true">
+    <property key="timeStamp" value="1611785916325"/>
+  </assets>
+  <assets path="/ezr32/configurator/ezr32lg.zip" diskSizeKB="10189.068" downloadSizeKB="868.118" directory="true">
+    <property key="timeStamp" value="1611785914377"/>
+  </assets>
+  <assets path="/ezr32/configurator/ezr32wg.zip" diskSizeKB="10190.449" downloadSizeKB="869.785" directory="true">
+    <property key="timeStamp" value="1611785912275"/>
+  </assets>
+  <assets version="1.0" path="/ezr32/datasheet/EZR32HG220_datasheet.pdf" diskSizeKB="1638.987" downloadSizeKB="1638.987" category="Data Sheets" label="EZR32HG220 Data Sheet">
+    <property key="timeStamp" value="1477932092790"/>
+  </assets>
+  <assets version="1.0" path="/ezr32/datasheet/EZR32HG320_datasheet.pdf" diskSizeKB="1636.357" downloadSizeKB="1636.357" category="Data Sheets" label="EZR32HG320 Data Sheet">
+    <property key="timeStamp" value="1477932090386"/>
+  </assets>
+  <assets version="1.1" path="/ezr32/datasheet/EZR32LG230_datasheet.pdf" diskSizeKB="1808.829" downloadSizeKB="1808.829" category="Data Sheets" label="EZR32LG230 Data Sheet">
+    <property key="timeStamp" value="1468886353220"/>
+  </assets>
+  <assets version="1.1" path="/ezr32/datasheet/EZR32LG330_datasheet.pdf" diskSizeKB="1810.954" downloadSizeKB="1810.954" category="Data Sheets" label="EZR32LG330 Data Sheet">
+    <property key="timeStamp" value="1468886353203"/>
+  </assets>
+  <assets version="1.1" path="/ezr32/datasheet/EZR32WG230_datasheet.pdf" diskSizeKB="1896.186" downloadSizeKB="1896.186" category="Data Sheets" label="EZR32WG230 Data Sheet">
+    <property key="timeStamp" value="1545069146426"/>
+  </assets>
+  <assets version="1.1" path="/ezr32/datasheet/EZR32WG330_datasheet.pdf" diskSizeKB="1813.635" downloadSizeKB="1813.635" category="Data Sheets" label="EZR32WG330 Data Sheet">
+    <property key="timeStamp" value="1468886353196"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32HG220.json" diskSizeKB="1082.082" downloadSizeKB="1082.082">
+    <property key="timeStamp" value="1486814836102"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32HG220F32.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886353351"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32HG220F64.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353392"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32HG320.json" diskSizeKB="1219.69" downloadSizeKB="1219.69">
+    <property key="timeStamp" value="1486814836056"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32HG320F32.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886353350"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32HG320F64.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353393"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32LG230.json" diskSizeKB="2097.61" downloadSizeKB="2097.61">
+    <property key="timeStamp" value="1486814836061"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32LG230F128.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353394"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32LG230F256.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353395"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32LG230F64.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353348"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32LG330.json" diskSizeKB="2476.291" downloadSizeKB="2476.291">
+    <property key="timeStamp" value="1486814836068"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32LG330F128.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353352"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32LG330F256.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353374"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32LG330F64.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353417"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32WG230.json" diskSizeKB="2105.017" downloadSizeKB="2105.017">
+    <property key="timeStamp" value="1486814836043"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32WG230F128.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353416"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32WG230F256.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353391"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32WG230F64.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353434"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32WG330.json" diskSizeKB="2483.698" downloadSizeKB="2483.698">
+    <property key="timeStamp" value="1486814836094"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32WG330F128.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353390"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32WG330F256.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353396"/>
+  </assets>
+  <assets path="/ezr32/debug/json/EZR32WG330F64.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353410"/>
+  </assets>
+  <assets version="1.1" path="/ezr32/errata/ezr32hg220_errata.pdf" diskSizeKB="180.835" downloadSizeKB="180.835" category="Errata" label="EZR32HG220 Errata">
+    <property key="timeStamp" value="1497053675106"/>
+  </assets>
+  <assets version="1.1" path="/ezr32/errata/ezr32hg220_errata_history.pdf" diskSizeKB="198.561" downloadSizeKB="198.561" label="EZR32HG220 Errata History">
+    <property key="timeStamp" value="1479165022258"/>
+  </assets>
+  <assets path="/ezr32/errata/ezr32hg320_errata.pdf" diskSizeKB="249.06" downloadSizeKB="249.06" category="Errata">
+    <property key="timeStamp" value="1468886353250"/>
+  </assets>
+  <assets version="1.1" path="/ezr32/errata/ezr32hg320_errata_history.pdf" diskSizeKB="199.573" downloadSizeKB="199.573" label="EZR32HG320 Errata History">
+    <property key="timeStamp" value="1479165022430"/>
+  </assets>
+  <assets version="0.3" path="/ezr32/reference/EZR32HG_Reference_Manual.pdf" diskSizeKB="5984.788" downloadSizeKB="5984.788" category="Reference Manuals" label="EZR32HG Reference Manual">
+    <property key="timeStamp" value="1545069241694"/>
+  </assets>
+  <assets version="0.90" path="/ezr32/reference/EZR32LG_Reference_Manual.pdf" diskSizeKB="8141.879" downloadSizeKB="8141.879" category="Reference Manuals" label="EZR32LG Reference Manual">
+    <property key="timeStamp" value="1468886353335"/>
+  </assets>
+  <assets version="0.50" path="/ezr32/reference/EZR32WG_Reference_Manual.pdf" diskSizeKB="8184.12" downloadSizeKB="8184.12" category="Reference Manuals" label="EZR32WG Reference Manual">
+    <property key="timeStamp" value="1468886353305"/>
+  </assets>
+</assets>

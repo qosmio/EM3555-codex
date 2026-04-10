@@ -1,0 +1,8 @@
+1.2.1
+  Minor bug fixes around handling of board firmware.
+1.2.0
+  Improve handling of board with no initial firmware
+1.1.0
+  Minor enhancements
+1.0.0
+	Initial release

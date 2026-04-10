@@ -1,0 +1,202 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:33
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\endian.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\endian.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\endian.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"endian.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\endian.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\endian.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\endian.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\endian.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\micro\generic\endian.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief  Generic firmware source for Endian conversions.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "hal/micro/endian.h"
+     19          
+     20          #if (!defined(EMBER_STACK_OWL_RX))
+     21          #include "stack/include/ember-types.h"
+     22          #endif /* EMBER_STACK_OWL_RX */
+     23          
+     24          // Endian conversion APIs.
+     25          // Network byte order is big endian, so these APIs are only necessary on
+     26          //  platforms which have a natural little endian byte order.  On big-endian
+     27          //  platforms, the APIs are macro'd away to nothing
+     28          
+     29          #ifndef NTOHS
+     30          // Network to Host Short
+     31          uint16_t NTOHS(uint16_t val)
+     32          {
+     33            uint8_t *fldPtr;
+     34          
+     35            fldPtr = (uint8_t *)&val;
+     36            return (HIGH_LOW_TO_INT(*fldPtr, *(fldPtr + 1)));
+     37          }
+     38          
+     39          #endif
+     40          
+     41          #ifndef NTOHL
+     42          // Network to Host Long
+     43          uint32_t NTOHL(uint32_t val)
+     44          {
+     45            uint16_t *fldPtr;
+     46            uint16_t field;
+     47            uint16_t field2;
+     48          
+     49            fldPtr = (uint16_t *)&val;
+     50            field = NTOHS(*fldPtr);
+     51            field2 = NTOHS(*(fldPtr + 1));
+     52            return ((uint32_t)field << 16) | ((uint32_t)field2);
+     53          }
+     54          
+     55          #endif
+     56          
+     57          /* Swap byte order, e.g. LE to BE or BE to LE.
+     58           * This function is used when working with 802.15.4 frames on 8051 MCUs. */
+
+   \                                 In section .text, align 2, keep-with-next
+     59          uint32_t SwapEndiannessInt32u(uint32_t val)
+     60          {
+   \                     SwapEndiannessInt32u: (+1)
+   \        0x0   0xB401             PUSH     {R0}
+   \        0x2   0xB081             SUB      SP,SP,#+4
+     61            uint32_t ret;
+     62          
+     63            ((uint8_t*)&ret)[0] = ((uint8_t*)&val)[3];
+   \        0x4   0xF89D 0x0007      LDRB     R0,[SP, #+7]
+   \        0x8   0xF88D 0x0000      STRB     R0,[SP, #+0]
+     64            ((uint8_t*)&ret)[1] = ((uint8_t*)&val)[2];
+   \        0xC   0xF89D 0x0006      LDRB     R0,[SP, #+6]
+   \       0x10   0xF88D 0x0001      STRB     R0,[SP, #+1]
+     65            ((uint8_t*)&ret)[2] = ((uint8_t*)&val)[1];
+   \       0x14   0xF89D 0x0005      LDRB     R0,[SP, #+5]
+   \       0x18   0xF88D 0x0002      STRB     R0,[SP, #+2]
+     66            ((uint8_t*)&ret)[3] = ((uint8_t*)&val)[0];
+   \       0x1C   0xF89D 0x0004      LDRB     R0,[SP, #+4]
+   \       0x20   0xF88D 0x0003      STRB     R0,[SP, #+3]
+     67          
+     68            return ret;
+   \       0x24   0x9800             LDR      R0,[SP, #+0]
+   \       0x26   0xB002             ADD      SP,SP,#+8
+   \       0x28   0x4770             BX       LR
+     69          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   SwapEndiannessInt32u
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      42  SwapEndiannessInt32u
+
+ 
+ 42 bytes in section .text
+ 
+ 42 bytes of CODE memory
+
+Errors: none
+Warnings: none

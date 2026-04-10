@@ -1,0 +1,397 @@
+###############################################################################
+#                                                                             #
+#     IAR Assembler V9.70.2.500/W64 for ARM 08/Apr/2026  13:30:28             #
+#     Copyright 1999-2025 IAR Systems AB.                                     #
+#                                                                             #
+#           Source file   =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\Device\SiliconLabs\em355x\Source\IAR\irqToIsrTrampolines_em355x.s#
+#           List file     =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\irqToIsrTrampolines_em355x.lst#
+#           Object file   =  Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\irqToIsrTrampolines_em355x.o#
+#           Command line  =  -f                                               #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\irqToIsrTrampolines_em355x.o.rsp #
+#                            (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\Device\SiliconLabs\em355x\Source\IAR\irqToIsrTrampolines_em355x.s #
+#                            -OZ:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir #
+#                            -s+ -M<> -w+ -r -DCORTEXM3                       #
+#                            -DCORTEXM3_EMBER_MICRO -DCORTEXM3_EM3555         #
+#                            -DPHY_EM3XX -DHAL_MICRO                          #
+#                            -DBOARD_HEADER="platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h" #
+#                            -DPLATFORM_HEADER="hal/micro/cortexm3/compiler/iar.h" #
+#                            -DAPPLICATION_TOKEN_HEADER="config/app-tokens.h" #
+#                            -DGENERATED_TOKEN_HEADER="autogen/em3555-rgbw_tokens.h" #
+#                            -DATTRIBUTE_STORAGE_CONFIGURATION="autogen/em3555-rgbw_endpoint_config.h" #
+#                            -DZA_GENERATED_HEADER="autogen/em3555-rgbw.h"    #
+#                            -DCONFIGURATION_HEADER="app/framework/util/config.h" #
+#                            -D__SOURCEFILE__="irqToIsrTrampolines_em355x.s"  #
+#                            -LZ:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir #
+#                            -t2 --cpu Cortex-M3 --fpu None                   #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\Device\SiliconLabs\em355x\Source\IAR\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\ #
+#                            -IZ:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\) #
+#                            -y                                               #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\irqToIsrTrampolines_em355x.o.iar_deps #
+#                            --dynamic_output                                 #
+#                            Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\irqToIsrTrampolines_em355x.o.iar_dynout #
+#                                                                             #
+###############################################################################
+
+    1                           ;/********************************************
+                                ******************************//**
+    2                           ; * @file     irqToIsrTrampolines_em355x.s
+    3                           ; * @brief    Device IRQ Handler trampoline
+                                 functions to call Legacy ISRs
+    4                           ; *
+    5                           ; * @section License
+    6                           ; * <b>Copyright 2017 Silicon Laboratories,
+                                 Inc. www.silabs.com</b>
+    7                           ; ********************************************
+                                **********************************/
+    8                           
+    9                           
+   10                                   MODULE  ?irqToIsrTrampolines
+   11                           
+   12                                   EXTERN  halNmiIsr
+   13                                   EXTERN  halHardFaultIsr
+   14                                   EXTERN  halMemoryFaultIsr
+   15                                   EXTERN  halBusFaultIsr
+   16                                   EXTERN  halUsageFaultIsr
+   17                                   EXTERN  halSvCallIsr
+   18                                   EXTERN  halDebugMonitorIsr
+   19                                   EXTERN  halPendSvIsr
+   20                                   EXTERN  halInternalSysTickIsr
+   21                                   EXTERN  halTimer1Isr
+   22                                   EXTERN  halTimer2Isr
+   23                                   EXTERN  halManagementIsr
+   24                                   EXTERN  halBaseBandIsr
+   25                                   EXTERN  halSleepTimerIsr
+   26                                   EXTERN  halSc1Isr
+   27                                   EXTERN  halSc2Isr
+   28                                   EXTERN  halSecurityIsr
+   29                                   EXTERN  halStackMacTimerIsr
+   30                                   EXTERN  emRadioTransmitIsr
+   31                                   EXTERN  emRadioReceiveIsr
+   32                                   EXTERN  halAdcIsr
+   33                                   EXTERN  halIrqAIsr
+   34                                   EXTERN  halIrqBIsr
+   35                                   EXTERN  halIrqCIsr
+   36                                   EXTERN  halIrqDIsr
+   37                                   EXTERN  halDebugIsr
+   38                                   EXTERN  halSc3Isr
+   39                                   EXTERN  halSc4Isr
+   40                                   EXTERN  halUsbIsr
+   41                           
+   42                           ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                                ;;;;;;
+   43                           ;; Define the IRQ handlers to be a simple
+                                 branch to hal Isr routines.
+   44                           ;; This method allows CMSIS Device IRQs to
+                                 remain as-is while supporting
+   45                           ;; legacy hal ISRs and not pushing/popping any
+                                 stack behavior as a result
+   46                           ;; of interrupt routines.
+   47                           ;;
+   48                           
+   49                           ;; A trampoline function from Reset_Handler to
+                                 halEntryPoint is not necessary.
+   50                           ;; The Source/IAR startup code must instantiat
+                                e the Reset_Handler and as
+   51                           ;; a consequence the functon halEntryPoint is
+                                 not used.
+   52                           
+   53                                   PUBWEAK NMI_Handler
+   54                                   SECTION .text:CODE:REORDER:NOROOT(2)
+   55                           NMI_Handler
+   56    00000000 0148                  LDR R0, =halNmiIsr
+   57    00000002 40F00100              ORR R0, R0, #1
+   58    00000006 0047                  BX  R0
+   59                           
+   60                                   PUBWEAK HardFault_Handler
+   60.1                                  TABLE.32
+   60.2  00000008 ........              Reference on line 56
+   61                                   SECTION .text:CODE:REORDER:NOROOT(2)
+   62                           HardFault_Handler
+   63    00000000 0148                  LDR R0, =halHardFaultIsr
+   64    00000002 40F00100              ORR R0, R0, #1
+   65    00000006 0047                  BX  R0
+   66                           
+   67                                   PUBWEAK MemManage_Handler
+   67.1                                  TABLE.32
+   67.2  00000008 ........              Reference on line 63
+   68                                   SECTION .text:CODE:REORDER:NOROOT(2)
+   69                           MemManage_Handler
+   70    00000000 0148                  LDR R0, =halMemoryFaultIsr
+   71    00000002 40F00100              ORR R0, R0, #1
+   72    00000006 0047                  BX  R0
+   73                           
+   74                                   PUBWEAK BusFault_Handler
+   74.1                                  TABLE.32
+   74.2  00000008 ........              Reference on line 70
+   75                                   SECTION .text:CODE:REORDER:NOROOT(2)
+   76                           BusFault_Handler
+   77    00000000 0148                  LDR R0, =halBusFaultIsr
+   78    00000002 40F00100              ORR R0, R0, #1
+   79    00000006 0047                  BX  R0
+   80                           
+   81                                   PUBWEAK UsageFault_Handler
+   81.1                                  TABLE.32
+   81.2  00000008 ........              Reference on line 77
+   82                                   SECTION .text:CODE:REORDER:NOROOT(2)
+   83                           UsageFault_Handler
+   84    00000000 0148                  LDR R0, =halUsageFaultIsr
+   85    00000002 40F00100              ORR R0, R0, #1
+   86    00000006 0047                  BX  R0
+   87                           
+   88                                   PUBWEAK SVC_Handler
+   88.1                                  TABLE.32
+   88.2  00000008 ........              Reference on line 84
+   89                                   SECTION .text:CODE:REORDER:NOROOT(2)
+   90                           SVC_Handler
+   91    00000000 0148                  LDR R0, =halSvCallIsr
+   92    00000002 40F00100              ORR R0, R0, #1
+   93    00000006 0047                  BX  R0
+   94                           
+   95                                   PUBWEAK DebugMon_Handler
+   95.1                                  TABLE.32
+   95.2  00000008 ........              Reference on line 91
+   96                                   SECTION .text:CODE:REORDER:NOROOT(2)
+   97                           DebugMon_Handler
+   98    00000000 0148                  LDR R0, =halDebugMonitorIsr
+   99    00000002 40F00100              ORR R0, R0, #1
+  100    00000006 0047                  BX  R0
+  101                           
+  102                                   PUBWEAK PendSV_Handler
+  102.1                                  TABLE.32
+  102.2  00000008 ........              Reference on line 98
+  103                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  104                           PendSV_Handler
+  105    00000000 0148                  LDR R0, =halPendSvIsr
+  106    00000002 40F00100              ORR R0, R0, #1
+  107    00000006 0047                  BX  R0
+  108                           
+  109                                   PUBWEAK SysTick_Handler
+  109.1                                  TABLE.32
+  109.2  00000008 ........              Reference on line 105
+  110                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  111                           SysTick_Handler
+  112    00000000 0148                  LDR R0, =halInternalSysTickIsr
+  113    00000002 40F00100              ORR R0, R0, #1
+  114    00000006 0047                  BX  R0
+  115                           
+  116                                   ; Device specific interrupt handlers
+  117                           
+  118                                   PUBWEAK TIM1_IRQHandler
+  118.1                                  TABLE.32
+  118.2  00000008 ........              Reference on line 112
+  119                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  120                           TIM1_IRQHandler
+  121    00000000 0148                  LDR R0, =halTimer1Isr
+  122    00000002 40F00100              ORR R0, R0, #1
+  123    00000006 0047                  BX  R0
+  124                           
+  125                                   PUBWEAK TIM2_IRQHandler
+  125.1                                  TABLE.32
+  125.2  00000008 ........              Reference on line 121
+  126                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  127                           TIM2_IRQHandler
+  128    00000000 0148                  LDR R0, =halTimer2Isr
+  129    00000002 40F00100              ORR R0, R0, #1
+  130    00000006 0047                  BX  R0
+  131                           
+  132                                   PUBWEAK MGMT_IRQHandler
+  132.1                                  TABLE.32
+  132.2  00000008 ........              Reference on line 128
+  133                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  134                           MGMT_IRQHandler
+  135    00000000 0148                  LDR R0, =halManagementIsr
+  136    00000002 40F00100              ORR R0, R0, #1
+  137    00000006 0047                  BX  R0
+  138                           
+  139                                   PUBWEAK BB_IRQHandler
+  139.1                                  TABLE.32
+  139.2  00000008 ........              Reference on line 135
+  140                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  141                           BB_IRQHandler
+  142    00000000 0148                  LDR R0, =halBaseBandIsr
+  143    00000002 40F00100              ORR R0, R0, #1
+  144    00000006 0047                  BX  R0
+  145                           
+  146                                   PUBWEAK SLEEPTMR_IRQHandler
+  146.1                                  TABLE.32
+  146.2  00000008 ........              Reference on line 142
+  147                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  148                           SLEEPTMR_IRQHandler
+  149    00000000 0148                  LDR R0, =halSleepTimerIsr
+  150    00000002 40F00100              ORR R0, R0, #1
+  151    00000006 0047                  BX  R0
+  152                           
+  153                                   PUBWEAK SC1_IRQHandler
+  153.1                                  TABLE.32
+  153.2  00000008 ........              Reference on line 149
+  154                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  155                           SC1_IRQHandler
+  156    00000000 0148                  LDR R0, =halSc1Isr
+  157    00000002 40F00100              ORR R0, R0, #1
+  158    00000006 0047                  BX  R0
+  159                           
+  160                                   PUBWEAK SC2_IRQHandler
+  160.1                                  TABLE.32
+  160.2  00000008 ........              Reference on line 156
+  161                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  162                           SC2_IRQHandler
+  163    00000000 0148                  LDR R0, =halSc2Isr
+  164    00000002 40F00100              ORR R0, R0, #1
+  165    00000006 0047                  BX  R0
+  166                           
+  167                                   PUBWEAK AESCCM_IRQHandler
+  167.1                                  TABLE.32
+  167.2  00000008 ........              Reference on line 163
+  168                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  169                           AESCCM_IRQHandler
+  170    00000000 0148                  LDR R0, =halSecurityIsr
+  171    00000002 40F00100              ORR R0, R0, #1
+  172    00000006 0047                  BX  R0
+  173                           
+  174                                   PUBWEAK MACTMR_IRQHandler
+  174.1                                  TABLE.32
+  174.2  00000008 ........              Reference on line 170
+  175                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  176                           MACTMR_IRQHandler
+  177    00000000 0148                  LDR R0, =halStackMacTimerIsr
+  178    00000002 40F00100              ORR R0, R0, #1
+  179    00000006 0047                  BX  R0
+  180                           
+  181                                   PUBWEAK MACTX_IRQHandler
+  181.1                                  TABLE.32
+  181.2  00000008 ........              Reference on line 177
+  182                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  183                           MACTX_IRQHandler
+  184    00000000 0148                  LDR R0, =emRadioTransmitIsr
+  185    00000002 40F00100              ORR R0, R0, #1
+  186    00000006 0047                  BX  R0
+  187                           
+  188                                   PUBWEAK MACRX_IRQHandler
+  188.1                                  TABLE.32
+  188.2  00000008 ........              Reference on line 184
+  189                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  190                           MACRX_IRQHandler
+  191    00000000 0148                  LDR R0, =emRadioReceiveIsr
+  192    00000002 40F00100              ORR R0, R0, #1
+  193    00000006 0047                  BX  R0
+  194                           
+  195                                   PUBWEAK ADC_IRQHandler
+  195.1                                  TABLE.32
+  195.2  00000008 ........              Reference on line 191
+  196                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  197                           ADC_IRQHandler
+  198    00000000 0148                  LDR R0, =halAdcIsr
+  199    00000002 40F00100              ORR R0, R0, #1
+  200    00000006 0047                  BX  R0
+  201                           
+  202                                   PUBWEAK IRQA_IRQHandler
+  202.1                                  TABLE.32
+  202.2  00000008 ........              Reference on line 198
+  203                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  204                           IRQA_IRQHandler
+  205    00000000 0148                  LDR R0, =halIrqAIsr
+  206    00000002 40F00100              ORR R0, R0, #1
+  207    00000006 0047                  BX  R0
+  208                           
+  209                                   PUBWEAK IRQB_IRQHandler
+  209.1                                  TABLE.32
+  209.2  00000008 ........              Reference on line 205
+  210                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  211                           IRQB_IRQHandler
+  212    00000000 0148                  LDR R0, =halIrqBIsr
+  213    00000002 40F00100              ORR R0, R0, #1
+  214    00000006 0047                  BX  R0
+  215                           
+  216                                   PUBWEAK IRQC_IRQHandler
+  216.1                                  TABLE.32
+  216.2  00000008 ........              Reference on line 212
+  217                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  218                           IRQC_IRQHandler
+  219    00000000 0148                  LDR R0, =halIrqCIsr
+  220    00000002 40F00100              ORR R0, R0, #1
+  221    00000006 0047                  BX  R0
+  222                           
+  223                                   PUBWEAK IRQD_IRQHandler
+  223.1                                  TABLE.32
+  223.2  00000008 ........              Reference on line 219
+  224                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  225                           IRQD_IRQHandler
+  226    00000000 0148                  LDR R0, =halIrqDIsr
+  227    00000002 40F00100              ORR R0, R0, #1
+  228    00000006 0047                  BX  R0
+  229                           
+  230                                   PUBWEAK DEBUG_IRQHandler
+  230.1                                  TABLE.32
+  230.2  00000008 ........              Reference on line 226
+  231                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  232                           DEBUG_IRQHandler
+  233    00000000 0148                  LDR R0, =halDebugIsr
+  234    00000002 40F00100              ORR R0, R0, #1
+  235    00000006 0047                  BX  R0
+  236                           
+  237                                   PUBWEAK SC3_IRQHandler
+  237.1                                  TABLE.32
+  237.2  00000008 ........              Reference on line 233
+  238                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  239                           SC3_IRQHandler
+  240    00000000 0148                  LDR R0, =halSc3Isr
+  241    00000002 40F00100              ORR R0, R0, #1
+  242    00000006 0047                  BX  R0
+  243                           
+  244                                   PUBWEAK SC4_IRQHandler
+  244.1                                  TABLE.32
+  244.2  00000008 ........              Reference on line 240
+  245                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  246                           SC4_IRQHandler
+  247    00000000 0148                  LDR R0, =halSc4Isr
+  248    00000002 40F00100              ORR R0, R0, #1
+  249    00000006 0047                  BX  R0
+  250                           
+  251                                   PUBWEAK USB_IRQHandler
+  251.1                                  TABLE.32
+  251.2  00000008 ........              Reference on line 247
+  252                                   SECTION .text:CODE:REORDER:NOROOT(2)
+  253                           USB_IRQHandler
+  254    00000000 0148                  LDR R0, =halUsbIsr
+  255    00000002 40F00100              ORR R0, R0, #1
+  256    00000006 0047                  BX  R0
+  257                           
+  257.1                                  TABLE.32
+  257.2  00000008 ........              Reference on line 254
+  258                                   END
+##############################
+#           CRC:0            #
+#        Errors:   0         #
+#        Warnings: 0         #
+#         Bytes: 348         #
+##############################
+
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.ss.platform.feature"
+          label="Simplicity Studio Platform"
+          description="Simplicity Studio Platform"
+          changelog="changelog"
+          icon="../../plugins/com.silabs.ss.platform.product/icons/icon_studio_32x32.png"
+          version="5.4.1">
+   <property key="lntref"
+              value="asset://common/Simplicity_Studio_Terms_of_Use_and_Privacy_Statement"/>
+</package>

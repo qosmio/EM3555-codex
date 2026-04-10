@@ -1,0 +1,644 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:33
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\app_tokens.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\app_tokens.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\src\app_tokens.c -D
+#        CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2 -D
+#        PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"app_tokens.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\app_tokens.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\app_tokens.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir\app_tokens.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\app_tokens.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\src\app_tokens.c
+      1          #include "app_tokens.h"
+      2          
+      3          #include <stddef.h>
+      4          #include <string.h>
+      5          
+      6          #include "config/firmware_config.h"
+      7          
+
+   \                                 In section .bss, align 4
+      8          static Em3555LightStateTokenRecord s_fallbackLightToken;
+   \                     s_fallbackLightToken:
+   \        0x0                      DS8 32
+
+   \                                 In section .bss, align 4
+      9          static Em3555FactoryResetTokenRecord s_fallbackFactoryResetToken;
+   \                     s_fallbackFactoryResetToken:
+   \        0x0                      DS8 8
+
+   \                                 In section .bss, align 4
+     10          static Em3555OtaJournalTokenRecord s_fallbackOtaJournalToken;
+   \                     s_fallbackOtaJournalToken:
+   \        0x0                      DS8 48
+     11          
+
+   \                                 In section .text, align 2, keep-with-next
+     12          static uint16_t checksum_bytes(const uint8_t *data, size_t length)
+     13          {
+   \                     checksum_bytes: (+1)
+   \        0x0   0xB410             PUSH     {R4}
+   \        0x2   0x4602             MOV      R2,R0
+     14            uint32_t sum = 0UL;
+   \        0x4   0x2000             MOVS     R0,#+0
+     15            size_t index;
+     16          
+     17            for (index = 0U; index < length; index++) {
+   \        0x6   0x4603             MOV      R3,R0
+   \        0x8   0xE002             B.N      ??checksum_bytes_0
+     18              sum += data[index];
+   \                     ??checksum_bytes_1: (+1)
+   \        0xA   0x5CD4             LDRB     R4,[R2, R3]
+   \        0xC   0x1820             ADDS     R0,R4,R0
+     19            }
+   \        0xE   0x1C5B             ADDS     R3,R3,#+1
+   \                     ??checksum_bytes_0: (+1)
+   \       0x10   0x428B             CMP      R3,R1
+   \       0x12   0xD3FA             BCC.N    ??checksum_bytes_1
+     20          
+     21            return (uint16_t)(sum & 0xFFFFU);
+   \       0x14   0xB280             UXTH     R0,R0
+   \       0x16   0xBC10             POP      {R4}
+   \       0x18   0x4770             BX       LR
+     22          }
+     23          
+
+   \                                 In section .text, align 2, keep-with-next
+     24          static uint16_t light_state_checksum(const Em3555LightStateTokenRecord *record)
+     25          {
+   \                     light_state_checksum: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     26            uint16_t sum = 0U;
+     27          
+     28            sum = (uint16_t)(sum + checksum_bytes((const uint8_t *)&record->version, sizeof(record->version)));
+   \        0x4   0x2102             MOVS     R1,#+2
+   \        0x6   0x.... 0x....      BL       checksum_bytes
+   \        0xA   0x4605             MOV      R5,R0
+     29            sum = (uint16_t)(sum + checksum_bytes((const uint8_t *)&record->state, sizeof(record->state)));
+   \        0xC   0x211C             MOVS     R1,#+28
+   \        0xE   0x1D20             ADDS     R0,R4,#+4
+   \       0x10   0x.... 0x....      BL       checksum_bytes
+   \       0x14   0x1945             ADDS     R5,R0,R5
+     30            return sum;
+   \       0x16   0x4628             MOV      R0,R5
+   \       0x18   0xB280             UXTH     R0,R0
+   \       0x1A   0xBD32             POP      {R1,R4,R5,PC}
+     31          }
+     32          
+
+   \                                 In section .text, align 2, keep-with-next
+     33          static uint16_t factory_reset_checksum(const Em3555FactoryResetTokenRecord *record)
+     34          {
+   \                     factory_reset_checksum: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     35            uint16_t sum = 0U;
+     36          
+     37            sum = (uint16_t)(sum + checksum_bytes((const uint8_t *)&record->version, sizeof(record->version)));
+   \        0x4   0x2102             MOVS     R1,#+2
+   \        0x6   0x.... 0x....      BL       checksum_bytes
+   \        0xA   0x4605             MOV      R5,R0
+     38            sum = (uint16_t)(sum + checksum_bytes((const uint8_t *)&record->state, sizeof(record->state)));
+   \        0xC   0x2104             MOVS     R1,#+4
+   \        0xE   0x1D20             ADDS     R0,R4,#+4
+   \       0x10   0x.... 0x....      BL       checksum_bytes
+   \       0x14   0x1945             ADDS     R5,R0,R5
+     39            return sum;
+   \       0x16   0x4628             MOV      R0,R5
+   \       0x18   0xB280             UXTH     R0,R0
+   \       0x1A   0xBD32             POP      {R1,R4,R5,PC}
+     40          }
+     41          
+
+   \                                 In section .text, align 2, keep-with-next
+     42          static uint16_t ota_journal_checksum(const Em3555OtaJournalTokenRecord *record)
+     43          {
+   \                     ota_journal_checksum: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     44            uint16_t sum = 0U;
+     45          
+     46            sum = (uint16_t)(sum + checksum_bytes((const uint8_t *)&record->magic, sizeof(record->magic)));
+   \        0x4   0x2104             MOVS     R1,#+4
+   \        0x6   0x.... 0x....      BL       checksum_bytes
+   \        0xA   0x4605             MOV      R5,R0
+     47            sum = (uint16_t)(sum + checksum_bytes((const uint8_t *)&record->version, sizeof(record->version)));
+   \        0xC   0x2102             MOVS     R1,#+2
+   \        0xE   0x1D20             ADDS     R0,R4,#+4
+   \       0x10   0x.... 0x....      BL       checksum_bytes
+   \       0x14   0x1945             ADDS     R5,R0,R5
+     48            sum = (uint16_t)(sum + checksum_bytes((const uint8_t *)&record->manufacturerId,
+     49                                                  sizeof(*record) - offsetof(Em3555OtaJournalTokenRecord,
+     50                                                                              manufacturerId)));
+   \       0x16   0x2128             MOVS     R1,#+40
+   \       0x18   0xF104 0x0008      ADD      R0,R4,#+8
+   \       0x1C   0x.... 0x....      BL       checksum_bytes
+   \       0x20   0x1945             ADDS     R5,R0,R5
+     51            return sum;
+   \       0x22   0x4628             MOV      R0,R5
+   \       0x24   0xB280             UXTH     R0,R0
+   \       0x26   0xBD32             POP      {R1,R4,R5,PC}
+     52          }
+     53          
+
+   \                                 In section .text, align 2, keep-with-next
+     54          static bool light_state_record_valid(const Em3555LightStateTokenRecord *record)
+     55          {
+   \                     light_state_record_valid: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     56            return (record->version == EM3555_TOKEN_VERSION
+     57                    && record->checksum == light_state_checksum(record));
+   \        0x4   0x8820             LDRH     R0,[R4, #+0]
+   \        0x6   0x2802             CMP      R0,#+2
+   \        0x8   0xD107             BNE.N    ??light_state_record_valid_0
+   \        0xA   0x4620             MOV      R0,R4
+   \        0xC   0x.... 0x....      BL       light_state_checksum
+   \       0x10   0x8861             LDRH     R1,[R4, #+2]
+   \       0x12   0x4281             CMP      R1,R0
+   \       0x14   0xD101             BNE.N    ??light_state_record_valid_0
+   \       0x16   0x2001             MOVS     R0,#+1
+   \       0x18   0xBD10             POP      {R4,PC}
+   \                     ??light_state_record_valid_0: (+1)
+   \       0x1A   0x2000             MOVS     R0,#+0
+   \       0x1C   0xBD10             POP      {R4,PC}
+     58          }
+     59          
+
+   \                                 In section .text, align 2, keep-with-next
+     60          static bool factory_reset_record_valid(const Em3555FactoryResetTokenRecord *record)
+     61          {
+   \                     factory_reset_record_valid: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     62            return (record->version == EM3555_TOKEN_VERSION
+     63                    && record->checksum == factory_reset_checksum(record));
+   \        0x4   0x8820             LDRH     R0,[R4, #+0]
+   \        0x6   0x2802             CMP      R0,#+2
+   \        0x8   0xD107             BNE.N    ??factory_reset_record_valid_0
+   \        0xA   0x4620             MOV      R0,R4
+   \        0xC   0x.... 0x....      BL       factory_reset_checksum
+   \       0x10   0x8861             LDRH     R1,[R4, #+2]
+   \       0x12   0x4281             CMP      R1,R0
+   \       0x14   0xD101             BNE.N    ??factory_reset_record_valid_0
+   \       0x16   0x2001             MOVS     R0,#+1
+   \       0x18   0xBD10             POP      {R4,PC}
+   \                     ??factory_reset_record_valid_0: (+1)
+   \       0x1A   0x2000             MOVS     R0,#+0
+   \       0x1C   0xBD10             POP      {R4,PC}
+     64          }
+     65          
+
+   \                                 In section .text, align 2, keep-with-next
+     66          static bool ota_journal_record_valid(const Em3555OtaJournalTokenRecord *record)
+     67          {
+   \                     ota_journal_record_valid: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+     68            return (record->magic == EM3555_OTA_JOURNAL_MAGIC
+     69                    && record->version == EM3555_OTA_JOURNAL_VERSION
+     70                    && record->checksum == ota_journal_checksum(record));
+   \        0x4   0x6820             LDR      R0,[R4, #+0]
+   \        0x6   0x....             LDR.N    R1,??DataTable7
+   \        0x8   0x4288             CMP      R0,R1
+   \        0xA   0xD10A             BNE.N    ??ota_journal_record_valid_0
+   \        0xC   0x88A0             LDRH     R0,[R4, #+4]
+   \        0xE   0x2801             CMP      R0,#+1
+   \       0x10   0xD107             BNE.N    ??ota_journal_record_valid_0
+   \       0x12   0x4620             MOV      R0,R4
+   \       0x14   0x.... 0x....      BL       ota_journal_checksum
+   \       0x18   0x88E1             LDRH     R1,[R4, #+6]
+   \       0x1A   0x4281             CMP      R1,R0
+   \       0x1C   0xD101             BNE.N    ??ota_journal_record_valid_0
+   \       0x1E   0x2001             MOVS     R0,#+1
+   \       0x20   0xBD10             POP      {R4,PC}
+   \                     ??ota_journal_record_valid_0: (+1)
+   \       0x22   0x2000             MOVS     R0,#+0
+   \       0x24   0xBD10             POP      {R4,PC}
+     71          }
+     72          
+
+   \                                 In section .text, align 2, keep-with-next
+     73          bool em3555TokensLoadLightState(Em3555PersistedLightState *state)
+     74          {
+   \                     em3555TokensLoadLightState: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB088             SUB      SP,SP,#+32
+   \        0x4   0x4604             MOV      R4,R0
+     75            Em3555LightStateTokenRecord record;
+     76          
+     77            memset(&record, 0, sizeof(record));
+     78          
+     79          #if defined(EM3555_HAVE_HAL) && defined(TOKEN_EM3555_LIGHT_STATE_TOKEN)
+     80            halCommonGetToken(&record, TOKEN_EM3555_LIGHT_STATE_TOKEN);
+     81          #else
+     82            record = s_fallbackLightToken;
+   \        0x6   0x4668             MOV      R0,SP
+   \        0x8   0x....             LDR.N    R1,??DataTable7_1
+   \        0xA   0x2220             MOVS     R2,#+32
+   \        0xC   0x.... 0x....      BL       __aeabi_memcpy4
+     83          #endif
+     84          
+     85            if (!light_state_record_valid(&record)) {
+   \       0x10   0x4668             MOV      R0,SP
+   \       0x12   0x.... 0x....      BL       light_state_record_valid
+   \       0x16   0x0005             MOVS     R5,R0
+   \       0x18   0xD004             BEQ.N    ??em3555TokensLoadLightState_0
+     86              return false;
+     87            }
+     88          
+     89            *state = record.state;
+   \       0x1A   0x4620             MOV      R0,R4
+   \       0x1C   0xA901             ADD      R1,SP,#+4
+   \       0x1E   0x221C             MOVS     R2,#+28
+   \       0x20   0x.... 0x....      BL       __aeabi_memcpy
+     90            return true;
+   \                     ??em3555TokensLoadLightState_0: (+1)
+   \       0x24   0x4628             MOV      R0,R5
+   \       0x26   0x1E40             SUBS     R0,R0,#+1
+   \       0x28   0x4180             SBCS     R0,R0,R0
+   \       0x2A   0x43C0             MVNS     R0,R0
+   \       0x2C   0x0FC0             LSRS     R0,R0,#+31
+   \       0x2E   0xB009             ADD      SP,SP,#+36
+   \       0x30   0xBD30             POP      {R4,R5,PC}
+     91          }
+     92          
+
+   \                                 In section .text, align 2, keep-with-next
+     93          void em3555TokensSaveLightState(const Em3555PersistedLightState *state)
+     94          {
+   \                     em3555TokensSaveLightState: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0xB088             SUB      SP,SP,#+32
+   \        0x4   0x4601             MOV      R1,R0
+     95            Em3555LightStateTokenRecord record;
+     96          
+     97            record.version = EM3555_TOKEN_VERSION;
+   \        0x6   0x2002             MOVS     R0,#+2
+   \        0x8   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+     98            record.state = *state;
+   \        0xC   0xA801             ADD      R0,SP,#+4
+   \        0xE   0x221C             MOVS     R2,#+28
+   \       0x10   0x.... 0x....      BL       __aeabi_memcpy
+     99            record.checksum = light_state_checksum(&record);
+   \       0x14   0x4668             MOV      R0,SP
+   \       0x16   0x.... 0x....      BL       light_state_checksum
+   \       0x1A   0xF8AD 0x0002      STRH     R0,[SP, #+2]
+    100          
+    101          #if defined(EM3555_HAVE_HAL) && defined(TOKEN_EM3555_LIGHT_STATE_TOKEN)
+    102            halCommonSetToken(TOKEN_EM3555_LIGHT_STATE_TOKEN, &record);
+    103          #else
+    104            s_fallbackLightToken = record;
+   \       0x1E   0x....             LDR.N    R0,??DataTable7_1
+   \       0x20   0x4669             MOV      R1,SP
+   \       0x22   0x2220             MOVS     R2,#+32
+   \       0x24   0x.... 0x....      BL       __aeabi_memcpy4
+    105          #endif
+    106          }
+   \       0x28   0xB009             ADD      SP,SP,#+36
+   \       0x2A   0xBD00             POP      {PC}
+    107          
+
+   \                                 In section .text, align 2, keep-with-next
+    108          bool em3555TokensLoadFactoryResetState(Em3555FactoryResetState *state)
+    109          {
+   \                     em3555TokensLoadFactoryResetState: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x4604             MOV      R4,R0
+    110            Em3555FactoryResetTokenRecord record;
+    111          
+    112            memset(&record, 0, sizeof(record));
+    113          
+    114          #if defined(EM3555_HAVE_HAL) && defined(TOKEN_EM3555_FACTORY_RESET_TOKEN)
+    115            halCommonGetToken(&record, TOKEN_EM3555_FACTORY_RESET_TOKEN);
+    116          #else
+    117            record = s_fallbackFactoryResetToken;
+   \        0x4   0x....             LDR.N    R2,??DataTable7_2
+   \        0x6   0xE9D2 0x0100      LDRD     R0,R1,[R2, #+0]
+   \        0xA   0xE9CD 0x0100      STRD     R0,R1,[SP, #+0]
+    118          #endif
+    119          
+    120            if (!factory_reset_record_valid(&record)) {
+   \        0xE   0x4668             MOV      R0,SP
+   \       0x10   0x.... 0x....      BL       factory_reset_record_valid
+   \       0x14   0x0001             MOVS     R1,R0
+   \       0x16   0xD001             BEQ.N    ??em3555TokensLoadFactoryResetState_0
+    121              return false;
+    122            }
+    123          
+    124            *state = record.state;
+   \       0x18   0x9801             LDR      R0,[SP, #+4]
+   \       0x1A   0x6020             STR      R0,[R4, #+0]
+    125            return true;
+   \                     ??em3555TokensLoadFactoryResetState_0: (+1)
+   \       0x1C   0x4608             MOV      R0,R1
+   \       0x1E   0x1E40             SUBS     R0,R0,#+1
+   \       0x20   0x4180             SBCS     R0,R0,R0
+   \       0x22   0x43C0             MVNS     R0,R0
+   \       0x24   0x0FC0             LSRS     R0,R0,#+31
+   \       0x26   0xBD16             POP      {R1,R2,R4,PC}
+    126          }
+    127          
+
+   \                                 In section .text, align 2, keep-with-next
+    128          void em3555TokensSaveFactoryResetState(const Em3555FactoryResetState *state)
+    129          {
+   \                     em3555TokensSaveFactoryResetState: (+1)
+   \        0x0   0xB5E0             PUSH     {R5-R7,LR}
+    130            Em3555FactoryResetTokenRecord record;
+    131          
+    132            record.version = EM3555_TOKEN_VERSION;
+   \        0x2   0x2102             MOVS     R1,#+2
+   \        0x4   0xF8AD 0x1000      STRH     R1,[SP, #+0]
+    133            record.state = *state;
+   \        0x8   0x6800             LDR      R0,[R0, #+0]
+   \        0xA   0x9001             STR      R0,[SP, #+4]
+    134            record.checksum = factory_reset_checksum(&record);
+   \        0xC   0x4668             MOV      R0,SP
+   \        0xE   0x.... 0x....      BL       factory_reset_checksum
+   \       0x12   0xF8AD 0x0002      STRH     R0,[SP, #+2]
+    135          
+    136          #if defined(EM3555_HAVE_HAL) && defined(TOKEN_EM3555_FACTORY_RESET_TOKEN)
+    137            halCommonSetToken(TOKEN_EM3555_FACTORY_RESET_TOKEN, &record);
+    138          #else
+    139            s_fallbackFactoryResetToken = record;
+   \       0x16   0xE9DD 0x0100      LDRD     R0,R1,[SP, #+0]
+   \       0x1A   0x....             LDR.N    R2,??DataTable7_2
+   \       0x1C   0xE9C2 0x0100      STRD     R0,R1,[R2, #+0]
+    140          #endif
+    141          }
+   \       0x20   0xBD07             POP      {R0-R2,PC}
+    142          
+
+   \                                 In section .text, align 2, keep-with-next
+    143          bool em3555TokensLoadOtaJournal(Em3555OtaJournalTokenRecord *record)
+    144          {
+   \                     em3555TokensLoadOtaJournal: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0xB08C             SUB      SP,SP,#+48
+   \        0x4   0x0004             MOVS     R4,R0
+    145            Em3555OtaJournalTokenRecord token;
+    146          
+    147            if (record == NULL) {
+   \        0x6   0xD101             BNE.N    ??em3555TokensLoadOtaJournal_0
+    148              return false;
+   \        0x8   0x2000             MOVS     R0,#+0
+   \        0xA   0xE013             B.N      ??em3555TokensLoadOtaJournal_1
+    149            }
+    150          
+    151            memset(&token, 0, sizeof(token));
+    152          
+    153          #if defined(EM3555_HAVE_HAL) && defined(TOKEN_EM3555_OTA_JOURNAL_TOKEN)
+    154            halCommonGetToken(&token, TOKEN_EM3555_OTA_JOURNAL_TOKEN);
+    155          #else
+    156            token = s_fallbackOtaJournalToken;
+   \                     ??em3555TokensLoadOtaJournal_0: (+1)
+   \        0xC   0x4668             MOV      R0,SP
+   \        0xE   0x....             LDR.N    R1,??DataTable7_3
+   \       0x10   0x2230             MOVS     R2,#+48
+   \       0x12   0x.... 0x....      BL       __aeabi_memcpy4
+    157          #endif
+    158          
+    159            if (!ota_journal_record_valid(&token)) {
+   \       0x16   0x4668             MOV      R0,SP
+   \       0x18   0x.... 0x....      BL       ota_journal_record_valid
+   \       0x1C   0x0005             MOVS     R5,R0
+   \       0x1E   0xD004             BEQ.N    ??em3555TokensLoadOtaJournal_2
+    160              return false;
+    161            }
+    162          
+    163            *record = token;
+   \       0x20   0x4620             MOV      R0,R4
+   \       0x22   0x4669             MOV      R1,SP
+   \       0x24   0x2230             MOVS     R2,#+48
+   \       0x26   0x.... 0x....      BL       __aeabi_memcpy4
+    164            return true;
+   \                     ??em3555TokensLoadOtaJournal_2: (+1)
+   \       0x2A   0x4628             MOV      R0,R5
+   \       0x2C   0x1E40             SUBS     R0,R0,#+1
+   \       0x2E   0x4180             SBCS     R0,R0,R0
+   \       0x30   0x43C0             MVNS     R0,R0
+   \       0x32   0x0FC0             LSRS     R0,R0,#+31
+   \                     ??em3555TokensLoadOtaJournal_1: (+1)
+   \       0x34   0xB00D             ADD      SP,SP,#+52
+   \       0x36   0xBD30             POP      {R4,R5,PC}
+    165          }
+    166          
+
+   \                                 In section .text, align 2, keep-with-next
+    167          void em3555TokensSaveOtaJournal(const Em3555OtaJournalTokenRecord *record)
+    168          {
+   \                     em3555TokensSaveOtaJournal: (+1)
+   \        0x0   0x0001             MOVS     R1,R0
+   \        0x2   0xD100             BNE.N    ??em3555TokensSaveOtaJournal_0
+   \        0x4   0x4770             BX       LR
+   \                     ??em3555TokensSaveOtaJournal_0: (+1)
+   \        0x6   0xB580             PUSH     {R7,LR}
+   \        0x8   0xB08C             SUB      SP,SP,#+48
+    169            Em3555OtaJournalTokenRecord token;
+    170          
+    171            if (record == NULL) {
+    172              return;
+    173            }
+    174          
+    175            token = *record;
+   \        0xA   0x4668             MOV      R0,SP
+   \        0xC   0x2230             MOVS     R2,#+48
+   \        0xE   0x.... 0x....      BL       __aeabi_memcpy4
+    176            token.magic = EM3555_OTA_JOURNAL_MAGIC;
+   \       0x12   0x....             LDR.N    R0,??DataTable7
+   \       0x14   0x9000             STR      R0,[SP, #+0]
+    177            token.version = EM3555_OTA_JOURNAL_VERSION;
+   \       0x16   0x2001             MOVS     R0,#+1
+   \       0x18   0xF8AD 0x0004      STRH     R0,[SP, #+4]
+    178            token.checksum = ota_journal_checksum(&token);
+   \       0x1C   0x4668             MOV      R0,SP
+   \       0x1E   0x.... 0x....      BL       ota_journal_checksum
+   \       0x22   0xF8AD 0x0006      STRH     R0,[SP, #+6]
+    179          
+    180          #if defined(EM3555_HAVE_HAL) && defined(TOKEN_EM3555_OTA_JOURNAL_TOKEN)
+    181            halCommonSetToken(TOKEN_EM3555_OTA_JOURNAL_TOKEN, &token);
+    182          #else
+    183            s_fallbackOtaJournalToken = token;
+   \       0x26   0x....             LDR.N    R0,??DataTable7_3
+   \       0x28   0x4669             MOV      R1,SP
+   \       0x2A   0x2230             MOVS     R2,#+48
+   \       0x2C   0x.... 0x....      BL       __aeabi_memcpy4
+    184          #endif
+    185          }
+   \       0x30   0xB00D             ADD      SP,SP,#+52
+   \       0x32   0xBD00             POP      {PC}
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7:
+   \        0x0   0x4F54'414A        DC32     0x4f54414a
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_1:
+   \        0x0   0x....'....        DC32     s_fallbackLightToken
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_2:
+   \        0x0   0x....'....        DC32     s_fallbackFactoryResetToken
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable7_3:
+   \        0x0   0x....'....        DC32     s_fallbackOtaJournalToken
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       4   checksum_bytes
+      16   em3555TokensLoadFactoryResetState
+        16   -> factory_reset_record_valid
+      48   em3555TokensLoadLightState
+        48   -> __aeabi_memcpy
+        48   -> __aeabi_memcpy4
+        48   -> light_state_record_valid
+      64   em3555TokensLoadOtaJournal
+        64   -> __aeabi_memcpy4
+        64   -> ota_journal_record_valid
+      16   em3555TokensSaveFactoryResetState
+        16   -> factory_reset_checksum
+      40   em3555TokensSaveLightState
+        40   -> __aeabi_memcpy
+        40   -> __aeabi_memcpy4
+        40   -> light_state_checksum
+      56   em3555TokensSaveOtaJournal
+        56   -> __aeabi_memcpy4
+        56   -> ota_journal_checksum
+      16   factory_reset_checksum
+        16   -> checksum_bytes
+       8   factory_reset_record_valid
+         8   -> factory_reset_checksum
+      16   light_state_checksum
+        16   -> checksum_bytes
+       8   light_state_record_valid
+         8   -> light_state_checksum
+      16   ota_journal_checksum
+        16   -> checksum_bytes
+       8   ota_journal_record_valid
+         8   -> ota_journal_checksum
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable7
+       4  ??DataTable7_1
+       4  ??DataTable7_2
+       4  ??DataTable7_3
+      26  checksum_bytes
+      40  em3555TokensLoadFactoryResetState
+      50  em3555TokensLoadLightState
+      56  em3555TokensLoadOtaJournal
+      34  em3555TokensSaveFactoryResetState
+      44  em3555TokensSaveLightState
+      52  em3555TokensSaveOtaJournal
+      28  factory_reset_checksum
+      30  factory_reset_record_valid
+      28  light_state_checksum
+      30  light_state_record_valid
+      40  ota_journal_checksum
+      38  ota_journal_record_valid
+       8  s_fallbackFactoryResetToken
+      32  s_fallbackLightToken
+      48  s_fallbackOtaJournalToken
+
+ 
+  88 bytes in section .bss
+ 512 bytes in section .text
+ 
+ 512 bytes of CODE memory
+  88 bytes of DATA memory
+
+Errors: none
+Warnings: none

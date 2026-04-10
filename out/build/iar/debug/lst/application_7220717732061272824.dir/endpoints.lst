@@ -1,0 +1,1075 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:31
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\endpoints.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\endpoints.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\src\endpoints.c -D
+#        CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2 -D
+#        PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"endpoints.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\endpoints.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\endpoints.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\application_7220717732061272824.dir\endpoints.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\application_7220717732061272824.dir\endpoints.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\src\endpoints.c
+      1          #include <string.h>
+      2          
+      3          #include "endpoints.h"
+      4          
+      5          #include "config/firmware_config.h"
+      6          #include "fw_compat.h"
+      7          
+
+   \                                 In section .bss, align 4
+      8          static Em3555PersistedLightState s_lastSyncedState;
+   \                     s_lastSyncedState:
+   \        0x0                      DS8 28
+
+   \                                 In section .bss, align 1
+      9          static bool s_haveLastSyncedState;
+   \                     s_haveLastSyncedState:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     10          static bool s_lastColorLoopActive;
+   \                     s_lastColorLoopActive:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 1
+     11          static uint8_t s_lastColorLoopDirection;
+   \                     s_lastColorLoopDirection:
+   \        0x0                      DS8 1
+
+   \                                 In section .bss, align 2
+     12          static uint16_t s_lastColorLoopTimeS;
+   \                     s_lastColorLoopTimeS:
+   \        0x0                      DS8 2
+
+   \                                 In section .bss, align 1
+     13          static bool s_haveLastColorLoopState;
+   \                     s_haveLastColorLoopState:
+   \        0x0                      DS8 1
+     14          
+
+   \                                 In section .text, align 2, keep-with-next
+     15          static uint16_t current_hue_to_enhanced_hue(uint8_t currentHue)
+     16          {
+     17            if (currentHue >= 254U) {
+   \                     current_hue_to_enhanced_hue: (+1)
+   \        0x0   0x28FE             CMP      R0,#+254
+   \        0x2   0xD302             BCC.N    ??current_hue_to_enhanced_hue_0
+     18              return 65535U;
+   \        0x4   0xF64F 0x70FF      MOVW     R0,#+65535
+   \        0x8   0x4770             BX       LR
+     19            }
+     20          
+     21            return (uint16_t)((((uint32_t)currentHue * 65535UL) + 127UL) / 254UL);
+   \                     ??current_hue_to_enhanced_hue_0: (+1)
+   \        0xA   0xEBC0 0x4000      RSB      R0,R0,R0, LSL #+16
+   \        0xE   0x307F             ADDS     R0,R0,#+127
+   \       0x10   0x21FE             MOVS     R1,#+254
+   \       0x12   0xFBB0 0xF0F1      UDIV     R0,R0,R1
+   \       0x16   0xB280             UXTH     R0,R0
+   \       0x18   0x4770             BX       LR
+     22          }
+     23          
+
+   \                                 In section .text, align 2, keep-with-next
+     24          static void write_u8_attribute(uint8_t endpoint,
+     25                                         EmberAfClusterId clusterId,
+     26                                         EmberAfAttributeId attributeId,
+     27                                         uint8_t value)
+     28          {
+   \                     write_u8_attribute: (+1)
+   \        0x0   0xB50E             PUSH     {R1-R3,LR}
+     29            (void)emberAfWriteServerAttribute(endpoint,
+     30                                              clusterId,
+     31                                              attributeId,
+     32                                              (uint8_t *)&value,
+     33                                              ZCL_INT8U_ATTRIBUTE_TYPE);
+   \        0x2   0x2320             MOVS     R3,#+32
+   \        0x4   0x9300             STR      R3,[SP, #+0]
+   \        0x6   0xAB02             ADD      R3,SP,#+8
+   \        0x8   0x.... 0x....      BL       emberAfWriteServerAttribute
+     34          }
+   \        0xC   0xBD07             POP      {R0-R2,PC}
+     35          
+
+   \                                 In section .text, align 2, keep-with-next
+     36          static void write_u16_attribute(uint8_t endpoint,
+     37                                          EmberAfClusterId clusterId,
+     38                                          EmberAfAttributeId attributeId,
+     39                                          uint16_t value)
+     40          {
+   \                     write_u16_attribute: (+1)
+   \        0x0   0xB50E             PUSH     {R1-R3,LR}
+     41            (void)emberAfWriteServerAttribute(endpoint,
+     42                                              clusterId,
+     43                                              attributeId,
+     44                                              (uint8_t *)&value,
+     45                                              ZCL_INT16U_ATTRIBUTE_TYPE);
+   \        0x2   0x2321             MOVS     R3,#+33
+   \        0x4   0x9300             STR      R3,[SP, #+0]
+   \        0x6   0xAB02             ADD      R3,SP,#+8
+   \        0x8   0x.... 0x....      BL       emberAfWriteServerAttribute
+     46          }
+   \        0xC   0xBD07             POP      {R0-R2,PC}
+     47          
+
+   \                                 In section .text, align 2, keep-with-next
+     48          static void write_bool_attribute(uint8_t endpoint,
+     49                                           EmberAfClusterId clusterId,
+     50                                           EmberAfAttributeId attributeId,
+     51                                           bool value)
+     52          {
+   \                     write_bool_attribute: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+     53            uint8_t encoded = (value ? 1U : 0U);
+   \        0x2   0x461C             MOV      R4,R3
+   \        0x4   0x1E64             SUBS     R4,R4,#+1
+   \        0x6   0x41A4             SBCS     R4,R4,R4
+   \        0x8   0x43E4             MVNS     R4,R4
+   \        0xA   0x0FE4             LSRS     R4,R4,#+31
+   \        0xC   0xF88D 0x4004      STRB     R4,[SP, #+4]
+     54          
+     55            (void)emberAfWriteServerAttribute(endpoint,
+     56                                              clusterId,
+     57                                              attributeId,
+     58                                              &encoded,
+     59                                              ZCL_BOOLEAN_ATTRIBUTE_TYPE);
+   \       0x10   0x2310             MOVS     R3,#+16
+   \       0x12   0x9300             STR      R3,[SP, #+0]
+   \       0x14   0xAB01             ADD      R3,SP,#+4
+   \       0x16   0x.... 0x....      BL       emberAfWriteServerAttribute
+     60          }
+   \       0x1A   0xBD13             POP      {R0,R1,R4,PC}
+     61          
+
+   \                                 In section .text, align 2, keep-with-next
+     62          static void write_string_attribute(uint8_t endpoint,
+     63                                             EmberAfClusterId clusterId,
+     64                                             EmberAfAttributeId attributeId,
+     65                                             const char *value)
+     66          {
+   \                     write_string_attribute: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0xB08A             SUB      SP,SP,#+40
+   \        0x6   0x4604             MOV      R4,R0
+   \        0x8   0x460D             MOV      R5,R1
+   \        0xA   0x4616             MOV      R6,R2
+   \        0xC   0x461F             MOV      R7,R3
+     67            uint8_t zclString[33];
+     68            size_t stringLength = strlen(value);
+   \        0xE   0x4638             MOV      R0,R7
+   \       0x10   0x.... 0x....      BL       strlen
+   \       0x14   0x4680             MOV      R8,R0
+     69          
+     70            memset(zclString, 0, sizeof(zclString));
+   \       0x16   0x2200             MOVS     R2,#+0
+   \       0x18   0x2121             MOVS     R1,#+33
+   \       0x1A   0xA801             ADD      R0,SP,#+4
+   \       0x1C   0x.... 0x....      BL       __aeabi_memset4
+     71            if (stringLength > 32U) {
+   \       0x20   0xF1B8 0x0F20      CMP      R8,#+32
+   \       0x24   0xD901             BLS.N    ??write_string_attribute_0
+     72              stringLength = 32U;
+   \       0x26   0xF04F 0x0820      MOV      R8,#+32
+     73            }
+     74          
+     75            zclString[0] = (uint8_t)stringLength;
+   \                     ??write_string_attribute_0: (+1)
+   \       0x2A   0x4640             MOV      R0,R8
+   \       0x2C   0xF88D 0x0004      STRB     R0,[SP, #+4]
+     76            memcpy(&zclString[1], value, stringLength);
+   \       0x30   0x4642             MOV      R2,R8
+   \       0x32   0x4639             MOV      R1,R7
+   \       0x34   0xF10D 0x0005      ADD      R0,SP,#+5
+   \       0x38   0x.... 0x....      BL       __aeabi_memcpy
+     77          
+     78            (void)emberAfWriteServerAttribute(endpoint,
+     79                                              clusterId,
+     80                                              attributeId,
+     81                                              zclString,
+     82                                              ZCL_CHAR_STRING_ATTRIBUTE_TYPE);
+   \       0x3C   0x2042             MOVS     R0,#+66
+   \       0x3E   0x9000             STR      R0,[SP, #+0]
+   \       0x40   0xAB01             ADD      R3,SP,#+4
+   \       0x42   0x4632             MOV      R2,R6
+   \       0x44   0x4629             MOV      R1,R5
+   \       0x46   0x4620             MOV      R0,R4
+   \       0x48   0x.... 0x....      BL       emberAfWriteServerAttribute
+     83          }
+   \       0x4C   0xB00A             ADD      SP,SP,#+40
+   \       0x4E   0xE8BD 0x81F0      POP      {R4-R8,PC}
+     84          
+
+   \                                 In section .text, align 2, keep-with-next
+     85          static void write_color_attributes(const Em3555PersistedLightState *state)
+     86          {
+   \                     write_color_attributes: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     87            uint8_t enhancedColorMode;
+     88          
+     89            if (state == NULL) {
+   \        0x4   0xD03A             BEQ.N    ??write_color_attributes_0
+     90              return;
+     91            }
+     92          
+     93            enhancedColorMode = state->colorMode;
+   \        0x6   0x7B20             LDRB     R0,[R4, #+12]
+   \        0x8   0xF88D 0x0004      STRB     R0,[SP, #+4]
+     94          
+     95            write_u8_attribute(EM3555_LIGHT_ENDPOINT,
+     96                               ZCL_COLOR_CONTROL_CLUSTER_ID,
+     97                               ZCL_CURRENT_HUE_ATTRIBUTE_ID,
+     98                               state->currentHue);
+   \        0xC   0x78E3             LDRB     R3,[R4, #+3]
+   \        0xE   0x2200             MOVS     R2,#+0
+   \       0x10   0xF44F 0x7140      MOV      R1,#+768
+   \       0x14   0x2003             MOVS     R0,#+3
+   \       0x16   0x.... 0x....      BL       write_u8_attribute
+     99            write_u8_attribute(EM3555_LIGHT_ENDPOINT,
+    100                               ZCL_COLOR_CONTROL_CLUSTER_ID,
+    101                               ZCL_CURRENT_SATURATION_ATTRIBUTE_ID,
+    102                               state->currentSaturation);
+   \       0x1A   0x7923             LDRB     R3,[R4, #+4]
+   \       0x1C   0x2201             MOVS     R2,#+1
+   \       0x1E   0xF44F 0x7140      MOV      R1,#+768
+   \       0x22   0x2003             MOVS     R0,#+3
+   \       0x24   0x.... 0x....      BL       write_u8_attribute
+    103            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    104                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    105                                ZCL_CURRENT_X_ATTRIBUTE_ID,
+    106                                state->currentX);
+   \       0x28   0x88E3             LDRH     R3,[R4, #+6]
+   \       0x2A   0x2203             MOVS     R2,#+3
+   \       0x2C   0xF44F 0x7140      MOV      R1,#+768
+   \       0x30   0x4610             MOV      R0,R2
+   \       0x32   0x.... 0x....      BL       write_u16_attribute
+    107            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    108                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    109                                ZCL_CURRENT_Y_ATTRIBUTE_ID,
+    110                                state->currentY);
+   \       0x36   0x8923             LDRH     R3,[R4, #+8]
+   \       0x38   0x2204             MOVS     R2,#+4
+   \       0x3A   0xF44F 0x7140      MOV      R1,#+768
+   \       0x3E   0x2003             MOVS     R0,#+3
+   \       0x40   0x.... 0x....      BL       write_u16_attribute
+    111            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    112                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    113                                ZCL_COLOR_TEMPERATURE_ATTRIBUTE_ID,
+    114                                state->colorTemperatureMireds);
+   \       0x44   0x8963             LDRH     R3,[R4, #+10]
+   \       0x46   0x2207             MOVS     R2,#+7
+   \       0x48   0xF44F 0x7140      MOV      R1,#+768
+   \       0x4C   0x2003             MOVS     R0,#+3
+   \       0x4E   0x.... 0x....      BL       write_u16_attribute
+    115            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    116                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    117                                ZCL_COLOR_CONTROL_ENHANCED_CURRENT_HUE_ATTRIBUTE_ID,
+    118                                current_hue_to_enhanced_hue(state->currentHue));
+   \       0x52   0x78E0             LDRB     R0,[R4, #+3]
+   \       0x54   0x.... 0x....      BL       current_hue_to_enhanced_hue
+   \       0x58   0x4603             MOV      R3,R0
+   \       0x5A   0xF44F 0x4280      MOV      R2,#+16384
+   \       0x5E   0xF44F 0x7140      MOV      R1,#+768
+   \       0x62   0x2003             MOVS     R0,#+3
+   \       0x64   0x.... 0x....      BL       write_u16_attribute
+    119            (void)emberAfWriteServerAttribute(EM3555_LIGHT_ENDPOINT,
+    120                                              ZCL_COLOR_CONTROL_CLUSTER_ID,
+    121                                              ZCL_COLOR_CONTROL_ENHANCED_COLOR_MODE_ATTRIBUTE_ID,
+    122                                              &enhancedColorMode,
+    123                                              ZCL_ENUM8_ATTRIBUTE_TYPE);
+   \       0x68   0x2030             MOVS     R0,#+48
+   \       0x6A   0x9000             STR      R0,[SP, #+0]
+   \       0x6C   0xAB01             ADD      R3,SP,#+4
+   \       0x6E   0xF244 0x0201      MOVW     R2,#+16385
+   \       0x72   0xF44F 0x7140      MOV      R1,#+768
+   \       0x76   0x2003             MOVS     R0,#+3
+   \       0x78   0x.... 0x....      BL       emberAfWriteServerAttribute
+    124          }
+   \                     ??write_color_attributes_0: (+1)
+   \       0x7C   0xBD13             POP      {R0,R1,R4,PC}
+    125          
+
+   \                                 In section .text, align 2, keep-with-next
+    126          void em3555EndpointsWriteIdentity(void)
+    127          {
+   \                     em3555EndpointsWriteIdentity: (+1)
+   \        0x0   0xB51F             PUSH     {R0-R4,LR}
+    128            uint8_t zclVersion = 3U;
+   \        0x2   0x2003             MOVS     R0,#+3
+   \        0x4   0xF88D 0x0009      STRB     R0,[SP, #+9]
+    129            uint8_t applicationVersion = EM3555_ZCL_APPLICATION_VERSION;
+   \        0x8   0x2004             MOVS     R0,#+4
+   \        0xA   0xF88D 0x0008      STRB     R0,[SP, #+8]
+    130            uint8_t stackVersion = EM3555_ZCL_STACK_VERSION;
+   \        0xE   0x202B             MOVS     R0,#+43
+   \       0x10   0xF88D 0x0007      STRB     R0,[SP, #+7]
+    131            uint8_t hwVersion = EM3555_ZCL_HW_VERSION;
+   \       0x14   0x2001             MOVS     R0,#+1
+   \       0x16   0xF88D 0x0006      STRB     R0,[SP, #+6]
+    132            uint8_t groupNameSupport = 0U;
+   \       0x1A   0x2000             MOVS     R0,#+0
+   \       0x1C   0xF88D 0x0005      STRB     R0,[SP, #+5]
+    133            uint8_t powerSource = 0x01U;
+   \       0x20   0x2001             MOVS     R0,#+1
+   \       0x22   0xF88D 0x0004      STRB     R0,[SP, #+4]
+    134            uint16_t clusterRevision = 4U;
+    135            uint16_t colorCapabilities = EM3555_COLOR_CAPABILITIES;
+    136          
+    137            (void)emberAfWriteServerAttribute(EM3555_LIGHT_ENDPOINT,
+    138                                              ZCL_BASIC_CLUSTER_ID,
+    139                                              ZCL_ZCL_VERSION_ATTRIBUTE_ID,
+    140                                              &zclVersion,
+    141                                              ZCL_INT8U_ATTRIBUTE_TYPE);
+   \       0x26   0x2020             MOVS     R0,#+32
+   \       0x28   0x9000             STR      R0,[SP, #+0]
+   \       0x2A   0xF10D 0x0309      ADD      R3,SP,#+9
+   \       0x2E   0x2200             MOVS     R2,#+0
+   \       0x30   0x4611             MOV      R1,R2
+   \       0x32   0x2003             MOVS     R0,#+3
+   \       0x34   0x.... 0x....      BL       emberAfWriteServerAttribute
+    142            (void)emberAfWriteServerAttribute(EM3555_LIGHT_ENDPOINT,
+    143                                              ZCL_BASIC_CLUSTER_ID,
+    144                                              ZCL_APPLICATION_VERSION_ATTRIBUTE_ID,
+    145                                              &applicationVersion,
+    146                                              ZCL_INT8U_ATTRIBUTE_TYPE);
+   \       0x38   0x2020             MOVS     R0,#+32
+   \       0x3A   0x9000             STR      R0,[SP, #+0]
+   \       0x3C   0xAB02             ADD      R3,SP,#+8
+   \       0x3E   0x2201             MOVS     R2,#+1
+   \       0x40   0x2100             MOVS     R1,#+0
+   \       0x42   0x2003             MOVS     R0,#+3
+   \       0x44   0x.... 0x....      BL       emberAfWriteServerAttribute
+    147            (void)emberAfWriteServerAttribute(EM3555_LIGHT_ENDPOINT,
+    148                                              ZCL_BASIC_CLUSTER_ID,
+    149                                              ZCL_STACK_VERSION_ATTRIBUTE_ID,
+    150                                              &stackVersion,
+    151                                              ZCL_INT8U_ATTRIBUTE_TYPE);
+   \       0x48   0x2020             MOVS     R0,#+32
+   \       0x4A   0x9000             STR      R0,[SP, #+0]
+   \       0x4C   0xF10D 0x0307      ADD      R3,SP,#+7
+   \       0x50   0x2202             MOVS     R2,#+2
+   \       0x52   0x2100             MOVS     R1,#+0
+   \       0x54   0x2003             MOVS     R0,#+3
+   \       0x56   0x.... 0x....      BL       emberAfWriteServerAttribute
+    152            (void)emberAfWriteServerAttribute(EM3555_LIGHT_ENDPOINT,
+    153                                              ZCL_BASIC_CLUSTER_ID,
+    154                                              ZCL_HW_VERSION_ATTRIBUTE_ID,
+    155                                              &hwVersion,
+    156                                              ZCL_INT8U_ATTRIBUTE_TYPE);
+   \       0x5A   0x2020             MOVS     R0,#+32
+   \       0x5C   0x9000             STR      R0,[SP, #+0]
+   \       0x5E   0xF10D 0x0306      ADD      R3,SP,#+6
+   \       0x62   0x2203             MOVS     R2,#+3
+   \       0x64   0x2100             MOVS     R1,#+0
+   \       0x66   0x4610             MOV      R0,R2
+   \       0x68   0x.... 0x....      BL       emberAfWriteServerAttribute
+    157            write_string_attribute(EM3555_LIGHT_ENDPOINT,
+    158                                   ZCL_BASIC_CLUSTER_ID,
+    159                                   ZCL_MANUFACTURER_NAME_ATTRIBUTE_ID,
+    160                                   EM3555_ZCL_MANUFACTURER_NAME);
+   \       0x6C   0x....             LDR.N    R3,??DataTable2
+   \       0x6E   0x2204             MOVS     R2,#+4
+   \       0x70   0x2100             MOVS     R1,#+0
+   \       0x72   0x2003             MOVS     R0,#+3
+   \       0x74   0x.... 0x....      BL       write_string_attribute
+    161            write_string_attribute(EM3555_LIGHT_ENDPOINT,
+    162                                   ZCL_BASIC_CLUSTER_ID,
+    163                                   ZCL_MODEL_IDENTIFIER_ATTRIBUTE_ID,
+    164                                   EM3555_ZCL_MODEL_IDENTIFIER);
+   \       0x78   0x....             LDR.N    R3,??DataTable2_1
+   \       0x7A   0x2205             MOVS     R2,#+5
+   \       0x7C   0x2100             MOVS     R1,#+0
+   \       0x7E   0x2003             MOVS     R0,#+3
+   \       0x80   0x.... 0x....      BL       write_string_attribute
+    165            write_string_attribute(EM3555_LIGHT_ENDPOINT,
+    166                                   ZCL_BASIC_CLUSTER_ID,
+    167                                   ZCL_DATE_CODE_ATTRIBUTE_ID,
+    168                                   EM3555_ZCL_DATE_CODE);
+   \       0x84   0x....             LDR.N    R3,??DataTable2_2
+   \       0x86   0x2206             MOVS     R2,#+6
+   \       0x88   0x2100             MOVS     R1,#+0
+   \       0x8A   0x2003             MOVS     R0,#+3
+   \       0x8C   0x.... 0x....      BL       write_string_attribute
+    169          
+    170            (void)emberAfWriteServerAttribute(EM3555_LIGHT_ENDPOINT,
+    171                                              ZCL_BASIC_CLUSTER_ID,
+    172                                              ZCL_POWER_SOURCE_ATTRIBUTE_ID,
+    173                                              &powerSource,
+    174                                              ZCL_ENUM8_ATTRIBUTE_TYPE);
+   \       0x90   0x2030             MOVS     R0,#+48
+   \       0x92   0x9000             STR      R0,[SP, #+0]
+   \       0x94   0xAB01             ADD      R3,SP,#+4
+   \       0x96   0x2207             MOVS     R2,#+7
+   \       0x98   0x2100             MOVS     R1,#+0
+   \       0x9A   0x2003             MOVS     R0,#+3
+   \       0x9C   0x.... 0x....      BL       emberAfWriteServerAttribute
+    175          
+    176            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    177                                ZCL_BASIC_CLUSTER_ID,
+    178                                ZCL_CLUSTER_REVISION_ATTRIBUTE_ID,
+    179                                clusterRevision);
+   \       0xA0   0xF64F 0x74FD      MOVW     R4,#+65533
+   \       0xA4   0x2304             MOVS     R3,#+4
+   \       0xA6   0x4622             MOV      R2,R4
+   \       0xA8   0x2100             MOVS     R1,#+0
+   \       0xAA   0x2003             MOVS     R0,#+3
+   \       0xAC   0x.... 0x....      BL       write_u16_attribute
+    180            write_string_attribute(EM3555_LIGHT_ENDPOINT,
+    181                                   ZCL_BASIC_CLUSTER_ID,
+    182                                   ZCL_SW_BUILD_ID_ATTRIBUTE_ID,
+    183                                   EM3555_ZCL_SW_BUILD_ID);
+   \       0xB0   0x....             LDR.N    R3,??DataTable2_3
+   \       0xB2   0xF44F 0x4280      MOV      R2,#+16384
+   \       0xB6   0x2100             MOVS     R1,#+0
+   \       0xB8   0x2003             MOVS     R0,#+3
+   \       0xBA   0x.... 0x....      BL       write_string_attribute
+    184            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    185                                ZCL_IDENTIFY_CLUSTER_ID,
+    186                                ZCL_CLUSTER_REVISION_ATTRIBUTE_ID,
+    187                                clusterRevision);
+   \       0xBE   0x2304             MOVS     R3,#+4
+   \       0xC0   0x4622             MOV      R2,R4
+   \       0xC2   0x2103             MOVS     R1,#+3
+   \       0xC4   0x4608             MOV      R0,R1
+   \       0xC6   0x.... 0x....      BL       write_u16_attribute
+    188            (void)emberAfWriteServerAttribute(EM3555_LIGHT_ENDPOINT,
+    189                                              ZCL_GROUPS_CLUSTER_ID,
+    190                                              ZCL_GROUP_NAME_SUPPORT_ATTRIBUTE_ID,
+    191                                              &groupNameSupport,
+    192                                              ZCL_BITMAP8_ATTRIBUTE_TYPE);
+   \       0xCA   0x2018             MOVS     R0,#+24
+   \       0xCC   0x9000             STR      R0,[SP, #+0]
+   \       0xCE   0xF10D 0x0305      ADD      R3,SP,#+5
+   \       0xD2   0x2200             MOVS     R2,#+0
+   \       0xD4   0x2104             MOVS     R1,#+4
+   \       0xD6   0x2003             MOVS     R0,#+3
+   \       0xD8   0x.... 0x....      BL       emberAfWriteServerAttribute
+    193            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    194                                ZCL_GROUPS_CLUSTER_ID,
+    195                                ZCL_CLUSTER_REVISION_ATTRIBUTE_ID,
+    196                                clusterRevision);
+   \       0xDC   0x2304             MOVS     R3,#+4
+   \       0xDE   0x4622             MOV      R2,R4
+   \       0xE0   0x4619             MOV      R1,R3
+   \       0xE2   0x2003             MOVS     R0,#+3
+   \       0xE4   0x.... 0x....      BL       write_u16_attribute
+    197            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    198                                ZCL_SCENES_CLUSTER_ID,
+    199                                ZCL_CLUSTER_REVISION_ATTRIBUTE_ID,
+    200                                clusterRevision);
+   \       0xE8   0x2304             MOVS     R3,#+4
+   \       0xEA   0x4622             MOV      R2,R4
+   \       0xEC   0x2105             MOVS     R1,#+5
+   \       0xEE   0x2003             MOVS     R0,#+3
+   \       0xF0   0x.... 0x....      BL       write_u16_attribute
+    201            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    202                                ZCL_ON_OFF_CLUSTER_ID,
+    203                                ZCL_CLUSTER_REVISION_ATTRIBUTE_ID,
+    204                                clusterRevision);
+   \       0xF4   0x2304             MOVS     R3,#+4
+   \       0xF6   0x4622             MOV      R2,R4
+   \       0xF8   0x2106             MOVS     R1,#+6
+   \       0xFA   0x2003             MOVS     R0,#+3
+   \       0xFC   0x.... 0x....      BL       write_u16_attribute
+    205            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    206                                EM3555_OSRAM_CLUSTER_ID,
+    207                                ZCL_CLUSTER_REVISION_ATTRIBUTE_ID,
+    208                                clusterRevision);
+   \      0x100   0x2304             MOVS     R3,#+4
+   \      0x102   0x4622             MOV      R2,R4
+   \      0x104   0xF64F 0x410F      MOVW     R1,#+64527
+   \      0x108   0x2003             MOVS     R0,#+3
+   \      0x10A   0x.... 0x....      BL       write_u16_attribute
+    209            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    210                                ZCL_LEVEL_CONTROL_CLUSTER_ID,
+    211                                ZCL_CLUSTER_REVISION_ATTRIBUTE_ID,
+    212                                clusterRevision);
+   \      0x10E   0x2304             MOVS     R3,#+4
+   \      0x110   0x4622             MOV      R2,R4
+   \      0x112   0x2108             MOVS     R1,#+8
+   \      0x114   0x2003             MOVS     R0,#+3
+   \      0x116   0x.... 0x....      BL       write_u16_attribute
+    213            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    214                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    215                                ZCL_CLUSTER_REVISION_ATTRIBUTE_ID,
+    216                                clusterRevision);
+   \      0x11A   0x2304             MOVS     R3,#+4
+   \      0x11C   0x4622             MOV      R2,R4
+   \      0x11E   0xF44F 0x7140      MOV      R1,#+768
+   \      0x122   0x2003             MOVS     R0,#+3
+   \      0x124   0x.... 0x....      BL       write_u16_attribute
+    217            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    218                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    219                                ZCL_COLOR_CAPABILITIES_ATTRIBUTE_ID,
+    220                                colorCapabilities);
+   \      0x128   0x231F             MOVS     R3,#+31
+   \      0x12A   0xF244 0x020A      MOVW     R2,#+16394
+   \      0x12E   0xF44F 0x7140      MOV      R1,#+768
+   \      0x132   0x2003             MOVS     R0,#+3
+   \      0x134   0x.... 0x....      BL       write_u16_attribute
+    221            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    222                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    223                                ZCL_COLOR_CONTROL_COLOR_TEMP_PHYSICAL_MIN_ATTRIBUTE_ID,
+    224                                EM3555_COLOR_TEMP_MIN_MIREDS);
+   \      0x138   0x237D             MOVS     R3,#+125
+   \      0x13A   0xF244 0x020B      MOVW     R2,#+16395
+   \      0x13E   0xF44F 0x7140      MOV      R1,#+768
+   \      0x142   0x2003             MOVS     R0,#+3
+   \      0x144   0x.... 0x....      BL       write_u16_attribute
+    225            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    226                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    227                                ZCL_COLOR_CONTROL_COLOR_TEMP_PHYSICAL_MAX_ATTRIBUTE_ID,
+    228                                EM3555_COLOR_TEMP_MAX_MIREDS);
+   \      0x148   0xF240 0x239A      MOVW     R3,#+666
+   \      0x14C   0xF244 0x020C      MOVW     R2,#+16396
+   \      0x150   0xF44F 0x7140      MOV      R1,#+768
+   \      0x154   0x2003             MOVS     R0,#+3
+   \      0x156   0x.... 0x....      BL       write_u16_attribute
+    229          }
+   \      0x15A   0xBD1F             POP      {R0-R4,PC}
+    230          
+
+   \                                 In section .text, align 2, keep-with-next
+    231          static void write_color_loop_attributes(bool active, uint8_t direction, uint16_t timeS)
+    232          {
+   \                     write_color_loop_attributes: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x460C             MOV      R4,R1
+   \        0x4   0x4615             MOV      R5,R2
+    233            uint8_t activeValue = active ? 1U : 0U;
+   \        0x6   0x4603             MOV      R3,R0
+   \        0x8   0x1E5B             SUBS     R3,R3,#+1
+   \        0xA   0x419B             SBCS     R3,R3,R3
+   \        0xC   0x43DB             MVNS     R3,R3
+   \        0xE   0x0FDB             LSRS     R3,R3,#+31
+    234          
+    235            write_u8_attribute(EM3555_LIGHT_ENDPOINT,
+    236                               ZCL_COLOR_CONTROL_CLUSTER_ID,
+    237                               ZCL_COLOR_CONTROL_COLOR_LOOP_ACTIVE_ATTRIBUTE_ID,
+    238                               activeValue);
+   \       0x10   0xF244 0x0202      MOVW     R2,#+16386
+   \       0x14   0xF44F 0x7140      MOV      R1,#+768
+   \       0x18   0x2003             MOVS     R0,#+3
+   \       0x1A   0x.... 0x....      BL       write_u8_attribute
+    239            write_u8_attribute(EM3555_LIGHT_ENDPOINT,
+    240                               ZCL_COLOR_CONTROL_CLUSTER_ID,
+    241                               ZCL_COLOR_CONTROL_COLOR_LOOP_DIRECTION_ATTRIBUTE_ID,
+    242                               direction);
+   \       0x1E   0x4623             MOV      R3,R4
+   \       0x20   0xF244 0x0203      MOVW     R2,#+16387
+   \       0x24   0xF44F 0x7140      MOV      R1,#+768
+   \       0x28   0x2003             MOVS     R0,#+3
+   \       0x2A   0x.... 0x....      BL       write_u8_attribute
+    243            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    244                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    245                                ZCL_COLOR_CONTROL_COLOR_LOOP_TIME_ATTRIBUTE_ID,
+    246                                timeS);
+   \       0x2E   0x462B             MOV      R3,R5
+   \       0x30   0xF244 0x0204      MOVW     R2,#+16388
+   \       0x34   0xF44F 0x7140      MOV      R1,#+768
+   \       0x38   0x2003             MOVS     R0,#+3
+   \       0x3A   0xB001             ADD      SP,SP,#+4
+   \       0x3C   0xE8BD 0x4030      POP      {R4,R5,LR}
+   \       0x40   0x....             B.N      write_u16_attribute
+    247          }
+    248          
+
+   \                                 In section .text, align 2, keep-with-next
+    249          static void em3555EndpointsSyncStateInternal(const Em3555PersistedLightState *state, bool force)
+    250          {
+   \                     em3555EndpointsSyncStateInternal: (+1)
+   \        0x0   0xE92D 0x47FC      PUSH     {R2-R10,LR}
+   \        0x4   0x0004             MOVS     R4,R0
+   \        0x6   0x4689             MOV      R9,R1
+    251            bool colorLoopActive;
+    252            uint8_t colorLoopDirection;
+    253            uint16_t colorLoopTimeS;
+    254            bool colorLoopChanged;
+    255          
+    256            if (state == NULL) {
+   \        0x8   0xF000 0x80A0      BEQ.W    ??em3555EndpointsSyncStateInternal_0
+    257              return;
+    258            }
+    259          
+    260            colorLoopActive = em3555LightStateColorLoopActive();
+   \        0xC   0x.... 0x....      BL       em3555LightStateColorLoopActive
+   \       0x10   0x4605             MOV      R5,R0
+    261            colorLoopDirection = em3555LightStateColorLoopDirection();
+   \       0x12   0x.... 0x....      BL       em3555LightStateColorLoopDirection
+   \       0x16   0x4606             MOV      R6,R0
+    262            colorLoopTimeS = em3555LightStateColorLoopTimeS();
+   \       0x18   0x.... 0x....      BL       em3555LightStateColorLoopTimeS
+   \       0x1C   0x4607             MOV      R7,R0
+    263            colorLoopChanged = (!s_haveLastColorLoopState
+    264                                || colorLoopActive != s_lastColorLoopActive
+    265                                || colorLoopDirection != s_lastColorLoopDirection
+    266                                || colorLoopTimeS != s_lastColorLoopTimeS);
+   \       0x1E   0x.... 0x....      LDR.W    R8,??DataTable2_4
+   \       0x22   0xF898 0x0000      LDRB     R0,[R8, #+0]
+   \       0x26   0x2800             CMP      R0,#+0
+   \       0x28   0xD00E             BEQ.N    ??em3555EndpointsSyncStateInternal_1
+   \       0x2A   0x4628             MOV      R0,R5
+   \       0x2C   0x....             LDR.N    R1,??DataTable2_5
+   \       0x2E   0x7809             LDRB     R1,[R1, #+0]
+   \       0x30   0x4288             CMP      R0,R1
+   \       0x32   0xD109             BNE.N    ??em3555EndpointsSyncStateInternal_1
+   \       0x34   0x4630             MOV      R0,R6
+   \       0x36   0x....             LDR.N    R1,??DataTable2_6
+   \       0x38   0x7809             LDRB     R1,[R1, #+0]
+   \       0x3A   0x4288             CMP      R0,R1
+   \       0x3C   0xD104             BNE.N    ??em3555EndpointsSyncStateInternal_1
+   \       0x3E   0x4638             MOV      R0,R7
+   \       0x40   0x....             LDR.N    R1,??DataTable2_7
+   \       0x42   0x8809             LDRH     R1,[R1, #+0]
+   \       0x44   0x4288             CMP      R0,R1
+   \       0x46   0xD002             BEQ.N    ??em3555EndpointsSyncStateInternal_2
+   \                     ??em3555EndpointsSyncStateInternal_1: (+1)
+   \       0x48   0xF04F 0x0A01      MOV      R10,#+1
+   \       0x4C   0xE001             B.N      ??em3555EndpointsSyncStateInternal_3
+   \                     ??em3555EndpointsSyncStateInternal_2: (+1)
+   \       0x4E   0xF04F 0x0A00      MOV      R10,#+0
+    267          
+    268            if (!force && s_haveLastSyncedState
+    269                && memcmp(&s_lastSyncedState, state, sizeof(*state)) == 0
+    270                && !colorLoopChanged) {
+   \                     ??em3555EndpointsSyncStateInternal_3: (+1)
+   \       0x52   0x4648             MOV      R0,R9
+   \       0x54   0x2800             CMP      R0,#+0
+   \       0x56   0xD10D             BNE.N    ??em3555EndpointsSyncStateInternal_4
+   \       0x58   0x....             LDR.N    R0,??DataTable2_8
+   \       0x5A   0x7800             LDRB     R0,[R0, #+0]
+   \       0x5C   0x2800             CMP      R0,#+0
+   \       0x5E   0xD009             BEQ.N    ??em3555EndpointsSyncStateInternal_4
+   \       0x60   0x221C             MOVS     R2,#+28
+   \       0x62   0x4621             MOV      R1,R4
+   \       0x64   0x....             LDR.N    R0,??DataTable2_9
+   \       0x66   0x.... 0x....      BL       memcmp
+   \       0x6A   0x2800             CMP      R0,#+0
+   \       0x6C   0xD102             BNE.N    ??em3555EndpointsSyncStateInternal_4
+   \       0x6E   0x4650             MOV      R0,R10
+   \       0x70   0x2800             CMP      R0,#+0
+   \       0x72   0xD06B             BEQ.N    ??em3555EndpointsSyncStateInternal_0
+    271              return;
+    272            }
+    273          
+    274            write_bool_attribute(EM3555_LIGHT_ENDPOINT,
+    275                                 ZCL_ON_OFF_CLUSTER_ID,
+    276                                 ZCL_ON_OFF_ATTRIBUTE_ID,
+    277                                 state->on != 0U);
+   \                     ??em3555EndpointsSyncStateInternal_4: (+1)
+   \       0x74   0x7820             LDRB     R0,[R4, #+0]
+   \       0x76   0x1E40             SUBS     R0,R0,#+1
+   \       0x78   0x4180             SBCS     R0,R0,R0
+   \       0x7A   0x43C0             MVNS     R0,R0
+   \       0x7C   0x0FC0             LSRS     R0,R0,#+31
+   \       0x7E   0x4603             MOV      R3,R0
+   \       0x80   0x2200             MOVS     R2,#+0
+   \       0x82   0x2106             MOVS     R1,#+6
+   \       0x84   0x2003             MOVS     R0,#+3
+   \       0x86   0x.... 0x....      BL       write_bool_attribute
+    278            write_u8_attribute(EM3555_LIGHT_ENDPOINT,
+    279                               ZCL_ON_OFF_CLUSTER_ID,
+    280                               ZCL_STARTUP_ON_OFF_ATTRIBUTE_ID,
+    281                               state->startUpOnOff);
+   \       0x8A   0x7D23             LDRB     R3,[R4, #+20]
+   \       0x8C   0xF244 0x0203      MOVW     R2,#+16387
+   \       0x90   0x2106             MOVS     R1,#+6
+   \       0x92   0x2003             MOVS     R0,#+3
+   \       0x94   0x.... 0x....      BL       write_u8_attribute
+    282            write_u8_attribute(EM3555_LIGHT_ENDPOINT,
+    283                               ZCL_LEVEL_CONTROL_CLUSTER_ID,
+    284                               ZCL_CURRENT_LEVEL_ATTRIBUTE_ID,
+    285                               state->currentLevel);
+   \       0x98   0x78A3             LDRB     R3,[R4, #+2]
+   \       0x9A   0x2200             MOVS     R2,#+0
+   \       0x9C   0x2108             MOVS     R1,#+8
+   \       0x9E   0x2003             MOVS     R0,#+3
+   \       0xA0   0x.... 0x....      BL       write_u8_attribute
+    286            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    287                                ZCL_LEVEL_CONTROL_CLUSTER_ID,
+    288                                EM3555_LEVEL_CONTROL_ON_TRANSITION_TIME_ATTR,
+    289                                state->onTransitionDs);
+   \       0xA4   0x89E3             LDRH     R3,[R4, #+14]
+   \       0xA6   0x2212             MOVS     R2,#+18
+   \       0xA8   0x2108             MOVS     R1,#+8
+   \       0xAA   0x2003             MOVS     R0,#+3
+   \       0xAC   0x.... 0x....      BL       write_u16_attribute
+    290            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    291                                ZCL_LEVEL_CONTROL_CLUSTER_ID,
+    292                                EM3555_LEVEL_CONTROL_OFF_TRANSITION_TIME_ATTR,
+    293                                state->offTransitionDs);
+   \       0xB0   0x8A23             LDRH     R3,[R4, #+16]
+   \       0xB2   0x2213             MOVS     R2,#+19
+   \       0xB4   0x2108             MOVS     R1,#+8
+   \       0xB6   0x2003             MOVS     R0,#+3
+   \       0xB8   0x.... 0x....      BL       write_u16_attribute
+    294          
+    295            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    296                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    297                                ZCL_COLOR_CONTROL_REMAINING_TIME_ATTRIBUTE_ID,
+    298                                state->remainingTimeDs);
+   \       0xBC   0x8A63             LDRH     R3,[R4, #+18]
+   \       0xBE   0x2202             MOVS     R2,#+2
+   \       0xC0   0xF44F 0x7140      MOV      R1,#+768
+   \       0xC4   0x2003             MOVS     R0,#+3
+   \       0xC6   0x.... 0x....      BL       write_u16_attribute
+    299            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    300                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    301                                ZCL_STARTUP_COLOR_TEMPERATURE_ATTRIBUTE_ID,
+    302                                state->startUpColorTemperature);
+   \       0xCA   0x8AE3             LDRH     R3,[R4, #+22]
+   \       0xCC   0xF244 0x0210      MOVW     R2,#+16400
+   \       0xD0   0xF44F 0x7140      MOV      R1,#+768
+   \       0xD4   0x2003             MOVS     R0,#+3
+   \       0xD6   0x.... 0x....      BL       write_u16_attribute
+    303            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    304                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    305                                ZCL_STARTUP_CURRENT_X_ATTRIBUTE_ID,
+    306                                state->startUpCurrentX);
+   \       0xDA   0x8B23             LDRH     R3,[R4, #+24]
+   \       0xDC   0xF244 0x0211      MOVW     R2,#+16401
+   \       0xE0   0xF44F 0x7140      MOV      R1,#+768
+   \       0xE4   0x2003             MOVS     R0,#+3
+   \       0xE6   0x.... 0x....      BL       write_u16_attribute
+    307            write_u16_attribute(EM3555_LIGHT_ENDPOINT,
+    308                                ZCL_COLOR_CONTROL_CLUSTER_ID,
+    309                                ZCL_STARTUP_CURRENT_Y_ATTRIBUTE_ID,
+    310                                state->startUpCurrentY);
+   \       0xEA   0x8B63             LDRH     R3,[R4, #+26]
+   \       0xEC   0xF244 0x0212      MOVW     R2,#+16402
+   \       0xF0   0xF44F 0x7140      MOV      R1,#+768
+   \       0xF4   0x2003             MOVS     R0,#+3
+   \       0xF6   0x.... 0x....      BL       write_u16_attribute
+    311            (void)emberAfWriteServerAttribute(EM3555_LIGHT_ENDPOINT,
+    312                                              ZCL_COLOR_CONTROL_CLUSTER_ID,
+    313                                              ZCL_COLOR_MODE_ATTRIBUTE_ID,
+    314                                              (uint8_t *)&state->colorMode,
+    315                                              ZCL_ENUM8_ATTRIBUTE_TYPE);
+   \       0xFA   0x2030             MOVS     R0,#+48
+   \       0xFC   0x9000             STR      R0,[SP, #+0]
+   \       0xFE   0xF104 0x030C      ADD      R3,R4,#+12
+   \      0x102   0x2208             MOVS     R2,#+8
+   \      0x104   0xF44F 0x7140      MOV      R1,#+768
+   \      0x108   0x2003             MOVS     R0,#+3
+   \      0x10A   0x.... 0x....      BL       emberAfWriteServerAttribute
+    316            write_color_attributes(state);
+   \      0x10E   0x4620             MOV      R0,R4
+   \      0x110   0x.... 0x....      BL       write_color_attributes
+    317            if (colorLoopChanged || force) {
+   \      0x114   0xF1BA 0x0F00      CMP      R10,#+0
+   \      0x118   0xD102             BNE.N    ??em3555EndpointsSyncStateInternal_5
+   \      0x11A   0xF1B9 0x0F00      CMP      R9,#+0
+   \      0x11E   0xD004             BEQ.N    ??em3555EndpointsSyncStateInternal_6
+    318              write_color_loop_attributes(colorLoopActive, colorLoopDirection, colorLoopTimeS);
+   \                     ??em3555EndpointsSyncStateInternal_5: (+1)
+   \      0x120   0x463A             MOV      R2,R7
+   \      0x122   0x4631             MOV      R1,R6
+   \      0x124   0x4628             MOV      R0,R5
+   \      0x126   0x.... 0x....      BL       write_color_loop_attributes
+    319            }
+    320          
+    321            s_lastSyncedState = *state;
+   \                     ??em3555EndpointsSyncStateInternal_6: (+1)
+   \      0x12A   0x....             LDR.N    R0,??DataTable2_9
+   \      0x12C   0x4621             MOV      R1,R4
+   \      0x12E   0x221C             MOVS     R2,#+28
+   \      0x130   0x.... 0x....      BL       __aeabi_memcpy
+    322            s_haveLastSyncedState = true;
+   \      0x134   0x2001             MOVS     R0,#+1
+   \      0x136   0x....             LDR.N    R1,??DataTable2_8
+   \      0x138   0x7008             STRB     R0,[R1, #+0]
+    323            s_lastColorLoopActive = colorLoopActive;
+   \      0x13A   0x....             LDR.N    R0,??DataTable2_5
+   \      0x13C   0x7005             STRB     R5,[R0, #+0]
+    324            s_lastColorLoopDirection = colorLoopDirection;
+   \      0x13E   0x....             LDR.N    R0,??DataTable2_6
+   \      0x140   0x7006             STRB     R6,[R0, #+0]
+    325            s_lastColorLoopTimeS = colorLoopTimeS;
+   \      0x142   0x....             LDR.N    R0,??DataTable2_7
+   \      0x144   0x8007             STRH     R7,[R0, #+0]
+    326            s_haveLastColorLoopState = true;
+   \      0x146   0x2001             MOVS     R0,#+1
+   \      0x148   0xF888 0x0000      STRB     R0,[R8, #+0]
+    327          }
+   \                     ??em3555EndpointsSyncStateInternal_0: (+1)
+   \      0x14C   0xE8BD 0x87F3      POP      {R0,R1,R4-R10,PC}
+    328          
+
+   \                                 In section .text, align 2, keep-with-next
+    329          void em3555EndpointsSyncState(const Em3555PersistedLightState *state)
+    330          {
+    331            em3555EndpointsSyncStateInternal(state, false);
+   \                     em3555EndpointsSyncState: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x....             B.N      em3555EndpointsSyncStateInternal
+    332          }
+    333          
+
+   \                                 In section .text, align 2, keep-with-next
+    334          void em3555EndpointsSyncStateForce(const Em3555PersistedLightState *state)
+    335          {
+    336            em3555EndpointsSyncStateInternal(state, true);
+   \                     em3555EndpointsSyncStateForce: (+1)
+   \        0x0   0x2101             MOVS     R1,#+1
+   \        0x2   0x....             B.N      em3555EndpointsSyncStateInternal
+    337          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \        0x0   0x....'....        DC32     ?_1
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \        0x0   0x....'....        DC32     ?_2
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_3:
+   \        0x0   0x....'....        DC32     ?_3
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_4:
+   \        0x0   0x....'....        DC32     s_haveLastColorLoopState
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_5:
+   \        0x0   0x....'....        DC32     s_lastColorLoopActive
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_6:
+   \        0x0   0x....'....        DC32     s_lastColorLoopDirection
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_7:
+   \        0x0   0x....'....        DC32     s_lastColorLoopTimeS
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_8:
+   \        0x0   0x....'....        DC32     s_haveLastSyncedState
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_9:
+   \        0x0   0x....'....        DC32     s_lastSyncedState
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x4F 0x53          DC8 "OSRAM"
+   \              0x52 0x41    
+   \              0x4D 0x00
+   \        0x6                      DS8 2
+
+   \                                 In section .rodata, align 4
+   \                     ?_1:
+   \        0x0   0x4C 0x49          DC8 "LIGHTIFY Indoor Flex RGBW"
+   \              0x47 0x48    
+   \              0x54 0x49    
+   \              0x46 0x59    
+   \              0x20 0x49    
+   \              0x6E 0x64    
+   \              0x6F 0x6F    
+   \              0x72 0x20    
+   \              0x46 0x6C    
+   \              0x65 0x78    
+   \              0x20 0x52    
+   \              0x47 0x42    
+   \              0x57 0x00
+   \       0x1A                      DS8 2
+
+   \                                 In section .rodata, align 4
+   \                     ?_2:
+   \        0x0   0x32 0x30          DC8 "20260407"
+   \              0x32 0x36    
+   \              0x30 0x34    
+   \              0x30 0x37    
+   \              0x00
+   \        0x9                      DS8 3
+
+   \                                 In section .rodata, align 4
+   \                     ?_3:
+   \        0x0   0x76 0x34          DC8 "v4.0.45"
+   \              0x2E 0x30    
+   \              0x2E 0x34    
+   \              0x35 0x00
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   current_hue_to_enhanced_hue
+       0   em3555EndpointsSyncState
+         0   -> em3555EndpointsSyncStateInternal
+       0   em3555EndpointsSyncStateForce
+         0   -> em3555EndpointsSyncStateInternal
+      40   em3555EndpointsSyncStateInternal
+        40   -> __aeabi_memcpy
+        40   -> em3555LightStateColorLoopActive
+        40   -> em3555LightStateColorLoopDirection
+        40   -> em3555LightStateColorLoopTimeS
+        40   -> emberAfWriteServerAttribute
+        40   -> memcmp
+        40   -> write_bool_attribute
+        40   -> write_color_attributes
+        40   -> write_color_loop_attributes
+        40   -> write_u16_attribute
+        40   -> write_u8_attribute
+      24   em3555EndpointsWriteIdentity
+        24   -> emberAfWriteServerAttribute
+        24   -> write_string_attribute
+        24   -> write_u16_attribute
+      16   write_bool_attribute
+        16   -> emberAfWriteServerAttribute
+      16   write_color_attributes
+        16   -> current_hue_to_enhanced_hue
+        16   -> emberAfWriteServerAttribute
+        16   -> write_u16_attribute
+        16   -> write_u8_attribute
+      16   write_color_loop_attributes
+         0   -> write_u16_attribute
+        16   -> write_u8_attribute
+      64   write_string_attribute
+        64   -> __aeabi_memcpy
+        64   -> __aeabi_memset4
+        64   -> emberAfWriteServerAttribute
+        64   -> strlen
+      16   write_u16_attribute
+        16   -> emberAfWriteServerAttribute
+      16   write_u8_attribute
+        16   -> emberAfWriteServerAttribute
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+       4  ??DataTable2_5
+       4  ??DataTable2_6
+       4  ??DataTable2_7
+       4  ??DataTable2_8
+       4  ??DataTable2_9
+       8  ?_0
+      28  ?_1
+      12  ?_2
+       8  ?_3
+      26  current_hue_to_enhanced_hue
+       4  em3555EndpointsSyncState
+       4  em3555EndpointsSyncStateForce
+     336  em3555EndpointsSyncStateInternal
+     348  em3555EndpointsWriteIdentity
+       1  s_haveLastColorLoopState
+       1  s_haveLastSyncedState
+       1  s_lastColorLoopActive
+       1  s_lastColorLoopDirection
+       2  s_lastColorLoopTimeS
+      28  s_lastSyncedState
+      28  write_bool_attribute
+     126  write_color_attributes
+      66  write_color_loop_attributes
+      82  write_string_attribute
+      14  write_u16_attribute
+      14  write_u8_attribute
+
+ 
+    34 bytes in section .bss
+    56 bytes in section .rodata
+ 1'088 bytes in section .text
+ 
+ 1'088 bytes of CODE  memory
+    56 bytes of CONST memory
+    34 bytes of DATA  memory
+
+Errors: none
+Warnings: none

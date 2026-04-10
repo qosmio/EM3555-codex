@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_metadata_sensors">
+  <assets path="/metadata/sensors.zip" diskSizeKB="20.605" downloadSizeKB="4.674" directory="true">
+    <property key="autoDownload" value="true"/>
+    <property key="forceUpdate" value="true"/>
+    <property key="timeStamp" value="1702423629638"/>
+  </assets>
+</assets>

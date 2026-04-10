@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.apack.commander.feature"
+         label="Adapter Pack for Simplicity Commander"
+		 description="Provides a runtime interface to Simplicity Commander"
+		 changelog="changelog"
+		 types="apack,inspectUsb"
+		 version="4.0.81">
+
+		<property key="inspector.usbVid" value="0x1366" />
+
+</package>

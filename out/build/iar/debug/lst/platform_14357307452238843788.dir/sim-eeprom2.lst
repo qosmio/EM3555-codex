@@ -1,0 +1,600 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:36
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\sim-eeprom2\sim-eeprom2.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\sim-eeprom2.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\sim-eeprom2\sim-eeprom2.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"sim-eeprom2.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\sim-eeprom2\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\sim-eeprom2.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\sim-eeprom2.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\platform_14357307452238843788.dir\sim-eeprom2.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\platform_14357307452238843788.dir\sim-eeprom2.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\platform\base\hal\plugin\sim-eeprom2\sim-eeprom2.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Simulated EEPROM 2 public definitions.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          #include PLATFORM_HEADER
+     18          #include "stack/include/ember.h"
+     19          #include "stack/include/error.h"
+     20          #include "hal/hal.h"
+     21          #include "serial/serial.h"
+     22          #include "hal/plugin/sim-eeprom/sim-eeprom.h"
+     23          
+     24          #ifdef CORTEXM3
+     25          //On the Cortex-M3 chips we define a variable that holds the actual
+     26          //SimEE storage and then place this storage at the proper location
+     27          //in the linker.
+     28          // When NVM3 is used it means we are upgrading from SimEE2 to NVM3 and
+     29          // NVM3 will define the storage array
+     30            #ifdef SIMEE2_TO_NVM3_UPGRADE
+     31              #ifndef EMBER_TEST
+     32          extern uint8_t nvm3Storage[];
+     33          uint8_t *simulatedEepromAddress = nvm3Storage;
+     34              #endif
+     35          
+     36            #else //SIMEE2_TO_NVM3_UPGRADE
+     37              #ifdef EMBER_TEST
+     38          uint8_t simulatedEepromStorage[SIMEE_SIZE_B];
+     39              #else //EMBER_TEST
+
+   \                                 In section SIMEE, align 4, root
+     40          VAR_AT_SEGMENT(NO_STRIPPING uint8_t simulatedEepromStorage[SIMEE_SIZE_B], __SIMEE__);
+   \                     simulatedEepromStorage:
+   \        0x0                      DS8 36'864
+     41              #endif //EMBER_TEST
+
+   \                                 In section .data, align 4
+     42          uint8_t *simulatedEepromAddress = simulatedEepromStorage;
+   \                     simulatedEepromAddress:
+   \        0x0   0x....'....        DC32 simulatedEepromStorage
+     43            #endif // SIMEE2_TO_NVM3_UPGRADE
+     44          
+     45          // check if size is a multiple of 3 flash pages
+     46            #if (SIMEE_SIZE_B % (MFB_PAGE_SIZE_B * 3)) != 0
+     47            #error SIMEE2 size not page aligned
+     48            #endif
+     49          //NOTE: All SimEE addresses are 16bit "SimEE words" whereas the CM3
+     50          //      absolute size/addressing is 32bit words so a CM3 halfword (HW)
+     51          //      is 16bits.
+     52          //      The SimEE addresses are really just offsets into
+     53          //      the simulatedEepromStorage array.
+     54          //sim-eeprom2-internal.c uses a set of defines that parameterize its behavior.
+     55          //Since the -internal file is precompiled, we must externally define the
+     56          //parameters (as constants) so an application build can alter them.  The
+     57          //two defines, NUMBER_OF_VIRTUAL_PAGES and VP_SIZE, are not used
+     58          //in sim-eeprom2-internal.c but instead only used in this file to make
+     59          //the page locations a little more understandable.
+     60          //
+     61          //VPA, VPB, and VPC are the names for Virtual Page A, B, and C.
+     62          //
+     63          //SimEE2's inherent design uses three virtual.  A verbose name simply
+     64          //makes the rest of these defines easier to understand.
+     65            #define NUMBER_OF_VIRTUAL_PAGES (3)
+     66            #define VP_SIZE (((SIMEE_SIZE_HW / FLASH_PAGE_SIZE_HW) \
+     67                              / NUMBER_OF_VIRTUAL_PAGES) * FLASH_PAGE_SIZE_HW)
+
+   \                                 In section .rodata, align 2
+     68          const uint16_t VIRTUAL_PAGE_SIZE = VP_SIZE;
+   \                     VIRTUAL_PAGE_SIZE:
+   \        0x0   0x1800             DC16 6'144
+
+   \                                 In section .rodata, align 2
+     69          const uint16_t REAL_PAGE_SIZE = (FLASH_PAGE_SIZE_HW);
+   \                     REAL_PAGE_SIZE:
+   \        0x0   0x0400             DC16 1'024
+
+   \                                 In section .rodata, align 1
+     70          const uint8_t REAL_PAGES_PER_VIRTUAL = ((SIMEE_SIZE_HW / FLASH_PAGE_SIZE_HW) \
+   \                     REAL_PAGES_PER_VIRTUAL:
+   \        0x0   0x06               DC8 6
+     71                                                  / NUMBER_OF_VIRTUAL_PAGES);
+
+   \                                 In section .rodata, align 2
+     72          const uint16_t VPA_BASE = (SIMEE_BASE_ADDR_HW);
+   \                     VPA_BASE:
+   \        0x0   0x0000             DC16 0
+
+   \                                 In section .rodata, align 2
+     73          const uint16_t VPA_TOP = (SIMEE_BASE_ADDR_HW
+   \                     VPA_TOP:
+   \        0x0   0x17FF             DC16 6'143
+     74                                    + VP_SIZE - 1);
+
+   \                                 In section .rodata, align 2
+     75          const uint16_t VPB_BASE = (SIMEE_BASE_ADDR_HW
+   \                     VPB_BASE:
+   \        0x0   0x1800             DC16 6'144
+     76                                     + VP_SIZE);
+
+   \                                 In section .rodata, align 2
+     77          const uint16_t VPB_TOP = (SIMEE_BASE_ADDR_HW
+   \                     VPB_TOP:
+   \        0x0   0x2FFF             DC16 12'287
+     78                                    + VP_SIZE
+     79                                    + VP_SIZE - 1);
+
+   \                                 In section .rodata, align 2
+     80          const uint16_t VPC_BASE = (SIMEE_BASE_ADDR_HW
+   \                     VPC_BASE:
+   \        0x0   0x3000             DC16 12'288
+     81                                     + VP_SIZE
+     82                                     + VP_SIZE);
+
+   \                                 In section .rodata, align 2
+     83          const uint16_t VPC_TOP = (SIMEE_BASE_ADDR_HW
+   \                     VPC_TOP:
+   \        0x0   0x47FF             DC16 18'431
+     84                                    + VP_SIZE
+     85                                    + VP_SIZE
+     86                                    + VP_SIZE - 1);
+     87          #endif //CORTEXM3
+     88          
+
+   \                                 In section .rodata, align 2
+     89          const uint16_t ID_COUNT = TOKEN_COUNT;
+   \                     ID_COUNT:
+   \        0x0   0x002B             DC16 43
+     90          
+     91          #define DEFINETOKENS
+     92          //Manufacturing tokens do not exist in the SimEEPROM. Define them to nothing.
+     93          #define TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize, ...)
+     94          
+     95          //Fundamental limitations of the Simulated EEPROM design:
+     96          //These limitations are forcefully enforced via compile-time errors
+     97          //in the declarations that follow because exceeding any of them will
+     98          //cause fatal operation and data corruption.
+     99          //(1) The maximum number of tokens that can be stored is 254.
+    100          //    (Tokens are identified by one-byte values, with 0xFF as invalid.)
+    101          //(2a)The maximum size, in bytes, of a token (element) is 254.
+    102          //    (One byte, with 0xFF as invalid)
+    103          //(2b)Counter tokens must be exactly 4 bytes as determined by sizeof().
+    104          //(3) The maximum number of elements in an indexed token is 126.
+    105          //    (One byte, with MSB used as counter flag and 0x7F as non-indexed size.)
+    106          //(4) The maximum total storage for tokens plus management is SIMEE_BTS_SIZE_B/2.
+    107          //    (This limit is due to a Virtual Page only being a limited size and for
+    108          //     the Simulated EEPROM to operate with any kind of efficiency, the
+    109          //     Base Storage must be small enough to leave room for token copies.)
+    110          
+    111          //If the arraysize is exactly 1, we need only a single entry in the ptrCache
+    112          //to hold this entry.  If the arraysize is not 1, we need +1 to hold
+    113          //the redirection entry in the Primary Table and then arraysize entries in
+    114          //the indexed table.  This works for all values of arraysize.
+    115          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+    116            + (((arraysize) < 127 /*fundamental limit (3)*/)                   \
+    117               ? ((arraysize) + (((arraysize) == 1) ? 0 : 1))                  \
+    118               : -10000 /*force negative array length compile-time error*/)
+    119          //value of all index counts added together
+
+   \                                 In section .rodata, align 2
+    120          const uint16_t PTR_CACHE_SIZE = (0
+   \                     PTR_CACHE_SIZE:
+   \        0x0   0x0072             DC16 114
+    121                                           // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    122                                           //cstat !MISRAC2012-Dir-4.10
+    123              #include "stack/config/token-stack.h"
+
+  DEFINE_INDEXED_TOKEN(STACK_CHILD_TABLE,
+  ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\config\token-stack.h",528  Warning[Pe068]: 
+          integer conversion resulted in a change of sign
+
+  DEFINE_INDEXED_TOKEN(STACK_ADDITIONAL_CHILD_DATA,
+  ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\config\token-stack.h",540  Warning[Pe068]: 
+          integer conversion resulted in a change of sign
+    124                                           );
+    125          //the ptrCache definition - used to provide efficient access, based upon
+    126          //ID and index, to the freshest data in the Simulated EEPROM.
+
+   \                                 In section .bss, align 4
+    127          uint16_t ptrCache[0    //Compiler error here means too many elements in an array token
+   \                     ptrCache:
+   \        0x0                      DS8 228
+    128                            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    129                            //cstat !MISRAC2012-Dir-4.10
+    130              #include "stack/config/token-stack.h"
+
+  DEFINE_INDEXED_TOKEN(STACK_CHILD_TABLE,
+  ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\config\token-stack.h",528  Warning[Pe068]: 
+          integer conversion resulted in a change of sign
+
+  DEFINE_INDEXED_TOKEN(STACK_ADDITIONAL_CHILD_DATA,
+  ^
+"Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\config\token-stack.h",540  Warning[Pe068]: 
+          integer conversion resulted in a change of sign
+    131          ];
+    132          #undef TOKEN_DEF
+    133          
+    134          //*totalTokenStorage notes the initial allocation of token data words
+    135          //in the flash virtual page. It is checked against the limit
+    136          //SIMEE_BTS_SIZE_B/2 and used to determine how much pre-copying is
+    137          //needed per token write to migrate all tokens for virtual page rotation.
+    138          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...)            \
+    139            + ((arraysize) * (3 /*info words*/ + ((iscnt)                                 \
+    140                                                  ? 2 + BYTES_TO_WORDS(COUNTER_TOKEN_PAD) \
+    141                                                  : BYTES_TO_WORDS(sizeof(type)))))
+
+   \                                 In section .rodata, align 4
+    142          const uint32_t totalTokenStorage[(0 //Compiler error here means total token storage exceeds limit
+   \                     totalTokenStorage:
+   \        0x0   0x0000'052D        DC32 1'325
+    143                                            + (TOKEN_COUNT * 2)
+    144                                            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    145                                            //cstat !MISRAC2012-Dir-4.10
+    146              #include "stack/config/token-stack.h"
+    147                                            ) <= (SIMEE_BTS_SIZE_B / 2)/*fundamental limit (4)*/
+    148                                           ? 1 : -1/*negative forces compile-time error*/
+    149          ] = { (TOKEN_COUNT * 2)
+    150                // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    151                //cstat !MISRAC2012-Dir-4.10
+    152              #include "stack/config/token-stack.h"
+    153          };
+    154          #undef TOKEN_DEF
+    155          
+    156          //The lookupCache maps compiled token IDs (cache index) to stored IDs.
+    157          //It must be declared here, outside the library, so that it can
+    158          //be appropriately sized based on the number of tokens the application
+    159          //defines at compile time.
+
+   \                                 In section .bss, align 4
+    160          uint8_t lookupCache[0  //Compiler error here means too many tokens declared
+   \                     lookupCache:
+   \        0x0                      DS8 44
+    161                              + (TOKEN_COUNT < 255/*fundamental limit (1)*/
+    162                                 ? TOKEN_COUNT : -1 /*force compile-time error*/)];
+    163          
+    164          //The Size Cache definition.  Links the token to its internal storage size
+    165          //for efficient calculations.  Indexed by compile ID.  Size is in words.
+    166          //This Cache should be used for all size calculations.  halInternalSimEeStartup
+    167          //will guarantee that the compiled sizes defining this cache match the
+    168          //stored sizes.
+    169          //NOTE: All counter tokens must be 32bit numbers and the COUNTER_TOKEN_PAD is
+    170          //      added to provide room for the incremarks.
+    171          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+    172            + (((iscnt) ? (sizeof(type) ==  4 /*fundamental limit (2b)*/)      \
+    173                : (sizeof(type) < 255 /*fundamental limit (2a)*/))             \
+    174               ? 1 : -10000 /*large negative will force compile-time error*/)
+
+   \                                 In section .rodata, align 4
+    175          const uint8_t sizeCache[0    //Compiler error here means a token's size is too large or a counter token is wrong size
+   \                     sizeCache:
+   \        0x0   0x01 0x1B          DC8 1, 27, 9, 27, 27, 1, 9, 8, 13, 4, 5, 1, 12, 1, 2, 9, 8, 9, 13, 4, 5
+   \              0x09 0x1B    
+   \              0x1B 0x01    
+   \              0x09 0x08    
+   \              0x0D 0x04    
+   \              0x05 0x01    
+   \              0x0C 0x01    
+   \              0x02 0x09    
+   \              0x08 0x09    
+   \              0x0D 0x04    
+   \              0x05
+   \       0x15   0x1B 0x01          DC8 27, 1, 7, 6, 13, 46, 1, 8, 20, 9, 26, 2, 24, 2, 6, 1, 10, 1, 19, 16
+   \              0x07 0x06    
+   \              0x0D 0x2E    
+   \              0x01 0x08    
+   \              0x14 0x09    
+   \              0x1A 0x02    
+   \              0x18 0x02    
+   \              0x06 0x01    
+   \              0x0A 0x01    
+   \              0x13 0x10
+   \       0x29   0x04 0x18          DC8 4, 24
+   \       0x2B                      DS8 1
+    176                                  // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    177                                  //cstat !MISRAC2012-Dir-4.10
+    178              #include "stack/config/token-stack.h"
+    179          ] = {
+    180          #undef TOKEN_DEF
+    181          #define TOKEN_DEF(name, creator, iscnt, isidx, type, arraysize, ...) \
+    182            (BYTES_TO_WORDS(((iscnt) ? (4 + COUNTER_TOKEN_PAD) : (sizeof(type))))),
+    183            // Multiple inclusion of unguarded token-related header files is by design; suppress violation.
+    184            //cstat !MISRAC2012-Dir-4.10
+    185              #include "stack/config/token-stack.h"
+    186          };
+    187          #undef TOKEN_DEF
+    188          
+    189          #undef TOKEN_MFG
+    190          #undef DEFINETOKENS
+    191          
+    192          //Forward prototype for the internal, non public SimEE startup.
+    193          //This function should never be called directly.
+    194          EmberStatus halInternalSimEeStartupCore(bool forceRebuildAll,
+    195                                                  uint8_t *lookupCache);
+    196          
+
+   \                                 In section .text, align 4, keep-with-next
+    197          EmberStatus halInternalSimEeStartup(bool forceRebuildAll)
+    198          {
+   \                     halInternalSimEeStartup: (+1)
+   \        0x0   0xE92D 0x43F8      PUSH     {R3-R9,LR}
+   \        0x4   0x4604             MOV      R4,R0
+    199            uint8_t i;
+    200            uint32_t indexSkip = TOKEN_COUNT;
+   \        0x6   0x252B             MOVS     R5,#+43
+    201          
+    202            //The value 0xFF is used as a trigger in both caches to indicate an
+    203            //uninitialized entry.  Unitialized entries (i.e. missing tokens) will
+    204            //trigger repairing.
+    205            MEMSET(lookupCache, 0xFF, ID_COUNT);
+   \        0x8   0x4E1F             LDR.N    R6,??halInternalSimEeStartup_0
+   \        0xA   0x22FF             MOVS     R2,#+255
+   \        0xC   0x4629             MOV      R1,R5
+   \        0xE   0x4630             MOV      R0,R6
+   \       0x10   0x.... 0x....      BL       __aeabi_memset4
+    206            MEMSET(ptrCache, 0xFF, PTR_CACHE_SIZE * sizeof(uint16_t));
+   \       0x14   0x4F1D             LDR.N    R7,??halInternalSimEeStartup_0+4
+   \       0x16   0x22FF             MOVS     R2,#+255
+   \       0x18   0x21E4             MOVS     R1,#+228
+   \       0x1A   0x4638             MOV      R0,R7
+   \       0x1C   0x.... 0x....      BL       __aeabi_memset4
+    207          
+    208            for (i = 0; i < TOKEN_COUNT; i++) {
+   \       0x20   0xF04F 0x0800      MOV      R8,#+0
+   \       0x24   0xE01E             B.N      ??halInternalSimEeStartup_1
+    209              uint32_t size = BYTES_TO_WORDS(tokenSize[i]);
+   \                     ??halInternalSimEeStartup_2: (+1)
+   \       0x26   0x481A             LDR.N    R0,??halInternalSimEeStartup_0+8
+   \       0x28   0xF810 0x2008      LDRB     R2,[R0, R8]
+   \       0x2C   0x1C52             ADDS     R2,R2,#+1
+   \       0x2E   0x1052             ASRS     R2,R2,#+1
+    210              uint32_t arraySize = tokenArraySize[i];
+   \       0x30   0x4818             LDR.N    R0,??halInternalSimEeStartup_0+12
+   \       0x32   0xF810 0x9008      LDRB     R9,[R0, R8]
+    211              if (tokenIsCnt[i]) {
+   \       0x36   0x4818             LDR.N    R0,??halInternalSimEeStartup_0+16
+   \       0x38   0xF810 0x0008      LDRB     R0,[R0, R8]
+   \       0x3C   0x2800             CMP      R0,#+0
+   \       0x3E   0xD000             BEQ.N    ??halInternalSimEeStartup_3
+    212                size += BYTES_TO_WORDS(COUNTER_TOKEN_PAD);
+   \       0x40   0x3219             ADDS     R2,R2,#+25
+    213              }
+    214          
+    215              emberDebugPrintf("Creator: 0x%2X, Words: %d\n",
+    216                               tokenCreators[i],
+    217                               arraySize * (3 + size));
+   \                     ??halInternalSimEeStartup_3: (+1)
+   \       0x42   0x1CD2             ADDS     R2,R2,#+3
+   \       0x44   0xFB02 0xF209      MUL      R2,R2,R9
+   \       0x48   0x4814             LDR.N    R0,??halInternalSimEeStartup_0+20
+   \       0x4A   0xF830 0x1018      LDRH     R1,[R0, R8, LSL #+1]
+   \       0x4E   0x4814             LDR.N    R0,??halInternalSimEeStartup_0+24
+   \       0x50   0x.... 0x....      BL       emberDebugPrintf
+    218              //The '3 +' is for the initial info words in each token.
+    219          
+    220              //Install the indexed token ptrCache redirection value.  If a token is
+    221              //indexed, set the ptrCache equal to the index number of where the
+    222              //actual token addresses start in the ptrCache.
+    223              if (arraySize != 1) {
+   \       0x54   0xF1B9 0x0F01      CMP      R9,#+1
+   \       0x58   0xD002             BEQ.N    ??halInternalSimEeStartup_4
+    224                ptrCache[i] = indexSkip;
+   \       0x5A   0xF827 0x5018      STRH     R5,[R7, R8, LSL #+1]
+    225                indexSkip += arraySize;
+   \       0x5E   0x444D             ADD      R5,R9,R5
+    226              }
+    227            }
+   \                     ??halInternalSimEeStartup_4: (+1)
+   \       0x60   0xF108 0x0801      ADD      R8,R8,#+1
+   \                     ??halInternalSimEeStartup_1: (+1)
+   \       0x64   0xF1B8 0x0F2B      CMP      R8,#+43
+   \       0x68   0xDBDD             BLT.N    ??halInternalSimEeStartup_2
+    228          
+    229            emberDebugPrintf("SimEE data: %d words of %d max, tokenCount: %d\n",
+    230                             *totalTokenStorage,
+    231                             (SIMEE_BTS_SIZE_B / 2),
+    232                             TOKEN_COUNT);
+   \       0x6A   0x232B             MOVS     R3,#+43
+   \       0x6C   0xF44F 0x5280      MOV      R2,#+4096
+   \       0x70   0xF240 0x512D      MOVW     R1,#+1325
+   \       0x74   0x480B             LDR.N    R0,??halInternalSimEeStartup_0+28
+   \       0x76   0x.... 0x....      BL       emberDebugPrintf
+    233          
+    234            return halInternalSimEeStartupCore(forceRebuildAll, lookupCache);
+   \       0x7A   0x4631             MOV      R1,R6
+   \       0x7C   0x4620             MOV      R0,R4
+   \       0x7E   0xE8BD 0x43F4      POP      {R2,R4-R9,LR}
+   \       0x82   0x.... 0x....      B.W      halInternalSimEeStartupCore
+   \       0x86   0xBF00             Nop
+   \                     ??halInternalSimEeStartup_0:
+   \       0x88   0x....'....        DC32     lookupCache
+   \       0x8C   0x....'....        DC32     ptrCache
+   \       0x90   0x....'....        DC32     tokenSize
+   \       0x94   0x....'....        DC32     tokenArraySize
+   \       0x98   0x....'....        DC32     tokenIsCnt
+   \       0x9C   0x....'....        DC32     tokenCreators
+   \       0xA0   0x....'....        DC32     ?_0
+   \       0xA4   0x....'....        DC32     ?_1
+    235          }
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x43 0x72          DC8 "Creator: 0x%2X, Words: %d\012"
+   \              0x65 0x61    
+   \              0x74 0x6F    
+   \              0x72 0x3A    
+   \              0x20 0x30    
+   \              0x78 0x25    
+   \              0x32 0x58    
+   \              0x2C 0x20    
+   \              0x57 0x6F    
+   \              0x72 0x64    
+   \              0x73 0x3A    
+   \              0x20 0x25    
+   \              0x64 0x0A    
+   \              0x00
+   \       0x1B                      DS8 1
+
+   \                                 In section .rodata, align 4
+   \                     ?_1:
+   \        0x0   0x53 0x69          DC8 "SimEE data: %d words of %d max, tokenCount: %d\012"
+   \              0x6D 0x45    
+   \              0x45 0x20    
+   \              0x64 0x61    
+   \              0x74 0x61    
+   \              0x3A 0x20    
+   \              0x25 0x64    
+   \              0x20 0x77    
+   \              0x6F 0x72    
+   \              0x64 0x73    
+   \              0x20 0x6F    
+   \              0x66 0x20    
+   \              0x25 0x64    
+   \              0x20 0x6D    
+   \              0x61 0x78    
+   \              0x2C 0x20    
+   \              0x74 0x6F    
+   \              0x6B 0x65    
+   \              0x6E 0x43    
+   \              0x6F 0x75    
+   \              0x6E 0x74    
+   \              0x3A 0x20    
+   \              0x25 0x64    
+   \              0x0A 0x00
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      32   halInternalSimEeStartup
+        32   -> __aeabi_memset4
+        32   -> emberDebugPrintf
+         0   -> halInternalSimEeStartupCore
+
+
+   Section sizes:
+
+   Bytes   Function/Label
+   -----   --------------
+       28  ?_0
+       48  ?_1
+        2  ID_COUNT
+        2  PTR_CACHE_SIZE
+        1  REAL_PAGES_PER_VIRTUAL
+        2  REAL_PAGE_SIZE
+        2  VIRTUAL_PAGE_SIZE
+        2  VPA_BASE
+        2  VPA_TOP
+        2  VPB_BASE
+        2  VPB_TOP
+        2  VPC_BASE
+        2  VPC_TOP
+      168  halInternalSimEeStartup
+       44  lookupCache
+      228  ptrCache
+        4  simulatedEepromAddress
+   36'864  simulatedEepromStorage
+       44  sizeCache
+        4  totalTokenStorage
+
+ 
+    272 bytes in section .bss
+      4 bytes in section .data
+    145 bytes in section .rodata
+    168 bytes in section .text
+ 36'864 bytes in section SIMEE
+ 
+    168 bytes of CODE  memory
+    145 bytes of CONST memory
+ 37'140 bytes of DATA  memory
+
+Errors: none
+Warnings: 4

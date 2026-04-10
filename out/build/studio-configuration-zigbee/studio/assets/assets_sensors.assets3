@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_sensors">
+  <assets version="0.1" path="/sensors/appnote/AN1018.pdf" diskSizeKB="1176.296" downloadSizeKB="1176.296" label="AN1018: Using the Si72xx Hall-effect Magnetic Position Sensors">
+    <property key="timeStamp" value="1499456350717"/>
+  </assets>
+  <assets version="0.1" path="/sensors/appnote/AN1026-Si70xx-Temp-Sensor-Designers-Guide.pdf" diskSizeKB="356.657" downloadSizeKB="356.657" label="AN1026: Si70xx Temperature Sensor Designer's Guide">
+    <property key="timeStamp" value="1480712751927"/>
+  </assets>
+  <assets version="0.7" path="/sensors/appnote/AN498.pdf" diskSizeKB="1626.794" downloadSizeKB="1626.794" category="User's Guides" label="AN498: Si114x Designer's Guide">
+    <property key="timeStamp" value="1545069348829"/>
+  </assets>
+  <assets version="0.5" path="/sensors/appnote/AN523.pdf" diskSizeKB="238.873" downloadSizeKB="238.873" category="User's Guides" label="AN523: Overlay Considerations for the Si114x Sensor">
+    <property key="timeStamp" value="1545069349226"/>
+  </assets>
+  <assets version="2.0" path="/sensors/appnote/AN607.pdf" diskSizeKB="708.536" downloadSizeKB="708.536" category="User's Guides" label="AN607: Si70xx Humidity and Temperature Sensor Designerâs Guide">
+    <property key="timeStamp" value="1480712751940"/>
+  </assets>
+  <assets version="0.1" path="/sensors/appnote/AN883.pdf" diskSizeKB="205.426" downloadSizeKB="205.426" category="User's Guides" label="AN883: Low-Cost I2C Level Translator">
+    <property key="timeStamp" value="1545069348810"/>
+  </assets>
+  <assets version="0.4" path="/sensors/appnote/AN950.pdf" diskSizeKB="1447.451" downloadSizeKB="1447.451" category="User's Guides" label="AN950: Si1153 User's Guide">
+    <property key="timeStamp" value="1545069348849"/>
+  </assets>
+  <assets version="0.1" path="/sensors/appnote/AN968-Si1133-UV-Index-Sensor-Electrical-and-Optical-Design-Guide.pdf" diskSizeKB="664.763" downloadSizeKB="664.763" category="User's Guides" label="AN968: Si1133 UV Index Sensor Electrical and Optical Design Guide">
+    <property key="timeStamp" value="1481848278403"/>
+  </assets>
+  <assets path="/sensors/boards/115xOPT-EXP-EVB/115xopt-exp-evb-sensor.png" diskSizeKB="226.713" downloadSizeKB="226.713">
+    <property key="timeStamp" value="1553279240902"/>
+  </assets>
+  <assets version="0.1" path="/sensors/boards/115xOPT-EXP-EVB/UG163.pdf" diskSizeKB="1777.37" downloadSizeKB="1777.37" category="User's Guides" label="UG163: Si1133/Si1153 Optical Sensor Evaluation Board User's Guide">
+    <property key="timeStamp" value="1545069344648"/>
+  </assets>
+  <assets path="/sensors/boards/BRD8017/Si72xx-wd-kit.jpg" diskSizeKB="62.536" downloadSizeKB="62.536">
+    <property key="timeStamp" value="1553279236538"/>
+  </assets>
+  <assets version="0.1" path="/sensors/boards/BRD8017/UG288.pdf" diskSizeKB="1867.532" downloadSizeKB="1867.532" category="User's Guides" label="UG288: Si72xx WD Kit User's Guide">
+    <property key="timeStamp" value="1499456338432"/>
+  </assets>
+  <assets path="/sensors/boards/BRD8017/si7210-bd.png" diskSizeKB="43.827" downloadSizeKB="43.827">
+    <property key="timeStamp" value="1553279238756"/>
+  </assets>
+  <assets version="A00" path="/sensors/boards/BRD8030/OCCUPANCY-EXP-EB-ASSY.pdf" diskSizeKB="36.65" downloadSizeKB="36.65" category="Schematic and Layout Files" label="BRD8030 Occupancy Sensor EXP Board Assembly Drawing">
+    <property key="timeStamp" value="1550005365333"/>
+  </assets>
+  <assets version="A00" path="/sensors/boards/BRD8030/OCCUPANCY-EXP-EB-BOM.xlsx" diskSizeKB="11.155" downloadSizeKB="11.155" category="Schematic and Layout Files" label="BRD8030A Occupancy Sensor EXP Board Bill of Materials">
+    <property key="timeStamp" value="1550005365398"/>
+  </assets>
+  <assets path="/sensors/boards/BRD8030/OCCUPANCY-EXP-EB-GERBERS.zip" diskSizeKB="533.115" downloadSizeKB="533.115" category="Schematic and Layout Files">
+    <property key="timeStamp" value="1550005365306"/>
+  </assets>
+  <assets version="A00" path="/sensors/boards/BRD8030/OCCUPANCY-EXP-EB-SCH.pdf" diskSizeKB="233.208" downloadSizeKB="233.208" category="Schematic and Layout Files" label="Occupancy Sensor EXP Board Schematic">
+    <property key="timeStamp" value="1550005365368"/>
+  </assets>
+  <assets path="/sensors/boards/Si7006/Si7006-7-22-usb-dongle.jpg" diskSizeKB="25.145" downloadSizeKB="25.145">
+    <property key="timeStamp" value="1553279240918"/>
+  </assets>
+  <assets path="/sensors/boards/Si7013-EVB/Si7013-usb-dongle.jpg" diskSizeKB="35.746" downloadSizeKB="35.746">
+    <property key="timeStamp" value="1553279240932"/>
+  </assets>
+  <assets version="0.8" path="/sensors/boards/Si7013-EVB/Si7013USB-DONGLE.pdf" diskSizeKB="786.427" downloadSizeKB="786.427" category="User's Guides" label="Evaluation Dongle Temperature and Humidity Sensors User's Guide">
+    <property key="timeStamp" value="1480712751956"/>
+  </assets>
+  <assets path="/sensors/boards/Si7013-EVB/si7013-evb-udp.jpg" diskSizeKB="44.438" downloadSizeKB="44.438">
+    <property key="timeStamp" value="1553279241879"/>
+  </assets>
+  <assets path="/sensors/boards/Si7021-EVB/Si7021-BD.png" diskSizeKB="57.948" downloadSizeKB="57.948">
+    <property key="timeStamp" value="1553279242991"/>
+  </assets>
+  <assets path="/sensors/boards/Si7034-EB/si7034-evb.jpg" diskSizeKB="23.79" downloadSizeKB="23.79">
+    <property key="timeStamp" value="1553279236511"/>
+  </assets>
+  <assets path="/sensors/boards/Si705x/Si705x-BD.png" diskSizeKB="26.474" downloadSizeKB="26.474">
+    <property key="timeStamp" value="1553279236486"/>
+  </assets>
+  <assets path="/sensors/boards/Si7060-EB/si7060-evb-kit.jpg" diskSizeKB="76.074" downloadSizeKB="76.074">
+    <property key="timeStamp" value="1553279241898"/>
+  </assets>
+  <assets version="0.9" path="/sensors/boards/Si70xx-EVB/Si70xx-Temp-and-Humidity-Sensor-Eval-SW.pdf" diskSizeKB="909.405" downloadSizeKB="909.405" category="User's Guides" label="Si70xx Temp and Humidity Sensor Eval SW.pdf">
+    <property key="timeStamp" value="1497053858150"/>
+  </assets>
+  <assets path="/sensors/boards/Si7201-B01V-EB/si720x-bd.png" diskSizeKB="44.719" downloadSizeKB="44.719">
+    <property key="timeStamp" value="1553279233086"/>
+  </assets>
+  <assets path="/sensors/boards/Si7210-B00V-EB/si7210-bd.png" diskSizeKB="43.827" downloadSizeKB="43.827">
+    <property key="timeStamp" value="1553279233099"/>
+  </assets>
+  <assets path="/sensors/boards/Si7211-B00V-EB/si721x-bd.png" diskSizeKB="55.359" downloadSizeKB="55.359">
+    <property key="timeStamp" value="1553279236526"/>
+  </assets>
+  <assets version="0.91" path="/sensors/datasheet/Si1133.pdf" diskSizeKB="1027.575" downloadSizeKB="1027.575" category="Data Sheets" label="Si1133 UV Index/Ambient Light Sensor IC with I2C Interface">
+    <property key="timeStamp" value="1480712752012"/>
+  </assets>
+  <assets version="1.2" path="/sensors/datasheet/Si1153.pdf" diskSizeKB="993.315" downloadSizeKB="993.315" category="Data Sheets" label="Si1153 Data Sheet - Proximity/Ambient Light Sensor IC with IC2 Interface">
+    <property key="timeStamp" value="1545069355758"/>
+  </assets>
+  <assets version="1.2" path="/sensors/datasheet/Si7006-A20.pdf" diskSizeKB="1482.292" downloadSizeKB="1482.292" category="Data Sheets" label="Si7006-A20 I2C Humidity and Temperature Sensor">
+    <property key="timeStamp" value="1480712752023"/>
+  </assets>
+  <assets version="1.4" path="/sensors/datasheet/Si7007-A20.pdf" diskSizeKB="1395.304" downloadSizeKB="1395.304" category="Data Sheets" label="Si7007-A20 Humidity/Temperature Sensor with PWM Output">
+    <property key="timeStamp" value="1545069354413"/>
+  </assets>
+  <assets version="1.3" path="/sensors/datasheet/Si7013-A20.pdf" diskSizeKB="1592.162" downloadSizeKB="1592.162" category="Data Sheets" label="Si7013-A20 I2C Humidity and Two-Zone Temperature Sensor">
+    <property key="timeStamp" value="1480712751983"/>
+  </assets>
+  <assets version="1.2" path="/sensors/datasheet/Si7020-A20.pdf" diskSizeKB="1488.532" downloadSizeKB="1488.532" category="Data Sheets" label="Si7020-A20 I2C Humidity and Temperature Sensor">
+    <property key="timeStamp" value="1480712751987"/>
+  </assets>
+  <assets version="1.2" path="/sensors/datasheet/Si7021-A20.pdf" diskSizeKB="1491.2" downloadSizeKB="1491.2" category="Data Sheets" label="Si7021-A20 I2C Humidity and Temperature Sensor">
+    <property key="timeStamp" value="1480712752004"/>
+  </assets>
+  <assets version="1.3" path="/sensors/datasheet/Si7022-A20.pdf" diskSizeKB="1313.424" downloadSizeKB="1313.424" category="Data Sheets" label="Si7022-A20 Humidity/Temperature Sensor with PWM Output">
+    <property key="timeStamp" value="1480712751996"/>
+  </assets>
+  <assets version="1.3" path="/sensors/datasheet/Si7023-A20.pdf" diskSizeKB="1397.752" downloadSizeKB="1397.752" category="Data Sheets" label="Si7023-A20 Humidity/Temperature Sensor with PWM Output">
+    <property key="timeStamp" value="1545069359295"/>
+  </assets>
+  <assets version="1.0" path="/sensors/datasheet/Si7034-A10.pdf" diskSizeKB="545.902" downloadSizeKB="545.902" label="Si7034 Data Sheet">
+    <property key="timeStamp" value="1480712752007"/>
+  </assets>
+  <assets version="1.15" path="/sensors/datasheet/Si7050-1-3-4-5-A20.pdf" diskSizeKB="565.013" downloadSizeKB="565.013" category="Data Sheets" label="Si7050/1/3/4/5-A20 Data Sheet -- I2C Temperature Sensors">
+    <property key="timeStamp" value="1545069358776"/>
+  </assets>
+  <assets version="1.1" path="/sensors/datasheet/si7057-8-9-datasheet.pdf" diskSizeKB="544.509" downloadSizeKB="544.509" category="Data Sheets" label="Si7057/8/9-A10 Data Sheet -- Digital I2C Temperature Sensor">
+    <property key="timeStamp" value="1497053850343"/>
+  </assets>
+  <assets version="0.1" path="/sensors/datasheet/si7060-datasheet.pdf" diskSizeKB="403.007" downloadSizeKB="403.007" category="Data Sheets" label="Si7060 Datasheet">
+    <property key="timeStamp" value="1527279130141"/>
+  </assets>
+  <assets version="1.0" path="/sensors/datasheet/si720x-data-sheet.pdf" diskSizeKB="641.353" downloadSizeKB="641.353" category="Data Sheets" label="Si720x Switch/Latch Hall Effect Magnetic Position Sensor Data Sheet">
+    <property key="timeStamp" value="1545069358759"/>
+  </assets>
+  <assets version="0.9" path="/sensors/datasheet/si7210-data-sheet.pdf" diskSizeKB="516.767" downloadSizeKB="516.767" category="Data Sheets" label="Si7210 I2C Hall Effect Magnetic Position and Temperature Sensor Data Sheet">
+    <property key="timeStamp" value="1499456347791"/>
+  </assets>
+  <assets version="1.0" path="/sensors/datasheet/si721x-data-sheet.pdf" diskSizeKB="743.078" downloadSizeKB="743.078" category="Data Sheets" label="Si721x Field Output Hall Effect Magnetic Position Sensors Data Sheet">
+    <property key="timeStamp" value="1545069355731"/>
+  </assets>
+  <assets version="0.9" path="/sensors/datashort/Si1133-DataShort.pdf" diskSizeKB="394.073" downloadSizeKB="394.073" category="Data Shorts" label="Si1133 Data Short">
+    <property key="timeStamp" value="1480712752040"/>
+  </assets>
+  <assets version="0.9" path="/sensors/datashort/Si1143-AAGX-DataShort.pdf" diskSizeKB="333.88" downloadSizeKB="333.88" category="Data Shorts" label="Si1143-AAGX Data Short">
+    <property key="timeStamp" value="1480712752037"/>
+  </assets>
+  <assets version="0.9" path="/sensors/datashort/Si1144-AAGX-DataShort.pdf" diskSizeKB="377.292" downloadSizeKB="377.292" category="Data Shorts" label="Si1144-AAGX Data Short">
+    <property key="timeStamp" value="1480712752039"/>
+  </assets>
+  <assets version="0.9" path="/sensors/datashort/Si1153-DataShort.pdf" diskSizeKB="1159.019" downloadSizeKB="1159.019" category="Data Shorts" label="Si1153 Data Short">
+    <property key="timeStamp" value="1480712752026"/>
+  </assets>
+  <assets path="/sensors/demos/Si72xx_WD_Kit.zip" diskSizeKB="141.632" downloadSizeKB="46.635" directory="true">
+    <property key="timeStamp" value="1611785960828"/>
+  </assets>
+  <assets version="1.1" path="/sensors/whitepaper/compact-humidity-sensor-ic.pdf" diskSizeKB="168.894" downloadSizeKB="168.894" category="User's Guides" label="Compact Digital Humidity Sensor IC Extends Battery Life and Reduces Design Complexity">
+    <property key="timeStamp" value="1545069349243"/>
+  </assets>
+  <assets version="" path="/sensors/whitepaper/measuring-temperature-accurately-with-semiconductor-sensors.pdf" diskSizeKB="946.252" downloadSizeKB="946.252" label="Measuring Temperature Accurately with Semiconductor Sensors">
+    <property key="timeStamp" value="1480712752045"/>
+  </assets>
+</assets>

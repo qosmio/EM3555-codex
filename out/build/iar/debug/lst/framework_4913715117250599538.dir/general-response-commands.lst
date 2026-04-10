@@ -1,0 +1,535 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:53
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\general-response-commands\general-response-commands.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\general-response-commands.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\general-response-commands\general-response-commands.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"general-response-commands.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\general-response-commands\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\general-response-commands.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\general-response-commands.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\general-response-commands.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\general-response-commands.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\general-response-commands\general-response-commands.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief Routines for the General Response Commands plugin.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #include "../../include/af.h"
+     19          #include "../../util/util.h"
+     20          
+
+   \                                 In section .text, align 2, keep-with-next
+     21          bool emberAfReadAttributesResponseCallback(EmberAfClusterId clusterId,
+     22                                                     uint8_t *buffer,
+     23                                                     uint16_t bufLen)
+     24          {
+   \                     emberAfReadAttributesResponseCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     25          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_DEBUG)
+     26            uint16_t bufIndex = 0;
+     27            emberAfDebugPrint("%p_RESP: ", "READ_ATTR");
+     28            emberAfDebugDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(clusterId, emberAfGetMfgCodeFromCurrentCommand()));
+     29            emberAfDebugPrintln("");
+     30            emberAfDebugFlush();
+     31          
+     32            // Each record in the response has a two-byte attribute id and a one-byte
+     33            // status.  If the status is SUCCESS, there will also be a one-byte type and
+     34            // variable-length data.
+     35            while (bufIndex + 3 <= bufLen) {
+     36              EmberAfAttributeId attributeId;
+     37              EmberAfStatus status;
+     38              attributeId = (EmberAfAttributeId)emberAfGetInt16u(buffer,
+     39                                                                 bufIndex,
+     40                                                                 bufLen);
+     41              bufIndex += 2;
+     42              status = (EmberAfStatus)emberAfGetInt8u(buffer, bufIndex, bufLen);
+     43              bufIndex++;
+     44              emberAfDebugPrintln(" - attr:%2x, status:%x", attributeId, status);
+     45              if (status == EMBER_ZCL_STATUS_SUCCESS) {
+     46                uint8_t dataType;
+     47                uint16_t dataSize;
+     48                if (bufLen - bufIndex < 1) {
+     49                  emberAfDebugPrintln("ERR: attr:%2x premature end of buffer after success status", attributeId);
+     50                  break;
+     51                }
+     52                dataType = emberAfGetInt8u(buffer, bufIndex, bufLen);
+     53                bufIndex++;
+     54          
+     55                dataSize = emberAfAttributeValueSize(dataType,
+     56                                                     buffer + bufIndex,
+     57                                                     bufLen - bufIndex);
+     58          
+     59                emberAfDebugPrint("   type:%x, val:", dataType);
+     60                if (dataSize != 0) {
+     61                  if (emberAfIsStringAttributeType(dataType)) {
+     62                    emberAfDebugPrintString(buffer + bufIndex);
+     63                  } else if (emberAfIsLongStringAttributeType(dataType)) {
+     64                    emberAfDebugDebugExec(emberAfPrintLongString(EMBER_AF_PRINT_DEBUG, buffer + bufIndex));
+     65                  } else {
+     66                    emberAfDebugPrintBuffer(buffer + bufIndex, dataSize, false);
+     67                  }
+     68                  emberAfDebugPrintln("");
+     69                  emberAfDebugFlush();
+     70                  bufIndex += dataSize;
+     71                } else {
+     72                  // dataSize exceeds buffer length, terminate loop
+     73                  emberAfDebugPrintln("ERR: attr:%2x size exceeds buffer size %d", attributeId, dataSize);
+     74                  emberAfDebugFlush();
+     75                  break; // while
+     76                }
+     77              }
+     78            }
+     79          #endif //EMBER_AF_PRINT_ENABLE && EMBER_AF_PRINT_DEBUG
+     80            emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_SUCCESS);
+   \        0x2   0x2000             MOVS     R0,#+0
+   \        0x4   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+     81            return true;
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0xBD02             POP      {R1,PC}
+     82          }
+     83          
+
+   \                                 In section .text, align 2, keep-with-next
+     84          bool emberAfWriteAttributesResponseCallback(EmberAfClusterId clusterId,
+     85                                                      uint8_t *buffer,
+     86                                                      uint16_t bufLen)
+     87          {
+   \                     emberAfWriteAttributesResponseCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     88          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_DEBUG)
+     89            uint16_t bufIndex = 0;
+     90            emberAfDebugPrint("%p_RESP: ", "WRITE_ATTR");
+     91            emberAfDebugDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(clusterId, emberAfGetMfgCodeFromCurrentCommand()));
+     92            emberAfDebugPrintln("");
+     93            emberAfDebugFlush();
+     94          
+     95            // Each record in the response has a one-byte status.  If the status is not
+     96            // SUCCESS, the record will also contain a two-byte attribute id.
+     97            while (bufIndex + 1 <= bufLen) {
+     98              EmberAfStatus status = (EmberAfStatus)emberAfGetInt8u(buffer,
+     99                                                                    bufIndex,
+    100                                                                    bufLen);
+    101              bufIndex++;
+    102              emberAfDebugPrintln(" - status:%x", status);
+    103              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    104                EmberAfAttributeId attributeId = (EmberAfAttributeId)emberAfGetInt16u(buffer,
+    105                                                                                      bufIndex,
+    106                                                                                      bufLen);
+    107                bufIndex += 2;
+    108                emberAfDebugPrintln("   attr:%2x", attributeId);
+    109              }
+    110              emberAfDebugFlush();
+    111            }
+    112          #endif //EMBER_AF_PRINT_ENABLE && EMBER_AF_PRINT_DEBUG
+    113            emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_SUCCESS);
+   \        0x2   0x2000             MOVS     R0,#+0
+   \        0x4   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    114            return true;
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0xBD02             POP      {R1,PC}
+    115          }
+    116          
+
+   \                                 In section .text, align 2, keep-with-next
+    117          bool emberAfConfigureReportingResponseCallback(EmberAfClusterId clusterId,
+    118                                                         uint8_t *buffer,
+    119                                                         uint16_t bufLen)
+    120          {
+   \                     emberAfConfigureReportingResponseCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    121          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_REPORTING)
+    122            uint16_t bufIndex = 0;
+    123            emberAfReportingPrint("%p_RESP: ", "CFG_RPT");
+    124            emberAfReportingDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(clusterId, emberAfGetMfgCodeFromCurrentCommand()));
+    125            emberAfReportingPrintln("");
+    126            emberAfReportingFlush();
+    127          
+    128            // Each record in the response has a one-byte status.  If the status is not
+    129            // SUCCESS, the record will also contain a one-byte direction and a two-byte
+    130            // attribute id.
+    131            while (bufIndex + 1 <= bufLen) {
+    132              EmberAfStatus status = (EmberAfStatus)emberAfGetInt8u(buffer,
+    133                                                                    bufIndex,
+    134                                                                    bufLen);
+    135              bufIndex++;
+    136              emberAfReportingPrintln(" - status:%x", status);
+    137              if (status != EMBER_ZCL_STATUS_SUCCESS) {
+    138                EmberAfReportingDirection direction;
+    139                EmberAfAttributeId attributeId;
+    140                direction =  (EmberAfReportingDirection)emberAfGetInt8u(buffer,
+    141                                                                        bufIndex,
+    142                                                                        bufLen);
+    143                bufIndex++;
+    144                attributeId = (EmberAfAttributeId)emberAfGetInt16u(buffer,
+    145                                                                   bufIndex,
+    146                                                                   bufLen);
+    147                bufIndex += 2;
+    148                emberAfReportingPrintln("   direction:%x, attr:%2x",
+    149                                        direction,
+    150                                        attributeId);
+    151              }
+    152              emberAfReportingFlush();
+    153            }
+    154          #endif //EMBER_AF_PRINT_ENABLE && EMBER_AF_PRINT_REPORTING
+    155            emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_SUCCESS);
+   \        0x2   0x2000             MOVS     R0,#+0
+   \        0x4   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    156            return true;
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0xBD02             POP      {R1,PC}
+    157          }
+    158          
+
+   \                                 In section .text, align 2, keep-with-next
+    159          bool emberAfReadReportingConfigurationResponseCallback(EmberAfClusterId clusterId,
+    160                                                                 uint8_t *buffer,
+    161                                                                 uint16_t bufLen)
+    162          {
+   \                     emberAfReadReportingConfigurationResponseCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    163          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_REPORTING)
+    164            uint16_t bufIndex = 0;
+    165            emberAfReportingPrint("%p_RESP: ", "READ_RPT_CFG");
+    166            emberAfReportingDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(clusterId, emberAfGetMfgCodeFromCurrentCommand()));
+    167            emberAfReportingPrintln("");
+    168            emberAfReportingFlush();
+    169          
+    170            // Each record in the response has a one-byte status, a one-byte direction,
+    171            // and a two-byte attribute id.  If the status is SUCCESS, the record will
+    172            // contain additional fields.
+    173            while (bufIndex + 4 <= bufLen) {
+    174              EmberAfAttributeId attributeId;
+    175              EmberAfStatus status;
+    176              EmberAfReportingDirection direction;
+    177              status = (EmberAfStatus)emberAfGetInt8u(buffer, bufIndex, bufLen);
+    178              bufIndex++;
+    179              direction = (EmberAfReportingDirection)emberAfGetInt8u(buffer,
+    180                                                                     bufIndex,
+    181                                                                     bufLen);
+    182              bufIndex++;
+    183              attributeId = (EmberAfAttributeId)emberAfGetInt16u(buffer,
+    184                                                                 bufIndex,
+    185                                                                 bufLen);
+    186              bufIndex += 2;
+    187              emberAfReportingPrintln(" - status:%x, direction:%x, attr:%2x",
+    188                                      status,
+    189                                      direction,
+    190                                      attributeId);
+    191              if (status == EMBER_ZCL_STATUS_SUCCESS) {
+    192                // If the direction indicates the attribute is reported, the record will
+    193                // contain a one-byte type and two two-byte intervals.  If the type is
+    194                // analog, the record will contain a reportable change of the same data
+    195                // type.  If the direction indicates reports of the attribute are
+    196                // received, the record will contain a two-byte timeout.
+    197                switch (direction) {
+    198                  case EMBER_ZCL_REPORTING_DIRECTION_REPORTED:
+    199                  {
+    200                    uint16_t minInterval, maxInterval;
+    201                    uint8_t dataType;
+    202                    dataType = emberAfGetInt8u(buffer, bufIndex, bufLen);
+    203                    bufIndex++;
+    204                    minInterval = emberAfGetInt16u(buffer, bufIndex, bufLen);
+    205                    bufIndex += 2;
+    206                    maxInterval = emberAfGetInt16u(buffer, bufIndex, bufLen);
+    207                    bufIndex += 2;
+    208                    emberAfReportingPrintln("   type:%x, min:%2x, max:%2x",
+    209                                            dataType,
+    210                                            minInterval,
+    211                                            maxInterval);
+    212                    if (emberAfGetAttributeAnalogOrDiscreteType(dataType)
+    213                        == EMBER_AF_DATA_TYPE_ANALOG) {
+    214                      uint8_t dataSize = emberAfGetDataSize(dataType);
+    215                      emberAfReportingPrint("   change:");
+    216                      emberAfReportingPrintBuffer(buffer + bufIndex, dataSize, false);
+    217                      emberAfReportingPrintln("");
+    218                      bufIndex += dataSize;
+    219                    }
+    220                    break;
+    221                  }
+    222                  case EMBER_ZCL_REPORTING_DIRECTION_RECEIVED:
+    223                  {
+    224                    uint16_t timeout = emberAfGetInt16u(buffer, bufIndex, bufLen);
+    225                    bufIndex += 2;
+    226                    emberAfReportingPrintln("   timeout:%2x", timeout);
+    227                    break;
+    228                  }
+    229                  default:
+    230                    emberAfReportingPrintln("ERR: unknown direction %x", direction);
+    231                    emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_INVALID_FIELD);
+    232                    return true;
+    233                }
+    234              }
+    235              emberAfReportingFlush();
+    236            }
+    237          #endif //EMBER_AF_PRINT_ENABLE && EMBER_AF_PRINT_REPORTING
+    238            emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_SUCCESS);
+   \        0x2   0x2000             MOVS     R0,#+0
+   \        0x4   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    239            return true;
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0xBD02             POP      {R1,PC}
+    240          }
+    241          
+
+   \                                 In section .text, align 2, keep-with-next
+    242          bool emberAfReportAttributesCallback(EmberAfClusterId clusterId,
+    243                                               uint8_t *buffer,
+    244                                               uint16_t bufLen)
+    245          {
+   \                     emberAfReportAttributesCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    246          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_REPORTING)
+    247            uint16_t bufIndex = 0;
+    248          
+    249            emberAfReportingPrint("RPT_ATTR: ");
+    250            emberAfReportingDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(clusterId, emberAfGetMfgCodeFromCurrentCommand()));
+    251            emberAfReportingPrintln("");
+    252          
+    253            // Each record in the response has a two-byte attribute id, a one-byte
+    254            // type, and variable-length data.
+    255            while (bufIndex + 3 < bufLen) {
+    256              EmberAfAttributeId attributeId;
+    257              uint8_t dataType;
+    258              uint16_t dataSize;
+    259              attributeId = (EmberAfAttributeId)emberAfGetInt16u(buffer,
+    260                                                                 bufIndex,
+    261                                                                 bufLen);
+    262              bufIndex += 2;
+    263              dataType = emberAfGetInt8u(buffer, bufIndex, bufLen);
+    264              bufIndex++;
+    265          
+    266              dataSize = emberAfAttributeValueSize(dataType,
+    267                                                   buffer + bufIndex,
+    268                                                   bufLen - bufIndex);
+    269          
+    270              emberAfReportingPrintln(" - attr:%2x", attributeId);
+    271              emberAfReportingPrint("   type:%x, val:", dataType);
+    272              if (dataSize != 0) {
+    273                if (emberAfIsStringAttributeType(dataType)) {
+    274                  emberAfReportingPrintString(buffer + bufIndex);
+    275                } else if (emberAfIsLongStringAttributeType(dataType)) {
+    276                  emberAfReportingDebugExec(emberAfPrintLongString(EMBER_AF_PRINT_REPORTING, buffer + bufIndex));
+    277                } else {
+    278                  emberAfReportingPrintBuffer(buffer + bufIndex, dataSize, false);
+    279                }
+    280                emberAfReportingPrintln("");
+    281                emberAfReportingFlush();
+    282                bufIndex += dataSize;
+    283              } else {
+    284                // dataSize exceeds buffer length, terminate loop
+    285                emberAfDebugPrintln("ERR: attr:%2x size %d exceeds buffer size", attributeId, dataSize);
+    286                emberAfReportingFlush();
+    287                break; // while
+    288              }
+    289            }
+    290          #endif //EMBER_AF_PRINT_ENABLE && EMBER_AF_PRINT_REPORTING
+    291            emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_SUCCESS);
+   \        0x2   0x2000             MOVS     R0,#+0
+   \        0x4   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    292            return true;
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0xBD02             POP      {R1,PC}
+    293          }
+    294          
+
+   \                                 In section .text, align 2, keep-with-next
+    295          bool emberAfDefaultResponseCallback(EmberAfClusterId clusterId,
+    296                                              uint8_t commandId,
+    297                                              EmberAfStatus status)
+    298          {
+    299          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_DEBUG)
+    300          
+    301            emberAfDebugPrint("%p_RESP: ", "DEFAULT");
+    302            emberAfDebugDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(clusterId, emberAfGetMfgCodeFromCurrentCommand()));
+    303            emberAfDebugPrintln(" cmd %x status %x", commandId, status);
+    304            emberAfDebugFlush();
+    305          #endif //EMBER_AF_PRINT_ENABLE && EMBER_AF_PRINT_DEBUG
+    306            return true;
+   \                     emberAfDefaultResponseCallback: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+    307          }
+    308          
+
+   \                                 In section .text, align 2, keep-with-next
+    309          bool emberAfDiscoverAttributesResponseCallback(EmberAfClusterId clusterId,
+    310                                                         bool discoveryComplete,
+    311                                                         uint8_t *buffer,
+    312                                                         uint16_t bufLen,
+    313                                                         bool extended)
+    314          {
+   \                     emberAfDiscoverAttributesResponseCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+    315          #if defined(EMBER_AF_PRINT_ENABLE) && defined(EMBER_AF_PRINT_DEBUG)
+    316            uint16_t bufIndex = 0;
+    317          
+    318            emberAfDebugPrint("%p%p_RESP: ", "DISC_ATTR", (extended ? "_EXT" : ""));
+    319            emberAfDebugDebugExec(emberAfDecodeAndPrintClusterWithMfgCode(clusterId, emberAfGetMfgCodeFromCurrentCommand()));
+    320            emberAfDebugPrintln(" comp %pDONE", discoveryComplete ? "" : "NOT_");
+    321            emberAfDebugFlush();
+    322          
+    323            // Each record in the response has a two-byte attribute id and a one-byte
+    324            // type.
+    325            while (bufIndex + 3 <= bufLen) {
+    326              EmberAfAttributeId attributeId;
+    327              uint8_t dataType;
+    328              uint8_t accessControl;
+    329              attributeId = (EmberAfAttributeId)emberAfGetInt16u(buffer,
+    330                                                                 bufIndex,
+    331                                                                 bufLen);
+    332              bufIndex += 2;
+    333              dataType = emberAfGetInt8u(buffer, bufIndex, bufLen);
+    334              bufIndex++;
+    335              if (extended) {
+    336                accessControl = emberAfGetInt8u(buffer, bufIndex, bufLen);
+    337                bufIndex++;
+    338                emberAfDebugPrintln(" - attr:%2x, type:%x ac:%x", attributeId, dataType, accessControl);
+    339              } else {
+    340                emberAfDebugPrintln(" - attr:%2x, type:%x", attributeId, dataType);
+    341              }
+    342              emberAfDebugFlush();
+    343            }
+    344          #endif //EMBER_AF_PRINT_ENABLE && EMBER_AF_PRINT_DEBUG
+    345            emberAfSendImmediateDefaultResponse(EMBER_ZCL_STATUS_SUCCESS);
+   \        0x2   0x2000             MOVS     R0,#+0
+   \        0x4   0x.... 0x....      BL       emberAfSendImmediateDefaultResponse
+    346            return true;
+   \        0x8   0x2001             MOVS     R0,#+1
+   \        0xA   0xBD02             POP      {R1,PC}
+    347          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   emberAfConfigureReportingResponseCallback
+         8   -> emberAfSendImmediateDefaultResponse
+       0   emberAfDefaultResponseCallback
+       8   emberAfDiscoverAttributesResponseCallback
+         8   -> emberAfSendImmediateDefaultResponse
+       8   emberAfReadAttributesResponseCallback
+         8   -> emberAfSendImmediateDefaultResponse
+       8   emberAfReadReportingConfigurationResponseCallback
+         8   -> emberAfSendImmediateDefaultResponse
+       8   emberAfReportAttributesCallback
+         8   -> emberAfSendImmediateDefaultResponse
+       8   emberAfWriteAttributesResponseCallback
+         8   -> emberAfSendImmediateDefaultResponse
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      12  emberAfConfigureReportingResponseCallback
+       4  emberAfDefaultResponseCallback
+      12  emberAfDiscoverAttributesResponseCallback
+      12  emberAfReadAttributesResponseCallback
+      12  emberAfReadReportingConfigurationResponseCallback
+      12  emberAfReportAttributesCallback
+      12  emberAfWriteAttributesResponseCallback
+
+ 
+ 76 bytes in section .text
+ 
+ 76 bytes of CODE memory
+
+Errors: none
+Warnings: none

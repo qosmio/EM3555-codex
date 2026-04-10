@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_efr32">
+  <assets path="/efr32/configurator/efr32mg13p.zip" diskSizeKB="6491.617" downloadSizeKB="558.674" directory="true">
+    <property key="timeStamp" value="1721314279520"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32fg12p.zip" diskSizeKB="7643.902" downloadSizeKB="620.925" directory="true">
+    <property key="timeStamp" value="1721314270917"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32mg3p.zip" diskSizeKB="2453.723" downloadSizeKB="350.741" directory="true">
+    <property key="timeStamp" value="1721314294959"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32bg1p.zip" diskSizeKB="5345.076" downloadSizeKB="463.096" directory="true">
+    <property key="timeStamp" value="1721314268726"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32mg1v.zip" diskSizeKB="3138.49" downloadSizeKB="351.407" directory="true">
+    <property key="timeStamp" value="1721314283513"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32mg2p.zip" diskSizeKB="3142.853" downloadSizeKB="397.309" directory="true">
+    <property key="timeStamp" value="1721314285734"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32bg12p.zip" diskSizeKB="7623.009" downloadSizeKB="620.038" directory="true">
+    <property key="timeStamp" value="1721314264230"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32zg1v.zip" diskSizeKB="2481.432" downloadSizeKB="316.512" directory="true">
+    <property key="timeStamp" value="1721314308488"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32fg13p.zip" diskSizeKB="4690.694" downloadSizeKB="466.336" directory="true">
+    <property key="timeStamp" value="1721314271942"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32fg1p.zip" diskSizeKB="8037.297" downloadSizeKB="600.291" directory="true">
+    <property key="timeStamp" value="1721314273132"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32bg13p.zip" diskSizeKB="5420.31" downloadSizeKB="503.782" directory="true">
+    <property key="timeStamp" value="1721314266200"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32mg1b.zip" diskSizeKB="6358.122" downloadSizeKB="518.991" directory="true">
+    <property key="timeStamp" value="1721314281296"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32mg12p.zip" diskSizeKB="9056.225" downloadSizeKB="691.057" directory="true">
+    <property key="timeStamp" value="1721314277874"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32bg1v.zip" diskSizeKB="3979.271" downloadSizeKB="395.2" directory="true">
+    <property key="timeStamp" value="1721314269561"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32fg1v.zip" diskSizeKB="7454.817" downloadSizeKB="570.697" directory="true">
+    <property key="timeStamp" value="1721314274223"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32zg1b.zip" diskSizeKB="2481.432" downloadSizeKB="316.509" directory="true">
+    <property key="timeStamp" value="1721314299880"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32zg1p.zip" diskSizeKB="3058.867" downloadSizeKB="346.023" directory="true">
+    <property key="timeStamp" value="1721314304640"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32mg1p.zip" diskSizeKB="7724.272" downloadSizeKB="586.931" directory="true">
+    <property key="timeStamp" value="1721314282699"/>
+  </assets>
+  <assets path="/efr32/configurator/efr32bg1b.zip" diskSizeKB="6792.101" downloadSizeKB="537.758" directory="true">
+    <property key="timeStamp" value="1721314267792"/>
+  </assets>
+  <assets version="1.5" path="/efr32/errata/EFR32BG1-ErrataHistory.pdf" diskSizeKB="588.668" downloadSizeKB="588.668" category="Errata" label="EFR32BG1 Errata History">
+    <property key="timeStamp" value="1481733228750"/>
+  </assets>
+  <assets version="1.0" path="/efr32/errata/bgm113-errata.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Errata" label="BGM113 Errata: Blue Gecko Bluetooth® Module">
+    <property key="timeStamp" value="1537045543254"/>
+  </assets>
+  <assets version="1.0" path="/efr32/errata/bgm12x-errata.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Errata" label="BGM121/123 Errata: Blue Gecko Bluetooth® SiP Module">
+    <property key="timeStamp" value="1537045543644"/>
+  </assets>
+  <assets version="1.0" path="/efr32/errata/bgm11s-errata.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Errata" label="BGM11S Errata: Blue Gecko Bluetooth® SiP Module">
+    <property key="timeStamp" value="1537045549910"/>
+  </assets>
+  <assets version="0.5" path="/efr32/errata/efr32mg12_errata.pdf" diskSizeKB="651.685" downloadSizeKB="651.685" category="Errata" label="EFR32MG12 Errata">
+    <property key="timeStamp" value="1516988376487"/>
+  </assets>
+  <assets version="0.5" path="/efr32/errata/efr32fg13-errata.pdf" diskSizeKB="682.18" downloadSizeKB="682.18" category="Errata" label="EFR32FG13 Errata">
+    <property key="timeStamp" value="1530559220519"/>
+  </assets>
+  <assets version="0.6" path="/efr32/errata/efr32bg13-errata.pdf" diskSizeKB="683.987" downloadSizeKB="683.987" category="Errata" label="EFR32BG13 Errata">
+    <property key="timeStamp" value="1530559218433"/>
+  </assets>
+  <assets version="1.7" path="/efr32/errata/efr32bg1_errata.pdf" diskSizeKB="858.912" downloadSizeKB="858.912" category="Errata" label="EFR32BG1 Errata">
+    <property key="timeStamp" value="1530559210143"/>
+  </assets>
+  <assets version="1.7" path="/efr32/errata/efr32fg1_errata.pdf" diskSizeKB="847.783" downloadSizeKB="847.783" category="Errata" label="EFR32FG1 Errata">
+    <property key="timeStamp" value="1530559206474"/>
+  </assets>
+  <assets version="0.2" path="/efr32/errata/mgm13p-errata.pdf" diskSizeKB="468.893" downloadSizeKB="468.893" category="Errata" label="Mighty Gecko Mesh Networking Module MGM13P Errata">
+    <property key="timeStamp" value="1545069684866"/>
+  </assets>
+  <assets version="0.1" path="/efr32/errata/mgm12p-errata.pdf" diskSizeKB="634.163" downloadSizeKB="634.163" category="Errata" label="MGM12P Errata: Mighty Gecko Module">
+    <property key="timeStamp" value="1537045543221"/>
+  </assets>
+  <assets path="/efr32/errata/efr32mg1_errata_history.pdf" diskSizeKB="284.284" downloadSizeKB="284.284">
+    <property key="timeStamp" value="1468886352240"/>
+  </assets>
+  <assets version="0.5" path="/efr32/errata/efr32fg12_errata.pdf" diskSizeKB="651.694" downloadSizeKB="651.694" category="Errata" label="EFR32FG12 Errata">
+    <property key="timeStamp" value="1516988390666"/>
+  </assets>
+  <assets version="0.3" path="/efr32/errata/EFR32BG1-csp-errata.pdf" diskSizeKB="790.502" downloadSizeKB="790.502" category="Errata" label="Blue Gecko SoC CSP (EFR32BG1) Errata">
+    <property key="timeStamp" value="1523998914615"/>
+  </assets>
+  <assets version="0.4" path="/efr32/errata/efr32mg14-errata.pdf" diskSizeKB="655.217" downloadSizeKB="655.217" category="Errata" label="EFR32MG14 Errata">
+    <property key="timeStamp" value="1545069687193"/>
+  </assets>
+  <assets version="0.1" path="/efr32/errata/bgm13s-errata.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Errata" label="BGM13S Errata: Blue Gecko Bluetooth®">
+    <property key="timeStamp" value="1537045549932"/>
+  </assets>
+  <assets path="/efr32/errata/efr32bg1_errata_history.pdf" diskSizeKB="201.17" downloadSizeKB="201.17">
+    <property key="timeStamp" value="1468886352243"/>
+  </assets>
+  <assets version="1.7" path="/efr32/errata/efr32mg1_errata.pdf" diskSizeKB="856.914" downloadSizeKB="856.914" category="Errata" label="EFR32MG1 Errata">
+    <property key="timeStamp" value="1530559218408"/>
+  </assets>
+  <assets version="0.5" path="/efr32/errata/efr32bg12_errata.pdf" diskSizeKB="680.349" downloadSizeKB="680.349" category="Errata" label="EFR32BG12 Errata: Blue Gecko BluetoothÂ® Low Energy SoC">
+    <property key="timeStamp" value="1516988371813"/>
+  </assets>
+  <assets version="0.3" path="/efr32/errata/efr32fg14-errata.pdf" diskSizeKB="654.974" downloadSizeKB="654.974" category="Errata" label="EFR32FG14 Errata">
+    <property key="timeStamp" value="1545069688985"/>
+  </assets>
+  <assets version="0.4" path="/efr32/errata/efr32bg14-errata.pdf" diskSizeKB="656.553" downloadSizeKB="656.553" category="Errata" label="EFR32BG14 Errata">
+    <property key="timeStamp" value="1545069693447"/>
+  </assets>
+  <assets version="0.1" path="/efr32/errata/bgm111e-errata.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Errata" label="BGM111E Errata: Blue Gecko Bluetooth® Module">
+    <property key="timeStamp" value="1537045548254"/>
+  </assets>
+  <assets version="0.1" path="/efr32/errata/mgm13s-errata.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Errata" label="MGM13S Errata: Mighty Gecko Module">
+    <property key="timeStamp" value="1537045553499"/>
+  </assets>
+  <assets version="0.1" path="/efr32/errata/mgm111-errata.pdf" diskSizeKB="678.739" downloadSizeKB="678.739" category="Errata" label="MGM111 Errata">
+    <property key="timeStamp" value="1537045543186"/>
+  </assets>
+  <assets version="1.5" path="/efr32/errata/EFR32MG1_SF_errata.pdf" diskSizeKB="692.629" downloadSizeKB="692.629" category="Errata" label="EFR32MG1 Serial Flash Errata">
+    <property key="timeStamp" value="1481582476453"/>
+  </assets>
+  <assets version="0.2" path="/efr32/errata/bgm13p-errata.pdf" diskSizeKB="468.454" downloadSizeKB="468.454" category="Errata" label="Blue Gecko Bluetooth Low Energy Module BGM13P Errata">
+    <property key="timeStamp" value="1545069693473"/>
+  </assets>
+  <assets version="0.6" path="/efr32/errata/efr32mg13-errata.pdf" diskSizeKB="682.484" downloadSizeKB="682.484" category="Errata" label="EFR32MG13 Errata">
+    <property key="timeStamp" value="1530559218480"/>
+  </assets>
+  <assets version="1.0" path="/efr32/errata/bgm111-errata.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Errata" label="BGM111 Errata: Blue Gecko Bluetooth® Module">
+    <property key="timeStamp" value="1537045542202"/>
+  </assets>
+  <assets version="0.1" path="/efr32/appnote/AN1085/AN1085.pdf" diskSizeKB="329.869" downloadSizeKB="329.869" label="AN1085: Using the Gecko Bootloader with Silicon Labs Connect">
+    <property key="timeStamp" value="1497555295688"/>
+  </assets>
+  <assets version="0.3" path="/efr32/appnote/AN1045/AN1045.pdf" diskSizeKB="880.374" downloadSizeKB="880.374" label="AN1045: Bluetooth® Over-the-Air Device Firmware Update for EFR32xG1 and BGM11x Series Products">
+    <property key="timeStamp" value="1497053619487"/>
+  </assets>
+  <assets version="0.1" path="/efr32/appnote/AN1086/AN1086.pdf" diskSizeKB="683.213" downloadSizeKB="683.213" label="AN1086: Using the Gecko Bootloader with the Silicon Labs Bluetooth® Applications">
+    <property key="timeStamp" value="1497555295663"/>
+  </assets>
+  <assets version="0.3" path="/efr32/appnote/AN1053/AN1053.pdf" diskSizeKB="591.708" downloadSizeKB="591.708" label="AN1053: Bluetooth® Device Firmware Update over UART for EFR32xG1 and BGM11x Series Products">
+    <property key="timeStamp" value="1497555295681"/>
+  </assets>
+  <assets version="0.3" path="/efr32/appnote/AN933/AN933.pdf" diskSizeKB="714.212" downloadSizeKB="714.212" label="AN933: EFR32 Minimal BOM">
+    <property key="timeStamp" value="1497053619505"/>
+  </assets>
+  <assets version="0.4" path="/efr32/appnote/AN1042/AN1042.pdf" diskSizeKB="1160.152" downloadSizeKB="1160.152" label="AN1042: Using the Silicon Labs Bluetooth® Stack in Network Co-Processor Mode">
+    <property key="timeStamp" value="1497555295672"/>
+  </assets>
+  <assets version="0.2" path="/efr32/appnote/AN1046/AN1046.pdf" diskSizeKB="2987.29" downloadSizeKB="2987.29" label="AN1046: Bluetooth® Radio Frequency Physical Layer Evaluation">
+    <property key="timeStamp" value="1497555295655"/>
+  </assets>
+  <assets path="/efr32/firmware/series2config1/se_firmware_package.zip" diskSizeKB="652.917" downloadSizeKB="481.864" directory="true">
+    <property key="timeStamp" value="1721314328543"/>
+  </assets>
+  <assets path="/efr32/firmware/series2config2/se_firmware_package.zip" diskSizeKB="699.519" downloadSizeKB="639.006" directory="true">
+    <property key="timeStamp" value="1721314328666"/>
+  </assets>
+  <assets path="/efr32/otherDocuments/PCB4101B-A00-gerbers.zip" diskSizeKB="143.963" downloadSizeKB="143.963" label="PCB4101B A00 Gerbers Files">
+    <property key="timeStamp" value="1478298419331"/>
+  </assets>
+  <assets path="/efr32/otherDocuments/PCB4101A-A01-gerbers.zip" diskSizeKB="165.096" downloadSizeKB="165.096" label="PCB4101A A01 Gerbers Files">
+    <property key="timeStamp" value="1478298419332"/>
+  </assets>
+  <assets path="/efr32/otherDocuments/PCB4101A-A01-altium-design.zip" diskSizeKB="859.437" downloadSizeKB="859.437" label="PCB4101A A01 Altium Design">
+    <property key="timeStamp" value="1478298419337"/>
+  </assets>
+  <assets path="/efr32/otherDocuments/PCB4101B-A00-assy-draw.pdf" diskSizeKB="546.407" downloadSizeKB="546.407" label="EFR32 2.4 GHz Band WLCSP Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1478298419339"/>
+  </assets>
+  <assets version="A02" path="/efr32/otherDocuments/BRD4101B-A02-schematic.pdf" diskSizeKB="284.47" downloadSizeKB="284.47" category="Schematic and Layout Files" label="EFR32BG1 BRD4101B 2.4 GHz 8dBm WLCSP Radio Board Schematic">
+    <property key="timeStamp" value="1523997906495"/>
+  </assets>
+  <assets path="/efr32/otherDocuments/PCB4101-A01-assy-draw.pdf" diskSizeKB="557.43" downloadSizeKB="557.43" label="EFR32 2.4 GHz Band WLCSP Radio Board Assembly Drawing">
+    <property key="timeStamp" value="1478298419323"/>
+  </assets>
+  <assets path="/efr32/otherDocuments/BRD4101A-A00-schematic.pdf" diskSizeKB="196.249" downloadSizeKB="196.249" label="EFR32BG WLCSP 2.4 GHz 19.5 dBm Radio B Schematic">
+    <property key="timeStamp" value="1478298419321"/>
+  </assets>
+  <assets path="/efr32/otherDocuments/PCB4101B-A00-altium-design.zip" diskSizeKB="1468.523" downloadSizeKB="1468.523" label="PCB4101B A00 Altium Design">
+    <property key="timeStamp" value="1478298419329"/>
+  </assets>
+  <assets path="/efr32/otherDocuments/BRD4101A-A00-bom.xlsx" diskSizeKB="12.835" downloadSizeKB="12.835" label="EFR32BG WLCSP 2.4 GHz 19.5 dBm Radio Board Bill of Materials">
+    <property key="timeStamp" value="1478298419341"/>
+  </assets>
+  <assets version="A02" path="/efr32/otherDocuments/BRD4101B-A02-bom.xlsx" diskSizeKB="12.55" downloadSizeKB="12.55" category="Schematic and Layout Files" label="EFR32BG1 WLCSP 2.4 GHz 19.5 dBm Radio Board Bill of Materials">
+    <property key="timeStamp" value="1478298419340"/>
+  </assets>
+  <assets path="/efr32/debug/wfm/rs9117.json" diskSizeKB="2644.66" downloadSizeKB="2644.66">
+    <property key="timeStamp" value="1666206882479"/>
+  </assets>
+  <assets path="/efr32/debug/wfm/si9117.json" diskSizeKB="5470.713" downloadSizeKB="5470.713">
+    <property key="timeStamp" value="1757444727283"/>
+  </assets>
+  <assets path="/efr32/debug/sibg/sibg301m104lgh.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967936017"/>
+  </assets>
+  <assets path="/efr32/debug/sibg/sibg301m114kih.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967936018"/>
+  </assets>
+  <assets path="/efr32/debug/sibg/sibg301m114kgh.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967936019"/>
+  </assets>
+  <assets path="/efr32/debug/sibg/sibg301m104lgl.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967936021"/>
+  </assets>
+  <assets path="/efr32/debug/sibg/sibg301_core.json" diskSizeKB="5157.187" downloadSizeKB="5157.187">
+    <property key="timeStamp" value="1738967936026"/>
+  </assets>
+  <assets path="/efr32/debug/sibg/sibg301m104lih.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967936027"/>
+  </assets>
+  <assets path="/efr32/debug/sibg/sibg301m104xil.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967936029"/>
+  </assets>
+  <assets path="/efr32/debug/sibg/sibg301m104lil.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967936030"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23_core.json" diskSizeKB="5288.387" downloadSizeKB="5288.387">
+    <property key="timeStamp" value="1678480385328"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a010f128gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718754"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG12P433.json" diskSizeKB="3534.02" downloadSizeKB="3534.02">
+    <property key="timeStamp" value="1497555287074"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a010f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662935"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a010f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662944"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1V132F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353156"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG14P231F128.json" diskSizeKB="2887.472" downloadSizeKB="2887.472">
+    <property key="timeStamp" value="1498239068942"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a010f512gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1601502765323"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28b320f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663102"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25b211f1920im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385723"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG12P231.json" diskSizeKB="3534.02" downloadSizeKB="3534.02">
+    <property key="timeStamp" value="1497555287067"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25a221f1152im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385682"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b010f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718928"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a020f512gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1601502766349"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a010f256gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718767"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28b312f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663081"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg22c121f512gm40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256149334"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG12P431.json" diskSizeKB="3534.02" downloadSizeKB="3534.02">
+    <property key="timeStamp" value="1497555285132"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a112f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662984"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a122f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663036"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG14P231F256.json" diskSizeKB="2887.472" downloadSizeKB="2887.472">
+    <property key="timeStamp" value="1498239073716"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25a121f1152im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385651"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b021f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662674"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG14P233F256.json" diskSizeKB="2887.472" downloadSizeKB="2887.472">
+    <property key="timeStamp" value="1498239066369"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a011f512gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1601502765787"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG12P232.json" diskSizeKB="3534.02" downloadSizeKB="3534.02">
+    <property key="timeStamp" value="1497555283997"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b010f512im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718942"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b020f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718968"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg2da020f256im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1765401650138"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25xxxxf1920im56.json" diskSizeKB="2.659" downloadSizeKB="2.659">
+    <property key="timeStamp" value="1623857721987"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25_core.json" diskSizeKB="19058.495" downloadSizeKB="19058.495">
+    <property key="timeStamp" value="1678480385632"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1V232F256GM.json" diskSizeKB="1723.01" downloadSizeKB="1723.01">
+    <property key="timeStamp" value="1519419426359"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1P132F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353164"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b021f512im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662681"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28b310f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663060"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b010f128gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718901"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23xxxxf512xxxx.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1623857721832"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG14P232F256.json" diskSizeKB="2887.472" downloadSizeKB="2887.472">
+    <property key="timeStamp" value="1498239068915"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a020f256gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480385404"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a020f256gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480385395"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a020f512gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1601502765891"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a021f512gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1601502765968"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28b322f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663130"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1P132F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353160"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1V132F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353157"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG13_core.json" diskSizeKB="1.247" downloadSizeKB="1.247">
+    <property key="timeStamp" value="1486814831120"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG12P432.json" diskSizeKB="3534.02" downloadSizeKB="3534.02">
+    <property key="timeStamp" value="1497555285124"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg22c121f256gm40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256148674"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG14P233F128.json" diskSizeKB="2887.472" downloadSizeKB="2887.472">
+    <property key="timeStamp" value="1498239077275"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg22_core.json" diskSizeKB="3596.002" downloadSizeKB="3596.002">
+    <property key="timeStamp" value="1678480385261"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a010f256gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718783"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23xxxxf256xxxx.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1623857721820"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28_core.json" diskSizeKB="6104.69" downloadSizeKB="6104.69">
+    <property key="timeStamp" value="1678480385802"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25b221f1920im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385742"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25b121f1152im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385712"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25a211f1152im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385661"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25b212f1920im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385731"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a122f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663026"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25b111f1152im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385703"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG.json" diskSizeKB="1875.691" downloadSizeKB="1875.691">
+    <property key="timeStamp" value="1486814831125"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg2db010f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1765401650765"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a010f512gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1601502765590"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1V132F64_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353159"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg2da010f256im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1765401650768"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a110f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662958"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28b322f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663120"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG13.json" diskSizeKB="3254.449" downloadSizeKB="3254.449">
+    <property key="timeStamp" value="1486814831098"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a112f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662975"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25a111f1152im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385641"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG14P232F128.json" diskSizeKB="2887.472" downloadSizeKB="2887.472">
+    <property key="timeStamp" value="1498239068951"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1P132F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353158"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b010f512gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1601502765703"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28b312f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663090"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23a020f128gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718842"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1V132F32_core.json" diskSizeKB="1.245" downloadSizeKB="1.245">
+    <property key="timeStamp" value="1468886353159"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a120f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662994"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23xxxxf128xxxx.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1631222532405"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28b310f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663049"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b020f128gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718955"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1V032F256_core.json" diskSizeKB="1.218" downloadSizeKB="1.218">
+    <property key="timeStamp" value="1500307347654"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG14V132F256.json" diskSizeKB="2233.573" downloadSizeKB="2233.573">
+    <property key="timeStamp" value="1519419426420"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25xxxxf1152im56.json" diskSizeKB="2.659" downloadSizeKB="2.659">
+    <property key="timeStamp" value="1623857721974"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg2db010f512im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1765401650904"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg22c121f512gm32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256149060"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a120f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663012"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg22c121f256gm32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256149154"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28b320f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747663112"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg2da010f256im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1765401650907"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg2db020f512im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1765401650908"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23l010f128gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1757444728594"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23b020f512im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406718993"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25a211f1920im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385671"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg23l020f128gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1757444728596"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg2d_core.json" diskSizeKB="5317.253" downloadSizeKB="5317.253">
+    <property key="timeStamp" value="1765401650916"/>
+  </assets>
+  <assets path="/efr32/debug/fg/EFR32FG1V032F128_core.json" diskSizeKB="1.218" downloadSizeKB="1.218">
+    <property key="timeStamp" value="1500307365556"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25b222f1920im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385751"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg28a110f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747662967"/>
+  </assets>
+  <assets path="/efr32/debug/fg/efr32fg25a221f1920im56.json" diskSizeKB="2.275" downloadSizeKB="2.275">
+    <property key="timeStamp" value="1678480385693"/>
+  </assets>
+  <assets path="/efr32/debug/fgm/fgm23_core.json" diskSizeKB="5288.379" downloadSizeKB="5288.379">
+    <property key="timeStamp" value="1678480386036"/>
+  </assets>
+  <assets path="/efr32/debug/fgm/fgm230sb27hgn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1654714531093"/>
+  </assets>
+  <assets path="/efr32/debug/fgm/fgm230sa27hgn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1654714531077"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210p022jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480384292"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm220pc22hna.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1582654349967"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm22_core.json" diskSizeKB="3595.994" downloadSizeKB="3595.994">
+    <property key="timeStamp" value="1678480384516"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210p022jia2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939882657"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm240pa32vnn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948938093"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM13S.json" diskSizeKB="3239.995" downloadSizeKB="3239.995">
+    <property key="timeStamp" value="1537045438182"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM123N.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438243"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm27_core.json" diskSizeKB="3877.64" downloadSizeKB="3877.64">
+    <property key="timeStamp" value="1765401651140"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210pa32jna2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939882728"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210la22jnf2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939882695"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM121A.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438063"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm220sc22hna.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1582654349574"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM13P.json" diskSizeKB="3239.995" downloadSizeKB="3239.995">
+    <property key="timeStamp" value="1537045438042"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM111E.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438158"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm220sc22wga.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1582654349954"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210pa22jia2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939898217"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm260pb22vna.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1738967937025"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210pa32jia2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939878098"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm26_core.json" diskSizeKB="6390.919" downloadSizeKB="6390.919">
+    <property key="timeStamp" value="1738967937033"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm241sb22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1654714529159"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm270sc22sna.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1765401651347"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210p022jna2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939875724"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm24_core.json" diskSizeKB="4898.773" downloadSizeKB="4898.773">
+    <property key="timeStamp" value="1678480384656"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210pb22jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1601502767032"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm240pa22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948938063"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210pa22jna2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939898167"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm241sd22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747661798"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM123A.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438128"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm220pc22wga.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1582654349806"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm240pb22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948938103"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM111A.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438084"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210la22jnf.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480384270"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm220sc23hna.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480384475"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210l022jnf2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939875770"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210la22jif2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939885060"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM11S.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438223"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm240pa32vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948938075"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm240pb32vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948938114"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210l022jif2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939885021"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM113A.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438107"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210pa22jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480384343"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210p032jna2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939893551"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/BGM121N.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438202"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/ARTIK-020.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1545069577487"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm21_core.json" diskSizeKB="3421.341" downloadSizeKB="3421.341">
+    <property key="timeStamp" value="1678480384424"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm240pb32vnn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948938124"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm260pb32vna.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1738967937228"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210pb32jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1601502767087"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm240sa22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1654714529135"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210pa32jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480384366"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210p032jia2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939884977"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm240sb22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1654714529145"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210la22jif.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480384253"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm220sc12wga.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1582654349796"/>
+  </assets>
+  <assets path="/efr32/debug/bgm/bgm210p032jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480384319"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/ARTIK-030.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1545069601448"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210la22jif2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939915167"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210l022jnf.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387372"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210l022jnf2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939921439"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/MGM13S.json" diskSizeKB="3239.995" downloadSizeKB="3239.995">
+    <property key="timeStamp" value="1537045438288"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210pa22jia2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939919137"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm260pb22vna.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1738967937286"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210pa22jna2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939921487"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm21_core.json" diskSizeKB="3421.341" downloadSizeKB="3421.341">
+    <property key="timeStamp" value="1678480387585"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210pa32jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387513"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210pa32jna2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939910561"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210p022jna2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939902435"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210p022jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387430"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm220pc22hna.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1601502767500"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240pa32vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948941774"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm27_core.json" diskSizeKB="3877.64" downloadSizeKB="3877.64">
+    <property key="timeStamp" value="1741039541221"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240la22vif.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480387673"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm270sc32sna.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1741039541222"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210p022jia2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939902229"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210pb22jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1601502767459"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240pa22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948941761"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210pa22jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387481"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210l022jif.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387344"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210p032jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387455"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210la22jnf.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387412"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240l022vif.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480387639"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240pa32vnn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948941787"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm260pb32vna.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1738967937327"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/efr32mg21_core.json" diskSizeKB="5198.37" downloadSizeKB="5198.37">
+    <property key="timeStamp" value="1601502767315"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240sb22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948941869"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210la22jnf2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939919098"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm26_core.json" diskSizeKB="7015.73" downloadSizeKB="7015.73">
+    <property key="timeStamp" value="1738967937385"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210p032jna2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939902163"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210pb32jia.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1601502767248"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210la22jif.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387393"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240l022vnf.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406721576"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/MGM13P.json" diskSizeKB="3239.995" downloadSizeKB="3239.995">
+    <property key="timeStamp" value="1537045438396"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240pb32vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1639596739593"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240sa22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948941856"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm24_core.json" diskSizeKB="4898.773" downloadSizeKB="4898.773">
+    <property key="timeStamp" value="1678480387787"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240la22uif.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480387655"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm260pd32vnn.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1738967937469"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240sd22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1654714534065"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm260pd22vna.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1738967937470"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm22_core.json" diskSizeKB="3595.994" downloadSizeKB="3595.994">
+    <property key="timeStamp" value="1678480387621"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240pb32vnn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1639596739602"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210pa32jia2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939902392"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240ld22vif.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480387685"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210p032jia2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939910595"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240l022rnf.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948941729"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm260pd32vna.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1738967937508"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/MGM111E.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438374"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm240pb22vna.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1639596739582"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm260pb32vnn.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1738967937527"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/MGM12P.json" diskSizeKB="3596.178" downloadSizeKB="3596.178">
+    <property key="timeStamp" value="1537045438352"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm211la02jnf.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1678480387558"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm270sc22sna.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1758738496453"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210l022jif1.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939902197"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/mgm210l022jif2.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1559939902069"/>
+  </assets>
+  <assets path="/efr32/debug/mgm/MGM111A.json" diskSizeKB="1865.785" downloadSizeKB="1865.785">
+    <property key="timeStamp" value="1537045438415"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m114lih.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937582"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m113wih.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937583"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m114lgh.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937584"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m104xil.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937585"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m104lil.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937586"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m104lgh.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937587"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m114kgh.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937587"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m114kih.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937588"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m104lih.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937589"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m104lgl.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937590"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301_core.json" diskSizeKB="5157.187" downloadSizeKB="5157.187">
+    <property key="timeStamp" value="1738967937596"/>
+  </assets>
+  <assets path="/efr32/debug/simg/simg301m103lih.json" diskSizeKB="1.67" downloadSizeKB="1.67">
+    <property key="timeStamp" value="1738967937597"/>
+  </assets>
+  <assets path="/efr32/debug/sg/efr32sg23b020f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1710380530510"/>
+  </assets>
+  <assets path="/efr32/debug/sg/efr32sg28_core.json" diskSizeKB="5466.407" downloadSizeKB="5466.407">
+    <property key="timeStamp" value="1710380530542"/>
+  </assets>
+  <assets path="/efr32/debug/sg/efr32sg23b020f512im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1710380530518"/>
+  </assets>
+  <assets path="/efr32/debug/sg/efr32sg23_core.json" diskSizeKB="5291.407" downloadSizeKB="5291.407">
+    <property key="timeStamp" value="1710380530500"/>
+  </assets>
+  <assets path="/efr32/debug/sg/efr32sg28b320f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1710380530551"/>
+  </assets>
+  <assets path="/efr32/debug/sg/efr32sg28b322f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1710380530576"/>
+  </assets>
+  <assets path="/efr32/debug/sg/efr32sg28b320f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1710380530559"/>
+  </assets>
+  <assets path="/efr32/debug/sg/efr32sg28b322f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1710380530568"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a020f1536gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809582"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg29b230f1024cm40.json" diskSizeKB="1.918" downloadSizeKB="1.918">
+    <property key="timeStamp" value="1740631178799"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG2_core.json" diskSizeKB="1.248" downloadSizeKB="1.248">
+    <property key="timeStamp" value="1492565902750"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21b020f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069646182"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg22e224f512im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1710380529196"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MR21_core.json" diskSizeKB="2845.873" downloadSizeKB="2845.873">
+    <property key="timeStamp" value="1678480386465"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b610f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1646948940986"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg22c224f512im32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256151846"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b420f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529657"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG2.json" diskSizeKB="3641.213" downloadSizeKB="3641.213">
+    <property key="timeStamp" value="1486814831169"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg22c224f512gn32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256151888"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21b010f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069670989"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a410f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720703"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG12P332.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555278680"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a020f768im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480386823"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b510f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529682"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg22_core.json" diskSizeKB="3596.002" downloadSizeKB="3596.002">
+    <property key="timeStamp" value="1678480386611"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b220f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529615"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg27_core.json" diskSizeKB="3881.918" downloadSizeKB="3881.918">
+    <property key="timeStamp" value="1678480387094"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b510f3200il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529666"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG14P732.json" diskSizeKB="2896.571" downloadSizeKB="2896.571">
+    <property key="timeStamp" value="1498239045359"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a021f1024im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720666"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG14P733.json" diskSizeKB="2896.571" downloadSizeKB="2896.571">
+    <property key="timeStamp" value="1498239026373"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a010f1024im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720358"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg29b140f1024im40.json" diskSizeKB="1.918" downloadSizeKB="1.918">
+    <property key="timeStamp" value="1740631179033"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21b020f768im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069643393"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b210f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529597"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b510f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529674"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b520f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529693"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG12P132.json" diskSizeKB="3617.235" downloadSizeKB="3617.235">
+    <property key="timeStamp" value="1497555283987"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a010f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720369"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg22c224f512im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256151997"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a111f1536gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809646"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg27c140f768im40.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1675276698932"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg29_core.json" diskSizeKB="3985.998" downloadSizeKB="3985.998">
+    <property key="timeStamp" value="1740631179075"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b520f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529701"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21b010f512im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069662204"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21a010f768im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069659275"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG24_core.json" diskSizeKB="4906.453" downloadSizeKB="4906.453">
+    <property key="timeStamp" value="1678480386419"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG12P432.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555282033"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG13.json" diskSizeKB="3254.449" downloadSizeKB="3254.449">
+    <property key="timeStamp" value="1486814831157"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG24AxxxF1536GMxx.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1617823952135"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b020f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809780"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a010f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720381"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a610f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809717"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a410f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720714"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a010f1536gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809516"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b120f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720871"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG.json" diskSizeKB="1875.691" downloadSizeKB="1875.691">
+    <property key="timeStamp" value="1486814831180"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a420f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720727"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b110f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720857"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21a020f512im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069656040"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21_core.json" diskSizeKB="3421.349" downloadSizeKB="3421.349">
+    <property key="timeStamp" value="1678480386491"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b020f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720786"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG14P632.json" diskSizeKB="2896.571" downloadSizeKB="2896.571">
+    <property key="timeStamp" value="1498239038710"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21b010f768im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069656099"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG12P232.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555278673"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a120f1536gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809659"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg22a224f512im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480386627"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21a020f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069662187"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG13_core.json" diskSizeKB="1.247" downloadSizeKB="1.247">
+    <property key="timeStamp" value="1486814831173"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg27c230f768im32.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1678480387123"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a110f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720680"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b020f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809799"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21b020f512im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069665686"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b010f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720762"/>
+  </assets>
+  <assets path="/efr32/debug/mg/rm21z000f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069665671"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b210f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480387027"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg27c140f768im32.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1675276698918"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b210f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1634147446818"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a020f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720528"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21a020f768im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069646214"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26_core.json" diskSizeKB="7022.164" downloadSizeKB="7022.164">
+    <property key="timeStamp" value="1710380529579"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg27c230f768im40.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1678480387132"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b010f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809757"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b610f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529710"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1492565907582"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b410f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529641"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a020f1536gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809570"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b220f2048im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529606"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a110f1536gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720692"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a020f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720517"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a121f1536gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809670"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg22e224f512im32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1710380529183"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a020f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720445"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MG12P433.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555278690"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b220f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1634147446825"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b420f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529649"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b210f2048im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529588"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a020f1024im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720426"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b010f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720774"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21a010f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069659259"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b611f2048im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1758738497686"/>
+  </assets>
+  <assets path="/efr32/debug/mg/EFR32MR21A020F512IM32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1631222533676"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b310f3200il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529623"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a010f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720392"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a010f768im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480386742"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a620f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809729"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a420f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406720743"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b110f1536gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1660747664113"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24b310f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1634147446833"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg24a010f1536gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1671068809502"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg26b410f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1710380529632"/>
+  </assets>
+  <assets path="/efr32/debug/mg/efr32mg21a010f512im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069659292"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg29b140f1024im40.json" diskSizeKB="1.918" downloadSizeKB="1.918">
+    <property key="timeStamp" value="1730386009017"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG14P732.json" diskSizeKB="2896.571" downloadSizeKB="2896.571">
+    <property key="timeStamp" value="1498239056639"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24_core.json" diskSizeKB="4898.781" downloadSizeKB="4898.781">
+    <property key="timeStamp" value="1678480383587"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG1B132F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353155"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24l210f768im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1741039542415"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b510f3200im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009093"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22_core.json" diskSizeKB="3596.002" downloadSizeKB="3596.002">
+    <property key="timeStamp" value="1678480383407"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG1B232F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353152"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a610f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383693"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c224f512im32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256150921"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c222f352gm32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256150811"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg27c140f768im40.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1675276695876"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b210f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406716992"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b210f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383771"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a010f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383646"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21a020f768im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069620979"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21b020f768im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069631229"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c224f512gn32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256151234"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG1B232F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353151"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b610f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383827"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21b010f512im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069623854"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg27c230f768im40.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1675276695899"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG14P532.json" diskSizeKB="2896.571" downloadSizeKB="2896.571">
+    <property key="timeStamp" value="1498239045368"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b310f1024im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009162"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c222f352gn32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256150671"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b010f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383719"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c112f352gm32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256150568"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a020f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406716956"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21a020f512im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069617452"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG1B132F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353152"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b010f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383731"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21b020f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069617413"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG12P232.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555287085"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24l010f768im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1741039542523"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22e224f512im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1730386009202"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b310f2048im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009203"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg29b221f1024cj45.json" diskSizeKB="1.918" downloadSizeKB="1.918">
+    <property key="timeStamp" value="1730386009203"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21b010f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069634493"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b110f1536im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406716968"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21a010f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069631248"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b320f2048im48.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009205"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21a010f768im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069623936"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg29b220f1024cj45.json" diskSizeKB="1.918" downloadSizeKB="1.918">
+    <property key="timeStamp" value="1730386009206"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg29_core.json" diskSizeKB="3985.998" downloadSizeKB="3985.998">
+    <property key="timeStamp" value="1740631179619"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c224f512im40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256150776"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26_core.json" diskSizeKB="7022.168" downloadSizeKB="7022.168">
+    <property key="timeStamp" value="1730386009219"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21_core.json" diskSizeKB="3421.349" downloadSizeKB="3421.349">
+    <property key="timeStamp" value="1678480383239"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21a010f512im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069610350"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG12P433.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555290180"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c222f352gm40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256150656"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b510f3200im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009288"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG1V132F256_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353154"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg29b230f1024cm40.json" diskSizeKB="1.918" downloadSizeKB="1.918">
+    <property key="timeStamp" value="1730386009289"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a620f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383705"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b320f2048im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009290"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a010f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383630"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b310f2048im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009292"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22l122f352gm32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1741039542700"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a020f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383677"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c112f352gm40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1678480383434"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg27_core.json" diskSizeKB="3881.918" downloadSizeKB="3881.918">
+    <property key="timeStamp" value="1678480383880"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21b010f768im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069617434"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22e224f512im32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1730386009331"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b510f3200il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009332"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b220f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406717005"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG13.json" diskSizeKB="3254.449" downloadSizeKB="3254.449">
+    <property key="timeStamp" value="1486814831048"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG14P632.json" diskSizeKB="2896.571" downloadSizeKB="2896.571">
+    <property key="timeStamp" value="1498239061341"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a020f1024im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406716942"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21b020f512im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069634466"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b310f2048il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009392"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG1P_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353147"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg27c230f768im32.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1675276695887"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b410f1536ij42.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383793"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a010f1024gj42.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383600"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG.json" diskSizeKB="1875.691" downloadSizeKB="1875.691">
+    <property key="timeStamp" value="1486814831039"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b020f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383743"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c224f512gm32.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256151124"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a010f1024im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406716910"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG14P733.json" diskSizeKB="2896.571" downloadSizeKB="2896.571">
+    <property key="timeStamp" value="1498239056646"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG12P432.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555290186"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG12P132.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555289049"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg27c140f768im32.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1675276695865"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b320f1024im68.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009511"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG12P332.json" diskSizeKB="3609.843" downloadSizeKB="3609.843">
+    <property key="timeStamp" value="1497555290173"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg21a020f1024im32.json" diskSizeKB="2.124" downloadSizeKB="2.124">
+    <property key="timeStamp" value="1545069623872"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG13_core.json" diskSizeKB="1.247" downloadSizeKB="1.247">
+    <property key="timeStamp" value="1486814831040"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24b620f1536im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480383843"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg27c320f768gj39.json" diskSizeKB="3.476" downloadSizeKB="3.476">
+    <property key="timeStamp" value="1675276695911"/>
+  </assets>
+  <assets path="/efr32/debug/bg/EFR32BG1V132F128_core.json" diskSizeKB="1.246" downloadSizeKB="1.246">
+    <property key="timeStamp" value="1468886353153"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg24a010f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1643406716926"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg22c224f512gm40.json" diskSizeKB="2.673" downloadSizeKB="2.673">
+    <property key="timeStamp" value="1573256151249"/>
+  </assets>
+  <assets path="/efr32/debug/bg/efr32bg26b310f1024il136.json" diskSizeKB="1.3" downloadSizeKB="1.3">
+    <property key="timeStamp" value="1730386009548"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23b010f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388156"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23b020f512im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388192"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23xxxxf512xxxx.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1623857724777"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23a020f512gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388134"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28b320f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882987"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28b310f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882947"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28_core.json" diskSizeKB="6104.69" downloadSizeKB="6104.69">
+    <property key="timeStamp" value="1678480388246"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23b010f512im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388165"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg13p531f512gm32.json" diskSizeKB="3251.007" downloadSizeKB="3251.007">
+    <property key="timeStamp" value="1617823953716"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28a112f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882867"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28a120f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882906"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28b310f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882958"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg14p731f256gm32.json" diskSizeKB="2226.776" downloadSizeKB="2226.776">
+    <property key="timeStamp" value="1617823953892"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28a122f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882937"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28b320f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206883000"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg13p231f512gm64.json" diskSizeKB="3251.007" downloadSizeKB="3251.007">
+    <property key="timeStamp" value="1617823953671"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23a010f512gm40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388117"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28b312f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882977"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23a020f512gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388145"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28a112f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882877"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28a122f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882927"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg13p531f512gm48.json" diskSizeKB="3251.007" downloadSizeKB="3251.007">
+    <property key="timeStamp" value="1617823953764"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23b011f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388174"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23b020f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388183"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23_core.json" diskSizeKB="5288.387" downloadSizeKB="5288.387">
+    <property key="timeStamp" value="1678480388107"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg13s231f512gm32.json" diskSizeKB="3251.007" downloadSizeKB="3251.007">
+    <property key="timeStamp" value="1617823953817"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg13l231f512gm32.json" diskSizeKB="3251.007" downloadSizeKB="3251.007">
+    <property key="timeStamp" value="1617823953594"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg14p231f256gm32.json" diskSizeKB="2226.776" downloadSizeKB="2226.776">
+    <property key="timeStamp" value="1617823953857"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg13l231f512im32.json" diskSizeKB="3251.007" downloadSizeKB="3251.007">
+    <property key="timeStamp" value="1617823953634"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23b021f512im40.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388202"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28a110f1024gm68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882858"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28b312f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882967"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28b322f1024im68.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206883028"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28b322f1024im48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206883016"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28a110f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882848"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg28a120f1024gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1666206882890"/>
+  </assets>
+  <assets path="/efr32/debug/zg/efr32zg23a010f512gm48.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1603470948734"/>
+  </assets>
+  <assets path="/efr32/debug/zgm/zgm230sa27hgn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388532"/>
+  </assets>
+  <assets path="/efr32/debug/zgm/zgm230sb27hgn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1631222537072"/>
+  </assets>
+  <assets path="/efr32/debug/zgm/ZGM230SA27HxN.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1631222537185"/>
+  </assets>
+  <assets path="/efr32/debug/zgm/zgm230sa27hnn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388544"/>
+  </assets>
+  <assets path="/efr32/debug/zgm/zgm230sb27hnn.json" diskSizeKB="1.111" downloadSizeKB="1.111">
+    <property key="timeStamp" value="1678480388566"/>
+  </assets>
+  <assets path="/efr32/debug/zgm/zgm23_core.json" diskSizeKB="5288.379" downloadSizeKB="5288.379">
+    <property key="timeStamp" value="1678480388597"/>
+  </assets>
+  <assets path="/efr32/debug/zgm/ZGM130S.json" diskSizeKB="3172.103" downloadSizeKB="3172.103">
+    <property key="timeStamp" value="1537045438266"/>
+  </assets>
+  <assets version="0.5" path="/efr32/reference/efr32xg13-reference-manual.pdf" diskSizeKB="11114.94" downloadSizeKB="11114.94" category="Reference Manuals" label="EFR32xG13 Wireless Gecko Reference Manual">
+    <property key="timeStamp" value="1497555382551"/>
+  </assets>
+  <assets version="1.0" path="/efr32/reference/efr32xg14-reference-manual.pdf" diskSizeKB="8828.38" downloadSizeKB="8828.38" category="Reference Manuals" label="EFR32xG14 Wireless Gecko Reference Manual">
+    <property key="timeStamp" value="1520521126914"/>
+  </assets>
+  <assets version="0.6" path="/efr32/reference/efr32_reference_manual.pdf" diskSizeKB="6113.738" downloadSizeKB="6113.738" category="Reference Manuals" label="EFR32xG1 Reference Manual">
+    <property key="timeStamp" value="1477061159808"/>
+  </assets>
+  <assets version="1.0" path="/efr32/reference/efr32xg12_reference_manual.pdf" diskSizeKB="14973.0" downloadSizeKB="14973.0" category="Reference Manuals" label="EFR32XG12 Reference Manual">
+    <property key="timeStamp" value="1489171456391"/>
+  </assets>
+  <assets version="1.2" path="/efr32/datasheet/efr32mg14-datasheet.pdf" diskSizeKB="2503.526" downloadSizeKB="2503.526" category="Data Sheets" label="EFR32MG14 Data Sheet">
+    <property key="timeStamp" value="1545069267835"/>
+  </assets>
+  <assets version="1.2" path="/efr32/datasheet/efr32fg14-datasheet.pdf" diskSizeKB="2522.382" downloadSizeKB="2522.382" category="Data Sheets" label="EFR32FG14 Flex Gecko Proprietary Protocol SoC Family Data Sheet">
+    <property key="timeStamp" value="1545069256041"/>
+  </assets>
+  <assets version="1.1" path="/efr32/datasheet/efr32bg13-datasheet.pdf" diskSizeKB="2681.939" downloadSizeKB="2681.939" category="Data Sheets" label="EFR32BG13 Data Sheet: Blue Gecko BluetoothÂ® Low Energy SoC Family">
+    <property key="timeStamp" value="1522185196905"/>
+  </assets>
+  <assets version="1.1" path="/efr32/datasheet/mgm13p-datasheet.pdf" diskSizeKB="3320.105" downloadSizeKB="3320.105" category="Data Sheets" label="MGM13P Mighty Gecko Module Data Sheet">
+    <property key="timeStamp" value="1545069295186"/>
+  </assets>
+  <assets version="1.1" path="/efr32/datasheet/bgm11s-datasheet.pdf" diskSizeKB="2414.939" downloadSizeKB="2414.939" category="Data Sheets" label="BGM11S Data Sheet: Blue Gecko Bluetooth® SiP Module">
+    <property key="timeStamp" value="1537045348308"/>
+  </assets>
+  <assets version="1.0" path="/efr32/datasheet/bgm113-datasheet.pdf" diskSizeKB="1881.518" downloadSizeKB="1881.518" category="Data Sheets" label="BGM113 Data Sheet: Blue Gecko Bluetooth® Module">
+    <property key="timeStamp" value="1537045357143"/>
+  </assets>
+  <assets version="1.3" path="/efr32/datasheet/efr32bg1_datasheet.pdf" diskSizeKB="2439.924" downloadSizeKB="2439.924" category="Data Sheets" label="EFR32BG1 Data Sheet: Blue Gecko BluetoothÂ® Low Energy SoC Family">
+    <property key="timeStamp" value="1530558242654"/>
+  </assets>
+  <assets version="1.2" path="/efr32/datasheet/efr32bg14-datasheet.pdf" diskSizeKB="2494.18" downloadSizeKB="2494.18" category="Data Sheets" label="EFR32BG14 Data Sheet">
+    <property key="timeStamp" value="1545069293322"/>
+  </assets>
+  <assets version="1.3" path="/efr32/datasheet/efr32fg1_datasheet.pdf" diskSizeKB="2464.423" downloadSizeKB="2464.423" category="Data Sheets" label="EFR32FG1 Data Sheet: Flex Gecko Proprietary Protocol SoC Family">
+    <property key="timeStamp" value="1530558252994"/>
+  </assets>
+  <assets version="1.0" path="/efr32/datasheet/bgm13s-datasheet.pdf" diskSizeKB="3764.572" downloadSizeKB="3764.572" category="Data Sheets" label="BGM13S Blue Gecko Bluetooth SiP Module Data Sheet">
+    <property key="timeStamp" value="1545069293298"/>
+  </assets>
+  <assets version="1.2" path="/efr32/datasheet/bgm111e-datasheet.pdf" diskSizeKB="1758.828" downloadSizeKB="1758.828" category="Data Sheets" label="BGM111E Errata: Blue Gecko Bluetooth® Module">
+    <property key="timeStamp" value="1537045342255"/>
+  </assets>
+  <assets version="1.1" path="/efr32/datasheet/efr32fg13-datasheet.pdf" diskSizeKB="2700.397" downloadSizeKB="2700.397" category="Data Sheets" label="EFR32FG13 Data Sheet: Flex Gecko Proprietary Protocol SoC Family">
+    <property key="timeStamp" value="1530558242681"/>
+  </assets>
+  <assets version="1.3" path="/efr32/datasheet/bgm12x-datasheet.pdf" diskSizeKB="2428.553" downloadSizeKB="2428.553" category="Data Sheets" label="BGM121/123 Data Sheet: Blue Gecko Bluetooth® SiP Module">
+    <property key="timeStamp" value="1537045342286"/>
+  </assets>
+  <assets version="1.0" path="/efr32/datasheet/mgm12p-datasheet.pdf" diskSizeKB="3268.369" downloadSizeKB="3268.369" category="Data Sheets" label="MGM12P Data Sheet: Mighty Gecko Module">
+    <property key="timeStamp" value="1537045326485"/>
+  </assets>
+  <assets version="1.0" path="/efr32/datasheet/mgm13s-datasheet.pdf" diskSizeKB="1135.377" downloadSizeKB="1135.377" category="Data Sheets" label="MGM13S Data Sheet: Mighty Gecko Module">
+    <property key="timeStamp" value="1537045317520"/>
+  </assets>
+  <assets version="1.3" path="/efr32/datasheet/efr32mg1_datasheet.pdf" diskSizeKB="2413.542" downloadSizeKB="2413.542" category="Data Sheets" label="EFR32MG1 Data Sheet: Mighty Gecko Multi-Protocol SoC Family">
+    <property key="timeStamp" value="1530558214479"/>
+  </assets>
+  <assets version="1.1" path="/efr32/datasheet/EFR32BG1-csp-datasheet.pdf" diskSizeKB="2017.552" downloadSizeKB="2017.552" category="Data Sheets" label="EFR32BG1 Data Sheet: Blue Gecko BluetoothÂ® Smart SoC CSP Family">
+    <property key="timeStamp" value="1497053624363"/>
+  </assets>
+  <assets version="1.3" path="/efr32/datasheet/efr32mg12_datasheet.pdf" diskSizeKB="3052.119" downloadSizeKB="3052.119" category="Data Sheets" label="EFR32MG12 Data Sheet: Mighty Gecko Multi-Protocol Wireless SoC Family">
+    <property key="timeStamp" value="1530558253026"/>
+  </assets>
+  <assets version="1.1" path="/efr32/datasheet/efr32mg13-datasheet.pdf" diskSizeKB="2655.847" downloadSizeKB="2655.847" category="Data Sheets" label="EFR32MG13 Data Sheet: Mighty Gecko Multi-Protocol Wireless SoC Family">
+    <property key="timeStamp" value="1522185171837"/>
+  </assets>
+  <assets version="1.3" path="/efr32/datasheet/efr32fg12_datasheet.pdf" diskSizeKB="3054.262" downloadSizeKB="3054.262" category="Data Sheets" label="EFR32FG12 Data Sheet: Flex Gecko Proprietary Protocol SoC Family">
+    <property key="timeStamp" value="1530558223189"/>
+  </assets>
+  <assets version="1.3" path="/efr32/datasheet/efr32bg12_datasheet.pdf" diskSizeKB="3004.959" downloadSizeKB="3004.959" category="Data Sheets" label="EFR32BG12 Data Sheet: Blue Gecko Bluetooth Â®Low Energy SoC Family">
+    <property key="timeStamp" value="1530558223161"/>
+  </assets>
+  <assets version="1.0" path="/efr32/datasheet/mgm111-datasheet.pdf" diskSizeKB="3039.216" downloadSizeKB="3039.216" category="Data Sheets" label="MGM111 Data Sheet: Mighty Gecko Module">
+    <property key="timeStamp" value="1537045357200"/>
+  </assets>
+  <assets version="1.0" path="/efr32/datasheet/EFR32MG1_SF_datasheet.pdf" diskSizeKB="1922.737" downloadSizeKB="1922.737" category="Data Sheets" label="EFR32MG1 Data Sheet: Mighty Gecko SoC with Integrated Serial Flash">
+    <property key="timeStamp" value="1474901438354"/>
+  </assets>
+  <assets version="1.1" path="/efr32/datasheet/bgm13p-datasheet.pdf" diskSizeKB="3242.388" downloadSizeKB="3242.388" category="Data Sheets" label="BGM13P Blue Gecko Bluetooth Module Data Sheet">
+    <property key="timeStamp" value="1545069256073"/>
+  </assets>
+  <assets version="1.4" path="/efr32/datasheet/bgm111-datasheet.pdf" diskSizeKB="4075.448" downloadSizeKB="4075.448" category="Data Sheets" label="BGM111 Data Sheet: Blue Gecko Bluetooth® Module">
+    <property key="timeStamp" value="1537045351886"/>
+  </assets>
+  <assets version="1.8" path="/efr32/userGuides/ug118-bluegecko-bt-profile-toolkit.pdf" diskSizeKB="537.129" downloadSizeKB="537.129" category="User's Guides" label="UG118: Blue Gecko BluetoothÂ® Profile Toolkit Developer's Guide">
+    <property key="timeStamp" value="1520520530387"/>
+  </assets>
+</assets>

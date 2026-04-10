@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="com.silabs.ss.support.hwtools.feature"
+  label="Debug Adapter Support for J-Link OB"
+  description="Configuration support for Exx32/EFM8 On-board J-Link debug adapters"
+  changelog="changelog"
+  icon="icon_hwtools_support.png"
+  partCompatibility="mcu.arm.e.*32.* mcu.8051.efm8.*"
+  types="tool"
+  version="4.3.9"/>

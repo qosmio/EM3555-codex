@@ -1,0 +1,331 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:52:56
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\interpan\interpan-soc.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\interpan-soc.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\interpan\interpan-soc.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"interpan-soc.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\interpan\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\interpan-soc.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\interpan-soc.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\interpan-soc.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\interpan-soc.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\app\framework\plugin\interpan\interpan-soc.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief SOC-specific code related to the reception and processing of interpan
+      4           * messages.
+      5           *******************************************************************************
+      6           * # License
+      7           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      8           *******************************************************************************
+      9           *
+     10           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     11           * software is governed by the terms of Silicon Labs Master Software License
+     12           * Agreement (MSLA) available at
+     13           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     14           * software is distributed to you in Source Code format and is governed by the
+     15           * sections of the MSLA applicable to Source Code.
+     16           *
+     17           ******************************************************************************/
+     18          
+     19          #include "app/framework/include/af.h"
+     20          #include "interpan.h"
+     21          #include "app/framework/util/af-main.h"
+     22          
+
+   \                                 In section .rodata, align 4
+     23          static const EmberMacFilterMatchData filters[] = {
+   \                     filters:
+   \        0x0   0x0005 0x0015      DC16 5, 21, 37, 9, 25, 41, 6, 22, 38, 10, 26, 42, 32'768
+   \               0x0025 0x000
+   \              9 0x0019 0x00
+   \              29 0x0006 0x0
+   \              016 0x0026 0x
+   \              000A 0x001A 0
+   \              x002A 0x8000
+   \       0x1A                      DS8 2
+     24            EMBER_AF_PLUGIN_INTERPAN_FILTER_LIST
+     25              (EMBER_MAC_FILTER_MATCH_END), // terminator
+     26          };
+     27          
+     28          //------------------------------------------------------------------------------
+     29          
+
+   \                                 In section .text, align 2, keep-with-next
+     30          void emberMacFilterMatchMessageHandler(const EmberMacFilterMatchStruct *macFilterMatchStruct)
+     31          {
+   \                     emberMacFilterMatchMessageHandler: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0xB0A0             SUB      SP,SP,#+128
+     32            uint8_t data[EMBER_AF_MAXIMUM_INTERPAN_LENGTH];
+     33            uint8_t length;
+     34          
+     35            length = emAfCopyMessageIntoRamBuffer(macFilterMatchStruct->message,
+     36                                                  data,
+     37                                                  EMBER_AF_MAXIMUM_INTERPAN_LENGTH);
+   \        0x4   0x227D             MOVS     R2,#+125
+   \        0x6   0x4669             MOV      R1,SP
+   \        0x8   0x8840             LDRH     R0,[R0, #+2]
+   \        0xA   0x.... 0x....      BL       emAfCopyMessageIntoRamBuffer
+     38            if (length == 0) {
+   \        0xE   0x0001             MOVS     R1,R0
+   \       0x10   0xD002             BEQ.N    ??emberMacFilterMatchMessageHandler_0
+     39              return;
+     40            }
+     41          
+     42            emAfPluginInterpanProcessMessage(length,
+     43                                             data);
+   \       0x12   0x4669             MOV      R1,SP
+   \       0x14   0x.... 0x....      BL       emAfPluginInterpanProcessMessage
+     44          }
+   \                     ??emberMacFilterMatchMessageHandler_0: (+1)
+   \       0x18   0xB021             ADD      SP,SP,#+132
+   \       0x1A   0xBD00             POP      {PC}
+     45          
+
+   \                                 In section .text, align 2, keep-with-next
+     46          EmberStatus emAfPluginInterpanSendRawMessage(uint8_t length, uint8_t* message)
+     47          {
+   \                     emAfPluginInterpanSendRawMessage: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x460B             MOV      R3,R1
+     48            EmberStatus status;
+     49            EmberMessageBuffer buffer = emberFillLinkedBuffers(message, length);
+   \        0x4   0x2200             MOVS     R2,#+0
+   \        0x6   0x4601             MOV      R1,R0
+   \        0x8   0x4618             MOV      R0,R3
+   \        0xA   0x.... 0x....      BL       emReallyFillBuffer
+     50            if (buffer == EMBER_NULL_MESSAGE_BUFFER) {
+   \        0xE   0x0001             MOVS     R1,R0
+   \       0x10   0xD101             BNE.N    ??emAfPluginInterpanSendRawMessage_0
+     51              return EMBER_NO_BUFFERS;
+   \       0x12   0x2018             MOVS     R0,#+24
+   \       0x14   0xBD02             POP      {R1,PC}
+     52            }
+     53          
+     54            status = emberSendRawMessage(buffer);
+     55            emberReleaseMessageBuffer(buffer);
+     56            return status;
+   \                     ??emAfPluginInterpanSendRawMessage_0: (+1)
+   \       0x16   0x2201             MOVS     R2,#+1
+   \       0x18   0x4611             MOV      R1,R2
+   \       0x1A   0xE8BD 0x4008      POP      {R3,LR}
+   \       0x1E   0x.... 0x....      B.W      emberSendRawMessageExtended
+     57          }
+     58          
+
+   \                                 In section .text, align 2, keep-with-next
+     59          void emberAfPluginInterpanInitCallback(void)
+     60          {
+   \                     emberAfPluginInterpanInitCallback: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     61            interpanPluginInit();
+   \        0x2   0x.... 0x....      BL       interpanPluginInit
+     62          
+     63            interpanPluginSetMacMatchFilterEnable(true);
+   \        0x6   0x2001             MOVS     R0,#+1
+   \        0x8   0xE8BD 0x4002      POP      {R1,LR}
+   \        0xC                      REQUIRE interpanPluginSetMacMatchFilterEnable
+   \        0xC                      ; // Fall through to label interpanPluginSetMacMatchFilterEnable
+     64          }
+     65          
+
+   \                                 In section .text, align 2, keep-with-next
+     66          void interpanPluginSetMacMatchFilterEnable(bool enable)
+     67          {
+     68            const EmberMacFilterMatchData* matchData = enable ? filters : NULL;
+   \                     interpanPluginSetMacMatchFilterEnable: (+1)
+   \        0x0   0x2800             CMP      R0,#+0
+   \        0x2   0xD001             BEQ.N    ??interpanPluginSetMacMatchFilterEnable_0
+   \        0x4   0x....             LDR.N    R0,??DataTable1
+   \        0x6   0xE000             B.N      ??interpanPluginSetMacMatchFilterEnable_1
+   \                     ??interpanPluginSetMacMatchFilterEnable_0: (+1)
+   \        0x8   0x2000             MOVS     R0,#+0
+     69          
+     70            EmberStatus status = emberSetMacFilterMatchList(matchData);
+   \                     ??interpanPluginSetMacMatchFilterEnable_1: (+1)
+   \        0xA   0x.... 0x....      B.W      emberSetMacFilterMatchList
+     71            if (status != EMBER_SUCCESS) {
+     72              emberAfAppPrintln("ERR: failed %s inter-PAN MAC filter (0x%x)",
+     73                                enable ? "enabling" : "disabling",
+     74                                status);
+     75            }
+     76          }
+     77          
+     78          // Because the stack only handles message buffers we must convert
+     79          // the message into buffers before passing it to the stack.  Then
+     80          // we must copy the message back into the flat array afterwards.
+     81          
+     82          // NOTE:  It is expected that when encrypting, the message buffer
+     83          // pointed to by *apsFrame is big enough to hold additional
+     84          // space for the Auxiliary security header and the MIC.
+     85          
+
+   \                                 In section .text, align 2, keep-with-next
+     86          EmberStatus emAfInterpanApsCryptMessage(bool encrypt,
+     87                                                  uint8_t* apsFrame,
+     88                                                  uint8_t* messageLength,
+     89                                                  uint8_t apsHeaderLength,
+     90                                                  EmberEUI64 remoteEui64)
+     91          {
+     92            EmberStatus status = EMBER_LIBRARY_NOT_PRESENT;
+     93          
+     94          #if defined(EMBER_AF_PLUGIN_INTERPAN_ALLOW_APS_ENCRYPTED_MESSAGES)
+     95          
+     96            EmberMessageBuffer buffer = emberFillLinkedBuffers(apsFrame,
+     97                                                               *messageLength);
+     98            if (buffer == EMBER_NULL_MESSAGE_BUFFER) {
+     99              return EMBER_NO_BUFFERS;
+    100            }
+    101          
+    102            status = emberApsCryptMessage(encrypt,
+    103                                          &buffer,
+    104                                          apsHeaderLength,
+    105                                          remoteEui64);
+    106            if (status == EMBER_SUCCESS) {
+    107              // It is expected that when encrypting, the message is big enough to hold
+    108              // the additional data (AUX header and MIC)
+    109              // Decrypting will shrink the message, removing the AUX header and MIC.
+    110              emberCopyFromLinkedBuffers(buffer,
+    111                                         0,
+    112                                         apsFrame,
+    113                                         emberMessageBufferLength(buffer));
+    114              *messageLength = emberMessageBufferLength(buffer);
+    115            }
+    116            emberReleaseMessageBuffer(buffer);
+    117          
+    118          #endif
+    119          
+    120            return status;
+   \                     emAfInterpanApsCryptMessage: (+1)
+   \        0x0   0x20B5             MOVS     R0,#+181
+   \        0x2   0x4770             BX       LR
+    121          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0x....'....        DC32     filters
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   emAfInterpanApsCryptMessage
+       8   emAfPluginInterpanSendRawMessage
+         8   -> emReallyFillBuffer
+         0   -> emberSendRawMessageExtended
+       8   emberAfPluginInterpanInitCallback
+         8   -> interpanPluginInit
+         0   -> interpanPluginSetMacMatchFilterEnable
+     136   emberMacFilterMatchMessageHandler
+       136   -> emAfCopyMessageIntoRamBuffer
+       136   -> emAfPluginInterpanProcessMessage
+       0   interpanPluginSetMacMatchFilterEnable
+         0   -> emberSetMacFilterMatchList
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  emAfInterpanApsCryptMessage
+      34  emAfPluginInterpanSendRawMessage
+      12  emberAfPluginInterpanInitCallback
+      28  emberMacFilterMatchMessageHandler
+      28  filters
+      14  interpanPluginSetMacMatchFilterEnable
+
+ 
+ 28 bytes in section .rodata
+ 96 bytes in section .text
+ 
+ 96 bytes of CODE  memory
+ 28 bytes of CONST memory
+
+Errors: none
+Warnings: none

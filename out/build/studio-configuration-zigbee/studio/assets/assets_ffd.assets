@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="assets_ffd">
+  <assets path="/ffd/demo/CPT007B.zip" diskSizeKB="19.708" downloadSizeKB="1.978" directory="true"/>
+  <assets path="/ffd/demo/CPT112S.zip" diskSizeKB="23.989" downloadSizeKB="2.562" directory="true"/>
+  <assets version="0.2" path="/ffd/errata/CPT007B_Errata.pdf" diskSizeKB="509.272" downloadSizeKB="509.272"/>
+  <assets version="CP2102ERB102104" path="/ffd/errata/CP2102_ErrataRevB.pdf" diskSizeKB="292.602" downloadSizeKB="292.602"/>
+  <assets version="0.2" path="/ffd/errata/CP2103-Errata.pdf" diskSizeKB="3366.275" downloadSizeKB="3366.275"/>
+  <assets version="0.2" path="/ffd/errata/CP2105_Errata.pdf" diskSizeKB="412.614" downloadSizeKB="412.614"/>
+  <assets version="04.17.15" path="/ffd/errata/CP2112Errata.pdf" diskSizeKB="1369.86" downloadSizeKB="1369.86"/>
+  <assets version="08.22.12" path="/ffd/errata/CP2104_Errata.pdf" diskSizeKB="1372.415" downloadSizeKB="1372.415"/>
+  <assets version="08.22.12" path="/ffd/errata/CP2110Errata.pdf" diskSizeKB="1366.518" downloadSizeKB="1366.518"/>
+  <assets version="013111" path="/ffd/errata/USBTimeoutErrata.pdf" diskSizeKB="97.493" downloadSizeKB="97.493"/>
+  <assets version="0.1" path="/ffd/errata/CP2114_Errata.pdf" diskSizeKB="235.147" downloadSizeKB="235.147"/>
+  <assets version="0.2" path="/ffd/errata/CPT112S_Errata.pdf" diskSizeKB="508.43" downloadSizeKB="508.43"/>
+  <assets path="/ffd/appnote/AN335.zip" diskSizeKB="5655.839" downloadSizeKB="5561.018" directory="true"/>
+  <assets version="0.1" path="/ffd/appnote/AN957/AN957.pdf" diskSizeKB="2121.061" downloadSizeKB="2121.061"/>
+  <assets version="0.1" path="/ffd/appnote/AN1157/AN1157.pdf" diskSizeKB="1747.196" downloadSizeKB="1747.196"/>
+  <assets version="0.1" path="/ffd/appnote/AN949/AN949.pdf" diskSizeKB="2307.403" downloadSizeKB="2307.403"/>
+  <assets version="1.1" path="/ffd/appnote/AN978/AN978.pdf" diskSizeKB="787.517" downloadSizeKB="787.517"/>
+  <assets version="0.1" path="/ffd/appnote/AN571/AN571.pdf" diskSizeKB="1572.188" downloadSizeKB="1572.188"/>
+  <assets version="0.3" path="/ffd/appnote/AN447/AN447.pdf" diskSizeKB="1736.821" downloadSizeKB="1736.821"/>
+  <assets version="0.2" path="/ffd/appnote/AN495/AN495.pdf" diskSizeKB="1543.674" downloadSizeKB="1543.674"/>
+  <assets version="0.5" path="/ffd/appnote/AN434/AN434.pdf" diskSizeKB="441.681" downloadSizeKB="441.681"/>
+  <assets version="0.1" path="/ffd/appnote/AN807/AN807.pdf" diskSizeKB="2027.505" downloadSizeKB="2027.505"/>
+  <assets version="0.2" path="/ffd/appnote/AN1044/AN1044.pdf" diskSizeKB="700.854" downloadSizeKB="700.854"/>
+  <assets path="/ffd/appnote/AN223.zip" diskSizeKB="2009.915" downloadSizeKB="1958.388" directory="true"/>
+  <assets version="1.1" path="/ffd/appnote/AN976/AN976.pdf" diskSizeKB="645.804" downloadSizeKB="645.804"/>
+  <assets path="/ffd/appnote/AN792.zip" diskSizeKB="2042.906" downloadSizeKB="1743.013" directory="true"/>
+  <assets version="0.2" path="/ffd/appnote/AN1092/AN1092.pdf" diskSizeKB="668.587" downloadSizeKB="668.587"/>
+  <assets path="/ffd/appnote/AN220.zip" diskSizeKB="12347.728" downloadSizeKB="12209.641" directory="true"/>
+  <assets version="0.6" path="/ffd/appnote/AN433/AN433.pdf" diskSizeKB="480.83" downloadSizeKB="480.83"/>
+  <assets version="0.1" path="/ffd/appnote/AN1139/AN1139.pdf" diskSizeKB="644.54" downloadSizeKB="644.54"/>
+  <assets version="0.1" path="/ffd/appnote/AN809/AN809.pdf" diskSizeKB="1697.338" downloadSizeKB="1697.338"/>
+  <assets version="0.2" path="/ffd/appnote/AN496/AN496.pdf" diskSizeKB="1667.366" downloadSizeKB="1667.366"/>
+  <assets path="/ffd/appnote/AN721.zip" diskSizeKB="410381.448" downloadSizeKB="407651.499" directory="true"/>
+  <assets version="2.3" path="/ffd/appnote/AN169/AN169.pdf" diskSizeKB="1658.82" downloadSizeKB="1658.82"/>
+  <assets path="/ffd/appnote/AN197.zip" diskSizeKB="5619.604" downloadSizeKB="2111.926" directory="true"/>
+  <assets path="/ffd/capsense/cpt007b/CPT007B.png" diskSizeKB="85.031" downloadSizeKB="85.031"/>
+  <assets path="/ffd/capsense/cpt007b/cpt007b.cptcfg" diskSizeKB="3.468" downloadSizeKB="3.468"/>
+  <assets path="/ffd/capsense/cpt007b/cpt007b.brdovl" diskSizeKB="1.357" downloadSizeKB="1.357"/>
+  <assets path="/ffd/capsense/cpt212b/cpt212b.cptcfg" diskSizeKB="4.337" downloadSizeKB="4.337"/>
+  <assets path="/ffd/capsense/cpt212b/CPT212B.png" diskSizeKB="137.051" downloadSizeKB="137.051"/>
+  <assets path="/ffd/capsense/cpt212b/cpt212b.brdovl" diskSizeKB="2.01" downloadSizeKB="2.01"/>
+  <assets path="/ffd/capsense/cpt112s/cpt112s.brdovl" diskSizeKB="3.54" downloadSizeKB="3.54"/>
+  <assets path="/ffd/capsense/cpt112s/cpt112s.cptcfg" diskSizeKB="6.009" downloadSizeKB="6.009"/>
+  <assets path="/ffd/capsense/cpt112s/CPT112S.png" diskSizeKB="103.735" downloadSizeKB="103.735"/>
+  <assets path="/ffd/capsense/cpt213b/cpt213b.brdovl" diskSizeKB="2.142" downloadSizeKB="2.142"/>
+  <assets path="/ffd/capsense/cpt213b/CPT213B.png" diskSizeKB="127.208" downloadSizeKB="127.208"/>
+  <assets path="/ffd/capsense/cpt213b/cpt213b.cptcfg" diskSizeKB="4.515" downloadSizeKB="4.515"/>
+  <assets path="/ffd/xpress_configurator.zip" diskSizeKB="33220.359" downloadSizeKB="15820.551" directory="true"/>
+  <assets version="0.2" path="/ffd/kits/cp2102n-ek/UG205-CP2102N-EK-UserGuide.pdf" diskSizeKB="1320.83" downloadSizeKB="1320.83"/>
+  <assets version="0.2" path="/ffd/kits/cp2102n-ek/QSG123-CP2102N-EK-QuickStartGuide.pdf" diskSizeKB="1146.765" downloadSizeKB="1146.765"/>
+  <assets version="0.5" path="/ffd/kits/cp2102-ek/CP2102-EK-UserGuide.pdf" diskSizeKB="1591.915" downloadSizeKB="1591.915"/>
+  <assets version="0.5" path="/ffd/kits/cp2105-ek/CP2105-EK-UserGuide.pdf" diskSizeKB="1661.654" downloadSizeKB="1661.654"/>
+  <assets version="0.3" path="/ffd/kits/cp2114-ek/CP2114-QS-Guide.pdf" diskSizeKB="4203.162" downloadSizeKB="4203.162"/>
+  <assets version="0.2" path="/ffd/kits/cp2114-ek/CP2114-EK-UserGuide.pdf" diskSizeKB="14891.456" downloadSizeKB="14891.456"/>
+  <assets version="0.2" path="/ffd/kits/cp2615-ek/qsg144-cp2615-ek2-quick-start-guide.pdf" diskSizeKB="1468.421" downloadSizeKB="1468.421"/>
+  <assets version="0.2" path="/ffd/kits/cp2615-ek/qsg144-cp2615-ek-quick-start-guide.pdf" diskSizeKB="1468.421" downloadSizeKB="1468.421"/>
+  <assets version="0.4" path="/ffd/kits/cp2615-ek/ug271-cp2615-ek-user-guide.pdf" diskSizeKB="1301.927" downloadSizeKB="1301.927"/>
+  <assets version="0.4" path="/ffd/kits/cp2615-ek/ug271-cp2615-ek2-user-guide.pdf" diskSizeKB="1301.927" downloadSizeKB="1301.927"/>
+  <assets version="0.2" path="/ffd/kits/cp2108-ek/CP2108-EK-UserGuide.pdf" diskSizeKB="1662.539" downloadSizeKB="1662.539"/>
+  <assets version="0.1" path="/ffd/kits/cp2108-ek/CP2108-EK-QS-Guide.pdf" diskSizeKB="468.752" downloadSizeKB="468.752"/>
+  <assets version="0.3" path="/ffd/kits/cp2110-ek/CP2110-EK-UserGuide.pdf" diskSizeKB="1645.395" downloadSizeKB="1645.395"/>
+  <assets version="0.3" path="/ffd/kits/cp2110-ek/CP2110-EK-QS-Guide.pdf" diskSizeKB="441.639" downloadSizeKB="441.639"/>
+  <assets version="0.2" path="/ffd/kits/CP210x-EK-QS-Guide.pdf" diskSizeKB="416.446" downloadSizeKB="416.446"/>
+  <assets version="0.2" path="/ffd/kits/cp2130-ek/CP2130-EK-QS-Guide.pdf" diskSizeKB="471.926" downloadSizeKB="471.926"/>
+  <assets version="0.2" path="/ffd/kits/cp2130-ek/CP2130-EK-UserGuide.pdf" diskSizeKB="3086.87" downloadSizeKB="3086.87"/>
+  <assets version="0.7" path="/ffd/kits/cp2104-ek/CP2104-EK-UserGuide.pdf" diskSizeKB="1605.164" downloadSizeKB="1605.164"/>
+  <assets version="0.9" path="/ffd/kits/cp2101-ek/CP2101-EK-UserGuide.pdf" diskSizeKB="1588.005" downloadSizeKB="1588.005"/>
+  <assets version="0.4" path="/ffd/kits/cp2103-ek/CP2103-EK-UserGuide.pdf" diskSizeKB="1592.388" downloadSizeKB="1592.388"/>
+  <assets version="0.1" path="/ffd/kits/cp2102n-miniek/CP2102N-MINIEK-QuickStartGuide.pdf" diskSizeKB="1285.835" downloadSizeKB="1285.835"/>
+  <assets version="0.1" path="/ffd/kits/cp2102n-miniek/CP2102N-MINIEK-UserGuide.pdf" diskSizeKB="1065.081" downloadSizeKB="1065.081"/>
+  <assets version="0.3" path="/ffd/kits/cp2112-ek/CP2112-EK-UserGuide.pdf" diskSizeKB="1877.363" downloadSizeKB="1877.363"/>
+  <assets version="0.3" path="/ffd/kits/cp2112-ek/CP2112-EK-QS-Guide.pdf" diskSizeKB="472.086" downloadSizeKB="472.086"/>
+  <assets path="/ffd/xpress_configurator/cp2112.zip" diskSizeKB="1598.605" downloadSizeKB="628.158" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2110.zip" diskSizeKB="1613.1" downloadSizeKB="606.928" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2109.zip" diskSizeKB="141.767" downloadSizeKB="13.875" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2130.zip" diskSizeKB="1302.511" downloadSizeKB="462.608" directory="true"/>
+  <assets path="/ffd/xpress_configurator/docs.zip" diskSizeKB="33.354" downloadSizeKB="13.125" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2103.zip" diskSizeKB="241.993" downloadSizeKB="20.992" directory="true"/>
+  <assets path="/ffd/xpress_configurator/wgx.zip" diskSizeKB="6676.848" downloadSizeKB="4365.578" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2114.zip" diskSizeKB="251.406" downloadSizeKB="29.943" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2102.zip" diskSizeKB="206.657" downloadSizeKB="18.938" directory="true"/>
+  <assets path="/ffd/xpress_configurator/Common.zip" diskSizeKB="1897.768" downloadSizeKB="607.997" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2102n.zip" diskSizeKB="1341.903" downloadSizeKB="136.257" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2615.zip" diskSizeKB="5736.573" downloadSizeKB="1842.007" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2101.zip" diskSizeKB="54.374" downloadSizeKB="8.952" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2105.zip" diskSizeKB="170.359" downloadSizeKB="21.295" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2108.zip" diskSizeKB="493.624" downloadSizeKB="31.617" directory="true"/>
+  <assets path="/ffd/xpress_configurator/bgx.zip" diskSizeKB="8291.523" downloadSizeKB="6196.81" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cpt212b.zip" diskSizeKB="114.241" downloadSizeKB="15.508" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp210x_base.zip" diskSizeKB="2135.503" downloadSizeKB="638.916" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cp2104.zip" diskSizeKB="111.231" downloadSizeKB="14.923" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cpt_base.zip" diskSizeKB="4.096" downloadSizeKB="0.158" directory="true"/>
+  <assets path="/ffd/xpress_configurator/wgx/docs/site.zip" diskSizeKB="6631.236" downloadSizeKB="4353.009" directory="true"/>
+  <assets path="/ffd/xpress_configurator/test_device.zip" diskSizeKB="16.403" downloadSizeKB="4.511" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cpt007b.zip" diskSizeKB="90.987" downloadSizeKB="12.99" directory="true"/>
+  <assets path="/ffd/xpress_configurator/bgx/docs/bgx-site.zip" diskSizeKB="2310.798" downloadSizeKB="1530.388" directory="true"/>
+  <assets path="/ffd/xpress_configurator/bgx/docs/bgx13-site.zip" diskSizeKB="2310.914" downloadSizeKB="1530.582" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cpt112s.zip" diskSizeKB="140.159" downloadSizeKB="19.854" directory="true"/>
+  <assets path="/ffd/xpress_configurator/cpt213b.zip" diskSizeKB="95.921" downloadSizeKB="12.017" directory="true"/>
+  <assets path="/ffd/xpress_configurator/silabs.zip" diskSizeKB="200.383" downloadSizeKB="46.95" directory="true"/>
+  <assets version="1.1" path="/ffd/datasheet/CP2108.pdf" diskSizeKB="1782.234" downloadSizeKB="1782.234"/>
+  <assets version="0.5" path="/ffd/datasheet/BGX13P-DataSheet.pdf" diskSizeKB="2069.783" downloadSizeKB="2069.783"/>
+  <assets version="1.0" path="/ffd/datasheet/CP2103.pdf" diskSizeKB="1667.88" downloadSizeKB="1667.88"/>
+  <assets version="0.2" path="/ffd/datasheet/CPT007B_DataSheet.pdf" diskSizeKB="897.428" downloadSizeKB="897.428"/>
+  <assets version="1.0" path="/ffd/datasheet/AMW007-DataSheet.pdf" diskSizeKB="1725.415" downloadSizeKB="1725.415"/>
+  <assets version="1.2" path="/ffd/datasheet/CP2110.pdf" diskSizeKB="1730.728" downloadSizeKB="1730.728"/>
+  <assets version="1.2" path="/ffd/datasheet/CP2102N_DataSheet.pdf" diskSizeKB="976.767" downloadSizeKB="976.767"/>
+  <assets version="1.0" path="/ffd/datasheet/CP2105-Chinese.pdf" diskSizeKB="1812.988" downloadSizeKB="1812.988"/>
+  <assets version="1.1" path="/ffd/datasheet/CPT213B_DataSheet.pdf" diskSizeKB="829.891" downloadSizeKB="829.891"/>
+  <assets version="0.5" path="/ffd/datasheet/BGX13S-DataSheet.pdf" diskSizeKB="2158.178" downloadSizeKB="2158.178"/>
+  <assets version="0.7" path="/ffd/datasheet/CP2130.pdf" diskSizeKB="1811.964" downloadSizeKB="1811.964"/>
+  <assets version="1.1" path="/ffd/datasheet/CP2615-DataSheet.pdf" diskSizeKB="960.977" downloadSizeKB="960.977"/>
+  <assets version="1.2" path="/ffd/datasheet/CP2114.pdf" diskSizeKB="9670.489" downloadSizeKB="9670.489"/>
+  <assets version="1.2" path="/ffd/datasheet/CP2104.pdf" diskSizeKB="2067.999" downloadSizeKB="2067.999"/>
+  <assets version="1.0" path="/ffd/datasheet/CP2104-JA-JP.pdf" diskSizeKB="1855.94" downloadSizeKB="1855.94"/>
+  <assets version="1.2" path="/ffd/datasheet/CP2112.pdf" diskSizeKB="1663.012" downloadSizeKB="1663.012"/>
+  <assets version="1.2" path="/ffd/datasheet/CP2110-Chinese.pdf" diskSizeKB="2017.579" downloadSizeKB="2017.579"/>
+  <assets version="1.1" path="/ffd/datasheet/CP2105.pdf" diskSizeKB="1760.067" downloadSizeKB="1760.067"/>
+  <assets version="1.8" path="/ffd/datasheet/CP2101.pdf" diskSizeKB="1835.527" downloadSizeKB="1835.527"/>
+  <assets version="1.2" path="/ffd/datasheet/CP2112-Chinese.pdf" diskSizeKB="1953.277" downloadSizeKB="1953.277"/>
+  <assets version="0.2" path="/ffd/datasheet/CPT112S_DataSheet.pdf" diskSizeKB="902.845" downloadSizeKB="902.845"/>
+  <assets version="1.1" path="/ffd/datasheet/CPT212B_DataSheet.pdf" diskSizeKB="922.657" downloadSizeKB="922.657"/>
+  <assets version="1.8" path="/ffd/datasheet/CP2102-9.pdf" diskSizeKB="2172.8" downloadSizeKB="2172.8"/>
+  <assets version="1.0" path="/ffd/datasheet/CP2104-Chinese.pdf" diskSizeKB="1835.622" downloadSizeKB="1835.622"/>
+  <assets path="/ffd/boards/cp2104-miniek/cp2104-mini-board.jpg" diskSizeKB="23.428" downloadSizeKB="23.428"/>
+  <assets path="/ffd/boards/cp2102-ek/cp2102-evb.jpg" diskSizeKB="22.095" downloadSizeKB="22.095"/>
+  <assets path="/ffd/boards/cp2105-ek/cp2105ek-board.jpg" diskSizeKB="32.936" downloadSizeKB="32.936"/>
+  <assets path="/ffd/boards/BRD8024/BRD8024A-A01-schematic.pdf" diskSizeKB="164.408" downloadSizeKB="164.408"/>
+  <assets path="/ffd/boards/BRD8024/PCB8024A-A01-altium-design.zip" diskSizeKB="1868.837" downloadSizeKB="1868.837"/>
+  <assets path="/ffd/boards/BRD8024/PCB8024A-A01-gerbers.zip" diskSizeKB="468.701" downloadSizeKB="468.701"/>
+  <assets path="/ffd/boards/BRD8024/BRD8024A-A01-bom.xlsx" diskSizeKB="12.576" downloadSizeKB="12.576"/>
+  <assets path="/ffd/boards/BRD8024/PCB8024-A01-assy-draw.pdf" diskSizeKB="68.852" downloadSizeKB="68.852"/>
+  <assets version="2.2" path="/ffd/boards/cp2102n-eb/CP2102N-EB-SCH.pdf" diskSizeKB="475.635" downloadSizeKB="475.635"/>
+  <assets version="2.2" path="/ffd/boards/cp2102n-eb/CP2102N-EB-BOM.pdf" diskSizeKB="184.905" downloadSizeKB="184.905"/>
+  <assets path="/ffd/boards/cp2102n-eb/cp2102n-evb.png" diskSizeKB="27.367" downloadSizeKB="27.367"/>
+  <assets version="\2.0" path="/ffd/boards/cp2615-ek/cp2615-usb-to-i2s-bridge-evb-layout.pdf" diskSizeKB="761.314" downloadSizeKB="761.314"/>
+  <assets path="/ffd/boards/cp2615-ek/cp2615-ek-evb.png" diskSizeKB="715.238" downloadSizeKB="715.238"/>
+  <assets version="1.0" path="/ffd/boards/cp2615-ek/cp2615-usb-to-i2s-bridge-evb-bom.pdf" diskSizeKB="233.615" downloadSizeKB="233.615"/>
+  <assets version="1.0" path="/ffd/boards/cp2615-ek/cp2615-usb-to-i2s-bridge-evb-sch.pdf" diskSizeKB="131.844" downloadSizeKB="131.844"/>
+  <assets path="/ffd/boards/cp2108-ek/cp2108ek-board.jpg" diskSizeKB="38.958" downloadSizeKB="38.958"/>
+  <assets path="/ffd/boards/cp2110-ek/cp2110ek-board.jpg" diskSizeKB="22.041" downloadSizeKB="22.041"/>
+  <assets path="/ffd/boards/BRD8027/PCB8027-A01-assy-draw.pdf" diskSizeKB="69.536" downloadSizeKB="69.536"/>
+  <assets path="/ffd/boards/BRD8027/PCB8027A-A01-gerbers.zip" diskSizeKB="458.302" downloadSizeKB="458.302"/>
+  <assets path="/ffd/boards/BRD8027/PCB8027A-A01-altium-design.zip" diskSizeKB="2055.502" downloadSizeKB="2055.502"/>
+  <assets path="/ffd/boards/BRD8027/BRD8027A-A01-bom.xlsx" diskSizeKB="12.498" downloadSizeKB="12.498"/>
+  <assets path="/ffd/boards/BRD8027/BRD8027A-A01-schematic.pdf" diskSizeKB="160.743" downloadSizeKB="160.743"/>
+  <assets path="/ffd/boards/cp2102n-minieb/cp2102n-mini-board.png" diskSizeKB="536.824" downloadSizeKB="536.824"/>
+  <assets version="0.0" path="/ffd/boards/cp2102n-minieb/CP2102N-MINIEB-BOM.xls" diskSizeKB="19.968" downloadSizeKB="19.968"/>
+  <assets version="0.0" path="/ffd/boards/cp2102n-minieb/CP2102N-MINIEB-SCH.pdf" diskSizeKB="86.806" downloadSizeKB="86.806"/>
+  <assets path="/ffd/boards/cp2130-ek/cp2130ek-board.jpg" diskSizeKB="54.463" downloadSizeKB="54.463"/>
+  <assets path="/ffd/boards/cp2104-ek/cp2104ek-board.jpg" diskSizeKB="22.285" downloadSizeKB="22.285"/>
+  <assets path="/ffd/boards/cp2103-ek/cp2103ek-board.jpg" diskSizeKB="27.329" downloadSizeKB="27.329"/>
+  <assets path="/ffd/boards/cp2112-ek/cp2112ek-board.jpg" diskSizeKB="22.89" downloadSizeKB="22.89"/>
+</assets>

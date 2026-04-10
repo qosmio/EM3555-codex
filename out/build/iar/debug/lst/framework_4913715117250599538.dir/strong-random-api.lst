@@ -1,0 +1,241 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.70.2.500/W64 for ARM         09/Apr/2026  01:53:17
+# Copyright 1999-2025 IAR Systems AB.
+#
+#    Cpu mode          =  thumb
+#    Endian            =  little
+#    Source file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\framework\strong-random-api.c
+#    Command line      =
+#        --silent -f
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\strong-random-api.o.rsp
+#        (Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\framework\strong-random-api.c
+#        -D CORTEXM3 -D CORTEXM3_EMBER_MICRO -D CORTEXM3_EM3555 -D USE_SIMEE2
+#        -D PHY_EM3XX -D HAL_MICRO -D
+#        "BOARD_HEADER=\"platform/base/hal/micro/cortexm3/em35x/board/dev0680_em3555_sc3.h\""
+#        -D "PLATFORM_HEADER=\"hal/micro/cortexm3/compiler/iar.h\"" -D
+#        "APPLICATION_TOKEN_HEADER=\"config/app-tokens.h\"" -D
+#        "GENERATED_TOKEN_HEADER=\"autogen/em3555-rgbw_tokens.h\"" -D
+#        "ATTRIBUTE_STORAGE_CONFIGURATION=\"autogen/em3555-rgbw_endpoint_config.h\""
+#        -D "ZA_GENERATED_HEADER=\"autogen/em3555-rgbw.h\"" -D
+#        "CONFIGURATION_HEADER=\"app/framework/util/config.h\"" -D
+#        EMBER_APPLICATION_HAS_MAC_FILTER_MATCH_MESSAGE_HANDLER -D
+#        "__SOURCEFILE__=\"strong-random-api.c\"" -lC
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir
+#        --diag_suppress Pa050 -o
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir
+#        --no_unroll --no_inline --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M3 --no_path_in_file_macros
+#        --separate_cluster_for_initialized_variables --fpu=None --dlib_config
+#        C:\iar\ewarm-9.70.2\arm\inc\c\DLib_Config_Normal.h -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\framework\
+#        -I Z:\Users\macbook\Documents\code\silabs\EM3555\iar\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/..\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../autogen\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../config\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../include\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../src\ -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/framework/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/stack/include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/app/util\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/base/hal/micro/cortexm3/em35x\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/CMSIS/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/common/inc\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/Device/SiliconLabs/em355x/Include\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/mac\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/common\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/platform/radio/rail_lib/plugin/coexistence/hal/em3xx\
+#        -I
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\iar/../build/legacy-zigbee-stack/util/silicon_labs/silabs_core\
+#        -Om --use_c++_inline -e) --dependencies=n
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\strong-random-api.o.iar_deps
+#        --dynamic_output
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\strong-random-api.o.iar_dynout
+#    Locale            =  C
+#    List file         =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\lst\framework_4913715117250599538.dir\strong-random-api.lst
+#    Object file       =
+#        Z:\Users\macbook\Documents\code\silabs\EM3555\build\iar\debug\obj\framework_4913715117250599538.dir\strong-random-api.o
+#    Runtime model:       
+#      __CPP_Runtime   =  1
+#      __SystemLibrary =  DLib
+#      __dlib_version  =  6
+#
+###############################################################################
+
+Z:\Users\macbook\Documents\code\silabs\EM3555\build\legacy-zigbee-stack\stack\framework\strong-random-api.c
+      1          /***************************************************************************//**
+      2           * @file
+      3           * @brief EmberZNet APIs for pseudo and true random number generation.
+      4           *******************************************************************************
+      5           * # License
+      6           * <b>Copyright 2018 Silicon Laboratories Inc. www.silabs.com</b>
+      7           *******************************************************************************
+      8           *
+      9           * The licensor of this software is Silicon Laboratories Inc. Your use of this
+     10           * software is governed by the terms of Silicon Labs Master Software License
+     11           * Agreement (MSLA) available at
+     12           * www.silabs.com/about-us/legal/master-software-license-agreement. This
+     13           * software is distributed to you in Source Code format and is governed by the
+     14           * sections of the MSLA applicable to Source Code.
+     15           *
+     16           ******************************************************************************/
+     17          
+     18          #ifdef PLATFORM_HEADER
+     19            #include PLATFORM_HEADER
+     20          #endif
+     21          
+     22          #include "include/ember.h"
+     23          #include "hal/hal.h"
+     24          #include "include/error.h"
+     25          
+     26          #if defined(MBEDTLS_CONFIG_FILE)
+     27          #include MBEDTLS_CONFIG_FILE
+     28          #endif
+     29          
+     30          #if defined(USE_MBEDTLS_API_FOR_TRNG)
+     31          #include "mbedtls/entropy.h"
+     32          #include "mbedtls/entropy_poll.h"
+     33          #include "mbedtls/ctr_drbg.h"
+     34          
+     35          static mbedtls_entropy_context entropyCtx;
+     36          static bool mbedtlsCtrDrbgInit = false;
+     37          static mbedtls_ctr_drbg_context drbgCtx;
+     38          
+     39          #else // defined(USE_MBEDTLS_API_FOR_TRNG)
+     40          extern bool emRadioGetRandomNumbers(uint16_t *randomNumber, uint8_t count);
+     41          #endif // defined(USE_MBEDTLS_API_FOR_TRNG)
+     42          
+
+   \                                 In section .text, align 2, keep-with-next
+     43          EmberStatus emberGetStrongRandomNumberArray(uint16_t *randomNumber, uint8_t count)
+     44          {
+   \                     emberGetStrongRandomNumberArray: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+     45          #if defined(USE_MBEDTLS_API_FOR_TRNG)
+     46            int mbedtlsStatus;
+     47            // Initialize mbedTLS RNG module for random number generation
+     48            if (!mbedtlsCtrDrbgInit) {
+     49              mbedtls_entropy_init(&entropyCtx);
+     50              mbedtls_ctr_drbg_init(&drbgCtx);
+     51              mbedtlsStatus = mbedtls_ctr_drbg_seed(&drbgCtx, mbedtls_entropy_func, &entropyCtx, NULL, 0);
+     52              if (mbedtlsStatus != 0) {
+     53                return EMBER_INSUFFICIENT_RANDOM_DATA;
+     54              }
+     55              mbedtlsCtrDrbgInit = true;
+     56            }
+     57          
+     58            // Get random numbers, lenght is in unsigned char blocks, making it uint16_t
+     59            mbedtlsStatus = mbedtls_ctr_drbg_random(&drbgCtx, (unsigned char *)randomNumber, 2 * count);
+     60          
+     61            if (mbedtlsStatus != 0) {
+     62          #else // defined(USE_MBEDTLS_API_FOR_TRNG)
+     63            // Get random numbers from the radio API
+     64            if (!emRadioGetRandomNumbers(randomNumber, count)) {
+   \        0x2   0x.... 0x....      BL       emRadioGetRandomNumbers
+   \        0x6   0x2800             CMP      R0,#+0
+   \        0x8   0xD101             BNE.N    ??emberGetStrongRandomNumberArray_0
+     65          #endif // defined(USE_MBEDTLS_API_FOR_TRNG)
+     66              return EMBER_INSUFFICIENT_RANDOM_DATA;
+   \        0xA   0x20A5             MOVS     R0,#+165
+   \        0xC   0xBD02             POP      {R1,PC}
+     67            }
+     68          
+     69            return EMBER_SUCCESS;
+   \                     ??emberGetStrongRandomNumberArray_0: (+1)
+   \        0xE   0x2000             MOVS     R0,#+0
+   \       0x10   0xBD02             POP      {R1,PC}
+     70          }
+     71          
+
+   \                                 In section .text, align 2, keep-with-next
+     72          EmberEntropySource emberGetStrongRandomEntropySource()
+     73          {
+     74          #if defined(USE_MBEDTLS_API_FOR_TRNG)
+     75            if (!mbedtlsCtrDrbgInit) {
+     76              uint16_t rnd;
+     77              // Get a random number to initialize the CtrDrbg module as well as the entropy source.
+     78              if (EMBER_INSUFFICIENT_RANDOM_DATA == emberGetStrongRandomNumber(&rnd)) {
+     79                return EMBER_ENTROPY_SOURCE_ERROR;
+     80              }
+     81            }
+     82          
+     83            // Test the entropy source for any failures.
+     84            // Note: mbedtls_entropy_source_self_test returns 0 on success.
+     85            // TODO: commented out as this guy refers to putchar even if verbose is set to 0 for some reason...
+     86            // if (mbedtls_entropy_source_self_test(0)) {
+     87            //   return EMBER_ENTROPY_SOURCE_ERROR;
+     88            // }
+     89          
+     90          #if defined(MBEDTLS_ENTROPY_HARDWARE_ALT)
+     91            // Look for TRNG as a registered entropy source
+     92            uint8_t i = entropyCtx.source_count;
+     93            while (i--) {
+     94              if (entropyCtx.source[i].f_source == (mbedtls_entropy_f_source_ptr)mbedtls_hardware_poll) {
+     95                return EMBER_ENTROPY_SOURCE_MBEDTLS_TRNG;
+     96              }
+     97            }
+     98          #endif // defined(MBEDTLS_ENTROPY_HARDWARE_ALT)
+     99            return EMBER_ENTROPY_SOURCE_MBEDTLS;
+    100          
+    101          #else // defined(USE_MBEDTLS_API_FOR_TRNG)
+    102            return EMBER_ENTROPY_SOURCE_RADIO;
+   \                     emberGetStrongRandomEntropySource: (+1)
+   \        0x0   0x2001             MOVS     R0,#+1
+   \        0x2   0x4770             BX       LR
+    103          #endif // defined(USE_MBEDTLS_API_FOR_TRNG)
+    104          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   emberGetStrongRandomEntropySource
+       8   emberGetStrongRandomNumberArray
+         8   -> emRadioGetRandomNumbers
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  emberGetStrongRandomEntropySource
+      18  emberGetStrongRandomNumberArray
+
+ 
+ 22 bytes in section .text
+ 
+ 22 bytes of CODE memory
+
+Errors: none
+Warnings: none
