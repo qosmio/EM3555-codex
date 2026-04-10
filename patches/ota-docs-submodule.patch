@@ -1,0 +1,88 @@
+diff --git a/README.md b/README.md
+index 43e63ae..ad9b6b5 100644
+--- a/README.md
++++ b/README.md
+@@ -224,9 +224,10 @@ Zigbee2MQTT-style control:
+ - Manufacturer code: `0x110C`
+ 
+ Known parity gaps versus the public Zigbee2MQTT page for `4052899926110` are
+-tracked in [`docs/user-guide.md`](docs/user-guide.md). The current firmware does
+-not yet implement OTA updates, Zigbee2MQTT `effect` support, Touchlink, or the
+-full move/step helper matrix used by some modern frontends.
++tracked in [`docs/user-guide.md`](docs/user-guide.md). OTA is implemented as a
++client role (no OTA server role), and Zigbee2MQTT identify/colorloop effects
++are implemented. Remaining major gaps include Touchlink support and the full
++move/step helper matrix used by some modern frontends.
+ 
+ ## Helper commands
+ 
+diff --git a/docs/user-guide.md b/docs/user-guide.md
+index 6f07117..e288953 100644
+--- a/docs/user-guide.md
++++ b/docs/user-guide.md
+@@ -302,8 +302,8 @@ Current parity summary:
+ | `remember_state` | Yes | Through OSRAM vendor cluster `0xFC0F` |
+ | replacement reset timing | Yes | `5` power cycles, each on-time `500..1000 ms`, then leave powered |
+ | stock reset timing notes | No | Stock Zigbee2MQTT timing note is not reproduced |
+-| `effect` | No | Not implemented |
+-| OTA updates | No | Not implemented |
++| `effect` | Yes | Identify and colorloop effects are implemented |
++| OTA updates | Yes (client) | OTA server role is not implemented |
+ | Touchlink | No | Not configured or implemented |
+ | full move/step helper matrix | Partial | Step support exists for level; most move helpers are not implemented |
+ | on-with-timed-off behavior | No | Not implemented |
+@@ -476,5 +476,5 @@ stacks:
+ ## Document Scope
+ 
+ This guide documents the replacement firmware as implemented in this repository
+-on April 1, 2026. If the firmware later gains OTA support, effect support, or a
+-different reset workflow, this guide should be updated with the new behavior.
++on April 10, 2026. If the firmware later changes OTA, effects, or reset
++behavior, this guide should be updated with the new behavior.
+diff --git a/patches/ota-docs.patch b/patches/ota-docs.patch
+new file mode 100644
+index 0000000..5aab291
+--- /dev/null
++++ b/patches/ota-docs.patch
+@@ -0,0 +1,41 @@
++diff --git a/README.md b/README.md
++index 43e63ae..ad9b6b5 100644
++--- a/README.md
+++++ b/README.md
++@@ -224,9 +224,10 @@ Zigbee2MQTT-style control:
++ - Manufacturer code: `0x110C`
++ 
++ Known parity gaps versus the public Zigbee2MQTT page for `4052899926110` are
++-tracked in [`docs/user-guide.md`](docs/user-guide.md). The current firmware does
++-not yet implement OTA updates, Zigbee2MQTT `effect` support, Touchlink, or the
++-full move/step helper matrix used by some modern frontends.
+++tracked in [`docs/user-guide.md`](docs/user-guide.md). OTA is implemented as a
+++client role (no OTA server role), and Zigbee2MQTT identify/colorloop effects
+++are implemented. Remaining major gaps include Touchlink support and the full
+++move/step helper matrix used by some modern frontends.
++ 
++ ## Helper commands
++ 
++diff --git a/docs/user-guide.md b/docs/user-guide.md
++index 6f07117..e288953 100644
++--- a/docs/user-guide.md
+++++ b/docs/user-guide.md
++@@ -302,8 +302,8 @@ Current parity summary:
++ | `remember_state` | Yes | Through OSRAM vendor cluster `0xFC0F` |
++ | replacement reset timing | Yes | `5` power cycles, each on-time `500..1000 ms`, then leave powered |
++ | stock reset timing notes | No | Stock Zigbee2MQTT timing note is not reproduced |
++-| `effect` | No | Not implemented |
++-| OTA updates | No | Not implemented |
+++| `effect` | Yes | Identify and colorloop effects are implemented |
+++| OTA updates | Yes (client) | OTA server role is not implemented |
++ | Touchlink | No | Not configured or implemented |
++ | full move/step helper matrix | Partial | Step support exists for level; most move helpers are not implemented |
++ | on-with-timed-off behavior | No | Not implemented |
++@@ -476,5 +476,5 @@ stacks:
++ ## Document Scope
++ 
++ This guide documents the replacement firmware as implemented in this repository
++-on April 1, 2026. If the firmware later gains OTA support, effect support, or a
++-different reset workflow, this guide should be updated with the new behavior.
+++on April 10, 2026. If the firmware later changes OTA, effects, or reset
+++behavior, this guide should be updated with the new behavior.
